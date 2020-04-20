@@ -1,5 +1,4 @@
 > **__Abilities__**
-.tag:abilities
 
 <:Sunshine:583430011948630016> <:ds:535541258924326912> **Sunshine/Death Swiftness**
 ⬥ Unlocked upon completion of The World Wakes
@@ -10,14 +9,14 @@
 ⬥ Almost always used in a conjuction with a planted feet switch. This makes them last 37 seconds as opposed to 30 seconds, and it removes their DoT effect
 ⬥ Priority: `High`
 _ _
-.
+.tag:sun
 <:corruptblast:513190159194259467> <:corruptshot:535541306294796299>  **Corruption Blast/Shot**
 ⬥ Unlocked using a Mazcab Codex
 ⬥ A bleed ability, and a good basic. 100%-300% abil damage over the course of the bleed
 ⬥ Each bleed hit is weaker than the last, it is also AoE, it can chain to other mobs without giving you aggro
 ⬥ Priority: `High`
 _ _
-.
+.tag:corrupt
 <:bd:535532854281764884> **Bladed Dive**
 ⬥ Unlocked as a reward from Shattered Worlds
 ⬥ A great mobility ability, has a 10 tile range from your current position at any angle
@@ -25,7 +24,7 @@ _ _
 ⬥ Also is an AoE ability when used off GCD, goes from 3x3 to 5x5 when stacked with scythe and laceration boots
 ⬥ Priority: `High`
 _ _
-.
+.tag:bd
 <:mds:535541259033378827> <:stw:535541259109138463> **Greater Dazing Shot/Salt the Wound**
 ⬥ Unlocked as a reward from Shattered Worlds
 ⬥ Both abilities are unlocked together
@@ -34,14 +33,14 @@ _ _
 ⬥ Gives Dazing Shot a puncture stack each time it is used, max 10
 ⬥ Stacks last 9 seconds and hit 4 times, dealing 5.8-7.2% abil damage per stack over its duration.
       • Note: Salt the Wound and MDS both reset the stack duration (9 seconds) even if they splash, only MDS will increase puncture count though
-      • Note: Puncture bleed does not count for AS building; SS; Araxxor reflect (mirrorbacks do though); personal damage multipliers like scrims; combat exp; personal damage on gems and Nex's blood phase        
+      • Note: Puncture bleed does not count for AS building; SS; Araxxor reflect (mirrorbacks do though); personal damage multipliers like scrims; combat exp; personal damage on gems and Nex's blood phase 
 ⬥ Salt the Wound
 ⬥ A threshold that deals 37.6-188% abil damage at 0 puncture stacks going up to 73.6-368% with max Puncture stacks
 ⬥ Generally never used
 
 ⬥ Priority: `Medium`
 _ _
-.
+.tag:gds
 <:devo:513190158728953857> **Devotion**
 ⬥ Chance to unlock after killing Kree'arra, General Graardor, or their followers in their respective encampments
 ⬥ Alternatively can be unlocked as a reward from Anima Islands
@@ -49,14 +48,14 @@ _ _
 ⬥ Effect extends by 5 seconds per target killed whilst active, capping at 20 seconds
 ⬥ Priority: `High`
 _ _
-.
+.tag:devo
 <:Sacrifice:513201065907322880> **Sacrifice**
 ⬥ Same as Devotion
 ⬥ a 20-100% abil damage basic
       • Heals 25% of damage done, 100% if it killed target
 ⬥ Priority: `Low`
 _ _
-.
+.tag:sac
 <:Tuskas:513201065513058306> **Tuska's Wrath**
 ⬥ Unlocked as a reward from Anima Islands
 ⬥ When on slayer task, you deal 100 x Slayer level to target assuming it is the monster you are assigned with a 15k damage cap. This gives it a 120 second CD.
@@ -65,13 +64,13 @@ _ _
 ⬥ Generally only used as a filler ability if you mess up your rotation, should not be a regular part of your rotation.
 ⬥ Priority: `Low generally, Higher if you are going to slay`
 _ _
-.
+.tag:tuska
 <:onsl:513190159085207555> **Onslaught**
 ⬥ Unlocked using a Mazcab Codex
 ⬥ An ability that deals 50-150% damage at first, with each hit increasing by 11-33% per hit. At first it uses 25% adren per hit, afterwards it takes life points dealing 25% of the damage you dealt as recoil. After 10 hits the damage against you starts increasing by 1k per hit (e.g. at 12 hits you will take +2k damage + the recoil)
 ⬥ Priority: `High if you can use it somewhere, Low otherwise`
 _ _
-.
+.tag:onsl
 <:Shard:583429757975396366> <:Shatter:583429757761224715> **Storm Shards/Shatter**
 ⬥ Unlocked using a Mazcab Codex
 
@@ -86,7 +85,7 @@ _ _
     
 ⬥ Priority: `High for something like Vorago, Low otherwise`
 _ _
-.
+.tag:shards
 <:limitless:641339233638023179> **Limitless**
 ⬥ Unlocked using a Limitless ability codex
 ⬥ An ability that allows the usage of thresholds under 50% adrenaline for 6 seconds
@@ -94,13 +93,13 @@ _ _
 ⬥ Generally used when your Adrenaline potion is on cooldown or if you need to squeeze in extra thresholds in a short timeframe
 ⬥ Priority: `High`
 _ _
-.
+.tag:limitless
 <:ingen:641339234111848463> **Ingenuinty of the Humans**
 ⬥ Unlocked using a Ingenuity of the Humans ability codex
 ⬥ An ability the guarantees your next attack within 6 seconds hits.
 ⬥ Priority: `High`
 _ _
-.
+.tag:ingen
 <:undeadslayer:641339922019516416> <:dragonslayer:641339921814126594> <:demonslayer:641339921675845633> **__X__ Slayers**
 ⬥ Unlocked using a __X__ Slayer ability codex
 ⬥ There is one for Dragons, Undead and Demons
@@ -108,7 +107,7 @@ _ _
 ⬥ Generally used when you are going to use strong abilities against said creature
 ⬥ Priority: `High if you can use it, Low otherwise`
 _ _
-.
+.tag:slayer
 <:surgecodex:602561894414417944> **Double Surge**
 ⬥ Unlocked using a Double Surge codex
 ⬥ Gives Surge 2 uses per CD cycle, these can both grant adrenaline if both are used off GCD
@@ -117,7 +116,7 @@ _ _
 ⬥ Generally just used for mobility, overall a QOL unlocked
 ⬥ Priority: `Medium`
 _ _
-.
+.tag:dblsurge
 <:escapecodex:602561894443778115> **Double Escape**
 ⬥ Unlocked using a Double Escape codex
 ⬥ Gives escape 2 uses per CD cycle, these can both grant adrenaline if both are used off GCD
@@ -126,7 +125,7 @@ _ _
 ⬥ Generally just used for mobility, overall a QOL unlocked
 ⬥ Priority: `Medium`
 _ _
-.
+.tag:dblescape
 <:Reprisal:513190159462694912> **Reprisal**
 ⬥ Unlocked using a Reprisal Ability Codex
 ⬥ When activated it tracks all damage taken from all sources for up to 6 seconds (can release early by clicking it again) with a damage cap of 10k
@@ -135,14 +134,14 @@ _ _
 ⬥ Generally used when you are going to take a large amount of damage at once, like Vorago's TS attack
 ⬥ Priority: `High if you do something like Vorago, Low otherwise`
 _ _
-.
+.tag:reprisal
 <:gbarge:535532879250456578> **Greater Barge**
 ⬥ Unlocked using a Greater Barge ability codex
 ⬥ Works like normal barge, except, each tick the player is not damaging an enemy barge gains +10% ability damage capping at 10 ticks. Additionally, if it has been atleast 4.8s (8 ticks) since you have last hit a target using barge will allow you to turn a channeled ability used within the next 6s (10 ticks) into a DoT
 ⬥ Generally used within Zerk combined with Apot or Limitless, as well as Zgs spec
 ⬥ Priority: `High`
 _ _
-.
+.tag:gbarge
 <:gflurry:535532879283879977> **Greater Flurry**
 ⬥ Unlocked using a Greater Flurry ability codex
 ⬥ When used against a single target it deals 94-157% damage per hit and reduces Berserk CD by 1.2s per successful hit up to a max of 4.8s reduction
@@ -151,13 +150,31 @@ _ _
 ⬥ Generally used by cancelling after 2 hits (cancelled on GCD) or 3 hits, depends on rotation
 ⬥ Priority: `Medium`
 _ _
-.
+.tag:gflurry
 <:gfury:535532879334080527> **Greater Fury**
 ⬥ Unlocked using a Greater Fury ability codex
 ⬥ Turns fury into a non-channeled 157% ability, as well as giving it the ability to guarantee your next hit is a critical hit if fury had been a critical hit.
        • Note: Can be worse than normal fury, but marginally assuming no grim. With grim it is usually better
 ⬥ Priority: `Medium`
-.
+.tag:gfury
 > **__Table of Contents__**
-⬥ **Abilities** - $linkmsg_abilities$
+⬥ **Sunshine/Death's Swiftness** - $linkmsg_sun$
+⬥ **Corruption Blast/Shot** - $linkmsg_corrupt$
+⬥ **Bladed Dive** - $linkmsg_bd$
+⬥ **Greater Dazing Shot/Salt the Wound** - $linkmsg_gds$
+⬥ **Devotion** - $linkmsg_devo$
+⬥ **Sacrifice** - $linkmsg_sac$
+⬥ **Tuska's Wrath** - $linkmsg_tuska$
+⬥ **Onslaught** - $linkmsg_onsl$
+⬥ **Storm Shards/Shatter** - $linkmsg_shards$
+.
+⬥ **Limitless** - $linkmsg_limitless$
+⬥ **Ingenuity of the Humans** - $linkmsg_ingen$
+⬥ **__X__ Slayer** - $linkmsg_slayer$
+⬥ **Double Surge** - $linkmsg_dblsurge$
+⬥ **Double Escape** - $linkmsg_dblescape$
+⬥ **Reprisal** - $linkmsg_reprisal$
+⬥ **Greater Barge** - $linkmsg_gbarge$
+⬥ **Greater Flurry** - $linkmsg_gflurry$
+⬥ **Greater Fury** - $linkmsg_gfury$
 .pin:
