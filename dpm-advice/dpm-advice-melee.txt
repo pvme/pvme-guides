@@ -292,7 +292,7 @@ __Notes on gBarge__
 The 'bleed' from gBarge is not a true bleed. There are several ramifications of this:
   1) Multiple people can stack a gBarge 'bleed' on the same target and they will not override each other. 
   2) Equipping a different tier weapon *after* you apply the bleed will change the bleed's damage according to the latter weapon tier. For example, if you apply the gBarge bleed with Drygores (t90) equipped, then switch to ZGS (t92) the damage will be calculated as a t92 weapon.
-    2.1) If the switched weapon has a special effect against a target, the effect can activate *after* the bleed is applied from a different weapon. For example, apply a gBarge bleed with Drygores then switching to a Terrasaur Maul<:terramaul:602561894829522954> will apply its special buff against Ranged monsters during its bleed calculations.
+    2.1) If the initial weapon has a special effect against a target, the effect can activate *after* you switch to another weapon. For example, apply a gBarge bleed with Terrasaur Maul<:terramaul:602561894829522954> then switching to Khopeshes will apply its special buff against Ranged monsters during its bleed calculations, to give T92 + 12.5% damage, rather than T80 + 12.5%.
   3) During Yakamaru's Stun Pool, mbarging a Destroy ability will still apply its stun effect for the entire 4 hits. This can be a costly mistake.
     3.1) Akin to note 2, switching to a flanking weapon during the gBarge bleed effect will null the stun effect. 
   4) Normally Vorago will clear bleeds at the start of its Reflect mechanic. Since gBarge is not a true bleed, it will not clear the bleed effect. This makes it very easy to PK teammates if you have miscounted auto attacks. Use with caution at Vorago.
