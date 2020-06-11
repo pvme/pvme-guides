@@ -50,14 +50,12 @@ _ _
 Demonstration: https://youtu.be/k_IxIyoZFww
 _ _
 .
-> **__Weapon Override delaying/speeding up abilities__**
-- Certain weapon types for ranged can cause slow hitting abilities ie snap, rapid, piercing, needle, dazing etc to hit quicker depending on your distance from the target
-- Javelins cause all abilities to hit instantly 1 sq away excluding snap which is fast in md, and rapidfire which is also fast in md
-- Knives cause everything to hit fast except snapshot in melee distance
-- Darts cause everything to be fast but snapshot only fast in md 
-- Blowpipe causes all abilities to hit instantly 1 sq away, also does insta snap up to 3 sqs away, and insta ricochet/piercing up to 4 sqs away
-- You can override your dualwield/2h weapons with these weapon types allowing you to make use of their slow/insta hitting speeds
-_ _
+> __**Weapon override speeding up abilities (Courtesy of <@158293690001915904>)**__
+Certain weapon overrides for ranged can cause abilities that normally take 2 ticks to deal damage to only take 1 tick to deal damage depending on your distance from your target. These abilities include snapshot <:snap:535534127131394088>, rapid fire <:rapid:535541270521708566>, piercing shot <:piercing:535541258538450944>, dazing shot <:dazing:535541307142307860>, and ricochet <:ricochet:535541259566186521> slow abilities which are unaffected include: needle strike, binding shot, and tight bindings.
+⬥ Javelins (DW Override only mainhand required.) causes piercing and ricochet to hit fast from md-1sq away, snapshot and rapidfire are only fast in md. 
+⬥ Blowpipe (2H Override) causes dazing shot to hit fast from md-1sq away, rapid and snap are both fast from md-3sq away, and ricochet/piercing are fast from md-4sq away
+⬥ You can override your dualwield/2h weapons with these weapon types allowing you to take advantage of them causing certain abilities to hit a tick faster
+
 .tag:hitspeed
 > **__Flanking Perk Angle Determination <@!242039053841596418> __**
 If your target is facing directly north, east, south or west, flanking works only from a 90° or greater angle.
