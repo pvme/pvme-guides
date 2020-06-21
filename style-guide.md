@@ -48,7 +48,7 @@ Tagged Message
 .tag:taggedmessage
 ```
 
-To link to a previous message use `$linkmsg_tagname`.  
+To link to a previous message use `$linkmsg_tagname$`.  
 Example to link to the message in the previous block:
 ```
 A message link: $linkmsg_taggedmessage$
