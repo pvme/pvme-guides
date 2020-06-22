@@ -87,7 +87,7 @@ A message link: $linkmsg_taggedmessage$
 - The table of contents should be at the end of the guide.
 - The table of contents should be in a section titled "Table of Contents".
 - The table of contents should be pinned in the channel.
-- The messages linked in the table of contents should only like to the title of the section, not the entire message.  
+- The messages linked in the table of contents should only link to the title of the section, not the entire message.  
 ```
 > **Presets**
 .tag:presets
