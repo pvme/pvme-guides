@@ -119,6 +119,14 @@ __**Melee**__
       • Creates a 7x7 area that boosts all melee damage by 25%. Also applies a DoT to things standing in it dealing 25%-50% damage every 1.8s
 ⬥ Priority: `High`
 
+<:masterworkspearofannihilation:694566917456789554> **Masterwork Spear of Annihilation**
+⬥ Passive Effect: Increases duration of melee bleed abilities by 50%.
+      • Only affects Dismember, Slaughter, and Blood Tendrils. *Damage over time from the Greater Barge effect is not extended by this weapon.*
+      • 2 hits are added to each bleed resulting in 7 total hits.
+      • Stacks with Strength Cape perk for Dismember, resulting in 10 total hits.
+      • Interacts strangely with Blood Tendrils; Two smaller hits are added to the start of the bleed, and self damage doesn't occur until the fifth hit.
+⬥ Priority: `HIGH` 
+
 <:khopeshmh:513206794844110858> **Khopesh of Tumeken and Khopesh of Elidinis**
 ⬥ Priority: `Medium`
 _ _
@@ -155,6 +163,7 @@ _ _
 ⬥ Priority: `Low`
 _ _
 .
+**__Special Weapons__**
 <:gstaff:513203008608141314> **Guthix's Staff**
 ⬥ A t60 staff with the special attack Claws of Guthix that does the following:
       • Deals 140%-300% (220% average) ability damage
@@ -229,10 +238,12 @@ _ _
 > __**Jewellery**__
 .tag:jewellery
 <:RoD:513190159462825984> **Ring of Death**
-⬥ BiS ring statwise with the following passives:
-    • When a target is killed there is a 50% chance of gaining 1% adren per 1500 max hp of the creature up to 5% adrenaline
+⬥ BiS degradable ring statwise with the following passives:
+    • When a target is killed there is a 50% chance of gaining 1% adren per 1,500 max hp of the creature up to 5% adrenaline
     • When a player dies, instead of going to death, the ring uses 15% charge (3% when overcharged) and takes the player to the last respawn spot they visited, keeping their familiar as well
-⬥ Generally a camped ring unless you know what you are doing with ASR. Very nice for when learning content or if you have high reclaim costs
+⬥ Can be overcharged by Death for 5 cut onyx and 25 black stone hearts to increase the equipment charge from 100,000 to 500,000. An overcharged ring is denoted by an *(o)* after the name.
+⬥ Can be imbued by the Armoursmith in Mazcab for 15,000 teci, adding +2.5 to each style bonus. This results in +27.7 for each style (rounded down to +27), and is denoted by a brighter inventory icon and an *(i)* after the name.
+⬥ Generally a camped ring unless comfortable with an Asylum Surgeon's Ring. Very useful when learning content or if reclaim costs are high.
 ⬥ Priority: `High`
 _ _
 .
@@ -240,7 +251,8 @@ _ _
 ⬥ A ring with the following passives:
        • 10% chance to prevent adrenaline loss of thresholds (30s cooldown)
        • 40% chance of saving 25% of the adrenaline cost of special attacks
-⬥ Usually camped instead of RoD, or used as a switch for thresholds
+⬥ Can be imbued by the Armoursmith in Mazcab for 10,000 teci, adding +2.5 to each style bonus. This results in +23.4 for each style (rounded down to +23), and is denoted by a brighter inventory icon and an *(i)* after the name.
+⬥ Usually camped instead of Ring of Death or used as a switch for thresholds.
 ⬥ Priority: `High if you know what you are doing, Low otherwise`
 _ _
 .
@@ -253,48 +265,46 @@ _ _
 _ _
 .
 <:aos:513190158359724056> **Amulet of Souls**
-⬥ Passive: 50% chance to make SS heal 25-50% more (~18.75% increase in average healing) and increases protection prayer effectiveness by +10% for a total of 60%
+⬥ Passive: 50% chance to make Soul Split heal 25-50% more (~18.75% increase in average healing) and increases protection prayer effectiveness by an additive +10% for a total of 60% damage reduction.
 ⬥ Priority: `High`
 _ _
 .
-<:Reaper:513190159412494367> **Amulet of Reaper**
-⬥ Passive: All successful hits give a 0.1% hitchance boost for 54s since last attack, capping at 30 stacks for a 3% total increase in hitchance
+<:Reaper:513190159412494367> **Reaper Necklace**
+⬥ Passive: All successful hits give a 0.1% hitchance boost for 54s since last attack, capping at 30 stacks for a 3% total increase in hitchance.
 ⬥ Priority: `High if you need hitchance, Low otherwise`
 _ _
 .
 <:aoskit:583430147487563776> **Ornament Kits**
-⬥ Refers to Amulet of Souls and Reaper necklace
-⬥ Provides a +2 to all style bonuses on necklace
+⬥ Refers to Amulet of Souls and Reaper Necklace
+⬥ Provides a +2 to all style bonuses when combined with the base jewellery.
 ⬥ Priority: `Low`
 _ _
 .
 > **__Miscellaneous__**
 .tag:misc
 <:Cruelty:513190159546712074> Scrimshaws
-⬥ Scrimshaw of the elements
-       • adds +5% (normal) or +6.66% (superior) damage to all Magic attacks
-
-⬥ Scrimshaw of cruelty
-       • adds +5% (normal) or +6.66% (superior) damage to all Ranged attacks
-
+⬥ Scrimshaw of the Elements
+       • Adds +5% (normal) or +6.66% (superior) damage to all Magic attacks
+⬥ Scrimshaw of Cruelty
+       • Adds +5% (normal) or +6.66% (superior) damage to all Ranged attacks
 ⬥ Priority: `High`
 _ _
 .
 <:SaraBook:574290439482638346> God Books
-⬥ These books come with various effects when active, as well as a free stat buff for a pocket slot item
-⬥ Generally the only ones with usage are Armadyl books for stationary targets, Saradomin books if moving, grim usually outclasses but has a higher upkeep - also usually outclassed by scrims for mage/range
-⬥ Also generally only used when a creature has a hit cap, such as Nex, or if you do not want to spend the gp on grim upkeep
+⬥ These books come with various effects when active, as well as offering style bonuses as a pocket slot item.
+⬥ Generally the only ones with usage are Armadyl books for stationary targets and Saradomin books if moving. Erethdor's Grimoire usually outclasses them both but has a higher upkeep. They are also usually outclassed by scrims for mage/range.
+⬥ Typically only used when a creature has a hit cap, such as Nex, or if one does not want to spend the upkeep cost for a Grimoire.
 ⬥ Priority: `High if Nex, Low otherwise`
 _ _
 .
 
 <:grim:568262896375824385> **Erethdor's Grimoire**
-⬥ When activated every hit has a 12% chance to become a forced critical hit, stacking with biting for a max of 18% chance per ability. It also raises your max hit to 15k for critical hits
+⬥ When activated, every hit has a 12% chance to become a forced critical hit. This stacks with the Biting perk for a maximum of 18% chance per ability. It also raises your max hit to 15k for critical hits.
 ⬥ Priority: `High if meleeing or ranging`
 _ _
 .
 <:runepouch:583430011868938283> **Large rune pouches**
-⬥ Allows you to store 16k of 3 different runes per pouch
+⬥ Allows you to store 16k of 3 different runes per pouch.
       • Can have more than one pouch
       • Can equip one in ammo slot
 ⬥ Priority: `High for main pouch, Medium for secondary pouches`
