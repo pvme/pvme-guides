@@ -11,3 +11,4 @@ If you're interested in contributing, contact Mo#0002 or Ry#3050 on discord, or 
 
 ## [Navigation]
 The layout of the repository mirrors the layout of the server, so if you're looking to edit a guide, simply navigate as if you were in the discord server.
+
