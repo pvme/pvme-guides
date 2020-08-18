@@ -194,7 +194,7 @@ As always, take a look through <#622623001694699560> for common mistakes. Even f
 > **__4 tick Auto Attack Guide__**
 The basic principles is you can do lossless spellcasting by hitting a spell from actionbar (lossless meaning you don't lose ticks performing the action). This lets you auto the same tick as you use an ability (input is auto → abil)
 
-When you can autoattack is based on a delay depending on your weapon speed: <:praeswand:643166769518739477> = 4t and <:noxstaff:513190159294922753> = 7t
+When you can autoattack is based on a delay depending on your weapon speed: <:praeswand:643166769518739477> = 4t and <:noxstaff:513190159294922753> = 6t
 
 Your delay after an action is given by max(currentdelay, delay from action)
 Implications from this are that if you do a wand ability you'll be able to autoattack 4 ticks after. If you do a staff ability, you will be able to autoattack 7 ticks after.
