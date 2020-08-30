@@ -20,9 +20,6 @@ _ _
 _ _
 .tag:miscpre
 ⬥ **__Phase 1__**
- • **1 Tick Longer on Kill Timer**
-		 - If the TL5 stands on the designated TL5 spot before entering the fight (located on the North East corner of the starting pad area, East of Face), upon dropdown the TL5 will enter the encounter 1 tick earlier than the rest of the team. This delays the kill timer tracked by the game by 1 tick. 
-		 - Potential application: Speed kills could have the TL5 not stand in the TL5 spot at face, to speed up their kill timer by 1 tick. Everyone else's timer is unaffected by this though.
  • **Less Bombs on P1**
 		 - Once the TL5 reaches the top rock and vokes Vorago, Vorago will throw less auto attacks and often have a longer delay between auto attacks, provided no one else is standing in MD (ie. Base should not voke and stand MD until around 30k hp).
 		 - Potential application: In trios, this lessens the number of blues and red bombs the Bomb Tank has to take during P1
@@ -37,7 +34,7 @@ _ _
 		 - Upon the TL5 clicking to jump on Vorago, all incoming damage will be nulled on the tick when the TL5 clicks to jump. 
 		 - Potential application: If Vorago is close to HP reset and the TL5 sees someone doing a wild magic that will reset the HP, the TL5 can click to jump and immediately null any incoming damage, preventing an HP reset.
  • **TL5 Staying in Combat**
-		 - The jump animation is exactly 10 seconds. As the TL5, it is possible to stay in combat during the jump animation. This requires the TL5 to do an ability on the tick you click to jump. If you do an ability and wait a couple ticks before jump, you will have exited combat and lost adren during the jump animation. 
+		 - The jump animation is exactly 17 seconds. As the TL5, it is possible to stay in combat during the jump animation. This requires the TL5 to do an ability on the tick you click to jump. If you do an ability and wait a couple ticks before jump, you will have exited combat and lost adren during the jump animation. 
 		 - Potential application: This is a way for the TL5 to keep adren during jump and threshold after jump to end p1 faster.
 .
  • **Movement after Jump**
@@ -47,8 +44,8 @@ _ _
 		 - After Vorago has moved to the Base’s MD post-jump, Vorago will not move from that location unless the Base steps under him.
 		 - Potential application: If no one is standing MD, Vorago will continue to throw blue bombs to the Bomb Tank. The Base can step away from Vorago’s MD and devo-cept the Bomb Tank.
  • **1 HP Glitch**
-		 - If P1 is phased before the 1 minute mark, Vorago will regenerate 1 HP during his floor collapse jumps. If no one attacks Vorago during this, Vorago will have random aggro at the start of p2 meaning the first bleed on p2 will also be to a random person. Moreover, if people attack Vorago excessively during this, Vorago will start throwing blues and potentially reds. The blue and red bombs can follow you through the phase transition damage you upon p2 dropdown. 
-		 - Potential applications: The Base should voke Vorago and/or apply a bleed before the phase transition to ensure that Base has aggro on p2 (though the aggro can still be random). 
+		 - Vorago will regenerate HP on phase 1 at 1:09 (also 2:09, 3:09, etc.), if Vorago regenerates HP while jumping around before the phase transition, Vorago can have random aggro at the start of p2 meaning the first bleed on p2 will also be to a random person. Vorago can also start throwing blues and potentially reds. The blue and red bombs can follow you through the phase transition damage you upon p2 dropdown. 
+		 - Potential applications: The Base should target cycle as soon as possible on p2 to ensure that Base has aggro on p2. 
 .
 ⬥ **__Phase 2__**
  • **Invisible First Bleed**
@@ -84,18 +81,15 @@ _ _
 		 - Potential applications: To avoid dropping combat and losing adren during Bring Him Down, do a defensive ability during the spam click mechanic, such as anticipate. 
 .
 ⬥ **__Phase 3__**
- • **Ceilings - Full Arena**
-		 - In the event where Vorago drops eight rocks over the arena and there is only one quadrant left, Vorago will skip his next ceiling collapse mechanic and proceed with the rest of his rotation. 
-		 - Potential application: More just trivia than useful info. 
  • **Scopulus – Aggro**
 		 - The Scopulus aggro seem to be random though there are a couple ways to trigger a reaggro. 1) If a player is constantly in motion, the Scopulus tend to aggro them more. 2) A player with an Ice Nihil will tend to draw more aggro, due to the Ice Nihil’s special effect acting on the Scops.
 		 - Potential applications: Bring a Smoke Nihil on Scop rotations to avoid drawing aggro.
  • **Vitalis – Base Spot and Vitalis Spawn**
 		 - If Vorago is not moved from the initial dropdown spot, the Vitalis Orb will always be sent North, North East, or East. If Vorago is moved from the initial dropdown spot, the Vitalis Orb can be send in any direction. 
-		 - Potential application: Avoid moving Vorago to have a predicable Vitalis Orb spawn. 
+		 - Potential application: Avoid moving Vorago to have a predictable Vitalis Orb spawn. 
 .tag:miscp3
  • **Vitalis – Max Vitalis**
-		 - The maximum number of Vitalis that can fill the room in Normal Mode is 15, the max in Hard Mode is 25. In Normal Mode, the number of Vitalis spawning per Orb rolls between 3 to 5, in Hard Mode 5 to 8. 
+		 - The maximum number of Vitalis that can fill the room in Normal Mode is 15, the max in Hard Mode is 25. In Normal Mode, the number of Vitalis spawning per Orb is 5 on p3 and p4, and 2-4 on p5. In Hard Mode, there are 7 Vitalis on p5 and p9, and between 3 to 5 on p10 and p11. 
 		 - Potential applications: If you want to block all Vitalis spawns, have the appropriate number of people standing in the spawn Orb. 
  • **Vitalis – Death Animation**
 		 - A Vitalis minion is still treated as a physical object while in its death animation. 
@@ -104,7 +98,7 @@ _ _
 _ _
 .
  • **Teamsplit – Auto Attacks**
-		 - During the teamsplit mechanic, if you attempt to cast an auto attack on Vorago while outside the max cast distance (7 squares), your character will run into the max cast distance in an attempt to cast your spell. Often times this results in a player leaving the teamsplit box early and taking 8k damage. 
+		 - During the teamsplit mechanic, if you attempt to cast an auto attack on Vorago while outside the max cast distance, your character will run into the max cast distance in an attempt to cast your spell. Often times this results in a player leaving the teamsplit box early and taking 8k damage. 
 		 - Potential application: Do not attempt to auto cast while in teamsplit unless you are certain you are within 7 squares to Vorago. 
  • **Teamsplit – Hard Mode**
 		 - The teamsplit boxes in hardmode, although appearing to be only 1x1, are actually 1x2. The square directly east of the 1x1 square is also safe to stand on. The same applies to the teamsplit boxes on p10 and p11. 
@@ -147,21 +141,20 @@ _ _
 		 - If a player applies the dismember melee ability on reflects to another player, and the victim player receives the first bleed, the first bleed damage will immediately apply the 4500 damage as if the player was taking a second bleed from Vorago without clearing the first bleed. This is most likely an oversight. It is unknown if this works on p2, p3, and p4.  
 		 - Potential applications: Prank your teammates by putting a dismember on them during reflects. 
 .tag:miscp5
- • **Team Size Adjustments**
-		 - Upon entering p5, Vorago will adjust his pushback mechanics based on the team size. If you initially begin the fight in a five man but enter p5 as a duo, the p5 pushback mechanics will be scaled to duo difficulty. 
-		 - Potential applications: P5 difficulty is always scaled to team size upon dropdown. The smaller the team, the more punishing the pushback mechanics will be.
- • **Stall and Auto Attacks**
-		 - Vorago cannot throw an auto attack on the same tick he moves. This is referred to as “stall”. 
-		 - Potential applications: Vorago will be pushed back one square per every 25k damage dealt from the player. Every pushback has the potential to stall Vorago’s next attack/mechanic. 
- • **Bleed Damage and Team Size**
-		 - Every 25k damage dealt from the player results in one square of pushback on Vorago. For bleeds, every tick of bleed damage results in (25000 / # of people) of negative push from Vorago. This means that in a five man, every tick of bleed damage is negative 5000 damage on the next push. For a duo, every tick of bleed damage is negative 12500 damage on the next push. 
-		 - Potential applications: It is very important to clear bleeds on tick, especially in smaller sized teams like trio or duo.
+ • Stall and Auto Attacks
+         - Vorago begins his attack pattern the tick after the target cycle tick. His attack speed varies:
+         - His attack speed will be 4 ticks if the last action he performed was either being pushed forwards or being pushed back
+         - His attack speed will be 3 ticks if the last action he performed was attacking, whether it be a special attack, blue bomb, or melee swipe. This includes if he pushes and attacks in the same tick.
+         - As you can attack Vorago on the target cycle tick, which is before he releases the first spec, you can delay the release of the first special attack.
+         - Potential applications: 0-Linking green bomb/vitalis; 0-Specing
+         - Vorago can only be pushed once in either direction on any given tick.
 .
-⬥ **__General Trivia__**
- • Vorago walks two squares at a time. As Base, if you want to prevent Vorago from moonwalking around you, walk away from Vorago two squares at a time.
- • Range Incendiary Shot: If a player applies Incendiary shot (the range ability) on reflects, the shot will still damage after the reflects is over. 
- • Melee Havoc/Smash: If a player does Havoc or Smash (the melee abilities) on reflects, the ability will also apply their PvP effect which disables protection players to the reflect target. This works on all phases with reflects. 
-.tag:miscgen
+ • Damaged Required to Push
+         - Pushing Vorago one tile entails dealing 20k damage to him. As soon as this 20k threshold is hit, the damage counter resets to 0 for the next tile.
+         - For example, if you deal one hit of damage that deals 30k damage to Vorago, 30k damage is added to the damage counter, then the game performs a check to see if that total value is at least 20k. It finds that 30,000 >= 20,000 holds true, so Vorago pushes a tile and then the counter is reset to 0, effectively losing 10,000 damage. This 10,000 damage is referred to as “overkill”.
+         - As an alternative example, presume you deal three individual hits of 10,000 damage on the same tick. The first one is added to the damage counter, it checks if 10,000 >= 20,000 and finds that is false, so that hit doesn’t cause it to push. The next hit is then added to the damage counter, which is now at 20,000 damage. It checks if 20,000 >= 20,000 and finds that is true, so the boss pushes and resets the damage counter to 0. Finally, the last hit of 10,000 is added to the damage counter, and it performs the same check, but finds that 10,000 >= 20,000 does not hold true. This 10,000 damage stays in the damage counter until the next tick, and this damage is referred to as “overflow”. So the result of these hits is pushing one tile with 10,000 overflow.
+         - As a final example, suppose there is one last hit of 10,000 damage on that tick. Again, this 10,000 is added to the damage counter as before, for a total of 20,000 damage. The game performs the same check and finds that 20,000 is in fact at least 20,000, so the damage counter resets. Vorago cannot be pushed twice on the same tick, so hitting this 40,000 damage mark in one tick may actively be detrimental to a kill, as you will end up losing 20,000 damage.
+.
 > __**Lure to TL5 spot in small teams (Credit to <@373844901273796608>)**__
 https://www.youtube.com/watch?v=OmYO-xwpxjo&feature=youtu.be
 .tag:tl5lure
