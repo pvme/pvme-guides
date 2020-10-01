@@ -18,7 +18,7 @@ Please bring up any concerns that are not covered by these guidelines.
 - Every channel should have it's channel topic containing the correctly captialised title ("aod" channel would have "Angel of Death" as it's topic).
 - It is preferred that videos are hosted on the PvME Youtube Channel. Streamable is absolutely forbidden.
 - Images should be attached to messages, no links to images in guides. Imgur is the preferred hosting platform.
-- Video links with embeds should be placed in their own message. This is not nessacary if the embed is disabled.
+- Video links with embeds should be placed in their own message. This is not necessary if the embed is disabled.
 - If a empty line is required to split sections at a message boundary, place the empty line at the end of the first message.
   - If the first message ends with an attachment or video embed, place an entirely empty message between the messages.
 - Links should be formatted as such: `Link text - <https://...>`
