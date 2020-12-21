@@ -1,180 +1,272 @@
-> **__Food__**
+> **__Healing__**
 .tag:food
-⬥ __**Solid Food**__
-     • <:Sailfish:565726489363087360> **Sailfish** <:coins:698816156961603654> $data_pvme:Consumables!B1$
-         - Heals **2400** life points.
-         - Lets you boost 10% over maximum life points.
-         - Uses **10%** adrenaline when consumed.
-         - Cheap general purpose food, only really used for places where panic eating might be necessary due to the adrenaline loss.
-     • <:sailfishsoup:537336701933060106> **Sailfish Soup** <:coins:698816156961603654> $data_pvme:Consumables!B2$
-         - Heals **2600** life points.
-         - Lets you boost **15%** over maximum life points
-         - Uses 10% adrenaline when consumed.
-         - More expensive so only really used for high profit, high risk encounters. Primarily Telos.
-     • <:greatgunkan:689528927928188963> **Great Gunkan** <:coins:698816156961603654> $data_pvme:Consumables!B3$
-         - Heals 1500 life points instantly, +150 life points every 1.2 seconds for 9 times total (10.8 seconds), for a total of **2850** life points.
-         - Uses 10% adrenaline when consumed.
-         - Can't eat another until the healing effect from the previous one has worn off. So not useful for panic/spam eating.
-         - Uses are niche currently, but used correctly it's viable anywhere you use other solid foods.
+**Solid Food**
+Solid foods are referred to foods that heal a large amount of hp in a single bite at the cost of 10% adrenaline
+⬥ <:Sailfish:565726489363087360> **Sailfish** <:coins:698816156961603654> $data_pvme:Consumables!B1$
+     • Heals 2400 life points.
+     • Lets you boost 10% over maximum life points.
+     • `Cheap general purpose food`
+     
+⬥ <:sailfishsoup:537336701933060106> **Sailfish Soup** <:coins:698816156961603654> $data_pvme:Consumables!B2$
+     • Heals 2600 life points.
+     • Lets you boost 15% over maximum life points
+     • `More expensive, mostly used for high profit, high risk encounters like high enrage Telos.`
+     
+⬥ <:greatgunkan:689528927928188963> **Great Gunkan** <:coins:698816156961603654> $data_pvme:Consumables!B3$
+     • Heals 1500 life points instantly, +150 life points every 1.2 seconds (2 ticks) for 9 times total (10.8 seconds), for a total of 2850 life points.
+     • Can't eat another until the healing effect from the previous one has worn off
 .
-⬥ __**Potions**__ 
-     • <:Brew:565726489400573962> **Saradomin Brew** <:coins:698816156961603654> $data_pvme:Consumables!B4$
-         - Heals **1000** life points per dose, 6 doses total (in a flask) for a total of **6000** per inventory slot.
-         - Lets you boost up to 1000 life points above maximum.
-         - Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful drinking too many.
-         - Used wherever KO potential is high, as you can combo-eat with a sailfish for a total of 3400 lifepoints healed in 1 tick.
-     • <:supersara:642708771344482314> **Super Saradomin Brew** <:coins:698816156961603654> $data_pvme:Consumables!B5$
-         - Heals **1300** life points per dose, 6 doses total, for a total of of **7800** per inventory slot.
-         - Lets you boost up to 1300 life points above maximum.
-         - Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful drinking too many.
-         - Expensive, so only really used for high profit, high risk encounters. Or if inventory space is at a premium. Primarily Telos or Solak.
+
+**Potions**
+Potions are referred to as anything you drink. You can drink a potion at the same time as you eat a solid food item as long as you always `eat before you drink`
+⬥ <:Brew:565726489400573962> **Saradomin Brew** <:coins:698816156961603654> $data_pvme:Consumables!B4$
+     • Heals 1000 life points per dose, 6 doses total (in a flask) for a total of 6000 life points per inventory slot.
+     • Lets you boost up to 1000 life points above maximum.
+     • Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful drinking too many.
+     • `Used wherever KO potential is high, as you can combo-eat with a solid food for a large amount of lifepoints healed in 1 tick.`
+     
+⬥ <:supersara:642708771344482314> **Super Saradomin Brew** <:coins:698816156961603654> $data_pvme:Consumables!B5$
+     • Heals 1300 life points per dose, 6 doses total, for a total of of 7800 per inventory slot.
+     • Lets you boost up to 1300 life points above maximum.
+     • Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful drinking too many.
+     • `Expensive, so only really used for high profit, high risk encounters. Or if inventory space is limited like Solak or high enrage Telos.`
 .
-     • <:grest:689530593901412578> **Guthix Rest** <:coins:698816156961603654> $data_pvme:Consumables!B6$
-         - Heals **500** life points per dose, 6 doses total (in a flask) for a total of **3000** per inventory slot.
-         - Cures poison and provides around 30 seconds of poison immunity
-         - Doesn't drain or boost stats at all.
-         - Used wherever inventory space isn't at a premium, and where dps/accuracy is important. Primarily AoD.
-     • <:supergrest:690140078407680059> **Super Guthix Brew** <:coins:698816156961603654> $data_pvme:Consumables!B7$
-         - Heals **650** life points per dose, 6 doses total (in a flask) for a total of **3900** per inventory slot.
-         - Gives 15% adrenaline - so puts your regular Adrenaline Potion on cooldown.
-         - Doesn't drain or boost stats at all.
-         - Used wherever inventory space isn't at a premium, and where dps/accuracy is important. Best to use in places where you will Adren pot off-cooldown, or if you can avoid eating while adren pot isn't on cooldown. Primarily AoD or low enrage Telos. 
-⬥ __**Miscellaneous**__
-     • <:blueblubber:689530593742291033> **Blue Blubber Jellyfish** <:coins:698816156961603654> $data_pvme:Consumables!B8$
-         - Heals **750** life points per bite. 3 bites, for a total of **2250** per inventory slot.
-         - Doesn't use any adrenaline when eaten, and can't overheal.
-         - Should be your primary source of food anywhere with low KO potential.
+
+⬥ <:grest:689530593901412578> **Guthix Rest** <:coins:698816156961603654> $data_pvme:Consumables!B6$
+     • Heals 500 life points per dose, 6 doses total (in a flask) for a total of 3000 per inventory slot.
+     • Cures poison and provides ~30 seconds of poison immunity
+     • Does NOT drain or boost stats at all.
+     • `Used wherever inventory you can live without the 1000 heal from sara brews because not having stats drained means more dps/accuracy`
+     
+⬥ <:supergrest:690140078407680059> **Super Guthix Brew** <:coins:698816156961603654> $data_pvme:Consumables!B7$
+     • Heals 650 life points per dose, 6 doses total (in a flask) for a total of 3900 per inventory slot.
+     • Gives 15% adrenaline 
+          - This puts your regular Adrenaline Potion on cooldown.
+     • Does NOT drain or boost stats at all.
+     • `Used wherever inventory you can live without the 1000 heal from sara brews because not having stats drained means more dps/accuracy. Best used when Adrenaline Potion is on cooldown so you don't miss out on the ability to benefit from more adrenaline from Adren Potions`
+     
+**Miscellaneous**
+⬥ <:blueblubber:689530593742291033> **Blue Blubber Jellyfish** <:coins:698816156961603654> $data_pvme:Consumables!B8$
+     • Heals 750 life points per bite. 3 bites, for a total of 2250 per inventory slot.
+     • Doesn't use any adrenaline when eaten
+     • `Should be your primary source of food anywhere with low KO potential.`
 
 .
+
 > **__Potions__**
 .tag:potions
-⬥ __**Overloads**__
-     • <:holyovl:689551388463595590> **Holy Overload**
-        - Boosts Attack, Strength, Magic, Ranged and Defence by 15% of each level +3 (up to 116 at level 99)
-        - Restores 600 prayer points over time.
-        - Boosts will reapply every 15 seconds.
-        - Requires level 97 Herblore <:Herblore:689554435583508558>
-        - Cheaper than just using a regular non-combination overload.
-        - The lower stat boost relative to supreme/elder overloads means this isn't worth using or making for PvM purposes. 
-     • <:ovlsalve:642709927265304608> **Supreme Overload Salve**
-        - Boosts Attack, Strength, Magic, Ranged and Defence by 16% of each level +4 (Up to 118 at level 99)
-        - Restores  70 + 35% of their maximum Prayer points (416 at level 99) instantly and 1 prayer point per tick for 600 ticks.
-        - Protects from dragonfire, wyvern breath, and poison.
-        - Boosts will reapply every 15 seconds.
-        - Requires level 99 Herblore <:Herblore:689554435583508558>
-        - Worth making until you have the level for Elders. These can be directly upgraded.
-     • <:elderovlsalve:648976643687317532> **Elder Overload Salve**
-        - Boosts Attack, Strength, Magic, Ranged and Defence by 17% of each level +5 (Up to 120 at level 99)
-        - Restores  70 + 35% of their maximum Prayer points (416 at level 99) instantly and 1 prayer point per tick for 600 ticks.
-        - Protects from dragonfire, wyvern breath, and poison.
-        - Boosts will reapply every 15 seconds.
-        - Requires level 107 Herblore <:Herblore:689554435583508558>
-        - Worth making as soon as you have the level for them.
+**Overloads**
+⬥ <:holyovl:689551388463595590> **Holy Overload**
+     • Requires level 97 Herblore <:Herblore:689554435583508558>
+     • Boosts Attack, Strength, Magic, Ranged and Defence by 15% of each level +3 (up to 116 at level 99)
+     • Restores 600 prayer points over time.
+     • Boosts will reapply every 15 seconds.
+     • Cheaper than just using a regular non-combination overload.
+     • `Not worth using or making for PvM purposes.` 
+     
+⬥ <:ovlsalve:642709927265304608> **Supreme Overload Salve**
+     • Requires level 99 Herblore <:Herblore:689554435583508558>
+     • Boosts Attack, Strength, Magic, Ranged and Defence by 16% of each level +4 (Up to 118 at level 99)
+     • Restores  70 + 35% of their maximum Prayer points (416 at level 99) instantly and 1 prayer point per tick for 600 ticks.
+     • Boosts will reapply every 15 seconds.
+     • Protects from dragonfire, wyvern breath, and poison.
+     • `Worth making until you have the level for Elders Salves. These can be directly upgraded to Eder Salves.`
+     
+⬥ <:elderovlsalve:648976643687317532> **Elder Overload Salve**
+     • Requires level 107 Herblore <:Herblore:689554435583508558>
+     • Boosts Attack, Strength, Magic, Ranged and Defence by 17% of each level +5 (Up to 120 at level 99)
+     • Restores  70 + 35% of their maximum Prayer points (416 at level 99) instantly and 1 prayer point per tick for 600 ticks.
+     • Boosts will reapply every 15 seconds.
+     • Protects from dragonfire, wyvern breath, and poison.
+     • `Worth making as soon as you have the level for them.`
 
 .
-⬥ __**Adrenaline Potions**__
-     • <:replen:634350514406162436> **Replenishment Potion**
-        - Gives 25% adrenaline, with a 2 minute cooldown timer.
-        - Restoring lowered stats by up to 25% + 8.
-        - Requires level 87 Herblore <:Herblore:689554435583508558>
-        - Primarily used for low gp/h bossing or slayer, e.g. casual GWD2.
-     • <:enhreplen:634350450887622656> **Enhanced Replenishment Potion**
-        - Gives 30% adrenaline, with a 2 minute cooldown timer.
-        - Restoring lowered stats by up to 25% + 8.
-        - Requires level 90 Herblore <:Herblore:689554435583508558>
-        - Worth using for high level PvM like Solak, Telos, AoD where you have a consistent rotation which relies on it, until you have the herblore level for Adrenaline renewal potion.
-     • <:adrenrenewal:736298121704767538> **Adrenaline renewal potion**
-        - Gives 4% adrenaline per tick for 10 ticks (total of 40% adrenaline).
-        - Requires level 115 Herblore <:Herblore:689554435583508558>, but this can be assisted.
-        - Best-in-Slot Adrenaline potion, for the majority of use cases.
-
-.
-⬥ __**Bombs**__
-     • <:vulnbomb:655341074235129858> **Vulnerability bomb**
-        - Creates a 3x3 area which lasts 1.8 seconds and applies the Vulnerability effect to monsters standing in it.
-        - Cast range of 9 tiles.
-        - Applys it 3 times (once every 0.6 seconds for total of 1.8 seconds)
-        - The probability of the effect applying is based on the players current accuracy against the target.
-     • <:stickybomb:655341074306301964> **Sticky bomb**
-        - Creates a 3x3 area for 6 seconds which binds monsters stood in it.
-        - Cast range of 9 tiles.
-     • <:poisonbomb:655341074591645707> **Poison bomb**
-        - Create a 3x3 area for 6 seconds which applies poison to monsters stood in it.
-        - Cast range of 9 tiles.
-        - The poisons damage is based on current weapon damage.
+**Adrenaline Potions**
+⬥ <:replen:634350514406162436> **Replenishment Potion**
+     • Requires level 87 Herblore <:Herblore:689554435583508558>
+     • Gives 25% adrenaline, with a 2 minute cooldown timer.
+     • Restores lowered stats by up to 25% + 8.
+     • `Primarily used for low gp/h bossing or slayer`
+⬥ <:enhreplen:634350450887622656> **Enhanced Replenishment Potion**
+     • Requires level 90 Herblore <:Herblore:689554435583508558>
+     • Gives 30% adrenaline, with a 2 minute cooldown timer.
+     • Restores lowered stats by up to 25% + 8.
+     • `Worth using for high level PvM until you have the herblore level for Adrenaline renewal potion.`
+⬥ <:adrenrenewal:736298121704767538> **Adrenaline renewal potion**
+     • Requires level 115 Herblore (119 herblore for cheaper recipe use) <:Herblore:689554435583508558>, but these can be assisted.
+     • Gives 4% adrenaline per tick for 10 ticks (total of 40% adrenaline).
+     • `Best-in-Slot Adrenaline potion, for the majority of cases.`
 
 .
 
-> **__Incense stick guide__**
+> __**Bombs**__
+.tag:bombs
+⬥ <:vulnbomb:655341074235129858> **Vulnerability bomb**
+     • Cast range of 9 tiles.
+     • Creates a 3x3 area which lasts 1.8 seconds and applies the Vulnerability effect to monsters standing in it.
+     • Applys it 3 times (once every 0.6 seconds for total of 1.8 seconds)
+     • The probability of the effect applying is based on the players current accuracy against the target.
+     • `Worth using anywhere you want the target to be vulned without casting the Vulnerability spell directly`
+⬥ <:stickybomb:655341074306301964> **Sticky bomb**
+     • Cast range of 9 tiles.
+     • Creates a 3x3 area for 6 seconds which binds monsters stood in it.
+     • `Worth using against stunnable/bindable targets like Magister or Telos and his golems on Phase 4 and 5`
+⬥ <:poisonbomb:655341074591645707> **Poison bomb**
+     • Cast range of 9 tiles.
+     • Creates a 3x3 area for 6 seconds which applies poison to monsters stood in it.
+     • The poison damage is based on current weapon damage.
+
+.
+
+> **__Pvm incense stick guide__**
 .tag:incense
-Incense sticks are a consumable created by combining logs, ashes, and herbs. They have a variety of uses between skilling and combat, but we will only be covering those that have a pvm related boost. Each incense stick increases the buff duration by 10 minutes.
-Incense sticks have a potency from 1-4. This increases by 1 every 10 minutes (30 minutes till max potency), or you can 'overload' and instantly boost to max potency at the cost of 6 sticks (still only 10 minutes added duration though). This would increase the cost for 1 hour to 11 incense sticks instead of just 6, but more sticks can be added to keep the boosts up indefinitely assuming your buff doesn't expire. Dying will cancel your incense boost as a whole causing you to have to re-incense, even if you use a ring of death or practice mode. In practice, overloading instantly is almost always better.
-You can have up to 3 different effects active at once at 95 firemaking.
-The relevant incense sticks with pvm benefits are listed as follows:
-⬥ <:RanarrSticks:690987265186594857> Ranarr: Each potency level gives a +1 prayer bonus (functionally useless)
-⬥ <:SpiritSticks:565726489136463894> Spirit Weed: Each potency level provides a 10% increased familiar special attack recovery rate
-⬥ <:IritSticks:690987265371144202> Irit: Each potency level reduces poison damage by 25%
-⬥ <:KwuarmSticks:565726489341984779> Kwuarm: Each potency level provides +2.5% weapon poison damage
-⬥ <:LantaSticks:565726489404899368> Lantadyme: Each potency level increases potion timer by 30 seconds. Not usually cost effective to use but can reduce the need to make more overloads.
-⬥ <:FellstalkSticks:690987265421213746> Fellstalk (For Slayer): Each potency level provides a x1.01 chance to spawn elite monsters
+⬥ Incense sticks are created by combining logs, ashes, and herbs. 
+     • Each incense stick increases the buff duration by 10 minutes.
+     • Incense sticks have a potency from 1-4. This increases by 1 every 10 minutes (30 minutes till max potency), or you can 'overload' by right clicking the incense sticks for an upfront cost of 6 sticks for 10 minutes (each additional stick used after this adds 10 minutes to the duration)
+     • `In practice, overloading instantly is almost always better.`
+     • Dying will cancel your incense boost as a whole causing you to have to re-incense, even if you use a ring of death or practice mode. 
+     • You can have up to 3 different effects active at once at 95 firemaking.
+.
+
+**The relevant incense sticks with pvm benefits are listed as follows:**
+⬥ <:SpiritSticks:565726489136463894> Spirit Weed
+     • Each potency level provides a 10% increased familiar special attack recovery rate
+     • `Worth using everywhere you use familiar special attacks often`
+     
+⬥ <:KwuarmSticks:565726489341984779> Kwuarm
+     • Each potency level provides +2.5% weapon poison damage
+     • `Worth using against poisonable targets`
+     
+⬥ <:IritSticks:690987265371144202> Irit
+     • Each potency level reduces poison damage by 25%
+     • `Worth using mostly at Gregorovic since he drains antipoison very quickly, otherwise it is a good option anywhere you get poisoned if you don't have access to other antipoison methods
+     `
+⬥ <:LantaSticks:565726489404899368> Lantadyme
+     • Each potency level increases potion timer by 30 seconds. 
+     • `Not usually cost effective to use but can reduce the need to make more overloads.`
+     
+⬥ <:FellstalkSticks:690987265421213746> Fellstalk (For Slayer)
+     • Each potency level provides a x1.01 chance to spawn elite monsters
+     • `Worth using if hunting specific drops from elite slayer monsters such as Edimmu pet`
+     
+⬥ <:RanarrSticks:690987265186594857> Ranarr 
+     • Each potency level gives a +1 prayer bonus
+     • `Functionally useless`
 
 .
-Incense sticks are rather expensive to use in dangerous pvm due to having to re-incense upon death, so it is advised to only use them in higher level pvm where there benefits are quite tangible for their value or where their cost will be offset by profit. But here is a general list of where you would use certain incense sticks.
+**Note: Incense sticks are rather expensive to use in dangerous pvm due to having to re-incense upon death, so it is advised to only use them in higher level pvm where their benefits are quite tangible for their value or where their cost will be offset by profit. But here is a general list of where you would use certain incense sticks.**
 
-**Kalphite King:** Spirit Weed, Kwuarm, Lantadyme
-**GWD2:** Spirit Weed, Kwuarm (at Helwyr and Greg), Lantadyme, Irit (At Greg)
-**Elite Dungeons:** Spirit Weed, Kwuarm, Lantadyme
-**Angel of Death:** Spirit Weed, Kwuarm, Lantadyme
-**Araxxor:** Lantadyme, Irit if not using salves/venomblood
-**Raids:** Spirit Weed, Kwuarm, Lantadyme
-**Magister:** Spirit Weed, Kwuarm, Lantadyme
-**Rots:** Lantadyme
-**Solak:** Spirit Weed, Kwuarm, Lantadyme
-**Telos:** Kwuarm, Lantadyme, (Spirit Weed if using ripper, or mammoth for eating maybe)
-**Vorago:** Lantadyme
+⬥ **Kalphite King:** 
+     • Spirit Weed
+     • Kwuarm
+     • Lantadyme
+
+⬥ **GWD2:** 
+     • Spirit Weed
+     • Kwuarm (at Helwyr and Greg)
+     • Irit (At Greg)
+     • Lantadyme
+     
+⬥ **Elite Dungeons:** 
+     • Spirit Weed
+     • Kwuarm
+     • Lantadyme
+
+⬥ **Angel of Death:** 
+     • Spirit Weed
+     • Kwuarm
+     • Lantadyme
+
+⬥ **Araxxor:** 
+     • Lantadyme
+     • Irit (if not using salves/venomblood)
+
+⬥ **Raids:** 
+     • Spirit Weed
+     • Kwuarm
+     • Lantadyme
+
+⬥ **Magister:** 
+     • Spirit Weed
+     • Kwuarm
+     • Lantadyme
+
+⬥ **Rots:** 
+     • Lantadyme
+
+⬥ **Solak:** 
+     • Spirit Weed
+     • Kwuarm
+     • Lantadyme
+
+⬥ **Telos:** 
+     • (Spirit Weed if using ripper, or mammoth for eating maybe)
+     • Kwuarm
+     • Lantadyme
+     
+⬥ **Vorago:** 
+     • Lantadyme
 
 .
-**Summoning (Lvl 87/99)**
+
+> __**Summoning (Lvl 87/99)**__
 .tag:summ
 ⬥ <:IceNihil:513195712163348506>Nihil
-      • Nihils boost their users Melee/Ranged/Magic accuracy by 5% depending on nihil summoned
-⬥ Priority: `High`
+     • Nihils boost their users Melee/Ranged/Magic accuracy by 5% depending on nihil summoned
+     • Priority: `High if you need the accuracy boost (Nex, RotS, Vorago)`
+     
+⬥ <:ripperpouch:703581275453128714> Ripper Demon
+     • __Best__ DPS familiar
+     • Note: Should set the special attacks to occur every 1 attack when scrolls are stored in it
+     • Note: Can also spam click its special to fire off specs faster      
+     • Often used in conjunction with Spiritual Prayer flasks to spam its special attack for a bigger dps buff
+     • Has a passive effect that allows you to deal more damage the lower your targets HP is, this works even if the ripper can't attack your target e.g. Seiryu crystals.
+     • Priority: `High`
 
 ⬥ <:Titan:513195724738002944> Steel Titan
-      • DPS familiar
-      • Note: Should set the special attacks to occur every 1 attack when scrolls are stored in it
-      • Note: Can also spam click its special to fire off specs faster      
-⬥ Often used in conjunction with Spiritual Prayer flasks to spam its special attack for a bigger dps buff
-⬥ Can be used as a cheaper alternative to ripper demon, however there is a significant difference
-⬥ Priority: `High`
-
-⬥ <:ripperpouch:703581275453128714> Ripper Demon
-      • Best DPS familiar
-      • Note: Should set the special attacks to occur every 1 attack when scrolls are stored in it
-      • Note: Can also spam click its special to fire off specs faster      
-⬥ Often used in conjunction with Spiritual Prayer flasks to spam its special attack for a bigger dps buff
-⬥ Has a passive effect that allows you to deal more damage the lower your targets HP is, this works even if the ripper can't attack your target e.g. Seiryu crystals.
-⬥ Priority: `High`
+     • DPS familiar
+     • Note: Should set the special attacks to occur every 1 attack when scrolls are stored in it
+     • Note: Can also spam click its special to fire off specs faster      
+     • Often used in conjunction with Spiritual Prayer flasks to spam its special attack for a bigger dps buff
+     • Can be used as a cheaper alternative to ripper demon, however it is significantly weaker
+     • Priority: `High`
 
 .
+
 > **__Bakriminel Bolts__**
-
-Enchanted bakriminel bolts provide various effects which can be very useful in certain pvm scenarios. If you are using DW weapons it is highly recommended that you use bakriminel bolts for increased DPM. Here's a rundown of the current meta. *If a bolt does not appear on this list, it is not considered meta*.
-
-**Ruby bolts**<:RubyBakri:565726489413287956> - Overall best dps bolt for general pvm. 5% chance to activate, replacing a hit with a new one based on target's HP. The bolts have a shared cooldown per target, making them less effective (but still very powerful) in groups. Around ~70k HP, it is recommended to switch to another type of bolt, as ruby bolts can reduce DPS if the bolt damage is less than the original hit.
-
-**Diamond bolts** - Improves accuracy. Useful for bosses where you want the extra accuracy above all else (eg. Rise of the Six).
-
-**Onyx bolts**<:OnyxBakri:565726489362956308> - 10% chance to activate, heals 25% of the hit that triggered activation. Also increases damage by 25% on activation. Great for sustained healing, and alternative bolts after ruby bolts are no longer effective. Expensive.
-
-**Hydrix bolts**<:HydrixBakri:550834403136503822> - 10% chance to activate, immediately granting 10% adren, and +1% on basics for 15 seconds. Used as a utility bolt for pumping out more thresholds while in Death's Swiftness. *These are the hardest bolts to use effectively as they require you to improvise a rotation based off of how much adrenaline you gain*. Very expensive.
-
-Note: Ruby bak bolts are banned from challenge gems as its difficult accurately measure your DPM with their effects.
-
 .tag:bakrbolts
+
+Enchanted bakriminel bolts provide various effects which can be very useful in certain pvm scenarios. If you are using crossbows it is highly recommended that you use bakriminel bolts (e) for increased DPM. Here's a rundown of the current meta. *If a bolt does not appear on this list, it is not considered meta*.
+
+⬥ **Ruby bolts**<:RubyBakri:565726489413287956> - 
+     • Overall best dps bolt for general pvm. 
+     • 5% chance to activate, replacing a hit with a new one based on target's HP. 
+     • The bolts have a shared cooldown per target, making them less effective (but still very powerful) in groups. 
+     • Ruby bolts have diminishing returns in their proc hit, so it is recommended to switch to another type of bolt when a monster's hp gets low, as ruby bolt procs can      • eventually be less than the original hit would have been.
+     • Priority: `High`
+.
+
+**Onyx bolts**<:OnyxBakri:565726489362956308>
+     • 10% chance to activate.
+     • Heals 25% of the hit that triggered activation .
+     • Increases damage by 25% on activation.
+     • Great for sustained healing.
+     • Expensive.
+     • Priority: `Medium`
+
+**Hydrix bolts**<:HydrixBakri:550834403136503822> 
+     • 10% chance to activate
+     • Immediately grants 10% adren, and +1% on basics for 15 seconds.
+     • Used as a utility bolt for pumping out more thresholds while in Death's Swiftness. 
+     • Note: *These are the hardest bolts to use effectively as they require you to improvise a rotation based off of how much adrenaline you gain*. 
+Very expensive.
+     • Priority: `High`
+
+
 > **__Table of Contents__**
-⬥ **Food** - $linkmsg_food$
+⬥ **Healing** - $linkmsg_food$
 ⬥ **Potions** - $linkmsg_potions$
+⬥ **Bombs** - $linkmsg_bombs$
 ⬥ **Incense Sticks** - $linkmsg_incense$
 ⬥ **Summoning** - $linkmsg_summ$
 ⬥ **Bakriminel Bolts** - $linkmsg_bakrbolts$
