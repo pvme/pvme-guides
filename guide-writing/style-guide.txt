@@ -21,7 +21,6 @@ Please bring up any concerns that are not covered by these guidelines.
     • Surround links with < and > to prevent embeds from appearing.
 ⬥ Where possible, the first message of a guide should be an image that best represents the guide.
 ⬥ Utilise the Oxford Comma.
-⬥ To add an image, type `.img:imgurlinkhere`.
 .tag:general
 > __**Utilise block quotes (`> text`) for sections**__
 ⬥ __**Utilise ⬥ for subsections **__
@@ -68,7 +67,7 @@ Please bring up any concerns that are not covered by these guidelines.
 ⬥ .img:[imgurlinkhere] - used for embedding images
 ⬥ .tag:[word] - used as a target message for table of contents to link to
 ⬥ $linkmsg_[tagword]$ - creates a link to the [word] used in the .tag:[word] command
-    • Example of a Table of Contents entry: **Sectiontitle** - $linkmsg_SectionTagWord$
+    • Example of a Table of Contents entry: `**Sectiontitle** - $linkmsg_SectionTagWord$`
 .tag:help
 
 > __**Table of Contents (formatting)**__
