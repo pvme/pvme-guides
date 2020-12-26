@@ -13,7 +13,7 @@ Please bring up any concerns that are not covered by these guidelines.
 ⬥ Every channel should have it's channel topic containing the correctly captialised title ("aod" channel would have "Angel of Death" as it's topic).
 ⬥ It is preferred that videos are hosted on the PvME Youtube Channel. Streamable is absolutely forbidden.
 ⬥ Images should be attached to messages, no links to images in guides. Imgur is the preferred hosting platform.
-⬥ Video links with embeds should be placed in their own message. This is not nessacary if the embed is disabled.
+⬥ Video links with embeds should be placed in their own message. This is not necessary if the embed is disabled.
 ⬥ If a empty line is required to split sections at a message boundary, place the empty line at the end of the first message.
     • If the first message ends with an attachment or video embed, place an entirely empty message between the messages.
 ⬥ Links should be formatted as such: `**Link text** - <https://...>`
@@ -21,7 +21,7 @@ Please bring up any concerns that are not covered by these guidelines.
     • Surround links with < and > to prevent embeds from appearing.
 ⬥ Where possible, the first message of a guide should be an image that best represents the guide.
 ⬥ Utilise the Oxford Comma.
-
+⬥ To add an image, type `.img:imgurlinkhere`.
 .tag:general
 > __**Utilise block quotes (`> text`) for sections**__
 ⬥ __**Utilise ⬥ for subsections **__
@@ -39,6 +39,8 @@ Please bring up any concerns that are not covered by these guidelines.
 > __**Rotations**__
 ⬥ Utilise the character: → between groups of actions that occur on the same tick.
     • For example, <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>
+⬥ Use the full code for PvME emojis pinned in <#724129126314803230> to add emojis to a guide
+    • For example, use <:bloodbarrage:537338981747261446> instead of :bloodbarrage:
 ⬥ Denote non-ability actions in parentheses.
     • This does not include adren/overkills or sigils.
     • Target cycle, <:deto:535533833358016512> (3t) → (tc) <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>
@@ -60,16 +62,26 @@ Please bring up any concerns that are not covered by these guidelines.
     • Example: For the Hold Still invader attack you should use Resonance <:res:535541258844635148> for the melee hit.
 
 .tag:rotations
+.
+
+> __**Helpful Commands**__
+⬥ .img:[imgurlinkhere] - used for embedding images
+⬥ .tag:[word] - used as a target message for table of contents to link to
+⬥ $linkmsg_[tagword]$ - creates a link to the [word] used in the .tag:[word] command
+    • Example of a Table of Contents entry: **Sectiontitle** - $linkmsg_SectionTagWord$
+.tag:help
+
 > __**Table of Contents (formatting)**__
 ⬥ The table of contents should be at the end of the guide.
 ⬥ The table of contents should be in a section titled "Table of Contents".
 ⬥ The table of contents should be pinned in the channel.
 ⬥ Utilise the below table of contents as an example.
-
 .tag:tableofcontents
+
 > __**Table of Contents**__
 ⬥ **Introduction** - $linkmsg_introduction$
 ⬥ **General** - $linkmsg_general$
 ⬥ **Sections** - $linkmsg_sections$
 ⬥ **Rotations** - $linkmsg_rotations$
+⬥ **Helpful Commands** - $linkmsg_help$
 ⬥ **Table of Contents (formatting)** - $linkmsg_tableofcontents$
