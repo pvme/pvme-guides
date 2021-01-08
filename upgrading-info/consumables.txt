@@ -15,6 +15,13 @@ Solid foods are referred to foods that heal a large amount of hp in a single bit
 ⬥ <:greatgunkan:689528927928188963> **Great Gunkan** <:coins:698816156961603654> $data_pvme:Consumables!B3$
      • Heals 1500 life points instantly, +150 life points every 1.2 seconds (2 ticks) for 9 times total (10.8 seconds), for a total of 2850 life points.
      • Can't eat another until the healing effect from the previous one has worn off
+
+⬥ <:primalfeast:651079281849532416> **Primal Feast**
+     • Unpacks to 4 primal portions which heal 2500 life points each for a total of 10000 life points
+     • Requires 3 empty inventory slots to unpack
+     • The ingredients to make a primal feast are tradeable; however, the primal feast itself is not.
+     • `Very expensive, mostly used for high profit, high risk encounters like high enrage Telos.`
+
 .
 
 **Potions**
@@ -44,7 +51,19 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
           - This puts your regular Adrenaline Potion on cooldown.
      • Does NOT drain or boost stats at all.
      • `Used wherever inventory you can live without the 1000 heal from sara brews because not having stats drained means more dps/accuracy. Best used when Adrenaline Potion is on cooldown so you don't miss out on the ability to benefit from more adrenaline from Adren Potions`
-     
+.
+
+**Prayer**
+⬥ <:restore:642708657825644554> **Super Restore** <:coins:698816156961603654> $data_pvme:Consumables!B11$
+     • Restores 327 prayer pints per dose, 6 doses total (in a flask) for a total of 1962 prayer points per inventory slot.
+     • Restores lowered stats by up to 25% + 8 levels.
+     • `All purpose prayer restoration often used in combination with Saradomin Brew.`
+⬥ <:spiritualprayer:651079281882955787> **Spiritual Prayer** <:coins:698816156961603654> $data_pvme:Consumables!B10$
+     • Restores 317 prayer points per dose, 6 doses total (in a flask) for a total of 1902 prayer points per inventory slot.
+     • Restores 15 familiar special move points per dose, 6 doses total (in a flask) for a total of 90 familiar special move points per inventory slot.
+     • `Commonly used in combination with a ripper demon and scrolls to increase dpm.`
+.
+
 **Miscellaneous**
 ⬥ <:blueblubber:689530593742291033> **Blue Blubber Jellyfish** <:coins:698816156961603654> $data_pvme:Consumables!B8$
      • Heals 750 life points per bite. 3 bites, for a total of 2250 per inventory slot.
@@ -164,7 +183,8 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
      • Spirit Weed
      • Kwuarm (at Helwyr and Greg)
      • Irit (At Greg)
-     
+
+.
 ⬥ **Elite Dungeons:** 
      • Spirit Weed
      • Kwuarm
@@ -216,6 +236,11 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
      • Can be used as a cheaper alternative to ripper demon, however it is significantly weaker
      • Priority: `High`
 
+⬥ <:Mammoth:513195712146702337> Pack Mammoth
+     • BoB familiar
+     • Can hold up to 32 items
+     • Special attack consumes a solid piece of food stored within the pack mammoth and heals the player. The special attack cannot overheal but unlike normally eating a solid, __it does not drain adrenaline __.
+
 .
 
 > **__Bakriminel Bolts__**
@@ -223,7 +248,7 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 
 Enchanted bakriminel bolts provide various effects which can be very useful in certain pvm scenarios. If you are using crossbows it is highly recommended that you use bakriminel bolts (e) for increased DPM. Here's a rundown of the current meta. *If a bolt does not appear on this list, it is not considered meta*.
 
-⬥ **Ruby bolts**<:RubyBakri:565726489413287956> - 
+⬥ <:RubyBakri:565726489413287956> **Ruby bolts**
      • Overall best dps bolt for general pvm. 
      • 5% chance to activate, replacing a hit with a new one based on target's HP. 
      • The bolts have a shared cooldown per target, making them less effective (but still very powerful) in groups. 
@@ -232,23 +257,51 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
      • Priority: `High`
 .
 
-**Onyx bolts**<:OnyxBakri:565726489362956308>
+⬥ <:OnyxBakri:565726489362956308> **Onyx bolts**
      • 10% chance to activate.
-     • Heals 25% of the hit that triggered activation .
+     • Heals 25% of the hit that triggered activation.
      • Increases damage by 25% on activation.
      • Great for sustained healing.
      • Expensive.
      • Priority: `Medium`
 
-**Hydrix bolts**<:HydrixBakri:550834403136503822> 
-     • 10% chance to activate
+⬥ <:HydrixBakri:550834403136503822> **Hydrix bolts** 
+     • 10% chance to activate.
      • Immediately grants 10% adren, and +1% on basics for 15 seconds.
      • Used as a utility bolt for pumping out more thresholds while in Death's Swiftness. 
      • Note: *These are the hardest bolts to use effectively as they require you to improvise a rotation based off of how much adrenaline you gain*. 
      • Very expensive.
      • Priority: `High`
 
+.
+> **__Miscellaneous__**
+.tag:miscellaneous
+⬥ <:weppoison:689525476158472288> **Weapon Poison+++**
+     • As the strongest variant of weapon poison, +++ deals 13-43% ability damage per poison hit.
+     • Works synergistically with cinderbane gloves to increase the base poison damage and the frequency of poison hitsplats.
 
+⬥ <:vitality:654618235097972737> **Powerburst of Vitality**
+     • Doubles your current and maximum life points for 6 seconds. After 6 seconds, your current and maximium life points are halved.
+     • Essentialy functions as a 6 second debilitate which works on even hard typless damage, costs no adrenaline, and is not cleared by mechanics such as red bombs.
+     • Uses powerburst cooldown.
+
+⬥ <:accel:756236265472524418> **Powerburst of Acceleration**
+     • Drinking will reset the cooldowns of Surge and Bladed Dive instantly.
+     • Reduces the cooldowns of Surge Bladed Dive to 1.2 seconds for 6 seconds.
+     • Can be used in tandem with Bladed Dive to completely negate some boss mechanics such as AoD's Ice and Yakamaru's Quick Sand.
+     • Uses powerburst cooldown.
+
+⬥ <:luckpotion:656426717295935500> **Enhanced Luck Potion**
+     • Provides T3 luck as a passive for 1 hour.
+
+.
+
+.tag:preset
+> **__Banking Preset__**
+This is an example of a general PvM preparation preset used for bonfiring, summoning familiars, potting up, restocking rune pouches, refilling charge pack, changing spellbook, and using incense.
+.img:https://i.imgur.com/FbTxmtb.png
+
+.
 > **__Table of Contents__**
 ⬥ **Healing** - $linkmsg_food$
 ⬥ **Potions** - $linkmsg_potions$
@@ -256,4 +309,6 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
 ⬥ **Incense Sticks** - $linkmsg_incense$
 ⬥ **Summoning** - $linkmsg_summ$
 ⬥ **Bakriminel Bolts** - $linkmsg_bakrbolts$
+⬥ **Miscellaneous** - $linkmsg_miscellaneous$
+⬥ **Banking Preset** - $linkmsg_preset$
 .pin:delete
