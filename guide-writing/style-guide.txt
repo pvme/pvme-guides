@@ -62,21 +62,20 @@ Please bring up any concerns that are not covered by these guidelines.
 
 .tag:rotations
 .
-
 > __**Helpful Commands**__
 ⬥ .img:[imgurlinkhere] - used for embedding images
 ⬥ .tag:[word] - used as a target message for table of contents to link to
 ⬥ $linkmsg_[tagword]$ - creates a link to the [word] used in the .tag:[word] command
     • Example of a Table of Contents entry: `**Sectiontitle** - $linkmsg_SectionTagWord$`
-.tag:help
 
+.tag:help
 > __**Table of Contents (formatting)**__
 ⬥ The table of contents should be at the end of the guide.
 ⬥ The table of contents should be in a section titled "Table of Contents".
 ⬥ The table of contents should be pinned in the channel.
 ⬥ Utilise the below table of contents as an example.
-.tag:tableofcontents
 
+.tag:tableofcontents
 > __**Table of Contents**__
 ⬥ **Introduction** - $linkmsg_introduction$
 ⬥ **General** - $linkmsg_general$
