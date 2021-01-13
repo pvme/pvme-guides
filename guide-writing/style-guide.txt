@@ -49,11 +49,13 @@ __**Alphanumerical Lists**__
 
 .
 > __**Presets**__
-⬥ Rune Pouches in presets should match colours of pouches in <#689235882724818962>.
-⬥ Switch weapons should use the same switches in <#553632787639435284> (e.g. cywir represents planted feet).
-
 .tag:presets
+⬥ Rune Pouches in presets should match colours of pouches in <#689235882724818962>. 
+⬥ Weapon switches should use the same switches in <#553632787639435284> (e.g. cywir represents planted feet).
+⬥ Essence of Finalities with special attacks stored should match the colours of EoFs in <#797160458980950029>
+.
 > __**Rotations**__
+.tag:rotations
 ⬥ Utilise the character: → between groups of actions that occur on the same tick.
     • For example, <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>
 ⬥ Use the full code for PvME emojis pinned in <#724129126314803230> to add emojis to a guide
@@ -78,26 +80,44 @@ __**Alphanumerical Lists**__
 ⬥ Referencing lone abilities inline with text should be the name of the ability followed by the emoji.
     • Example: For the Hold Still invader attack you should use Resonance <:res:535541258844635148> for the melee hit.
 
-.tag:rotations
 .
 > __**Helpful Commands**__
+.tag:help
+__**Github Commands**__
 ⬥ .img:[imgurlinkhere] - used for embedding images
 ⬥ .tag:[word] - used as a target message for table of contents to link to
 ⬥ $linkmsg_[tagword]$ - creates a link to the [word] used in the .tag:[word] command
     • Example of a Table of Contents entry: `**Sectiontitle** - $linkmsg_SectionTagWord$`
+    
+__**Discord Commands (to be used in <#689575078698287152>**__
+⬥ Pvme$txtsync txtpost pull/`pull request #`/head `category name`/`channel name`.txt
+    • Posts that pull request with most recent edits/commits.
+    • Example: pvme$txtsync txtpost pull/381/head mid-tier-pvm/dragonkin-laboratory.txt
+        - Useful for proofreading and making sure it doesnt fail any automated checks.
+⬥ pvme$txtpost txt `attach a .txt file`
+    • Posts that text file in discord.
+        - Useful for proofreading and making sure it doesnt fail any automated checks.
+⬥ pvme$txtsync txtemojis pull/`pull request #`/head
+    • Checks for broken emojis where the code is wrong (typo, wrong emoji code, etc.).
+    • Example: pvme$txtsync txtemojis pull/234/head
 
-.tag:help
 > __**Table of Contents (formatting)**__
 ⬥ The table of contents should be at the end of the guide.
 ⬥ The table of contents should be in a section titled "Table of Contents".
 ⬥ The table of contents should be pinned in the channel.
+    • At the bottom of the Table of Contents, add a new line with the command `.pin:delete`
+    ⬥ Table of Contents entries should list the Section Name, and link to the proper message
+    • Example entry: **Sectionword** - $linkmsg_tagword$
+        - the tagword as mentioned above is how the bot knows to make a message link to the appropriate message. under the Section, add a blank line with the command `.tag:[word]`.
 ⬥ Utilise the below table of contents as an example.
 
 .tag:tableofcontents
 > __**Table of Contents**__
 ⬥ **Introduction** - $linkmsg_introduction$
 ⬥ **General** - $linkmsg_general$
-⬥ **Sections** - $linkmsg_sections$
+⬥ **Embedding Images/Videos** - $linkmsg_embed$
+⬥ **Sections and Subsections** - $linkmsg_sections$
+⬥ **Lists** - $linkmsg_lists$
 ⬥ **Rotations** - $linkmsg_rotations$
 ⬥ **Helpful Commands** - $linkmsg_help$
 ⬥ **Table of Contents (formatting)** - $linkmsg_tableofcontents$
