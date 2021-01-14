@@ -1,39 +1,40 @@
 > **__Target Cycling__**
+.tag:tc
 Targeting settings can be found under the Combat Tab in the Settings Interface and includes the situationally useful Cycle Target keybinds. This function allows you to select a target procedurally based on whether you set the targeting mode to Radial or Conal. It is very useful for improving consistency and speed of certain instances in boss encounters, including, but not limited to, tagging on dropdowns at Vorago, the Sinister Fragments during The Ambassador, and the amalgamations during Nex: AoD. A notable advantage of cycle target is that Detonate will not be cancelled upon use.
 
 Radial Targeting cycles from the nearest to the farthest target from the player when pressed. In the case of multiple equidistant targets, it will cycle clockwise starting from the north. This is useful for simply snapping to the closest target available (any single target situation, Ambassador fragments, Solak Core, Vorago, etc.)
 
 Conal Targeting cycles from the closest to the farthest target in the direction the camera is facing. The angle for an NPC to be considered eligible for selection is around 75-90°. This is most useful for more precise targeting in scenarios with multiple NPCs around (AoD amalgamations if detonating P2).
-.tag:tc
 .img:https://i.imgur.com/Apqq3Th.png
 .
 __**Usage Specifics**__
 __The Shadow Reef__
-- Tagging Sinister Fragments at the Ambassador, saves 3-4 ticks. Can be radial or conal targeting but the former is less effort
+⬥ Tagging Sinister Fragments at the Ambassador, saves 3-4 ticks. Can be radial or conal targeting but the former is less effort
 .img:https://i.gyazo.com/a3b13b217022a8523de01b4e50b3cc9f.mp4
 __Vorago__
-- Gaining aggro on p2 dropdown. This can solve the 1 hp p1 issue where p2 starts off with random aggro
-- Tagging Teamsplit on drop to Reprisal the first Teamsplit
-- The timing for p5 Teamsplit is 17 ticks from when you can crack heal
+⬥ Gaining aggro on p2 dropdown. This can solve the 1 hp p1 issue where p2 starts off with random aggro
+⬥ Tagging Teamsplit on drop to Reprisal the first Teamsplit
+⬥ The timing for p5 Teamsplit is 17 ticks from when you can crack heal
 https://youtu.be/9YejOAvquQk
 .
-_ _
+
 .
 __Nex: AoD__
-- Radial targeting to tag p2 amalgamations when detonating. This allows to tag on spawn without risking cancelling detonate accidentally.
-- Tagging pillars on p4, prevents possible misclicks with the camera snapping over after using Surge + Bladed Dive
+⬥ Radial targeting to tag p2 amalgamations when detonating. This allows to tag on spawn without risking cancelling detonate accidentally.
+⬥ Tagging pillars on p4, prevents possible misclicks with the camera snapping over after using Surge + Bladed Dive
 
 __Solak__
-- Tagging the Blight Afflicted Core on spawn, potentially saves a tick which helps a bit for one-cycling.
-- Tagging Arms and Legs faster.
+⬥ Tagging the Blight Afflicted Core on spawn, potentially saves a tick which helps a bit for one-cycling.
+⬥ Tagging Arms and Legs faster.
 
 __GWD2__
-- The bosses with long spawn animations can be tagged immediately, which helps particularly on Helwyr.
+⬥ The bosses with long spawn animations can be tagged immediately, which helps particularly on Helwyr.
 
 Note: When attempting to cycle to a target on spawn, spam clicking the keybind will not work so you just have to know the exact tick it becomes targetable. Alternatively if you're constantly moving you can spam it once per tick.
-_ _
+
 .
 > **__"Grimshaw" Switching__**
+.tag:grimshaw
 Due to the fact that damage critical hits are calculated as an ability is fired, but modifiers like scrimshaw are calculated when an ability hits, it is possible to obtain the boosts of Erethdor's Grimoire at the same time as a Scrimshaw. This can result in roughly a 6% increase in damage across the course of an entire rotation, but will significantly increase the amount of inputs.
 
 Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a single tick):
@@ -44,29 +45,31 @@ Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a sin
 
 __Demonstration__
 https://youtu.be/M65xdRYYxJ4
-.tag:grimshaw
-_ _
+
 .
 > **__Walking bosses in RS (courtesy of <@236955913859104778>)__**
+.tag:walking
 In RS, bosses only walk east, west, or south (never north). The direction they walk is random at first, but they will always walk in that direction afterwards.
 
 Hitting a wall changes walking behavior in the following ways: an east-walking boss will turn west, a west-walking boss will turn south, and a south-walking boss will turn either east or west. 
 
 While walking isn’t as insanely overpowered as it once was, it still has a variety of applications. The simplest of these include walking a bleed such as combust, frag, or slaughter. A more advanced version of this is using a bleed, and then immediately using surge to go under the boss and bladed dive to get back all within a GCD. This allows you to double bleed damage against bosses when you aren't MD. Couchy demonstrates it in this clip:
 https://clips.twitch.tv/CorrectConcernedGrouseNerfRedBlaster
-.tag:walking
+.
 Keep in mind that most bosses move at 2 squares per tick (same speed as you), so for bosses that you don’t want to walk (such as AoD), you should move 2 squares (or more generally just an even number) to prevent unwanted movement. 
 
 Walking can also be used to reposition a boss, such as fixing base spot on P2 Vorago, moving Vorago out of green bomb mists, and moving Telos out of beams.
-_ _
+
 .
 > **__Manual Spell Casting (courtesy of <@133391081109716992> and <@150675804596994048>)__**
+.tag:manualspellcasting
+.
 .img:https://i.imgur.com/e678FYp.png
 Currently, magic auto attacks deal damage based on the spell your weapon is set to. The Surge, Blitz, and Barrage spells deal damage scaling up to T92 while other spells are capped at a lower tier. Particularly, the Aurora spells are capped at T90 damage and below, making them undesirable to use despite their secondary effects.
 
 However, this issue is resolved with manual spell casting found in the combat settings. This toggle makes it so that the autocast spell that the player's weapon is set to does not change even if they attack with a different spell. Without this toggle, if the player's spell is set to Blood Barrage and they use Ruby Aurora, for example, their autocast spell will be set to the latter, capping all damage they deal from T92 down to T90. With manual spell casting toggled, the autocast spell stays locked on Blood Barrage, keeping ability damage set to T92 regardless of what spell the player manually inputs. This is due to magic ability damage being based on the current autocast spell, not the spell the player last attacked with.
-_ _
-.tag:manualspellcasting
+
+.
 __Applications__
 On the normal spellbook, this allows the player to attack with Air Strike instead of Air Surge (although the autocast spell must still be set to Surge), reducing rune costs from 5 Air Runes per attack down to 1. For those who are worried about rune costs while 4 tick auto attacking, this relieves much of the problem.
 
@@ -75,17 +78,18 @@ On the ancients spellbook, the Aurora spells can be used while maintaining T92 d
 Blood Burst, the lower tier of Blood Barrage, can also be used to save on rune costs and have the same damage and effects of Barrage under manual spell casting.
 
 At Telos, manual spell casting may be used to prevent the player from accidentally auto attacking with an Ice spell when it may be undesirable to do so. For example, binding Telos in the black beam or breaking his Freedom at a poor time can be the result of using Ice Blitz/Barrage earlier and having it set to the autocast spell with manual spell casting toggled off. With the toggle on, however, the player has increased control over when to bind Telos and potential ping spikes won't have as much of an unintended consequence.
-_ _
+
 .
 > **__Autocast Spell Selection (courtesy of <@244845124712923137>)__**
+.tag:autocast
 When selecting an autocast spell, be sure to manually select it with dual-wield (main-hand + off-hand). Selecting your autocast with a two-handed weapon will only apply it to the main-hand, thus setting no off-hand spell, causing you to do 2/3 damage when doing dual-wield abilities in this manner.
 
 Here is a comparison. First example is selecting your autocast with two-handed weapon first (main-hand autocast). Second example is selecting your autocast with dual-wield weapon first (main-hand + off-hand autocast).
 https://youtu.be/IUmvGm4Z374
-.tag:autocast
-_ _
+
 .
-> **__How Adren Gaining Without a Target Works, Courtesy of <@236955913859104778>:__**
+> **__How Adren Gaining Without a Target Works (Courtesy of <@236955913859104778>)__**
+.tag:adrengain
 Have you ever entered Telos, used devo, and lost 15% adren because you forgot to lose target? Well fret not, because in this short guide I will explain how adren gaining with an out-of-range (or dead) target works. 
 
 Essentially, after doing your last damaging ability on an NPC, you can use any abilities to gain adren for then next 10 seconds. After that, defensive basics will no longer give adren. However, there is an important caveat: you will only be unable to gain adren for 10 seconds. After that, you can use ONE defensive basic that will give you adren, after which you will be unable to gain adren again for 10s. Think of this as a cooldown - 10s after the last damaging ability on a boss, you will only be able to build once every 10s. The following abilities do not affect or reset this “cooldown”: 
@@ -93,15 +97,16 @@ Essentially, after doing your last damaging ability on an NPC, you can use any a
 ⬥ Defensive thresholds (these will always take 15 adren unless you lose target, and their use does not affect the CD)
 ⬥ Ultimates that do not require a target
 An example showcasing the latter (ultimates not affecting this cooldown) would be not losing target after an AoD kill, then starting off the next kill with sunshine + a defensive basic that was used NO EARLIER than 10s after the previous defensive basic you used to stall adren. For example, you would be able to use anticipate to stall, sunshine when your anticipate timer is at 2s, then use another defensive basic like freedom after anticipate has run out.
-.tag:adrengain
+.
 Note that all this does not apply on targets that automatically force you to lose target after death (e.g. Araxxi, Telos, etc.) 
 
 Some useful areas of application: AoD, Vorago phase transitions, COMBAT DUMMIES, and various other bosses where you can still gain adren after killing them (may potentially work on an exhaustive list)
 
 Tl;dr: if you ever accidentally use a defensive thresh without losing target or can no longer build with defensive basics, simply wait 10s (stalling with surge/escape/bd) and use another defensive. From this point, you will only be able to use 1 defensive basic to build every 10s… making it necessary to use surge/escape/bd in between all this time.
-_ _
+
 .
-> __**The True Centre of a Boss is Always South-West, Courtesy of <@175995416955977728>: **__
+> __**The True Centre of a Boss is Always South-West (Courtesy of <@175995416955977728>)**__
+.tag:centre
 This affects abilities like corruption blast/shot and detonate. In the picture with the combat dummy, the true centre is in the centre because the size of the dummy is 1 square, but any monster 2 by 2 or larger has a south-west centre. 
 
 In picture a, the detonate green arrows are on the centre of the dragon, meaning the dragon to the north will not be hit by the detonate
@@ -112,14 +117,16 @@ Note that this works with other forms of AoE as well, such as mechanized chincho
 .img:https://i.imgur.com/cPreXnV.png
 .
 .img:https://i.imgur.com/7JT4mVE.png
-_ _
-.tag:centre
+
+.
 > **__Camera Shaking Toggle (by <@216433706343202816>)__**
+.tag:shake
 If you suffer from motion sickness, you may toggle this off in the settings menu. This is particularly useful for Rise of the Six tunnels, or usage of Quake. However be aware that camera shake often helps indicate a mechanic is about to happen, for example at Solak or Black Stone Dragon.
 .img:https://i.imgur.com/Un81lbK.png
-_ _
-.tag:shake
+
+.
 > **__Boss Sizes for SGB (Courtesy of <@127417821817864192>)__**
+.tag:sizes
 List does not include 1x1 bosses
 
 **The Ambassador (ED3) **- 3x3 
@@ -144,35 +151,36 @@ List does not include 1x1 bosses
 **Nex AoD **- 3x3
 **Queen Black Dragon** - 5x5 (blocked)
 **Raksha** - 5x5 (blocked on p4)
-**Sanctum Guardian** (ED1) - 9x9
-**Seiryu **(ED1) - 4x4 (Black crystals are 1x1)
+**Sanctum Guardian (ED1)** - 9x9
+**Seiryu (ED1)** - 4x4 (Black crystals are 1x1)
 **Solak** - 3x3
 **Telos **- 5x5 (10x10 p5)
 **Twin Furies **- 3x3
 **Tztok-Jad** - 5x5
-**Verak Lith** (ED2) - 5x5
+**Verak Lith (ED2)** - 5x5
 **Vindicta **- 3x3 (5x5 with Gorvek)
 **Vorago** - 5x5 (blocked on p5/10/11 and during "The End" spin)
 **Yakamaru** - 5x5 (blocked)
-_ _
-.tag:sizes
+
+.
 > **__Ability Stalling (Courtesy of <@236955913859104778>)__**
+.tag:stall
 Ability stalling is a very useful skill to know and it has many uses in PvM situations. Simply put, it is the act of activating an ability outside your weapon's cast distance, "holding" the ability, and finally releasing it. 
 Short video guide on this topic: https://youtu.be/fInvWvnSI18
 Video transcript: https://pastebin.com/4jtB3RYh
-.tag:stall
-_ _
+
 .
 > **__Saving Aftershock while using specs (Courtesy of <@358148685718093827>)__**
+.tag:aftershockspec
 When using a special attack such as <:gstaff:513203008608141314> aftershock stacks are lost due to switching to an unperked weapon, this is avoided by swapping to and from your spec weapon within the same tick.
 Due to the inability to input the same weapon bind twice in one tick you must swap from 2h to dual or dual to 2h. (All inputs must be done in the correct order AND within the same game tick to be successful)
 Starting with 2h: [optional 4t auto] > <:gstaff:513203008608141314> > <:spec:537340400273195028> > <:pwand:583429876242186260> > <:Core:625304432581672961>
 Starting with Dual: [optional 4t debuff] > <:gstaff:513203008608141314>  > <:spec:537340400273195028>  > <:Sos:626466320132734976>
 https://youtu.be/jqeed0LKPUU
-_ _
-.tag:aftershockspec
 
-> __**Weapon Poison Guide**__ (Courtesy to <@108682527304060928>)
+.
+> __**Weapon Poison Guide (Courtesy to <@108682527304060928>)**__
+.tag:poison
 Weapon Poison provides a buff to the player for an amount of time dependent on the grade of poison being used. While this is active, players have a 1/6 chance of poisoning a target so long as they are not poison-immune. After being poisoned, the target will take damage every 16 game ticks, or 9.6 seconds, and will continue to take damage for 3 minutes. This 3 minute duration also has a chance to be refreshed at a 1/6 rate. Poison damage will hit 2 ticks after the damage that applied it.
 
 Generally the only poison one would want to use is **Weapon Poison+++**, which lasts for 12 minutes and deals an average of **27.9% ability damage** for each hit. Vulnerability affects this damage, but prayers and damage boosting ultimates do not.
@@ -194,7 +202,7 @@ Poison can be applied/refreshed by **any player-sourced damage**. This includes:
 ⬥ Eldritch Crossbow special
 ⬥ Dominion mines
 
-.tag:poison
+.
 > **__Table of Contents__**
 ⬥ **Target Cycling** - $linkmsg_tc$
 ⬥ **Grimshaw Switching** - $linkmsg_grimshaw$
