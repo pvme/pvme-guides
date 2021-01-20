@@ -9,9 +9,9 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 ⬥ **DPM** - damage per minute, a measure of how much damage is done over a minute time
 ⬥ **DPS** – damage per second, or in-general referring to damage
 ⬥ **DW** – dual wield, a wand/orb or wand/book weapon
-⬥ **2h** – Two hand, a staff weapon
-⬥ **Juggling/Swapping** – Generally referring to switching between dual wield and 2h weapons to gain access to more damaging abilities
-⬥ **Camping** – Refers to using only one type of weapon, ie. 2h camping or DW camping
+⬥ **2H** – Two hand, a staff weapon
+⬥ **Juggling/Swapping** – Generally referring to switching between dual wield and 2H weapons to gain access to more damaging abilities
+⬥ **Camping** – Refers to using only one type of weapon, ie. 2H camping or DW camping
 ⬥ **Rotation** – Refers to the usage of abilities and managing ability cooldowns
 ⬥ **Switch** – Refers to a weapon or gear item that is equipped and use temporarily for its effects
 ⬥ **Auto** – an auto attack, damage based on which spell tier is used in your spellbook
@@ -126,7 +126,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • Generally speaking, these should be avoided.
 
 .
-⬥ If you are 2h or DW camping, you will be limited to only one filler ability (Sonic Wave <:sonic:535533809924571136> or Concentrated Blast <:conc:535533833106489365>, respectively). Thus, try to utilize Sonic Wave <:sonic:535533809924571136> or Concentrated Blast <:conc:535533833106489365> as often as possible in your rotation.
+⬥ If you are 2H or DW camping, you will be limited to only one filler ability (Sonic Wave <:sonic:535533809924571136> or Concentrated Blast <:conc:535533833106489365>, respectively). Thus, try to utilize Sonic Wave <:sonic:535533809924571136> or Concentrated Blast <:conc:535533833106489365> as often as possible in your rotation.
     • A basic pattern of Sonic Wave <:sonic:535533809924571136> → Ability → Ability → Repeat is recommended for camping rotations.
 
 .
@@ -352,7 +352,7 @@ Refer to this table for hit timings of each ability
 .
 *Notes:*
 ⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
-⬥ *r2h means "release stalled ability with 2h", rDW means "release stalled ability with dual wield"*
+⬥ *r2H means "release stalled ability with 2H", rDW means "release stalled ability with dual wield"*
 
 .
 > **__Cancelling Channels__**
@@ -404,12 +404,12 @@ https://www.youtube.com/watch?v=unCtj7IosVA
 
 .
 > **__Dual Wield vs Staff Camp__**
-.tag:DwVs2h
+.tag:DwVs2H
 This section is meant to list the benefits of camping one over the other though it is strongly recommended to just juggle, as it gives access to all the following benefits, and more.
 
 .
 **__Staff Camp benefits__** <:inquisitorstaff:694566917553520680>
-⬥ Access to 2h Autos <:AirSurge:543465115870035999>
+⬥ Access to 2H Autos <:AirSurge:543465115870035999>
     • When staff camping this lets you make use of Defensive Autos <:voke:535541259465392143> <:AirSurge:543465115870035999> to replace weaker abilities like Tuska's Wrath <:Tuskas:513201065513058306> which you would otherwise have to use due to lack of abilities
 ⬥ More Revolution-friendly
     • Due to using Sonic Wave <:sonic:535533809924571136> over Concentrated Blast <:conc:535533833106489365>, as Sonic Wave <:sonic:535533809924571136> is not a channeled ability.
@@ -440,45 +440,103 @@ This section is meant to list the benefits of camping one over the other though 
     • The following table will break down the ticks of this:
 .
 ```
-t0: Wand Ability
-t3: Defensive
-t4: Auto is cast
-t6: Ability
+T0: Wand Ability
+T3: Defensive
+T4: Auto is cast
+T6: Ability
 ```
 .img:https://i.imgur.com/YG0dSvD.mp4
-    • Further, you can exploit this to make it a 2h Auto <:AirSurge:543465115870035999>, as the cooldown for any Auto <:AirSurge:543465115870035999> ends on t4, so you would simply swap to a 2h weapon somewhere between the dw abil cast and the defensive cast, or right after the defensive cast and before the Auto <:AirSurge:543465115870035999> would be cast (this then puts your 2h auto on a 6t (3.6s) cd where you wont be able to cast it at all)
+    • Further, you can exploit this to make it a 2H Auto <:AirSurge:543465115870035999>, as the cooldown for any Auto <:AirSurge:543465115870035999> ends on t4, so you would simply swap to a 2H weapon somewhere between the dw abil cast and the defensive cast, or right after the defensive cast and before the Auto <:AirSurge:543465115870035999> would be cast (this then puts your 2H auto on a 6t (3.6s) cd where you wont be able to cast it at all)
     • A further consideration, is if that ability on t6 is a non-channeled dw ability, you can 4tick an ability afterwards
         - This can be seen in the following video by <@593106625955495947>
 https://www.youtube.com/watch?v=UmsbPrkqrtw
 
 .
 ⬥ Secondly, a benefit magic has, due to it having auto binds, is that you can make sure an auto + ability is cast on the same tick (rather than an auto is cast on 1 tick, and the ability a tick after)
-    • This allows magic to do a 2h abil into a defensive auto as a result
+    • This allows magic to do a 2H abil into a defensive auto as a result
     • The following table will break down the ticks of this:
 ```
-t0: Staff Ability
-t3: Defensive
-t6: Auto + Ability
+T0: Staff Ability
+T3: Defensive
+T6: Auto + Ability
 ```
 .img:https://i.imgur.com/HI2ebR6.mp4
 .
     • For Melee and Ranged this would result in:
 ```
-t0: Average Speed 2h Ability
-t3: Defensive
-t6: Auto
-t7: Ability
+T0: Average Speed 2H Ability
+T3: Defensive
+T6: Auto
+T7: Ability
 ```
     • This is important as it is highly beneficial to make use of this when staff camping, as it will aid in preventing you using bad abilities like Tuska's Wrath and Sacrifice due to the lack of abilities at your disposal
 
 .
 ⬥ It is important to note that Freedom <:freedom:535541258240786434> works a little differently, in that you will get both an off-hand and a main-hand/2h auto
     • You will always get the off-hand auto, and what is cast as an off-hand auto can be changed by casting the auto before, but on the same tick, as Freedom <:freedom:535541258240786434>
-        - If you wanted to change what the 2h auto is, you would have to 3 tick it
+        - If you wanted to change what the 2H auto is, you would have to 3 tick it
 
 .   
 ⬥ It is also important to note that if you click anything from your inventory, or click the ground anywhere, before the auto would naturally fire then you must re-click your target
     • With Magic, hitting your auto bind yields the same result
+
+.
+**__Delaying Defensive Auto__**
+⬥ Based off this fact, you can make use of this if you need to delay a defensive auto for whatever reason
+    • More specifically, this can be useful for Freedom if you need to change what *both* the off-hand and 2H auto are when casting Freedom <:freedom:535541258240786434> after a faster than Average speed weapon, as you can only change the 2H Auto if you 3t it
+    • The following examples will be done with Freedom <:freedom:535541258240786434>, however the same idea applies to delaying the auto with other non-damaging abilities, except that you only have the 2H Auto and that you can off any time after your ability before the defensive and by the time the Auto should be cast
+    • For Freedom <:freedom:535541258240786434> specifically, we will "off" to delay the auto directly after the OH Auto is cast, otherwise we lose the OH Auto
+
+.
+⬥ There are several ways to "off" to delay the auto, these include:
+    • Clicking under yourself
+    • Clicking a spell you cannot cast (e.g., trying to cast Disruption Shield when on the Ancient Spellbook)
+    • Clicking something from your inventory
+
+.
+*Note: If you do any of these things before or directly as you cast your defensive normally you will either have to click or hit your auto bind again to actually cast your auto.*
+
+.
+⬥ There are also a couple differences between hitting your auto bind to cast your auto and clicking to cast your auto after you "off", they are as follows:
+    • You cannot hit your auto bind to try and recast your auto mid-GCD, you need to 3 tick it
+    • If you use your auto bind to recast your auto, you can alter what the auto will be when you cast it
+    • You can click to recast your auto mid-GCD
+    • If you click to recast your auto, your next ability must be at least 1 tick after otherwise you will override it
+        - if you click to recast your auto ideally you do it mid-GCD so that you do not waste ticks
+
+.
+.
+⬥ Thus, for Freedom <:freedom:535541258240786434> we can do as follows:
+    • Instead of the normal
+```
+T0: Dual Wield Ability
+T3: Freedom + OH Auto Cast
+T4: 2H Auto cast
+T6: Ability
+```
+.
+.img:https://i.imgur.com/d4iq92F.mp4
+.
+    • We can instead do:
+```
+T0: Dual Wield Ability
+T3: Freedom + OH Auto Cast
+T4: "Off"
+T6: 2H Auto + Ability
+```
+.
+.img:https://i.imgur.com/SGCIwm6.mp4
+.
+*Note: For both of these sample videos, Air Surge <:AirSurge:543465115870035999> is the auto-casted spell and Fire Surge <:FireSurge:543465116092334083> is the manually selected auto. I manually change the Defensive Auto to Fire Surge where possible for sake of demonstration*
+
+.
+⬥ **What are the differences between these two scenarios?**
+    • The 2H Auto is cast and thus hits at different times
+    • We can alter the 2H Auto in the second scenario, whereas in the first it will be whatever your autocasted spell is
+        - We can alter the OH Auto in both scenarios by simply doing Other Auto → Freedom (e.g., <:FireSurge:543465116092334083> → <:freedom:535541258240786434>)
+
+.
+*Note: This is how we can alter the Auto sent with Non-Damaging Abilities normally as well, though you can still alter it if you "off" for it and 3 tick it afterwards like the 2H Auto with Freedom <:freedom:535541258240786434>.*
 
 .
 > **__4TAA__**
@@ -498,24 +556,24 @@ t7: Ability
 **__How it Works__**
 ⬥ The general 4TAA structure will be like:
 ```
-Auto + 2h/Dw Ability → non-channeled Dw Ability → Repeat
+Auto + 2H/Dw Ability → non-channeled Dw Ability → Repeat
 ```
 
-⬥ As you can see, the auto is forced every other ability, this is simply due to the fact that 2h autos have a 6t cooldown so you can only cast it after every other ability
+⬥ As you can see, the auto is forced every other ability, this is simply due to the fact that 2H autos have a 6t cooldown so you can only cast it after every other ability
 
 .
 ⬥ Further, you can see the ability before it repeats (i.e., before you do your next auto + ability) has to be a non-channeled Dw ability
-    • It *must* be a dw ability due to the 4t auto cooldown associated with it, allowing you to do a 2h auto 4t later
+    • It *must* be a dw ability due to the 4t auto cooldown associated with it, allowing you to do a 2H auto 4t later
     • It *must* be non-channeled because each hit of a channel resets your auto cooldown
         - Thus it is generally ideal to always do an auto into your channeled ability
 
 .
-⬥ Moreover, you can see that after an auto you can do either a 2h or Dw ability, this is because it does not particularly matter assuming same perking and tiers
+⬥ Moreover, you can see that after an auto you can do either a 2H or Dw ability, this is because it does not particularly matter assuming same perking and tiers
     • That being said, you *must* (outside of very niche cases) always ensure that when you do an auto into a channeled, that the channeled ability is done with Dw (this is mostly important for Asphyxiate, as Concentrated Blast is already Dw locked, and Smoke Tendrils is not relevant)
         - This is because of the fact that when the channeled hits reset your auto cd, it is going to reset it based off the weapon you are wearing, thus if you staff asphyx, when your asphyx ends your auto is on a 6t cooldown again
         - The table below will showcase two different scenarios:
 ```
-2h Asphyxiate:
+2H Asphyxiate:
 
 You MUST do:
 auto + asphyxiate → ability → dw abil → auto + ability
@@ -662,7 +720,7 @@ https://youtu.be/XkDqJFcck4I
 ⬥ **Ability Information** - $linkmsg_Info$
 ⬥ **Cancelling Channels** - $linkmsg_Cancel$
 ⬥ **Detonate** - $linkmsg_Deto$
-⬥ **Dual Wield vs Staff Camp** - $linkmsg_DwVs2h$
+⬥ **Dual Wield vs Staff Camp** - $linkmsg_DwVs2H$
 ⬥ **Defensive Autos** - $linkmsg_DefAutos$
 ⬥ **4TAA** -  $linkmsg_4TAA$
 ⬥ **4TAA Guides** - $linkmsg_4TAAG$
