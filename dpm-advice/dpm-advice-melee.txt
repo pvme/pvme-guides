@@ -1,334 +1,548 @@
+> **__Introduction__**
+.tag:Intro
 In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics. This channel will go over general damage output lessons, ability prioritizations, crafting a rotation, a learning path, common mistakes, and tips and tricks.
 
 .
-> **__Abbreviations__**
-DPM - damage per minute, a measure of how much damage is done over a minute time
+> **__Terminology__**
+.tag:Abb
+**__Common Abbreviations in PvM__**
+⬥ **DPM** - Damage per minute, a measure of how much damage is done over a minute time
+⬥ **DPS** – Damage per second, or in-general referring to damage
+⬥ **DW** – Dual wield, a wand/orb or wand/book weapon
+⬥ **2h** – Two hand, a staff weapon
+⬥ **MD** - Melee distance, to be standing within 1 square distance to your target
+⬥ **Scythe Range** - Halberd type weapons that allow you to attack from 2 squares away (eg. Dragon Rider Lance, Noxious Scythe)
+⬥ **Juggling/Swapping/Switching** - Generally referring to switching between dual wield and 2h weapons to gain access to more damaging abilities
+⬥ **Camping** – Refers to using only one type of weapon, ie. 2h camping or DW camping
+⬥ **Rotation** – Refers to the usage of abilities and managing ability cooldowns
+⬥ **Switch** – Refers to a weapon or gear item that is equipped and use temporarily for its effects
+⬥ **Auto** – An auto attack, damage based on which spell tier is used in your spellbook
+⬥ **Tick** – A unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
+⬥ **Lossless** - Meaning no ticks are lost in performing an action
+⬥ **GCD** - Global cooldown. An innate cooldown built into every ability. Lasts for 3 ticks (1.8 seconds)
+⬥ **ZGS** - Zaros Godsword, 2h t92 weapon
 
-DPS - damage per second, or in-general referring to damage
+.
+*Note: For more abbreviations, see Evil Lucario's list of common PVM Lingo and Abbreviations: <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/>*
 
-DW - dual wield, sword weapons
-
-2h - Two hand weapon, self explanatory
-
-MD - melee distance, to be standing within 1 square distance to your target
-
-Scythe Range - Halberd type weapons that allow you to attack from 2 squares away (eg. Dragon Rider Lance, Noxious Scythe)
-
-Juggling/Swapping/Switching - Generally referring to switching between dual wield and 2h weapons to gain access to more damaging abilities
-
-Camping - Refers to using only one type of weapon, ie. 2h camping or DW camping
-
-Rotation - Refers to the usage of abilities and managing ability cooldowns
-
-Switch - Refers to a weapon or gear item that is equipped and use temporarily for its effects
-
-Auto - an auto attack, a sword swing (NOT an ability) and deals damage based off of equipment tier
-
-Tick - A unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
-
-Lossless - meaning no ticks are lost in performing an action
-
-GCD - global cooldown. An innate cooldown built into every ability. Lasts for 3 ticks (1.8 seconds)
-
-ZGS - Zaros Godsword, 2h t92 weapon
-
-For more abbreviations, see Evil Lucario's list of common PVM Lingo and Abbreviations: <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/>
-
-.tag:abbrevations
-> **__Revo++__**
-Revolution++ is a combat mode wherein you can toggle the game to automatically activate basic, threshold, and ultimate abilities automatically upon reaching the required adrenaline. While we do not encourage using Revo++ as it limits the amount of control a player has over their own rotation, it is low-input and low maintenance. Revo++ can be desirable for afking, low-effort pvm, or slayer tasks. Here is an ability bar we recommend for Revo++. Using this recommended ability bar with zero player input you can achieve a DPM of roughly 130k.
-
-To toggle on revolution++ and highlight how many abilities to trigger with it, click the cog icon on your ability bar:
-.img:https://i.imgur.com/aI8RM8r.png
-.tag:revo++
-DW revo++ bar
-.img:https://i.imgur.com/SxmrcM5.png
-2h revo++ bar
-.img:https://i.imgur.com/2Bis7lJ.png
+.
 > **__Revolution__**
-Revolution (not revo++) is a combat mode wherein basic abilities are used automatically by the game but threshold and ultimate abilities are manually activated. Newer players may find this combat mode helpful starting out as it allows for some control over your rotation but doesn't overburden you with managing basic abilities. Below is an ability bar we recommend to use for revolution. Note that the thresholds and ultimate abilities can be placed in any order as it does not matter where they are on the bar − you will be manually activating them. 
+.tag:Revo
+**__Revo++__**
+⬥ Revolution++ is a combat mode wherein you can toggle the game to automatically activate basic, threshold, and ultimate abilities automatically upon reaching the required adrenaline. 
 
-If you are new to using revolution, simply let revo use basic abilities for you. Activate Berserk once you reach 100% adrenaline. From there use your thresholds whenever you reach 50% adrenaline (Assault, Destroy, Hurricane, Quake). Repeat.
-Following this simple repeating pattern of *Build to 100% -> Berserk - > Thresholds -> Repeat*, one can expect to reach around 150k dpm with low-medium player input.
+.
+⬥ While we do not encourage using Revo++ as it limits the amount of control a player has over their own rotation, it is low-input and low maintenance. 
 
-.tag:revo
-DW revolution bar
+.
+⬥ Revo++ can be desirable for afking, low-effort pvm, or slayer tasks. 
+
+.
+⬥ Here is an ability bar we recommend for Revo++. Using this recommended ability bar with zero player input you can achieve a DPM of roughly 130k.
+    • DW revo++ bar
+.img:https://i.imgur.com/SxmrcM5.png
+    • 2h revo++ bar
+.img:https://i.imgur.com/2Bis7lJ.png
+
+.
+⬥ To toggle on revolution++ and highlight how many abilities to trigger with it, click the cog icon on your ability bar:
+.img:https://i.imgur.com/aI8RM8r.png
+
+.
+**__Basic Revolution__**
+⬥ Revolution (not revo++) is a combat mode wherein basic abilities are used automatically by the game but threshold and ultimate abilities are manually activated. 
+
+.
+⬥ Newer players may find this combat mode helpful starting out as it allows for some control over your rotation but doesn't overburden you with managing basic abilities. 
+
+.
+⬥ Below is an ability bar we recommend to use for revolution. 
+    • DW revolution bar
 .img:https://i.imgur.com/w0sVzOo.png
-2h revolution bar
+    • 2h revolution bar
 .img:https://i.imgur.com/1zvgPM9.png
 .
-> **__Full Manual__**
-Full Manual is a combat mode wherein all abilities are manually activated by the player. No automatic inputs from the game means no damaging abilities will be done, therefore this mode requires high input from the player. The benefit of this mode is that it allows for the greatest degree of control over which abilities are used in any given scenario. Most high level pvmers opt to use this combat mode. While it does not matter where you place your abilities on your bar with full manual, you may still find it helpful to organize your bar based on basics to thresholds to ultimate. Refer to the revolution bars as examples.
+    • Note that the thresholds and ultimate abilities can be placed in any order as it does not matter where they are on the bar − you will be manually activating them. 
 
-Transitioning from revo to full manual can seem intimidating but all it takes is practice. Most players start by letting revolution activate basics while they manually input thresholds and ultimates. The next step would be to manually activate basic abilities too, with revolution still active as a failsafe. Once you feel confident in activating basic abilities manually, try turning off revolution.
-
-An exercise to help you here is to only use basics for a full minute of combat on a combat dummy. Your goal is to not lose any ticks between basic abilities, either due to cooldowns or due to not manually activating the next ability fast enough. Once you get comfortable at a combat dummy, try on a real boss such as GWD1 (Graador/Kr'il/Kree) or GWD2 (Vindicta). *There is no easy "trick" to skip past the practice. It takes time to learn full manual so stick with it!*
-
-.tag:fullmanual
-> **__Overview - Melee DPS__**
-Compared to the other two combat styles, Melee is unique in that it is the only combat style that restricts you to a maximum range of 1-2 distance away from your target. As such, it is inherently more difficult to deal with certain boss mechanics at such a close range. The trade-off, and many players find this trade-off worth the disadvantages, is that Melee is unquestionably the highest DPS style of the three combat styles. Melee can reach a ceiling of 220k DPM whereas Mage and Range cap out at around 200k DPM.
-
-Melee is also unique in that to achieve such a high DPM benchmark a variety of weapon switches are needed - more so than the other styles. Since obtaining weapon switches is *not* a linear path (ie. players likely choose weapon switches based on cost), the progression path of melee makes less sense in DPM thresholds and more sense in terms of gradual incorporation of weapon switches.
-
-.tag:overview
-Having said that, PVME recommends upgrading your melee kit in this order (ordering is based off of most useful upgrade descending to the least useful upgrade - NOT based on cost).
-
-**__Melee Upgrade Order__**
-.tag:melee
-    • Scythe AND/OR Drygores <:noxscythe:513190159341322240> <:augdrygoremacemh:697485495684431902> <:augdrygorerapieroh:697485495718117536>
-    • Entry Level Perks <:ancientweapongizmo:697405383752548382> <:ancientarmourgizmo:697405383769194516>
-    • T90 Armour <:malevbody:643846996842512405>
-    • Laceration Boots <:Laceration:602581988599398400> 
-    • Greater Barge <:gbarge:535532879250456578> 
-    • Greater Flurry <:gflurry:535532879283879977> 
-    • An off-hand Lunging 4 switch + Strength Skillcape <:rapieroh:656785061072338954> <:strcape:689503815296352308>
-    • Biting 4 <:biting4:712073087809617931>
-    • An off-hand t90 Flanking 4 Switch. <:flank4:712073088296157185>
-    • Essence of Finality <:eofor:745279787471470713>
-    • Zaros Godsword <:zgs:626465964325601290> 
-    • Malevolence <:Malevolence:513190159416557573> 
-    • Masterwork Spear of Annihilation <:masterworkspearofannihilation:694566917456789554>
-    • Limitless <:limitless:641339233638023179> 
-    • Khopesh of Tumeken <:khopeshmh:513206794844110858> 
-    • P6AS1 + AS4E2 (or P6R1 on 2h) <:p6:712073088769982475><:as1:689502339891331093> <:as4:712074245202772009><:eq2:689502258424971564> <:ruthless1:712244800924942396>
-    • Custom Fitted Trimmed Masterwork <:tmwbody:536966366272552960> 
-    • Khopesh of Elidinis <:khopeshoh:513206794752098327>   
-    • Greater Fury <:gfury:535532879334080527> 
-    • SGB + IOTH <:sgb:626466665848242186> <:ingen:641339234111848463> 
-    • Hammer <:swh:641670143197446182> 
-    • Kalphite Defender <:kalphitedefender:643151141382651907>
-    • Upgrade to Flanking 4 Equilibrum 1 <:flank4:712073088296157185> <:eq1:689504357414207490>
-    • Upgrade to T92 Flanking Switch <:barrowskhopeshoh:580176857140428828>
-
-.tag:upgradeorder
 .
-> **__Choosing a drygore__**
-It is recommended to use a Drygore Mace and either a Off-hand Drygore Longsword or Off-hand Drygore Rapier. Note that all Drygores have tier 90 ability damage, and if only using abilities, the choice of Drygores would make no difference.
+⬥ If you are new to using revolution, simply let revo use basic abilities for you. 
+    • Activate Berserk <:Berserk:513190158468907012> once you reach 100% adrenaline. From there use your thresholds whenever you reach 50% adrenaline (Assault <:assault:535532853979512842>, Destroy <:destroy:535532879330148352>, Hurricane <:cane:535532878969438210>, Quake <:quake:535532879506309150>). Repeat.
 
-If considering auto attacks, maces have the fastest attack speed, and a lower auto attack damage, whereas longswords and rapiers have a slower attack speed for a slightly higher auto attack damage. The above combination of Drygores is optimal because you should never need mainhand autos, as 2h autos are always preferable, and the faster attack speeds allows for 5 tick auto attacking. However, when making use of freedom autos, then off-hand attack speed is considered.
+.
+⬥ Following this simple repeating pattern of *Build to 100% -> Berserk - > Thresholds -> Repeat*, one can expect to reach around 150k dpm with low-medium player input.
 
-.tag:drygore
-> **__Camping a weapon__**
+.
+> **__Full Manual__**
+.tag:Manual
+**__Why to Use Full Manual__**
+⬥ Full Manual is a combat mode wherein all abilities are manually activated by the player. 
+    • No automatic inputs from the game means no damaging abilities will be done, therefore this mode requires high input from the player.
 
-Camping in this context refers to the exclusive usage of either DW or 2H without taking advantage of the benefits from switching. Most players will start learning melee by grabbing a 2h or DW and camping with said weapon. While you are limited to what rotations you can do while camping 2h or DW, it is still important to optimize with what you have. Your rotation will be generally built around either Lesser Fury <:fury:535532879510372352> or Greater Fury <:gfury:535532879334080527>, depending on availability. High damage basics such as Cleave <:cleave:535532878616985610> (2h exclusive), Decimate <:deci:535532879325822986> (DW exclusive), and Sever <:sever:535532879577612298> should be used as often as possible following Fury. 
+.
+⬥ The benefit of this mode is that it allows for the greatest degree of control over which abilities are used in any given scenario. 
 
-Rotations will following a simple scheme as follows: Fury <:fury:535532879510372352> → Ability → Ability → Repeat.
+.
+⬥ Most high level pvmers opt to use this combat mode. 
 
-The general idea is to build to your Berserk <:Berserk:513190158468907012>, and then within Berserk, use Assault <:assault:535532853979512842>, then either Destroy <:destroy:535532879330148352> (DW) or Hurricane <:cane:535532878969438210> (2h), and then if you have the adrenaline to spare, use either Flurry <:gflurry:535532879283879977> (DW) or Quake <:quake:535532879506309150> (2h).
+.
+**__How to Approach Using Full Manual__**
+⬥ While it does not matter where you place your abilities on your bar with full manual, you may still find it helpful to organize your bar based on basics to thresholds to ultimate. 
+    • Refer to the revolution bars as examples.
 
-2h
+.
+⬥ Transitioning from revo to full manual can seem intimidating but all it takes is practice. 
+
+.
+⬥ Most players start by letting revolution activate basics while they manually input thresholds and ultimates. 
+    • The next step would be to manually activate basic abilities too, with revolution still active as a failsafe. 
+        - Once you feel confident in activating basic abilities manually, try turning off revolution.
+
+.
+⬥ An exercise to help you here is to only use basics for a full minute of combat on a combat dummy. 
+    • Your goal is to not lose any ticks between basic abilities, either due to cooldowns or due to not manually activating the next ability fast enough. 
+
+.
+⬥ Once you get comfortable at a combat dummy, try on a real boss such as GWD1 (Graador/Kr'il/Kree) or GWD2 (Vindicta). 
+
+.
+*There is no easy "trick" to skip past the practice. It takes time to learn full manual so stick with it!*
+
+.
+> **__Overview - Melee DPS__**
+.tag:Overview
+**__Why to Return to Your Cave Man Roots__**
+⬥ Compared to the other two combat styles, Melee is unique in that it is the only combat style that restricts you to a maximum range of 1-2 distance away from your target. 
+    • As such, it is inherently more difficult to deal with certain boss mechanics at such a close range.
+
+.
+⬥ The trade-off, and many players find this trade-off worth the disadvantages, is that Melee is unquestionably the highest DPS style of the three combat styles. 
+
+.
+⬥ Melee can reach a ceiling of 220k DPM whereas Mage and Range cap out at around 200k DPM.
+
+.
+⬥ Melee is also unique in that to achieve such a high DPM benchmark a variety of weapon switches are needed - more so than the other styles. 
+    • Since obtaining weapon switches is *not* a linear path (ie. players likely choose weapon switches based on cost), the progression path of melee makes less sense in DPM thresholds and more sense in terms of gradual incorporation of weapon switches.
+
+.
+⬥ Having said that, PVME recommends upgrading your melee kit in this order (ordering is based off of most useful upgrade descending to the least useful upgrade - NOT based on cost).
+
+.
+**__Melee Upgrade Order__**
+⬥ Blade of Nymora+off-hand Ripper claw/Masuta's Warspear <:nymorablade:643161612819365888> <:ripperclaw:797895640054759444> / <:masutaspear:643166903220699137>
+⬥ Scythe AND/OR Drygores <:noxscythe:513190159341322240> <:augdrygoremacemh:697485495684431902> <:augdrygorerapieroh:697485495718117536>
+⬥ Entry Level Perks <:ancientweapongizmo:697405383752548382> <:ancientarmourgizmo:697405383769194516>
+⬥ T90 Armour <:malevbody:643846996842512405>
+⬥ Laceration Boots <:Laceration:602581988599398400> 
+⬥ Greater Barge <:gbarge:535532879250456578> 
+⬥ Greater Flurry <:gflurry:535532879283879977> 
+⬥ An off-hand Lunging 4 switch + Strength Skillcape <:rapieroh:656785061072338954> <:strcape:689503815296352308>
+⬥ Biting 4 <:biting4:712073087809617931>
+⬥ An off-hand t90 Flanking 4 Switch. <:flank4:712073088296157185>
+⬥ Zaros Godsword <:zgs:626465964325601290> 
+⬥ Masterwork Spear of Annihilation <:masterworkspearofannihilation:694566917456789554>
+⬥ Essence of Finality <:eofor:745279787471470713>
+⬥ Malevolence <:Malevolence:513190159416557573> 
+⬥ Limitless <:limitless:641339233638023179> 
+⬥ Khopesh of Tumeken <:khopeshmh:513206794844110858> 
+⬥ P6AS1 + AS4E2 (or P6R1 on 2h) <:p6:712073088769982475><:as1:689502339891331093> <:as4:712074245202772009><:eq2:689502258424971564> <:ruthless1:712244800924942396>
+⬥ Custom Fitted Trimmed Masterwork <:tmwbody:536966366272552960> 
+⬥ Khopesh of Elidinis <:khopeshoh:513206794752098327>   
+⬥ Greater Fury <:gfury:535532879334080527> 
+⬥ Seren Godbow + Ingenuity of the Humans <:sgb:626466665848242186> <:ingen:641339234111848463> 
+⬥ Statius' Warhammer <:swh:641670143197446182> 
+⬥ Kalphite Defender <:kalphitedefender:643151141382651907>
+⬥ Upgrade to Flanking 4 Equilibrum 1 <:flank4:712073088296157185> <:eq1:689504357414207490>
+⬥ Upgrade to T92 Flanking Switch <:barrowskhopeshoh:580176857140428828>
+**Feel free to ask in <#656898197561802760> if you have any questions!**
+
+.
+**__Choosing a Drygore__**
+⬥ It is recommended to use a Drygore Mace and either a Off-hand Drygore Longsword or Off-hand Drygore Rapier. 
+    • Note that all Drygores have tier 90 ability damage, and if only using abilities, the choice of Drygores would make no difference.
+
+.
+⬥ If considering auto attacks, maces have the fastest attack speed, and a lower auto attack damage, whereas longswords and rapiers have a slower attack speed for a slightly higher auto attack damage. 
+    • The above combination of Drygores is optimal because you should never need mainhand autos, as 2h autos are always preferable, and the faster attack speeds allows for 5 tick auto attacking. 
+        - However, when making use of freedom autos, then off-hand attack speed is considered.
+
+.
+> **__Camping a Weapon__**
+.tag:Camping
+**__What to Pack for Your Camping Trip__**
+⬥ Camping in this context refers to the exclusive usage of either DW or 2H without taking advantage of the benefits from switching. 
+
+.
+⬥ Most players will start learning melee by grabbing a 2h or DW and camping with said weapon. 
+
+.
+⬥ While you are limited to what rotations you can do while camping 2h or DW, it is still important to optimize with what you have.
+
+.
+⬥ Your rotation will be generally built around either Lesser Fury <:fury:535532879510372352> or Greater Fury <:gfury:535532879334080527>, depending on availability.
+    • High damage basics such as Cleave <:cleave:535532878616985610> (2h exclusive), Decimate <:deci:535532879325822986> (DW exclusive), and Sever <:sever:535532879577612298> should be used as often as possible following Fury. 
+
+.
+⬥ Rotations will follow a simple scheme: Fury <:fury:535532879510372352> → Ability → Ability → Repeat.
+
+.
+⬥ The general idea is to build to your Berserk <:Berserk:513190158468907012>, and then within Berserk, use Assault <:assault:535532853979512842>, then either Destroy <:destroy:535532879330148352> (DW) or Hurricane <:cane:535532878969438210> (2h), and then if you have the adrenaline to spare, use either Flurry <:gflurry:535532879283879977> (DW) or Quake <:quake:535532879506309150> (2h).
+
+    • Two-Handed
 Build to 100% → Berserk <:Berserk:513190158468907012> → Assault <:assault:535532853979512842> → Hurricane <:cane:535532878969438210> → Quake <:quake:535532879506309150> → Repeat
 
-DW
+.
+    • Dual Wield
 Build to 100% → Berserk <:Berserk:513190158468907012> → Assault <:assault:535532853979512842> → Destroy <:destroy:535532879330148352> → Flurry <:gflurry:535532879283879977> → Repeat
 
-Note that for 1v1 situations, DW is more damage. In 1vMany situations, 2h deals more damage.
+.
+⬥ Note that for 1v1 situations, DW is more damage. In 1vMany situations, 2h deals more damage.
 
-.tag:camping
-> **__Flanking 4__**
+.
+> **__Weapon Switch Invention Perks__**
+.tag:SwitchPerks
+**__Flanking 4__**
+⬥ Flanking is a perk unlocked via Invention at level 55. 
+    • The effect states `Backhand, Impact and Binding Shot no longer stun and deal 40% more damage per rank to targets that are not facing you. Forceful Backhand, Deep Impact and Tight Bindings no longer stun and deal 15% more damage per rank to targets that are not facing you` and goes up to rank 4.
 
-Flanking is a perk unlocked via Invention at level 55. 
-The effect states `Backhand, Impact and Binding Shot no longer stun and deal 40% more damage per rank to targets that are not facing you. Forceful Backhand, Deep Impact and Tight Bindings no longer stun and deal 15% more damage per rank to targets that are not facing you` and goes up to rank 4.
-Should the opportunity arise at group bosses flanking can be incredibly powerful. Backhand <:backhand:535532854302605333> becomes your 2nd most powerful basic inside of Berserk while Forceful Backhand <:fbackhand:535532879346794516> becomes your 4th best threshold in Berserk. The basic ability Backhand should be used as often as possible and the threshold Forceful Backhand should be used either in Berserk or in-between Berserk cooldowns. 
+.
+⬥ Should the opportunity arise at group bosses flanking can be incredibly powerful. 
+    • Backhand <:backhand:535532854302605333> becomes your 2nd most powerful basic inside of Berserk while Forceful Backhand <:fbackhand:535532879346794516> becomes your 4th best threshold in Berserk. 
+        - The basic ability Backhand should be used as often as possible and the threshold Forceful Backhand should be used either in Berserk or in-between Berserk cooldowns. 
 
-Example rotations with Flanking:
-**2h Camping** 
+.
+**__Example Rotations with Flanking:__**
+⬥ 2h Camping 
 Berserk <:Berserk:513190158468907012> → Assault <:assault:535532853979512842> → Hurricane <:cane:535532878969438210> → Forceful Backhand-Flanking <:fbackhand:535532879346794516> → Repeat
 
-**DW Camping**
+.
+⬥ DW Camping
 Berserk <:Berserk:513190158468907012> → Assault <:assault:535532853979512842> → Destroy <:destroy:535532879330148352> → Forceful Backhand-Flanking <:fbackhand:535532879346794516> → Repeat
 
-*Note that for DW, once you have Greater Flurry <:gflurry:535532879283879977> unlocked it should be used as your 3rd threshold inside Berserk. Flanking would be downgraded to a threshold used in-between Berserk cooldowns.
+.
+*Note that for DW, once you have Greater Flurry <:gflurry:535532879283879977> unlocked it should be used as your 3rd threshold inside Berserk. Flanking would be downgraded to a threshold used in-between Berserk cooldowns.*
 
-This perk should be placed on a Dual Wield Off-hand switch and upgraded to your highest tier available (Drygore<:drygorelongmh:513190158900658180> t90 or dyed-Khopesh<:barrowskhopeshmh:580176857144492042> t92). 
+.
+⬥ This perk should be placed on a Dual Wield Off-hand switch and upgraded to your highest tier available (Drygore <:drygorelongmh:513190158900658180> t90 or dyed-Khopesh <:barrowskhopeshmh:580176857144492042> t92). 
 
-Example bosses to bring flanking to include: Vorago <:vorago:572867742613635082>, Angel of Death <:aod:580167371365548042>, group ED1-3<:Seiryu:583430543321071626><:BSD:583430542326759435><:Ambassador:583430542809235458>, Solak<:solak:580167371310891029>, and any other group bossing.
+.
+⬥ Example bosses to bring flanking to include: Vorago <:vorago:572867742613635082>, Angel of Death <:aod:580167371365548042>, group ED1-3 <:Seiryu:583430543321071626> <:BSD:583430542326759435> <:Ambassador:583430542809235458>, Solak <:solak:580167371310891029>, and any other group bossing.
 
-.tag:flanking
-> **__Lunging 4__**
+.
+**__Lunging 4__**
+⬥ Lunging is a perk unlocked via Invention at level 89.
+    • The effect states `The maximum damage of Combust, Dismember and Fragmentation shot is incrased by 20% weapon damage per rank, but enemies that move will only take 1.5x increased damage.` and goes up to rank 4. 
 
-Lunging is a perk unlocked via Invention at level 89.
-The effect states `The maximum damage of Combust, Dismember and Fragmentation shot is incrased by 20% weapon damage per rank, but enemies that move will only take 1.5x increased damage.` and goes up to rank 4. 
-The only basic bleed in melee affected by Lunging is Dismember <:dismember:535532879376023572>. Since Dismember cannot be walked to gain bonus damage, the effects of Lunging will always activate for Dismember, thus it is **strictly** an upgrade over non-lunging Dismember. In fact, the effect of Lunging is extra strong on Dismember *because* Dismember cannot be walked (the same applies to the 99 Strength Cape effect). With Lunging 4 and Strength Cape effect combined, Dismember <:dismember:535532879376023572> becomes the **strongest basic ability** for melee outside of Berserk.
-Dismember should be used outside Berserk as bleeds do not get boosted damage (Dismember has a 15s cooldown so you should plan to use Dismember before a Berserk, then 20s later, use Dismember after a Berserk).
+.
+⬥ The only basic bleed in melee affected by Lunging is Dismember <:dismember:535532879376023572>. 
+    • Since Dismember cannot be walked to gain bonus damage, the effects of Lunging will always activate for Dismember, thus it is **strictly** an upgrade over non-lunging Dismember. 
+    • In fact, the effect of Lunging is extra strong on Dismember *because* Dismember cannot be walked (the same applies to the 99 Strength Cape effect). 
+        - With Lunging 4 and Strength Cape effect combined, Dismember <:dismember:535532879376023572> becomes the **strongest basic ability** for melee outside of Berserk.
 
-The goal is to have 100% uptime of the Dismember effect when using Lunging4 + Strength Cape.
+.
+⬥ Dismember should be used outside Berserk as bleeds do not get boosted damage (Dismember has a 15s cooldown so you should plan to use Dismember before a Berserk, then 20s later, use Dismember after a Berserk).
 
-A Dual Wield Off-hand switch should be used for this perk and later upgraded to a Masterwork Spear of Annihilation <:masterworkspearofannihilation:694566917456789554> due to it further extending the duration of Dismember.
+.
+⬥ The goal is to have 100% uptime of the Dismember effect when using Lunging4 + Strength Cape.
 
-.tag:lunging
-> **__DW and 2H weapon switching__**
+.
+⬥ A Dual Wield Off-hand switch should be used for this perk and later upgraded to a Masterwork Spear of Annihilation <:masterworkspearofannihilation:694566917456789554> due to it further extending the duration of Dismember.
 
-The biggest jump in DPM will come from incorporating weapon juggling of DW and 2h weapons. Having both weapon styles gives access to both DW Decimate<:deci:535532879325822986> and 2h Cleave<:cleave:535532878616985610> basic abilities, each sporting a strong 188% ability damage and a low 7s cooldown. **Even if you have to pair a high tier weapon with a lower tier weapon, the ability to access both Deci/Cleave is worth it** (eg. Drygores with Dragon Rider Lance). With DW/2h Switching, it is possible to break beyond the 170k DPM barrier that Camping generally struggles to overcome.
+.
+> **__Intermediate and Advanced Tactics__**
+.tag:IntAdvTactics
+**__DW and 2H Weapon Switching__**
+⬥ The biggest jump in DPM will come from incorporating weapon juggling of DW and 2h weapons. 
 
-Example pairings of DW and 2h weapons:
+.
+⬥ Having both weapon styles gives access to both DW Decimate <:deci:535532879325822986> and 2h Cleave <:cleave:535532878616985610> basic abilities, each sporting a strong 188% ability damage and a low 7s cooldown. 
+    • Even if you have to pair a high tier weapon with a lower tier weapon, the ability to access both Deci/Cleave is worth it (eg. Drygores with Dragon Rider Lance). 
+
+.
+⬥ With DW/2h Switching, it is possible to break beyond the 170k DPM barrier that Camping generally struggles to overcome.
+
+.
+⬥ Example pairings of DW and 2h weapons:
     • t70 Abyssal Whip + Enhanced Excalibur
     • t80 Avaryss and Nymora Blades
     • t90 Elder Rune
-    • t90 Drygores<:drygorelongmh:513190158900658180>
-    • t92 Khopeshes<:khopeshmh:513206794844110858> <:khopeshoh:513206794752098327>
+    • t90 Drygores <:drygorelongmh:513190158900658180>
+    • t92 Khopeshes <:khopeshmh:513206794844110858> <:khopeshoh:513206794752098327>
 
     • t70 Any GWD1 Godsword
-    • t80 Dragon Rider Lance<:dragonriderlance:643161541931171872>
-    • t90 Noxious Scythe<:noxscythe:513190159341322240> 
-    • t92 Zaros Godsword<:zgs:626465964325601290>
+    • t80 Dragon Rider Lance <:dragonriderlance:643161541931171872>
+    • t90 Noxious Scythe <:noxscythe:513190159341322240> 
+    • t92 Zaros Godsword <:zgs:626465964325601290>
 
-.tag:dw2hswitching
-Here we will abandon camping rotations built around Fury <:fury:535532879510372352> <:gfury:535532879334080527> 
+.
+⬥ Here we will abandon camping rotations built around Fury <:fury:535532879510372352> <:gfury:535532879334080527> 
 Fury <:fury:535532879510372352> <:gfury:535532879334080527> → Basic → Basic → Repeat.
 
-Your new DW/2h rotations will be built around Decimate<:deci:535532879325822986> and Cleave<:cleave:535532878616985610>
+.
+⬥ Your new DW/2h rotations will be built around Decimate <:deci:535532879325822986> and Cleave <:cleave:535532878616985610>
 Deci <:deci:535532879325822986> → Cleave <:cleave:535532878616985610> → Ability → Ability → Repeat.
 OR 
 Cleave <:cleave:535532878616985610> → Deci <:deci:535532879325822986> → Ability → Ability → Repeat.
 
-Substitute 'Ability' with other strong basic abilities such as Dismember<:dismember:535532879376023572>, Sever<:sever:535532879577612298>, Fury<:gfury:535532879334080527>, Backhand-Flanking<:fbackhand:535532879346794516>, etc. We use Deci/Cleave as often as possible as they each have a 7s cooldown and deal great damage at 188% ability damage. 
+.
+⬥ Substitute 'Ability' with other strong basic abilities such as Dismember <:dismember:535532879376023572>, Sever <:sever:535532879577612298>, Fury <:gfury:535532879334080527>, Backhand-Flanking <:backhand:535532854302605333>, etc. 
+    • We use Deci/Cleave as often as possible as they each have a 7s cooldown and deal great damage at 188% ability damage. 
 
 .
-Berserk Rotations will also change once you begin DW/2h switching:
-
-__With Adrenaline Pot__
+**__Berserk Rotations with DW/2h Switching__**
+*Note: these are different than the weapon camping rotations*
+⬥ **With Adrenaline Pot**
 Berserk<:Berserk:513190158468907012> → Assault<:assault:535532855191928842> → Destroy<:destroy:535532879330148352> → Forceful Backhand<:fbackhand:535532879346794516> 
 
 OR 
 
-Berserk<:Berserk:513190158468907012> → Assault <:assault:535532855191928842> → Destroy <:destroy:535532879330148352> → Greater Flurry<:gflurry:535532879283879977>
+Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> → Destroy <:destroy:535532879330148352> → Greater Flurry <:gflurry:535532879283879977>
 
-__Without Adrenaline Pot__
-Berserk<:Berserk:513190158468907012> → Assault <:assault:535532855191928842> → Hurricane<:cane:535532878969438210> → Forceful Backhand<:fbackhand:535532879346794516>
+⬥ **Without Adrenaline Pot**
+Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> → Hurricane <:cane:535532878969438210> → Forceful Backhand <:fbackhand:535532879346794516>
 
 OR 
 
-Berserk<:Berserk:513190158468907012> → Assault <:assault:535532855191928842> → Hurricane <:cane:535532878969438210> → Greater Flurry<:gflurry:535532879283879977> 
+Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> → Hurricane <:cane:535532878969438210> → Greater Flurry <:gflurry:535532879283879977> 
 
-Note: use Greater Flurry<:gflurry:535532879283879977> over Forceful Backhand-Flanking<:fbackhand:535532879346794516> if you have it available
+*Note: use Greater Flurry <:gflurry:535532879283879977> over Forceful Backhand-Flanking <:fbackhand:535532879346794516> if you have it available*
 
 .
-> **__2h vs DW assault__**
-Assault hit splats will land at different times depending on whether it is cast with 2h or DW. The timing to cancel it remains unchanged.
-2 4 6 8 for 2h
-3 5 7 9 for dw
-
+**__2h vs DW Assault__**
+⬥ Assault hit splats will land at different times depending on whether it is cast with 2h or DW. 
+    • The timing to cancel it remains unchanged.
+```2 4 6 8 for 2h
+3 5 7 9 for dw```
 .img:https://i.imgur.com/sQpb7RM.mp4
 
 .
 > **__Auto Attacks__**
-Once you've incorporated DW/2h Switching, auto attacks become more prevelant as a dps tool. When you can auto attack is based on a delay depending on your weapon speed: 
-
-DW <:augdrygoremacemh:697485495684431902> = 4t, 2h<:zgs:626465964325601290> = 6t.
-We will be using 2h auto attacks as they deal more damage.
-
-There are two specific instances of when you want to incorporate auto attacks into your rotation; one is 'passive', the other will is 5taa.
-__'Passive' auto attacks__
-
-By performing a non-damaging ability with DW equipped, the auto attack cooldown is initiated and begins counting down; 5t cooldown, a GCD is 3t. After GCD, waiting an additional 2t would mean your auto attack becomes available again. By swapping to a 2h, an auto attack can be used by clicking on your target (click BEFORE inputting an ability). Auto attacks can deal up to 5k damage, 8k in a Berserk and in most cases is worth the 2t wait. 
-Thus, you can perform an auto attack on every Berserk<:Berserk:513190158468907012> activation by doing the following:
-
-Equip DW → Berserk → Swap to 2h and wait 2t → Click target (Auto Attack) → Continue with Zerk rotation
-
-Note: This technique becomes more prevelant with the introduction of Greater Barge, which is discussed later in this channel.
-Note: I call this section 'passive' auto attacks as they can be weaved relatively passively into your normal rotation. I would call this section 'loseless' though that is not technically true.
-
-.tag:autos
-> **__5taa__**
-Auto attacks can be used 'actively' in what's known as 5taa. Similar to mage, the idea is to use a 2h auto attack every other ability, in a pattern of: 
-
-Auto Attack → Ability1 → Ability2 → Repeat. 
-
-https://youtu.be/9cwMPBt6mg0
-.tag:5taa
-https://youtu.be/AzswBOuBnUQ
-
-Ability2 must be a DW ability and must not be a channeled ability. Input Ability1 as soon as you see the sword swing animation from the Auto attack. Timing will take practice. There are no restrictions on what Ability1 can be. This rotation has a similar damage output compared to the Deci/Cleave rotation and is **situationally** utilized when you run out of 'good' abilities. Remember, Auto attacks are not abilities so they are always available.
+.tag:AutoAttacks
+**__What They are and When to Use Them__**
+⬥ Once you've incorporated DW/2h Switching, auto attacks become more prevelant as a dps tool.
 
 .
-__There are two major downsides of 5taa to consider:__
+⬥ When you can auto attack is based on a delay depending on your weapon speed: DW <:augdrygoremacemh:697485495684431902> = 4t, 2h <:zgs:626465964325601290> = 6t.
 
-1) Slower adrenaline gain: Melee 2h Autos only give 3% adrenaline. Since you are doing an auto every other ability, coupled with standing idle for 2 ticks every other ability, you gain adrenaline at a much slower pace than with traditional rotations.
+.
+⬥ We will be using 2h auto attacks as they deal more damage.
 
-2) There is no button to force melee auto attacks. This means you have to stand idle for 2 ticks after Ability2 and *wait* for the auto attack to come out, before inputting your next ability. Proper timing will require practice. Input an ability too fast and you lose the Auto attack. Input an ability too slow and you lose DPS. 
+⬥ There are two specific instances of when you want to incorporate auto attacks into your rotation; one is 'passive', the other will is 5taa.
 
-These two reasons are why 5taa is a situational technique though it is still worth mentioning.
+.
+**__'Passive' Auto Attacks__**
+⬥ By performing a non-damaging ability with DW equipped, the auto attack cooldown is initiated and begins counting down; 5t cooldown, a GCD is 3t. 
+
+.
+⬥ After GCD, waiting an additional 2t would mean your auto attack becomes available again. 
+
+.
+⬥ By swapping to a 2h, an auto attack can be used by clicking on your target (click BEFORE inputting an ability).
+
+.
+⬥ Auto attacks can deal up to 5k damage, 8k in a Berserk and in most cases is worth the 2t wait. 
+
+.
+⬥ You can perform an auto attack on every Berserk <:Berserk:513190158468907012> activation by doing the following:
+Equip DW → Berserk → Swap to 2h and wait 2t → Click target (Auto Attack) → Continue with Zerk rotation
+
+.
+*Note: This technique becomes more prevelant with the introduction of Greater Barge, which is discussed later in this channel.* 
+*Note: I call this section 'passive' auto attacks as they can be weaved relatively passively into your normal rotation. I would call this section 'loseless' though that is not technically true.*
+
+.
+**__5TAA__**
+⬥ Auto attacks can be used 'actively' in what's known as 5taa. 
+
+.
+⬥ Similar to mage, the idea is to use a 2h auto attack every other ability, in a pattern of: 
+Auto Attack → Ability1 → Ability2 → Repeat. 
+.
+https://youtu.be/9cwMPBt6mg0
+.
+⬥ Ability2 must be a DW ability and must not be a channeled ability. 
+
+.
+⬥ Input Ability1 as soon as you see the sword swing animation from the Auto attack. 
+    • Timing will take practice. 
+    • There are no restrictions on what Ability1 can be. 
+
+.
+⬥ This rotation has a similar damage output compared to the Deci/Cleave rotation and is **situationally** utilized when you run out of 'good' abilities. 
+    • Remember, Auto attacks are not abilities so they are always available.
+.
+https://youtu.be/AzswBOuBnUQ
+.
+**__Major Downsides of 5TAA to Consider:__**
+
+⬥ Slower adrenaline gain: Melee 2h Autos only give 3% adrenaline. 
+    • Since you are doing an auto every other ability, coupled with standing idle for 2 ticks every other ability, you gain adrenaline at a much slower pace than with traditional rotations.
+
+⬥ There is no button to force melee auto attacks.
+    • This means you have to stand idle for 2 ticks after Ability2 and *wait* for the auto attack to come out, before inputting your next ability. 
+    • Proper timing will require practice. 
+        - Input an ability too fast and you lose the Auto attack. 
+        - Input an ability too slow and you lose DPS. 
+
+⬥ These two reasons are why 5taa is a situational technique though it is still worth mentioning.
 
 .
 > **__Deviating Upgrade Paths__**
+.tag:DeviatingUpgradePath
+**__Two Roads Diverged in a Yellow Wood__**
+*Note: As with any upgrade path, feel free to ask any questions you have in <#656898197561802760>*
 
-The prioritization of upgrades can vary depending on what your focus is with PvM. The remaining upgrades are also very expensive, varying from 100m to 1b.
+.
+⬥The prioritization of upgrades can vary depending on what your focus is with PvM. 
+    • The remaining upgrades are also very expensive, varying from 100m to 1b.
 
-If you will be primarily doing Vorago or Solak, it is recommended to pick up a Greater Barge codex <:gbarge:535532879250456578>. Its special affect allows you to turn channeled abilities into bleeds.
+.
+⬥ If you will be primarily doing Vorago or Solak, it is recommended to pick up a Greater Barge codex <:gbarge:535532879250456578>.     • Its special affect allows you to turn channeled abilities into bleeds.
 
-If you're more interested in bosses such as Angel of Death, Raids - Beastmaster & Yakamaru, or faster kills at Araxxor, it is recommended to buy a Zaros Godsword. Its extremely powerful special attack greatly improves your sustained DPM.
+.
+⬥ If you're more interested in bosses such as Angel of Death, Raids - Beastmaster & Yakamaru, or faster kills at Araxxor, it is recommended to buy a Zaros Godsword. 
+    • Its extremely powerful special attack greatly improves your sustained DPM.
 
-At high defense bosses such as Vorago, Angel of Death, and Raids - Beastmaster & Yakamaru, it is recommended to pick up a Statius' Warhammer. It has a special attack which significantly lowers defences for 1 minute. 
+.
+⬥ At high defense bosses such as Vorago, Angel of Death, and Raids - Beastmaster & Yakamaru, it is recommended to pick up a Statius' Warhammer. 
+    • It has a special attack which significantly lowers defences for 1 minute. 
 
-In the end you should aim to grab all three of these upgrades.
+.
+⬥ In the end you should aim to grab all three of these upgrades.
 
-.tag:deviatingupgradepath
+.
 **__Zaros Godsword__**
+⬥ The Zaros Godsword <:zgs:626465964325601290> is a T92 2H melee weapon noteworthy for its powerful Special Attack 'Blackhole'. 
+    • Blackhole is a DPS buff - essentially a Sunshine or Death's Swiftness for melee - which uses 50% Adrenaline (45% with Vigour <:vigour:615613235512737792>), buffs damage by 20% and lasts for 20 seconds. 
+    • It should be used in rotation with Berserk (ie. use Blackhole when Berserk is on cooldown) OR when the situation is too dangerous to Berserk in. 
 
-The Zaros Godsword<:zgs:626465964325601290> is a T92 2H melee weapon noteworthy for its powerful Special Attack 'Blackhole'. Blackhole is a DPS buff - essentially a Sunshine or Death's Swiftness for melee - which uses 50% Adrenaline (45% with Vigour<:vigour:615613235512737792>), buffs damage by 20% and lasts for 20 seconds. It should be used in rotation with Berserk (ie. use Blackhole when Berserk is on cooldown) OR when the situation is too dangerous to Berserk in. ZGS rotations are similar to Berserk rotations but vary based on the boss. 
-Note that you do not need to keep ZGS equipped once you've activated its special attack. Also note that ZGS does not have scythe range.
+.
+*Note that you do not need to keep ZGS equipped once you've activated its special attack. Also note that ZGS does not have scythe range.*
 
-As for adrenaline potions, it is recommended to save adrenaline potions for Berserk as it is more valuable in Berserk with its higher damage modifier.
+.
+⬥ ZGS rotations are similar to Berserk rotations but vary based on the boss. 
 
+.
+⬥ As for adrenaline potions, it is recommended to save adrenaline potions for Berserk as it is more valuable in Berserk with its higher damage modifier.
+
+.
 Berserk <:Berserk:513190158468907012> + Adrenaline Potion <:replenpot:641337470491033600> / Limitless Sigil <:limitless:641339233638023179> → Berserk Cooldown → ZGS Special → ZGS Cooldown → Repeat
 
 .
 **__Statius' Warhammer__**<:swh:641670143197446182>
+⬥ One of the more powerful aspects of melee in group pvm is access to the SWH special attack without the need for an Ingenuity of the Humans ability <:ingen:641339234111848463>. 
 
-One of the more powerful aspects of melee in group pvm is access to the SWH special attack without the need for an Ingenuity of the Humans ability<:ingen:641339234111848463>. If you intend to do group PvM it is recommended to buy a SWH and use its special attack at high defence bosses (eg. Vorago, Yakamaru, Beast Master, Angel of Death). Usage of the SWH varies from boss to boss and will be covered more specifically in our boss guides.
+.
+⬥ If you intend to do group PvM it is recommended to buy a SWH and use its special attack at high defence bosses (eg. Vorago, Yakamaru, Beast Master, Angel of Death). 
+
+.
+⬥ Usage of the SWH varies from boss to boss and will be covered more specifically in our boss guides.
 
 .
 **__Greater Barge__** 
+⬥ Greater Barge <:gbarge:535532879250456578> can be unlocked through consuming a Greater Barge Ability Codex and transforms your lesser Barge ability to Greater Barge. 
 
-Greater Barge <:gbarge:535532879250456578> can be unlocked through consuming a Greater Barge Ability Codex and transforms your lesser Barge ability to Greater Barge. The description of Greater Barge is as follows:
-
+.
+⬥ The description of Greater Barge is as follows:
 `Greater barge requires the player to stop attacking their target for 3 seconds (5 ticks, roughly 2 GCD). At this point, the greater barge icon will show up on your buff bar. This indicates that the gbarge buff is ready to be activated. Barge your target, and a Provoke icon will appear on your buff bar with a 10 tick (roughly 3 GCD) timer. At any point during these 10 ticks any channeled ability you cast will become a damage-over-time bleed instead.` 
-
+.
 https://youtu.be/GPPMjY2wrjw
 .
-This effect is **EXTREMELY** powerful and can create lots of burst DPS. It is also extremely useful in any scenarios where you are forced to stop attacking due to a mechanic (eg. reflecting Web at Araxxor, phasing at Yakamaru pools, reflects at Vorago, phasing at Solak, etc) as these downtimes allow for Greater Barge to proc its waiting initial effect.
-
-The applications of this are explored moreso in our specific boss guides but generally it is used as follows:
-Wait 5 ticks to proc Greater Barge → Barge Target → Activate channeled threshold (eg. Assault<:assault:535532853979512842>, Destroy<:destroy:535532879330148352>, or Greater Flurry<:gflurry:535532879283879977>) → Continue DPS rotation within next GCD.
-
-Greater Barge is also often used in tandom with Berserk and Greater Flurry for even more burst DPS. Starting the rotation at 92% adrenaline:
-Anticipate <:anti:535541306475151390> → Berserk <:Berserk:513190158468907012> → gBarge <:gbarge:535532879250456578> → Greater Flurry <:gflurry:535532879283879977> (bleed) → Continue with DPS
-Using greater flurry as gBarge's bleed will allow its full duration to take effect thereby lowering Berserk's cooldown. In this rotation, Anticipate can be replaced with Resonance <:res:535541258844635148> if you think you will have a hard time surviving after you Berserk. 
+⬥ This effect is **EXTREMELY** powerful and can create lots of burst DPS. 
 
 .
-__Notes on gBarge__
-The 'bleed' from gBarge is not a true bleed. There are several ramifications of this:
-  1) Multiple people can stack a gBarge 'bleed' on the same target and they will not override each other. 
-  2) Equipping a different tier weapon *after* you apply the bleed will change the bleed's damage according to the latter weapon tier. For example, if you apply the gBarge bleed with Drygores (t90) equipped, then switch to ZGS (t92) the damage will be calculated as a t92 weapon.
-    2.1) If the initial weapon has a special effect against a target, the effect can activate *after* you switch to another weapon. For example, apply a gBarge bleed with Terrasaur Maul<:terramaul:602561894829522954> then switching to Khopeshes will apply its special buff against Ranged monsters during its bleed calculations, to give T92 + 12.5% damage, rather than T80 + 12.5%.
-  3) During Yakamaru's Stun Pool, mbarging a Destroy ability will still apply its stun effect for the entire 4 hits. This can be a costly mistake.
-    3.1) Akin to note 2, switching to a flanking weapon during the gBarge bleed effect will null the stun effect. 
-  4) Normally Vorago will clear bleeds at the start of its Reflect mechanic. Since gBarge is not a true bleed, it will not clear the bleed effect. This makes it very easy to PK teammates if you have miscounted auto attacks. Use with caution at Vorago.
-  5) There is currently a glitch that prevents the gBarge bleed effect from procing, despite having been outside of combat for the required duration. It is currently thought to be caused by being out of combat for 10 seconds with no target, then re-entering combat with gBarge, though the causes of this glitch is still unclear.
+⬥ It is also extremely useful in any scenarios where you are forced to stop attacking due to a mechanic (eg. reflecting Web at Araxxor, phasing at Yakamaru pools, reflects at Vorago, phasing at Solak, etc) as these downtimes allow for Greater Barge to proc its waiting initial effect.
+
+.
+⬥ The applications of this are explored moreso in our specific boss guides but generally it is used as follows:
+Wait 5 ticks to proc Greater Barge → Barge Target → Activate channeled threshold (eg. Assault <:assault:535532853979512842>, Destroy <:destroy:535532879330148352>, or Greater Flurry <:gflurry:535532879283879977>) → Continue DPS rotation within next GCD.
+
+⬥ Greater Barge is also often used in tandom with Berserk and Greater Flurry for even more burst DPS. Starting the rotation at 92% adrenaline:
+Anticipate <:anti:535541306475151390> → Berserk <:Berserk:513190158468907012> → gBarge <:gbarge:535532879250456578> → Greater Flurry <:gflurry:535532879283879977> (bleed) → Continue with DPS
+
+.
+⬥ Using greater flurry as gBarge's bleed will allow its full duration to take effect thereby lowering Berserk's cooldown. 
+    • In this rotation, Anticipate can be replaced with Resonance <:res:535541258844635148> if you think you will have a hard time surviving after you Berserk. 
+
+.
+**__Notes on gBarge__**
+⬥ Multiple people can stack a gBarge 'bleed' on the same target and they will not override each other. 
+
+.
+⬥ Equipping a different tier weapon *after* you apply the bleed will change the bleed's damage according to the latter weapon tier. 
+    • For example, if you apply the gBarge bleed with Drygores (t90) equipped, then switch to ZGS (t92) the damage will be calculated as a t92 weapon.
+
+.
+⬥ If the initial weapon has a special effect against a target, the effect can activate *after* you switch to another weapon. 
+    • For example, apply a gBarge bleed with Terrasaur Maul<:terramaul:602561894829522954> then switching to Khopeshes will apply its special buff against Ranged monsters during its bleed calculations, to give T92 + 12.5% damage, rather than T80 + 12.5%.
+
+.
+⬥ During Yakamaru's Stun Pool, mbarging a Destroy ability will still apply its stun effect for the entire 4 hits. This can be a costly mistake.
+
+.
+⬥ Akin to note 2, switching to a flanking weapon during the gBarge bleed effect will null the stun effect. 
+
+.
+⬥ Normally Vorago will clear bleeds at the start of its Reflect mechanic. 
+    • Since gBarge is not a true bleed, it will not clear the bleed effect. 
+    • This makes it very easy to PK teammates if you have miscounted auto attacks. 
+    • Use with caution at Vorago.
+
+.
+⬥ There is currently a glitch that prevents the gBarge bleed effect from procing, despite having been outside of combat for the required duration. 
+    • It is currently thought to be caused by being out of combat for 10 seconds with no target, then re-entering combat with gBarge, though the causes of this glitch is still unclear.
 
 .
 **__Greater Fury__**
-Greater Fury can be unlocked through consuming a Greater Fury Ability Codex. This does two things: 1) Fury is no longer a channeled ability and instead only hits once dealing 157% ability damage, and 2) gains an extra effect where getting a critical hit with Fury will guarentee your next hit to be a crit as well.
+⬥ Greater Fury can be unlocked through consuming a Greater Fury Ability Codex. 
 
-The main benefit to this upgrade is transforming this ability from a channeled ability to a gcd ability. This allows fury to be used in revo++ and revolution set ups without needing a manual input to cancel on gcd. The crit effect can also be beneficial to overall DPS though it is random.
+.
+⬥ This does two things: 1) Fury is no longer a channeled ability and instead only hits once dealing 157% ability damage, and 2) gains an extra effect where getting a critical hit with Fury will guarentee your next hit to be a crit as well.
+
+.
+⬥ The main benefit to this upgrade is transforming this ability from a channeled ability to a gcd ability. 
+    • This allows fury to be used in revo++ and revolution set ups without needing a manual input to cancel on gcd. 
+
+.
+⬥ The crit effect can also be beneficial to overall DPS though it is random.
 
 .
 **__Greater Flurry__**
-Greater Flurry can be unlocked through consuming a Greater Flurry Ability Codex. 
-The effect states: `Perform a flurry of blows against your surrounding targets, dealing up to 94% weapon damage per hit over 3.6 seconds. If only one target is nearby, up to 157% weapon damage per hit will be dealt instead. Additionally if an attack hits any target per swing, the cooldown of Berserk will be reduced by 1.2 seconds each swing.`
-
-Once you've unlocked this threshold, it becomes your 3rd best threshold in Berserk. In addition, its unique effect of reducing Berserk cooldown is very useful in overall Melee rotations. There are several ways of using GFlurry. You can either cancel it on GCD (ie. 2 hits) for burst damage, or use it for its entire duration for its Berserk reduction effect. If you bleed this threshold using gBarge, all bleed hits will contribute towards reducing Berserk's cooldown. This is used extensively at Aod and Solak where players want to Berserk as often as possible through out the fight.
+⬥ Greater Flurry can be unlocked through consuming a Greater Flurry Ability Codex. 
 
 .
-> **__Remaining Upgrades__**
-
-At this stage, all important upgrades have been obtained and all that remains is to get inherent DPM boosting upgrades. Following this, buy either Khopeshes or a T99 Codex, depending on which one is cheaper. Then it is encouraged to start picking up things such as Trimmed Masterwork (which is very useful due to its set effect, and can save your ass at times), and dyed Lunging or Flanking switches. 
+⬥ The effect states: 
+`Perform a flurry of blows against your surrounding targets, dealing up to 94% weapon damage per hit over 3.6 seconds. If only one target is nearby, up to 157% weapon damage per hit will be dealt instead. Additionally if an attack hits any target per swing, the cooldown of Berserk will be reduced by 1.2 seconds each swing.`
 
 .
-> **__Example 5 Minute Melee Gems__**
+⬥ Once you've unlocked this threshold, it becomes your 3rd best threshold in Berserk. 
 
-.tag:5mingems
+.
+⬥ In addition, its unique effect of reducing Berserk cooldown is very useful in overall Melee rotations. 
+
+.
+⬥ There are several ways of using GFlurry. 
+    • You can either cancel it on GCD (ie. 2 hits) for burst damage, or use it for its entire duration for its Berserk reduction effect. 
+    • If you bleed this threshold using gBarge, all bleed hits will contribute towards reducing Berserk's cooldown. 
+        - This is used extensively at Aod and Solak where players want to Berserk as often as possible through out the fight.
+
+.
+**__Remaining Upgrades__**
+⬥ At this stage, all important upgrades have been obtained and all that remains is to get inherent DPM boosting upgrades. 
+    • Following this, buy either Khopeshes or a T99 Codex, depending on which one is cheaper. 
+    • Then it is encouraged to start picking up things such as Trimmed Masterwork (which is very useful due to its set effect, and can save your ass at times), and dyed Lunging or Flanking switches. 
+
+.
+> **__Gem Rotations__**
+.tag:Rotations
+*Note: These are not going to necessarily translate to boss rotations, but it can help aid you in getting an idea of to make use of your abilities*
+**__5 Minute 0% Start Melee Rotation (Courtesy of <@!236559830121185290>)__**
+.img:https://i.imgur.com/gjDPnY1.png
+.
+**__5 Minute 0% Start No Mutated/Sigil/ZGS__(Courtesy of <@!236559830121185290>)**
+.img:https://i.imgur.com/fuHQDk3.png
+.
+**__Basic Gems__**
 https://youtu.be/vLby8g5RNRU (Courtesy of RSN Mateooo)
 .
 https://youtu.be/r4_8w3jwAnI (Courtesy of <@!236559830121185290>)
@@ -338,29 +552,20 @@ https://youtu.be/YRuCFmXOA3I (Sigil; Courtesy of <@!236559830121185290>)
 **__No ZGS/Enh Apot/Mutated Abilities__**
 https://youtu.be/5gX2iBeToPk (<@!236559830121185290>)
 .
-**__5 Minute 0% Start Melee Rotation (Courtesy of <@!236559830121185290>)__**
-.img:https://i.imgur.com/gjDPnY1.png
-.
-**__5 Minute 0% Start No Mutated/Sigil/ZGS__(Courtesy of <@!236559830121185290>)**
-.img:https://i.imgur.com/fuHQDk3.png
-.
-> **__Prioritization__**
+**__Prioritization__**
 Note: This is distinct from ordering and only explains which abilities are good in a vacuum.
 .img:https://i.imgur.com/kSuOqLi.png
 .
 > **__Table of Contents__**
-⬥ **Abbrevations** - $linkmsg_abbrevations$
-⬥ **Revo++** - $linkmsg_revo++$
-⬥ **Revolution** - $linkmsg_revo$
-⬥ **Full Manual** - $linkmsg_fullmanual$
-⬥ **Overview** - $linkmsg_overview$
-⬥ **Recommended Upgrade Order** - $linkmsg_upgradeorder$
-⬥ **Choosing a Drygore** - $linkmsg_drygore$
-⬥ **Flanking** - $linkmsg_flanking$
-⬥ **Lunging** - $linkmsg_lunging$
-⬥ **DW/2h switching** - $linkmsg_dw2hswitching$
-⬥ **Melee autos** - $linkmsg_autos$
-⬥ **5taa** - $linkmsg_5taa$
-⬥ **Deviating Upgrade path** - $linkmsg_deviatingupgradepath$
-⬥ **Example 5 Minute Melee gems** - $linkmsg_5mingems$
+⬥ **Introduction** - $linkmsg_Intro$
+⬥ **Terminology** - $linkmsg_Abb$
+⬥ **Revolution** - $linkmsg_Revo$
+⬥ **Full Manual** - $linkmsg_Manual$
+⬥ **Overview - Melee DPS** - $linkmsg_Overview$
+⬥ **Camping a Weapon** - $linkmsg_Camping$
+⬥ **Weapon Switch Invention Perks** - $linkmsg_SwitchPerks$
+⬥ **Intermediate and Advanced Tactics** - $linkmsg_IntAdvTactics$
+⬥ **Auto Attacks** - $linkmsg_AutoAttacks$
+⬥ **Deviating Upgrade Paths** - $linkmsg_DeviatingUpgradePath$
+⬥ **Gem Rotations** - $linkmsg_Rotations$
 .pin:delete
