@@ -109,6 +109,8 @@ __**Rotation/Ability Formatting**__
     • Waiting in rotations: <:devo:513190158728953857> → (wait 2t) → <:surge:535533810004262912> → <:Sunshine:583430011948630016>
         - Specify ticks starting from cast of previous action. The above exactly casts surge before the end of the devotion global cooldown.
 .
+⬥ Stalled abilities will be denoted as s[ability], and releasing the stalled abilities will be denoted as r[ability] + next ability.
+    • Example: s<:sonic:535533809924571136> → r<:sonic:535533809924571136> + <:dbreath:535533833391702017>.
 ⬥ Auto attacks are implied when using defensives (defensives imply 2h auto, freedom implies oh/2h auto).
 ⬥ Include replen/enh replen/overkills where they are used.
 ⬥ Include sigils (limitless/ingenuity/slayers) where they are used.
@@ -140,6 +142,7 @@ __**Discord Commands (to be used in <#689575078698287152>**__)
 .
 > __**Table of Contents (formatting)**__
 .tag:toc
+**__ToC Formatting__**
 ⬥ The table of contents should be at the end of the guide.
 ⬥ The table of contents should be in a section titled "Table of Contents".
 ⬥ The table of contents should be pinned in the channel.
@@ -148,6 +151,14 @@ __**Discord Commands (to be used in <#689575078698287152>**__)
     • Example entry: **Sectionword** - $linkmsg_tagword$
         - the tagword as mentioned above is how the bot knows to make a message link to the appropriate message. under the Section, add a blank line with the command `.tag:[word]`.
 ⬥ Utilise the below table of contents as an example.
+
+.
+> __**Putting it all Together**__
+.tag:finish
+A guide is just multiple sections with subsections and lists when it comes down to it.
+__**Example of an entire section formatted__**
+.img:https://i.imgur.com/ZXLNEgX.png
+⬥ Follow this basic format and incorporate the other guidelines such as embedding or rotations, and you should be well on your way to having a stylized guide.
 
 .
 > __**Table of Contents**__
@@ -159,4 +170,4 @@ __**Discord Commands (to be used in <#689575078698287152>**__)
 ⬥ **Rotations** - $linkmsg_rotations$
 ⬥ **Helpful Commands** - $linkmsg_help$
 ⬥ **Table of Contents (formatting)** - $linkmsg_toc$
-
+⬥ **Putting it all Together** - $linkmsg_finish$
