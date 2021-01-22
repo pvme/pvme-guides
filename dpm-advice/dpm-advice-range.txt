@@ -1,272 +1,269 @@
+> **__Introduction__**
+.tag:intro
 In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics. This channel will go over general damage output lessons, ability prioritizations, crafting a rotation, a learning path, common mistakes, and tips and tricks.
 
 .
-> **__Abbreviations__**
-DPM - damage per minute, a measure of how much damage is done over a minute time
-
-DPS - damage per second, or in-general referring to damage
-
-DW - dual wield, crossbow weapons
-
-2h - Two hand, a bow weapon
-
-Juggling/Swapping - Generally referring to switching between dual wield and 2h weapons to gain access to more damaging abilities
-
-Camping - Refers to using only one type of weapon, ie. 2h camping or DW camping
-
-Rotation - Refers to the usage of abilities and managing ability cooldowns
-
-Switch - Refers to a weapon or gear item that is equipped and use temporarily for its effects
-
-Auto - an auto attack, an arrow/bolt from your ammo slot and deals damage based off of equipment tier
-
-Tick - A unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
-
-Lossless - meaning no ticks are lost in performing an action
-
-GCD - global cooldown. An innate cooldown built into every ability. Lasts for 3 ticks (1.8 seconds)
-
-For more abbreviations, see Evil Lucario's list of common PVM Lingo and Abbreviations: https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/
-
+> **__Terminology__**
 .tag:abbrevations
-> **__Revo++__**
-Revolution++ is a combat mode wherein you can toggle the game to automatically activate basic, threshold, and ultimate abilities automatically upon reaching the required adrenaline. While we do not encourage using Revo++ as it limits the amount of control a player has over their own rotation, it is low-input and low maintenance. Revo++ can be desirable for afking, low-effort pvm, or slayer tasks. Here is an ability bar we recommend for Revo++. Using this recommended ability bar with zero player input you can achieve a DPM of roughly 130k.
+**__Common Abbreviations in PvM__**
+⬥ **DPM** - damage per minute, a measure of how much damage is done over a minute time
+⬥ **DPS** – damage per second, or in-general referring to damage
+⬥ **DW** – dual wield, a wand/orb or wand/book weapon
+⬥ **2h** – Two hand, a staff weapon
+⬥ **Juggling/Swapping** – Generally referring to switching between dual wield and 2h weapons to gain access to more damaging abilities
+⬥ **Camping** – Refers to using only one type of weapon, ie. 2h camping or DW camping
+⬥ **Rotation** – Refers to the usage of abilities and managing ability cooldowns
+⬥ **Switch** – Refers to a weapon or gear item that is equipped and use temporarily for its effects
+⬥ **Auto** – an auto attack, damage based on which spell tier is used in your spellbook
+⬥ **Tick** – A unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
+⬥ **Lossless** - meaning no ticks are lost in performing an action
+⬥ **GCD** - global cooldown. An innate cooldown built into every ability. Lasts for 3 ticks (1.8 seconds)
 
-To toggle on revolution++ and highlight how many abilities to trigger with it, click the clog icon on your ability bar:
-.tag:revo++
-.img:https://i.imgur.com/jCHwBgT.png
+For more abbreviations, see <@145413546409197569> list of common PvM Lingo and Abbreviations: <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/>
+
 .
-.img:https://i.imgur.com/6Fmy2MK.png
 > **__Revolution__**
-Revolution (not revo++) is a combat mode wherein basic abilities are used automatically by the game but threshold and ultimate abilities are manually activated. Newer players may find this combat mode helpful starting out as it allows for some control over your rotation but doesn't overburden you with managing basic abilities. Below is an ability bar we recommend to use for revolution. Note that the thresholds and ultimate abilities can be placed in any order as it does not matter where they are on the bar — you will be manually activating them. 
-
-If you are new to using revolution, simply let revo use basic abilities for you. Activate Death Swiftness once you reach 100% adrenaline. From there use your thresholds whenever you reach 50% adrenaline (snapshot, rapid fire, tendrils, etc). Repeat.
-Following this simple repeating pattern of *Build to 100% -> Death Swiftness - > Thresholds -> Repeat*, one can expect to reach around 150k dpm with low-medium player input.
-.img:https://i.imgur.com/ZKwiC3l.png
-.tag:revo
-> **__Full Manual__**
-Full Manual is a combat mode wherein all abilities are manually activated by the player. No automatic inputs from the game means no damaging abilities will be done, therefore this mode requires high input from the player. The benefit of this mode is that it allows for the greatest degree of control over which abilities are used in any given scenario. Most high level pvmers opt to use this combat mode. While it does not matter where you place your abilities on your bar with full manual, you may still find it helpful to organize your bar based on basics to thresholds to ultimate. Refer to the revolution bars as examples.
-
-Transitioning from revo to full manual can seem intimidating but all it takes is practice. Most players start by letting revolution activate basics while they manually input thresholds and ultimates. The next step would be to manually activate basic abilities too, with revolution still active as a failsafe. Once you feel confident in activating basic abilities manually, try turning off revolution.
-
-An exercise to help you here is to only use basics for a full minute of combat on a combat dummy. Your goal is to not lose any ticks between basic abilities, either due to cooldowns or due to not manually activating the next ability fast enough. Once you get comfortable at a combat dummy, try on a real boss such as GWD1 (Graador/Kr'il/Kree) or GWD2 (Vindicta). *There is no easy "trick" to skip past the practice. It takes time to learn full manual so stick with it!*
-
-.tag:fullmanual
-> **__Ability Prioritizations & Building a Rotation__**
-Generally speaking, high damaging abilities should be prioritized and used more often than low damaging abilities. However, there's a catch. High damaging abilities often come with long cooldowns. If you use all of the high damaging abilities at once, you will be forced to wait for cooldowns before you may use them again - during which time you are forced to use low damage abilities. To circumvent this, the trick is to use 'filler abilities' - decent damage AND short cooldowns - in-between your high damaging abilities in order to pace your cooldowns.
-
-See this image for an idea of which abilities should be prioritized based on damage (in a vacuum)
-.img:https://i.imgur.com/4zBiGNb.png
-.tag:prioritization
-When building a rotation, ability prioritizations AND cooldowns should be on your mind. Filler abilities such as Needle Strike<:needle:535541259108876293> and Dazing Shot<:dazing:535541307142307860> should be used in-between high damage abilities such as Snipe<:snipe:535541258425204770>, Corruption Shot<:corruptshot:535541306294796299>, Binding Shot-Flanking<:bindingshot:535541306563231790>, and Fragmentation Shot-Walk<:frag:535541273755385885>. Any basic ability with damage lower than Needle/Dazing would be considered a weak ability (Piercing<:piercing:535541258538450944>, tuska<:Tuskas:513201065513058306>, sacrifice<:Sacrifice:513201065907322880>, binding shot<:bindingshot:535541306563231790> without flanking, richochet<:ricochet:535541259566186521> on 1v1).
-
-If you are 2h or DW camping you will be limited to only one filler ability (Dazing Shot or Needle Strike, respectively. Thus, try to utilize Dazing or Needle as often as possible in your rotations. A basic pattern of *Needle<:needle:535541259108876293> -> Ability -> Ability -> Repeat* is recommended for camping rotations.
-
-For weapon juggling, you will have access to both Needle and Dazing as filler abilities. This lets you have more breathing room in what rotations and fillers you create. 
+.tag:revo++
+**__Revo++__**
+⬥ Revolution++ is a combat mode wherein you can toggle the game to automatically activate basic, threshold, and ultimate abilities automatically upon reaching the required adrenaline.
 
 .
-> **__Measuring DPM - Challenge Gems and Runemetrics__**
-A good way to get an understand of where you are in terms of DPM is by placing a challenge gem at Combat Academy at Lumbridge and doing a 5 minute gem. Use your best armor, weapon, supreme or elder overloads, and the best DPS prayers you have available. After 5 minutes, divide your score by 5 to figure out your DPM. For example, a 750,000 score on a gem means 150k DPM.  From here, it becomes easier to understand where your focus should lie as you progress up the DPM ladder.
+⬥ While we do not encourage using Revo++ as it limits the amount of control a player has over their own rotation, it is low-input and low maintenance.
 
-You may also use Runemetrics to measure your DPM. Simply set the mode to stopwatch on the Runemetrics tab and after 5 minutes of combat stop to evaluate your score.
+.
+⬥ Revo++ can be desirable for afking, low-effort pvm, or slayer tasks.
 
-.tag:challengegems
-Rules for a 5 minute challenge gem at dummies:
-    • Dummy must be in normal mode
-    • 0% adrenaline start
-    • No aura
-    • No Vulnerability
-    • No familiar/dreadnips
-    • No weapon poison or Cinderbanes
-    • No active pocket slot item
-    • No ruby bakriminel bolts
-    • No Amulet of Zealots
-    • AoE damage will be subtracted
+.
+⬥ Here is an ability bar we recommend for Revo++, using this bar with 0 player input will yield ~130k DPM:
+.img:https://i.imgur.com/6Fmy2MK.png
 
-Here's an example of what should be brought to DPM practice with challenge gems. Your best gear for the style being used, adrenaline or replenishment potions, overloads, and ring of vigour.
-Other items to consider bringing if you have them are: planted feet switch, flanking switch, lunging switch, and powerburst of overkill. 
-.img:https://i.imgur.com/nhRFoZ1.png
-**DPS 5 minute gem thresholds:**
-These values are for referential purposes and assume you are using at least T90 weapons with T80 DPS armour. These thresholds apply to all combat styles, but they were written with magic in mind and they may differ slightly for melee and ranged.
+.
+⬥ To toggle on Revolution++ and highlight how many abilities to trigger with it, click the clog icon on your ability bar:
+.img:https://i.imgur.com/jCHwBgT.png
 
-    • Below 750k: *Beginner.* Your DPS is likely not good enough to deal with most higher end boss mechanics. Don't get discouraged if you're at this point; all it takes is practice and experience.
+.
+**__Basic Revolution__**
+Basic Revolution (commonly referred to as simply "Revolution") is a combat mode wherein basic abilities are used automatically by the game but threshold and ultimate abilities are manually activated.
 
-    • 750k: *Low.* This is close to the highest point you can reach while still heavily relying on Revolution. At this point, you should consider learning to full manual. It may take while to get anywhere with it, but it is very rewarding in the end.
+.
+⬥ Newer players may find this combat mode helpful starting out as it allows for some control over your rotation but doesn't overburden you with managing basic abilities.
 
-    • 800k: *Mid-low.* While still not great DPS, it is likely good enough for casual kills at most end game bosses.
+.
+⬥ Below is an ability bar we recommend to use for revolution:
+.img:https://i.imgur.com/ZKwiC3l.png
+.
+    • Note that the thresholds and ultimate abilities can be placed in any order as it does not matter where they are on the bar − you will be manually activating them. 
 
-    • 850k: *Mid-high.* A decent value, easily achievable by adding switches to a good base rotation.
+.
+⬥ If you are new to using revolution, simply let revo use basic abilities for you. 
+    • Activate Death Swiftness <:ds:535541258924326912> once you reach 100% adrenaline. 
+        - From there use your thresholds whenever you reach 50% adrenaline (Snap Shot <:snap:535534127131394088>, Rapid Fire <:rapid:535541270521708566>, Shadow Tendrils <:shadowtend:642713547142332416>, etc). Repeat.
 
-    • 900k: *High.* This requires a very solid rotation. Most end game PvMers sit at this value. You may want to consider upgrading your gear at this point if you're still at t90s/t95s.
+⬥ Follow this simple repeating pattern as a standard base to follow in Combat Dummies to reach 150k DPM: 
+    • Build to 100% → Death Swiftness <:ds:535541258924326912> → Thresholds → Repeat. One can expect to reach around 150k DPM with low to medium player input.
 
-    • 950k: *Very high.* If you're here, it means you just need to iron out the finer details in your rotation to advance.
+.
+> **__Full Manual__**
+.tag:Manual
+**__Why to Use Full Manual__**
+⬥ Full Manual is a combat mode wherein all abilities are manually activated by the player.
+    • No automatic inputs from the game means no damaging abilities will be done, therefore this mode requires high input from the player.
 
-    • 1000k+: *Top-end.* You're very well off. There's always room for improvement, but you're close to the damage cap.
+.
+⬥ The benefit of this mode is that it allows for the greatest degree of control over which abilities are used in any given scenario.
 
-Courtesy of <@269233963460067340> and thanks to Boss School!
+.
+⬥ Most high level pvmers opt to use this combat mode.
+
+.
+**__How to Approach Using Full Manual__**
+⬥ While it does not matter where you place your abilities on your bar with full manual, you may still find it helpful to organize your bar based on basics to thresholds to ultimate.
+    • Refer to the revolution bars as examples.
+
+.
+⬥ Transitioning from revo to full manual can seem intimidating but all it takes is practice.
+
+.
+⬥ Most players start by letting revolution activate basics while they manually input thresholds and ultimates.
+    • The next step would be to manually activate basic abilities too, with revolution still active as a failsafe.
+        - Once you feel confident in activating basic abilities manually, try turning off revolution.
+
+.
+⬥ An exercise to help you here is to only use basics for a full minute of combat on a combat dummy.
+    • Your goal is to not lose any ticks between basic abilities, either due to cooldowns or due to not manually activating the next ability fast enough.
+
+.
+⬥ Once you get comfortable at a combat dummy, try on a real boss such as GWD1 (Graador/K'ril/Kree) or GWD2 (Vindicta).
+
+.
+*There is no easy "trick" to skip past the practice. It takes time to learn full manual so stick with it!*
+
+.
+> **__Ability Prioritizations & Building a Rotation__**
+.tag:prioritization
+**__Ability Priorization__**
+⬥ Generally speaking, high damaging abilities should be prioritized and used more often than low damaging abilities
+    • However, there's a catch. High damaging abilities often come with long cooldowns.
+        - If you use all of the high damaging abilities at once, you will be forced to wait for cooldowns before you may use them again – during which time you are forced to use low damage abilities.
+
+.
+⬥ To circumvent this, the trick is to use 'filler abilities', abilities with decent damage AND short cooldowns, in-between your high damaging abilities in order to pace your cooldowns.
+
+.
+⬥ See this image for an idea of which abilities should be prioritized based on damage (in a vacuum):
+.img:https://i.imgur.com/4zBiGNb.png
+.
+*Note: You should not necessarily use abilities in the listed order due to aforementioned reasons.*
+
+.
+**__Building a Rotation__**
+⬥ When building a rotation, ability prioritizations AND cooldowns should be on your mind.
+
+⬥ Filler abilities such as Needle Strike <:needle:535541259108876293> and Dazing Shot <:dazing:535541307142307860> should be used in-between high damage abilities such as Snipe <:snipe:535541258425204770>, Corruption Shot <:corruptshot:535541306294796299>, Binding Shot-Flanking <:bindingshot:535541306563231790>, and Fragmentation Shot-Walk <:frag:535541273755385885>. 
+
+⬥ Any basic ability with damage lower than Needle/Dazing would be considered a weak ability, such as Piercing Shot<:piercing:535541258538450944>, Tuska's Wrath <:Tuskas:513201065513058306>, Sacrifice <:Sacrifice:513201065907322880>, Binding Shot <:bindingshot:535541306563231790> without Flanking, Richochet <:ricochet:535541259566186521> on a single target.
+    • Generally speaking, these should be avoided
+
+.
+⬥ If you are 2h or dual wield camping you will be limited to only one filler ability (Dazing Shot <:dazing:535541307142307860> or Needle Strike <:needle:535541259108876293>, respectively). Thus, try to utilize Dazing Shot <:dazing:535541307142307860> or Needle Strike <:needle:535541259108876293> as often as possible in your rotations. 
+    • A basic pattern of Needle Strike <:needle:535541259108876293> → Ability → Ability → Repeat is recommended for camping rotations.
+
+⬥ For weapon juggling, you will have access to both Needle <:needle:535541259108876293> and Dazing <:dazing:535541307142307860> as filler abilities. Giving you access to stronger rotations. 
+    • This lets you have more breathing room in what rotations and fillers you create.
+    • While there is no singular rotation that is best here, a general pattern of Needle Strike <:needle:535541259108876293> → Ability → Dazing Shot (Dazing Shot <:dazing:535541307142307860> → Ability → Repeat will give you strong dps.
 
 .
 > **__Bakriminel Bolts__**
-
-Enchanted bakriminel bolts provide various effects which can be very useful in certain pvm scenarios. If you are using DW weapons it is highly recommended that you use bakriminel bolts for increased DPM. Here's a rundown of the current meta. *If a bolt does not appear on this list, it is not considered meta*.
-
-**Ruby bolts**<:RubyBakri:565726489413287956> - Overall best dps bolt for general pvm. 5% chance to activate, replacing a hit with a new one based on target's HP. The bolts have a shared cooldown per target, making them less effective (but still very powerful) in groups. Around ~70k HP, it is recommended to switch to another type of bolt, as ruby bolts can reduce DPS if the bolt damage is less than the original hit.
-
-**Diamond bolts** - Improves accuracy. Useful for bosses where you want the extra accuracy above all else (eg. Rise of the Six).
-
-**Onyx bolts**<:OnyxBakri:565726489362956308> - 10% chance to activate, heals 25% of the hit that triggered activation. Also increases damage by 25% on activation. Great for sustained healing, and alternative bolts after ruby bolts are no longer effective. Expensive.
-
-**Hydrix bolts**<:HydrixBakri:550834403136503822> - 10% chance to activate, immediately granting 10% adren, and +1% on basics for 15 seconds. Used as a utility bolt for pumping out more thresholds while in Death's Swiftness. *These are the hardest bolts to use effectively as they require you to improvise a rotation based off of how much adrenaline you gain*. Very expensive.
-
-Note: Ruby bak bolts are banned from challenge gems as its difficult accurately measure your DPM with their effects.
-
 .tag:bakrbolts
-> **__Learning Path__**
-.tag:learningpath
-> **__110k/120k DPM__**
-At this stage, it is likely that there's a fundamental lack of understanding regarding how to build a rotation, and when to perform certain abilities. Starting out, it's recommended to use the following Revolution bar. Remember to use Death's Swiftness<:DeathsSwift:513190158812839936> when it is off cooldown (Ult once every minute), and use a ring of vigour<:vigour:615613235512737792> switch and an adrenaline potion<:replen:634350514406162436>. It is extremely important to learn how to cancel channels at this stage. Otherwise your DPS will suffer greatly.
+Enchanted bakriminel bolts provide various effects which can be very useful in certain pvm scenarios. If you are using bolt carrying weapons, it is highly recommended that you bring these bolts for increased DPM.  
 
-Revolution bar
-.img:https://i.imgur.com/ZKwiC3l.png
-.tag:110k
-An Example of Cancelled v. Uncancelled channeling (Snipe)
-.img:https://i.imgur.com/6uH4KVg.mp4
-Evil Lucario's guide on cancelling channels
-https://www.youtube.com/watch?v=unCtj7IosVA
+*Note: If a bolt does not appear on this list, it is not considered meta*.
+
+**__Ruby Bolts__** <:RubyBakri:565726489413287956> 
+Overall the best bols for general PvM. A 5% chance to activate, replacing a hit with a new one based on target's HP. The bolts have a shared cooldown per target, making them less effective (but still very powerful) in groups. The HP to switch at varies per target, and it is recommended to switch to another type of bolt once the overriden hits are lower than expected.
+
+*Note: Rubies are banned from combat dummy gems as its difficult to accurately measure your DPM with their effects.*
+
+.
+**__Onyx Bolts__** <:OnyxBakri:565726489362956308>  
+A 10% chance to activate, increasing damage by 25% on activation and healing for the same amount. Great for sustained healing, and alternative bolts after Rubies <:RubyBakri:565726489413287956> are no longer effective.
+
+.
+**__Hydrix Bolts__** <:HydrixBakri:550834403136503822> 
+A 10% chance to activate, immediately granting 10% adren, and +1% on basics for 15 seconds. Used as a utility bolt for pumping out more thresholds while in Death's Swiftness <:ds:535541258924326912>. 
+
 .
 > **__130k/140k DPM__**
-At this stage it is very important to learn a good ultimate rotation. It is encouraged in a 5 minute gem to do 5 Death's Swiftness. Learning which thresholds to prioritize and use in an ultimate is extremely important to maximize your dpm. If you haven't already, you should get a planted feet switch in order to gain +8 seconds on your Death's Swiftness. It is critical to focus on being able to fit in 6 thresholds in a Swiftness with an Adrenaline Potion, and 5 thresholds without an Adrenaline potion. Not having a planted feet switch will also cut your ultimates short by 1 threshold, generally speaking. It is also useful to start thinking about how strong certain abilities are by reading through the information in <#562827048914124800>. 
-This section also assumes no Flanking Switches, which will be covered in the next section.
+.tag:one
+**__Priorizing Thresholds__**
+⬥ At this stage it is very important to learn a good ultimate rotation. It is encouraged in a 5 minute gem to do 5 Death's Swiftness, if you haven't already, you should get a Planted Feet <:pf:689501925770919981> switch in order to gain +8 seconds on your Death's Swiftness. 
+
+⬥ Learning which thresholds to prioritize and use in an Ultimate is extremely important to maximize your dpm. It is critical to focus on being able to fit in 6 thresholds in a Swiftness with an Adrenaline Potion, and 5 thresholds without an Adrenaline potion. Not having a planted feet switch will also cut your ultimates short by 1 threshold, generally speaking. Its heavily recommended to familiarize yourself with the strength of your abilities in: <#562827048914124800>. 
+
+*Note: This section assumes no Flanking Switches*
+
 Your threshold order in Death's Swiftness should be:
+⬥ **With Adrenaline Potion:**
+Rapid Fire <:rapid:535541270521708566> → Snapshot <:snap:535534127131394088> → Shadow Tendrils <:shadowtend:642713547142332416> → Rapid Fire <:rapid:535541270521708566> → Bombardment <:bombard:535541306391265284> → Snapshot <:snap:535534127131394088>
 
-With Adrenaline Potion:
-Rapid Fire <:rapid:535541270521708566> > Snapshot <:snap:535534127131394088> > Shadow Tendrils <:shadowtend:642713547142332416> > Rapid Fire <:rapid:535541270521708566> > Bombardment <:bombard:535541306391265284> > Snapshot <:snap:535534127131394088>
+⬥ **Without Adrenaline Potion:**
+Snapshot <:snap:535534127131394088> → Shadow Tendrils <:shadowtend:642713547142332416> → Rapid Fire <:rapid:535541270521708566> → Snapshot <:snap:535534127131394088> → Bombardment <:bombard:535541306391265284>
 
-OR
-
-Snapshot <:snap:535534127131394088> > Rapid Fire <:rapid:535541270521708566> > Shadow Tendrils <:shadowtend:642713547142332416> > Bombardment <:bombard:535541306391265284> > Snapshot <:snap:535534127131394088> > Rapid Fire <:rapid:535541270521708566>
-
-Without Adrenaline Potion:
-Snapshot <:snap:535534127131394088> > Shadow Tendrils <:shadowtend:642713547142332416> > Rapid Fire <:rapid:535541270521708566> > Snapshot <:snap:535534127131394088> > Bombardment <:bombard:535541306391265284>
-
-.tag:130k
 .
-> **__150k DPM__**
-At this stage, pushing to the next will almost certainly require the usage of a Planted Feet switch, as well as a Flanking switch. Start incorporating these switches if you haven't already. Once flanking can be used, the threshold prioritization in ultimates is as follows:
+> **__150k/160k DPM__**
+.tag:two
+**__Invention Perks__**
+At this stage, pushing to the next will almost certainly require the usage of a Planted Feet <:pf:689501925770919981> switch, as well as a Flanking <:flank4:712073088296157185> switch. Once flanking can be used, the threshold prioritization in ultimates is as follows:
 
-With Adrenaline Potion:
+⬥ **With Adrenaline Potion:**
 Snapshot <:snap:535534127131394088>  > Rapid Fire <:rapid:535541270521708566> > Shadow Tendrils <:shadowtend:642713547142332416> > Tight Bindings <:tight:535541275957657600> > Snapshot <:snap:535534127131394088> > Rapid Fire <:rapid:535541270521708566> 
 
-OR
 
-Rapid Fire <:rapid:535541270521708566> > Snapshot <:snap:535534127131394088> > Shadow Tendrils <:shadowtend:642713547142332416> > Rapid Fire <:rapid:535541270521708566> > Tight Bindings <:tight:535541275957657600> > Snapshot <:snap:535534127131394088>
-
-Without Adrenaline Potion:
+⬥ **Without Adrenaline Potion:**
 Snapshot <:snap:535534127131394088> > Shadow Tendrils <:shadowtend:642713547142332416> > Rapid Fire <:rapid:535541270521708566> > Snapshot <:snap:535534127131394088> > Tight Bindings <:tight:535541275957657600>
 
-Two notes:
-        - We remove Bombardment <:bombard:535541306391265284> from our threshold rotations as they are all replaced with Flanking. 
+⬥ **Notes:**
+    • We remove Bombardment <:bombard:535541306391265284> from our threshold rotations as they are all replaced with Flanking <:flank4:712073088296157185>. 
+    • Remember to use your Flanking <:flank4:712073088296157185> switch for basics, not just for thresholds. Using it on Binding Shot<:bindingshot:535541306563231790> improves that ability from 100% ability damage to 260% ability damage and is often overlooked by inexperienced players.
 
-        - Remember to use your flanking switch for basics, not just for thresholds. Using flanking on Binding Shot<:bindingshot:535541306563231790> improves that ability from 100% ability damage to 220% ability damage and is often overlooked by inexperienced players.
-
-Furthermore, you may benefit from taking a look at a list of common mistakes made during combat/gems at this stage of dpm: <#622623001694699560>. It is very likely that by fixing a couple of these mistakes listed here, you will reach the next milestone of dpm.
-
-.tag:150k
 .
-> **__160k DPM__**
-Once you're at 160k DPM, reaching higher levels of DPM will require either lots of min-max optimizations, lots of luck (not worth focusing on), or incorporating weapon switching. 
+**__Weapon Switching__**
+⬥ Once you're at 160k DPM, reaching higher levels of DPM will require either lots of min-max optimizations, or incorporating weapon switching. 
 
-Assuming you have been DW camping until this point, obtaining an SGB <:sgb:626466665848242186> or a Decimation <:decimation:643848618477879328> bow will allow you to DW/2H switch without switching ammo. Start focusing on never using an ability worse than 157% ability damage. Any Tuska's or Sacrifice in your rotation should be swapped for a Dazing Shot. Maintain the same threshold order in Death's Swiftness and remember to needle strike before snapshot and shadow tendrils for higher damage. 
+⬥ Assuming you have been DW camping until this point, obtaining an SGB <:sgb:626466665848242186> or a Decimation <:decimation:643848618477879328> bow will allow you to DW/2H switch without switching ammo. 
+    • Start focusing on never using an ability worse than 157% ability damage. Any Tuska's Wrath <:Tuskas:513201065513058306> or Sacrifice <:Sacrifice:513201065907322880> in your rotation should be swapped for a Dazing Shot <:dazing:535541307142307860>. 
 
-From this point onwards we will also incorporate ways to force auto attacks.
+⬥ Maintain the same threshold order in Death's Swiftness and remember to Needle Strike <:needle:535541259108876293> before Snap Shot <:snap:535534127131394088> and Shadow Tendrils <:shadowtend:642713547142332416> for higher damage. 
 
-        - For Death's Swiftness, using a DW MH for planted feet then switching to 2H will also force an auto attack, which can contribute significant damage. Sometimes clicking your target is necessary to force the auto attack. The sequence of actions goes as follows: 
-*Equip DW PF -> Activate Death's Swiftness <:DeathsSwift:513190158812839936> -> Equip 2h within GCD -> Click target (auto attack will come out here) -> Activate Ability*
-        - Using Shadow Tendrils <:shadowtend:642713547142332416> with 2H after using a DW ability with a 'fastest' speed weapon allows for stacking an auto on top of the tendrils.
+⬥ From this point onwards we will also incorporate ways to force auto attacks.
+    • For Death's Swiftness, using a dw MH for Planted Feet <:pf:689501925770919981> then switching to 2H will also force an auto attack, which can contribute significant damage. Sometimes clicking your target is necessary to force the auto attack. The sequence of actions goes as follows: 
+        - Equip DW PF → Activate Death's Swiftness <:DeathsSwift:513190158812839936> → Equip 2h within GCD → Click target (auto attack will come out here) → Activate Ability.
 
-From this point onwards reaching higher DPM benchmarks will require a strong understanding of basic prioritization, cooldowns, and adrenaline management. As such, it is entirely practice and receiving feedback. Familiarizing yourself with ability prioritizations will be invaluable at this stage.
-.img:https://i.imgur.com/qXlCYVf.png
-.tag:160k
+⬥ Using Shadow Tendrils <:shadowtend:642713547142332416> with 2H after using a DW ability with a 'fastest' speed weapon allows for stacking an auto on top of the tendrils.
 
 .
 > **__170/180k+ DPM__**
-Congratulations! This is about as far as you can go without weapon switching.
-If you would like to progress further up you will have to learn weapon switching.
+.tag:three
+**__Bakriminel Switching__**
+⬥ If you would like to progress further up you will have to learn Bakriminel Bolt switching.
 
-From here the next progression leads to bakriminel bolt switching. Various bak bolts provide a variety of effects which can be useful under different circumstances (see the Bakriminel bolts section for more info). Since most bak bolts have an innate cooldown, we can bypass any downtime by switching between 2-3 bolts to get the most out of their effects at any given time.
+⬥ Various bolts provide a variety of effects which can be useful under different circumstances . Since Rubies are our primary bolt and have an innate cooldown, we can bypass any downtime by switching to another bolt to get the most out of their effects at any given time.
+    • Bolt switches are usually done between the three meta bolts: Ruby, Onyx, and Hydrix. 
+        - The idea is to pick two or three bolts for a given scenario to minimize downtime between bolt cooldowns and to maximize their effects. 
 
-Bolt switches are usually done between the four meta bolts: Ruby, Diamond, Onyx, and Hydrix. The idea is to pick two or three bolts for a given scenario to minimize downtime between bolt cooldowns and to maximize their effects. 
+⬥ For example, the most effective bolt when fighting <#534612663523737619> <:Nex:513213159071547395> are Ruby bolts <:RubyBakri:565726489413287956> as they are the best dps bolts. 
+    • However, when attacking minions the most effective bolt becomes Hydrix <:HydrixBakri:550834403136503822> as minions have a soft hitcap of 1000 so any Ruby procs are wasted. 
+        - During the last phase, the most effective bolt on Nex becomes Onyx <:OnyxBakri:565726489362956308> as she is lower than 100k hp thus reducing Ruby's effectiveness. 
 
-For example, the most effective bolt when fighting <#534612663523737619> <:Nex:513213159071547395> are Ruby bolts <:RubyBakri:565726489413287956> as they are the best dps bolts. However, when attacking minions the most effective bolt becomes Hydrix <:HydrixBakri:550834403136503822> as minions have a soft hitcap of 1000 so any Ruby procs are wasted. During the last phase, the most effective bolt on Nex becomes Onyx <:OnyxBakri:565726489362956308> as she is lower than 100k hp thus reducing Ruby's effectiveness. 
-As a general rule: pick Ruby for DPS; pick Diamond for accuracy; pick Onyx for healing; pick Hydrix for adrenaline gain. Mix and match to gain the most out of all of these bolts in a boss fight!
-
-As always, take a look through <#622623001694699560> for common mistakes. Even fixing one or two of these can have a siginicant impact on your dpm!
-
-.tag:170k
-> **__Examples of Good Rotations__**
-
+.
+**__Examples of Good Rotations__**
 Rotation of RexT's Gem (add one needle strike at the bottom of 0-100%)
 https://i.imgur.com/zwqMwgt.png
-
-.tag:examplerots
-> **__Examples of Good Challenge Gems__**
-
+.
+**__Examples of Good Challenge Gems__**
 These are posted here to encourage watching the rotations used
-
 Weapon Switching, Boss School Rules (Hydrix Bak Bolts used), Courtesy of <@!272545764578951168> (1005k score, 201k DPM)
 https://www.youtube.com/watch?v=Fr14Ohu3NjM
-
+.
 Weapon Switching, No Bolts, No Mutated Dazing Shot, No Sigil, Courtesy of <@!236559830121185290> (946k score, 189k DPM)
 https://youtu.be/r0FnCrmn034
+
 .
-> **__Niche Tricks__**
-There are some niche tricks available for increasing DPM. These tricks are generally meant for people with a very strong understanding of the combat system in RuneScape, and are encouraged only in cases where you're hovering at the 160-170k DPM threshold.
+> **__Weapon Overrides__**
+.tag:overrides
+Certain weapon types for ranged can cause abilities that normally take 2 ticks to deal damage to only take 1 tick to deal damage depending on your distance from your target. Slow abilities which are unaffected include: <:needle:535541259108876293>, <:bindingshot:535541306563231790>, and <:tight:535541275957657600>.
 
-.tag:nichetricks
-**3t Snipe**
-This technique allows using Snipe in 3 ticks as opposed to its intended 4 tick duration. It will still hit at the same time as it normally would. Needless to say being able to use Snipe as a non-channeled ability (within a GCD) is very strong and is useful everywhere though the major drawback is this method requires ability queing to be enabled. Players may find queing difficult to use so use at your own discretion.  
-
-    • Method requires Ability Queuing to be turned ON. 
-    • Method requires Nightmare Gauntlets <:nightmaregauntlets:679628668120727571> to be equipped.
-
-Simply use Snipe, then queue up any other ability prior to GCD. For example: Snipe <:snipe:535541258425204770> -> Queue piercing shot<:piercing:535541258538450944>. This will cause Piercing shot to come out on the following GCD after Snipe instead of having to wait 4 ticks for the full channel of Snipe. After you fire the queued ability off your character will be rooted in place for 1 tick.
-
-Demonstration: http://youtu.be/bd64iILPqJM
 .
-**10 Second Needle Strike Buff**
-This technique allows you to retain the Needle Strike's 7% damage bonus buff for 10 seconds.
+**__Override Types__**
+⬥ **Javelins** (only mainhand required)
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD-1sq away.
+    • Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> are only fast in MD.
 
-    • Requires 2 targets in order to work, normally a boss mob/dummy and then the boss itself
-    • Needle striking the 1st target (dummy/boss mob) and then targeting the 2nd target (the boss) and ammo swapping/mainhand swapping essentially allows the needle buff to persist past just the first attack you deal, instead it will last for 17 ticks meaning any non bleed ranged damage you deal for the next 17 ticks on that target will have the 7% needle buff.
-    • Dealing damage to the target you originally needle striked will cancel the 10 second buff
-    • If you do not swap mainhands or ammo after needle striking the first target you will get no buff at all until you do so, the timer begins as soon as you needle the first target
-    • If you switch targets before needle hits you don't have to switch mh or bolts, but if needle hits before you switch targets then you need to switch mh or bolts.
-    • Useful for places like vorago p3s/p5s where you would have a dummy down and needle strike it prior to releasing thresholds on vorago, can also be used at AoD by needle striking reaver/pillars/amalgs
-    • Can see that the entire rapidfire has the needle strike buff instead of just the first two hits, the following 3 abilities after the rapidfire would also have the needle strike buff as well
-Demonstration: https://youtu.be/k_IxIyoZFww
 .
-**Weapon override delaying/speeding up abilities**
-Certain weapon types for ranged can cause abilities that normally take 2 ticks to deal damage to only take 1 tick to deal damage depending on your distance from your target. These abilities include <:snap:535534127131394088>, <:rapid:535541270521708566>, <:piercing:535541258538450944>, <:ricochet:535541259566186521>, dazing<:dazing:535541307142307860>. Slow abilities which are unaffected include: <:needle:535541259108876293>, <:bindingshot:535541306563231790>, and <:tight:535541275957657600>.
-    • Javelins (DW Override only mainhand required) cause piercing and ricochet to hit fast from md-1sq away, snapshot and rapidfire are only fast in md.
-    • Darts (DW Override only mainhand required) cause piercing and ricochet to hit fast from md-4sq away, snapshot and rapidfire are fast from md-3sq away.
-    • Knives (DW Override only mainhand required) cause piercing and ricochet to hit fast from md only.
-    • Blowpipe (2H Override) causes dazing shot to hit fast from md-1sq away, rapid and snap are both fast from md-3sq away, and ricochet/piercing are fast from md-4sq away.
-    • You can override your dualwield/2h weapons with these weapon types allowing you to take advantage of them causing certain abilities to hit a tick faster.
+⬥ **Darts** (only mainhand required)
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD-4sq away
+    • Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> are both fast from MD-3sq away,
+
+.
+⬥ **Knives** (only mainhand required) 
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD only.
+
+.
+⬥ **Blowpipe** (2H Override)
+    • Causes Dazing Shot <:dazing:535541307142307860> to hit fast from md-1sq away, 
+    • Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> are both fast from MD-3sq away.
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD-4sq away
+
 .
 > **__Table of Contents__**
-⬥ **Abbrevations** - $linkmsg_abbrevations$
-⬥ **Revo++** - $linkmsg_revo++$
-⬥ **Revolution** - $linkmsg_revo$
-⬥ **Full Manual** - $linkmsg_fullmanual$
+⬥ **Introduction** - $linkmsg_intro$
+⬥ **Terminology** - $linkmsg_abbrevations$
+⬥ **Revolution** - $linkmsg_revo++$
+⬥ **Full Manual** - $linkmsg_Manual$
 ⬥ **Ability Prioritization** - $linkmsg_prioritization$
-⬥ **Challenge Gems** - $linkmsg_challengegems$
-⬥ **Bakriminel bolts** - $linkmsg_bakrbolts$
+⬥ **Bakriminel Bolts** - $linkmsg_bakrbolts$
+⬥ **130k/140k DPM** - $linkmsg_one$
+⬥ **150k/160k DPM** - $linkmsg_two$
+⬥ **170k/180k DPM** - $linkmsg_three$
+⬥ **Weapon Overrides** - $linkmsg_overrides$
 .pin:delete
-⬥ **Learning Path** - $linkmsg_learningpath$
-    • **110k/120k DPM** - $linkmsg_110k$
-    • **130k/140k DPM** - $linkmsg_130k$
-    • **150k DPM** - $linkmsg_150k$
-    • **160k DPM** - $linkmsg_160k$
-    • **170k/180k DPM** - $linkmsg_170k$
-⬥ **Example Rotations** - $linkmsg_examplerots$
-⬥ **Niche tricks** - $linkmsg_nichetricks$
