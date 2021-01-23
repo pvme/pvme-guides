@@ -1,39 +1,63 @@
 > __**Introduction**__
 .tag:introduction
-This channel details many stylistic aspects that all PvME guides should follow.
+__**About the Style Guide**__
+⬥ This channel details many stylistic aspects that all PvME guides should follow.
+⬥ If submitting a write up, please follow the guidelines in this channel.
+⬥ These guidelines do not cover every situation, and will be amended as necessary.
+    • Please bring up any concerns that are not covered by these guidelines.
 
-If submitting a write up, please follow the guidelines in this channel.
-
-These guidelines do not cover every situation, and will be amended as necessary.
-Please bring up any concerns that are not covered by these guidelines.
-
-
+.
 > __**General**__
 .tag:general
+**__Random Stylistic Choices We Made__**
 ⬥ Utilise UK spelling and style (armour over armor).
 ⬥ Dates will be written in the format: YYYY/MM/DD.
-⬥ Every channel should have it's channel topic containing the correctly captialised title ("aod" channel would have "Angel of Death" as it's topic).
+⬥ Every channel should have its channel topic containing the correctly captialised title ("aod" channel would have "Angel of Death" as it's topic).
+⬥ Capitalize the first letter of every line.
 ⬥ Where possible, the first message of a guide should be an image that best represents the guide.
 ⬥ Utilise the Oxford Comma.
-
+⬥ If something makes a complete sentence, remember to add a period at the end.
+⬥ If crediting a user for a section of a guide, or the entire guide, do `Title (Courtesy of @user)`.
+⬥ When using emojis as not part of a rotation, do word, then emoji.
+    • The only exception to this rule is in presets where obscure items go emoji, then word.
+⬥ **Bold**: The only time you will just bold something is if it is a main item to be described from a list.
+    • Example: The part in the red box below indicates what should be bold.
+.
+.img:https://i.imgur.com/zAUPDb3.png
+⬥ *Notes: Should be italicized* and typically is not preceded by a bullet point.
+    • Example: The part in the red box below indicates what a note should look like in github.
+.
+.img:https://i.imgur.com/Nl5qKod.png
+.
 > **__Embedding Images/Videos__**
 .tag:embed
+**__Formatting Embeds__**
 ⬥ It is preferred that videos are hosted on the PvME Youtube channel. Streamable is absolutely forbidden.
     • Post video link in <#636419224163581972> and wait for PvME YouTube channel to upload it on its account.
-⬥ Images should be attached to messages, no links to images in guides. Imgur is the preferred hosting platform.
-⬥ Video links with embeds should be placed in their own message. This is not necessary if the embed is disabled.
-⬥ Links should be formatted as such: `**Link text** - <https://...>`
+        - While waiting for the PvME account to reupload it, it is okay to use your own accounts video.
+⬥ Images and video embeds should be their own message, no links to images in guides. Imgur is the preferred hosting platform.
+    • Example: The part in the red box below indicates how to format an embed in github.
+.
+.img:https://i.imgur.com/pnHUaiY.png
+.
+⬥ Website links should be formatted as such: `**Link text** - <https://...>`
     • Example: **RuneScape Wiki** - <https://runescape.wiki/>
-    • Surround links with < and > to prevent embeds from appearing.
+        - Surround links with < and > to prevent embeds from appearing.
 ⬥ If an empty line is required to split sections at a message boundary, place the empty line at the end of the first message.
-    • If the first message ends with an attachment or video embed, place an entirely empty message between the messages.
 
 .
 > __**Sections and Subsections**__
 .tag:sections
-⬥ Format Sections like this: `> __**Sections**__`
-⬥ Format Subsections like this: `__**Subsection**__`
-
+**__Formatting Sections__**
+⬥ Add a .tag command one line below the section title to link Table of Contents to the section title like this: `.tag:word`.
+⬥ Format Sections like this: `> __**Sections**__`.
+⬥ Format Subsections like this: `__**Subsection**__`.
+⬥ Every Section should have a subsection (the only exception is a `Drops` section).
+    • If you can't think of a good subsection title, you can say __**General x for y**__.
+    • Words in Subsections should follow the same capitalization guidelines as Sections.
+⬥ Example: The picture below indicates how to format a section/subsection in github.
+.
+.img:https://i.imgur.com/6ovG30i.png
 .
 > __**Lists**__
 .tag:lists
@@ -46,40 +70,53 @@ __**Alphanumerical Lists**__
     a. Format subpoints like this: `appropriate letter followed by a period` with 4 spaces before, 1 space after the letter.
         - Format subsubpoints like this: `-` with 8 spaces before, 1 space after the -.               
     b. __**Bold and underline lists when they act as titles**__
-
+⬥ Example: The picture below indicates how to format bulleted lists in github.
+.
+.img:https://i.imgur.com/fXBFQZl.png
 .
 > __**Presets**__
 .tag:presets
+**__Preset Rules__**
 ⬥ Rune Pouches in presets should match colours of pouches in <#689235882724818962>. 
 ⬥ Weapon switches should use the same switches in <#553632787639435284> (e.g. cywir represents planted feet).
-⬥ Essence of Finalities with special attacks stored should match the colours of EoFs in <#797160458980950029>.
-
+⬥ Avoid using dyed gear in presets.
+⬥ Describe lesser known items and rune pouch/quiver/EoF contents below the preset
+    • Example:
+.
+.img:https://i.imgur.com/tJVx08g.png
 .
 > __**Rotations**__
 .tag:rotations
-⬥ Utilise the character: → between groups of actions that occur on the same tick.
-    • For example, <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>
-⬥ Use the full code for PvME emojis pinned in <#724129126314803230> to add emojis to a guide
+__**Rotation/Ability Formatting**__
+⬥ Use the full code for PvME emojis pinned in <#724129126314803230> to add emojis to a guide.
     • For example, use `<:bloodbarrage:537338981747261446>` instead of :bloodbarrage:
+⬥ Utilise the character: + for extra non-ability actions that occur on the same tick.
+    • GCD surges/Bladed dives, apot, vuln bombs, non-mage auto attacks, target cycle, etc.
+        - Example: <:deci:535532879325822986> + <:vulnbomb:655341074235129858> → (5taa) + <:cleave:535532878616985610>.
+        - Example: <:deci:535532879325822986> + <:accel:756236265472524418> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:surge:535533810004262912>.
+⬥ Utilise the character: → between groups of actions that occur on the same tick.
+    • Example: <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>.
+.
 ⬥ Denote non-ability actions in parentheses.
     • This does not include adren/overkills or sigils.
-    • Target cycle, <:deto:535533833358016512> (3t) → (tc) <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>
-    • Deto duration, <:sonic:535533809924571136> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>
-    • Channeling for unconventional durations: <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (3-hit) → <:dbreath:535533833391702017>
-    • Explictly specifying weapon: (dw) <:bloodbarrage:537338981747261446> <:corruptblast:513190159194259467> → (2h) <:bloodbarrage:537338981747261446> <:dbreath:535533833391702017>
-    • 5 tick auto attacks: <:deci:535532879325822986> → (5taa) <:cleave:535532878616985610>
+    • Target cycle, <:deto:535533833358016512> (3t) → (tc) + <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
+    • Deto duration, <:sonic:535533809924571136> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
+    • Channeling for unconventional durations: <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (3 hit) → <:dbreath:535533833391702017>.
+    • Explictly specifying weapon: (dw) <:bloodbarrage:537338981747261446> <:corruptblast:513190159194259467> → (2h) <:bloodbarrage:537338981747261446> <:dbreath:535533833391702017>.
+    • 5 tick auto attacks: <:deci:535532879325822986> → (5taa) + <:cleave:535532878616985610>
     • Waiting in rotations: <:devo:513190158728953857> → (wait 2t) → <:surge:535533810004262912> → <:Sunshine:583430011948630016>
         - Specify ticks starting from cast of previous action. The above exactly casts surge before the end of the devotion global cooldown.
 .
+⬥ Stalled abilities will be denoted as s[ability], and releasing the stalled abilities will be denoted as r[ability] + next ability.
+    • Example: s<:sonic:535533809924571136> → r<:sonic:535533809924571136> + <:dbreath:535533833391702017>.
 ⬥ Auto attacks are implied when using defensives (defensives imply 2h auto, freedom implies oh/2h auto).
 ⬥ Include replen/enh replen/overkills where they are used.
 ⬥ Include sigils (limitless/ingenuity/slayers) where they are used.
 ⬥ Special attacks should be denoted with both the weapon and the special attack emoji.
     • Seren godbow: <:sgb:626466665848242186> <:spec:537340400273195028>
     • If special attacks are used off-style, it is unnecessary to specify prayer flicks.
-⬥ The usage of 3-ticks or 4-tick snipe should be denoted at the beginning of the guide or rotation.
-⬥ Referencing lone abilities inline with text should be the name of the ability followed by the emoji.
-    • Example: For the Hold Still invader attack you should use Resonance <:res:535541258844635148> for the melee hit.
+    • If a special attack is used from an EoF, do weapon, then eof
+        - Eof SGB: <:sgb:626466665848242186> <:eofor:745279787471470713>
 
 .
 > __**Helpful Commands**__
@@ -90,7 +127,7 @@ __**Github Commands**__
 ⬥ $linkmsg_[tagword]$ - creates a link to the [word] used in the .tag:[word] command
     • Example of a Table of Contents entry: `**Sectiontitle** - $linkmsg_SectionTagWord$`
     
-__**Discord Commands (to be used in <#689575078698287152>**__
+__**Discord Commands (to be used in <#689575078698287152>**__)
 ⬥ Pvme$txtsync txtpost pull/`pull request #`/head `category name`/`channel name`.txt
     • Posts that pull request with most recent edits/commits.
     • Example: pvme$txtsync txtpost pull/381/head mid-tier-pvm/dragonkin-laboratory.txt
@@ -105,6 +142,7 @@ __**Discord Commands (to be used in <#689575078698287152>**__
 .
 > __**Table of Contents (formatting)**__
 .tag:toc
+**__ToC Formatting__**
 ⬥ The table of contents should be at the end of the guide.
 ⬥ The table of contents should be in a section titled "Table of Contents".
 ⬥ The table of contents should be pinned in the channel.
@@ -113,6 +151,26 @@ __**Discord Commands (to be used in <#689575078698287152>**__
     • Example entry: **Sectionword** - $linkmsg_tagword$
         - the tagword as mentioned above is how the bot knows to make a message link to the appropriate message. under the Section, add a blank line with the command `.tag:[word]`.
 ⬥ Utilise the below table of contents as an example.
+
+.
+> __**Putting it all Together**__
+.tag:finish
+A guide is just multiple sections with subsections and lists when it comes down to it.
+__**Example of an entire section formatted**__
+.img:https://i.imgur.com/ZXLNEgX.png
+⬥ Follow this basic format and incorporate the other guidelines such as embedding or rotations, and you should be well on your way to having a stylized guide.
+
+.
+> __**<#711468605358866463> Changelog**__
+.tag:change
+__**Changes to Style Guide**__
+⬥ 2021/01/22
+    • Added picture examples to various explanations here.
+    • Added some common grammar rules to the __**General**__ Section.
+    • Added how to credit someone to the __**General**__ Section.
+    • Added when to **Bold** and when to *Italicize* info to the __**General**__ Section.
+    • Added the use of the + symbol in the __**Rotations**__ Section.
+    • Added how to denote EoF spec usage in the __**Rotations**__ Section.
 
 .
 > __**Table of Contents**__
@@ -124,4 +182,5 @@ __**Discord Commands (to be used in <#689575078698287152>**__
 ⬥ **Rotations** - $linkmsg_rotations$
 ⬥ **Helpful Commands** - $linkmsg_help$
 ⬥ **Table of Contents (formatting)** - $linkmsg_toc$
-
+⬥ **Putting it all Together** - $linkmsg_finish$
+⬥ **Changelog** - $linkmsg_change$
