@@ -1,6 +1,6 @@
 > **__Target Cycling__**
 .tag:tc
-**__Keybind NPC targetting__**
+**__Keybind NPC Targetting__**
 Targeting settings can be found under the Combat Tab in the Settings Interface and includes the situationally useful Cycle Target keybinds. This function allows you to select a target procedurally based on whether you set the targeting mode to Radial or Conal. It is very useful for improving consistency and speed in nearly all boss encounters. A notable advantage of cycle target is that Detonate will not be cancelled upon use.
 
 ⬥ **Radial targeting:** Cycles from the nearest to the farthest target from the player when pressed. In the case of multiple equidistant targets, it will cycle clockwise starting from the north. This is useful for simply snapping to the closest target available.
@@ -9,7 +9,7 @@ Targeting settings can be found under the Combat Tab in the Settings Interface a
 
 .img:https://i.imgur.com/Apqq3Th.png
 .
-__**Notable applications**__
+__**Notable Applications**__
 ⬥ **The Shadow Reef**
     • Tagging Sinister Fragments at the Ambassador, saves 4 ticks. 
 .img:https://i.gyazo.com/a3b13b217022a8523de01b4e50b3cc9f.mp4
@@ -51,23 +51,31 @@ Due to the fact that damage critical hits are calculated as an ability is fired,
 .
 Demonstration: https://youtu.be/M65xdRYYxJ4
 .
-> **__Walking bosses (courtesy of <@236955913859104778>)__**
+> **__Walking Bosses__ (Courtesy of <@236955913859104778>)**
 .tag:walking
 **__Moving NPCs__**
 ⬥ In RS, bosses only walk East, West, or South (never North). The direction they walk is random at first, but they will always walk in that direction afterwards.
 
-⬥ Hitting a wall changes walking behavior in the following ways: an east-walking boss will turn west, a west-walking boss will turn south, and a south-walking boss will turn either east or west. 
-
-⬥ The simplest of these include walking a bleed such as Combust <:comb:535533833098100745>, Fragmentation Shot <:frag:535541273755385885>, or Slaughter <:slaughter:535532879237873666>. 
-    • A more advanced version of this is using a bleed, and then immediately using Surge <:surge:535533810004262912> to go under the boss and Bladed Dive <:bd:535532854281764884> to get back all within a GCD. This allows you to double bleed damage against bosses when you aren't MD. 
+.
+⬥ Hitting a wall changes walking behavior in the following ways: an east-walking boss will turn west, a west-walking boss will turn south, and a south-walking boss will turn either east or west. The Araxxor Walking Guide demonstrates this behavior:
+.
+https://youtu.be/A_6ah7GF_1k
+.
+**__Applications__**
+⬥ The simplest of these includes walking a bleed such as Combust <:comb:535533833098100745>, Fragmentation Shot <:frag:535541273755385885>, or Slaughter <:slaughter:535532879237873666>. Below is a demonstation of this (Courtesy of <@287398612558675968>):
+.
+https://youtu.be/0Y0JGMeLcmI
+.
+*Note: A more advanced version of this is using a bleed, and then immediately using Surge <:surge:535533810004262912> to go under the boss and Bladed Dive <:bd:535532854281764884> to get back all within a GCD. This allows you to double bleed damage against bosses when you aren't MD.*
 
 .
-*Note: Keep in mind that most bosses move at 2 squares per tick (same speed as you), so for bosses that you don’t want to walk, you should move an even number of squares to prevent unwanted movement.* 
-
 ⬥ Walking can also be used to reposition a boss, such as fixing base spot on P2 Vorago, moving Vorago out of green bomb mists, and moving Telos out of beams.
 
 .
-> **__Manual Spell Casting (courtesy of <@133391081109716992> and <@150675804596994048>)__**
+*Note: Keep in mind that most bosses move at 2 squares per tick (same speed as you), so for bosses that you don’t want to walk, you should move an even number of squares to prevent unwanted movement.*
+
+.
+> **__Manual Spell Casting__ (Courtesy of <@133391081109716992> and <@150675804596994048>)**
 .tag:manualspellcasting
 .
 **__Saving rune costs__**
@@ -96,7 +104,7 @@ __**Applications**__
     • With the toggle on, the player has increased control over when to bind Telos and potential ping spikes won't have as much of an unintended consequence.
 
 .
-> **__Autocast Spell Selection (courtesy of <@244845124712923137>)__**
+> **__Autocast Spell Selection__ (Courtesy of <@244845124712923137>)**
 .tag:autocast
 **__Ensuring both weapons are casting spells__**
 ⬥ When selecting an autocast spell, be sure to manually select it with dual-wield (main-hand + off-hand). Selecting your autocast with a two-handed weapon will only apply it to the main-hand, thus setting no off-hand spell, causing you to do 2/3 damage when doing dual-wield abilities in this manner.
@@ -105,7 +113,7 @@ __**Applications**__
 https://youtu.be/IUmvGm4Z374
 
 .
-> **__How Adren Gaining Without a Target Works (Courtesy of <@236955913859104778>)__**
+> **__How Adren Gaining Without a Target Works__ (Courtesy of <@236955913859104778>)**
 .tag:adrengain
 **__Stalling adrenaline__**
 ⬥ After doing your last damaging ability on an NPC, you can use any abilities to gain adren for then next 10 seconds. After that, defensive basics will no longer give adren. 
@@ -121,7 +129,7 @@ https://youtu.be/IUmvGm4Z374
 *Note that all this does not apply on targets that automatically force you to lose target after death (e.g. Araxxi and Telos)* 
 
 .
-> __**The True Centre of a Boss is Always South-West (Courtesy of <@175995416955977728>)**__
+> **__The True Centre of a Boss is Always South-West__ (Courtesy of <@175995416955977728>)**
 .tag:centre
 **__Boss Center Square__**
 ⬥ This affects abilities like Corruption blast <:corruptblast:513190159194259467>, Corruption Shot <:corruptshot:535541306294796299> and Detonate <:deto:535533833358016512>. 
@@ -138,7 +146,7 @@ In the picture with the combat dummy, the true centre is in the centre because t
 Note that this works with other forms of AoE as well, such as Mechanized chinchompas <:mechchin:641669268722810881>.
 
 .
-> **__Camera Shaking Toggle (by <@216433706343202816>)__**
+> **__Camera Shaking Toggle__ (Courtesy of <@216433706343202816>)**
 .tag:shake
 **__Camera toggles__**
 ⬥ If you suffer from motion sickness, you may toggle this off in the settings menu. This is particularly useful for Rise of the Six tunnels, or usage of Quake <:quake:535532879506309150>. 
@@ -147,7 +155,7 @@ Note that this works with other forms of AoE as well, such as Mechanized chincho
 .img:https://i.imgur.com/Un81lbK.png
 
 .
-> **__Boss Sizes for SGB (Courtesy of <@127417821817864192>)__**
+> **__Boss Sizes for SGB__ (Courtesy of <@127417821817864192>)**
 .tag:sizes
 **__List__**
 *Note: Blocked means that the NPC's center is indeed the center, instead of it being South West.*
@@ -186,7 +194,7 @@ Note that this works with other forms of AoE as well, such as Mechanized chincho
 ⬥ **Yakamaru** - 5x5 (blocked)
 
 .
-> **__Ability Stalling (Courtesy of <@236955913859104778>)__**
+> **__Ability Stalling__ (Courtesy of <@236955913859104778>)**
 .tag:stall
 **__Stacking abilities__**
 ⬥ The act of activating an ability outside your weapon's cast distance, "holding" the ability, and finally releasing it. 
@@ -194,7 +202,7 @@ Note that this works with other forms of AoE as well, such as Mechanized chincho
 Short video guide on this topic: https://youtu.be/fInvWvnSI18
 
 .
-> __**Weapon Poison (Courtesy to <@108682527304060928>)**__
+> **__Weapon Poison__ (Courtesy to <@108682527304060928>)**
 .tag:poison
 **__How it works__**
 ⬥ Weapon Poison provides a buff to the player for an amount of time dependent on the grade of poison being used. 
