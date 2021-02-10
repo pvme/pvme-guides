@@ -27,26 +27,26 @@ Solid foods are referred to foods that heal a large amount of hp in a single bit
 
 .
 **__Potions__**
-Potions are referred to as anything you drink. You can drink a potion at the same time as you eat a solid food item as long as you always eat before you drink.
+Potions refer to anything you drink. You can drink a potion at the same time as you eat a solid food item as long as you always eat before you drink.
 ⬥ **Saradomin Brew** <:Brew:565726489400573962> <:coins:698816156961603654> $data_pvme:Consumables!B4$
     • Heals 1000 life points per dose, 6 doses total (in a flask) for a total of 6000 life points per inventory slot.
     • Lets you boost up to 1000 life points above maximum.
-    • Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful drinking too many.
+    • Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful if drinking too many.
     • `Used wherever KO potential is high, as you can combo-eat with a solid food for a large amount of lifepoints healed in 1 tick.`
 
 .
 ⬥ **Super Saradomin Brew** <:supersara:642708771344482314> <:coins:698816156961603654> $data_pvme:Consumables!B5$
-    • Heals 1300 life points per dose, 6 doses total, for a total of of 7800 per inventory slot.
+    • Heals 1300 life points per dose, 6 doses total (in a flask) for a total of of 7800 per inventory slot.
     • Lets you boost up to 1300 life points above maximum.
-    • Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful drinking too many.
-    • `Expensive, so only really used for high profit, high risk encounters. Or if inventory space is limited like Solak or high enrage Telos.`
+    • Increases Defence by 6% + 1, but decreases Attack, Strength, Magic, and Ranged levels by 4% + 1. This happens even if you are overloaded, so be careful if drinking too many.
+    • `Expensive, so only really used for high profit, high risk encounters, or if inventory space is limited like Solak or high enrage Telos.`
 
 .
 ⬥ **Guthix Rest** <:grest:689530593901412578> <:coins:698816156961603654> $data_pvme:Consumables!B6$
     • Heals 500 life points per dose, 6 doses total (in a flask) for a total of 3000 per inventory slot.
     • Cures poison and provides ~30 seconds of poison immunity
     • Does NOT drain or boost stats at all.
-    • `Used wherever inventory you can live without the 1000 heal from sara brews because not having stats drained means more dps/accuracy`
+    • `Used wherever you can live without the 1000 heal from sara brews, because not having stats drained means more dps/accuracy`
 
 .
 ⬥ **Super Guthix Brew** <:supergrest:690140078407680059> <:coins:698816156961603654> $data_pvme:Consumables!B7$
@@ -54,12 +54,12 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
     • Gives 15% adrenaline 
     • This puts your regular Adrenaline Potion on cooldown.
     • Does NOT drain or boost stats at all.
-    • `Used wherever inventory you can live without the 1000 heal from sara brews because not having stats drained means more dps/accuracy. Best used when Adrenaline Potion is on cooldown so you don't miss out on the ability to benefit from more adrenaline from Adren Potions`
+    • `Used wherever you can live without the 1000 heal from sara brews, because not having stats drained means more dps/accuracy. Best used when Adrenaline Potion is on cooldown so you don't miss out on the ability to benefit from more adrenaline from Adren Potions`
 
 .
 **__Prayer__**
 ⬥ **Super Restore** <:restore:642708657825644554> <:coins:698816156961603654> $data_pvme:Consumables!B11$
-    • Restores 327 prayer pints per dose, 6 doses total (in a flask) for a total of 1962 prayer points per inventory slot.
+    • Restores 327 prayer points per dose, 6 doses total (in a flask) for a total of 1962 prayer points per inventory slot.
     • Restores lowered stats by up to 25% + 8 levels.
     • `All purpose prayer restoration often used in combination with Saradomin Brew.`
 
@@ -72,8 +72,8 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 .
 **__Miscellaneous__**
 ⬥ **Blue Blubber Jellyfish** <:blueblubber:689530593742291033> <:coins:698816156961603654> $data_pvme:Consumables!B8$
-    • Heals 750 life points per bite. 3 bites, for a total of 2250 per inventory slot.
-    • Doesn't use any adrenaline when eaten
+    • Heals 750 life points per bite. 3 bites total, for a total of 2250 per inventory slot.
+    • Doesn't reduce any adrenaline when eaten
     • `Should be your primary source of food anywhere with low KO potential.`
 
 .
@@ -131,21 +131,21 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 **__Bombs__**
 ⬥ **Vulnerability bomb** <:vulnbomb:655341074235129858>
     • Cast range of 9 tiles.
-    • Creates a 3x3 area which lasts 1.8 seconds and applies the Vulnerability effect to monsters standing in it.
-    • Applys it 3 times (once every 0.6 seconds for total of 1.8 seconds)
-    • The probability of the effect applying is based on the players current accuracy against the target.
+    • Spreads over a 3x3 area where the Vulnerability effect is applied to monsters standing in it(lasts 1.8 seconds).
+    • Applies it 3 times (once every 0.6 seconds for a total of 1.8 seconds)
+    • The probability of the effect applying is based on the player's current accuracy against the target.
     • `Worth using anywhere you want the target to be vulned without casting the Vulnerability spell directly`
 
 .
 ⬥ **Sticky bomb** <:stickybomb:655341074306301964>
     • Cast range of 9 tiles.
-    • Creates a 3x3 area for 6 seconds which binds monsters stood in it.
-    • `Worth using against stunnable/bindable targets like Magister or Telos and his golems on Phase 4 and 5`
+    • Spreads over a 3x3 area and binds monsters standing in it(lasts 6 seconds).
+    • `Worth using against stunnable/bindable targets like Magister or Telos and his golems in Phase 4 and 5`
 
 .
 ⬥ **Poison bomb** <:poisonbomb:655341074591645707>
     • Cast range of 9 tiles.
-    • Creates a 3x3 area for 6 seconds which applies poison to monsters stood in it.
+    • Spreads over a 3x3 area and applies poison to monsters standing in it(lasts 6 seconds).
     • The poison damage is based on current weapon damage.
     • `Few if any uses.`
 
@@ -155,8 +155,8 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 **__General Information__**
 ⬥ Incense sticks are created by combining logs, ashes, and herbs. 
 ⬥ Each incense stick increases the buff duration by 10 minutes.
-⬥ Incense sticks have a potency from 1-4. This increases by 1 every 10 minutes (30 minutes till max potency), or you can 'overload' by right clicking the incense sticks for an upfront cost of 6 sticks for 10 minutes (each additional stick used after this adds 10 minutes to the duration)
-⬥ Dying will cancel your incense boost as a whole causing you to have to re-incense, even if you use a ring of death or practice mode. 
+⬥ Incense sticks have potency levels ranging from 1-4. This increases by 1 every 10 minutes (30 minutes till max potency), or you can 'overload' by right clicking the incense sticks for an upfront cost of 6 sticks for 10 minutes (each additional stick used after this adds 10 minutes to the duration)
+⬥ Dying will cancel your incense boost as a whole, causing you to have to re-incense, even if you use a ring of death, or are in practice mode. 
 ⬥ You can have up to 3 different effects active at once at 95 firemaking.
 
 .
@@ -170,7 +170,7 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 
 .
 ⬥ **Kwuarm** <:KwuarmSticks:565726489341984779>
-    • Each potency level provides +2.5% weapon poison damage
+    • Each potency level provides a +2.5% weapon poison damage
     • `Worth using against poisonable targets`
 
 .
@@ -206,7 +206,7 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 ⬥ **GWD2:** <:TwinFury:513212995892019211><:TwinFury:513213159209828373> <:Vindicta:513212949385445376> <:Gregorovic:513212998274383914> <:Helwyr:513213019635843100>
     • Spirit Weed
     • Kwuarm (at Helwyr and Greg)
-    • Irit (At Greg)
+    • Irit (at Greg)
 
 .
 ⬥ **Elite Dungeons:** <:Seiryu:583430543321071626> <:BSD:583430542326759435> <:Ambassador:583430542809235458>
@@ -248,7 +248,7 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
 .tag:summ
 **__DPS__**
 ⬥ **Nihil** <:IceNihil:513195712163348506>
-    • Nihils boost their users Melee/Ranged/Magic accuracy by 5% depending on nihil summoned
+    • Nihils boost their user's Melee/Ranged/Magic accuracy by 5% depending on nihil summoned
     • Priority: `High if you need the accuracy boost (Nex, RotS, Vorago)`
 
 .
@@ -257,7 +257,7 @@ Potions are referred to as anything you drink. You can drink a potion at the sam
     • Note: Should set the special attacks to occur every 1 attack when scrolls are stored in it
     • Note: Can also spam click its special to fire off specs faster      
     • Often used in conjunction with Spiritual Prayer flasks to spam its special attack for a bigger dps buff
-    • Has a passive effect that allows you to deal more damage the lower your targets HP is, this works even if the ripper can't attack your target e.g. Seiryu crystals.
+    • Has a passive effect that allows you to deal more damage the lower your target's HP is, this works even if the ripper can't attack your target e.g. Seiryu crystals.
     • Priority: `High`
 
 .
@@ -316,7 +316,7 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
 **__Arrows__**
 ⬥ **Black Stone Arrows** <:blackstonearrow:785031580149743617>
     • T92 arrows
-    • Passive Effect: reduces target's armour rating by .75% per successful attack capping at 20 hits (15%)
+    • Passive Effect: reduces target's armour rating by .75% per successful attack, capping at 20 hits (15%)
     • Mainly used for range Telos and Nex with lower tier gear
     • Priority: `Low`
 
