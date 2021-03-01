@@ -9,17 +9,17 @@ These abilities are classified by either being unlocked as a quest reward, purch
 ⬥ Unlocked upon completion of *__The World Wakes__* 
 ⬥ These are ultimate abilities with a 7x7 range with the following effects for their corresponding styles:
     • Increase your damage by 50% (bleeds excluded).
-    • a DoT of 10%-20% ability damage that hits every 2 seconds when your primary target of casting is inside the ultimate's radius.
+    • Apply a DoT of 10%-20% ability damage that hits every 2 seconds when your primary target of casting is inside the ultimate's radius.
     • Lasts 30 seconds.
 ⬥ Priority: `High`
 
 .
-*Note: Can be used in conjuction with a Planted Feet perk. This makes them last 37 seconds as opposed to 30 seconds, and it removes their DoT effect.*
+*Note: Can be used in conjuction with the Planted Feet perk. This makes them last 37 seconds as opposed to 30 seconds but removes their DoT effect.*
 
 .
 **__Tendrils Abilities and Ice Asylum__** <:bloodtendrils:535532854327640064> <:shadowtend:642713547142332416> <:Smoke_Tendrils:536257336130404372> <:IceAsylum:553050196817215491> (Requires level 75 in either Attack, Ranged, Magic or 91 Constitution)
 ⬥ Unlocked upon reading the Codex Ultimatus after completing __*The Dig Site*__ quest.
-    • All abilities are unlocked on reading the codex but require a specific requirement to use.
+    • All abilities are unlocked on reading the codex but require fulfillment of a specific requirement to use.
 ⬥ Tendrils abilities are thresholds that cause *self-damage* in order to deal damage to the target.
 
 .
@@ -73,7 +73,7 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 .
 ⬥ **Corruption Blast** <:corruptblast:513190159194259467> (Requires level 70 Magic)
     • A magic bleed ability that does 33%-100% ability damage every 2 ticks (1.2 seconds) for 10 ticks (6 seconds).
-    • Each bleed hit is 20% weaker than the last, it is also AoE, it can chain to other mobs without giving you aggro.
+    • Each bleed hit is 20% weaker than the last, it is also AoE, it can chain to other mobs without having them turn aggressive towards you.
     • Priority: `High`
 
 .
@@ -90,8 +90,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 .
 ⬥ **Onslaught** <:onsl:513190159085207555> (Requires level 90 Constitution)
-    • A channeled ability that deals 50-150% damage on the first hit, and each subsequent hit dealing an additional 11%-33% ability damage per hit.
-    • This ability drains your adrenaline (25% per hit) until it runs out. 
+    • A channeled ability that deals 50-150% damage on the first hit, with each subsequent hit dealing an additional 11%-33% ability damage per hit.
+    • This ability drains your adrenaline (25% per hit) until your adrenaline runs out. 
     • Once adrenaline is depleted, Onslaught will start draining your lifepoints. It will deal 25% of the damage dealt as recoil until 10 total hits. 
         - After the 10th hit, each subsequent hit adds an additional 1000 hp recoil. 
     • Priority: `Medium`
@@ -100,7 +100,7 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 ⬥ **Storm Shards** <:Shard:583429757975396366> (Requires level 70 Constitution)
     • Apply a Storm Shard stack to an enemy when used, dealing no damage. A total of 10 Storm Shard stacks can be applied to an enemy.
     • Each stack stores 75%-95% ability damage which can be cashed out in one big hit by using the Shatter ability.
-    • Generally used on timegated parts of bosses or if you need to do a lot of burst at once with shatter.
+    • Generally used during timegated parts of bosses or if you need to do a lot of burst at once with shatter.
     • Priority: `High for Vorago, low otherwise`
 
 .
@@ -108,7 +108,7 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 .
 ⬥ **Shatter** <:Shatter:583429757761224715> (Requires level 70 Constitution)
-    • Releases all the stored Storm Shard stacks at once dealing damage equivalent to the stored shards, for a cap of 30,000 damage.
+    • Releases all the stored Storm Shard stacks at once dealing damage equivalent to the stored shards, with a cap of 30,000 damage.
     • This hit is affected by damage modifiers like Berserk, Sunshine, etc.
     • Priority: `High for Vorago, low otherwise`
 
@@ -119,7 +119,7 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 **__Raksha__**
 ⬥ **Greater Ricochet** <:grico:787904334812807238> (Requires level 45 Ranged)
     • Unlocked using a Greater Ricochet ability codex <:coins:698816156961603654>
-    • Aoe ability that does 20%-100% ability damage on the initial hit.
+    • AoE ability that does 20%-100% ability damage on the initial hit.
         - Can damage up to 2 additional targets (a total of 7 hits with Caroming 4).
         - The primary target will be hit for an additional 10%-50% ability damage for each ricochet shot that cannot find an additional target.
     • Priority: `High`
@@ -142,8 +142,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 .
 ⬥ **Divert** <:divert:787904334377648130> (Requires level 48 Defense)
     • Unlocked using a Divert ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B16$
-    • The next Melee, Magic, or Ranged attack received by the player within 6 seconds will block the hit and grant the player adrenaline.
-        - Generate 0.8% adrenaline for every 100-200 damage blocked, based on the level of shield equipped with diminishing returns at 3,000, 6,000 and 9,000 damage blocked.
+    • The next Melee, Magic, or Ranged attack received by the player within 6 seconds will be blocked, instead granting the player adrenaline.
+        - Generates 0.8% adrenaline for every 100-200 damage blocked, based on the level of shield equipped with diminishing returns at 3,000, 6,000 and 9,000 damage blocked.
         - Powerful attacks will have their damage blocked, but will not generate adrenaline (i.e. Telos `So Much Power` or `Weak Anima Bomb` special attacks).
     • Priority: `Medium`
 
@@ -165,7 +165,7 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 **__Elite Dungeon 2__**
 ⬥ **Greater Barge** <:gbarge:535532879250456578> (Requires level 30 Attack)
     • Unlocked using a Greater Barge ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B10$
-    • Works like normal barge, except each tick (0.6 seconds) the player is not damaging an enemy, barge gains +10% ability damage capping at 10 ticks. 
+    • Works like normal barge, except each tick (0.6 seconds) the player is not damaging an enemy, barge gains +10% ability damage, capping at 10 ticks. 
     • If it has been at least 8 ticks (4.8 seconds) since you have last hit a target, using barge will allow you to turn a channeled ability used within the next 6 seconds (10 ticks) into a Damage over Time ability.
     • Generally used within Zerk combined with Adrenaline potion or Limitless, as well as in a Zaros Godsword special attack.
     • Priority: `High`
@@ -182,7 +182,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 .
 ⬥ **Greater Fury** <:gfury:535532879334080527> (Requires level 24 Strength)
     • Unlocked using a Greater Fury ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B12$
-    • Turns fury into a non-channeled 157% ability, as well as giving it the ability to guarantee your next hit is a critical hit if fury had been a critical hit.
+    • Turns Fury into a non-channeled 157% ability.
+    • If Greater Fury is a critical hit, the next ability used within 30 seconds is guaranteed to be a critical hit, provided the ability used is not a bleed .
     • Priority: `Medium`
 
 .
@@ -193,21 +194,21 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 ⬥ **Double Surge** <:surgecodex:602561894414417944> (Requires level 30 Magic)
     • Unlocked using a Double Surge codex <:coins:698816156961603654> $data_pvme:Unlocks!B7$
     • Gives Surge 2 uses per cooldown cycle, these can both grant adrenaline if both are used off global cooldown
-    • The cooldown is based on the first surge/escape
+    • The cooldown is based on the first Surge
     • Can change the cooldown between charges at the Anachronia Lectern
-    • Generally just used for mobility, overall a QOL unlocked
+    • Generally just used for mobility, overall a QOL unlock
     • Priority: `Medium`
 
 ⬥ **Double Escape** <:escapecodex:602561894443778115> (Requires level 30 Ranged)
     • Unlocked using a Double Escape codex <:coins:698816156961603654> $data_pvme:Unlocks!B8$
     • Gives Escape 2 uses per cooldown cycle, these can both grant adrenaline if both are used off global cooldown
-    • The cooldown is based on the first surge/escape
+    • The cooldown is based on the first Escape
     • Can change the cooldown between charges at the Anachronia Lectern
-    • Generally just used for mobility, overall a QOL unlocked
+    • Generally just used for mobility, overall a QOL unlock
     • Priority: `Medium`
 
 .
-**__Miscellaneous Buyable Abilities__**
+**__Miscellaneous Purchasable Abilities__**
 ⬥ **Limitless** <:limitless:641339233638023179> (Requires level 10 Constitution)
     • Unlocked using a Limitless ability codex <:coins:698816156961603654> $data_pvme:Unlocks!E1$
         - Made by combining 2000 vital sparks.
@@ -284,7 +285,7 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
     • Priority: `High`
 
 .
-*Note: goes from 3x3 to 5x5 when stacked with scythe and laceration boots.*
+*Note: goes from 3x3 to 5x5 when used in conjuction with noxious scythe and laceration boots.*
 
 .
 ⬥ **Greater Dazing Shot** <:mds:535541259033378827> (Requires level 8 Ranged)
