@@ -37,20 +37,6 @@ https://youtu.be/9YejOAvquQk
 *Note: When attempting to cycle to a target on spawn, spam clicking the keybind will not work so you just have to know the exact tick it becomes targetable. Alternatively if you're constantly moving you can spam it once per tick.*
 
 .
-> **__Grimoire and Scrimshaw Switching__**
-.tag:grimshaw
-**__Obtaining both pocket slot's benefits__**
-Due to the fact that damage critical hits are calculated as an ability is fired, but modifiers like scrimshaw are calculated when an ability hits, it is possible to obtain the boosts of Erethdor's Grimoire at the same time as a Scrimshaw. This can result in roughly a 6% increase in damage across the course of an entire rotation, but will significantly increase the amount of inputs.
-
-⬥ Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a single tick):
-
-[Have Active Grimoire <:grim2:643168158613504031> + Staff Equipped <:inquisitorstaff:694566917553520680>] → [ <:bloodblitz:535616247807868938> → Ability → Equip and activate Scrimshaw]  → [Equip Grimoire and Activate Grimoire <:grim2:643168158613504031>] 
-
-[Have Active Grimoire <:grim2:643168158613504031> + DW Equipped <:praeswand:643166769518739477> <:impercore:643166751067996160>] → [Ability → Equip and activate Scrimshaw]  → [Equip Grimoire and Activate Grimoire <:grim2:643168158613504031> + Equip Staff <:inquisitorstaff:694566917553520680>]
-
-.
-Demonstration: https://youtu.be/M65xdRYYxJ4
-.
 > **__Walking Bosses__ (Courtesy of <@236955913859104778>)**
 .tag:walking
 **__Moving NPCs__**
@@ -78,8 +64,10 @@ https://youtu.be/0Y0JGMeLcmI
 > **__Manual Spell Casting__ (Courtesy of <@133391081109716992> and <@150675804596994048>)**
 .tag:manualspellcasting
 .
-**__Saving rune costs__**
+**__Saving Rune Costs__**
+.
 .img:https://i.imgur.com/e678FYp.png
+.
 ⬥ Magic auto attacks deal damage based on the spell your weapon is set to. The Surge <:AirSurge:543465115870035999>, Blitz <:bloodblitz:535616247807868938>, and Barrage <:bloodbarrage:537338981747261446> spells deal damage scaling up to T92 while other spells are capped at a lower tier. 
     • Particularly, the Aurora <:RubyAurora:574292444791963659> spells are capped at T90 damage and below, making them undesirable to use despite their secondary effects.
 
@@ -106,27 +94,11 @@ __**Applications**__
 .
 > **__Autocast Spell Selection__ (Courtesy of <@244845124712923137>)**
 .tag:autocast
-**__Ensuring both weapons are casting spells__**
+**__Ensuring Both Weapons are Casting Spells__**
 ⬥ When selecting an autocast spell, be sure to manually select it with dual-wield (main-hand + off-hand). Selecting your autocast with a two-handed weapon will only apply it to the main-hand, thus setting no off-hand spell, causing you to do 2/3 damage when doing dual-wield abilities in this manner.
 
 ⬥ Here is a comparison. First example is selecting your autocast with two-handed weapon first (main-hand autocast). Second example is selecting your autocast with dual-wield weapon first (main-hand + off-hand autocast).
 https://youtu.be/IUmvGm4Z374
-
-.
-> **__How Adren Gaining Without a Target Works__ (Courtesy of <@236955913859104778>)**
-.tag:adrengain
-**__Stalling adrenaline__**
-⬥ After doing your last damaging ability on an NPC, you can use any abilities to gain adren for then next 10 seconds. After that, defensive basics will no longer give adren. 
-    • There is an important caveat: you will only be unable to gain adren for 10 seconds. After that, you can use ONE defensive basic that will give you adren, after which you will be unable to gain adren again for 10s. Think of this as a cooldown - 10s after the last damaging ability on a boss, you will only be able to build once every 10s. The following abilities do not affect or reset this “cooldown”: 
-        - Non-defensive abilities that do not require a target (Surge <:surge:535533810004262912>, Escape <:escapecodex:602561894443778115>, and Bladed Dive <:bd:535532854281764884>)
-        - Defensive thresholds (these will always take 15 adren unless you lose target, and their use does not affect the CD)
-        - Ultimates that do not require a target
-
-⬥ An example showcasing the latter (ultimates not affecting this cooldown) would be not losing target after an AoD kill, then starting off the next kill with Sunshine <:Sunshine:583430011948630016> + a defensive basic that was used NO earlier than 10s after the previous defensive basic you used to stall adren. 
-    • You would be able to use Anticipate <:anti:535541306475151390> to stall, Sunshine <:Sunshine:583430011948630016> when your Anticipate <:anti:535541306475151390> timer is at 2s, then use another defensive basic like Freedom <:freedom:535541258240786434> after Anticipate <:anti:535541306475151390> has run out.
-
-.
-*Note that all this does not apply on targets that automatically force you to lose target after death (e.g. Araxxi and Telos)* 
 
 .
 > **__The True Centre of a Boss is Always South-West__ (Courtesy of <@175995416955977728>)**
@@ -144,15 +116,6 @@ In the picture with the combat dummy, the true centre is in the centre because t
 
 .
 Note that this works with other forms of AoE as well, such as Mechanized chinchompas <:mechchin:641669268722810881>.
-
-.
-> **__Camera Shaking Toggle__ (Courtesy of <@216433706343202816>)**
-.tag:shake
-**__Camera toggles__**
-⬥ If you suffer from motion sickness, you may toggle this off in the settings menu. This is particularly useful for Rise of the Six tunnels, or usage of Quake <:quake:535532879506309150>. 
-
-⬥ However be aware that camera shake often helps indicate a mechanic is about to happen, for example at Solak or Black Stone Dragon.
-.img:https://i.imgur.com/Un81lbK.png
 
 .
 > **__Boss Sizes for SGB__ (Courtesy of <@127417821817864192>)**
@@ -194,9 +157,25 @@ Note that this works with other forms of AoE as well, such as Mechanized chincho
 ⬥ **Yakamaru** - 5x5 (blocked)
 
 .
+> **__How Adren Gaining Without a Target Works__ (Courtesy of <@236955913859104778>)**
+.tag:adrengain
+**__Stalling Adrenaline__**
+⬥ After doing your last damaging ability on an NPC, you can use any abilities to gain adren for then next 10 seconds. After that, defensive basics will no longer give adren. 
+    • There is an important caveat: you will only be unable to gain adren for 10 seconds. After that, you can use ONE defensive basic that will give you adren, after which you will be unable to gain adren again for 10s. Think of this as a cooldown - 10s after the last damaging ability on a boss, you will only be able to build once every 10s. The following abilities do not affect or reset this “cooldown”: 
+        - Non-defensive abilities that do not require a target (Surge <:surge:535533810004262912>, Escape <:escapecodex:602561894443778115>, and Bladed Dive <:bd:535532854281764884>)
+        - Defensive thresholds (these will always take 15 adren unless you lose target, and their use does not affect the CD)
+        - Ultimates that do not require a target
+
+⬥ An example showcasing the latter (ultimates not affecting this cooldown) would be not losing target after an AoD kill, then starting off the next kill with Sunshine <:Sunshine:583430011948630016> + a defensive basic that was used NO earlier than 10s after the previous defensive basic you used to stall adren. 
+    • You would be able to use Anticipate <:anti:535541306475151390> to stall, Sunshine <:Sunshine:583430011948630016> when your Anticipate <:anti:535541306475151390> timer is at 2s, then use another defensive basic like Freedom <:freedom:535541258240786434> after Anticipate <:anti:535541306475151390> has run out.
+
+.
+*Note that all this does not apply on targets that automatically force you to lose target after death (e.g. Araxxi and Telos)* 
+
+.
 > **__Ability Stalling__ (Courtesy of <@236955913859104778>)**
 .tag:stall
-**__Stacking abilities__**
+**__Stacking Abilities__**
 ⬥ The act of activating an ability outside your weapon's cast distance, "holding" the ability, and finally releasing it. 
 
 Short video guide on this topic: https://youtu.be/fInvWvnSI18
@@ -204,7 +183,7 @@ Short video guide on this topic: https://youtu.be/fInvWvnSI18
 .
 > **__Weapon Poison__ (Courtesy of <@108682527304060928>)**
 .tag:poison
-**__How it works__**
+**__How it Works__**
 ⬥ Weapon Poison provides a buff to the player for an amount of time dependent on the grade of poison being used. 
     • While this is active, players have a 1/6 chance of poisoning a target so long as they are not poison-immune. After being poisoned, the target will take damage every 16 game ticks, or 9.6 seconds, and will continue to take damage for 3 minutes. 
     • This 3 minute duration also has a chance to be refreshed at a 1/6 rate. 
@@ -212,6 +191,7 @@ Short video guide on this topic: https://youtu.be/fInvWvnSI18
 
 ⬥ Vulnerability <:Vuln:537349530551582720> affects this damage, but prayers and damage boosting ultimates do not.
 
+.
 ⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812> heavily boost the amount of damage that can be dealt by poison. 
     • While worn, the gloves effectively ignore the 16 tick cooldown on poison damage, allowing for a 1/6 chance of reapplication and refreshing the poison timer on the target. 
     • This reapplication will incur an extra poison hit, and the 16 tick damage timer is also reset. 
@@ -222,6 +202,7 @@ Short video guide on this topic: https://youtu.be/fInvWvnSI18
     • The +++ variant is increased to an average 36.5% ability damage from 27.9%. 
         - Coupled with Kwuarm incense sticks, this value raises further to 46.5%.
 
+.
 ⬥ Poison can be applied/refreshed by **any player-sourced damage**. This includes:
     • Auto attacks.
     • Abilities.
@@ -236,29 +217,64 @@ Short video guide on this topic: https://youtu.be/fInvWvnSI18
     • Dominion mines.
 
 .
+> **__Zerk Auras and On-Cast Ult Interactions__ (Courtesy of <@781280949790572554>)**
+.tag:zerkAura
+Normally throughout your Sunshine, Death's Swiftness, and Berserk, the 10% damage increase from your Maniacal, Reckless, and Berserker Auras do not come into effect. However, there is a caveat in which you can get *both* the Ultimate boost and Aura boost, which is colloquially referred to as "last tick of ult."
+
+.
+⬥ Since the listed ultimates apply their buff on cast while the listed auras apply their buff on hit, by simply casting an ability in your ultimate and it hitting after the ultimate lets it get buffed by the 10% from aura too since the ultimate is now over and the buff can be applied.
+
+.
+⬥ Notice the following image: the same ability is cast, yet one hit significantly harder, that is because of this interaction
+.
+.img:https://i.imgur.com/0TxDCjz.png
+.
+> **__Grimoire and Scrimshaw Switching__**
+.tag:grimshaw
+**__Obtaining both pocket slot's benefits__**
+Due to the fact that damage critical hits are calculated as an ability is fired, but modifiers like scrimshaw are calculated when an ability hits, it is possible to obtain the boosts of Erethdor's Grimoire at the same time as a Scrimshaw. This can result in roughly a 6% increase in damage across the course of an entire rotation, but will significantly increase the amount of inputs.
+
+⬥ Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a single tick):
+
+[Have Active Grimoire <:grim2:643168158613504031> + Staff Equipped <:inquisitorstaff:694566917553520680>] → [ <:bloodblitz:535616247807868938> → Ability → Equip and activate Scrimshaw]  → [Equip Grimoire and Activate Grimoire <:grim2:643168158613504031>] 
+
+[Have Active Grimoire <:grim2:643168158613504031> + DW Equipped <:praeswand:643166769518739477> <:impercore:643166751067996160>] → [Ability → Equip and activate Scrimshaw]  → [Equip Grimoire and Activate Grimoire <:grim2:643168158613504031> + Equip Staff <:inquisitorstaff:694566917553520680>]
+
+.
+Demonstration: https://youtu.be/M65xdRYYxJ4
+.
 > **__Instance Hopping__ (Courtesy of <@287398612558675968>)**
 .tag:inshopp
-**__Why is it useful__**
+**__Why is it Useful__**
 ⬥ Some boss encounters, such as the whole God Wars Dungeon 2, take place inside an private instance. Although useful to prevent world crowding from annoying you in PvM, there is a downside: Bosses will not respawn instantly inside it.
     • There is a method used to reduce the spawn time of the bosses, and it consists of: kill boss → pick loot if worth it → quickly leave instance → re-join instance → repeat
 
 Comparison of waiting for spawn time x instance hopping: https://youtu.be/O-Lb93vFRAI
 .
 *Note: Although the difference might seem small, over the course of multiple (30+ kills) it adds up significantly.*
+
 .
+> **__Camera Shaking Toggle__ (Courtesy of <@216433706343202816>)**
+.tag:shake
+**__Camera Toggles__**
+⬥ If you suffer from motion sickness, you may toggle this off in the settings menu. This is particularly useful for Rise of the Six tunnels, or usage of Quake <:quake:535532879506309150>. 
+
+⬥ However be aware that camera shake often helps indicate a mechanic is about to happen, for example at Solak or Black Stone Dragon.
+.img:https://i.imgur.com/Un81lbK.png
 
 .
 > **__Table of Contents__**
 ⬥ **Target Cycling** - $linkmsg_tc$
-⬥ **Grimoire and Scrimshaw Switching** - $linkmsg_grimshaw$
 ⬥ **Walking Bosses** - $linkmsg_walking$
 ⬥ **Manual Spellcasting** - $linkmsg_manualspellcasting$
 ⬥ **Autocast Spell Selection** - $linkmsg_autocast$
-⬥ **Adren Gain without a Target** - $linkmsg_adrengain$
 ⬥ **Centre of Bosses** - $linkmsg_centre$
-⬥ **Camera Shaking** - $linkmsg_shake$
 ⬥ **Boss Sizes** - $linkmsg_sizes$
-⬥ **Ability stalling** - $linkmsg_stall$
+⬥ **Adren Gain without a Target** - $linkmsg_adrengain$
+⬥ **Ability Stalling** - $linkmsg_stall$
 ⬥ **Weapon Poison** - $linkmsg_poison$
+⬥ **Zerk Auras and Ult Intereactions** - $linkmsg_zerkAura$
+⬥ **Grimoire and Scrimshaw Switching** - $linkmsg_grimshaw$
 ⬥ **Instance Hopping** - $linkmsg_inshopp$
+⬥ **Camera Shaking** - $linkmsg_shake$
 .pin:delete
