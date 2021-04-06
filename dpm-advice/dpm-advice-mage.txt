@@ -402,8 +402,21 @@ https://www.youtube.com/watch?v=unCtj7IosVA
 ⬥ Typically, when releasing Detonate <:deto:535533833358016512> you will release it with an Auto and an Ability
     • An example would be the following: Auto Sonic Wave → Detonate (3t/1.8s) → Auto Deto Dragon Breath (<:AirSurge:543465115870035999> <:sonic:535533809924571136> → <:deto:535533833358016512> (3t/1.8s) → <:AirSurge:543465115870035999> <:deto:535533833358016512> <:dbreath:535533833391702017>)
         - The order things are listed here are important, you want to do Auto <:AirSurge:543465115870035999> then Detonate <:deto:535533833358016512> then Dragon Breath <:dbreath:535533833391702017> on the same tick in that order to release them with Detonate <:deto:535533833358016512>
+.
 .img:https://i.imgur.com/MTmP0BE.mp4
+.
+⬥ There is an odd occurence wherein Detonate <:deto:535533833358016512> will cost 30% adrenaline instead of 15%
+    • This can be explained as follows: the game thinks you both have a target and not at the same time, so it uses adrenaline from both your target and the adrenaline inherently used from using it without a target
+        - To prevent this, try casting any damaging ability before you hit Detonate <:deto:535533833358016512>
 
+.
+⬥ Further, Detonate works like normal AoEs wherein it is centered at the true center of the target (for any >=2x2 target this will be the SW tile)
+    • However, if you cast Detonate without a target, it will be centered on your player
+
+.
+⬥ Moreover, its worth keeping in mind the difference in AoE size dependent on the charge of deto on release, as represented in the following diagram:
+.
+.img:https://i.imgur.com/wstGIS3.png
 .
 > **__Dual Wield vs Staff Camp__**
 .tag:DwVs2H
