@@ -218,29 +218,31 @@ Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> 
 .
 ⬥ Greater Barge works as follows:
     • It will break you free of binds, and where applicable bind a target for 11 ticks (6.6sec)
-    • By default has a 25%-125% range
+    • By default has a damage range of 25%-125%
         - However, for each tick (0.6sec) since the player stopped attacking their target, Greater Barge gains +10% damage, capping at 10 tick (6s) for +100%, for a max of 225%
-    • If it has been atleast 8 ticks (4.8sec) since you stopped attacking it gains another effect, indicated by the Greater Barge icon appearing on your Buff Bar, then it gains an additional effect:
-        - Any melee channeled ability used within 10 ticks (6sec) of casting Greater Barge, indicated by the a Provoke-like icon appearing on your Buff Bar, will be turned into a damage-over-time (DoT) instead
-        - For the sake of simplicity converting a channeled ability into a DoT is referred to as "bleeding" it, or having "bled" it, or you are going to "bleed" that threshold; however, these should not be confused with normal bleeds, as they are different.
-        - Further, this is the actual reason Greater Barge is so strong
-        
-.
-⬥ Gbarge is commonly used as follows, in the following cases:
-    • First is simply at the start of a fight, as you should not have attacked anything long enough and thus can freely Greater Barge and then convert a channeled ability into a DoT
-    • Secondly is after any mechanic that forces you to off, such as Vorago's Reflect mechanic, as you again should not have attacked anything long enough allowing you to then Greater Barge freely
-    • The third case is stalling your rotation mid-combat before you say Berserk to get the effect within it, which is done as follows:
+    • If it has been atleast 8 ticks (4.8sec) since you stopped attacking it gains another effect, indicated by the Greater Barge <:gbarge:535532879250456578> icon appearing on your Buff Bar, then it gains an additional effect:
+        - Any melee channeled ability used within 10 ticks (6sec) of casting Greater Barge, indicated by the a Provoke-like <:voke:535541259465392143> icon appearing on your Buff Bar, will be turned into a damage-over-time (DoT) instead
+        - For the sake of simplicity converting a channeled ability into a DoT is referred to as "bleeding" it, or having "bled" it, or you are going to "bleed" that threshold; however, these should not be confused with normal bleeds (e.g. <:dismember:535532879376023572>), as they are different.
+        - Further, this is the actual reason Greater Barge <:gbarge:535532879250456578> is so strong
 
 .
-⬥ In general the cost of utilizing Greater Barge is an Auto in say your Berserk, but in the third case the cost is a Damaging Ability + your Auto
-    • Though the benefit is an extra 4 ticks in say your Berserk which is large enough to be worth said cost
+⬥ Greater Barge is commonly used as follows, in the following cases:
+    • First is simply at the start of a fight, as you should not have attacked anything long enough and thus can freely Greater Barge <:gbarge:535532879250456578> and then convert a channeled ability into a DoT
+    • Secondly is after any mechanic that forces you to off, such as Vorago's Reflect mechanic, as you again should not have attacked anything long enough allowing you to then Greater Barge <:gbarge:535532879250456578> freely
+    • The third case is stalling your rotation mid-combat before you <:zerk:535532854004678657> to get the effect within it, which is done as follows:
+
+.
+⬥ In general the cost of utilizing Greater Barge <:gbarge:535532879250456578> is an Auto in say your Berserk <:zerk:535532854004678657>, but in the third case the cost is a Damaging Ability (e.g. <:deci:535532879325822986>) + your Auto
+    • Though the benefit is an extra 4 ticks in say your Berserk <:zerk:535532854004678657> which is large enough to be worth said cost
 
 .
 **__Exploring How to Execute the Third Case Properly__**
-⬥ Damaging Ability → click off atleast 1 tick (0.6sec) before your Defensive → Defensive → Berserk [Emoji] → Greater Barge <:gbarge:535532879250456578>
-    • As seen here, there are 9 ticks (5.4sec) between the the Damaging Ability and Barge, which is 1 more tick (0.6sec) than required
-        - So, if said Ability gets you the adrenaline to Berserk [Emoji], then it is a tick (0.6s) more efficient to do as follows:
-⬥ Damaging Ability → wait 2 ticks (1.2sec) → Berserk → Barge
+⬥ Damaging Ability (e.g. <:deci:535532879325822986>) → click off atleast 1 tick (0.6sec) before your Defensive → Defensive (e.g. <:anti:535541306475151390>) → Berserk <:zerk:535532854004678657> → Greater Barge <:gbarge:535532879250456578>
+    • It is important to click off atleast 1 tick prior otherwise you will not get the effect
+        - This is thought to be because the game thinks you have tried to cast an auto as a result of the Defensive, and so resets the Greater Barge effect timer
+    • Also, as seen here, there are 9 ticks (5.4sec) between the the Damaging Ability and Greater Barge, which is 1 more tick (0.6sec) than required
+        - So, if said Ability gets you the adrenaline to Berserk <:zerk:535532854004678657>, then it is a tick (0.6s) more efficient to do as follows:
+⬥ Damaging Ability (e.g. <:deci:535532879325822986>) → wait 2 ticks (1.2sec) → Berserk <:zerk:535532854004678657> → Greater Barge <:gbarge:535532879250456578>
     • As seen here, there are now 8 ticks (4.8sec) between the Damaging Ability and Greater Barge <:gbarge:535532879250456578>
 
 .
@@ -249,79 +251,103 @@ Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> 
 https://youtu.be/GPPMjY2wrjw
 .
 **__Notes on Greater Barge__**
-⬥ Multiple people can stack their Greater Barge bled abilities, unlike what would be possible with normal bleed abilities
+*Note: bullets marked with \* are likely bugs, or at the very least unintended*
 
-⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> all the hits will reduce your Berserker cooldown, as you allow its full duration to channel now
+⬥ Multiple people can stack their Greater Barge <:gbarge:535532879250456578> bled abilities, unlike what would be possible with normal bleed abilities
 
 .
-⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> you need to be careful for a couple reasons:
+⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> all the hits will reduce your Berserk <:zerk:535532854004678657> cooldown, as you allow its full duration to channel now
+
+.
+⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> you need to be careful for a couple reasons:\*
     • If you are out of melee distance, it does the equivalent of its AoE (i.e., normal Flurry's) damage, which is far weaker than Greater Flurry's damage per hit
     • Similarly, this occurs if you are adjacent to other targets
 
 .
-⬥ If you using queuing, ensure to not queue your Greater Barge, otherwise you will not get the buff to bleed a channeled ability
+⬥ If you using queuing, ensure to not queue your Greater Barge <:gbarge:535532879250456578>, otherwise you will not get the buff to bleed a channeled ability\*
 
-⬥ Greater Barge also does not give adrenaline if you still have a target that is dead
+.
+⬥ Greater Barge <:gbarge:535532879250456578> also does not give adrenaline if you still have a target that is dead\*
 
-⬥ If for whatever reason you were to bleed Frenzy, it only does 180% hits
+.
+⬥ If for whatever reason you were to bleed Frenzy <:frenzy:535532879279554581>, it only does 180% hits\*
 
 .
 ⬥ Equipping a different tier of weapon *after* bleeding will change the damage of the weapon according to the latter weapon tier
     • This occurs as it is still attempting to cast each hit separately, like a normal channel
         - This also means each hit has its own chance to hit
     • For example, of you bleed with a t90 weapon equipped, then switch to t92 the damage will be calculated as t92 damage for any remaining hits
-    • This has some odd interactions with weapons such as Terassaur Maul which will be explored momentaril
+    • This has some odd interactions with weapons such as Terassaur Maul <:terramaul:602561894829522954> which will be explored momentarily\*
 
 ⬥ Vorago will not clear these DoTs on reflect
 
 .
 ⬥ The hit timings of Greater Barge bleeds follow a fixed pattern:
     • The first hit's hit timing corresponds with the time it would normally hit as a channeled ability
-        - For example, 2H Assault hit 1 would be 2t (1.2sec) delayed, whereas DW Assault hit 1 would be 3t (1.8sec) delayed
+        - For example, 2H Assault <:assault:535532853979512842> hit 1 would be 2t (1.2sec) delayed, whereas DW Assault <:assault:535532853979512842> hit 1 would be 3t (1.8sec) delayed
     • Hits 2-4 will always hit 5t, 7t, and 9t (3sec, 4.2sec, 5.4sec) delayed respectively
 
-⬥ Further if you stall a barge bleed the following will occur:
+.
+⬥ Further if you stall a barge bleed the following will occur:\*
     • Hits 2-4 will hit as normal on the target you casted the ability on to stall
     • Hit 1 will be the only hit that gets stalled, and when released will hit the same time as it would normally hit if it were the first hit of its channeled ability
         - Furthermore, what this means is you can far-cast your barge bleed on a target to make hits 2-4 hit it from a large distance technically
-        
+
 .
 **__Greater Barge Interation with Weapon Effects__**
-⬥ For sake of example, Assault and Terassaur Maul will be used; however, this affects any barge bleed and, as far as is known, is caused by the following weapons as well:
+⬥ For sake of example, Assault <:assault:535532853979512842> and Terassaur Maul <:terramaul:602561894829522954> will be used; however, this affects any barge bleed and, as far as is known, is caused by the following weapons as well:
     • Bane Weaponry
     • Keris
     • Darklight
-    
+
 .
-⬥ Essentially what happens is that *after* you apply a bleed with one of these weapons, such as a Terassaur Maul, and then you swap weapons, for instance to a T92 weapon, the effect is applied ontop of the t92 weapon's damage for the remaining hits
-    • As in, with the Terassaur Maul example, if you bleed Assault against a Ranged monster, and then swap to a t92 weapon, for each bleed hit casted with t92 on it will result in t92 + 12.5% damage, rather than T80 + 12.5% damage, which is quite a large increase.
-    
+⬥ Essentially what happens is that *after* you apply a bleed with one of these weapons, such as a Terassaur Maul <:terramaul:602561894829522954>, and then you swap weapons, for instance to a T92 weapon (e.g. <:zgs:626465964325601290>), the effect is applied ontop of the t92 weapon's damage for the remaining hits
+    • As in, with the Terassaur Maul <:terramaul:602561894829522954> example, if you bleed Assault <:assault:535532853979512842> against a Ranged monster, and then swap to a t92 weapon, for each bleed hit casted with t92 on it will result in t92 + 12.5% damage, rather than T80 + 12.5% damage, which is quite a large increase.
+    - However, if you bleed with t92, and then swap to the maul <:terramaul:602561894829522954>, it will just do its normal damage without the modifier being applied
+
 .
 > **__Deviating Upgrade Paths__**
 .tag:DeviatingUpgradePath
 **__Two Roads Diverged in a Yellow Wood__**
 *Note: As with any upgrade path, feel free to ask any questions you have in <#656898197561802760>*
 
-⬥The prioritization of upgrades can vary depending on what your focus is with PvM. 
-    • The remaining upgrades are also very expensive, varying from 100m to 1b.
+⬥ The prioritization of upgrades can vary depending on what your focus is with PvM. 
+    • This is largely due to the fact the costs of each upgrade is relatively high
 
 .
-⬥ If you will be primarily doing Vorago or Solak, it is recommended to pick up a Greater Barge codex <:gbarge:535532879250456578>.     • Its special affect allows you to turn channeled abilities into bleeds.
+⬥ Generally speaking it is recommended to pick up a Greater Barge codex first <:gbarge:535532879250456578>.
+    • Its special affect allows you to turn channeled abilities into bleeds.
 
-⬥ If you're more interested in bosses such as Angel of Death, Raids - Beastmaster & Yakamaru, or faster kills at Araxxor, it is recommended to buy a Zaros Godsword. 
+.
+⬥ Further, it is worth aiming to get Greater Flurry <:gflurry:535532879283879977> as well
+    • Largely because it can be nice for utilizing all your Berserk-boosted ticks during you Berserk
+
+.
+⬥ That being said, Greater Fury <:gfury:535532879334080527> is pretty minor and should be delayed until much later
+    • Though it may be nice if you are planning to do a lot of afk-based revolution-using content
+
+.
+⬥ Afterwards, if you will benefit from the special attack, it is generally recommended to get a Zaros Godsword <:zgs:626465964325601290>
     • Its extremely powerful special attack greatly improves your sustained DPM.
 
 .
-⬥ At high defense bosses such as Vorago, Angel of Death, and Raids - Beastmaster & Yakamaru, it is recommended to pick up a Statius' Warhammer. 
-    • It has a special attack which significantly lowers defences for 1 minute. 
+⬥ Alternatively, you could pick up a Masterwork Spear of Annihilation <:mwspear:694566917456789554> if you can bleed at the encounter you are doing
+    • It increases the duration of bleeds, which is a relatively decent DPS increase
+    • Further it can be a good weapon to bridge the gap between t90 weaponry and Zaros Godsword, given it is far cheaper
+    
+.
+⬥ At high defense bosses such as Vorago, Angel of Death, and Raids - Beastmaster & Yakamaru, it is recommended to pick up a Statius' Warhammer <:swh:641670143197446182>. 
+    • It has a special attack which significantly lowers defences for 1 minute.
+    • It also increases your affinity against said target
 
+.
 ⬥ In the end you should aim to grab all three of these upgrades.
 
 .
 **__Zaros Godsword__**
 ⬥ The Zaros Godsword <:zgs:626465964325601290> is a T92 2H melee weapon noteworthy for its powerful Special Attack 'Blackhole'. 
-    • Blackhole is a DPS buff - essentially a Sunshine or Death's Swiftness for melee - which uses 50% Adrenaline (45% with Vigour <:vigour:615613235512737792>), buffs damage by 25% and lasts for 20 seconds. 
-    • It should be used in rotation with Berserk (ie. use Blackhole when Berserk is on cooldown) OR when the situation is too dangerous to Berserk in. 
+    • Blackhole is a DPS buff - essentially a Sunshine or Death's Swiftness for Melee - which uses 50% Adrenaline (45% with Vigour <:vigour:615613235512737792>), buffs damage by 25% and lasts for 35 ticks (t0-t34, 21 sec). 
+    • It should be used in rotation with Berserk (ie. use Blackhole when Berserk <:zerk:535532854004678657> is on cooldown) OR when the situation is too dangerous to Berserk in. 
 
 .
 *Note: You do not need to keep ZGS equipped once you've activated its special attack. Also note that ZGS does not have scythe range.*
@@ -334,48 +360,69 @@ https://youtu.be/GPPMjY2wrjw
 Berserk <:Berserk:513190158468907012> + Adrenaline Potion <:replenpot:641337470491033600> / Limitless Sigil <:limitless:641339233638023179> → Berserk Cooldown → ZGS Special → ZGS Cooldown → Repeat
 
 .
-**__Statius' Warhammer__**<:swh:641670143197446182>
+**__Masterwork Spear of Annihilation__** <:mwspear:694566917456789554>
+⬥ A fairly powerful weapon in its own right if you are able to bleed.
+
+.
+⬥ Its effect is that it adds two additional hits to the following abilities:
+    • Dismember <:dismember:535532879376023572> (bringing it to 7 from 5 hits, and up to 10 with the Strength Cape effect)
+        - Further, because of this, the spear becomes your Lunging <:lunge4:736522494315593759> switch eventually
+    • Slaughter <:slaughter:535532879237873666> (bringing it to 7 from 5 hits)
+    • Blood Tendrils <:bloodtendrils:535532854327640064> (bringing it to 7 from 5 hits)
+
+.
+**__Statius' Warhammer__** <:swh:641670143197446182>
 ⬥ One of the more powerful aspects of melee in group pvm is access to the SWH special attack without the need for an Ingenuity of the Humans ability <:ingen:641339234111848463>. 
 
 .
 ⬥ If you intend to do group PvM it is recommended to buy a SWH and use its special attack at high defence bosses (eg. Vorago, Yakamaru, Beast Master, Angel of Death). 
 
+.
 ⬥ Usage of the SWH varies from boss to boss and will be covered more specifically in our boss guides.
 
 .
-**__Greater Fury__**
+**__Greater Fury__** <:gfury:535532879334080527>
 ⬥ Greater Fury can be unlocked through consuming a Greater Fury Ability Codex. 
 
-⬥ This does two things: 1) Fury is no longer a channeled ability and instead only hits once dealing 157% ability damage, and 2) gains an extra effect where getting a critical hit with Fury will guarentee your next hit to be a crit as well.
+.
+⬥ This does two things: 1) Fury <:fury:535532879510372352> is no longer a channeled ability and instead only hits once dealing 157% ability damage, and 2) gains an extra effect where getting a critical hit with Greater Fury <:gfury:535532879334080527> will guarentee your next hit to be a critical hit as well.
 
 .
 ⬥ The main benefit to this upgrade is transforming this ability from a channeled ability to a gcd ability. 
-    • This allows fury to be used in revo++ and revolution set ups without needing a manual input to cancel on gcd. 
+    • This allows Greater Fury <:gfury:535532879334080527> to be used in Revolution++ and Revolution set ups without needing a manual input to cancel on GCD. 
 
+.
 ⬥ The crit effect can also be beneficial to overall DPS though it is random.
 
 .
-**__Greater Flurry__**
+**__Greater Flurry__** <:gflurry:535532879283879977>
 ⬥ Greater Flurry can be unlocked through consuming a Greater Flurry Ability Codex. 
 
-⬥ The effect states: 
-`Perform a flurry of blows against your surrounding targets, dealing up to 94% weapon damage per hit over 3.6 seconds. If only one target is nearby, up to 157% weapon damage per hit will be dealt instead. Additionally if an attack hits any target per swing, the cooldown of Berserk will be reduced by 1.2 seconds each swing.`
+.
+⬥ The effect is as follows: 
+    • Perform a flurry of blows against your surrounding targets, dealing up to 94% weapon damage per hit over 3.6 seconds
+    • If only one target is nearby, up to 157% weapon damage per hit will be dealt instead
+    • Additionally if an attack hits any target per swing, the cooldown of Berserk will be reduced by 1.2 seconds each swing
+        - It is these last two bullets which make it worthwhile
 
+.
 ⬥ Once you've unlocked this threshold, it becomes your 3rd best threshold in Berserk. 
 
 .
 ⬥ In addition, its unique effect of reducing Berserk cooldown is very useful in overall Melee rotations. 
 
+.
 ⬥ There are several ways of using GFlurry. 
-    • You can either cancel it on GCD (ie. 2 hits) for burst damage, or use it for its entire duration for its Berserk reduction effect. 
-    • If you bleed this threshold using gBarge, all bleed hits will contribute towards reducing Berserk's cooldown. 
-        - This is used extensively at Aod and Solak where players want to Berserk as often as possible through out the fight.
+    • You can either cancel it on GCD (ie. 2 hits) for burst damage, or use it for its entire duration for its Berserk reduction effect.
+        - Further you can 5t it (3 hit/3 sec), primarily used to align your ticks in Berserk <:zerk:535532854004678657> after using a full channel like Destroy <:destroy:535532879330148352> to still use all ticks of your ultimate
+    • If you bleed this threshold using gBarge, all bleed hits will contribute towards reducing Berserk's <:zerk:535532854004678657> cooldown. 
+        - This is used extensively at places like AoD and Solak where players want to Berserk as often as possible through out the fight.
 
 .
 **__Remaining Upgrades__**
 ⬥ At this stage, all important upgrades have been obtained and all that remains is to get inherent DPM boosting upgrades. 
-    • Following this, buy either Khopeshes or a T99 Codex, depending on which one is cheaper. 
-    • Then it is encouraged to start picking up things such as Trimmed Masterwork (which is very useful due to its set effect, and can save your ass at times), and dyed Lunging or Flanking switches. 
+    • Following this, a T99 Codex <:pcodex:643166740833894400> for Malevolence <:Malevolence:513190159416557573>, then something like Trimmed Masterwork <:tmwbody:536966366272552960> (which is very useful due to its set effect, which delays damage)
+    • Then it is encouraged to start picking up things such as Khopeshes <:khopeshmh:513206794844110858><:khopeshoh:513206794752098327>.
 
 .
 > **__Weapon Switch Invention Perks__**
@@ -431,47 +478,50 @@ Berserk <:Berserk:513190158468907012> → Assault <:assault:535532853979512842> 
 **__What They are and When to Use Them__**
 ⬥ Once you've incorporated DW/2h Switching, auto attacks become more prevelant as a dps tool.
 
-⬥ When you can auto attack is based on a delay depending on your weapon speed: DW <:augdrygoremacemh:697485495684431902> = 4t, 2h <:zgs:626465964325601290> = 6t.
+⬥ When you can auto attack is based on a delay depending on your weapon speed: Fastest (e.g. drygore mainhand <:augdrygoremacemh:697485495684431902>) = 4t, Average (e.g. <:zgs:626465964325601290>) = 6t.
+    • Each time you do a Damaging Ability, it resets this cooldown.
 
 .
-⬥ We will be using 2h auto attacks as they deal more damage.
+⬥ We will be using 2H auto attacks as they deal more damage.
 
+.
 ⬥ There are two specific instances of when you want to incorporate auto attacks into your rotation; one is 'passive', the other will is 5taa.
 
 .
 **__'Passive' Auto Attacks__**
-⬥ By performing a non-damaging ability with DW equipped, the auto attack cooldown is initiated and begins counting down; 5t cooldown, a GCD is 3t. 
+⬥ By performing a non-damaging ability, the auto attack cooldown is not reset, yet a GCD is 3t. 
 
-⬥ After GCD, waiting an additional 2t would mean your auto attack becomes available again. 
-
-⬥ By swapping to a 2h, an auto attack can be used by clicking on your target (click BEFORE inputting an ability).
+⬥ So, during the GCD, assuming the ability before was non-channeled and cast with either Fast or Fastest speed weapons you will get an auto attack during your GCD.
+    • This is because the respective cooldowns are 5t (3 sec) and 4t (2.4 sec), yet the GCD of the ability prior to the non-damaging ability will cover the first 3t of the cooldown, so the cooldown will end during the GCD caused by the non-damaging ability
+        - Further, you will have to click the boss if you somehow "offed" (e.g., by clicking under you) from it to get the auto
 
 .
 ⬥ Auto attacks can deal up to 5k damage, 8k in a Berserk and in most cases is worth the 2t wait. 
 
+.
 ⬥ You can perform an auto attack on every Berserk <:Berserk:513190158468907012> activation by doing the following:
-Equip DW → Berserk → Swap to 2h and wait 2t → Click target (Auto Attack) → Continue with Zerk rotation
+Fast/Fastest weapon speed non-channeled ability → Berserk → Swap to 2H → Click target if you offed + (Auto Attack) → Continue with Zerk rotation
 
-*Note: I call this section 'passive' auto attacks as they can be weaved relatively passively into your normal rotation. I would call this section 'loseless' though that is not technically true.*
+*Note: this section is called "passive" auto attacks as they can be weaved relatively passively into your normal rotation. Though, it is not technically "loseless."*
 
 .
 **__5TAA__**
-⬥ Auto attacks can be used 'actively' in what's known as 5taa. 
+⬥ Auto attacks can be used "actively" in what's known as 5taa. 
 
-⬥ Similar to mage, the idea is to use a 2h auto attack every other ability, in a pattern of: 
+⬥ Similar to mage, the idea is to use a 2: auto attack every other ability, in a pattern of: 
 Auto Attack → Ability1 → Ability2 → Repeat. 
+    • However, you DO NOT weave them in as regularly as 4TAA autos with Magic
 .
 https://youtu.be/9cwMPBt6mg0
 .
-⬥ Ability2 must be a DW ability and must not be a channeled ability. 
+⬥ Ability2 must be a Fastest weapon-speed casted ability, and must not be a channeled ability. 
 
 ⬥ Input Ability1 as soon as you see the sword swing animation from the Auto attack. 
     • Timing will take practice. 
-    • There are no restrictions on what Ability1 can be. 
+    • The only restriction on what the Ability one can be is a less than slower than Fastest weapon-speed channeled ability 
 
 .
-⬥ This rotation has a similar damage output compared to the Deci/Cleave rotation and is **situationally** utilized when you run out of 'good' abilities. 
-    • Remember, Auto attacks are not abilities so they are always available.
+⬥ Here is a video by <@162317885044293632> going more in depth of 5TAA and when you would use it, and why you would use it:
 .
 https://youtu.be/AzswBOuBnUQ
 .
@@ -480,12 +530,13 @@ https://youtu.be/AzswBOuBnUQ
     • Since you are doing an auto every other ability, coupled with standing idle for 2 ticks every other ability, you gain adrenaline at a much slower pace than with traditional rotations.
 
 ⬥ There is no button to force melee auto attacks.
-    • This means you have to stand idle for 2 ticks after Ability2 and *wait* for the auto attack to come out, before inputting your next ability. 
+    • This means you have to stand idle for 1 ticks after Ability2 and *wait* for the auto attack to come out, and then wait 1 additional tick afterwards before inputting your next ability (thus overall there being a 2t delay between Ability2 and the ability after).
     • Proper timing will require practice. 
         - Input an ability too fast and you lose the Auto attack. 
         - Input an ability too slow and you lose DPS. 
 
-⬥ These two reasons are why 5taa is a situational technique though it is still worth mentioning.
+.
+⬥ These two reasons are why 5taa is a situational technique, though it is still worth mentioning.
 
 .
 > **__Choosing a Drygore__**
