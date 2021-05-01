@@ -125,6 +125,93 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • Since obtaining weapon switches is *not* a linear path (ie. players likely choose weapon switches based on cost), the progression path of melee makes less sense in DPM thresholds and more sense in terms of gradual incorporation of weapon switches.
 
 .
+> **__Greater Barge__** <:gbarge:535532879250456578>
+.tag:Gbarge
+**__The Basics__**
+⬥ Greater Barge <:gbarge:535532879250456578> can be unlocked by consuming a Greater Barge Ability Codex, which then transforms your normal Barge <:barge:535532853916860437> ability into <:gbarge:535532879250456578>
+
+.
+⬥ Greater Barge works as follows:
+    • It will break you free of binds, and where applicable bind a target for 11 ticks (6.6sec)
+    • By default has a 25%-125% range
+        - However, for each tick (0.6sec) since the player stopped attacking their target, Greater Barge gains +10% damage, capping at 10 tick (6s) for +100%, for a max of 225%
+    • If it has been atleast 8 ticks (4.8sec) since you stopped attacking it gains another effect, indicated by the Greater Barge icon appearing on your Buff Bar, then it gains an additional effect:
+        - Any melee channeled ability used within 10 ticks (6sec) of casting Greater Barge, indicated by the a Provoke-like icon appearing on your Buff Bar, will be turned into a damage-over-time (DoT) instead
+        - For the sake of simplicity converting a channeled ability into a DoT is referred to as "bleeding" it, or having "bled" it, or you are going to "bleed" that threshold; however, these should not be confused with normal bleeds, as they are different.
+        - Further, this is the actual reason Greater Barge is so strong
+        
+.
+⬥ Gbarge is commonly used as follows, in the following cases:
+    • First is simply at the start of a fight, as you should not have attacked anything long enough and thus can freely Greater Barge and then convert a channeled ability into a DoT
+    • Secondly is after any mechanic that forces you to off, such as Vorago's Reflect mechanic, as you again should not have attacked anything long enough allowing you to then Greater Barge freely
+    • The third case is stalling your rotation mid-combat before you say Berserk to get the effect within it, which is done as follows:
+    
+.
+⬥ In general the cost of utilizing Greater Barge is an Auto in say your Berserk, but in the third case the cost is a Damaging Ability + your Auto
+    - Though the benefit is an extra 4 ticks in say your Berserk which is large enough to be worth said cost
+
+.
+**__Exploring How to Execute the Third Case Properly__**
+1. Damaging Ability → click off atleast 1 tick (0.6sec) before your Defensive → Defensive → Berserk [Emoji] → Greater Barge <:gbarge:535532879250456578>
+    a. As seen here, there are 9 ticks (5.4sec) between the the Damaging Ability and Barge, which is 1 more tick (0.6sec) than required
+        - So, if said Ability gets you the adrenaline to Berserk [Emoji], then it is a tick (0.6s) more efficient to do as follows:
+2. Damaging Ability → wait 2 ticks (1.2sec) → Berserk → Barge
+    a. As seen here, there are now 8 ticks (4.8sec) between the Damaging Ability and Greater Barge <:gbarge:535532879250456578>
+
+.
+⬥ Here is a demonstration:
+.
+https://youtu.be/GPPMjY2wrjw
+.
+**__Notes on Greater Barge__**
+⬥ Multiple people can stack their Greater Barge bled abilities, unlike what would be possible with normal bleed abilities
+
+⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> all the hits will reduce your Berserker cooldown, as you allow its full duration to channel now
+
+.
+⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> you need to be careful for a couple reasons:
+    • If you are out of melee distance, it does the equivalent of its AoE (i.e., normal Flurry's) damage, which is far weaker than Greater Flurry's damage per hit
+    • Similarly, this occurs if you are adjacent to other targets
+
+.
+⬥ If you using queuing, ensure to not queue your Greater Barge, otherwise you will not get the buff to bleed a channeled ability
+
+⬥ Greater Barge also does not give adrenaline if you still have a target that is dead
+
+⬥ If for whatever reason you were to bleed Frenzy, it only does 180% hits
+
+.
+⬥ Equipping a different tier of weapon *after* bleeding will change the damage of the weapon according to the latter weapon tier
+    • This occurs as it is still attempting to cast each hit separately, like a normal channel
+        - This also means each hit has its own chance to hit
+    • For example, of you bleed with a t90 weapon equipped, then switch to t92 the damage will be calculated as t92 damage for any remaining hits
+    • This has some odd interactions with weapons such as Terassaur Maul which will be explored momentaril
+
+⬥ Vorago will not clear these DoTs on reflect
+
+.
+⬥ The hit timings of Greater Barge bleeds follow a fixed pattern:
+    • The first hit's hit timing corresponds with the time it would normally hit as a channeled ability
+        - For example, 2H Assault hit 1 would be 2t (1.2sec) delayed, whereas DW Assault hit 1 would be 3t (1.8sec) delayed
+    • Hits 2-4 will always hit 5t, 7t, and 9t (3sec, 4.2sec, 5.4sec) delayed respectively
+
+⬥ Further if you stall a barge bleed the following will occur:
+    • Hits 2-4 will hit as normal on the target you casted the ability on to stall
+    • Hit 1 will be the only hit that gets stalled, and when released will hit the same time as it would normally hit if it were the first hit of its channeled ability
+        - Furthermore, what this means is you can far-cast your barge bleed on a target to make hits 2-4 hit it from a large distance technically
+        
+.
+**__Greater Barge Interation with Weapon Effects__**
+⬥ For sake of example, Assault and Terassaur Maul will be used; however, this affects any barge bleed and, as far as is known, is caused by the following weapons as well:
+    • Bane Weaponry
+    • Keris
+    • Darklight
+    
+.
+⬥ Essentially what happens is that *after* you apply a bleed with one of these weapons, such as a Terassaur Maul, and then you swap weapons, for instance to a T92 weapon, the effect is applied ontop of the t92 weapon's damage for the remaining hits
+    - As in, with the Terassaur Maul example, if you bleed Assault against a Ranged monster, and then swap to a t92 weapon, for each bleed hit casted with t92 on it will result in t92 + 12.5% damage, rather than T80 + 12.5% damage, which is quite a large increase.
+    
+.
 > **__Choosing a Drygore__**
 .tag:dryg
 **__Ideal Choice__**
@@ -410,60 +497,6 @@ Berserk <:Berserk:513190158468907012> + Adrenaline Potion <:replenpot:6413374704
 ⬥ Usage of the SWH varies from boss to boss and will be covered more specifically in our boss guides.
 
 .
-**__Greater Barge__** 
-⬥ Greater Barge <:gbarge:535532879250456578> can be unlocked through consuming a Greater Barge Ability Codex and transforms your lesser Barge ability to Greater Barge. 
-
-.
-⬥ The description of Greater Barge is as follows:
-`Greater barge requires the player to stop attacking their target for 3 seconds (8 ticks, roughly 2 GCD). At this point, the greater barge icon will show up on your buff bar. This indicates that the gbarge buff is ready to be activated. Barge your target, and a Provoke icon will appear on your buff bar with a 10 tick (roughly 3 GCD) timer. At any point during these 10 ticks any channeled ability you cast will become a damage-over-time bleed instead.` 
-.
-https://youtu.be/GPPMjY2wrjw
-.
-⬥ This effect is **EXTREMELY** powerful and can create lots of burst DPS. 
-
-.
-⬥ It is also extremely useful in any scenarios where you are forced to stop attacking due to a mechanic (eg. reflecting Web at Araxxor, phasing at Yakamaru pools, reflects at Vorago, phasing at Solak, etc) as these downtimes allow for Greater Barge to proc its waiting initial effect.
-
-.
-⬥ The applications of this are explored moreso in our specific boss guides but generally it is used as follows:
-Wait 5 ticks to proc Greater Barge → Barge Target → Activate channeled threshold (eg. Assault <:assault:535532853979512842>, Destroy <:destroy:535532879330148352>, or Greater Flurry <:gflurry:535532879283879977>) → Continue DPS rotation within next GCD.
-
-⬥ Greater Barge is also often used in tandom with Berserk and Greater Flurry for even more burst DPS. Starting the rotation at 92% adrenaline:
-Anticipate <:anti:535541306475151390> → Berserk <:Berserk:513190158468907012> → gBarge <:gbarge:535532879250456578> → Greater Flurry <:gflurry:535532879283879977> (bleed) → Continue with DPS
-
-.
-⬥ Using greater flurry as gBarge's bleed will allow its full duration to take effect thereby lowering Berserk's cooldown. 
-    • In this rotation, Anticipate can be replaced with Resonance <:res:535541258844635148> if you think you will have a hard time surviving after you Berserk. 
-
-.
-**__Notes on gBarge__**
-⬥ Multiple people can stack a gBarge 'bleed' on the same target and they will not override each other. 
-
-.
-⬥ Equipping a different tier weapon *after* you apply the bleed will change the bleed's damage according to the latter weapon tier. 
-    • For example, if you apply the gBarge bleed with Drygores (t90) equipped, then switch to ZGS (t92) the damage will be calculated as a t92 weapon.
-
-.
-⬥ If the initial weapon has a special effect against a target, the effect can activate *after* you switch to another weapon. 
-    • For example, apply a gBarge bleed with Terrasaur Maul<:terramaul:602561894829522954> then switching to Khopeshes will apply its special buff against Ranged monsters during its bleed calculations, to give T92 + 12.5% damage, rather than T80 + 12.5%.
-
-.
-⬥ During Yakamaru's Stun Pool, mbarging a Destroy ability will still apply its stun effect for the entire 4 hits. This can be a costly mistake.
-
-.
-⬥ Akin to note 2, switching to a flanking weapon during the gBarge bleed effect will null the stun effect. 
-
-.
-⬥ Normally Vorago will clear bleeds at the start of its Reflect mechanic. 
-    • Since gBarge is not a true bleed, it will not clear the bleed effect. 
-    • This makes it very easy to PK teammates if you have miscounted auto attacks. 
-    • Use with caution at Vorago.
-
-.
-⬥ There is currently a glitch that prevents the gBarge bleed effect from procing, despite having been outside of combat for the required duration. 
-    • It is currently thought to be caused by being out of combat for 10 seconds with no target, then re-entering combat with gBarge, though the causes of this glitch is still unclear.
-
-.
 **__Greater Fury__**
 ⬥ Greater Fury can be unlocked through consuming a Greater Fury Ability Codex. 
 
@@ -533,6 +566,7 @@ Note: This is distinct from ordering and only explains which abilities are good 
 ⬥ **Revolution** - $linkmsg_Revo$
 ⬥ **Full Manual** - $linkmsg_Manual$
 ⬥ **Overview - Melee DPS** - $linkmsg_Overview$
+⬥ **Greater Barge** - $linkmsg_Gbarge$
 ⬥ **Choosing a Drygore** - $linkmsg_dryg$
 ⬥ **Camping a Weapon** - $linkmsg_Camping$
 ⬥ **Weapon Switch Invention Perks** - $linkmsg_SwitchPerks$
