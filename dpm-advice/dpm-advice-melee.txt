@@ -219,7 +219,7 @@ Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> 
 ⬥ Greater Barge works as follows:
     • It will break you free of binds, and where applicable bind a target for 11 ticks (6.6sec)
     • By default has a damage range of 25%-125%
-        - However, for each tick (0.6sec) since the player stopped attacking their target, Greater Barge gains +10% damage, capping at 10 tick (6s) for +100%, for a max of 225%
+        - However, for each tick (0.6sec) since the player stopped attacking their target, Greater Barge gains +10% to its max damage range, and +2% to its min, capping at 10 tick (6s) for +100% and +20%, for a final range of 45%-225%
     • If it has been atleast 8 ticks (4.8sec) since you stopped attacking it gains another effect, indicated by the Greater Barge <:gbarge:535532879250456578> icon appearing on your Buff Bar, then it gains an additional effect:
         - Any melee channeled ability used within 10 ticks (6sec) of casting Greater Barge, indicated by the a Provoke-like <:voke:535541259465392143> icon appearing on your Buff Bar, will be turned into a damage-over-time (DoT) instead
         - For the sake of simplicity converting a channeled ability into a DoT is referred to as "bleeding" it, or having "bled" it, or you are going to "bleed" that threshold; however, these should not be confused with normal bleeds (e.g. <:dismember:535532879376023572>), as they are different.
@@ -264,7 +264,8 @@ https://youtu.be/GPPMjY2wrjw
     • Similarly, this occurs if you are adjacent to other targets
 
 .
-⬥ If you using queuing, ensure to not queue your Greater Barge <:gbarge:535532879250456578>, otherwise you will not get the buff to bleed a channeled ability\*
+⬥ If you using queuing, if you have no target, ensure to not queue your Greater Barge <:gbarge:535532879250456578> before TCing and using it, otherwise you will not get the buff to bleed a channeled ability\*
+    • Similar issues occur when clicking over TCing, though likely not a bug, but important to be aware of nonetheless
 
 .
 ⬥ Greater Barge <:gbarge:535532879250456578> also does not give adrenaline if you still have a target that is dead\*
