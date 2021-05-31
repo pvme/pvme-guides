@@ -11,17 +11,18 @@ Autos are a remnant from Pre-EoC combat, separate from abilities, and as such ha
 .
 **__Cooldowns Work as Follows__**
 ⬥  Every weapon has a weapon speed tied to it, and this will be used to determine the auto's cooldown based on the auto or ability fired:
-    • Slowest weapons have 12t (7.2s)
-    • Average have 6t (3.6s)
-    • Fast have 5t (3.0s)
-    • Fastest have 4t (2.4s)
+    • Slowest weapons have a 12t (7.2s) cooldown
+    • Average have a 6t (3.6s) cooldown
+    • Fast have a 5t (3.0s) cooldown
+    • Fastest have a 4t (2.4s) cooldown
 *Note: There are exceptions to abilities affecting the cooldown, and also how they affect them, these will be discussed later*
+*Note: Any time you see a speed before an Auto or Ability, such as "Average Ability," that is simply referring to the weapon speed of the weapon used to cast it*
 
 .
 ⬥ It is best to think of it as a system where the cooldowns set overlap, and only when all these cooldowns finally end will you be able to cast an auto:
 
 .
-⬥  Scenario 1: Let's say you do an Average-speed Auto + Fastest ability → (4t) Auto + Ability
+⬥  Scenario 1: Let's say you do an Average Auto + Fastest ability → (4t) Auto + Ability
     • This will not work, why?
         - The initial Average Auto will apply a 6t cooldown, and the Fastest ability with it will apply a 4t cooldown
         - By the time the GCD ends there will still be 3 ticks of cooldown left, waiting 1 more tick means the auto is still on a 2 tick cooldown from the 2h Auto, yet the cooldown applied by the Fastest Ability has ended, hence why you cannot Auto after the Fastest ability despite it applying a 4t cooldown 
@@ -37,7 +38,7 @@ Autos are a remnant from Pre-EoC combat, separate from abilities, and as such ha
 .
 .img:https://i.imgur.com/rB0xtw3.png
 .
-⬥ It is worth noting that this only applies to Melee and Magic, Ranged simply just uses the cooldown set by the last thing cast, auto or ability, due to a bug that was never patched with it that was patched in other styles.
+⬥ It is worth noting that this system of overlapping cooldowns only applies to Melee and Magic, Ranged simply just uses the cooldown set by the last thing cast, auto or ability, due to a bug that was never patched with it that was patched in other styles.
     • This means with Ranged, in Scenario 1 you *would* be able to 4t the auto rather than waiting the full 6t.
 
 .
@@ -65,8 +66,8 @@ t0: Avg/Fastest Tsunami cast
 t5: Fastest cast Tsunami auto cast
 t6: Avg cast Tsunami auto cast
 ```
-⬥ Essentially, if you cast <:tsunami:535533809995874304> with an Average speed weapon (Staff), the Auto cd will be affected as expected
-    • However, If you cast it with a Fastest speed weapon (Wand), the Auto cd will be delayed a tick further than normal
+⬥ Essentially, if you cast <:tsunami:535533809995874304> with an Average speed weapon (Staff), the Auto cooldown will be affected as expected
+    • However, If you cast it with a Fastest speed weapon (Wand), the Auto cooldown will be delayed a tick further than normal
 
 .
 **__Shadow Tendrils__**
@@ -129,19 +130,9 @@ T7: Ability
 .
 .img:https://i.imgur.com/01jlvxF.mp4
 .
-> **__Offing__**
-.tag:Offing
-**__What it is__**
-⬥ Further, it is important to mention that autos can be forced to not fire when their cooldown ends by "offing," this is done as follows:
-    • Clicking under yourself
-        - If you are on Revolution this will not work, you instead have to click to the sides of you
-    • Clicking a spell you cannot cast (e.g., trying to cast Disruption Shield when on the Ancient Spellbook)
-    • Clicking something from your inventory
-
-.
 > **__Adrenaline__**
 .tag:Adren
-Furthermore, the adrenaline per auto works as follows:
+The adrenaline per auto works as follows:
 *Note: this also displays the adrenaline with various ranks of invigorate*
 .
 .img:https://i.imgur.com/7EINzgc.png
@@ -149,25 +140,37 @@ Furthermore, the adrenaline per auto works as follows:
 *Note: Unlike abilities, autos **do not** give adrenaline when you splash*
 
 .
+> **__Offing__**
+.tag:Offing
+**__What it is__**
+⬥ It is important to mention that autos can be forced to not automatically try and fire when their cooldown ends by "offing," this is done as follows:
+    • Clicking under yourself
+        - If you are on Revolution this will not work, you instead have to click to the sides of you
+    • Clicking a spell you cannot cast (e.g., trying to cast Disruption Shield when on the Ancient Spellbook)
+    • Clicking something from your inventory
+
+.
 > **__Clicking vs Auto Bind__**
 .tag:ClickVsBind
 **__The Differences__**
-⬥ Moreover, it is also important to clarify key differences between clicking to Auto and using an Auto bind to get back on after offing to Auto:
-    • You cannot hit your auto bind to try and recast your auto mid-GCD, you need to 3 tick it
+⬥ It is also important to clarify key differences between clicking your target to Auto and using an Auto bind to get back on after offing to Auto:
+    • You cannot hit your auto bind to try and recast your auto mid-GCD, you would need to atleast 3 tick it (i.e., wait for GCD to end)
     • If you use your auto bind to recast your auto, you can alter what the auto will be when you cast it
+        - This is mostly applicable to Magic
     • You can click to recast your auto mid-GCD
     • If you click to recast your auto, your next ability must be at least 1 tick after otherwise you will override it
         - if you click to recast your auto ideally you do it mid-GCD so that you do not waste ticks
 
 .       
 ⬥ One important benefit of an auto bind though is the ability to cast and Auto and Ability on the same tick
-    • Normally, an Auto is executed as the last thing in a tick, and so normally an ability will override it
+    • Normally, an Auto is executed after an ability in a tick, and so normally an ability will override it
         - This is why you cannot 4TAA with Melee and Ranged Autos, and instead need to cast the ability on the 5th tick as opposed to the 4th tick along with the Auto
 
 .
 > **__Application: Defensive Autos__**
 .tag:DefAutos
 *Note: While this section is colloquialy referred to as "Defensive Autos", it is more technical to say it is non-damaging abilities, and so includes Sunshine <:Sunshine:583430011948630016> and Metamorphosis <:meta:535533811304497183>.*
+*Note: Any time you see a speed before an Auto or Ability, such as "Average Ability," that is simply referring to the weapon speed of the weapon used to cast it*
 
 .
 **__Why Defensive Autos Exist__**
@@ -198,6 +201,7 @@ T6: Ability
     • Further, you can exploit this to make it a 2H Auto, as the cooldown for any Auto ends on t4
         - So, you would simply swap to a 2H weapon somewhere between the Fast/Fastest Ability cast and the Defensive cast, or right after the Defensive cast and before the Auto would be cast
     • A further consideration, is if that ability on t6 is a non-channeled fastest ability, you can 4tick an ability afterwards
+        - This also requires a t4 Auto to work assuming an Auto Average after the t0 Ability, therefore it only works when you do a Fastest Ability into the Defensive
         - This is Magic specific, though can apply for Debuff spells cast by other styles
         - This can be seen in the following video by <@593106625955495947>: <https://www.youtube.com/watch?v=UmsbPrkqrtw>
 
@@ -280,6 +284,9 @@ T6: 2H Auto + Ability
 .
 > **__Application: 4tAA__**
 .tag:4TAA
+*Note: Any time you see a speed before an Auto or Ability, such as "Average Ability," that is simply referring to the weapon speed of the weapon used to cast it*
+
+.
 **__What it is__**
 ⬥ 4-tick Auto Attack (4TAA), is an extension of weapon juggling wherein, as the name implies, you force an auto attack on the 4th tick after casting the ability before
     • This largely applies to Magic, but can be extended to casting Debuff spells off-style too
@@ -296,7 +303,7 @@ T6: 2H Auto + Ability
 **__How it Works__**
 ⬥ The general 4TAA structure will be like:
 ```
-Auto + Avg/Fastest Ability → non-channeled Fastest Ability → Repeat
+2H Auto + Avg/Fastest Ability → non-channeled Fastest Ability → Repeat
 ```
 
 ⬥ As you can see, the auto is forced every other ability, this is simply due to the fact that 2H autos have a 6t cooldown so you can only cast it after every other ability
@@ -327,6 +334,9 @@ Auto + Asphyxiate → Fastest Ability → Auto + Ability
 .
 > **__Application: 5TAA:__**
 .tag:5TAA
+*Note: Any time you see a speed before an Auto or Ability, such as "Average Ability," that is simply referring to the weapon speed of the weapon used to cast it*
+
+.
 **__What it is__**
 ⬥ This is pretty similar to 4TAA but for Melee and Ranged in that you are essentially delaying your next ability to get an auto in; however, a key difference is that Melee and Ranged do not have an Auto bind, and so must wait an additonal tick before casting their ability
 
@@ -394,6 +404,9 @@ T33: Ability + Zerk ends
 .
 > **__Dark Bow Autos__**
 .tag:Dbow
+*Note: Any time you see a speed before an Auto or Ability, such as "Average Ability," that is simply referring to the weapon speed of the weapon used to cast it*
+
+.
 **__Why Dark Bow Autos are Interesting__**
 ⬥ Dark Bows are interesting in that they cast 2 autos at once, and this is balanced around the fact that it has a 12t (7.2s) cooldown, and as such they are primarily used for adrenaline gain in conjunction with defensives to maximize adrenaline gain
 
@@ -472,8 +485,8 @@ T6: Ability
 ⬥ **Introduction -** $linkmsg_Intro$
 ⬥ **Cooldown -** $linkmsg_Cooldown$
 ⬥ **Unexpected Abilities -** $linkmsg_Unexpected$
-⬥ **Offing -** $linkmsg_Offing$
 ⬥ **Adrenaline -** $linkmsg_Adren$
+⬥ **Offing -** $linkmsg_Offing$
 ⬥ **Clicking vs Auto Bind -** $linkmsg_ClickVsBind$
 ⬥ **Application: Def. Autos -** $linkmsg_DefAutos$
 ⬥ **Application: 4TAA -** $linkmsg_4TAA$
