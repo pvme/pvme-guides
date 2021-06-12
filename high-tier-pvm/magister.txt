@@ -46,7 +46,7 @@ Eldritch Crossbow <:ecb:615618531937222657> is strong due to its special attack,
 .
 > **__The Fight__**
 .tag:fight
-The Magister rotates between a set of special attacks randomly with 3 actions in between. This action counter resets back to 3 at 150k, 100k, and 50k hitpoints remaining. His actions include an auto attack, resonance, freedom, siphon, and dashing. He can do some of these actions very rapidly in succession which makes his special attack timings relatively unpredictable.
+The Magister rotates between a set of special attacks randomly with 3 actions in between. This action counter resets back to 3 at 150k, 100k, and 50k hitpoints remaining. His actions include an auto attack, Resonance, Freedom, Siphon, and Dashing. He can do some of these actions very rapidly in succession which makes his special attack timings relatively unpredictable.
 
 .
 **__150k HP__**
@@ -54,7 +54,7 @@ The soul obelisk used to start the fight will activate and continuously reduce t
 
 .
 **__100k HP__**
-An additional soul obelisk spawns at the south side of the room, dealing 600 damage every 5-7 seconds and raising the player's corruption level by 4%, causing player's damage dealt and taken to go up by the same percentage. This is beneficial as the boss is very dps focused so just ignore the obelisk. The maximum value this can reach during a fight is 50% however this resets to 25% when Magister dies (if the player was below 25% corruption it does not go up to 25%, only down).
+An additional soul obelisk spawns at the south side of the room, dealing 600 damage every 5-7 seconds and raising the player's corruption level by 4%, causing player's damage dealt and taken to go up by the same percentage. This is beneficial as the boss is very DPS focused so just ignore the obelisk. The maximum value this can reach during a fight is 50% however this resets to 25% when Magister dies (if the player was below 25% corruption it does not go up to 25%, only down).
 
 .
 **__50k HP__**
@@ -65,25 +65,23 @@ The Magister goes berserk, increasing his damage output while losing some defenc
 .tag:mechanics
 __**Resonance**__
 Magister will heal for the damage you would have dealt, if you spot this mechanic and you have not yet used an ability, it is best to use a bleed or a weak ability to minimise his healing. Mutated dazing shot's puncture bleed does a good job of stripping this effect off semi-consistently.
-
+.
+.img:https://imgur.com/HcUrNlA.mp4
 .
 **__Freedom__**
 Magister cannot freedom while stunned, he will only use freedom when he is bound, including 0.6s micro-binds at the end of abilities such as impact. While he will not directly aim to clear bleeds using this, he can indirectly do so should you bind him before or during your bleed. As such you should be mindful of using ability combinations such as:
 ⬥ <:dismember:535532879376023572>/<:slaughter:535532879237873666> → <:barge:535532853916860437>
 ⬥ <:frag:535541273755385885> → <:bindingshot:535541306563231790>
 ⬥ <:comb:535533833098100745> → <:impact:535533809655873556>
-
+.
+.img:https://imgur.com/GkerL8m.mp4
 .
 **__Siphon__**
 Magister will only use this when the player is at or above 70% adrenaline. As such the player should aim to maintain a level of adrenaline below 70% during their ultimates so that they don't lose adrenaline which should have been used for critical thresholds. They should also be wary of  this mechanic just before using their ultimates as it can cause the player to be drained and accidentally adrenaline pot from 90-100% instead of inside their ultimate after being drained. This can be avoided by delaying drinking your apot until after you know you have used your ultimate, or by using a stun such as impact, backhand, horror and the like before using their ultimate. These last long enough to prevent the magister from siphoning the player if they use their ultimate immediately after.
-
-*Note: The three abilities mentioned above happen replace an auto attack and instead delay Magister's next auto attack by only 0.6s.*
-
 .
-**__Dashing__**
-Magister will only dash away from the player during his "Stand Still" special attack (detailed below). Magister will dash away from the starting pillar in a random direction up to 8 tiles if he is stood too close to it, this usually happens after he uses his "Barge" (detailed below) special attack on a player stood close to the starting pillar.
-
-The magister can chain these actions together, even up to three in a row (although extremely rare) between special attacks and go spec to spec without any auto attacks inbetween whatsoever.
+.img:https://imgur.com/8h2rcWI.mp4
+.
+*Note: The three abilities mentioned above happen replace an auto attack and instead delay Magister's next auto attack by only 0.6s.*
 
 .
 > **__Specials__**
@@ -93,36 +91,61 @@ The Magister slams his staff into the ground, sending out a red lightning attack
 
 .
 **__Barge__**
-This mechanic is signaled by the voice line **"You dare fight me?"** After a 1.8s delay, the Magister will barge to 1 sq south of player's location, dealing around 2300 melee damage in a 5x5 area and disabling protection prayers for a small duration. This can be avoided by moving out of the way, it is recommended you move north as this gives you a 1.2s time window to react, moving east or west leaves you with only 0.6s and to dodge it by running south is always an accident as you already have to be running that way when the mechanic starts. If you find this time window small, resonance or simply ignoring it is an easier way of dealing with this mechanic.
+This mechanic is signaled by the voice line **"You dare fight me?"** After a 1.8s delay, the Magister will barge to 1 sq south of player's location, dealing around 2300 melee damage in a 5x5 area and disabling protection prayers for a small duration. 
+.
+.img:https://imgur.com/ier7amn.mp4
+.
+This can be avoided by moving out of the way, it is recommended you move North as this gives you a 1.2s time window to react, moving East or West leaves you with only 0.6s and to dodge it by running South is always an accident as you already have to be running that way when the mechanic starts. If you find this time window small, Resonance <:res:535541258844635148> or simply ignoring it is an easier way of dealing with this mechanic.
 
-⬥ Resonance <:res:535541258844635148> is also a good option if you wish to make the most of a channel such as Rapid Fire <:rapid:535541270521708566> or Asphyxiate <:asphyx:535533833072672778> but can not afford to lose the lifepoints to face tank the barge. Melee should use Disruption Shield <:disrupt:535614336207552523> to mitigate this mechanic losslessly, the healing is unnecessary with the use of a scrimshaw of vampyrism.
+⬥ Resonance <:res:535541258844635148> is also a good option if you wish to make the most of a channel such as Rapid Fire <:rapid:535541270521708566> or Asphyxiate <:asphyx:535533833072672778> but can not afford to lose the lifepoints to face tank the Barge. Melee should use Disruption Shield <:disrupt:535614336207552523> to mitigate this mechanic losslessly, the healing is unnecessary with the use of a Scrimshaw of Vampyrism <:VampScrim:513201294262009874>
 
 ⬥ Move 1 square away afterwards, as being melee distance to the boss can trigger the following mechanic.
 
-.
 **__Stand Still__**
-The Magister will yell **"Stand still!"** and stun the player for 4.2s, dealing ~2300 melee damage before dashing away in a random direction. It's possible for this combo damage to be very high as he will immediately do a mage attack after escaping, if you do get hit, use Freedom <:freedom:535541258240786434> and pray Deflect Magic <:DeflectMage:544195487926845462>. This is avoided by simply not standing in melee range of the boss, but if the player is using melee, they should use a halberd at 2 tile range at lower skill levels. Another method is to step away from Magister when he may do a special attack, his ability to do rapid consecutive actions can make this difficult and therefore requires high skill and insight to do well. This mechanic replaces the "Barge" mechanic while the player is in melee distance. This mechanic is instant and thus cannot be reacted to proactively, this makes resonance not an option.
+The Magister will yell **"Stand still!"** and stun the player for 4.2s, dealing ~2300 melee damage before dashing away in a random direction. It's possible for this combo damage to be very high as he will immediately do a Mage attack after escaping, if you do get hit, use Freedom <:freedom:535541258240786434> and pray Deflect Magic <:DeflectMage:544195487926845462>. 
+
+This is avoided by simply not standing in melee range of the boss, but if the player is using Melee, they should use a halberd at 2 tile range at lower skill levels. Another method is to step away from Magister when he may do a special attack, his ability to do rapid consecutive actions can make this difficult and therefore requires high skill and insight to do well.  This mechanic is instant and thus cannot be reacted to proactively, this makes resonance not an option.
+
+This mechanic replaces the **Barge** mechanic while the player is in melee distance. 
+
+**__Dashing__**
+Magister will only dash away from the player during his **Stand Still** special attack. Magister will dash away from the starting pillar in a random direction up to 8 tiles if he is stood too close to it, this usually happens after he uses his "Barge" (detailed below) special attack on a player stood close to the starting pillar.
+
+The magister can chain these actions together, even up to three in a row (although extremely rare) between special attacks and go spec to spec without any auto attacks inbetween whatsoever.
 
 .
 **__Unstable Mixture__**
-A bomb will be thrown in the general vicinity of the player and will explode after the bar above it fills, dealing typeless damage in a 5x5 area, if caught in the radius this is 4000 damage to the player, 4000 damage to the magister (multiplied by vuln) and 2000 damage to the player's familiar. This can be clicked on to kick it in the opposite direction of the player, if the player is stood on top of the bomb, it will always be kicked south by default. There appear to be 3 versions of this special attack: a fast bomb, a slow bomb, and a bomb with no visible timer. Furthermore, if the player stands on the tile the bomb is about to land on, the bomb does not spawn. If you restart a kill quickly enough, a bomb from a previous kill can hit him in the next kill.
+A bomb will be thrown in the general vicinity of the player and will explode after the bar above it fills, dealing typeless damage in a 5x5 area, if caught in the radius this is 4000 damage to the player, 4000 damage to the magister (multiplied by vuln) and 2000 damage to the player's familiar. 
 
+There appear to be 3 versions of this special attack: a fast bomb, a slow bomb, and a bomb with no visible timer. Furthermore, if the player stands on the tile the bomb is about to land on, the bomb does not spawn. If you restart a kill quickly enough, a bomb from a previous kill can hit him in the next kill.
 .
-**__Asphyxiate__**
-The Magister will asphyxiate the player, doing a consistent amount of magic damage for 3 hits and healing off the base damage (berserker multipliers and any mitigations are not counted, although corruption is). This ability does not stun and can be dealt with by moving or by using a melee threshold. This is 100% accurate on each hit, each hit can deal anywhere between 1500-3000 damage unmitigated however every hit deals the same amount of damage as the others. The player should take care to not stun him during this special attack as this will cause him to resume auto-attacking as soon as the stun wears off, even in the middle of his asphyxiate, causing unnecessary damage. If stunned by accident, the player should make an effort to chain their stuns to keep him stun locked.
+.img:https://imgur.com/EqOep9I.mp4
+.
+This can be clicked on to kick it in the opposite direction of the player, if the player is stood on top of the bomb, it will always be kicked south by default.
 
+**__Asphyxiate__**
+The Magister will asphyxiate the player, doing a consistent amount of magic damage for 3 hits and healing off the base damage (berserker multipliers and any mitigations are not counted, although corruption is). This ability does not stun and can be dealt with by moving or by using a melee threshold. This is 100% accurate on each hit, each hit can deal anywhere between 1500-3000 damage unmitigated however every hit deals the same amount of damage as the others. 
+
+The player should take care to not stun him during this special attack as this will cause him to resume auto-attacking as soon as the stun wears off, even in the middle of his asphyxiate, causing unnecessary damage. If stunned by accident, the player should make an effort to chain their stuns to keep him stun locked.
+.
+.img:https://imgur.com/WTSVZKC.mp4
 .
 **__Restore Me__**
-The Magister will regain several thousand lifepoints. He is much more likely to use this after falling below 50k lifepoints and it is often the first special attack he will use at that point. This can be avoided by stun-locking him, dealing damage and killing him before he gets the chance to use a special attack. Try not to burn too many thresholds for this purpose as you may end up wasting more damage in the long run than the healing you're aiming to prevent. You can also ignore this point but keep in mind it may take a bit longer than it seems to finish him off.
+The Magister will regain several thousand lifepoints. He is much more likely to use this after falling below 50k lifepoints and it is often the first special attack he will use at that point. This can be avoided by stun-locking him, dealing damage and killing him before he gets the chance to use a special attack. 
+.
+.img:https://imgur.com/3siuSRJ.mp4
+.
+Try not to burn too many thresholds for this purpose as you may end up wasting more damage in the long run than the healing you're aiming to prevent. You can also ignore this point but keep in mind it may take a bit longer than it seems to finish him off.
 
 .
 **__Minions__**
 This mechanic only happens once the magister has performed a sufficient number of special attacks beforehand, it is particularly cumbersome and powerful and as such the player should aim to avoid it at all costs:
 
-.
 ⬥ Two Soul Devourer minions will spawn using random combat styles. These have 10,000 HP and will remain until either they die or the fight ends. These deal moderate damage and it is recommended to kill them unless the fight is at least halfway over, melee spawns can be kited with ranged and magic.
-
-⬥ To minimise your chances of receiving this mechanic you should focus on having high DPS to reset his action counter to 3 as fast as possible (at 150k, 100k and 50k) before he has a chance to use a special attack on some of these phases. Stun-locking the magister and stunning him in general can be very helpful to this end. This makes dreadnips a very powerful ally, especially for players with lower DPS. The stuns they provide can also be used to boost the damage of Slice <:slice:535532879594258432>, Punish <:punish:535532879439069184>, Wrack <:wrack:535533809823645697> and Piercing Shot <:piercing:535541258538450944> for free, and also cause you to take less damage.
+.
+.img:https://imgur.com/4rbODea.mp4
+.
+⬥ To minimise your chances of receiving this mechanic you should focus on having high DPS to reset his action counter to 3 as fast as possible (at 150k, 100k and 50k) before he has a chance to use a special attack on some of these phases. Stun-locking the Magister and stunning him in general can be very helpful to this end. This makes dreadnips a very powerful ally, especially for players with lower DPS. The stuns they provide can also be used to boost the damage of Slice <:slice:535532879594258432>, Punish <:punish:535532879439069184>, Wrack <:wrack:535533809823645697> and Piercing Shot <:piercing:535541258538450944> for free, and also cause you to take less damage.
 
 *Note: Players with consistent kill times less than 1 minute should never see this special.*
 
