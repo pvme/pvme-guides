@@ -232,10 +232,6 @@ Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> 
     • The third case is stalling your rotation mid-combat before you <:zerk:535532854004678657> to get the effect within it, which is done as follows:
 
 .
-⬥ In general the cost of utilizing Greater Barge <:gbarge:535532879250456578> is an Auto in say your Berserk <:zerk:535532854004678657>, but in the third case the cost is a Damaging Ability (e.g. <:deci:535532879325822986>) + your Auto
-    • Though the benefit is an extra 4 ticks in say your Berserk <:zerk:535532854004678657> which is large enough to be worth said cost
-
-.
 **__Exploring How to Execute the Third Case Properly__**
 ⬥ Damaging Ability (e.g. <:deci:535532879325822986>) → click off atleast 1 tick (0.6sec) before your Defensive → Defensive (e.g. <:anti:535541306475151390>) → Berserk <:zerk:535532854004678657> → Greater Barge <:gbarge:535532879250456578>
     • It is important to click off atleast 1 tick prior otherwise you will not get the effect
@@ -250,8 +246,13 @@ Berserk <:Berserk:513190158468907012> → Assault <:assault:535532855191928842> 
 .
 https://youtu.be/GPPMjY2wrjw
 .
+**__The Cost of Using Greater Barge__**
+⬥ In general the cost of utilizing Greater Barge <:gbarge:535532879250456578> is an Auto in say your Berserk <:zerk:535532854004678657>, but in the third case the cost is a Damaging Ability (e.g. <:deci:535532879325822986>) + your Auto
+    • Though the benefit is an extra 4 ticks in say your Berserk <:zerk:535532854004678657> which is large enough to be worth said cost
+
+.
 **__Notes on Greater Barge__**
-*Note: bullets marked with \* are likely bugs, or at the very least unintended*
+*Note: bullets marked with ★ are likely bugs, or at the very least unintended*
 
 ⬥ Multiple people can stack their Greater Barge <:gbarge:535532879250456578> bled abilities, unlike what would be possible with normal bleed abilities
 
@@ -259,26 +260,26 @@ https://youtu.be/GPPMjY2wrjw
 ⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> all the hits will reduce your Berserk <:zerk:535532854004678657> cooldown, as you allow its full duration to channel now
 
 .
-⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> you need to be careful for a couple reasons:\*
+⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> you need to be careful for a couple reasons: ★
     • If you are out of melee distance, it does the equivalent of its AoE (i.e., normal Flurry's) damage, which is far weaker than Greater Flurry's damage per hit
     • Similarly, this occurs if you are adjacent to other targets
 
 .
-⬥ If you using queuing, if you have no target, ensure to not queue your Greater Barge <:gbarge:535532879250456578> before TCing and using it, otherwise you will not get the buff to bleed a channeled ability\*
+⬥ If you using queuing, if you have no target, ensure to not queue your Greater Barge <:gbarge:535532879250456578> before TCing and using it, otherwise you will not get the buff to bleed a channeled ability ★
     • Similar issues occur when clicking over TCing, though likely not a bug, but important to be aware of nonetheless
 
 .
-⬥ Greater Barge <:gbarge:535532879250456578> also does not give adrenaline if you still have a target that is dead\*
+⬥ Greater Barge <:gbarge:535532879250456578> also does not give adrenaline if you still have a target that is dead ★
 
 .
-⬥ If for whatever reason you were to bleed Frenzy <:frenzy:535532879279554581>, it only does 180% hits\*
+⬥ If for whatever reason you were to bleed Frenzy <:frenzy:535532879279554581>, it only does 180% hits ★
 
 .
 ⬥ Equipping a different tier of weapon *after* bleeding will change the damage of the weapon according to the latter weapon tier
     • This occurs as it is still attempting to cast each hit separately, like a normal channel
         - This also means each hit has its own chance to hit
     • For example, of you bleed with a t90 weapon equipped, then switch to t92 the damage will be calculated as t92 damage for any remaining hits
-    • This has some odd interactions with weapons such as Terassaur Maul <:terramaul:602561894829522954> which will be explored momentarily\*
+    • This has some odd interactions with weapons such as Terassaur Maul <:terramaul:602561894829522954> which will be explored momentarily ★
 
 ⬥ Vorago will not clear these DoTs on reflect
 
@@ -289,7 +290,7 @@ https://youtu.be/GPPMjY2wrjw
     • Hits 2-4 will always hit 5t, 7t, and 9t (3sec, 4.2sec, 5.4sec) delayed respectively
 
 .
-⬥ Further if you stall a barge bleed the following will occur:\*
+⬥ Further if you stall a barge bleed the following will occur: ★
     • Hits 2-4 will hit as normal on the target you casted the ability on to stall
     • Hit 1 will be the only hit that gets stalled, and when released will hit the same time as it would normally hit if it were the first hit of its channeled ability
         - Furthermore, what this means is you can far-cast your barge bleed on a target to make hits 2-4 hit it from a large distance technically
@@ -386,14 +387,22 @@ Berserk <:Berserk:513190158468907012> + Adrenaline Potion <:replenpot:6413374704
 ⬥ Greater Fury can be unlocked through consuming a Greater Fury Ability Codex.
 
 .
-⬥ This does two things: 1) Fury <:fury:535532879510372352> is no longer a channeled ability and instead only hits once dealing 157% ability damage, and 2) gains an extra effect where getting a critical hit with Greater Fury <:gfury:535532879334080527> will guarentee your next hit to be a critical hit as well.
+⬥ This does a few things things:
+    • Firstly, Fury <:fury:535532879510372352> is no longer a 3-hit channeled ability and instead only hits once dealing 157% ability damage (the same as the first two hits of the channeled version)
+    • Secondly, the passive 5% critical hit chance increase per channelled hit changes to a single 10% critical hit chance increase on the next hit
+    • Thirdly, it gains an extra effect where getting a critical hit on Greater Fury <:gfury:535532879334080527> gives you a buff which guarantees the first hit of your next ability will crit
 
 .
-⬥ The main benefit to this upgrade is transforming this ability from a channeled ability to a gcd ability.
-    • This allows Greater Fury <:gfury:535532879334080527> to be used in Revolution++ and Revolution set ups without needing a manual input to cancel on GCD.
+⬥ The main benefit to this upgrade is transforming this ability from a 3-hit (5t/3.0s) channeled ability to a 1-hit non-channeled ability, and so it only requires a GCD to fully use.
+    • This allows Greater Fury <:gfury:535532879334080527> to be used in Revolution++ and Revolution setups without needing to manually cancel the channel after 2 hits.
 
 .
-⬥ The crit effect can also be beneficial to overall DPS though it is random.
+⬥ Due to the guaranteed crit effect, it is possible for <:gfury:535532879334080527> to be stronger (on average) than a 188% ability (<:deci:535532879325822986>/<:cleave:535532878616985610>/<:sever:535532879577612298>)
+    • This is only possible when the crit chance of <:gfury:535532879334080527> and the ability damage of the following ability are sufficiently high.
+        - Currently, the only cases where these requirements are met are when you are under the effects of an active Grimoire <:grim:568262896375824385> (and have Biting perk <:biting4:712073087809617931>), and the ability following <:gfury:535532879334080527> is either a flanked ability or a charged Greater Barge <:gbarge:535532879250456578>.
+        - Another niche consideration is when under the effects of Berserk <:zerk:535532854004678657> (and <:grim:568262896375824385>), there is almost no damage difference between <:gfury:535532879334080527> → <:assault:535532853979512842> and 188% → <:assault:535532853979512842>.
+    • Without the active effects of <:grim:568262896375824385>, <:gfury:535532879334080527> is basically always weaker than a 188% ability.
+        - Despite this, if you are put into a position where you have no 188% abilities available and need to use <:gfury:535532879334080527>, you should consider following it up with a >188% ability to still maximise your damage.
 
 .
 **__Greater Flurry__** <:gflurry:535532879283879977>
