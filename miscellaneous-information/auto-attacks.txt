@@ -48,7 +48,7 @@ __**How Channeled Abilities Interact with the Auto Cooldown**__
 .
 **__Exceptions__**
 ⬥  As mentioned, there are exceptions when it comes to abilities that affect the cooldown, abilities that incur the cooldown on cast are typically referred to as "damaging abilities," there are also "non-damaging abilities" which exist that do not, they are as follows:
-<:zerk:535532854004678657>, <:Sunshine:583430011948630016>, <:DeathsSwift:513190158812839936>, <:meta:535533811304497183>, <:zgs:626465964325601290><:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>
+<:zerk:535532854004678657>, <:Sunshine:583430011948630016>, <:DeathsSwift:513190158812839936>, <:meta:535533811304497183>, <:zgs:626465964325601290><:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>
 *Note: ZGS Spec <:zgs:626465964325601290><:spec:537340400273195028> is actually a damaging ability, and hence it would try to drag you in like one; however, it does not actually affect the Auto cd, hence why it is listed here*
 *Note: Unlike normal non-damaging abilities, Freedom <:freedom:535541258240786434> will always give you an off-hand auto on cast with it*
 
@@ -71,7 +71,9 @@ t6: Avg cast Tsunami auto cast
 
 .
 **__Shadow Tendrils__**
-Shadow Tendrils <:shadowtend:642713547142332416> is technically a damaging ability, but unlike normal damaging abilities it resets the cooldown when it hits (which is 3 ticks/1.8 sec after you cast it)
+Shadow Tendrils <:shadowtend:642713547142332416> is technically a damaging ability, but unlike normal damaging abilities it resets its auto cooldown later, either 2t (1.2s) after you activate it, this is when it is cast, or 3t (1.8s) after activation, which is when it hits
+    • If you do a fastest <:shadowtend:642713547142332416>, it will reset the Auto cooldown on t3, otherwise t2
+        - If you do your weapon swap input <2t after <:shadowtend:642713547142332416> (where <:shadowtend:642713547142332416> is activated on t0) it will use the new weapon speed's Auto cooldown, otherwise it will use the weapon you casted <:shadowtend:642713547142332416> with's auto cooldown
     • Because of this, like a non-damaging ability you can get an Auto cast during the GCD
         - Unlike non-damaging abilities, to get this lossless auto the ability before tendrils **must** be cast with a fastest weapon
         - Further, unlike normal non-damaging abilities, if you offed (this will be explained later) you will have to spam click after casting <:shadowtend:642713547142332416> to get the Auto. Though, if you click before you only need to click once to get back on to get the Auto
@@ -138,6 +140,14 @@ The adrenaline per auto works as follows:
 .img:https://i.imgur.com/7EINzgc.png
 .
 *Note: Unlike abilities, autos **do not** give adrenaline when you splash*
+
+.
+> **__Damage__**
+.tag:Damage
+**__Rough Idea__**
+⬥ There are three factors to Auto damage: Weapon Tier, Weapon Type, and Weapon Speed
+    • Slower things hit harder, similarly 2H weapons hit harder than mainhand weapons and mainhand weapons harder than offhand, hence why you preferably will Auto with the slowest 2H weapon you have
+        - This is not to say you should default to the slowest weapon of course, because Weapon Tier is also a factor, but if the tiers are close then odds are the slower weapon will hit harder assuming all other things are equal.
 
 .
 > **__Offing__**
@@ -486,6 +496,7 @@ T6: Ability
 ⬥ **Cooldown -** $linkmsg_Cooldown$
 ⬥ **Unexpected Abilities -** $linkmsg_Unexpected$
 ⬥ **Adrenaline -** $linkmsg_Adren$
+⬥ **Adrenaline -** $linkmsg_Damage$
 ⬥ **Offing -** $linkmsg_Offing$
 ⬥ **Clicking vs Auto Bind -** $linkmsg_ClickVsBind$
 ⬥ **Application: Def. Autos -** $linkmsg_DefAutos$
