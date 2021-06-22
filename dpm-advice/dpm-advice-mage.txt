@@ -177,6 +177,55 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
         - Average (Staff): 6t (3.6s)
 
 .
+⬥ **Incite Fear** <:incitefear:856635090783567902>
+    • Cooldown: Based on Weapon Speed
+        - Fastest (Wand): 4t (2.4s)
+        - Average (Staff): 6t (3.6s)
+    • Every ability cast applies a stack:
+        - This caps at 5 stacks, after which it will no longer consume runes on ability casts
+        - Stacks are lost every 20 seconds, refreshed when attempting to apply another stack
+        - Each stack reduces Tsunami's <:tsunami:535533809995874304> cast cost by -12% adrenaline
+    • Frost Surge:
+        - At 5 stacks an ability cast triggers Frost Surge which deals 10-50% ability damage
+        - Triggering it costs runes even at max stacks
+        - Frost Surge is also a 5x5 AoE around your primary target which hits up to 8 secondary targets in range for 10-50% ability damage each
+        - Frost Surge has a 12 second cooldown, after which you must have another ability cast trigger it again
+
+.
+⬥ **Exsanguinate** <:exsanguinate:856635090745950258>
+    • Cooldown: Based on Weapon Speed
+        - Fastest (Wand): 4t (2.4s)
+        - Average (Staff): 6t (3.6s)
+    • Every ability cast applies a stack:
+        - This caps at 12 stacks, after which it will no longer consume runes on ability casts
+        - Stacks are lost every 20 seconds, refreshed when attemping to apply another stack
+        - Each stack increases basic ability damage by +1%
+    • Wrack and Ruin <:wrackandruin:856662355912032256>:
+        - At 12 stacks <:wrack:856662355952795658> becomes <:wrackandruin:856662355912032256> 
+        - It deals 60-300% ability damage (120-360% on stun/bound)
+        - Using it resets all stacks and also makes your next Combust <:comb:535533833098100745> do 2 additional hits
+
+.
+⬥ **Smoke Cloud** <:smokecloud:856635090641879050>
+    • Cooldown: Based on Weapon Speed
+        - Fastest (Wand): 4t (2.4s)
+        - Average (Staff): 6t (3.6s)
+    • Increases damage dealt with critical hits by 15%
+    • Increases critical hit damage cap by 12%
+        - This also stacks with Grimoire <:grim:568262896375824385> to make the hitcap 16.8k
+    • Lasts 120 seconds
+
+.
+**__Other Spells__**
+⬥ **Animate Dead** <:animatedead:856635090453135382>
+    • This applies a flat damage reduction:
+        - This reduction is based on 10% of equipped magic tank gear's armor + 33% of your current <:Defence:689509250979987525> level after any buffs or debuffs
+        - The damage reduced cannot exceed 75% of the damage taken
+        - This 75% cap is based off the damage after all other damage reductions such as deflect prayers (emojis) on the hit
+    • Lasts 12 minutes
+    • Does not reduce Resonance <:res:535541258844635148>/Divert <:divert:787904334377648130> Hp/adrenaline gain
+
+.
 **__Basics__**
 ⬥ **Combust** <:comb:535533833098100745>
     • Cooldown: 25t (15s)
