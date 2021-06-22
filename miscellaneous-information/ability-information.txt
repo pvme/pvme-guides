@@ -31,10 +31,32 @@ Additionally, most abilities hit slower when cast from a distance.
 .
 > **__Weapon Override Speeding Up Abilities__ (Courtesy of <@158293690001915904>)**
 .tag:hitspeed
-Certain weapon overrides for ranged can cause abilities that normally take 2 ticks to deal damage to only take 1 tick to deal damage depending on your distance from your target. These abilities include Snapshot <:snap:535534127131394088>, Rapid Fire <:rapid:535541270521708566>, Piercing Shot <:piercing:535541258538450944>, Dazing Shot <:dazing:535541307142307860>, and ricochet <:ricochet:535541259566186521>. Slow abilities which are unaffected include: Needle Strike, Binding Shot, and Tight Bindings.
-⬥ Javelins (DW Override only mainhand required.) cause Piercing Shot and Ricochet to hit fast from md-1sq away, Snapshot and Rapid Fire are only fast in md.
-⬥ Blowpipe (2H Override) causes Dazing Shot to hit fast from md-1sq away, Rapid Fire and Snapshot are both fast from md-3sq away, and Ricochet/Piercing Shot are fast from md-4sq away
-⬥ You can override your DW/2H weapons with these weapon types allowing you to take advantage of them causing certain abilities to hit a tick faster
+Certain weapon types for Ranged can cause abilities that normally take 2 ticks to deal damage with a 2H Cbow/Bow or DW Cbow to only take 1 tick to deal damage depending on your distance from your target's true centre instead. Slow abilities which are unaffected by overrides include: Needle <:needle:535541259108876293>, Binding <:bindingshot:535541306563231790>, and Tight Binding <:tight:535541275957657600>
+
+.
+**__Override Types__**
+*Note: The system used here is such that MD = Tile 1 from True Centre, and MD → x means MD to Tile x from True Centre, so MD → 2 = MD to Tile 2 from True Centre*
+
+⬥ **Javelins** (only mainhand required)
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 2
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD
+
+⬥ **Darts** (only mainhand required)
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+
+⬥ **Knives** (only mainhand required)
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD
+
+⬥ **Blowpipe** (2H override)
+    • Dazing Shot <:mds:535541259033378827> and Non-bleed hit from Deadshot <:deadshot:535541307666595870> hits fast at MD → 2
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+
+*Note: A list of all hit timings, including other overrides, can be found at: <https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>*
 
 .
 > **__Flanking Perk Angle Determination__ (Courtesy of <@!242039053841596418>)**
