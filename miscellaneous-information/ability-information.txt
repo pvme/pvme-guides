@@ -139,7 +139,7 @@ The way in which Bladed Dive's AoE works is that when you BD onto a target it wi
 .
 .img:https://i.imgur.com/nN90Hp6.png
 .
-> **__Back-to-back Special Attacks (Courtesy of <@150284127126552576>)__**
+> **__Back-to-Back Special Attacks__ (Courtesy of <@150284127126552576>)**
 .tag:b2bSpec
 **__How It Works__**
 Doing b2b (or more) specs seems to follow a pattern of [X tick loss, Y tick loss] of every b2b [odd, even] spec, as shown in the following table:
@@ -155,23 +155,26 @@ Fast Auto → no tick loss, 2 tick loss
 Average Auto → no tick loss, 3 tick loss
 Slowest Auto → no tick loss, 9 tick loss
 ```
-*Note: these tests were done using non-channeled abilities and special attacks, interactions with channeled abilities and special attacks still need to be documented*
+*Note: these tests were done using non-channeled abilities and special attacks, interactions with channeled abilities and special attacks still need to be documented.*
 
 .
 **__In Other Words__**
-⬥ Your first special attack in a chain will always be fine
-    • However, the second special attack can be delayed based on the weapon speed used to cast the ability or auto before the first special
+Your first special attack in a chain will always be fine; however, the second special attack can be delayed based on the weapon speed used to cast the ability or auto before the first special.
 
 .
 **__Examples__**
 (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
-    • This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the first (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+⬥ This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the first (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+
 (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>
-    • This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the first (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+⬥ This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the first (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+
+.
 (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
-    • This has no delays
+⬥ This has no delays
+
 (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
-    • This results in a delay on the 2nd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the (average) <:dbreath:535533833391702017>
+⬥ This results in a delay on the 2nd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the (average) <:dbreath:535533833391702017>
 
 .
 > **__Table of Contents__**
@@ -185,4 +188,5 @@ Slowest Auto → no tick loss, 9 tick loss
 ⬥ **Using Shield Dome during Detonate** - $linkmsg_detodome$
 ⬥ **Dragon Battleaxe Spec** - $linkmsg_dbaxe$
 ⬥ **Bladed Dive** - $linkmsg_bd$
+⬥ **Back-to-Back Special Attacks** - $linkmsg_b2bSpec$
 .pin:delete
