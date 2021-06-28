@@ -4,7 +4,7 @@ All changes made to guides will live here, and everyone is free to use this info
 
 
 ## [Discord](https://discord.gg/6djqFVN)
-![PVME Logo](https://i.imgur.com/bbqJf8c.png)
+![PVME Logo](https://i.imgur.com/okvcnks.png)
 
 ## [Style Guide](style-guide.md)
 If you're interested in contributing, contact Hoobs#3248 or Ry#3050 on discord, or submit a pull request after reading the above style guide.
