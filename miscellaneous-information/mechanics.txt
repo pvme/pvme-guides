@@ -243,6 +243,19 @@ Normally throughout your Sunshine, Death's Swiftness, and Berserk, the 10% damag
 .
 .img:https://i.imgur.com/0TxDCjz.png
 .
+⬥ It is also important to take caution when using queuing, for if you queue something it delays the cast by 1 tick
+    • This can cause issues when trying to cast an ability on the final tick of an ultimate to get the ultimate and aura damage modifiers stacking, as it makes your ability cast after the ultimate ends, rather than on the final tick.
+    • This can be seen in the following video clip (courtesy of <@683763716394975294>):
+.
+.img:https://i.imgur.com/JlBezRH.mp4
+.
+The ability rotation being done is: <:zerk:535532854004678657> → <:barge:535532853916860437> → <:flankicon:841419289755385866> <:backhand:535532854302605333> → <:freedom:535541258240786434> → <:assault:535532855191928842> → (4-hit) <:destroy:535532879330148352> → (3-hit) <:gflurry:535532879283879977> → <:deci:535532879325822986> → <:gfury:535532879334080527> → <:flankicon:841419289755385866> <:backhand:535532854302605333>
+    • As can be seen, despite no ticks being lost, the <:backhand:535532854302605333> at the start of <:zerk:535532854004678657> dealt 3977 but the one on the final tick of <:zerk:535532854004678657> dealt 2185 as it was actually casted out of <:zerk:535532854004678657> due to this interaction.
+    • The solution to it as follows:
+        - Firstly, you can just not queue an ability that will be casted on the last tick of your ultimate
+        - Secondly, you can turn queuing off
+
+.
 > **__Grimoire and Scrimshaw Switching__**
 .tag:grimshaw
 **__Obtaining both pocket slot's benefits__**

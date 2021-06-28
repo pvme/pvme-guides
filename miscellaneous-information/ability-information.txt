@@ -21,7 +21,7 @@ Additionally, most abilities hit slower when cast from a distance.
 <:Magic:689504724159823906> Abilities
 (Counting md as square 1)
 5 squares: <:wm:535533809978966037>
-8 squares: <:dbreath:535533833391702017> <:conc:535533833106489365> <:chain:535533833056026624> <:impact:535533809655873556> <:wrack:535533809823645697> <:deep:535533833139912724> <:asphyx:535533833072672778>
+8 squares: <:dbreath:535533833391702017> <:conc:535533833106489365> <:chain:535533833056026624> <:impact:535533809655873556> <:wrack:856662355952795658> <:deep:535533833139912724> <:asphyx:535533833072672778>
 
 <:melee:615612332521029632> Abilities
 <:quake:535532879506309150> (dw)<:assault:535532853979512842> <:meteorstrike:535532879359377439> <:dismember:535532879376023572> <:slaughter:535532879237873666> <:bd:535532854281764884> <:fury:535532879510372352> <:BloodTend:513190158431158274>
@@ -31,10 +31,32 @@ Additionally, most abilities hit slower when cast from a distance.
 .
 > **__Weapon Override Speeding Up Abilities__ (Courtesy of <@158293690001915904>)**
 .tag:hitspeed
-Certain weapon overrides for ranged can cause abilities that normally take 2 ticks to deal damage to only take 1 tick to deal damage depending on your distance from your target. These abilities include Snapshot <:snap:535534127131394088>, Rapid Fire <:rapid:535541270521708566>, Piercing Shot <:piercing:535541258538450944>, Dazing Shot <:dazing:535541307142307860>, and ricochet <:ricochet:535541259566186521>. Slow abilities which are unaffected include: Needle Strike, Binding Shot, and Tight Bindings.
-⬥ Javelins (DW Override only mainhand required.) cause Piercing Shot and Ricochet to hit fast from md-1sq away, Snapshot and Rapid Fire are only fast in md.
-⬥ Blowpipe (2H Override) causes Dazing Shot to hit fast from md-1sq away, Rapid Fire and Snapshot are both fast from md-3sq away, and Ricochet/Piercing Shot are fast from md-4sq away
-⬥ You can override your DW/2H weapons with these weapon types allowing you to take advantage of them causing certain abilities to hit a tick faster
+Certain weapon types for Ranged can cause abilities that normally take 2 ticks to deal damage with a 2H Cbow/Bow or DW Cbow to only take 1 tick to deal damage depending on your distance from your target's true centre instead. Slow abilities which are unaffected by overrides include: Needle <:needle:535541259108876293>, Binding <:bindingshot:535541306563231790>, and Tight Binding <:tight:535541275957657600>
+
+.
+**__Override Types__**
+*Note: The system used here is such that MD = Tile 1 from True Centre, and MD → x means MD to Tile x from True Centre, so MD → 2 = MD to Tile 2 from True Centre*
+
+⬥ **Javelins** (only mainhand required)
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 2
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD
+
+⬥ **Darts** (only mainhand required)
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+
+⬥ **Knives** (only mainhand required)
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD
+
+⬥ **Blowpipe** (2H override)
+    • Dazing Shot <:mds:535541259033378827> and Non-bleed hit from Deadshot <:deadshot:535541307666595870> hits fast at MD → 2
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+
+*Note: A list of all hit timings, including other overrides, can be found at: <https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>*
 
 .
 > **__Flanking Perk Angle Determination__ (Courtesy of <@!242039053841596418>)**
@@ -117,6 +139,44 @@ The way in which Bladed Dive's AoE works is that when you BD onto a target it wi
 .
 .img:https://i.imgur.com/nN90Hp6.png
 .
+> **__Back-to-Back Special Attacks__ (Courtesy of <@150284127126552576>)**
+.tag:b2bSpec
+**__How It Works__**
+Doing b2b (or more) specs seems to follow a pattern of [X tick loss, Y tick loss] of every b2b [odd, even] spec, as shown in the following table:
+```
+Ability before spec spamming:
+Fast/Fastest Ability → no tick loss, no tick loss
+Average Ability → no tick loss, 1 tick loss
+Slowest Ability → no tick loss, 7 tick loss
+
+Auto before spec spamming:
+Fastest Auto → no tick loss, 1 tick loss
+Fast Auto → no tick loss, 2 tick loss
+Average Auto → no tick loss, 3 tick loss
+Slowest Auto → no tick loss, 9 tick loss
+```
+*Note: these tests were done using non-channeled abilities and special attacks, interactions with channeled abilities and special attacks still need to be documented.*
+
+.
+**__In Other Words__**
+Your first special attack in a chain will always be fine; however, the second special attack can be delayed based on the weapon speed used to cast the ability or auto before the first special.
+
+.
+**__Examples__**
+<:dbreath:535533833391702017> (fastest) → <:eofspec:746403211908481184> (average) → <:eofspec:746403211908481184> (average) → <:eofspec:746403211908481184> (average)
+This results in a delay on the 3rd <:eofspec:746403211908481184> because of the average speed first <:eofspec:746403211908481184>
+
+<:dbreath:535533833391702017> (fastest) → <:eofspec:746403211908481184> (average) → <:eofspec:746403211908481184> (fastest) → <:eofspec:746403211908481184> (fastest)
+This results in a delay on the 3rd <:eofspec:746403211908481184> because of the average speed first <:eofspec:746403211908481184>
+
+.
+<:dbreath:535533833391702017> (fastest) → <:eofspec:746403211908481184> (fastest) → <:eofspec:746403211908481184> (average) → <:eofspec:746403211908481184> (average)
+This has no delays.
+
+<:dbreath:535533833391702017> (average) → <:eofspec:746403211908481184> (average) → <:eofspec:746403211908481184> (average)
+This results in a delay on the 2nd <:eofspec:746403211908481184> because of the average speed <:dbreath:535533833391702017>
+
+.
 > **__Table of Contents__**
 ⬥ **Preventing Walked Onslaughts** - $linkmsg_onscancel$
 ⬥ **Slow Hitting Abilities** - $linkmsg_slow$
@@ -128,4 +188,5 @@ The way in which Bladed Dive's AoE works is that when you BD onto a target it wi
 ⬥ **Using Shield Dome during Detonate** - $linkmsg_detodome$
 ⬥ **Dragon Battleaxe Spec** - $linkmsg_dbaxe$
 ⬥ **Bladed Dive** - $linkmsg_bd$
+⬥ **Back-to-Back Special Attacks** - $linkmsg_b2bSpec$
 .pin:delete
