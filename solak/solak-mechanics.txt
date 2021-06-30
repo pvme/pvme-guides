@@ -20,6 +20,12 @@ Solak attacks the main target (Base) with Melee auto-attacks, and secondary targ
 The Solak boss fight has many stationary targets, such as Volatile Rootlings and Anima Eruptions. All stationary targets in this fight face **south** by default, and can therefore be flanked <:flankicon:841419289755385866> from the **north**. Movable targets must be positioned correctly relative to the target as per usual.
 Over the fight, players can receive Blight Stacks from various mechanics, these increase the player's damage taken by 1% per stack, and can be cleansed via Merethiel in phases 2 and 3.
 
+The use of Storm Shards <:StormShards:536256663641128971> is heavily recommended throughout the fight, as the Shatter <:Shatter:536256673904328704> on P4 is vital to the success of the kill. Typical times to shard are as follows:
+⬥ P1 after HP cap
+⬥ P2 during Eruptions
+⬥ P2 after HP cap
+⬥ P4 during invulnerability
+
 .
 > **__Drops__**
 .tag:drops
@@ -27,24 +33,25 @@ Solak drop values
 
 Solak can be a lucrative boss, dropping valuable uniques, such as:
 
-⬥ Erethdor's Blightbound Crossbow - 1/200
-⬥ Erethdor's Off-hand Blightbound Crossbow - 1/200
-⬥ Erethdor's Grimoire - 1/200
-⬥ Torn Grimoire Page - 1/4 (50% chance to receive 2)
+⬥ Erethdor's Blightbound Crossbow <:bbc:626714879218155521> - 1/200
+⬥ Erethdor's Off-hand Blightbound Crossbow <:bbcoh:626714879230738434> - 1/200
+⬥ Erethdor's Grimoire <:grim:568262896375824385> - 1/200
+⬥ Torn Grimoire Page <:grimpage:643168594493964298> - 1/4 (50% chance to receive 2)
 
 These droprates are consistent across all teamsizes
+
+Each Solak kill is worth <:coins:698816156961603654> $data_pvme:Bosses!E481$, with <:coins:698816156961603654> $data_pvme:Bosses!E481$ of that being from commons. Advanced players can get up to 9 KPH in Duos, leading to a revenue of <:coins:698816156961603654> $data_pvme:Bosses!C484$.
 
 .
 > **__Fight Information__**
 .tag:fightinfo
 __**Scaling HP chart**__
-img
-
+.img:https://i.imgur.com/Yy4cVos.png
 .
 **__Auras__**
 Players have 100% hit chance on Solak using the recommended gear, so accuracy auras are useless.
 
-⬥ For hybriding: <:mahj:643148943856762890> > <:invig:643505652865695767> (If Ranging) > <:dm:643505652571963417> > <:inspiration:643505652634746881>
+⬥ For hybriding: <:mahj:643148943856762890> > <:inspiration:643505652634746881> (If Ranging) > <:dm:643505652571963417> 
 
 ⬥ For camping one style: <:mani:643505153709965322>/<:berserker:643505116347105290>/<:reckless:643505179378974748> are always the strongest auras
 
@@ -53,6 +60,10 @@ Players have 100% hit chance on Solak using the recommended gear, so accuracy au
 Dominion mines <:dommine:662249620579155968> are particularly useful for dealing damage to the Roots, dealing 10k damage per mine. These can be pre-placed before starting the fight, and then again after the cooldown has ended. In Duo, two mines can kill a root alone, but they **must be placed on the same tick** in order to kill a target. The images below shows the location of the 8 Root spawns and the locations that players should pre-place mines.
 
 .
+**__Duo__**
+.img:https://i.imgur.com/yaXjCJH.png
+**__4-Man__**
+.img:https://i.imgur.com/Y9retXT.png
 > **__Phase 1__**
 .tag:p1
 **__Solak Attack Rotation__**
@@ -68,7 +79,7 @@ Dominion mines <:dommine:662249620579155968> are particularly useful for dealing
 
 .
 **__Green Pads__**
-2 auto-attacks into P1, Solak will throw toxic spores into the air and Green Pads will spawn scattered around the arena. These can spawn in any location, even on top of each other, and occupy **3x3** squares. **1** pad is spawned for each player in the instance, and must be stood on by a player within 6s (10t) seconds of their spawn. For every pad that is missed, the players are dealt ~7k+ damage, and 5 blight stacks are applied to the player. It is recommended that the player uses Bladed Dive <:bd:535532854281764884> to move to these pads, and after the pads are dealt with, they reset <:bd:535532854281764884>, allowing you to move back to where you were.
+2 auto-attacks into P1, Solak will throw toxic spores into the air and Green Pads will spawn scattered around the arena. These can spawn in any location, even on top of each other, and occupy **3x3** squares. **1** pad is spawned for each player in the instance, and must be stood on by a player within 6s (10t) seconds of their spawn. For every pad that is missed, the players are dealt ~7k+ damage, and 5 blight stacks are applied to the player. It is recommended that the player uses Bladed Dive <:bd:535532854281764884> to move to these pads. Once absorbed, they reset <:bd:535532854281764884>, allowing you to quickly move back to where you were.
 
 ⬥ For advanced players, this can be done in 1 tick, and abilities can be stalled for release on Solak. An example clip can be seen below in the advanced section.
 
@@ -76,13 +87,13 @@ Dominion mines <:dommine:662249620579155968> are particularly useful for dealing
 **__Blight Bombs__**
 2 individual Blight Bombs (Bomb 1 and Bomb 2) are spawned in P1, with a third as part of the Pads mechanic. The timings for these bombs are set in the attack rotation above. These are indicated by a green bar above the player's head, and take 10 seconds to charge, after which they explode for ~7k+ damage.
 
-⬥ Bombs 1 and 2 are AoE, in a x by x area, and deal reduced damage based on the player's proximity to their team-mates.
+⬥ Bombs 1 and 2 are AoE, in a 3x3 area, and deal reduced damage based on the player's proximity to their team-mates.
 
 ⬥ There are a few ways to deal with the bomb from the green pads
     • Using disruption shield <:disrupt:535614336207552523> is the most optimal way as it is lossless.
     • Resonance <:res:535541258844635148>: This will fully negate the bomb’s damage at the cost of a GCD.
     • Debilitate <:debil:535541278264393729>/ Reflect <:reflect:535541258786177064>. This is not recommended at all, but is a safe method.
-    • Tank it. You will take maximum ~8k damage with a zerk aura.
+    • Tank it. You will take maximum ~8k damage with a zerk aura. A Vitality powerburst <:vitality:654618235097972737> may be helpful here.
 
 *Note: The melee hit will land 1 tick before the bomb damage, so use Resonance <:res:535541258844635148>/ Disruption Shield <:disrupt:535614336207552523> as you see the melee hit. Depending on how far away you are from Solak, the bomb will hit before the range attack.*
 
@@ -90,15 +101,15 @@ Dominion mines <:dommine:662249620579155968> are particularly useful for dealing
 **__Volatile Rootlings and Blightbound Lashers__**
 After the Green pads mechanic ends, 26 seconds into the fight, Solak spawns 8 Volatile Rootlings, with differing HP depending on team size. These are important to deal with, as if left unchecked for 1 minute, they will begin to transform into Blightbound Lashers. These Lashers deal highly accurate, highly damaging ranged hits, and as they spawn, turn other roots into lashers and heal other spawns up to a maximum of 660,000 HP. Multiple spawns must be avoided at all costs, as they are almost guaranteed to kill you.
 
-⬥ Solak will also spawn 2 Blightbound Lashers, with 50,000 HP, if the player fails to kill both of his arms or legs.
-
 ⬥ If 1 lasher is left alive, it can be ignored whilst dealing with other mechanics, and killed during downtime.
+
+⬥ Solak will also spawn 2 Blightbound Lashers, with 50,000 HP, if the player fails to kill both of his arms or legs.
 
 .
 **__Root Arrows__**
 13 auto-attacks after the Volatile Rootlings spawn, arrows will spawn on the map for players on the team, with varying timers based on ordering, indicated with an arrow and a chat message "Roots are preparing to rush you from the edge of the arena! Look out! [#] (seconds)". These arrows indicate the spawn location of the centre of 3 Root lines, which converge on the marked player. If caught in this attack, it deals ~2,000 damage per tick, and stuns the player, and damages anybody in it's path. As such, these arrows must be dealt with to avoid killing teammates.
 
-⬥ The player does not have to go directly to the arrow, just ensure the direction is clear of any teammates, and then take 1 step away from the arrow as the timer hits 0
+⬥ The player does not have to go directly to the arrow, just ensure the direction is clear of any teammates, and then take 1 step away from the arrow as the timer hits 0. Use Anticipate <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> beforehand to avoid any chance of being stunned.
 
 .
 **__Solak's Arms__**
@@ -139,7 +150,7 @@ As the legs are 3 squares apart, a correctly placed MKII Invention Dummy <:dummy
 .
 **__Sunshine Spot__**
 Both of Solak's arms can be hit with the Dragon Breath <:dbreath:535533833391702017> ability, which requires the player to be standing on specific squares. This is shown in an image below, marked by the dirt circle directly west of the middle of the arena. When achieving the meta skips, this <:Sunshine:583430011948630016> should be pre-placed on these squares, to deal with the arms and legs faster.
-img
+.img:https://i.imgur.com/7jOBiFh.png
 .
 > **__Phase 2__**
 .tag:p2
@@ -161,7 +172,6 @@ Corruption is the over-arching mechanic of P2, displayed as a secondary bar unde
 ⬥ The first factor is Solak's HP, draining HP directly drains the Corruption %
     • However, in Duo and Trio teamsizes, draining his HP to hit the HP cap will not lead to him phasing until a special attack, it will end on the first hit of the 2nd Blight Rain in Duo, or after the Arm Climb in Trio. He must be healed via a Calorie Bomb <:caloriebomb:656790558177755169> or damaged through the use of the ECB <:ecb:615618531937222657> special attack in order to drain the bar enough, or a combination of both in Trio. The Split Soul special attack drains the corruption % directly.
     • The Corruption bar is also drained via the mechanics, each Blight Rain and Hurricane will drain the bar by 2% per hit, and successfully climbing the arm drains 20% Corruption.
-img
 .
 **__Anima Eruptions__**
 The beginning of P2 starts as Solak's Blighted Core dies. 4 eruptions spawn, which must be killed in order to progress into the rest of P2, as he gets capped HP until all Eruptions die. Upon killing an eruption, a blue circle appears in it's place, which teleports the player up to deal with the Blight Storm. This takes 7.2 seconds from the death of the Eruption, leaving time to cleanse your blight stacks with Merethiel and Bladed Dive <:bd:535532854281764884> or Surge <:surge:535533810004262912> into the circle. These are the only secondary target aside from Erethdor that are not affected by the effect of the Inquisitor's Staff <:inquisitorstaff:694566917553520680>
@@ -172,7 +182,6 @@ The beginning of P2 starts as Solak's Blighted Core dies. 4 eruptions spawn, whi
 
 ⬥ The storm has varying HPs, and can only be directly damaged by teleporting using the blue circles spawned by Eruptions. The player deals damage to the storm based on the number of blight stacks they have, dealing 10k damage per click with 0 stacks, 0 damage at 10 blight stacks, and any stacks after 10 will cause the player to heal the storm. After teleporting up, the player can use defensive abilities and move around on the platform, but the main focus is to spam click the storm until it dies.
     • The recommended method of dealing with the storm involves cleansing with Merethiel as you kill the first Eruption, click her as you cast your last ability and move to her cleansing pad. Surge or Bladed Dive can be used to get back into the blue circle, and allows you to deal 10k damage per click. Doing this only requires a total of (team size + 1) people to go up to damage the storm, i,e: for Duos, the base should go up once with the DPS together, and DPS once more on their own to deal with the remaining HP, and only requires you to cleanse once at the start.
-    • Advanced players can choose to kill the Eruptions but avoid going up to deal with the storm, and instead tank the bombs until the fight ends. This is known as Storm-tanking, and can save ~10s per kill. This significantly increases your food consumption and is only recommended as one of the very last ways to improve time.
 
 .   
 **__Anima bombs__ (Minefield)**
@@ -190,7 +199,7 @@ As the final Anima Bombs fall, an interactable Nature's Blessing will spawn in t
     • For the player intending to climb the arm, make sure to use <:res:535541258844635148> on an earlier hit, in order for it to be off cooldown later.
 
 ⬥ The interactable Nature's Blessing can be taken 3 times, regardless of team size, and it is recommended that one is taken by the Base and one DPSer first, then after the first Rain is finished, the Base takes the second.
-    • This allows players to make use of Flanking <:flankicon:841419289755385866> during the mechanic, in order to skip mechanics.
+    • This allows players to make use of Flanking <:flankicon:841419289755385866> during the mechanic, in order to speed up the phase.
 
 .
 ⬥ A second Blight Rain is called 4 auto-attacks after the Arm Climb special, which follows the same mechanics.
@@ -201,9 +210,9 @@ As the final Anima Bombs fall, an interactable Nature's Blessing will spawn in t
 
 .      
 **__Arm Climb__**
-After the first Blight Rain finishes, Solak will root the base to the floor, and slam his arm down on their location shortly after. This will deal an instakill to any players standing on the direct square, and a large melee hit to players in the area around it.
+After the first Blight Rain finishes, Solak will root a random target to the floor, and slam his arm down on their location shortly after. This will deal an instakill to any players standing on the direct square, and a ~3.5k melee hit to players in the area around it.
 
-⬥ Through the use of Anticipate <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> before the rooting, the base can move away freely. If these cannot be used, another player can click at the Base's feet to free them.
+⬥ Through the use of Anticipate <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> before the rooting, the rooted player can move away freely. If these cannot be used, another player can click at their feet to free them.
 If Solak misses his slam, his arm remains stuck in the floor for a player to climb upon and greatly reduce the Corruption by 20% with a cutscene-style attack, after which Solak retaliates with a hard-hitting melee attack.
 
 ⬥ During this climb, the player can continue to attack if using Magic or Ranged, but not with Melee.
@@ -229,6 +238,24 @@ This attack is similar to the Root Arrows in Phase 1, two of these follow the Hu
 This is directly linked to the Root Arrows mechanic, where players without Solak's aggro will be given a blight bar above their head, the same as the bombs in P1.
 
 .
+> **__Phase 2 Advanced Mechanics__**
+In Duo and Trio teamsizes, Phase 2 is timegated by the Arm Climb mechanic, and the Anima Eruptions are a vital part of fast kills. As such, advanced strategies for dealing with them are detailed below:
+
+.
+**__Anima Eruptions__**
+As mentioned, dealing with Anima Eruptions quickly is a determinant for fast kills. Two examples of quickly clearing eruptions are shown below.
+
+Advanced players can also choose to kill the Eruptions but avoid going up to deal with the storm, and instead tank the bombs until the fight ends. This is known as Storm-tanking, and can save ~10s per kill. This significantly increases your food consumption and is only recommended as one of the very last ways to improve time.
+
+4-man South Eruptions - <https://youtu.be/KQcYpoxf0mo>
+Melee north Eruptions - <https://youtu.be/dESMelseYF0>
+
+.
+**__Natural Instinct__**
+Due to the timegated nature of P2 in duo and trio, the time can be utilised wisely to speed up P3, through the use of Natural Instinct <:NaturalInstinct:513213538496675850> at the end of the phase. With a well timed <:NaturalInstinct:513213538496675850>, players can save their <:adrenrenewal:736298121704767538> for use later in P3. Two examples of the correct timing are shown below.
+
+Base - <https://youtu.be/ab51E7Y3fIg>
+DPS - <https://youtu.be/EGDinCAECB0>
 > **__Phase 3__**
 .tag:p3
 **__Solak Attack Rotation__**
@@ -250,7 +277,7 @@ These sigils charge as Solak is stepping on them, indicated by a circular progre
 **__Blight Bombs__**
 There are two types of Blight Bombs in P3
 
-⬥ One type are dropped by Erethdor from the Mind Realm, which land on the sigils both randomly and when they finish charging. These deal ~2k damage per hit.
+⬥ One type are dropped by Erethdor from the Mind Realm, which land on the sigils both randomly and when they finish charging. These deal ~2k damage per hit. Reflect <:reflect:535541258786177064> or Vengeance <:Veng:543478434953822208> reflects the damage directly to Erethdor, helpful to finish him off if he has very little HP remaining.
 
 ⬥ The second bomb spawns throughout P3, tied to the Stun special attack. Up to 3 players that do not have Solak's aggro will recieve a bar above their head, the same as bombs in P1. However, when these explode, a line of roots directly connect all players with the bomb, which can stun and deal large damage to players caught within. These do not affect the players who recieve the bomb, but position yourself carefully to avoid killing teammates, away from the boss.
 
@@ -272,7 +299,7 @@ It is recommended to use Anticipate or Freedom beforehand in order to avoid gett
 **__Erethdor__**
 Erethdor is the Elf controlling Solak's mind, and is a secondary mechanic for the boss fight, offered as an alternative to charging all sigils. Killing Erethdor rewards the player by reducing the damage Shadow Manifestations deal to Solak on P4, alongside significantly faster kills. __This is the recommended method of ending P3__. When the sigils are charged, the Extra Action button can be used to enter the mind realm, where the player can fight Erethdor, a ranger who uses EoC abilities. When Erethdor dies, P3 ends, regardless of Solak's HP.
 
-⬥ Erethdor can use these abilities, in random order: <:piercing:535541258538450944>/<:frag:535541273755385885>/<:corruptshot:535541306294796299>/<:snipe:535541258425204770>/<:bombard:535541306391265284>/<:snap:535534127131394088>/<:incend:535541258429661215>/<:deadshot:535541307666595870> and uses <:freedom:535541258240786434> quickly after being bled.
+⬥ Erethdor can use these abilities, in random order: <:piercing:535541258538450944>/<:frag:535541273755385885>/<:corruptshot:535541306294796299>/<:snipe:535541258425204770>/<:bombard:535541306391265284>/<:snap:535534127131394088>/<:incend:535541258429661215>/<:deadshot:535541307666595870> and uses <:freedom:535541258240786434> quickly after being bled with <:frag:535541273755385885>, <:slaughter:535532879237873666> or <:comb:535533833098100745>.
 
 ⬥ The player is allowed to be in the Mind Realm for ~20s, before being teleported back to Solak's arena. The animation for leaving begins around ~17s, however abilities can still be cast on Erethdor in that transition.
 
@@ -290,7 +317,7 @@ img
 
 .
 **__Burst of Nature__**
-During P4, Solak gains the ability to deal a large blight hit to all players in the arena, dealing upwards of ~12k damage if not dealt with. Solak takes time to charge this attack, it is released every ~28 seconds, marked by a purple hurricane surrounding him. The damage he deals with this attack can be reduced to 0 via the use of several stuns, which are as follows: (<:asphyx:535533833072672778>/<:deep:535533833139912724>/<:impact:535533809655873556>/<:destroy:535532879330148352>/<:fbackhand:535532879346794516>/<:backhand:535532854302605333>/<:tight:535541275957657600>/<:bindingshot:535541306563231790>). These abilities should therefore be used early into the phase, as part of your DPS rotation, and flanked abilities still work to reduce the damage.
+During P4, Solak gains the ability to deal a large blight hit to all players in the arena, dealing upwards of ~12k damage if not dealt with. Solak takes time to charge this attack, it is released every ~28 seconds, marked by a purple hurricane surrounding him. The damage he deals with this attack can be reduced to ~3k via the use of several stuns, which are as follows: (<:asphyx:535533833072672778>/<:deep:535533833139912724>/<:impact:535533809655873556>/<:destroy:535532879330148352>/<:fbackhand:535532879346794516>/<:backhand:535532854302605333>/<:tight:535541275957657600>/<:bindingshot:535541306563231790>). These abilities should therefore be used early into the phase, as part of your DPS rotation, and flanked abilities still work to reduce the damage.
 
 .
 **__Blight Bomb__**
@@ -357,8 +384,8 @@ When learning or in the case of missing teammates, correctly dealing with the Mi
 **__Examples__**
 The rotations aren't set in stone, and are entirely dependent on the team DPS. Some teams may find their damage is higher, as such less thresholds must be used in the late method, and Reflect <:reflect:535541258786177064> can be skipped in favour of Devo <:devo:513190158728953857> → Cade <:cade:535541306353778689>
 
-⬥ Immediate realming - Courtesy of <@155403637810659329> - <https://youtu.be/HeOJVdY5Ibk>
-⬥ Late realming - Courtesy of <@155403637810659329> - <https://youtu.be/NicaCm-FxAo>
+⬥ Immediate realming - <https://youtu.be/HeOJVdY5Ibk>
+⬥ Late realming - <https://youtu.be/NicaCm-FxAo>
 
 .
 > **__Introduction to Hybrid__**
@@ -381,7 +408,12 @@ Hybriding assumes the player starts from a mage or range setup, adding in melee 
 ⬥ Melee Boots
 
 The presets below give a rough idea of how presets adapt from a base Magic setup, to a learner Hybrid setup, to an advanced Hybrid Setup. Some items are more or less useful depending on the role, Base vs DPS:
+.
+.img:https://i.imgur.com/DCgmYwq.png
 
+.img:https://i.imgur.com/Zl4zik3.png
+
+.img:https://i.imgur.com/mllVTJS.png
 .
 **__Range Hybrid__**
 ⬥ Base Ranged setup (DW+2h, Flank, Planted Feet, EoF Dbow)
@@ -395,7 +427,12 @@ The presets below give a rough idea of how presets adapt from a base Magic setup
 ⬥ Melee Boots
 
 The presets below give a rough idea of how presets adapt from a base Ranged setup, to a learner Hybrid setup, to an advanced Hybrid Setup. Some items are more or less useful depending on the role, Base vs DPS:
+.
+.img:https://i.imgur.com/l4EK0w7.png
 
+.img:https://i.imgur.com/6evpFpL.png
+
+.img:https://i.imgur.com/5QvrF6Y.png
 .
 **__Explanation__**
 These switches typically replace food, however as you bring more switches for the hybrid setup, you will have to employ more advanced strategies, such as pre-potting at the bank for inventory spaces.
@@ -409,7 +446,7 @@ Start out with the 2 most important Zerks, which are on Solak's Core and P4. The
 ⬥ Zerk Core + P4
 ⬥ Zerk Erethdor (If going in solo)
 ⬥ Zerk P3 start
-⬥ ZGS Erethdor
+⬥ ZGS Erethdor (If going in duo)
 ⬥ Zerk+ZGS Start
 ⬥ Zerk P2 start
 
