@@ -127,10 +127,10 @@ Basic Revolution (commonly referred to as simply "Revolution") is a combat mode 
     • Generally speaking, these should be avoided
 
 .
-⬥ If you are 2h or dual wield camping you will be limited to only one filler ability (Dazing Shot <:dazing:535541307142307860> or Needle Strike <:needle:535541259108876293>, respectively). Thus, try to utilize Dazing Shot <:dazing:535541307142307860> or Needle Strike <:needle:535541259108876293> as often as possible in your rotations.
+⬥ If you are 2h or dual wield camping you will be limited to only one filler ability (Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827> or Needle Strike <:needle:535541259108876293>, respectively). Thus, try to utilize Dazing Shot <:dazing:535541307142307860> or Needle Strike <:needle:535541259108876293> as often as possible in your rotations.
     • A basic pattern of Needle Strike <:needle:535541259108876293> → Ability → Ability → Repeat is recommended for camping rotations.
 
-⬥ For weapon juggling, you will have access to both Needle <:needle:535541259108876293> and Dazing <:dazing:535541307142307860> as filler abilities. Giving you access to stronger rotations.
+⬥ For weapon juggling, you will have access to both Needle <:needle:535541259108876293> and Dazing <:dazing:535541307142307860> / <:mds:535541259033378827> as filler abilities. Giving you access to stronger rotations.
     • This lets you have more breathing room in what rotations and fillers you create.
     • While there is no singular rotation that is best here, a general pattern of Needle Strike <:needle:535541259108876293> → Ability → Dazing Shot <:dazing:535541307142307860> → Ability → Repeat will give you strong dps.
 
@@ -235,35 +235,49 @@ https://youtu.be/r0FnCrmn034
 .
 > **__Weapon Overrides__**
 .tag:overrides
-Certain weapon types for ranged can cause abilities that normally take 2 ticks to deal damage to only take 1 tick to deal damage depending on your distance from your target. Slow abilities which are unaffected include: <:needle:535541259108876293>, <:bindingshot:535541306563231790>, and <:tight:535541275957657600>.
+Certain weapon types for Ranged can cause abilities that normally take 2 ticks to deal damage with a 2H Cbow/Bow or DW Cbow to only take 1 tick to deal damage depending on your distance from your target's true centre instead. Slow abilities which are unaffected by overrides include: Needle <:needle:535541259108876293>, Binding <:bindingshot:535541306563231790>, and Tight Binding <:tight:535541275957657600>
 
 .
 **__Override Types__**
+*Note: The system used here is such that MD = Tile 1 from True Centre, and MD → x means MD to Tile x from True Centre, so MD → 2 = MD to Tile 2 from True Centre*
+
 ⬥ **Javelins** (only mainhand required)
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD-1sq away.
-    • Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> are only fast in MD.
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 2
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD
 
-.
 ⬥ **Darts** (only mainhand required)
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD-4sq away
-    • Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> are both fast from MD-3sq away,
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
 
-.
 ⬥ **Knives** (only mainhand required)
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD only.
+    • Unload <:unload:535541258664411169> hits fast at MD → 3
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD
+
+⬥ **Blowpipe** (2H override)
+    • Dazing Shot <:mds:535541259033378827> and Non-bleed hit from Deadshot <:deadshot:535541307666595870> hits fast at MD → 2
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+
+*Note: A list of all hit timings, including other overrides, can be found at: <https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>*
 
 .
-⬥ **Blowpipe** (2H Override)
-    • Causes Dazing Shot <:dazing:535541307142307860> to hit fast from md-1sq away,
-    • Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> are both fast from MD-3sq away.
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> to hit fast from MD-4sq away
-
 **__Notable benefits__**
 Included but not limited to:
 
 ⬥ **Nex** <:Nex:513213159071547395>
     • Each phase will be a tick faster, up to 6s faster for the whole kill.
     • Phasing faster will reduce the danger from some of her special attacks, including but not limited to Embrace the Shadows, Blood Siphon, and Die in a Prison of Ice.
+
+⬥ **Raksha** <:raksha:789813907706478603>
+    • Faster hitting abilities can mean phasing before an auto, saving several ticks.
+    • Faster hitting abilities can mean you get a mind poison skip when you otherwise would have not, saving several seconds.
+
+⬥ **Vorago** <:vorago:572867742613635082>
+    • Allows you better choices of what to Target Cycle on Phase 1, and Teamsplit and The End P3s.
+    • Can allow you to fit an extra ability's hit in before reflect.
+    • Allows consistent 0-speccing
 
 ⬥ **Eldritch Crossbow** <:ecb:615618531937222657>
     • Split Soul damage is only applied if your hit would've healed you from Soul Split <:soulsplit:615613924506599497> within the duration of your special attack, this can have a substantial impact on your rotations by allowing you to fit in more abilities on the given window.
