@@ -77,9 +77,8 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
     • `Should be your primary source of food anywhere with low KO potential.`
 
 .
-> **__Boosts__**
-.tag:potions
-**__Overloads__**
+> **__Overloads__**
+.tag:overload
 ⬥ **Holy Overload** <:holyovl:689551388463595590>
     • Requires level 97 Herblore <:Herblore:689554435583508558>
     • Boosts Attack, Strength, Magic, Ranged and Defence by 15% of each level +3 (up to 116 at level 99)
@@ -107,7 +106,8 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
     • `Worth making as soon as you have the level for them.`
 
 .
-**__Adrenaline Potions__**
+> **__Adrenaline Potions__**
+.tag:apot
 ⬥ **Replenishment Potion** <:replen:634350514406162436>
     • Requires level 87 Herblore <:Herblore:689554435583508558>
     • Gives 25% adrenaline, with a 2 minute cooldown timer.
@@ -125,13 +125,18 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
 ⬥ **Adrenaline renewal potion** <:adrenrenewal:736298121704767538>
     • Requires level 115 Herblore (119 herblore for cheaper recipe use) <:Herblore:689554435583508558>, but these can be assisted.
     • Gives 4% adrenaline per tick for 10 ticks (total of 40% adrenaline).
+        - It is worth being aware of that fact that, excluding sip tick, the adrenaline is applied at the end of the tick, and so cannot be utilized until the tick after
     • `Best-in-Slot Adrenaline potion, for the majority of cases.`
 
 .
-**__Bombs__**
+> **__Bombs__**
+.tag:bomb
+*Note: Bombs being applying their effects 3t (1.8s) after being thrown*
+
+.
 ⬥ **Vulnerability bomb** <:vulnbomb:655341074235129858>
     • Cast range of 9 tiles.
-    • Spreads over a 3x3 area where the Vulnerability effect is applied to monsters standing in it(lasts 1.8 seconds).
+    • Spreads over a 3x3 area where the Vulnerability effect is applied to monsters standing in it (lasts 1.8 seconds).
     • Applies it 3 times (once every 0.6 seconds for a total of 1.8 seconds)
     • The probability of the effect applying is based on the player's current accuracy against the target.
     • `Worth using anywhere you want the target to be vulned without casting the Vulnerability spell directly`
@@ -139,13 +144,13 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
 .
 ⬥ **Sticky bomb** <:stickybomb:655341074306301964>
     • Cast range of 9 tiles.
-    • Spreads over a 3x3 area and binds monsters standing in it(lasts 6 seconds).
+    • Spreads over a 3x3 area and binds monsters standing in it (lasts 6 seconds).
     • `Worth using against stunnable/bindable targets like Magister or Telos and his golems in Phase 4 and 5`
 
 .
 ⬥ **Poison bomb** <:poisonbomb:655341074591645707>
     • Cast range of 9 tiles.
-    • Spreads over a 3x3 area and applies poison to monsters standing in it(lasts 6 seconds).
+    • Spreads over a 3x3 area and applies poison to monsters standing in it (lasts 6 seconds).
     • The poison damage is based on current weapon damage.
     • `Few if any uses.`
 
@@ -354,7 +359,9 @@ This is an example of a general PvM preparation preset used for bonfiring, summo
 .
 > **__Table of Contents__**
 ⬥ **Healing** - $linkmsg_food$
-⬥ **Boosts** - $linkmsg_potions$
+⬥ **Overloads** - $linkmsg_overload$
+⬥ **Adrenaline Potions** - $linkmsg_apot$
+⬥ **Bombs** - $linkmsg_bomb$
 ⬥ **Incense Sticks** - $linkmsg_incense$
 ⬥ **Summoning** - $linkmsg_summ$
 ⬥ **Ammo** - $linkmsg_bakrbolts$
