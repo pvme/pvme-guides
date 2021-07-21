@@ -199,7 +199,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • Every ability cast applies a stack:
         - This caps at 12 stacks, after which it will no longer consume runes on ability casts
         - Stacks are lost every 20 seconds, refreshed when attemping to apply another stack
-        - Each stack increases basic ability damage by +1%
+        - Each stack increases basic ability damage by +1% (excluding <:comb:535533833098100745> and <:corruptblast:513190159194259467>)
     • Wrack and Ruin <:wrackandruin:856662355912032256>:
         - At 12 stacks <:wrack:856662355952795658> becomes <:wrackandruin:856662355912032256>
         - It deals 60-300% ability damage (120-360% on stun/bound)
@@ -210,9 +210,9 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • Cooldown: Based on Weapon Speed
         - Fastest (Wand): 4t (2.4s)
         - Average (Staff): 6t (3.6s)
-    • Increases damage dealt with critical hits by 15%
-    • Increases critical hit damage cap by 12%
-        - This also stacks with Grimoire <:grim:568262896375824385> to make the hitcap 16.8k
+    • Increases damage dealt with critical hits by 15% for Magic, 6% otherwise
+    • Increases critical hit damage cap by 12% for Magic, 4.8% otherwise
+        - This also stacks with Grimoire <:grim:568262896375824385> to make the hitcap 16.8k for Magic, 15.72k otherwise
     • Lasts 120 seconds
 
 .
@@ -313,7 +313,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
         - Becomes a 188% basic
     • Not affected by Impatient <:imp4:712073088204013640>
     • Affected by Energizing:
-        - Gain (Energizing Rank \* 0.6) more
+        - Gain (Energizing Rank \* 0.6) more adrenaline
 
 .
 **__Thresholds__**
@@ -406,7 +406,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 **__Hit Timings__**
 Refer to this table for hit timings of each ability
 .
-.img:https://i.imgur.com/vSfkUZg.png
+.img:https://i.imgur.com/pKnij2q.png
 .
 *Notes:*
 ⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
@@ -793,6 +793,7 @@ https://youtu.be/HmZR1BBwsK0
         - Concentration Blast <:conc:535533833106489365>
         - Wrack <:wrack:856662355952795658>
         - Auto Attack (such as <:AirSurge:543465115870035999>)
+*Note: <:wrack:856662355952795658> is being used for practice solely due to its short cooldown, in actual PvM you should almost never be using this ability*
 
 .
 ⬥ **Step 1**:
