@@ -8,6 +8,16 @@ The third installment in the Elite Dungeon series, the Shadow Reef is home to th
 This guide is structured in the order that rooms would be encountered if running the dungeon. Rotations are written to utilize the Greater Chain ability <:gchain:787904334495088672> and assume 4TAA is used; however, neither is required to effectively do this dungeon.
 
 .
+Each solo run of ED3 is worth <:coins:698816156961603654> $data_pvme:Bosses!E568$ in eldritch pieces. Advanced players can get up to $data_pvme:Bosses!B572$ kph, earning on average $data_pvme:Bosses!C572$ gp/hr.
+
+.
+**__General Notes__**
+⬥ The rotations listed for the bosses are for an advanced setup, lower tiered set-ups will require improvisation.
+⬥ It's recommended to set your anti-spam delay for your Double Surge <:surge:535533810004262912> to 1 via the Lectern at Anachronia.
+⬥ Consider downgrading your graphics to Minimum with Medium+ draw distance for the Dungeon, as it is poorly optimized and prone to frame drops.
+⬥ You can Surge <:surge:535533810004262912> or Bladed Dive <:bd:535532854281764884> a tick before each gate unlocks to save a tick on every entry.
+
+.
 > __**Presets**__
 .tag:presets
 *Note: The dungeon can be effectively run with a single preset but for general speed reasons a separate preset should be used for Ambassador.*
@@ -66,6 +76,98 @@ __**Beginner/Group**__
 (Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:sd:537341954392850442>)
 .
 .img:https://i.imgur.com/7hQ2f39.png
+.
+> __**Relevant Mob Breakdown**__
+.tag:MB
+.
+**__Crassian Scout__**
+⬥ **Life Points**: 12,000
+⬥ They attack with low-damage Ranged <:range:580168050121113623> hits.
+.
+.img:https://imgur.com/IitM4Sh.png
+.
+**__Crassian Scuttler__**
+⬥ **Life Points**: 9,000
+⬥ They attack with moderately damaging Melee <:melee:615612332521029632> hits.
+.
+.img:https://imgur.com/Tlnooz1.png
+.
+**__Crassian Warrior__**
+⬥ **Life Points**: 22,000
+⬥ They attack with low-damage Melee <:melee:615612332521029632> hits.
+.
+.img:https://imgur.com/cOiYuDh.png
+.
+**__Cloaked Zealot__**
+⬥ **Life Points**: 12,000
+⬥ **Summon Crassian**: Can spawn Crassian mobs to attack you with.
+⬥ They attack with low-damage Magic <:Magic:689504724159823906> hits.
+.
+.img:https://imgur.com/OoWFjiJ.png
+.
+**__Zombie__**
+⬥ **Life Points**: 12,000
+⬥ Classified as Undead.
+⬥ They attack with low-damage Melee <:melee:615612332521029632> hits.
+.
+.img:https://imgur.com/RhUxi5e.png
+.
+**__Armoured Zombie__**
+⬥ **Life Points**: 20,000
+⬥ Classified as Undead.
+⬥ They attack with low-damage Melee <:melee:615612332521029632> hits.
+.
+.img:https://imgur.com/ck8eM4F.png
+.
+**__Ulthven Necromancer__**
+⬥ **Life Points**: 16,500
+⬥ **Summon Undead**: Can spawn a continous horde of Undead.
+⬥ They attack with low-damage Magic <:Magic:689504724159823906> hits.
+.
+.img:https://imgur.com/WYSruqR.png
+.
+**__Huge Skeleton__**
+⬥ **Life Points**: 12,000
+⬥ Classified as Undead.
+⬥ They attack with low-damage Melee <:melee:615612332521029632> hits.
+.
+.img:https://imgur.com/f46shz8.png
+.
+**__Sea Horror__**
+⬥ **Life Points**: 35,500
+⬥ **Scream**: A 2,000 typeless hit used at melee distance.
+⬥ They attack with low-damage Melee <:melee:615612332521029632> hits otherwise.
+.
+.img:https://imgur.com/IPDVVBO.png
+.
+**__Enlightened Sotapanna__**
+⬥ **Life Points**: 15,000
+⬥ They attack with melee abilities for moderate damage.
+.
+.img:https://imgur.com/VfKJwV6.png
+.
+**__Undead Witch__**
+⬥ **Life Points**: 30,000
+⬥ Classified as Undead.
+⬥ They attack with a delayed, highly damaging Magic <:Magic:689504724159823906> hit.
+.
+.img:https://imgur.com/q0nhNkm.png
+.
+**__Kal'gerion Demon__**
+⬥ **Life Points**: 33,700
+⬥ **Life Drain**: Reduces your Constitution level by 2
+⬥ **Demonic Ritual**: Reduces all combat stats alongside rapid magic damage to anyone in range.
+⬥ They attack with low-damage Magic <:Magic:689504724159823906> hits otherwise.
+.
+.img:https://imgur.com/qyFyO1h.png
+.
+**__Warped Skeleton__**
+⬥ **Life Points**: 12,000
+⬥ **Frenzy**: Rapid 3,000 magic hits <:Magic:689504724159823906> that also heal the Skeleton. Triggers are unknown.
+⬥ Classified as Undead.
+⬥ They attack with low-damage Melee <:melee:615612332521029632> hits otherwise.
+.
+.img:https://imgur.com/5JZLXAS.png
 .
 > __**First Floor - Pre-Crassian**__
 .tag:FFPC
@@ -463,7 +565,7 @@ __**Ambassador's Attack Rotation**__
     • You only need to kill 5 out of 6 and then use either <:disrupt:535614336207552523> or <:res:535541258844635148> to block the explosion hit.
     • No movement abilities are required to effectively move between spinners; however, if desired, it is recommended to use Bladed Dive <:bd:535532854281764884> as its cooldown will be reset by each spinner death.
     • Using Vulnerability bombs <:vulnbomb:655341074235129858> on each of the spinners is not necessary but recommended.
-    • The spinners are not immune to binds and therefore Ice Barrage + Wrack <:icebarrage:537340400185245701> <:wrack:535533809823645697> can be utilized.
+    • The spinners are not immune to binds and therefore Ice Barrage + Wrack <:icebarrage:537340400185245701> <:wrack:856662355952795658> can be utilized.
 
 .
 **__Phase 3 - 650k-400k__**
@@ -546,6 +648,7 @@ https://youtu.be/NFtB7jfFULo
 > **__Table of Contents__**
 ⬥ **Introduction** - $linkmsg_intro$
 ⬥ **Presets** - $linkmsg_presets$
+⬥ **Relevant Mob Breakdown** - $linkmsg_MB$
 ⬥ **First Floor - Pre-Crassian** - $linkmsg_FFPC$
 ⬥ **The Crassian Leviathan** - $linkmsg_crassian$
 ⬥ **Post Crassian - Second Floor Entry** - $linkmsg_PCSFE$

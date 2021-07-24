@@ -127,7 +127,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 ⬥ Filler abilities such as Sonic Wave <:sonic:535533809924571136> and Concentrated Blast <:conc:535533833106489365> should be used in-between high damage abilities such as Dragon Breath <:dbreath:535533833391702017>, Corruption Blast <:corruptblast:513190159194259467>, flank Impact <:flank4:712073088296157185> <:impact:535533809655873556>, and walked Combust <:comb:535533833098100745>.
 
 .
-⬥ Any basic ability with damage lower than Sonic Wave/Concentrated Blast <:sonic:535533809924571136>/<:conc:535533833106489365> would be considered a weak ability (Wrack <:wrack:535533809823645697>, Tuska's Wrath <:Tuskas:513201065513058306>, Sacrifice <:Sacrifice:513201065907322880>, non-flank Impact <:impact:535533809655873556>, single-target Chain <:chain:535533833056026624>).
+⬥ Any basic ability with damage lower than Sonic Wave/Concentrated Blast <:sonic:535533809924571136>/<:conc:535533833106489365> would be considered a weak ability (Wrack <:wrack:856662355952795658>, Tuska's Wrath <:Tuskas:513201065513058306>, Sacrifice <:Sacrifice:513201065907322880>, non-flank Impact <:impact:535533809655873556>, single-target Chain <:chain:535533833056026624>).
     • Generally speaking, these should be avoided.
 
 .
@@ -175,6 +175,55 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • Cooldown: Based on Weapon Speed
         - Fastest (Wand): 4t (2.4s)
         - Average (Staff): 6t (3.6s)
+
+.
+⬥ **Incite Fear** <:incitefear:856635090783567902>
+    • Cooldown: Based on Weapon Speed
+        - Fastest (Wand): 4t (2.4s)
+        - Average (Staff): 6t (3.6s)
+    • Every ability cast applies a stack:
+        - This caps at 5 stacks, after which it will no longer consume runes on ability casts
+        - Stacks are lost every 20 seconds, refreshed when attempting to apply another stack
+        - Each stack reduces Tsunami's <:tsunami:535533809995874304> cast cost by -12% adrenaline
+    • Frost Surge:
+        - At 5 stacks an ability cast triggers Frost Surge which deals 10-50% ability damage
+        - Triggering it costs runes even at max stacks
+        - Frost Surge is also a 5x5 AoE around your primary target which hits up to 8 secondary targets in range for 10-50% ability damage each
+        - Frost Surge has a 12 second cooldown, after which you must have another ability cast trigger it again
+
+.
+⬥ **Exsanguinate** <:exsanguinate:856635090745950258>
+    • Cooldown: Based on Weapon Speed
+        - Fastest (Wand): 4t (2.4s)
+        - Average (Staff): 6t (3.6s)
+    • Every ability cast applies a stack:
+        - This caps at 12 stacks, after which it will no longer consume runes on ability casts
+        - Stacks are lost every 20 seconds, refreshed when attemping to apply another stack
+        - Each stack increases basic ability damage by +1% (excluding <:comb:535533833098100745> and <:corruptblast:513190159194259467>)
+    • Wrack and Ruin <:wrackandruin:856662355912032256>:
+        - At 12 stacks <:wrack:856662355952795658> becomes <:wrackandruin:856662355912032256>
+        - It deals 60-300% ability damage (120-360% on stun/bound)
+        - Using it resets all stacks and also makes your next Combust <:comb:535533833098100745> do 2 additional hits
+
+.
+⬥ **Smoke Cloud** <:smokecloud:856635090641879050>
+    • Cooldown: Based on Weapon Speed
+        - Fastest (Wand): 4t (2.4s)
+        - Average (Staff): 6t (3.6s)
+    • Increases damage dealt with critical hits by 15% for Magic, 6% otherwise
+    • Increases critical hit damage cap by 12% for Magic, 4.8% otherwise
+        - This also stacks with Grimoire <:grim:568262896375824385> to make the hitcap 16.8k for Magic, 15.72k otherwise
+    • Lasts 120 seconds
+
+.
+**__Other Spells__**
+⬥ **Animate Dead** <:animatedead:856635090453135382>
+    • This applies a flat damage reduction:
+        - This reduction is based on 10% of equipped magic tank gear's armor + 33% of your current Defence <:Defence:689509250979987525> level after any buffs or debuffs
+        - The damage reduced cannot exceed 75% of the damage taken
+        - This 75% cap is based off the damage after all other damage reductions such as deflect prayers (<:DeflectMelee:544195488447201300>/<:DeflectRange:544195488317046812>/<:DeflectMage:544195487926845462>) on the hit
+    • Lasts 12 minutes
+    • Does not reduce Resonance <:res:535541258844635148>/Divert <:divert:787904334377648130> Hp/adrenaline gain
 
 .
 **__Basics__**
@@ -258,13 +307,13 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
         - Any secondary targets hit by chain will take the next ability cast on your main target within 6s at 50% of its damage range
 
 .
-⬥ **Wrack** <:wrack:535533809823645697>
+⬥ **Wrack** <:wrack:856662355952795658>
     • Cooldown: 5t (3s)
     • Damage boosted on stun/bound targets:
         - Becomes a 188% basic
     • Not affected by Impatient <:imp4:712073088204013640>
     • Affected by Energizing:
-        - Gain (Energizing Rank \* 0.6) more
+        - Gain (Energizing Rank \* 0.6) more adrenaline
 
 .
 **__Thresholds__**
@@ -312,7 +361,6 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • It is affected by Blast Diffusion Boots <:detoboots:602581956072439828>:
         - It takes 4t (2.4s) to reach 100% instead of 6t (3.6s)
         - It gains 40% charge at a time instead of 20%.
-    • Channelled ability
 
 .
 **__Special Attacks__**
@@ -337,7 +385,9 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 ⬥ **Metamorphosis** <:meta:535533811304497183>
     • Cooldown: 100t (60s)
     • It is an on hit buff
-    • It increases damage by 63.5% from t0-t24 (25t/15s duration), where buff starts t1
+    • To get the buff the spell type of <:meta:535533811304497183> and the spell type of your abilities and autos have to correspond
+        - E.g., Fire <:meta:535533811304497183> into Fire ability works, Fire <:meta:535533811304497183> into Air ability would not
+    • It increases damage by 63.5% from t0-t25 (26t/15.6s duration), where buff starts t1
     • It shares cooldown with Sunshine <:Sunshine:583430011948630016>
 
 .
@@ -356,7 +406,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 **__Hit Timings__**
 Refer to this table for hit timings of each ability
 .
-.img:https://i.imgur.com/vSfkUZg.png
+.img:https://i.imgur.com/pKnij2q.png
 .
 *Notes:*
 ⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
@@ -366,7 +416,7 @@ Refer to this table for hit timings of each ability
 > **__Cancelling Channels__**
 .tag:Cancel
 **__Why to Cancel__**
-⬥ Magic has 4 channeled abilities, but this section will only apply to 3 as they are more traditional channels
+⬥ Magic has 3 channeled abilities
     • These 3 are: Concentrated Blast <:conc:535533833106489365>, Asphyxiate <:asphyx:535533833072672778>, and Smoke Tendrils <:Smoke_Tendrils:536257336130404372>
 
 .
@@ -393,16 +443,17 @@ https://www.youtube.com/watch?v=unCtj7IosVA
 > **__Detonate__**
 .tag:Deto
 **__What Makes Detonate Unique__**
-⬥ As mentioned, Magic has 4 channels, 3 of which were mentioned prior, this section will be dedicated to Detonate <:deto:535533833358016512> due to how differently it works compared to other channels
+⬥ As mentioned, Magic has 3 channels; however, Detonate is often considered one too even if it technically is not one due to the need to charge it. This section will be dedicated to Detonate <:deto:535533833358016512> due to how differently it works compared to normal channels.
 
 .
-⬥ Unlike most channels Detonate <:deto:535533833358016512> acts like or can have the following done within it:
+⬥ Unlike other channels, Detonate <:deto:535533833358016512> acts like or can have the following done within it:
     • It acts somehwat like a defensive in the context of defensive autos (you can release Detonate <:deto:535533833358016512> with an Auto <:AirSurge:543465115870035999> given the Auto <:AirSurge:543465115870035999> is not on cooldown)
     • You can throw Vulnerability Bombs <:vulnbomb:655341074235129858> during its charge time
     • You can SBS <:SBSLunars:565726489467682816> <:SBSStandards:565726489526534154> during its charge time
     • You can Shield Dome during its charge time
     • You can stall its release
         - Generally speaking you cannot stall channels (outside of melees wherein only 1 hit is stalled)
+    • It is not affected by the Channeller's Ring <:channellerring:839903943404027914> due to not actually being a channeled ability
 
 .
 ⬥ Typically, when releasing Detonate <:deto:535533833358016512> you will release it with an Auto and an Ability
@@ -740,12 +791,13 @@ https://youtu.be/HmZR1BBwsK0
     • An ability bar with the basic abilities:
         - Sonic Wave <:sonic:535533809924571136>
         - Concentration Blast <:conc:535533833106489365>
-        - Wrack <:wrack:535533809823645697>
+        - Wrack <:wrack:856662355952795658>
         - Auto Attack (such as <:AirSurge:543465115870035999>)
+*Note: <:wrack:856662355952795658> is being used for practice solely due to its short cooldown, in actual PvM you should almost never be using this ability*
 
 .
 ⬥ **Step 1**:
-    • Equip Wand + Orb <:praeswand:643166769518739477> <:impercore:643166751067996160>, acquire a target, and Wrack <:wrack:535533809823645697>
+    • Equip Wand + Orb <:praeswand:643166769518739477> <:impercore:643166751067996160>, acquire a target, and Wrack <:wrack:856662355952795658>
 
 .
 ⬥ **Step 2**:
@@ -754,7 +806,7 @@ https://youtu.be/HmZR1BBwsK0
 
 .
 ⬥ **Step 3**:
-    • Equip Wand + Orb and Wrack (<:praeswand:643166769518739477> <:impercore:643166751067996160> → <:wrack:535533809823645697>)
+    • Equip Wand + Orb and Wrack (<:praeswand:643166769518739477> <:impercore:643166751067996160> → <:wrack:856662355952795658>)
 
 .
 ⬥ Steps 2-3 demonstrated:
@@ -766,7 +818,7 @@ https://youtu.be/HmZR1BBwsK0
 
 .
 ⬥ **Step 5**:
-    • Use Wrack with Wand + Orb still equipped (<:wrack:535533809823645697>)
+    • Use Wrack with Wand + Orb still equipped (<:wrack:856662355952795658>)
 
 .
 ⬥ **Step 6**:
@@ -777,12 +829,12 @@ https://youtu.be/HmZR1BBwsK0
 .img:https://i.imgur.com/nUH6Fro.mp4
 .
 ⬥ Steps 2-6 in one video
-    • Entire rotation: <:inquisitorstaff:694566917553520680> → <:AirSurge:543465115870035999> <:sonic:535533809924571136> → <:praeswand:643166769518739477> <:impercore:643166751067996160> + <:wrack:535533809823645697> → <:inquisitorstaff:694566917553520680> → <:AirSurge:543465115870035999> + <:praeswand:643166769518739477> <:impercore:643166751067996160> + <:conc:535533833106489365> → <:wrack:535533809823645697> → repeat
+    • Entire rotation: <:inquisitorstaff:694566917553520680> → <:AirSurge:543465115870035999> <:sonic:535533809924571136> → <:praeswand:643166769518739477> <:impercore:643166751067996160> + <:wrack:856662355952795658> → <:inquisitorstaff:694566917553520680> → <:AirSurge:543465115870035999> + <:praeswand:643166769518739477> <:impercore:643166751067996160> + <:conc:535533833106489365> → <:wrack:856662355952795658> → repeat
 .
 https://youtu.be/RVpzQgtG--Y
 .
 **__4TAA Additional Info__**
-⬥ **Note that this is just a practice rotation**. Wrack <:wrack:535533809823645697> is generally not a good basic ability to use in combat and is only utilized here due to it's very short cooldown. In real combat, replace Wrack with Dragon Breath <:dbreath:535533833391702017>, Corruption Blast <:corruptblast:513190159194259467>, Impact <:impact:535533809655873556>, Wild Magic <:wm:535533809978966037>, etc.
+⬥ **Note that this is just a practice rotation**. Wrack <:wrack:856662355952795658> is generally not a good basic ability to use in combat and is only utilized here due to it's very short cooldown. In real combat, replace Wrack with Dragon Breath <:dbreath:535533833391702017>, Corruption Blast <:corruptblast:513190159194259467>, Impact <:impact:535533809655873556>, Wild Magic <:wm:535533809978966037>, etc.
 ⬥ When practising, set the combat dummy to 'Max Hit Mode' then take note of how much damage your Staff auto attack deals compared to a Wand auto attack. To benefit from 4TAA, you want to consistently do Staff auto attacks.
 ⬥ Step 4 must be done in quick succession; all inputs must be done within one tick. To make this easier on yourself try keybinding your Wand/Orb/Auto in an easy to reach set of keystrokes.
 ⬥ This guide only covers the basic pattern of 4TAA. Once you're confident in performing steps 1-6, try to mix and match other basic abilities to create your own 4TAA rotation.
