@@ -190,44 +190,79 @@ Short video guide on this topic: https://youtu.be/fInvWvnSI18
 .tag:poison
 **__How it Works__**
 ⬥ Weapon Poison provides a buff to the player for an amount of time dependent on the grade of poison being used.
-    • While this is active, players have a 12.5% chance of poisoning a target so long as they are not poison-immune. After being poisoned, the target will take damage every 16 game ticks, or 9.6 seconds, and will continue to take damage for 3 minutes.
-    • This 3 minute duration also has a chance to be refreshed at a 12.5% rate.
+    • While this is active, players have a 12.5% chance of poisoning a target so long as they are not poison-immune.
+    • After being poisoned, the target will take damage every 16 game ticks, or 9.6 seconds, and will continue to take damage for 3 minutes.
     • Poison damage will hit 2 ticks after the damage that applied it.
+    
+⬥ Damage is derived in the following manner:
+    • Poison damage starts with a base value of 20% of the player's ability damage, base Weapon Poison representing 100% of this damage.
+    • Each tier of poison adds +25% to this value. Cinderbane Gloves <:Cinderbanes:513190158355660812> will also provide an additional 25%.
+    • Damage is rolled between 65-130% of this final poison damage value.
+    • Unless refreshed, the damage range will be reduced by 3% on every subsequent hit (63.5-127%, 62-124%, etc.)
+    • Final Damage Ranges:
+        - Weapon Poison    = 13.00-26.00%
+        - Weapon Poison+   = 16.25-32.50%
+        - Weapon Poison++  = 19.50-39.00%
+        - Weapon Poison+++ = 22.75-45.50%
+        - Cinderbanes+++   = 26.00-52.00%  
+    • Average Damage Values:
+        - Weapon Poison    = 19.50%
+        - Weapon Poison+   = 24.36%
+        - Weapon Poison++  = 29.25%
+        - Weapon Poison+++ = 34.13%
+        - Cinderbanes+++   = 39.00%  
 
-⬥ Vulnerability <:Vuln:537349530551582720> affects this damage, but prayers and damage boosting ultimates do not.
+⬥ Vulnerability <:Vuln:537349530551582720>, Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>, and Laniakea's Spear <:lanispear:839903893177106454> increase poison damage values, but prayers and damage boosting ultimates do not. 
 
 .
-⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812> heavily boost the amount of damage that can be dealt by poison.
+⬥ **Cinderbane Gloves** <:Cinderbanes:513190158355660812>: 
     • While worn, the gloves effectively ignore the 16 tick cooldown on poison damage, allowing for a 12.5% chance of reapplication and refreshing the poison timer on the target.
     • This reapplication will incur an extra poison hit, and the 16 tick damage timer is also reset.
-    • This effect also allows for poison to reapply itself, so each poison hitsplat also has a 12.5% chance of dealing an extra poison hit and refreshing the timer.
+    • This effect also allows for poison to reapply itself, so each poison hitsplat has a 12.5% chance of dealing an extra poison hit and refreshing the timer.
+        - With this considered, the effective application rate per hitsplat is ~14.3%
+    • Even without consuming Weapon Poison, the gloves will apply poison damage as if Weapon Poison+ was in effect.
 
 .
-⬥ Without using weapon poison, the damage supplied by Cinderbane Gloves' own poison will be closer to that of Weapon Poison+.
-    • However, they increase the damage that applied weapon poison deals.
-    • The +++ variant is increased to an average 36.5% ability damage from 27.9%.
-        - Coupled with Kwuarm incense sticks, this value raises further to 46.5%.
+⬥ **Kwuarm Incense Sticks** <:KwuarmSticks:565726489341984779>:
+    • Per potency level, Kwuarm Incense Sticks will add a multiplicative damage increase of 2.5% to the player's final poison damage.
+    • At maximum potency, this is a multiplicative 10% to poison damage. This brings the range of Weapon Poison+++ with Cinderbane Gloves worn to 28.60-57.52%, or an average of 42.9% ability damage. 
 
 .
-⬥ Laniakea's Spear greatly compliments Cinderbane Gloves' effect, greatly increasing the application rate of poison.
+⬥ **Laniakea's Spear** <:lanispear:839903893177106454>:
     • The application rate of poison is boosted by an additive 5%, increasing it to 17.5%.
         - When considering poison re-applying itself, this gives an effective application rate per hitsplat of ~21.2%, up from ~14.3%.
-    • Poison damage is increased by 5% as well, but only effects the final value and not the damage range.
+    • Poison damage is increased by a multiplicative 5%, similar to Kwuarm Incense Sticks.
+
+.
+⬥ **Upgraded Bone Blowpipe**:
+    • Poison damage is halved, but the application rate is doubled to 25%.
+        - When considering poison re-applying itself, this gives an effective application rate per hitsplat of ~33.3%, up from ~14.3%.
+
+.
+⬥ **Wyvern Crossbow** <:wyverncrossbow:580177522587729940>:
+    • Applies its own "poison" damage separate from normal weapon poison.
+        - 50% chance on hit to apply a stacking damage over time effect.
+        - Hits every 2 ticks after application, up to 5 hits unless refreshed before the final hit.
+        - When refreshed, the damage will increase and hit another 5 times.
+        - Damage starts with a range of 10-24 per hit, and can climb up to 125-249 per hit.
+    • While this weapon doesn't directly influence the base damage or application rate of poison, the passive effect hits very rapidly and consistently. This allows for more poison hits to occur.
 
 .
 ⬥ Poison can be applied/refreshed by **any player-sourced damage**. This includes:
+    • Abilities (Includes every hit from bleeds/damage over time, including Sunshine & Death's Swiftness)
+    • Auras (Ancestor Spirits & Dark Magic)
     • Auto attacks
-    • Abilities
-    • God books
-    • Reflect damage
+    • Bakriminel/Enchanted Bolt extra hits (Emerald & Dragonstone)
     • Blood necklaces
-    • Cannon damage
-    • Puncture bleeds
-    • Poison damage
-    • Wyvern Crossbow passive
-    • Eldritch Crossbow special
-    • Dominion mines
     • Blood Reaver passive
+    • Cannon damage
+    • Dominion mines
+    • Eldritch Crossbow special
+    • God books
+    • Poison damage
+    • Puncture bleeds
+    • Reflect damage
+    • Wyvern Crossbow passive
 
 .
 > **__Zerk Auras and On-Cast Ult Interactions__ (Courtesy of <@781280949790572554>)**
