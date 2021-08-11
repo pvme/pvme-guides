@@ -731,35 +731,50 @@ This section will detail several switches that are useful for magic, and should 
 
 .
 **__How it Works__**
-⬥ The general 4TAA structure will be like:
+⬥ The general 4TAA structure without Greater Concenterated Blast <:gconc:869285393223254107> will be like:
 ```
-Auto + 2H/Dw Ability → non-channeled Dw Ability → Repeat
+Auto + 2H/DW Ability → non-channeled DW Ability → Repeat
 ```
+⬥ The general 4TAA structure with gConc <:gconc:869285393223254107> will be:
+```
+Auto + 2H/DW Ability → gConc → non-channeled DW Ability → Repeat
 
-⬥ As you can see, the auto is forced every other ability, this is simply due to the fact that 2H autos have a 6t cooldown so you can only cast it after every other ability
+OR
+
+Auto + gConc  → DW Ability → non-channeled DW Ability → Repeat
+```
+⬥ The difference between having <:gconc:869285393223254107> and not having <:gconc:869285393223254107> are as follows:
+    • Instead of generally autoing every 7 ticks, it is every 10 ticks
+    • Ensuring that you maximize <:gconc:869285393223254107> casts by using it every 3rd ability
+        - Additonally <:gconc:869285393223254107> is always followed by a dual-wield ability, this is because swapping mainhands loses the <:gconc:869285393223254107> crit buff
+    • When you want to use Detonate <:deto:535533833358016512> or Asphyxiate <:asphyx:535533833072672778> (which ideally is 2-hit) it is the ability before <:gconc:869285393223254107>
+
+.
+⬥ As you can see, when not using <:gconc:869285393223254107>, the auto is forced every other ability. This is simply due to the fact that 2H autos have a 6t cooldown so you can only cast it after every other ability
 
 .
 ⬥ Further, you can see the ability before it repeats (i.e., before you do your next auto + ability) has to be a non-channeled Dw ability
     • It *must* be a dw ability due to the 4t auto cooldown associated with it, allowing you to do a 2H auto 4t later
     • It *must* be non-channeled because each hit of a channel resets your auto cooldown
-        - Thus it is generally ideal to always do an auto into your channeled ability
+        - Thus it is generally ideal to always do an auto into your channeled ability, or at the very least do not do a channel before you intend to auto
 
 .
-⬥ Moreover, you can see that after an auto you can do either a 2H or Dw ability, this is because it does not particularly matter assuming same perking and tiers
-    • That being said, you *must* (outside of very niche cases) always ensure that when you do an auto into a channeled, that the channeled ability is done with Dw (this is mostly important for Asphyxiate, as Concentrated Blast is already Dw locked, and Smoke Tendrils is not relevant)
-        - This is because of the fact that when the channeled hits reset your auto cd, it is going to reset it based off the weapon you are wearing, thus if you staff asphyx, when your asphyx ends your auto is on a 6t cooldown again
+⬥ Moreover, you can see that after an auto you can do either a 2H or DW ability, this is because it does not particularly matter assuming same perking and tiers
+    • That being said, you *must* (outside of very niche cases without <:gconc:869285393223254107>) always ensure that when you do an auto into a channeled, that the channeled ability is done with DW (this is mostly important for Asphyxiate <:asphyx:535533833072672778>, as Concentrated Blast <:conc:535533833106489365> is already DW locked, and Smoke Tendrils <:Smoke_Tendrils:536257336130404372> is not relevant)
+        - This is because of the fact that when the channeled hits it incurs your auto cd, it is going to incurs it based off the weapon you are wearing, thus if you staff <:asphyx:535533833072672778>, when your <:asphyx:535533833072672778> ends your auto is on a 6t cooldown again
         - The table below will showcase two different scenarios:
 ```
 2H Asphyxiate:
 
 You MUST do:
-auto + asphyxiate → ability → dw abil → auto + ability
+Auto + Asphyxiate → Ability → DW Ability → Auto + Ability
 
-Dw Asphyxiate:
+DW Asphyxiate:
 
 You can do:
-auto + asphyxiate → dw ability → auto + ability
+Auto + Asphyxiate → DW Ability → Auto + Ability
 ```
+*Note: this is not an issue if you do auto + abil → <:gconc:869285393223254107> → non-channeled dw ability → repeat structure, given the fact you are already planning to auto 2 abilities after <:asphyx:535533833072672778>*
 
 .
 > **__4TAA Guides__**
