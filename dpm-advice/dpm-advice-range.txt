@@ -105,6 +105,258 @@ With Greater Ricochet <:grico:787904334812807238> and Tuska's Wrath <:Tuskas:513
 *Note: There is no easy "trick" to skip past the practice. It takes time to learn full manual so stick with it!*
 
 .
+> **__Ability Information__**.
+.tag:abilInfo
+**__General__**
+⬥ Note: t = "ticks", s = "seconds"
+⬥ To see the damages of the listed things with your gear set up, feel free to make a copy of the following sheet to customize:
+<https://docs.google.com/spreadsheets/u/2/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0>
+
+.
+**__Autos__**
+⬥ All Autos are affected by Invigorating <:invig4:712073087859949570>
+    • (Invigorating Rank * 10)% increased adrenaline on Autos
+
+.
+⬥ Default Ranged Auto <:Ranged:689504724403486920>
+    • Cooldown: Based on Weapon Speed
+        - Fastest: 4t (2.4s)
+        - Fast: 5t (3.0s)
+        - Average: 6t (3.6s)
+
+.
+**__Basics:__**
+⬥ **Fragmentation Shot** <:frag:535541273755385885>
+    • Cooldown: 25t (15s)
+    • It is a Bleed:
+        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
+        - Hits 5 times total, once every 2t (1.2s)
+    • It is Walkable:
+        - Doubles damage of each hit
+    • It is affected by Lunging <:lunge4:736522494315593759>:
+        - Max increases by 20% per Lunging rank
+        - Walking bleed only causes it to increase by 50% damage
+
+.
+⬥ **Corruption Shot** <:corruptshot:535541306294796299>
+    • Cooldown: 25t (15s)
+    • It is a Bleed:
+        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
+        - Hits 5 times total, once every 2t (1.2s)
+    • It is an AoE:
+        - Spreads to targets within 2 tiles each hit
+        - Does *not* aggro said targets
+
+.
+⬥ **Binding Shot** <:bindingshot:535541306563231790>
+    • Cooldown: 25t (15s)
+    • It shares cooldown with Demoralise <:demoralise:535541258559553546>
+    • Stuns for 2t (1.2s) and Binds for 16t (9.6s)
+    • It is affected by Flanking <:flank4:712073088296157185>
+        - Increases Max by 40% per Flanking rank
+        - Increases Minimum by 8% per Flanking Rank
+        - No longer stuns or binds
+
+.
+⬥ **Demoralise** <:demoralise:535541258559553546>
+    • Cooldown: 25t (15s)
+    • It shares cooldown with Binding Shot <:bindingshot:535541306563231790>
+    • Stuns for 2t (1.2s) and Binds for 16t (9.6s)
+    • It causes Knockback:
+        - Pushes 1x1 targets back 1 tile
+
+.
+⬥ **Escape** <:escape:535541258832052231>
+    • Cooldown: 34t (20.4s)
+    • It is a Mobility ability:
+        - For Ranged: Moves you back (weapon attack range - 1) tiles
+        - For non-Ranged: Moves you back 7 tiles
+    • It is affected by Mobile <:mob:689501908628799488>
+        - Reduces cooldown to 17t (10.2s)
+        - Removes adrenaline gain
+    • Can be upgraded with a Double Escape codex: <:escapecodex:602561894443778115>
+        - This gives you a second <:escape:535541258832052231> on its own 34t (17t <:mob:689501908628799488>) internal cooldown that is used after the first
+
+.
+⬥ **Snipe** <:snipe:535541258425204770>
+    • Cooldown: 17t (10.2s)
+    • It is a channeled ability
+    • It is affected by Nightmare Gauntlets <:nightmaregauntlets:679628668120727571>
+        - Lets you move while charging <:snipe:535541258425204770>
+        - Increases hitchance of <:snipe:535541258425204770> by 25%
+
+.
+⬥ **Dazing Shot** <:dazing:535541307142307860>
+    • Cooldown: 9t (5.4s)
+    • Target suffers a 10% accuracy decrease on their next attack
+
+.
+⬥ **Greater Dazing Shot** <:mds:535541259033378827>
+    • Cooldown: 9t (5.4s)
+    • All normal dazing shot things apply
+    • Applies the Puncture effect:
+        - Increases Puncture stack count (caps at 10 stacks) on successful hits
+        - Deal Puncture Stack /* (5.8-7.2%) bleed damage over its full duration
+        - Refreshes the timer before clearing Puncture stacks to 9s even on splashes
+        - Makes the bleed start from the beginning again at its current Puncture stacks
+
+.
+⬥ **Needle Strike** <:needle:535541259108876293>
+    • Cooldown: 9t (5.4s)
+    • The damage of the next ability done on the main target is increased by 7%
+
+.
+⬥ **Ricochet** <:ricochet:535541259566186521>
+    • Cooldown: 17t (10.2s)
+    • It is an AoE:
+        - Hits within a 6 square radius
+        - Hits 3 targets, inclusive of main
+    • It is affected by Caroming <:caroming4:791281588792590336>
+        - Ricochet hits Caroming rank more targets
+    • Not affected by Chinchompas <:mechchin:641669268722810881>
+
+.
+⬥ **Greater Ricochet** <:grico:787904334812807238>
+    • Cooldown: 17t (10.2s)
+    • All normal chain things apply
+    • It has an additional effect:
+        - Any non-primary Ricochet hit that does not hit an additional target will instead hit the primary target at half its damage
+
+.
+⬥ **Piercing Shot** <:piercing:535541258538450944>
+    • Cooldown: 5t (3s)
+    • Damage boosted on stun/bound targets:
+        - Becomes a 37.6%-188% basic
+    • Not affected by Impatient <:imp4:712073088204013640>
+    • Affected by Energising:
+        - Gain (Energizing Rank \* 0.6) more adrenaline
+        - Damage range is now 0.8 \* original damage range
+
+.
+**__Thresholds__**
+⬥ **Snap Shot** <:snap:535534127131394088>
+    • Cooldown: 34t (20.4s)
+
+.
+⬥ **Shadow Tendrils** <:shadowtend:642713547142332416>
+    • Cooldown: 75t (45s)
+    • Calculates damage on activation
+    • Incurs auto cooldown 2t (if fastest then 3t) after activation
+
+.
+⬥ **Rapid Fire** <:rapid:535541270521708566>
+    • Cooldown: 34t (20.4s)
+    • Binds for 10t (6s)
+    • Channelled ability
+    • It is affected by Fleeting Boots <:fleetingboots:789813993480388640>
+        - Lets you move while channeling <:rapid:535541270521708566>
+        - Increases hitchance of <:rapid:535541270521708566> by 10%
+
+.
+⬥ **Bombardment** <:bombard:535541306391265284>
+    • Cooldown: 50t (30s)
+    • It is an AoE:
+        - 3x3 with target's true centre (SW tile) as centre
+    • Not affected by Chinchompas <:mechchin:641669268722810881>
+
+.
+⬥ **Salt the Wound** <:stw:535541259109138463>
+    • Cooldown: 25t (15s)
+    • It is an AoE:
+        - 3x3 with player as centre
+    • It is affected by Puncture:
+        - Increases Max by 18% per Puncture stack
+        - Increases Minimum by 3.6% per Puncture rank
+        - This means at 10 stacks <:stw:535541259109138463>'s damage range is 73.6%-368%
+    • It affects Puncture:
+        - Refreshes the timer before clearing Puncture stacks to 9s
+        - Makes the bleed start from the beginning again at its current Puncture stacks
+
+.
+⬥ **Tight Bindings** <:tight:535541275957657600>
+    • Cooldown: 25t (15s)
+    • It shares cooldown with Rout <:rout:535541259268521994>
+    • Stuns for 6t (3.6s) and Binds for 16t (9.6s)
+    • It is affected by Flanking <:flank4:712073088296157185>
+        - Increases Max by 40% per Flanking rank
+        - Increases Minimum by 8% per Flanking rank
+        - No longer stuns or binds
+
+.
+⬥ **Rout** <:rout:535541259268521994>
+    • Cooldown: 25t (15s)
+    • It shares cooldown with Tight Bindings <:tight:535541275957657600>
+    • Stuns for 6t (3.6s)
+    • It causes Knockback
+        - Pushes 1x1 targets back 1 tile
+
+.
+**__Special Attacks__**
+*Note: All Special Attacks have an inherent cooldown when doing back-to-back special attacks, this is discussed in <#689212192398114875>*
+
+.
+⬥ **Dark Bow** <:dbow:643848618553507843>
+    • Adrenaline Cost: 65% (58.5% with <:vigour:615613235512737792>)
+
+.
+⬥ **Seren Godbow** <:sgb:626466665848242186>
+    • Cooldown: 50t (30s)
+    • Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)
+    • To see how the special attack Crystal Rain works use !sgb in <#534563158304620564>
+
+.
+⬥ **Eldritch Crossbow** <:ecb:615618531937222657>
+    • Special Attack: Split Soul
+    • Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)
+        - Lasts 25t (t0-t24)
+        - Anything that Soul Split would have healed whilst spec is active instead deals Blight damage equal to 4 \* Soul Split heal amount
+        - Blight damage is affected a second time by Vulnerability <:Vuln:537349530551582720>, X Slayer sigils <:demonslayer:641339921675845633> <:dragonslayer:641339921814126594> <:undeadslayer:641339922019516416>, the NopeNopeNope PoF perk, and X Slayer perks <:undeadslayerperk:689502804720615441> <:demonslayerperk:689502842653900818> <:dragonslayerperk:689502927731163170>
+    
+
+.
+**__Ultimate__**
+⬥ **Death's Swiftness** <:DeathsSwift:513190158812839936>
+    • Cooldown: 100t (60s)
+    • It is an on cast buff
+    • It increases damage by 50% from t0→t51 (52t/31.2s duration), where buff starts t1
+    • It has a 7x7 buff radius
+    • It does not incur the auto cooldown
+    • It is affected by Planted Feet <:pf:689501925770919981>
+        - Increases duration by 25%: duration becomes t0→t63 (64t/38.4s duration), where buff starts t1
+
+.
+⬥ **Incendiary Shot** <:incend:535541258429661215>
+    • Cooldown: 100t (60s)
+    • It is an AoE:
+        - 3x3 with target's true centre (SW tile) as centre
+    • It provides an Critical Adrenaline buff:
+        - For the next 30s, critical hits give 10% adrenaline
+        - This buff is applied on hit of the ability
+    • It is a Bleed:
+        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
+
+.
+⬥ **Deadshot** <:deadshot:535541307666595870>
+    • Cooldown: 50t (30s)
+    • It is mostly a Bleed:
+        - It does 6 hits, 5 of which are a bleed which means:
+        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
+        - Hits 5 times total, once every 2t (1.2s)
+
+.
+⬥ **Unload** <:unload:535541258664411169>
+    • Cooldown: 100t (60s)
+    • Channelled ability
+
+.
+**__Hit Timings__**
+Refer to this spreadsheet for hit timings of each ability for various overrides:
+<https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>
+*Notes:*
+⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
+⬥ *r2H means "release stalled ability with 2H", rDW means "release stalled ability with dual wield"*
+
+.
 > **__Ability Prioritizations__**
 .tag:prioritization
 **__Could I have used a stronger ability?__**
@@ -490,6 +742,7 @@ The Essence of Finality <:eofor:745279787471470713> is an Alchemical Hydrix jewe
 ⬥ **Terminology** - $linkmsg_abbrevations$
 ⬥ **Revolution** - $linkmsg_revo++$
 ⬥ **Full Manual** - $linkmsg_Manual$
+⬥ **Ability Information** - $linkmsg_abilInfo$
 ⬥ **Ability Prioritization** - $linkmsg_prioritization$
 ⬥ **Building a Rotation** - $linkmsg_rotation$
 ⬥ **Shadow Tendrils** - $linkmsg_Tendril$
