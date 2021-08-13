@@ -145,7 +145,8 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 **__General__**
 ⬥ Note: t = "ticks", s = "seconds"
 ⬥ All Magic AoE abilities (except Corruption Blast <:corruptblast:513190159194259467>) give an extra 2 + (Invigorating Rank \* 0.2) adrenaline if they hit a secondary target.
-
+⬥ To see the damages of the listed things with your gear set up, feel free to make a copy of the following sheet to customize:
+<https://docs.google.com/spreadsheets/u/2/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0>
 .
 **__Autos__**
 ⬥ All Autos are affected by Invigorating <:invig4:712073087859949570>
@@ -245,6 +246,9 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • It is affected by Lunging <:lunge4:736522494315593759>:
         - Max increases by 20% per Lunging rank
         - Walking bleed only causes it to increase by 50% damage
+    • It is affected by <:dbreath:535533833391702017> modified by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>:
+        - The next <:comb:535533833098100745> to hit within 10t of the <:dbreath:535533833391702017> cast/activation (need confirmation) will have its remaining hits instantly apply at 25% more damage
+        - Within 10t meaning if <:dbreath:535533833391702017> is activated/cast t0, <:comb:535533833098100745> has to hit within t0-9, meaning latest you can cast <:comb:535533833098100745> is t7
 
 .
 ⬥ **Corruption Blast** <:corruptblast:513190159194259467>
@@ -291,6 +295,9 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
     • It is an AoE:
         - AoE is straight line to target + 3x3 around it
         - Hits 3 targets, inclusive of main
+    • It is affected by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>:
+        - The next <:comb:535533833098100745> to hit within 10t of the <:dbreath:535533833391702017> cast/activation (need confirmation) will have its remaining hits instantly apply at 25% more damage
+        - Within 10t meaning if <:dbreath:535533833391702017> is activated/cast t0, <:comb:535533833098100745> has to hit within t0-9, meaning latest you can cast <:comb:535533833098100745> is t7
 
 .
 ⬥ **Sonic Wave** <:sonic:535533809924571136>
@@ -306,6 +313,13 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
         - 5% increased crit chance for each hit it does
         - Lost when swapping mainhands
     • Channelled ability
+
+.
+⬥ **Greater Concentrated Blast** <:gconc:869285393223254107>
+    • Cooldown: 9t (5.4s)
+    • All normal conc things apply
+    • Channelled ability
+        - <:gconc:869285393223254107> makes it become a 3t channel from up to a 5t channel
 
 .
 ⬥ **Chain** <:chain:535533833056026624>
@@ -378,8 +392,11 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 
 .
 **__Special Attacks__**
+*Note: All Special Attacks have an inherent cooldown when doing back-to-back special attacks, this is discussed in <#689212192398114875>*
+
+.
 ⬥ **Guthix Staff** <:gstaff:513203008608141314>
-    • Cooldown: based on a couple factors
+    • Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)
     • Its special attack applies an affinity and defence reduction:
         - +2 affinity
         - Reduces Defence level by 5% of base
