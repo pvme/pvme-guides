@@ -63,14 +63,16 @@ These abilities are classified by either being unlocked as a quest reward, purch
 __**Raids**__
 These abilities are unlocked using a Mazcab Ability Codex <:coins:698816156961603654> $data_pvme:Unlocks!B1$
 
-⬥ **Corruption Blast** <:corruptblast:513190159194259467> (Requires level 70 Magic)
+⬥ **Corruption Blast** <:corruptblast:513190159194259467>
+    • Requires level 70 Magic
     • A magic bleed ability that does 33%-100% ability damage every 2 ticks (1.2 seconds) for 10 ticks (6 seconds).
     • Each bleed hit is 20% weaker than the last, it is also AoE, it can chain to other mobs without having them turn aggressive towards you.
     • Priority: `High`
 
 *Note: Bleeds are discouraged in group pvm because they override each other and cancel out the current bleed.*
 
-⬥ **Corruption Shot** <:corruptshot:535541306294796299> (Requires level 70 Ranged)
+⬥ **Corruption Shot** <:corruptshot:535541306294796299>
+    • Requires level 70 Ranged
     • A ranged bleed ability that does 33%-100% ability damage every 2 ticks (1.2 seconds) for 10 ticks (6 seconds).
     • Each bleed hit is 20% weaker than the last, it is also AoE, it can chain to other mobs without having them turn aggressive towards you.
     • Priority: `High`
@@ -78,14 +80,16 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 *Note: Bleeds are discouraged in group pvm because they override each other and cancel out the current bleed.*
 
 .
-⬥ **Onslaught** <:onsl:513190159085207555> (Requires level 90 Constitution)
+⬥ **Onslaught** <:onsl:513190159085207555>
+    • Requires level 90 Constitution
     • A channeled ability that deals 50-150% damage on the first hit, with each subsequent hit dealing an additional 11%-33% ability damage per hit.
     • This ability drains your adrenaline (25% per hit) until your adrenaline runs out.
     • Once adrenaline is depleted, Onslaught will start draining your lifepoints. It will deal 25% of the damage dealt as recoil until 10 total hits.
         - After the 10th hit, each subsequent hit adds an additional 1000 hp recoil.
     • Priority: `Medium`
 
-⬥ **Storm Shards** <:Shard:583429757975396366> (Requires level 70 Constitution)
+⬥ **Storm Shards** <:Shard:583429757975396366>
+    • Requires level 70 Constitution
     • Apply a Storm Shard stack to an enemy when used, dealing no damage. A total of 10 Storm Shard stacks can be applied to an enemy.
     • Each stack stores 75%-95% ability damage which can be cashed out in one big hit by using the Shatter ability.
     • Generally used during timegated parts of bosses or if you need to do a lot of burst at once with shatter.
@@ -93,7 +97,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 *Note: Shards themselves are unaffected by things such as Berserk, Sunshine, etc.*
 
-⬥ **Shatter** <:Shatter:583429757761224715> (Requires level 70 Constitution)
+⬥ **Shatter** <:Shatter:583429757761224715>
+    • Requires level 70 Constitution
     • Releases all the stored Storm Shard stacks at once dealing damage equivalent to the stored shards, with a cap of 30,000 damage.
     • This hit is affected by damage modifiers like Berserk, Sunshine, etc.
     • Priority: `High for Vorago, low otherwise`
@@ -102,7 +107,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 .
 **__Raksha__**
-⬥ **Greater Ricochet** <:grico:787904334812807238> (Requires level 45 Ranged)
+⬥ **Greater Ricochet** <:grico:787904334812807238>
+    • Requires level 45 Ranged
     • Unlocked using a Greater Ricochet ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B14$
     • AoE ability that does 20%-100% ability damage on the initial hit.
         - Can damage up to 2 additional targets (a total of 7 hits with Caroming 4).
@@ -111,7 +117,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 *Note: Works with the Caroming perk.*
 
-⬥ **Greater Chain** <:gchain:787904334495088672> (Requires level 45 Magic)
+⬥ **Greater Chain** <:gchain:787904334495088672>
+    • Requires level 45 Magic
     • Unlocked using a Greater Chain ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B15$
     • Aoe ability that does 20%-100% ability damage.
         - Damage up to 2 additional targets.
@@ -122,18 +129,20 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 *Note: Works with the Caroming perk.*
 
 .
-⬥ **Divert** <:divert:787904334377648130> (Requires level 48 Defense)
+⬥ **Divert** <:divert:787904334377648130>
+    • Requires level 48 Defence
     • Unlocked using a Divert ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B16$
     • The next Melee, Magic, or Ranged attack received by the player within 6 seconds will be blocked, instead granting the player adrenaline.
         - Generates 0.8% adrenaline for every 100-200 damage blocked, based on the level of shield equipped with diminishing returns at 3,000, 6,000 and 9,000 damage blocked.
         - Powerful attacks will have their damage blocked, but will not generate adrenaline (i.e. Telos `So Much Power` or `Weak Anima Bomb` special attacks).
     • Priority: `Medium`
 
-*Note: Shares cooldown with resonance.*
+*Note: Shares cooldown with Resonance.*
 
 .
 **__Telos__**
-⬥ **Reprisal** <:Reprisal:513190159462694912> (Requires level 85 Constitution)
+⬥ **Reprisal** <:Reprisal:513190159462694912>
+    • Requires level 85 Constitution
     • Unlocked using a Reprisal Ability Codex <:coins:698816156961603654> $data_pvme:Unlocks!B9$
     • When activated it tracks all damage taken from all sources for up to 6 seconds (can release early by activating it again) with a damage cap of 10,000
     • It releases the damage on whatever you were targetting when you activated it.
@@ -144,14 +153,16 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 .
 **__Elite Dungeon 2__**
-⬥ **Greater Barge** <:gbarge:535532879250456578> (Requires level 30 Attack)
+⬥ **Greater Barge** <:gbarge:535532879250456578>
+    • Requires level 30 Attack
     • Unlocked using a Greater Barge ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B10$
     • Works like normal barge, except each tick (0.6 seconds) the player is not damaging an enemy, barge gains +10% ability damage, capping at 10 ticks.
     • If it has been at least 8 ticks (4.8 seconds) since you have last hit a target, using barge will allow you to turn a channeled ability used within the next 6 seconds (10 ticks) into a Damage over Time ability.
     • Generally used within Zerk combined with Adrenaline potion or Limitless, as well as in a Zaros Godsword special attack.
     • Priority: `High`
 
-⬥ **Greater Flurry** <:gflurry:535532879283879977> (Requires level 37 Attack)
+⬥ **Greater Flurry** <:gflurry:535532879283879977>
+    • Requires level 37 Attack
     • Unlocked using a Greater Flurry ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B11$
     • When used against a single target it deals 94-157% damage per hit and reduces Berserk cooldown by 2 tick (1.2 seconds) per successful hit up to a max of 8 ticks (4.8 seconds) reduction.
     • When used as an AoE does the same damage as normal flurry, but still reduces Berserk cooldown.
@@ -160,7 +171,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
     • Priority: `Medium`
 
 .
-⬥ **Greater Fury** <:gfury:535532879334080527> (Requires level 24 Strength)
+⬥ **Greater Fury** <:gfury:535532879334080527>
+    • Requires level 24 Strength
     • Unlocked using a Greater Fury ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B12$
     • Turns Fury into a non-channeled 157% ability.
     • If Greater Fury is a critical hit, the next ability used within 30 seconds is guaranteed to be a critical hit, provided the ability used is not a bleed .
@@ -170,25 +182,28 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 .
 **__Anachronia__**
-⬥ **Double Surge** <:surgecodex:602561894414417944> (Requires level 30 Magic)
+⬥ **Double Surge** <:surgecodex:602561894414417944>
+    • Requires level 30 Magic
     • Unlocked using a Double Surge codex <:coins:698816156961603654> $data_pvme:Unlocks!B7$
     • Gives Surge 2 uses per cooldown cycle, these can both grant adrenaline if both are used off global cooldown
-    • The cooldown is based on the first Surge
+    • The cooldown is based on its own internal cooldown, which is used after the first
     • Can change the cooldown between charges at the Anachronia Lectern
     • Generally just used for mobility, overall a QOL unlock
     • Priority: `Medium`
 
-⬥ **Double Escape** <:escapecodex:602561894443778115> (Requires level 30 Ranged)
+⬥ **Double Escape** <:escapecodex:602561894443778115>
+    • Requires level 30 Ranged
     • Unlocked using a Double Escape codex <:coins:698816156961603654> $data_pvme:Unlocks!B8$
     • Gives Escape 2 uses per cooldown cycle, these can both grant adrenaline if both are used off global cooldown
-    • The cooldown is based on the first Escape
+    • The cooldown is based on its own internal cooldown, which is used after the first
     • Can change the cooldown between charges at the Anachronia Lectern
     • Generally just used for mobility, overall a QOL unlock
     • Priority: `Medium`
 
 .
 **__Miscellaneous Purchasable Abilities__**
-⬥ **Greater Concentrated Blast** <:gconc:869285393223254107> (Requires level 12 Magic)
+⬥ **Greater Concentrated Blast** <:gconc:869285393223254107>
+    • Requires level 12 Magic
     • Unlocked using a Greater Concentrated Blast ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B17$
         - Obtained from both normal mode Kerapac and hard mode Kerapac.
     • Changes Concentrated Blast from a 5 tick channeled ability to a 3 tick channeled ability.
@@ -197,7 +212,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
     • Deals a combined 72.6%-290.7% ability damage for all 3 hits.
     • Priority: `High`
 
-⬥ **Limitless** <:limitless:641339233638023179> (Requires level 10 Constitution)
+⬥ **Limitless** <:limitless:641339233638023179>
+    • Requires level 10 Constitution
     • Unlocked using a Limitless ability codex <:coins:698816156961603654> $data_pvme:Unlocks!E1$
         - Made by combining 2000 vital sparks.
     • An ability that allows the usage of thresholds under 50% adrenaline for 6 seconds.
@@ -208,14 +224,16 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 *Note: Cannot be used if above 60% adrenaline.*
 
 .
-⬥ **Ingenuity of the Humans** <:ingen:641339234111848463> (Requires level 10 Constitution)
+⬥ **Ingenuity of the Humans** <:ingen:641339234111848463>
+    • Requires level 10 Constitution
     • Unlocked using an Ingenuity of the Humans ability codex <:coins:698816156961603654> $data_pvme:Unlocks!B6$
     • An ability that guarantees your next spell or ability within 10 ticks (6 seconds) hits.
     • Primarly used for off-style SGB spec <:sgb:626466665848242186>, SWH <:swh:641670143197446182>, and Smoke Cloud <:smokecloud:856635090641879050>.
     • Priority: `High`
 
-**__X Slayers__** <:undeadslayer:641339922019516416> <:dragonslayer:641339921814126594> <:demonslayer:641339921675845633> (Requires level 10 Constitution)
+**__X Slayers__** <:undeadslayer:641339922019516416> <:dragonslayer:641339921814126594> <:demonslayer:641339921675845633>
 ⬥ Unlocked using a X Slayer ability codex
+    • Requires level 10 Constitution
     • Undead Slayer <:undeadslayer:641339922019516416> <:coins:698816156961603654> $data_pvme:Unlocks!B3$
     • Dragon Slayer <:dragonslayer:641339921814126594> <:coins:698816156961603654> $data_pvme:Unlocks!B5$
     • Demon Slayer <:demonslayer:641339921675845633> <:coins:698816156961603654> $data_pvme:Unlocks!B4$
@@ -227,14 +245,16 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 > **__Abilities Unlocked by Activities__**
 .tag:activity
 **__God Wars Dungeon / Anima Islands__**
-⬥ **Devotion** <:devo:513190158728953857> (Requires level 1 Defense)
+⬥ **Devotion** <:devo:513190158728953857>
+    • Requires level 1 Defence
     • Chance to unlock after killing Kree'arra, General Graardor, or their followers in their respective encampments.
     • Alternatively can be unlocked as a reward from Anima Islands.
     • When activated, all damage dealt whilst using a protection prayer or deflect curse of the same style is reduced to 1 for 16 ticks (9.6 seconds).
         - Effect extends by 5 seconds per target killed whilst active, capping at 20 seconds.
     • Priority: `High`
 
-⬥ **Sacrifice** <:Sacrifice:513201065907322880> (Requires level 10 Constitution)
+⬥ **Sacrifice** <:Sacrifice:513201065907322880>
+    • Requires level 10 Constitution
     • Chance to unlock after killing Kree'arra, General Graardor, or their followers in their respective encampments.
     • Alternatively can be unlocked as a reward from Anima Islands.
     • Basic ability that does 20-100% ability damage.
@@ -242,14 +262,16 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
     • Priority: `Low`
 
 .
-⬥ **Transfigure** <:Transfigure:553050196523876354> (Requires level 10 Constitution)
+⬥ **Transfigure** <:Transfigure:553050196523876354>
+    • Requires level 10 Constitution
     • Incapacitate yourself for 10 ticks (6 seconds).
         - You can still eat food, drink potions and switch prayers during this period.
     • Afterwards heal 250% of any damage taken, to a maximum of 75% of your Life Points.
     • Become immune to binds and stuns for 15 seconds.
     • Priority: `Low`
 
-⬥ **Tuska's Wrath** <:Tuskas:513201065513058306> (Requires level 50 Constitution)
+⬥ **Tuska's Wrath** <:Tuskas:513201065513058306>
+    • Requires level 50 Constitution
     • Unlocked as a reward from Anima Islands
     • When on slayer task, you deal (100 x Slayer level) damage to target assuming it is the monster you are assigned. This gives it a 120 second cooldown.
     • Caps at 15,000 damage.
@@ -261,7 +283,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 .
 **__Shattered Worlds__**
-⬥ **Bladed Dive** <:bd:535532854281764884> (Requires level 65 Attack)
+⬥ **Bladed Dive** <:bd:535532854281764884>
+    • Requires level 65 Attack
     • A great mobility ability, has a 10 tile range from your current position at any angle.
     • Generally used in conjunction with surge/escape, sometimes on the same tick, for greater mobility.
     • Functions as a 3x3 AoE ability when used off global cooldown.
@@ -271,7 +294,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 *Note: goes from 3x3 to 5x5 when used in conjuction with noxious scythe and laceration boots.*
 
 .
-⬥ **Greater Dazing Shot** <:mds:535541259033378827> (Requires level 8 Ranged)
+⬥ **Greater Dazing Shot** <:mds:535541259033378827>
+    • Requires level 8 Ranged
     • Gives Dazing Shot a puncture stack each time it is used, with a maximum of 10 puncture stacks on a target.
     • Puncture stacks last 9 seconds and hit 4 times (every 3 ticks or 1.8 seconds), dealing 8%-10% ability damage per stack over its duration.
     • Puncture bleed does not count for:
@@ -286,7 +310,8 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 
 *Note: Salt the Wound and Greater Dazing Shot both reset the stack duration (9 seconds) even if they splash, only Greater Dazing Shot will increase puncture count though.*
 
-⬥ **Salt the Wound** <:stw:535541259109138463> (Requires level 60 Ranged)
+⬥ **Salt the Wound** <:stw:535541259109138463>
+    • Requires level 60 Ranged
     • A threshold that deals 37.6%-188% ability damage at 0 puncture stacks, going up to 73.6-368% with 10 puncture stacks.
     • Generally never used since it required 8+ stacks to be viable.
     • Priority: `Low`
