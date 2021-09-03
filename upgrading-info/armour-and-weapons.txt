@@ -792,7 +792,7 @@
 .
 **__Essence of Finality__** <:eof:787526151978614824>
 ⬥ Passive: This combines the effect of Amulet of Souls <:aos:513190158359724056> and Reaper Necklace <:Reaper:513190159412494367> into a single amulet, as well as consumes weapons with special attacks to let you use the special attack on the same style without needing that weapon.
-⬥ Priority: `High for first amulet, Medium depending on boss for additional ones`
+⬥ Priority: `High for first amulet, Medium depending on boss for additional ones. Use your existing amulet of s`
 
 **__Ornament Kits__** <:aoskit:583430147487563776>
 ⬥ Refer to the upgrade kits of Amulet of Souls <:aos:513190158359724056>, Reaper Necklace <:Reaper:513190159412494367>, and Essence of Finality <:eof:787526151978614824>.
@@ -838,17 +838,15 @@ The Max and Completionist capes can fit 3 perks, and the Combatant's cape can fi
 ⬥ **Scrimshaw of Vampyrism**
     • Restores 5% (normal) or 6.66% (superior) of all Melee damage dealt
     • Capped at 200 lifepoints healed per hit
-⬥ Priority: `High`
+⬥ Priority: `High for Vampyrism, medium for the others`
 
 .
 **__God Books__** <:SaraBook:574290439482638346>
 ⬥ These books come with various effects when active, as well as offering style bonuses as a pocket slot item.
-⬥ Generally the only ones used are Armadyl books for stationary targets and Saradomin books if moving. Erethdor's Grimoire usually outclasses them both but has a higher upkeep cost. They are also usually outclassed by scrims for mage/range (with the excepion of the Scripture of Jas).
-⬥ Godbooks have a 5% chance to proc per hit (Scripture of Jas is an exception).
-⬥ Godbooks have a 15s cooldown between procs.
-⬥ Godbook cooldown is incurred when book is turned on.
+⬥ Generally the only ones used are the Scripture of Wen for stationary targets and the Scripture of Jas for moving ones, except at Nex where the Armadyl book is preferred due to her soft hitcap. Erethdor's Grimoire usually outclasses Scriptures, but has a higher upkeep cost. The others are also usually outclassed by scrims for mage/range.
+⬥ Godbooks have a 5% chance to proc per hit (Scriptures are an exception).
+⬥ Godbooks have a 15s cooldown between procs. This cooldown is also incurred when the book is initially activated.
 ⬥ Bleed abilities (e.g., Combust) do not proc god books.
-⬥ Typically only used when a creature has a hit cap, such as Nex, or if one does not want to spend the upkeep cost for a Grimoire.
 ⬥ **Armadyl's Book of Law** <:armabook:513190159051915264>
     • When it activates, a tornado spins at the target's location dealing 4 hits of damage in 4 ticks, dealing 30-50%, 30-50%, 60-100%, and 60-100% damage for a total of 180-300% damage (PvP: 10-30%, 10-30%, 20-60%, 20-60%; total 60-180%). If the target moves from the tornado, the damage is halted.
 ⬥ **Bandos's Book of War** <:BandosBook:574290439473987628>
@@ -863,13 +861,15 @@ The Max and Completionist capes can fit 3 perks, and the Combatant's cape can fi
 ⬥ **Guthix's Book of Balance** <:GuthixBook:574290439356809216>
     • When it activates, the sword of edicts falls on the target, then burns and explodes. This deals an initial hit of 90-150%, 3 hits of 7.5-12.5%, and finally a hit of 37.5-62.5% (with the final hit being split in a 3x3 area, if there are multiple targets nearby), for a total of 150-250%. (PvP: initially 30-90%, 3 hits of 2.5-7.5%, and 12.5-37.5 AoE; total 50-150%).
 ⬥ **Scripture of Jas** <:jasgodbook:869284342839513108>
-    • Has a 7.5% chance to activate per hit, and it has a 15 second cooldown once activated before it can activate again. When it activates it creates a time rift, and for 10 seconds all damage from the player's abilities while the time rift is active gets stored. Once the rift closes, 20% of the total damage is applied to the player's opponent in a single hit.
-⬥ Priority: `High if Nex or Book of Jas, Low otherwise`
+    • Has a 7.5% chance to activate per hit, and it has a 15 second cooldown once activated before it can activate again. When it activates it creates a time rift, and for 10 seconds all damage from the player's abilities while the time rift is active gets stored. Once the rift closes, 20% of the total damage is applied to the player's current target in a single hit.
+⬥ **Scripture of Wen** <:wengodbook:883134307902816297>
+    • Has a 7.5% chance to activate per hit, and it has a 15 second cooldown once activated before it can activate again. When it activates it summons a 3x3 beam centred on the target's location which lasts for 5 ticks. Each tick, the beam deals up to 2.4-4% ability damage, and any target which is hit five times by this beam takes an additional hit of up to 240-400% ability damage, for a total of 252-420%. These all use a single damage roll, so the initial hits will always be 1% of the final hit.
+⬥ Priority: `High for Scriptures of Jas and Wen due to power and extremely low upkeep cost, High for Armadyl book if fighting Nex, Low otherwise`
 
 .
 **__Erethdor's Grimoire__** <:grim:568262896375824385>
 ⬥ When activated, every hit has a 12% chance to become a forced critical hit. This stacks with the Biting perk for a maximum of 20% (20.8% at level 20) chance per ability. It also raises your max hit to 15k for critical hits.
-⬥ Priority: `High if meleeing or ranging, low if you care about profit`
+⬥ Priority: `High if optimising damage, low if you care about maximising profit`
 
 .
 **__Armour Spikes__** <:armourspike:756235792053174332>
