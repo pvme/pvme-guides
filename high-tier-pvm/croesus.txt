@@ -10,10 +10,11 @@ The boss is massable, however the recomended group size starts at 8, going down 
 .
 > **__Drops__**
 .tag:drops
-⬥ Cryptblood armour
+⬥ Croesus Flakes
+⬥ Cryptbloom Armour
 ⬥ Scripture of Bik
-⬥ Skilling offhands
-⬥ Seed bag
+⬥ Seed Bag
+⬥ Skilling Offhands
 
 .
 > **__Presets__** (was made pre-release, needs updating)
@@ -24,12 +25,114 @@ The boss is massable, however the recomended group size starts at 8, going down 
 .
 .img:https://i.imgur.com/uZ3onAt.png
 .
+> **__Tips and Tricks__**
+.tag:tips
+⬥ **Using Crystal Mask**
+    • Crystal Mask will fully block **one stat drain hit** from ANY mechanic that targets the player. Using it helps act as a safeguard in case of lag or a slow reaction, and can be used to fully ignore Slime Moulds. This will NOT stop a Fairy Ring from teleporting you, Hard Fungus from stunning you, or Sticky Fungus from rooting you.
+⬥ **Bladed Dive/Surge**
+    • Bladed Dive and Surge help move around the arena faster to deal with mechanics sooner. On top of this, Surge + Bladed Dive in the same tick can allow players to traverse the East and West paths instantly without getting stats drained.
+⬥ **Skilling Equipment/Potions**
+    • Bringing relevant skilling equipment can greatly improve the speed and overall efficiency of the encounter. If Fishing or Hunting, the elite skilling outfits can help by doubling resources. Relevant tools and other skilling outfits will also aid in success rate (Pickaxe/Hatchet/Magic Net/Fishing Rod-o-matic).
+    • Perfect Plus or Perfect Juju Potions can be used to increase gathering rates for skills in the encounter.
+    • Stat boosting potions can be used at the end of the encounter to increase damage dealt to Croesus.
+⬥ **Perks**
+    • Skilling equipment should be augmented and equipped with the highest tier of the Honed perk available if possible. No other skilling perks are relevant to the encounter.
+.
 > **__Mechanics__**
 .tag:mechanics
-⬥ Skill drain
-    • Instead of dealing damage, Croesus will drain your stats with various mechanics. (Info needed)
+⬥ Contribution Points
+    • Throughout the encounter, players will gain Contribution Points for performing beneficial actions. Having more points will increase the number of rewards given at the end of a kill. Getting knocked out by having a stat fully drained will drop contribution points to 0, and no loot will be given.
 .
-.img:https://i.imgur.com/mNwmnjQ.mp4
+⬥ Strength Gauge
+    • The orange bar underneath Croesus's health represents Croesus's strength, effectively acting as an enrage timer for the encounter. Anyone getting stats drained by a mechanic will increase the bar by 1% per drain, and failing to remove the Energy Fungus will increase the bar by 40%. Passively, the bar increases at about 8% per minute. If Croesus is alive and its core not exposed when the bar hits 100%, players will fail the encounter.
+.
+.img:https://i.imgur.com/3SlyrE0.png
+.
+⬥ Dead Beasts
+    • Players must gather from the monster corpses around the arena to repair statues and prevent fungus from regenerating on them. The following corpses and colors correspond with the following skills:
+        - Arraxyte | Red | Woodcutting
+        - Giant Mole | Yellow | Mining
+        - Crassian Leviathan | Green | Fishing
+        - Dagganoth Rex | Blue | Hunter
+    • Gathering from a normal resource node will slowly deplete the corpse and award 2 contribution points per successful action.
+    • Gathering from a glowing resource node will deplete the corpse faster, and award 3 contribution points per successful action.
+    • Gathering from a rotten node will give Rotton Fungus and award no contribution points. 
+    • Gathering from a Guard corpse nearby will provide materials, but award no contribution points.
+    • Upon fully depleting a corpse of resources, a player may acquire 10 Rotten Fungus and attempt to gather from the corpse again. Doing so will rot the corpse, slowing down its regeneration rate. This awards 20 contribution points.
+    • Depletion of a corpse is indicated by all nodes being dark and a light blue progress bar filling above it.
+    • Rotten Fungus can be obtained by left clicking any gathered fungus in one's inventory, or having one forcefully rotted by getting stats drained.
+    • If a corpse is NOT depleted, damage dealt to Croesus's core will be reduced.
+.
+https://gfycat.com/zealousembarrassedgodwit
+.
+⬥ Spore Bombs
+    • Croesus will fire a Spore Bomb at players, leaving a 3x3 AoE that will drain stats by 15 levels (11 with Pontifex Ring). The color of the AoE corresponds to the stat drained:
+        - Red: Woodcutting
+        - Yellow: Mining
+        - Green: Fishing
+        - Blue: Hunter
+.
+https://gfycat.com/oblongpossiblefeline
+.
+⬥ Fairy Rings
+    • Croesus will spawn a Fairy Ring under players, indicated by dust particle effects underneath them. Not moving away will teleport the player to a random location within the arena.
+.
+https://gfycat.com/vibrantmasculinefirebelliedtoad
+.
+⬥ Slime Mould
+    • Croesus will fire a Slime Mould near players which chases them. The Slime Mould can get stuck behind obstacles or ran away from.
+    • Getting hit by this will drain stats by 25% (18.75% with  Pontifex Ring).
+.
+https://gfycat.com/felinewearyhairstreak
+.
+⬥ Hard Fungus Fall
+    • Croesus will fire a Hard Fungus at players, stunning them if hit. This can be dodged, or the stun mitigated by using Anticipate or Freedom.
+    • Getting stunned and failing to mitigate it will drain stats by 20% (15% with Pontifex Ring).
+.
+https://gfycat.com/bonybarrencougar
+.
+⬥ Sticky Fungus
+    • Croesus will spawn Sticky Fungus under some players feet, holding them in place until it is burned away or drains stats four times.
+    • Players can free themselves and others either by bringing logs in their inventory (Proteans work), or wielding an **Orthen Furnace Core** or **Sana's Fyrtorch** in their offhand slot. Freeing another player awards 10 contribution points.
+    • Stats are drained by 10% (7.5% with Pontifex Ring) each interval the player is not freed.
+    • Every other Sticky Fungus mechanic is accompanied by the Energy Fungus mechanic.
+.
+⬥ Energy Fungus
+    • Croesus will spawn an Energy Fungus next to them in each of the four quadrants. Players must click on this fungus to remove it, gaining 5 contribution points per tick.
+    • If the Energy Fungus is not removed, Croesus will gain 40% Rot.
+.
+https://gfycat.com/unconsciousvibranthammerkop
+.
+⬥ Statue Restoration
+    • Once enough materials have been deposited at a statue, it can be restored by players. Restoration awards Construction experience and 1 contribution point per tick.
+.
+https://gfycat.com/sociablefortunatecatbird
+.
+⬥ Statue Prayers
+    • Once a statue is fully restored, it may be prayed to. Doing so will expose Croesus's core and halts progress on the Strength Bar.
+    • Each statue prayed to will increase the time that the core is exposed. It is ideal to pray to 3 or 4 statues at the same time to maximize time spent damaging the core.
+.
+https://gfycat.com/fatherlyeminentbinturong
+.
+⬥ Exposed Core
+    • Upon praying to the statues, Croesus's core will be revealed as one of four skilling nodes. Gathering from the core will damage Croesus based on the player's level in the relevant stat.
+    • Assuming all monster corpses are depleted, damage dealt to the core will be **[Current Level] * 15**. If no corpses are depleted, damage dealt will simply be equal to the player's current level in the relevant stat. Stat boosts in the relevant skill will increase damage dealt.
+    • If a fungal stew for the corresponding skill is used, damage dealt will be increased by **50%**.
+    • Damage is dealt on every successful gathering action, awarding 2 contribution points.
+.
+https://gfycat.com/hollowaccomplishedbighorn
+.
+⬥ Core Particles
+    • While gathering from Croesus's core, particles will occasionally spawn from its base. Clicking the core again while these particles are present will have the following effects based on their color:
+        - White: Deals an extra 500 poison damage
+        - Green: Deals an extra 1,000 poison damage
+        - Red: **Heals the boss for 2,500 LP**
+.
+https://gfycat.com/lonelinedargali
+.
+https://gfycat.com/forcefulscratchyhoneybadger
+.
+https://gfycat.com/oilyelatedkestrel
 .
 > **__The Fight__**
 .tag:fight
@@ -65,6 +168,7 @@ The boss is massable, however the recomended group size starts at 8, going down 
 ⬥ **Introduction** - $linkmsg_intro$
 ⬥ **Drops** - $linkmsg_drops$
 ⬥ **Presets** - $linkmsg_presets$
+⬥ **Tips and Tricks** - $linkmsg_tips$
 ⬥ **Mechanics** - $linkmsg_mechanics$
 ⬥ **The Fight** - $linkmsg_fight$
 ⬥ **Rotations** - $linkmsg_rotations$
