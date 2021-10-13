@@ -1,44 +1,19 @@
-> **__Various Interactions of the Seren Godbow (SGB)__**
+> **__Seren Godbow__**
+**__Damage__**
+Assuming best in slot gear, average damage will be as follows:
+.
+.img:https://i.imgur.com/Us84iTb.png
+.
+So, SGB <:sgb:626466665848242186> is only worth using on-style for 3x3+, and off-style for 5x5+
+*Note: For info on boss sizes check <#689206023675838471>*
 
-**__Reliance on Arrow 1:__**
-⬥ Arrows 2-5+ scale their random damage (and so max hit) based on the minimum hit of Arrow 1 after precise perk is applied. Equilibrium perk is applied as normal
+**__Benefits of EoFing__** <:sgb:626466665848242186> <:eofblue:780401412906680330>
+⬥  Chin SGB <:mechchin:641669268722810881>
+    • Acts as if you have SGBed N times, once per target affected by the Chin effect
 
-**__Where Arrows 2-5 can land:__**
-1) Determine NPC's center
-    a) True center for odd sizes
-    b) SW of the middle 2x2 area for even sizes
+⬥ Bolt Procs <:RubyBakri:565726489413287956>
+    • These are determined on cast and only Arrow 1 can proc them
+        - Though, if it affects Arrow 1's hit directly (e.g., Ruby <:RubyBakri:565726489413287956> / Onyx <:OnyxBakri:565726489362956308>) it will also affect Arrows 2-5 due to how damage is calced
 
-2) Choose random tile within floor(Size/2) from the center
-     a) It must be possible for the player to walk from this tile to the NPC's center
-
-3) Choose 4 random tiles in a 2 tile radius from the above tile
-    a) If an arrow chooses to land on a tile already chosen by a previous arrow, it will reroll its choice up to 10 times
-
-**__Practical Applications of This Info:__**
-⬥ Assuming best in slot gear, average damage will be as follows:
-```
-On/Off-style (average arrows):
-3x3: 14.7k/11.5k (2.44)
-5x5: 21k/16k (3.31)
-5x5 blocking: 30k/23.7k (5)
-```
-So, SGB is only worth using on-style for 3x3+, and off-style for 5x5+
-
-**__Multiple SGBs Hitting A Single Target:__**
-⬥ Each spec that hits within 2 ticks will get a normal Arrow 1 hit. Arrows 2-5 can hit as normal and any arrows beyond those will continue to scale down linearly until their max hit is the same as their min hit.
-
-**__Crit Interactions of Arrows 2-5:__**
-⬥ Crit chance for these is updated when they are "cast," i.e., after Arrow1 hits/3t after SGB cast
-
-**__IoTH Interactions:__**
-⬥ Normally when you SGB, if Arrow 1 hits, then remaining will not splash
-    • So, you can IoTH SGB, as it will make Arrow 1 hit, thus 2-5 will not splash
-
-**__Note: The following are only applicable to SGB EoF:__**
-
-**__Chin SGB Interactions:__**
-⬥ It acts as if you have SGBed N times, once per target affected by the Chin effect
-
-**__Bakriminel Bolt Interactions:__**
-⬥ These are determined on cast, and only Arrow 1 can proc them
-    • Also, if it affects Arrow 1's hit directly (e.g., Ruby/Onyx) it will also affect Arrows 2-5 as described earlier
+⬥ Can SGB during ECB Spec <:ecb:615618531937222657> <:spec:537340400273195028>
+*Note: For more info on SGB check <#689206023675838471>*

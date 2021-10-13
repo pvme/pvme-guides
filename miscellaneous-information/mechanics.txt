@@ -115,6 +115,76 @@ On something like a combat dummy, the true centre is in the centre because the s
 *Note that this works with other forms of AoE as well, such as Mechanised chinchompas <:mechchin:641669268722810881>.*
 
 .
+> **__Various Interactions of the Seren Godbow (SGB)__ (Courtesy of <@781280949790572554> & <@150284127126552576>)** <:sgb:626466665848242186>
+.tag:sgbspec
+**__Reliance on Arrow 1__**
+⬥ Arrows 2-5+ scale their random damage (and so max hit) based on the minimum hit of Arrow 1 after Precise perk <:p6:712073088769982475> is applied (i.e., after calculating most the damage) using a diminishing multiplier on it. Equilibrium perk <:eq4:712073088589627505> is applied as normal.
+    • The diminishing multiplier is as follows:
+.
+.img:https://i.imgur.com/hwUELED.png
+.
+⬥ Ammunition with secondary effects, such as Blackstone Arrows <:blackstonearrow:785031580149743617>, also only proc/apply on Arrow 1
+
+.
+**__Where Arrows 2-5 can Land__**
+1) Determine NPC's center
+    a) True center for odd sizes
+    b) SW of the middle 2x2 area for even sizes
+
+2) Choose random tile within floor(Size/2) from the center
+     a) It must be possible for the player to walk from this tile to the NPC's centre
+
+3) Choose 4 random tiles in a 2 tile radius from the above tile
+    a) If an arrow chooses to land on a tile already chosen by a previous arrow, it will reroll its choice up to 10 times
+
+*Note: Diagram from Mod Pi visualizing this:*
+.
+.img:https://i.imgur.com/OOMssns.png
+.
+**__What Blocking Is__**
+⬥ A mob being blocking essentially means that the mob prevents the player from going on a tile they occupy
+
+⬥ So, if you recall from step 2a for determining where arrows land, this would mean it is not possible for the player to walk from these tiles to the NPC's centre
+    • As a result, the centre chosen for step 3 will simply be the centre tile determined in step 1
+        - Therefore, all arrows will land within a 2x2 radius from there, hence why 5x5 NPCs have a 100% chance at 5 arrows
+
+.
+**__Practical Applications of This Info__**
+Assuming best in slot gear, average damage will be as follows:
+```
+On/Off-style (average arrows):
+3x3: 14.7k/11.5k (2.44)
+5x5: 21k/16k (3.31)
+5x5 blocking: 30k/23.7k (5)
+```
+So, SGB is only worth using on-style for 3x3+, and off-style for 5x5+
+
+.
+**__Multiple SGBs Hitting A Single Target__**
+Each spec that hits within 2 ticks will get a normal Arrow 1 hit. Arrows 2-5 can hit as normal and any arrows beyond those will continue to scale down linearly until their max hit is the same as their min hit.
+
+.
+**__Crit Interactions of Arrows 2-5__** <:reaverring:839903943018283050>
+Crit chance for these is updated when they are "cast," i.e., after Arrow1 hits/3t after SGB cast.
+
+.
+**__IoTH Interactions__** <:ingen:641339234111848463>
+Normally when you SGB <:sgb:626466665848242186> <:spec:537340400273195028>, if Arrow 1 hits, then remaining will not splash.
+⬥ So, you can IoTH SGB <:ingen:641339234111848463> <:sgb:626466665848242186>, as it will make Arrow 1 hit, thus 2-5 will not splash
+
+.
+***The following are only applicable to SGB EoF*** <:sgb:626466665848242186> <:eofblue:780401412906680330>
+
+.
+**__Chin SGB Interactions:__** <:mechchin:641669268722810881>
+⬥ It acts as if you have SGBed N times, once per target affected by the Chin effect
+
+.
+**__Bakriminel Bolt Interactions:__** <:RubyBakri:565726489413287956>
+⬥ These are determined on cast, and as mentioned only Arrow 1 can proc them
+    • Also, if it affects Arrow 1's hit directly (e.g., Ruby <:RubyBakri:565726489413287956> / Onyx <:OnyxBakri:565726489362956308>) it will also affect Arrows 2-5 as described earlier
+
+.
 > **__Boss Sizes for SGB__ (Courtesy of <@127417821817864192>)**
 .tag:sizes
 **__List__**
@@ -321,6 +391,7 @@ Comparison of waiting for spawn time x instance hopping: https://youtu.be/O-Lb93
 ⬥ **Walking Bosses** - $linkmsg_walking$
 ⬥ **Manual Spellcasting** - $linkmsg_manualspellcasting$
 ⬥ **Boss Centre and AoE** - $linkmsg_centre$
+⬥ **SGB Interactions** - $linkmsg_sgbspec$
 ⬥ **Boss Sizes for SGB** - $linkmsg_sizes$
 ⬥ **Adren Gain without a Target** - $linkmsg_adrengain$
 ⬥ **Ability Stalling** - $linkmsg_stall$
