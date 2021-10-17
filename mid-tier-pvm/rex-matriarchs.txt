@@ -373,16 +373,68 @@ Use Legacy with Blood Barrage <:bloodbarrage:537338981747261446> (Blood Blitz <:
     • <:fontoflife:698225967679930408> **Font of Life**
     • <:berserkersfury:697808774106185768> **Berserker's Fury**
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **General Strategy** - $linkmsg_strategy$
-⬥ **Intro to Hybrid Strategies** - $linkmsg_presets$
-⬥ **Mage/Ranged Hybrid** - $linkmsg_wizbow$
-⬥ **Mage/Melee Hybrid** - $linkmsg_wizsword$
-⬥ **Melee/Ranged Hybrid** - $linkmsg_swordbow$
-⬥ **Beginner Hybrid** - $linkmsg_beginner$
-⬥ **Solo Pthentraken** - $linkmsg_bluedino$
-⬥ **Afk Strategies** - $linkmsg_afk$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__General Strategy__",
+        "value": "[Link]($linkmsg_strategy$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Intro to Hybrid Strategies__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mage/Ranged Hybrid__",
+        "value": "[Link]($linkmsg_wizbow$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mage/Melee Hybrid__",
+        "value": "[Link]($linkmsg_wizsword$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee/Ranged Hybrid__",
+        "value": "[Link]($linkmsg_swordbow$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Beginner Hybrid__",
+        "value": "[Link]($linkmsg_beginner$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Solo Pthentraken__",
+        "value": "[Link]($linkmsg_bluedino$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Strategies__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
