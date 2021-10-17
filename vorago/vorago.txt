@@ -1,5 +1,5 @@
 > **__Vorago__ (Courtesy of <@184952892422094848>)**
-.tag:beginning
+.tag:intro
 .
 __**Introduction**__
 Vorago is a high level group boss. He boasts high defense and complex mechanics that challenge even the best players. His unique drops include Tectonic Energies and Seismic equipment.
@@ -1306,20 +1306,58 @@ Use the role information and teaching events channels there to get started.
 .
 For those interested in reading up on more Vorago-related information and theorycrafting, take a look at Rago Hub and their wealth of knowledge: https://discord.gg/uqGJbKH
 .
-> __**Table Of Contents**__
-⬥ **Introduction** - $linkmsg_beginning$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets - General** - $linkmsg_presetgeneralnotes$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **General Fight Mechanics** - $linkmsg_generalfightmechanics$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **Phase 2** - $linkmsg_p2$
-⬥ **Natural Instinct** - $linkmsg_natty$
-⬥ **Phase 3 General Notes** - $linkmsg_p3$
-⬥ **Phase 3 Weekly Rotations** - $linkmsg_p3toc$
-⬥ **Phase 4 General Notes** - $linkmsg_p4$
-⬥ **Phase 4 Weekly Rotations** - $linkmsg_p4toc$
-⬥ **Phase 5 General Notes** - $linkmsg_p5$
-⬥ **Phase 5 Weekly Rotations** - $linkmsg_p5toc$
-⬥ **Learning Vorago** - $linkmsg_learningrago$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "Introduction",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "Drops",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "Presets",
+        "value": "[Notes]($linkmsg_presetgeneralnotes$)\n[Examples]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "The Fight",
+        "value": "[General Fight Mechanics]($linkmsg_generalfightmechanics$)\n[Phase 1]($linkmsg_p1$)\n[Phase 2]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "Natural Instinct",
+        "value": "[Link]($linkmsg_natty$)",
+		"inline": true
+      },
+	  {
+	    "name": "Phases 3",
+        "value": "[General Notes]($linkmsg_p3$)\n[Weekly Rotations]($linkmsg_p3toc$)",
+		"inline": true
+      },
+	  
+	    "name": "Phases 4",
+        "value": "[General Notes]($linkmsg_p4$)\n[Weekly Rotations]($linkmsg_p4toc$)",
+		"inline": true
+      },
+	  
+	    "name": "Phases 5",
+        "value": "[General Notes]($linkmsg_p5$)\n[Weekly Rotations]($linkmsg_p5toc$)",
+		"inline": true
+      },
+	  {
+	    "name": "Learning Vorago",
+        "value": "[Link]($linkmsg_learningrago$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
