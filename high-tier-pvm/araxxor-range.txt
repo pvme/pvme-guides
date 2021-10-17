@@ -44,7 +44,7 @@ His drops include components for three level 90 two-handed weapons, one for each
 
 .
 > __**Presets**__
-.tag:preset
+.tag:presets
 __**Beginner Preset**__
 ⬥ As a beginner, ranged will allow to you keep your distance from Araxxor making it easier to dodge Cleaves and melee hits.
 ⬥ If you struggle with food management you may use a Yak, eventually upgrading to using a Nihil, Kal'gerion Demon (with scrolls) or Ripper Demon <:ripperpouch:703581275453128714> (without scrolls).
@@ -466,15 +466,63 @@ Skip - <https://i.imgur.com/l4Sbou4.png>
 <https://youtu.be/HBnVG01GKsQ> 2:39 Bottom Path by <@160462420693745664>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **The Fight** - $linkmsg_thefight$
-⬥ **Phase 4 Tips and Tricks** - $linkmsg_tips$
-⬥ **Advanced Guide** - $linkmsg_advguides$
-⬥ **Alternative Top Path Strategy** - $linkmsg_skip$
-⬥ **Old Rotations** - $linkmsg_old$
-⬥ **Example Kills** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Overview of the Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4 Tips and Tricks__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Guide__",
+        "value": "[Link]($linkmsg_advguides$)",
+		"inline": true
+      },
+	  
+	    "name": "__Alternative Top Path Strategy__",
+        "value": "[Link]($linkmsg_skip$)",
+		"inline": true
+      },
+	  
+	    "name": "__Old Rotations__",
+        "value": "[Link]($linkmsg_old$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      },
+    ]
+  }
+}
+.embed:json
 .pin:delete
