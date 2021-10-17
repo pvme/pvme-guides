@@ -232,17 +232,49 @@ Auto → <:corruptshot:535541306294796299> → <:rapid:535541270521708566>
 
 .
 > __**Example Kills**__
-.tag:video
+.tag:example
 .
 <https://youtu.be/YrAFQwdtHM4> 1:37 (Courtesy of<@385968877823328276>)
 <https://www.youtube.com/watch?v=-4MVYY4cMkc> 2:09 (courtesy of <@441708128464011275>)
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Rotations** - $linkmsg_rotations$
-⬥ **Phase Notes** - $linkmsg_PN$
-⬥ **Example Kills** - $linkmsg_video$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase Notes__",
+        "value": "[Link]($linkmsg_PN$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
