@@ -441,13 +441,53 @@ https://youtu.be/A_6ah7GF_1k
 ⬥ 2:42 Bottom Path by <@213693069764198401> - <https://youtu.be/znZcD9H_JYM>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Overview of the Fight** - $linkmsg_thefight$
-⬥ **Phase 4 Tips and Tricks** - $linkmsg_tips$
-⬥ **Advanced Guide** - $linkmsg_advguides$
-⬥ **Example Kills** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Overview of the Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4 Tips and Tricks__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Guide__",
+        "value": "[Link]($linkmsg_advguides$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      },
+    ]
+  }
+}
+.embed:json
 .pin:delete
