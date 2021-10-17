@@ -21,7 +21,7 @@ An average kill at 2449% enrage is worth <:coins:698816156961603654> $data_pvme:
 
 .
 > **__Presets__**
-.tag:preset
+.tag:presets
 Inventory space is at a massive premium here, which this preset will reflect. You can choose to bank the Overload and simply drink it at the bank to replace it with another piece of food, but make sure you remember to do so every kill, otherwise you will be in a world of pain once it runs out.
 
 *Note: As you cannot sufficiently downgrade these setups to an acceptable degree without having an extremely rough time, nearly everything listed here will be required.*
@@ -265,12 +265,48 @@ Make sure you have Disruption Shield <:disrupt:535614336207552523> active. At hi
     • With this, there's not much of an effective difference between any beam placements.
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **Phase 2** - $linkmsg_p2$
-⬥ **Phase 3** - $linkmsg_p3$
-⬥ **Phase 4** - $linkmsg_p4$
-⬥ **Phase 5** - $linkmsg_p5$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Preset__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 5__",
+        "value": "[Link]($linkmsg_p5$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
