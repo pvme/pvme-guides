@@ -34,7 +34,7 @@ Image courtesy of <@!282455347132760065>
 
 .
 > **__Special Attack Information__**
-.tag:spec
+.tag:specs
 __**Tail Swipe**__
 Raksha will do a Tail Swipe special attack if the player is in Raksha's melee distance. Raksha does a spin animation and hits a 3 square radius around it. Players will get stunned and hit around 6,000 to 8,000 damage. In order to avoid this special attack, move 2 squares back from scythe distance. Alternatively you can Escape <:escape:535541258832052231> or Bladed Dive <:bd:535532854281764884>. Raksha also spawns 3 anima blobs at 0% shadow absorption when he does this special attack. Getting hit by this causes <:antitheism:787523880281047040>, which disables protection prayers.
 
@@ -263,16 +263,69 @@ Wait till you drop Combat <:devo:513190158728953857> → <:surge:535533810004262
 .
 https://youtu.be/ioPKdV1Sncg
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Unlocking Raksha** - $linkmsg_unlock$
-⬥ **The Fight** - $linkmsg_fight$
-⬥ **Raksha's Rotation** - $linkmsg_raksharot$
-⬥ **Special Attack Information** - $linkmsg_spec$
-⬥ **Melee Strategy** - $linkmsg_melee$
-⬥ **Advanced Ranged Strategy for Solo** - $linkmsg_ranged$
-⬥ **Advanced Ranged Strategy using ECB EoF** - $linkmsg_ecbeof$
-⬥ **Tips for the Fight** - $linkmsg_tips$
-⬥ **Old Raksha Rotation** -  $linkmsg_old$
-⬥ **Video Examples** - $linkmsg_vod$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Unlocking Raksha__",
+        "value": "[Link]($linkmsg_unlock$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_fight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Raksha's Rotation__",
+        "value": "[Link]($linkmsg_raksharot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Special Attack Information__",
+        "value": "[Link]($linkmsg_specs$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee Strategy__",
+        "value": "[Link]($linkmsg_melee$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Ranged Strategy for Solo__",
+        "value": "[Link]($linkmsg_ranged$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Ranged Strategy using ECB EoF__",
+        "value": "[Link]($linkmsg_ecbeof$)",
+		"inline": true
+      },
+	  
+	  
+	    "name": "__Tips for the Fight__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      },
+	  
+	    "name": "__Old Raksha Rotation__",
+        "value": "[Link]($linkmsg_old$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Video Examples__",
+        "value": "[Link]($linkmsg_vod$)",
+		"inline": true
+      },
+    ]
+  }
+}
+.embed:json
 .pin:delete
