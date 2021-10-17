@@ -38,7 +38,7 @@ For maximum efficiency, bring all 3 styles, hybrid gear in every slot possible:
 .
 .img:https://i.imgur.com/JCmivYq.png
 .
-> **__Overview of the Fight__ (Courtesy of <@!244845124712923137>)**
+> **__The Fight__ (Courtesy of <@!244845124712923137>)**
 .tag:thefight
 __**Optimal Strategy Breakdown**__
 Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95/T99 Curses (<:torment:583429936958930964><:anguish:583429936665198592><:turmoil:583429936606347280>/<:Affliction:513190158468907008><:Desolation:513190159018098713><:Malevolence:513190159416557573>) as you kill the Kings. Cancel the channelled threshold abilities with basic abilities to gain additional adren if the King is about to die.
@@ -102,11 +102,44 @@ __**Revolution Bars**__
 Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95/T99 Curses (<:torment:583429936958930964><:anguish:583429936665198592><:turmoil:583429936606347280>/<:Affliction:513190158468907008><:Desolation:513190159018098713><:Malevolence:513190159416557573>) as you kill the Kings. This setup should get ~160kph with T85-87 weapons in a standard instance, and can get to ~200kph with T90 weapons + a custom instance for fast re-spawns.
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Overview of the Fight** - $linkmsg_thefight$
-⬥ **Example Kill** - $linkmsg_example$
-⬥ **Low Effort Guide** - $linkmsg_low_effort$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_preset$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      },
+      	  {
+	    "name": "__Example Kill__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Low Effort Guide__",
+        "value": "[Link]($linkmsg_low_effort$)",
+		"inline": true
+      }
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
