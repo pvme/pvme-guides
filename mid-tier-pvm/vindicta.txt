@@ -2,12 +2,12 @@
 .img:https://i.imgur.com/bieuGdZ.png
 .
 > **__Introduction__**
-.tag:Introduction
+.tag:intro
 Vindicta, the Zarosian general residing in the Heart of Gielinor, requires 80 attack (boostable) and 40 Zaros killcount to fight. Her drops include the t85 Dragon Rider Lance <:dragonriderlance:643161541931171872> which disassembles for Ilujankan components <:Ilujankancomp:513190158674427906> needed for the Aftershock <:as4:712074245202772009> perk, and the Crest of Zaros <:crestzaros:643161512177041428> which is used to make the t80 Anima Core of Zaros set <:animahelmzaros:643120081790042163>.
 
 .
 > **__Drops__**
-.tag:Drops
+.tag:drops
 ⬥ <:zarosess:643162860830326824>  **Zarosian essence**
     • 1/128 base, 1/64 at 100% reputation
 ⬥ <:crestzaros:643161512177041428>  **Crest of Zaros**
@@ -23,7 +23,7 @@ Each Vindicta kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B300$,
 
 .
 > **__Presets__**
-.tag:Presets
+.tag:presets
 **__Beginner Mage Preset__**
 ⬥ Starting out at Vindicta with Magic, it is encouraged to use a Staff, as you can cast Sonic Wave <:sonic:535533809924571136> while moving.
 ⬥ The shield is used to resonance the range auto during phase 2
@@ -107,7 +107,7 @@ Once Vindicta reaches 100k hp she will mount Gorvek, signalling the start of pha
 .
 This is identical to the lines placed during phase 1 and can be dealt with the same way.
 > **__Advanced Melee Rotations__ (~65 kph, Courtesy of <@!235999428622811137>)**
-.tag:MeleeRots
+.tag:meleerots
 *Note: These rotations assume you are using the Fury of the small relic and instance hopping*
 
 .
@@ -127,7 +127,7 @@ This is identical to the lines placed during phase 1 and can be dealt with the s
 
 .
 > **__Undergeared Vindicta__**
-.tag:Undergeared
+.tag:undergeared
 **__What to Expect__**
 This method can achieve around 20 kills per hour with average kill times around 1:45.
 
@@ -226,13 +226,13 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C306$
 
 .
 **__Preset__**
+⬥ **Runes** - Runes required to cast Animate Dead <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>.
 ⬥ <:persistentrage:739965637056659567> **Persistent Rage Relic** - Prevents adrenaline from draining while out of combat. Can be substituted with an **Adrenaline Urn** <:adrenurn:656426717413507074> with ocassional stalling.
 ⬥ **Ganodermic Gloves & Boots** - Magic tank armor is required for **Animate Dead** <:animatedead:856635090453135382> to reduce enough damage for this afk method. This is the cheapest and most effective option at this moment.
-⬥ <:runepouch:583430011868938283> **Runes** - Runes are of course required to cast Animate Dead. The runes you should bring are: <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>.
 ⬥ <:eof:787526151978614824> **Essence of Finality** - Stored special attack is not used, but is worn for the accuracy bonus and protection prayer passive.
 ⬥ <:championring:839903943630520350> **Champion's Ring** - Extra critical chance helps speed up kills. If not owned, can be substituted for other strong rings such as Asylum Surgeon's <:asr:513190158472839208> or Ring of Death. <:RoD:513190159462825984>
 .
-.img:https://i.imgur.com/Z5RlJ24.png
+.img:https://i.imgur.com/xFLaEgX.png
 .
 **__Action Bar:__**
 .
@@ -242,13 +242,49 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C306$
 .
 https://youtu.be/jkyY0J7k89o
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_Introduction$
-⬥ **Drops** - $linkmsg_Drops$
-⬥ **Presets** - $linkmsg_Presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Advanced Melee Rotations** - $linkmsg_MeleeRots$
-⬥ **Undergeared Guide** - $linkmsg_Undergeared$
-⬥ **AFK Guide** - $linkmsg_afk$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Melee Rotations__",
+        "value": "[Link]($linkmsg_meleerots$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Undergeared Guide__",
+        "value": "[Link]($linkmsg_undergeared$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Strategies__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
 .
