@@ -912,40 +912,43 @@ Check out Rago Hub for a wide variety of strategy guides for everything-Vorago, 
 .
 Rago Hub: https://discord.gg/uqGJbKH
 .
-> **__Table of Contents__**
-**__Introduction__**
-⬥ **Introduction** - $linkmsg_intro$
-
-**__Base Tank__**
-⬥ **Base Tank Introduction** - $linkmsg_base$
-⬥ **Base Tank P1 & 2** - $linkmsg_basep12$
-⬥ **Base Tank P3 - 8** - $linkmsg_basep38$
-⬥ **Base Tank Tips & Rotations** - $linkmsg_basetips$
-
-**__Ranged Bomb Tank__**
-⬥ **Ranged Bomb Introduction** - $linkmsg_rangebomb$
-⬥ **Ranged Bomb P1 & 2** - $linkmsg_rangep12$
-⬥ **Ranged Bomb P3 - 8** - $linkmsg_rangep38$
-⬥ **Ranged Bomb Tips & Rotations** - $linkmsg_rangetips$
-
-**__Magic Bomb Tank__**
-⬥ **Magic Bomb Introduction** - $linkmsg_magebomb$
-⬥ **Magic Bomb P1 & 2** - $linkmsg_magep12$
-⬥ **Magic Bomb P3 - 8** - $linkmsg_magep38$
-⬥ **Magic Bomb Tips & Rotations** - $linkmsg_magetips$
-
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Base Tank__",
+        "value": "[Base Tank Introduction]($linkmsg_base$)\n[Base Tank P1 & 2]($linkmsg_basep12$)\n[Base Tank P3 - 8]($linkmsg_basep38$)\n[Base Tank Tips & Rotations]($linkmsg_basetips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ranged Bomb Tank__",
+        "value": "[Ranged Bomb Introduction]($linkmsg_rangebomb$)\n[Ranged Bomb P1 & 2]($linkmsg_rangep12$)\n[Ranged Bomb P3 - 8]($linkmsg_rangep38$)\n[Ranged Bomb Tips & Rotations]($linkmsg_rangetips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic Bomb Tank__",
+        "value": "[Magic Bomb Introduction]($linkmsg_magebomb$)\n[Magic Bomb P1 & 2]($linkmsg_magep12$)\n[Magic Bomb P3 - 8]($linkmsg_magep38$)\n[Magic Bomb Tips & Rotations]($linkmsg_magetips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Hybrid Bomb Tank__",
+        "value": "[Hybrid Bomb Introduction]($linkmsg_hybridbomb$)\n[Hybrid Bomb P1 & 2]($linkmsg_hybridp12$)\n[Hybrid Bomb P3 - 8]($linkmsg_hybridp38$)\n[Hybrid Bomb Tips & Rotations]($linkmsg_hybridtips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phases 9, 10, & 11__",
+        "value": "[Weekly Special Mechanics]($linkmsg_weekly$)\n[Safe P10 & 11]($linkmsg_safety$)\n[Advanced P10 & 11]($linkmsg_advanced$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-**__Hybrid Bomb Tank__**
-⬥ **Hybrid Bomb Introduction** - $linkmsg_hybridbomb$
-⬥ **Hybrid Bomb P1 & 2** - $linkmsg_hybridp12$
-⬥ **Hybrid Bomb P3 - 8** - $linkmsg_hybridp38$
-⬥ **Hybrid Bomb Tips & Rotations** - $linkmsg_hybridtips$
-
-**__Phases 9, 10, & 11__**
-⬥ **Weekly Special Mechanics** - $linkmsg_weekly$
-⬥ **Safe P10 & 11** - $linkmsg_safety$
-⬥ **Advanced P10 & 11** - $linkmsg_advanced$
-
-**__Acknowledgements__**
-⬥ **Rago Hub** - $linkmsg_ragohub$
-.
