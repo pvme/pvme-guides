@@ -2,12 +2,12 @@
 .img:https://i.imgur.com/ZfhwfU6.png
 .
 > **__Introduction__**
-.tag:Intro
+.tag:intro
 Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic and 40 Seren killcount to fight. The notable drops for this boss are the Cywir Wand <:cywirwand:643161591571021824>, Cywir Orb, <:cywirorb:643161591210049556> and Crest of Seren <:crestseren:643161511937966122>. These items can be augmented and disassembled for Cywir components <:cywircomp:583430147538026496> which are required for Planted Feet <:pf:689501925770919981>.
 
 .
 > **__Drops__**
-.tag:Drops
+.tag:drops
 ⬥ <:sereness:643162860834390016> **Serenic essence**
     • 1/128 base, 1/64 at 100% reputation
 ⬥ <:crestseren:643161511937966122> **Crest of Seren**
@@ -24,7 +24,7 @@ Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, w
 
 .
 > **__Presets__**
-.tag:Preset
+.tag:presets
 **__Advanced Melee Preset__**
 ⬥ <:Cinderbanes:513190158355660812>  **Cinderbane Gloves**
 ⬥ <:aosor:544200033847869443>  **Amulet of Souls** - extra HP back with <:soulsplit:615613924506599497> and mitigate more damage with protection curses.
@@ -35,7 +35,7 @@ Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, w
 .img:https://i.imgur.com/aooVhDn.png
 .
 > __**Mechanics**__
-.tag:Mechanics
+.tag:mechanics
 **__Attack Rotation__**
 Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat
 
@@ -71,7 +71,7 @@ Helwyr’s minion spawn attack has him howl and summon two 3k HP Cywir Alphas. E
 .img:https://imgur.com/EB1ss4g.mp4
 .
 > **__Casual Melee Helwyr Guide__ (Courtesy of <@213693069764198401> and <@781280949790572554>)**
-.tag:MeleeHelwyr
+.tag:meleehelwyr
 **__What to Expect__**
 This method can achieve ~65 kills per hour with average kill times of 27.6s
 
@@ -119,7 +119,7 @@ https://www.youtube.com/watch?v=12qTzSHLTTs&ab_channel=VideoDump
 
 .
 > **__Casual Mage Helwyr Guide__**
-.tag:MagicRot
+.tag:magicrot
 .
 **__What to Expect__**
 This method can achieve around 55 kills per hour with average kill times around 35-45 seconds.
@@ -175,7 +175,7 @@ To time target cycle you want to use 3 ability from rejoining instance, this is 
 
 .
 > **__Undergeared Helwyr__**
-.tag:Undergeared
+.tag:undergeared
 .
 **__What to Expect__**
 This method can achieve around 20 kills per hour with average kill times around 1:50-2:00.
@@ -318,13 +318,53 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C339$
 .
 https://youtu.be/oqz5QLxSprw
 .
-> **__Table Of Contents__**
-⬥ **Introduction** - $linkmsg_Intro$
-⬥ **Drops** - $linkmsg_Drops$
-⬥ **Presets** - $linkmsg_Preset$
-⬥ **Mechanics** - $linkmsg_Mechanics$
-⬥ **Casual Melee Rotation** - $linkmsg_MeleeHelwyr$
-⬥ **Casual Magic Rotation** - $linkmsg_MagicRot$
-⬥ **Undergeared Guide** - $linkmsg_Undergeared$
-⬥ **AFK Magic Guide** - $linkmsg_afk$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Casual Melee Rotation__",
+        "value": "[Link]($linkmsg_MeleeHelwyr$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Casual Magic Rotation__",
+        "value": "[Link]($linkmsg_MagicRot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Undergeared Guide__",
+        "value": "[Link]($linkmsg_Undergeared$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Magic Strategy__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
