@@ -191,7 +191,7 @@ While gathering from Croesus's core, particles will occasionally spawn from its 
 .img:https://giant.gfycat.com/OilyElatedKestrel.mp4
 .
 > **__The Fight__**
-.tag:fight
+.tag:thefight
 **__Woodcutting Node - Araxyte__**
 .
 .img:https://i.imgur.com/PAZmIy2.png
@@ -223,13 +223,53 @@ The current meta to maximize contribution points while maintaining decent kill t
 .
 https://youtu.be/ljB-8qgnIzI
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Tips and Tricks** - $linkmsg_tips$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **The Fight** - $linkmsg_fight$
-⬥ **Strategy** - $linkmsg_rotations$
-⬥ **Example Kills** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Tips and Tricks__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategy__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      },
+    ]
+  }
+}
+.embed:json
 .pin:delete
