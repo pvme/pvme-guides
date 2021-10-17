@@ -268,18 +268,58 @@ Tag with Corruption Shot <:corruptshot:535541306294796299> → <:ecb:61561853193
 
 .
 > __**Advanced Video Example**__
-.tag:video
+.tag:example
 This is a sample 31 kill hour using the Eldritch Crossbow <:ecb:615618531937222657> and its special attack. Kills following this rotation should average out at around sub 1:30. You can also use this as a visual guide for movement during the kill.
 .
 https://youtu.be/l0HHhI74m-U
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Eldritch Crossbow rotation** - $linkmsg_old$
-⬥ **Eldritch Crossbow with Greater Ricochet** - $linkmsg_ECBrot$
-⬥ **Positioning** - $linkmsg_positioning$
-⬥ **Phase Notes** - $linkmsg_PN$
-⬥ **Advanced Video Example** - $linkmsg_video$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Eldritch Crossbow rotation__",
+        "value": "[Link]($linkmsg_old$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Eldritch Crossbow with Greater Ricochet__",
+        "value": "[Link]($linkmsg_ECBrot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Positioning__",
+        "value": "[Link]($linkmsg_positioning$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase Notes__",
+        "value": "[Link](linkmsg_PN)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Video Example__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
