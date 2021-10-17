@@ -509,20 +509,93 @@ If you get volcanics, Anticipate <:anti:535541306475151390> after Revenge <:reve
 
 .
 > **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Enrage** - $linkmsg_enrage$
-⬥ **Phase Diagram** - $linkmsg_phasediagram$
-⬥ **Target Cycling** - $linkmsg_targetcycling$
-⬥ **Phase 1** - $linkmsg_phase1$
-⬥ **Phase 1 Rotations** - $linkmsg_p1rotations$
-⬥ **Phase 2** - $linkmsg_phase2$
-⬥ **Phase 2 Rotations** - $linkmsg_p2rotations$
-⬥ **Phase 3** - $linkmsg_phase3$
-⬥ **Phase 3 Rotations** - $linkmsg_p3rotations$
-⬥ **Phase 4** - $linkmsg_phase4$
-⬥ **Phase 4 Rotations** - $linkmsg_p4rotations$
-⬥ **Phase 5** - $linkmsg_phase5$
-⬥ **Phase 5 Rotations** - $linkmsg_p5rotations$
-⬥ **Rotation Sheet** - $linkmsg_rotations$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Preset__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Enrage__",
+        "value": "[Link]($linkmsg_enrage$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase Diagram__",
+        "value": "[Link]($linkmsg_phasediagram$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Target Cycling__",
+        "value": "[Link]($linkmsg_targetcycling$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_phase1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1 Rotations__",
+        "value": "[Link]($linkmsg_p1rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_phase2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2 Rotations__",
+        "value": "[Link]($linkmsg_p2rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_phase3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3 Rotations__",
+        "value": "[Link]($linkmsg_p3rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_phase4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4 Rotations__",
+        "value": "[Link]($linkmsg_p4rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 5__",
+        "value": "[Link]($linkmsg_phase5$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 5 Rotations__",
+        "value": "[Link]($linkmsg_p5rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotation Sheet__",
+        "value": "[Link](linkmsg_rotations)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
