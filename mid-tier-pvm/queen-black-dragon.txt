@@ -3,19 +3,8 @@
 .
 > __**Introduction**__
 .tag:intro
-She resides in the lowest level of the Grotworm Lair which can be found just west of Port Sarim.
+The Queen Black Draon resides in the lowest level of the Grotworm Lair which can be found just west of Port Sarim. 60 <:Summoning:583430259064569856> is required to be able to enter the Arena via the Summoning Portal. Before attempting the fight it is _highly_ recommended to have level 80 in your preferred combat stat (generally <:range:580168050121113623> or <:Magic:689504724159823906>) and level 85 <:Herblore:689554435583508558> for Super Antifire potions.
 
-.
-**__The Basics__**
-⬥ 60 <:Summoning:583430259064569856> is required to be able to enter the Queen Black Dragon's Arena via the Summoning Portal.
-
-.
-⬥ It is however _highly_ recommended to have level 80 in your preferred combat stat (generally <:range:580168050121113623> or <:Magic:689504724159823906> ) and level 85 <:Herblore:689554435583508558> for Super Antifire potions.
-
-.
-⬥ This boss fight is really good to get prepared for mechanics found in high tier bosses like Araxxor and Telos.
-
-.
 *Note: Completion of the Song of the Depths quest is recommended as well to reduce the amount of damage received.*
 
 .
@@ -41,10 +30,11 @@ __**Advanced Preset:**__
 ⬥ It is recommended to use a <:Titan:513195724738002944> / <:ripperpouch:703581275453128714>
 ⬥ <:deathsswiftpf:867678153949708309> at the start and try to finish every kill at 100% adren
 ⬥ Use Dark Bow <:dbow:643848618553507843> Auto Attacks with Dragonbane Arrows at the start of every phase and <:sgb:626466665848242186> <:spec:537340400273195028> on Phase 3.
-⬥ <:bluepouch:656786565527502858>  **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-(Runes for <:disrupt:535614336207552523>)
+⬥ <:graspingpouchblack:892816436974735361> : <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> : <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+ (Runes for <:sbsancients:859483781395120129> <:disrupt:535614336207552523> <:Veng:543478434953822208> <:smokecloud:856635090641879050>)
 .
-.img:https://i.imgur.com/ZaVvTGH.png
+.img:https://i.imgur.com/Gqa8q9m.png
 .
 *Note: You can downgrade or upgrade what you have to in order to meet your skill level and budget. You can comfortably do the boss with chaotic crossbows or a royal crossbow.*
 
@@ -119,10 +109,38 @@ __**Phase 4:**__
 <https://youtu.be/aE0YMUlK4Jk>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Overview of the Fight** - $linkmsg_thefight$
-⬥ **Example Kill** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Overview of the Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kill__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
