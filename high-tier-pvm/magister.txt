@@ -510,16 +510,69 @@ __**Preset**__
 .
 https://youtu.be/wL71io79IG8
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **The Fight** - $linkmsg_fight$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Specials** - $linkmsg_specs$
-⬥ **Protecting Your Familiar** - $linkmsg_familiars$
-⬥ **Strategy** - $linkmsg_strats$
-⬥ **Magic** - $linkmsg_magic$
-⬥ **Melee** - $linkmsg_melee$
-⬥ **Range** - $linkmsg_range$
-⬥ **Low Effort Range** - $linkmsg_hells$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_fight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Specials__",
+        "value": "[Link]($linkmsg_specs$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Protecting Your Familiar__",
+        "value": "[Link]($linkmsg_familiars$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategy__",
+        "value": "[Link]($linkmsg_strats$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic__",
+        "value": "[Link]($linkmsg_magic$)",
+		"inline": true
+      },
+	  
+	  
+	    "name": "__Melee__",
+        "value": "[Link]($linkmsg_melee$)",
+		"inline": true
+      },
+	  
+	    "name": "__Range__",
+        "value": "[Link]($linkmsg_range$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Low Effort Range__",
+        "value": "[Link]($linkmsg_hells$)",
+		"inline": true
+      },
+    ]
+  }
+}
+.embed:json
 .pin:delete
