@@ -171,11 +171,43 @@ To start learning, join Teachingrots: https://discord.gg/HsZCRMg
 Reach out to <@!206832972035260416> or <@!593106625955495947> for more details
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **What To Do** - $linkmsg_do$
-⬥ **Positioning** - $linkmsg_position$
-⬥ **Particular Rotations** - $linkmsg_rot$
-⬥ **Miscellaneous Tips and Tricks** - $linkmsg_misc$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__What To Do__",
+        "value": "[Link]($linkmsg_do$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Positioning__",
+        "value": "[Link]($linkmsg_position$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Particular Rotations__",
+        "value": "[Link]($linkmsg_rot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Miscellaneous Tips and Tricks__",
+        "value": "[Link]($linkmsg_misc$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
