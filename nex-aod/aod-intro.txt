@@ -1,12 +1,12 @@
 > **__Nex: Angel of Death (AoD)__ (Courtesy of <@406876547283157004>)** <:aod:580167371365548042>
-.tag:Introduction
+.tag:intro
 __**Introduction**__
 Nex Angel of Death has the distinction of being the most damage centric boss in the game. Damage is king at AoD. As such, it is extremely important to have solid knowledge of rotations, as well as understand how to squeeze damage in at every opportunity. An AoD preset will be notably low in solid food, and have a significant amount of Blue Blubber Jellyfishes and Guthix Rests, as you are able to spam them during the kill to heal without losing adrenaline.
 At time of writing, it's encouraged to start at AoD 7-10 server, and end up in Nex AoD FC.
 
 .
 > __**Drops**__
-.tag:Drops
+.tag:drops
 Since this guide is aimed at 7-man teams, the drop rates below correspond to that specific teamsize.
 
 ⬥ **Praesul Codex** <:pcodex:643166740833894400>
@@ -22,7 +22,7 @@ Since this guide is aimed at 7-man teams, the drop rates below correspond to tha
 
 .
 > __**Presets**__
-.tag:Presets
+.tag:presets
 __**General Information**__
 Salves are especially useful at AoD, as they save inventory space and also prevent the poison effect during the last 600k of the boss. An essence of finality is used as you reach very high accuracy at AoD. Bladed Dive is critical to use during the last 600k in order to travel quickly between pillars around the arena. Each kill requires using your style-respective damage boosting ultimate prior to actually starting the kill, which is why the following example presets contain an equipped ring of vigour and a defender with planted feet for range/mage and energizing for melee.
 The various roles at AoD will have their presets, responsibilities and individual dps rotations in their own style-specific channels. This channel will mainly be to discuss the machanics of the boss and how to handle them.
@@ -66,7 +66,7 @@ __**(Starting Positions and Setup)**__
 .img:https://i.imgur.com/BlsqtaX.png
 .
 > __**Phase 1 (3,000,000 - 2,100,000hp)**__
-.tag:P1
+.tag:p1
 **__Start__**
 Phase 1 takes place within the octagon of the arena. Players will stand on the eastern side of the quadrant (towards the Umbra/Glacies quadrants). This is because the base tank will keep Nex facing away from the team, allowing for the remaining 6+ players to utilize Flanking abilities.
 
@@ -94,7 +94,7 @@ __**Example of the Elements and Reavers Specials**__
 https://youtu.be/WqKyqvLFwfA
 .
 > __**Phase 2 (2,100,000 - 1,800,000hp)**__
-.tag:P2
+.tag:p2
 At the start of Phase 2, Nex will begin to summon 4 amalgamations. She will take reduced damage until the amalgamations spawn. A brief overview of Phase 2 will be listed below:
 
 .
@@ -125,7 +125,7 @@ __**Amalgamation Spawn**__
 https://youtu.be/DspXdhWyRW0
 .
 > __**Phase 3 (1,800,000 - 600,000hp)**__
-.tag:P3
+.tag:p3
 Phase 3 is fairly simple. Nex will lose all of her previous mechanics and gain 3 new mechanics.
 
 .
@@ -156,7 +156,7 @@ __**East Smoke Example**__
 https://youtu.be/IzxQyYdqbbs
 .
 __**Smoke Pool**__
-.tag:Pool
+.tag:pool
 ⬥ Nex will summon a pool with a crystal in the middle. This is a fairly simple special attack. - The pool will stay there until someone either: activates the crystal or the pool "explodes".
 
 ⬥ Clicking the crystal will deal 14,000 damage split evenly to everyone in the pool.
@@ -170,7 +170,7 @@ __**Example of the Smoke Pool Special**__
 https://youtu.be/9R42qQiqMvY
 .
 __**Ice**__
-.tag:Ice
+.tag:ice
 ⬥ Nex will target a player, stun them, then create icicles around them.
 
 ⬥ Getting "iced" will stun you, make sure to freedom then move away from people. People will take damage if they are in a 5x5 space around the iced player.
@@ -190,7 +190,7 @@ __**Example of the Ice Special and How to Deal With It**__
 https://youtu.be/Fa4halk6znI
 .
 > __**Phase 4 (600,000 - 0hp) (Crystal Health Points 200,000)**__
-.tag:P4
+.tag:p4
 Nex will begin the final phase as soon as she reaches 600,000hp, in addition to all the minions being killed. At this point, Nex will become invulnerable and the team will have to kill the pillars before she becomes damageable again. Nex will only use mage attacks for the remainder of the fight. The base will lure Nex away from the other 6 players shortly before Nex phases, while the rest of the team will surge/bd to the first pillar. Pillar order is determined by the order that minions die during Phase 3. The most optimal order is Umbra, Glacies, Cruor, and lastly Fumus. Pillars will affect players if they are hit by Nex's auto attacks.
 
 .
@@ -266,17 +266,73 @@ __**Example Video**__
 .
 https://youtu.be/MLBs0sQVKG8
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_Introduction$
-⬥ **Drops** - $linkmsg_Drops$
-⬥ **Prefight** - $linkmsg_Prefight$
-⬥ **Phase 1** - $linkmsg_P1$
-⬥ **Phase 2** - $linkmsg_P2$
-⬥ **Phase 3** - $linkmsg_P3$
-    • **Smoke Lines** - $linkmsg_Smoke$
-    • **Shadow Pool** - $linkmsg_Pool$
-    • **Ice** - $linkmsg_Ice$
-⬥ **Phase 4** - $linkmsg_P4$
-⬥ **Luring Nex During Pillars as Base** - $linkmsg_lure$
-⬥ **How to Re-centre AoD** - $linkmsg_centering$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Prefight__",
+        "value": "[Link]($linkmsg_prefight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Smoke Lines__",
+        "value": "[Link]($linkmsg_smoke$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Shadow Pool__",
+        "value": "[Link]($linkmsg_pool$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ice__",
+        "value": "[Link]($linkmsg_ice$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Luring Nex During Pillars as Base__",
+        "value": "[Link]($linkmsg_lure$)",
+		"inline": true
+      },
+	  {
+	    "name": "__How to Re-centre AoD__",
+        "value": "[Link]($linkmsg_centering$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
