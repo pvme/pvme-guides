@@ -162,9 +162,33 @@ https://youtu.be/3QF8rVRO3j8
 .
 https://youtu.be/NIWfm4-fXww
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Camel Warriors** - $linkmsg_camel$
-⬥ **Acheron Mammoths** - $linkmsg_mammoth$
-⬥ **Living Wyverns** - $linkmsg_wyvern$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Camel Warriors__",
+        "value": "[Link]($linkmsg_camel$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Acheron Mammoths__",
+        "value": "[Link]($linkmsg_mammoth$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Living Wyverns__",
+        "value": "[Link]($linkmsg_wyvern$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
