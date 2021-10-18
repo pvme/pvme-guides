@@ -434,19 +434,83 @@ Check out Rago Hub for a wide variety of strategy guides for everything-Vorago, 
 .
 Rago Hub: https://discord.gg/uqGJbKH
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Strategy Overview** - $linkmsg_overview$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **Phase 2** - $linkmsg_p2$
-⬥ **Phase 3 - Ceilings** - $linkmsg_p3$
-⬥ **Phase 4 - Scopulus** - $linkmsg_p4$
-⬥ **Phase 5 - Vitalis** - $linkmsg_p5$
-⬥ **Phase 6 - Green Bomb** - $linkmsg_p6$
-⬥ **Phase 7 - Team Split** - $linkmsg_p7$
-⬥ **Phase 8 - The End** - $linkmsg_p8$
-⬥ **Phase 9 - Team Split** - $linkmsg_p9$
-⬥ **Phase 10 - Team Split** - $linkmsg_p10$
-⬥ **Phase 11 - Team Split** - $linkmsg_p11$
-⬥ **Acknowledgements** - $linkmsg_ragohub$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategy Overview__",
+        "value": "[Link]($linkmsg_overview$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3 - Ceilings__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4 - Scopulus__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 5 - Vitalis__",
+        "value": "[Link]($linkmsg_p5$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 6 - Green Bomb__",
+        "value": "[Link]($linkmsg_p6$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 7 - Team Split__",
+        "value": "[Link]($linkmsg_p7$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 8 - The End__",
+        "value": "[Link]($linkmsg_p8$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 9 - Team Split__",
+        "value": "[Link]($linkmsg_p9$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 10 - Team Split__",
+        "value": "[Link]($linkmsg_p10$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 11 - Team Split__",
+        "value": "[Link]($linkmsg_p11$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Acknowledgements__",
+        "value": "[Link]($linkmsg_ragohub$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
