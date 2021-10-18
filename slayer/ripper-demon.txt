@@ -184,12 +184,48 @@ Ripper Demons have a few mechanics:
 <https://youtu.be/Xj5A0yjvKEU>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Ranged** - $linkmsg_range$
-⬥ **Melee Semi-AoE** - $linkmsg_semi$
-⬥ **Melee AoE** - $linkmsg_aoe$
-⬥ **Legacy Magic** - $linkmsg_magic$
-⬥ **Video Guides** - $linkmsg_video$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ranged__",
+        "value": "[Link]($linkmsg_range$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee Semi-AoE__",
+        "value": "[Link]($linkmsg_semi$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee AoE__",
+        "value": "[Link]($linkmsg_aoe$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Legacy Magic__",
+        "value": "[Link]($linkmsg_magic$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Video Guides__",
+        "value": "[Link]($linkmsg_video$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
