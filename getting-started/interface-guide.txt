@@ -109,10 +109,38 @@ At the end of the day, a good interface is one that works for you. Look for comm
 https://www.youtube.com/watch?v=zn_y-_2giZg
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Tertiary Action Bars** - $linkmsg_tert$
-⬥ **Creating an Interface** - $linkmsg_start$
-⬥ **Example Interfaces** - $linkmsg_henchers$
-⬥ **Keybind Guide** - $linkmsg_key$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Tertiary Action Bars__",
+        "value": "[Link]($linkmsg_tert$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Creating an Interface__",
+        "value": "[Link]($linkmsg_start$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Interfaces__",
+        "value": "[Link]($linkmsg_henchers$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Keybind Guide__",
+        "value": "[Link]($linkmsg_key$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
