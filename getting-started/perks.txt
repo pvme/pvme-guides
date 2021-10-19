@@ -238,16 +238,68 @@ The fastest and most efficient way to quickly level up your items (Courtesy of <
 *Note: Use 8 <:serencomp:583435429877907456> 1 <:piouscomp:583434604363644929> `(1/1.08 at 120 invention)` for Enlightened 4, instead of 8 <:serencomp:583435429877907456> as mentioned in the video*
 
 .
-> __**Table of Contents**__
-⬥ **Starter Perks** - $linkmsg_starterperks$
-⬥ **Advanced PvM Perks** - $linkmsg_advancedperks$
-⬥ **Basic Armour Perk Combinations** - $linkmsg_basiccombos$
-⬥ **Basic Weapon Perk Combinations** - $linkmsg_basicwep$
-⬥ **Maxed Armour Perk Combinations** - $linkmsg_maxcombos$
-⬥ **Maxed Weapon Perk Combinations** - $linkmsg_maxwep$
-⬥ **Alternative Perks** - $linkmsg_alternatives$
-⬥ **Slayer Perks** - $linkmsg_slayerperks$
-⬥ **Specialized Perks** - $linkmsg_niche$
-⬥ **Perk Calculator** - $linkmsg_calc$
-⬥ **Item levelling Guide** - $linkmsg_guide$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Starter Perks__",
+        "value": "[Link]($linkmsg_starterperks$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced PvM Perks__",
+        "value": "[Link]($linkmsg_advancedperks$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Basic Armour Perk Combinations__",
+        "value": "[Link]($linkmsg_basiccombos$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Basic Weapon Perk Combinations__",
+        "value": "[Link]($linkmsg_basicwep$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Maxed Armour Perk Combinations__",
+        "value": "[Link]($linkmsg_maxcombos$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Maxed Weapon Perk Combinations__",
+        "value": "[Link]($linkmsg_maxwep$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Alternative Perks__",
+        "value": "[Link]($linkmsg_alternatives$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Slayer Perks__",
+        "value": "[Link]($linkmsg_slayerperks$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Specialized Perks__",
+        "value": "[Link]($linkmsg_niche$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Perk Calculator__",
+        "value": "[Link]($linkmsg_calc$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Item levelling Guide__",
+        "value": "[Link]($linkmsg_guide$)",
+		"inline": true
+      },
+    ]
+  }
+}
+.embed:json
 .pin:delete
