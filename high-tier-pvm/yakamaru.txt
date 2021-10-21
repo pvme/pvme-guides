@@ -192,11 +192,43 @@ If you're interested in learning raids, join this boss school link and check out
 https://discord.gg/C9hjNWY
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Roles** - $linkmsg_roles$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Learning Raids** - $linkmsg_learn$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Roles__",
+        "value": "[Link]($linkmsg_roles$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Learning Raids__",
+        "value": "[Link]($linkmsg_learn$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

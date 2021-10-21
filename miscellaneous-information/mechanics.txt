@@ -417,19 +417,83 @@ Comparison of waiting for spawn time x instance hopping: https://youtu.be/O-Lb93
 .
 .img:https://imgur.com/ktK359Q.png
 .
-> **__Table of Contents__**
-⬥ **Target Cycling** - $linkmsg_tc$
-⬥ **Walking Bosses** - $linkmsg_walking$
-⬥ **Manual Spellcasting** - $linkmsg_manualspellcasting$
-⬥ **Boss Centre and AoE** - $linkmsg_centre$
-⬥ **SGB Interactions** - $linkmsg_sgbspec$
-⬥ **Boss Sizes for SGB** - $linkmsg_sizes$
-⬥ **Adren Gain without a Target** - $linkmsg_adrengain$
-⬥ **Ability Stalling** - $linkmsg_stall$
-⬥ **Weapon Poison** - $linkmsg_poison$
-⬥ **Zerk Auras and Ult Interactions** - $linkmsg_zerkAura$
-⬥ **Hex Modifier** - $linkmsg_hex$
-⬥ **Grimoire and Scrimshaw Switching** - $linkmsg_grimshaw$
-⬥ **Instance Hopping** - $linkmsg_inshopp$
-⬥ **Camera Shaking** - $linkmsg_shake$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+	  {
+	    "name": "__Target Cycling__",
+        "value": "[Link](linkmsg_tc)",
+		"inline": true
+      },
+	  {
+	    "name": "__Walking Bosses__",
+        "value": "[Link]($linkmsg_walking$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Manual Spellcasting__",
+        "value": "[Link]($linkmsg_manualspellcasting$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Boss Centre and AoE__",
+        "value": "[Link]($linkmsg_centre$)",
+		"inline": true
+      },
+	  {
+	    "name": "__SGB Interactions__",
+        "value": "[Link]($linkmsg_sgbspec$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Boss Sizes for SGB__",
+        "value": "[Link]($linkmsg_sizes$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Adren Gain without a Target__",
+        "value": "[Link]($linkmsg_adrengain$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ability Stalling__",
+        "value": "[Link]($linkmsg_stall$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Weapon Poison__",
+        "value": "[Link]($linkmsg_poison$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Zerk Auras and Ult Interactions__",
+        "value": "[Link]($linkmsg_zerkAura$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Hex Modifier__",
+        "value": "[Link]($linkmsg_hex$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Grimoire and Scrimshaw Switching__",
+        "value": "[Link]($linkmsg_grimshaw$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Instance Hopping__",
+        "value": "[Link]($linkmsg_inshopp$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Camera Shaking__",
+        "value": "[Link]($linkmsg_shake$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -10,7 +10,7 @@ Zamorak staff <:zamorakstaff:873142795706179651> can be used instead of guthix s
 
 .
 > __**Preset**__
-.tag:preset
+.tag:presets
 __**Advanced Mage for Solo**__
 Ideally have <:biting4:712073087809617931> <:genocidal:689503091539705870> on your body
 ⬥ <:eofpurple:780401412936040478> **Essence of Finality** - Zamorak staff <:zamorakstaff:873142795706179651>
@@ -69,17 +69,53 @@ Try to maintain high HP and keep your adren around 50% to allow for a <:timewarp
 (Try to save <:wrackandruin:856662355912032256> for the next kill)
 
 .
-> __**Video Example**__
-.tag:vod
+> __**Example Kills**__
+.tag:example
 https://youtu.be/rv2c6_UB6AY
 
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **Phase 2** - $linkmsg_p1$
-⬥ **Phase 3** - $linkmsg_p1$
-⬥ **Phase 4** - $linkmsg_p1$
-⬥ **Video Example** - $linkmsg_vod$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introductions",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Preset__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -22,7 +22,7 @@ An average kill at 2449% enrage is worth <:coins:698816156961603654> $data_pvme:
 
 .
 > **__Presets__**
-.tag:preset
+.tag:presets
 The Malevolent legs <:malevlegs:643846985513828400> are augmented with Turtling 4 <:turt4:712073737377284146> + Mobile <:mob:689501908628799488> and Clear Headed 4 <:ch4:712073087864012840> for use on P4 and P5. You only need two rune pouches and it's incredibly recommended to have Borrowed Power Entangle <:ent:567727987274022924>, although it's not a hard requirement as faster strategies can forgo it.
 ⬥ <:yellowpouch:690848914949144616>  **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
 ⬥ <:bluepouch:656786565527502858>  **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
@@ -298,14 +298,58 @@ __**Sidebeam Green With Either Back or Opposite Side Beam Virus**__
 
 ⬥ Side beam to back beam example:
 .img:https://imgur.com/qdvoS8n.mp4
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Requirements/Recommended Items** - $linkmsg_requirements$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **Phase 2** - $linkmsg_p2$
-⬥ **Phase 3** - $linkmsg_p3$
-⬥ **Phase 4** - $linkmsg_p4$
-⬥ **Phase 5** - $linkmsg_p5$
-⬥ **Sticky Bomb Guide** - $linkmsg_sticky$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Preset__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Requirements/Recommended Items__",
+        "value": "[Link]($linkmsg_requirements$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 5__",
+        "value": "[Link]($linkmsg_p5$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sticky Bomb Guide__",
+        "value": "[Link]($linkmsg_sticky$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

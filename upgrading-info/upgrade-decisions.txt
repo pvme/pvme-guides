@@ -229,8 +229,28 @@ These last upgrades do not offer much in terms of improving kill times and are m
 The primary goal of this exercise is to stress that you should not buy upgrades just because a list told you to. Always consider what your next upgrade offers you in the context of how you play the game. If you ever have any questions, please come by <#656898197561802760> and ask.
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Annotated Upgrade Order (Araxxor)** - $linkmsg_annotated$
-⬥ **Closing Thoughts** - $linkmsg_closing$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Annotated Upgrade Order (Araxxor)__",
+        "value": "[Link]($linkmsg_annotated$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Closing Thoughts__",
+        "value": "[Link]($linkmsg_closing$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

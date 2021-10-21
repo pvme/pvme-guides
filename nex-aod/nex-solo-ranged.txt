@@ -341,14 +341,58 @@ https://www.youtube.com/watch?v=as1kqW_Xw9M
 .
 https://www.youtube.com/watch?v=c2hyuT6Wc-g
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Ascension Crossbow with a 2H rotations** - $linkmsg_rotations$
-⬥ **Ascension Crossbow with Greater Ricochet rotations** - $linkmsg_dwrotations$
-⬥ **Noxious Longbow with Greater Ricochet rotations** - $linkmsg_noxbowrotations$
-⬥ **Positioning** - $linkmsg_positioning$
-⬥ **Phase Notes** - $linkmsg_PN$
-⬥ **Example Kills** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ascension Crossbow with a 2H rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ascension Crossbow with Greater Ricochet rotations__",
+        "value": "[Link]($linkmsg_dwrotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Noxious Longbow with Greater Ricochet rotations__",
+        "value": "[Link]($linkmsg_noxbowrotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Positioning__",
+        "value": "[Link]($linkmsg_positioning$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase Notes__",
+        "value": "[Link](linkmsg_PN)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Video Example__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

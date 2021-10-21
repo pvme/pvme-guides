@@ -313,31 +313,38 @@ This rotation should be used if you are hosting the instance and are thereby una
 
 .
 > **__Example Kills__**
-.tag:eg
+.tag:example
 ⬥ **Magic Minion Tank (FSoA)** - <https://www.youtube.com/watch?v=IS2QCFGk_MU>
 ⬥ **Magic Base (Non-FSoA)** - <https://youtu.be/MSEslZ7sLqA>
 
 .
-> **__Table of Contents__**
-**__Introduction__**
- $linkmsg_intro$
-
-**__Magic Minion Tank__**
-⬥ **Introduction** - $linkmsg_mageent$
-⬥ **Role Responsibilities** - $linkmsg_mageentrr$
-⬥ **Preset** - $linkmsg_mageentpreset$
-⬥ **Non-FSoA Rotation** - $linkmsg_mageentnonfsoa$
-⬥ **FSoA Rotation** - $linkmsg_mageentfsoa$
-
-**__Magic Base__**
-⬥ **Introduction** - $linkmsg_magebase$
-⬥ **Role Responsibilities** - $linkmsg_magebaserr$
-⬥ **Preset** - $linkmsg_magebasepreset$
-⬥ **Beginner Guide** - $linkmsg_beginner$
-⬥ **Non-FSoA Rotation** - $linkmsg_magebasenonfsoa$
-⬥ **1/3 FSoA Rotation** - $linkmsg_magebase13fsoa$
-⬥ **2/4 FSoA Rotation** - $linkmsg_magebase24fsoa$
-
-**__Example Kills__**
-$linkmsg_eg$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic Minion Tank__",
+        "value": "[Introduction]($linkmsg_mageent$)\n[Role Responsibilities]($linkmsg_mageentrr$)\n[Preset]($linkmsg_mageentpreset$)\n[Non-FSoA Rotation]($linkmsg_mageentnonfsoa$)\n[FSoA Rotation]($linkmsg_mageentfsoa$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic Base__",
+        "value": "[Introduction]($linkmsg_magebase$)\n[Role Responsibilities]($linkmsg_magebaserr$)\n[Preset]($linkmsg_magebasepreset$)\n[Beginner Guide]($linkmsg_beginner$)\n[FSoA Rotation]($linkmsg_magebasenonfsoa$)\n[1/3 FSoA Rotation]($linkmsg_magebase13fsoa$)\n[2/4 FSoA Rotation]($linkmsg_magebase24fsoa$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

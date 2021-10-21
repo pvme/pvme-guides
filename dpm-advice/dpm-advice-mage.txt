@@ -1010,29 +1010,33 @@ https://youtu.be/QUyUt_QEyMw
 .
 https://youtu.be/XkDqJFcck4I
 .
-> **__Table of Contents__**
-**__Begin__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Terminology** - $linkmsg_Abb$
-⬥ **Revolution** - $linkmsg_Revo$
-⬥ **Full Manual** - $linkmsg_Manual$
-
-**__Building Blocks__**
-⬥ **Ability Prioritizations and Building a Rotation** - $linkmsg_Priority$
-⬥ **Ability Information** - $linkmsg_Info$
-⬥ **What Spell to Use** -$linkmsg_whatspell$
-
-**__To Learn__**
-⬥ **Cancelling Channels** - $linkmsg_Cancel$
-⬥ **Detonate** - $linkmsg_Deto$
-⬥ **Dual Wield vs Staff Camp** - $linkmsg_DwVs2H$
-⬥ **Defensive Autos** - $linkmsg_DefAutos$
-⬥ **Switches** - $linkmsg_Switches$
-⬥ **4TAA** -  $linkmsg_4TAA$
-⬥ **4TAA Guides** - $linkmsg_4TAAG$
-⬥ **4TAA Troubleshooting** - $linkmsg_Aid$
-
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Begin__",
+        "value": "[Introduction]($linkmsg_intro$)\n[Terminology]($linkmsg_Abb$)\n[Revolution]($linkmsg_Revo$)\n[Full Manual]($linkmsg_Manual$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Building Blocks__",
+        "value": "[Ability Prioritizations and Building a Rotation]($linkmsg_Priority$)\n[Ability Information]($linkmsg_Info$)\n[What Spell to Use]($linkmsg_whatspell$)",
+		"inline": true
+      },
+	  {
+	    "name": "__To Learn__",
+        "value": "[Cancelling Channels]($linkmsg_Cancel$)\n[Detonate]($linkmsg_Deto$)\n[Dual Wield vs Staff Camp]($linkmsg_DwVs2H$)\n[Defensive Autos]($linkmsg_DefAutos$)\n[Switches]($linkmsg_Switches$)\n[4TAA]($linkmsg_4TAA$)\n[4TAA Guides]($linkmsg_4TAAG$)\n[4TAA Troubleshooting]($linkmsg_Aid$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Examples__",
+        "value": "[General Sun Rotations]($linkmsg_Sun$)\n[Gem Rotations]($linkmsg_Gems$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-**__Examples__**
-⬥ **General Sun Rotations** - $linkmsg_Sun$
-⬥ **Gem Rotations** - $linkmsg_Gems$

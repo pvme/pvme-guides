@@ -778,37 +778,43 @@ Check out Rago Hub for a wide variety of strategy guides for everything-Vorago, 
 .
 Rago Hub: https://discord.gg/uqGJbKH
 .
-> **__Table of Contents__**
-**__Introduction__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Entry Hit** - $linkmsg_entry$
-⬥ **Phases & Mechanics** - $linkmsg_mechanics$
-
-**__DPS/TL5__**
-⬥ **DPS/TL5 Introduction** - $linkmsg_tl5intro$
-⬥ **DPS/TL5 P1 & 2** - $linkmsg_tl5p12$
-⬥ **DPS/TL5 P3 - 8** - $linkmsg_tl5p38$
-
-**__Base Tank__**
-⬥ **Base Tank Introduction** - $linkmsg_baseintro$
-⬥ **Base Tank P1 & 2** - $linkmsg_basep12$
-⬥ **Base Tank P3 - 8** - $linkmsg_basep38$
-⬥ **Base Tank Tips** - $linkmsg_basetips$
-
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Introduction]($linkmsg_intro$)\n[Presets]($linkmsg_presets$)\n[Entry Hit]($linkmsg_entry$)\n[Phases & Mechanics]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__DPS/TL5__",
+        "value": "[DPS/TL5 Introduction]($linkmsg_tl5intro$)\n[DPS/TL5 P1 & 2]($linkmsg_tl5p12$)\n[DPS/TL5 P3 - 8]($linkmsg_tl5p38$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Base Tank__",
+        "value": "[Base Tank Introduction]($linkmsg_baseintro$)\n[Base Tank P1 & 2]($linkmsg_basep12$)\n[Base Tank P3 - 8]($linkmsg_basep38$)\n[Base Tank Tips]($linkmsg_basetips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Bomb Tank__",
+        "value": "[Bomb Tank Introduction]($linkmsg_btintro$)\n[Bomb Tank P1 & 2]($linkmsg_btp12$)\n[Bomb Tank P3 - 8]($linkmsg_btp38$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phases 9, 10, & 11__",
+        "value": "[Weekly Special Mechanics]($linkmsg_p91011$)\n[Phase 9]($linkmsg_p9$)\n[P10 & 11 Overview]($linkmsg_p1011$)\n[Phase 10]($linkmsg_p10$)\n[Mauling P10]($linkmsg_p10maul$)\n[Phase 11]($linkmsg_p11$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Acknowledgements__",
+        "value": "[Rago Hub]($linkmsg_ragohub$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-**__Bomb Tank__**
-⬥ **Bomb Tank Introduction** - $linkmsg_btintro$
-⬥ **Bomb Tank P1 & 2** - $linkmsg_btp12$
-⬥ **Bomb Tank P3 - 8** - $linkmsg_btp38$
-
-**__Phases 9, 10, & 11__**
-⬥ **Weekly Special Mechanics** - $linkmsg_p91011$
-⬥ **Phase 9** - $linkmsg_p9$
-⬥ **P10 & 11 Overview** - $linkmsg_p1011$
-⬥ **Phase 10** - $linkmsg_p10$
-⬥ **Mauling P10** - $linkmsg_p10maul$
-⬥ **Phase 11** - $linkmsg_p11$
-
-**__Acknowledgements__**
-⬥ **Rago Hub** - $linkmsg_ragohub$

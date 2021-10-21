@@ -35,13 +35,11 @@ Each Twin Furies kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B36
 ⬥ If you're struggling with food conservation and Soul Split <:soulsplit:615613924506599497> is not enough to heal you, you may also use a Scrimshaw of Vampyrism <:VampScrim:513201294262009874> to help sustain yourself for the full hour. Otherwise, an unactivated god book can remain in your pocket slot.
 ⬥ An elite Enhanced Excalibur <:excal:641337999170207763> and Ancient Elven Ritual shard <:ancientshard:656426717505650708> are used to supplement your HP and prayer upkeep.
 ⬥ <:luckpotion:656426717295935500>  **Enhanced Luck Potion** - Gives tier 3 luck, can be removed if swapping to LotD <:LotD:566453486913323042>
-⬥ <:adrenurn:656426717413507074>  **Adrenaline Urn** - Prevents adren loss after dropping combat, stores up to 1000% adrenaline
-⬥ <:ancientshard:656426717505650708>  **Ancient Elven Ritual Shard** - Restores prayer overtime, 5 minute cooldown
-⬥ <:bluepouch:656786565527502858>  **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-⬥ <:blackpouch:656786565359599626>  **Rune Pouch** <:Airrune:536252658986647589> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:disrupt:535614336207552523> and <:Veng:543478434953822208>)
+⬥ <:graspingpouchblack:892816436974735361> : <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> : <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+ (Runes for <:sbsancients:859483781395120129> <:disrupt:535614336207552523> <:Veng:543478434953822208> <:smokecloud:856635090641879050>)
 .
-.img:https://i.imgur.com/aooVhDn.png
+.img:https://i.imgur.com/NPAlCDK.png
 .
 *Note: Currently, Deathtouch Bracelet <:DTB:513190159429271562> is used as Cinderbane Gloves <:Cinderbanes:513190158355660812> are bugged at Twin Furies.*
 
@@ -119,22 +117,50 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C371$
 
 .
 **__Preset__**
+⬥ Runes to cast Animate Dead <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>.
 ⬥ <:persistentrage:739965637056659567> **Persistent Rage Relic** - Prevents adrenaline from draining while out of combat. Can be substituted with an **Adrenaline Urn** <:adrenurn:656426717413507074> with ocassional stalling.
 ⬥ **Ganodermic Gloves & Boots** - Magic tank armor is required for **Animate Dead** <:animatedead:856635090453135382> to reduce enough damage for this afk method. This is the cheapest and most effective option at this moment.
-⬥ <:runepouch:583430011868938283> **Runes** - Runes are of course required to cast Animate Dead. The runes you should bring are: <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>.
 ⬥ <:eof:787526151978614824> **Essence of Finality** - Stored special attack is not used, but is worn for the accuracy bonus and Soulsplit passive.
 ⬥ <:championring:839903943630520350> **Champion's Ring** - Extra critical chance helps speed up kills. If not owned, can be substituted for other strong rings such as Asylum Surgeon's <:asr:513190158472839208> or Ring of Death. <:RoD:513190159462825984>
 .
-.img:https://i.imgur.com/Z5RlJ24.png
+.img:https://i.imgur.com/igDyTGI.png
 .
 **__Action Bar:__**
 .
 .img:https://i.imgur.com/CqvEu5W.png
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **AFK Guide** - $linkmsg_afk$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Strategies__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

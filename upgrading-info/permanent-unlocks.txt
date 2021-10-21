@@ -442,14 +442,58 @@ Note: Only the last quests in a quest line are listed, rather than listing all p
     • Priority: `Low`
 
 .
-> **__Table of Contents__**
-⬥ **Auras** - $linkmsg_auras$
-⬥ **Invention Perks** - $linkmsg_invention$
-⬥ **Potions & Prayers** - $linkmsg_potions$
-⬥ **Relics** - $linkmsg_relics$
-⬥ **Task Sets for PvM** - $linkmsg_tasks$
-⬥ **Quest Unlocks** - $linkmsg_quests$
-⬥ **Reaper Store** - $linkmsg_reaper$
-⬥ **Player Owned Farm** - $linkmsg_pof$
-⬥ **Miscellaneous Upgrades** - $linkmsg_misc$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Auras__",
+        "value": "[Link]($linkmsg_auras$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Invention Perks__",
+        "value": "[Link]($linkmsg_invention$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Potions & Prayers__",
+        "value": "[Link]($linkmsg_potions$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Relics__",
+        "value": "[Link]($linkmsg_relics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Task Sets for PvM__",
+        "value": "[Link]($linkmsg_tasks$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Quest Unlocks__",
+        "value": "[Link]($linkmsg_quests$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Reaper Store__",
+        "value": "[Link]($linkmsg_reaper$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Player Owned Farm__",
+        "value": "[Link]($linkmsg_pof$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Miscellaneous Upgrades__",
+        "value": "[Link]($linkmsg_misc$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

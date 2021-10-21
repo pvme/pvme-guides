@@ -233,11 +233,43 @@ If you would like specialized advice, ask in <#656898197561802760>.
 .tag:maikeru
 https://youtu.be/5_bHoADQ-DQ
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Disclaimer** - $linkmsg_disclaimer$
-⬥ **Magic** - $linkmsg_magic$
-⬥ **Range** - $linkmsg_range$
-⬥ **Melee** - $linkmsg_melee$
-⬥ **Common Mistakes** - $linkmsg_maikeru$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Disclaimer__",
+        "value": "[Link]($linkmsg_disclaimer$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic__",
+        "value": "[Link]($linkmsg_magic$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Range__",
+        "value": "[Link]($linkmsg_range$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee__",
+        "value": "[Link]($linkmsg_melee$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Common Mistakes__",
+        "value": "[Link]($linkmsg_maikeru$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

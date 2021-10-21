@@ -105,10 +105,38 @@ This channel explains perk choices and placements. For the combos and positions 
 ⬥ Most impactful for Magic <:Magic:689504724159823906> setups but can be beneficial for all if you use Freedom <:freedom:535541258240786434> a lot.
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Entry Level Weapon Perks** - $linkmsg_weaponentry$
-⬥ **Advanced Weapon Perks** - $linkmsg_weaponadvanced$
-⬥ **Entry Level Armour Perks** - $linkmsg_armourentry$
-⬥ **Advanced Armour Perks** - $linkmsg_armouradvanced$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Entry Level Weapon Perks__",
+        "value": "[Link]($linkmsg_weaponentry$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Weapon Perks__",
+        "value": "[Link]($linkmsg_weaponadvanced$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Entry Level Armour Perks__",
+        "value": "[Link]($linkmsg_armourentry$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Armour Perks__",
+        "value": "[Link]($linkmsg_armouradvanced$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

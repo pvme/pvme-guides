@@ -308,16 +308,68 @@ For the purpose of training invention, since you gain combat experience much fas
 **Perk Calculator** - <https://runescape.wiki/w/Calculator:Perks>
 
 .
-> __**Table Of Contents**__
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Starting Out** - $linkmsg_start$
-⬥ **The Inventor's Workbench** - $linkmsg_workbench$
-⬥ **Components** - $linkmsg_comps$
-⬥ **Gizmos and Perks** - $linkmsg_gizmosperks$
-⬥ **Machines** - $linkmsg_machines$
-⬥ **Ancient Invention** - $linkmsg_ancient$
-⬥ **Disassembling Items for Components** - $linkmsg_compsda$
-⬥ **How to Train Invention** - $linkmsg_training$
-⬥ **Level Breakdown** - $linkmsg_level$
-⬥ **Extra Tips and Tricks** - $linkmsg_tt$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Starting Out__",
+        "value": "[Link]($linkmsg_start$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Inventor's Workbench__",
+        "value": "[Link]($linkmsg_workbench$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Components__",
+        "value": "[Link]($linkmsg_comps$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Gizmos and Perks__",
+        "value": "[Link]($linkmsg_gizmosperks$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Machines__",
+        "value": "[Link]($linkmsg_machines$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ancient Invention__",
+        "value": "[Link]($linkmsg_ancient$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Disassembling Items for Components__",
+        "value": "[Link]($linkmsg_compsda$)",
+		"inline": true
+      },
+	  {
+	    "name": "__How to Train Invention__",
+        "value": "[Link]($linkmsg_training$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Level Breakdown__",
+        "value": "[Link]($linkmsg_level$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Extra Tips and Tricks__",
+        "value": "[Link]($linkmsg_tt$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

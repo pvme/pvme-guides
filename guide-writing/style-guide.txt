@@ -147,7 +147,30 @@ __**Discord Commands (to be used in <#689575078698287152>**__)
 ⬥ The table of contents should be pinned in the channel.
     • At the bottom of the Table of Contents, add a new line with the command `.pin:delete`
 ⬥ Table of Contents entries should list the Section Name, and link to the proper message
-    • Example entry: **Sectionword** - $linkmsg_tagword$
+    • Example entry:
+.
+```
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Sectionword__",
+        "value": "[Link]($linkmsg_tagword$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sectionword__",
+        "value": "[Link]($linkmsg_tagword$)",
+		"inline": true
+      }
+    ]
+  }
+}
+..embed:json
+..pin:delete```
+.
         - the tagword as mentioned above is how the bot knows to make a message link to the appropriate message. under the Section, add a blank line with the command `.tag:[word]`.
 ⬥ Utilise the below table of contents as an example.
 
@@ -164,6 +187,7 @@ __**Example of an entire section formatted**__
 .
 > **__Guide Writing Template__**
 .tag:guidetemplate
+.
 ```> **__Title__**
 ..img:[imgur link of picture of boss]
 
@@ -207,16 +231,53 @@ __**Example of an entire section formatted**__
 
 ..
 > **__Example Kills__**
-..tag:example
-..
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **The Fight** - $linkmsg_fight$
-⬥ **Rotations** - $linkmsg_rotations$
-⬥ **Example Kills** - $linkmsg_example$
+..tag:example```
+.
+```..
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_fight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+..embed:json
 ..pin:delete```
 
 .
@@ -323,19 +384,77 @@ __**Changes to Style Guide**__
     • Added guide template
 ⬥ 2021/10/13
     • Added embed template
+⬥ 2021/10/19
+    • Updated ToC template
 
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_introduction$
-⬥ **General** - $linkmsg_general$
-⬥ **Embedding Images/Videos** - $linkmsg_embed$
-⬥ **Sections and Subsections** - $linkmsg_sections$
-⬥ **Lists** - $linkmsg_lists$
-⬥ **Rotations** - $linkmsg_rotations$
-⬥ **Helpful Commands** - $linkmsg_help$
-⬥ **Table of Contents (formatting)** - $linkmsg_toc$
-⬥ **Putting it all Together** - $linkmsg_finish$
-⬥ **Guide Writing Template** - $linkmsg_guidetemplate$
-⬥ **Embed Making Guide/Template** - $linkmsg_embedtemplate$
-⬥ **Changelog** - $linkmsg_change$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_introduction$)",
+		"inline": true
+      },
+	  {
+	    "name": "__General__",
+        "value": "[Link]($linkmsg_general$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Embedding Images/Videos__",
+        "value": "[Link]($linkmsg_embed$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sections and Subsections__",
+        "value": "[Link]($linkmsg_sections$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Lists__",
+        "value": "[Link]($linkmsg_lists$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Helpful Commands__",
+        "value": "[Link]($linkmsg_help$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Table of Contents (formatting)__",
+        "value": "[Link]($linkmsg_toc$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Putting it all Together__",
+        "value": "[Link]($linkmsg_finish$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Guide Writing Template__",
+        "value": "[Link]($linkmsg_guidetemplate$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Embed Making Guide/Template__",
+        "value": "[Link]($linkmsg_embedtemplate$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Changelog__",
+        "value": "[Link]($linkmsg_change$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
