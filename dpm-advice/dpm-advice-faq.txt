@@ -135,16 +135,68 @@ Changing your weapon mid-Conc <:conc:535533833106489365> will cancel it. Thus th
 Practice the timing.
 
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Cancelling channels** - $linkmsg_ccsa$
-⬥ **Threshold prioritisation during Ultimates** - $linkmsg_tdu$
-⬥ **Threshold prioritisation outside Ultimates** - $linkmsg_tou$
-⬥ **Ability prioritisation during your ultimate** - $linkmsg_uprio$
-⬥ **Lossless Auto Attack at the start of your ultimate** - $linkmsg_uauto$
-⬥ **Utilizing Flanking in your rotation** - $linkmsg_flank$
-⬥ **Ability prioritisation in your rotation** - $linkmsg_prio$
-⬥ **Managing cooldowns of good abilities** - $linkmsg_managing$
-⬥ **Losing ticks** - $linkmsg_losing$
-⬥ **Changing weapons mid-channel ability** - $linkmsg_changing$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Cancelling channels__",
+        "value": "[Link]($linkmsg_ccsa$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Threshold prioritisation during Ultimates__",
+        "value": "[Link]($linkmsg_tdu$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Threshold prioritisation outside Ultimates__",
+        "value": "[Link]($linkmsg_tou$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ability prioritisation during your ultimate__",
+        "value": "[Link]($linkmsg_uprio$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Lossless Auto Attack at the start of your ultimate__",
+        "value": "[Link]($linkmsg_uauto$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Utilizing Flanking in your rotation__",
+        "value": "[Link]($linkmsg_flank$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ability prioritisation in your rotation__",
+        "value": "[Link]($linkmsg_prio$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Managing cooldowns of good abilities__",
+        "value": "[Link]($linkmsg_managing$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Losing ticks__",
+        "value": "[Link]($linkmsg_losing$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Changing weapons mid-channel ability__",
+        "value": "[Link]($linkmsg_changing$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

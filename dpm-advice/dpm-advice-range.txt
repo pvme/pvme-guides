@@ -738,23 +738,33 @@ The Essence of Finality <:eofor:745279787471470713> is an Alchemical Hydrix jewe
 *Coming soon...*
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Terminology** - $linkmsg_abbrevations$
-⬥ **Revolution** - $linkmsg_revo++$
-⬥ **Full Manual** - $linkmsg_Manual$
-⬥ **Ability Information** - $linkmsg_abilInfo$
-⬥ **Ability Prioritization** - $linkmsg_prioritization$
-⬥ **Building a Rotation** - $linkmsg_rotation$
-⬥ **Shadow Tendrils** - $linkmsg_Tendril$
-⬥ **Weapon Overrides** - $linkmsg_overrides$
-⬥ **Ruby Bakriminel Bolts (e)** - $linkmsg_ruby$
-⬥ **Emerald Bakriminel Bolts (e)** - $linkmsg_emerald$
-⬥ **Onyx Bakriminel Bolts (e)** - $linkmsg_onyx$
-⬥ **Hydrix Bakriminel Bolts (e)** - $linkmsg_hydrix$
-⬥ **Greater Ricochet** - $linkmsg_grico$
-⬥ **Seren Godbow** - $linkmsg_sgb$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Begin__",
+        "value": "[Introduction]($linkmsg_intro$)\n[Terminology]($linkmsg_abbrevations$)\n[Revolution]($linkmsg_revo++$)\n[Full Manual]($linkmsg_Manual$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Building Blocks__",
+        "value": "[Ability Prioritization]($linkmsg_prioritization$)\n[Ability Information]($linkmsg_abilInfo$)\n[Building a Rotation]($linkmsg_rotation$)",
+		"inline": true
+      },
+	  {
+	    "name": "__To Learn__",
+        "value": "[Shadow Tendrils]($linkmsg_Tendril$)\n[Weapon Overrides]($linkmsg_overrides$)\n[Ruby Bakriminel Bolts (e)]($linkmsg_ruby$)\n[Emerald Bakriminel Bolts (e)]($linkmsg_emerald$)\n[Onyx Bakriminel Bolts (e)]($linkmsg_onyx$)\n[Hydrix Bakriminel Bolts (e)]($linkmsg_hydrix$)\n[Greater Ricochet]($linkmsg_grico$)\n[Seren Godbow]($linkmsg_sgb$)\n[Eldritch Crossbow]($linkmsg_ecb$)\n[Essence of Finality weapons]($linkmsg_eof$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Examples__",
+        "value": "[Real-World Scenarios]($linkmsg_life$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-⬥ **Eldritch Crossbow** - $linkmsg_ecb$
-⬥ **Essence of Finality weapons** - $linkmsg_eof$
-⬥ **Real-World Scenarios** - $linkmsg_life$

@@ -143,8 +143,28 @@ These encounters do not provide anything meaningful to your PvM growth, or have 
     • Relatively high requirements for how little rewards this boss gives
 
 .
-> **__Table of Contents__**
-⬥ **Bossing Path** - $linkmsg_bossing$
-⬥ **Other Good Bosses** - $linkmsg_any$
-⬥ **Bosses to Avoid** - $linkmsg_bosses$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Bossing Path__",
+        "value": "[Link]($linkmsg_bossing$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Other Good Bosses__",
+        "value": "[Link]($linkmsg_any$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Bosses to Avoid__",
+        "value": "[Link]($linkmsg_bosses$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -2,7 +2,7 @@
 .img:https://imgur.com/eoz99Zl.png
 .
 > __**Introduction**__
-.tag:introduction
+.tag:intro
 The Kalphite King (KK) is a powerful kalphite found within the Exiled Kalphite Hive just north of Menaphos. KK can use all three attack styles, but he will only use one style at a time with a set attack rotation for each style. At any time throughout the fight KK can randomly change attack style, starting a new attack rotation.
 
 KK is a significant step up in difficulty in comparison to other mid tier bosses, requiring close tracking of auto attacks and specs, and the use of specific abilites at certain times to dodge one-hit mechanics.
@@ -19,17 +19,13 @@ Each Kalphite King kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B
 
 .
 > __**Preset**__
-.tag:preset
+.tag:presets
 ⬥ <:keris:859483155407699988> <:desertamulet4:859483155408224287> **Keris** + **Desert amulet** - Best in slot if you have completed the desert hard task set
-⬥ <:eofred:780401412839833601> **Essence of Finality** <:dragonclaw:779048041088024606> spec stored (optional - can be used if you get a relentless <:relentless5:712244800920748092> proc with Beserk <:Berserk:513190158468907012> )
-⬥ <:bluepouch:656786565527502858> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-⬥ <:yellowpouch:690848914949144616> <:Dustrune:536252659670188042> <:Deathrune:536252659586433024> <:Chaosrune:536252659422855188>
-⬥ <:redpouch:690848915020447745> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258> <:Soulrune:536252660333019136>
- (Runes for <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208> <:smokecloud:856635090641879050> )
-*Note: <:Dustrune:536252659670188042> can be replaced with <:Airrune:536252658986647589> if you do not want <:Veng:543478434953822208>.*
-
+⬥ <:graspingpouchblack:892816436974735361> : <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> : <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+ (Runes for <:sbsancients:859483781395120129> <:disrupt:535614336207552523> <:Veng:543478434953822208> <:smokecloud:856635090641879050>)
 .
-.img:https://i.imgur.com/5eVqIh8.png
+.img:https://i.imgur.com/33Gsk4T.png
 .
 > __**Kalphite King Attack Rotations**__
 .tag:kkrot
@@ -180,14 +176,58 @@ __**Example Kill (by <@193427271992868864>)**__
 https://youtu.be/uisDoTEmFSI
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_introduction$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Kalphite King Attack Rotations** - $linkmsg_kkrot$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Player Stun Timings** - $linkmsg_playerstun$
-⬥ **Bladed Dive Guide** - $linkmsg_bdguide$
-⬥ **Strategies and Tips** - $linkmsg_strats$
-⬥ **What Not To Do** - $linkmsg_nop$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Kalphite King Attack Rotations__",
+        "value": "[Link]($linkmsg_kkrot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Player Stun Timings__",
+        "value": "[Link]($linkmsg_playerstun$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Bladed Dive Guide__",
+        "value": "[Link]($linkmsg_bdguide$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategies and Tips__",
+        "value": "[Link]($linkmsg_strats$)",
+		"inline": true
+      },
+	  {
+	    "name": "__What Not To Do__",
+        "value": "[Link]($linkmsg_nop$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

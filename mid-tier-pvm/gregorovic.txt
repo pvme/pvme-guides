@@ -195,11 +195,43 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C402$
 .
 .img:https://i.imgur.com/nqGVnlD.png
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **AFK Melee Strategy** - $linkmsg_afk$
-⬥ **AFK Ranged Strategy** - $linkmsg_afkr$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Melee Strategy__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Ranged Strategy__",
+        "value": "[Link]($linkmsg_afkr$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

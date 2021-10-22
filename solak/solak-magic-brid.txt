@@ -242,14 +242,58 @@ Phase 4 rotations assume that the player is intending to kill Solak without ente
 <https://youtu.be/qMoXAJBhXV0> - Storm tank (base) by <@155403637810659329>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Preset** - $linkmsg_presets$
-⬥ **P1 Bomb Skips** - $linkmsg_p1bomb$
-⬥ **P1 Root Skips** - $linkmsg_p1root$
-⬥ **P2** - $linkmsg_p2$
-⬥ **P3** - $linkmsg_p3$
-⬥ **Erethdor** - $linkmsg_elf$
-⬥ **P4** - $linkmsg_p4$
-⬥ **Examples** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P1 Bomb Skips__",
+        "value": "[Link]($linkmsg_p1bomb$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P1 Root Skips__",
+        "value": "[Link]($linkmsg_p1root$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Erethdor__",
+        "value": "[Link]($linkmsg_elf$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Video Example__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

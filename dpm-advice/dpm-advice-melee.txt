@@ -1054,29 +1054,33 @@ https://youtu.be/YRuCFmXOA3I (Sigil; Courtesy of <@!236559830121185290>)
 **__No ZGS/Enh Apot/Mutated Abilities__**
 https://youtu.be/5gX2iBeToPk (Courtesy of <@!236559830121185290>)
 .
-> **__Table of Contents__**
-**__Begin__**
-⬥ **Introduction** - $linkmsg_Intro$
-⬥ **Terminology** - $linkmsg_Abb$
-⬥ **Revolution** - $linkmsg_Revo$
-⬥ **Full Manual** - $linkmsg_Manual$
-
-**__Building Blocks__**
-⬥ **Ability Prioritizations and Building a Rotation** - $linkmsg_Priority$
-⬥ **Ability Information** - $linkmsg_abilInfo$
-
-**__To Learn__**
-⬥ **Cancelling Channels** - $linkmsg_cancel$
-⬥ **Dual Wield vs 2H Camp** - $linkmsg_2hvsDW$
-⬥ **Switches** - $linkmsg_switches$
-⬥ **Defensive Autos** - $linkmsg_defAutos$
-⬥ **Greater Barge** -  $linkmsg_Gbarge$
-⬥ **Greater Fury** -  $linkmsg_Gfury$
-⬥ **Choosing a Drygore** -  $linkmsg_drygore$
-⬥ **5TAA** -  $linkmsg_5TAA$
-⬥ **Applying Smoke Cloud** - $linkmsg_smoke$
-
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Begin__",
+        "value": "[Introduction]($linkmsg_intro$)\n[Terminology]($linkmsg_Abb$)\n[Revolution]($linkmsg_Revo$)\n[Full Manual]($linkmsg_Manual$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Building Blocks__",
+        "value": "[Ability Prioritizations and Building a Rotation]($linkmsg_Priority$)\n[Ability Information]($linkmsg_abilInfo$)",
+		"inline": true
+      },
+	  {
+	    "name": "__To Learn__",
+        "value": "[Cancelling Channels]($linkmsg_cancel$)\n[Dual Wield vs 2H Camp]($linkmsg_2hvsDW$)\n[Switches]($linkmsg_switches$)\n[Defensive Autos]($linkmsg_defAutos$)\n[Greater Barge]($linkmsg_Gbarge$)\n[Greater Fury]($linkmsg_Gfury$)\n[Choosing a Drygore]($linkmsg_drygore$)\n[5TAA]($linkmsg_5TAA$)\n[Applying Smoke Cloud]($linkmsg_smoke$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Examples__",
+        "value": "[General Zerk Rotations]($linkmsg_zerkRots$)\n[Gem Rotations]($linkmsg_Rotations$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-**__Examples__**
-⬥ **General Zerk Rotations** - $linkmsg_zerkRots$
-⬥ **Gem Rotations** - $linkmsg_Rotations$

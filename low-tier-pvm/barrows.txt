@@ -106,9 +106,33 @@ As a low level boss, Barrows kph will scale to the level of effort put in. Optim
 **__Melee Video Example__ (Courtesy of <@193792418003419139>)**
 https://www.youtube.com/watch?v=OQQVIubMF9I
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Strategy** - $linkmsg_thefight$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

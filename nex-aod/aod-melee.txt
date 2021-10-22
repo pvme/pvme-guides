@@ -14,11 +14,11 @@
 .tag:presets
 ⬥ Melee Minion Tank
 .
-.img:https://i.imgur.com/penxUPe.png
+.img:https://i.imgur.com/fkYtaZT.png
 .
 ⬥ Free Melee
 .
-.img:https://i.imgur.com/1oOErH8.png
+.img:https://i.imgur.com/ndWTEh1.png
 .
 ⬥ <:malevlegs:643846985513828400> - Used for a <:mob:689501908628799488> switch. Should be equipped after barging in p3.
 
@@ -52,6 +52,9 @@ Ideally melee roles at AoD should teleport out of the instance as soon as they p
 .
 **__-1.2s zerk__**
 <:zerk:535532854004678657> + 2h auto → <:adrenrenewal:736298121704767538> + <:prep:535541258546970624> → <:res:535541258844635148> → <:gbarge:535532879250456578> → <:freedom:535541258240786434> → <:aod:580167371365548042> 2h auto + <:gflurry:535532879283879977> → <:backhand:535532854302605333> → 5taa + <:cane:535532878969438210> → (2h) <:assault:535532855191928842> → <:cleave:535532878616985610>
+
+.
+_Note: The numbers before each rotation indicate at which point you should Berserk relative to the base starting the fight. For example, -1.2 means that you need to Berserk 2 ticks before the base starts. Other non-melee roles also use this nomenclature, but for the other styles it is used to describe the length of the p1 rot. Since p1 should ideally always phase on the last tick of Berserk, faster Berserks correspond to a faster p1, which the other styles have to adapt their rotations to._
 
 .
 > **__Phase 2__**
@@ -112,21 +115,65 @@ Zerk asap on pillars. You may <:cane:535532878969438210> earlier depending on ki
 
 .
 > **__Example Kills__**
-.tag:eg
-⬥ **Melee Minion Tank (0.6s Zerk)** - <https://www.youtube.com/watch?v=rPO4J-r__cw&ab_channel=SaintRS>
-⬥ **Melee Minion Tank (0.0s Zerk)** - <https://www.youtube.com/watch?v=vrxmbAsCMQM&ab_channel=ZaidA>
+.tag:example
+⬥ **Melee Minion Tank (0.6s Zerk)** - <https://youtu.be/rPO4J-r__cw>
+⬥ **Melee Minion Tank (0.0s Zerk)** - <https://youtu.be/vrxmbAsCMQM>
 ⬥ **Melee Minion Tank (-1.2s Zerk)** - <https://youtu.be/nsfEbnUKksM>
 ⬥ **Free Melee** - <https://youtu.be/GKlWf2hzXec>
 
 .
-**__Table of Contents__**
-⬥ **Melee Ent and Free Melee** - $linkmsg_meleeent$
-⬥ **Role Responsibilities** - $linkmsg_rr$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **Phase 2** - $linkmsg_p2$
-⬥ **Phase 3** - $linkmsg_p3$
-⬥ **Pillars** - $linkmsg_pillars$
-⬥ **Last Pillar + Zaros** - $linkmsg_zaros$
-⬥ **Example Kills** - $linkmsg_eg$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Melee Ent and Free Melee__",
+        "value": "[Link]($linkmsg_meleeent$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Role Responsibilities__",
+        "value": "[Link]($linkmsg_rr$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Pillars__",
+        "value": "[Link]($linkmsg_pillars$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Last Pillar + Zaros__",
+        "value": "[Link]($linkmsg_zaros$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

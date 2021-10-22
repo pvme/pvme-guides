@@ -505,17 +505,73 @@ Starting off, players are expected to take the boss slowly, and focus more on me
 ⬥ **6 mins** - At this point, speeding up is a matter of consistency, reaching the timegates of each phase. Fast P1s end around ~1:50, Storm tanking can be used to save ~10s per kill, P2 is timegated to the Arm Climb attack. Aim to finish P3 in 2 pads which are charged immediately, and P4 is a quick No Realm kill.
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Fight Information** - $linkmsg_fightinfo$
-⬥ **Phase 1** - $linkmsg_p1$
-⬥ **P1 Advanced** - $linkmsg_p1adv$
-⬥ **Phase 2** - $linkmsg_p2$
-⬥ **P2 Advanced** - $linkmsg_p2adv$
-⬥ **Phase 3** - $linkmsg_p3$
-⬥ **Phase 4** - $linkmsg_p4$
-⬥ **Realming** - $linkmsg_realm$
-⬥ **Introduction to Hybrid** - $linkmsg_hybrid$
-⬥ **Benchmarks** - $linkmsg_benchmarks$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Fight Information__",
+        "value": "[Link]($linkmsg_fightinfo$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P1 Advanced__",
+        "value": "[Link]($linkmsg_p1adv$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__P2 Advanced__",
+        "value": "[Link]($linkmsg_p2adv$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Realming__",
+        "value": "[Link]($linkmsg_realm$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Introduction to Hybrid__",
+        "value": "[Link]($linkmsg_hybrid$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Benchmarks__",
+        "value": "[Link]($linkmsg_benchmarks$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

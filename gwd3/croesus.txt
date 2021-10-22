@@ -22,21 +22,21 @@ The boss is massable, however the recomended group size starts at 8, going down 
 ⬥ Fishing and Mining cape stored in gatherer's cape
 ⬥ Honed 6 on Hatchet, Pickaxe and Fishing Rod-o-matic
 ⬥ Bank Perfect Plus Potion after sip
-⬥ Take the outfit for the skill you are doing
-⬥ Fully equip for one skill, and bring 1 extra skill tool
-.
-**__Mining__**
-.img:https://media.discordapp.net/attachments/724129126314803230/892224229926371338/unknown.png
-.
-**__Woodcutting__**
-.img:https://media.discordapp.net/attachments/724129126314803230/892224066033958932/unknown.png
-.
-**__Hunter__**
-.img:https://media.discordapp.net/attachments/724129126314803230/892223881249701929/unknown.png
-*Note: Magic butterfly net does work for the dead beast material gathering, but does not work for the core.*
+⬥ Can optionally bring some noted item to disassemble for book procs
+⬥ <:graspingpouch:892816437478051900> **Rune pouch**  - <:Earthrune:536252659808731137> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
+(Runes for Crystal mask <:crystalmask:892342109829464094>)
 .
 **__Fishing__**
-.img:https://media.discordapp.net/attachments/724129126314803230/892223601040850985/unknown.png
+.img:https://i.imgur.com/Mt6yJr1.png
+.
+**__Hunter__**
+.img:https://i.imgur.com/uigzke5.png
+.
+**__Mining__**
+.img:https://i.imgur.com/M5T5gBJ.png
+.
+**__Woodcutting__**
+.img:https://i.imgur.com/fOk8N8U.png
 .
 > **__Tips and Tricks__**
 .tag:tips
@@ -191,7 +191,7 @@ While gathering from Croesus's core, particles will occasionally spawn from its 
 .img:https://giant.gfycat.com/OilyElatedKestrel.mp4
 .
 > **__The Fight__**
-.tag:fight
+.tag:thefight
 **__Woodcutting Node - Araxyte__**
 .
 .img:https://i.imgur.com/PAZmIy2.png
@@ -223,13 +223,53 @@ The current meta to maximize contribution points while maintaining decent kill t
 .
 https://youtu.be/ljB-8qgnIzI
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Tips and Tricks** - $linkmsg_tips$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **The Fight** - $linkmsg_fight$
-⬥ **Strategy** - $linkmsg_rotations$
-⬥ **Example Kills** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Tips and Tricks__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_thefight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategy__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

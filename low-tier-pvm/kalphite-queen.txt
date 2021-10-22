@@ -33,7 +33,7 @@ Slayer helmet boosts work when on a Kalphites task, and the preset for DKs can b
 .img:https://i.imgur.com/PpAMqV7.png
 .
 > **__AFK Overview__ (Courtesy of <@269513930949263363>)**
-.tag:strat
+.tag:afk
 **__Explanation__**
 ⬥ This method is slower than the active hybrid methods (~40KPH), but it requires little to no input. Verac the Defiled’s set effect along with Weapon poison+++ and a Ripper demon <:ripperpouch:703581275453128714> with scrolls effectively kills Kalphite Queen’s second phase in a timely manner.
 
@@ -67,9 +67,33 @@ Stand here:
 .
 https://youtu.be/eBfiJfTe3v0
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **AFK Overview** - $linkmsg_strat$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Overview__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

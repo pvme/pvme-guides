@@ -515,17 +515,73 @@ Make sure the middle crystal has <:Vuln:537349530551582720> and <:smokecloud:856
 <https://youtu.be/iFw5QB7AWX4>- 12:36 by <@!127417821817864192>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Greater Chain** - $linkmsg_gchain$
-⬥ **1st Floor** - $linkmsg_presanctum$
-⬥ **2nd Floor** - $linkmsg_2ndflr$
-⬥ **Sanctum Guardian** - $linkmsg_sanctum$
-⬥ **3rd Floor** - $linkmsg_premasuta$
-⬥ **4th Floor** - $linkmsg_4thflr$
-⬥ **Masuta, the Ascended** - $linkmsg_masuta$
-⬥ **5th Floor** - $linkmsg_preseiryu$
-⬥ **Seiryu, the Azure Serpent** - $linkmsg_seiryu$
-⬥ **Example Runs** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Greater Chain__",
+        "value": "[Link]($linkmsg_gchain$)",
+		"inline": true
+      },
+	  {
+	    "name": "__1st Floor__",
+        "value": "[Link]($linkmsg_presanctum$)",
+		"inline": true
+      },
+	  {
+	    "name": "__2nd Floor__",
+        "value": "[Link]($linkmsg_2ndflr$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sanctum Guardian__",
+        "value": "[Link]($linkmsg_sanctum$)",
+		"inline": true
+      },
+	  {
+	    "name": "__3rd Floor__",
+        "value": "[Link]($linkmsg_premasuta$)",
+		"inline": true
+      },
+	  {
+	    "name": "__4th Floor__",
+        "value": "[Link]($linkmsg_4thflr$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Masuta, the Ascended__",
+        "value": "[Link]($linkmsg_masuta$)",
+		"inline": true
+      },
+	  {
+	    "name": "__5th Floor__",
+        "value": "[Link]($linkmsg_preseiryu$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Seiryu, the Azure Serpent__",
+        "value": "[Link]($linkmsg_seiryu$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Runs__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -234,43 +234,50 @@ The rotation for this phase begins 3 ticks before the fight starts, just before 
 
 .
 > **__Example Kills__**
-.tag:eg
-⬥ **Chinner 1/3** - <https://www.youtube.com/watch?v=IduOOu54pXw>
-⬥ **Chinner 2/4** - <https://www.youtube.com/watch?v=7NHzRyUio80>
-⬥ **Range Minion Tank** - <https://www.youtube.com/watch?v=NxOBLb-vv_k>
-⬥ **Range Base** - <https://www.youtube.com/watch?v=S-sefDbIpAg>
+.tag:example
+⬥ **Chinner 1/3** - <https://youtu.be/IduOOu54pXw>
+⬥ **Chinner 2/4** - <https://youtu.be/7NHzRyUio80>
+⬥ **Range Minion Tank** - <https://youtu.be/NxOBLb-vv_k>
+⬥ **Range Base** - <https://youtu.be/S-sefDbIpAg>
 
 .
-> __**Table of Contents**__
-**__Introduction__**
-$linkmsg_intro$
-
-**__Chinner__**
-⬥ **Introduction** - $linkmsg_chin$
-⬥ **Role Responsibilities** - $linkmsg_chinrr$
-⬥ **Preset** - $linkmsg_chinpre$
-⬥ **Rotations** - $linkmsg_chinrot$
-⬥ **1/3** - $linkmsg_chin13$
-⬥ **2/4** - $linkmsg_chin24$
-
-**__Range Minion Tank__**
-⬥ **Introduction** - $linkmsg_rangeent$
-⬥ **Role Responsibilities** - $linkmsg_rangeentrr$
-⬥ **Preset** - $linkmsg_rangeentpre$
-⬥ **Rotation** - $linkmsg_rangeentrot$
-
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Chinner__",
+        "value": "[Introduction]($linkmsg_chin$)\n[Role Responsibilities]($linkmsg_chinrr$)\n[Preset]($linkmsg_chinpre$)\n[Rotations]($linkmsg_chinrot$)\n[1/3]($linkmsg_chin13$)\n[2/4]($linkmsg_chin24$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Range Minion Tank__",
+        "value": "[Introduction]($linkmsg_rangeent$)\n[Role Responsibilities]($linkmsg_rangeentrr$)\n[Preset]($linkmsg_rangeentpre$)\n[Rotation]($linkmsg_rangeentrot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Free Range__",
+        "value": "[Introduction]($linkmsg_fr$)\n[Role Responsibilities]($linkmsg_frrr$)\n[Preset]($linkmsg_frpre$)\n[Rotation]($linkmsg_frrot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Range Base__",
+        "value": "[Introduction]($linkmsg_rangebase$)\n[Role Responsibilities]($linkmsg_rangebaserr$)\n[Preset]($linkmsg_rangebasepre$)\n[Rotation]($linkmsg_rangebaserot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-**__Free Range__**
-⬥ **Introduction** - $linkmsg_fr$
-⬥ **Role Responsibilities** - $linkmsg_frrr$
-⬥ **Preset** - $linkmsg_frpre$
-⬥ **Rotation** - $linkmsg_frrot$
-
-**__Range Base__**
-⬥ **Introduction** - $linkmsg_rangebase$
-⬥ **Role Responsibilities** - $linkmsg_rangebaserr$
-⬥ **Preset** - $linkmsg_rangebasepre$
-⬥ **Rotation** - $linkmsg_rangebaserot$
-
-**__Example Kills__**
-$linkmsg_eg$

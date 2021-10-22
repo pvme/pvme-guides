@@ -2,7 +2,7 @@
 .img:https://i.imgur.com/O63i4K2.png
 .
 > **Introduction**
-.tag:Intro
+.tag:intro
 .
 Fight kiln is a fairly easy fight once you know what you are doing and seems harder than it is. Completing the fight rewards you with BIS cape for all three styles. All of the gear and inventories can get switched around based on what you have and how experienced you are. For less experienced people keep the obsidian armour and bring more brews and solids with the best tier of weapon you have. Keep in mind to follow the combat triangle and to use common sense during the waves.
 
@@ -17,7 +17,7 @@ Fight kiln is a fairly easy fight once you know what you are doing and seems har
 
 .
 > **__Presets__**
-.tag:Presets
+.tag:presets
 **__Basic Preset__** (with obsidian)
 ⬥ <:purppouch:656786565149884427>  **Rune Pouch** <:Airrune:536252658986647589> <:Soulrune:536252660333019136> <:Chaosrune:536252659422855188>
 (Runes for <:AirSurge:543465115870035999> and <:Vuln:537349530551582720>)
@@ -51,7 +51,7 @@ Fight kiln is a fairly easy fight once you know what you are doing and seems har
 
 .
 > **__The First 10__**
-.tag:Waves1-9
+.tag:waves1-9
 **__Waves 1-9__**
 There will be mostly rangers with an increasing number of magers and meleers so use melee and switch to kill the others.
 .
@@ -68,7 +68,7 @@ There will be mostly rangers with an increasing number of magers and meleers so 
 
 .
 > **__The Second 10__**
-.tag:Waves10-19
+.tag:waves10-19
 **__Wave 11-19__**
 There will mostly be magers with an increasing number of meleers and rangers so use range and switch to kill the others.
 .
@@ -84,7 +84,7 @@ There will mostly be magers with an increasing number of meleers and rangers so 
 
 .
 > **__The Third 10__**
-.tag:Waves20-29
+.tag:waves20-29
 **__Waves 21-29__**
 There will mostly be meleers with an increasing number of mager and rangers so use mage and switch to kill the others.
 .
@@ -100,7 +100,7 @@ There will mostly be meleers with an increasing number of mager and rangers so u
 
 .
 > **__The Final Gauntlet__**
-.tag:Waves30-36
+.tag:waves30-36
 **__The Jad-less Few__**
 ⬥ **Wave 31**: Use Melee
 ⬥ **Wave 32**: Use Magic
@@ -132,7 +132,7 @@ There will mostly be meleers with an increasing number of mager and rangers so u
 .img:https://i.imgur.com/bB0xUd0.png
 .
 > **__Wave 36+1__**
-.tag:HarAken
+.tag:haraken
 .img:https://i.imgur.com/gLDiYck.png
 .
 **__Har-Aken__**
@@ -140,12 +140,12 @@ There will mostly be meleers with an increasing number of mager and rangers so u
 ⬥ He never spawns on northern side of platform
 ⬥ Spam Spiritual Prayers <:spiritualprayer:651079281882955787>
 ⬥ Can be Vulned <:Vuln:537349530551582720> / <:vulnbomb:655341074235129858>
-⬥Use Sunshine <:sunshinepf:867678154143694868> / Death's Swiftness <:deathsswiftpf:867678153949708309> / Berserk <:Berserk:513190158468907012> as he surfaces
+⬥ Use Sunshine <:sunshinepf:867678154143694868> / Death's Swiftness <:deathsswiftpf:867678153949708309> / Berserk <:Berserk:513190158468907012> as he surfaces
 ⬥ Spawns after ~72 seconds and is up for ~30 seconds
 
 .
 > **__Tips/Tricks/Extra Thoughts__**
-.tag:Tips
+.tag:tips
 .
 **__General__**
 ⬥ You can use crystals of regeneration in emergencies and to extend onslaught on har-aken if you wanted to (make sure you have sign up just in case because the hits start to add up very quickly).
@@ -160,13 +160,53 @@ There will mostly be meleers with an increasing number of mager and rangers so u
 ⬥ It is helpful to use Lantadyme <:LantaSticks:565726489404899368>, Kwuarm <:KwuarmSticks:565726489341984779>, and Spirit Weed incense sticks <:SpiritSticks:565726489136463894> for increased potion duration, weapon poison damage, and scrolls used per hour.
 
 .
-> **__Table Of Contents__**
-⬥ **Introduction** - $linkmsg_Intro$
-⬥ **Presets** - $linkmsg_Presets$
-⬥ **The First 10** - $linkmsg_Waves1-9$
-⬥ **The Second 10** - $linkmsg_Waves10-19$
-⬥ **The Third 10** - $linkmsg_Waves20-29$
-⬥ **The Final Gauntlet** - $linkmsg_Waves30-36$
-⬥ **Wave 36+1** - $linkmsg_HarAken$
-⬥ **Tips/Tricks/Extra Thoughts** - $linkmsg_Tips$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The First 10__",
+        "value": "[Link]($linkmsg_waves1-9$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Second 10__",
+        "value": "[Link]($linkmsg_waves10-19$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Third 10__",
+        "value": "[Link]($linkmsg_waves20-29$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Final Gauntlet__",
+        "value": "[Link]($linkmsg_waves30-36$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Final Gauntlet__",
+        "value": "[Link]($linkmsg_haraken$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Tips/Tricks/Extra Thoughts__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

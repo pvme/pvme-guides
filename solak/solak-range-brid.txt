@@ -258,13 +258,53 @@ Phase 4 rotations assume that the player is intending to kill Solak without ente
 <https://youtu.be/PtAJ2mW_AQU> - Non Storm tank (DPS) by <@566570622725914625>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Preset** - $linkmsg_presets$
-⬥ **P1** - $linkmsg_p1$
-⬥ **P2** - $linkmsg_p2$
-⬥ **P3** - $linkmsg_p3$
-⬥ **Erethdor** - $linkmsg_elf$
-⬥ **P4** - $linkmsg_p4$
-⬥ **Examples** - $linkmsg_examples$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Preset__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Erethdor__",
+        "value": "[Link]($linkmsg_elf$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Examples__",
+        "value": "[Link]($linkmsg_examples$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

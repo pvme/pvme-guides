@@ -1,10 +1,10 @@
 **__Auto Attacks__ (Courtesy of <@781280949790572554>)**
-.tag:Intro
+.tag:intro
 Autos are separate from abilities and also have their own cooldown system separate from the Global Cooldown (GCD) system abilities are typically bound to.
 
 .
 > **__Cooldown__**
-.tag:Cooldown
+.tag:cooldown
 **__Brief Introduction__**
 ⬥ Generally speaking casting an ability will reset the auto's cooldown, and for channels each casted hit resets it.
 
@@ -523,17 +523,73 @@ T6: Ability
 .
 .img:https://i.imgur.com/6EErwTj.mp4
 .
-> **__Table of Contents__**
-⬥ **Introduction -** $linkmsg_Intro$
-⬥ **Cooldown -** $linkmsg_Cooldown$
-⬥ **Unexpected Abilities -** $linkmsg_Unexpected$
-⬥ **Adrenaline -** $linkmsg_Adren$
-⬥ **Damage -** $linkmsg_Damage$
-⬥ **Offing -** $linkmsg_Offing$
-⬥ **Clicking vs Auto Bind -** $linkmsg_ClickVsBind$
-⬥ **Application: Def. Autos -** $linkmsg_DefAutos$
-⬥ **Application: 4TAA -** $linkmsg_4TAA$
-⬥ **Application: 5TAA -** $linkmsg_5TAA$
-⬥ **Application: Dark Bow -** $linkmsg_Dbow$
-⬥ **Application: Stalling -** $linkmsg_Stalling$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Cooldown__",
+        "value": "[Link]($linkmsg_cooldown$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Unexpected Abilities__",
+        "value": "[Link]($linkmsg_Unexpected$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Adrenaline__",
+        "value": "[Link]($linkmsg_Adren$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Damage__",
+        "value": "[Link]($linkmsg_Damage$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Offing__",
+        "value": "[Link]($linkmsg_Offing$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Clicking vs Auto Bind__",
+        "value": "[Link]($linkmsg_ClickVsBind$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Application: Def. Autos__",
+        "value": "[Link]($linkmsg_DefAutos$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Application: 4TAA__",
+        "value": "[Link]($linkmsg_4TAA$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Application: 5TAA__",
+        "value": "[Link]($linkmsg_5TAA$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Application: Dark Bow__",
+        "value": "[Link]($linkmsg_Dbow$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Application: Stalling__",
+        "value": "[Link]($linkmsg_Stalling$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

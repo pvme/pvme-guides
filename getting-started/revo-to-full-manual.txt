@@ -98,8 +98,28 @@ https://i.imgur.com/Y6XWNaF.jpg
 .
 Setting up good keybinds video guide (Courtesy of <@158292421724209152>) https://www.youtube.com/watch?v=zn_y-_2giZg
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Why You Should Switch to Full Manual** - $linkmsg_comparison$
-⬥ **How to Transition from Revolution to Full Manual** - $linkmsg_transition$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Why You Should Switch to Full Manual__",
+        "value": "[Link]($linkmsg_comparison$)",
+		"inline": true
+      },
+	  {
+	    "name": "__How to Transition from Revolution to Full Manual__",
+        "value": "[Link]($linkmsg_transition$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

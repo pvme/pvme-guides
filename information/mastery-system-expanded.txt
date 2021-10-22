@@ -637,16 +637,68 @@ Range: <https://www.twitch.tv/videos/1078201313> by <@207623978720690176>
 *Note: The melee example is heavily sped up (watch at .25x).*
 
 .
-> **__Table of Contents__**
-⬥ <:aod:580167371365548042> <@&536406816980992032> - $linkmsg_aod$
-⬥ <:Araxxi:513213019543699466> <@&536564440431329281> - $linkmsg_rax$
-⬥ <:Nex:513213159071547395> <@&536754824830517268> - $linkmsg_nex$
-⬥ <:Seiryu:583430543321071626> <@&793544647804059668> - $linkmsg_ed1$
-⬥ <:BSD:583430542326759435> <@&793544828251275315> - $linkmsg_ed2$
-⬥ <:Ambassador:583430542809235458> <@&793545272068014111> - $linkmsg_ed3$
-⬥ <:raksha:789813907706478603> <@&785434303353454593> - $linkmsg_dino$
-⬥ <:karil:641696573272621086> <@&536406236988702750> - $linkmsg_rots$
-⬥ <:vorago:572867742613635082> <@&536399965728014336> - $linkmsg_rock$
-⬥ <:solak:580167371310891029> <@&536406300653912064> - $linkmsg_tree$
-⬥ <:Telos:513212949033123840> <@&536406282157031424> - $linkmsg_telos$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__AoD Master__",
+        "value": "[Link]($linkmsg_aod$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Araxxor Master__",
+        "value": "[Link]($linkmsg_rax$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Nex Master__",
+        "value": "[Link]($linkmsg_nex$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Temple of Aminishi Master__",
+        "value": "[Link]($linkmsg_ed1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Dragonkin Laboratory Master__",
+        "value": "[Link]($linkmsg_ed2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Shadow Reef Master__",
+        "value": "[Link]($linkmsg_ed3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Raksha Master__",
+        "value": "[Link]($linkmsg_dino$)",
+		"inline": true
+      },
+	  {
+	    "name": "__RotS Master__",
+        "value": "[Link]($linkmsg_rots$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Vorago Master__",
+        "value": "[Link]($linkmsg_rock$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Solak Grandmaster__",
+        "value": "[Link]($linkmsg_tree$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Telos Grandmaster__",
+        "value": "[Link]($linkmsg_telos$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

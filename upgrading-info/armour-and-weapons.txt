@@ -969,23 +969,98 @@ This is an example of a general PvM preparation preset used for:
 .
 .img:https://i.imgur.com/kyuCQUX.png
 .
-> **__Table of Contents__**
-⬥ **Armour** - $linkmsg_armour$
-⬥ **T70 Weapons** - $linkmsg_t70$
-⬥ **T75-T79 Weapons** - $linkmsg_t75$
-⬥ **T80-85 Weapons** - $linkmsg_t80$
-⬥ **T87-88 Weapons** - $linkmsg_t87$
-⬥ **T90 Weapons** - $linkmsg_t90$
-⬥ **T92 Weapons** - $linkmsg_t92$
-⬥ **T95 Weapons** - $linkmsg_t95$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Armour__",
+        "value": "[Link]($linkmsg_armour$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T70 Weapons__",
+        "value": "[Link]($linkmsg_t70$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T75-T79 Weapons__",
+        "value": "[Link]($linkmsg_t75$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T80-85 Weapons__",
+        "value": "[Link]($linkmsg_t80$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T87-88 Weapons__",
+        "value": "[Link]($linkmsg_t87$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T90 Weapons__",
+        "value": "[Link]($linkmsg_t90$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T92 Weapons__",
+        "value": "[Link]($linkmsg_t92$)",
+		"inline": true
+      },
+	  {
+	    "name": "__T95 Weapons__",
+        "value": "[Link]($linkmsg_t95$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Hex Weapons__",
+        "value": "[Link]($linkmsg_hex$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Special Weapons__",
+        "value": "[Link]($linkmsg_spec$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Shields and Defenders__",
+        "value": "[Link]($linkmsg_shields$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Jewellery__",
+        "value": "[Link]($linkmsg_jewellery$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Max/Comp Cape__",
+        "value": "[Link]($linkmsg_max$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Miscellaneous__",
+        "value": "[Link]($linkmsg_misc$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rune Pouch Setup__",
+        "value": "[Link]($linkmsg_pouch$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Essence of Finality Setup__",
+        "value": "[Link]($linkmsg_EoF$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Banking Preset__",
+        "value": "[Link]($linkmsg_startup$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-⬥ **Hex Weapons** - $linkmsg_hex$
-⬥ **Special Weapons** - $linkmsg_spec$
-⬥ **Shields and Defenders** - $linkmsg_shields$
-⬥ **Jewellery** - $linkmsg_jewellery$
-⬥ **Max/Comp Cape** - $linkmsg_max$
-⬥ **Miscellaneous** - $linkmsg_misc$
-⬥ **Rune Pouch Setup** - $linkmsg_pouch$
-⬥ **Essence of Finality Setup** - $linkmsg_EoF$
-⬥ **Banking Preset** - $linkmsg_startup$
-.

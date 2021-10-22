@@ -1,8 +1,8 @@
-> **__Dragonkin Laboratory (Courtesy of <@133391081109716992>)__**
+> **__Dragonkin Laboratory__ (Courtesy of <@133391081109716992>)**
+.tag:intro
 .img:https://imgur.com/EA7wP1w.png
 .
-> **__Introduction__**
-.tag:intro
+**__Introduction__**
 The second Elite Dungeon released, the Dragonkin Laboratory is a relatively straightforward encounter. Categorized as mid tier PvM, the encounter is useful for anyone wanting to learn how to deal with large mobs as well as bosses, combining aspects of single target and AoE damage.
 
 The three bosses of the Laboratory drop the Greater Flurry, Greater Fury and Greater Barge codices in the order that they appear, improving your Melee techniques vital to end-game PvM
@@ -356,14 +356,58 @@ This will occur 7 times before the boss becomes vulnerable again and continues t
 <https://youtu.be/rQDaUsbrbQM> - 14:38 by <@281823193742835714>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Monster Information** - $linkmsg_monsterinformation$
-⬥ **Section 1** - $linkmsg_section1$
-⬥ **Astellarn, the First Celestial** - $linkmsg_astellarn$
-⬥ **Section 2** - $linkmsg_section2$
-⬥ **Verak Lith** - $linkmsg_veraklith$
-⬥ **Section 3** - $linkmsg_section3$
-⬥ **Black Stone Dragon** - $linkmsg_blackstonedragon$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Monster Information__",
+        "value": "[Link]($linkmsg_monsterinformation$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 1__",
+        "value": "[Link]($linkmsg_section1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Astellarn, the First Celestial__",
+        "value": "[Link]($linkmsg_astellarn$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 2__",
+        "value": "[Link]($linkmsg_section2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Verak Lith__",
+        "value": "[Link]($linkmsg_veraklith$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 3__",
+        "value": "[Link]($linkmsg_section3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Black Stone Dragon__",
+        "value": "[Link]($linkmsg_blackstonedragon$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

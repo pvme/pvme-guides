@@ -228,11 +228,43 @@ Some base action bars are shown below
 *Note: This category is ordered loosely in priority of unlock.*
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Action Bars** - $linkmsg_bars$
-⬥ **Slayer Tips** - $linkmsg_tips$
-⬥ **Armours** - $linkmsg_armour$
-⬥ **Useful Items** - $linkmsg_items$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Action Bars__",
+        "value": "[Link]($linkmsg_bars$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Slayer Tips__",
+        "value": "[Link]($linkmsg_tips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Armours__",
+        "value": "[Link]($linkmsg_armour$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Useful Items__",
+        "value": "[Link]($linkmsg_items$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

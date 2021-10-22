@@ -6,7 +6,7 @@ This channel displays calculated gp/kill and related values for many commonly fa
 **__How to Use this Guide__**
 To calculate your expected gp/hr profits for a given boss, take the listed Gp/Kill total and multiply it by your kills per hour (kph). Meta farming kph have been provided to allow for comparison between boss.
 
-*Note: The numbers provided are strictly profit and do not take into account supply costs with the exception of Magister and Legiones where key costs have been accounted for.*
+*Note: The numbers provided do not take into account supply costs, with the exception of Magister and Legiones where key costs have been accounted for.*
 
 .
 > **__Nex, Angel of Death__**
@@ -278,25 +278,108 @@ Trio ($data_pvme:Bosses!B73$ kph) <:coins:698816156961603654> $data_pvme:Bosses!
 4 man ($data_pvme:Bosses!B74$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C74$
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **AoD** - $linkmsg_aod$
-⬥ **Araxxor** - $linkmsg_rax$
-⬥ **ED1** - $linkmsg_ed1$
-⬥ **ED2** - $linkmsg_ed2$
-⬥ **ED3** - $linkmsg_ed3$
-⬥ **Gregorovic** - $linkmsg_greg$
-⬥ **Helwyr** - $linkmsg_helwyr$
-⬥ **Twin Furies** - $linkmsg_twins$
-⬥ **Vindicta** - $linkmsg_vindi$
-⬥ **Kalphite King** - $linkmsg_kk$
-⬥ **Legiones** - $linkmsg_legio$
-⬥ **Magister** - $linkmsg_magi$
-⬥ **Nex** - $linkmsg_nex$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AoD__",
+        "value": "[Link]($linkmsg_aod$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Araxxor__",
+        "value": "[Link]($linkmsg_rax$)",
+		"inline": true
+      },
+	  {
+	    "name": "__ED1__",
+        "value": "[Link]($linkmsg_ed1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__ED2__",
+        "value": "[Link]($linkmsg_ed2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__ED3__",
+        "value": "[Link]($linkmsg_ed3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Gregorovic__",
+        "value": "[Link]($linkmsg_greg$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Helwyr__",
+        "value": "[Link]($linkmsg_helwyr$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Twin Furies__",
+        "value": "[Link]($linkmsg_twins$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Vindicta__",
+        "value": "[Link]($linkmsg_vindi$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Kalphite King__",
+        "value": "[Link]($linkmsg_kk$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Legiones__",
+        "value": "[Link]($linkmsg_legio$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magister__",
+        "value": "[Link]($linkmsg_magi$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Nex__",
+        "value": "[Link]($linkmsg_nex$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Raksha__",
+        "value": "[Link]($linkmsg_dino$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rise of the Six__",
+        "value": "[Link]($linkmsg_rots$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Solak__",
+        "value": "[Link]($linkmsg_tree$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Telos__",
+        "value": "[Link]($linkmsg_telos$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Vorago__",
+        "value": "[Link]($linkmsg_rock$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-⬥ **Raksha** - $linkmsg_dino$
-⬥ **Rise of the Six** - $linkmsg_rots$
-⬥ **Solak** - $linkmsg_tree$
-⬥ **Telos** - $linkmsg_telos$
-⬥ **Vorago** - $linkmsg_rock$
-.

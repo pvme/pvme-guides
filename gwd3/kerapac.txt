@@ -203,8 +203,8 @@ __**Phase 4 - Kerapac**__
 <:deci:535532879325822986> → <:cleave:535532878616985610> → <:gfury:535532879334080527> → <:timewarp:870328868815396914> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184> → <:deci:535532879325822986> → <:gfury:535532879334080527> → <:backhand:535532854302605333> → <:sgb:626466665848242186> <:eofspec:746403211908481184> (if not finished, should optimally end before)
 
 .
-> __**Video Examples**__
-.tag:vod
+> __**Example Kills**__
+.tag:example
 __**Trio Hard Mode**__
 <https://youtu.be/CU2_RlhmnQc> Range example by <@180422903395909632>
 <https://youtu.be/gLeTEBhZMHw> Melee example by <@622411926680633375>
@@ -272,15 +272,63 @@ This method will reliably allow you to get consistent Kerapac (NM) kills without
 **__Example Video__**
 https://www.youtube.com/watch?v=kSEaPH9HbaI
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Kerapac's Attack Rotation** - $linkmsg_kerapacrot$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Duo Hard Mode - Advanced Ranged** - $linkmsg_duohmrange$
-⬥ **Trio Hard Mode - Advanced Ranged** - $linkmsg_triohmrange$
-⬥ **Trio Hard Mode - Advanced Melee** - $linkmsg_triohmmelee$
-⬥ **Low Effort Normal Mode Kerapac** - $linkmsg_loweffort$
-⬥ **Video Examples** - $linkmsg_vod$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Kerapac's Attack Rotation__",
+        "value": "[Link]($linkmsg_kerapacrot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Duo Hard Mode - Advanced Ranged__",
+        "value": "[Link]($linkmsg_duohmrange$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Trio Hard Mode - Advanced Ranged__",
+        "value": "[Link]($linkmsg_triohmrange$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Trio Hard Mode - Advanced Melee__",
+        "value": "[Link]($linkmsg_triohmmelee$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Low Effort Normal Mode Kerapac__",
+        "value": "[Link]($linkmsg_loweffort$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -20,7 +20,6 @@ Each solo run of ED1 is worth <:coins:698816156961603654> $data_pvme:Bosses!E528
 .tag:presets
 .
 **__Notes__**
-
 ⬥ Two presets are required for the dungeon, this is due to Masuta's extremely hard hitting attacks and the intention of camping Soul Split <:soulsplit:615613924506599497>for your Eldritch Crossbow <:ecb:615618531937222657> <:spec:537340400273195028>
 ⬥ <:barrowsbbcoh:580176857123651584> has `Caroming 4 Equilibrium 2`
 ⬥ <:ascoh:513190159362031631> has `Flanking 4`
@@ -566,16 +565,68 @@ __**Crystal 3**__
 <https://youtu.be/o1Y_R-GW_iE> - 10:41 no grico example by <@376444800498401281>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Section 1** - $linkmsg_section1$
-⬥ **Section 2** - $linkmsg_section2$
-⬥ **Sanctum Guardian** - $linkmsg_sanctum$
-⬥ **Section 3** - $linkmsg_section3$
-⬥ **Section 4** - $linkmsg_section4$
-⬥ **Masuta, the Ascended** - $linkmsg_masuta$
-⬥ **Section 5** - $linkmsg_section5$
-⬥ **Seiryu, the Azure Serpent** - $linkmsg_seiryu$
-⬥ **Example Runs** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 1__",
+        "value": "[Link]($linkmsg_section1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 2__",
+        "value": "[Link]($linkmsg_section2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sanctum Guardian__",
+        "value": "[Link]($linkmsg_sanctum$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 3__",
+        "value": "[Link]($linkmsg_section3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 4__",
+        "value": "[Link]($linkmsg_section4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Masuta, the Ascended__",
+        "value": "[Link]($linkmsg_masuta$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 5__",
+        "value": "[Link]($linkmsg_section5$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Seiryu, the Azure Serpent__",
+        "value": "[Link]($linkmsg_seiryu$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Runs__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
