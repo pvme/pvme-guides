@@ -233,6 +233,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
         - This 75% cap is based off the damage after all other damage reductions such as deflect prayers (<:DeflectMelee:544195488447201300> / <:DeflectRange:544195488317046812> / <:DeflectMage:544195487926845462>) on the hit
     • Lasts 12 minutes
     • Does not reduce Resonance <:res:535541258844635148>/Divert <:divert:787904334377648130> Hp/adrenaline gain
+    • A calculator can be found here: <https://runescape.wiki/w/Calculator:Combat/Animate_Dead>
 
 .
 **__Basics__**
@@ -325,7 +326,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 ⬥ **Chain** <:chain:535533833056026624>
     • Cooldown: 17t (10.2s)
     • It is an AoE:
-        - Hits within a 6 square radius
+        - Hits within a 5 square radius from SW tile of initial target
         - Hits 3 targets, inclusive of main
     • It is affected by Caroming <:caroming4:791281588792590336>
         - Chain hits Caroming rank more targets
@@ -450,7 +451,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 **__Hit Timings__**
 Refer to this table for hit timings of each ability
 .
-.img:https://i.imgur.com/pKnij2q.png
+.img:https://i.imgur.com/eJzyYWU.png
 .
 *Notes:*
 ⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
@@ -820,15 +821,15 @@ This section will detail several switches that are useful for magic, and should 
 **__How it Works__**
 ⬥ The general 4TAA structure without Greater Concenterated Blast <:gconc:869285393223254107> will be like:
 ```
-Auto + 2H/DW Ability → non-channeled DW Ability → Repeat
+Auto + 2H/DW Ability → non-channeled DW Ability → (if DW Ability w/ Auto) Staff Swap → Repeat
 ```
 ⬥ The general 4TAA structure with gConc <:gconc:869285393223254107> will be:
 ```
-Auto + 2H/DW Ability → gConc → non-channeled DW Ability → Repeat
+Auto + 2H/DW Ability → gConc → non-channeled DW Ability → (if DW Ability w/ Auto) Staff Swap → Repeat
 
 OR
 
-Auto + gConc  → DW Ability → non-channeled DW Ability → Repeat
+Auto + gConc  → DW Ability → non-channeled DW Ability → Staff Swap → Repeat
 ```
 ⬥ The difference between having <:gconc:869285393223254107> and not having <:gconc:869285393223254107> are as follows:
     • Instead of generally autoing every 7 ticks, it is every 10 ticks
