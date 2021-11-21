@@ -1136,8 +1136,17 @@ __**General Phase Notes**__
         - Finishing this phase before Reflect, or even the first special attack is possible. These are known as 0 link and 0 spec phases respectively.
         - These strategies employ more aggressive rotations, which usually include the Bomb Tank skipping <:cade:535541306353778689> for a damage boosting ultimate. However, these strategies can be slower if the phase does not finish before Reflect.
 
-⬥ In addition, Vorago can inexplicably stall his attack rotation. There is no known cause.
-    • This occurs most frequently on Vitalis week, though this can happen on any week.
+⬥ List of stall durations:
+    • Vorago is pushed: 3 ticks
+    • Vorago pushes back (any source): 6 ticks 
+    • Vorago uses a special attack:
+        - Purple Bomb: 5 ticks
+        - Green Bomb: 10 ticks
+        - Teamsplit: 4 ticks
+        - Vitalis: 4 ticks
+
+⬥ Stall duration is overwritten by the most recent cause of stall.
+    • e.g. If Vorago throws a Green Bomb on tick 1, and Vorago is pushed on tick 2, Vorago will throw a blue bomb on tick 5. The push stall duration overwrites the Green Bomb stall duration.
 
 .
 ⬥ Because the arena is narrow, players must be careful about preventing AoE damage from Blue Bombs.
