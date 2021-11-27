@@ -136,7 +136,7 @@ https://youtu.be/0Y0JGMeLcmI
 .
 > **__NPC Centre and AoE__ (Courtesy of <@110810140445294592>, Mod Sponge, and <@175995416955977728>)**
 .tag:centre
-⬥ For all NPCs, there's two Attributes used as the center of the NPC: 
+⬥ For all NPCs, there's two Attributes used as the center of the NPC:
     • NPC Centre: This differs depends on the size of NPC.
         - Odd-sized (1x1, 3x3, 5x5...): This will always be the centre tile.
         - Even-Sized (2x2, 4x4, 6x6...): This will always be the first SW tile in that NPC's middle region.
@@ -167,7 +167,7 @@ https://youtu.be/0Y0JGMeLcmI
 **__Reliance on Arrow 1__**
 ⬥ Arrows 2-5+ scale their random damage as follows:
     • Based on the minimum hit of Arrow 1 after Precise perk <:p6:712073088769982475> is applied.
-    • I.e., after calculating most the damage using a diminishing multiplier on it. 
+        - I.e., after calculating most the damage using a diminishing multiplier on it.
     • Equilibrium perk <:eq4:712073088589627505> is applied as normal.
     • The diminishing multiplier is as follows:
 .
@@ -178,7 +178,7 @@ https://youtu.be/0Y0JGMeLcmI
 .
 **__Where Arrows 2-5 can Land__**
     • Choose random tile that is: Floor(Size / 2) away from NPC centre.
-        - This will be the center tile of the SGB Spec <:sgb:626466665848242186><:spec:537340400273195028> arrow landing zone. 
+        - This will be the center tile of the SGB Spec <:sgb:626466665848242186><:spec:537340400273195028> arrow landing zone.
         - It must be possible for the player to walk from this tile to the NPC's centre.
         - If the player can not walk from any of the tiles chosen randomly to the NPC centre, then the NPC Centre is used as a default.
     • Choose 4 random tiles in a 2 tile radius from the above tile
@@ -198,16 +198,18 @@ https://youtu.be/0Y0JGMeLcmI
 .img:https://i.imgur.com/Us84iTb.png
 .
 ⬥ SGB is only worth using on-style for 3x3+, and off-style for 5x5+
-⬥ Multi SGB Hits: 
-    • Each spec that hits within 2 ticks will get a normal Arrow 1 hit. 
-    • Arrows 2-5 can hit as normal and any arrows beyond those will continue to scale down linearly until their max hit is the same as their min hit.
+
+⬥ Multi SGB Hits:
+    • Each spec that hits within 2 ticks will get a normal Arrow 1 hit.
+        - Arrows 2-5 can hit as normal and any arrows beyond those will continue to scale down linearly until their max hit is the same as their min hit.
 
 ⬥ Crit chance for these is updated when they are "cast," i.e., after Arrow1 hits/3t after SGB cast.
+
 ⬥ IoTH makes arrow #1 hit with 100% accuracy, so remaining arrows can not splash.
 
 ⬥ SGB EoF <:sgb:626466665848242186> <:eofblue:780401412906680330> interactions:
     • Chin <:mechchin:641669268722810881> SGB: Acts as if you have SGBed N times, once per target affected by the Chin effect.
-    • Bakriminel bolts <:RubyBakri:565726489413287956> SGB: Only applied on first arrow. 
+    • Bakriminel bolts <:RubyBakri:565726489413287956> SGB: Only applied on first arrow.
 .
 > **__Boss Sizes for SGB__ (Courtesy of <@127417821817864192>)**
 .tag:sizes
@@ -294,6 +296,7 @@ https://youtu.be/kd9QpM12ckg
         - Cinderbanes+++   = 39.00%
 
 ⬥ Vulnerability <:Vuln:537349530551582720>, Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>, and Laniakea's Spear <:lanispear:839903893177106454> increase poison damage values, but prayers and damage boosting ultimates do not.
+
 .
 ⬥ **Cinderbane Gloves** <:Cinderbanes:513190158355660812>:
     • The gloves effectively ignore the 16 tick cooldown on poison damage, 12.5% chance of reapplication and refreshing the poison timer on the target.
@@ -301,20 +304,24 @@ https://youtu.be/kd9QpM12ckg
     • This effect also allows for poison to reapply itself, so each poison hitsplat has a 12.5% chance of dealing an extra poison hit and refreshing the timer.
         - With this considered, the effective application rate per hitsplat is ~14.3%
     • Even without consuming Weapon Poison, the gloves will apply poison damage as if Weapon Poison+ was in effect.
+
 .
 ⬥ **Kwuarm Incense Sticks** <:KwuarmSticks:565726489341984779>:
     • Per potency level, Kwuarm Incense Sticks will add a multiplicative damage increase of 2.5% to the player's final poison damage.
     • At maximum potency, this is a multiplicative 10% to poison damage.
     • This brings the range of Weapon Poison+++ with Cinderbane Gloves worn to 28.60-57.52%, or an average of 42.9% ability damage.
+
 .
 ⬥ **Laniakea's Spear** <:lanispear:839903893177106454>:
     • The application rate of poison is boosted by an additive 5%, increasing it to 17.5%.
         - When considering poison re-applying itself, this gives an effective application rate per hitsplat of ~21.2%, up from ~14.3%.
     • Poison damage is increased by a multiplicative 5%, similar to Kwuarm Incense Sticks.
+
 .
 ⬥ **Upgraded Bone Blowpipe**:
     • Poison damage is halved, but the application rate is doubled to 25%.
         - When considering poison re-applying itself, this gives an effective application rate per hitsplat of ~33.3%, up from ~14.3%.
+
 .
 ⬥ **Wyvern Crossbow** <:wyverncrossbow:580177522587729940>:
     • Applies its own "poison" damage separate from normal weapon poison.
@@ -322,8 +329,9 @@ https://youtu.be/kd9QpM12ckg
         - Hits every 2 ticks after application, up to 5 hits unless refreshed before the final hit.
         - When refreshed, the damage will increase and hit another 5 times.
         - Damage starts with a range of 10-24 per hit, and can climb up to 125-249 per hit.
-    • While this weapon doesn't directly influence the base damage or application rate of poison, the passive effect hits very rapidly and consistently. 
+    • While this weapon doesn't directly influence the base damage or application rate of poison, the passive effect hits very rapidly and consistently.
     • This allows for more chances for poison hits to occur.
+
 .
 ⬥ Poison can be applied/refreshed by **any player-sourced damage**. This includes:
     • Abilities (Includes every hit from bleeds/damage over time, including Sunshine & Death's Swiftness)
@@ -339,9 +347,9 @@ https://youtu.be/kd9QpM12ckg
     • Poison damage
     • Puncture bleeds
     • Reflect damage
-    • Wyvern Crossbow passive
-.
+    • Wyvern Crossbow passive.
 
+.
 > **__Zerk Auras and On-Cast Ult Interactions__ (Courtesy of <@781280949790572554>)**
 .tag:zerkAura
 ⬥ Sunshine, Death's Swiftness, and Berserk apply on yourself when you cast the ability.
@@ -361,7 +369,6 @@ https://youtu.be/kd9QpM12ckg
 ⬥ Refer to the wiki article on Ability Queueing to be more aware of all the ~~bugs~~ features it has:
 <https://runescape.wiki/w/Ability_queueing>
 .
-
 > **__Hex Modifier__** (Courtesy of <@99615618117935104>)
 .tag:hex
 **__What Is a Hex Modifier__**
