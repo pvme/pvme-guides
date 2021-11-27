@@ -1,36 +1,36 @@
 > **__Preventing Walked Onslaughts__**
 .tag:onscancel
-⬥ In order to prevent yourself from walking your Onslaught, simply hit an auto keybind before hitting your Onslaught keybind. 
+⬥ In order to prevent yourself from walking your Onslaught, simply hit an auto keybind before hitting your Onslaught keybind.
 ⬥ This will stop your movement and prevent you from walking and cancelling your Onslaught.
 
 .
 > **__Slow Hitting Abilities__ (Courtesy of <@ 222668864704610305> and <@ 130322872089575424>)**
 .tag:slow
-⬥ In RS, there are some abilities whose damage will go through one tick after they are activated, and some abilities whose damage will be delayed. 
+⬥ In RS, there are some abilities whose damage will go through one tick after they are activated, and some abilities whose damage will be delayed.
 ⬥ The latter are known as slow abilities, and are worth being aware of.
 
     • <:melee:615612332521029632> Abilities
         - <:quake:535532879506309150> (dw)<:assault:535532853979512842> <:meteorstrike:535532879359377439> <:dismember:535532879376023572> <:slaughter:535532879237873666> <:bd:535532854281764884> <:fury:535532879510372352> <:BloodTend:513190158431158274>
-        - <:cleave:535532878616985610> <:cane:535532878969438210> are slow if stalled.
+        - <:cleave:535532878616985610> <:cane:535532878969438210> are slow if stalled and drag in or click released.
 
     • <:Magic:689504724159823906> Abilities (Less than 5 tiles away)
         - <:comb:535533833098100745> <:corruptblast:513190159194259467> <:sonic:535533809924571136> and DW <:wm:535533809978966037> <:omni:535533809664262179>
         - Additionally, for auto attacks, all surge spells and all blitz spells will hit a tick slow.
         - <:sonic:535533809924571136> with DW (stalled) hits instantly from any distance.
 
-    • <:Magic:689504724159823906> Abilities (More than 5 tiles away)
-        Note: For the next abilities, they hit 1 slower when cast from the distance as mentioned (Melee tile is tile # 1)
-        - 5 tiles: <:wm:535533809978966037>
-        - 8 tiles: <:dbreath:535533833391702017> <:conc:535533833106489365> <:chain:535533833056026624> <:impact:535533809655873556> <:wrack:856662355952795658> <:deep:535533833139912724> <:asphyx:535533833072672778>
-  
-  • <:Ranged:689504724403486920> Abilities
+    • <:Magic:689504724159823906> Abilities (Greater than or equal to 5 tiles away)
+        Note: For the next abilities, they hit 1 tick slower when cast from the distance as mentioned (Melee tile is tile # 1)
+        - 5 tiles: (2H) <:wm:535533809978966037>, <:omni:535533809664262179>
+        - 8 tiles: <:dbreath:535533833391702017> <:conc:535533833106489365> <:chain:535533833056026624> <:impact:535533809655873556> <:wrack:856662355952795658> <:deep:535533833139912724> <:asphyx:535533833072672778>, <:tsunami:535533809995874304>
+ 
+    • <:Ranged:689504724403486920> Abilities
         - <:corruptshot:535541306294796299> <:frag:535541273755385885> <:piercing:535541258538450944> <:bindingshot:535541306563231790> <:tight:535541275957657600> <:needle:535541259108876293> <:dazing:535541307142307860> / <:mds:535541259033378827> <:snap:535534127131394088> <:rapid:535541270521708566> <:shadowtend:642713547142332416> <:incend:535541258429661215> <:stw:535541259109138463>
 
 .
 > **__Weapon Override Speeding Up Abilities__ (Courtesy of <@ !333479049680650241> & <@ 158293690001915904>)**
 .tag:hitspeed
 ⬥ Certain weapon types for Ranged can cause abilities that normally take 2 ticks to deal damage with a 2H Cbow/Bow or DW Cbow to only take 1 tick to deal damage.
-⬥ This depends on your distance from your target's true centre. 
+⬥ This depends on your distance from your target's true centre.
 ⬥ Slow abilities which are unaffected by overrides include: Needle <:needle:535541259108876293>, Binding <:bindingshot:535541306563231790>, and Tight Binding <:tight:535541275957657600>
 
 .
@@ -64,9 +64,7 @@
 .
 > **__Facing & Position Determination__ (Courtesy of <@ 110810140445294592>, <@ 712324334911225909>, and <@ !242039053841596418>)**
 .tag:faceposangle
-
 ⬥ **__Facing direction: Movement__**
-
     • While idle or in motion, the game determines the direction NPCs and PCs face depending on the previous tile.
     • Only 8 directions can be faced, regardless of what a NPC or PC model might look at.
     • The directions are North, North-east, East, South-east, South, South-west, West, North-west.
@@ -88,36 +86,34 @@
 ⬥ Bladed dive is affected by this significantly, read more below.
 .
 ⬥ **__Facing direction: Targeting__**
-
     • The direction a boss faces will be the tile its target is stood on.
     • Players will face their target's center, if:
-         - They acquire a new target by left clicking and Target Cycling.
-         - Using any ability, spell or special attack.
-         - For channelled abilities and within range of the target, You will face your target; otherwise you waill not cast the channel.
-         - Melee channeled abilities behave differently, they will cast from any range you have on your target and deal damage along the way.
+        - They acquire a new target by left clicking and Target Cycling.
+        - Using any ability, spell or special attack.
+        - For channelled abilities and within range of the target, You will face your target; otherwise you waill not cast the channel.
+        - Melee channeled abilities behave differently, they will cast from any range you have on your target and deal damage along the way.
 
 .
 ⬥ The image below explains NPC facing zones that are dependent on target movement.
     • Shark tiles are cardinal direction (North, South, West, East) tiles.
     • Lobster tiles are non-cardinal direction (Northwest, Northeast, Southwest, Southeast) tiles.
     • Tile with a character in the middle is the NPC's Center tile.
-    • Notice the offset in the SW region (bottom-left lobster pile). 
+    • Notice the offset in the SW region (bottom-left lobster pile).
 .
 .img:https://i.imgur.com/6z5YGvX.png
-
 .
 ⬥ **__Flanking Implications__**
     • Flanking can only activate if:
         - You are standing no more tiles in one direction relative to the center tile.
         - This direction is what the NPC is facing.
-        - Walk-under flanking works because of these conditions being met. 
+        - Walk-under flanking works because of these conditions being met.
 .
 .img:https://i.imgur.com/tvao5QX.png
 .
     • In the above image, the boss is facing South, and your character is is stood in the same direction but further south. No flanking.
 .
     • One exception occurs when your target is facing a non-cardinal direction:
-	- If you can draw a straight line from your position to the NPC's 
+        - If you can draw a straight line from your position to the NPC's
 .
 .img:https://i.imgur.com/dkMhMtp.png
 .
@@ -128,11 +124,9 @@
 .tag:bd
 
 ⬥ **__Bladed Dive Angle__**
-
-    • After using Bladed Dive it will leave your character facing a consistent direction. 
-    • It's important to be comfortable with this so you can Bladed Dive → Surge and move in a predictable manner. 
+    • After using Bladed Dive it will leave your character facing a consistent direction.
+    • It's important to be comfortable with this so you can Bladed Dive → Surge and move in a predictable manner.
     • See this graphic for more information (Courtesy of <@ 76883062381621248>):
-
 .
 .img:https://i.imgur.com/ODMwLfr.png
 
@@ -143,13 +137,12 @@
 
 .
 .img:https://i.imgur.com/nN90Hp6.png
-
 .
 > **__Freedom Autos__ (Courtesy of <@ 425520655920791553>)**
 .tag:freedom
-⬥ Freedom is unique in the respect that it can be used to force an offhand auto as well as a 2h auto within 3t. 
+⬥ Freedom is unique in the respect that it can be used to force an offhand auto as well as a 2h auto within 3t.
 ⬥ This has many uses like:
-    • Freedom Vuln: using vuln instead of the offhand auto loses less damage than if you were to do it in place of a 2h auto. 
+    • Freedom Vuln: using vuln instead of the offhand auto loses less damage than if you were to do it in place of a 2h auto.
     • Accelerated adren gain because you also get adren from 2 autos.
 ⬥ Mage: It's usually easier to time, and also often beneficial to do it immediately after a 2h abil, as this means the 2h auto comes at the same time as your next ability.
 ⬥ You do the following:
@@ -168,10 +161,10 @@ Tick 6: Click auto → abil```
 Tick 3: Activate freedom
 Tick 4: Equip 2h
 Tick 6: Activate abil```
-
 .
-⬥ You can see a clip of this here: https://youtu.be/YydKrY05Kc8
-
+⬥ You can see a clip of this here:
+.
+https://youtu.be/YydKrY05Kc8
 .
 ⬥ It's worth noting that if you're maging and freedom after a dual wield ability, to avoid losing autos you have to do a dual wield ability immediately after as well. Consider:
 ```any abil → dw abil → freedom (oh + 2h auto) → dw abil → auto + staff abil
@@ -186,27 +179,27 @@ staff abil → freedom (oh + 2h auto) → any abil → dw abil → auto + staff 
 .
 > **__Forcing an Auto with Defensives__**
 .tag:defensiveautos
-⬥ When using a defensive, an auto attack will be fired. 
+⬥ When using a defensive, an auto attack will be fired if the auto is off cooldown.
 ⬥ When using <:Magic:689504724159823906>, this auto attack can be changed from a normal auto into a utility spell, such as <:Vuln:537349530551582720> or <:ent:567727987274022924>.
 ⬥ This is done by pressing the keybind for <:Vuln:537349530551582720> or <:ent:567727987274022924>, followed by the keybind for <:freedom:535541258240786434>, <:anti:535541306475151390>, <:res:535541258844635148>, or <:prep:535541258546970624>.
 
 .
 > **__Switching Weapons during Detonate__ (Courtesy of <@ 185315527571406848>)**
 .tag:detoswitch
-⬥ During the detonate channel, it is possible to switch weapons without Detonate being released. 
-⬥ It is also possible to channel shield dome inside detonate, provided detonate is pressed first. 
-⬥ This will cost the auto on detonate release, but is situationally useful at Vorago. 
+⬥ During the detonate channel, it is possible to switch weapons without Detonate being released.
+⬥ It is also possible to channel shield dome inside detonate, provided detonate is pressed first.
+⬥ This will cost the auto on detonate release, but is situationally useful at Vorago.
 ⬥ It is also worth noting that it's possible to Spellbook Swap in deto, allowing for a vuln release.
+.
 https://youtu.be/OxXEWwHODwQ
-
 .
 > **__Shield Dome Detonate__**
 .tag:detodome
-⬥ In certain cases, most notably at Vorago, it is beneficial to be in shield dome while channelling detonate. 
+⬥ In certain cases, most notably at Vorago, it is beneficial to be in shield dome while channelling detonate.
 ⬥ This is done by channelling detonate, then channelling shield dome.
 ⬥ This will result in a lost auto, but can be prevented by sipping a super restore or an overload salve to cancel the shield dome.
+.
 https://youtu.be/wxoyeMobO_o
-
 .
 > **__Dragon Battleaxe Spec__** <:DBA:603979368850653216> (Courtesy of <@ 110810140445294592>)
 .tag:dbaxe
@@ -227,7 +220,7 @@ https://youtu.be/wxoyeMobO_o
     • Accuracy debuff is not detrimental.
     • Enough downtime to reobtain your full adren bar. Downtime includes:
         - Time where you cant deal any damage at all (ex: Taraket intermission phases).
-        - Time where the damage you do is not priority damage (ex: The Ambassador spinners). 
+        - Time where the damage you do is not priority damage (ex: The Ambassador spinners).
     • Speed Kills: at adrenaline crystal in War's Retreat (PvM Hub).
 
 .
@@ -321,7 +314,7 @@ Slowest Auto → no tick loss, 9 tick loss
 	    "name": "__Dragon Battleaxe Spec__",
         "value": "[Link]($linkmsg_dbaxe$)",
 		"inline": true
-      }, 
+      },
 	  {
 	    "name": "__Back-to-Back Special Attacks__",
         "value": "[Link]($linkmsg_b2bSpec$)",
