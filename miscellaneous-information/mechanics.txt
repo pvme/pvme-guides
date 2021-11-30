@@ -1,21 +1,28 @@
 > **__Target Cycling__**
 .tag:tc
-⬥ **__Keybind NPC Targetting__**
-    • Targeting settings can be found under the Combat Tab in the Settings Interface and includes the situationally useful Cycle Target keybinds.
-    • This function allows you to select a target procedurally based on whether you set the targeting mode to Radial or Conal.
-    • **Radial targeting:**
-        - Cycles from the nearest to the farthest target from the player when pressed.
-        - In the case of multiple equidistant targets, it will cycle clockwise starting from the north.
-        - This is useful for simply snapping to the closest target available.
-    • **Conal Targeting:**
-        - Cycles from the closest to the farthest target in the direction the camera is facing.
-        - The angle for an NPC to be considered eligible for selection is around 75-90°.
-        - This is most useful for more precise targeting in scenarios with multiple NPCs around.
-    • It is very useful for improving consistency and speed in nearly all boss encounters.
-    • A notable advantage of target cycle is that Detonate is not cancelled upon selecting a new target before release.
-        - Without target cycle if you wished to do this you would have to click and release on same tick to not lose Detonate
+**__Keybind NPC Targetting__**
+⬥ Targeting settings can be found under the Combat Tab in the Settings Interface and includes the situationally useful Cycle Target keybinds.
 .
 .img:https://i.imgur.com/Apqq3Th.png
+.
+⬥ This function allows you to select a target procedurally based on whether you set the targeting mode to Radial or Conal.
+
+⬥ **Radial targeting:**
+    • Cycles from the nearest to the farthest target from the player when pressed.
+    • In the case of multiple equidistant targets, it will cycle clockwise starting from the north.
+    • This is useful for simply snapping to the closest target available.
+
+⬥ **Conal Targeting:**
+    • Cycles from the closest to the farthest target in the direction the camera is facing.
+    • The angle for an NPC to be considered eligible for selection is around 75-90°.
+    • This is most useful for more precise targeting in scenarios with multiple NPCs around.
+
+.
+**__Why it is Useful__**
+⬥ It is very useful for improving consistency and speed in nearly all boss encounters.
+⬥ A notable advantage of target cycle is that Detonate is not cancelled upon selecting a new target before release.
+    • Without target cycle if you wished to do this you would have to click and release on same tick to not lose Detonate
+
 .
 __**Notable Applications**__
 ⬥ **The Shadow Reef**
@@ -86,44 +93,48 @@ __**Notable Applications**__
 .
 > **__Walking Bosses__ (Courtesy of <@236955913859104778>)**
 .tag:walking
-⬥ **__Moving NPCs__**
-    • In RS, bosses only walk East, West, or South (never North). The direction they walk is random at first, but they will always walk in that direction afterwards.
-    • Hitting a wall changes walking behavior in the following ways:
-        - East-walking boss will turn west
-        - West-walking boss will turn south
-        - South-walking boss will turn either east or west.
-        - The Araxxor Walking Guide demonstrates this behavior:
+**__Moving NPCs__**
+⬥ In RS, bosses only walk East, West, or South (never North). The direction they walk is random at first, but they will always walk in that direction afterwards.
+⬥ Hitting a wall changes walking behavior in the following ways:
+    • East-walking boss will turn west
+    • West-walking boss will turn south
+    • South-walking boss will turn either east or west.
+    • The Araxxor Walking Guide demonstrates this behavior:
 .
 https://youtu.be/A_6ah7GF_1k
 .
-⬥ **__Applications__**
-    • The simplest of these includes walking a bleed such as Combust <:comb:535533833098100745>, Fragmentation Shot <:frag:535541273755385885>, or Slaughter <:slaughter:535532879237873666>.
+**__Applications__**
+⬥ The simplest of these includes walking a bleed such as Combust <:comb:535533833098100745>, Fragmentation Shot <:frag:535541273755385885>, or Slaughter <:slaughter:535532879237873666>.
     • Below is a demonstation of this (Courtesy of <@287398612558675968>):
 .
 https://youtu.be/0Y0JGMeLcmI
 .
-    • Advanced version: Use a bleed and then immediately Surge <:surge:535533810004262912> to go under the boss and Bladed Dive <:bd:535532854281764884> to get back all within a GCD.
-        - This allows you to double bleed damage against bosses when you aren't MD.
-    • Reposition a boss: Fixing base spot on P2 Vorago, moving Vorago out of green bomb mists, and moving Telos out of beams.
-    • Most bosses move at 2 squares per tick, just like players' characters.
-        - Bosses that you don’t want to walk, should be moved an even number of squares to prevent unwanted movement.
+⬥ Advanced version: Use a bleed and then immediately Surge <:surge:535533810004262912> to go under the boss and Bladed Dive <:bd:535532854281764884> to get back all within a GCD.
+    • This allows you to double bleed damage against bosses when you aren't MD.
+⬥ Reposition a boss: Fixing base spot on P2 Vorago, moving Vorago out of green bomb mists, and moving Telos out of beams.
+⬥ Most bosses move at 2 squares per tick, just like players' characters.
+    • Bosses that you don’t want to walk, should be moved an even number of squares to prevent unwanted movement.
 
 .
 > **__Manual Spell Casting__ (Courtesy of <@133391081109716992>, <@150675804596994048> and <@110810140445294592>)**
 .tag:manualspellcasting
+**__Where to Find it__**
+⬥ Manual spell casting toggle can be found in the combat settings:
 .
 .img:https://i.imgur.com/e678FYp.png
 .
+**__What it Does and Why it is Useful__**
 ⬥ Magic auto attacks deal damage based on the spell your weapon is set to.
-⬥ The Surge <:AirSurge:543465115870035999>, Aurora <:RubyAurora:574292444791963659>, and Barrage <:bloodbarrage:537338981747261446> spells deal damage scaling up to T99 while other spells are capped at a lower tier.
+    • The Surge <:AirSurge:543465115870035999>, Aurora <:RubyAurora:574292444791963659>, and Barrage <:bloodbarrage:537338981747261446> spells deal damage scaling up to T99 while other spells are capped at a lower tier.
 
-⬥ Manual spell casting toggle can be found in the combat settings.
-⬥ This toggle makes it so that the autocast spell that the player's weapon is set to does not change even if they attack with a different spell.
-⬥ Without this toggle, Using Ice blitz <:iceblitz:535613865912696883>, while autocast is set to Blood Barrage <:bloodbarrage:537338981747261446> becomes Ice Biltz<:iceblitz:535613865912696883> autocast, which is capped at T92 damage
-    • With manual spell casting toggled, the autocast spell stays locked on Blood Barrage <:bloodbarrage:537338981747261446>:
-        - Holds damage done to Blood Barrage <:bloodbarrage:537338981747261446> damage even if a lower damaging spell is manually casted.
+⬥ Enabling manual spell casting makes it so that the autocast spell that the player's weapon is set to does not change even if they attack with a different spell.
+
+⬥ Without manual spell casting enabled, Using Ice blitz <:iceblitz:535613865912696883>, while autocast is set to Blood Barrage <:bloodbarrage:537338981747261446>, results in Ice Biltz <:iceblitz:535613865912696883> becoming the autocast, which is capped at T92 damage
+    • With manual spell casting toggled on, the autocast spell remains Blood Barrage <:bloodbarrage:537338981747261446>:
+        - Holds damage done to Blood Barrage <:bloodbarrage:537338981747261446> damage even if a lower damaging spell is casted.
         - This is due to magic ability damage being based on the current autocast spell, not the spell the player last attacked with.
-        - This is useful for players that are using the Fractured Staff of Armadyl <:soa:869284271595069451> as the damage is reduced from T95 to T92.
+        - This is useful for players that are using the Fractured Staff of Armadyl <:soa:869284271595069451> as otherwise the damage is reduced from T95 to T92.
+
 .
 ⬥ On the normal spellbook, the player can manually cast Air Strike <:airstrike:895600427930910730> instead of Air Surge <:AirSurge:543465115870035999>, reducing Air rune costs by 4 per cast.
 
@@ -138,29 +149,36 @@ https://youtu.be/0Y0JGMeLcmI
 .
 > **__NPC Centre and AoE__ (Courtesy of <@110810140445294592>, Mod Sponge, and <@175995416955977728>)**
 .tag:centre
+**__NPC Centre and NPC Coordinate__**
 ⬥ For all NPCs, there's two Attributes used as the center of the NPC:
     • NPC Centre: This differs depends on the size of NPC.
         - Odd-sized (1x1, 3x3, 5x5...): This will always be the centre tile.
         - Even-Sized (2x2, 4x4, 6x6...): This will always be the first SW tile in that NPC's middle region.
     • NPC Coordinate: This will always be the most SW tile of that NPC.
+
 ⬥ Below image show cases all the NPC Centre tiles and NPC Coordinate tiles:
 .
 .img:https://i.imgur.com/53FBsUZ.png
 . 
-⬥ Abilities that use NPC coordinate as the point of Origin:
-    • <:Magic:689504724159823906> Magic: Corruption blast <:corruptblast:513190159194259467>, Chain <:chain:535533833056026624>, Greater Chain <:gchain:787904334495088672>, Detonate <:deto:535533833358016512>, and all Bursts<:iceburst:841419289797197824>/Barrages<:icebarrage:537340400185245701>.
-    • <:range:580168050121113623> Ranged: Corruption Shot <:corruptshot:535541306294796299>, Ricochet<:ricochet:535541259566186521>, Greater ricochet<:grico:787904334812807238>, Bombardment<:bombard:535541306391265284>, and Incendiary Shot<:incend:535541258429661215>.
-    • All abilities and auto-attacks of Mechanized Chinchompas <:mechchin:641669268722810881>.
+**__Abilities that use NPC Coordinate as the Point of Origin:__**
+⬥ <:Magic:689504724159823906> **Magic:**
+Corruption blast <:corruptblast:513190159194259467>, Chain <:chain:535533833056026624>, Greater Chain <:gchain:787904334495088672>, Detonate <:deto:535533833358016512>, and all Bursts and Barrages <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>.
+
+⬥ <:range:580168050121113623> **Ranged:**
+Corruption Shot <:corruptshot:535541306294796299>, Ricochet<:ricochet:535541259566186521>, Greater ricochet<:grico:787904334812807238>, Bombardment<:bombard:535541306391265284>, and Incendiary Shot<:incend:535541258429661215>.
+
+⬥ All abilities and auto-attacks of Mechanized Chinchompas <:mechchin:641669268722810881>.
+
 .
-    • Below picture shows the Detonate <:deto:535533833358016512> crosshairs are on NPC Coordinate tile, meaning the Dragon north of it will not be hit.
+⬥ Below picture shows the Detonate <:deto:535533833358016512> crosshairs are on NPC Coordinate tile, meaning the Dragon north of it will not be hit.
 .
 .img:https://i.imgur.com/cPreXnV.png
 .
-    • Below picture shows crosshairs are perfectly aligned to hit both dragons.
+⬥ Below picture shows crosshairs are perfectly aligned to hit both dragons.
 .
 .img:https://i.imgur.com/7JT4mVE.png
 .
-    • Here is a general diagram showcasing the above visuals in the context of a 3x3 AoE being used:
+⬥ Here is a general diagram showcasing the above visuals in the context of a 3x3 AoE being used:
 .
 .img:https://i.imgur.com/D4A5eC2.png
 .
@@ -175,23 +193,32 @@ https://youtu.be/0Y0JGMeLcmI
 .
 .img:https://i.imgur.com/hwUELED.png
 .
-⬥ Ammunition with secondary effects, such as Blackstone Arrows :blackstonearrow:, also only proc/apply on Arrow 1.
-    • Deathspore arrows will apply for each calculated critical hit.
+⬥ Ammunition with secondary effects, such as Blackstone arrows <:blackstonearrow:785031580149743617>, also only proc/apply on Arrow 1.
+    • Deathspore arrows <:deathsporearrows:900758234527301642> will apply for each calculated critical hit.
 .
 **__Where Arrows 2-5 can Land__**
-    • Choose random tile that is: Floor(Size / 2) away from NPC centre.
-        - This will be the center tile of the SGB Spec <:sgb:626466665848242186><:spec:537340400273195028> arrow landing zone.
-        - It must be possible for the player to walk from this tile to the NPC's centre.
+1) Determine NPC's center
+    a) The actual centre tile for odd sizes
+    b) SW tile of the middle 2x2 area for even sizes
+
+2) Choose a random tile that is: Floor(Size / 2) away from NPC centre.
+    a) This will be the center tile of the SGB Spec <:sgb:626466665848242186> <:spec:537340400273195028> arrow landing zone.
+    b) It must be possible for the player to walk from this tile to the NPC's centre.
         - If the player can not walk from any of the tiles chosen randomly to the NPC centre, then the NPC Centre is used as a default.
-    • Choose 4 random tiles in a 2 tile radius from the above tile
-        - If an arrow chooses to land on a tile already chosen by a previous arrow, it will reroll its choice up to 10 times.
-    • Diagram from Mod Pi visualizing this:
+
+3) Choose 4 random tiles in a 2 tile radius from the above tile
+    • If an arrow chooses to land on a tile already chosen by a previous arrow, it will reroll its choice up to 10 times.
+
+.
+⬥ Diagram from Mod Pi visualizing this:
 .
 .img:https://i.imgur.com/OOMssns.png
 .
 **__What Blocking Is__**
 ⬥ A blocked NPC is an NPC where the player is unable to reach the NPC centre tile.
-⬥ The area covered by the SGB Spec <:sgb:626466665848242186><:spec:537340400273195028> is as shown above is a 5x5 area.
+
+⬥ The area covered by the SGB Spec <:sgb:626466665848242186> <:spec:537340400273195028> is as shown above is a 5x5 area.
+
 ⬥ So, NPCs size 5x5 or bigger and are blocked will have all subsequent arrows land 100% of the time if the first arrows lands.
 .
 **__Practical Applications of This Info__**
@@ -205,19 +232,24 @@ https://youtu.be/0Y0JGMeLcmI
     • Each spec that hits within 2 ticks will get a normal Arrow 1 hit.
         - Arrows 2-5 can hit as normal and any arrows beyond those will continue to scale down linearly until their max hit is the same as their min hit.
 
-⬥ Crit chance for these is updated when they are "cast," i.e., after Arrow1 hits/3t after SGB cast.
+⬥ Crit chance for these is updated when they are "cast," i.e., after Arrow 1 hits/3t after SGB cast.
 
-⬥ IoTH makes arrow #1 hit with 100% accuracy, so remaining arrows can not splash.
+⬥ Ingenutiy of the Humans <:ingen:641339234111848463>  makes Arrow 1 hit with 100% accuracy, so the remaining arrows can not splash.
+    • This is because normally if you <:sgb:626466665848242186> <:spec:537340400273195028>, if Arrow 1 hits, Arrows 2-5 do not splash
 
-⬥ SGB EoF <:sgb:626466665848242186> <:eofblue:780401412906680330> interactions:
-    • Chin <:mechchin:641669268722810881> SGB: Acts as if you have SGBed N times, once per target affected by the Chin effect.
-    • Bakriminel bolts <:RubyBakri:565726489413287956> SGB: Only applied on first arrow.
+.
+**__SGB EoF <:sgb:626466665848242186> <:eofblue:780401412906680330> interactions:__**
+⬥ **Chin <:mechchin:641669268722810881> SGB:**
+    • Acts as if you have SGBed N times, once per target affected by the Chin effect.
+⬥  **Bakriminel bolts <:RubyBakri:565726489413287956> SGB:**
+    • As mentioned, these are determined on cast, so only Arrow 1 can proc them
+        - But if it affects Arrow 1's hit directly (e.g., Ruby <:RubyBakri:565726489413287956> / Onyx <:OnyxBakri:565726489362956308>) it will also affect Arrows 2-5's damage as described earlier
+
 .
 > **__Boss Sizes for SGB__ (Courtesy of <@127417821817864192>)**
 .tag:sizes
 **__List__**
-⬥ For a full list of all NPC sizes, see the NPC Bestiary: <https://chisel.weirdgloop.org/bestiary/bestiary.json>*
-
+*Note: Only bosses where it is worth using SGB have been included (3x3 and larger). 5x5+ Blocked targets are guaranteed to be hit with 5 arrows*
 ⬥ **The Ambassador (ED3) **- 3x3
 ⬥ **Araxxor/Araxxi** - 5x5 (Araxxi is blocked)
 ⬥ **Astellarn (ED2)** - 5x5 (blocked)
@@ -250,16 +282,21 @@ https://youtu.be/0Y0JGMeLcmI
 ⬥ **Vindicta **- 3x3 (5x5 with Gorvek)
 ⬥ **Vorago** - 5x5 (blocked on p5/10/11 and during "The End" spin)
 ⬥ **Yakamaru** - 5x5 (blocked)
+
+⬥ For a full list of all NPC sizes, see the NPC Bestiary: <https://chisel.weirdgloop.org/bestiary/bestiary.json>*
 .
 > **__How Adren Gaining Without a Target Works__ (Courtesy of <@236955913859104778>)**
 .tag:adrengain
 **__Stalling Adrenaline__**
 ⬥ After doing your last damaging ability on an NPC, you can use any abilities to gain adren for then next 10 seconds.
+
 ⬥ After 10 seconds, you will only be able to gain adren for 1 defensive basic for every 10 seconds.
+
 ⬥ The following abilities do not affect or reset this “cooldown”:
     • Non-defensive abilities that do not require a target (Surge <:surge:535533810004262912>, Escape <:escapecodex:602561894443778115>, and Bladed Dive <:bd:535532854281764884>)
     • Defensive thresholds (these will always take 15 adren unless you lose target, and their use does not affect the CD)
     • Ultimates that do not require a target.
+
 ⬥ An example showcasing the latter (ultimates not affecting this cooldown):
 .
 .img:https://i.imgur.com/kq3890N.mp4
@@ -367,39 +404,47 @@ https://youtu.be/kd9QpM12ckg
 .
 ⬥ The ability rotation being done is: <:zerk:535532854004678657> → <:barge:535532853916860437> → <:flankicon:841419289755385866> <:backhand:535532854302605333> → <:freedom:535541258240786434> → <:assault:535532855191928842> → (4-hit) <:destroy:535532879330148352> → (3-hit) <:gflurry:535532879283879977> → <:deci:535532879325822986> → <:gfury:535532879334080527> → <:flankicon:841419289755385866> <:backhand:535532854302605333>
     • Clearly the last flank Backhand did not go off inside your berserk even though it was queued at that point.
-    • Simply cast the last ability on tick as your GCD comes back and you are in last tick of your ultimate ability to fix this.
-⬥ Refer to the wiki article on Ability Queueing to be more aware of all the ~~bugs~~ features it has:
-<https://runescape.wiki/w/Ability_queueing>
+    • To resolve this either do not queue the ability that will be casted on the last tick of your ultimate, or turn of ability queueing
+
 .
 > **__Hex Modifier__** (Courtesy of <@99615618117935104>)
 .tag:hex
 **__What Is a Hex Modifier__**
 ⬥ This refers to the passive effect of the Hexhunter bow <:hexhunterbow:581180369911414794>, Terrasaur maul <:terramaul:602561894829522954>, and Inquisitor staff <:inquisitorstaff:694566917553520680>.
-⬥ The modifier is commonly just called "Hex" because the <:hexhunterbow:581180369911414794> was the first weapon released with this effect.
+    • The modifier is commonly just called "Hex" because the <:hexhunterbow:581180369911414794> was the first weapon released with this effect.
 
 .
 **__What Is the Passive Effect__**
 ⬥ When active, it provides +12.5% ability damage and +10% hit chance.
+
 ⬥ This damage increase applies to all abilities and auto attacks, but not to poison, Aftershock <:as4:712074245202772009>, or Crackling <:crack4:712073087662686249> procs.
+
 ⬥ The hit chance increase is a flat +10% over typical T80 weapon hit chance values before the effects of DBA <:DBA:603979368850653216> and Reaver's Ring <:reaverring:839903943018283050> are considered.
 
 .
 **__When is the Effect Active__**
 ⬥ To receive the buffs, you must be against a target whose main attack style is weak to your weapon's style (based on the combat triangle).
+
 ⬥ If you don't see a debuff icon under your target's health bar indicating it is susceptible to your weapon, you are effectively using a normal T80 weapon.
 
 .
 **__What Does This all Mean__**
 ⬥ Expect to see a ~4.8%/3.4%/1.4% damage increase over T90/T92/T95 weapons, provided you aren't losing any hits due to the lower accuracy.
+
 ⬥ It is a common misconception that the weapons have T97 damage and accuracy
+
 ⬥ This is only a theoretical effective tier for their damage and is only true with sufficient level boosts and equipment bonuses.
+
 ⬥ The hit chance is typically slightly above that of a T90 weapon, but because it is a flat hit chance increase, this scales up as the target's armour increases.
+
 .
 **__Useful Links__**
 ⬥ For damages make a copy of the Ability damage sheet then customize to your liking:
 <https://docs.google.com/spreadsheets/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0/>
+
 ⬥ For hitchances make a copy of the Hit chance calculator then customize it to your liking:
 <https://docs.google.com/spreadsheets/d/1X0GwTMCpCW5plaV0Gdvgw_glPlj-y-UBDiKjHmTkGBM/edit#gid=1250242134>
+
 ⬥ For a list of susceptible things refer to:
     • For <:hexhunterbow:581180369911414794> <https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow>
     • For <:terramaul:602561894829522954> <https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul>
@@ -410,20 +455,28 @@ https://youtu.be/kd9QpM12ckg
 .tag:grimshaw
 **__Obtaining both pocket slot's benefits__**
 ⬥ It is possible to obtain the boosts of Erethdor's Grimoire at the same time as a Scrimshaw.
-⬥ This can result in roughly a 6% increase in damage across the course of an entire rotation, but will significantly increase the amount of inputs.
-⬥ This happens because critical hits are rolled on cast, while modifiers like scrimshaws are calculated on hit.
-⬥ Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a single tick):
-⬥ [Have Active Grimoire <:grim2:643168158613504031> + Staff Equipped <:inquisitorstaff:694566917553520680>] → [ <:bloodblitz:535616247807868938> → Ability → Equip and activate Scrimshaw]  → [Equip and Activate Grimoire <:grim2:643168158613504031>]
-⬥ [Have Active Grimoire <:grim2:643168158613504031> + DW Equipped <:praeswand:643166769518739477> <:impercore:643166751067996160>] → [Ability → Equip and activate Scrimshaw]  → [Equip and Activate Grimoire <:grim2:643168158613504031> + Equip Staff <:inquisitorstaff:694566917553520680>]
-⬥ Demonstration: https://youtu.be/M65xdRYYxJ4
 
+⬥ This can result in roughly a 6% increase in damage across the course of an entire rotation, but will significantly increase the amount of inputs.
+
+⬥ This happens because critical hits are rolled on cast, while modifiers like scrimshaws are calculated on hit.
+
+⬥ Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a single tick):
+
+⬥ [Have Active Grimoire <:grim2:643168158613504031> + Staff Equipped <:inquisitorstaff:694566917553520680>] → [ <:bloodblitz:535616247807868938> → Ability → Equip and activate Scrimshaw]  → [Equip and Activate Grimoire <:grim2:643168158613504031>]
+
+⬥ [Have Active Grimoire <:grim2:643168158613504031> + DW Equipped <:praeswand:643166769518739477> <:impercore:643166751067996160>] → [Ability → Equip and activate Scrimshaw]  → [Equip and Activate Grimoire <:grim2:643168158613504031> + Equip Staff <:inquisitorstaff:694566917553520680>]
+
+⬥ Demonstration:
+.
+https://youtu.be/M65xdRYYxJ4
 .
 > **__Instance Hopping__ (Courtesy of <@287398612558675968>)**
 .tag:inshopp
 **__Why is it Useful__**
 ⬥ Basis: kill boss → pick loot if worth it → quickly leave instance → re-join instance → repeat
-⬥ Comparison of waiting for spawn time x instance hopping: https://youtu.be/O-Lb93vFRAI
-
+⬥ Comparison of waiting for spawn time x instance hopping:
+.
+https://youtu.be/O-Lb93vFRAI
 .
 > **__Camera Shaking Toggle__ (Courtesy of <@216433706343202816>)**
 .tag:shake
