@@ -22,8 +22,8 @@ Fastest (4t/2.4s)
 *Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
 
 .
-**__How Cooldowns Work with Melee and Magic__**
-⬥ For Melee and Magic it is best to think of the auto cooldown system as one where the cooldowns set overlap, and only when all these overlapping cooldowns end can you cast an auto.
+**__How Cooldowns Work__**
+⬥ It is best to think of the auto cooldown system as one where the cooldowns set overlap, and only when all these overlapping cooldowns end can you cast an auto.
 
 .
 Let us look at a couple scenarios and talk about why they would or would not work:
@@ -55,38 +55,32 @@ Average Auto + Average Ability → Fastest Ability → (4t) Auto + Ability
 .
 .img:https://i.imgur.com/cZ4UTXs.png
 .
-**__How Cooldowns Work with Ranged__**
-⬥ It is worth reiterating that this system of overlapping cooldowns only applies to Melee and Magic
-    • Ranged simply just uses the cooldown set by the last thing cast, auto or ability, due to a bug that was never patched with it.
-        - This means in Scenario 1 with Ranged you *would* be able to 4t the auto rather than waiting the full 6t.
-
-.
 __**How Channeled Abilities Interact with the auto Cooldown**__
 ⬥ You can think of each hit of a channeled ability being "cast" where each cast incurs the auto cooldown as expected
 
 .
 **__Exceptions__**
 ⬥  As mentioned, there are exceptions when it comes to abilities that affect the cooldown. Abilities that incur the cooldown on cast are typically referred to as "damaging abilities", there are also "non-damaging abilities" which exist that do not, they are as follows:
-<:zerk:535532854004678657>, <:Sunshine:583430011948630016>, <:DeathsSwift:513190158812839936>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, <:magmatempest:902209626509025290>, (non-target) <:bd:535532854281764884>
+<:zerk:535532854004678657>, <:Sunshine:583430011948630016>, <:DeathsSwift:513190158812839936>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:lengmh:883134308146098227> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, (targeted) <:magmatempest:902209626509025290>, (non-target) <:bd:535532854281764884>
 *Note: ZGS Spec <:zgs:626465964325601290> <:spec:537340400273195028> is actually a damaging ability, and hence it would try to drag you in like one; however, it does not actually affect the auto cooldown, hence why it is listed here*
 *Note: Unlike normal non-damaging abilities, Freedom <:freedom:535541258240786434> will always give you an off-hand auto on cast with it*
 
 .
 ⬥  Moreover, there are other abilities that affect or interact with the cooldown in unexpected ways, they are as follows:
-<:tsunami:535533809995874304>, <:omni:535533809664262179>, <:shadowtend:642713547142332416>, <:ecb:615618531937222657> <:spec:537340400273195028> (+ <:eofspec:746403211908481184>), <:deto:535533833358016512>
+<:tsunami:535533809995874304>, <:omni:535533809664262179>, <:overpower:535532879334080517>, <:shadowtend:642713547142332416>, <:ecb:615618531937222657> <:spec:537340400273195028> (+ <:eofspec:746403211908481184>), <:deto:535533833358016512>
 
 .
 > **__In-depth Look at these Unexpected Abilities__**
 .tag:Unexpected
-**__Tsunami and Omnipower__**
-⬥ Tsunami <:tsunami:535533809995874304> and Omnipower <:omni:535533809664262179> works as follows:
+**__Tsunami, Omnipower, and Overpower__**
+⬥ Tsunami <:tsunami:535533809995874304>, Omnipower <:omni:535533809664262179>, and Overpower <:overpower:535532879334080517> works as follows:
 ```
-T0: Average/Fastest Nami/Omni cast
-T5: Fastest cast Nami/Omni Auto cast
-T6: Average cast Nami/Omni Auto cast
+T0: Average/Fast/Fastest Nami/Omni/Overpower cast
+T5: Fastest cast Nami/Omni/Overpower Auto cast; Fast cast Overpower Auto cast
+T6: Average cast Nami/Omni/Overpower Auto cast
 ```
-⬥ Essentially, if you cast <:tsunami:535533809995874304> / <:omni:535533809664262179> with an Average speed weapon (Staff), the auto cooldown will be affected as expected
-    • However, if you cast it with a Fastest speed weapon (Wand), the auto cooldown will be delayed a tick further than normal
+⬥ Essentially, if you cast <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> with an Average (and fast for <:overpower:535532879334080517>) speed weapon, the auto cooldown will be affected as expected
+    • However, if you cast it with a Fastest speed weapon, the auto cooldown will be delayed a tick further than normal
 
 .
 **__Shadow Tendrils__**
@@ -458,35 +452,7 @@ T33: Ability + Zerk ends
 .
 .img:https://i.imgur.com/W6L6UBB.mp4
 .
-⬥ Further, as mentioned, Ranged auto cooldowns follow a different system from Melee and Magic, in that the cooldown is only based on the last auto or ability fired, therefore the following is possible for even more adrenaline gain:
-```
-T0: Fastest Piercing
-T3: Freedom + OH Auto
-T4: Dbow Auto auto-casts
-t6: Fastest Needle
-T9: Anticipate
-T10: Dbow Auto auto-casts
-```
-⬥ Video Demonstration:
-    • Abilities used in clip: <:piercing:535541258538450944> → <:freedom:535541258240786434> → (wait 1t) <:dbow:643848618553507843> swap → <:needle:535541259108876293> → <:anti:535541306475151390> → <:dbow:643848618553507843> swap
-.
-.img:https://i.imgur.com/hY6iaH4.mp4
-.
-⬥ Additionally, this can also be used for damage assuming accuracy permits, with the aforementioned cooldown interactions you can do what is called C5TAA, or continous 5 tick auto attacks, and as the name implies you continously cycle the <:dbow:643848618553507843> autos, as shown below:
-```
-T0: Fastest non-channeled Ability
-T4: Dark Bow Auto cast
-T5: Fastest non-channeled Ability
-T9: Dark Bow Auto auto-casts
-T10: Ability
-```
-.
-⬥ Video Demonstration:
-    • Abilities used in clip: <:piercing:535541258538450944> → <:dbow:643848618553507843> swap → (5TAA) (dw) <:needle:535541259108876293> → <:dbow:643848618553507843> swap → (5TAA) (dw) <:piercing:535541258538450944>
-.
-.img:https://i.imgur.com/q8DJ794.mp4
-.
-⬥ That being said, C5TAA <:dbow:643848618553507843> does not see that much practical usage due to the existence of ECB <:ecb:615618531937222657>, along with the fact it is pretty intensive, that being said you can also just use them for regular defensive autos should you not be in <:ecb:615618531937222657>, and accuracy and inventory space permits, as follows:
+⬥ You can also just use them for damage as regular defensive autos should you not be in <:ecb:615618531937222657>, and accuracy and inventory space permits, as follows:
 ```
 T0: Fast/Fastest non-channeled Ability
 T3: Death's Swiftness
