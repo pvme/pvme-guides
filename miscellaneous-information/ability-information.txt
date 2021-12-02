@@ -199,48 +199,47 @@ staff abil → freedom (oh + 2h auto) → any abil → dw abil → auto + staff 
 .
 > **__Switching Weapons during Detonate__ (Courtesy of <@185315527571406848>)**
 .tag:detoswitch
-⬥ During the detonate channel, it is possible to switch weapons without Detonate being released.
-⬥ It is also possible to channel shield dome inside detonate, provided detonate is pressed first.
-⬥ This will cost the auto on detonate release, but is situationally useful at Vorago.
+⬥ While charging Detonate, it is possible to switch weapons without Detonate being released.
 ⬥ It is also worth noting that it's possible to Spellbook Swap in deto, allowing for a vuln release.
 .
 https://youtu.be/OxXEWwHODwQ
 .
 > **__Shield Dome Detonate__**
 .tag:detodome
-⬥ In certain cases, most notably at Vorago, it is beneficial to be in shield dome while channelling detonate.
-⬥ This is done by channelling detonate, then channelling shield dome.
-⬥ This will result in a lost auto, but can be prevented by sipping a super restore or an overload salve to cancel the shield dome.
+⬥ It is also possible to channel shield dome inside Detonate, provided Detonate is pressed first.
+     • This is done by charging Detonate, and then casting shield dome.
+     • This will result in a lost auto, but can be prevented by sipping a super restore or an overload salve to cancel the shield dome.
 .
 https://youtu.be/wxoyeMobO_o
 .
 > **__Dragon Battleaxe Spec__** <:DBA:603979368850653216> (Courtesy of <@110810140445294592>)
 .tag:dbaxe
+**__What the Special Attack is__**
 ⬥ Special Attack: Rampage.
 ⬥ Adrenaline Cost: 100% (90% with <:RoV:513201065877831680>)
 
 .
-⬥ The Spec works as following:
-    • Drains 10% (rounded down) of your attack, range, magic, and defence levels.
-    • Multiplicative 10% reduction on your hit chance.
-    • Gain strength level boost of 10 + 1 level for every 4 levels drained from your other stats.
-    • Gain a hidden damage boost of 1.2x your damage, lasting 1 minute. Stacks with:
-        - Zaros godsword spec going from a 1.25x to 1.5x boost.
-        - Berserk ability going from 2.0x to 2.2x boost making berserk a 2.2x damage boost.
+**__How it Works:__**
+⬥ Drains 10% (rounded down) of your attack, range, magic, and defence levels.
+⬥ Multiplicative 10% reduction on your hit chance.
+⬥ Gain strength level boost of 10 + 1 level for every 4 levels drained from your other stats.
+⬥ Gain a hidden damage boost of 1.2x your damage, lasting 1 minute. Stacks with:
+    • Zaros godsword spec going from a 1.25x to 1.5x boost.
+    • Berserk ability going from 2.0x to 2.2x boost making DBA a 1.1x instead of 1.2x damage boost.
 
 .
-⬥ Only use in the following cases:
-    • Accuracy debuff is not detrimental.
-    • Enough downtime to reobtain your full adren bar. Downtime includes:
-        - Time where you cant deal any damage at all (ex: Taraket intermission phases).
-        - Time where the damage you do is not priority damage (ex: The Ambassador spinners).
-    • Speed Kills: at adrenaline crystal in War's Retreat (PvM Hub).
+**__When is it Used:__**
+⬥ Accuracy debuff is not detrimental.
+⬥ Enough downtime to reobtain your full adren bar. Downtime includes:
+    • Time where you cant deal any damage at all (ex: Taraket intermission phases).
+    • Time where the damage you do is not priority damage (ex: The Ambassador spinners).
+⬥ Speed Kills: at adrenaline crystal in War's Retreat (PvM Hub).
 
 .
 > **__Back-to-Back Special Attacks__ (Courtesy of <@150284127126552576>)**
 .tag:b2bSpec
-⬥ **How It Works**
-    • Doing b2b (or more) specs seems to follow a pattern of [X tick loss, Y tick loss] of every b2b [odd, even] spec, as shown in the following table:
+__**How It Works**__
+Doing b2b (or more) specs seems to follow a pattern of [X tick loss, Y tick loss] of every b2b [odd, even] spec, as shown in the following table:
 ```
 Ability before spec spamming:
 Fast/Fastest Ability → no tick loss, no tick loss
@@ -253,24 +252,26 @@ Fast Auto → no tick loss, 2 tick loss
 Average Auto → no tick loss, 3 tick loss
 Slowest Auto → no tick loss, 9 tick loss
 ```
-    • These tests were done using non-channeled abilities and special attacks, interactions with channeled abilities and special attacks still need to be documented
+*Note: These tests were done using non-channeled abilities and special attacks, interactions with channeled abilities and special attacks still need to be documented*
 
 .
-⬥ **In Other Words**
-    • Your first special attack in a chain will always be fine.
-    • The second special attack can be delayed based on the weapon speed used to cast the ability or auto before the first special.
+**__In Other Words**
+⬥ Your first special attack in a chain will always be fine.
+⬥ The second special attack can be delayed based on the weapon speed used to cast the ability or auto before the first special.
 
 .
-⬥ **Examples**
-    • (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
-    • This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the average speed first <:gstaff:513203008608141314><:eofspec:746403211908481184>
-    • (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>  → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+**__Examples__**
+⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
     • This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the average speed first <:gstaff:513203008608141314><:eofspec:746403211908481184>
 
+⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>  → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+    • This results in a delay on the 3rd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the average speed first <:gstaff:513203008608141314><:eofspec:746403211908481184>
+
 .
-    • (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>  → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+⬥ (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314><:eofspec:746403211908481184>  → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
     • This has no delays.
-    • (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
+
+⬥ (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314><:eofspec:746403211908481184>
     • This results in a delay on the 2nd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the average speed <:dbreath:535533833391702017>
 
 .
