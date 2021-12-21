@@ -355,30 +355,24 @@ The Hunter initiates the encounter. Players will first gather all the resources 
 .
 > **__Example Kills__**
 .tag:example
-The example kills below consists of a 1mid 4man fishing, and 2mid 4mans (3 kills per video) for all roles. 1mids give slightly more loot and kills per hour if done properly, but are more difficult and thus the consistency of 2mids is generally preferred.
-
-⬥ 4:09 4-Man, 1 mid, no rot, Fishing (Courtesy of <@108682527304060928>)
-.
-<https://youtu.be/ljB-8qgnIzI>
-.
-As 2mids are more relaxed, all roles can be performed without any auras or expensive skilling offhands that Croesus drops with spare time for mistakes, as shown in the example videos below. Videos are heavily sped up.
-
-⬥ 4-Man, 2 mid fishing
-.
-<https://youtu.be/jeRhwaZU9gc>
-.
-⬥ 4-Man, 2 mid mining
-.
-<https://youtu.be/HIn_UZz69Mc>
-.
-⬥ 4-Man, 2 mid woodcutting
-.
-<https://youtu.be/l9IhB6GmjGU>
-.
-⬥ 4-Man, 2 mid hunter
-.
-<https://youtu.be/VXS7ZJFG_zY>
-.
+{
+  "embed": {
+    "title": "Video Examples",
+    "description": "The example kills below consists of a 1mid 4man fishing, and 2mid 4mans (3 kills per video) for all roles. 1mids give slightly more loot and kills per hour if done properly, but are more difficult and thus the consistency of 2mids is generally preferred.",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__1 Mid__",
+        "value": "⬥ [4:09 4-Man, 1 mid, no rot, Fishing (Courtesy of <@108682527304060928>)](https://youtu.be/ljB-8qgnIzI)"
+      },
+	  {
+	    "name": "__2 Mid__",
+        "value": "The example kills below consists of a 1mid 4man fishing, and 2mid 4mans (3 kills per video) for all roles. 1mids give slightly more loot and kills per hour if done properly, but are more difficult and thus the consistency of 2mids is generally preferred.\n⬥ [4-Man, 2 mid fishing](https://youtu.be/jeRhwaZU9gc)\n⬥ [4-Man, 2 mid mining](https://youtu.be/HIn_UZz69Mc)\n⬥ [4-Man, 2 mid woodcutting](https://youtu.be/l9IhB6GmjGU)\n⬥ [4-Man, 2 mid hunter](https://youtu.be/VXS7ZJFG_zY)"
+      }
+    ]
+  }
+}
+.embed:json
 {
   "embed": {
     "title": "Table of Contents",
