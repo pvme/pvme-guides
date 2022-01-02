@@ -1,0 +1,19 @@
+> **__Github Error Troubleshooting__**
+The way PvME github is set up is that it has some autocheckers to make sure some of the formatting is correct.
+
+.
+
+**__error1__**
+
+.
+**__Trailing White Space__** 
+This means there are extra spaces at the end of the line which need to be deleted, because if they exist it could ruin the way discord formats the text.
+
+.
+**__Bullet Points__**
+⬥ Main bullet point should have 0 spaces before it
+     • Subbullet point should have 4 spaces before it, or you will get an error.
+
+.
+**__Your Branch is >5 commits behind the master__**
+This means that a lot of changes have happened to the main repository, and the copy you have forked is very far behind. You will have to delete your fork and re-fork the main repo again to have a more current copy.
