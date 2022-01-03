@@ -8,14 +8,14 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 **__Common Abbreviations in PvM__**
 ⬥ **DPM** - damage per minute, a measure of how much damage is done over a minute time
 ⬥ **DPS** – damage per second, or in-general referring to damage
-⬥ **DW** – dual wield, a wand/orb or wand/book weapon
-⬥ **2H** – Two hand, a staff weapon
-⬥ **Juggling/Swapping** – Generally referring to switching between dual wield and 2H weapons to gain access to more damaging abilities
-⬥ **Camping** – Refers to using only one type of weapon, ie. 2H camping or DW camping
-⬥ **Rotation** – Refers to the usage of abilities and managing ability cooldowns
-⬥ **Switch** – Refers to a weapon or gear item that is equipped and use temporarily for its effects
-⬥ **Auto** – an auto attack, damage based on which spell tier is used in your spellbook
-⬥ **Tick** – A unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
+⬥ **DW** – dual wield weapon
+⬥ **2H** – two handed weapon
+⬥ **Juggling/Swapping** – generally referring to switching between DW and 2H weapons to gain access to more damaging abilities
+⬥ **Camping** – refers to using only one type of weapon, ie. 2H camping or DW camping
+⬥ **Rotation** – refers to the usage of abilities and managing ability cooldowns
+⬥ **Switch** – refers to a weapon or gear item that is equipped and use temporarily for its effects
+⬥ **Auto** – an auto attack, NOT an ability
+⬥ **Tick** – a unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
 ⬥ **Lossless** - meaning no ticks are lost in performing an action
 ⬥ **GCD** - global cooldown. An innate cooldown built into every ability. Lasts for 3 ticks (1.8 seconds)
 *Note: For more abbreviations, see Evil Lucario's list of common PVM Lingo and Abbreviations: <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/>*
@@ -44,6 +44,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 .img:https://i.imgur.com/gZ0R3Nj.png
 .
 > **__Ranged Revo++ Bars__**
+⬥ Replace <:needle:535541259108876293> with <:mds:535541259033378827> if 2H camping
 ⬥ With Greater Ricochet and Caroming 4 <:gricocaroming:867678153966878740>:
 .
 .img:https://i.imgur.com/cVw2cVO.png
@@ -77,7 +78,7 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
         - From there, use your thresholds and modified ultimates whenever you reach the requisite amount of adrenaline, and repeat
 
 .
-⬥ Following this simple repeating pattern of *Build to 100% → Damage-Boosting Ultimate → Thresholds and Modified Ultimates → Repeat*, one can expect to reach around 150k-175k dpm with low-medium player input
+⬥ Following this simple repeating pattern of *Build to 100% → Damage-Boosting Ultimate → Thresholds and Modified Ultimates → Repeat*, one can expect to reach a moderate level of DPM with low-medium player input
     • This figure will of course be variable depending on the encounter, and on style, gear, and available unlocks
 
 .
@@ -224,14 +225,11 @@ https://youtu.be/hI7d29hkmTE
 ⬥ Practice lots. Try and think 2 abilities ahead and plan out your rotation
 
 .
-> __**Lossless Auto Attacks with Ultimates**__
+> __**Auto Attacks with Ultimates**__
 .tag:uauto
-**__Cause__**
-⬥ Not releasing the auto attack, or releasing a dual wield auto attack instead of a 2H auto attack
-
-.
 **__Why it’s Important__**
-⬥ It’s a lossless attack, which means "free" damage!
+⬥ It’s lossless, which means "free" damage! However, mistakes can result in it being outright lost, or its damage being significantly reduced, notably:
+    • Not releasing the auto attack, or releasing a dual wield auto attack instead of a 2H auto attack
 
 .
 **__How to Fix__**
@@ -317,7 +315,7 @@ https://youtu.be/hI7d29hkmTE
             "inline":true
          },
          {
-            "name":"__Lossless Auto Attacks with Ultimates__",
+            "name":"__Auto Attacks with Ultimates__",
             "value":"[Link]($linkmsg_uauto$)",
             "inline":true
          },
