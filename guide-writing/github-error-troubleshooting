@@ -1,0 +1,39 @@
+> **__Github Error Troubleshooting__**
+The way PvME github is set up is that it has some autocheckers to make sure some of the formatting is correct.
+
+.
+**__Checking for Errors__**
+When you go to make a Pull Request, it might tell you one of the checks failed. Click `Details` on the check that failed to see why it failed.
+.img:https://i.imgur.com/ZxizF57.png
+.
+.img:https://i.imgur.com/qdZjUvf.png
+⬥ The bottom red square tells you what the error is. In this case, the message starting at line 108 and ending at line 139 has too many characters. To fix this, click the red boxes in the following images to open up editing again to make appropriate changes.
+.img:https://i.imgur.com/qZ29eBY.png
+.
+.img:https://i.imgur.com/WHpF7Wq.png
+    • In this case, we just pick a spot somewhere in the middle of that message at a good stopping point to break it into 2 separate messages by hitting enter, entering a single period `.`, and hitting enter again.
+.img:https://i.imgur.com/8PLmFFK.png
+⬥ Your Pull Request should now be error-free.
+
+.
+**__Trailing White Space__**
+This means there are extra spaces at the end of the line which need to be deleted, because if they exist it could ruin the way discord formats the text.
+
+.
+**__Your Branch is xx commits behind the master__**
+This means that a lot of changes have happened to the main repository, and the copy you have forked is very far behind. You will have to delete your fork and re-fork the main repo again to have a more current copy.
+.img:https://i.imgur.com/KVj7xcM.png
+.
+.img:https://i.imgur.com/alaBVBN.png
+.
+⬥ Scroll to the bottom of the page.
+.img:https://i.imgur.com/4cIPocg.png
+.
+.img:https://i.imgur.com/mNbsDnr.png
+.
+.img:https://i.imgur.com/SDzphKl.png
+.
+⬥ Re-fork the main repo with your account from <https://github.com/pvme/pvme-guides>
+.img:https://i.imgur.com/u8eJYdR.png
+.
+.img:https://i.imgur.com/78jyQPF.png
