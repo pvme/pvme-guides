@@ -67,8 +67,28 @@ More information available at the wiki page:
 <https://youtu.be/iWVTSbO4qN8>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Semi-AFK Magic Strategy** - $linkmsg_afk$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Semi-AFK Magic Strategy__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

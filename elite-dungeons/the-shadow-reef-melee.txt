@@ -17,6 +17,7 @@ Each solo run of ED3 is <:coins:698816156961603654> worth $data_pvme:Bosses!E568
 ⬥ Consider downgrading your graphics to Minimum with Medium+ draw distance for the Dungeon, as it is poorly optimized and prone to frame drops.
 ⬥ You can Surge <:surge:535533810004262912> or Bladed Dive <:bd:535532854281764884> a tick before each gate unlocks to save a tick on every entry.
 ⬥ The Corbicula Rex <:corbicula:690136117273821280> perk (112 Farming) in ROoT is extremely helpful in this dungeon, as Meteor Strike <:meteorstrike:535532879359377439> is frequently used here.
+⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve unique drop rates.
 
 .
 > __**Presets**__
@@ -575,7 +576,7 @@ Ideally, Bladed Dive should be used to travel between spinners as killing a spin
 .
 ⬥ **Advanced Spinner Strategy**
     • To min-max damage against Ambassador, use Meteor Strike <:meteorstrike:535532879359377439> on the third fragment.
-    • Once you get back to 100% adrenaline, use Natural Instinct <:NaturalInstinct:513213538496675850> on the fifth fragment and build back to 100% adrenaline.
+    • Once you get back to 100% adrenaline, use Natural Instinct <:nat:535541258131865633> on the fifth fragment and build back to 100% adrenaline.
     • Use dragon battleaxe spec <:DBA:603979368850653216> <:spec:537340400273195028> and once again build back up to 100% adrenaline.
     • Before Ambassador absorbs fragments, you may use <:dismember:535532879376023572> on Ambassador himself to squeeze in a bit more damage after fragments.
     • Keep in mind that during this time, you essentially can only use basics so destroying all of the fragments is made much harder, so you only destroy five out of six.
@@ -659,18 +660,78 @@ https://youtu.be/6WiH_K0W-CU
 <https://youtu.be/4EKn6uNwIh0> 13:13 by <@!242039053841596418>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Relevant Mob Breakdown** - $linkmsg_MB$
-⬥ **First Floor - Pre Crassian** - $linkmsg_FFPC$
-⬥ **The Crassian Leviathan** - $linkmsg_crassian$
-⬥ **Post Crassian - Second Floor Entry** - $linkmsg_PCSFE$
-⬥ **Second Floor Entry - Taraket Entry** - $linkmsg_SFTE$
-⬥ **Taraket the Necromancer** - $linkmsg_taraket$
-⬥ **Taraket Exit - Second Floor Exit** - $linkmsg_TESF$
-⬥ **Third Floor Entry - Pre-Ambassador** - $linkmsg_TFPA$
-⬥ **Kranon, the Ambassador** - $linkmsg_Ambassador$
-⬥ **Ambassador Strategy** - $linkmsg_ambistrats$
-⬥ **Example Runs** - $linkmsg_ER$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Relevant Mob Breakdown__",
+        "value": "[Link]($linkmsg_MB$)",
+		"inline": true
+      },
+	  {
+	    "name": "__First Floor - Pre-Crassian__",
+        "value": "[Link]($linkmsg_FFPC$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Crassian Leviathan__",
+        "value": "[Link]($linkmsg_crassian$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Post Crassian - Second Floor Entry__",
+        "value": "[Link]($linkmsg_PCSFE$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Second Floor Entry - Taraket Entry__",
+        "value": "[Link]($linkmsg_SFTE$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Taraket the Necromancer__",
+        "value": "[Link]($linkmsg_taraket$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Taraket Exit - Second Floor Exit__",
+        "value": "[Link]($linkmsg_TESF$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Third Floor Entry - Pre-Ambassador__",
+        "value": "[Link]($linkmsg_TFPA$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Kranon, the Ambassador__",
+        "value": "[Link]($linkmsg_Ambassador$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ambassador Strategy__",
+        "value": "[Link]($linkmsg_ambistrats$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Runs__",
+        "value": "[Link]($linkmsg_ER$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

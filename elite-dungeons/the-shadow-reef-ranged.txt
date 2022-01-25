@@ -68,7 +68,7 @@ Each solo run of ED3 is worth <:coins:698816156961603654> $data_pvme:Bosses!E568
 .
 **__Ambassador__**
 ⬥ <:vitality:654618235097972737> **Vitality Potion** used for Split Soul <:ecb:615618531937222657> <:spec:537340400273195028>
-⬥ <:LotD:566453486913323042> **Luck of the Dwarves** is optional, we don't know if it enhances Eldritch droprate.
+⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve unique drop rates.
 ⬥ <:grim:568262896375824385> **Erethdor's grimoire** to benefit more from Incendiary Shot <:incend:535541258429661215>
 
 ⬥ **Basic**
@@ -582,7 +582,7 @@ __**Strategy**__
 ⬥ **Spinners**
     • Activate Disruption Shield <:disrupt:535614336207552523> and Vengeance <:Veng:543478434953822208> as soon as possible.
     • Use anything to kill the first five spinners.
-    • At the 6th spinner you will build to this rotation: Natural Instinct <:NaturalInstinct:513213538496675850> → Basic Defensives → Incendiary Shot <:incend:535541258429661215> → Basic Defensives → Greater Ricochet <:grico:787904334812807238> → Basic Defensives / Bleeds → Death's Swiftness <:ds:535541258924326912>.
+    • At the 6th spinner you will build to this rotation: Natural Instinct <:nat:535541258131865633> → Basic Defensives → Incendiary Shot <:incend:535541258429661215> → Basic Defensives → Greater Ricochet <:grico:787904334812807238> → Basic Defensives / Bleeds → Death's Swiftness <:ds:535541258924326912>.
         - The cue to start this setup is roughly at 46s from Spinner start. Any further increases the risk of having to rely on Hydrix bolt <:HydrixBakri:550834403136503822> and Relentless procs for the setup.
     • Use your Death's Swiftness <:ds:535541258924326912> around 3.6s before he's attackable again.
     • Split Soul <:ecb:615618531937222657> <:spec:537340400273195028> → Greater Ricochet <:grico:787904334812807238> **if** you need the adrenaline, onto the Ambassador just as soon as he's attackable.
@@ -612,17 +612,73 @@ If you're going to get a second Mage Onslaught **don't** use Vitality <:vitality
 <https://youtu.be/7VfFm4fIrPY> 14:05 by <@401918445429587969>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **Relevant Mob Breakdown** - $linkmsg_MB$
-⬥ **First Floor - Pre Crassian** - $linkmsg_FFPC$
-⬥ **The Crassian Leviathan** - $linkmsg_crassian$
-⬥ **Post Crassian - Second Floor Entry** - $linkmsg_PCSFE$
-⬥ **Second Floor Entry - Taraket Entry** - $linkmsg_SFTE$
-⬥ **Taraket the Necromancer** - $linkmsg_taraket$
-⬥ **Taraket Exit - Second Floor Exit** - $linkmsg_TESF$
-⬥ **Third Floor Entry - Pre-Ambassador** - $linkmsg_TFPA$
-⬥ **Kranon, the Ambassador** - $linkmsg_Ambassador$
-⬥ **Example Run** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Relevant Mob Breakdown__",
+        "value": "[Link]($linkmsg_MB$)",
+		"inline": true
+      },
+	  {
+	    "name": "__First Floor - Pre-Crassian__",
+        "value": "[Link]($linkmsg_FFPC$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Crassian Leviathan__",
+        "value": "[Link]($linkmsg_crassian$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Post Crassian - Second Floor Entry__",
+        "value": "[Link]($linkmsg_PCSFE$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Second Floor Entry - Taraket Entry__",
+        "value": "[Link]($linkmsg_SFTE$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Taraket the Necromancer__",
+        "value": "[Link]($linkmsg_taraket$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Taraket Exit - Second Floor Exit__",
+        "value": "[Link]($linkmsg_TESF$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Third Floor Entry - Pre-Ambassador__",
+        "value": "[Link]($linkmsg_TFPA$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Kranon, the Ambassador__",
+        "value": "[Link]($linkmsg_Ambassador$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Runs__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

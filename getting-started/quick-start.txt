@@ -204,10 +204,38 @@ __**General Quests for PvMing**__
 *Note: Quests are more rewarding the sooner you do them.*
 
 .
-> **__Table of Contents__**
-⬥ **First Goals** - $linkmsg_goals$
-⬥ **Money Making** - $linkmsg_money$
-⬥ **Combat Training** - $linkmsg_combat$
-⬥ **Skills Training** - $linkmsg_skills$
-⬥ **Quests** - $linkmsg_quests$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__First Goals__",
+        "value": "[Link]($linkmsg_goals$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Money Making__",
+        "value": "[Link]($linkmsg_money$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Combat Training__",
+        "value": "[Link]($linkmsg_combat$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Skills Training__",
+        "value": "[Link]($linkmsg_skills$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Quests__",
+        "value": "[Link]($linkmsg_quests$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

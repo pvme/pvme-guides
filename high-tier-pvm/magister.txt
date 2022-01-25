@@ -206,7 +206,7 @@ As mentioned previously, the main recommended familiars are a Ripper Demon <:rip
 .tag:strats
 **__General__**
 ⬥ Avoid using high damaging abilities like Tuska's Wrath <:Tuskas:513201065513058306>, Wild Magic <:wm:535533809978966037>, Snap Shot <:snap:535534127131394088> etc. while the boss is slightly above 150k, 100k, and 50k hp as he will absorb any extra damage dealt to reach those exact numbers.
-    • Damage is counted towards progressing phases before truncation. This can be most easily observed in damage boosting ultimates with Tuska's Wrath <:Tuskas:513201065513058306>, where it may hit 20k+ in <:zerk:535532854004678657 but is instead truncated to 15k, you can phase the boss from 170k HP and he will phase at 155k, this can apply to Assault <:assault:535532855191928842> hits under Berserk <:zerk:535532854004678657> and Detonate <:deto:535533833358016512> / Guthix Staff EoF <:gstaff:513203008608141314> <:eofspec:746403211908481184> / Wrack and Ruin <:wrackandruin:856662355912032256> under Sunshine <:Sunshine:583430011948630016> as well.
+    • Damage is counted towards progressing phases before truncation. This can be most easily observed in damage boosting ultimates with Tuska's Wrath <:Tuskas:513201065513058306>, where it may hit 20k+ in <:zerk:535532854004678657> but is instead truncated to 15k, you can phase the boss from 170k HP and he will phase at 155k, this can apply to Assault <:assault:535532855191928842> hits under Berserk <:zerk:535532854004678657> and Detonate <:deto:535533833358016512> / Guthix Staff EoF <:gstaff:513203008608141314> <:eofspec:746403211908481184> / Wrack and Ruin <:wrackandruin:856662355912032256> under Sunshine <:Sunshine:583430011948630016> as well.
 
 .
 ⬥ Magister's phasing is based on him attempting to auto attack or taking a hit of damage within attack range (which is instead mitigated), as such, if you are outside of his attack range, he will not phase.
@@ -360,9 +360,9 @@ https://www.youtube.com/watch?v=FZBOQ--5Uis
 > **__Ranged__ (~85 KPH)** <:range:580168050121113623>
 .tag:range
 **__Kills__**
-⬥ Start with a Death's Swiftness <:DeathsSwift:513190158812839936> and DPS while dealing with mechanics and Vuln bomb <:vulnbomb:655341074235129858> every kill. Again, depending on the player's DPS, timings after the first kill will vary.
+⬥ Start with a Death's Swiftness <:deathsswift:535541258924326912> and DPS while dealing with mechanics and Vuln bomb <:vulnbomb:655341074235129858> every kill. Again, depending on the player's DPS, timings after the first kill will vary.
 
-*Note: Death's Swiftness <:DeathsSwift:513190158812839936> around half way between his spawn point and the start pillar, and then stand 2 tiles north of magister (1 square away).*
+*Note: Death's Swiftness <:deathsswift:535541258924326912> around half way between his spawn point and the start pillar, and then stand 2 tiles north of magister (1 square away).*
 
 .
 ⬥ Demoralise <:demoralise:535541258559553546> and Rout <:rout:535541259268521994> should not be used, as they lack the 10s bind which means you can't abuse Piercing Shot <:piercing:535541258538450944> in tandem.
@@ -370,8 +370,8 @@ https://www.youtube.com/watch?v=FZBOQ--5Uis
 
 ⬥ With an Eldritch Crossbow <:ecb:615618531937222657>, Shadow Tendrils <:shadowtend:642713547142332416> **shouldn't** be used at all in order to conserve HP. Feel free to use them otherwise.
 
-⬥ If you have an Eldritch Crossbow <:ecb:615618531937222657>, you can use its special attack in combination with Greater Ricochet <:grico:787904334812807238> followed by Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> while Death's Swiftness <:DeathsSwift:513190158812839936> is on cooldown.
-    • Hydrix bolts <:HydrixBakri:550834403136503822> can be used to cover the adrenaline cost to have 100% in time for Death's Swiftness <:DeathsSwift:513190158812839936> and these will likely proc within this time frame.
+⬥ If you have an Eldritch Crossbow <:ecb:615618531937222657>, you can use its special attack in combination with Greater Ricochet <:grico:787904334812807238> followed by Rapid Fire <:rapid:535541270521708566> and Snap Shot <:snap:535534127131394088> while Death's Swiftness <:deathsswift:535541258924326912> is on cooldown.
+    • Hydrix bolts <:HydrixBakri:550834403136503822> can be used to cover the adrenaline cost to have 100% in time for Death's Swiftness <:deathsswift:535541258924326912> and these will likely proc within this time frame.
     • Onyx bolts <:OnyxBakri:565726489362956308> can alternatively provide healing if needed.
 
 .
@@ -510,16 +510,165 @@ __**Preset**__
 .
 https://youtu.be/wL71io79IG8
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **The Fight** - $linkmsg_fight$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Specials** - $linkmsg_specs$
-⬥ **Protecting Your Familiar** - $linkmsg_familiars$
-⬥ **Strategy** - $linkmsg_strats$
-⬥ **Magic** - $linkmsg_magic$
-⬥ **Melee** - $linkmsg_melee$
-⬥ **Range** - $linkmsg_range$
-⬥ **Low Effort Range** - $linkmsg_hells$
+> __**Low Effort Mage Strategy (60-70kph) (Courtesy of <@!406876547283157004>)**__
+.tag:hells2
+__**Profit**__
+Total <:coins:698816156961603654> varies largely on the selling price of khopeshes and the buying price of keys, but this method will make $data_pvme:Bosses!C235$ gp/h profit on average at $data_pvme:Bosses!B235$kph.
+
+.
+__**Explanation**__
+⬥ This method will require you to manually activate the obelisk with a key each kill, as well as throw a vuln bomb at the magister at the beginning of each fight.
+
+⬥ This method has a substantially high startup cost and a moderately high upkeep cost.
+
+⬥ Your main source of healing comes from soulsplit <:soulsplit:615613924506599497> effects, so it is very important to have it activated.
+
+⬥ It is preferable that you do this method on a soul devourer slayer task, as the extra damage dealt by Tuska's Wrath <:Tuskas:513201065513058306> and the Genocidal perk <:genocidal:689503091539705870> is significant. However, it is perfectly fine to do off task.
+
+⬥ At the beginning of each kill, it is important to throw a vulnerability bomb <:vulnbomb:655341074235129858> directly onto the magister (i.e. click the magister when throwing the bomb).
+
+⬥ Due to the unpredictable and hard-hitting nature of the Magister's special attacks, eating food to survive is required at times, although this happens rarely.
+
+.
+__**Aura Choice**__
+⬥ Aura choice can vary, but will affect how afk kills can be. They are listed in order of effectiveness:
+    • <:reckless:643505179378974748> **Maniacal Aura** is the best aura to use, as this method suffers with accuracy issues due to magister being a boss with high defence.
+    • <:sharp:643505377291534366> **T4 Runic Accuracy Aura** may also be used, due to the aforementioned accuracy issues. Will require more supervison.
+
+_Note: All other auras are not recommended due to you otherwise having an extremely low hitchance.__
+
+.
+__**Weapon Choice**__
+Weapon choice can vary, but will affect how afk/fast kills can be. They are listed in order of effectiveness:
+⬥ A **Wand of the Praesul** <:praeswand:643166769518739477> and an **Imperium Core** <:impercore:643166751067996160> are the best options for this method.
+
+⬥ **T90 dual wield** mage weapons <:seiswand:583429704837758997> <:seissing:583430011831189527> may also be used but will result in slightly slower kill times.
+
+⬥ It is not recommended to go below using an **Elite seasinger kiba** <:eliteseasingerwand:581180345978716170> as your mainhand weapon. If you choose to use an Elite seasinger kiba <:eliteseasingerwand:581180345978716170>, you may need to use more pieces of tank armour for greater damage reduction in order to survive.
+
+⬥ Lower tiered weapons will not work as this method requires you to kill the Magister before he spawns his soul devourer minions.
+
+.
+__**Mandatory Requirements**__
+This setup should reliably allow you to semi-afk the Magister. **However, the following need to be done or else this method will be either unreliable or will outright not work. Cutting corners will result in failure:**
+⬥ You are standing next to the obelisk
+
+⬥ Adrenaline retention <:persistentrage:739965637056659567> <:adrenurn:656426717413507074> is active if you are not activating the obelisk as soon as the previous kill ends
+
+⬥ **Death Ward Relic** <:deathward:697808774068699286> is activated since it provides a substantial reduction to damage taken throughout the hour
+
+⬥ **Greater Concentrated Blast** <:gconc:869285393223254107> is unlocked
+
+⬥ **City of Senntisten spells** are unlocked with **Exsanguinate** <:exsanguinate:856635090745950258> and **Animate Dead** <:animatedead:856635090453135382> both being active
+
+⬥ **Powder of Penance** <:powderofpenance:928221126360969226> is active. **To be used before the hour**
+
+⬥ **Soulsplit** <:soulsplit:615613924506599497> is active
+
+⬥ **Torment** <:torment:583429936958930964> or **Affliction** <:Affliction:513190158468907008> is active
+    • Affliction <:Affliction:513190158468907008> is __much__ more highly recommended due to the aforementioned accuracy issues
+
+⬥ **Elder Overload** <:elderovlsalve:648976643687317532> is active
+
+⬥ **Weapon poison +++** <:weppoison:689525476158472288> is active
+
+⬥ **Cinderbane Gloves** <:Cinderbanes:513190158355660812> are equipped
+
+⬥ **Igneous Kal-Mej** <:igneouskalmej:902209626408382494> is equipped
+
+⬥ **Ripper Demon** <:ripperpouch:703581275453128714> with scrolls <:ripperscroll:703581275155464203> or **Smoke/Ice Nihil** <:smokenihil:854475442227642388> <:icenihil:854475442164334592> (only if using a mainhand weapon that is below t90) is summoned
+
+⬥ Auto-retaliate is on
+
+.
+__**Preset**__
+⬥ <:persistentrage:739965637056659567> **Persistent Rage Relic** - Prevents adrenaline from draining while out of combat. Can be substituted with an Adrenaline Urn <:adrenurn:656426717413507074>. Can be completely removed if player is doing kills back to back with minimal delay.
+⬥ <:thermalflask:689530593796423724> **Ogre Flask (Thermal)** - Used before the hour to increase a player's total hp. Can be stacked with of bonfire boost. This helps negate the Soul Obelisk mechanic where it will activate and continuously reduce the player's Constitution level (and therefore their maximum lifepoints too).
+⬥ <:KwuarmSticks:565726489341984779> **Kwuarm Incense Sticks** - Provide extra poison damage. **To be used before the hour.**
+⬥ <:SpiritSticks:565726489136463894> **Spirit Weed Incense Sticks** - Used if using a Ripper Demon <:ripperpouch:703581275453128714> with scrolls <:ripperscroll:703581275155464203> to increase the spec-rate of the ripper. **To be used before the hour.**
+⬥ <:eofgreen:780401412727242773> **Essence of Finality** - Stored special attack is not used, but is worn for the accuracy bonus and Soulsplit passive.
+⬥ <:LotD:566453486913323042> **Luck of the Dwarves** - Used to increase phylactery <:phylactery:643166362361004042> chance from 1/18 to 1/17, greatly increasing the profit obtained.
+.
+⬥ <:scriptureofjas:869284342839513108> **Scripture of Jas** - Provides damage when activated. Cheap upfront costs and upkeep.
+⬥ <:graspingpouchblue:892816437406728252> <:graspingpouchpink:892816437503221830> <:graspingpouchblack:892816436974735361> **Rune Pouches** - Standard grasping rune pouches for Exsanguinate <:exsanguinate:856635090745950258>, Animate Dead <:animatedead:856635090453135382>, Spellbook Swap <:SBS:543875425055670275> and Telekinetic Grab <:telekeneticgrab:866551637970255872>.
+.
+.img:https://i.imgur.com/iTLcCvQ.png
+_Note: The Cryptbloom helm and boots <:cryptbloomhelm:892819107123195956> <:cryptbloomboots:892819107236433930> may be downgraded as far as Ganodermic if your budget does not allow for them. It is also possible to use this method without any tank armour or animate dead <:animatedead:856635090453135382> active at all, but this has a slightly increased risk of dying and is not recommended to do unless you have BiS magic gear (full elite tectonic, t92 weapons and t99 prayer)._
+.
+**__Action Bar__**
+.
+.img:https://i.imgur.com/wRw5rdy.png
+.
+**__Example Vod__**
+https://www.youtube.com/watch?v=97Ah7LJPJt0
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_fight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Specials__",
+        "value": "[Link]($linkmsg_specs$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Protecting Your Familiar__",
+        "value": "[Link]($linkmsg_familiars$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategy__",
+        "value": "[Link]($linkmsg_strats$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic__",
+        "value": "[Link]($linkmsg_magic$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee__",
+        "value": "[Link]($linkmsg_melee$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Range__",
+        "value": "[Link]($linkmsg_range$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Low Effort Range__",
+        "value": "[Link]($linkmsg_hells$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Low Effort Mage__",
+        "value": "[Link]($linkmsg_hells2$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

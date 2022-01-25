@@ -7,15 +7,15 @@ Beastmaster is the first boss encountered in raids. Typically this will be your 
 
 .
 > **__Preset__**
-.tag:preset
+.tag:presets
 __**General DPS preset**__
 ⬥ <:augseissing:656785077883109407>  **Seismic singularity** `Flanking 4`
-⬥ <:redpouch:690848915020447745>  **Rune Pouch** <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427>  **Rune Pouch** <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:bluepouch:656786565527502858>  **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:borrowedpower:657248051190300682> <:Vuln:537349530551582720> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+⬥ <:graspingpouchblack:892816436974735361> : <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> : <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblue:892816437406728252> : <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
+(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
 .
-.img:https://i.imgur.com/3tn5aUZ.png
+.img:https://i.imgur.com/WwdVYh8.png
 .
 > **__Roles__**
 .tag:roles
@@ -88,11 +88,35 @@ __**General DPS preset**__
 .tag:bossskool
 If you're interested in learning raids, join this boss school link and check out the pins there to get started!
 .
-https://discord.gg/C9hjNWY
+https://discord.gg/88ru2vd
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Roles** - $linkmsg_roles$
-⬥ **Learning Raids** - $linkmsg_bossskool$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Roles__",
+        "value": "[Link]($linkmsg_roles$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Learning Raids__",
+        "value": "[Link]($linkmsg_bossskool$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

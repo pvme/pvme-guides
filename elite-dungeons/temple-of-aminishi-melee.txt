@@ -14,6 +14,7 @@ Each solo run of ED1 is worth <:coins:698816156961603654> $data_pvme:Bosses!E528
 ⬥ The rotations listed for the bosses are for an advanced setup, lower tiered set-ups will require improvisation.
 ⬥ It's recommended to set your anti-spam delay for your Double Surge <:surge:535533810004262912> to 1 via the Lectern at Anachronia.
 ⬥ You can Surge <:surge:535533810004262912> or Bladed Dive <:bd:535532854281764884> a tick before each gate unlocks to save a tick on every entry.
+⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve the number of scales dropped.
 
 .
 > **__Presets__**
@@ -553,7 +554,7 @@ Caroming lure example - https://youtu.be/0QgSxHBRHXQ
     • Dreadnips. <:nip:537336877900890135>
     • Zamorak Brews <:zamorakbrew:841409588632092694>
 ⬥ Even though you cannot use your Ripper Demon directly on the Crystal, its passive will be more helpful than bringing a 1x1 familiar.
-⬥ If you have a Terrasaur Maul <:terramaul:602561894829522954> make sure to use it during the cast of all 2H abilities and bled Assaults <:assault:535532853979512842> while on the Crystals.
+⬥ If you have a Terrasaur Maul <:terramaul:602561894829522954> make sure to use it during all 2H abilities
 
 .
 > **__1 Cycle Seiryu (No EoF)__ (Courtesy of <@!281823193742835714>)**
@@ -604,7 +605,7 @@ When Seiryu reaches ~7,255M HP: <:nat:535541258131865633> → build to 100% with
 
 .
 **__Crystal 2__**
-<:vulnbomb:655341074235129858> + <:backhand:535532854302605333> → basics if zerk still up → <:dismember:535532879376023572> → <:bloodtendrils:535532854327640064> → <:deci:535532879325822986> → <:zgs:626465964325601290> <:spec:537340400273195028> → <:cleave:535532878616985610> → <:sever:535532879577612298> (dw) → <:freedom:535541258240786434> → <:gflurry:535532879283879977> (4 hit) → <:cleave:535532878616985610> and decide based on your adrenaline and remaining hitpoints of the crystal wether you will Hurricane <:cane:535532878969438210>/Destroy <:destroy:535532879330148352>/finish it off with basics.
+<:vulnbomb:655341074235129858> + <:backhand:535532854302605333> → basics if zerk still up → <:dismember:535532879376023572> → <:bloodtendrils:535532854327640064> → <:deci:535532879325822986> → <:zgs:626465964325601290> <:spec:537340400273195028> → <:cleave:535532878616985610> → <:sever:535532879577612298> (dw) → <:freedom:535541258240786434> → <:gflurry:535532879283879977> (4 hit) → <:cleave:535532878616985610> and decide based on your adrenaline and remaining hitpoints of the crystal whether you will Hurricane <:cane:535532878969438210>/Destroy <:destroy:535532879330148352>/finish it off with basics.
 
 .
 **__Crystal 3__**
@@ -623,21 +624,93 @@ After killing the second crystal, build to ≥ 92% adrenaline and use <:dismembe
 <https://youtu.be/i7F-uZuNFnQ> 10:56 by <@!281823193742835714>
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **General Tips** - $linkmsg_general$
-⬥ **Section 1** - $linkmsg_s1$
-⬥ **Section 2** - $linkmsg_s2$
-⬥ **Sanctum Guardian** - $linkmsg_sanctum$
-⬥ **Section 3** - $linkmsg_s3$
-⬥ **Section 4** - $linkmsg_s4$
-⬥ **Masuta, the Ascended** - $linkmsg_masuta$
-⬥ **Section 5** - $linkmsg_s5$
-⬥ **Seiryu, the Azure Serpent** - $linkmsg_seiryu$
-⬥ **2 Cycle Seiryu** - $linkmsg_2cc$
-⬥ **Introduction to 1 Cycle Seiryu** - $linkmsg_1cycle$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__General Tips__",
+        "value": "[Link]($linkmsg_general$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 1__",
+        "value": "[Link]($linkmsg_s1$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 2__",
+        "value": "[Link]($linkmsg_s2$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sanctum Guardian__",
+        "value": "[Link]($linkmsg_sanctum$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 3__",
+        "value": "[Link]($linkmsg_s3$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 4__",
+        "value": "[Link]($linkmsg_s4$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Masuta, the Ascended__",
+        "value": "[Link]($linkmsg_masuta$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Section 5__",
+        "value": "[Link]($linkmsg_s5$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Seiryu, the Azure Serpent__",
+        "value": "[Link]($linkmsg_seiryu$)",
+		"inline": true
+      },
+	  {
+	    "name": "__2 Cycle Seiryu__",
+        "value": "[Link]($linkmsg_2cc$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Introduction to 1 Cycle Seiryu__",
+        "value": "[Link]($linkmsg_1cycle$)",
+		"inline": true
+      },
+	  {
+	    "name": "__1 Cycle Seiryu (No EoF)__",
+        "value": "[Link]($linkmsg_1ccnoeof$)",
+		"inline": true
+      },
+	  {
+	    "name": "__1 Cycle Seiryu (EoF)__",
+        "value": "[Link]($linkmsg_1cceof$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Runs__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
-⬥ **1 Cycle Seiryu (No EoF)** - $linkmsg_1ccnoeof$
-⬥ **1 Cycle Seiryu (EoF)** - $linkmsg_1cceof$
-⬥ **Example Runs** - $linkmsg_example$

@@ -140,7 +140,7 @@ This method can result in around 240-250 KPH and around 200 KPH at Quartus
 ⬥ Greater Ricochet <:grico:787904334812807238>
 ⬥ Eldritch crossbow <:ecb:615618531937222657> with Caroming 4 <:caroming4:791281588792590336>
 ⬥ Fleeting Boots <:fleetingboots:789813993480388640>
-⬥ Nightmare Gauntlets <:nightmaregauntlets:679628668120727571>
+⬥ Nightmare Gauntlets <:NMG:513190159441723392>
 ⬥ Ascension Crossbows <:ascmh:513190158468775936> <:ascoh:513190159362031631> or Blightbound crossbows <:bbc:626714879218155521> <:bbcoh:626714879230738434> (For Quartus only)
 ⬥ Reckless Aura <:reckless:643505179378974748>
 
@@ -226,12 +226,48 @@ This is demonstrated here:
 .
 https://www.youtube.com/watch?v=FlU2j4qgaq0
 .
-**__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Beginner Strategy** - $linkmsg_basic$
-⬥ **Familiar Guidance** - $linkmsg_familiars$
-⬥ **Manipulating Attacks** - $linkmsg_mani$
-⬥ **Advanced Strategy** - $linkmsg_advanced$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Beginner Strategy__",
+        "value": "[Link]($linkmsg_basic$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Familiar Guidance__",
+        "value": "[Link]($linkmsg_familiars$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Manipulating Attacks__",
+        "value": "[Link]($linkmsg_mani$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Strategy__",
+        "value": "[Link]($linkmsg_advanced$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

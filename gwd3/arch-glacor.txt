@@ -13,7 +13,7 @@ The Arch-Glacor is only affected by the Glacor slayer task on Normal Mode. The s
 .
 > __**Drops**__
 .tag:drops
-⬥ Normal Mode: Scripture of Wen <:wengodbook:883134307902816297> and the Leng Artefact <:lengartefact:884739993543782420> used to upgrade Nightmare Gauntlets <:nightmaregauntlets:679628668120727571>, Gloves of Passage <:glovespassage:643166351585706060>, and Kerapac's Wristwraps <:kerapacswristwraps:869286640722513940>. The Arch-Glacor always drops 3 piles of loot in Normal Mode. Each pile contains at most 1 Dark Nilas <:darknilas:884739993527013426>.
+⬥ Normal Mode: Scripture of Wen <:wengodbook:883134307902816297> and the Leng Artefact <:lengartefact:884739993543782420> used to upgrade Nightmare Gauntlets <:NMG:513190159441723392>, Gloves of Passage <:glovespassage:643166351585706060>, and Kerapac's Wristwraps <:kerapacswristwraps:869286640722513940>. The Arch-Glacor always drops 3 piles of loot in Normal Mode. Each pile contains at most 1 Dark Nilas <:darknilas:884739993527013426>.
 
 ⬥ Hard Mode: The Frozen Core of Leng <:frozencoreofleng:884739993527025704> used to upgrade the t85 melee weapons to t95 can only be obtained from Hard Mode. In Hard Mode, each kill gives a roll of loot in the Frozen Vault. Players can choose to risk the drops in the Vault for an increased chance of better loot, at the cost of a more difficult fight known as streaking, much like Telos. For each kill that a player continues in the streak, enrage increases between 5-20%. 0 to 42 Dark Nilas <:darknilas:884739993527013426> can be obtained in a single roll.
 
@@ -26,7 +26,7 @@ The Arch-Glacor is only affected by the Glacor slayer task on Normal Mode. The s
 
 .
 > __**Preset**__
-.tag:preset
+.tag:presets
 ⬥ If using Smoke Cloud <:smokecloud:856635090641879050> via spellbook swap rather than borrowed power, you may substitute food for the extra pouch
 ⬥ You can adjust your food and replace blubbers and grests with solids and saradomin brews as you climb enrage, if needed
 
@@ -98,7 +98,7 @@ __**Pillars of Ice**__
 
 ⬥ Generally, this mechanic can be handled by simply moving as such:
     • Walking to the most Southwest tile.
-    • Bladed Dive <:bd:535532854281764884> or Walking South and then East to the most Northeast tile that isn't blocked by Creeping Ice as the first beam is about to approach you.
+    • Bladed Dive <:bd:535532854281764884> or Walking North and then East to the most Northeast tile that isn't blocked by Creeping Ice as the first beam is about to approach you.
     • After Creeping Ice despawns, walk East until you're about to be hit by the second beam and then Surge <:surge:535533810004262912>.
     • Attack the Glacor, causing you to face it and then Surge <:surge:535533810004262912> towards it as the Creeping Ice or the second beam is about to hit you.
 .
@@ -167,9 +167,9 @@ __**Starting rotation/Death Swiftness rotations**__
 __**General rotation advice**__
 ⬥ If you get arms, and it's not in your first DS <:ds:535541258924326912>, equip Ruby Bakriminel bolts <:RubyBakri:565726489413287956> and kill arms with: equip <:ecb:615618531937222657> + auto → (Dual wield) <:gricocaroming:867678153966878740> → equip <:ecb:615618531937222657> <:shadowtend:642713547142332416> (Switch after Ruby <:RubyBakri:565726489413287956> proc) → Improvise with basics. This rotation can be really fast for arms.
 
-⬥ It is practical to use Natural Instinct <:NaturalInstinct:513213538496675850> after clearing arms and building to 100% for your next Death Swiftness <:deathsswiftpf:867678153949708309>.
+⬥ It is practical to use Natural Instinct <:nat:535541258131865633> after clearing arms and building to 100% for your next Death Swiftness <:deathsswiftpf:867678153949708309>.
 
-    • If Relentless <:relentless5:712244800920748092> procs, just use Incendiary Shot <:incend:535541258429661215> after using Natty <:NaturalInstinct:513213538496675850> so that you can cycle more Dark Bow Special attacks <:dbow:643848618553507843> <:eofspec:746403211908481184> in the DS <:ds:535541258924326912> after.
+    • If Relentless <:relentless5:712244800920748092> procs, just use Incendiary Shot <:incend:535541258429661215> after using Natty <:nat:535541258131865633> so that you can cycle more Dark Bow Special attacks <:dbow:643848618553507843> <:eofspec:746403211908481184> in the DS <:ds:535541258924326912> after.
 
 ⬥ Stick to Hydrix Bakriminel bolts <:HydrixBakri:550834403136503822> when the boss has less than 100k HP.
 
@@ -181,11 +181,43 @@ __**General rotation advice**__
 https://www.twitch.tv/videos/1139889428
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Mechanics** - $linkmsg_mechanics$
-⬥ **Preset** - $linkmsg_preset$
-⬥ **Strategy** - $linkmsg_strategy$
-⬥ **Example kills** - $linkmsg_example$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Strategy__",
+        "value": "[Link]($linkmsg_strategy$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

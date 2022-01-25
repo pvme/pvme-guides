@@ -6,16 +6,17 @@ The Essence of Finality <:eof:787526151978614824> <:eofor:745279787471470713> is
 **__Direct Upgrades__**
 ⬥ Dark Bow <:dbow:643848618553507843>
 ⬥ Seren Godbow <:sgb:626466665848242186> (Ranged camp)
-⬥ Guthix Staff <:gstaff:513203008608141314>
+⬥ Guthix Staff <:gstaff:513203008608141314> / Zamorak Staff <:zamorakstaff:873142795706179651>
 
 .
 **__Expensive/Niche Specs__**
-⬥ Statius Warhammer <:swh:725106177754660866>
+⬥ Statius Warhammer <:swh:641670143197446182>
 ⬥ Annihilation <:annihilation:796989662983094275>
 ⬥ Eldritch Crossbow <:ecb:615618531937222657>
 ⬥ Seren Godbow <:sgb:626466665848242186> (Offstyle)
 ⬥ Staff of Light <:staffoflight:841419289319964763>
 ⬥ Armadyl Battlestaff <:armadylbattlestaff:881962727705280512>
+⬥ Ek-ZekKil <:zekkil:903244090953588787>
 
 .
 **__Cheap Versatile Specs__**
@@ -158,6 +159,20 @@ The Essence of Finality <:eof:787526151978614824> <:eofor:745279787471470713> is
 `Low`
 
 .
+**__Ek-ZekKil__** <:zekkil:903244090953588787>
+⬥ Special Attack: __Igneous Cleave__
+    • Costs 50% adrenaline.
+    • 60 second cooldown.
+    • Deals an initial hit of 62-190% ability damage, and applies a bleed which lasts for 6 hits, and is extended by one further hit for each bleed or burn applied within its duration up to a maximum of 5 additional hits.
+    • This bleed has an initial hit of 30-105% ability damage, and increases in power by a multiplicative 5% with each successive hit.
+⬥ What <:eofspec:746403211908481184> lets you do that you normally cannot
+    • Allows the special attack to be cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554>, which extends the duration of the bleed by 3 additional hits.
+⬥ Scenarios it is used
+    • Anywhere you would be using the Ek-ZekKil special attack.
+⬥ Priority/usefulness (at said scenarios):
+`TBD`
+
+.
 **__Granite Maul__** <:gmaul:796989663051120640>
 ⬥ Special Attack: __Quick Smash__
     • Costs 50% adrenaline
@@ -176,7 +191,6 @@ The Essence of Finality <:eof:787526151978614824> <:eofor:745279787471470713> is
     • Costs 60% adrenaline
     • Deals 120-320% ability damage to any enemies adjacent to the player
     • Deals magic damage but is calculated entirely with melee damage modifiers
-    • How its accuracy is calculated is still a bit of a mystery, but testing has shown that Magic <:Magic:689504724159823906> accuracy modifiers seem to increase the spec's hit chance.
 ⬥ What <:eofspec:746403211908481184> lets you do that you normally cannot
     • Big area damage
 ⬥ Scenarios it is used
@@ -202,7 +216,7 @@ The Essence of Finality <:eof:787526151978614824> <:eofor:745279787471470713> is
 ⬥ Special Attack: __Sweep__
     • Costs 30% adrenaline
     • Does 2 AoE hits of 45-185% damage each
-    • Shares a 12t (7.2s) cooldown with Cleave <:cleave:535532878616985610>
+    • Has a 12t (7.2s) cooldown
 ⬥ What <:eofspec:746403211908481184> lets you do that you normally cannot
     • More damage
 ⬥ Scenarios it is used
@@ -221,7 +235,20 @@ The Essence of Finality <:eof:787526151978614824> <:eofor:745279787471470713> is
 ⬥ What <:eofspec:746403211908481184> lets you do that you normally cannot
     • 1h/DW Guthix Staff, Magic adrenaline sink
 ⬥ Scenarios it is used
-    • Anywhere you use Magic
+    • Anywhere you use Magic, and the affinity debuff is needed
+⬥ Priority/usefulness (at said scenarios):
+`High`
+
+.
+**__Zamorak Staff__** <:zamorakstaff:873142795706179651> <:eofpurple:780401412936040478>
+⬥ Special Attack: __Flames of Zamorak__
+    • Costs 25% adrenaline
+    • Deals 140-300% ability damage
+    • Drains target's magic level by 5% of the previous level and decreases target's accuracy by 5% in all combat styles for 1 minute
+⬥ What <:eofspec:746403211908481184> lets you do that you normally cannot
+    • 1h/DW Zamorak Staff, Magic adrenaline sink
+⬥ Scenarios it is used
+    • Anywhere you use Magic, and the <:gstaff:513203008608141314> affinity debuff is not needed
 ⬥ Priority/usefulness (at said scenarios):
 `High`
 
@@ -251,9 +278,33 @@ The Essence of Finality <:eof:787526151978614824> <:eofor:745279787471470713> is
 `Medium if using the Fractured Staff of Armadyl, very low otherwise`
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Ranged** - $linkmsg_ranged$
-⬥ **Melee** - $linkmsg_melee$
-⬥ **Magic** - $linkmsg_magic$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ranged__",
+        "value": "[Link]($linkmsg_ranged$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Melee__",
+        "value": "[Link]($linkmsg_melee$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Magic__",
+        "value": "[Link]($linkmsg_magic$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

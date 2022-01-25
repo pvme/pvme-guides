@@ -4,7 +4,7 @@
 ⬥ Costs <:MarksofWar:704701746869567551> 25,000 Marks of War
 ⬥ BIS auras at most places, they last 30 minutes but are extended to 1 hour via vis wax. Provide the following effects:
     • These auras provide an invisible 10% boost to the player's melee/magic/ranged damage and accuracy.
-        - This does not stack with damage-boosting ultimates <:DeathsSwift:513190158812839936> <:Sunshine:583430011948630016> <:Berserk:513190158468907012> <:meta:535533811304497183>
+        - This does not stack with damage-boosting ultimates <:deathsswift:535541258924326912> <:Sunshine:583430011948630016> <:Berserk:513190158468907012> <:meta:535533811304497183>
     • The respective combat level is also increased by 10%. With an elder overload, this results in a level of 130.
     • You will also receive 15% more melee, magic, ranged and soft typeless damage.
         - Hard typeless is unaffected.
@@ -57,7 +57,7 @@
     • Note: Ilujankan & Cywir components also require 2,500 reputation in their respective GWD2 faction.
     • Crackling deals 50% ability damage per rank every 60 seconds
     • Precise increases your minimum damage by 1.5% per rank of your maximum damage.
-    • Planted Feet increases the duration of Sunshine <:Sunshine:583430011948630016> and Death's Swiftness <:DeathsSwift:513190158812839936> by 25%.
+    • Planted Feet increases the duration of Sunshine <:Sunshine:583430011948630016> and Death's Swiftness <:deathsswift:535541258924326912> by 25%.
     • Aftershock deals additional AoE damage every 50,000 damage the player deals.
 ⬥ These basic perks should be used in any general combat scenario as they are unlocked early and provide a substantial boost to DPS
     • Note: Check <#553632787639435284> to see updated basic perks with ancient invention.
@@ -205,7 +205,7 @@ Further examples may be seen here: <https://runescape.wiki/w/Optimal_PvM_Relic_P
 .tag:quests
 **__General PvM Quests__**
 ⬥ **The World Wakes**
-    • Unlocks the Sunshine, Death's Swiftness, Natural Instinct, and Balanced Strike <:Sunshine:583430011948630016> <:DeathsSwift:513190158812839936> <:NaturalInstinct:513213538496675850> <:balancedstrike:535532854336290826> abilities
+    • Unlocks the Sunshine, Death's Swiftness, Natural Instinct, and Balanced Strike <:Sunshine:583430011948630016> <:deathsswift:535541258924326912> <:nat:535541258131865633> <:balancedstrike:535532854336290826> abilities
     • Priority: `High`
 
 ⬥ **Merlin's Crystal**
@@ -221,7 +221,7 @@ Further examples may be seen here: <https://runescape.wiki/w/Optimal_PvM_Relic_P
 .
 ⬥ **The Digsite**
     • Awards the Codex Ultimatus, which unlocks the smoke/shadow/blood tendrils <:Smoke_Tendrils:536257336130404372> <:shadowtend:642713547142332416> <:BloodTend:513190158431158274> and ice asylum <:IceAsylum:553050196817215491> abilities
-    • Priority: `High for Melee/Ranged, low for Magic`
+    • Priority: `High for Melee/Ranged & Magic if using FSOA, low for Magic if not`
 
 ⬥ **Dream Mentor**
     • Full access to Lunar spellbook
@@ -442,14 +442,58 @@ Note: Only the last quests in a quest line are listed, rather than listing all p
     • Priority: `Low`
 
 .
-> **__Table of Contents__**
-⬥ **Auras** - $linkmsg_auras$
-⬥ **Invention Perks** - $linkmsg_invention$
-⬥ **Potions & Prayers** - $linkmsg_potions$
-⬥ **Relics** - $linkmsg_relics$
-⬥ **Task Sets for PvM** - $linkmsg_tasks$
-⬥ **Quest Unlocks** - $linkmsg_quests$
-⬥ **Reaper Store** - $linkmsg_reaper$
-⬥ **Player Owned Farm** - $linkmsg_pof$
-⬥ **Miscellaneous Upgrades** - $linkmsg_misc$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Auras__",
+        "value": "[Link]($linkmsg_auras$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Invention Perks__",
+        "value": "[Link]($linkmsg_invention$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Potions & Prayers__",
+        "value": "[Link]($linkmsg_potions$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Relics__",
+        "value": "[Link]($linkmsg_relics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Task Sets for PvM__",
+        "value": "[Link]($linkmsg_tasks$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Quest Unlocks__",
+        "value": "[Link]($linkmsg_quests$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Reaper Store__",
+        "value": "[Link]($linkmsg_reaper$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Player Owned Farm__",
+        "value": "[Link]($linkmsg_pof$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Miscellaneous Upgrades__",
+        "value": "[Link]($linkmsg_misc$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -23,24 +23,24 @@ Slayer helmet boosts work when on a Kalphites task, and the preset for DKs can b
 **__Basic Preset__**
 ⬥ <:ancientshard:656426717505650708> **Ancient elven ritual shard:** Restores prayer overtime, 5 minute cooldown
 ⬥ <:SliskeBody:513204700980576266> **Hybrid Armour:** Ideally Anima core of Sliske or Akrisae's equipment for Invention perks.
-⬥ <:purppouch:656786565149884427>  **Rune Pouch** <:Airrune:536252658986647589> <:Soulrune:536252660333019136> <:Chaosrune:536252659422855188>
+⬥ <:graspingpouchblue:892816437406728252>     **Rune Pouch** <:Airrune:536252658986647589> <:Soulrune:536252660333019136> <:Chaosrune:536252659422855188> <:Waterrune:536252660165115905>
 (Runes for <:AirSurge:543465115870035999> and <:Vuln:537349530551582720>)
 .
-.img:https://i.imgur.com/Rf6buTA.png
+.img:https://i.imgur.com/V0kphM1.png
 .
 **__Advanced Preset__**
 .
-.img:https://i.imgur.com/svISoDw.png
+.img:https://i.imgur.com/PpAMqV7.png
 .
 > **__AFK Overview__ (Courtesy of <@269513930949263363>)**
-.tag:strat
+.tag:afk
 **__Explanation__**
-⬥ This method is slower than the active hybrid methods (~37KPH), but it requires little to no input. Verac the Defiled’s set effect along with Weapon poison+++ and a Ripper demon <:ripperpouch:703581275453128714> with scrolls effectively kills Kalphite Queen’s second phase in a timely manner.
+⬥ This method is slower than the active hybrid methods (~40KPH), but it requires little to no input. Verac the Defiled’s set effect along with Weapon poison+++ and a Ripper demon <:ripperpouch:703581275453128714> with scrolls effectively kills Kalphite Queen’s second phase in a timely manner.
 
 ⬥ Elder overload salve <:elderovlsalve:648976643687317532>, Penance aura <:penance:643505653062565907>, and Elven Ritual shard <:ancientshard:656426717505650708> activation will sustain <:soulsplit:615613924506599497> and <:turmoil:583429936606347280> use indefinitely.
     • A holy wrench may negate the need to periodically activate the shard, allowing for increased AFK time.
 
-⬥ No active pocket slot is necessary.
+⬥ An activated scripture of wen allows for extra kph <:wengodbook:883134307902816297>.
 
 ⬥ The use of potion reservoirs allows for 36 minute AFK times, resulting in only needing to make sure the player isn't lobbied.
 
@@ -53,7 +53,7 @@ For this method it is important to have a few things:
 ⬥ <:penance:643505653062565907>  **Penance Aura**
 ⬥ <:persistentrage:739965637056659567>  **Persistent Rage relic**
 .
-.img:https://i.imgur.com/5JvEoIo.png
+.img:https://i.imgur.com/FimjniV.png
 .
 Stand here:
 .
@@ -67,9 +67,33 @@ Stand here:
 .
 https://youtu.be/eBfiJfTe3v0
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Drops** - $linkmsg_drops$
-⬥ **Presets** - $linkmsg_presets$
-⬥ **AFK Overview** - $linkmsg_strat$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__AFK Overview__",
+        "value": "[Link]($linkmsg_afk$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

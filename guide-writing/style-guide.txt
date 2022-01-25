@@ -147,7 +147,30 @@ __**Discord Commands (to be used in <#689575078698287152>**__)
 ⬥ The table of contents should be pinned in the channel.
     • At the bottom of the Table of Contents, add a new line with the command `.pin:delete`
 ⬥ Table of Contents entries should list the Section Name, and link to the proper message
-    • Example entry: **Sectionword** - $linkmsg_tagword$
+    • Example entry:
+.
+```
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Sectionword__",
+        "value": "[Link]($linkmsg_tagword$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sectionword__",
+        "value": "[Link]($linkmsg_tagword$)",
+		"inline": true
+      }
+    ]
+  }
+}
+..embed:json
+..pin:delete```
+.
         - the tagword as mentioned above is how the bot knows to make a message link to the appropriate message. under the Section, add a blank line with the command `.tag:[word]`.
 ⬥ Utilise the below table of contents as an example.
 
@@ -162,6 +185,189 @@ __**Example of an entire section formatted**__
 ⬥ Follow this basic format and incorporate the other guidelines such as embedding or rotations, and you should be well on your way to having a stylized guide.
 
 .
+> **__Guide Writing Template__**
+.tag:guidetemplate
+.
+```> **__Title__**
+..img:[imgur link of picture of boss]
+
+..
+> **__Intro__**
+..tag:intro
+[Describe the boss here]
+..img:[Picture of Weaknesses]
+
+..
+> **__Drops__**
+..tag:drops
+⬥ [list unique drops here (with emojis) along with rates if known]
+
+..
+> **__Presets__**
+..tag:presets
+⬥ [describe obscure preset items in bullet points]
+⬥ [rune pouch contents too]
+..
+..img:[post imgur link of preset here]
+**__Mechanics__**
+..tag:mechanics
+⬥ first mechanic
+    • describe the mechanic
+        - [describe how to handle mechanic]
+..img:[imgur link of gif of mechanic]
+⬥ [Repeat for the rest of the mechanics]
+
+..
+> **__The Fight__**
+..tag:fight
+⬥ [Explain the fight, break it down into phases if applicable]
+
+..
+> **__Rotations__**
+..tag:rotations
+⬥ [Phase 1 rotations]
+⬥ [Phase 2 rotations]
+⬥ [etc]
+
+..
+> **__Example Kills__**
+..tag:example```
+.
+```..
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_fight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+..embed:json
+..pin:delete```
+
+.
+> __**Embed Making Guide/Template**__
+.tag:embedtemplate
+__**Embed commands**__:
+\n = add a new line
+\u00a0\u00a0\u00a0\u00a0 = add 4 spaces after a new line
+\n\u00a0\u00a0\u00a0\u00a0• = add a new line and 4 spaces (to add subsubpoints)
+\n\u200B = add a blank line at the end of string
+[text](website link) = add hyperlink
+
+A generic template looks like this, and you would fill in contents in the blank quotation marks, adding commands as needed. The "name" corresponds to a header, and the "value" corresponds to contents within that header.
+.
+```{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "",
+        "value": ""
+      },
+	  {
+        "name": "",
+        "value": ""
+      },
+	  {
+        "name": "",
+        "value": ""
+      }
+    ]
+  }
+}
+..embed:json```
+
+.
+If we fill in the template it looks something like this:
+.
+```{
+  "embed": {
+    "title": "__Embed Template Example__",
+    "description": "Ask questions if you get stumped",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Header1__",
+        "value": "⬥ Header1 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header1 subsubpoint\n\u200B"
+      },
+	  {
+        "name": "__Header2__",
+        "value": "⬥ Header2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header2 subsubpoint\n\u200B"
+      },
+	  {
+        "name": "__Header3__",
+        "value": "⬥ Header3 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header3 subsubpoint with hyperlink to google [here](https://www.google.com/)\n\u200B"
+      }
+    ]
+  }
+}
+..embed:json```
+
+.
+Which should look something like this as an actual header:
+.
+{
+  "embed": {
+    "title": "__Embed Template Example__",
+    "description": "Ask questions if you get stumped",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Header1__",
+        "value": "⬥ Header1 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header1 subsubpoint\n\u200B"
+      },
+	  {
+        "name": "__Header2__",
+        "value": "⬥ Header2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header2 subsubpoint\n\u200B"
+      },
+	  {
+        "name": "__Header3__",
+        "value": "⬥ Header3 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header3 subsubpoint with hyperlink to google [here](https://www.google.com/)\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
 > __**<#711468605358866463> Changelog**__
 .tag:change
 __**Changes to Style Guide**__
@@ -174,17 +380,81 @@ __**Changes to Style Guide**__
     • Added how to denote EoF spec usage in the __**Rotations**__ Section.
 ⬥ 2021/07/06
     • Removed the mention of uploading to the PvME Youtube channel.
+⬥ 2021/09/15
+    • Added guide template
+⬥ 2021/10/13
+    • Added embed template
+⬥ 2021/10/19
+    • Updated ToC template
 
 .
-> __**Table of Contents**__
-⬥ **Introduction** - $linkmsg_introduction$
-⬥ **General** - $linkmsg_general$
-⬥ **Embedding Images/Videos** - $linkmsg_embed$
-⬥ **Sections and Subsections** - $linkmsg_sections$
-⬥ **Lists** - $linkmsg_lists$
-⬥ **Rotations** - $linkmsg_rotations$
-⬥ **Helpful Commands** - $linkmsg_help$
-⬥ **Table of Contents (formatting)** - $linkmsg_toc$
-⬥ **Putting it all Together** - $linkmsg_finish$
-⬥ **Changelog** - $linkmsg_change$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_introduction$)",
+		"inline": true
+      },
+	  {
+	    "name": "__General__",
+        "value": "[Link]($linkmsg_general$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Embedding Images/Videos__",
+        "value": "[Link]($linkmsg_embed$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Sections and Subsections__",
+        "value": "[Link]($linkmsg_sections$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Lists__",
+        "value": "[Link]($linkmsg_lists$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Helpful Commands__",
+        "value": "[Link]($linkmsg_help$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Table of Contents (formatting)__",
+        "value": "[Link]($linkmsg_toc$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Putting it all Together__",
+        "value": "[Link]($linkmsg_finish$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Guide Writing Template__",
+        "value": "[Link]($linkmsg_guidetemplate$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Embed Making Guide/Template__",
+        "value": "[Link]($linkmsg_embedtemplate$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Changelog__",
+        "value": "[Link]($linkmsg_change$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

@@ -212,7 +212,6 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
 
 ⬥ **Angel of Death:** <:aod:580167371365548042>
     • Spirit Weed
-    • Kwuarm
 
 .
 ⬥ **Araxxor:** <:Araxxi:513213019543699466>
@@ -327,11 +326,24 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
 **__Arrows__**
 ⬥ **Black Stone Arrows** <:blackstonearrow:785031580149743617>
     • T92 arrows
-    • Passive Effect: reduces target's armour rating by .75% per successful attack, capping at 15% armour reduction
-    • Mainly used for range Telos and Nex with lower tier gear
-    • Arrows are not consumed after cap is reached
+    • Passive Effect: reduces target's armour rating by .75% per successful attack, capping at 15% armour reduction.
+    • Mainly used for range Telos and Nex with lower tier gear.
+    • Arrows are not consumed after cap is reached.
     • Priority: `Low`
 
+⬥ **Deathspore arrows** <:deathsporearrows:900758234527301642>
+    • T95 arrows
+    • Increase critical strike chance by +3%.
+    • Every time you deal a critical hit, a stack of Feasting Spores is gained, consuming one arrow.
+    • When 5 stacks of Feasting Spores are obtained, they are consumed to grant a 9 second (15 tick) buff that makes the next Ranged ability that would cost adrenaline free, this includes special attacks. 60s (100 tick) cooldown.
+    • While on cooldown, any critical hits dealt will reduce the remaining cooldown by 1.8 seconds (3 ticks), these cooldown reductions do not consume arrows.
+    • Priority: `Low`
+
+⬥ **Splintering arrows** <:splinteringarrows:900758234246299649>
+    • T95 arrows
+    • Passive Effect: all attacks used for 4.2 seconds (7 ticks) after Greater Dazing Shot will also apply Puncture stacks.
+    • Raises puncture cap from 10 → 13
+    • Priority: `Low`
 .
 > **__Miscellaneous__**
 .tag:miscellaneous
@@ -360,16 +372,60 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
 .tag:preset
 This is an example of a general PvM preparation preset used for bonfiring, summoning familiars, potting up, restocking rune pouches, refilling charge pack, changing spellbook, and using incense.
 .
-.img:https://i.imgur.com/qq0qM3T.png
+.img:https://i.imgur.com/kC4w041.png
 .
-> **__Table of Contents__**
-⬥ **Healing** - $linkmsg_food$
-⬥ **Overloads** - $linkmsg_overload$
-⬥ **Adrenaline Potions** - $linkmsg_apot$
-⬥ **Bombs** - $linkmsg_bomb$
-⬥ **Incense Sticks** - $linkmsg_incense$
-⬥ **Summoning** - $linkmsg_summ$
-⬥ **Ammo** - $linkmsg_bakrbolts$
-⬥ **Miscellaneous** - $linkmsg_miscellaneous$
-⬥ **Banking Preset** - $linkmsg_preset$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Healing__",
+        "value": "[Link]($linkmsg_food$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Overloads__",
+        "value": "[Link]($linkmsg_overload$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Adrenaline Potions__",
+        "value": "[Link]($linkmsg_apot$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Bombs__",
+        "value": "[Link]($linkmsg_bomb$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Incense Sticks__",
+        "value": "[Link]($linkmsg_incense$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Summoning__",
+        "value": "[Link]($linkmsg_summ$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ammo__",
+        "value": "[Link]($linkmsg_bakrbolts$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Miscellaneous__",
+        "value": "[Link]($linkmsg_miscellaneous$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Banking Preset__",
+        "value": "[Link]($linkmsg_preset$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete

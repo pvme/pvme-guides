@@ -1,24 +1,30 @@
-> **__Hex Modifier__**
-**__What Provides the Modifer__**
-Hexhunter Bow <:hexhunterbow:581180369911414794>, Terrasaur Maul <:terramaul:602561894829522954>, and the Inquisitor's Staff <:inquisitorstaff:694566917553520680>
-
-**__What Exactly is the Modifier__**
-When a hex weapon is used against a target that is susceptible to that specific weapon, you gain a +12.5% damage boost and a +10% hitchance boost
-
-**__When is the Modifier Applied__**
-It is applied after everything is calculated in terms of damage and hitchance assuming the weapon is T80, likely with exception of DBA <:DBA:603979368850653216> and Reaver's Ring <:reaverring:839903943018283050>
-
-**__What Does This Mean__**
-This means the damage and accuracy would scale and so depending on debuffs against the enemy and your gear and boosts among other things the tier equivalent can change
-
-**__Useful Links__**
-⬥ For damages make a copy of then customize the following sheet to refer to:
-<https://docs.google.com/spreadsheets/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0/>
-
-⬥ For hitchances make a copy of then apply relevant features to refer to:
-<https://docs.google.com/spreadsheets/d/1X0GwTMCpCW5plaV0Gdvgw_glPlj-y-UBDiKjHmTkGBM/edit#gid=1250242134>
-
-⬥ For a list of susceptible things refer to:
-    • For <:hexhunterbow:581180369911414794> <https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow>
-    • For <:terramaul:602561894829522954> <https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul>
-    • For <:inquisitorstaff:694566917553520680> <https://runescape.wiki/w/Category:Susceptible_to_inquisitor_staff>
+{
+  "embed": {
+    "title": "__Hex Modifer__",
+    "description": "*Note: More details in the \"Hex Modifier\" section of <#689206023675838471>*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__What Is It?__",
+        "value": "⬥ It is the passive effect of the Hexhunter bow <:hexhunterbow:581180369911414794>, Terrasaur maul <:terramaul:602561894829522954>, and Inquisitor's staff <:inquisitorstaff:694566917553520680>"
+      },
+	  {
+        "name": "__What Does It Do?__",
+        "value": "⬥ When active, it provides +12.5% ability damage and a flat +10% hitchance (before <:DBA:603979368850653216> and <:reaverring:839903943018283050> are considered) over a T80 weapon"
+      },
+	  {
+        "name": "__When Is It Active?__",
+        "value": "⬥ When used against a target whose main attack style is weak to your weapon's style (based on combat triangle)"
+      },
+	  {
+        "name": "__What Does This Mean?__",
+        "value": "⬥ Where the effect works and you remain 100% hitchance, you can expect a ~4.8%/3.4%/1.4% damage increase over T90/T92/T95"
+      },
+	  {
+        "name": "__Useful Links__",
+        "value": "⬥ For damages make a copy of the [Ability damage sheet](https://docs.google.com/spreadsheets/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0/) then customize to your liking\n⬥ For hitchances make a copy of the [Hit chance calculator](https://docs.google.com/spreadsheets/d/1X0GwTMCpCW5plaV0Gdvgw_glPlj-y-UBDiKjHmTkGBM/edit#gid=1250242134) then customize it to your liking\n⬥ For a list of susceptible things refer to:\n\u00a0\u00a0\u00a0\u00a0• For: <:hexhunterbow:581180369911414794> [Wiki](https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow) | <:terramaul:602561894829522954> [Wiki](https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul) | <:inquisitorstaff:694566917553520680> [Wiki](https://runescape.wiki/w/Category:Susceptible_to_inquisitor_staff)"
+      }
+    ]
+  }
+}
+.embed:json

@@ -1,22 +1,21 @@
-> **__Bladed Dive__**
-**__Why Am I Doing Less Damage Than Expected?__**
-*Note: For non-Melee*
-1) You are not wearing enough gear that provides a Melee Damage Bonus
-    a) E.g.: using Tokhaar <:KilnRanged:602582045541269567> / <:mageKiln:569592271922528271> over Max Cape <:maxcape:580177795703898117>
-
-2) Your weapon is not perked well
-    a) E.g.: It has Precise 2 over Precise 6 <:p6:712073088769982475> on it
-
-3) You are not flicking to a Melee boosting prayer such as Turmoil <:turmoil:583429936606347280>
-
-**__Why Am I Doing No Damage?__**
-1) You casted Bladed Dive <:bd:535532854281764884> during the Global Cooldown
-
-2) You are under the Powerburst of acceleration <:accel:756236265472524418> effect
-
-**__Why Am I Gaining No Adrenaline?__**
-1) You casted Bladed Dive <:bd:535532854281764884> during the Global Cooldown
-
-2) You did not click the target before casting Bladed Dive <:bd:535532854281764884>
-
-3) You are being affected by Mobile <:mob:689501908628799488> as a perk or relic
+{
+  "embed": {
+    "title": "__Bladed Dive__ <:bd:535532854281764884>",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Why Am I Doing Less Damage Than Expected?__",
+        "value": "*Note: For non-Melee*\n1) You are not wearing enough gear that provides a Melee Damage Bonus\n\u00a0\u00a0\u00a0\u00a0a) E.g.: using Tokhaar <:KilnRanged:602582045541269567> / <:mageKiln:569592271922528271> over Max Cape <:maxcape:580177795703898117>\n2) Your weapon is not perked well\n\u00a0\u00a0\u00a0\u00a0a) E.g.: It has Precise 2 over Precise 6 <:p6:712073088769982475> on it\n3) You are not flicking to a Melee boosting prayer like <:turmoil:583429936606347280>\n\u200B"
+      },
+	  {
+        "name": "__Why Am I Doing No Damage?__",
+        "value": "1) You casted <:bd:535532854281764884> during the Global Cooldown\n2) You are under the Powerburst of acceleration <:accel:756236265472524418> effect\n\u200B"
+      },
+	  {
+        "name": "__Why Am I Gaining No Adrenaline?__",
+        "value": "1) You casted <:bd:535532854281764884> during the Global Cooldown\n2) You did not click the target before casting <:bd:535532854281764884>\n3) You are being affected by Mobile <:mob:689501908628799488> as a perk or relic"
+      }
+    ]
+  }
+}
+.embed:json

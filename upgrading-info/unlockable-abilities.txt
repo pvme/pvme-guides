@@ -212,6 +212,16 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
     • Deals a combined 53.4%-267.0% ability damage for all 3 hits.
     • Priority: `High`
 
+⬥ **Magma Tempest** <:magmatempest:902209626509025290>
+    • Requires level 66 Magic
+    • Unlocked using a Magma Tempest ability codex
+        - Obtained from both normal mode TzKal-Zuk and hard mode TzKal-Zuk.
+    • 5x5 area-of-effect that hits every 1.2 seconds (2 ticks).
+    • Hits for a total of 8 times over 9.6 seconds (16 ticks).
+        - Can hit up to 25 targets at a time.
+    • Has a targetted version that can be aimed at any tile in range <:magmatempesttarget:924741973858996284>.
+    • Priority: `Low`
+
 ⬥ **Limitless** <:limitless:641339233638023179>
     • Requires level 10 Constitution
     • Unlocked using a Limitless ability codex <:coins:698816156961603654> $data_pvme:Unlocks!E1$
@@ -319,9 +329,33 @@ These abilities are unlocked using a Mazcab Ability Codex <:coins:69881615696160
 *Note: Unlocking Greater Dazing Shot <:mds:535541259033378827> also unlocks Salt the Wound <:stw:535541259109138463>.*
 
 .
-> **__Table of Contents__**
-⬥ **Introduction** - $linkmsg_intro$
-⬥ **Quest Unlocks** - $linkmsg_quests$
-⬥ **Buyable Abilities** - $linkmsg_buy$
-⬥ **Abilities Unlocked by Activities** - $linkmsg_activity$
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Quest Unlocks__",
+        "value": "[Link]($linkmsg_quests$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Buyable Abilities__",
+        "value": "[Link]($linkmsg_buy$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Abilities Unlocked by Activities__",
+        "value": "[Link]($linkmsg_activity$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
