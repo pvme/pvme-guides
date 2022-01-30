@@ -23,7 +23,9 @@
 .tag:disclaimer
 This guide is made with the idea of getting started at Telos, and does not cover meta strategies, for that refer to <#534571389487808534>.
 
+.
 > **__Enrage Mechanics__**
+.tag:enrage
 ⬥ **50%**: Virus is added on P2 and P3
 ⬥ **100%**: Phase 5
 ⬥ **150%**: Telos will freedom stuns and binds with a 50 tick cooldown
@@ -45,11 +47,11 @@ This guide is made with the idea of getting started at Telos, and does not cover
 .tag:mechanics
 {
   "embed": {
-    "title": "__Mechanics Summary__",
+    "title": "__Phase 1__",
     "color": 39423,
     "fields": [
       {
-        "name": "__Phase 1__",
+        "name": "__Auto-Attacks__",
         "value": "Telos attacks with melee when the player is in melee distance, otherwise mage."
       },
       {
@@ -67,9 +69,19 @@ This guide is made with the idea of getting started at Telos, and does not cover
       {
         "name": "__Green Beam__",
         "value": "⬥ Spawns at a random location. \n\u00a0\u00a0\u00a0\u00a0• When the player is standing in the beam, they gain rapid adrenaline. \n\u00a0\u00a0\u00a0\u00a0• When Telos is standing in the beam, he attacks 1 tick faster. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Phase boss before beam comes out."
-      },
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Phase 2__",
+    "color": 39423,
+    "fields": [
       {
-        "name": "__Phase 2__",
+        "name": "__Auto-Attacks__",
         "value": "Telos attacks with melee when the player is in melee distance, otherwise mage."
       },
       {
@@ -83,9 +95,19 @@ This guide is made with the idea of getting started at Telos, and does not cover
       {
         "name": "__Virus__",
         "value": "⬥ The player receives a coloured virus that deals constant damage. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Stand in the beam to clease the virus."
-      },
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Phase 3__",
+    "color": 39423,
+    "fields": [
       {
-        "name": "__Phase 3__",
+        "name": "__Auto-Attacks__",
         "value": "Telos only attacks with magic throughout this phase."
       },
       {
@@ -99,9 +121,19 @@ This guide is made with the idea of getting started at Telos, and does not cover
       {
         "name": "__Shockwaves and Drain__",
         "value": "⬥ If meter is on the left side → **__Drain:__** Telos drains the player's adrenaline and prayer points. [Example](https://imgur.com/IrOrcBM.mp4)\n⬥ If meter is on the right side → **__Shockwaves:__** Rapid, hard hitting soft-typeless attacks. [Example](https://imgur.com/GNj9g8i.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Phase Telos before he could use Shockwaves, otherwise resort to <:reflect:535541258786177064>"
-      },
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Phase 4__",
+    "color": 39423,
+    "fields": [
       {
-        "name": "__Phase 4__",
+        "name": "__Auto-Attacks__",
         "value": "Telos attacks with melee when the player is in melee distance, otherwise mage. \n⬥ Phase 4 is split into 4 smaller sections, separated by 3 fonts. \n\u00a0\u00a0\u00a0\u00a0• Deal a quarter of Telos's starting phase HP to phase him into a font. \n\u00a0\u00a0\u00a0\u00a0• Once phased, you lose your target, Telos becomes untargetable, walks up to a font and spawns 3 different-coloured golems."
       },
       {
@@ -115,6 +147,14 @@ This guide is made with the idea of getting started at Telos, and does not cover
       {
         "name": "__Font 3__",
         "value": "⬥ Wrap around the center of the room and wait for the three golems to spawn. \n\u00a0\u00a0\u00a0\u00a0• When the golems reach you, target the furthest one → <:ent:567727987274022924> + <:corruptblast:513190159194259467> + <:surge:535533810004262912> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- See example [here](https://imgur.com/dyeeCcK) \n\u00a0\u00a0\u00a0\u00a0• Chrage the font and phase Telos into P5."
+      },
+      {
+        "name": "__Weak Anima Bomb__",
+        "value": "⬥ Telos fires a slow moving orb that deals soft-typeless damage. [Example](https://imgur.com/rOCPDcD.mp4)\n\u00a0\u00a0\u00a0\u00a0• The player's overload timer is constantly drained after getting hit until cleansed. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block using <:res:535541258844635148>/<:disrupt:535614336207552523> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Cleanse the overload debuff by stepping into one of the fonts."
+      },
+      {
+        "name": "__So Much Power (SMP)__",
+        "value": "⬥ Once phase meter is filled, the next special attack is replaced by an SMP. [Example](https://imgur.com/Ft9mmv4.mp4)\n⬥ Telos fires a deadly soft-typeless attack paired with a normal attack (much like Hold Still). \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block with <:disrupt:535614336207552523> or <:res:535541258844635148>"
       }
     ]
   }
@@ -123,18 +163,11 @@ This guide is made with the idea of getting started at Telos, and does not cover
 .
 {
   "embed": {
+    "title": "__Phase 5__",
     "color": 39423,
     "fields": [
       {
-        "name": "__Weak Anima Bomb__",
-        "value": "⬥ Telos fires a slow moving orb that deals soft-typeless damage. [Example](https://imgur.com/rOCPDcD.mp4)\n\u00a0\u00a0\u00a0\u00a0• The player's overload timer is constantly drained after getting hit until cleansed. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block using <:res:535541258844635148>/<:disrupt:535614336207552523> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Cleanse the overload debuff by stepping into one of the fonts."
-      },
-      {
-        "name": "__So Much Power (SMP)__",
-        "value": "⬥ Once phase meter is filled, the next special attack is replaced by an SMP. [Example](https://imgur.com/Ft9mmv4.mp4)\n⬥ Telos fires a deadly soft-typeless attack paired with a normal attack (much like Hold Still). \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block with <:disrupt:535614336207552523> or <:res:535541258844635148>"
-      },
-      {
-        "name": "__Phase 5__",
+        "name": "__Auto-Attacks__",
         "value": "Telos only attacks with magic throughout this phase. \n*Note: Telos attacks 1 tick faster if green beam is not blocked by the player.*"
       },
       {
