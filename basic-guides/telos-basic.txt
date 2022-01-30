@@ -1,508 +1,257 @@
-**__Beginner Telos__ (Courtesy of <@!425520655920791553>)**
-.tag:intro
+> **__Basic Guide: Telos (Courtesy of <@300201707378442240>)__**
 .img:https://i.imgur.com/oNKbXti.png
-.
-> **__Introduction__**
-.
-This guide is targeted towards people who have never been to the boss before. There will be no discussion of what is "optimal", this is a subjective collection of tips and instructions intended solely to make getting initial experience at a boss easier - as a result of this it will be fairly general and try not to cater too much to any specific style. This also makes it reasonably Revolution friendly.
-
-It's difficult to try and write this guide as someone who already has hundreds of hours at the boss, so please don't hesitate to tag or dm me any feedback.
-
-While the Freedom timer is relevant at 150%+ enrage, in order to keep things concise, this guide will not pay too much attention to it.
-
 .
 > **__Presets__**
 .tag:presets
-**__General__**
-⬥ These presets are meant to be general guidelines. As this guide is intentionally non-specific with respect to exact rotations, you can downgrade/upgrade gear wherever necessary, including changing the ratio of Sailfish <:Sailfish:565726489363087360> / Blue Blubber Jellyfish <:blueblubber:689530593742291033> / Saradomin Brew <:Brew:565726489400573962>, or bringing fewer Super Restores <:restore:642708657825644554>.
+**__With Statius's Warhammer <:swh:641670143197446182>__**
+⬥ <:ripperpouch:703581275453128714> Ripper Demon Familiar
+⬥ <:eofpurple:780401412936040478> Essence of Finality - Guthix Staff <:gstaff:513203008608141314>
+⬥ <:ancientlantern:580177522503712781> perked with <:pf:689501925770919981>
+⬥ <:weppoison:689525476158472288> Weapon Poison +++
+⬥ <:elementsscrim:841409588959510539> Scrimshaw of the Elements
+⬥ <:swh:641670143197446182> Statius's Warhammer
+.img:https://imgur.com/13soYpt.png
 
-⬥ Some of these presets do not include a Ring of Death <:RoD:513190159462825984>. Due to prices constantly fluctuating and these presets being quite flexible.
-    • It's strongly recommended to compare your death cost with a standard DPS ring to the cost of death with a Ring of Death <:RoD:513190159462825984> (currently <:coins:698816156961603654> $data_pvme:Consumables!E9$).
-    • Make sure to also include the cost of your familiar and any supplies kept inside.
-
-.
-⬥ A Pack Mammoth <:Mammoth:513195712146702337> is used to ensure survivability, with the expectation that you will tank some specs just by virtue of being unfamiliar with the boss. This can be downgraded to whatever your best Beast of Burden is.
-    • The Mammoth scrolls allows your Mammoth to consume food without you losing adren, and will only consume Sailfish <:Sailfish:565726489363087360>, so this should be used throughout the fight. This can also be used alongside regular eating, allowing you to heal a considerable amount in 1 tick.
-    • When you are confident with specs you can switch this for a Ripper demon <:ripperpouch:703581275453128714>.
-
-⬥ Some regular Sailfish <:Sailfish:565726489363087360> are included in the inventory to allow you to overheal to reduce the chance of death when tanking a high hit.
-
-.
-⬥ Bladed Dive <:bd:535532854281764884> is strongly recommended to help with mobility including getting into beams to clear virus, as well as moving around on both P4 and P5.
-
-⬥ Spirit shields are used for their 30% damage reduction - greatly improving survivability.
-    • Any regular shield (the higher tier the better) will also work though.
+**__Without Statius's Warhammer <:swh:641670143197446182>__**
+⬥ <:smokenihil:854475442227642388> Smoke Nihil Familiar
+⬥ <:eofpurple:780401412936040478> Essence of Finality - Guthix Staff <:gstaff:513203008608141314>
+⬥ <:ancientlantern:580177522503712781> perked with <:pf:689501925770919981>
+⬥ <:weppoison:689525476158472288> Weapon Poison +++
+⬥ <:elementsscrim:841409588959510539> Scrimshaw of the Elements
+.img:https://imgur.com/r3WKthT.png
 
 .
-⬥ Expensive Spices <:spices:662038182807732255> are brought to boost the healing of Sailfish <:Sailfish:565726489363087360> and Blue Blubber Jellyfish <:blueblubber:689530593742291033> by 50 hp. This is not a requirement but can be useful.
+> **__Disclaimer__**
+.tag:disclaimer
+This guide is made with the idea of getting started at Telos, and does not cover meta strategies, for that refer to <#534571389487808534>.
 
-⬥ As this is a beginner guide with accessibility prioritised, it is assumed you won't DW + 2h swap (beyond applying Black Stone Arrows <:blackstonearrow:785031580149743617> with Ranged).
-    • However doing so will obviously help with damage output.
-
-.
-**__Magic__** <:Magic:689504724159823906>
-⬥ This magic preset uses an **Inquisitor's Staff** <:inquisitorstaff:694566917553520680> due to it being specifically good against Telos.
-    • This can be downgraded to a **Noxious Staff** <:noxstaff:513190159294922753> or equivalent.
-    • Similarly dual-wield magic is more than good enough.
-⬥ The **Seismic Wand** <:seiswand:583429704837758997> in this preset has Planted Feet <:pf:689501925770919981> on it.
-    • It's useful to have this on a high tier weapon as it is used to kill minions on P4 with a shield equipped, but this can still be downgraded to a Wand of the Cywir Elders <:augcywir:643846874444595200> or even Virtus Wand if necessary.
-⬥ <:redpouch:690848915020447745> **Rune Pouch**: <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427> **Rune Pouch**: <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:pinkpouch:656786565397348361> **Rune Pouch**: <:Deathrune:536252659586433024> <:Mudrune:536252660286881832> <:Soulrune:536252660333019136>
-    • These give access to Blood spells Blood Barrage <:bloodbarrage:537338981747261446> (for healing), Ice spells <:icebarrage:537340400185245701> (for binding minions), Spellbook Swap <:SBSLunars:565726489467682816>, Disruption Shield <:disrupt:535614336207552523> , Vengeance <:Veng:543478434953822208> and Shield Dome <:sd:537341954392850442>. You should be on the Ancient spellbook.
-    • If you don't wish to use combo runes, you can replace the Mud runes <:Mudrune:536252660286881832> with <:Waterrune:536252660165115905> + <:Earthrune:536252659808731137> in your inventory (or vice versa).
-.
-.img:https://i.imgur.com/oa8PvbY.png
-.
-⬥ Potential upgrades include:
-    • <:blessedflask:659122178704408598> **Blessed Flask**  to save inventory spots used for Super Restores.
-    • <:swh:641670143197446182> **Statius's Warhammer** for accuracy (to be used with Ingenuity of the Humans <:ingen:641339234111848463> on Phase 1 and Phase 4 dropdown).
-    • <:sgb:626466665848242186> **Seren Godbow**  (to use the spec with Ingenuity of the Humans <:ingen:641339234111848463> on Phase 5).
-    • <:sing:513190159261630467> **Seismic Singularity**  to 4taa with.
-    • <:ancientlantern:580177522503712781> **Ancient lantern**  with Planted Feet <:pf:689501925770919981> to aid with damage on P4 fonts (optionally using Revenge <:revenge:535541259645878302>).
+> **__Enrage Mechanics__**
+⬥ **50%**: Virus is added on P2 and P3
+⬥ **100%**: Phase 5
+⬥ **150%**: Telos will freedom stuns and binds with a 50 tick cooldown
+⬥ **200%**: Telos HP caps at 600,000 on P1-4
+⬥ **250%**: Telos will freedom stuns and binds with a 31 tick cooldown, and P5 will be stun-immunes after freedom for 10 ticks
+⬥ **300%**: Telos HP caps at 200,000 on P5
+⬥ **500%**: P4 font HP caps at 10,000
+⬥ The higher the enrage the stronger the damage Telos and golems deal.
 
 .
-**__Ranged (Ascensions)__** <:Ranged:689504724403486920>
-⬥ This ranged preset assumes you will be primarily camping **Ascension Crossbows** <:ascmh:513190158468775936> <:ascoh:513190159362031631> with Onyx Bakriminel Bolts (e) <:OnyxBakri:565726489362956308> and  Hydrix Bakriminel Bolts (e) <:HydrixBakri:550834403136503822>.
-⬥ <:zarytebow:791280228377952276> **Zaryte bow** is used solely to apply **Black Stone arrows** <:blackstonearrow:785031580149743617> on Phase 1, greatly improving accuracy from P1-4.
-    • If your P5 is particularly slow you may consider bringing extra arrows to apply, though this is unlikely to be worthwhile.
-⬥<:mechchin:641669268722810881> **Mechanised chinchompa**  are used to AoE minions during fonts on P4, and on P5.
-⬥ <:yellowpouch:690848914949144616> **Rune Pouch**: <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-(Runes for Disruption Shield <:disrupt:535614336207552523>. Must be on Lunars for this.)
+> **__Attack Pattern__**
+.tag:attackorder
+***Important note: please refer to this image to see the order of special attacks for each phase, as the summary section below only explains new unencountered ones.***
+⬥ The numbers represent the amount of auto-attacks before said specials.
+    • Keep in mind that the amount of auto-attacks carry from phase to phase, meaning if Telos used 2 auto-attacks in phase 1 before doing a special attack, he will only do 1 auto-attack in phase 2.
+.img:https://i.imgur.com/OA3tZ8J.png
 .
-.img:https://i.imgur.com/ktjJjao.png
-.
-⬥ Potential upgrades include:
-    • <:blessedflask:659122178704408598> **Blessed Flask**  to save inventory spots used for Super Restores.
-    • <:sgb:626466665848242186>  **Seren Godbow**.
-        - *Note: If you have this, it may be better to camp it instead of bringing Ascensions <:ascmh:513190158468775936> <:ascoh:513190159362031631>.*
-    • <:ancientrepriser:643150658891153428> **Ancient Repriser** with Planted Feet <:pf:689501925770919981> to aid with damage on P4 fonts (optionally using Revenge <:revenge:535541259645878302>).
-    • <:eofgreen:780401412727242773> **Essence of Finality** with a Dark Bow <:dbow:643848618553507843> stored.
-        - This helps considerably with P4, P5 and general dps.
-    • Extra <:bluepouch:656786565527502858> **Rune Pouch**: <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for Vengeance <:Veng:543478434953822208>)
-
-.
-**__Ranged (Noxious Longbow)__** <:Ranged:689504724403486920>
-⬥ This ranged preset assumes you will be camping a **Noxious Longbow** <:noxbow:513190159425208342>.
-⬥ You should apply **Black Stone arrows** <:blackstonearrow:785031580149743617> on Phase 1, greatly improving accuracy from P1-4. They will also be applied on Phase 5. If you wish to avoid using extra arrows you can consider bringing Araxyte arrows as a switch.
-⬥ <:mechchin:641669268722810881> **Mechanised chinchompa** are used along with an off-hand Shadow glaive <:glaiveoh:643161561707446283> to AoE minions during fonts on P4, and on P5.
-    • The off-hand Shadow glaive <:glaiveoh:643161561707446283> is not required, but strongly recommended.
-⬥ The Stalker's ring <:stalkerring:839903943601029120> is used as it gives 3% crit bonus while using a bow. Check death costs with your setup to determine if it is worth using over a Ring of Death <:RoD:513190159462825984>.
-⬥ <:yellowpouch:690848914949144616> **Rune Pouch**: <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-(Runes for Disruption Shield <:disrupt:535614336207552523>. Must be on Lunars for this.)
-.
-.img:https://i.imgur.com/jKjgJvA.png
-.
-⬥ Potential upgrades include:
-    • <:blessedflask:659122178704408598> **Blessed flask**  to save inventory spots used for Super Restores.
-    • <:sgb:626466665848242186>  **Seren godbow**.
-        - *Note: If you have this, camp it instead of the Noxious Longbow <:noxbow:513190159425208342> .*
-    • <:ancientrepriser:643150658891153428> **Ancient Repriser** with Planted Feet <:pf:689501925770919981> to aid with damage on P4 fonts (optionally using Revenge <:revenge:535541259645878302>).
-    • <:eofgreen:780401412727242773> **Essence of Finality** with a Dark Bow <:dbow:643848618553507843> stored.
-        - This helps considerably with P4, P5 and general dps.
-    • Extra <:bluepouch:656786565527502858> **Rune Pouch**: <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for Vengeance <:Veng:543478434953822208>)
-
-.
-**__Melee__** <:Attack:689509250472476758>
-⬥ This melee preset assumes you will be camping **Drygores** <:augdrygoremacemh:697485495684431902> <:augdrygorerapieroh:697485495718117536> however using a 2h weapon as a switch is useful.
-⬥ You should use the <:swh:641670143197446182> **Statius's Warhammer** <:spec:537340400273195028> special frequently in order to maintain good accuracy.
-    • Quake <:quake:535532879506309150> can also be used if necessary.
-⬥ <:lanispear:839903893177106454> **Laniakea's Spear** is used for AoEing minions on P4 and P5, but can also be used against Telos.
-⬥ <:yellowpouch:690848914949144616> **Rune Pouch**: <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-(Runes for Disruption Shield <:disrupt:535614336207552523>. Must be on Lunars for this.)
-.
-.img:https://i.imgur.com/PTdepbg.png
-.
-⬥ Potential upgrades include:
-    • <:blessedflask:659122178704408598> **Blessed Flask**  to save inventory spots used for Super Restores.
-    • <:sgb:626466665848242186> **Seren Godbow**  (to use the spec with Ingenuity of the Humans <:ingen:641339234111848463> on Phase 5).
-    • <:armourspike:756235792053174332> **Armour spikes (alloy)** in order to help with dealing damage.
-    • <:eofred:780401412839833601> **Essence of Finality** with Dragon claws stored <:superiordragonclaw:779048040425324585> - this helps considerably with P5.
-    • <:grim:568262896375824385> **Erethdor's Grimoire** can also be used (optionally as a switch) to help with damage.
-    • Extra <:bluepouch:656786565527502858> **Rune Pouch**: <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for Vengeance <:Veng:543478434953822208>)
-
-.
-> **__Overview of the Fight__**
-.tag:overview
-**__General Overview__**
-Telos starts with 400k HP (scaling up to 600k HP at 200% enrage), split evenly between Phases 1 to 4. Phase 5 has 100k HP at 100% enrage (scaling up to 200k HP at 300% enrage).
-.
-.img:https://i.imgur.com/82XfZ4l.jpeg
-.
-⬥ The spec order carries across phases, with the colour of the first spec in the next phase corresponding to the same colour of the last spec in the previous phase. For example, if your last spec on P1 was Tendrils (green), the first spec on P2 will be onslaught. The yellow boxes also go to Charge on p3.
-
-⬥ There are 3 autos between every spec on Phases 1-4. This number of autos does not reset between p1 and p2, but it does at the end of every other phase.
-
-⬥ Phase 1 starts with 7 autos before the first spec.
-
-.
-⬥ Phase 3 starts with 7 autos before the first spec (10 autos if the last spec on P2 was hold still, virus, or uppercut).
-
-⬥ Phase 5 has 10 autos before virus, and 17 autos between virus and instakill. It is not usually necessary to count these autos though.
-
-.
-**__Phase Overview__**
-⬥ **Phase 1:** A green beam will spawn sporadically, giving 10% adrenaline per tick when you stand in it. This bar will also charge Telos' spec bar until he uses a "So Much Power" special attack, if he's stood in the beam. Telos will primarily deal melee attacks on this phase, only resorting to mage when you are far away.
-
-⬥ **Phase 2:** A Black beam will consistently spawn on Telos charging his spec bar. This beam changes locations every 20 seconds. The Magic Onslaught special will drain this spec bar and will continue until the spec bar is empty. Telos will primarily deal melee attacks on this phase, only resorting to mage when you are far away.
-
-.
-⬥ **Phase 3:** A Red beam will consistently spawn in a semi-random location. This increases the damage you deal (and take) while stood in the beam. If Telos is stood in the beam, his spec bar will be charged which can lead to you getting nuked by Telos if it makes it onto the red right side. If it is on the red left side of the spec bar, your adrenaline and prayer will get drained occasionally. Three golems will also spawn, one at a time, as the phase progresses. If killed, they will respawn after a certain amount of time. Telos will only deal mage autos on this phase.
-
-⬥ **Phase 4:** Every 1/4 of phase hp, Telos will become untargetable and charge an instakill while you charge a font by standing close to it. The font will hit you 5 times, after which the font hp will hit 0 and the font will spawn an anima shield. Telos will release the instakill and you stand close to the font to avoid getting killed. When the instakill is released your defensives get put on cooldown for 6s. Telos will primarily deal melee attacks on this phase, only resorting to mage when you are far away.
-
-⬥ **Phase 5:** (100%+ enr only) All three beams spawn on Telos in a random arrangement. The beams swap places every 36 seconds. Telos charges an instakill throughout this phase. The green beam will speed up Telos' autos so it's important to block it as much as possible. Telos will only deal mage autos on this phase.
-
-.
-> **__Mechanics__**
+> **__Mechanics Summary__**
 .tag:mechanics
-**__Tendrils__**
-⬥ This spec will bind you in place and drain your hp and adrenaline until you do a certain amount of damage (3000 + 10 × Enrage).
-
-⬥ No need to anticipate this, just react to it and use a strong ability like Guthix staff <:gstaff:513203008608141314> <:spec:537340400273195028> / Snap Shot <:snap:535534127131394088> / Greater Ricochet <:grico:787904334812807238> / Hurricane <:cane:535532878969438210>
-.
-.img:https://imgur.com/n92IQzM.mp4
-.
-**__Uppercut (Charge)__**
-⬥ Telos will lift his arm and charge an uppercut towards you, dealing damage when he releases it.
-
-⬥ You can avoid all damage by using Surge <:surge:535533810004262912> / Escape <:escape:535541258832052231> / Bladed Dive <:bd:535532854281764884> and travelling at least 3 squares. The correct time to do this is 1 tick after you see Telos' overhead text disappear.
-
-.
-⬥ Resonance <:res:535541258844635148> will work to negate this damage, but it's generally a low amount of damage so worth trying to learn the correct timing.
-
-⬥ No need to anticipate this, just react to it and learn when to Surge <:surge:535533810004262912> / Escape <:escape:535541258832052231> / Bladed Dive <:bd:535532854281764884>.
-.
-.img:https://i.imgur.com/XqELqv0.mp4
-.
-**__Hold Still (Stun)__**
-⬥ Telos will hit you with one small auto, followed by a large melee hit which will bind and stun you if you don't have Anticipate <:anti:535541306475151390> / Freedom <:freedom:535541258240786434> up. Telos will then jump on the location where you stood when you took the large melee hit, dealing a 5x5 AoE attack and blocking you from using overhead prayers for a short time. You can walk away to avoid this.
-.
-.img:https://i.imgur.com/payin2I.mp4
-.
-⬥ The small auto counts towards the 3 autos till next spec, so there will only be 2 further autos before the next spec.
-
-⬥ By far the most important spec to learn. Need to anticipate it and use Anticipate <:anti:535541306475151390> / Freedom <:freedom:535541258240786434> in advance, then Resonance <:res:535541258844635148> **after** you get hit with the small auto (which can splash) to res the large hit, this is important for both healing and damage mitigation.
-
-.
-⬥ While learning it's advised you camp melee prayer for this. You can also use Devotion <:devo:513190158728953857> + Deflect Melee <:DeflectMelee:544195488447201300> if not confident using Resonance <:res:535541258844635148> to completely negate the melee hit. You will still need to Anticipate <:anti:535541306475151390> / Freedom <:freedom:535541258240786434> though.
-
-⬥ If you forget to Anticipate <:anti:535541306475151390> / Freedom <:freedom:535541258240786434>, you can click your shield from inventory and spam Resonance <:res:535541258844635148> in order to negate the hit splat from the jump.
-
-.
-**__Magical Onslaught__**
-⬥ The black beam will fill Telos' anima as long as he's standing on the beam. Once this special attack comes, he will fire gradually stronger Magic auto-attacks until the bar is depleted.
-
-⬥ Telos will become immobilised during this special so it's important you block the beam by standing in it because you won't be able to walk him out of the beam.
-.
-.img:https://imgur.com/z6RwtpZ.mp4
-.
-**__Virus__**
-⬥ This only occurs at 50%+ enrage.
-
-⬥ This attack deals a small amount of damage every tick, until you stand in the beam.
-
-.
-⬥ No need to anticipate this, just move to beam when you notice it.
-
-⬥ You can use Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> to reduce this but this is not worthwhile.
-
-.
-*Green virus, phase 5 only* <:greenvirus:853191856182657064>
-*Black virus, phase 2 and 5* <:blackvirus:853191855856287746>
-*Red virus, phase 3 and 5* <:redvirus:853191856350560266>
-.
-.img:https://i.imgur.com/cHn50X8.mp4
-.
-**__Shockwaves__**
-⬥ Rapid, hard hitting typeless hit used by Telos if he's overcharged by the Red Beam and the mini-golems in Phase 3.
-
-.
-*Shockwaves unleashed*
-.
-.img:https://imgur.com/GNj9g8i.mp4
-.
-**__Drain__**
-⬥ Telos drains your adrenaline and prayer to charge his anima, used if his anima is over the left red bar on Phase 3.
-.
-.img:https://imgur.com/IrOrcBM.mp4
-.
-**__Phase 4 Fonts__**
-⬥ Once Telos hits a fourth of his health, he will kneel down and absorb the anima from the Pure → Volcanic → Corrupt font. Also spawning a Golem of each anima type with varying effects:
-    • The Pure anima-golem <:greengolem:854335415842373643>(green) Golem hits increasingly harder the longer he's left alive. (Currently bugged and deals very low melee hits)
-    • The Volcanic anima-golem <:redgolem:854335416294703135> (red) golem periodically stuns you with his attacks.
-    • The Corrupted anima-golem <:blackgolem:854335415523868723> (black) golem shreds your armour, reducing your defences.
-.
-.img:https://imgur.com/qHPUMVd.png
-.
-⬥ The font has an area of 6x6 (the font object is 2x2, but you can stand in a 2 square radius outside of this). Standing in the font will deal damage to you 5 times, until the font runs out of HP, at which point it will create an Anima shield of the same size. Once the font is fully charged, or if it is ignored for too long, he will launch the instakill, killing you unless you are stood inside the Anima shield.
-.
-.img:https://imgur.com/HBuMYgR.mp4
-.
-**__Weak Anima Bomb__**
-⬥ Telos will fire a large slow-moving orb towards you that will hit for reasonably high damage.
-
-⬥ This attack turns you green and does constant damage and drains Overload timers until you stand in one of the fonts.
-.
-.img:https://imgur.com/rOCPDcD.mp4
-.
-⬥ Don't massively need to anticipate this - make sure you run to a font as Telos releases it.
-
-⬥ All defensives work on this, though Resonance <:res:535541258844635148> will not heal you.
-    • Recommended to use Shield Dome <:sd:537341954392850442> / Resonance <:res:535541258844635148> / Disruption Shield <:disrupt:535614336207552523> (if not saving it for So Much Power).
-
-.
-**__So Much Power! (SMP)__**
-⬥ When Telos' spec bar is full on Phase 4 (also on Phase 1, though this is unlikely), his next spec will be replaced by this. He will say "SO. MUCH. POWER!" and fire one small auto, then one very hard hitting typeless hit. This small auto counts towards the 3 autos till next spec.
-.
-.img:https://imgur.com/Ft9mmv4.mp4
-.
-⬥ It is not advised to tank this spec without the use of defensives or Vitality potion <:vitality:654618235097972737>.
-
-⬥ By far the most important part of P4 because it frequently happens soon after he fires his instakill at a font, and hence your defensives will be on cooldown. For this reason, you should try to phase Telos into a font immediately after a spec, in order to give you 3 autos for your defensives to come off cooldown.
-
-.
-⬥ Aim to Devotion <:devo:513190158728953857> + Resonance <:res:535541258844635148> where possible.
-    • Aim to be within melee distance of Telos for this so you can use Deflect Melee and devotion will stop your res sniped by Telos or any minions that may be alive. If you are going to get a mage auto, ensure you aren't close to any minions and Deflect Mage will be sufficient.
-    • If you can't Devotion <:devo:513190158728953857> + Resonance <:res:535541258844635148>, use Vitality potion <:vitality:654618235097972737> + Resonance <:res:535541258844635148> / Disruption Shield <:disrupt:535614336207552523> out of distance of minions.
-    • Shield Dome <:sd:537341954392850442> and vitality pot should also be used as a last resort.
-
-.
-**__Rockfall__**
-⬥ Below 1,000% enrage, Telos periodically drops a single rock on P5 which deals heavy typeless damage if stood in a 5x5 area around the rockfall.
-.
-.img:https://imgur.com/H2NQ3Eo.mp4
-.
-**__Phase 5 Instakill__**
-⬥ Telos will charge this instakill with every auto on P5. When Telos finishes charging it, he will stop attacking and raise both arms. After it is released the bar progress is reset and this spec repeats.
-
-⬥ This instakill can be negated by using the Immortality <:immort:535541258538582017> ability, or charging a font (kill 4 golems next to their respective font) though this is impractical and generally avoided.
-.
-.img:https://imgur.com/7vfE0Da.mp4
-.
-> **__Phase 1__**
-.tag:p1
-**__Strategy__**
-⬥ Planted feet <:pf:689501925770919981> Sunshine <:Sunshine:583430011948630016> start. If melee you can pre-dbaxe at the adren crystal, and zerk start if you have limitless sigil.
-
-⬥ Camp Soul Split <:soulsplit:615613924506599497> for entire phase (can put Deflect Melee <:DeflectMelee:544195488447201300> on when Hold Still is near to give you more safety).
-
-.
-⬥ Focus on dpsing Telos and don't worry too much about counting autos or preparing for specs (until after Uppercut).
-
-⬥ Prioritise debuffs (Vulnerability <:Vuln:537349530551582720> <:vulnbomb:655341074235129858>, aiming to Guthix staff <:gstaff:513203008608141314> <:spec:537340400273195028> / Statius warhammer <:swh:641670143197446182> <:spec:537340400273195028> before worrying about using thresholds. If ranging you should apply Black Stone arrows <:blackstonearrow:785031580149743617> before switching to your regular ammo (either Ascensions + Bakriminel bolts, or just to Araxyte arrows if camping Nox bow).
-
-.
-⬥ Dreadnips <:nip:537336877900890135> should be used throughout P1.
-
-⬥ Stun as much as you can.
-
-⬥ Stand in green beam whenever it spawns.
-
-.
-**__Points of Improvement__**
-⬥ Try to time the ability you use to break Tendrils to ensure Telos doesn't heal.
-
-⬥ Learn to target cycle (tc) p1 as this can give you extra time in the phase by delaying Telos' first auto.
-
-⬥ Try to line up your stuns so they're 1 tick before Telos would normally auto. This maximises the delay.
-
-.
-⬥ If you're doing an enrage above 150%, try to break Telos' freedom with a worse stun like Impact <:impact:535533809655873556> / Binding Shot <:bindingshot:535541306563231790> / Backhand <:backhand:535532854302605333> (or a bind like Rapid Fire <:rapid:535541270521708566> / Barge <:barge:535532853916860437>), to ensure longer stuns like Asphyxiate <:asphyx:535533833072672778> / Deep Impact <:deep:535533833139912724> / Tight Bindings <:tight:535541275957657600> / Forceful Backhand <:backhand:535532854302605333> / Destroy <:destroy:535532879330148352> aren't wasted.
-
-⬥ Soul Split <:soulsplit:615613924506599497> + Deflect Melee <:DeflectMelee:544195488447201300> prayer flicking.
-
-.
-> **__Phase 2__**
-.tag:p2
-**__Strategy__**
-⬥ Mobility is key to keep Telos out of the beam so using Sunshine/Death's swiftness/ZGS spec isn't recommended. The beam reduces your damage dealt to Telos, so try to walk perpendicular to the beam to drag him out. At the start of the phase, wait until the beam spawns before trying to move him.
-
-⬥ Camp Soul Split <:soulsplit:615613924506599497> for entire phase. Can use Deflect Mage <:DeflectMage:544195487926845462> during the mage onslaught if it is prolonged. You can also put Deflect Melee <:DeflectMelee:544195488447201300> on when Hold Still is near to give you more safety.
-
-⬥ Do not use a dreadnip on this phase.
-
-.
-⬥ Focus on maintaining debuffs. Stunning is less important than on P1 but can still be useful.
-
-⬥ Try not to phase either immediately, or during the 3 autos, after Tendrils as this will make P3 much harder due to the first spec being Hold Still.
-
-⬥ Try to have 100% adrenaline at phase end to make P3 easier.
-
-.
-**__Points of Improvement__**
-⬥ Try to time the ability you use to break tendrils with to ensure Telos doesn't heal.
-
-⬥ Make magic onslaught as short as possible, by dragging Telos out of the beam fast, and ensuring you block the beam as soon as magic onslaught starts, if it's on Telos.
-    • Phasing P1 after tendrils can help with this as it gives Magical Onslaught first spec, which means the spec bar won't have charged much at all, however it is not worth delaying P1 for this.
-
-.
-> **__Phase 3__**
-.tag:p3
-**__Strategy__**
-⬥ Run to corner at start then surge to beam once it spawns. Use Onslaught <:onsl:513190159085207555> once you get in beam (make sure you're between Telos and the origin of the beam so he won't walk).
-
-⬥ Camp Soul Split <:soulsplit:615613924506599497> on this phase. Use  Deflect Mage <:DeflectMage:544195487926845462> during Onslaught <:onsl:513190159085207555> as <:soulsplit:615613924506599497> doesn't work with it. You can also put Deflect Melee <:DeflectMelee:544195488447201300> on when Hold Still is near to give you more safety.
-
-⬥ Dreadnips <:nip:537336877900890135> can lead to Telos getting stuck in a place where you can't hit him while stood in the beam, or can lead to him getting stuck in the beam, so for this reason it is advised to wait until you are in the beam before deploying one.
-
-.
-⬥ Once the 3rd minion spawns, use a bleed on one of the existing minions to kill it. Try to make sure there's no more than 2 minions alive at any point.
-
-⬥ Keep your HP up and focus on making sure you're ready to deal with Hold Still when it comes.
-
-⬥ If you feel overwhelmed, return to the corner in order to ensure Telos isn't stood in a red beam.
-
-.
-**__Points of Improvement__**
-⬥ Can use Metamorphosis <:meta:535533811304497183> instead of Onslaught <:onsl:513190159085207555> if you have Limitless sigil <:limitless:641339233638023179> unlocked. This can lead to a faster phase time but requires more skill.
-
-⬥ Spend more time in red beam to ensure you do more damage to Telos.
-
-⬥ When Telos is close to phase HP, if the spec bar is low enough you can focus on killing him rather than killing minions.
-
-.
-> **__Phase 4__**
-.tag:p4
-.img:https://i.imgur.com/MixaB5o.png
-.
-The above image shows the location where you drop down (X) and the 3 fonts, labeled in order. Between each section of this phase you should begin to move towards the next font. This lets you move into it faster and avoid any unnecessary So Much Powers (SMPs).
-
-.
-**__Drop down__**
-⬥ Focus on stunning Telos and building enough adren to be able to reflect in the first font. Re-apply debuffs if necessary.
-
-⬥ Camp Soul Split <:soulsplit:615613924506599497> for the entire phase (you can use Deflect Melee <:DeflectMelee:544195488447201300> when golems are attacking if necessary).
-
-⬥ You can use a  Dreadnips <:nip:537336877900890135> on this phase, however it can lead to Telos phasing at bad times.
-
-.
-⬥ Deal with specs appropriately, make sure you don't phase Telos immediately before Hold Still as you need your defensives off cooldown in order to deal with this spec properly.
-
-⬥ Once Telos is at the phase hp, before equipping your spirit shield try to use Corruption Blast <:corruptblast:513190159194259467>/Corruption Shot on the red minion that spawns. Then equip Spirit shield <:arcanespiritshield:690976219612708954> , use Reflect <:reflect:535541258786177064> and run into the font. Continue to AoE minions as much as possible:
-    • If ranging, use chins and good basics to build adren.
-    • If meleeing, can use AoEs like Hurricane <:cane:535532878969438210>/ Quake <:quake:535532879506309150>/Cleave/Flurry before reflecting.
-    • If you're struggling to kill minions by the time the font has charged, you can skip the Reflect <:reflect:535541258786177064> and use your regular 2h/dw weapons to kill them faster.
-    • You can also use resonance or divert on the font, however when learning this isn't recommended due to the likelihood of needing these to deal with specs.
-
-.
-**__After 1st Font__**
-⬥ When the font finishes charging + minions are dead, check the spec bar to ensure it isn't full. If it is full, you were too slow to get into the font and So Much Power will replace the next spec.
-
-⬥ Assuming the spec bar is not full, focus Telos and DPS as normal.
-
-.
-⬥ It's important at this stage to try to phase Telos into the 2nd font immediately after a spec, to ensure you can deal with SMP appropriately.
-
-⬥ When Telos is phased, deal with minions in the same way as you did with the first font. Corruption Blast <:corruptblast:513190159194259467>/Corruption Shot red minion, then Reflect <:reflect:535541258786177064> and run into font before AoEing them to kill them.
-
-.
-**__After 2nd Font__**
-⬥ This is by far the most important time in the entire fight to stun Telos, as it lets your defensives come off cooldown in order to deal with So Much Power properly.
-
-⬥ Make sure you are full HP in case you make a mistake dealing with SMP.
-
-.
-⬥ DPS as normal, once again making sure you don't phase immediately before Hold Still.
-
-⬥ When Telos is phased, deal with minions in the same way as you did with the other two fonts. Corruption Blast <:corruptblast:513190159194259467> / Corruption Shot red minion, then Reflect <:reflect:535541258786177064> and run into font before AoEing them to kill them.
-
-.
-**__After 3rd Font__**
-⬥ When the font finishes charging + minions are dead, check the spec bar to ensure it isn't full. If it is full, you were too slow to get into the font and So Much Power will replace the next spec.
-
-⬥ Assuming the spec bar is not full, focus Telos and DPS as normal until Telos' HP hits 0 (hopefully before yours).
-
-Congratulations on the kill if its below 100% enrage!
-
-.
-**__Points of Improvement__**
-⬥ Charge Detonate <:deto:535533833358016512> or stall an ability on Telos before he releases the instakill. If melee, try to kill the minions early enough to allow you to use barge on Telos and bleed destroy after every font.
-
-⬥ Can use Revenge <:revenge:535541259645878302> with a Defender <:ancientlantern:580177522503712781> <:ancientrepriser:643150658891153428> to give you more damage on minions + Telos.
-
-.
-⬥ If you are still targeting Telos when he becomes untargetable, you will lose your target and therefore be able to use defensive thresholds (like Reflect <:reflect:535541258786177064> / Revenge <:revenge:535541259645878302> / Devotion <:devo:513190158728953857>) without losing adrenaline.
-
-⬥ Spend less time before running into the font, optionally skipping Corruption Blast <:corruptblast:513190159194259467>/Corruption Shot before going in. This just has the potential to speed up the phase.
-
-.
-> **__Phase 5__**
-.tag:p5
-Phase 5 uses the same arena as P4. You drop down on the south side (close to where you finished the last font).
-
-.
-**__Strategy__**
-⬥ Retarget Telos at the start and run to the green beam wherever it spawns (you should pre-run towards the left beam until you can see where the green beam has spawned).
-    • Aim to stand 1-3 squares away from Telos on side-beam, or 4 squares away on back-beam.
-    • Do not surge to backbeam as this can make minions go around both sides of Telos, causing them to group up poorly.
-
-⬥ Use a Vulnerability bomb at a convenient time. These only work when thrown at any square md of Telos, on the East side, South side, or the West side of Telos. For this reason it's strongly advised to throw it at the start.
-
-⬥ Use Guthix staff <:gstaff:513203008608141314> <:spec:537340400273195028> / Quake <:quake:535532879506309150> on Telos as early as possible.
-
-.
-⬥ Use Dreadnips <:nip:537336877900890135> as early as possible and reapply throughout the phase, when necessary.
-
-⬥ You can likely camp Soul Split <:soulsplit:615613924506599497> for much of this phase, though Deflect Melee <:DeflectMelee:544195488447201300> when minions are attacking you is recommended.
-
-⬥ Sunshine <:Sunshine:583430011948630016> / Death's Swiftness <:deathsswift:535541258924326912> as soon as you get in green beam and focus on stunning Telos.
-
-.
-⬥ When minions have grouped up:
-    • If maging, use Tsunami <:tsunami:535533809995874304> on golems (try to hit them all). Use Corruption Blast <:corruptblast:513190159194259467> or other AoEs to kill any stragglers that your Tsunami <:tsunami:535533809995874304> missed.
-    • If ranging, use Chins <:mechchin:641669268722810881> + regular good abilities to kill golems (e.g. Snap Shot <:snap:535534127131394088>, or Dark bow EoF <:dbow:643848618553507843> <:eofspec:746403211908481184> if you have it).
-    • If meleeing, equip Laniakea spear <:lanispear:839903893177106454> and use Meteor Strike <:meteorstrike:535532879359377439> + Hurricane <:cane:535532878969438210> / Quake <:quake:535532879506309150> if necessary.
-
-.
-⬥ Use Vitality potion <:vitality:654618235097972737> for rockfall if off cooldown, or just Reflect <:reflect:535541258786177064>.
-
-⬥ Spam Guthix staff <:gstaff:513203008608141314> <:spec:537340400273195028> or Dark bow EoF <:dbow:643848618553507843> <:eofspec:746403211908481184> or just use good abilities until virus spawns. (If you are camping a 2h weapon you can only use these every other ability. If using dw you can use them every gcd). Clear virus then wait for beam swap.
-
-⬥ Return to green beam and wait for the first rockfall. Dodge this then use Onslaught <:onsl:513190159085207555>.
-
-.
-⬥ If Telos charges instakill, build to 100% adrenaline in the green beam and use Immortality <:immort:535541258538582017>. Build to 100% adrenaline again and reapply debuffs. Try not to be stood near the green beam when the next set of minions spawn as this will make grouping them up harder.
-
-⬥ After instakill, run to green beam and repeat.
-
-.
-**__Points of Improvement__**
-⬥ Apply debuffs earlier.
-
-⬥ Stand MD of Telos for Tsunami <:tsunami:535533809995874304> so it hits him too. This is only relevant on side-beams.
-
-⬥ Learn the Surges <:surge:535533810004262912> (from backbeam, or to backbeam) to clear virus and move between beams faster. You can do this by surging while targeting Telos on sidebeam (assuming you're stood within the 3 squares closest to him). From backbeam, you should run diagonally towards a sidebeam and surge when you are 2 squares away from Telos.
-
-.
-⬥ If confident, can tank a rockfall at lower enrages to prolong Onslaught <:onsl:513190159085207555>.
-
-⬥ At much lower enrages, if you have non-red minions you can just Onslaught <:onsl:513190159085207555> as soon as you get to green beam and Telos should die before virus. This may require some prayer flicking.
-
-.
-> **__Looting__**
-.tag:loot
-**__Introduction__**
-⬥ The drop rate of uniques is influenced by both enrage and streak length. Common drops aren't influenced by enrage but they are hugely influenced by streak length.
-
-⬥ Luck of the Dwarves <:LotD:566453486913323042> can rarely increase the quantity of a common drop, or reroll a common drop into a unique. This is infrequent so it's not usually worth checking after every kill, but on streaks it is advised to check at the end of every aura.
-
-.
-**__Loot Tiers__**
-Telos has 3 loot tiers depending on your enrage:
-⬥ Bronze Loot <:bronzeloot:854335736315379772> tier: <25% enrage
-    • 30 times reduced unique drop rate
-
-.
-⬥ Silver Loot <:silverloot:854335735825956864> tier: 25-99% enrage
-    • 10 times reduced unique drop rate
-
-⬥ Gold Loot <:goldloot:854335735838277632> tier: 100%+ enrage
-    • Regular unique drop rate
-
+{
+  "embed": {
+    "title": "__Mechanics Summary__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Phase 1__",
+        "value": "Telos attacks with melee when the player is in melee distance, otherwise mage."
+      },
+      {
+        "name": "__Tendrils__",
+        "value": "⬥ Telos binds you in place, drains both your health and adrenaline, and heals himself for every hit the player takes. [Example](https://imgur.com/n92IQzM.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Deal (3,000 + 10 x Enrage) damage to free yourself."
+      },
+      {
+        "name": "__Charge__",
+        "value": "⬥ Telos charges at the player after a short delay, dealing soft-typeless damage. [Example](https://imgur.com/iUIAuba.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Use <:surge:535533810004262912>/<:escape:535541258832052231>/<:bd:535532854281764884> 1 tick after the text above Telos disappears. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Resort to <:disrupt:535614336207552523>/<:res:535541258844635148> if necessary."
+      },
+      {
+        "name": "__Hold Still__",
+        "value": "⬥ Telos hits the player with a normal attack followed by a large melee hit that stuns, then jumps to the spot the player was standing on. [Example](https://imgur.com/fKhoh6P.mp4)\n\u00a0\u00a0\u00a0\u00a0• The normal attack can be either a melee or a magic hit, depending on how far the player is. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:anti:535541306475151390>/<:freedom:535541258240786434> beforehand to protect against the stun. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:res:535541258844635148> the large melee hit. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Move out of the jump radius."
+      },
+      {
+        "name": "__Green Beam__",
+        "value": "⬥ Spawns at a random location. \n\u00a0\u00a0\u00a0\u00a0• When the player is standing in the beam, they gain rapid adrenaline. \n\u00a0\u00a0\u00a0\u00a0• When Telos is standing in the beam, he attacks 1 tick faster. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Phase boss before beam comes out."
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "Telos attacks with melee when the player is in melee distance, otherwise mage."
+      },
+      {
+        "name": "__Black Beam__",
+        "value": "⬥ Spawns on Telos. \n\u00a0\u00a0\u00a0\u00a0• When the player is standing in the beam, they deal and take 30% less damage. \n\u00a0\u00a0\u00a0\u00a0• When Telos is standing in the beam, the phase meter charges and he receives 20% less damage. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Pull Telos out of the beam and avoid standing in it unless necessary."
+      },
+      {
+        "name": "__Magic Onslaught__",
+        "value": "⬥ Telos stops moving and fires gradually stronger magic attacks until the phase meter is depleted. \n\u00a0\u00a0\u00a0\u00a0• Move Telos out of the beam before this attack starts so the bar doesn't fill too much.  \n\u00a0\u00a0\u00a0\u00a0• If Telos starts this attack while in the beam, block it by standing in it. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Use <:DeflectMage:544195487926845462>, restort to <:devo:513190158728953857> and/or <:reflect:535541258786177064> if the meter was charged too much."
+      },
+      {
+        "name": "__Virus__",
+        "value": "⬥ The player receives a coloured virus that deals constant damage. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Stand in the beam to clease the virus."
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "Telos only attacks with magic throughout this phase."
+      },
+      {
+        "name": "__Red Beam__",
+        "value": "⬥ Spawns at a random location. \n\u00a0\u00a0\u00a0\u00a0• When the player is standing in the beam, they deal and take 30% increased damage. \n\u00a0\u00a0\u00a0\u00a0• When Telos is standing in the beam, the phase meter charges and he deals 30% increased damage."
+      },
+      {
+        "name": "__Phase Meter and Golems__",
+        "value": "⬥ Meter naturally decreases. \n⬥ Meter increases when Telos is standing in the beam. \n⬥ With 1 golem alive, the meter slowly decreases. \n⬥ With 2 golems alive, the meter remains stationary (increases and decreases back and fourth). \n⬥ With 3 golems alive, the meter increases."
+      },
+      {
+        "name": "__Shockwaves and Drain__",
+        "value": "⬥ If meter is on the left side → **__Drain:__** Telos drains the player's adrenaline and prayer points. [Example](https://imgur.com/IrOrcBM.mp4)\n⬥ If meter is on the right side → **__Shockwaves:__** Rapid, hard hitting soft-typeless attacks. [Example](https://imgur.com/GNj9g8i.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Phase Telos before he could use Shockwaves, otherwise resort to <:reflect:535541258786177064>"
+      },
+      {
+        "name": "__Phase 4__",
+        "value": "Telos attacks with melee when the player is in melee distance, otherwise mage. \n⬥ Phase 4 is split into 4 smaller sections, separated by 3 fonts. \n\u00a0\u00a0\u00a0\u00a0• Deal a quarter of Telos's starting phase HP to phase him into a font. \n\u00a0\u00a0\u00a0\u00a0• Once phased, you lose your target, Telos becomes untargetable, walks up to a font and spawns 3 different-coloured golems."
+      },
+      {
+        "name": "__Golems__",
+        "value": "⬥ Three different-coloured melee golems spawn at each font. [Example](https://imgur.com/Pqb71gY.mp4)\n\u00a0\u00a0\u00a0\u00a0• Red golems attacks are able to stun after their first 3 hits. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:anti:535541306475151390>, resort to <:freedom:535541258240786434> if you got stunned. \n\u00a0\u00a0\u00a0\u00a0• Red golems have normal attack range. \n\u00a0\u00a0\u00a0\u00a0• Green and black golems have halberd attack range."
+      },
+      {
+        "name": "__Fonts__",
+        "value": "⬥ To block Telos's instakill, players must walk up to and charge the fonts with their HP, for a total of 5 hits while dealing with golems. [Example](https://imgur.com/mBqSukd.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:res:535541258844635148> + <:reflect:535541258786177064> to reduce damage taken from fonts. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Relevant defensives do NOT work on the last hit of fonts. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Once the instakill is negated, all of your defensive abilities get placed on a 6s cooldown."
+      },
+      {
+        "name": "__Font 3__",
+        "value": "⬥ Wrap around the center of the room and wait for the three golems to spawn. \n\u00a0\u00a0\u00a0\u00a0• When the golems reach you, target the furthest one → <:ent:567727987274022924> + <:corruptblast:513190159194259467> + <:surge:535533810004262912> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- See example [here](https://imgur.com/dyeeCcK) \n\u00a0\u00a0\u00a0\u00a0• Chrage the font and phase Telos into P5."
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Weak Anima Bomb__",
+        "value": "⬥ Telos fires a slow moving orb that deals soft-typeless damage. [Example](https://imgur.com/rOCPDcD.mp4)\n\u00a0\u00a0\u00a0\u00a0• The player's overload timer is constantly drained after getting hit until cleansed. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block using <:res:535541258844635148>/<:disrupt:535614336207552523> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Cleanse the overload debuff by stepping into one of the fonts."
+      },
+      {
+        "name": "__So Much Power (SMP)__",
+        "value": "⬥ Once phase meter is filled, the next special attack is replaced by an SMP. [Example](https://imgur.com/Ft9mmv4.mp4)\n⬥ Telos fires a deadly soft-typeless attack paired with a normal attack (much like Hold Still). \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block with <:disrupt:535614336207552523> or <:res:535541258844635148>"
+      },
+      {
+        "name": "__Phase 5__",
+        "value": "Telos only attacks with magic throughout this phase. \n*Note: Telos attacks 1 tick faster if green beam is not blocked by the player.*"
+      },
+      {
+        "name": "__Strategy__",
+        "value": "⬥ Telos spawns 6 similar-colored minions at the start of the phase. \n⬥ Make your way to the green beam. \n\u00a0\u00a0\u00a0\u00a0• Lure golems properly. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- To do this, always start by going to the left beam. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- If side beams → enter the 2nd tile in the green beam. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- If back beam → enter the 4th tile in the beam."
+      },
+      {
+        "name": "__Rock__",
+        "value": "⬥ A single rock falls at certain times during the phase.  \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:vitality:654618235097972737>+ <:reflect:535541258786177064>"
+      },
+      {
+        "name": "__Virus__",
+        "value": "⬥ The player receives a random-coloured virus that deals constant damage. \n\u00a0\u00a0\u00a0\u00a0• To cleanse the virus stand in the beam of the same colour. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:debil:535541278264393729> + <:surge:535533810004262912>/<:bd:535532854281764884>"
+      },
+      {
+        "name": "__Phase Meter__",
+        "value": "⬥ Gradually fills up \n\u00a0\u00a0\u00a0\u00a0• Once filled, Telos begins charging an instakill attack and receives heavily reduced damage. [Example](https://imgur.com/7vfE0Da.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally kill before he can use this mechanic, otherwise <:immort:535541258538582017>"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> **__Stunning Guide__**
+.tag:stun
+Mage has access to 3 different stun abilities:
+⬥ <:impact:535533809655873556> Stuns for 1 GCD (3ticks/1.8s)
+⬥ <:deep:535533833139912724> Stuns for 1 GCD + 2 ticks (5ticks/3s)
+⬥ <:asphyx:535533833072672778> Stuns for the first 3 hits. (5ticks/3s)
+    • Chain these abilities however you see fit when stunning Telos.
+    • If not 4-ticking with mage, ideally leave <:deep:535533833139912724> for last.
+
+.
+> **__Basic Rotations__**
+.tag:rots
+*Note: <:vulnbomb:655341074235129858> Telos at the start of each phase.*
+**__Phase 1__**
+⬥ <:surge:535533810004262912> towards Telos → <:Sunshine:583430011948630016> → <:gconc:869285393223254107> →  <:swh:641670143197446182><:spec:537340400273195028> /<:gstaff:513203008608141314><:eofspec:746403211908481184> → <:icebarrage:537340400185245701> <:freedom:535541258240786434>
+⬥ Aim to fit:
+    • <:asphyx:535533833072672778> + <:impact:535533809655873556> + <:deep:535533833139912724>
+    • <:wm:535533809978966037>
+⬥ Use <:deto:535533833358016512> +<:gstaff:513203008608141314><:eofspec:746403211908481184> to break Tendrils.
+
+**__Phase 2__**
+⬥ Utilise <:corruptblast:513190159194259467> + walked <:comb:535533833098100745>
+⬥ Utilise stuns; <:asphyx:535533833072672778> <:impact:535533809655873556> <:deep:535533833139912724>
+⬥ <:gconc:869285393223254107> + <:wm:535533809978966037> + <:gstaff:513203008608141314><:eofspec:746403211908481184>
+
+**__Phase 3__**
+⬥ Aim to start with ~85%+ adrenaline.
+    • <:meta:535533811304497183> → basics (utilise <:corruptblast:513190159194259467>+<:comb:535533833098100745>)
+    • Get in beam → <:limitless:641339233638023179> → <:wm:535533809978966037> + <:asphyx:535533833072672778> before drain mechanic.
+
+.
+**__Phase 4__**
+To deal with Telos's SMP, ideally phase him into a font with 2 or 3 auto-attacks remaining before the next special.
+
+⬥ Make use of <:adrenrenewal:736298121704767538>
+⬥ Make sure to <:swh:641670143197446182><:spec:537340400273195028> /<:gstaff:513203008608141314><:eofspec:746403211908481184> before first font.
+
+**__Font 1__**
+⬥ Target and kill red golem while charging font.
+    • Utilise <:reflect:535541258786177064> + <:revenge:535541259645878302>
+⬥ Finish killing golems while dealing with Telos's special attacks.
+⬥ Phase Telos into next font, utilise stuns.
+
+.
+**__Font 2__**
+⬥ Target and kill red golem while charging font.
+    • Utilise <:reflect:535541258786177064>
+⬥ Finish killing golems while dealing with Telos's special attacks.
+⬥ Phase Telos into next font, utilise stuns.
+
+.
+**__Font 3__**
+⬥ Stick to the wall of the middle of the room and wait for the golems to reach you.
+⬥ Target the farthest golem → <:SBS:543875425055670275> → <:ent:567727987274022924> + <:corruptblast:513190159194259467> + <:surge:535533810004262912>
+    • See example here: <https://imgur.com/dyeeCcK>
+⬥ Charge font
+    • Utilise <:res:535541258844635148> + <:reflect:535541258786177064>
+⬥ Phase Telos into phase 5.
+
+.
+**__Phase 5__**
+⬥ Always start by making your way to left beam.
+⬥ You will be under heavy damage so spamming food after <:Sunshine:583430011948630016> is expected.
+⬥ Always start with <:corruptblast:513190159194259467> + <:dbreath:535533833391702017> as your first two abilities.
+⬥ Use <:DeflectMelee:544195488447201300> while stunning Telos.
+
+**__Side Beams__**
+⬥ Enter second tile of the green beam.
+⬥ <:Sunshine:583430011948630016> → (<:anti:535541306475151390> if red golems) → <:limitless:641339233638023179> → (3hit) <:asphyx:535533833072672778> → <:deep:535533833139912724>
+⬥ <:revenge:535541259645878302> → <:vitality:654618235097972737> + <:reflect:535541258786177064> rock.
+⬥  Walk melee distance to Telos → (<:freedom:535541258240786434> if red golems) → target middle golems → <:deto:535533833358016512> <:tsunami:535533809995874304>
+⬥ <:debil:535541278264393729> and clear virus when it comes out.
+    • Utilise <:surge:535533810004262912>/<:bd:535532854281764884>
+
+**__Back Beam__**
+⬥ Use <:impact:535533809655873556>+<:deep:535533833139912724> before reaching beam.
+⬥ Enter fourth tile of the green beam.
+⬥ <:Sunshine:583430011948630016> → (<:anti:535541306475151390> if red golems) → <:limitless:641339233638023179> → (2hit) <:asphyx:535533833072672778>
+⬥ <:reflect:535541258786177064> + <:vitality:654618235097972737> rock → <:revenge:535541259645878302>
+⬥ (<:freedom:535541258240786434> if red golems) → target middle golems → <:deto:535533833358016512> <:tsunami:535533809995874304>
+⬥ <:impact:535533809655873556>+<:deep:535533833139912724> before virus.
+⬥ <:debil:535541278264393729> and clear virus when it comes out.
+    • Utilise <:surge:535533810004262912>/<:bd:535532854281764884>
+
+.
+> **__Example Kills__**
+.tag:example
+Full kill: <https://youtu.be/jeZnAP4kNb8>
+Left beam:
+Right beam:
+Back beam:
 .
 {
   "embed": {
@@ -510,57 +259,47 @@ Telos has 3 loot tiers depending on your enrage:
     "color": 39423,
     "fields": [
       {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Preset__",
+	    "name": "__Presets__",
         "value": "[Link]($linkmsg_presets$)",
 		"inline": true
       },
 	  {
-	    "name": "__Overview of the Fight__",
-        "value": "[Link]($linkmsg_overview$)",
+	    "name": "__Disclaimer__",
+        "value": "[Link]($linkmsg_disclaimer$)",
 		"inline": true
       },
 	  {
-	    "name": "__Mechanics__",
+	    "name": "__Enrage Mechanics__",
+        "value": "[Link]($linkmsg_enrage$)",
+		"inline": true
+      },
+
+	  {
+	    "name": "__Attack Pattern__",
+        "value": "[Link]($linkmsg_attackorder$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics Summary__",
         "value": "[Link]($linkmsg_mechanics$)",
 		"inline": true
       },
 	  {
-	    "name": "__Phase 1__",
-        "value": "[Link]($linkmsg_p1$)",
+	    "name": "__Stunning Guide__",
+        "value": "[Link]($linkmsg_stun$)",
 		"inline": true
       },
 	  {
-	    "name": "__Phase 2__",
-        "value": "[Link]($linkmsg_p2$)",
+	    "name": "__Basic Rotations__",
+        "value": "[Link]($linkmsg_rots$)",
 		"inline": true
       },
-	  {
-	    "name": "__Phase 3__",
-        "value": "[Link]($linkmsg_p3$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase 4__",
-        "value": "[Link]($linkmsg_p4$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase 5__",
-        "value": "[Link]($linkmsg_p5$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Looting__",
-        "value": "[Link]($linkmsg_loot$)",
-		"inline": true
+                {
+	    "name": "__Example Kill__",
+	"value": "[Link]($linkmsg_example$)",
+	        "inline": true
       }
     ]
   }
 }
 .embed:json
-.pin:delete
