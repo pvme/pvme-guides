@@ -1,11 +1,11 @@
 {
   "embed": {
-    "title": "What Glove To Use <:Cinderbanes:513190158355660812> <:kerapacswristwraps:869286640722513940> <:Glovesofpassage:556588694862037012> <:NMG:513190159441723392> <:DTB:513190159429271562>",
+    "title": "__Gloves__",
     "color": 39423,
     "fields": [
       {
-        "name": "Camp if Boss is Poisonable <:weppoison:689525476158472288>",
-        "value": "⬥ Cinderbanes <:Cinderbanes:513190158355660812>"
+        "name": "__Choosing a Glove__",
+        "value": "⬥ **Cinderbanes** <:Cinderbanes:513190158355660812>\n\u00a0\u00a0\u00a0\u00a0• "
       },
       {
         "name": "Camp if Boss is not Poisonable, Otherwise Switch",
@@ -13,7 +13,22 @@
       },
 	  {
         "name": "Camp if Boss is not Poisonable, Otherwise Ignore",
-        "value": "⬥ Nightmare Gauntlets <:NMG:513190159441723392> if using range and are able to make use of its effect\n⬥ Deathtouched Bracelet <:DTB:513190159429271562> if other glove effects are not beneficial and the reflect damage it causes is not detrimental\n\n*For details on their effects check <#689235882724818962>*"
+        "value": "⬥ Nightmare Gauntlets <:NMG:513190159441723392> if using range and are able to make use of its effect\n⬥ Deathtouched Bracelet <:DTB:513190159429271562> if other glove effects are not beneficial and the reflect damage it causes is not detrimental"
+      }
+    ]
+  }
+}
+.embed:json
+
+{
+  "embed": {
+    "title": "__Gloves__",
+    "description": "*Note: for details on their effects check <#689235882724818962>*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Choosing a Glove__",
+        "value": "⬥ **Cinderbanes** <:Cinderbanes:513190158355660812>\n\u00a0\u00a0\u00a0\u00a0• If target is poisonable\n⬥ Kerapac's wristwraps <:kerapacswristwraps:869286640722513940>\n\u00a0\u00a0\u00a0\u00a0• If using <:Magic:689504724159823906>, target is not poisonable, and able to use the effect\n⬥ **Gloves of Passage** <:Glovesofpassage:556588694862037012>\n\u00a0\u00a0\u00a0\u00a0• If using <:melee:615612332521029632>, target is not poisonable, and able to use the effect\n⬥ **Nightmare Gauntlets** <:NMG:513190159441723392>\n\u00a0\u00a0\u00a0\u00a0• If using <:range:580168050121113623>, target is not posionable, and able to use the effect\n⬥ **Deathtouched Bracelet** <:DTB:513190159429271562>\n\u00a0\u00a0\u00a0\u00a0• If others are not beneficial and the reflect damage it causes is not detrimental"
       }
     ]
   }
