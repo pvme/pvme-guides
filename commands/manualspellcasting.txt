@@ -1,17 +1,22 @@
-> **__Manual Spellcasting__**
-**__Where to Find It__**
-Gameplay Setting → Combat → Action Bar → Manual spell casting
-
-**__What It Does__**
-⬥ With Manual Spellcasting on, casting a spell from your bar no longer changes your autocast
-    • Since auto damage is based on autocast spell, you can use weaker (and cheaper) variants of spells to 4TAA (e.g., <:airstrike:895600427930910730> auto, with autocasted <:AirSurge:543465115870035999> damage)
-    • This also allows you to get separate effects on your abilities (which are determined by autocast) and autos (which are determined by the auto you cast)
-
-**__Uses__**
-⬥ <:bloodburst:841419289714098246> / <:bloodrush:839903691329896479> autos with <:bloodblitz:535616247807868938> autocast for cheaper 4TAA
-⬥ <:icebarrage:537340400185245701> / <:iceblitz:535613865912696883> / <:bloodbarrage:537338981747261446> / <:bloodblitz:535616247807868938> autos with <:exsanguinate:856635090745950258> / <:incitefear:856635090783567902> / other autocasts
-    • Lets you freeze/heal/get different hit timings with autos while getting <:exsanguinate:856635090745950258> / <:incitefear:856635090783567902> / other effects on abilities
-
-**__Cons__**
-⬥ Harder to change autocast spell
-⬥ Abilities clicked from your book will not fire by itself, you will have to click the target after
+{
+  "embed": {
+    "title": "__Manual Spellcasting__",
+    "description": "Gameplay Settings → Combat → Action Bar → Manual spell casting",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__What It Does__",
+        "value": "⬥ With Manual Spellcasting enabled, casting a spell from your bar no longer changes your autocast\n\u00a0\u00a0\u00a0\u00a0• Since auto damage is based on autocast spell, you can use weaker (and cheaper) variants of spells to 4TAA (e.g. <:airstrike:895600427930910730> auto, with autocasted <:AirSurge:543465115870035999> damage)"
+      },
+      {
+        "name": "__Benefits__",
+        "value": "⬥ Allows for <:bloodblitz:535616247807868938> / <:bloodbarrage:537338981747261446> or <:iceblitz:535613865912696883> / <:icebarrage:537340400185245701> autos while autocasting <:exsanguinate:856635090745950258> or <:incitefear:856635090783567902>\n\u00a0\u00a0\u00a0\u00a0• Offers the utility of freezing, healing, AOE, and different hit timings while still gaining the effects of <:exsanguinate:856635090745950258> / <:incitefear:856635090783567902> on ability cast\n⬥ <:bloodburst:841419289714098246> / <:bloodrush:839903691329896479> autos with a higher-tier autocast (e.g. <:bloodbarrage:537338981747261446>) for cheaper 4TAA"
+      },
+      {
+        "name": "__Drawbacks__",
+        "value": "⬥ Harder to change autocast spell (right click in book or on bar)\n⬥ Abilities clicked from your book will not fire by themselves, you will have to click the target after"
+      }
+    ]
+  }
+}
+.embed:json

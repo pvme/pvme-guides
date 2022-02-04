@@ -1,21 +1,22 @@
 {
-  "embed": {
-    "title": "__Greater Barge__",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Greater Barge (gBarge) Common Usecases__",
-        "value": "1. At the start of a fight, as you shouldn't have attacked anything before\n2. After any mechanic that forces you to off, such as Vorago's Reflect mechanic\n3. Stalling your rotation mid-combat before you <:zerk:535532854004678657> to get the effect within it\n*Note: The cost and gain of using gBarge can be found [here](https://i.imgur.com/n3gpQV1.png)*\n\u200B"
-      },
-	  {
-        "name": "__Exploring How to Execute the Third Case Properly__",
-        "value": "1. Damaging Ability (e.g. <:deci:535532879325822986>) → click off atleast 1 tick (0.6s) before your Defensive → Defensive (e.g. <:anti:535541306475151390>) → <:zerk:535532854004678657> → <:gbarge:535532879250456578>\n\u00a0\u00a0\u00a0\u00a0• You must click off atleast 1 tick prior or you will not get the effect\n2. Damaging Ability → wait 2 ticks (1.2sec) → <:zerk:535532854004678657> → <:gbarge:535532879250456578>\n\u00a0\u00a0\u00a0\u00a0• There are now 8 ticks (4.8s) between the Damaging Ability and gBarge, instead of 9 (5.4s) like the above\n\u200B"
-      },
-	  {
-        "name": "__Common Issues__",
-        "value": "⬥ If queued with no target then use it, you will not get the buff\n⬥ Attempting Case 3 but did not off atleast a tick before. [Clip](https://clips.twitch.tv/UglyCogentSardinePMSTwin-4AqAt9Ot187q7GIp)"
-      }
-    ]
-  }
+   "embed":{
+      "title":"__Greater Barge__",
+      "description": "*Note: The cost and benefit of using Greater Barge can be found [here](https://i.imgur.com/n3gpQV1.png)*",
+      "color":39423,
+      "fields":[
+         {
+            "name":"__Common Use-Cases__",
+            "value":"⬥ At the start of a fight, as you shouldn't have attacked anything before\n⬥ After any mechanic that forces you to off, such as Vorago's Reflect mechanic\n ⬥ Stalling your rotation mid-combat before you <:zerk:535532854004678657> to get the effect within it"
+         },
+         {
+            "name":"__Using Greater Barge Mid-Combat__",
+            "value":"⬥ Generally, this is done in one of two ways\n\u00a0\u00a0\u00a0\u00a0• Ability → click off atleast 1 tick before Defensive → Defensive → <:zerk:535532854004678657> → <:gbarge:535532879250456578>\n\u00a0\u00a0\u00a0\u00a0• Ability → wait 2 ticks → <:zerk:535532854004678657> → <:gbarge:535532879250456578>\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Doing it this way takes 8 ticks as opposed to 9 ticks like the first way"
+         },
+         {
+            "name":"__Common Issues__",
+            "value":"⬥ If <:gbarge:535532879250456578> is queued with no target before being used, you will not get the buff\n⬥ Not clicking off at least 1t before using a defensive will not grant the buff: [video](https://clips.twitch.tv/UglyCogentSardinePMSTwin-4AqAt9Ot187q7GIp)"
+         }
+      ]
+   }
 }
 .embed:json

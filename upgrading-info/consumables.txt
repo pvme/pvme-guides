@@ -254,7 +254,7 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
 
 ⬥ **Kal'gerion Demon** <:kalgpouch:921410226484301925>
     • __Best__ DPS familiar for <:Magic:689504724159823906> with <:grim:568262896375824385>, <:reaverring:839903943018283050> and <:soa:869284271595069451>
-    • Special attack grants a buff granting 5% Critical hit bonus to everyone around the Kal'gerion Demon for 60 seconds
+    • Special attack grants a buff granting 5% critical strike chance to everyone around the Kal'gerion Demon for 60 seconds
     • Note: Special attack <:kalgscroll:841409588954923049> cannot be auto-fired
     • Note: Ironman cannot benefit from other player's <:kalgscroll:841409588954923049> buff
     • Has a passive effect that grants you a passive 1% critical strike chance
@@ -262,13 +262,23 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
 
 .
 ⬥ **Blood Reaver** <:reaverpouch:839903693837959228>
-    • Niche Dps Familiar for high poison damage on Poison-able bosses with Cindebanes <:Cinderbanes:513190158355660812> and Weapon poison <:weppoison:689525476158472288>
-    • Special attack Heals you by transferring up to 10% of the Blood Reaver's maximum hp to you
+    • Niche DPS Familiar that allows for high poison damage on poisonable bosses with cinderbanes <:Cinderbanes:513190158355660812> and weapon poison <:weppoison:689525476158472288>
+    • Special attack heals you by transferring 5% of the reaver's maximum HP to you (1,000 heal).
     • Has a passive effect that deals a typeless hit to the Reaver's target for 33% of **all healing you receive from any healing source**
     • Note: The passive effect will give individual hits for each healing effect you get with Soulsplit <:soulsplit:615613924506599497>, Vampyrism Scrimshaw <:VampScrim:513201294262009874> or Vampyrism aura <:vamp:643505653079343144>
-    • Each hit has its own chance to proc poison from weapon poison <:weppoison:689525476158472288> and Cindebanes <:Cinderbanes:513190158355660812>
-    • Priority: `Low`
+    • Note: The passive effect does not hit if you do not actually gain HP from your healing (e.g. when at full HP).
+    • Each hit has its own chance to proc poison from weapon poison <:weppoison:689525476158472288> and cinderbanes <:Cinderbanes:513190158355660812>
+    • Priority: `Low (Mandatory for some AFK strategies like Gregorovic)`
 
+⬥ **Hellhound** <:hellhoundpouch:921410226475925514>
+    • __Best__ Tank familiar by absorbing 20% of any damage taken by instead taking the damage itself. Has 20,000 maximum HP.
+    • Special attack <:hellhoundscroll:922417969731088435> heals the familiar by 10% of its maximum health (2,000 heal).
+    • Passive effect applies after all other forms of damage reduction except Animate Dead. This makes Animate Dead even more effective as the final hit is smaller.
+    • Can also be healed rapidly using the Prism of Restoration seren spell.
+    • Allows for some extremely high damage reduction when paired with Cryptbloom <:cryptbloombody:892819107253194762> and Animate Dead <:animatedead:856635090453135382>.
+    • Priority: `Low (Medium if survivability is important)`
+
+.
 ⬥ **Steel Titan** <:Titan:513195724738002944>
     • DPS familiar
     • Note: Should set the special attacks to occur every 1 attack when scrolls are stored in it
@@ -277,7 +287,6 @@ Potions refer to anything you drink. You can drink a potion at the same time as 
     • Can be used as a cheaper alternative to ripper demon, however it is significantly weaker
     • Priority: `High`
 
-.
 **__BoB__**
 ⬥ **Pack Mammoth** <:Mammoth:513195712146702337>
     • BoB familiar
