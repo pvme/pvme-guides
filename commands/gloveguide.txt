@@ -1,21 +1,22 @@
 {
-  "embed": {
-    "title": "What Glove To Use <:Cinderbanes:513190158355660812> <:kerapacswristwraps:869286640722513940> <:Glovesofpassage:556588694862037012> <:NMG:513190159441723392> <:DTB:513190159429271562>",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "Camp if Boss is Poisonable <:weppoison:689525476158472288>",
-        "value": "⬥ Cinderbanes <:Cinderbanes:513190158355660812>"
-      },
-      {
-        "name": "Camp if Boss is not Poisonable, Otherwise Switch",
-        "value": "⬥ Kerapac's wristwraps <:kerapacswristwraps:869286640722513940> if using magic and are able to make use of its effect\n⬥ Gloves of Passage <:Glovesofpassage:556588694862037012> if using melee and are able to make use of its effect"
-      },
-	  {
-        "name": "Camp if Boss is not Poisonable, Otherwise Ignore",
-        "value": "⬥ Nightmare Gauntlets <:NMG:513190159441723392> if using range and are able to make use of its effect\n⬥ Deathtouched Bracelet <:DTB:513190159429271562> if other glove effects are not beneficial and the reflect damage it causes is not detrimental\n\n*For details on their effects check <#689235882724818962>*"
-      }
-    ]
-  }
+   "embed":{
+      "title":"__Gloves__",
+      "description":"*Note: for details on their effects check <#689235882724818962>*",
+      "color":39423,
+      "fields":[
+         {
+            "name":"__Camp if Boss is Poisonable__",
+            "value":"⬥ Cinderbanes <:Cinderbanes:513190158355660812>"
+         },
+         {
+            "name":"__Camp if Boss is not Poisonable, Otherwise Switch__",
+            "value":"⬥ Kerapac's wristwraps <:kerapacswristwraps:869286640722513940> if <:Magic:689504724159823906> and can use the effect\n⬥ Gloves of Passage <:Glovesofpassage:556588694862037012> if <:melee:615612332521029632> and can use the effect"
+         },
+         {
+            "name":"__Camp if Boss is not Poisonable, Otherwise Ignore__",
+            "value":"⬥ Nightmare Gauntlets <:NMG:513190159441723392> if <:range:580168050121113623> and can use the effect\n⬥ Deathtouched Bracelet <:DTB:513190159429271562> otherwise, if the reflect damage is not detrimental"
+         }
+      ]
+   }
 }
 .embed:json
