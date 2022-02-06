@@ -65,6 +65,7 @@
     • When filled entirely, an explosion will deal 3-4k damage (AoE)
     • <:res:535541258844635148> can be used for a heal
         - Alternatively, <:disrupt:535614336207552523>, <:debil:535541278264393729>, or tank it
+    • Solak's auto attacks will speed up after these bombs
 
 .
 **__Arms and Legs__**
@@ -187,9 +188,75 @@
         - <:impact:535533809655873556> / <:deep:535533833139912724> / <:backhand:535532854302605333> / <:fbackhand:535532879346794516> / <:bindingshot:535541306563231790> / <:tight:535541275957657600> will still reduce damage even with <:flank4:712073088296157185>
 
 .
-> **__Basic Rotations__**
-.tag:rots
-This will eventually have some basic rotations!
+> **__Basic Strategy__**
+.tag:strats
+{
+  "embed": {
+    "title": "__Phase 1__",
+    "color": 39423,
+    "description": "Damage Solak down to his HP cap while handling mechanics that interrupt damage. Killing the Core will start Phase 2",
+    "fields": [
+      {
+        "name": "__Start & Pads__",
+        "value": "⬥ Use damage-boosting ultimate <:Sunshine:583430011948630016> / <:deathsswift:535541258924326912> / <:Berserk:513190158468907012>\n\u00a0\u00a0\u00a0\u00a0• Use a few strong abilities within your ultimate, and then <:surge:535533810004262912> / <:bd:535532854281764884> to a pad\n⬥ Return to Solak after pads, and continue doing damage until ~0:50"
+      },
+      {
+        "name": "__Rootlings, Roots & Bombs__",
+        "value": "⬥ The team should split up and kill volatile rootlings\n⬥ Handle personal roots at ~1:06\n\u00a0\u00a0\u00a0\u00a0• Ensure you warn others if they need to move to safety\n⬥ Continue doing damage until ~1:32 and ~1:49 Blight Bombs\n\u00a0\u00a0\u00a0\u00a0• Negate as required with <:disrupt:535614336207552523> / <:res:535541258844635148>\n\u00a0\u00a0\u00a0\u00a0• Keep doing damage between bombs"
+      },
+      {
+        "name": "__Arms, Legs, & Core__",
+        "value": "⬥ Kill arms, while keeping fairly high adrenaline"
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Phase 2__",
+    "color": 39423,
+    "description": "test",
+    "fields": [
+      {
+        "name": "__test__",
+        "value": "⬥ test"
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Phase 3__",
+    "color": 39423,
+    "description": "test",
+    "fields": [
+      {
+        "name": "__test__",
+        "value": "⬥ test"
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Phase 4__",
+    "color": 39423,
+    "description": "test",
+    "fields": [
+      {
+        "name": "__test__",
+        "value": "test"
+      }
+    ]
+  }
+}
+.embed:json
 .
 {
    "embed":{
@@ -222,8 +289,8 @@ This will eventually have some basic rotations!
             "inline":true
          },
          {
-            "name":"__Basic Rotations__",
-            "value":"[Link]($linkmsg_rots$)",
+            "name":"__Basic Strategy__",
+            "value":"[Link]($linkmsg_strats$)",
             "inline":true
          }
       ]
