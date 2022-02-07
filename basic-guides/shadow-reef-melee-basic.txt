@@ -8,7 +8,7 @@ For the sake of summary, all boss attacks and mechanics are mentioned relative t
 .
 > **__Preset__**
 .tag:preset
-⬥ <:igneouskalket:902209626404192316> Igneous Kal-Ket with Strength Cape <:strcape:689503815296352308> perk stored in Max Cape <:maxcape:580177795703898117>/Anachronia cape stand
+⬥ <:igneouskalket:902209626404192316> Igneous Kal-Ket with Strength Cape <:strcape:689503815296352308> perk stored in max cape/anachronia cape stand
 ⬥ <:lanispear:839903893177106454> Halberd type weapon (Laniakea's Spear/Scythe)
 ⬥ <:portentitemprotection:925366289629859860> Portent of item protection
 ⬥ <:bandoschest:643151021748518917> Armour perked with the following perks:
@@ -36,10 +36,10 @@ For the sake of summary, all boss attacks and mechanics are mentioned relative t
     • Greater Barge<:gbarge:535532879250456578> **Important**
     • Greater Flurry<:gflurry:535532879283879977> **Important**
     • Limitless <:limitless:641339233638023179> **Important**
+    • Undead Slayer sigil <:undeadslayer:641339922019516416> **Good for Taraket**
     • Greater Fury <:gfury:535532879334080527>
     • Powder of Protection <:powderofprotection:933079947419983912>
-    • Corbicula Rex <:corbicula:690136117273821280> perk **Important**
-    • Undead Slayer sigil <:undeadslayer:641339922019516416> **Good for Taraket**
+    • Corbicula Rex <:corbicula:690136117273821280> perk
     • Demon Slayer sigil<:demonslayer:641339921675845633>
 
 ⬥ Recommended upgrades to preset:
@@ -59,161 +59,207 @@ For the sake of summary, all boss attacks and mechanics are mentioned relative t
 .tag:crassian
 The first boss you will encounter is the Crassian Leviathan. Poison <:weppoison:689525476158472288> is extremely important for this boss to reduce its healing.
 
-⬥ If using Laniakea's Spear <:lanispear:839903893177106454> as your halberd, camp dual wields <:darkiceshard:915232154160594974><:darkicesliver:915232153787334677> unless using <:cleave:535532878616985610> or <:quake:535532879506309150>.
-    • <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> → <:surge:535533810004262912> mid gcd + <:vulnbomb:655341074235129858> → Target cycle + <:gbarge:535532879250456578> to begin fight.
-    • Execute <:Berserk:513190158468907012> rotation and bleed <:gflurry:535532879283879977> to reduce <:Berserk:513190158468907012> cooldown.
+.
+__**Mechanics**__
+⬥ **Poison Pits**: The center of the arena is filled with poison. Never stand here (not a concern with melee) or you will get stunned.
+​
+⬥ **Dragon Breath**: The Leviathan fires a prolonged breath attack in front of it, dealing rapid heavy typeless damage to those caught in it.
 
-⬥ Fight start: The Leviathan will unleash a stream of breath that almost instantly kills you if stood in. Click repeatedly on one of the 2 tiles shown below in red boxes to ensure your character stays out.
-    • You do not repeated clicking if using a halberd type weapon.
-    • **If using a channel, do not spam click as it cancels the channel. The channel itself will keep you in place.**
-    • Click immediately before cancelling channels with a non-channeled ability to prevent movement post-channel.
-    • If you don't see your familiar, call them <:callfollower:933299003121078332> as they tend to get stuck outside.
+⬥ **Head Sweep**: The Leviathan do 2 head sweeps, dealing very heavy damage to anyone caught in the area.
+
+⬥ After doing a **Dragon Breath** and 2 sets of **Head Sweeps**, the Leviathan will move to other side of the arena, repeating his previous rotation.
+    • Flanking <:flankicon:841419289755385866> can be used on the Crassian Leviathan on this side.
+
+.
+__**Strategy**__
+⬥ Avoid using Laniakea's Spear <:lanispear:839903893177106454> here due to accuracy issues, unless using <:cleave:535532878616985610> or <:quake:535532879506309150>.
+    • <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> → <:surge:535533810004262912> mid gcd + <:vulnbomb:655341074235129858> → Target cycle + <:gbarge:535532879250456578> to begin fight.
+    • Bleed <:gflurry:535532879283879977> to reduce <:Berserk:513190158468907012> cooldown.
+
+⬥ Fight start: To avoid **Dragon Breath**, click repeatedly on one of the 2 tiles shown below in red boxes to ensure your character stays out.
+    • You do not need to click if using a halberd type weapon.
+    • **Stop clicking when using a channel, to avoid cancelling. The channel itself will keep you in place.**
+        - Click while cancelling channels with a non-channeled ability to prevent movement.
+    • Call familiar <:callfollower:933299003121078332> if needed.
 .
 .img:https://imgur.com/wKjEfc9.png
 .
-⬥ Post breath attack: The Leviathan does 2 autos → 2 head sweeps → 2 autos → 2 head sweeps → 2 autos → switch sides starting around when <:Berserk:513190158468907012> ends.
-    • Alternate standing on the 2 different safespots to continue DPS-ing losslessly while mostly avoiding sweeps.
-    • After getting comfortable with the boss, you can choose to tank some head sweep hits to keep HP below half for <:berserkersfury:697808774106185768> and continous healing which works with <:reaverpouch:839903693837959228>.
+⬥ Move between the 2 safespots shown above to continue DPS-ing losslessly while avoiding sweeps.
 
-⬥ After <:Berserk:513190158468907012>, use basics prioritising <:dismember:535532879376023572> together with 3-hit <:gflurry:535532879283879977>, <:overpower:535532879334080517> <:igneouskalket:902209626404192316> and <:cane:535532878969438210>.
-    • Try to use <:overpower:535532879334080517> <:igneouskalket:902209626404192316> and <:cane:535532878969438210> after Fury <:fury:535532879510372352>.
-    • Start building to 91% adrenaline when the 2nd set of head sweeps begin.
+⬥ After <:Berserk:513190158468907012>, use basics prioritising <:dismember:535532879376023572> together with 3-hit <:gflurry:535532879283879977>, <:overpower:535532879334080517><:igneouskalket:902209626404192316> and <:cane:535532878969438210>.
+    • Start building to 91% adrenaline when the 2nd set of **Head Sweeps** begin.
 
 .
 ⬥ When you're >91% adrenaline and <:Berserk:513190158468907012> is about to come off cooldown, off and <:anti:535541306475151390>, followed by a <:Berserk:513190158468907012> <:gbarge:535532879250456578> <:limitless:641339233638023179> rotation.
-    • Walk to either safe tile before clicking the floor and casting <:gbarge:535532879250456578> to avoid barging into a head sweep.
 
-⬥ 2 auto attacks after the 2nd set of head sweeps, the Leviathan retreats and appears on the other side of the arena to repeat the same set of attacks, **including breath**.
-    • Flanking <:flankicon:841419289755385866> can be used on the Crassian Leviathan on this side.
-    • Safe spots apply.
+⬥ <:surgemobile:867678153798975498> and <:bdmobile:867678153668820992> to the other side to finish Leviathan off if needed.
+    • The safespots are in the same relative positions on this side.
+    • Watch out for **Dragon Breath**.
 
 .
-⬥ Example kill: 1:10 basic preset <https://youtu.be/LY1vZ7IfVW4>
+⬥ Example kill: 1:10 <https://youtu.be/LY1vZ7IfVW4>
 
 .
 > __**Taraket the Necromancer**__
 .tag:taraket
 The second boss is Taraket which attacks using primarily damaging but slow Magic <:Magic:689504724159823906> autos. You will need good DPS to avoid getting overwhelmed at this boss. <:salveamulet:797899945730244648> is thus almost mandatory as it provides 20% additional damage and accuracy to Taraket and his minions.
 
-⬥ You can afford to camp <:lanispear:839903893177106454> more as there are no accuracy issues to take advantage of the increased poison damage.
+.
+__**Mechanics**__
+⬥ **Rift of Undeath**: Taraket spawns a rift with 30k HP that occasionally spawns skeletons. After 30 seconds, it explodes dealing heavy typeless damage. This is prevented by killing it.
 
-⬥ To start the fight, execute a <:Berserk:513190158468907012> <:gbarge:535532879250456578> <:limitless:641339233638023179> rotation on Taraket, bleeding <:destroy:535532879330148352>.
-    • Use <:undeadslayer:641339922019516416> after using your first threshold.
+⬥ **Death's Swiftness**: Taraket shrouds himself in <:deathsswift:535541258924326912>, becoming immobile and switches from using Mage to Ranged, starting to hit harder.
+
+⬥ **Corpse Carrier and Bloated Monstrosity**: At 200K HP, Taraket will become invulnerable and fly to either black crystal at the sides of the arena, healing for 100k HP and spawning a minion: Corpse Carrier (west) or the Bloated Monstrosity (east), with 90K HP each.
+    • The Corpse Carrier will continuously spawn skeletons.
+​    • The Bloated Monstrosity increases the damage of Taraket's attacks.
+        - Bloat will spawn first by default.
+    • Taraket will not spawn anymore minions after spawning both.
+
+⬥ **Spirit Line**: While in <:deathsswift:535541258924326912> after spawning both minions, Taraket will speak dialogue and smash the ground infront of him for heavy melee damage, summoning a line of spirits infront of him that moves towards the player, dealing rapid typeless damage upon contact.
+    • Flanking <:flankicon:841419289755385866> is applicable if the player moves behind Taraket during this brief period.
+    • If you <:kick:535532879132885025> Taraket right as he uses this attack, Taraket will turn around and you will completely avoid both attacks.
+.
+__**Strategy**__
+⬥ Use <:lanispear:839903893177106454> as much as possible as there are no accuracy issues.
+
+⬥ To start the fight, execute a <:Berserk:513190158468907012> <:gbarge:535532879250456578> <:limitless:641339233638023179> rotation on Taraket.
+    • Use <:undeadslayer:641339922019516416> here if owned.
+    • If spawning Carrier first, move Taraket west after <:Berserk:513190158468907012>, such as using <:kick:535532879132885025> while standing east of Taraket.
 
 ⬥ <:soulsplit:615613924506599497> flicking is extremely effective for Taraket as his attacks are slow and telegraphed.
 
 .
-⬥ Around the time <:Berserk:513190158468907012> ends, Taraket will spawn an undead portal with 30k HP. It occasionally spawns skeletons and should be killed before the blue bar runs out to avoid heavy damage.
-    • If Taraket still has >30k HP from 200K, perform the following sequence to phase him and kill the portal in time:
-        - <:slaughter:535532879237873666> followed by <:escape:535541258832052231> mid gcd and then walking until 2 tiles from the south wall (lure demonstrated in gif below)
-        - Use 2 defensives <:freedom:535541258240786434> <:anti:535541306475151390>.
+⬥ Around the time <:Berserk:513190158468907012> ends, Taraket will spawn a **Rift of Undeath**.
+    • If Taraket still has >30k HP from 200K, perform the following abilities to phase him and kill the portal in time:
+        - <:slaughter:535532879237873666> followed by <:escape:535541258832052231> mid gcd. Walk back until 2 tiles from the south wall (lure demonstrated in gif below).
+        - Use 2 defensives <:freedom:535541258240786434> <:anti:535541306475151390> after <:escape:535541258832052231>.
         - <:gbarge:535532879250456578> back and bleed a Threshold on the portal.
-        - Use AoE abilities <:cleave:535532878616985610> <:cane:535532878969438210> <:quake:535532879506309150> targeting the portal to kill it, phase Taraket to below 200k HP and clear the skeletons spawned halberd <:bd:535532854281764884> with resets.
+        - Use AoE abilities <:cleave:535532878616985610> <:cane:535532878969438210> <:quake:535532879506309150> targeting the portal to kill it and help phase Taraket to below 200k HP. Clear the skeletons spawned halberd <:bd:535532854281764884> with resets.
     • If Taraket is near 200k when portal spawns, simply phase Taraket and use <:vulnbomb:655341074235129858> and powerful thresholds to clear the portal.
 
 .
 .img:https://imgur.com/ONzYKNv.mp4
 .
-⬥ The first 2 times Taraket falls below **200k** HP, he will become immune, fly to a side of the arena, spawn a 135k HP minion and heal for 100k HP before returning to the middle. The minions are:
-    • Bloated Monstrosity (East): Taraket spawns it first by default. It attacks using melee and empowers Taraket's auto attacks.
-    • Corpse Carrier (West): Taraket spawns it second by default. It attacks using melee and occasionally spawns skeletons that attack you.
-        - Carrier spawning first can be forced by moving Taraket west, such as using <:kick:535532879132885025> while standing east of Taraket.
-        - During spawning animations, use defensives or basics on Taraket to generate adrenaline.
+⬥If Taraket is flying and there is nothing to kill, use defensives or basics on Taraket to generate adrenaline.
 
 ⬥ What you want him spawning first depends on your level of skill as a meleer:
     • **[1] Beginner**: Spawn Bloat → Kill Bloat while AoEing Taraket → Phase Taraket → Spawn Carrier → Kill Carrier and Skeletons → Proceed to final phase
     • **[2] Experienced**: Spawn Corpse Carrier → AoE Corpse Carrier with Taraket → Finish off Corpse Carrier and Skeletons while Taraket spawns Bloat → Proceed to final phase (Recommended for preset in this guide)
-
-⬥ From the first spawn onwards, when you see Taraket speak and use <:deathsswift:535541258924326912>, switch to flicking between <:soulsplit:615613924506599497> and <:DeflectRange:544195488317046812>.
 
 .
 ⬥ If doing **[2]**:
     • Use <:vulnbomb:655341074235129858> right before Carrier spawns → Auto with 2H + <:dismember:535532879376023572> → <:BloodTend:513190158431158274> → (walked <:slaughter:535532879237873666> if up) on Carrier and then focus Taraket.
     • Use Meteor Strike <:meteorstrike:535532879359377439> on Taraket and Carrier followed by AoE abilties. Phase Taraket using Assault <:assault:535532853979512842>.
         - Not phasing Taraket in time will cause him to kill any skeletons alive to heal himself.
-    • Use Overpower <:overpower:535532879334080517> <:igneouskalket:902209626404192316> and Basics if needed to finish off Carrier.
+    • Use Overpower <:overpower:535532879334080517> <:igneouskalket:902209626404192316> and basics if needed to finish off Carrier.
     • Use halberd <:bd:535532854281764884> repeatedly with resets to finish off any remaining skeletons.
-    • Target Taraket and use defensives and basics to get 100% adren in preparation for final phase.
+    • Target Taraket and build to get 100% adren in preparation for final phase.
 
 .
-⬥ For the final phase, after Taraket has spawned the second minion:
-    • <:vulnbomb:655341074235129858> when Taraket returns to center → <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> + activate <:excal:641337999170207763> to begin last phase.
-    • After <:Berserk:513190158468907012>, use bleeds.
+⬥ For the final phase, after Taraket has spawned bloat if doing **[2]** and after killing Corpse if doing **[1]**:
+    • <:vulnbomb:655341074235129858> → <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> + activate <:excal:641337999170207763> to begin last phase.
+    • After <:Berserk:513190158468907012> with <:undeadslayer:641339922019516416>, use bleeds.
     • Refresh <:vulnbomb:655341074235129858>, and finish the kill with <:overpower:535532879334080517> <:igneouskalket:902209626404192316>, basics and Hurricane <:cane:535532878969438210>.
-    • If lacking damage, you might need to kill more portals Taraket spawns.
+    • If lacking damage, you might need to kill more **Rifts of Undead** Taraket spawns.
 
-⬥ During the final phase, walk behind Taraket immediately when he speaks while in <:deathsswift:535541258924326912> to avoid taking massive melee damage from a line of ghosts:
-    • If you <:kick:535532879132885025> Taraket right before he uses this attack, do not walk behind him as he will be facing away from you.
-    • Taraket can be flanked <:flankicon:841419289755385866> from behind during this brief duration.
+⬥ During the final phase, walk behind Taraket immediately when he speaks while in <:deathsswift:535541258924326912> to avoid taking massive damage from **Spirit Line**.
 
 .
-⬥ Example [2]: 2:11 Kill, basic preset <https://youtu.be/aNZBcYmSCek>
+⬥ Example kill **[2]**: 2:11 <https://youtu.be/aNZBcYmSCek>
 
 .
 > __**The Ambassador**__
 .tag:ambi
-The final boss of Elite Dungeon 3 is The Ambassador (Ambi), a highly damaging boss that attacks with 100% accuracy. <:soulsplit:615613924506599497> flicking is heavily recommended, else a secondary preset with more food is likely needed just for Ambi.
+The final boss of Elite Dungeon 3 is The Ambassador (Ambi), a highly damaging boss that attacks with 100% accuracy. The boss primarily attacks with ranged <:DeflectRange:544195488317046812>, with a heavy mage attack <:DeflectMage:544195487926845462> after every 5 autos. The mage hit is replaced by a small but instant melee swipe <:DeflectMelee:544195488447201300> if the player is in melee distance. <:soulsplit:615613924506599497> flicking is heavily recommended, else a secondary preset with more food is likely needed just for Ambi.
 
+.
+__**Mechanics**__
+⬥ Ambi's attack rotation from 1M-550K HP (Phase 1):
+    • Mage/Melee auto → 5 autos → **Purple Corruption** → 5 autos  → Black Hole → 5 autos  → **Purple Corruption** → 5 autos  → **Sinister Fragments** → Repeat Magic Auto-Attack
+    • **Purple Corruption**: Ambi fires a spout into the player, dealing no damage and placing a bar over their head.
+        - When this bar nears depletion, a 5x5 area around the player will become corrupted until Seiryu clears them.
+        - 2 Corruptions are dropped when the bar depletes, separated by 2 ticks.
+        - These zones ramp up from doing 200 to 2000 typeless damage periodically to anyone standing inside.
+    • **Black Hole**: Ambi will spawn a black hole which explodes a few seconds afterwards, dealing 8000+ damage to the player.
+        - Stunning the blackhole negates the attack.
+    • **Sinister Fragments**: At 650k or at 59 seconds, six fragments will disperse from the boss to the edges of the arena with 20K HP each. Ambi will also fire three slowly rotating beams that last for about a minute.
+        - Ambi absorbs any alive fragments after a minute, releasing a hard hitting typeless explosion per fragment absorbed.
+        - The beams always spawn in set locations (N, SE, SW), and rotate counterclockwise slowly.
+
+.
+⬥ 550K-400K (Phase 2): Ambi mostly follows the same auto attack pattern from P1, but stops spawning **Sinister Fragments**.
+    • Ambi will periodically spawn 2 invulnerable Crassian Ritual Keepers.
+
+⬥ 400K-0 (Phase 3):
+    • Ambi will stop doing **Purple Corruption** and **Black Hole**, continuing his auto attack pattern as normal.
+    • Seiryu will emerge shortly after 400K, clearing all Crassians and **Purple Corruption**.
+    • A ring of black hands will spawn to encompass the edge of the arena.
+        - The hands will slam down in a clockwise fashion, sending constant smoke projectiles towards the Ambi.
+        - These will heal Ambi 2500 HP each upon contact. They can be blocked, directing a small amount of damage towards the player.
+
+⬥ **Magic Onslaught**: Upon spawning the black hands, every 10 auto attacks, the Ambassador will send out 5 extremely hard hitting Magic attacks.
+    •  This is signalled by Ambi saying **"Fall now and be forgotten"**, followed by opening his arms.
+
+.
+__**Strategy**__
 ⬥ <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> → <:surge:535533810004262912> mid gcd + <:vulnbomb:655341074235129858> → Target cycle + <:gbarge:535532879250456578> to begin fight.
-    • When you <:surge:535533810004262912> into the arena, Ambi will launch a powerful blue magic attack that can be either Vengeanced <:Veng:543478434953822208> or blocked with Disruption Shield <:disrupt:535614336207552523> (recommended for non-<:soulsplit:615613924506599497> flickers).
-    • Bleed <:destroy:535532879330148352> followed by using <:assault:535532853979512842>, 3-hit <:gflurry:535532879283879977> and <:cane:535532878969438210>.
+    • When you <:surge:535533810004262912> into the arena, Ambi's initial magic attack can be either Vengeanced <:Veng:543478434953822208> or blocked with Disruption Shield <:disrupt:535614336207552523> (recommended for non-<:soulsplit:615613924506599497> flickers).
 
 ⬥ Post <:Berserk:513190158468907012>, use <:dismember:535532879376023572> whenever off cooldown, and <:overpower:535532879334080517> <:igneouskalket:902209626404192316> as soon as you hit >60% adrenaline.
+    • Cycle through your thresholds afterwards except for <:gflurry:535532879283879977>.
 
-⬥ Stand in the **north east quardrant** once the overhead blue bar on your head depletes to drop **first smoke**. Because each bar generates 2 smokes, stand still for another ability to drop both in the same spot.
-
-⬥ Move south into the south east quardrant and cycle through your thresholds once more except for <:gflurry:535532879283879977>.
+⬥ Through out the fight, drop **Purple Corruption** smokes in quardrants.
+    • <:bd:535532854281764884> away to drop them from the 3rd smoke onwards to always have a quardrant to stand in.
+    • Stand still after dropping the first smoke for another ability to drop both in the same spot.
 
 .
-⬥ Ambi will spawn a black hole. Powerburst of Vitality <:vitality:654618235097972737> when the black hole's blue bar is around 1/4 to tank it.
+⬥ Ambi will spawn a **Black Hole**. Powerburst of Vitality <:vitality:654618235097972737> when the black hole's blue bar is around 1/4 to tank it.
     • Ensure you have more than 50% HP when you do this.
     • Beware of getting potblocked. Do not drink any potions before using <:vitality:654618235097972737>.
+    • Stun the **Black Hole** if low HP.
 
 ⬥ Use <:overpower:535532879334080517> <:igneouskalket:902209626404192316> as soon as it's up.
-    • This should be about when you drop the **second smoke** in the **south east quardrant**.
 
-⬥ Ambi will become immune at 0:59, use defensives and walk south east to prepare for spinners.
+⬥ Use defensive basics and walk southwest at 0:59 to prepare for spinners.
 
 .
-⬥ Ambi will spread his arms and release 6 spinners each with 20k HP while firing 3 anticlockwise-moving laser beams which you must avoid.
-    • A minute later, he will absorb any remaining spinners. For each absorbed, he will channel an explosion that deals huge soft typeless damage.
-    • Here, it is recommended to clear 5 spinners, blocking the explosion from the leftover spinner using <:disrupt:535614336207552523>.
+⬥ It is recommended to clear 5 spinners, starting southwest.
+    • Block the explosion from the leftover spinner using <:disrupt:535614336207552523>.
     • Clear spinners using mostly basics and occasionally thresholds.
         - If effective with damage and stalling abilities, get in a <:nat:535541258131865633> <:DBA:603979368850653216> build while also clearing 5 spinners.
-    • You can TC + <:gbarge:535532879250456578> the southwest spinner (first spinner) when ambi raises his arms, even before it appears.
+    • You can TC + <:gbarge:535532879250456578> the southwest spinner (first spinner) when Ambi raises his arms, even before it appears.
 
 ⬥ After 5 spinners, target Ambi and get 100% adren. When you see the last spinner enter Ambi, execute a <:Berserk:513190158468907012> <:gbarge:535532879250456578> <:limitless:641339233638023179> rotation bleeding <:assault:535532853979512842> and channelling a 3-hit <:gflurry:535532879283879977>.
     • Use <:disrupt:535614336207552523> right before the blue bar overhead ambi depletes.
 
 .
 ⬥ Post <:Berserk:513190158468907012>, use <:dismember:535532879376023572> whenever off cooldown, and <:overpower:535532879334080517> <:igneouskalket:902209626404192316> as soon as you hit >60% adrenaline.
-    • Drop **third purple smoke** in the **south west quardrant**, around the time you use <:overpower:535532879334080517>.
     • Build using basics and use <:assault:535532853979512842> as soon as it comes off cooldown.
     • Get in a 3-hit <:gflurry:535532879283879977> and maybe <:BloodTend:513190158431158274>.
 
-⬥ Tank the second black hole using <:vitality:654618235097972737> like you do in phase 1.
-    • Be more careful with this one as it will come off cooldown close to when the black hole explodes.
+⬥ Tank the second **Black Hole** using <:vitality:654618235097972737> if you can.
+    • Be careful with this one as <:vitality:654618235097972737> comes off cooldown close to when the black hole explodes.
 
-⬥ Before dropping the **fourth smoke**, build to near 100% adrenaline and **<:bd:535532854281764884> away to place purple smoke**. Use defensives to get 100% adrenaline and execute a <:Berserk:513190158468907012> <:adrenrenewal:736298121704767538> <:gbarge:535532879250456578> rotation.
+⬥ Before dropping the **4th smoke**, build to near 100% adrenaline and **<:bd:535532854281764884> away to place purple smoke**. Use defensives to get 100% adrenaline and execute a <:Berserk:513190158468907012> <:adrenrenewal:736298121704767538> <:gbarge:535532879250456578> rotation.
     • Get in a 3-hit <:gflurry:535532879283879977>.
     • Remember to activate <:excal:641337999170207763> after this point whenever HP dips below 50%.
 
 .
-⬥ Ambi will begin the ritual phase. Watch for a stream of smokes that a black hand will send to Ambi to heal him, walk between Ambi and the smokes.
-    • The smokes will move in a clockwise direction. Follow their movement and try to block Ambi from healing.
+⬥ When black hands spawn, move with the smokes to block Ambi's healing.
     • Use <:overpower:535532879334080517><:igneouskalket:902209626404192316> post <:Berserk:513190158468907012> and build to >80% spending excess on thresholds.
-    • When Ambi says **"Fall now and be forgotten"**, use <:devo:513190158728953857> with <:DeflectMage:544195487926845462> to negate the damage from a series of large magic hits.
+    • Get in a 3-hit <:gflurry:535532879283879977> if intending to finish Ambi off with a <:Berserk:513190158468907012> before second **Magic Onslaught**.
+    • Use <:devo:513190158728953857> with <:DeflectMage:544195487926845462> to counter the first **Magic Onslaught**.
         - Return to flicking between <:soulsplit:615613924506599497> and <:DeflectRange:544195488317046812> once the magic hits are over.
-    • Get in a 3-hit <:gflurry:535532879283879977> if intending to finish Ambi off with a <:Berserk:513190158468907012> before second barrage.
 
 ⬥ What happens next depends on your skill as a meleer and Ambi's hp:
     • **Confident with melee, Ambi has less than 135k HP**: Off Ambi and use a defensive followed by a <:Berserk:513190158468907012> <:gbarge:535532879250456578> <:limitless:641339233638023179> rotation to finish the kill.
-    • **Otherwise**: Use thresholds while keeping adrenaline >75% and use <:debil:535541278264393729> <:reflect:535541258786177064> when ambi uses the second barrage. Use <:Berserk:513190158468907012> to finish the kill if needed.
+    • **Otherwise**: Use thresholds while keeping adrenaline >75% and use <:debil:535541278264393729> <:reflect:535541258786177064> when ambi uses **Magic Onslaught**. Use <:Berserk:513190158468907012> to finish the kill if needed.
 
 .
 > __**Mobs**__
 .tag:mobs
-Although trash mobs can be done in many ways, below shows a good way to clear the mobs in the Shadow Reef which can save lots of time. It is recommended to read this while watching the example video as text may be hard to visualise.
+Below shows a good way to clear the mobs which can save lots of time on runs. It may be more helpful to read this while watching the example video as text may be hard to visualise.
 
 .
 __**Pre Crassian**__
@@ -253,7 +299,7 @@ __**Post Crassian to pre Taraket**__
     • Activate <:undeadslayer:641339922019516416> and <:bd:535532854281764884> onto the 3 Armoured zombies. Finish them off with AoE thresholds.
 
 ⬥ Through the door, equip your main neck slot and <:gbarge:535532879250456578> a Necromancer in front of the barrier. Finish him off using a bled threshold and basics.
-    • Activate the switch and repeat the same to the other Necromancer with a stalled <:cane:535532878969438210> and basics.
+    • Activate the switch and the kill the opposite Necromancer with a stalled <:cane:535532878969438210> and basics.
 
 ⬥ On the bridge, <:surgemobile:867678153798975498> and use a targetless <:devo:513190158728953857> with <:DeflectRange:544195488317046812>. <:gbarge:535532879250456578> the middle Necromancer and step beside him to to block one of the Sea Horrors from attacking you.
     • Bleed <:assault:535532853979512842> on the Sea Horror attacking and use your halberd to AoE the 3 mobs down.
@@ -262,7 +308,7 @@ __**Post Crassian to pre Taraket**__
 ⬥ Bridge of Death example: https://youtu.be/JAMeF9lsD_c
 
 .
-⬥ Surge through and AoE down the 3 Enlightened Sotapanna with whatever basics and thresholds you have off cooldown. Try get >80% adrenaline on the Sotapannas.
+⬥ <:surgemobile:867678153798975498> through and AoE down the 3 Enlightened Sotapanna with any basics and thresholds you have off cooldown. Try get >80% adrenaline on the Sotapannas.
 
 ⬥ Aim <:bdmobile:867678153668820992> in the middle of the staircase and use <:surgemobile:867678153798975498> to avoid the unecessary mobs.
 
@@ -271,7 +317,7 @@ __**Post Crassian to pre Taraket**__
 
 .
 __**Post Taraket to pre Ambassador**__
-⬥ <:gbarge:535532879250456578> the Sea Witch and bleed <:gflurry:535532879283879977>. Use other AoE thresholds and basics to kill the 2 armoured zombies.
+⬥ <:gbarge:535532879250456578> the Sea Witch and bleed <:gflurry:535532879283879977>. Use other AoE thresholds and basics to kill the 2 Armoured zombies.
 
 ⬥ Equip your main neck slot, use <:assault:535532853979512842> and other powerful basics to kill the Kal'Gerion demon along with <:demonslayer:641339921675845633>.
 
@@ -302,7 +348,7 @@ __**Post Taraket to pre Ambassador**__
 Time stamps for bosses are in video description and further below are time stamps highlighting notable mistakes in the run.
 
 .
-⬥ Example: 17:05 run, basic preset <https://youtu.be/KEoFtO9Cd4g>
+Run with basic preset: 17:05 <https://youtu.be/KEoFtO9Cd4g>
 
 .
 > __**Alternative guides**__
