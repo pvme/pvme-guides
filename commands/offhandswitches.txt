@@ -1,23 +1,22 @@
-> **__Offhand Switches__**
-**__A Damage Perspective__**
-⬥ Often your switch will be a weaker weapon, so you want an offhand (OH) weapon to minimize the damage loss
-    • This is because OHs are ⅓ of your damage, whilst mainhands (MH) are ⅔
-        - So, <:ascmh:513190158468775936> <:chaoticcbowoh:851514430633803786> does more damage than the inverse
-    • This is also why you do not want 2H switches
-        - A weaker 2H (e.g., <:superiorzurielstaff:860891361594966067>) can be weaker than a stronger MH + weaker OH (e.g., <:seiswand:583429704837758997> <:eliteseasingerorb:581180345345638423>)
-
-**__An Interactions Perspective__**
-⬥ Switching MH loses the passive crit buff applied by <:conc:535533833106489365> and <:fury:535532879510372352> / <:gfury:535532879334080527>
-    • E.g., to do <:fury:535532879510372352> → <:flankicon:841419289755385866> <:backhand:535532854302605333>, you have to change your OH to not lose the buff
-    • If you used a 2H, you would need to use it for <:fury:535532879510372352> and <:flankicon:841419289755385866>, causing a damage loss due to using a weaker perk setup for <:fury:535532879510372352>, as well as potential damage loss from the tier difference
-
-⬥ Switching MH ends <:ecb:615618531937222657> <:eofspec:746403211908481184>
-    • If you want to use <:caroming4:791281588792590336> <:grico:787904334812807238> you would have to use an OH swap
-        - Else you need to camp <:caroming4:791281588792590336>, a damage loss due to losing a perk such as <:as4:712074245202772009>
-
-**__A Perks Perspective__**
-⬥ Usually <:p6:712073088769982475> is on your MH, and <:eq4:712073088589627505> / <:eq2:689502258424971564> on your main OH
-    • If you did a MH swap, you would only get equilibrium applied to it
-        - If you did an OH swap, you would get <:p6:712073088769982475> applied to it and do more damage
-
-⬥ Also, <:as4:712074245202772009> is on our main OH as it is only off for a short time, so it is unlikely to proc with the OH switch on
+{
+   "embed":{
+      "title":"__Offhand Switches__",
+      "description":"Generally, it is preferred to use offhand switches, rather than mainhand or 2H",
+      "color":39423,
+      "fields":[
+         {
+            "name":"__Raw Damage__",
+            "value":"⬥ Often, your switch will be a weaker weapon, so you want an offhand (OH) weapon to minimize the damage loss\n\u00a0\u00a0\u00a0\u00a0• A weaker 2H can be worse than a stronger MH + weaker OH\n\u00a0\u00a0\u00a0\u00a0• OHs are ⅓ of your weapon damage, whilst mainhands (MH) are ⅔\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- For example, <:ascmh:513190158468775936> <:chaoticcbowoh:851514430633803786> does more damage than <:chaoticcbowmh:923248841959022653> <:ascoh:513190159362031631>"
+         },
+         {
+            "name":"__Interactions__",
+            "value":"⬥ Switching MH loses passive crit buff from <:conc:535533833106489365> / <:gconc:869285393223254107> / <:fury:535532879510372352> / <:gfury:535532879334080527>\n\u00a0\u00a0\u00a0\u00a0• This is another reason to avoid 2H switches\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- It would be needed for two consecutive abilities, e.g. <:gfury:535532879334080527> → <:backhandflank:867678153854025779>\n⬥ Switching MH cancels <:ecb:615618531937222657> <:eofspec:746403211908481184>"
+         },
+         {
+            "name":"__Perks__",
+            "value":"⬥ If you want to <:caroming4:791281588792590336> <:grico:787904334812807238> an OH swap will be required\n\u00a0\u00a0\u00a0\u00a0• Alternatively, camp <:caroming4:791281588792590336>, which is damage loss relative to switching\n⬥ Usually <:p6:712073088769982475> is on your MH, and <:eq4:712073088589627505> / <:eq2:689502258424971564> is on your primary OH\n\u00a0\u00a0\u00a0\u00a0• If you did a MH swap, only <:eq4:712073088589627505> / <:eq2:689502258424971564> is applied\n\u00a0\u00a0\u00a0\u00a0• If you did an OH swap, <:p6:712073088769982475> is applied, which is higher damage\n⬥ <:as4:712074245202772009> is on your primary offhand, and will be equipped the majority of the time\n\u00a0\u00a0\u00a0\u00a0• It is unlikely to proc with the OH switch equipped"
+         }
+      ]
+   }
+}
+.embed:json

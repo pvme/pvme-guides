@@ -1,21 +1,18 @@
-> **__Reasons to use a combat familiar over a Beast of Burden__**
-**TL;DR: Priorize damaging familiars as more damage dealt means less damage taken, but if you still want to use a BoB, always pick Mammoth with Scrolls**
-
-The current meta strategies of **all** boss encounters is to the end the fight as quickly as it is reasonably possible. To achieve this, we implement damage boosting tools within our inventories, stats, gear, and just as importantly, the familiars we summon.
-
-This way, if mechanics are not outright skipped, they're greatly shortened and thus increase our chance of success.
-
-> **__Combat familiars__**
-**__Ripper demon__** <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>
-⬥ Increases the damage you deal to your target the lower its HP is.
-⬥ Has a high innate auto-attack damage with a high hitchance for a Combat Familiar.
-    • Massively increased damage output when using Death from Above scrolls <:ripperscroll:703581275155464203> (can be stored by using them on the Demon), which is maximized by manually speccing with Spiritual Prayers <:spiritualprayer:651079281882955787>
-
-**__Nihils__** <:icenihil:854475442164334592>
-⬥ Increases your hitchance by 5% on its respective style, which is an indirect damage buff as it causes you to splash less.
-
-> **__Pack Mammoth__** <:Mammoth:513195712146702337>
-If you still want to bring a Beast of Burden, it is paramount a Pack Mammoth <:Mammoth:513195712146702337> with Mammoth Feast scrolls is used **instead** of a Pack Yak <:Yak:513195712201228289>. Its scrolls do the following:
-⬥ Consumes a solid piece of food in its inventory instantly and heals it back to you.
-    • Will **not** drain adrenaline.
-    • Can be combo-eaten with other solids and potions.
+{
+  "embed": {
+    "title": "__Beasts of Burden__",
+    "color": 39423,
+    "description": "Generally, a Beast of Burden will hinder you more than help you",
+    "fields": [
+      {
+        "name": "__Reasoning__",
+        "value": "⬥ In the current meta, the strategy is to the end fights as quickly as possible\n\u00a0\u00a0\u00a0\u00a0• Using a BoB will noticeably lengthen kills and increase encountered mechanics\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This, in turn, lowers both your chance of success and your efficiency\n⬥ If a BoB is absolutely required, always use a Pack Mammoth <:Mammoth:513195712146702337>\n\u00a0\u00a0\u00a0\u00a0• Mammoth Feast scrolls will eat a piece of food from its inventory and heal you\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This does **not** drain adrenaline"
+      },
+      {
+        "name": "__Preferred Alternatives__",
+        "value": "⬥ Ripper Demon <:ripperpouch:703581275453128714>\n\u00a0\u00a0\u00a0\u00a0• Provides a passive damage boost of up to 5% based on target HP\n\u00a0\u00a0\u00a0\u00a0• Has high damage and accuracy\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Dramatically increased by special attacks, using <:ripperscroll:703581275155464203> + <:spiritualprayer:651079281882955787>\n⬥ Kal'gerion Demon <:kalgpouch:921410226484301925>\n\u00a0\u00a0\u00a0\u00a0• Provides a passive critical strike chance boost of 1%\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Increased to 6% if using <:kalgscroll:841409588954923049>\n\u00a0\u00a0\u00a0\u00a0• Has high damage and fairly high accuracy\n⬥ Nihil <:shadownihil:854475441946230855> <:icenihil:854475442164334592> <:smokenihil:854475442227642388> <:bloodnihil:854475442169053194>\n\u00a0\u00a0\u00a0\u00a0• Provides a 5% increase to hitchance"
+      }
+    ]
+  }
+}
+.embed:json
