@@ -1,19 +1,21 @@
-> **__Seren Godbow__**
-**__Damage__**
-Assuming best in slot gear, average damage will be as follows:
-.
-.img:https://i.imgur.com/Us84iTb.png
-.
-So, SGB <:sgb:626466665848242186> is only worth using on-style for 3x3+, and off-style for 5x5+
-*Note: For info on boss sizes check <#689206023675838471>*
-
-**__Benefits of EoFing__** <:sgb:626466665848242186> <:eofblue:780401412906680330>
-⬥  Chin SGB <:mechchin:641669268722810881>
-    • Acts as if you have SGBed N times, once per target affected by the Chin effect
-
-⬥ Bolt Procs <:RubyBakri:565726489413287956>
-    • These are determined on cast and only Arrow 1 can proc them
-        - Though, if it affects Arrow 1's hit directly (e.g., Ruby <:RubyBakri:565726489413287956> / Onyx <:OnyxBakri:565726489362956308>) it will also affect Arrows 2-5 due to how damage is calced
-
-⬥ Can SGB during ECB Spec <:ecb:615618531937222657> <:spec:537340400273195028>
-*Note: For more info on SGB check <#689206023675838471>*
+{
+  "embed": {
+    "title": "__Seren Godbow__",
+    "color": 39423,
+    "description": "*Note: More information on SGB and boss sizes here: <#689206023675838471>*",
+    "image": {
+        "url": "https://i.imgur.com/Us84iTb.png"
+    },
+    "fields": [
+      {
+        "name": "__Benefits of EOF SGB__ <:sgb:626466665848242186> <:eofblue:780401412906680330>",
+        "value": "⬥ Bakriminel Bolt Procs\n\u00a0\u00a0\u00a0\u00a0• These are determined on cast and only Arrow 1 can proc them\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- If it affects Arrow 1's hit directly (e.g. Ruby / Onyx), it will also affect Arrows 2-5 indirectly\n⬥ Chin SGB <:mechchin:641669268722810881>\n\u00a0\u00a0\u00a0\u00a0• Fires 1 spec per target within chin area-of-effect (capped at 9)\n⬥ Can SGB during <:ecb:615618531937222657> <:spec:537340400273195028>"
+      },
+      {
+        "name": "__Damage__",
+        "value": "*Note: Only SGB at 3x3+ bosses, and off-style SGB at 5x5+ bosses*\n⬥ Shown below is average damage assuming BIS gear"
+      }
+    ]
+  }
+}
+.embed:json
