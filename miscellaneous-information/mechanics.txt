@@ -98,6 +98,8 @@ https://youtu.be/9YejOAvquQk
 ⬥ Landing a Critical hit also increases your damage cap from 10.000 to 12.000 (15.000 with <:grim:568262896375824385>, 15.720 with <:grim:568262896375824385> and <:smokecloud:856635090641879050> using non-<:Magic:689504724159823906>) and 16.800 with <:grim:568262896375824385> and <:smokecloud:856635090641879050> using <:Magic:689504724159823906>).
 ⬥ Critical hit is a unique combat stat in RuneScape, spread all-over different items and interacting in unique ways.
 ⬥ Getting +5% critical hit means you're getting +5% chance to get a Forced Critical strike, this is where the game forces your damage to roll in the top 5% of possible damage range, as opposed to the upper 80% as usual.
+    • The game will attempt to force a critical hit first (using this Forced Critical chance)
+        - If that fails then a normal damage roll is done which is where your natural chance to critical hit comes into play for getting landing a critical
 
 .
 **__Abilities interaction__**
@@ -140,23 +142,24 @@ https://youtu.be/9YejOAvquQk
 .
 **__Item interaction__**
 ⬥ Deathspore arrows <:deathsporearrows:900758234527301642>
-    • Deathspore arrows are arrows introduced with Croesus, while using them you get 3% forced critical strike.
-    • If you land a critical strike while using these arrows you get a stack of *Feasting Spores*,when you reach 5 stacks of *Feasting Spores* your ranged threshold, ultimate or special attack will cost 0% adrenaline.
-    • Getting a free ranged action has a 60 second cooldown, for every critical hit scored in this cooldown, the cooldown is reduced by 1.8 seconds.
+    • Increases chance of forcing a critical hit by 3% when used.
+    • If you land a critical strike while using these arrows you get a stack of *Feasting Spores*
+        - Reaching 5 stacks of *Feasting Spores* causes your next Ranged threshold, ultimate or special attack to cost 0% adrenaline.
+    • Getting a free ranged action has a 60 second cooldown.
+         - Each critical hit landed during this cooldown reduces it by 1.8 seconds.
 
 .
 ⬥ Fractured Staff of Armadyl <:soa:869284271595069451>
-    • The fractured Staff of Armadyl <:soa:869284271595069451> is a level 95 staff.
+    • The Fractured Staff of Armadyl <:soa:869284271595069451> is a level 95 staff.
     • The Fractured Staff of Armadyl <:soa:869284271595069451> has a special attack called *Instability*, which costs 50% adrenaline and has a 60 second cooldown between uses.
-    • For the next 30 seconds, after using *Instability*, whenever the player scores a Critical Strike with magic **by any means** on your primary target, a loss-less main hand / two-handed auto attack will be fired of your current selected spell.
-    • Note: auto attacks fired by *Instability* will chain into themselves whenever they score a critical strike.
+        - For the next 30 seconds whenever the player lands a critical hit with Magic **by any means** on your primary target, a lossless mainhand / two-handed auto attack will be fired based on your current autocast.
 
 .
 ⬥ Precise and Equilibrium
     • Precise and Equilibrium both affect your maximum and minimum possible max hit by modifying the potential damage rolls ranges.
-    • Precise increases this minimum roll by percentage depending on the Precise perk level.
+    • Precise increases your minimum damage by 1.5% per rank of your maximum damage
     • Equilibrium increases the minimum roll by 2.4% per rank & decreased the maximum hit by 0.8% per rank.
-    • **NOTE: Critical hit values with Equilibrium are adjusted so the top 5% of your damage rolls are critical hits & Forced Critical hits give a damage roll in that top 5%.**
+    • These will affect your chances of naturally rolling a critical hit
 
 .
   **__Forced Critical Strike chance increases__**
