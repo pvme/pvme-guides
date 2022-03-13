@@ -3,6 +3,9 @@
 .img:https://i.imgur.com/oNKbXti.png
 .
 > **__Introduction__**
+
+This guide assumes you are already familiar with the basic mechanics of Telos which can be seen here <#854168962140340224>.
+
 Telos, the Warden is the true guardian of the Heart of Gielinor. Telos is a solo boss that can only be fought after obtaining the four parts of an Ancient Sigil from the four other bosses in the Heart requiring 80 in Attack, Prayer, Magic, and Ranged.
 
 Telos is regarded as the most profitable boss currently once a player is able to consistently kill and streak high enrages. Telos drops t92 two-hand weapons consisting of the Staff of Sliske <:Sos:626466320132734976>, Zaros Godsword <:zgs:626465964325601290>, and Seren Godbow <:sgb:626466665848242186>.
@@ -25,46 +28,19 @@ When out of range, Telos will shoot off a magic attack and move into melee dista
 .
 > **__Presets__**
 .tag:presets
-__**Beginner Telos**__
-⬥ <:weppoison:689525476158472288> **Weapon Poison +++** (1 dose)
-⬥ <:Cinderbanes:513190158355660812> **Cinderbane Gloves**
-⬥ <:arcanespiritshield:690976219612708954> **Arcane Spirit Shield**
-⬥ <:nip:537336877900890135> **Dreadnips**
-⬥ <:gstaff:513203008608141314> **Guthix Staff** - for its special attack
-.
-.img:https://i.imgur.com/Tq3XRSP.png
 .
 **__Advanced Telos__**
 ⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
 ⬥ <:eofblack:780401412915855380> with Statius Warhammer <:swh:641670143197446182>
 ⬥ <:kalphiterebounder:643846849223983125> **Kalphite Rebounder**
 ⬥ <:sgb:626466665848242186> **Seren Godbow** - used with <:ingen:641339234111848463> Ingenuity of the Humans
-⬥ <:redpouch:690848915020447745>  **Rune Pouch** <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427>  **Rune Pouch** <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:bluepouch:656786565527502858>  **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
+⬥ <:graspingpouchblack:892816436974735361> : <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> : <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblue:892816437406728252> : <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
 ⬥ **Superior Zuriel's legs** <:SuperiorZurielsrobebottom:556591275604836395> `Turtling 4` `Clear Headed 4`
-Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:borrowedpower:657248051190300682> <:disrupt:535614336207552523> <:Veng:543478434953822208> (BP <:ent:567727987274022924>)
+(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208> (BP <:ent:567727987274022924>)
 .
 .img:https://i.imgur.com/OfOyo2u.png
-.
-> __**Enrage Mechanics**__
-.tag:enrage
-**__Telos gains mechanics as the enrage increases__**
-⬥ **50%**: Virus is added on P2 and P3
-⬥ **100%**: Phase 5
-⬥ **150%**: Telos will freedom stuns and binds with a 50 tick cooldown
-⬥ **200%**: Telos HP caps at 600,000 on P1-4
-⬥ **250%**: Telos will freedom stuns and binds with a 31 tick cooldown, and P5 will be stun-immunes after freedom for 10 ticks
-⬥ **300%**: Telos HP caps at 200,000 on P5
-⬥ **500%**: P4 font HP caps at 10,000
-⬥ **1000%**: P4 a rock will fall, P5 multiple rocks will fall, immortality no longer works P5, and Telos will freedom stuns and binds with a 16 tick cooldown
-
-.
-> **__Telos Phasing Diagram__**
-.tag:phasediagram
-.img:https://i.imgur.com/OA3tZ8J.png
-.
-*Note: No Spec translates to 7 auto attacks → Pause → 3 auto attacks → Spec.*
 
 .
 > **__Target Cycling at Telos__**
@@ -74,48 +50,7 @@ Target cycling can be used to tag earlier on phase 1 and phase 5.
 Phase 5 is simple - just target cycle as soon as you see Telos' head pop up, or as soon as you see the yellow dot on the minimap. Your target range must be set to max for this to work.
 
 For phase 1, you need to trigger GCD (using Devotion <:devo:513190158728953857>) wait 2 ticks then Surge <:surge:535533810004262912> in (off gcd) and sun on the next tick. Wait 3 ticks then target cycle + abil. Be aware that if your first abil splashes, it can cause Telos' first auto to hit 2 ticks earlier.
-.
-https://youtu.be/h1v5kS9I50w
-.
-> **__Phase 1__**
-.tag:phase1
-**__Attack Rotation__**
-7 Autos → Tendrils → 3 Autos → Uppercut → 3 Autos → Hold Still → 3 Autos → Repeat from tendrils until phased
 
-.
-**__Mechanics__**
-.tag:p1mechanics
-⬥ On P1, a green beam will spawn on Telos and then stay for 20 ticks. If stood in the beam the player will gain 10% adrenaline per tick, and their prayer points will be drained slightly, scaling with enrage.
-    • While Telos stands in the beam, his attack speed will increase from four ticks per attack to three ticks per attack and his special bar will fill. If his special bar fills on P1, Telos will fire off a So Much Power in place of his next special.
-.
-.img:https://imgur.com/Ft9mmv4.mp4
-.
-⬥ The Tendrils special will require you to deal 3,000 + 10 × Enrage damage, and Telos will also heal himself while channeling this special. Telos also drains your adrenaline while channeling this spec so it's important to clear it quickly.
-    • You should aim to use a high damage ability like Dragonbreath <:dbreath:535533833391702017>, Wild Magic <:wm:535533809978966037> or Guthix staff <:gstaff:513203008608141314> spec to cancel this.
-    • As enrage goes up it becomes increasingly important to stack damage properly, so it's recommended to use Ice Barrage <:icebarrage:537340400185245701> + Detonate  <:deto:535533833358016512> + Wrack <:wrack:856662355952795658> as these will all hit on the same tick.
-
-*Telos tendriling a player*
-.
-.img:https://imgur.com/n92IQzM.mp4
-.
-⬥ Surge <:surge:535533810004262912>, Escape <:escape:535541258832052231>, or Bladed Dive <:bd:535532854281764884> away from the Uppercut 1t after the dialogue window disappears. The timing of avoiding this attack will come with practice.
-    • Players must be at least three squares away from their original position to not get hit.
-    • Players can also Resonance <:res:535541258844635148> or Disruption Shield <:disrupt:535614336207552523> to negate the typeless damage, but this is not recommended because these are better used on other specials.
-
-*Telos uppercutting a player*
-.
-.img:https://imgur.com/iUIAuba.mp4
-.
-⬥ Use Freedom <:freedom:535541258240786434> or Anticipate <:anti:535541306475151390>  before Hold Still to avoid the stun, equip wand and shield, and Resonance <:res:535541258844635148>  the big melee hit, but be careful not to resonance the attack that comes right before the actual damage.
-    • Devotion <:devo:513190158728953857> and Deflect Melee <:DeflectMelee:544195488447201300> is another way to avoid the damage.
-    • Move three squares away to avoid the stomp afterwards.
-    • If you forget to Freedom <:freedom:535541258240786434> / Anticipate <:anti:535541306475151390>, you can manually click your shield in your inventory and spam Resonance <:res:535541258844635148> to negate the stomp hit.
-
-*Hold Still, Invader.*
-.
-.img:https://imgur.com/fKhoh6P.mp4
-.
-⬥ Continue to DPS and deal with mechanics until phase HP. In general you want to be phasing either immediately after the first Tendrils, or even before. This will depend on enrage, gear and skill though.
 .
 > **__Phase 1 Rotations (250%-999%)__**
 .tag:p1rotations
@@ -128,39 +63,14 @@ https://youtu.be/h1v5kS9I50w
 
 .
 ⬥ Notes:
+    • You must use a defensive before the fight, preferably <:devo:513190158728953857>, then wait 2t <:surge:535533810004262912> → <:Sunshine:583430011948630016> otherwise you will not be able to follow these rotations
+        - TCing on tick to allow flinching telos delaying his auto by 2 ticks. Below is a demonstration of flinching and not flinching.
     • It is worth noting that a more consistent P1 will lead to a more consistent P2, which is very helpful, especially while learning.
-    • If your mainhand melee weapon used to Statius Warhammer spec is fastest or fast speed, make sure your 2nd auto with freedom is not too early or your ice won't go off. In order to do this, just cancel your freedom after the first auto by clicking something in inventory (e.g. EoF <:eofpurple:780401412936040478> or Ring of Vigour <:vigour:615613235512737792>), or just walk instead.
-
+    • If your mainhand melee weapon used to apply the Statius Warhammer special attack is fastest or fast speed, make sure your 2nd auto with Freedom is not too early or your ice will not go off.
+        - In order to do this, just cancel your freedom after the first auto by clicking something in inventory (e.g. EoF <:eofpurple:780401412936040478> or Ring of Vigour <:vigour:615613235512737792>), or just walk instead.
 .
-**__Old Rotations__**
-<https://i.imgur.com/v7ncL5c.png>
-
-.
-> **__Phase 2__**
-.tag:phase2
-**__Attack Rotation__**
-The first spec will depend on what spec was last used on P1, and how soon it happens depends on how many autos are left (max of three). Refer to spec order image.
-Assuming phase after tendrils and before uppercut.
-
-(3-auto attacks after last spec on P1) auto attacks → Magic Onslaught → 3 Autos → Hold Still → 3 Autos → Virus (if 50%+ enrage; uppercut if <50%) → 3 Autos → Uppercut → 3 Autos → Tendrils → 3 Autos → Repeat from Magic Onslaught until phase hp
-
-.
-**__Mechanics__**
-.tag:p2mechanics
-⬥ On P2 a black beam spawns on Telos and stays for 33 ticks. While players stand in the beam, they take and deal 30% reduced damage. While Telos stands in the beam, his special bar will fill and he will take 20% less damage.
-
-.
-⬥ Telos will fire off Magic Onslaught hits until his bar is empty. He cannot be moved during this, so if he is standing in the beam, players must block the beam to negate the bar filling.
-    • Devotion <:devo:513190158728953857> and Deflect Mage <:DeflectMage:544195487926845462> the orange/red attacks if his bar was relatively full before the attack started.
-    • Other damage reducing abilities, such as Debilitate <:debil:535541278264393729> and Reflect <:reflect:535541258786177064>), will also reduce the damage taken.
-.
-.img:https://imgur.com/z6RwtpZ.mp4
-.
-⬥ The virus damage is negligible at low enrages, but it can really cut into your food if not dealt with quickly at higher enrages so you should aim to clear this as quickly as possible.
-.
-.img:https://imgur.com/PsQgd4t.mp4
-.
-⬥ Deal with the other mechanics the same as you would on P1 and DPS until phase HP. Ideally you phase before the virus even comes out, but this is heavily influenced by your P1 rotation. It's important not to end the phase with Tendrils as the previous spec unless you are confident dealing with Hold Still as the first spec on P3.
+**__Telos TC Comparison__**
+https://www.youtube.com/watch?v=wveIsE9Y0C8
 
 .
 > **__Phase 2 Rotations (250%-999%)__**
@@ -170,110 +80,12 @@ Assuming phase after tendrils and before uppercut.
 
 .
 https://www.youtube.com/watch?v=zwQ9ffK6was
-.
-> **__Phase 3__**
-.tag:phase3
-**__Attack Rotation__**
-Same situation where the first spec depends on last spec from P2; however, there will always be seven auto attacks first. Refer to diagram.
-Assuming phase after virus and before uppercut.
-
-7 Autos → Uppercut → 3 Autos → Hold Still → 3 Autos → Virus (if 50%+ enrage; skips this spec if <50%) → 3 Autos → Repeat from Uppercut until phase hp
-
-.
-**__Mechanics__**
-.tag:p3mechanics
-⬥ On P3, a red beam will spawn at a random location, lasting for 33 ticks. While players are standing in the beam, they will take and deal 30% increased damage. While Telos is in the beam, he will deal 30% increased damage.
-
-⬥ Telos can apply a Red Virus on this phase.
-.
-.img:https://imgur.com/gMCaQ3p.mp4
-.
-⬥ Telos’s special bar is replaced by a balancing bar.
-    • When the bar is in the red on the left, Telos will siphon player’s prayer and adrenaline.
-.
-.img:https://imgur.com/IrOrcBM.mp4
-.
-    • When the bar is in the red on the right, Telos will send out a shockwave dealing typeless damage.
-.
-.img:https://imgur.com/GNj9g8i.mp4
-.
-⬥ Telos’ bar charges to the right when he is standing in the beam or golems are alive. Telos' bar naturally moves to the left otherwise.
-
-*A mini-golem*
-.
-.img:https://imgur.com/rAG9F2K.mp4
-.
-⬥ When the balance is in the red on the right, Telos will emit one shockwave along with Uppercut and Hold Still. Depending on how far the bar is to the right, Telos will emit up to three shockwaves with the virus.
-    • The shockwave can easily nuke players at higher enrages. Reflect <:reflect:535541258786177064>, Debilitate <:debil:535541278264393729>, or even Barricade <:cade:535541306353778689> can be used to survive being nuked.
-    • On the other end, at 3500%+ enrage, player’s will be smited if Telos is not allowed to step into the beam for a tick.
-
-⬥ When starting out, players can escape into the corner to ensure Telos does not have a beam spawn on him. Once comfortable, it is better to not move from drop down to get into the beam as fast as possible. Once the beam spawns, Bladed Dive <:bd:535532854281764884> into it to decrease the likelihood Telos walk over you into the beam.
-
-.
-⬥ The worst case scenario is ending P2 on Tendrils because the first spec on P3 will be Hold Still, so Onslaught cannot be fully used to dump DPS and the phase can take longer than needed. If this happens, it is often better to just dump thresholds in the beam dealing with mechanics as they come and killing golems if needed.
-    • You can also use Limitless <:limitless:641339233638023179> if necessary.
 
 .
 > **__Phase 3 Rotations (250%-999%)__**
 .tag:p3rotations
 **__Recommended Rotation__**
 <:bloodblitz:535616247807868938> <:sonic:535533809924571136> → <:meta:535533811304497183> → <:bloodblitz:535616247807868938> <:conc:535533833106489365> → <:comb:535533833098100745> → <:bloodblitz:535616247807868938> <:corruptblast:513190159194259467> + <:bd:535532854281764884> → <:dbreath:535533833391702017> → <:bloodblitz:535616247807868938> <:wm:535533809978966037>  → <:deto:535533833358016512> (3t)  → <:bloodblitz:535616247807868938> <:deto:535533833358016512> + <:asphyx:535533833072672778>
-
-.
-**__Old Rotations__**
-<https://i.imgur.com/fKsuypa.png>
-
-.
-> **__Phase 4__**
-.tag:phase4
-**__Attack Rotation__**
-Again, first spec depends on last spec from P3. Refer to diagram.
-Assuming last spec on P3 was Uppercut.
-
-3 Autos → Uppercut → 3 Autos → Weak Anima Bomb → 3 Autos → Hold Still → Repeat until Telos reaches 0 hp
-
-.
-**__Mechanics__**
-.tag:p4mechanics
-⬥ The one new special is the Weak Anima Bomb which can be dealt with using Debilitate <:debil:535541278264393729> on Telos or Resonance <:res:535541258844635148> if phasing into a font before Hold Still.
-.
-.img:https://imgur.com/rOCPDcD.mp4
-.
-⬥ No beams spawn on P4; however, there are three fonts which must be filled and used to negate the instakill attack. The Pure font (next to where you drop down) becomes active when Telos is at ¾ hp, Volcanic at ½ hp, and Corrupt at ¼ hp, moving clockwise around the arena.
-
-⬥ Telos’s number of auto attacks between specs carries over from font to font, so if Telos was one auto attack from firing off a Weak Anima Bomb before the font became active, there will only be one attack before the weak anima bomb after the instakill. There is a slight caveat with phasing on Hold Still that will be discussed later.
-
-.
-⬥ When these fonts become active, Telos is immune to damage and one of each type of golem spawns.
-    • Pure golems (green) deal increased damage the longer they are alive.
-    • Volcanic golems (red) will occasionally stun and bind players for five ticks.
-        - The priority is to always kill or inmobilize the red golem(s) as quickly as possible to avoid stuns.
-    • Corrupt golems (black) reduce player’s defensive rating by 1% for each stack up to 100 stacks.
-.
-.img:https://imgur.com/Pqb71gY.mp4
-.
-⬥ Players must stand in each font to charge it. Players will take five hits of typeless damage which can be reduced with Reflect <:reflect:535541258786177064> except for the last hit which can only be negated with Barricade <:cade:535541306353778689>
-.
-.img:https://imgur.com/mBqSukd.mp4
-.
-⬥ After using the font to negate the instakill, player’s defensives will be reset and put on a 10 tick cooldown.
-.
-.img:https://imgur.com/UF5Wk8B.mp4
-.
-⬥ Barring taking an eternity to get into the first and third fonts, most players will receive a So Much Power in place of the next spec after the second font.
-.
-.img:https://imgur.com/Ft9mmv4.mp4
-.
-⬥ The best way to deal with SMP is to just Resonance <:res:535541258844635148> or Disruption Shield <:disrupt:535614336207552523> the hit as this completely negates the hit while preserving adrenaline. SMP behaves much like Hold Still in the sense that an auto attack comes before the actual big damage.
-    • Be sure to Resonance <:res:535541258844635148> the SMP not the auto attack.
-
-.
-⬥ When trying to Resonance <:res:535541258844635148> SMP with golems still alive, Surge <:surge:535533810004262912> away so their hits don't snipe Resonance, or Devotion <:devo:513190158728953857> + Deflect Melee <:DeflectMelee:544195488447201300> → Resonance <:res:535541258844635148> the SMP.
-    • At lower enrages a Spirit shield can be used to reduce the hit from SMP to a survivable number.
-    • If phasing into the font with one or zero autos before the next spec, Telos will have to be stun-locked to allow for defensives to come off cooldown to deal with SMP.
-
-.
-⬥ Continue to DPS and deal with mechanics until Telos’s HP hits 0. If <100% enrage, congratulations on loot.
 
 .
 > **__Phase 4 Rotations (250%-999%)__**
@@ -317,109 +129,6 @@ Assuming last spec on P3 was Uppercut.
 
 .
 ⬥ Go straight into font, <:res:535541258844635148> → <:reflect:535541258786177064> → (Tag golems) → <:anti:535541306475151390> → <:prep:535541258546970624> → 4t AoE minions until the font fully charges → <:icebarrage:537340400185245701> and step away from golems → target Telos <:deto:535533833358016512> → <:iceblitz:535613865912696883> <:deto:535533833358016512> <:corruptblast:513190159194259467> → <:asphyx:535533833072672778> (2-3 hit) → <:impact:535533809655873556> → <:dbreath:535533833391702017>
-
-.
-> __**Phase 5**__
-.tag:phase5
-**__Attack Rotation__**
-Phase 5 is independent of how Phase 4 ends, unlike all other phases. It will always follow this rotation. Phase 5 only occurs at 100+ enrage.
-
-Golem Spawn → 10 Autos → Virus → 17 Autos → Instant-Kill Bomb → 2 Autos → Repeat from beginning until dead
-
-.
-**__Mechanics__**
-.tag:p5mechanics
-⬥ At the start Telos will spawn a particular set of six golems (Pure, Corrupt, or Volcanic).
-.
-.img:https://imgur.com/VIjcdYK.mp4
-.
-⬥ On P5 <1000% enrage, a single rock will fall at certain times during the phase. 1000%+ enrage up to five rocks will fall.
-.
-.img:https://imgur.com/H2NQ3Eo.mp4
-.
-⬥ All three colored beams will spawn on Telos having the same effects from earlier phases.
-.
-.img:https://imgur.com/6cxSFBU.png
-.
-⬥ Fonting is the process of killing the golems at their corresponding font to be used during the insta-kill bomb.
-
-.
-⬥ <1000% enrage just wipe the golems out because Immortality <:immort:535541258538582017> can still be used to negate the insta-kill Bomb.
-
-.
-⬥ A simple Tsunami <:tsunami:535533809995874304> inside Sunshine <:Sunshine:583430011948630016> is enough to wipe golems up to ~350% enrage with some basics to kill any stray golems.
-
-.
-⬥ After ~350% a Deto <:deto:535533833358016512> + Tsunami <:tsunami:535533809995874304> will be needed to kill the golems.
-
-.
-⬥ After 1000% golems will have to be fonted if not comfortable zero-fonting. Whittle down the golems with AoEs before clearing the virus and killing them at the font.
-
-.
-⬥ The virus will be a random color. Surge <:surge:535533810004262912>/bladed dive <:bd:535532854281764884> to the beam to cleanse the virus, head back to Sunshine <:Sunshine:583430011948630016> and the green beam as fast as possible.
-
-*A player with Green Virus, exclusive to Phase 5*
-.
-.img:https://imgur.com/frq8gRT.mp4
-.
-⬥ If not fonting wait for the next rock to fall, onslaught until either Telos dies or the next rock falls.
-
-.
-⬥ <1000% Immortality <:immort:535541258538582017> to negate the Insta-Kill Bomb
-
-*Telos charging his attack*
-.
-.img:https://imgur.com/7vfE0Da.mp4
-.
-⬥ 1000%+ activate the font and get back onto Telos.
-
-.
-⬥ Continue to DPS Telos until he dies. Finally, congratulations on loot.
-
-.
-__**Tips and Tricks**__
-.tag:p5tips
-⬥ To properly tag P5 on the first tick, watch the pure font on the left side, when it does this animation <https://i.imgur.com/H3CceEu.gif>, press target cycle. If using a Vulnerability Bomb <:vulnbomb:655341074235129858> you must throw it one tick after target cycling.
-
-.
-⬥ Telos auto-attacks can hit surprisingly hard, so make sure you use Deflect Magic <:DeflectMage:544195487926845462> at the start of the phase. Use Deflect Melee <:DeflectMelee:544195488447201300> whenever Telos is stunlocked, while minions are alive. Ideally, you should prayer flick between both deflects.
-
-.
-⬥ Dreadnips <:nip:537336877900890135> are helpful for complete learners. They have a chance of stunning Telos and consequently triggering his freedom timer - especially helpful during P5 start and your Onslaught <:onsl:513190159085207555>.
-    • These will be ditched as you become more experienced however.
-
-.
-⬥ Telos' Freedom is triggered on a set timer, starting from the beginning of P5, as long as you stun or bind him at any point between his freedoms.
-    • This means that with a 20-second freedom (on 250-999%), and Asphyxiate <:asphyx:535533833072672778> having a cooldown of 20 seconds, your Asphyxiate <:asphyx:535533833072672778> + Deep Impact <:deep:535533833139912724> combo will always stunlock Telos if used properly. Take advantage of this!
-
-.
-⬥ In the event that you get an instant kill, use Immortality <:immort:535541258538582017> + Sunshine <:Sunshine:583430011948630016> and Vulnerability Bomb  <:vulnbomb:655341074235129858>. Rotate defensives such as Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> / Devotion <:devo:513190158728953857> / Barricade <:cade:535541306353778689> while finishing Telos. Using Revenge <:revenge:535541259645878302> is recommended.
-    • Use Anticipation <:anti:535541306475151390> and Freedom <:freedom:535541258240786434> if you get Volcanics.
-    • The general idea behind this is to maximize damage output on Telos while having defensives up to tank minions.
-
-.
-⬥ Minion luring is important for side beams, simply standing 1 out of MD will generally lure the golems properly. For back beams, you want to stand 1 out of MD, then move 2 squares back to lure the golems.
-
-Here is an image detailing the lure:
-.
-.img:https://i.imgur.com/898Dtkv.png
-.
-**__Enrage Checkpoints__**
-.tag:p5enrage
-⬥ **100-149%**: <:corruptblast:513190159194259467> and <:dbreath:535533833391702017> under Sunshine will kill all of the minions. Telos cannot use Freedom at this enrage - with stuns and a Sunshine rotation, you should be able to kill him before virus.
-
-.
-⬥ **150-249%**: <:tsunami:535533809995874304> under Sunshine <:Sunshine:583430011948630016> will kill all of the minions. Telos will start using Freedom every 30 seconds, however there is no immunity period after using it. You can either tank the virus with Revenge <:revenge:535541259645878302> / Reprisal <:Reprisal:513190159462694912> or clear it. This is easily 0 fontable.
-
-.
-⬥ **250-349%**: Tsunami <:tsunami:535533809995874304> under Sunshine <:Sunshine:583430011948630016> will generally kill all of the minions, but you may need to start using <:corruptblast:513190159194259467> and <:dbreath:535533833391702017> to clear out remainders.
-
-Telos will also start using Freedom every 20 seconds, with a 6 second immunity period, and will remain that way all the way to 999%. You should start to learn to clear the virus efficiently - use Debilitate <:debil:535541278264393729> on the virus for safety.
-
-.
-⬥ **350-999%**: Detonate <:deto:535533833358016512> + Tsunami <:tsunami:535533809995874304> under Sunshine <:Sunshine:583430011948630016>will kill all or most of the minions.
-
-Using a Kalphite Rebounder <:kalphiterebounder:643846849223983125> and Revenge <:revenge:535541259645878302> may be useful for dealing with the minions, especially if you have Ruthless on your defender. At this point, you can Debilitate <:debil:535541278264393729> the virus if it comes out, or Barricade <:cade:535541306353778689> if low on food, though neither is strictly necessary. DPS and stunning becomes increasingly important in order to get a 0 font.
 
 .
 > **__Phase 5 Rotations (250%-999%)__**
@@ -524,23 +233,8 @@ If you get volcanics, Anticipate <:anti:535541306475151390> after Revenge <:reve
 		"inline": true
       },
 	  {
-	    "name": "__Enrage__",
-        "value": "[Link]($linkmsg_enrage$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase Diagram__",
-        "value": "[Link]($linkmsg_phasediagram$)",
-		"inline": true
-      },
-	  {
 	    "name": "__Target Cycling__",
         "value": "[Link]($linkmsg_targetcycling$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase 1__",
-        "value": "[Link]($linkmsg_phase1$)",
 		"inline": true
       },
 	  {
@@ -549,18 +243,8 @@ If you get volcanics, Anticipate <:anti:535541306475151390> after Revenge <:reve
 		"inline": true
       },
 	  {
-	    "name": "__Phase 2__",
-        "value": "[Link]($linkmsg_phase2$)",
-		"inline": true
-      },
-	  {
 	    "name": "__Phase 2 Rotations__",
         "value": "[Link]($linkmsg_p2rotations$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase 3__",
-        "value": "[Link]($linkmsg_phase3$)",
 		"inline": true
       },
 	  {
@@ -569,18 +253,8 @@ If you get volcanics, Anticipate <:anti:535541306475151390> after Revenge <:reve
 		"inline": true
       },
 	  {
-	    "name": "__Phase 4__",
-        "value": "[Link]($linkmsg_phase4$)",
-		"inline": true
-      },
-	  {
 	    "name": "__Phase 4 Rotations__",
         "value": "[Link]($linkmsg_p4rotations$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase 5__",
-        "value": "[Link]($linkmsg_phase5$)",
 		"inline": true
       },
 	  {
