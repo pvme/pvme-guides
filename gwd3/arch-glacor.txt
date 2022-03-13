@@ -30,13 +30,13 @@ The Arch-Glacor is only affected by the Glacor slayer task on Normal Mode. The s
 ⬥ If using Smoke Cloud <:smokecloud:856635090641879050> via spellbook swap rather than borrowed power, you may substitute food for the extra pouch
 ⬥ You can adjust your food and replace blubbers and grests with solids and saradomin brews as you climb enrage, if needed
 
-⬥ <:ancientrepriser:643150658891153428> Planted Feet <:pf:689501925770919981> switch.
-⬥ <:barrowsbbcoh:580176857123651584> Caroming 4 <:caroming4:791281588792590336> switch for <:gricocaroming:867678153966878740>.
+⬥ <:ancientrepriser:643150658891153428> with Planted Feet <:pf:689501925770919981>
+⬥ <:barrowsbbcoh:580176857123651584> with Caroming 4 <:caroming4:791281588792590336>
 ⬥ <:eofblue:780401412906680330> with Seren Godbow <:sgb:626466665848242186>
 ⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
 ⬥ <:eofpink:780401412865523722> with Eldritch Crossbow <:ecb:615618531937222657>
-⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-⬥ <:blackpouch:656786565359599626> **Rune Pouch** <:Airrune:536252658986647589> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
+⬥ <:bluepouch:656786565527502858> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
+⬥ <:blackpouch:656786565359599626> <:Airrune:536252658986647589> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
 (Runes for <:disrupt:535614336207552523> <:Veng:543478434953822208>)
 .
 .img:https://imgur.com/PumVEi2.png
@@ -182,42 +182,42 @@ https://youtu.be/LLfh-xehpRM
 
 .
 {
-  "embed": {
-    "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Strategy__",
-        "value": "[Link]($linkmsg_strategy$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
-  }
+   "embed":{
+      "title":"Table of Contents",
+      "color":39423,
+      "fields":[
+         {
+            "name":"__Introduction__",
+            "value":"[Link]($linkmsg_intro$)",
+            "inline":true
+         },
+         {
+            "name":"__Drops__",
+            "value":"[Link]($linkmsg_drops$)",
+            "inline":true
+         },
+         {
+            "name":"__Presets__",
+            "value":"[Link]($linkmsg_presets$)",
+            "inline":true
+         },
+         {
+            "name":"__Mechanics__",
+            "value":"[Link]($linkmsg_mechanics$)",
+            "inline":true
+         },
+         {
+            "name":"__Strategy__",
+            "value":"[Link]($linkmsg_strategy$)",
+            "inline":true
+         },
+         {
+            "name":"__Example Kills__",
+            "value":"[Link]($linkmsg_example$)",
+            "inline":true
+         }
+      ]
+   }
 }
 .embed:json
 .pin:delete
