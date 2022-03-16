@@ -103,25 +103,27 @@ __**Embed commands**__:
 \n\u200B = add a blank line at the end of string
 [text](website link) = add hyperlink
 
+To see your template live, utilize this website: https://leovoel.github.io/embed-visualizer/
+
 A generic template looks like this, and you would fill in contents in the blank quotation marks, adding commands as needed. The "name" corresponds to a header, and the "value" corresponds to contents within that header.
 .
 ```{
   "embed": {
-    "title": "",
-    "description": "",
-    "color": 39423,
+    "title": "PvME Embed Maker",
+    "description": "Replace the titles and fields to make the embeds.",
+    "color": 15145728,
     "fields": [
       {
-        "name": "",
-        "value": ""
+        "name": "__Header 1__",
+        "value": "Describe Field 1 here"
       },
-	  {
-        "name": "",
-        "value": ""
+      {
+        "name": "__Header 2__",
+        "value": "Describe Field 2 here"
       },
-	  {
-        "name": "",
-        "value": ""
+      {
+        "name": "__Header 3__",
+        "value": "An informative error should show up, and this view will remain as-is until all issues are fixed"
       }
     ]
   }
@@ -138,16 +140,16 @@ If we fill in the template it looks something like this:
     "color": 39423,
     "fields": [
       {
-        "name": "__Header1__",
-        "value": "⬥ Header1 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header1 subsubpoint\n\u200B"
+        "name": "__Header 1__",
+        "value": "⬥ Header 1 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header1 subsubpoint\n\u200B"
       },
 	  {
-        "name": "__Header2__",
-        "value": "⬥ Header2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header2 subsubpoint\n\u200B"
+        "name": "__Header 2__",
+        "value": "⬥ Header 2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header2 subsubpoint\n\u200B"
       },
 	  {
-        "name": "__Header3__",
-        "value": "⬥ Header3 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header3 subsubpoint with hyperlink to google [here](https://www.google.com/)\n\u200B"
+        "name": "__Header 3__",
+        "value": "⬥ Header 3 subpoint\n\u00a0\u00a0\u00a0\u00a0• Header3 subsubpoint with hyperlink to google [here](https://www.google.com/)\n\u200B"
       }
     ]
   }
