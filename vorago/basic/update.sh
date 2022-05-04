@@ -56,4 +56,5 @@ curl \
   -X PUT \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: Bearer $GITHUB_TOKEN" \
+  -d '{"merge_method":"squash"}' \
   $pr_url/merge
