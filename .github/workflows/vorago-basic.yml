@@ -1,0 +1,17 @@
+name: vorago-basic
+on:
+    schedule:
+       - cron: '0 0 * * *'
+    push:
+      branches:
+        - master
+      paths:
+        - 'vorago/basic/*_combined.txt'
+jobs:
+  update-vorago-basic:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./vorago/basic/update.sh
