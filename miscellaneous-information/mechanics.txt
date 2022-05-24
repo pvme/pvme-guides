@@ -99,7 +99,7 @@ https://youtu.be/9YejOAvquQk
 .
 .img:https://i.imgur.com/OOreFqF.png
 .
-**__Critical hits__ (Courtesy of <@844317937329766401>)**
+> **__Critical Hits__ (Courtesy of <@844317937329766401>)**
 .tag:crits
 **__Brief Introduction__**
 ⬥ A Critical hit is when the player hits between 95% and 100% of potential damage with an ability or auto-attack, denoted by a bolder hit splat.
@@ -465,7 +465,7 @@ https://youtu.be/kd9QpM12ckg
         - Weapon Poison+++ = 34.13%
         - Cinderbanes+++   = 39.00%
 
-⬥ Vulnerability <:Vuln:537349530551582720>, Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>, and Laniakea's Spear <:lanispear:839903893177106454> increase poison damage values, but prayers and damage boosting ultimates do not.
+⬥ Vulnerability <:Vuln:537349530551582720>, Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>, Bik Arrows <:bikarrow:971025697235689513>, and Laniakea's Spear <:lanispear:839903893177106454> increase poison damage values, but prayers and damage boosting ultimates do not.
 
 .
 ⬥ **Cinderbane Gloves** <:Cinderbanes:513190158355660812>:
@@ -480,6 +480,15 @@ https://youtu.be/kd9QpM12ckg
     • Per potency level, Kwuarm Incense Sticks will add a multiplicative damage increase of 2.5% to the player's final poison damage.
     • At maximum potency, this is a multiplicative 10% to poison damage.
     • This brings the range of Weapon Poison+++ with Cinderbane Gloves worn to 28.60-57.52%, or an average of 42.9% ability damage.
+
+.
+⬥ **Bik Arrows** <:bikarrow:971025697235689513>:
+    • Per stack, Bik Arrows will add a multiplicative damage increase of 2% to the player's final poison damage.
+        - An arrow is consumed for every stack added, which are applied on every ranged ability hit. *Bleed effects after the initial cast do NOT add any stacks.*
+        - Bik arrow stacks will last for **30 seconds**, with the timer refreshing every time a new stack is applied.
+        - Bik arrows will continue to be consumed in the espected manner even after reaching maximum stacks, and they will continue refreshing the effect.
+    • At maximum stacks (200) this is a multiplicative 400% damage increase, or an effective **5x multiplier** to poison damage.
+    • This brings the range of Weapon Poison+++ with Cinderbane Gloves and Kwuarm Incense Sticks to 143.00-287.60%, or an average of 214.50% ability damage.
 
 .
 ⬥ **Laniakea's Spear** <:lanispear:839903893177106454>:
@@ -505,6 +514,7 @@ https://youtu.be/kd9QpM12ckg
 .
 ⬥ Poison can be applied/refreshed by **any player-sourced damage**. This includes:
     • Abilities (Includes every hit from bleeds/damage over time, including Sunshine & Death's Swiftness)
+    • Abyssal Parasites
     • Auras (Ancestor Spirits & Dark Magic)
     • Auto attacks
     • Bakriminel/Enchanted Bolt extra hits (Emerald & Dragonstone)
@@ -513,7 +523,7 @@ https://youtu.be/kd9QpM12ckg
     • Cannon damage
     • Dominion mines
     • Eldritch Crossbow special
-    • God books
+    • God books and Scriptures
     • Poison damage
     • Puncture bleeds
     • Reflect damage
@@ -656,6 +666,11 @@ https://youtu.be/O-Lb93vFRAI
 	  {
 	    "name": "__Solo Flanking__",
         "value": "[Link]($linkmsg_soloflanking$)",
+		"inline": true
+      },
+      {
+	    "name": "__Critical Hits__",
+        "value": "[Link]($linkmsg_crits$)",
 		"inline": true
       },
 	  {
