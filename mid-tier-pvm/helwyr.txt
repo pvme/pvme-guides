@@ -34,41 +34,37 @@ Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, w
 .
 .img:https://i.imgur.com/aooVhDn.png
 .
-> __**Mechanics**__
+> **__Mechanics__**
 .tag:mechanics
-**__Attack Rotation__**
-Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat
-
-.
-**__Mushroom Gas__**
-Avoided by just running out of it. Avoid standing directly on top of a mushroom to decrease the distance needed to move out of the gas. Standing in the mushroom gas will give you a 250 damage bleed every tick, and if standing in the gas for a prolonged time will bind you.
-.
-.img:https://imgur.com/KHMLekU.mp4
-.
-**__Cleave__**
-Hits in a frontal cone for up to 3k and apply a bleed. Do not freedom this bleed. If you are standing a distance away from Helwyr, he will first lunge towards you before the attack. There are a few methods to handle this attack.
-.
-.img:https://imgur.com/OKDS0F5.mp4
-.
-⬥ If using <:Magic:689504724159823906> or <:Range:580168050121113623>, move out of the damage cone. Can also be done with <:melee:615612332521029632> but is DPS waste
-
-⬥ A well-timed Resonance <:res:535541258844635148> will heal a nice chunk. Note you will still acquire the bleed. This method is best if you are struggling to Soul Split <:soulsplit:615613924506599497> your HP back up and surviving the whole hour. This method can become difficult with the Cywir Alphas alive, but it can also be a good chance to practice some tick Resonances <:res:535541258844635148> with little risk as long as you are above 3kish HP.
-
-⬥ Lastly, while praying Soul Split <:soulsplit:615613924506599497>, cast <:disrupt:535614336207552523> / <:Veng:543478434953822208> from the Lunar Spellbook.
-
-.
-**__Frenzy__**
-Helwyr’s frenzy attack has him leaping around doing rapid melee damage while applying a bleed stack with each attack. Again, while using Range or Magic, you can just run away from Helwyr’s Frenzy attack, but with Melee it is better to stay put and continue doing damage.
-.
-.img:https://imgur.com/G5CPPoC.mp4
-.
-If you are getting smacked around, you can always pray melee <:DeflectMelee:544195488447201300> and Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729>. After this attack has concluded, feel free to Freedom <:freedom:535541258240786434>the bleed if you wish.
-
-.
-**__Minion Spawn__**
-Helwyr’s minion spawn attack has him howl and summon two 3k HP Cywir Alphas. Easily taken out with AoEs.
-.
-.img:https://imgur.com/EB1ss4g.mp4
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Attack Rotations__",
+        "value": "Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat\n\u200B"
+      },
+      {
+        "name": "__Mushroom Gas__",
+        "value": "⬥ Avoided by just running out of it. Stand near the edges of mushrooms to decrease the distance needed to move out of the gas. Standing in the gas will give you a 250 damage bleed every tick, and if standing in the gas for a prolonged time will bind you. [Example](https://imgur.com/KHMLekU.mp4)\n\u200B"
+      },
+      {
+        "name": "__Cleave__",
+        "value": "⬥ Hits in a frontal cone for up to 3k and apply a bleed. Do not freedom this bleed. If you are standing a distance away from Helwyr, he will first lunge towards you before the attack. There are a few methods to handle this attack. [Example](https://imgur.com/OKDS0F5.mp4)\n\u00a0\u00a0\u00a0\u00a0• <:Magic:689504724159823906> or <:Range:580168050121113623>: move out of the damage cone.\n\u00a0\u00a0\u00a0\u00a0• Can also be done with <:melee:615612332521029632> but is DPS waste.\n\u00a0\u00a0\u00a0\u00a0• Resonance <:res:535541258844635148> (You will still acquire the bleed)\n\u00a0\u00a0\u00a0\u00a0• <:disrupt:535614336207552523> / <:Veng:543478434953822208>\n\u200B"
+      },
+      {
+        "name": "__Frenzy__",
+        "value": "⬥ Helwyr’s leaps around doing rapid melee damage while applying a bleed stack with each attack. While using Range or Magic, you can just run away, but with Melee it is better to stay put and continue doing damage. [Example](https://imgur.com/G5CPPoC.mp4)\n\u00a0\u00a0\u00a0\u00a0• You can pray melee <:DeflectMelee:544195488447201300> and Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729>.\n\u00a0\u00a0\u00a0\u00a0• Freedom <:freedom:535541258240786434>the bleed after the attack.\n\u200B"
+      },
+      {
+        "name": "__Minion Spawn__",
+        "value": "⬥ Helwyr’s minion spawn attack has him howl and summon two 3k HP Cywir Alphas. Easily taken out with AoEs. [Example](https://imgur.com/EB1ss4g.mp4)\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
 .
 > **__Casual Melee Helwyr Guide__ (Courtesy of <@213693069764198401> and <@781280949790572554>)**
 .tag:meleehelwyr
@@ -101,20 +97,18 @@ Join instance → <:res:535541258844635148> → <:prep:535541258546970624> → <
 ⬥ Alternate start without <:vulnbomb:655341074235129858> (Courtesy of <@207588233780002818>):
 Join instance → <:res:535541258844635148> → <:prep:535541258546970624> → <:anti:535541306475151390> → (tc) (fastest) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:Vuln:537349530551582720> <:slaughter:535532879237873666> (walk under) → continue as normal
 
-then loot, tele out <:bd:535532854281764884> to altar to reset cooldowns, then <:surge:535533810004262912> <:bd:535532854281764884> to crystal to build adrenaline (use Excalibur <:EnhancedExcalibur:513200949016264727> while building) then repeat.
+Loot → tele out → <:bd:535532854281764884> to altar to reset cooldowns → <:surge:535533810004262912> <:bd:535532854281764884> to crystal to build adrenaline (use Excalibur <:EnhancedExcalibur:513200949016264727> while building) then repeat.
 
 *Note: Always Vengeance <:Veng:543478434953822208> the cleave, ideally with SS <:soulsplit:615613924506599497> on (Deflect Melee <:DeflectMelee:544195488447201300> if ~70% HP though, or if not using Trimmed Masterwork <:tmwbody:643847118196441088>)*
 
 .
 **__Sample Kills__**
 .
-https://www.youtube.com/watch?v=12qTzSHLTTs&ab_channel=VideoDump
+https://youtu.be/12qTzSHLTTs
 .
 **__Tips and Tricks__**
 ⬥ If you get shroomed, ideally walk under Helwyr until you are out of the shroom radius
-
 ⬥ If your HP gets really low then utilize Disrupt <:disrupt:535614336207552523>
-
 ⬥ To make looting more efficient, you can bind the open area loot interface in control settings, and then just hit that bind and the loot bind as soon as Helwyr dies.
 
 .
@@ -156,7 +150,7 @@ You want to <:bd:535532854281764884> to the following spots to ensure you remain
 **__Rotation__**
 Join Instance → <:anti:535541306475151390> → <:bdmobile:867678153668820992> → non-<:pf:689501925770919981> <:Sunshine:583430011948630016> + <:enhreplen:634350450887622656> / <:adrenrenewal:736298121704767538> → (tc) <:Vuln:537349530551582720> <:gconc:869285393223254107> → <:limitless:641339233638023179> <:wm:535533809978966037> → <:deto:535533833358016512> (4t) → <:exsanguinate:856635090745950258> <:deto:535533833358016512> <:gconc:869285393223254107> → <:asphyx:535533833072672778> (4-hit) → <:wrackandruin:856662355912032256> (swap to <:bloodbarrage:537338981747261446> autocast) → (<:kerapacswristwraps:869286640722513940>) <:dbreath:535533833391702017> → <:exsanguinate:856635090745950258> <:gconc:869285393223254107> → <:comb:535533833098100745> → <:sonic:535533809924571136> → <:wm:535533809978966037> → <:gconc:869285393223254107> → (<:igneouskalmej:902209626408382494>) <:omni:535533809664262179> → <:dbreath:535533833391702017>
 
-then loot → <:bdmobile:867678153668820992> to altar to reset cooldowns, then <:surge:535533810004262912> <:bdmobile:867678153668820992> to crystal to build adrenaline (use Excalbur <:excal:641337999170207763> while building) then repeat
+Loot → <:bdmobile:867678153668820992> to altar to reset cooldowns → <:surge:535533810004262912> <:bdmobile:867678153668820992> to crystal to build adrenaline (use Excalbur <:excal:641337999170207763> while building) then repeat.
 
 *Note 1: Walk 2 tiles back after <:wm:535533809978966037> (similar to walking <:comb:535533833098100745>)*
 *Note 2: If you get shroomed, either tank it, or <:bdmobile:867678153668820992> in such a way that you stay in <:Sunshine:583430011948630016> but do not walk Helwyr*
@@ -164,16 +158,11 @@ then loot → <:bdmobile:867678153668820992> to altar to reset cooldowns, then <
 .
 **__Other Notes__**
 ⬥ Refer to the Melee Helwyr Video to see how the BDs and Surges between kills look like - <https://youtu.be/12qTzSHLTTs>
-
 ⬥ If you walk Helwyr any more than stated in the above rotation, then your Combust <:comb:535533833098100745> will **not** be walked
-
 ⬥ The Blood Barrage <:bloodbarrage:537338981747261446> autocast change is solely for reducing cost/hr, feel free to ignore it if is not of concern
-
 ⬥ To make looting more efficient, you can bind the open area loot interface in control settings, and then just hit that bind and the loot bind as soon as Helwyr dies
-
 ⬥ If you wish to use Vulnerability Bombs <:vulnbomb:655341074235129858>, throw it after Sunshine <:Sunshine:583430011948630016>
     • Replace the Vuln <:Vuln:537349530551582720> in the rotation to Smoke Cloud <:smokecloud:856635090641879050> to compensate
-
 ⬥ Ideally Vengeance <:Veng:543478434953822208> the Cleave through Deflect Melee <:DeflectMelee:544195488447201300>
     • The rotation does not assume it so it should not matter outside improving consistency
 
@@ -204,81 +193,8 @@ Join Instance → <:anti:535541306475151390> → <:bdmobile:867678153668820992> 
 **__Other Notes__**
 ⬥ If you end a kill at <100 adrenaline, teleport out and use Adrenaline Crystal to build.
     • If you end at 91-99 adren, use an ability on a wolf instead if they spawned.
-
 ⬥ If you are consistently ending <100 adrenaline, replace some better abilities for Wrack <:wrack:856662355952795658>
-
 ⬥ If you wish to use Vulnerability Bombs <:vulnbomb:655341074235129858>, throw it after Sunshine <:Sunshine:583430011948630016>
-
-.
-> **__Undergeared Helwyr__**
-.tag:undergeared
-.
-**__What to Expect__**
-This method can achieve around 20 kills per hour with average kill times around 1:50-2:00.
-
-.
-**__Preset__**
-.
-.img:https://i.imgur.com/e9N5Qla.png
-.
-**__Inventory Setup__**
-⬥ **Armour**: Lunar (T60 Power Armour)
-⬥ **Weapon**: Vanquish (T75 Weapon)
-⬥ **Pocket Slot**: Illuminated Godbook <:ZamBook:574290439461404672>
-⬥ **Aura**: Maniacal <:mani:643505153709965322>
-⬥ **Ring**: Vigour <:vigour:615613235512737792>
-⬥ **Shield**: Bandos Warshield (T70 Shield)
-⬥ **Inventory**: Left → Right, Up → Down:
-    • Grand Magic Potion
-    • Super Guthix Rest <:supergrest:690140078407680059>
-    • Green Blubber Jellyfish
-    • Super Prayer Renewal <:SuperPrayerRenewal:547603714681339915>
-    • Weapon Poison+++ <:weppoison:689525476158472288>
-    • Bandos Warshield
-    • Expensive Spices
-    • Guthix Staff <:gstaff:513203008608141314>
-⬥ **Runes**: <:Soulrune:536252660333019136> <:Airrune:536252658986647589> <:Chaosrune:536252659422855188>
-(Runes for <:AirSurge:543465115870035999> <:Vuln:537349530551582720>)
-
-.
-**__Brief Guide__**
-Drink Grand Magic Potion before going in w/ prayers on (prot melee + augury), spam Target Cycle <:Vuln:537349530551582720> <:sonic:535533809924571136> whilst going into spot displayed in the VOD (view image below, its 1 tile Southwest of the middle shroom), then <:Sunshine:583430011948630016> and make sure to be at that spot and then follow the rotation below.
-.
-.img:https://i.imgur.com/jlN3dUY.png
-.
-**__Rotation__**
-(Target Cycle) <:Vuln:537349530551582720> <:sonic:535533809924571136> → <:Sunshine:583430011948630016> <:supergrest:690140078407680059> → <:AirSurge:543465115870035999> <:dbreath:535533833391702017> → <:sonic:535533809924571136> → <:corruptblast:513190159194259467> → <:wm:535533809978966037> → <:sonic:535533809924571136> → <:Tuskas:513201065513058306> → <:res:535541258844635148> → <:AirSurge:543465115870035999> <:asphyx:535533833072672778> → <:comb:535533833098100745> → <:devo:513190158728953857> → <:AirSurge:543465115870035999> <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> → <:freedom:535541258240786434> → <:AirSurge:543465115870035999> <:wm:535533809978966037> → <:gstaff:513203008608141314><:spec:537340400273195028> → Improvise with thresholds + specials + good basics to kill
-
-.
-**__Sample Kills__**
-.
-https://youtu.be/2PLV7HSl-vw
-.
-*Note: While it is beneficial to follow the rotation, as it is written in a way to deal and mitigate damage, it is not vital to follow it. It is just important to remember that you should ultimate (<:Sunshine:583430011948630016>), thresh (<:wm:535533809978966037> twice, <:asphyx:535533833072672778> once ideally), and that you should Resonance <:res:535541258844635148> the cleave and Devotion <:devo:513190158728953857> the frenzy.*
-
-.
-**__Tips and Tricks__**
-⬥ Avoid moving unless absolutely necessary, as it will cause Helwyr to skip autos and specs
-    • Only move Helwyr under the following circumstances:
-        - Walking a bleed <:comb:535533833098100745>
-        - Avoiding mushroom damage
-        - Avoiding the frenzy when Devotion <:devo:513190158728953857> is on cooldown (can just Debiliate <:debil:535541278264393729> or face tank it too)
-
-.
-⬥ If you get shroomed in your ultimate <:Sunshine:583430011948630016> at the start just teleport out.
-
-⬥ Always aim to Resonance <:res:535541258844635148> the cleave, ideally without protect from melee on.
-
-.
-⬥ You can Devotion <:devo:513190158728953857> every other frenzy special.
-
-⬥ Ensure to Freedom <:freedom:535541258240786434> when it ends, Vulnerbility <:Vuln:537349530551582720> with every second Freedom <:freedom:535541258240786434> you do (this will be the Freedom <:freedom:535541258240786434> after the non-Devotioned <:devo:513190158728953857> frenzy).
-
-.
-⬥ To time Target Cycle just spam it *and* run to spot and you will get it, ideally have these binds near one another to make it easy to do
-    • Refer to <#689206023675838471> to set up Target Cycle.
-    • Further, it is important to ensure you run *and* spam the bind, for if you try to Target Cycle without a target it goes on a cooldown which is reset by walking a tile
-    • If you properly Target Cycle Helwyr, his HP box will not show.
 
 .
 > **__AFK Magic Strategy (~40-45 kph)__ (Courtesy of <@!108682527304060928> and <@!683763716394975294>)**
@@ -325,26 +241,18 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C339$
 .
 **__Preset__**
 ⬥ <:persistentrage:739965637056659567> **Persistent Rage Relic** - Prevents adrenaline from draining while out of combat. Can be substituted with an **Adrenaline Urn** <:adrenurn:656426717413507074> with ocassional stalling.
-
 ⬥ <:conservationofenergy:697808773711921195> **Conservation of Energy** - *Recommended relic.* Can be subsituted for Fury of the Small <:furyofthesmall:697808773917573233> if using Ring of vigor <:RoV:513201065877831680>.
-
 ⬥ <:KwuarmSticks:565726489341984779> **Kwuarm Incense Sticks** - Provide extra poison damage.
-
-⬥ <:achtoprimevalhelm:641346213316395019> **Achto Armour** - Tank armor is required for **Animate Dead** to reduce enough damage for this afk method. Can be substituted with Seasinger's armour <:Seasingers_hood:556583076050763776> (Even the tradable version!). Can also replace the top with power armour <:elitetectbody:552955120707698699>.
-
-⬥ Perks are <:biting4:712073087809617931>, <:imp4:712073088204013640> on the power armour piece and <:lucky6:890542428287795221>, <:absorbative4:890542428556230666> on the tank armour piece.
-
-⬥ <:orangepouch:690848914685034507> **Runes** - Runes are of course required to cast Animate Dead and Exsanguinate. The runes you should bring are: <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>, and <:Firerune:536252659850674186>.
-*Note: A possible setup is bringing <:orangepouch:690848914685034507> with <:Bloodrune:536252658970001409> <:Waterrune:536252660165115905> <:Firerune:536252659850674186> and then filling <:runepouch:583430011868938283> with <:Soulrune:536252660333019136> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>.*
-
+⬥ <:achtoprimevalhelm:641346213316395019> **Tank Armour** - Tank armor is required for **Animate Dead** to reduce enough damage for this afk method. Can be substituted with Seasinger's armour <:Seasingers_hood:556583076050763776> (Even the tradable version!). Can also replace the top with power armour <:elitetectbody:552955120707698699>.
+    • Perks are <:biting4:712073087809617931>, <:imp4:712073088204013640> on the power armour piece and <:lucky6:890542428287795221>, <:absorbative4:890542428556230666> on the tank armour piece.
 .
 ⬥ <:eof:787526151978614824> **Essence of Finality** - Stored special attack is not used, but is worn for the accuracy bonus and Soulsplit passive.
-
-⬥ <:channellerring:839903943404027914> **Channeler's Ring** - Extra critical chance helps speed up kills. If not owned , can be substituted for other strong rings such as Ring of Death <:RoD:513190159462825984>.
-
-⬥ <:wengodbook:883134307902816297> **Scripture of Wen** - Decent passive pocket item, provides extra poison procs, soulsplit healing and damage when activated. The damage contributed by this is actually quite massive, and should be used to ensure the most efficient kills. Reflecting Blood Essence can be used as a budget alternative.
-
-⬥ <:potionreservoir:878739200407654431>  **Potion reservoir** `Can store up to 6 doses of a potion, such as an overload, and automatically refresh that potion when its duration is low. Only one may be filled at a time, so you must manually fill a new reservoir when your current one depletes.`
+⬥ <:channellerring:839903943404027914> **Channeler's Ring** - Extra critical chance helps speed up kills. If not owned, can be substituted for other strong rings such as Ring of Death <:RoD:513190159462825984>.
+⬥ <:wengodbook:883134307902816297> **Scripture of Wen** - Provides extra poison procs, soulsplit healing and damage when activated. The damage contributed by this is important, and should be used to ensure the most efficient kills. Reflecting Blood Essence can be used as a budget alternative.
+⬥ <:potionreservoir:878739200407654431>  **Potion reservoir** Can store up to 6 doses of a potion, such as an overload, and automatically refresh that potion when its duration is low. Only one may be filled at a time, so you must manually fill a new reservoir when your current one depletes.
+⬥ <:orangepouch:690848914685034507> **Runes** - <:Bloodrune:536252658970001409> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
+⬥ <:runepouch:583430011868938283> **Runes** - <:Soulrune:536252660333019136> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
+(Runes for <:exsanguinate:856635090745950258> <:animatedead:856635090453135382>)
 .
 .img:https://i.imgur.com/ef98aee.png
 .
@@ -389,11 +297,6 @@ https://youtu.be/oqz5QLxSprw
 	  {
 	    "name": "__Magic Rotations__",
         "value": "[Link]($linkmsg_magicrot$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Undergeared Guide__",
-        "value": "[Link]($linkmsg_undergeared$)",
 		"inline": true
       },
 	  {
