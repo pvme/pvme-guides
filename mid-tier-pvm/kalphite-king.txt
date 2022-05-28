@@ -27,53 +27,45 @@ Each Kalphite King kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B
 .
 .img:https://i.imgur.com/33Gsk4T.png
 .
-> __**Kalphite King Attack Rotations**__
-.tag:kkrot
-**__Range Phase__**
-2 Autos → Stun → 2 Autos → Green → 2 Autos → Dig → Repeat
-
-.
-**__Melee Phase__**
-2 Autos → Push → 2 Autos → Charge → 2 Autos → Green → Repeat
-
-.
-**__Mage Phase__**
-4 Autos → Dig → 2 Autos → Charge → Repeat
-
-.
-> __**Mechanics**__
+> **__Mechanics__**
 .tag:mechanics
-**__Greens (Beetlejuice)__**
-Kalphite King stuns and binds the tank for 8 seconds, leaving them unable to do anything. He then deals a melee attack that can hit up to 32k damage. Greens only happen during range and melee phase.
-⬥  Dealing with the Green in both melee and range phase is fundamental for successful KK kills.
-⬥  In range form, the Green can be skipped via stunning KK at the right time.
-⬥  In melee form, you cannot skip the Green, and instead must utilise the Bladed Dive technique discussed later.
-.
-.img:https://i.imgur.com/XX7mCy9.mp4
-.
-**__Green Shield (random)__**
-Kalphite King heals 75% of all damage dealt by players.
-.
-.img:https://i.imgur.com/HzN16w4.mp4
-.
-**__Red Shield (random)__**
-Kalphite King heals 100% of all damage dealt to players.
-.
-.img:https://i.imgur.com/9dSKMqO.mp4
-.
-**__Digs__**
-Kalphite King becomes unattackable and digs under the ground for 10 seconds, it then appears under the player it last targeted, dealing up to 5k damage if not avoided. Digs only happen on range and magic phase.
-.
-.img:https://i.imgur.com/pvgMnLU.mp4
-.
-**__Charges__**
-Kalphite King becomes unattackable and charges towards a wall, players who fail to avoid the space between the charging boss and wall will be hit up to 4k damage. Charges only happen on melee and magic phase.
-.
-.img:https://i.imgur.com/VXwsTOU.mp4
-.
-**__Minions__** Kalphite King spawns minions when it reaches 195k (1 wave) and 65k HP (2 waves). All players within a 3 tile radius of KK will be stunned for one second before the minions appear. Minions spawning will also cause KK to skip whatever attack he would have done next, including special attacks.
-.
-.img:https://i.imgur.com/MU1A7WL.mp4
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Attack Rotation__",
+        "value": "⬥ Range Phase: 2 Autos → Stun → 2 Autos → Green → 2 Autos → Dig → Repeat\n⬥ Melee Phase: 2 Autos → Push → 2 Autos → Charge → 2 Autos → Green → Repeat\n⬥ Mage Phase: 4 Autos → Dig → 2 Autos → Charge → Repeat\n\u200B"
+      },
+      {
+        "name": "__Greens (Beetlejuice)__",
+        "value": "⬥ Kalphite King stuns and binds the tank for 8 seconds, leaving them unable to do anything. He then deals a melee attack that can hit up to 32k damage. Greens only happen during range and melee phase. [Example](https://i.imgur.com/XX7mCy9.mp4)\n\u00a0\u00a0\u00a0\u00a0• Range phase: the Green can be skipped via stunning KK at the right time.\n\u00a0\u00a0\u00a0\u00a0• Melee phase: you cannot skip the Green, instead you must utilise the Bladed Dive technique discussed later.\n\u200B"
+      },
+      {
+        "name": "__Green Shield (random)__",
+        "value": "⬥ Kalphite King heals 75% of all damage dealt by players. [Example](https://i.imgur.com/HzN16w4.mp4)\n\u200B"
+      },
+      {
+        "name": "__Red Shield (random)__",
+        "value": "⬥ Kalphite King heals 100% of all damage dealt to players. [Example](https://i.imgur.com/9dSKMqO.mp4)\n\u200B"
+      },
+      {
+        "name": "__Digs__",
+        "value": "⬥ Kalphite King becomes unattackable and digs under the ground for 10 seconds, it then appears under the player it last targeted, dealing up to 5k damage if not avoided. Digs only happen on range and magic phase. [Example](https://i.imgur.com/pvgMnLU.mp4)\n\u200B"
+      },
+      {
+        "name": "__Charges__",
+        "value": "⬥ Kalphite King becomes unattackable and charges towards a wall, players who fail to avoid the space between the charging boss and wall will be hit up to 4k damage. Charges only happen on melee and magic phase. [Example](https://i.imgur.com/VXwsTOU.mp4)\n\u200B"
+      },
+      {
+        "name": "__Minions__",
+        "value": "⬥ Kalphite King spawns minions when it reaches 195k (1 wave) and 65k HP (2 waves). All players within a 3 tile radius of KK will be stunned for one second before the minions appear. Minions spawning will also cause KK to skip whatever attack he would have done next, including special attacks. [Example](https://i.imgur.com/MU1A7WL.mp4)\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
 .
 > __**Player Stun Timings**__
 .tag:playerstun
@@ -194,11 +186,6 @@ https://youtu.be/uisDoTEmFSI
 	  {
 	    "name": "__Presets__",
         "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Kalphite King Attack Rotations__",
-        "value": "[Link]($linkmsg_kkrot$)",
 		"inline": true
       },
 	  {
