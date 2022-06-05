@@ -4,7 +4,7 @@ All changes made to guides will live here, and everyone is free to use this info
 
 
 ## [Discord](https://discord.gg/6djqFVN)
-![PvME Logo](https://i.imgur.com/okvcnks.png)
+![PvME Logo](https://i.imgur.com/NYqV8et.png)
 
 ## [Style Guide](/guide-writing/style-guide.txt)
 If you're interested in contributing, contact Hoobs#3248 or Ry#3050 on discord, or submit a pull request after reading the above style guide.
