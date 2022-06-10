@@ -275,15 +275,26 @@ Slowest Auto → no tick loss, 9 tick loss
     • This results in a delay on the 2nd <:gstaff:513203008608141314><:eofspec:746403211908481184> because of the average speed <:dbreath:535533833391702017>
 
 .
-**__Barricade__** <:cade:535541306353778689>
-⬥ Adrenaline Cost: 100% (90% with <:RoV:513201065877831680>, 80% with <:RoV:513201065877831680> + <:conservationofenergy:697808773711921195>)
-⬥ Barricade is an ultimate defensive ability that requires a shield or defender to activate. While activated, the user is immune to all damage, all typeless (both soft and hard), unless the player receives an attack that disables defensives.
-⬥ It does not prevent stuns, but the damage associated with the stunning attacks are negated.
-⬥ The amount of time barricade is active scales with the level of the shield or defender equipped; this duration ranges from 4.8 seconds (8 game ticks) with a level 1 shield to 10.2 seconds (17 game ticks) with a level 90 shield. For every 10 levels of shield, one extra tick is added to the duration.
+> **__Barricade__** <:cade:535541306353778689>
+.tag:cade
+**__Ability Information__**
+⬥ Adrenaline Cost: 100%
+    • 90% with <:RoV:513201065877831680>
+    • 80% with <:RoV:513201065877831680> + <:conservationofenergy:697808773711921195>
+⬥ Barricade is an ultimate defensive ability that requires a shield or defender to activate
+⬥ While activated the user is immune to all damage types, unless the player receives an attack that disables defensives.
+⬥ It does not prevent stuns, but the damage associated with the stunning attacks are negated. 
+⬥ The amount of time barricade is active scales with the level of the shield or defender equipped
+    • For every 10 levels of shield, one extra tick is added to the duration.
+    	- So, duration ranges from 4.8 seconds (8 ticks) with a level 1 shield to 10.2 seconds (17 ticks) with a level 90 shield
 
+.
 **__Barricade duration extenders__**
-⬥ The Turtling perk extends the duration of this ability in exchange for increasing its cooldown by 10% per rank, up to a 13.8 second duration and a 84 second cooldown.
-⬥ The Malletops perk from the Anachronia Dinosaur Farm extends the duration of Barricade by 1.8 seconds per tier, and stacks with the Turtling perk, offering an additional 3.6 seconds at the maximum tier of 2. Activating this requires a Farming level of 117 and two large dinosaur pens with at least one elder Malletops each. Both these pens should have a farm totem on them.
+⬥ The Turtling perk extends the duration of this ability in but also increases its cooldown by 10% per rank, up to a 13.8 second duration and a 84 second cooldown.
+⬥ The Malletops perk from the Anachronia Dinosaur Farm extends the duration of Barricade by 1.8 seconds per tier, and stacks with the Turtling perk, offering an additional 3.6 seconds at the maximum tier of 2.
+    • This requires a Farming level of 117 and two large dinosaur pens with at least one elder Malletops each. Both these pens should have a farm totem on them.
+⬥ The following table details this:
+.
 .img:https://i.imgur.com/WTo9R5O.png
 .
 **__Additional Notes__**
@@ -347,6 +358,11 @@ Slowest Auto → no tick loss, 9 tick loss
 	  {
 	    "name": "__Back-to-Back Special Attacks__",
         "value": "[Link]($linkmsg_b2bSpec$)",
+		"inline": true
+      },
+ 	  {
+	    "name": "__Barricade__",
+        "value": "[Link]($linkmsg_cade$)",
 		"inline": true
       }
     ]
