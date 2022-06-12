@@ -191,6 +191,18 @@ In phase 5, you can TC the tick after the font animation shown below. Alternativ
 https://www.youtube.com/watch?v=wveIsE9Y0C8
 
 .
+**__P1 Walk__**
+.tag:p1walk
+If using deto/wm strategy for P1, it's important to make sure you are either south or west of Telos to ensure your deto wm hits are all on the same tick. You do this by checking walk direction with your combust at start, running to the edge of your sun in the opposite direction. Next, run out of your sun immediately after an ability and escape back 2 ticks later. More specifically:
+⬥ If West walk, run to the east to drag telos and escape back into your sun. When walking your second combust, click one square under Telos to walk it, then click on Telos again 1t later to stay on his west side.
+⬥ If South walk, run to the north west of your Sun and run north before escaping/running back south.
+
+.
+**__Video Examples of West and South Walk P1__ (Courtesy of <@96129999500738560>)**
+⬥ **West Walk** - <https://www.youtube.com/watch?v=L_hNGDNHdiM>
+⬥ **South Walk** - <https://www.youtube.com/watch?v=nDxlekndiaA>
+
+.
 {
   "embed": {
     "title": "Table of Contents",
@@ -239,6 +251,11 @@ https://www.youtube.com/watch?v=wveIsE9Y0C8
 	  {
 	    "name": "__Target Cycling__",
         "value": "[Link]($linkmsg_targetcycle$)",
+		"inline": true
+      },
+       {
+	    "name": "__P1 Walk__",
+        "value": "[Link]($linkmsg_p1walk$)",
 		"inline": true
       }
     ]
