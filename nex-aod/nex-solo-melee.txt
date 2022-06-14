@@ -45,72 +45,42 @@ When Nex spawns for the first time in a custom instance, she will be praying Def
 
 **__Mages overview__**
 ⬥ Mages have a soft cap that reduces excess damage above 1,000 by a random amount between approximately 80% and 100%.
-⬥ Each mage is combat level 111 with 10,000 health, possesses a max hit of around 850, and are weak to bolts. The mages are static and can only be attacked whenever Nex calls their name.
-⬥ An unusual trait they all share is that they are immune to magic attacks.
+⬥ Each mage has 10,000 health and possesses a max hit of around 850. The mages are static and can only be attacked whenever Nex calls their name.
 
 Nex has 5 phases; Smoke, Shadow, Blood, Ice, and Zaros. Each phase has 2 special attacks, with the exception of Zaros
 
 .
-__**Smoke Phase**__
-Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat
-⬥ Don't stand in middle crossways
-.
-.img:https://imgur.com/BgsPoty.mp4
-.
-⬥ Nex may drag you to MD of her at random times, nulling all damage sent to her during this timeframe
-.
-.img:https://imgur.com/0tauAFe.mp4
-.
-__**Shadow Phase**__
-Shadow traps (only if the phased before the virus attack) → Darkness → Shadow traps → 4 auto-attacks → Repeats from the second set of shadow traps
-⬥ Move from Shadows and don’t stand MD
-
-*A shadow trap is avoided*
-.
-.img:https://imgur.com/FZJq76Y.mp4
-.
-*A player escapes the shadows engulfing them*
-.
-.img:https://imgur.com/4cZwRUJ.mp4
-.
-__**Blood Phase**__
-Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat
-⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range
-
-*Nex summoning her Blood Reavers*
-.
-.img:https://imgur.com/480GewR.mp4
-.
-*Nex sacrifices a player*
-.
-.img:https://imgur.com/qnjrQdC.mp4
-.
-⬥ Any bleeds used during this phase will heal Nex rather than damage her ( <:BloodTend:513190158431158274> <:slaughter:535532879237873666> <:dismember:535532879376023572> )
-⬥ Cruor's attacks always have 100% accuracy and will heal him for 100 damage regardless of the damage he deals
-
-__**Ice Phase**__
-First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat
-⬥ If Blood phase ended with Sacrifice, Ice will start with Contain
-.
-.img:https://imgur.com/zFmdn67.mp4
-.
-⬥ If Blood phase ended with Siphon, Ice will start with Prison
-.
-.img:https://imgur.com/YGkCP6F.mp4
-.
-⬥ Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:vitality:654618235097972737>
-⬥ Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating
-
-.
-__**Zaros Phase**__
-⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280> and heals herself for 33,333 (1/6 of her health) to boost her life points up to 73,333
-.
-.img:https://imgur.com/lPTF0V0.mp4
-.
-⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks
-
-*Further details on the mechanics can be found here:* <https://runescape.wiki/w/Nex/Strategies#The_phases>
-
+> **__Special Attacks__**
+.tag:specs
+{
+  "embed": {
+    "title": "__Special Attacks__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Smoke Phase__",
+        "value": "⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.\n\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://imgur.com/BgsPoty.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://imgur.com/0tauAFe.mp4)\n\u200B"
+      },
+      {
+        "name": "__Shadow Phase__",
+        "value": "⬥ Shadow traps (if phased before virus) → Darkness → Shadow traps → 4 auto-attacks → Repeats from second shadow traps.\n⬥ Move from Shadows and don’t stand MD.\n\u00a0\u00a0\u00a0\u00a0• A shadow trap is avoided. [Example](https://imgur.com/FZJq76Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• A player escapes the shadows engulfing them. [Example](https://imgur.com/4cZwRUJ.mp4)\n\u200B"
+      },
+      {
+        "name": "__Blood Phase__",
+        "value": "⬥ Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat.\n⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range.\n\u00a0\u00a0\u00a0\u00a0• Nex summoning her Blood Reavers. [Example](https://imgur.com/480GewR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex sacrifices a player. [Example](https://imgur.com/qnjrQdC.mp4)\n⬥ Any bleeds used during this phase will heal Nex rather than damage her (<:frag:535541273755385885> <:corruptshot:535541306294796299> <:deadshot:535541307666595870>)\n\u200B"
+      },
+      {
+        "name": "__Ice Phase__",
+        "value": "⬥ First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat.\n⬥ If Blood phase ended with Sacrifice, Ice will start with Contain. [Example](https://imgur.com/zFmdn67.mp4)\n⬥ If Blood phase ended with Siphon, Ice will start with Prison. [Example](https://imgur.com/YGkCP6F.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:vitality:654618235097972737>\n\u00a0\u00a0\u00a0\u00a0• Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating.\n\u200B"
+      },
+      {
+        "name": "__Zaros Phase__",
+        "value": "⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280>and heals herself for 33,333 (1/6) of her health to boost it up to 73,333. [Example](https://imgur.com/lPTF0V0.mp4)\n⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
 .
 > __**Rotations**__
 .tag:rotations
@@ -235,7 +205,7 @@ Auto → <:corruptshot:535541306294796299> → <:rapid:535541270521708566>
 .tag:example
 .
 <https://youtu.be/YrAFQwdtHM4> 1:37 (Courtesy of<@385968877823328276>)
-<https://www.youtube.com/watch?v=-4MVYY4cMkc> 2:09 (courtesy of <@441708128464011275>)
+<https://youtu.be/-4MVYY4cMkc> 2:09 (courtesy of <@441708128464011275>)
 
 .
 {
