@@ -3,11 +3,11 @@
 .img:https://i.imgur.com/zScW6sP.png
 .
 > __**Introduction**__
+.tag:intro
 Araxxor is an Araxyte spider who lives in the Araxyte lair, a cave beneath the Haunted Woods, just south of Port Phasmatys. Each kill of Araxxor with melee is worth <:coins:698816156961603654> $data_pvme:Bosses!E37$. Advanced players can get up to $data_pvme:Bosses!B42$ kph average across all paths, earning on average $data_pvme:Bosses!C42$ gp/hr.
 
 .
 > __**Drops**__
-.tag:drops
 Drops include components for three level 90 two-handed weapons, one for each combat style, along with a pet, with multiple skins to be unlocked for the pet through achievements.
 
 ⬥ <:pheromone:643122483641188372>  **Pheromone**: 1/(50-[Enrage/20])
@@ -17,7 +17,7 @@ Drops include components for three level 90 two-handed weapons, one for each com
 
 .
 > **__Presets__**
-.tag:preset
+.tag:presets
 *Note 1: If you don't have access to <:elderovlsalve:648976643687317532>, use <:elderovl:841419289831800882> + <:superantipoison:841409588884406272> super antipoison*
 *Note 2: It is recommended to have the NopeNopeNope perk from Player Owned Farms active*
 .
@@ -237,52 +237,57 @@ Drops include components for three level 90 two-handed weapons, one for each com
 
 .
 {
-  "embed": {
-    "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset__",
-        "value": "[Link]($linkmsg_preset$)",
-        "inline": true
-      },
-      {
-        "name": "__General Knowledge__",
-        "value": "[Link]($linkmsg_general$)",
-        "inline": true
-      },
-      {
-        "name": "__Special Attacks__",
-        "value": "[Link]($linkmsg_specs$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 1__",
-        "value": "[Link]($linkmsg_p1$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 2__",
-        "value": "[Link]($linkmsg_p2$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 3__",
-        "value": "[Link]($linkmsg_p3$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 4__",
-        "value": "[Link]($linkmsg_p4$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_examples$)",
-        "inline": true
-      }
-    ]
-  }
+   "embed":{
+      "title":"Table of Contents",
+      "color":39423,
+      "fields":[
+         {
+            "name":"__Introduction__",
+            "value":"[Link]($linkmsg_intro$)",
+            "inline":true
+         },
+         {
+            "name":"__Preseta__",
+            "value":"[Link]($linkmsg_preset$)",
+            "inline":true
+         },
+         {
+            "name":"__General Knowledge__",
+            "value":"[Link]($linkmsg_general$)",
+            "inline":true
+         },
+         {
+            "name":"__Special Attacks__",
+            "value":"[Link]($linkmsg_specs$)",
+            "inline":true
+         },
+         {
+            "name":"__Phase 1__",
+            "value":"[Link]($linkmsg_p1$)",
+            "inline":true
+         },
+         {
+            "name":"__Phase 2__",
+            "value":"[Link]($linkmsg_p2$)",
+            "inline":true
+         },
+         {
+            "name":"__Phase 3__",
+            "value":"[Link]($linkmsg_p3$)",
+            "inline":true
+         },
+         {
+            "name":"__Phase 4__",
+            "value":"[Link]($linkmsg_p4$)",
+            "inline":true
+         },
+         {
+            "name":"__Example Kills__",
+            "value":"[Link]($linkmsg_examples$)",
+            "inline":true
+         }
+      ]
+   }
 }
 .embed:json
 .tag:quickguideToC
