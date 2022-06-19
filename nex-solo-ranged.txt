@@ -1,0 +1,371 @@
+**__Solo Nex__** **(Courtesy of <@!333479049680650241> & <@!158921443806019584>)**
+.tag:intro
+.img:https://i.imgur.com/6ycFkjr.png
+.
+> __**Introduction**__
+Nex is the Zarosian general in the God Wars dungeon.
+
+When Nex spawns for the first time in a custom instance it will be praying Deflect Magic <:DeflectMage:544195487926845462> for the majority of the kill, this is why Range only kills are the meta for fast consistent kills. After every kill you will teleport out of the instance and re-enter in order to force Nex to always be praying Deflect Mage <:DeflectMage:544195487926845462>
+
+*Note: It is strongly advised to complete the Ritual of the Mahjarrat quest in order to get access to the Jas boost which gives a 5% damage boost in GWD1 (including Nex). This can be done via Fairy ring code D.K.Q.*
+
+.
+> __**Presets**__
+.tag:presets
+**__Banking Preset__**
+⬥ The most important thing is to have a Frozen key + Ancient Ceremonial set for use with your boss portal.
+    • You can speak to Ashuelot Reis in the Nex bank and pay a one time cost of the Frozen key + Ancient Ceremonial along with 10M GP to be able to access Nex bank without these items.
+⬥ An Enhanced Luck Potion <:luckpotion:656426717295935500> works and can be used here.
+⬥ A T70+ Defender is required for Ancient Emblem <:ancientemblem:643506778453049355> drops
+    • This is used to make the T80 Defenders (<:ancientdefender:643846874498990120> / <:ancientlantern:580177522503712781> / <:ancientrepriser:643150658891153428>)
+
+.
+**__Preset__**
+⬥ Throw your Vulnerability Bomb <:vulnbomb:655341074235129858> at start and on Blood phase.
+⬥ Akrisae body has Clear Headed 4 <:ch4:712073087864012840>, and is used to build with Escape <:escape:535541258832052231> at the start.
+⬥ This method relies on Ruby bolt <:RubyBakri:565726489413287956> procs on Nex. However, around Ice phase, Ruby bolt <:RubyBakri:565726489413287956> procs start to hit less than the ability they are replacing, so it’s optimal to bring a bolt switch. It is generally preferred to camp Ruby <:RubyBakri:565726489413287956> until Ice phase, then switch to Dragonstone bolts <:DragonstoneBakri:565726489144852511>.
+⬥ <:reckless:643505179378974748> **Reckless** is the only aura recommended to all players, the hitchance increase will make the fight much smoother.
+    • For reference, compare your setup with the !hitchance command with and without the aura.
+.
+.img:https://i.imgur.com/fu5Zfyr.png
+.
+> **__Mechanics__**
+.tag:mechanics
+**__Nex overview__**
+⬥ Nex is a 1x1 NPC and has very strict softcaps, which means that any damage over a certain amount is reduced by X% depending on the phase.
+    • During the first four phases, Nex has a soft cap that reduces excess damage above **5,000 by 50%**.
+        - For example, a 6,000 damage hit would be reduced to 5,500 damage.
+    • On the Zaros phase, the soft cap is changed to reduce excess damage above **2,000 by 75%**.
+        - This means a 6,000-damage hit would be reduced to 3,000.
+
+**__Mages overview__**
+⬥ Mages have a soft cap that reduces excess damage above 1,000 by a random amount between approximately 80% and 100%.
+⬥ Each mage has 10,000 health and possesses a max hit of around 850. The mages are static and can only be attacked whenever Nex calls their name.
+
+Nex has 5 phases; Smoke, Shadow, Blood, Ice, and Zaros. Each phase has 2 special attacks, with the exception of Zaros
+
+.
+> **__Special Attacks__**
+.tag:specs
+{
+  "embed": {
+    "title": "__Special Attacks__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Smoke Phase__",
+        "value": "⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.\n\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://imgur.com/BgsPoty.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://imgur.com/0tauAFe.mp4)\n\u200B"
+      },
+      {
+        "name": "__Shadow Phase__",
+        "value": "⬥ Shadow traps (if phased before virus) → Darkness → Shadow traps → 4 auto-attacks → Repeats from second shadow traps.\n⬥ Move from Shadows and don’t stand MD.\n\u00a0\u00a0\u00a0\u00a0• A shadow trap is avoided. [Example](https://imgur.com/FZJq76Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• A player escapes the shadows engulfing them. [Example](https://imgur.com/4cZwRUJ.mp4)\n\u200B"
+      },
+      {
+        "name": "__Blood Phase__",
+        "value": "⬥ Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat.\n⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range.\n\u00a0\u00a0\u00a0\u00a0• Nex summoning her Blood Reavers. [Example](https://imgur.com/480GewR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex sacrifices a player. [Example](https://imgur.com/qnjrQdC.mp4)\n⬥ Any bleeds used during this phase will heal Nex rather than damage her (<:frag:535541273755385885> <:corruptshot:535541306294796299> <:deadshot:535541307666595870>)\n\u200B"
+      },
+      {
+        "name": "__Ice Phase__",
+        "value": "⬥ First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat.\n⬥ If Blood phase ended with Sacrifice, Ice will start with Contain. [Example](https://imgur.com/zFmdn67.mp4)\n⬥ If Blood phase ended with Siphon, Ice will start with Prison. [Example](https://imgur.com/YGkCP6F.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:vitality:654618235097972737>\n\u00a0\u00a0\u00a0\u00a0• Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating.\n\u200B"
+      },
+      {
+        "name": "__Zaros Phase__",
+        "value": "⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280>and heals herself for 33,333 (1/6) of her health to boost it up to 73,333. [Example](https://imgur.com/lPTF0V0.mp4)\n⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+.
+> __**Rotations with Ascension Crossbows + a 2H**__ <:ascmh:513190158468775936> <:ascoh:513190159362031631>
+.tag:rotations
+*Note: Make sure to use Jas Boost*
+
+.
+**__Pre-Fight__**
+Target Fumus ASAP and start building adrenaline with defensives. Freedom <:freedom:535541258240786434> should be first, and Anticipate <:anti:535541306475151390> should be last. Spam click the minion as sometimes when you Escape <:escape:535541258832052231>, you won't get adrenaline from Anticipate <:anti:535541306475151390> if you don't keep clicking the minion before Escape <:escape:535541258832052231>.
+
+<:anti:535541306475151390> + <:vulnbomb:655341074235129858> as Nex says "Fill my soul with smoke!" (~10s)
+
+.
+**__Smoke Phase__**
+Auto → <:shadowtend:642713547142332416> → <:frag:535541273755385885> (Walk backwards) → (DW) <:rapid:535541270521708566> → <:needle:535541259108876293> → <:snap:535534127131394088>
+
+**__Shadow Phase__**
+Tag with <:frag:535541273755385885> walk under her → <:Reprisal:513190159462694912> → Spam click Nex to get a lossless auto → (DW) <:rapid:535541270521708566> → <:needle:535541259108876293> → <:snipe:535541258425204770> → <:snap:535534127131394088> → Improvise
+
+.
+**__Blood Phase__**
+<:Vuln:537349530551582720> → (pre-phase) <:snipe:535541258425204770> → (DW) <:rapid:535541270521708566> → <:needle:535541259108876293> → <:snap:535534127131394088> → <:mds:535541259033378827> (Surge <:surge:535533810004262912> from Red) → (if Nex isn't phased yet) <:snipe:535541258425204770> → <:Tuskas:513201065513058306> / <:needle:535541259108876293> / Thresh
+
+.
+**__Ice Phase__**
+⬥ **Contain First**
+Auto → <:shadowtend:642713547142332416> → <:snipe:535541258425204770> (Run from Contain) → <:rapid:535541270521708566> → <:snap:535534127131394088> (tag minion ASAP)
+
+⬥ **Prison First**
+Run to max attack distance and phase with Dazing Shot <:mds:535541259033378827> → <:anti:535541306475151390> during the phase and eat a lot of jellies and grests to get to full HP → <:shadowtend:642713547142332416> → <:snap:535534127131394088> → <:Reprisal:513190159462694912> prison → <:rapid:535541270521708566> → <:snipe:535541258425204770> / <:mds:535541259033378827>
+
+.
+**__Zaros Phase__**
+<:rapid:535541270521708566> → <:frag:535541273755385885> → <:corruptshot:535541306294796299> → <:deadshot:535541307666595870> → <:mds:535541259033378827> → <:needle:535541259108876293> → <:Tuskas:513201065513058306> → <:mds:535541259033378827> → <:needle:535541259108876293> → 5 tick Auto → <:frag:535541273755385885> → <:rapid:535541270521708566>
+
+**__Video Guide__**
+This rotation was entirely adapted from the fantastic video version made by <@593106625955495947>.
+.
+https://youtu.be/6gkd8pFJrkg
+.
+> **__Rotations with Dual Wield + Greater Ricochet__** **(Courtesy of <@!333479049680650241>)** <:ascmh:513190158468775936> <:ascoh:513190159362031631> <:grico:787904334812807238>
+.tag:dwrotations
+*Note: Make sure to use Jas Boost*
+
+.
+**__Notes__**
+⬥ Use the same preset listed above for dual wield.
+⬥ <:adrenrenewalflask:736298313980182541> will likely be used after Blood phase/Cruor, but should be improvised depending on adrenaline needs.
+⬥ These rotations involve specific positioning to achieve fast kill times (1:40s - 1:50s).
+    • Be sure to check out the videos section to see how to position, especially in Shadow and Ice Phase.
+⬥ Stay in combat in-between runs by using <:surge:535533810004262912> / <:bd:535532854281764884> / defensives. This will help ensure that you can trigger crackling in Smoke phase.
+
+<:anti:535541306475151390> + <:vulnbomb:655341074235129858> as Nex says "Fill my soul with smoke!" (~10s). Turn on your Godbook <:armabook:513190159051915264> right as the timer starts or before it.
+
+**__Smoke Phase__**
+<:rapid:535541270521708566>.→ <:dbow:643848618553507843><:eofspec:746403211908481184> → Fast basics as needed . This assumes one of Ruby/Crackling/Book procs, which happen often. You should be ready to improvise i.e.  <:dbow:643848618553507843><:eofspec:746403211908481184> will hit for ~13k, so if Nex is at 176k after rapid fire, use <:needle:535541259108876293> before <:dbow:643848618553507843><:eofspec:746403211908481184>.
+
+**Fumus**
+Tag with <:corruptshot:535541306294796299> → + Run/<:surge:535533810004262912> towards Fumus → Position at corner + <:grico:787904334812807238>. Finish with basics if needed.
+
+*Example Smoke → Shadow transition.*
+.
+.img:https://i.imgur.com/0mPuxoJ.mp4
+.
+*Note: There is a step towards Nex and then away from Nex when <:frag:535541273755385885> is cast. This ensures walked damage. Otherwise, the first few hits will be un-walked while Nex does her speech to transition*
+
+**__Shadow Phase__**
+Tag with <:frag:535541273755385885> → <:surge:535533810004262912> towards Cruor off GCD → <:freedom:535541258240786434> for adrenaline→  Spam click Nex to get a lossless auto → <:snap:535534127131394088> → <:snipe:535541258425204770> → <:dbow:643848618553507843><:eofspec:746403211908481184> → <:Tuskas:513201065513058306> /<:needle:535541259108876293>/Fast Basics if needed.
+
+*Example Shadow phase kiting*
+.
+.img:https://i.imgur.com/cdswqw1.mp4
+.
+*Note: Soul Split can be freely used at the start of Shadow phase. Nex will not attack you until she does “Embrace Darkness!” Running back and forth here allows you to delay the Nex autos.*
+
+**Umbra**
+Tag with <:corruptshot:535541306294796299> → Position at corner + <:grico:787904334812807238>. Finish with basics if needed.
+
+**__Blood Phase__**
+<:Vuln:537349530551582720> → <:divert:787904334377648130>/<:res:535541258844635148> for adren →  (pre-phase) <:snipe:535541258425204770> → <:rapid:535541270521708566> → <:dbow:643848618553507843><:eofspec:746403211908481184> + Surge to Cruor → Finish with basics if needed.
+
+**Cruor**
+Tag with <:corruptshot:535541306294796299> → Position at corner + <:grico:787904334812807238>. Finish with basics if needed.
+
+*Example Blood → Ice transition*
+.
+.img:https://i.imgur.com/aUAHMq5.mp4
+.
+**__Ice Phase__**
+Tag with <:frag:535541273755385885> → <:anti:535541306475151390> for adrenaline + <:surge:535533810004262912> towards Glacies → <:shadowtend:642713547142332416> (will trigger Auto) → <:snap:535534127131394088>  (Run from Contain) + place mines at Glacies if you have them → <:dbow:643848618553507843><:eofspec:746403211908481184> → basics as needed →  (tag minion ASAP). You might want to do <:needle:535541259108876293> before <:dbow:643848618553507843><:eofspec:746403211908481184> if she’s >55k HP.
+
+Watch the video for positioning and keep your HP high for ice prison. When in prison, you can target-cycle to Glacies to finish the minion.
+
+**Glacies**
+Tag with <:corruptshot:535541306294796299> → <:grico:787904334812807238> + basics if needed/no mines.
+
+**__Zaros Phase__**
+Tag with <:frag:535541273755385885> + walk → <:rapid:535541270521708566>  → <:grico:787904334812807238> → <:dbow:643848618553507843><:eofspec:746403211908481184> → <:corruptshot:535541306294796299>  → Repeat and finish.
+
+.
+> **__Rotation with a Noxious Longbow and Greater Ricochet__** **(Courtesy of <@!333479049680650241>)** <:noxbow:513190159425208342> <:grico:787904334812807238>
+.tag:noxbowrotations
+*Note: Make sure to use Jas Boost*
+
+.
+**__What to Expect__**
+This method can achieve around ~1:45 kills optimally (27 kph). Even with scuffed kills you can average 2:00-2:20. Nex has an attack range of 8 spaces, while Nox Bow has a range of 9, so you can always force Nex to walk frags and delay attacks depending on where you stand.
+
+Review the position indicators at the bottom of this guide to see where to stand while phasing.
+
+.
+**__Preset__**
+⬥ Use a Blood reaver familiar <:bloodreaver:929773044296216666> over a shadow nihil for this method.
+⬥ Adrenaline renewal <:adrenrenewal:736298121704767538> can be used at Cruor / before Ice phase, but improvise as needed.
+⬥ Bring two Dominion Mines <:dommine:662249620579155968> to mine Glacies in Ice phase for smoother phasing.
+⬥ You will need to apply 8-15 Black Stone Arrow <:blackstonearrow:785031580149743617> stacks to get to 100% hitchance on Nex, depending on weapon tier, prayer variant (Anguish <:anguish:583429936665198592> / Desolation <:Desolation:513190159018098713>), and Reaper <:Reaperor:513190159349448715> stacks. You can check the Hit Chance calculator to get the number for your exact setup.
+.
+.img:https://i.imgur.com/h2aCcXh.png
+.
+**__Pre-Fight__**
+<:anti:535541306475151390> + <:vulnbomb:655341074235129858> as Nex says "Fill my soul with smoke!" (~10s). Turn on your scripture <:scriptureofful:902209626412560395> when you enter the instance or as the timer starts.
+
+.
+**__Smoke Phase__**
+Auto → <:shadowtend:642713547142332416> → <:rapid:535541270521708566> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → Basics if needed
+
+**Fumus**
+<:corruptshot:535541306294796299> → <:grico:787904334812807238> → <:mds:535541259033378827>
+
+.
+**__Shadow Phase__**
+Tag with <:frag:535541273755385885> → <:freedom:535541258240786434> → Auto + <:snap:535534127131394088> → <:snipe:535541258425204770> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → Basics if needed
+
+**Umbra**
+<:corruptshot:535541306294796299> → <:grico:787904334812807238> → <:mds:535541259033378827>
+
+.
+**__Blood Phase__**
+Switch to <:deathsporearrows:900758234527301642> → <:Vuln:537349530551582720> (if needed) → (pre-phase)<:mds:535541259033378827>/fast basic →  <:snipe:535541258425204770> → <:rapid:535541270521708566> → <:dbow:643848618553507843> <:eofspec:746403211908481184> + Surge to Cruor → Finish with basics if needed
+
+**Cruor**
+<:corruptshot:535541306294796299> → <:grico:787904334812807238> → <:mds:535541259033378827>
+
+.
+**__Ice Phase__**
+Tag with <:frag:535541273755385885> → <:surge:535533810004262912> towards Glacies. Auto → <:shadowtend:642713547142332416> → <:snap:535534127131394088>  (Run from Contain) → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:mds:535541259033378827> → (tag minion ASAP)
+
+**Glacies**
+<:dommine:662249620579155968> → <:corruptshot:535541306294796299> → <:grico:787904334812807238>
+
+.
+**__Zaros Phase__**
+<:deadshotigneous:959089455283728386> → <:frag:535541273755385885> + walk → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:dbow:643848618553507843> <:eofspec:746403211908481184>/<:snap:535534127131394088>/repeat basics → Finish the kill
+
+.
+> __**Positioning**__
+.tag:positioning
+*Note: The white square represents the player, the red dot represents Nex and the yellow dot represents minions. The arrow points in the general direction of movement for the phase*
+
+.
+**__Smoke Phase__**
+.
+.img:https://i.imgur.com/S5MyZhb.png
+.
+Stand on the west side, once she’s phased click on Fumus and after you Corruption Shot <:corruptshot:535541306294796299>, Surge <:surge:535533810004262912> into Fumus and make your way over to the north-western safespot, by the time she’s able to attack you Fumus should be low HP or dead depending on if you got any procs. Try and run her if she’s close to surging through the middle.
+
+.
+**__Shadow Phase__**
+.
+.img:https://i.imgur.com/3qo51kq.png
+.
+During shadow make your way over to the north-eastern safespot, one method is to phase her on the northern side then once she is phased make your way to the north-eastern safe spot whilst you're killing Umbra so you're not stuck taking shadow bleed damage at the safe spot for long.
+
+Once phased, try to stay MD/ 2 squares away from Nex so she can reach you instantly and begin siphoning.
+
+.
+**__Blood Phase__**
+.
+.img:https://i.imgur.com/GYKu8TG.png
+.
+During her siphon, make your way over to the eastern safe spot whilst staying at an even number of squares so that if she does run to you, she won’t run underneath you which could delay her attacks which could mean she won’t sacrifice if everything lines up poorly. At the eastern safespot you can click Cruor during your Rapid Fire <:rapid:535541270521708566> and it won’t switch unless your ability ends or Nex phases.
+
+After she is phased, make your way over to the south-eastern safespot so she will follow you, allowing no tick loss during the transition from Blood to Ice as you’ll want to be MD to Glacies during the beginning of Ice.
+
+.
+**__Ice Phase__**:
+.
+.img:https://i.imgur.com/5XQ3Dr0.png
+.
+Once Cruor is dead, Surge <:surge:535533810004262912> to Glacies and stand MD to her.
+
+**__Zaros Phase__**
+Try not to run Nex too much whilst your book is off cooldown.
+
+.
+> **__Phase Notes__**
+.tag:PN
+.
+**__Smoke Phase Notes__**
+⬥ Throw your bomb right <:vulnbomb:655341074235129858> before the kill is about to start.
+⬥ Make sure to Rapid Fire <:rapid:535541270521708566> with Ascensions so that there's a chance to proc the Ruby bolt <:RubyBakri:565726489413287956> effect.
+⬥ If the boss doesn't phase, follow up with <:needle:535541259108876293> → <:snipe:535541258425204770> → <:snap:535534127131394088>, and run the boss while you do so.
+⬥ Both bleeds then good basics on the minion.
+
+.
+**__Shadow Phase Notes__**
+⬥ If you proc a Ruby bolt <:RubyBakri:565726489413287956> during Rapid Fire <:rapid:535541270521708566>, Needle Strike <:needle:535541259108876293> into Snap Shot <:snap:535534127131394088> without Snipe <:snipe:535541258425204770> .
+⬥ Reprisal isn't necessary <:Reprisal:513190159462694912>, but makes it easier when you don't get a Ruby bolt <:RubyBakri:565726489413287956> proc.
+⬥ Both bleeds and good basics on the minion.
+
+.
+**__Blood Phase Notes__**
+⬥ Be sure to let her Sacrifice so you get a contain first on Ice phase
+⬥ In rare cases it is possible to have to your Adrenaline Potion <:adrenrenewalflask:736298313980182541> in order to use Rapid Fire <:rapid:535541270521708566>. In this case you will need to improvise your Zaros rotation.
+⬥ Both bleeds and good basics on Cruor.
+    • If Nex is MDing you, it's worth it to run her to stall autos, but don't worry too much if she does another Siphon before you can phase.
+⬥ Practice your Snipe <:snipe:535541258425204770> timing so that it hits right when Nex is attackable, rather than healing her. You can snipe when her Wings go up a 3rd time.
+.
+.img:https://imgur.com/TzWw6Gd.mp4
+.
+**__Ice Phase Notes__**
+⬥ If you get prisoned before targeting Glacies you can target cycle to attack him.
+
+.
+**__Zaros Phase Notes__**
+⬥ Disruption shield <:disrupt:535614336207552523> may be used if you are low on food.
+⬥ You can run Nex if low on food, but don't need to (and will end up walking book procs). It's optimal to do so if you notice her SS is active.
+
+.
+> **__Example Kills__**
+.tag:example
+**__Ascension Crossbow + Grico 26 kill hour__** **(Courtesy of <@!333479049680650241>)**
+.
+https://youtu.be/as1kqW_Xw9M
+.
+**__Nox Bow + Grico 27 kill hour__** **(Courtesy of <@!333479049680650241>)**
+.
+https://youtu.be/pCWOMva9T6I
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ascension Crossbow with a 2H rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Ascension Crossbow with Greater Ricochet rotations__",
+        "value": "[Link]($linkmsg_dwrotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Noxious Longbow with Greater Ricochet rotations__",
+        "value": "[Link]($linkmsg_noxbowrotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Positioning__",
+        "value": "[Link]($linkmsg_positioning$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phase Notes__",
+        "value": "[Link]($linkmsg_PN$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Advanced Video Example__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
