@@ -1,64 +1,37 @@
-> **__The Shadow Reef__ (Courtesy of <@!133391081109716992> & <@!269513930949263363>)**
+> **__The Shadow Reef__ (Courtesy of <@!198930220663701504>)**
 .tag:intro
 .img:https://imgur.com/W5h47SR.png
 .
 **__Introduction__**
-The third installment in the Elite Dungeon series, the Shadow Reef is home to the long awaited boss known as Kranon, the Ambassador <:Ambassador:583430542809235458>, which drops pieces for the T92 weapon: the Eldritch Crossbow <:ecb:615618531937222657>
-
-This guide is structured in the order that rooms would be encountered if running the dungeon. Rotations are written to utilize the Greater Chain ability <:gchain:787904334495088672> and assume 4TAA is used; however, neither is required to effectively do this dungeon.
+The third installment in the Elite Dungeon series, the Shadow Reef hosts Kranon, the Ambassador <:Ambassador:583430542809235458> as its final boss, which drops pieces for the T92 <:ecb:615618531937222657>. The usage of <:gconc:869285393223254107> and <:gchaincaroming:867678153882861568> abilities are assumed.
 
 .
-Each solo run of ED3 is worth <:coins:698816156961603654> $data_pvme:Bosses!E568$ in Eldritch pieces alone. Advanced players can get up to $data_pvme:Bosses!B572$ kph, earning on average $data_pvme:Bosses!C572$ gp/hr.
+Each solo run of ED3 is worth <:coins:698816156961603654> $data_pvme:Bosses!E568$ in Eldritch pieces alone.
 
 During group encounters each player can roll an Eldritch piece individually.
 Solo - (180/10,000)  Duo - (90/10,000)  Trio - (60/10,000)
+
 .
 **__General Notes__**
-⬥ The rotations listed for the bosses are for an advanced setup, lower tiered set-ups will require improvisation
-⬥ It's recommended to set your anti-spam delay for your Double Surge <:surge:535533810004262912> to 1 via the Lectern at Anachronia
-⬥ Consider downgrading your graphics to Minimum with Medium+ draw distance for the Dungeon, as it is poorly optimized and prone to frame drops
-⬥ You can Surge <:surge:535533810004262912> or Bladed Dive <:bd:535532854281764884> a tick before each gate unlocks to save a tick on every entry
-⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve unique drop rates
+⬥ The rotations listed for the bosses are for advanced setups, while rotations with lower tiered set-ups are briefly described in <#934720136802361405>. Alternatively, users can look at <#534567464370044928>.
+
+⬥ It's recommended to set your anti-spam delay for your <:surge:535533810004262912> to 1 via the Lectern at Anachronia.
+
+⬥ You can Surge <:surge:535533810004262912> or Bladed Dive <:bd:535532854281764884> a tick before each gate unlocks to save a tick on every entry.
+
+.
+⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve unique drop rates.
+
+⬥ 4TAA usage is highly encouraged as the AoE hitbox of barrage spells <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> helps greatly with mob clears and Taraket, in addition to increasing DPS. However, it is by no means required to effectively do this dungeon.
+
+⬥ This guide will be focused around <:soa:869284271595069451> rotations with non-<:soa:869284271595069451> rotations briefly outlined (4TAA assumed). For more detail, refer for the non-<:soa:869284271595069451> example video or the magic example in <#934720136802361405>
+    • An example of a non-<:soa:869284271595069451> <:sunshinepf:867678154143694868> is shown below (basics and 4TAA not included):
+
+<:sunshinepf:867678154143694868> + <:adrenrenewal:736298121704767538> → build → <:tsunamiincite:958989794757730307> → swap to <:exsanguinate:856635090745950258> during gcd → <:wm:535533809978966037> → <:asphyx:535533833072672778> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> + basic → <:wrackandruin:856662355912032256> → <:omnipowerigneous:959089455560540200> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:wm:535533809978966037>
 
 .
 > __**Presets**__
-.tag:presets
-*Note: The dungeon can be effectively run with a single preset but for general speed reasons a separate preset should be used for Ambassador*
-
-.
-**__Universal__**
-⬥ <:undeadslayer:641339922019516416> **Undead Slayer ability**
-⬥ <:undeadslayerperk:689502804720615441> **Undead Slayer perk**
-⬥ <:salveamulet:797899945730244648> **Salve Amulet** for undead mobs and Taraket
-⬥ <:Cinderbanes:513190158355660812> **Cinderbane Gloves**
-⬥ <:spiritualprayer:651079281882955787> **Spiritual Prayers** - use with a Ripper Demon familiar
-⬥ <:weppoison:689525476158472288> **Weapon Poison+++**
-⬥ <:mani:643505153709965322> **Maniacal Aura**
-*Note: Supreme Invigorate <:invig:643505652865695767> or Mahjarrat Aura <:mahj:643148943856762890> can serve as substitutes*
-
-.
-**__Optional__**
-⬥ <:ed3luckycharm:841409588938276874> Lucky Charms
-    • Will not increase Eldritch drop rate
-⬥ <:flank4:712073088296157185> Flanking 4 switch
-    • Not super impactful, especially in solo
-
-.
-__**Basic**__
-⬥ <:vitality:654618235097972737> Powerburst of Vitality
-⬥ <:accel:756236265472524418> Powerburst of Acceleration
-⬥ <:vbook:656785078160195615> with Caroming 4 <:caroming4:791281588792590336>
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
-.
-.img:https://i.imgur.com/1SU4l5r.png
-.
-
-.
-**__Advanced__**
+.tag:preset
 ⬥ <:vitality:654618235097972737> Powerburst of Vitality
 ⬥ <:accel:756236265472524418> Powerburst of Acceleration
 ⬥ <:vbook:656785078160195615> with Caroming 4 <:caroming4:791281588792590336>
@@ -70,512 +43,350 @@ __**Basic**__
 ⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
 (Runes for <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
 .
-.img:https://i.imgur.com/nYlG2Sy.png
-.
+.img:https://imgur.com/ilgTyDg.png
 
 .
-> __**First Floor - Pre-Crassian**__
-.tag:FFPC
-.img:https://i.imgur.com/eVFLShe.png
-.
-*Note: All Greater Chain <:gchain:787904334495088672> are assumed to be done with the Caroming 4 <:caroming4:791281588792590336> perk.*
-
-.
-**__Room 1__**
-Tag mob 3 with <:gchain:787904334495088672> → <:wm:535533809978966037> → (tc mob 2) <:corruptblast:513190159194259467> → (tc mob 1) <:comb:535533833098100745> → run past mob 4 and use <:dbreath:535533833391702017>.
-.
-.img:https://i.imgur.com/vAXSAPf.png
-.
-**__Room 2__**
-Surge <:surge:535533810004262912> and run straight along the path before bladed diving <:bd:535532854281764884> behind the Scouts.  Tag the northern most Scout with gChain <:gchain:787904334495088672> then charge Detonate <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> (tc) <:dbreath:535533833391702017>. <:surge:535533810004262912> and <:bd:535532854281764884> into the next room.
-
-**__Room 3__**
-Tag with (DW) gChain <:gchain:787904334495088672> → <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> and clean up the survivors.
-
-.
-**__Room 4__**
-There's only two Cloaked Zealots to clear here and they're lined up for AoEs but if you're quick your Detonate <:deto:535533833358016512> will still be on cooldown from Room 2.  Do <:bloodbarrage:537338981747261446> → <:dbreath:535533833391702017> → <:gchain:787904334495088672> → <:wm:535533809978966037>/<:gstaff:513203008608141314> <:eofpurple:780401412936040478>. Bladed dive <:bd:535532854281764884> → surge <:surge:535533810004262912> into the next room as shown below.
-.
-.img:https://i.imgur.com/0FTeAsx.mp4
-.
-**__Room 5__**
-There are two Crassian Scouts and two Cloaked Zealots spaced apart here. gChain <:gchain:787904334495088672> one of the Zealots and use Asphyxiate <:asphyx:535533833072672778>. Clean up any stragglers with basics. Bladed dive <:bd:535532854281764884> diagonally into the next room.
-
-*Note: Here and anywhere else in the mob sections of this guide, when using <:gchain:787904334495088672> → <:asphyx:535533833072672778> you should not auto in between as it is important that your main target does not die early.*
-
-.
-**__Room 6A__**
-Equip your salve amulet <:salveamulet:797899945730244648> and tag a Zombie with gChain <:gchain:787904334495088672>. Charge Detonate <:deto:535533833358016512> → <:undeadslayer:641339922019516416> <:bloodbarrage:537338981747261446> <:deto:535533833358016512> (tc) <:dbreath:535533833391702017>. Bladed dive <:bd:535532854281764884> diagonally across the rock to Room 6B.
-
-**__Room 6B__**
-Use Corruption Blast <:corruptblast:513190159194259467> first if gChain <:gchain:787904334495088672> is still on cooldown. Otherwise use <:gchain:787904334495088672> → <:wm:535533809978966037> → <:corruptblast:513190159194259467> → <:bloodbarrage:537338981747261446> <:dbreath:535533833391702017>
-
-.
-**__Room 7__**
-Spam surge <:surge:535533810004262912> to use it as soon as you can. Aim to gChain <:gchain:787904334495088672> a more central Zombie to ensure it reaches the Zombie close to the barrier. Use either Wild Magic <:wm:535533809978966037> or Guthix Staff <:gstaff:513203008608141314> <:eofpurple:780401412936040478> here depending on speed and clean up with autos and bleeds. Blade dive <:bd:535532854281764884> diagonally into the next room.
-
-**__Room 8__**
-You only need to kill the two Zealots. Detonate <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> should be adequate to clear this room and end on high adren for Leviathan.
+**__Relics__**
+⬥ <:conservationofenergy:697808773711921195> **Conservation of Energy**
+⬥ <:berserkersfury:697808774106185768> **Berserker's Fury**
+⬥ <:fontoflife:698225967679930408> **Font of Life**
 
 .
 > __**The Crassian Leviathan**__
 .tag:crassian
 .img:https://i.imgur.com/VENcARf.jpg
 .
-As the first boss of The Shadow Reef, The Crassian Leviathan has a very small and easy set of area denial mechanics that can deal a lot of damage if ignored. The boss heals passively over the duration of the fight, greatly reduced by having Weapon Poison active.
+The Crassian Leviathan has good defence so before sure to start off with a <:ingen:641339234111848463> <:gstaff:513203008608141314> <:eofspec:746403211908481184> and do not use <:reaverring:839903943018283050> for the fight if not using <:mani:643505153709965322>
 
 .
-__**Mechanics**__
-⬥ **Poisonous Breath** - This will always be the first mechanic of the fight and is signaled by the Leviathan firing a stationary breath attack in front of it, dealing rapid heavy typeless damage and contaminating the arena. Never stand in the centre nor infront of the Leviathan.
-.
-.img:https://imgur.com/RCt6T7m.mp4
-.
-⬥ **Many Heads** - The Leviathan has additional heads that will stun and poison you in the contaminated zones if you are near them.
-.
-.img:https://imgur.com/YDfiuOf.mp4
-.
-⬥ **Head Sweep** - The Leviathan will slam its' head across the ground twice, dealing very heavy damage to anyone caught in the area, avoided by moving to the opposite side of where the sweep begins.
-.
-.img:https://imgur.com/5sWppnG.mp4
-.
-⬥ **Tactical Retreat** - After going through one **Dragon Breath** and two sets of **Head Sweeps**, the Leviathan will move to other opposite side of the arena, repeating his previous rotation.
-    • Bladed Dive <:bd:535532854281764884> + Surge <:surge:535533810004262912> back to his main head once this happens to prevent getting stunned.
-.
-.img:https://imgur.com/3iANozs.mp4
-.
-__**Strategy**__
-⬥ Aim to Sunshine <:Sunshine:583430011948630016> right away either directly in front of the Leviathan's nose or on the same tile you throw vuln bombs to (directly east of the Leviathan's head). Both spots allow for you to safely hit the boss in <:Sunshine:583430011948630016> while avoiding the Head Sweep special. Drink your apot <:adrenrenewal:736298121704767538> and look to use <:wm:535533809978966037> → <:asphyx:535533833072672778>.
+⬥ Aim to <:sunshinepf:867678154143694868> right away either directly in front of the Leviathan's nose or on the same tile you throw <:vulnbomb:655341074235129858> to (directly east of the Leviathan's head). Both spots allow for you to safely hit the boss in <:sunshinepf:867678154143694868> while avoiding the Head Sweep special.
 .
 .img:https://i.imgur.com/mdNKxWN.png
 .
-⬥ At this point the Head Sweep will have started. Use an Guthix Staff spec <:gstaff:513203008608141314> <:eofpurple:780401412936040478> either before or after you move to dodge the Head Sweep followed by a Detonate <:deto:535533833358016512> after dodging once. Get in another <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> before you <:Sunshine:583430011948630016> ends.
+⬥ **Example rotation**:
+
+TC + <:sunshinepf:867678154143694868> + <:smokecloud:856635090641879050> + <:adrenrenewal:736298121704767538> + <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:tsunamiincite:958989794757730307> → <:soa:869284271595069451> <:spec:537340400273195028> → (<:limitless:641339233638023179>) → <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → 2hit <:asphyx:535533833072672778> → <:omnipowerigneous:959089455560540200> → walk 1st sweep around here → <:sonic:535533809924571136>/<:dbreath:535533833391702017> (while walking 2nd sweep) → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:gconc:869285393223254107> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:wm:535533809978966037> → finish kill
+
+⬥ Time your channelled abilities (<:gconc:869285393223254107> <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> <:asphyx:535533833072672778> <:smoketendrils:536257336130404372>) between head sweeps to avoid having to cut them short to move for headsweeps.
+    • This is more important and tricky if you're using <:soa:869284271595069451>
+    • Use non-channelled abilities when you are walking to dodge sweeps (<:wm:535533809978966037> <:omnipowerigneous:959089455560540200> <:dbreath:535533833391702017> <:gstaff:513203008608141314> <:eofspec:746403211908481184>)
+    • Semi-random sweep timings makes it such that you may need to improvise your rotations to a great extent.
 
 .
-⬥ After your <:Sunshine:583430011948630016> ends, try to just use thresholds to do damage up until it switches sides. If your damage doesn't look too great when you hit about the 1 minute mark, try to build to high adren to use a Metamorphosis <:meta:535533811304497183> + Limitless <:limitless:641339233638023179> immediately after the switch. Otherwise look to finish the boss off with more thresholds and Guthix Staff specs <:gstaff:513203008608141314> <:eofpurple:780401412936040478> after the switch.
-
-*Note: Leviathan switching sides counts as walking for Combust <:comb:535533833098100745> so look to use that as one of your last abilities on the initial side.*
-
-.
-⬥ Example Kill: <https://youtu.be/wdwPoXs06q0>
-
-.
-> **__Post-Crassian - Second Floor Entry__**
-.tag:PCSFE
-.img:https://i.imgur.com/vzvfCK7.png
-.
-**__Room 9__**
-Drink your Acceleration Powerburst <:accel:756236265472524418> exiting the Leviathan and utilize surge <:surge:535533810004262912> and bladed dive <:bd:535532854281764884> as demonstrated below to quickly reach this room. There is a Cloaked Zealot and various Scuttlers in this room you need to clear to proceed. gChain <:gchain:787904334495088672> the Zealot and use Asphyxiate <:asphyx:535533833072672778> followed by Dragonbreath <:dbreath:535533833391702017>. If your <:gchain:787904334495088672> does not hit all the Scuttlers, you may want to use Corruption Blast <:corruptblast:513190159194259467> before <:dbreath:535533833391702017>. Diagonally bladed dive <:bd:535532854281764884> into the next room.
-.
-.img:https://i.imgur.com/qlJbw7S.mp4
-.
-**__Room 10__**
-Put your salve amulet <:salveamulet:797899945730244648> back on. In the middle of the room, tag a Zombie with gChain <:gchain:787904334495088672> and charge Detonate <:deto:535533833358016512> → <:undeadslayer:641339922019516416> <:bloodbarrage:537338981747261446> <:deto:535533833358016512> (tc) <:dbreath:535533833391702017>. Surge <:surge:535533810004262912> → bladed dive <:bd:535532854281764884> → <:surge:535533810004262912> to reach the cliff.
-
-.
-**__Room 11__**
-Jump down the cliff to clear an Ulthven Necromancer and two Huge Skeletons. Use gChain <:gchain:787904334495088672> → Asphyxiate <:asphyx:535533833072672778> on the Necromancer to clear the entire room.
-
-.
-**__Room 12__**
-There are two Necromancers off at the sides and a line of three Armoured Zombies guarding the door. You only need to kill one Necromancer and the Zombies to proceed to section 2, the temple area. Run to the archway and surge <:surge:535533810004262912> straight before diagonally bladed diving <:bd:535532854281764884> towards a Necromancer. Kill the Necromancer with Wild Magic <:wm:535533809978966037> → Combust <:comb:535533833098100745>. Use gChain <:gchain:787904334495088672> on an Armoured Zombie and charge Detonate <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
-
-.
-> __**Second Floor Entry - Taraket Entry**__
-.tag:SFTE
-.img:https://i.imgur.com/t3WTQZG.png
-.
-**__Room 1__**
-There are two Ulthven Necromancers guarding the gates to the east and west that you must clear to access the black stone artefacts. The main gate will not drop until these have been activated. A mass of summoned skeletons will form in the room as you go about this task.
-
-Equip your <:eofpurple:780401412936040478> and surge <:surge:535533810004262912> + bladed dive <:bd:535532854281764884> down the path. Go west first and kill the Necromancer with <:bloodbarrage:537338981747261446> <:sonic:535533809924571136> → <:wm:535533809978966037> → <:dbreath:535533833391702017>. <:surge:535533810004262912> through the open barrier to go tag the artefact. <:bd:535532854281764884> diagonally back to the doorway and <:surge:535533810004262912> through. Kill the east Necromancer with <:bloodbarrage:537338981747261446> <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → <:dbreath:535533833391702017> and <:surge:535533810004262912> towards the doorway. Go tag the artefact then run back and <:bd:535532854281764884> diagonally towards the bridge.
-
-Demonstrated: <https://youtu.be/dGDwdi6PojI>
-
-.
-**__Room 2__**
-Surge <:surge:535533810004262912> twice down the bridge to the two Sea Horrors and a Necromancer that you must clear to proceed. Use gChain <:gchain:787904334495088672> → Asphyxiate <:asphyx:535533833072672778> → Dragonbreath <:dbreath:535533833391702017> on the east Horror while running to the far northeast corner. Charge Detonate <:deto:535533833358016512> on the west Horror → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:corruptblast:513190159194259467>. The Necromancer should die to AoE during this clear but kill with basics if it suvives. Diagonally bladed dive <:bd:535532854281764884> to the next hallway afterwards.
-
-*Note: It is ok to use Devotion <:devo:513190158728953857> here, but it should ideally be before reaching the Horrors.*
-
-.
-**__Room 3__**
-There's a line of three Acolytes of Seiryu guarding the gate here that must be cleared to proceed. Tag the northernmost Acolyte with gChain <:gchain:787904334495088672> and use Wild Magic <:wm:535533809978966037> before switching targets. Finish off the survivors with Dragonbreath <:dbreath:535533833391702017> and Corruption Blast <:corruptblast:513190159194259467>. Immediately after clearing this room, drink your Acceleration Powerburst <:accel:756236265472524418> to bladed dive <:bd:535532854281764884> back to back to back as demonstrated below.
-.
-.img:https://i.imgur.com/LAvCAjK.mp4
-.
-**__Room 4__**
-There are many mobs here but only the Necromancers and Huge Skeletons must be cleared. Put your salve amulet <:salveamulet:797899945730244648> back on and use gChain <:gchain:787904334495088672> → Asphyxiate <:asphyx:535533833072672778> → Dragonbreath <:dbreath:535533833391702017> on the western Necromancer. Finish off what's left with basics, but try not to use Corruption Blast <:corruptblast:513190159194259467> as it will stop your from banking at the chest.
+⬥ Non-<:soa:869284271595069451> rotation tips:
+    • <:sunshinepf:867678154143694868> and generally follow the threshold order <:asphyx:535533833072672778> → <:wm:535533809978966037> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> → <:omnipowerigneous:959089455560540200> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+    • After <:sunshinepf:867678154143694868> expires proritize <:omnipowerigneous:959089455560540200> > <:wm:535533809978966037> > <:gstaff:513203008608141314> <:eofspec:746403211908481184> until end of kill.
 
 .
 > __**Taraket the Necromancer**__
 .tag:taraket
 .img:https://i.imgur.com/sToihl3.jpg
 .
-This encounter is the second boss of the Shadow Reef, and is a clear step up in difficulty from the first. Taraket, Corpses and Skeletons are classified as Undead for Salve Amulet <:salveamulet:797899945730244648> , Undead Slayer perk <:undeadslayerperk:689502804720615441> and sigil <:undeadslayer:641339922019516416> purposes.
+Taraket, Corpses and Skeletons are classified as Undead for <:salveamulet:797899945730244648>, <:undeadslayerperk:689502804720615441> and <:undeadslayer:641339922019516416> purposes. If <:soa:869284271595069451> is owned, you should ignore both minions and autocast <:bloodbarrage:537338981747261446> during the last phase to finish the kill as quickly as possible, even though it will be risky sometimes. Otherwise, use your discretion to determine which minions you want to kill if you want to have an easier time.
 
 .
-> __**Mechanics**__
-⬥ **Rift of Undeath** -  This Rift with 30k HP will spawn a large amount of skeletons that each deal low amounts of damage.
-.
-.img:https://imgur.com/Xq8JxyR.mp4
-.
-    • If left alive, the Rift will detonate for up to 9,000 hard typeless damage.
-.
-.img:https://imgur.com/lNWdkWt.mp4
-.
-⬥ **Death's Swiftness** - Taraket will shroud himself in a Death's Swiftness, becoming immobile and switching attack styles from Mage to Ranged. These autos are slightly stronger than his Magic ones.
-.
-.img:https://imgur.com/pkwjo5O.mp4
-.
-⬥ **Corpse Carrier and Bloated Monstrosity** - Upon reaching 200K hitpoints, Taraket will become invulnerable and fly towards one of the two black crystals at the sides of the arena, healing himself and spawning one of the two corpses: Corpse Carrier (west) or the Bloated Monstrosity (east), with 90K HP each.
-    • The Corpse Carrier will continuously spawn skeletal mobs until its death.
-.
-.img:https://imgur.com/L3klbH8.mp4
-.
-    • The Bloated Monstrosity increases the damage of Taraket's auto-attacks.
-.
-.img:https://imgur.com/LeJAsiN.mp4
-.
-        - Both of these attack with melee and are very easy to kite if needed.
-    • Taraket can only spawn these once each and will not heal upon hitting 200K HP afterwards.
-    • The first spawn will always be the closest crystal to Taraket.
+**__Start of fight__**
+⬥ Quickly enter the fight with both <:soa:869284271595069451> and <:tsunamiincite:958989794757730307> crit buff active with <:surgemobile:867678153798975498> and run east of him to block his flight later.
+
+⬥ **Example p1 rotation**:
+<:sunshinepf:867678154143694868> + <:smokecloud:856635090641879050> + <:adrenrenewal:736298121704767538> + <:gconc:869285393223254107> → (<:limitless:641339233638023179> +) <:wm:535533809978966037> → <:undeadslayer:641339922019516416> + <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:asphyx:535533833072672778> → build to 100% on flying Taraket
 
 .
-⬥ **Spirit Wall** - Taraket smashes the ground infront of him for heavy melee damage, summoning a line of spirits infront of him that will move towards the player, dealing rapid typeless damage upon contact.
-    • Move out of the way as needed be.
-.
-.img:https://imgur.com/ESTxXSQ.mp4
-.
-⬥ **Absorb Undeath** - Periodically, Taraket may absorb all skeletons in the arena to heal 2,000 per skeleton.
-.
-.img:https://imgur.com/Kqlh96V.mp4
-.
-__**Strategy**__
-⬥ Utilizing 4TAA with Blood Barrage <:bloodbarrage:537338981747261446> and gChain <:gchain:787904334495088672> will make a world of difference in this fight in particular allowing players to essentially tank almost everything, especially on Mahjarrat Aura <:mahj:643148943856762890> rather than Maniacal <:mani:643505153709965322>.  With <:mani:643505153709965322>, the last 300k can be sketchy at times; however, it is very much worth using.
+**Post-Bloat spawn**
+⬥ You want to quickly phase Taraket and block his flying by standing west while tanking Bloat. Clear the undead portal when he is flying.
+
+⬥ **Example post-Bloat spawn rotation**:
+
+Targetting Taraket after he lands from spawning Bloat: <:magmatempesttarget:924741973858996284> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → improvise till phase
+
+Targetting portal: <:gconc:869285393223254107> → basic → <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → finish off
 
 .
-⬥ Start out the fight with an apot <:adrenrenewal:736298121704767538> Sunshine <:Sunshine:583430011948630016> and your salve amulet <:salveamulet:797899945730244648> equipped.
-<:undeadslayer:641339922019516416> <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:deto:535533833358016512> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → <:salveamulet:797899945730244648> <:wm:535533809978966037> (→ <:asphyx:535533833072672778> if Taraket is still above 200k hp)
+**Post-Corpse spawn**
+⬥ Pay attention to your ability cooldowns and get your <:soa:869284271595069451> rotation active as soon as possible.
+    • Auto-cast <:bloodbarrage:537338981747261446> once <:soa:869284271595069451> is active for heals.
 
-<:asphyx:535533833072672778>/<:gstaff:513203008608141314> <:eofpurple:780401412936040478> the Rift → <:gchain:787904334495088672> to clear the skeletons → <:vulnbomb:655341074235129858> + <:salveamulet:797899945730244648> <:comb:535533833098100745> the Bloated Monstrosity → run back to just west of where Taraket was before flying and charge <:deto:535533833358016512> on him
+⬥ Pray <:DeflectMelee:544195488447201300> when Taraket does the Spirit Wall special attack.
 
+⬥ Spam eat as needed.
+
+⬥ **Example finisher rotation**:
+<:tsunamiincite:958989794757730307> → <:soa:869284271595069451> <:spec:537340400273195028> → <:meta:535533811304497183> → <:gconc:869285393223254107> → <:smoketendrils:536257336130404372> → <:omnipowerigneous:959089455560540200> → <:wm:535533809978966037> → improvise and finish off
+
+⬥ **Example finisher rotation (video)**:
 .
-<:deto:535533833358016512> → <:wm:535533809978966037> → <:gchain:787904334495088672> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (→ <:gchain:787904334495088672> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> if not phased but try to stay high adren)
-
-*Note: Where you stand is important here as you're looking to body block Taraket from flying west.*
-
-⬥ Equip <:eofpurple:780401412936040478> → <:nat:535541258131865633> on the Bloated Monstrosity and build back to 100 to <:Sunshine:583430011948630016>
-
+.img:https://imgur.com/j8KIaww.mp4
 .
-<:Sunshine:583430011948630016> back on Taraket and build with 2 basics → <:gchain:787904334495088672> → <:undeadslayer:641339922019516416> <:wm:535533809978966037> → <:dbreath:535533833391702017> → step to the other side of Taraket before the Corpse Carrier reaches melee distance to effective stack it on top of Taraket
-
-.
-Blocking + <:nat:535541258131865633> + Stacking Demonstrated:
-.
-.img:https://i.imgur.com/UDZP2OT.mp4
-.
-*Note: Stacking Corpse Carrier in this way is not 100% guranteed and it is very important that you move back through Taraket to restack if it does not work.*
-
-.
-<:asphyx:535533833072672778> → <:gchain:787904334495088672> → <:deto:535533833358016512> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → (<:Sunshine:583430011948630016> ends)
-
-.
-⬥ From here finish off taraket with more thresholds and <:gstaff:513203008608141314> <:eofpurple:780401412936040478>. Be sure to side step the melee hits from the Spirit Line special as they will severly hurt your ability to outheal the majority of the damage you take. Also use <:gchain:787904334495088672> off cooldown (preferably before thresholds or <:gstaff:513203008608141314> <:eofpurple:780401412936040478>) to improve overall healing and to repeatedly clear out the skeletal mobs the Corpse Carrier spawns. A second rift will spawn but you should be killing Taraket before it explodes so you can generally ignore it.
-
-⬥ The Dark Form <:darkform:659122103269982228> prayer is helpful here especially if using Spiritual Prayers <:spiritualprayer:651079281882955787>.
-
-.
-*Note: Untested but players who do not 4TAA can likely follow this strategy up until when the Corpse Carrier spawns, at which point they would want to focus it down while in Sunshine <:Sunshine:583430011948630016>.*
-
-.
-⬥ Example Kill: <https://youtu.be/qhA1C_HZrPQ>
-
-.
-> __**Taraket Exit - Second Floor Exit**__
-.tag:TESF
-.img:https://i.imgur.com/y75oIKR.png
-.
-*Note: This section and the following section can be cleared fairly easily with little to no food. As such, do not bank after Taraket even if running low.*
-
-**__Room 5__**
-Surge <:surge:535533810004262912> + bladed dive <:bd:535532854281764884> → <:surge:535533810004262912> out of Taraket's room. There is a Sea Witch and two Armoured Zombies in this room. Tag the Witch with gChain <:gchain:787904334495088672> → Asphxyiate <:asphyx:535533833072672778>/Wild Magic <:wm:535533809978966037>/Guthix Staff <:gstaff:513203008608141314> <:eofpurple:780401412936040478> depending on cooldowns following Taraket. <:surge:535533810004262912> into the next room.
-
-**__Room 6__**
-Put back on your Essence of Finality <:eofpurple:780401412936040478>. Only the Kalgerion Demon needs to be killed here to proceed. He's really big and impossible to miss. If you have it, the Demon Slayer ability <:demonslayer:641339921675845633> can be used here. Guthix staff (DW) <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → <:bloodbarrage:537338981747261446> Asphyxiate <:asphyx:535533833072672778>/Wild Magic <:wm:535533809978966037> should be enough. The Demon Slayer <:demonslayer:641339921675845633> ability can be used here if you already own it. After killing the demon, look to utilize surge <:surge:535533810004262912> and bladed dive <:bd:535532854281764884> and an Acceleration Powerburst <:accel:756236265472524418> as demonstrated below.
-.
-.img:https://i.imgur.com/xEWug9J.mp4
-.
-*Note: You can manipulate one of the required Necromancers in room 7 to move from his position to make the next room easier on you by running as close as you can to him, so he aggros you through the wall. This isn’t 100% guaranteed.*
-
-.
-**__Room 7__**
-There's two Necromancers hiding around in this room that need to be cleared. Use either Wild Magic <:wm:535533809978966037> or Guthix Staff <:gstaff:513203008608141314> <:eofpurple:780401412936040478> followed by Combust <:comb:535533833098100745> on the west Necromancer then surge <:surge:535533810004262912> back towards the east Necromancer. If low on Hp or food use gChain <:gchain:787904334495088672> → Asphyxiate <:asphyx:535533833072672778> on the east Necromancer, otherwise simply <:asphyx:535533833072672778>. Diagonally bladed dive <:bd:535532854281764884> through the corner into the next room and keep running to angle yourself for the next surge <:surge:535533810004262912>.
-
-**__Room 8__**
-Only the two Necromancers are guarding the gate here. Kill the first Necromancer with <:bloodbarrage:537338981747261446> Sonic <:sonic:535533809924571136> → Guthix Staff <:gstaff:513203008608141314> <:eofpurple:780401412936040478> then surge <:surge:535533810004262912> diagonally through the corner to the second Necromancer. Kill it with <:bloodbarrage:537338981747261446> Wild Magic <:wm:535533809978966037> → Corruption Blast <:corruptblast:513190159194259467> and diagonally bladed dive <:bd:535532854281764884> through the corner to the cliff.
-
-.
-> __**Third Floor Entry - Pre-Ambassador**__
-.tag:TFPA
-.img:https://i.imgur.com/e1OLRQs.png
-.
-**__Room 1__**
-Use surge <:surge:535533810004262912> twice to reach the group of Crassian Warriors and Scuttlers around the gate that must be killed. They stack up very nicely for all AoEs and aren't very threatening in general. Tag a Warrior with gChain <:gchain:787904334495088672> → Combust <:comb:535533833098100745> on your way to the barrier and charge a Detonate <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> (→ <:gchain:787904334495088672> → <:wm:535533809978966037> if bad <:deto:535533833358016512>). Improvise to finish off the survivors.
-
-.
-**__Room 2__**
-There's two Warped Skeletons in here that can completely clear you if you aren't paying attention. Equip your salve amulet <:salveamulet:797899945730244648> and gChain <:gchain:787904334495088672> the two Skeletons. Proceed to <:undeadslayer:641339922019516416> Asphyxiate <:asphyx:535533833072672778> → (tc skeleton 2) <:corruptblast:513190159194259467> → <:bloodbarrage:537338981747261446> <:gstaff:513203008608141314> <:eofpurple:780401412936040478>. Surge <:surge:535533810004262912> into the next room and immediately bladed dive <:bd:535532854281764884> behind the line of Zealots.
-
-.
-**__Room 3__**
-Re-equip your Essence of Finality <:eofpurple:780401412936040478> and use gChain <:gchain:787904334495088672> on either one of the eastern Zealots or Skeleton if close. From here use <:bloodbarrage:537338981747261446> Tsunami <:tsunami:535533809995874304> then improvise to finish off the stragglers ideally with Detonate <:deto:535533833358016512>.
-
-.
-**__Room 4__**
-The last room before the final boss of the dungeon. There are two more skeletons along with two Crassian Scouts that need to be cleared to proceed. There are three minibosses that can spawn in this room with a fairly inconvenient aggro range so try to avoid them by hugging the western wall. Ideally look to gChain <:gchain:787904334495088672> the Skeletons → Asphyxiate <:asphyx:535533833072672778> → Combust <:comb:535533833098100745>/Corruption Blast <:corruptblast:513190159194259467>. Build on the Scouts to ensure you have full adren for Ambassador.
-
-*Note: If no minibosses spawn in this room, look to zoom to the door and <:gchain:787904334495088672> <:asphyx:535533833072672778> all 4 mobs.*
+⬥ Non-<:soa:869284271595069451> rotation tips:
+    • Do an <:adrenrenewal:736298121704767538> <:sunshinepf:867678154143694868> with <:asphyx:535533833072672778> <:wm:535533809978966037> <:omnipowerigneous:959089455560540200> <:wrackandruin:856662355912032256> 3t <:deto:535533833358016512> to start the fight.
+    • Kill portal with <:asphyx:535533833072672778> in <:sunshinepf:867678154143694868>
+    • Use <:corruptblast:513190159194259467> <:comb:535533833098100745> on Taraket as he flies back and phase him.
+    • Kill Bloated while and block Taraket while he spawns Carrier.
+    • Do a <:limitless:641339233638023179> <:sunshinepf:867678154143694868> rotation on Taraket once he spawns Carrier.
+        - Utilise 4TAA <:bloodbarrage:537338981747261446>
+        - Use <:corruptblast:513190159194259467> in the middle of the rotation to clear skeletons.
+        - Using <:devo:513190158728953857> and flicking between <:soulsplit:615613924506599497> and <:DeflectRange:544195488317046812> when Taraket casts <:deathsswift:535541258924326912> can help.
 
 .
 > __**Kranon, the Ambassador**__
-.tag:Ambassador
+.tag:ambassador
 .img:https://i.imgur.com/9uU19GX.jpg
 .
 At the bottom of the abyssal section awaits Kranon, the Ambassador, the final boss of the Elite Dungeon 3. This boss has a moderate learning curve compared to most solo bosses and has a variety of mechanics ranging from DPS checks, area denial, self-healing, and the usage multiple combat styles.
 
-The boss primarily attacks with ranged <:DeflectRange:544195488317046812>, with a heavy mage attack <:DeflectMage:544195487926845462> after every 5 autos. The mage hit is replaced by a small but instant melee swipe <:DeflectMelee:544195488447201300> if the player is in melee distance.
+The boss primarily attacks with <:Ranged:689504724403486920>, with a <:Magic:689504724159823906> after every 5 autos. The mage hit is replaced by a small but instant <:melee:615612332521029632> swipe if the player is in melee distance.
 
 .
-__**Ambassador's Attack Rotation**__
-⬥ **1M to 550k**
-    • Mage / Melee auto → 5 autos → Black Stone Flames → 5 autos  → Unstable Black Hole → 5 autos  → Black Stone Flames → 5 autos  → TriBeam + Sinister Fragments → Pulse of Erebus + 5 autos → Repeat
-
-*Magic Bomb*
-.
-.img:https://imgur.com/1oX424k.mp4
-.
-*Melee Swipe*
-.
-.img:https://imgur.com/GGEN8a7.mp4
-.
-⬥ **550k - 400k**
-    • Crassian Ritual Keepers are summoned.
-    • Tribeam, Sinister Fragments and Pulse of Erebus are no longer part of the attack rotation going forward.
-
-.
-⬥ **Seiryu's Intervention - Death**
-    • 5 autos → Melee / Magic Bomb → 5 autos → Melee / Magic Bomb → Shadow Onslaught
-
-.
-**__1M-550K HP__**
-⬥ **Black Stone Flames**
-    • The Ambassador fires a spout into the player, dealing no damage and placing a bar over their head.
-    • When this bar nears depletion, a 5x5 area around the player will become corrupted until Seiryu clears them at the Ritual phase.
-    • This is similar to the Sanctum Guardian's mechanic from ED1 but will create two areas instead, separated by 2 ticks.
-        - These zones will last until the final phase of the fight and will ramp up to 2000 typeless damage to anyone standing inside.
-.
-.img:https://imgur.com/5bWwQXr.mp4
-.
-⬥ **Unstable Black Hole**
-    • The Ambassador will spawn an unstable black hole near the area that is despawned by stunning it.
-.
-.img:https://imgur.com/KkpYl0Z.mp4
-.
-    • If not stunned, the Black Hole will detonate for a hard typeless of up to 9,000.
-.
-.img:https://imgur.com/mOScu8K.mp4
-.
-⬥ **Tribeam & Sinister Fragments**
-    • Six fragments will disperse from the boss to the edges of the arena with 20K HP each. At the same time, the Ambassador will fire three slowly rotating beams that last for about a minute.
-    • The beams always spawn in set locations (N, SE, SW), and rotate counterclockwise slowly.
-        - The entry gate is located East of the arena.
-    • He'll use the Fragments every full attack rotation **or** by hitting the 650K cap until the next phase commences.
-
-*Tribeam Unleashed*
-.
-.img:https://imgur.com/Vg7ztvk.mp4
-.
-    • Failing to destroy a fragment(s) prompts the Ambassador to absorb them, and release a **Pulse of Erebus** per absorption, dealing 8,000 soft typeless damage.
-.
-.img:https://imgur.com/3U8LBRS.mp4
-.
-**__550K-400K HP__**
-⬥ Tribeam, Sinister Fragments and Pulse of Erebusa are no longer used.
-⬥ The Ambassador spawns invulnerable Crassian Ritual Keepers that deal low ranged damage, making Resonance <:res:535541258844635148> harder to use.
-.
-.img:https://imgur.com/GuVOe7f.mp4
-.
-**__400K-0 HP__**
-⬥ Black Stone Flames and Unstable Black Holes are no longer used.
-⬥ Seiryu intervens shortly after, healing you to full.
-
-*Seiryu's Intervention*
-.
-.img:https://imgur.com/q39LXoM.mp4
-.
-⬥ A circle of black hands will spawn to encompass the edge of the arena.
-    • The hands will slam down in a clockwise fashion, sending constant dark magic towards the Ambassador.
-        - The first outburst of dark magic is unblockable.
-.
-.img:https://imgur.com/lzYID2k.mp4
-.
-        - An unblocked projectile will heal the Ambassador for 2500HP.
-.
-.img:https://imgur.com/OJdaot8.mp4
-.
-        - Standing between the Ambassador and the projectiles will make them black, damaging you for a small typeless hit but will **not** heal the Ambassador.
-.
-.img:https://imgur.com/h6f0cFc.mp4
-.
-⬥ **Shadow Onslaught**
-    •  Every 10 auto attacks, the Ambassador will send out 5 extremely hard hitting Magic attacks.
-.
-.img:https://imgur.com/xPYzNrs.mp4
-.
-> __**Ambassador Strategy**__
-.tag:ambistrats
 **__General Tips__**
-⬥ Use a Ripper demon <:ripperpouch:703581275453128714> with scrolls and drink Spiritual Prayers <:spiritualprayer:651079281882955787>.
-
-⬥ Try to avoid using solid food. Stick to Blue jellies <:blueblubber:689530593742291033>, and Guthix rest <:grest:689530593901412578> or Saradomin brews <:Brew:565726489400573962>, if you can.
-
-.
-⬥ Try to maximize the potential healing from soulsplitting <:soulsplit:615613924506599497> Spinners and the Seiryu Heal at 400k to cut down on food usage throughout the fight. Resonance <:res:535541258844635148> can also be used on the magic auto attack occasionally to preserve food.
-
-⬥ You will need to Spellbook Swap <:SBS:543875425055670275> to use Disruption Shield <:disrupt:535614336207552523> throughout the fight. Bring runes accordingly.
-
-⬥ Flanking <:flank4:712073088296157185> can be utilized throughout the fight by stepping directly underneath the Ambassador.
+⬥ Try to avoid using solid food. Stick to <:blueblubber:689530593742291033> + <:grest:689530593901412578>
+    • <:Brew:565726489400573962> can be used but generally isn't needed for mage.
 
 .
-**__Phase 1 - 1M-650k HP__**
-*Note: Most autos and basics will be omitted in the rotations below. If either is listed below, the timing achieved is intentional. Also all Detonate <:deto:535533833358016512> are charged for 3 ticks.*
+⬥ Try to maximize the potential healing from <:soulsplit:615613924506599497> Spinners and the Seiryu Heal at 400k to cut down on food usage throughout the fight.
 
-.
-⬥ **Magic 1st Auto vs Melee 1st Auto**
-    • Doing <:surge:535533810004262912> → <:bd:535532854281764884> (during gcd) to reach melee distance instantly at the start of the fight will switch the 1st auto into a melee auto.
-    • Changing the 1st auto into a melee auto changes the timing of the 1st smoke.
-        - Mage 1st auto leads to a 22.8s (38t) 1st smoke drop.
-        - Melee 1st auto leads to a 31.8s (53t) 1st smoke drop.
-    • No other timings are changed.
+⬥ You can use <:SBS:543875425055670275> <:disrupt:535614336207552523> throughout the fight.
 
-*Note: The rotation in this guide assumes Magic 1st auto for timings.*
+⬥ Flanking <:flank4:712073088296157185> can be utilized throughout the fight by stepping directly underneath the Ambi.
+    • This is less applicable if using <:soa:869284271595069451>
 
-.
-⬥ **Start the Fight with an Apot Sunshine** <:adrenrenewal:736298121704767538> <:Sunshine:583430011948630016>
-    • Use Disruption Shield <:disrupt:535614336207552523> while running down the ramp
-<:Sunshine:583430011948630016> + <:adrenrenewal:736298121704767538> → <:bloodbarrage:537338981747261446> <:sonic:535533809924571136> → <:dbreath:535533833391702017> → run to the north/northwest corner of your <:Sunshine:583430011948630016> while waiting to auto → <:bloodbarrage:537338981747261446> <:wm:535533809978966037> → <:asphyx:535533833072672778>
+⬥ Drop purple smokes at the edges of your <:sunshinepf:867678154143694868> and run to the other edge after (example of position below).
+    • That said, wherever you drop the smoke, there should be always an area you can go to in your <:sunshinepf:867678154143694868> that is free of smoke.
 .
 .img:https://i.imgur.com/c7jtGpF.png
 .
-<:deto:535533833358016512> (1st smoke timer will start + switch to <:DeflectMage:544195487926845462> for the 2nd magic auto) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → move out of smoke
-
-<:wm:535533809978966037> → <:asphyx:535533833072672778> (3rd magic auto) → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → clear black hole with <:impact:535533809655873556> immediately (timer will be close to ending)
-
-(<:Sunshine:583430011948630016> ends) build with basics → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → (2nd smoke timer starts) <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> (4th magic auto will come out towards the end of smoke timer) <:res:535541258844635148> → move out of smoke → <:wm:535533809978966037> → <:bloodbarrage:537338981747261446> <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → <:dbreath:535533833391702017>
+⬥ During P4, <:sunshinepf:867678154143694868> directly under Ambi to avoid getting pushed out when blocking smokes.
 
 .
-⬥ **Phase 1 Tips**
-    • Try to place the 2nd smoke next to your 1st smoke. This will put them out of the way as after spinners you will primarily stay south/southwest of Ambassador while also leaving a large path on the east side for pathing during spinners.
-    • If you switch prayers properly and <:res:535541258844635148> the last magic auto attack, it is fairly straight forward to no food phase 1 starting from full hp.
-    • Depending on where the black hole spawns, you may need to start moving early to reach it in time.
-        - Be careful that you do not stall then cancel <:impact:535533809655873556>.
-        - Having the flanking <:flank4:712073088296157185> perk equipped will cause <:impact:535533809655873556> to not clear the black hole.
+**___Phase 1__**
+Your goal is to get Ambi to below 650k in a <:sunshinepf:867678154143694868> rotation or less.
+
+.
+⬥ **Phase 1 notes**
+Stand in melee distance if uncomfortable with taking the magic auto.
+
+⬥ **Example p1 rotation**:
+
+<:sunshinepf:867678154143694868> + <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050> + <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:tsunamiincite:958989794757730307> → autocast <:exsanguinate:856635090745950258> → <:gconc:869285393223254107> → <:soa:869284271595069451> <:spec:537340400273195028> → (<:limitless:641339233638023179>) <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → 2-hit <:asphyx:535533833072672778> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:wrackandruin:856662355912032256> → <:gconc:869285393223254107> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:wm:535533809978966037> → <:omnipowerigneous:959089455560540200> → <:vitality:654618235097972737> + <:wrackandruin:856662355912032256> → <:dbreath:535533833391702017> → <:gconc:869285393223254107>
 
 .
 **__Phase 2 - Spinners__**
-⬥ **Spinner Strategy** (not all basics listed)
-    • 1st: <:asphyx:535533833072672778>
-    • 2nd: <:wm:535533809978966037> → <:corruptblast:513190159194259467>
-    • 3rd: <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>
-    • 4th: <:asphyx:535533833072672778>
-    • 5th: <:nat:535541258131865633> → basics
-    • 6th: ignore and build on Ambassador
+Walk south and slightly west to get into position for spinners.
+
+⬥ <:nat:535541258131865633> after clearing the last spinner as you will not have <:adrenrenewal:736298121704767538> available for the next <:sunshinepf:867678154143694868>
+
+⬥ **Example Spinner (should be similar for non-<:soa:869284271595069451>) rotation**
+    • 1st: (sw spinner): pre-<:magmatempesttarget:924741973858996284> → <:gconc:869285393223254107> → <:dbreath:535533833391702017>
+    • 2nd: <:bloodbarrage:537338981747261446> + <:wm:535533809978966037> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → basic
 
 .
-⬥ **Spinners Tips**
-    • You only need to kill 5 out of 6 and then use either <:disrupt:535614336207552523> or <:res:535541258844635148> to block the explosion hit.
-    • No movement abilities are required to effectively move between spinners; however, if desired, it is recommended to use Bladed Dive <:bd:535532854281764884> as its cooldown will be reset by each spinner death.
-    • Using Vulnerability bombs <:vulnbomb:655341074235129858> on each of the spinners is not necessary but recommended.
-    • The spinners are not immune to binds and therefore Ice Barrage + Wrack <:icebarrage:537340400185245701> <:wrack:856662355952795658> can be utilized.
+    • 3rd: <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:bloodbarrage:537338981747261446> + basic
+    • 4th: <:gconc:869285393223254107> → <:asphyx:535533833072672778> → basic
+
+.
+    • 5th: <:bloodbarrage:537338981747261446> + <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → basic
+    • 6th: <:corruptblast:513190159194259467> → <:gconc:869285393223254107> → basic
+    • When the beam reaches where the 1st (sw) spinner was, do <:smokecloud:856635090641879050> + <:nat:535541258131865633> → build with defensives → <:sunshinepf:867678154143694868> → <:magmatempesttarget:924741973858996284>
+        - Your <:sunshinepf:867678154143694868> should be right before or at the "0 fragments were reabsorbed!" message.
+
+.
+⬥ Post-spinners <:nat:535541258131865633> example:
+.
+.img:https://imgur.com/BuUmTYu.mp4
 
 .
 **__Phase 3 - 650k-400k__**
-⬥ **Natural Instinct Sunshine** <:nat:535541258131865633> <:Sunshine:583430011948630016>
-<:Sunshine:583430011948630016> → 3-4 basics → <:disrupt:535614336207552523> the eruption → <:wm:535533809978966037> → <:asphyx:535533833072672778> (5th magic auto) → <:deto:535533833358016512> (3rd smoke timer start) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → move
+You should blow past this phase with a <:soa:869284271595069451> rotation and skip the second black hole most of the time.
 
-<:wm:535533809978966037> → (6th magic auto) <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → clear black hole with <:impact:535533809655873556> immediately
-
-build with basics → (7th magic auto) <:deto:535533833358016512> (if bad adren skip <:deto:535533833358016512> to not delay next <:Sunshine:583430011948630016>) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> (DW) <:asphyx:535533833072672778>
+⬥ You can <:vitality:654618235097972737> black hole is not wanting to miss out damage from <:soa:869284271595069451> rotation.
+    • Stun as needed if <:vitality:654618235097972737> is down
 
 .
-⬥ **Phase 3 Tips**
-    • If you are confident in your ability to <:res:535541258844635148> on tick, you can <:res:535541258844635148> the 7th magic auto here to save food.
-    • Try to end this phase on very low hp for a large heal from Seiryu but beware as flicking to <:DeflectMage:544195487926845462> to block a magic auto will still cost you somewhere around 2-3k hp.
+⬥ **Example post-spinners <:sunshinepf:867678154143694868>**:
+
+(In <:sunshinepf:867678154143694868>) <:gconc:869285393223254107> → <:tsunamiincite:958989794757730307> → <:soa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → 2-hit <:asphyx:535533833072672778> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:omnipowerigneous:959089455560540200> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>  → <:gconc:869285393223254107> → <:wm:535533809978966037>
 
 .
 **__Phase 4 - Ritual (400k-0 HP)__**
-⬥ **General Strategy**
-    • Blocking the Healing Smoke
-        - Understand your character as a wedge when blocking smoke. You can always block 2 smoke directions at once so whenever you have to move, rather than moving to block the current smoke, move to block the current smoke *and the next smoke*. For this reason it is also more beneficial to move to melee distance for this phase.
-        - Alternatively you can spam click under him to block all of the healing smoke without needing to move, though this is also the most click-intensive and difficult thing you can do.
-    • Blocking Magic Onslaught (from most to least ideal)
-        - Devotion <:devo:513190158728953857>
-        - Reflect <:reflect:535541258786177064> + Vitality Powerburst <:vitality:654618235097972737>
-        - Reflect <:reflect:535541258786177064> + Debilitate <:debil:535541278264393729>
-        - Vitality Powerburst <:vitality:654618235097972737> + Shield Dome <:sd:537341954392850442>
-
-*Note: <:vitality:654618235097972737> <:sd:537341954392850442> is very dangerous and is only to save kills following misjudgements. You should never want to use this method. Timing a <:res:535541258844635148> for hp or using <:disrupt:535614336207552523> to block the 1st hit of Magic Onslaught also helps this method but adds even more risk.*
+After your <:sunshinepf:867678154143694868>, Ambi should have entered this phase. Improvise a rotation until your next <:sunshinepf:867678154143694868> is up and either <:sunshinepf:867678154143694868> or finish off the kill depending on Ambi's HP.
 
 .
-⬥ **Apot Sunshine** <:adrenrenewal:736298121704767538> <:Sunshine:583430011948630016>
-    • Run underneath and activate Sunshine <:Sunshine:583430011948630016>.
-        - This will allow you to move to block smokes while remaining in <:Sunshine:583430011948630016>.
-<:Sunshine:583430011948630016> + <:adrenrenewal:736298121704767538> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> (sun ends)
+If Ambi has **less than** 100k HP when <:sunshinepf:867678154143694868> is off cooldown:
+Finish off Ambi with powerful abilities.
 
-    • Use Devotion <:devo:513190158728953857> to block the Magic Onslaught
-
-*Note: Very unideal but depending on the timing you may need to activate Limitless <:limitless:641339233638023179> to <:devo:513190158728953857>.*
+⬥ **Example finish (no <:sunshinepf:867678154143694868>)**
+<:magmatempesttarget:924741973858996284> → <:gconc:869285393223254107> → <:asphyx:535533833072672778> → <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:wm:535533809978966037> → <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → improvise
 
 .
-⬥ **Last 100k or So**
-    • Depending on the hp remaining, you have 3 options here.
-        - The right option is a judgement call and takes practice.
-        - Factors to consider include: hp remaining, food remaining, <:limitless:641339233638023179> availability, dps, and confidence
+If Ambi has **more than** 100k HP when <:sunshinepf:867678154143694868> is off cooldown:
+<:Sunshine:583430011948630016> and finish off Ambi with powerful thresholds and <:omnipowerigneous:959089455560540200>
 
 .
-    • **Safe and Slow** - use a thresh or 2 then build to Sunshine
-<:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> → <:Sunshine:583430011948630016> → build (save <:limitless:641339233638023179>) + eat
-
-<:wm:535533809978966037> → <:asphyx:535533833072672778> → <:limitless:641339233638023179> <:reflect:535541258786177064> + <:vitality:654618235097972737> the 2nd Magic Onslaught (may come before or after asphyx) → improvise with thresh
-
-        - This option is slow as it generally will not finish the kill until some time after the 2nd Magic Onslaught; however, this option is the safest as it always has access to a safe approach to dealing with the Onslaught.
-
-.
-    • **All-in for the Skip** - use a thresh then build to <:limitless:641339233638023179> <:meta:535533811304497183>
-<:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> → <:meta:535533811304497183> → <:bloodbarrage:537338981747261446> 2 basics → <:limitless:641339233638023179> <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478>
-
-        - This option should be fairly consistent in skipping; however, it leaves you in a bad way if you fail the skip with the only option being to resort to <:vitality:654618235097972737> <:sd:537341954392850442>.
-        - Example: <https://youtu.be/sjP9TMF_0nM>
+⬥ Non-<:soa:869284271595069451> rotation tips:
+    • Unlike <:soa:869284271595069451>, you can utilise <:gconc:869285393223254107> → <:impactflank:867678154369400862> right after casting <:sunshinepf:867678154143694868>. To do this you must stay under Ambi as you <:gconc:869285393223254107>.
+    • You can follow the same spinner rotation.
+        - Save <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> to block an explosion if you only manage to clear 5 spinners.
+    • Do a standard DPS rotation for p1. Prioritise <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:omnipowerigneous:959089455560540200> → <:wm:535533809978966037> → <:asphyx:535533833072672778>.
+    • Remember to <:impact:535533809655873556> the black hole.
+    • Keep track of <:sunshinepf:867678154143694868> cooldown after first <:sunshinepf:867678154143694868> post-spinners and use an <:sunshinepf:867678154143694868> + <:adrenrenewal:736298121704767538> as soon as possible to finish off the kill.
+    • Remember to keep adren up after second <:sunshinepf:867678154143694868> for <:devo:513190158728953857>
 
 .
-    • **Speed** - assuming hp remaining is fairly low, spam thresh and Guthix Staff EoF <:gstaff:513203008608141314> <:eofpurple:780401412936040478> to kill before 2nd Magic Onslaught
-<:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofpurple:780401412936040478> → improvise
+> __**Mobs**__
+.tag:mobs
+Rotations for mob clearing should be around the same for <:soa:869284271595069451> and non-<:soa:869284271595069451> users.
 
-        - This option is the fastest as it is not restricted by <:Sunshine:583430011948630016> cooldown.
-        - If you choose this option and fail to skip the 2nd Magic Onslaught, eat up and use <:vitality:654618235097972737> <:sd:537341954392850442> to hopefully survive.
-        - If you choose this method and consistently fail to skip, consider trying the All-in method.
-        - Example: <https://youtu.be/p11g8eljI9o>
+⬥ Rotations below are more of suggestions to give an idea of AoE opportunities and ability prioritzation at different parts of the dungeon. If you find yourself needing more abilities to clear mobs due factors such as the lack of <:gchaincaroming:867678153882861568> or inability to 4TAA, improvise accordingly.
+    • Target cycling and using basics is a good way to check and finish off leftover mobs as sometimes their bodies take awhile to disappear after dying.
+    • Most auto + abil combos shown below utilises 4TAA. Looking at the example run would work the best to help visualise how to work autos into your clear.
+    • Running while using abilities and 4TAA-ing can be difficult but it will make mob clear much smoother.
+
+⬥ Camp <:soulsplit:615613924506599497> for almost all mobs except:
+    • Bridge of death: <:DeflectRange:544195488317046812>
+    • Warped skeletons: <:DeflectMage:544195487926845462>
 
 .
-**__Example Kill__**
-https://youtu.be/NFtB7jfFULo
+__**Pre-Crassian**__
+.tag:precrass
+.
+<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> diagonally from entrance to start the dungeon and walk to lure the mobs together.
+
+.
+**__2 Scuttlers 2 Scouts__**
+Stand in the middle and <:magmatempesttarget:924741973858996284> → <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → <:wm:535533809978966037>. <:bdmobile:867678153668820992> + <:surgemobile:867678153798975498> diagonally then <:surgemobile:867678153798975498> to the next scouts. Beware of <:crack4:712073087662686249> activating here and killing your primary <:gchaincaroming:867678153882861568> target.
+
+**__2 Scuttlers 3 Scouts__**
+Do a <:bloodbarrage:537338981747261446> + <:sonic:535533809924571136> then when Scuttlers gather do <:gchaincaroming:867678153882861568> → <:bloodbarrage:537338981747261446> + <:tsunamiincite:958989794757730307>. Using TC + basics should get you to 100%. <:surgemobile:867678153798975498> + <:meta:535533811304497183> + <:surgemobile:867678153798975498>
+
+**__3 Warriors 2 Scouts__**
+Target middle warrior and <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → <:omnipowerigneous:959089455560540200>, <:surgemobile:867678153798975498> to Zealots quickly to capitalise on <:meta:535533811304497183> duration.
+
+**__2 Zealots__**
+(In <:meta:535533811304497183>) <:icebarrage:537340400185245701> + <:wm:535533809978966037> one Zealot and then target the other and <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:icebarrage:537340400185245701> + <:wrack:856662355952795658>. Cut the corner with <:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> to proceed.
+
+⬥ <:meta:535533811304497183> usage + corner cut example:
+.
+.img:https://imgur.com/ubXrM0j.mp4
+.
+**__2 Zealots 2 Scouts__**
+<:magmatempesttarget:924741973858996284> in the middle and target a Zealot and <:gchaincaroming:867678153882861568> → <:asphyx:535533833072672778>. <:surgemobile:867678153798975498> to Zombies after.
+
+.
+**__6 Zombies__**
+Go in the middle and <:corruptblast:513190159194259467> the furthest zombie. Then <:deto:535533833358016512> and <:bloodbarrage:537338981747261446> + release when zombies gather. <:gconc:869285393223254107> zombie left with most HP. Move to the next batch as you TC + basics to finish off.
+
+**__6 Zombies__**
+<:undeadslayer:641339922019516416> + <:gchaincaroming:867678153882861568> → <:omnipowerigneous:959089455560540200> and cross the plank.
+
+**__4 Zombies 1 Armoured zombie__**
+<:magmatempesttarget:924741973858996284> while running to the middle. Target armoured zombie and <:comb:535533833098100745> → <:bloodbarrage:537338981747261446> <:corruptblast:513190159194259467>. Then target the highest HP normal zombie and <:gchaincaroming:867678153882861568> → <:bloodbarrage:537338981747261446> + <:wm:535533809978966037>
+
+**__2 Zealots__**
+Target Zealot and charge <:deto:535533833358016512> into 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> + <:gchaincaroming:867678153882861568> → <:dbreath:535533833391702017> and build to 100. <:surgemobile:867678153798975498> into Crassian.
+
+.
+__**Post-crassian to pre taraket**__
+.tag:crasstara
+After Crassian, <:accel:756236265472524418> until the next barrier.
+
+⬥ <:accel:756236265472524418> example:
+.
+.img:https://i.imgur.com/z0vZF8d.mp4
+
+.
+**__1 Zealot 4 Scuttlers__**
+Target Zealots and run to the middle and <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → <:wm:535533809978966037> or <:asphyx:535533833072672778>. <:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> into the middle of Zombies.
+
+**__8 Zombies__**
+<:magmatempesttarget:924741973858996284> on yourself and <:undeadslayer:641339922019516416> + <:comb:535533833098100745> the furthest zombie from you. <:gchaincaroming:867678153882861568> → <:omnipowerigneous:959089455560540200> to clear almost all zombies and TC + basics while running to finish off. Proceed and jump off the cliff.
+
+**__1 Necromancer 2 Huge Skeletons__**
+Target necromancer and <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → <:tsunamiincite:958989794757730307>. Position yourself to hit both huge skeletons. <:bdmobile:867678153668820992> outwards and target a necromancer when the barrier opens.
+
+.
+**__1 Necromancer__**
+While running past, <:icebarrage:537340400185245701> + <:wm:535533809978966037> → <:wrack:856662355952795658>
+
+**__3 Armoured Zombies__**
+Target the middle zombie and <:gchaincaroming:867678153882861568> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> → <:dbreath:535533833391702017>. Go through door and <:bdmobile:867678153668820992> + <:surgemobile:867678153798975498> to middle of the next room. You will experience an FPS drop here.
+
+**__2 Necromancers__**
+<:asphyx:535533833072672778> on Necromancer and  <:bloodbarrage:537338981747261446> + <:wm:535533809978966037> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> the other. Proceed to bridge and <:devo:513190158728953857> + <:surgemobile:867678153798975498>. Stand in the following position so that the Sea Horrors will back away from you instead of engaging you once damaged.
+
+⬥ Mage standing position:
+.
+.img:https://imgur.com/6uFLUs0.png
+
+.
+**__1 Necromancer 2 Sea Horrors [Bridge of Death]__**
+<:magmatempesttarget:924741973858996284> and target the Necromancer → <:gchaincaroming:867678153882861568> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> → <:dbreath:535533833391702017> + <:surgemobile:867678153798975498> and TC + basics to finsih off Sea Horrors. <:surgemobile:867678153798975498> diagonally to Sotapannas.
+
+**__3 Sotapannas__**
+Target middle Sotapanna and <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → <:dbreath:535533833391702017>. Diagonally <:bdmobile:867678153668820992> + <:surgemobile:867678153798975498> and proceed to the barrier before Taraket.
+
+.
+**__2 Necromancers 2 Huge Skeletons__**
+Target a Necromancer and use <:gchaincaroming:867678153882861568> → <:tsunamiincite:958989794757730307> → <:soa:869284271595069451> <:spec:537340400273195028> to avoid having cooldown issues in Taraket. After that, build to 100% adrenaline and <:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> to enter instance, then <:surgemobile:867678153798975498> to Taraket and <:sunshinepf:867678154143694868>
+
+.
+⬥ Taraket entry example:
+.
+.img:https://imgur.com/SIKLGRZ.mp4
+
+.
+__**Post-Taraket to pre-Ambassador**__
+.tag:taraambi
+.
+<:surgemobile:867678153798975498> → <:surgemobile:867678153798975498> towards Sea Witch after finishing Taraket.
+
+.
+**__1 Sea Witch 2 Armoured Zombies__**
+Group the mobs together while targetting the Sea Witch and <:bloodbarrage:537338981747261446> + <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> + basic.
+
+**__1 Kalgerion Demon__**
+Clear the demon with <:demonslayer:641339921675845633> + <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> while moving to the barrier. After it dies quickly <:accel:756236265472524418> to the necromancer on the opposite side of the wall.
+
+.
+⬥ <:accel:756236265472524418> example:
+.
+.img:https://i.imgur.com/K7pgUkO.mp4
+
+.
+**__1 Necromancer__**
+<:bloodbarrage:537338981747261446> + <:omnipowerigneous:959089455560540200> → <:corruptblast:513190159194259467> while running towards next Necromancer.
+
+.    
+**__1 Necromancer__**
+<:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> and <:bdmobile:867678153668820992> + <:surgemobile:867678153798975498> to the next Necromancer.
+
+**__1 Necromancer__**
+<:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> while runnning to the next Necromancer.
+
+**__1 Necromancer__**
+<:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:gconc:869285393223254107> → <:wm:535533809978966037> → finish off and <:surgemobile:867678153798975498> to cliff + dive ledge.
+
+.
+**__5 Warriors 1 Scuttler__**
+<:surgemobile:867678153798975498> then <:bdmobile:867678153668820992> diagonally to lure warriors and scuttler. <:magmatempesttarget:924741973858996284> while running and target a warrior → <:corruptblast:513190159194259467> → TC + <:gchaincaroming:867678153882861568> → <:omnipowerigneous:959089455560540200> → <:dbreath:535533833391702017>
+
+**__2 Warped Skeletons__**
+<:undeadslayer:641339922019516416> + <:comb:535533833098100745> a skeleton, then <:gchaincaroming:867678153882861568> the other → <:asphyx:535533833072672778> and <:bdmobile:867678153668820992> to Zealots.
+
+**__3 Zealots + 2 Warped Skeletons__**
+<:magmatempesttarget:924741973858996284> and target a Warped Skeleton walking to you → <:corruptblast:513190159194259467> → 3t <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> → <:gconc:869285393223254107> and finish off any reminaing mobs. <:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> to scouts afterward while avoiding the minibosses as much as possible.
+
+.
+**__2 Warped Skeletons + 2 Scouts__**
+Wait for skeletons to walk over while <:magmatempesttarget:924741973858996284>, then target skeleton and <:corruptblast:513190159194259467> → <:gchaincaroming:867678153882861568> → <:asphyx:535533833072672778>. Build to 100% and <:bdmobile:867678153668820992> + <:surgemobile:867678153798975498> into instance.
+
 .
 > __**Example Runs**__
 .tag:ER
-<https://youtu.be/6rok3xSpR1s> 11:42 by <@!884175926106157126>
-<https://youtu.be/AzzzO__05-Q> 15:24 by <@!269513930949263363>
-<https://youtu.be/5DvBhiZM3iY> 17:37 (pre-gChain) by <@!133391081109716992>
+⬥ Non-<:soa:869284271595069451> run
+<https://www.youtube.com/watch?v=n3XV0Kc_ydg> 13:58 by <@!300201707378442240>
 
+.
+⬥ <:soa:869284271595069451> run
+<https://www.twitch.tv/videos/1416911277> 10:28 by <@!884175926106157126>
 .
 {
   "embed": {
@@ -587,55 +398,39 @@ https://youtu.be/NFtB7jfFULo
         "value": "[Link]($linkmsg_intro$)",
 		"inline": true
       },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
+      {
+	    "name": "__Preset__",
+        "value": "[Link]($linkmsg_preset$)",
 		"inline": true
       },
-
-	  {
-	    "name": "__First Floor - Pre-Crassian__",
-        "value": "[Link]($linkmsg_FFPC$)",
-		"inline": true
-      },
-	  {
+      {
 	    "name": "__The Crassian Leviathan__",
         "value": "[Link]($linkmsg_crassian$)",
 		"inline": true
       },
 	  {
-	    "name": "__Post Crassian - Second Floor Entry__",
-        "value": "[Link]($linkmsg_PCSFE$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Second Floor Entry - Taraket Entry__",
-        "value": "[Link]($linkmsg_SFTE$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Taraket the Necromancer__",
+	    "name": "__Taraket, the Necromancer__",
         "value": "[Link]($linkmsg_taraket$)",
 		"inline": true
       },
 	  {
-	    "name": "__Taraket Exit - Second Floor Exit__",
-        "value": "[Link]($linkmsg_TESF$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Third Floor Entry - Pre-Ambassador__",
-        "value": "[Link]($linkmsg_TFPA$)",
-		"inline": true
-      },
-	  {
 	    "name": "__Kranon, the Ambassador__",
-        "value": "[Link]($linkmsg_Ambassador$)",
+        "value": "[Link]($linkmsg_ambassador$)",
 		"inline": true
       },
 	  {
-	    "name": "__Ambassador Strategy__",
-        "value": "[Link]($linkmsg_ambistrats$)",
+	    "name": "__Pre-crassian__",
+        "value": "[Link]($linkmsg_precrass$)",
+		"inline": true
+      },
+      {
+	    "name": "__Post-crassian to pre-Taraket__",
+        "value": "[Link]($linkmsg_crasstara$)",
+		"inline": true
+      },
+      {
+	    "name": "__Post-Taraket to pre-Ambassador__",
+        "value": "[Link]($linkmsg_taraambi$)",
 		"inline": true
       },
 	  {
