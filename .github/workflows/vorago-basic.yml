@@ -6,7 +6,7 @@ on:
       branches:
         - master
       paths:
-        - 'vorago/basic/*_combined.txt'
+        - 'basic-guides/vorago-basic/*_combined.txt'
 jobs:
   update-vorago-basic:
     runs-on: ubuntu-latest
@@ -14,4 +14,4 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
-      - run: ./vorago/basic/update.sh
+      - run: ./basic-guides/vorago-basic/update.sh
