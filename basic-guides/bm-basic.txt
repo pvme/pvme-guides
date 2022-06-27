@@ -1,0 +1,196 @@
+> __**Basic Guide: Beastmaster Durzag (courtesy of <@534889769566732299>)**__
+.tag:intro
+Beastmaster Durzag (BM) is the first of two raids bosses. Because of the straightforward nature of the fight, this is often the first group pvm experience for many players.
+
+.
+> __**Presets**__
+.tag:presets
+**__Magic__**
+*Note: upgrade where relevant*
+⬥ <:ripperpouch:703581275453128714> Ripper Demon familiar (or Beast of Burden while learning)
+⬥ Weapon with Planted Feet <:pf:689501925770919981> (e.g. Cywir Wand or Ancient Lantern)
+⬥ Weapon with Flanking (Flanking 4 <:flank4:712073088296157185> recommended, on e.g. Virtus Book)
+⬥ Powerburst of Vitality
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
+(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+.
+.img:https://i.imgur.com/CWrBIQX.png
+.
+**__Range__**
+*Note: upgrade where relevant*
+⬥ <:ripperpouch:703581275453128714> Ripper Demon familiar (or Beast of Burden while learning)
+⬥ Weapon with Planted Feet <:pf:689501925770919981> (e.g. Shadow Glaive or Ancient Repriser)
+⬥ Weapon with Flanking (Flanking 4 <:flank4:712073088296157185> recommended, on e.g. Off-hand Shadow Glaive or Off-hand Chaotic Crossbow)
+.
+.img:https://i.imgur.com/5XE7J5y.png
+.
+> __**Overview of the Fight**__
+.tag:overview
+⬥ The fight begins by clearing airuts and chargers.
+    • Beware of Airuts' punishing melee attacks.
+⬥ When the mob counter reaches 22 the first pet, Cormes, will spawn beside the western gong.
+    • Stand slightly SE of this gong and attack the pet.
+    • Protect melee <:DeflectMelee:544195488447201300> if attacked by melee airuts, or step away and <:devo:513190158728953857>.
+⬥ Kill airuts and chargers until the countdown reaches 0.
+⬥ At this point, team members should position themselves near the centre of the arena.
+    • Base lures BM to the SE corner.
+    • Pet Tank 2 provokes the pet ensuring it faces away from the team.
+    • NC and BUSC clear chargers lining the arena perimiter.
+⬥ The DPS attack Pet 2 until it reaches 100k health.
+    • They should then switch to Pet 3, attacking until it reaches ~100k lifepoints.
+⬥ Kill pets when BM is almost 750k LP. If BM still has high health (~900k), lower BM's lifepoints to 750k before finally killing the pets.
+⬥ Once pets die, focus on BM.
+
+.
+> **__Pet Tank__**
+.tag:pettank
+{
+  "embed": {
+    "title": "BM Pet Mechanics",
+    "color": 16777215,
+    "fields": [
+      {
+        "name": "Attack effects",
+        "value": "⬥ Range attacks (Krar) drain run energy, stunning you if run energy reaches 0%.\n⬥ Mage attacks (Tuz) apply a bleed.\n⬥ Melee attacks (all pets if in melee distance) apply stacks which increase damage received."
+      },
+      {
+      "name": "General advice",
+      "value": "⬥ Provoke <:voke:535541259465392143> pets promptly and position to face away from the dps pile.\n⬥ Ensure pets are **not** in the south-east quadrant with BM.\n⬥ Pets can randomly 'jump',  targetting other players.\n\u00a0\u00a0\u00a0\u00a0• <:voke:535541259465392143> the pet back and lure it far from BM, keeping it facing away from the DPS pile. [Example](https://imgur.com/SdALHPU.mp4).\n⬥ Cycling defensives (<:res:535541258844635148>, <:debil:535541278264393729>, <:devo:513190158728953857>, <:reflect:535541258786177064>) is advised to mitigate damage taken."
+      }
+
+    ]
+  }
+}
+.embed:json
+⬥ Pets are split between two players: Pet Tank 1/3 and Pet Tank 2
+    • The numbers refer to the respective order in which the pets spawn.
+    • The first pet is always Cormes, the second pet can be either Tuz or Krar.
+⬥ For Cormes, stand north of the western gong and <:voke:535541259465392143> as soon as it spawns.
+    • Protect Range <:DeflectRange:544195488317046812> and DPS the pet until it dies.
+.
+.img:https://imgur.com/nqu7oF0.png
+.
+⬥ Pet 2 spawns with BM. Position yourself just east of the northern gong, drop your DPS ultimate and <:voke:535541259465392143> the pet as soon as it spawns.
+⬥ When Pet 2 reaches 500k LP, the third pet will spawn in a random corner.
+    • Pet Tank 1/3 should <:voke:535541259465392143> to draw the pet away from BM, keeping it facing away from the DPS pile.
+.
+.img:https://imgur.com/e4U8Wvb.png
+.
+> __**North Chargers (NC)**__
+.tag:nc
+⬥ Draws aggression of the northern chargers and kills them.
+⬥ Shortly before the mob counter reaches 0, make your way to the eastern gong.
+⬥ The perimeter of the arena is lined with cages which fill with chargers once BM spawns.
+    • Start north of the eastern gong, move counter-clockwise.
+    • Click each cage to free the charger.
+        - Take a wide turn around the northern gong so chargers do not get trapped behind the pet. Example: <https://imgur.com/A1bDenb.mp4>
+⬥ Once you collect all the northern chargers, move along the west wall to the SW corner.
+⬥ Along with the BUSC, kill chargers with AOE abilities.
+    • Rangers should bring Mechanised Chinchompas <:mechchin:641669268722810881>.
+    • Magers should prioritise AOE abilities (e.g. <:corruptblast:513190159194259467> <:dbreath:535533833391702017> <:deto:535533833358016512> <:tsunamiincite:958989794757730307>).
+⬥ After clearing chargers, NC becomes a DPS for the rest of the fight.
+.
+.img:https://imgur.com/KdwdbkC.png
+.
+> **__Backup / South Chargers (BUSC)__**
+.tag:busc
+⬥ Clears southern chargers and helps the Base Tank with tanking BM.
+⬥ To clear chargers, start south of the eastern gong and move clockwise to the SW corner, clicking cages. Example: <https://imgur.com/KE8qKSu.mp4>
+    • AOE chargers down with the NC.
+        - Rangers should bring Mechanised Chinchompas <:mechchin:641669268722810881>.
+        - Magers should prioritise AOE abilities (e.g. <:corruptblast:513190159194259467> <:dbreath:535533833391702017> <:deto:535533833358016512> <:tsunamiincite:958989794757730307>).
+⬥ After clearing chargers, go directly east of the southern gong.
+    • Drop your DPS ultimate and attack BM. It is safest to Protect Melee <:DeflectMelee:544195488447201300> until the end of the fight.
+⬥ When BM reaches 750k LP **OR** one of the pets dies (whichever happens first), <:voke:535541259465392143> BM.
+⬥ Aim to always have a defensive up as BM hits especially hard during this stage of the fight.
+⬥ Eventually the base will provoke BM away from you.
+    • In longer kills, your stacks will clear. You should then <:voke:535541259465392143> back BM. Repeat this process with the base until the end of the kill.
+
+.
+> **__Base Tank__**
+.tag:base
+{
+  "embed": {
+    "title": "BM Mechanics",
+    "color": 16777215,
+    "fields": [
+      {
+        "name": "Mechanics",
+        "value": "⬥ BM attacks his main target with a 3x3 melee AOE attack.\n\u00a0\u00a0\u00a0\u00a0• All players _not directly behind him_ are hit with a range auto attack\n⬥ Applies a stack to his primary target (up to a maximum of 15) per auto.\n\u00a0\u00a0\u00a0\u00a0• This increases the damaged received by 6.6% per stack.\n⬥ BM resets your defensives at 5, 10, and 15 stacks.\n\u00a0\u00a0\u00a0\u00a0• Defensives are reset for 3 seconds, 6 seconds, and after every auto, respectively.\n⬥ Freedom <:freedom:535541258240786434> is used to halve stacks.\n\u00a0\u00a0\u00a0\u00a0• This halves stacks, rounded down (e.g. using <:freedom:535541258240786434> at 9 stacks brings them down to 4).\n⬥ BM throws out explosive magic bombs. [Example](https://imgur.com/t0iiVH5.mp4)\n\u00a0\u00a0\u00a0\u00a0• Bombs put defensives on cooldown for 3 seconds.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Click bombs to defuse them.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Deflect Magic <:DeflectMage:544195487926845462> halves damage from them.\n⬥ BM can drag players into melee distance randomly. [Example](https://imgur.com/a/hGkMgfp.mp4)\n\u00a0\u00a0\u00a0\u00a0• Use <:DeflectMelee:544195488447201300> and run away quickly"
+      }
+    ]
+  }
+}
+.embed:json
+⬥ When BM spawns, <:voke:535541259465392143> him and proceed to the SE corner. Example:<https://imgur.com/CCknDQP.mp4>
+.
+.img:https://imgur.com/6zUuEsq.png
+.
+⬥ Once in the corner, drop your DPS ultimate and attack BM.
+⬥ After the BUSC provokes BM away from you, your stacks will eventually clear. When stacks clear, <:voke:535541259465392143> back and cycle through your defensive abilities.
+.
+.img:https://imgur.com/KgFimmi.png
+.
+⬥ After BM reaches 750k hp, DPS him down as fast as possible.
+⬥ The Base and BUSC should 'juggle' BM to enable eachother to clear stacks and maintain good HP.
+    • All other team members are now purely DPS until BM dies.
+
+.
+> __**Learning Raids**__
+.tag:bossschool
+If you're interested in learning raids, join this boss school link and check out the pins there to get started!
+.
+https://discord.gg/88ru2vd
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+        "inline": true
+      },
+      {
+        "name": "__Overview__",
+        "value": "[Link]($linkmsg_overview$)",
+        "inline": true
+      },
+      {
+        "name": "__Pet Tank__",
+        "value": "[Link]($linkmsg_pettank$)",
+        "inline": true
+      },
+      {
+        "name": "__North Chargers__",
+        "value": "[Link]($linkmsg_nc$)",
+        "inline": true
+      },
+      {
+        "name": "__Back-up (South Chargers)__",
+        "value": "[Link]($linkmsg_busc$)",
+        "inline": true
+      },
+      {
+        "name": "__Base Tank__",
+        "value": "[Link]($linkmsg_base$)",
+        "inline": true
+      },
+      {
+        "name": "__Learning Raids__",
+        "value": "[Link]($linkmsg_bossschool$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
