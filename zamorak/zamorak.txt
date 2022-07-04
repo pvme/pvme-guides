@@ -89,21 +89,66 @@ Some things to bring/acquire if you have them or can afford them, listed in orde
 .tag:enrage
 .
 ⬥ 0%: Boss spawns in lole
+⬥ 100%: Phase 7 introduced
 .
 ZAMORAK ENRAGE HACK? 符文逃生 DARKLIGHT EOF 10K ENRAGE HACK? 符文逃生 LUCARIO ILLEGAL EXPLOIT 符文逃生 1-TICK GCD GLITCH 符文逃生 WOOX RETURNS TO RUNESCAPE 3 符文逃生 DURIAL312 WILDERNESS PVP OPT-OUT DISASTER 符文逃生 400 HCIM LIVES LOST 符文逃生
 
 .
-> **__Attack Pattern__**
-.tag:pattern
+> **__Attacks__**
+.tag:attack
 .
 ########################################################################################
-                     ATTACK PATTERN PLACEHOLDER TEXT
+                     ATTACKS PLACEHOLDER
 ########################################################################################
 .
 > **__Mechanics__**
 .tag:mech
 .
-.img:https://i.imgur.com/uGqdhM7.png
+.img:https://i.imgur.com/wKkga50.png
+.
+⬥ Pad 1
+    • Hex: Affliction
+        - When Zamorak's targets heal, the amound will be reduced by x% per stack
+    • Edict: Balance of Power
+        - While below 60% lifepoints, outgoing damage is increased by 6% per stack
+
+⬥ Pad 2
+    • Hex: Chaos Traps
+        - Upon activation, Zamorak spawns traps across the arena that deal spike magic damage as you walk over them
+    • Edict: Sword of Edicts
+        - Temporarily siphon the dwindling defensive power from the sword, dealing and taking 5% less damage while standing near it
+
+⬥ Pad 3
+    • Hex: Disintegrate
+        - Zamorak's attacks push 7% of damage through any shielding effects, per stack
+    • Edict: Guardian's Triumph
+        - After casting an ultimate ability, your next basic consumes guardian's triumph, increases the damage it deals by 20% damage it deals by 20% and heals you for 8% of your missing LP per stack
+
+⬥ Pad 4
+    • Hex: Coven
+        - Zamorak calls forth some of his coen to support him
+    • Edict: Inner Chaos
+        - When standing near a hexed rune, you deal and take 5% more damage
+⬥ Pad 5
+    • Hex: Smite
+        - If Zamorak's targets are hit below 5% of their HP level, they'll be executed instantly
+    • Edict: Haste
+        - Your ability cooldowns are reduced by 20% of the original cooldown per stack
+⬥ Pad 6
+    • Hex: Twinshot
+        - Zamorak's attacks deal a second hit at 10% of the original hit, per stack
+    • Edict: Anima Flow
+        - All basic abilities generate 2% more adrenaline per stack
+*Note: Stacks are accumulated as additional runes are activated. ie. if you activate pads 6 → 5 → 4, once 4 is activated rune 6 will have 3 stacks, rune 5 will have 2 stacks and rune 4 will have 1 stack.*
+
+.
+> **__Phase 7__**
+At 100% enrage phase 7 is introduced, players get dragged to Infernus. After the Chaos Demon is killed, images of **5 runes will travel towards Zamorak** and stay there for a moment, **the order which these appear in front of Zamorak is the order they must be defeated in.** Killing a rune out of order will result in players taking a large amount of damage.
+
+After the fifth rune is defeated Zamorak is attackable and will start sending out large hits, starting with the melee slam.
+
+It is advised to prebuild and ultimate before the last rune is killed.
+
 .
 > __**Example Kills**__
 .tag:examples
@@ -154,8 +199,8 @@ ZAMORAK ENRAGE HACK? 符文逃生 DARKLIGHT EOF 10K ENRAGE HACK? 符文逃生 LU
         "inline": true
       },
       {
-        "name": "__Attack Pattern__",
-        "value": "[Link]($linkmsg_pattern$)",
+        "name": "__Attacks__",
+        "value": "[Link]($linkmsg_attack$)",
         "inline": true
       },
       {
