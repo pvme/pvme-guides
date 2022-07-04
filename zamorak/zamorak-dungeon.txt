@@ -1,10 +1,18 @@
-> **__Zamorak, Lord of Chaos Dungeon__**
+> **__The Zamorakian Undercity__**
 .
 .img:https://i.imgur.com/wxxJh3f.jpg
 .
 **__Introduction__**
 .tag:intro
 Zamorak, Lord of Chaos is the fifth and final installment in the Elder God Wars.  This guide will primarily focus on clearing the dungeon segment, for help defeating the boss visit <#992218608602189854>.
+
+.
+> __**General Notes for Senntisten Undercity + Zamorak**__
+.tag:miscinformation
+.
+⬥ Lucky charms for the dungeon can be bought from Thoksdotter at Daemonheim
+⬥ A LOT of mobs can be ignored throughout the dungeon, but note that **Menders and Dark Wizards will heal mobs/drain your adrenaline.**
+⬥ The only required minibosses are the Jailer on the second floor (who teleports to different floors after 50k damage dealt x Team Size) and Eterna being the second boss before Zamorak.
 
 .
 > __**Presets**__
@@ -79,11 +87,63 @@ Some things to bring/acquire if you have them or can afford them, listed in orde
     • Essence of Finality with Guthix Staff stored <:eofpurple:780401412936040478> <:gstaff:513203008608141314>
 
 .
-> **__Section 1__**
-.tag:first
+> **__Dungeon Floor Overview__**
+.tag:dungeonfloors
+.img:https://i.imgur.com/JC5C0F9.png
 .
-Clear the dungeon.
 
+.
+> **__Mefis the Jailer__**
+.tag:mefis
+.img:https://i.imgur.com/reBkoHj.png
+.
+Mefis the Jailer is the first boss of the dungeon, this boss is a typical "mini-boss" styled encounter, dealing magic auto-attacks and low upfront damage to the player.
+.
+{
+  "embed": {
+    "description": "Mefis will teleport to different floors after **(50k damage dealt X Team Size)**, *(ex: see [this link]($linkmsg_dungeonfloors$) for locations)*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Damage Scaling__",
+        "value": "• 1 Person: 50k Damage before the jailer teleports\n• 2 People: 100k Damage before the jailer teleports\n• 3 People: 150k Damage before the jailer teleports\n• 4 People: 200k Damage before the jailer teleports\n• 5 People: 250k Damage before the jailer teleports"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> **__Unlocking Eternas Door__**
+To unlock Eternas doorway you must find two crystal pylon locations see **Dungeon Floor Overview Section** for the respective locations
+
+.
+> **__Eterna__**
+.tag:eterna
+.img:https://i.imgur.com/sgDNLwj.png
+.
+Eterna is the last boss of the dungeon, this boss has multiple high hitting mechanics and does alternating magic / range auto-attacks throughout the fight.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Phase 1__",
+        "value": "⬥ Deal damage until Eterna phases\n\u00a0\u00a0\u00a0\u00a0• Eterna will spawn a single Chaos Demon Savage after phasing, kill them to move into phase 2."
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Eterna re-appears with full HP along with spawning spiked-circles on the ground, deal damage until phase HP again to move on.\n\u00a0\u00a0\u00a0\u00a0• Circles can be dealt with by using defensives or <:disrupt:535614336207552523>\n⬥ Magic bombs will also spawn from the red portal in the center dealing low magic damage.\n⬥ Two Chaos Demon Savages will spawn kill them to proceed to phase 3."
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Eterna re-appears with all mechanics listed previously, deal damage until she is dead to move on to the next room.\n⬥The red portal in the center fires a spout into the player, dealing no damage and placing a bar over their head.\n\u00a0\u00a0\u00a0\u00a0• When this bar depletes, a 5x5 area around the player will become engulfed in smoke, dealing more damage the longer you stand inside."
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > __**Example Runs**__
@@ -125,23 +185,23 @@ Clear the dungeon.
         "inline": true
       },
       {
-        "name": "__Preset__",
-        "value": "[Link]($linkmsg_preset$)",
+        "name": "__Miscellaneous Information__",
+        "value": "[Link]($linkmsg_miscinformation$)",
         "inline": true
       },
       {
-        "name": "__Section 1__",
-        "value": "[Link]($linkmsg_first$)",
+        "name": "__Dungeon Floor Overview__",
+        "value": "[Link]($linkmsg_dungeonfloors$)",
         "inline": true
       },
       {
-        "name": "__Section 2__",
-        "value": "[Link]($linkmsg_second$)",
+        "name": "__Mefis the Jailer__",
+        "value": "[Link]($linkmsg_mefis$)",
         "inline": true
       },
       {
-        "name": "__Section 3__",
-        "value": "[Link]($linkmsg_third$)",
+        "name": "__Eterna__",
+        "value": "[Link]($linkmsg_eterna$)",
         "inline": true
       },
       {
