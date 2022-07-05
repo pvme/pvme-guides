@@ -99,6 +99,26 @@ Some things to bring/acquire if you have them or can afford them, listed in orde
 ⬥ Autoattack cycle:
 5 Magic autos → 5 Ranged autos → Repeat (Special attacks get woven in)
 
+⬥ Channelers: A message will appear saying **`Zamorak begins to draw power and energy from something within Infernus.`** , this will spawn a Chaos witch chaneller in Infernus.
+    • Players must enter Infernus with the extra ability button and defeat the witch before being able to activate the next rune.
+
+⬥ Melee Slam: Zamorak will yell **`The world will end.`** and slam into the ground, dealing 2 melee hits.
+    • To deal with these, <:DeflectMelee:544195488447201300> and use defensives if low hp
+
+⬥ Chaos Blast: Zamorak will charge up his attack shouting **`I will tear you asunder!`**.
+    • To deal with the mechanic successfully stun him enough times, after such a damage requirement will appear to force him to launch the attack early.
+    • He will yell **`Feel the rage of a god.`** and send a red projectile that deals up to 25,000 soft typeless damage - this is reduced based on how fast he is interrupted.
+    • Use <:vitality:654618235097972737> and <:res:535541258844635148> or <:disrupt:535614336207552523>
+
+.
+⬥ Infernal Tomb: Zamorak will target players, assign a rune to them overhead and transport them to Infernus where greater demons are marching towards the portal to the main arena.
+    • Most players elect to use a quick couple abilities to kill the demons (ideally <:caroming4:791281588792590336><:gchain:787904334495088672> → ability)
+    • Players must go to the pad with the same corresponding rune they recieved overhead.
+*Note: 2 of the runes are the same, it doesn't matter which you exit from, another rune looks very similar. Going to the wrong pad will inflict massive damage to all party members.*
+
+⬥ Flames of Zamorak: Zamorak will say **`Chaos, unfettered!`** then drop the prayers of those affected by the attack, preparing to bombard players with heavy magic attacks.
+    • Remain still, <:DeflectMage:544195487926845462> and utilise <:debil:535541278264393729> , <:reflect:535541258786177064> or <:devo:513190158728953857> .
+
 .
 > **__Mechanics__**
 .tag:mech
@@ -144,9 +164,10 @@ Some things to bring/acquire if you have them or can afford them, listed in orde
 
 .
 > **__Phase 7__**
+.tag:p7
 At 100% enrage phase 7 is introduced, players get dragged to Infernus. After the Chaos Demon is killed, an amount of runes equivelant to your team size will appear and stay there for a moment, **the order which these appear in front of Zamorak is the order they must be defeated in.** Killing a rune out of order will result in players taking a large amount of damage. The runes will uber heal after they are defeated; the same rune may occur twice.
 
-After the last rune is defeated Zamorak is attackable and will start sending out large hits, starting with the melee slam followed by an AOE attack.  Make sure your team is spread out or it may hit over 10k even at 100%.
+After the last rune is defeated Zamorak is attackable and will start sending out a large hit followed by addition hits at 10% of the original, the original hit before mitigation is equivalent to the  starting with the melee slam followed by an AOE attack.  Make sure your team is spread out or it may hit over 10k even at 100%.
 
 .
 **Final phase entrance **(Courtesy of <@646361605310906409>)
@@ -160,13 +181,25 @@ After the last rune is defeated Zamorak is attackable and will start sending out
 
 After entering the last arena:
 ⬥ Team kills Chaos Demon
-⬥ Team kills [Team size -1] runes as soon as they appear, **be careful not to overkill them**
+⬥ Team kills runes as soon as they appear, **be careful not to overkill them**
 ⬥ Before killing the last rune, team gets ready to ult and deal as much damage as possible in a very short amount of time, making sure to be spread out.
 ⬥ Kill last rune, immediately get on Zamorak
-    • You will want to pray melee, debilitate and Powerburst of Vitality.
+    • You will want to <:DeflectMelee:544195488447201300> and <:vitality:654618235097972737> before the attacks hit you
 ⬥ Repeat phase starting at killing the runes as many times as necessary.
 
-It is advised to prebuild and ultimate before the last rune is killed.
+
+.
+**Suggested low enrage strategy (Courtesy of <@190066298338803712>)**
+
+In 5man assign people to NW/NE/SE/SW/Middle
+
+⬥ Each person responsible for the 2 runes close to them
+⬥ Get all runes to about 10k hp while zammy starts giving the order
+⬥ Once zammy gives the first rune, people responsible kill the rune and call it out
+⬥ Kill the runes one by one according to the order (not more than 2 people per rune to not overkill)
+⬥ Natty and nami/soa on zammy meanwhile
+⬥ Once runes are killed, spread out (the NW/NE players go behind the boss, other three spread around hte boss)
+  and with the strongest dpm rotation you can on the boss.
 
 .
 > __**Example Kills**__
@@ -186,11 +219,11 @@ It is advised to prebuild and ultimate before the last rune is killed.
       },
       {
         "name": "__Melee__",
-        "value": "⬥"
+        "value": "⬥ [110% Solo](https://www.youtube.com/watch?v=6M8B0V9MNlQ) by Onyksi"
       },
       {
         "name": "__Magic__",
-        "value": "⬥ [20%](https://www.youtube.com/watch?v=zMYlnCVLsAA) by <@239465986825256971>"
+        "value": "⬥ [20% Solo](https://www.youtube.com/watch?v=zMYlnCVLsAA) by <@239465986825256971>\n⬥ [100% Solo](https://youtu.be/EqahWQ7H9UQ) by <@727283889978081290>\n⬥ [130% Trio](https://www.youtube.com/watch?v=sCoC68VB-AI) by <@128957522630541312>"
       }
     ]
   }
@@ -225,6 +258,11 @@ It is advised to prebuild and ultimate before the last rune is killed.
       {
         "name": "__Mechanics__",
         "value": "[Link]($linkmsg_mech$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 7__",
+        "value": "[Link]($linkmsg_p7$)",
         "inline": true
       },
       {
