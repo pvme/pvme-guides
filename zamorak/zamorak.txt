@@ -88,67 +88,86 @@ Some things to bring/acquire if you have them or can afford them, listed in orde
 > **__Enrage Mechanics__**
 .tag:enrage
 .
-⬥ 0%: Boss spawns in lole
+⬥ 0% - 100%: Zamorak's damage and HP scales with enrage. The fight ends after all edicts have been activated
+
 ⬥ 100%: Phase 7 introduced
-.
-ZAMORAK ENRAGE HACK? 符文逃生 DARKLIGHT EOF 10K ENRAGE HACK? 符文逃生 LUCARIO ILLEGAL EXPLOIT 符文逃生 1-TICK GCD GLITCH 符文逃生 WOOX RETURNS TO RUNESCAPE 3 符文逃生 DURIAL312 WILDERNESS PVP OPT-OUT DISASTER 符文逃生 400 HCIM LIVES LOST 符文逃生
 
 .
 > **__Attacks__**
 .tag:attack
 .
-########################################################################################
-                     ATTACKS PLACEHOLDER
-########################################################################################
+⬥ Autoattack cycle:
+5 Magic autos → 5 Ranged autos → Repeat (Special attacks get woven in)
+
+⬥ Channelers: A message will appear saying **`Zamorak begins to draw power and energy from something within Infernus.`** , this will spawn a Chaos witch chaneller in Infernus.
+    • Players must enter Infernus with the extra ability button and defeat the witch before being able to activate the next rune.
+
+⬥ Melee Slam: Zamorak will yell **`The world will end.`** and slam into the ground, dealing 2 melee hits.
+    • To deal with these, <:DeflectMelee:544195488447201300> and use defensives if low hp
+
+⬥ Chaos Blast: Zamorak will charge up his attack shouting **`I will tear you asunder!`**.
+    • To deal with the mechanic successfully stun him enough times, after such a damage requirement will appear to force him to launch the attack early.
+    • He will yell **`Feel the rage of a god.`** and send a red projectile that deals up to 25,000 soft typeless damage - this is reduced based on how fast he is interrupted.
+    • Use <:vitality:654618235097972737> and <:res:535541258844635148> or <:disrupt:535614336207552523>
+
+.
+⬥ Infernal Tomb: Zamorak will target players, assign a rune to them overhead and transport them to Infernus where greater demons are marching towards the portal to the main arena.
+    • Most players elect to use a quick couple abilities to kill the demons (ideally <:caroming4:791281588792590336><:gchain:787904334495088672> → ability)
+    • Players must go to the pad with the same corresponding rune they recieved overhead.
+*Note: 2 of the runes are the same, it doesn't matter which you exit from, another rune looks very similar. Going to the wrong pad will inflict massive damage to all party members.*
+
+⬥ Flames of Zamorak: Zamorak will say **`Chaos, unfettered!`** then drop the prayers of those affected by the attack, preparing to bombard players with heavy magic attacks.
+    • Remain still, <:DeflectMage:544195487926845462> and utilise <:debil:535541278264393729> , <:reflect:535541258786177064> or <:devo:513190158728953857> .
+
 .
 > **__Mechanics__**
 .tag:mech
-.
-.img:https://i.imgur.com/sRSlVPb.png
-.
-⬥ Pad 1
-    • Hex: Twinshot
-        - Zamorak's attacks deal a second hit at 10% of the original hit, per stack
-    • Edict: Anima Flow
-        - All basic abilities generate 2% more adrenaline per stack
+⬥ **Charging pads**
+    • The arena has 6 pads that you can stand on to charge.
+    • When standing on an pad, it charges up at a speed relative to your distance from the center of the edict.
+    • When it is full charged, Zamorak will stop attacking for awhile and your adrenaline bar will be refilled. After this, you will gain an **Edict** while Zamorak gains a **Hex** depending on the pad charged.
+    • You will become unable to charge pads when Zamorak says **'HEED MY CALL'**. To continue charging the next pad, you must enter infernus and kill the mage present.
+        - This happens after charging every pad.
 
-⬥ Pad 2
-    • Hex: Smite
-        - If Zamorak's targets are hit below 5% of their HP level, they'll be executed instantly
-    • Edict: Haste
-        - Your ability cooldowns are reduced by 20% of the original cooldown per stack
+.
+.img:https://imgur.com/4zFXkyd.png
+.
+⬥ **Hexes and Edicts**
+    • Everytime a player activates a pad, they and Zamorak will gain a stack of currently active stacking edicts and hexes respecitvely.
+    • This makes it such that stacks are accumulated as additional runes are activated. ie. if you activate pads 6 → 5 → 4, once 4 is activated rune 6 will have 3 stacks, rune 5 will have 2 stacks and rune 4 will have 1 stack.
+    • *E.g. If the Affliction-Balance of Power pad is activated, after all pads are active the player will only heal 40% from food and have outgoing damage increased by 36% when below 60% lifepoints*
 
-⬥ Pad 3
-    • Hex: Coven
-        - Zamorak calls forth some of his coen to support him
-    • Edict: Inner Chaos
+.
+⬥ Hex: Twinshot, Edict: Anima Flow **[Stacking]**
+        - Zamorak's attacks deal a second hit at 10% of the original hit, per stack.
+        - Players' basic abilities generate 2% more adrenaline per stack.
+
+⬥ Hex: Smite, Edict: Haste **[Stacking]**
+        - If Zamorak's targets are hit below 5% (per stack) of their constitution level, they'll be executed instantly.
+        - Your ability cooldowns are reduced by 20% of the original cooldown per stack.
+
+⬥ Hex: Coven, Edict: Inner Chaos
+        - Zamorak calls forth some of his coen to support him.
         - When standing near a hexed rune, you deal and take 5% more damage
 
-⬥ Pad 4
-    • Hex: Disintegrate
-        - Zamorak's attacks push 7% of damage through any shielding effects, per stack
-    • Edict: Guardian's Triumph
+⬥ Hex: Disintegrate, Edict: Guardian's Triumph **[Stacking]**
+        - Zamorak's attacks push 7% of damage through any shielding effects, per stack.
         - After casting an ultimate ability, your next basic consumes guardian's triumph, increases the damage it deals by 20% damage it deals by 20% and heals you for 8% of your missing LP per stack
 
-⬥ Pad 5
-    • Hex: Chaos Traps
-        - Upon activation, Zamorak spawns traps across the arena that deal spike magic damage as you walk over them
-    • Edict: Sword of Edicts
-        - Temporarily siphon the dwindling defensive power from the sword, dealing and taking 5% less damage while standing near it
+⬥ Hex: Chaos Traps, Edict: Sword of Edicts
+        - Upon activation, Zamorak spawns traps across the arena that deal spike magic damage as you walk over them.
+        - Temporarily siphon the dwindling defensive power from the sword, dealing and taking 5% less damage while standing near it.
 
-⬥ Pad 6
-    • Hex: Affliction
-        - When Zamorak's targets heal, the amount will be reduced by x% per stack
-    • Edict: Balance of Power
+⬥ Hex: Affliction, Edict: Balance of Power **[Stacking]**
+        - When Zamorak's targets heal, the amount will be reduced by 10% per stack
         - While below 60% lifepoints, outgoing damage is increased by 6% per stack
-
-*Note: Stacks are accumulated as additional runes are activated. ie. if you activate pads 6 → 5 → 4, once 4 is activated rune 6 will have 3 stacks, rune 5 will have 2 stacks and rune 4 will have 1 stack.*
 
 .
 > **__Phase 7__**
+.tag:p7
 At 100% enrage phase 7 is introduced, players get dragged to Infernus. After the Chaos Demon is killed, an amount of runes equivelant to your team size will appear and stay there for a moment, **the order which these appear in front of Zamorak is the order they must be defeated in.** Killing a rune out of order will result in players taking a large amount of damage. The runes will uber heal after they are defeated; the same rune may occur twice.
 
-After the last rune is defeated Zamorak is attackable and will start sending out large hits, starting with the melee slam followed by an AOE attack.  Make sure your team is spread out or it may hit over 10k even at 100%.
+After the last rune is defeated Zamorak is attackable and will start sending out a large hit followed by addition hits at 10% of the original, the original hit before mitigation is equivalent to the  starting with the melee slam followed by an AOE attack.  Make sure your team is spread out or it may hit over 10k even at 100%.
 
 .
 **Final phase entrance **(Courtesy of <@646361605310906409>)
@@ -162,13 +181,25 @@ After the last rune is defeated Zamorak is attackable and will start sending out
 
 After entering the last arena:
 ⬥ Team kills Chaos Demon
-⬥ Team kills [Team size -1] runes as soon as they appear, **be careful not to overkill them**
+⬥ Team kills runes as soon as they appear, **be careful not to overkill them**
 ⬥ Before killing the last rune, team gets ready to ult and deal as much damage as possible in a very short amount of time, making sure to be spread out.
 ⬥ Kill last rune, immediately get on Zamorak
-    • You will want to pray melee, debilitate and Powerburst of Vitality.
+    • You will want to <:DeflectMelee:544195488447201300> and <:vitality:654618235097972737> before the attacks hit you
 ⬥ Repeat phase starting at killing the runes as many times as necessary.
 
-It is advised to prebuild and ultimate before the last rune is killed.
+
+.
+**Suggested low enrage strategy (Courtesy of <@190066298338803712>)**
+
+In 5man assign people to NW/NE/SE/SW/Middle
+
+⬥ Each person responsible for the 2 runes close to them
+⬥ Get all runes to about 10k hp while zammy starts giving the order
+⬥ Once zammy gives the first rune, people responsible kill the rune and call it out
+⬥ Kill the runes one by one according to the order (not more than 2 people per rune to not overkill)
+⬥ Natty and nami/soa on zammy meanwhile
+⬥ Once runes are killed, spread out (the NW/NE players go behind the boss, other three spread around hte boss)
+  and with the strongest dpm rotation you can on the boss.
 
 .
 > __**Example Kills**__
@@ -188,11 +219,11 @@ It is advised to prebuild and ultimate before the last rune is killed.
       },
       {
         "name": "__Melee__",
-        "value": "⬥"
+        "value": "⬥ [110% Solo](https://www.youtube.com/watch?v=6M8B0V9MNlQ) by Onyksi"
       },
       {
         "name": "__Magic__",
-        "value": "⬥ [20%](https://www.youtube.com/watch?v=zMYlnCVLsAA) by <@239465986825256971>"
+        "value": "⬥ [20% Solo](https://www.youtube.com/watch?v=zMYlnCVLsAA) by <@239465986825256971>\n⬥ [100% Solo](https://youtu.be/EqahWQ7H9UQ) by <@727283889978081290>\n⬥ [130% Trio](https://www.youtube.com/watch?v=sCoC68VB-AI) by <@128957522630541312>"
       }
     ]
   }
@@ -227,6 +258,11 @@ It is advised to prebuild and ultimate before the last rune is killed.
       {
         "name": "__Mechanics__",
         "value": "[Link]($linkmsg_mech$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 7__",
+        "value": "[Link]($linkmsg_p7$)",
         "inline": true
       },
       {
