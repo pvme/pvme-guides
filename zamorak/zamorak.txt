@@ -29,6 +29,7 @@ It is assumed that Zuk capes <:igneouskalmej:902209626408382494> <:igneouskalxil
     • <:pf:689501925770919981> Pf switch for <:Magic:689504724159823906> and <:Ranged:689504724403486920>
     • For <:reflect:535541258786177064> and <:res:535541258844635148>
 ⬥ <:vulnbomb:655341074235129858> Vulnerability bombs
+⬥ <:infernalpuzzlebox:994189299681607800> Infernal Puzzle Box *(to be added to preset images)*
 
 .
 **__Melee__ <:melee:615612332521029632>**
@@ -87,6 +88,8 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
 ⬥ **100%** Phase 7 introduced
 ⬥ **500%** During Infernal Tomb, all players must be on their pad at the same time to exit Infernus
 ⬥ **750%** During Infernal Tomb, demons will move faster towards the portal
+⬥ **1000%** During Channelers, Chaos Witch Channeler spawns with 100% adrenaline and their first ability is <:omni:535533809664262179>
+⬥ **1000%** On phase 7, typeless hit damage is not reset after first attack cycle
 
 .
 > **__Attacks__**
@@ -95,14 +98,15 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
     • 5 Magic autos → 5 Ranged autos → Repeat (Special attacks get woven in)
 
 ⬥ **Channelers**
-    • A message will appear saying **`Zamorak begins to draw power and energy from something within Infernus.`** , this will spawn a Chaos Witch channeler in Infernus
+    • A message will appear saying **`Zamorak begins to draw power and energy from something within Infernus.`** , this will spawn a Chaos Witch Channeler in Infernus
     • Players must enter Infernus with the extra ability button and defeat the witch before being able to activate the next rune
     • It is advised to <:anti:535541306475151390> / <:freedom:535541258240786434> and <:surge:535533810004262912> towards the witch
+    • At 1000%, Chaos Witch Channeler spawns with 100% adrenaline and their first ability is <:omni:535533809664262179>
 
 ⬥ **Melee Slam**
     • Zamorak will yell **`The world will end.`** and slam into the ground, dealing 2 melee hits and spawning Flames of Zamorak between the player with aggression and Zamorak
-    • To deal with this, base walks under boss and all players <:DeflectMelee:544195488447201300> and use defensives if low hp
-    • If base is not under Zamorak as he does Melee Slam, Flames of Zamorak
+    • To deal with this, all players walk under boss, <:DeflectMelee:544195488447201300> and use defensives if low hp
+    • Black smoke (Flames of Zamorak) goes towards the furthest player, the more smoke that is absorbed by a player the higher the typeless hit on them will be
 
 .
 ⬥ **Flames of Zamorak**
@@ -113,7 +117,7 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
     • Zamorak will charge up his attack shouting **`I will tear you asunder!`**
     • To deal with the mechanic successfully stun him enough times, after such a damage requirement will appear to force him to launch the attack early
     • He will yell **`Feel the rage of a god.`** and send a red projectile that deals up to 25,000 soft typeless damage - this is reduced based on how fast he is interrupted
-    • Use <:vitality:654618235097972737> and <:res:535541258844635148> or <:disrupt:535614336207552523>
+    • Use <:vitality:654618235097972737> / <:res:535541258844635148> / <:disrupt:535614336207552523>
 
 .
 ⬥ **Infernal Tomb**
@@ -171,9 +175,9 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
 .
 > **__Phase 7__**
 .tag:p7
-At 100% enrage, phase 7 is introduced. At the point where the fight would normally end, players will now be pulled into Infernus. After the Chaos Demon is killed, an amount of runes equivalent to your team size will appear and stay there for a moment, **the order which these appear in front of Zamorak is the order they must be defeated in.** Killing a rune out of order will result in players taking a large amount of damage. The runes will uber heal after they are defeated. The same rune may occur twice.
+At 100% enrage, phase 7 is introduced. At the point where the fight would normally end, players will now be pulled into Infernus. After the Chaos Demon is killed, an amount of runes (2 in solo, or equal to team size in group) will appear and stay there for a moment, **the order which these appear in front of Zamorak is the order they must be defeated in.** Killing a rune out of order will result in players taking a large amount of damage. The runes will uber heal after they are defeated, be careful not to kill it twice. *The same rune may occur twice.*
 
-After the last rune is defeated, Zamorak is attackable and will start sending out a large hit followed by addition hits at 10% of the original, the original hit before mitigation is equivalent to the starting with the melee slam followed by an AOE attack.  Make sure your team is spread out or it may hit over 10k even at 100% enrage.
+After the last rune is defeated, Zamorak is attackable and will use a heavy melee hit, followed by a large soft typeless hit by 4 addition hits at 10% of the original typeless hit, the original hit before mitigation is equivalent to the red hp bar in place of the hp bar while killing runes. Make sure your team is spread out or it may hit over 10k even at 100% enrage.
 
 .
 **Final phase entrance **(Courtesy of <@646361605310906409>)
