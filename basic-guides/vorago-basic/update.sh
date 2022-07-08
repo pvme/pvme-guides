@@ -38,7 +38,7 @@ pr=$(curl \
   -X POST \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: Bearer $GITHUB_TOKEN" \
-  https://api.github.com/repos/$GITHUB_REPOSITORY/pulls \
+  "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls" \
   -d '{"title":"Update vorago-basic.txt","body":"","head":"update-vorago-basic","base":"master"}' \
   )
 
