@@ -29,8 +29,8 @@ esac
 git config user.name "PvM Encyclopedia"
 git config user.email "a"
 git add .
-git commit -m 'Update vorago-basic.txt'
-git push origin master:update-vorago-basic --force
+git commit --allow-empty -m 'Update vorago-basic.txt'
+git push origin vorago-update:update-vorago-basic --force
 
 echo https://api.github.com/repos/$GITHUB_REPOSITORY/pulls
 
@@ -47,10 +47,12 @@ then
     echo "PR already exists"
     exit
 fi
+echo $pr
 
 pr_url=$(echo $pr | grep -Po "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/\d+" | head -n1 | cut -d " " -f1)
 
 sleep 30
+echo $pr_url
 
 curl \
   -X PUT \
