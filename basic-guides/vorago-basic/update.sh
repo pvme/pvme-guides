@@ -47,12 +47,10 @@ then
     echo "PR already exists"
     exit
 fi
-echo $pr
 
 pr_url=$(echo $pr | grep -Po "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/\d+" | head -n1 | cut -d " " -f1)
 
 sleep 30
-echo $pr_url
 
 curl \
   -X PUT \
