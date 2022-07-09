@@ -29,7 +29,7 @@ esac
 git config user.name "PvM Encyclopedia"
 git config user.email "a"
 git add .
-git commit -m 'Update vorago-basic.txt'
+git commit --allow-empty -m 'Update vorago-basic.txt'
 git push origin master:update-vorago-basic --force
 
 echo https://api.github.com/repos/$GITHUB_REPOSITORY/pulls
