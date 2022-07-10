@@ -378,6 +378,44 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
     • Passive Effect: all attacks used for 4.2 seconds (7 ticks) after Greater Dazing Shot will also apply Puncture stacks.
     • Raises puncture cap from 10 → 13
     • Priority: `Low`
+
+⬥ **Bik arrow** <:bikarrow:971025697235689513>
+    • T95 arrows
+    • Passive Effect: All abilities apply a stack (max 200) of Evolving Toxin on hit. Target takes +2% poison damage for each stack.
+    • After 30s without an ability using a Bik arrow hitting the target, all stacks are removed.
+    • Consumes arrows 33% of the time.
+    • Priority: `High if posionable target`
+
+⬥ **Ful arrow** <:fularrow:971025696958853180>
+    • T95 arrows
+    • Passive Effect: All abilities deal +15% damage, but have -10% accuracy (Bleeds do not benefit from the boosted damage.
+    • Consumes arrows 33% of the time.
+    • Priority: `High`
+
+.
+⬥ **Jas dragonbane arrow** <:jasdragonbanearrow:971025697042755584>
+    • T95 arrows
+    • Passive Effect: While fighting dragons, all attacks deal +30% damage and have +20% hit chance.
+    • Consumes arrows 33% of the time.
+    • Priority: `High against dragons`
+
+⬥ **Jas demonbane arrow** <:jasdemonbanearrow:971025697055334491>
+    • T95 arrows
+    • Passive Effect: While fighting demons, all attacks deal +30% damage and have +20% hit chance.
+    • Consumes arrows 33% of the time.
+    • Priority: `High against demons`
+
+⬥ **Wen arrow** <:wenarrow:971025697046925362>
+    • T95 arrows
+    • Passive Effect:
+        - All basic abilities generate a stack (max 15) of Icy Chill on hit.
+        - Threshold and ultimate abilities consume these stacks and convert them to 0.6 seconds and one stack of Icy Precision per stack.
+        - Icy Precision blocks consumption of Icy Chill and gives threshold abilities +2% damage and accuracy per stack.
+        - Ultimates gain +3% base damage and accuracy per stack.
+    • After 30 seconds without a basic ability using a Wen arrow hitting the target, all stacks are removed.
+    • Consumes arrows 33% of the time.
+    • Priority: `Medium`
+
 .
 > **__Miscellaneous__**
 .tag:miscellaneous
@@ -406,7 +444,7 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
 .tag:preset
 This is an example of a general PvM preparation preset used for bonfiring, summoning familiars, potting up, restocking rune pouches, refilling charge pack, changing spellbook, and using incense.
 .
-.img:https://i.imgur.com/kC4w041.png
+.img:https://i.imgur.com/PLEQ4Oe.png
 .
 {
   "embed": {
