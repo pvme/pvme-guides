@@ -1,6 +1,11 @@
 > **__Helpful Commands__**
+.tag:intro
+**__Introduction__**
+This channel contains a list of all of PvME's commands along with a brief summary of what they contain. Feel free to use any of the commands in <#534563158304620564>
 
-__**Weapons**__
+.
+> __**Weapons**__
+.tag:weapons
 ⬥ !ammo - Explains when to use which ammo
 ⬥ !blights - Explains why it is not worth upgrading to Blights.
 ⬥ !defender - Explains how to obtain defenders
@@ -19,7 +24,8 @@ __**Weapons**__
 ⬥ !weapon - Shows DPS differences of T85-T95 weapons.
 
 .
-__**Armour/Accessories**__
+> __**Armour/Accessories**__
+tag:armor
 ⬥ !as4 - Explains why to not go for AS4 alone.
 ⬥ !armour - Shows DPS differences of T80-T92 armours.
 ⬥ !aura - Lists auras from best to worst (generally) for each style.
@@ -38,7 +44,8 @@ __**Armour/Accessories**__
 ⬥ !zerkaura - Describes the Berserker, Maniacal, and Reckless auras.
 
 .
-__**Essence of Finality**__
+> __**Essence of Finality**__
+.tag:eof
 ⬥ !eofs - Provides the PvME recommended EoF colour scheme.
 ⬥ !ecbeof - Explains the pros and cons of putting ECB into EoF, and when to not do it.
 ⬥ !ezkeof - Explains the pros of putting EZK into EoF.
@@ -47,7 +54,8 @@ __**Essence of Finality**__
 ⬥ !zstaffeof - Explains benefits of Gstaff / Zstaff EoF, and when to choose which.
 
 .
-__**Abilities/Spells**__
+> __**Abilities/Spells**__
+.tag:spells
 ⬥ !4taa - Links a 4TAA guide and shows 2 methods of 4TAAing.
 ⬥ !barge - Explains how to use this ability, and also common issues.
 ⬥ !bd - Explains why you may be doing less/no damage, and why you may gain no adrenaline.
@@ -69,7 +77,8 @@ __**Abilities/Spells**__
 ⬥ !whatspell - Explains what autocast and auto spells to use.
 
 .
-__**Spreadsheets**__
+> __**Spreadsheets**__
+.tag:sheets
 ⬥ !abbreviations - Generates a link to a spreadsheet containing common PvM abbreviations.
 ⬥ !abilitydamage - Generates a link to the Ability Damage Maths spreadsheet.
 ⬥ !commandsheet - Generates a link to the sheet used for table images in commands.
@@ -77,12 +86,14 @@ __**Spreadsheets**__
 ⬥ !yarb - Generates an invite link to a Runescape ability rotation builder.
 
 .
-__**AFK**__
+> __**AFK**__
+.tag:afk
 ⬥ !afkguides - Lists out available AFK guides on the server.
 ⬥ !afkproblems - Explains why AFK guides might not be working for you.
 
 .
-__**Server Help**__
+> __**Server Help**__
+.tag:serverhelp
 ⬥ !emoji - Gives invite links to all the emoji servers used by PVME for guides.
 ⬥ !newuser - Gives a very brief overview of important parts of the server for new users.
 ⬥ !notrading - Shows our server rules and explains that trading is not allowed in our channels.
@@ -91,7 +102,8 @@ __**Server Help**__
 ⬥ !teamforming - Generates invite links to popular affiliated teamforming servers.
 
 .
-__**Miscellaneous**__
+> __**Miscellaneous**__
+.tag:misc
 ⬥ !banking - Provides a sample banking preset and describes its contents.
 ⬥ !crit - Explains natural vs forced crit chance, and lists important forced crit chance modifiers.
 ⬥ !damagetroubleshoot - A list of things you could be missing that could significantly contribute to your damage.
@@ -109,3 +121,58 @@ __**Miscellaneous**__
 ⬥ !telosp5 - Briefly explains how to Target Cycle Telos in p5 along with a visual guide.
 ⬥ !yak - Explains why combat familiars and Mammoth are better than Yak, and what these familiars do.
 ⬥ !zukluring - Describes how to position yourself in hardmode TzKal-Zuk encounters.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Weapon Commands__",
+        "value": "[Link]($linkmsg_weapons$)",
+        "inline": true
+      },
+      {
+        "name": "__Armour / Accessory Commands__",
+        "value": "[Link]($linkmsg_armor$)",
+        "inline": true
+      },
+      {
+        "name": "__EoF Commands__",
+        "value": "[Link]($linkmsg_eof$)",
+        "inline": true
+      },
+      {
+        "name": "__Ability / Spell Commands__",
+        "value": "[Link]($linkmsg_spells$)",
+        "inline": true
+      },
+      {
+        "name": "__Spreadsheet Commands__",
+        "value": "[Link]($linkmsg_sheets$)",
+        "inline": true
+      },
+      {
+        "name": "__AFK Commands__",
+        "value": "[Link]($linkmsg_afk$)",
+        "inline": true
+      },
+       {
+        "name": "__Server Help Commands__",
+        "value": "[Link]($linkmsg_serverhelp$)",
+        "inline": true
+      },
+       {
+        "name": "__Misc. Commandss__",
+        "value": "[Link]($linkmsg_misc$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
