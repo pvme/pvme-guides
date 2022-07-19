@@ -417,6 +417,21 @@ Enchanted bakriminel bolts provide various effects which can be very useful in c
     • Priority: `Medium`
 
 .
+> **__Pocket slot__** <:SaraBook:574290439482638346>
+.tag:pocketslot
+⬥ **Scripture of Jas** <:jasgodbook:869284342839513108>
+    • Cost per hour: <:coins:698816156961603654> $data_pvme:Miscellaneous!E15$
+
+⬥ **Scripture of Wen** <:wengodbook:883134307902816297>
+    • Cost per hour: <:coins:698816156961603654> $data_pvme:Miscellaneous!E14$
+
+⬥ **Scripture of Ful** <:scriptureofful:902209626412560395>
+    • Cost per hour: <:coins:698816156961603654> $data_pvme:Miscellaneous!E13$
+
+⬥ **Erethdor's Grimoire** <:grim:568262896375824385>
+    • Cost per hour: <:coins:698816156961603654> $data_pvme:Miscellaneous!E12$
+
+.
 > **__Miscellaneous__**
 .tag:miscellaneous
 **__Other Commonly Used Consumables__**
@@ -484,6 +499,11 @@ This is an example of a general PvM preparation preset used for bonfiring, summo
 	  {
 	    "name": "__Ammo__",
         "value": "[Link]($linkmsg_bakrbolts$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Pocket slot__",
+        "value": "[Link]($linkmsg_pocketslot$)",
 		"inline": true
       },
 	  {
