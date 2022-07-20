@@ -46,33 +46,31 @@ Each Twin Furies kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B36
 .
 > **__Mechanics__**
 .tag:mechanics
-**__Jumps__**
-Avaryss jumps towards the northern wall and charges down to the southern wall. She will repeat this attack a total of 4 times and will always travel in the cardinal directions (north to south, west to east, etc.). You may simply move out of the way after Avaryss jumps to a new wall.
-.
-.img:https://i.imgur.com/NWTHSDg.mp4
-.
-Any single link of this mechanic can be dealt with by using Resonance for a free heal, but is not required to deal with the mechanic at all.
-
-.
-**__Ceiling Collapse__**
-Nymora will jump to a random square in the arena and cause a ceiling collapse. You have to stand in the 3x3 area around her to negate the damage from the collapse.
-.
-.img:https://i.imgur.com/QIMa9WS.mp4
-.
-*Note: Currently Nymora is bugged and will dissapear shortly after taking flight. Pay attention to where she goes and react appropiately.*
-
-.
-**__Channeled Bomb__**
-The twins will jump to the center of the arena and channel a bomb attack. During this special, you will take ticks of typeless damage which can easily be negated with Soul Split <:soulsplit:615613924506599497>
-.
-.img:https://i.imgur.com/N7ceSRh.mp4
-.
-If the channel finishes and the kill is not over, a bomb will detonate dealing 4,500 damage.
-.
-.img:https://i.imgur.com/CJkO32O.mp4
-.
-This bomb can be avoided by Surging to the edges of the arena or blocking it with defensives. During this phase, the twins take 2x damage and stand close enough that Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210>, and Quake <:quake:535532879506309150> will hit both of them.
-
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Attack Rotation__",
+        "value": "⬥ 3 Autos → Bouncing Blade → 3 Autos → Summon Spirits → 3 Autos → Shadow Spots → Repeat\n\u200B"
+      },
+      {
+        "name": "__Jumps__",
+        "value": "⬥ Avaryss jumps towards the northern wall and charges down to the southern wall. She will repeat this attack a total of 4 times and will always travel in the cardinal directions (north to south, west to east, etc.).\n\u00a0\u00a0\u00a0\u00a0• You may simply move out of the way after Avaryss jumps to a new wall. [Example](https://i.imgur.com/NWTHSDg.mp4)\n\u200B"
+      },
+      {
+        "name": "__Ceiling Collapse__",
+        "value": "⬥ Nymora will jump to a random square and cause a ceiling collapse.\n\u00a0\u00a0\u00a0\u00a0• Stand in the 3x3 area around her to negate this. [Example](https://i.imgur.com/QIMa9WS.mp4)\n\u200B"
+      },
+      {
+        "name": "__Channeled Bomb__",
+        "value": "⬥ The twins move to the center of the arena and channel an attack. [Example](https://i.imgur.com/N7ceSRh.mp4)\n⬥ If the channel finishes, it will deal 4,500 damage. [Example](https://i.imgur.com/CJkO32O.mp4)\n⬥ During this phase, the twins take 2x damage\n\u00a0\u00a0\u00a0\u00a0• They stand close enough that Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210>, and Quake <:quake:535532879506309150> will hit both of them.\n\u00a0\u00a0\u00a0\u00a0• You will take typeless damage during this (negated by Soul Split <:soulsplit:615613924506599497>).\n\u00a0\u00a0\u00a0\u00a0• Can be avoided by surging to the edges of the arena, (or blocking it with defensives).\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
 .
 > **__AFK Strategy (~39 kph) (Courtesy of <@!108682527304060928>)__**
 .tag:afk
@@ -89,7 +87,7 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C371$
 
 .
 ⬥ Aura choice can vary, but will affect how fast or consistent can be. They are listed in order of effectiveness:
-    • <:dm:643505652571963417> Dark Magic provides extra damage, allowing for faster and more consistent kills. This is going to be your best aura choice, and KPH figures used in this section are based on the usage of this aura.
+    • <:dm:643505652571963417> Dark Magic is the BIS aura for KPH.
     • <:mahj:643148943856762890> Mahjarrat Aura provides extra damage, but is not able to be refreshed like Dark Magic.
     • <:vamp:643505653079343144> Vampyrism Aura provides extra safety through its healing, but nothing else of note.
     • <:berserker:643505116347105290> **Do __not__ use Berserker** for afking, as it will get you killed very easily.
@@ -98,33 +96,32 @@ Total <:coins:698816156961603654> $data_pvme:Bosses!C371$
 .
 ⬥ Autocasting Exsanguinate <:exsanguinate:856635090745950258> with dual-wield magic weapons <:praeswand:643166769518739477> <:impercore:643166751067996160> will be most effective for this setup.
 .
-**__Mandatory Requirements__**
-⬥ This setup should reliably allow you to afk the Twin Furies for 5 minutes at a time, even with a Legendary Pet. However, the following needs to be done or else **__This method will be either unreliable or will outright not work. Cutting corners *will* result in failure:__**
-    • Igneous Kal-Mej <:igneouskalmej:902209626408382494> or Kal-Zuk <:igneouskalzuk:902209626479685734> is **equipped**
-    • Crystal Shield perk <:crystalshield4:921410343606034443> is **equipped**
-    • Animate Dead <:animatedead:856635090453135382> is **unlocked** and **active**
-    • Greater Chain <:gchain:787904334495088672> is **unlocked**
-    • Greater Concentrated Blast <:gconc:869285393223254107> is **unlocked**
-    • Soulsplit <:soulsplit:615613924506599497> is **active**
-    • Torment <:torment:583429936958930964> or Affliction <:Affliction:513190158468907008> is **active**
-    • Scripture of Ful <:scriptureofful:902209626412560395> or Scripture of Jas <:jasgodbook:869284342839513108> is **active**
-    • Elder Overload <:elderovlsalve:648976643687317532> is **active**
-    • Powder of Penance <:powderofpenance:928221126360969226> is **active**
-    • Auto-retaliate is **on**
-
+> **__Mandatory AFK Requirements__**
+.
+{
+  "embed": {
+    "title": "__Mandatory AFK Requirements__",
+    "description":"This setup should reliably allow you to afk the Twin Furies.\nThe following are required or this method will not work:\n\n⬥ Igneous Kal-Mej <:igneouskalmej:902209626408382494> or Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Adrenaline retention <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Scripture of Ful <:scriptureofful:902209626412560395> / Scripture of Jas <:jasgodbook:869284342839513108>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Torment <:torment:583429936958930964> or Affliction <:Affliction:513190158468907008>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Greater Concentrated Blast <:gconc:869285393223254107>\n⬥ Greater Chain <:gchain:787904334495088672>\n⬥ Crystal Shield perk <:crystalshield4:921410343606034443>\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Auto-retaliate is on",
+    "color": 39423,
+    "footer": {
+      "text": "Cutting corners will result in failure"
+    }
+  }
+}
+.embed:json
 .
 **__Preset__**
 ⬥ **Runes** - Runes required to cast Animate Dead and Exsanguinate <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>, <:Firerune:536252659850674186>.
 ⬥ <:persistentrage:739965637056659567> **Persistent Rage Relic** - Prevents adrenaline from draining while out of combat. Can be substituted with an **Adrenaline Urn** <:adrenurn:656426717413507074> with ocassional stalling.
-⬥ <:cryptbloomhelm:892819107123195956> **Magic Tank Armor** - Magic tank armor is required for **Animate Dead** <:animatedead:856635090453135382>, which is needed to mitigate enough damage for this afk method. Cryptbloom is **NOT** required for this method, but full **Ganodermic or better** is required in order to survive mechanics such as Avaryss' Ceiling Collapse attack.
+⬥ <:cryptbloomhelm:892819107123195956> **Magic Tank Armor** - Magic tank armor is required for **Animate Dead** <:animatedead:856635090453135382>, which is needed to mitigate enough damage for this afk method.
+    • Cryptbloom is **NOT** required for this method, but full **Ganodermic or better** is required in order to survive mechanics such as Avaryss' Ceiling Collapse attack.
 ⬥ <:eof:787526151978614824> **Essence of Finality** - Stored special attack is not used, but is worn for the accuracy bonus and boosted Soulsplit passive.
-⬥ <:channellerring:839903943404027914> **Channeller's Ring** - Extra critical chance helps speed up kills. If not owned, can be substituted for other strong rings such as Asylum Surgeon's <:asr:513190158472839208> or Ring of Death. <:RoD:513190159462825984>
-⬥ <:potionreservoir:878739200407654431>  **Potion reservoir** - Can store up to 6 doses of a potion, such as an overload, and automatically refresh that potion when its duration is low. Only one may be filled at a time, so you must manually fill a new reservoir when your current one depletes.
+⬥ <:channellerring:839903943404027914> **Channeller's Ring** - Extra critical chance helps speed up kills.
+    • Can be substituted for other strong rings (Asylum Surgeon's <:asr:513190158472839208> or Ring of Death. <:RoD:513190159462825984>)
+⬥ <:potionreservoir:878739200407654431>  **Potion reservoir** - Can store up to 6 doses of a potion (e.g. overload), and automatically refresh that potion when its duration is low.
 ⬥ <:powderofpenance:928221126360969226> **Powder of Penance** - Restores prayer points equal to 2.5% of damage taken. Each one lasts for 30 minutes, and completely mitigates the need for prayer potions or the Penance aura.
 .
-⬥ <:LantaSticks:565726489404899368> **Lantadyme Incense Sticks** - Extends potion duration by 2 minutes per dose. ***Completely optional, use at your own discretion***.
-.
-.img:https://i.imgur.com/eGh45e3.png
+.img:https://i.imgur.com/CVEz3Ag.png
 .
 **__Action Bar:__**
 .
