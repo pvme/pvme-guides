@@ -1,11 +1,22 @@
 {
   "embed": {
     "title": "__Basic Revolution__",
-    "description":"*Note: This assumes manual casting of threshold and ultimates. For full afk bars use `!revo++`, this is worse dpm due to improper use of thresholds and ultimates but is better for full afk content. For more details read <#622623001694699560>*",
+    "description": "*Note: assumes manual threshold and ultimate usage.\nUse `!revo++` for bars that automatically uses them.*",
     "color": 39423,
-    "image": {
-        "url": "https://i.imgur.com/K3FhxBm.png"
-    }
+    "fields": [
+      {
+        "name": "__Magic Basic Revolution Bars__",
+        "value": "*Note: replace <:gconc:869285393223254107> with <:sonic:535533809924571136> if 2H camping and no <:magmatempest:902209626509025290>*\n⬥ DW: <:gconc:869285393223254107><:dbreath:535533833391702017><:corruptblast:513190159194259467><:comb:535533833098100745><:impact:535533809655873556><:Tuskas:513201065513058306><:wrack:856662355952795658>\n⬥ 2H: <:magmatempest:902209626509025290><:dbreath:535533833391702017><:sonic:535533809924571136><:corruptblast:513190159194259467><:comb:535533833098100745><:impact:535533809655873556><:Tuskas:513201065513058306>"
+      },
+      {
+        "name": "__Ranged Basic Revolution Bars__",
+        "value": "*Note: replace <:needle:535541259108876293> with <:mds:535541259033378827> if 2H camping*\n⬥ If <:grico:787904334812807238>: <:needle:535541259108876293><:grico:787904334812807238><:corruptshot:535541306294796299><:frag:535541273755385885><:snipe:535541258425204770><:bindingshot:535541306563231790><:Tuskas:513201065513058306><:piercing:535541258538450944>\n⬥ If <:ricochet:535541259566186521>: <:needle:535541259108876293><:snipe:535541258425204770><:corruptshot:535541306294796299><:frag:535541273755385885><:bindingshot:535541306563231790><:Tuskas:513201065513058306><:Sacrifice:513201065907322880><:piercing:535541258538450944>"
+      },
+      {
+        "name": "__Melee Basic Revolution Bars__",
+        "value": "⬥ DW: <:deci:535532879325822986><:sever:535532879577612298><:dismember:535532879376023572><:gfury:535532879334080527><:havoc:535532879300526080><:slice:535532879594258432><:Tuskas:513201065513058306><:backhand:535532854302605333>\n⬥ 2H: <:cleave:535532878616985610><:sever:535532879577612298><:dismember:535532879376023572><:gfury:535532879334080527><:smash:535532879820619786><:slice:535532879594258432><:Tuskas:513201065513058306><:backhand:535532854302605333>"
+      }
+    ]
   }
 }
 .embed:json
