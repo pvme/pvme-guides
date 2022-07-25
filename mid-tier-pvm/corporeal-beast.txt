@@ -3,7 +3,7 @@
 > **__Introduction__**
 .tag:intro
 .
-The Corporeal Beast is a boss unlocked from completing the *Summer's End* quest. If you followed the lore behind the quest, you will understand why summoning familiars cannot be used at the boss, meaning that you can only use the items in your inventory. A legendary pet can be used here. Furthermore, any weapon that isn't a spear will deal half damage, meaning that melee is the only style you should use.
+The Corporeal Beast is a boss unlocked from completing the *Summer's End* quest. Summoning familiars cannot be used at this boss, however a legendary pet can be used here. Furthermore, any weapon that isn't a spear will deal half damage, meaning that melee is the only style you should use.
 
 .
 > **__Drops__**
@@ -18,11 +18,31 @@ The droprate for obtaining a sigil is `1/512`. If a player rolls the sigil drop 
 ⬥ <:corporealbone:643162604361089080>  **Corporeal bone** `1/2500 (500 threshold)`
 
 .
+> **__Mechanics__**
+.tag:mechanics
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Auto Attacks__",
+        "value": "⬥ Only uses magic attacks if you are outside of melee distance.\n⬥ Uses magic and melee attacks if you are in melee distance.\n\u00a0\u00a0\u00a0\u00a0• Protection prayers only partially reduce damage rather than halve it\n\u00a0\u00a0\u00a0\u00a0• Magic attacks will do an AOE splash on their target in a 3x3 square.\n\u200B"
+      },
+      {
+        "name": "__Core__",
+        "value": "⬥ Occasionally, a dark core will spawn and jump towards its target.\n⬥ The core will do constant typeless damage while nearby.\n\u00a0\u00a0\u00a0\u00a0• Damage will stop when you step more than 1 square away.\n\u00a0\u00a0\u00a0\u00a0• Will heal the boss unless it is killed or you step away from it.\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+.
 > **__Presets__**
 .tag:presets
 .
 **__General__**
-As stated before, any weapon that isn't a spear will deal half damage, so melee is the only style that should be used at this boss. If you don't have a T92 spear then Reaper necklace is greatly preferred over the amulet of souls, as you do not have 100% hit chance. The Masuta's Warspear does work at Corporeal Beast (tested on approximately 200+ kills) and may be used in a solo situation as you will not have to prayer flick for melee swipes, however this is less optimal.
+As stated before, any weapon that isn't a spear will deal half damage, so melee is the only style that should be used at this boss. If you don't have a T92 spear then a reaper necklace is greatly preferred over the amulet of souls, as you do not have 100% hit chance. The Masuta's Warspear does work at Corporeal Beast and may be used in a solo situation as you will not have to prayer flick for melee swipes, however this is less optimal.
 
 .
 **__Advanced Melee Preset__**
@@ -32,85 +52,27 @@ Weapon poison <:weppoison:689525476158472288> will stack with the cinderbanes ef
 .
 .img:https://i.imgur.com/sNlCC47.png
 .
-> **__Mechanics__**
-.tag:mechanics
-.
-**__Auto Attacks__**
-The Corporeal Beast will attack with only magic attacks if you are outside of melee distance. If you are within melee distance, the boss will use both melee and magic. Melee swipes are noticeable when the boss swipes with its front two legs. Also, protection prayers will not halve incoming damage, instead only partially reducing damage.
-⬥ Magic attacks will do an AOE splash on their target in a 3x3 square. This means you should stand at least 2 squares away from your partner(s), if applicable.
-
-.
-**__Core__**
-Occasionally, a dark core will spawn and jump towards its target. This dark core will do constant typeless damage and will heal the boss unless it is killed or you step away from it. It will do typeless hits unless you are more than 1 square away.
-
-.
-> **__Advanced Corp Killing Strat (~100 kph if done well)__**
-.tag:gudcorp
-**__Misc Things to Have__**
-Legendary pet for picking items (do not add a familiar, just summon the legendary pet), cannon with autorefill, disruption shield, ZGS spec.
-
-.
-None of these are mandatory, but will noticeably increase kills/hr. Not owning a ZGS probably lowers kph by around 10.
-Corp is an outdated boss with slow spawn times, thanks to it having an easily accessible public instance you can abuse and this is what the method is based on.
-Kills will be alternated between the public and private instances.
-
-.
-**__Corp Tech__**
-Corp has the mechanic where he only takes full damage from spears, though there is a way get around which increases your kills if used enough.
-It is done in these steps:
-1. Run out of md
-2. Cast the DW ability you want to use and click the ground
-3. Equip your spear and click corp (you only use Decimate <:deci:535532879325822986> and gFlurry <:gflurry:535532879283879977>). This gives you another 188 ability to use and pretty much cuts out smash and worse abilities from your rotation.
-
-.
-**__Rotations__**
-⬥ **Non-instanced Corp**:
-<:gbarge:535532879250456578> → <:dismember:535532879376023572> → <:gflurry:535532879283879977> (stall for 1st hit)> <:cleave:535532878616985610> → <:zgs:626465964325601290> <:spec:537340400273195028> → <:sever:535532879577612298> → <:gfury:535532879334080527> → <:cleave:535532878616985610> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:deci:535532879325822986> → <:cane:535532878969438210> → improvise as it is near death.
-
-.
-⬥ **Instanced Corp**:
-Auto + <:dismember:535532879376023572> → <:cleave:535532878616985610> → <:zerk:535532854004678657> asap + <:enhreplen:634350450887622656> / <:limitless:641339233638023179>  based on cd (don't use sever on corp unless you are under 60% adren) → <:gbarge:535532879250456578> → <:cleave:535532878616985610> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:sever:535532879577612298> → <:cleave:535532878616985610> → <:cane:535532878969438210> → <:deci:535532879325822986> → improvise.
-
-.
-__**Optional Rotations for No ZGS**__
-⬥ These arent necessarily optimal but instead of throwing a ZGS spec (because you don't own one), you will abuse Slaughter <:slaughter:535532879237873666> and Blood tendrils <:bloodtendrils:535532854327640064> as they are very strong.
-
-.
-⬥ Looks roughly like:
-<:gbarge:535532879250456578> → <:dismember:535532879376023572> → <:gflurry:535532879283879977> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:slaughter:535532879237873666> → <:cleave:535532878616985610> → <:assault:535532853979512842> → <:bloodtendrils:535532854327640064> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:cane:535532878969438210> → improvise.
-
-.
-**__Video Example__**
-<https://youtu.be/AaRA-nh6eM4> **(2 kill example)**
-<https://youtu.be/Zfxg3dxf_pA> **(84 kph pace)**
-
-.
-**__Tips/Notes__**
-⬥ Since the kills are so fast, you can leave the non-instanced loot on the ground every other kill. When Corp dies, call your legendary pet and renew cannon (if needed) and exit. You can leave the loot on the ground in the world instance and every other kill you can go loot the old loot along with the new and leave.
-
-.
-⬥ For instanced kills, you let your pet pick up the loot. After it has visually taken the loot, you wait 2-4 ticks and click exit (1 tick before it's in your inventory, you can leave and still get it).
-
-.
-⬥ During an hour you should bank twice. This method is recommended to everyone intending to do Corp even if you aren't the most experienced player, since this just kills most of the waiting time essentially increasing your efficiency.
-
-.
-⬥ The dark core doesn't use up your disruption shield <:disrupt:535614336207552523>, so you can <:soulsplit:615613924506599497> camp with it even if the core is on you.
-
-.
 > **__AFK Method (~60 kph)__** (Credit to <@!159421704270118912>)
 .tag:afk
 **__Explanation__**
-This method will net a lower amount of kills per hour but may be used if you do not wish to put in high amounts of effort into a mid level boss. It is useful for title/pet hunting however there are a few prerequisites in order to sustain yourself. This method utilizes <:soulsplit:615613924506599497> and <:Malevolence:513190159416557573>. Potion reservoirs may allow increased AFK time up to 36 minutes, resulting in only needing to make sure the player isn't lobbied; however, picking up some drops is advised.
+This method will net a lower amount of kills per hour but may be used if you do not wish to put in high amounts of effort into a mid level boss. It is useful for title/pet hunting however there are a few prerequisites in order to sustain yourself.
 
 .
+> **__Mandatory AFK Requirements__**
+.
+{
+  "embed": {
+    "title": "__Mandatory AFK Requirements__",
+    "description":"This setup should reliably allow you to afk the Corporeal beast.\nThe following are required or this method will not work:\n\n⬥ Masterwork Spear of Annihilation <:masterworkspearofannihilation:694566917456789554>\n⬥ Amulet of Souls or Essence of Finality <:aosor:544200033847869443> / <:eof:787526151978614824>\n⬥ Superior/Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ If not using a vamp scrim:\n\u00a0\u00a0\u00a0\u00a0• Trimmed Masterwork <:tmwbody:536966366272552960>\n\u00a0\u00a0\u00a0\u00a0• Animate Dead <:animatedead:856635090453135382>\n\u00a0\u00a0\u00a0\u00a0• Magic tank armour <:cryptbloomboots:892819107236433930>\n⬥ Adrenaline retention <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Turmoil <:turmoil:583429936606347280> / Malevolence <:Malevolence:513190159416557573>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Auto-retaliate is on",
+    "color": 39423,
+    "footer": {
+      "text": "Cutting corners will result in failure"
+    }
+  }
+}
+.embed:json
+.
 **__Preset__**
-For this method it is important to have some things:
-⬥ <:masterworkspearofannihilation:694566917456789554>  **Masterwork Spear**
-⬥ <:aosor:544200033847869443> / <:eof:787526151978614824>  **Amulet of Souls or Essence of Finality**
-⬥ <:penance:643505653062565907>  **Penance Aura**
-⬥ <:persistentrage:739965637056659567>  **Persistent Rage relic**
-⬥ <:potionreservoir:878739200407654431>  **Potion reservoir** `Can store up to 6 doses of a potion, such as an overload, and automatically refresh that potion when its duration is low. Only one may be filled at a time, so you must manually fill a new reservoir when your current one depletes.`
 .
 .img:https://i.imgur.com/uOAJPY8.png
 .
@@ -124,18 +86,8 @@ For this method it is important to have some things:
 .
 > **__No Scrimshaw AFK Method (~52 kph)__ (Courtesy of <@844317937329766401>)**
 .tag:afkalt
-This method will net a lower amount of kills per hour (compared to the other afk method mentioned here), but may be used if you do not wish to put in high amounts of effort into a mid level boss. This method deliberately abandons the use of a Vampyrism Scrimshaw for sustain as in ironman-mode it's a fairly hard to obtain item in time-gated limited supply. It is useful for title/pet hunting. However, there are several prerequisites in order to sustain yourself. This method utilizes <:soulsplit:615613924506599497> and <:Malevolence:513190159416557573> / <:turmoil:583429936606347280> , relies on Trimmed Masterwork <:tmwbody:536966366272552960> and Animate Dead <:animatedead:856635090453135382> to pass by with less sustain. This method is less consistent overall than the method above, so **If you have easy access to Scrimshaw of Vampyrism <:VampScrim:513201294262009874>, please refer to the method above.**
-
 .
 **__Preset__**
-For this method it is important to have some things:
-⬥ <:masterworkspearofannihilation:694566917456789554>  **Masterwork Spear**
-⬥ <:aosor:544200033847869443> / <:aos:513190158359724056>  **Amulet of Souls**
-⬥ <:vamp:643505653079343144>  **Vampyrism Aura**
-⬥ <:persistentrage:739965637056659567>  **Persistent Rage Relic**
-⬥ <:vampbloodess:895991792946782259>  **Vampyric Blood Essence**
-⬥ <:graspingpouchgreen:892816437385756752> **Grasping Rune Pouch** <:Earthrune:536252659808731137> <:Deathrune:536252659586433024> <:Bloodrune:536252658970001409> <:Soulrune:536252660333019136>
-(Runes for <:animatedead:856635090453135382>)
 .
 .img:https://i.imgur.com/aQDm8E7.png
 .
@@ -143,9 +95,11 @@ For this method it is important to have some things:
 .
 .img:https://i.imgur.com/4cws5Zt.png
 .
-**__Cannon Placement__**
-.
-.img:https://giant.gfycat.com/PartialSameIvorygull.mp4
+> __**Old Rotations**__
+<https://i.imgur.com/FJDigCE.png>
+**__Video Example__**
+<https://youtu.be/AaRA-nh6eM4> **(2 kill example)**
+<https://youtu.be/Zfxg3dxf_pA> **(84 kph pace)**
 .
 {
   "embed": {
@@ -162,19 +116,14 @@ For this method it is important to have some things:
         "value": "[Link]($linkmsg_drops$)",
 		"inline": true
       },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
+      	  {
 	    "name": "__Mechanics__",
         "value": "[Link]($linkmsg_mechanics$)",
 		"inline": true
       },
 	  {
-	    "name": "__Advanced Corp__",
-        "value": "[Link]($linkmsg_gudcorp$)",
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
 		"inline": true
       },
 	  {
