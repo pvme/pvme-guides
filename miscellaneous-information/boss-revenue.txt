@@ -1,4 +1,4 @@
-> **__Boss Profits__ (Courtesy of <@425520655920791553> & <@269513930949263363>)**
+> **__Boss Profits__ (Courtesy of <@425520655920791553> | <@269513930949263363> | <@435481585379180554>)**
 .tag:intro
 This channel displays calculated gp/kill and related values for many commonly farmed bosses. The calculations use ge list price and auto update as the ge does. Drop rates are sourced from the wiki.
 
@@ -11,339 +11,599 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
 .
 > **__Arch-Glacor__**
 .tag:ag
-.img:https://i.imgur.com/1hJXlfv.jpg
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Arch-Glacor#Drops)",
+    "color": 9175039,
+	"thumbnail": {
+      "url": "https://i.imgur.com/KxlQTyI.png"
+    },
+    "fields": [
+      {
+        "name": "__200 killstreak__",
+        "value": "⬥ Only Core, Scriptures and Artefact are accounted for:\n<:coins:698816156961603654> $data_pvme:Bosses!E653$\n(Total value of expected unique loot)."
+      },
+      {
+        "name": "__Notes__",
+        "value": "⬥ Assumes 0% start.\n⬥ Core is the G.E. price of the Dark Shard of Leng.\n⬥ Leng Artefact assumes the difference b/w:\n\u00a0\u00a0\u00a0\u00a0• Normal and enhanced Kerapac Wristwaps.\n\nFor more information on expected drop rates see: [Wiki calc](https://runescape.wiki/w/Calculator:Combat/Arch-Glacor)"
+      }
+    ]
+  }
+}
+.embed:json
+
 .
-**__200 killstreak__**
-Only Core, Scriptures and Artefact are accounted for: <:coins:698816156961603654> $data_pvme:Bosses!E653$ total value of expected unique loot.
-
-*Note1: Core is the G.E. price of the Dark Shard of Leng.*
-*Note2: Leng Artefact assumes the difference between normal and enhanced Kerapac Wristwaps.*
-*Note3: Assumes 0% start.*
-
-For more information on expected drop rates, consult: <https://runescape.wiki/w/Calculator:Combat/Arch-Glacor>
-
-.
-> **__Araxxor__**
+> **__Araxxi__**
 .tag:rax
-.img:https://i.imgur.com/zScW6sP.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E28$
-Total (range spawn) <:coins:698816156961603654> $data_pvme:Bosses!E37$
-Total (magic spawn) <:coins:698816156961603654> $data_pvme:Bosses!E38$
-Total (melee spawn) <:coins:698816156961603654> $data_pvme:Bosses!E36$
-
-.
-**__Gp/Hour__**
-Melee on range spawn ($data_pvme:Bosses!B42$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C42$
-Range on magic spawn ($data_pvme:Bosses!B43$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C43$
-Melee on melee spawn ($data_pvme:Bosses!B41$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C41$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Araxxi#Drops)",
+    "color": 2281522,
+	"thumbnail": {
+      "url": "https://i.imgur.com/D6q9Ubj.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E28$\n⬥ Total (range spawn) <:coins:698816156961603654> $data_pvme:Bosses!E37$\n⬥ Total (magic spawn) <:coins:698816156961603654> $data_pvme:Bosses!E38$\n⬥ Total (melee spawn) <:coins:698816156961603654> $data_pvme:Bosses!E36$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Melee on range spawn ($data_pvme:Bosses!B42$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C42$\n⬥ Range on magic spawn ($data_pvme:Bosses!B43$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C43$\n⬥ Melee on melee spawn ($data_pvme:Bosses!B41$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C41$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Croesus__**
 .tag:croesus
-.img:https://i.imgur.com/xuMqqd9.jpg
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Croesus#Drops)",
+    "color": 7972247,
+	"thumbnail": {
+      "url": "https://i.imgur.com/udJsgOg.png"
+    },
+    "fields": [
+      {
+        "name": "__4-man GP per kill__",
+        "value": "⬥ Total: <:coins:698816156961603654> $data_pvme:Bosses!E668$\nDoes not include commons, only unique chance"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 4-man ($data_pvme:Bosses!D669$ kph) <:coins:698816156961603654> $data_pvme:Bosses!E669$"
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__4-man GP per kill__**
-Does not include commons, only unique chance: <:coins:698816156961603654> $data_pvme:Bosses!E668$
-
-**__GP/Hour__**
-4-man ($data_pvme:Bosses!D669$ kph) <:coins:698816156961603654> $data_pvme:Bosses!E669$
 
 .
 > **__ED1: Temple of Aminishi__**
 .tag:ed1
-.img:https://imgur.com/LdYq2RP.png
-.
-**__Gp/Solo Run__**
-Ancient scales <:coins:698816156961603654> $data_pvme:Bosses!E528$
-
-*Note: 14.4 scale average with all commons omitted and doubling chance is taken into account.*
-
-.
-**__Gp/Hour__**
-Master ($data_pvme:Bosses!B531$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C531$
-Grandmaster ($data_pvme:Bosses!B533$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C533$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Seiryu_the_Azure_Serpent#Drops)",
+    "color": 1514853,
+	"thumbnail": {
+      "url": "https://i.imgur.com/LbesfGr.png"
+    },
+    "footer": {
+      "text": "Note: ~14 scale average | all commons omitted | doubling chance | all taken into account."
+    },
+    "fields": [
+      {
+        "name": "__GP/Solo Run__",
+        "value": "⬥ Ancient scales <:coins:698816156961603654> $data_pvme:Bosses!E528$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Master ($data_pvme:Bosses!B531$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C531$\n⬥ Grandmaster ($data_pvme:Bosses!B533$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C533$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__ED2: Dragonkin Laboratory__**
 .tag:ed2
-.img:https://imgur.com/EA7wP1w.png
-.
-**__Gp/Solo Run__**
-Total <:coins:698816156961603654> $data_pvme:Bosses!E546$
-
-*Note: 13.044 scale average with all commons omitted and doubling chance is taken into account.*
-
-.
-**__Gp/Hour__**
-Master ($data_pvme:Bosses!B549$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C549$
-Grandmaster ($data_pvme:Bosses!B551$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C551$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Black_stone_dragon#Drops)",
+    "color": 5651338,
+	"thumbnail": {
+      "url": "https://i.imgur.com/byVZh7g.png"
+    },
+    "footer": {
+      "text": "Note: ~13 scale average | all commons omitted | doubling chance | all taken into account."
+    },
+    "fields": [
+      {
+        "name": "__GP/Solo Run__",
+        "value": "⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!E546$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Master ($data_pvme:Bosses!B549$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C549$\n⬥ Grandmaster ($data_pvme:Bosses!B551$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C551$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__ED3: The Shadow Reef__**
 .tag:ed3
-.img:https://imgur.com/W5h47SR.png
-.
-**__Gp/Solo Run__**
-Eldritch Crossbow <:coins:698816156961603654> $data_pvme:Bosses!B560$
-Total (uniques) <:coins:698816156961603654> $data_pvme:Bosses!E568$
-
-.
-**__Gp/Hour__**
-Master ($data_pvme:Bosses!B571$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C571$
-Grandmaster ($data_pvme:Bosses!B573$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C573$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/The_Ambassador#Drops)",
+    "color": 5198952,
+	"thumbnail": {
+      "url": "https://i.imgur.com/qRBpfeH.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Solo Run__",
+        "value": "⬥ Eldritch Crossbow <:coins:698816156961603654> $data_pvme:Bosses!B560$\n⬥ Total (uniques) <:coins:698816156961603654> $data_pvme:Bosses!E568$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Master ($data_pvme:Bosses!B571$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C571$\n⬥ Grandmaster ($data_pvme:Bosses!B573$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C573$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Gregorovic__**
 .tag:greg
-.img:https://i.imgur.com/y6lLKbi.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E398$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B398$
-
-*Note: Calculations assume Max Reputation.*
-
-.
-**__Gp/Hour__**
-Melee ($data_pvme:Bosses!B401$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C401$
-Afk ($data_pvme:Bosses!B402$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C402$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Gregorovic#Drops)",
+    "color": 10723966,
+	"thumbnail": {
+      "url": "https://i.imgur.com/RMLNFDZ.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E398$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B398$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Melee ($data_pvme:Bosses!B401$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C401$\n⬥ Afk ($data_pvme:Bosses!B402$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C402$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Helwyr__**
 .tag:helwyr
-.img:https://i.imgur.com/ZfhwfU6.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E334$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B334$
-
-*Note: Calculations assume Max Reputation.*
-
-.
-**__Gp/Hour__**
-Melee ($data_pvme:Bosses!B337$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C337$
-Afk ($data_pvme:Bosses!B339$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C339$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Helwyr#Drops)",
+    "color": 6009511,
+	"thumbnail": {
+      "url": "https://i.imgur.com/gLUOt9f.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E334$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B334$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Melee ($data_pvme:Bosses!B337$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C337$\n⬥ Afk ($data_pvme:Bosses!B339$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C339$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Kalphite King__**
 .tag:kk
-.img:https://i.imgur.com/yGuLd8Z.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E157$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B157$
-
-.
-**__Gp/Hour__**
-Solo ($data_pvme:Bosses!B160$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C160$
-Duo ($data_pvme:Bosses!B161$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C161$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Kalphite_King#Drops)",
+    "color": 16083760,
+	"thumbnail": {
+      "url": "https://i.imgur.com/t38nmcI.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E157$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B157$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:Bosses!B160$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C160$\n⬥ Duo ($data_pvme:Bosses!B161$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C161$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Kerapac: Hardmode__**
 .tag:kerapac
-.img:https://i.imgur.com/LuuRiDd.jpg
-.
-**__Gp/Kill__ (Solo)**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E638$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B638$
-
-.
-**__Gp/Hour__ (Solo)**
-Master ($data_pvme:Bosses!B641$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C641$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Kerapac,_the_bound#Hard_Mode)",
+    "color": 4220571,
+	"thumbnail": {
+      "url": "https://i.imgur.com/8LRCGjz.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill (Solo)__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E638$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B638$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:Bosses!B641$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C641$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Legiones__**
 .tag:legio
-.img:https://i.imgur.com/abQCkzU.jpg
-.
-**__Gp/Kill__**
-Total <:coins:698816156961603654> $data_pvme:Bosses!B442$
-Profit (subtracting keys) <:coins:698816156961603654> $data_pvme:Bosses!C442$
-
-.
-**__Gp/Hour__**
-ECB ($data_pvme:Bosses!B445$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C445$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Legiones#Drop_analysis)",
+    "color": 4639944,
+	"thumbnail": {
+      "url": "https://i.imgur.com/MTJj0eD.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B442$\n⬥ Profit (subtracting keys) <:coins:698816156961603654> $data_pvme:Bosses!C442$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ ECB ($data_pvme:Bosses!B445$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C445$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Magister__**
 .tag:magi
-.img:https://i.imgur.com/TYxhwMX.png
-.
-**__Gp/Kill__**
-Total <:coins:698816156961603654> $data_pvme:Bosses!B228$
-Total (spark enhancers) <:coins:698816156961603654> $data_pvme:Bosses!B229$
-Profit (subtracting key) <:coins:698816156961603654> $data_pvme:Bosses!C228$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/The_Magister#Drops)",
+    "color": 4672349,
+	"thumbnail": {
+      "url": "https://i.imgur.com/ZFO07S5.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B228$\n⬥ Total (spark enhancers) <:coins:698816156961603654> $data_pvme:Bosses!B229$\n⬥ Profit (subtracting key) <:coins:698816156961603654> $data_pvme:Bosses!C228$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Magic ($data_pvme:Bosses!B233$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C233$\n⬥ Melee ($data_pvme:Bosses!B232$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C232$\n⬥ Range ($data_pvme:Bosses!B234$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C234$\n⬥ Low Effort Ranged ~($data_pvme:Bosses!B235$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C235$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-**__Gp/Hour__**
-Magic ($data_pvme:Bosses!B233$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C233$
-Melee ($data_pvme:Bosses!B232$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C232$
-Range ($data_pvme:Bosses!B234$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C234$
-Low Effort Ranged ~($data_pvme:Bosses!B235$ kph) <:coins:698816156961603654> ~$data_pvme:Bosses!C235$
-
-.
-> **__Nex__**
+> __**Nex**__
 .tag:nex
-.img:https://i.imgur.com/6ycFkjr.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E117$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B117$
-
-.
-**__Gp/Hour__**
-Solo ($data_pvme:Bosses!B120$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C120$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Nex#Drops)",
+    "color": 12788795,
+	"thumbnail": {
+      "url": "https://i.imgur.com/qHFUkGX.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E117$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B117$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:Bosses!B120$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C120$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Nex, Angel of Death__**
 .tag:aod
-.img:https://i.imgur.com/C27bq4H.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E268$
-Total 7-man <:coins:698816156961603654> $data_pvme:Bosses!B268$
-Total 4-man <:coins:698816156961603654> $data_pvme:Bosses!B723$
-.
-**__Gp/Hour__**
-7 man ($data_pvme:Bosses!B272$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C272$
-4 man ($data_pvme:Bosses!B726$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C726$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Nex:_Angel_of_Death#Drops)",
+    "color": 12660811,
+	"thumbnail": {
+      "url": "https://i.imgur.com/e6HKKeK.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E268$\n⬥ Total 7-man <:coins:698816156961603654> $data_pvme:Bosses!B268$\n⬥ Total 4-man <:coins:698816156961603654> $data_pvme:Bosses!B723$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 7 man ($data_pvme:Bosses!B272$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C272$\n⬥ 4 man ($data_pvme:Bosses!B726$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C726$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Raksha__**
-.tag:dino
-.img:https://i.imgur.com/UsdjTOd.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E606$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B606$
-
-.
-**__Gp/Hour__**
-Solo ($data_pvme:Bosses!B609$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C609$
+.tag:raksha
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Raksha,_the_Shadow_Colossus#Drops)",
+    "color": 9135043,
+	"thumbnail": {
+      "url": "https://i.imgur.com/8TO6d0O.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E606$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B606$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:Bosses!B609$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C609$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Rex Matriarchs__**
 .tag:rexmatriarchs
-.img:https://imgur.com/77EFOYo.png
-.
-**__Gp/Kill__**
-Orikalka <:coins:698816156961603654> $data_pvme:Bosses!B788$
-Pthentraken <:coins:698816156961603654> $data_pvme:Bosses!B820$
-Rathis <:coins:698816156961603654> $data_pvme:Bosses!B756$
-
-.
-**__Gp/Hour__**
-Orikalka ($data_pvme:Bosses!B791$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C791$
-Pthentraken ($data_pvme:Bosses!B823$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C823$
-Rathis ($data_pvme:Bosses!B759$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C759$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Rex_Matriarchs#Rewards)",
+    "color": 5537600,
+	"thumbnail": {
+      "url": "https://i.imgur.com/KTWYeZk.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Orikalka <:coins:698816156961603654> $data_pvme:Bosses!B788$\n⬥ Pthentraken <:coins:698816156961603654> $data_pvme:Bosses!B820$\n⬥ Rathis <:coins:698816156961603654> $data_pvme:Bosses!B756$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Orikalka ($data_pvme:Bosses!B791$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C791$\n⬥ Pthentraken ($data_pvme:Bosses!B823$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C823$\n⬥ Rathis ($data_pvme:Bosses!B759$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C759$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Rise of the Six__**
 .tag:rots
-.img:https://i.imgur.com/WtQpNoN.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E186$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B186$
-
-.
-**__Gp/Hour__**
-4 man ($data_pvme:Bosses!B189$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C189$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Barrows:_Rise_of_the_Six#Rewards)",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/DfYDQn8.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E186$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B186$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 4 man ($data_pvme:Bosses!B189$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C189$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Solak__**
 .tag:tree
-.img:https://i.imgur.com/lSVgwyB.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E481$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B481$
-
-.
-**__Gp/Hour__**
-Duo ($data_pvme:Bosses!B484$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C484$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Solak#Drops)",
+    "color": 14988661,
+	"thumbnail": {
+      "url": "https://i.imgur.com/zrchAcA.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E481$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B481$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Duo ($data_pvme:Bosses!B484$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C484$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Telos__**
 .tag:telos
-.img:https://i.imgur.com/oNKbXti.png
-.
-**__Gp/Kill__**
-Orb (Estimated) <:coins:698816156961603654> $data_pvme:Bosses!F497$
-Total (2449%) <:coins:698816156961603654> $data_pvme:Bosses!B514$
-
-*Note: Calculation generates the orb value from the cheapest complete weapon, based on ge list prices. This is currently $data_pvme:Bosses!E494$. This orb value is used to calculate dormant prices for the other 2 weapons. Commons are omitted.*
-
-.
-**__Gp/Hour__**
-Magic 2449% ($data_pvme:Bosses!B518$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C518$
-Melee 2449% ($data_pvme:Bosses!B519$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C519$
-Range 2449% ($data_pvme:Bosses!B517$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C517$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Telos,_the_Warden#Drops)",
+    "color": 6141133,
+	"thumbnail": {
+      "url": "https://i.imgur.com/VlrKhcE.jpeg"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Orb (Estimated) <:coins:698816156961603654> $data_pvme:Bosses!F497$\n⬥ Total (2449%) <:coins:698816156961603654> $data_pvme:Bosses!B514$\n\n*Note:\n⬥ Calculation generates the orb value from the cheapest complete weapon, based on ge prices.\n⬥ This is currently the $data_pvme:Bosses!E494$.\n\u00a0\u00a0\u00a0\u00a0• This orb value is used to calculate dormant prices for the other 2 weapons.\n\u00a0\u00a0\u00a0\u00a0• Commons are omitted.*"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Magic 2449% ($data_pvme:Bosses!B518$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C518$\n⬥ Melee 2449% ($data_pvme:Bosses!B519$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C519$\n⬥ Range 2449% ($data_pvme:Bosses!B517$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C517$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Tzkal-Zuk__**
 .tag:zuk
-.img:https://i.imgur.com/5RwzSdR.jpg
-.
-**__Gp/Kill__**
-Normal Mode <:coins:698816156961603654> $data_pvme:Bosses!E690$
-Hard Mode <:coins:698816156961603654> $data_pvme:Bosses!E685$
-
-**__Gp/Hour__**
-Normal Mode ($data_pvme:Bosses!D691$ kph) <:coins:698816156961603654> $data_pvme:Bosses!E691$
-Hard Mode ($data_pvme:Bosses!D686$ kph) <:coins:698816156961603654> $data_pvme:Bosses!E686$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/TzKal-Zuk#Drops)",
+    "color": 11286325,
+	"thumbnail": {
+      "url": "https://i.imgur.com/OmNkPgY.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Normal Mode <:coins:698816156961603654> $data_pvme:Bosses!E690$\n⬥ Hard Mode <:coins:698816156961603654> $data_pvme:Bosses!E685$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Normal Mode ($data_pvme:Bosses!D691$ kph) <:coins:698816156961603654> $data_pvme:Bosses!E691$\n⬥ Hard Mode ($data_pvme:Bosses!D686$ kph) <:coins:698816156961603654> $data_pvme:Bosses!E686$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Twin Furies__**
 .tag:twins
-.img:https://i.imgur.com/V0sEZr0.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E367$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B367$
-
-*Note: Calculations assume Max Reputation.*
-
-.
-**__Gp/Hour__**
-Melee ($data_pvme:Bosses!B370$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C370$
-Afk ($data_pvme:Bosses!B371$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C371$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Avaryss,_the_Unceasing#Drops)",
+    "color": 4872559,
+	"thumbnail": {
+      "url": "https://i.imgur.com/J4iba2B.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E367$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B367$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Melee ($data_pvme:Bosses!B370$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C370$\n⬥ Afk ($data_pvme:Bosses!B371$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C371$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Vindicta__**
 .tag:vindi
-.img:https://i.imgur.com/bieuGdZ.png
-.
-**__Gp/Kill__**
-Commons <:coins:698816156961603654> $data_pvme:Bosses!E300$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B300$
-
-*Note: Calculations assume Max Reputation.*
-
-.
-**__Gp/Hour__**
-Melee ($data_pvme:Bosses!B303$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C303$
-Afk ($data_pvme:Bosses!B306$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C306$
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Vindicta#Drops)",
+    "color": 1923691,
+	"thumbnail": {
+      "url": "https://i.imgur.com/DqMdWEI.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E300$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B300$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Melee ($data_pvme:Bosses!B303$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C303$\n⬥ Afk ($data_pvme:Bosses!B306$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C306$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Vorago__**
-.tag:rock
-.img:https://i.imgur.com/MI8GNQ7.png
-.
-**__Gp/Kill__**
-Tectonic Energies <:coins:698816156961603654> $data_pvme:Bosses!E52$
-Total <:coins:698816156961603654> $data_pvme:Bosses!B66$
-
-*Note: Values above are a total of all 5 loot piles.*
-
-.
-**__Gp/Hour__**
-Solo ($data_pvme:Bosses!B75$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C75$
-Duo ($data_pvme:Bosses!B70$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C70$
-Trio ($data_pvme:Bosses!B73$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C73$
-4 man ($data_pvme:Bosses!B74$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C74$
+.tag:vorago
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Vorago#Drops)",
+    "color": 9006658,
+	"thumbnail": {
+      "url": "https://i.imgur.com/m8tni0t.png"
+    },
+    "footer": {
+      "text": "Note: Values above are a total of all 5 loot piles."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Tectonic Energies <:coins:698816156961603654> $data_pvme:Bosses!E52$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B66$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:Bosses!B75$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C75$\n⬥ Duo ($data_pvme:Bosses!B70$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C70$\n⬥ Trio ($data_pvme:Bosses!B73$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C73$\n⬥ 4 man ($data_pvme:Bosses!B74$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C74$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 {
@@ -406,7 +666,7 @@ Trio ($data_pvme:Bosses!B73$ kph) <:coins:698816156961603654> $data_pvme:Bosses!
             "value":"[Link]($linkmsg_helwyr$)",
             "inline":true
          },
-	 {
+		{
             "name":"__Kalphite King__",
             "value":"[Link]($linkmsg_kk$)",
             "inline":true
@@ -431,17 +691,17 @@ Trio ($data_pvme:Bosses!B73$ kph) <:coins:698816156961603654> $data_pvme:Bosses!
             "value":"[Link]($linkmsg_nex$)",
             "inline":true
          },
-	 {
+		{
             "name":"__Nex AoD__",
             "value":"[Link]($linkmsg_aod$)",
             "inline":true
          },
          {
             "name":"__Raksha__",
-            "value":"[Link]($linkmsg_dino$)",
+            "value":"[Link]($linkmsg_raksha$)",
             "inline":true
          },
-	 {
+		{
             "name":"__Rex Matriarchs__",
             "value":"[Link]($linkmsg_rexmatriarchs$)",
             "inline":true
@@ -461,24 +721,24 @@ Trio ($data_pvme:Bosses!B73$ kph) <:coins:698816156961603654> $data_pvme:Bosses!
             "value":"[Link]($linkmsg_telos$)",
             "inline":true
          },
-	 {
+		{
             "name":"__Twin Furies__",
             "value":"[Link]($linkmsg_twins$)",
             "inline":true
          },
-	 {
+		{
             "name":"__Tzkal Zuk__",
             "value":"[Link]($linkmsg_zuk$)",
             "inline":true
          },
-	 {
+		{
             "name":"__Vindicta__",
             "value":"[Link]($linkmsg_vindi$)",
             "inline":true
          },
          {
             "name":"__Vorago__",
-            "value":"[Link]($linkmsg_rock$)",
+            "value":"[Link]($linkmsg_vorago$)",
             "inline":true
          }
       ]
