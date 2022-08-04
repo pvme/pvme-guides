@@ -6,10 +6,49 @@
 .
 > __**Introduction**__
 .tag:intro
-⬥ Although this guide contains a lot of niche information relevant to solo that can look overwhelming, only a few sections are needed if you are looking to start getting solo kills with little previous knowledge or experience
-    • A lot of the solo-specific information required to theorycraft rotations is simplified in here if that is what you find interesting about PvM
-⬥ Solo Vorago boils down to tanking Melee swipes and Blue and Red Bombs from Phases 1 to 4 on top of having to deal with the other mechanics
-    • Having experience with basing Duo Hardmode or prayer flicking in general is very beneficial
+⬥ This guide will try to give you the basics to learn and be able to get consistent kills, but will leave specific details for optimization out, as once learning the basics it shouldn't be hard to work on them independently.
+    • It will also include a lot of mechanics info that may not be necessary but can be helpful for those interested on it.
+
+__**Choosing a combat style**__
+__**Difficulty**__
+⬥ Both magic and ranged have their advantages and disadvantages.
+    • Magic makes it easier to survive with cryptbloom <:cryptbloombody:892819107253194762> and animate dead <:animatedead:856635090453135382>, with this allowing you to miss a lot of prayer flicks. As any other PvM encounter it will be very useful to remember to spell swap but can brute-force through some mechanics with damage.
+    • Ranged allows you to not have to bother with <:swh:641670143197446182> <:eofspec:746403211908481184> on P2 and 5 as you can use Black stone arrows <:blackstonearrow:785031580149743617>. As any other PvM encounter it will be very useful to swap arrows, although ranged won't be able to brute-force through everything like mage can, with a decent understanding of the combat style and following the rotations suggested, ranged should have very similar kill times to mage.
+        - Both combat styles will require to know decent abilities rotations, specific to the combat style, and require you to improvise, so it likely will be easier to learn with the style you are more comfortable with.
+
+.
+__**Gameplay of each combat style**__
+⬥ Assuming both combat styles are still equally prefered, this is what you can expect the gameplay to be from each style:
+    • Ranged:
+        - Consistent kill times
+        - <:bolg:994189289623662702> <:spec:537340400273195028> will not be used as much as it doesn't synergize very well with wen arrows <:wenarrow:971025697046925362>
+        - A lot of pray flicking, specially with <:ecb:615618531937222657> <:eofspec:746403211908481184> (Not necessary when learning)
+        - A lot of movement freedom
+        - Adren starved
+        - No grim pages required
+    • Magic:
+        - Very safe start with cryptbloom <:cryptbloombody:892819107253194762> and animate dead <:animatedead:856635090453135382>
+        - Too many channels will limit your movement which can make positioning hard or affect your damage output
+        - Spell switching will be very useful
+        - Can brute-force through mechanics with <:soa:869284271595069451> <:spec:537340400273195028>
+        - Grim required
+
+.
+__**Useful skills for learning**__
+⬥ Defining the difficulty of something can be hard, for Vorago the most difficult part is in learning, as the hardest phase is P5, and you get a single attempt every 10 minutes. Here are some skills that may be useful for you to get through those phases or make P5 easier for you:
+    • Pray flicking between 2-3 different prayers (<:DeflectMage:544195487926845462>/<:DeflectMelee:544195488447201300>/<:soulsplit:615613924506599497>)
+    • Kiting while attacking
+        - For Scops or clearing bleeds <:dismember:535532879376023572> on P2 and 4
+    • Decent understanding of your prefered combat style
+        - To be able to perform or improvise decent abilities rotations
+    • Decent understanding of Vorago's mechanics
+        - Solo P5 will be explained here
+    • Spirit flicking
+        - Not needed at all but something useful to do
+    • Ability hit timings
+        - To know which abilities could push in between Vorago's autos
+    • Being able to not panic when something goes wrong
+        - This can be the difference between a successful or failed P5
 
 .
 > __**Drops**__
@@ -25,89 +64,191 @@
         - Therefore, solo Vorago will always be more gp/hr as you do not need to split Energies or Seismics and you are getting more than half duo KPH.
 
 .
-> __**Minimum Requirements**__
-.tag:reqs
-__**General Requirements**__
-⬥ <:surgecodex:602561894414417944> **Double Surge**
-⬥ <:escapecodex:602561894443778115> **Double Escape**
-⬥ <:ingen:641339234111848463> **Ingenuity of the Humans**
-⬥ <:swh:641670143197446182> **Statius' Warhammer** - either physical or stored in <:eofblack:780401412915855380>
-    • Although not ideal, can replace with Blackstone Arrows <:blackstonearrow:785031580149743617> for ranged
-⬥ <:cadeturtling:867678153883516958> **15 Seconds of Barricade**
-
-*Note: If using <:blackstonearrow:785031580149743617> instead of <:swh:641670143197446182>, then Ingenuity of the Humans <:ingen:641339234111848463> is not required.*
-
-.
-__**Ranged-specific Requirements**__
-⬥ <:eofblue:780401412906680330> with Seren Godbow <:sgb:626466665848242186>
-⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-⬥ <:strykebow:643109318845267988> **Strykebow** with Caroming 4 Planted Feet <:caroming4:791281588792590336> <:pf:689501925770919981> and Turtling 4 <:turt4:712073737377284146>
-⬥ <:sgb:626466665848242186> **Seren Godbow** with Caroming 4 <:caroming4:791281588792590336> (this is in addition to <:eofblue:780401412906680330> <:sgb:626466665848242186>)
-
-*Note: The Strykebow <:strykebow:643109318845267988> and physical SGB <:sgb:626466665848242186> are not necessarily needed. There are 2 ways of doing Phase 5 with Ranged: the first is by taking advantage of BSA <:blackstonearrow:785031580149743617> at the start to debuff Vorago, and the second is by camping Ruby Bakriminel bolts <:RubyBakri:565726489413287956> for a better initial push. The first method may involve more switches without a Pernix's quiver <:pernixsquiver:902209626450296892> but it can be more consistent. The second method has a slightly higher potential for a fast Phase 5: it involves more RNG that can be handled better with practice. It is also cheaper overall as it does not require a physical SGB and a Strykebow.*
-
-.
-__**Magic-specific Requirements**__
-⬥ <:soa:869284271595069451> **Fractured Staff of Armadyl**
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-
-.
-__**Recommended**__
-⬥ <:archaeology:941211288665739274> 650 Monolith power
-⬥ <:divert:787904334377648130> **Divert**
-⬥ <:blessedflask:659122178704408598> **Blessed Flask**
-⬥ <:powderofpenance:928221126360969226> **Powder of Penance**
-⬥ <:shadownihil:854475441946230855> <:smokenihil:854475442227642388> **Nihil** - 5% accuracy for the respective combat style
-⬥ <:vengeful:583430259110576140> <:Merciless:583430258829688854> **T90 Shield with Turtling 3 or 4 Reflexes <:turtling3:974504834394898522> <:reflexes:954725655927463966> and Malletops <:malletops:690136117374484508>**
-    • For more adrenaline from Divert <:divert:787904334377648130> and longer Barricade <:cade:535541306353778689> duration
-⬥ <:grim:568262896375824385> **Erethdor's Grimoire**
-    • A Scrimshaw of Cruelty <:Cruelty:513190159546712074> can be used instead for ranged as a cheap option
-⬥ <:eofyellow:780401412902223892> with Armadyl Battlestaff <:armadylbattlestaff:881962727705280512> for magic
-⬥ <:channellerring:839903943404027914> **Channeller's ring**
-⬥ <:reaverring:839903943018283050> **Reaver's ring** - for Scopulus week
-⬥ <:warpedgem:968908526955167774> **Ring of Vigour passive effect**
-
-.
-*Note: An Elysian <:elysianspiritshield:690976217792250007> or Arcane <:arcanespiritshield:690976219612708954> Spirit Shield are highly recommended when learning in place of T90 shields <:Merciless:583430258829688854>, as the only advantage of T90 shields is the Divert <:divert:787904334377648130> adrenaline, if that's the case, a Blessed Flask <:blessedflask:659122178704408598> and/or Powder of Penance <:powderofpenance:928221126360969226> will be really helpful here as they will drain a lot of prayer.*
-
-.
-> __**Presets**__
-.tag:presets
-*Note: The following presets contain the gear utilized to get kills in an optimal way. If solo Vorago is something you are looking to learn while having little to no experience, it is highly recommended to use Cryptbloom helm <:cryptbloomhelm:892819107123195956>, top <:cryptbloombody:892819107253194762> and bottoms <:cryptbloomlegs:892819107223851058>. This will help you survive through P1 to 4 to consistently get more P5 practice. Since P5 is mostly a mechanical fight rather than a dps fight, in most cases you will lose the kill because you mess up something in your rotation rather than lacking damage.*
+> __**Beginner Presets**__
+.tag:beginner
+⬥ These presets setups are meant to help you learning by reducing the amount of switches needed and allowing more space for food, in the case of ranged, and having cryptbloom <:cryptbloombody:892819107253194762> and animate dead <:animatedead:856635090453135382> for damage reduction in the case of magic.
 
 .
 __**Ranged**__
 ⬥ <:eofblue:780401412906680330> with Seren Godbow <:sgb:626466665848242186>
 ⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-⬥ <:pernixsquiverred:923269339178758204> with <:blackstonearrow:785031580149743617> <:RubyBakri:565726489413287956>
-⬥ <:pernixsquiveryellow:923269339136798800> with <:OnyxBakri:565726489362956308> <:HydrixBakri:550834403136503822>
-⬥ <:sgb:626466665848242186> **Seren Godbow** with Caroming 4 <:caroming4:791281588792590336> (this is in addition to <:eofblue:780401412906680330> <:sgb:626466665848242186>)
-⬥ <:strykebow:643109318845267988> **Strykebow** with Caroming 4 Planted Feet <:caroming4:791281588792590336> <:pf:689501925770919981> and Turtling 4 <:turt4:712073737377284146>
-.
-⬥ <:acbmh:643162838466035712> **Armadyl crossbow** with Energising 4 <:energising4:851514466818457640>
-⬥ <:ascmh:513190158468775936> **Ascension Crossbow** with Caroming 4 Planted Feet <:caroming4:791281588792590336> <:pf:689501925770919981>
-⬥ <:dummy:656844963522281473> **Combat dummies** for phases 1 and 2
+⬥ <:eofblack:780401412915855380> with Statius' warhammer <:swh:641670143197446182>
+    • A physical Statius' warhammer is just as good
+⬥ <:pernixsquiverblack:923269339132608532> with <:blackstonearrow:785031580149743617> <:HydrixBakri:550834403136503822>
+⬥ <:pernixsquiverblue:923269339203903488> with <:wenarrow:971025697046925362> <:HydrixBakri:550834403136503822>
+⬥ <:bolg:994189289623662702> **Bow of the Last Guardian** with Caroming 4 <:caroming4:791281588792590336>
+⬥ <:strykebow:643109318845267988> **Strykebow** with Caroming 4 Planted Feet and Turtling 4 <:caroming4:791281588792590336> <:pf:689501925770919981> + <:turt4:712073737377284146>
+⬥ <:NMG:513190159441723392> **Nightmare gauntlets** for snipe increased accuracy
+⬥ <:excal:641337999170207763> **Enhanced excalibur** with Mobile <:mob:689501908628799488>
+⬥ <:RoD:513190159462825984> **Ring of death**
+⬥ <:Cruelty:513190159546712074> **Scrimshaw of Cruelty**
+⬥ <:dummy:656844963522281473> **Combat dummies** for phases 2 and 4
+⬥ <:vitality:654618235097972737> **Powerburst of vitality** for Ceilings, Green bombs, Teamsplits and The end stands
 ⬥ <:graspingpouchblue:892816437406728252> <:Mudrune:536252660286881832> <:Firerune:536252659850674186> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Bodyrune:536252659301089280> <:Astralrune:536252658961481769> <:Soulrune:536252660333019136>
 (Runes for: <:sd:537341954392850442> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:magicimbue:923249598640832543>)
 .
-**__BSA P5 Approach Preset__**
+.img:https://i.imgur.com/MW1JWkO.png
 .
-.img:https://i.imgur.com/3ya9slI.png
+__**Ranged Unlocks and buffs not shown**__
+⬥ <:warpedgem:968908526955167774> **Ring of Vigour passive effect**
+⬥ <:surgecodex:602561894414417944> **Double Surge**
+⬥ <:escapecodex:602561894443778115> **Double Escape**
+⬥ <:ingen:641339234111848463> **Ingenuity of the Humans**
+    • Only if using Statius' warhammer <:swh:641670143197446182>
+⬥ <:malletops:690136117374484508> **2x Malletops**
+⬥ <:shadownihil:854475441946230855> **Shadow Nihil** 5% increased ranged accuracy
+⬥ <:thermalflask:689530593796423724> **Ogre flask (thermal)**
+
 .
-**__Ruby Start P5 Approach Preset__**
+__**Ranged Archaeology Relics**__
+⬥ <:archaeology:941211288665739274> 650 Monolith power
+    • <:conservationofenergy:697808773711921195> **Conservation of Energy**
+    • <:furyofthesmall:697808773917573233> **Fury of the Small**
+    • <:deathward:697808774068699286> **Death Ward**
+
 .
-.img:https://i.imgur.com/7eIZbjl.png
-.
+__**Invention Perks**__
+⬥ Standard perks setup
+    • This results in <:crack4:712073087662686249> <:relentless5:712244800920748092> | <:biting4:712073087809617931> | <:enhdev4:712073087507628035> | <:imp4:712073088204013640> <:dev4:712073087713280033>.
+
+⬥ It is recommended to not have <:mob:689501908628799488> on gear as <:escape:535541258832052231> and <:surge:535533810004262912> can be used to build adrenaline
+    • Rather, for <:escapemobile:867678153769877514>, <:surgemobile:867678153798975498> and <:bdmobile:867678153668820992> use <:excal:641337999170207763> with <:mob:689501908628799488>.
 
 .
 __**Magic**__
 ⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
 ⬥ <:eofyellow:780401412902223892> with Armadyl Battlestaff <:armadylbattlestaff:881962727705280512>
+⬥ <:eofblack:780401412915855380> with Statius' warhammer <:swh:641670143197446182>
+    • A physical Statius' warhammer is just as good
+⬥ <:soa:869284271595069451> **Fractured Staff of Armadyl**
 ⬥ <:eliteseasingerwand:581180345978716170> **Elite Seasinger Kiba** with Planted Feet <:pf:689501925770919981>
-⬥ <:kerapacswristwraps:869286640722513940> **Kerapac's wrist wraps** for Combust <:comb:535533833098100745> in various rotations
+⬥ <:arcanespiritshield:690976219612708954> **Arcane spirit shield** with Turtling 3 <:turtling3:974504834394898522>
+⬥ <:kerapacswristwraps:869286640722513940> **Kerapac's wrist wraps** for Combust <:comb:535533833098100745> in many rotations
+⬥ <:excal:641337999170207763> **Enhanced excalibur** with Mobile <:mob:689501908628799488>
+⬥ <:channellerring:839903943404027914> **Channeller's ring** with enchantment
+⬥ <:grim:568262896375824385> **Erethdor's Grimoire**
 ⬥ <:dummy:656844963522281473> **Combat dummies** for phases 2 and 4
+⬥ <:vitality:654618235097972737> **Powerburst of vitality** for Ceilings, Green bombs, Teamsplits and The end stands
+⬥ <:graspingpouchred:892816437121515531> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186> <:Chaosrune:536252659422855188>
+⬥ <:graspingpouchpurple:892816437343846440> <:Earthrune:536252659808731137> <:Deathrune:536252659586433024> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Bodyrune:536252659301089280> <:Astralrune:536252658961481769> <:Soulrune:536252660333019136>
+(Runes for: <:bloodbarrage:537338981747261446> <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:animatedead:856635090453135382> <:smokecloud:856635090641879050> <:sd:537341954392850442> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:magicimbue:923249598640832543>)
+.
+.img:https://i.imgur.com/AgWB28r.png
+.
+__**Magic Unlocks and buffs not shown**__
+⬥ <:warpedgem:968908526955167774> **Ring of Vigour passive effect**
+⬥ <:divert:787904334377648130> **Divert**
+⬥ <:surgecodex:602561894414417944> **Double Surge**
+⬥ <:escapecodex:602561894443778115> **Double Escape**
+⬥ <:ingen:641339234111848463> **Ingenuity of the Humans**
+⬥ <:malletops:690136117374484508> **2x Malletops**
+⬥ <:smokenihil:854475442227642388> **Smoke Nihil** 5% increased magic accuracy
+⬥ <:thermalflask:689530593796423724> **Ogre flask (thermal)**
+⬥ <:powderofpenance:928221126360969226> **Powder of Penance**
+⬥ <:animatedead:856635090453135382> **Animate dead**
+⬥ <:darkform:659122103269982228> **Dark form**
+
+.
+__**Magic Archaeology Relics**__
+⬥ <:archaeology:941211288665739274> 650 Monolith power
+    • <:conservationofenergy:697808773711921195> **Conservation of Energy**
+    • <:berserkersfury:697808774106185768> **Berserker's Fury**
+    • <:fontoflife:698225967679930408> **Font of Life**
+
+.
+__**Invention Perks**__
+⬥ Standard perks setup
+    • This results in <:crack4:712073087662686249> <:relentless5:712244800920748092> | <:biting4:712073087809617931> | <:invig4:712073087859949570> | <:imp4:712073088204013640> <:dev4:712073087713280033>.
+
+⬥ It is recommended to not have <:mob:689501908628799488> on gear as <:escape:535541258832052231> and <:surge:535533810004262912> can be used to build adrenaline
+    • Rather, for <:escapemobile:867678153769877514>, <:surgemobile:867678153798975498> and <:bdmobile:867678153668820992> use <:excal:641337999170207763> with <:mob:689501908628799488>.
+
+.
+> __**Advanced Presets**__
+.tag:presets
+⬥ These presets are meant to help you get faster kills, once understanding how all the mechanics work, specially for P5.
+    • Refer to the beginner presets if struggling with getting kills.
+
+.
+__**Ranged**__
+⬥ <:eofblue:780401412906680330> with Seren Godbow <:sgb:626466665848242186>
+⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
+⬥ <:eofpink:780401412865523722> with Eldritch crossbow <:ecb:615618531937222657>
+⬥ <:eofblack:780401412915855380> with Statius' warhammer <:swh:641670143197446182>
+    • A physical Statius' warhammer is just as good
+⬥ <:pernixsquiverblack:923269339132608532> with <:blackstonearrow:785031580149743617> <:fularrow:971025696958853180>
+⬥ <:pernixsquiverblue:923269339203903488> with <:wenarrow:971025697046925362> <:HydrixBakri:550834403136503822>
+⬥ <:bolg:994189289623662702> **Bow of the Last Guardian** with Caroming 4 <:caroming4:791281588792590336>
+⬥ <:strykebow:643109318845267988> **Strykebow** with Caroming 4 Planted Feet and Turtling 4 <:caroming4:791281588792590336> <:pf:689501925770919981> + <:turt4:712073737377284146>
+.
+⬥ <:elysianspiritshield:690976217792250007> **Elysian spirit shield**
+    • Although this is optional, it can be very helpful and the perks may vary depending on its usage
+        - With Turtling 3 Reflexes <:turtling3:974504834394898522> <:reflexes:954725655927463966>, if utilized to cade on long P5s (after stacking BSA <:blackstonearrow:785031580149743617>), to benefit from Hydrix bolts <:HydrixBakri:550834403136503822>
+        - With Absorivative 3 Reflexes <:absorbative4:890542428556230666> <:reflexes:954725655927463966>, if utilized only for spirit flicking (Not required at all but still useful)
+⬥ <:NMG:513190159441723392> **Nightmare gauntlets** for snipe increased accuracy
+⬥ <:excal:641337999170207763> **Enhanced excalibur** with Mobile <:mob:689501908628799488>
+⬥ <:stalkerring:839903943601029120> **Stalker's ring** with enchantment
+⬥ <:Cruelty:513190159546712074> **Scrimshaw of Cruelty**
+⬥ <:dummy:656844963522281473> **Combat dummies** for phases 1, 2 and 4
+⬥ <:vitality:654618235097972737> **Powerburst of vitality** for Ceilings, Green bombs, Teamsplits and The end stands
+⬥ <:accel:756236265472524418> **Powerburst of acceleration** for P1 climb
+⬥ <:graspingpouchblue:892816437406728252> <:Mudrune:536252660286881832> <:Firerune:536252659850674186> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Bodyrune:536252659301089280> <:Astralrune:536252658961481769> <:Soulrune:536252660333019136>
+(Runes for: <:sd:537341954392850442> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:magicimbue:923249598640832543>)
+.
+.img:https://i.imgur.com/aSawAqW.png
+.
+*Note: This preset can be modified according to the current rotation, a dummy <:dummy:656844963522281473> can be replaced for Mechanised chinchompas <:mechchin:641669268722810881> in the ranged preset during Scopulus, a Brew <:supersara:642708771344482314> or Jellyfish <:blueblubber:689530593742291033> can be replaced for a Primal feast <:primalfeast:651079281849532416> on Green bomb <:gb:646794380623085579> for example.*
+
+.
+__**Ranged Unlocks and buffs not shown**__
+⬥ <:warpedgem:968908526955167774> **Ring of Vigour passive effect**
+⬥ <:divert:787904334377648130> **Divert**
+⬥ <:surgecodex:602561894414417944> **Double Surge**
+⬥ <:escapecodex:602561894443778115> **Double Escape**
+⬥ <:ingen:641339234111848463> **Ingenuity of the Humans**
+    • Only if using Statius' warhammer <:swh:641670143197446182>
+⬥ <:malletops:690136117374484508> **2x Malletops**
+⬥ <:shadownihil:854475441946230855> **Shadow Nihil** 5% increased ranged accuracy
+⬥ <:thermalflask:689530593796423724> **Ogre flask (thermal)**
+⬥ <:powderofpenance:928221126360969226> **Powder of Penance**
+
+.
+__**Ranged Archaeology Relics**__
+⬥ <:archaeology:941211288665739274> 650 Monolith power
+    • <:conservationofenergy:697808773711921195> **Conservation of Energy**
+    • <:furyofthesmall:697808773917573233> **Fury of the Small**
+    • <:deathward:697808774068699286> **Death Ward**
+
+.
+__**Invention Perks**__
+⬥ Standard perks setup
+    • This results in <:crack4:712073087662686249> <:relentless5:712244800920748092> | <:biting4:712073087809617931> | <:enhdev4:712073087507628035> | <:imp4:712073088204013640> <:dev4:712073087713280033>.
+
+⬥ It is recommended to not have <:mob:689501908628799488> on gear as <:escape:535541258832052231> and <:surge:535533810004262912> can be used to build adrenaline
+    • Rather, for <:escapemobile:867678153769877514>, <:surgemobile:867678153798975498> and <:bdmobile:867678153668820992> use <:excal:641337999170207763> with <:mob:689501908628799488>.
+
+.
+__**Magic**__
+⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
+⬥ <:eofyellow:780401412902223892> with Armadyl Battlestaff <:armadylbattlestaff:881962727705280512>
+⬥ <:eofblack:780401412915855380> with Statius' warhammer <:swh:641670143197446182>
+    • A physical Statius' warhammer is just as good
+⬥ <:soa:869284271595069451> **Fractured Staff of Armadyl**
+⬥ <:eliteseasingerwand:581180345978716170> **Elite Seasinger Kiba** with Planted Feet <:pf:689501925770919981>
+⬥ <:kerapacswristwraps:869286640722513940> **Kerapac's wrist wraps** for Combust <:comb:535533833098100745> in many rotations
+⬥ <:merciless:583430258829688854> **Merciless kiteshield** with Turtling 3 Reflexes <:turtling3:974504834394898522> <:reflexes:954725655927463966>
 ⬥ <:tectlegs:643849257962438656> **Tectonic Robe Bottom** with Energising 4 <:energising4:851514466818457640> and Impatient 4 and <:imp4:712073088204013640> for P5
+⬥ <:excal:641337999170207763> **Enhanced excalibur** with Mobile <:mob:689501908628799488>
+⬥ <:channellerring:839903943404027914> **Channeller's ring** with enchantment
+    • <:reaverring:839903943018283050> **Reaver's ring** - switch for P3 Scopulus week
+⬥ <:grim:568262896375824385> **Erethdor's Grimoire**
+⬥ <:dummy:656844963522281473> **Combat dummies** for phases 2 and 4
+⬥ <:vitality:654618235097972737> **Powerburst of vitality** for Ceilings, Green bombs, Teamsplits and The end stands
+.
+⬥ <:accel:756236265472524418> **Powerburst of acceleration** for P1 climb
 ⬥ <:graspingpouchred:892816437121515531> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186> <:Chaosrune:536252659422855188>
 ⬥ <:graspingpouchpurple:892816437343846440> <:Earthrune:536252659808731137> <:Deathrune:536252659586433024> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Bodyrune:536252659301089280> <:Astralrune:536252658961481769> <:Soulrune:536252660333019136>
@@ -115,32 +256,42 @@ __**Magic**__
 .
 .img:https://i.imgur.com/23dQRjB.png
 .
-*Note: These presets can be modified according to the current rotation, a dummy <:dummy:656844963522281473> can be replaced for Mechanised chinchompas <:mechchin:641669268722810881> in the ranged preset during Scopulus, or a Guthix rest <:grest:689530593901412578> or Jellyfish <:blueblubber:689530593742291033> can be replaced for a Primal feast <:primalfeast:651079281849532416> on Green bomb <:gb:646794380623085579> for example.*
+*Note: This preset can be modified according to the current rotation, a Reaver's ring <:reaverring:839903943018283050> can be added during Scopulus week, a Guthix rest <:grest:689530593901412578> or Jellyfish <:blueblubber:689530593742291033> can be replaced for a Primal feast <:primalfeast:651079281849532416> on Green bomb <:gb:646794380623085579> for example.*
+
+.
+__**Magic Unlocks and buffs not shown**__
+⬥ <:warpedgem:968908526955167774> **Ring of Vigour passive effect**
+⬥ <:divert:787904334377648130> **Divert**
+⬥ <:surgecodex:602561894414417944> **Double Surge**
+⬥ <:escapecodex:602561894443778115> **Double Escape**
+⬥ <:ingen:641339234111848463> **Ingenuity of the Humans**
+⬥ <:malletops:690136117374484508> **2x Malletops**
+⬥ <:smokenihil:854475442227642388> **Smoke Nihil** 5% increased magic accuracy
+⬥ <:thermalflask:689530593796423724> **Ogre flask (thermal)**
+⬥ <:powderofpenance:928221126360969226> **Powder of Penance**
+⬥ <:animatedead:856635090453135382> **Animate dead**
+⬥ <:darkform:659122103269982228> **Dark form**
+
+.
+__**Magic Archaeology Relics**__
+⬥ <:archaeology:941211288665739274> 650 Monolith power
+    • <:conservationofenergy:697808773711921195> **Conservation of Energy**
+    • <:berserkersfury:697808774106185768> **Berserker's Fury**
+    • <:fontoflife:698225967679930408> **Font of Life**
 
 .
 __**Invention Perks**__
-⬥ The only perk differing from the standard best in slot perks is <:invig4:712073087859949570> + <:lucky2:954725767772778496>
-    • This results in <:crack4:712073087662686249> <:relentless5:712244800920748092> | <:biting4:712073087809617931> | <:invig4:712073087859949570> <:lucky2:954725767772778496> | <:imp4:712073088204013640> <:dev4:712073087713280033>.
+⬥ The only perk differing from the standard perks setup is <:invig4:712073087859949570> + <:lucky2:954725767772778496>
+    • <:lucky2:954725767772778496> is the kind of perk that can be good or bad depending when it procs. If you were expecting to get pushed on a blue and play around that it could end up you, but if you are a few squares away from maul it can usually get you a better kill.
+        - This perk is what you go for when you don't know what to waste your money at.
+
+⬥ This results in <:crack4:712073087662686249> <:relentless5:712244800920748092> | <:biting4:712073087809617931> | <:invig4:712073087859949570> <:lucky2:954725767772778496> | <:imp4:712073088204013640> <:dev4:712073087713280033>.
 
 ⬥ A legs switch is recommended with <:energising4:851514466818457640> and <:imp4:712073088204013640> to build faster during Barricade <:cade:535541306353778689> on Phase 5.
     • It can also be replaced with an Energising <:energising4:851514466818457640> Main hand.
 
 ⬥ It is recommended to not have <:mob:689501908628799488> on gear as <:escape:535541258832052231> and <:surge:535533810004262912> can be used to build adrenaline
-    • Rather, for <:escapemobile:867678153769877514>, <:surgemobile:867678153798975498> and <:bdmobile:867678153668820992> use an <:excal:641337999170207763> with <:mob:689501908628799488>.
-
-.
-__**Archaeology Relics**__
-⬥ **Ranged**
-    • <:heightenedsenses:697808773573771344> **Heightened Senses**
-    • <:furyofthesmall:697808773917573233> **Fury of the Small**
-    • <:deathward:697808774068699286> **Death Ward**
-
-⬥ **Magic**
-    • <:conservationofenergy:697808773711921195> **Conservation of Energy**
-    • <:berserkersfury:697808774106185768> **Berserker's Fury**
-    • <:fontoflife:698225967679930408> **Font of Life**
-
-*Note: Conservation of Energy <:conservationofenergy:697808773711921195> is not as important for ranged given that you do not use ultimates as frequently as Magic. Fury of the Small <:furyofthesmall:697808773917573233> also allows you to Darkbow spec <:dbow:643848618553507843> <:eofspec:746403211908481184> more frequently on Phases 3 and 5.*
+    • Rather, for <:escapemobile:867678153769877514>, <:surgemobile:867678153798975498> and <:bdmobile:867678153668820992> use <:excal:641337999170207763> with <:mob:689501908628799488>.
 
 .
 > __**Mechanics**__
@@ -173,6 +324,17 @@ __**Clearing P2 and P4 Bleeds**__
 .
 .img:https://i.imgur.com/8bV65ar.mp4
 .
+**__How to Safely Clear Bleeds__**
+⬥ An easy way to fail clearing Bleeds <:dismember:535532879376023572> is walking through Vorago on the same direction his walking direction is
+    • This results in not Surging far away enough to clear the bleed.
+
+⬥ The safe way to clear Bleeds <:dismember:535532879376023572> is to start spam clicking early enough, Surge <:surge:535533810004262912>, and then keep spam clicking away from vorago after Surging
+    • This may result on losing a lot of ticks.
+
+⬥ A safer way to clear Bleeds <:dismember:535532879376023572> without losing ticks is checking Vorago's walk direction, then position yourself on the opposite side of it (in a way where you have space to surge), face the direction you want to Surge <:surge:535533810004262912> to and spam click back to Vorago right when you start Surging
+    • Doing this you can even Surge through Vorago with way less risk of failing to clear a Bleed if his walk direction is the opposite side you are Surging to.
+
+.
 **__Clearing P5 Bleeds__**
 ⬥ On Phase 5 you only receive 3 bleeds
     • The optimal way to clear them is <:escape:535541258832052231> → (walk in) <:freedom:535541258240786434> → <:escape:535541258832052231>
@@ -202,19 +364,38 @@ __**Increased Chance for Melee Swipes**__
 > __**Phase 1**__
 .tag:p1
 .
-⬥ If ranging place a Dummy <:dummy:656844963522281473>, tag it with <:piercing:535541258538450944>, stall <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184>, stand on this position facing west. For magic pre-<:deto:535533833358016512> instead and exactly when the timer reaches 9.0s do the following inputs:
+⬥ Starting P1 you will drop on tile 1, in order to <:swh:641670143197446182> <:eofspec:746403211908481184> Vorago properly you will need to move to tile 2 before positioning on tile 3.
+    • This way you will be facing west so <:surge:535533810004262912> leaves you in front of the rock to start climbing.
 .
-.img:https://i.imgur.com/b8bFZaY.png
-    • (<:incitefear:856635090783567902>) (TC) <:bloodbarrage:537338981747261446> + r<:deto:535533833358016512> + <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> + <:surge:535533810004262912>
+.img:https://i.imgur.com/KXEkH0Z.png
+.
+⬥ The timing to Target cycle + <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> + <:surge:535533810004262912> is exactly when the timer reaches 9.0s.
+    • Click the rock the next tick and proceed to climb as suggested in the image.
+
+.
+__**Ranged**__
+⬥ With ranged you can place a Dummy <:dummy:656844963522281473>, tag it with <:piercing:535541258538450944>, stall <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184>.
     • (TC) r<:swh:641670143197446182> <:eofspec:746403211908481184> + <:snap:535534127131394088> + <:surge:535533810004262912>
-        - Click the rock a tick after doing the previous inputs
 
-*Note: Detonate and Snap can be skipped if doing the previous inputs consitently on the same tick can be difficult, that just means the phase will last slightly longer.*
+*Note: Snap can be skipped if doing the previous inputs consitently on the same tick can be difficult, that just means the phase will last slightly longer.*
+
+⬥ Rotation when reaching the top:
+    • Tag Vorago with (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → <:corruptshot:535541306294796299> (run to the jump spot to walk your combust) → <:divert:787904334377648130> → <:frag:535541273755385885> → <:deathsswiftpf:994921597813137518> + <:adrenrenewal:736298121704767538> → <:mds:535541259033378827> → <:gricocaroming:867678153966878740> → <:needle:535541259108876293> → (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:snipe:535541258425204770> → (<:wenarrow:971025697046925362>) <:mds:535541259033378827> → <:gricocaroming:867678153966878740> → <:deadshot:535541307666595870> → <:limitless:641339233638023179> <:rapid:535541270521708566> (8t) → <:snap:535534127131394088> → (Based on Hp) <:gricocaroming:867678153966878740> → Jump
+
+⬥ The rotation after jumping will vary depending on the Hp left on Vorago and your adrenaline
+    • If possible try to utilize abilities with increased accuracy, such as specs or Snipe, as <:swh:641670143197446182> <:eofspec:746403211908481184> will run out at this point.
+        - Try to Divert <:divert:787904334377648130> last blue bomb <:bluebomb:923249600276615200>, having high adren will be helpful for the start of P2.
 
 .
-⬥ <:surge:535533810004262912> + <:accel:756236265472524418> → Climb through the first rock and <:bd:535532854281764884> towards the next one → <:surge:535533810004262912> → (a tick after surge) <:bd:535532854281764884>
-    • Tag Vorago with (or the ranged equivalents) <:corruptblast:513190159194259467> → <:comb:535533833098100745> → (run to the jump spot to walk your combust) <:divert:787904334377648130> → <:sunshine:994921119381463070> + <:adrenrenewal:736298121704767538> → <:bloodbarrage:537338981747261446> + <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:soa:869284271595069451> → <:gconc:869285393223254107> / <:wm:535533809978966037> / <:smoketendrils:536257336130404372> / <:omni:535533809664262179> / <:asphyx:535533833072672778> / <:gstaff:513203008608141314> <:eofspec:746403211908481184> / <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>
-        - Jump when Vorago has around 30k Hp left, be aware FSoA <:soa:869284271595069451> <:spec:537340400273195028> autos can easily reset Hp (if ranging jumping at higher Hp can be better if Death's Swiftness <:deathsswift:994921434633744455> ran out to wait for cooldowns).
+__**Magic**__
+⬥ With magic you can Pre-<:deto:535533833358016512>.
+    • (<:incitefear:856635090783567902>) (TC) <:bloodbarrage:537338981747261446> + r<:deto:535533833358016512> + <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> + <:surge:535533810004262912>.
+
+*Note: Detonate can be skipped if doing the previous inputs consitently on the same tick can be difficult, that just means the phase will last slightly longer.*
+
+⬥ Rotation when reaching the top:
+    • Tag Vorago with <:corruptblast:513190159194259467> → <:comb:535533833098100745> (run to the jump spot to walk your combust) → <:divert:787904334377648130> → <:sunshine:994921119381463070> + <:adrenrenewal:736298121704767538> → <:bloodbarrage:537338981747261446> + <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:soa:869284271595069451> → <:gconc:869285393223254107> / <:wm:535533809978966037> / <:smoketendrils:536257336130404372> / <:omni:535533809664262179> / <:asphyx:535533833072672778> / <:gstaff:513203008608141314> <:eofspec:746403211908481184> / <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>
+        - Jump when Vorago has around 30k Hp left, be aware FSoA <:soa:869284271595069451> <:spec:537340400273195028> autos can easily reset Hp.
 
 ⬥ After jumping finish Vorago with some thresholds or basics depending on the remaining Hp
     • Try to Divert <:divert:787904334377648130> last blue bomb <:bluebomb:923249600276615200>, having high adren will be helpful for the start of P2.
@@ -223,33 +404,42 @@ __**Increased Chance for Melee Swipes**__
 > __**Phase 2**__
 .tag:p2
 **__Phase 2 Concerns__**
+⬥ For Phase 2, dealing the damage required in the time gate given can be slightly difficult and defensives will rarely be used, so being able to pray flick correctly will be extremely helpful.
+
+.
+__**Ranged**__
+⬥ Stack <:blackstonearrow:785031580149743617> before first reflect and ideally get 7 <:wenarrow:971025697046925362> stacks with the last <:gricocaroming:867678153966878740> before reflect.
+
+⬥ Use <:devo:513190158728953857> on the 2nd blue of reflect, forcing blue bomb after the red and then a melee hit. (add a clip of this)
+
+⬥ To deal enough damage before bring him down, after first reflect use (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:deadshot:535541307666595870>
+    • Can use (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → <:snap:535534127131394088> → <:rapid:535541270521708566> again while finishing clearing bleeds <:dismember:535532879376023572>.
+        - If needed, use <:sgb:626466665848242186> <:eofspec:746403211908481184> after clearing bleeds.
+
+⬥ Safe bleeds <:dismember:535532879376023572> strategy:
+    • <:surgemobile:867678153798975498> → <:bd:535532854281764884> → <:freedom:535541258240786434> (flick <:DeflectMage:544195487926845462>) → <:surge:535533810004262912> → <:surge:535533810004262912>
+        - Using <:mob:689501908628799488> on all the movement abilities can be really helpful if a mistake is made to clear any bleed.
+
+.
+⬥ Bring him down rotation:
+(<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:rapid:535541270521708566> → <:corruptshot:535541306294796299> → s<:grico:787904334812807238> + <:vulnbomb:655341074235129858> → (click release) r<:gricocaroming:867678153966878740> + <:snap:535534127131394088> → <:mds:535541259033378827>
+
+__**Magic**__
 ⬥ For Phase 2, dealing the damage required in the time gate given can be slightly difficult and defensives will rarely be used so being able to pray flick correctly will be extremely helpful.
     • For magic, (<:incitefear:856635090783567902>) (TC) <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → <:surgemobile:867678153798975498> to clear first bleed → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:bd:535532854281764884> to clear 2nd bleed → <:freedom:535541258240786434> 3rd bleed → clear next 2 bleeds with <:surge:535533810004262912>. Use <:res:535541258844635148> or <:divert:787904334377648130> if needed, if high adren you can <:devo:513190158728953857> reflect. <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> + <:tsunami:535533809995874304> → (run out of melee distance) (<:bloodbarrage:537338981747261446>) <:soa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:smoketendrils:536257336130404372> / <:omni:535533809664262179> before bleeds if possible to not interrupt <:soa:869284271595069451> <:spec:537340400273195028> autos with your Bladed dive switch when clearing them.
-.
-    • For ranged, (<:RubyBakri:565726489413287956>) (TC) <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → <:surgemobile:867678153798975498> to clear first bleed → <:bd:535532854281764884> to clear 2nd bleed → <:freedom:535541258240786434> 3rd bleed → clear next 2 bleeds with <:surge:535533810004262912>. Use <:sgb:626466665848242186> <:eofspec:746403211908481184> after clearing bleeds, before reflect. <:res:535541258844635148> or <:divert:787904334377648130> if neeed. <:devo:513190158728953857> the blue bomb from 2nd auto of reflect if you get one, otherwise use Devotion for 3rd auto (This way it lasts until the red bomb hits you). Move out of melee distance when you receive the red bomb, after first auto walk back to melee distance pray flicking properly while dealing damage. Use (<:HydrixBakri:550834403136503822>) <:dbow:643848618553507843> <:eofspec:746403211908481184> along with some basics as much as possible during the next set of bleeds.
-
-⬥ For Magic you can use Animate dead <:animatedead:856635090453135382> for Bring him down to reduce a huge amount of damage when equipping a shield <:Merciless:583430258829688854>.
 
 .
-**__How to Safely Clear Bleeds__**
-⬥ An easy way to fail clearing Bleeds <:dismember:535532879376023572> is walking through Vorago on the same direction his walking direction is
-    • This results in not Surging far away enough to clear the bleed.
+⬥ Safe bleeds <:dismember:535532879376023572> strategy:
+    • <:surgemobile:867678153798975498> → <:bd:535532854281764884> → <:freedom:535541258240786434> (flick <:DeflectMage:544195487926845462>) → <:surge:535533810004262912> → <:surge:535533810004262912>
+        - Using <:mob:689501908628799488> on all the movement abilities can be really helpful if a mistake is made to clear any bleed.
 
-⬥ The safe way to clear Bleeds <:dismember:535532879376023572> is to start spam clicking early enough, Surge <:surge:535533810004262912>, and then keep spam clicking away from vorago after Surging
-    • This may result on losing a lot of ticks.
-
-⬥ A safer way to clear Bleeds <:dismember:535532879376023572> without losing ticks is checking Vorago's walk direction, then position yourself on the opposite side of it (in a way where you have space to surge), face the direction you want to Surge <:surge:535533810004262912> to and spam click back to Vorago right when you start Surging
-    • Doing this you can even Surge through Vorago with way less risk of failing to clear a Bleed if his walk direction is the opposite side you are Surging to.
+⬥ Can use Animate dead <:animatedead:856635090453135382> during Bring him down to reduce damage taken when equipping a shield <:Merciless:583430258829688854>.
 
 .
-__**Bring him down rotations**__
-⬥ __**Ranged**__
-(<:HydrixBakri:550834403136503822>) <:gricocaroming:867678153966878740> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:rapid:535541270521708566> (8-hit) → <:corruptshot:535541306294796299> → s<:grico:787904334812807238> → r<:gricocaroming:867678153966878740> → <:snap:535534127131394088>
-
-⬥ __**Magic**__
+⬥ Bring him down rotation:
 (<:exsanguinate:856635090745950258>) (-3) <:magmatempest:902209626509025290> → <:bloodbarrage:537338981747261446> + <:gconc:869285393223254107> → <:omni:535533809664262179> → <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:asphyx:535533833072672778> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:comb:535533833098100745> → <:bloodbarrage:537338981747261446> + <:dbreath:535533833391702017>
 
-*Note 1: These rotations are not 100% consistent, using Vulnerability bombs <:vulnbomb:655341074235129858> in between channels or during abilities will highly increase their success rate.*
+*Note 1: This rotation is not 100% consistent, using Vulnerability bombs <:vulnbomb:655341074235129858> in between channels or during abilities will highly increase their success rate.*
 
 *Note 2: Select Incite fear spell <:incitefear:856635090783567902> after reaching 12 Exsanguinate <:exsanguinate:856635090745950258> stacks.*
 
@@ -257,9 +447,9 @@ __**Bring him down rotations**__
 > __**Phase 3**__
 ⬥ The different rotations can be approached in multiple ways
 
-⬥ Some rotations are going to have **Entry methods** where it suggests when to utilize defensives (to minimize the amount of food used) and ultimates in a more general way to give an easier understanding of what to do in the phase
-    • There will also be **Experienced methods** where the main focus is to finish the phase as fast as possible
-        - These rotations will also be more specific but can have a little improvisation based adrenaline gained by crits, Divert <:divert:787904334377648130>, Relentless <:relentless5:712244800920748092> and Impatient <:impatient:848803118706720798> procs.
+⬥ Some rotations will have **Entry methods** where it suggests when to utilize defensives (to minimize the amount of food used) and ultimates in a more general way to give an easier understanding of what to do in each phase.
+    • There will also be **Experienced methods** where the main focus is to finish the phase as fast as possible.
+        - These rotations will be more specific but can have a little improvisation based on adrenaline gained by crits, Divert <:divert:787904334377648130>, Relentless <:relentless5:712244800920748092> and Impatient <:impatient:848803118706720798> procs.
 
 *Note: For all magic rotations switching to <:bloodbarrage:537338981747261446> spell after <:tsunami:535533809995874304> will help to save food.*
 
@@ -312,16 +502,19 @@ __**Magic Entry Method**__
 
 .
 __**Magic Experienced Method**__
-⬥ Scopuli attacks have a speed of 4 ticks as well as Vorago, this means it is possible to have all attacks hitting you on different ticks so you can pray flick everything consistently.
+⬥ Scopuli attacks have a speed of 4 ticks, as well as Vorago, this means that it is possible to have all attacks hitting on different ticks to pray flick everything consistently.
 
-⬥ For this strategy you will walk 1 tile south from where you drop start of Phase 3 and stand still.
-    • This will cause the scopuli to stack and hit you in the following sequence:
+⬥ For this strategy, first you will drop on tile 1, then walk to tile 2 after sunning, and move to tile 3 when you <:soa:869284271595069451> <:spec:537340400273195028>, as shown in the following image.
+.
+.img:https://i.imgur.com/mW5ojcB.png
+.
+    • This will prevent the scopuli from stacking too fast, allowing you to <:gchain:787904334495088672> + <:omni:535533809664262179>, and make them attack you in the following sequence:
         - (1) Scopulus auto → (2) Scopulus auto → (3) Blue bomb → (4) Nothing → Repeat
 
-(-30) <:nat:535541258131865633> → (<:incitefear:856635090783567902>) <:wrack:856662355952795658> → <:voke:535541259465392143> → <:gconc:869285393223254107> → <:wrack:856662355952795658> → (-15) (<:bloodbarrage:537338981747261446>) <:sunshine:994921119381463070> → <:anti:535541306475151390> → <:freedom:535541258240786434> → <:magmatempest:902209626509025290> → (lose target) <:devo:513190158728953857> + <:adrenrenewal:736298121704767538> → (TC) <:smokecloud:856635090641879050> + (backwards TC) <:tsunami:535533809995874304> → (walk 2 tiles west) <:soa:869284271595069451> <:spec:537340400273195028> → <:gchain:787904334495088672> → <:omni:535533809664262179> → <:limitless:641339233638023179> + <:smoketendrils:536257336130404372>
+(-30) <:nat:535541258131865633> → (<:incitefear:856635090783567902>) <:wrack:856662355952795658> → <:voke:535541259465392143> → <:gconc:869285393223254107> → <:wrack:856662355952795658> → (-15) (<:bloodbarrage:537338981747261446>) <:sunshine:994921119381463070> → (Move to tile 2) <:anti:535541306475151390> → <:freedom:535541258240786434> → <:magmatempest:902209626509025290> → (lose target) <:devo:513190158728953857> + <:adrenrenewal:736298121704767538> → (TC) <:smokecloud:856635090641879050> + (backwards TC) <:tsunami:535533809995874304> → (Move to tile 3) <:soa:869284271595069451> <:spec:537340400273195028> → <:gchain:787904334495088672> → <:omni:535533809664262179> → <:limitless:641339233638023179> + <:smoketendrils:536257336130404372>
 
 .
-⬥ From here what follows depends on the remaining HP of the east scopulus, if it has too high HP you can <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> if enough adren or <:wm:535533809978966037> / <:asphyx:535533833072672778> / <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184>.
+⬥ From here, what follows depends on the remaining HP of the east scopulus, if it has too high HP you can <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> if enough adren or <:wm:535533809978966037> / <:asphyx:535533833072672778> / <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184>.
 
 ⬥ As soon as the scopulus dies, there are 2 options:
     • The safe option is to <:surge:535533810004262912> straight and continue doing damage, when the scopulus gets close to you surge back to your sunshine to finish it off.
@@ -330,11 +523,11 @@ __**Magic Experienced Method**__
         - (1) Nothing → (2) Scopulus auto → (3) Blue bomb → (4) Scopulus auto → Repeat
 
 __**General Notes**__
-⬥ Blood barrage <:bloodbarrage:537338981747261446> with Dark form <:darkform:659122103269982228> is essential for this strategy as it will help you sustain face tanking the scopuli.
+⬥ Blood barrage <:bloodbarrage:537338981747261446> with Dark form <:darkform:659122103269982228> is essential for this strategy as it will help you sustain Hp while face tanking the scopuli.
 
 ⬥ Using a Powerburst of Vitality <:vitality:654618235097972737> when <:devo:513190158728953857> is about to run out will decrease the risk of dying due to a missed prayer flick or bad rng.
 
-⬥ Vulning only the west scopulus could be good as you want the east scopulus to stay alive for as long as possible to benefit from <:soa:869284271595069451> <:spec:537340400273195028> autos and crits.
+⬥ Vulning only the west scopulus could be something to consider as you want the east scopulus to stay alive for as long as possible to benefit from <:soa:869284271595069451> <:spec:537340400273195028> autos and crits.
 
 .
 > __**Phase 3: Green Bomb**__
@@ -358,9 +551,7 @@ __**Ranged entry method**__
 
 .
 __**Ranged experienced method**__
-(-27) <:nat:535541258131865633> → (Build) → (<:RubyBakri:565726489413287956>) (TC) <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → (<:teamsplitredblue:956854185591197776> start) <:anti:535541306475151390> → <:surge:535533810004262912> → (<:teamsplitredblue:956854185591197776> end) <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> + 2H Auto → <:gricocaroming:867678153966878740> → <:needle:535541259108876293> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:snap:535534127131394088> → (Reflect start) <:divert:787904334377648130> → <:prep:535541258546970624> → <:freedom:535541258240786434> → <:escape:535541258832052231> → (Wait 1 tick) → (Reflect end) <:snipe:535541258425204770> → <:gricocaroming:867678153966878740> → (<:teamsplitredblue:956854185591197776> start)<:escape:535541258832052231> → <:Reprisal:513190159462694912> → <:freedom:535541258240786434> → (<:teamsplitredblue:956854185591197776> end) (<:OnyxBakri:565726489362956308>) <:dbow:643848618553507843> <:eofspec:746403211908481184> → (<:RubyBakri:565726489413287956>) <:limitless:641339233638023179> + <:snap:535534127131394088> → <:gricocaroming:867678153966878740> → <:rapid:535541270521708566> (6-hit) → <:needle:535541259108876293> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → (<:HydrixBakri:550834403136503822>) <:mds:535541259033378827>
-
-*Note: Switch to Hydrix bolts <:HydrixBakri:550834403136503822> when Hp goes below 70k or after <:sgb:626466665848242186> <:eofspec:746403211908481184>*
+(-27) (<:wenarrow:971025697046925362>) <:nat:535541258131865633> → <:piercing:535541258538450944> → <:grico:787904334812807238> → <:piercing:535541258538450944> → <:prep:535541258546970624> → (TC) <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → (<:teamsplitredblue:956854185591197776> start) <:antireflexes:998692900135252078> → <:surge:535533810004262912> → (<:teamsplitredblue:956854185591197776> end) (<:fularrow:971025696958853180>) <:bolg:994189289623662702> <:spec:537340400273195028> → (<:wenarrow:971025697046925362>) <:grico:787904334812807238> → (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → (<:wenarrow:971025697046925362>) <:snipe:535541258425204770> → <:mds:535541259033378827> → <:divert:787904334377648130> → (Refl start) <:deathsswiftpf:994921597813137518> → <:antireflexes:998692900135252078> → <:Shard:583429757975396366> → (Refl end) (4t) (<:fularrow:971025696958853180>) <:bolg:994189289623662702> <:spec:537340400273195028> + <:adrenrenewal:736298121704767538> → (<:wenarrow:971025697046925362>) <:grico:787904334812807238> → (<:teamsplitredblue:956854185591197776> start) <:freedom:535541258240786434> → <:escape:535541258832052231> → <:escape:535541258832052231> → <:anti:535541306475151390> → (<:teamsplitredblue:956854185591197776> end) <:deadshot:535541307666595870> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:rapid:535541270521708566> (8 hit) → <:snap:535534127131394088> → <:snipe:535541258425204770> → <:grico:787904334812807238> → <:mds:535541259033378827> → (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184>
 
 .
 __**Magic entry method**__
@@ -377,12 +568,9 @@ For The End you do not need to pray flick Blue bombs <:bluebomb:9232496002766152
 
 .
 __**Ranged**__
-(-27) <:nat:535541258131865633> → (Build) → (<:RubyBakri:565726489413287956>) (TC) <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → <:anti:535541306475151390> → <:surge:535533810004262912> → <:freedom:535541258240786434> → (Arms drop) <:sgb:626466665848242186> <:eofspec:746403211908481184> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:spec:537340400273195028> → <:gricocaroming:867678153966878740> → (<:HydrixBakri:550834403136503822>) <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:corruptshot:535541306294796299> → <:rapid:535541270521708566> → <:gricocaroming:867678153966878740> → <:snap:535534127131394088> → (DW) <:frag:535541273755385885> → (4t) <:ecb:615618531937222657> <:spec:537340400273195028> + 2H Auto
-From here <:disrupt:535614336207552523> after Red bombs <:redbomb:761711981186646096> hit, build with basics and <:vitality:654618235097972737> stand.
+(-27) (<:wenarrow:971025697046925362>) <:nat:535541258131865633> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:Tuskas:513201065513058306> → <:prep:535541258546970624> → TC <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → <:anti:535541306475151390> → <:freedom:535541258240786434> → (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → <:deadshot:535541307666595870> → <:limitless:641339233638023179> <:rapid:535541270521708566> (8t) → <:snap:535534127131394088> → <:gricocaroming:867678153966878740> → <:mds:535541259033378827> → <:Tuskas:513201065513058306> → <:corruptshot:535541306294796299> → <:frag:535541273755385885> → (4t) <:ecb:615618531937222657> <:eofspec:746403211908481184> + 2H Auto → (get 3-7 Perfect Equilibrium stacks) → (stand) (<:fularrow:971025696958853180>) <:bolg:994189289623662702> <:spec:537340400273195028> → (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → (<:fularrow:971025696958853180>) <:snipe:535541258425204770> → (<:wenarrow:971025697046925362>) <:mds:535541259033378827> → <:snap:535534127131394088> → (Refl start) <:divert:787904334377648130>/<:res:535541258844635148> → (Refl end) (<:fularrow:971025696958853180>) <:snipe:535541258425204770> + <:dbow:643848618553507843> <:eofspec:746403211908481184> → (2nd stand) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740>
 
-.
-(Stand) <:snipe:535541258425204770> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:gricocaroming:867678153966878740> → <:snap:535534127131394088> → <:mds:535541259033378827> → (Reflect start) <:res:535541258844635148> / <:divert:787904334377648130> → (Reflect end) <:snipe:535541258425204770> → <:dbow:643848618553507843> <:eofspec:746403211908481184> (<:gricocaroming:867678153966878740> if low adren)
-Repeat the initial rotation skipping <:swh:641670143197446182> <:eofspec:746403211908481184> and use <:limitless:641339233638023179> if needed
+Use <:disrupt:535614336207552523> + <:excal:641337999170207763> after Red bombs <:redbomb:761711981186646096> land and <:vitality:654618235097972737> stand.
 
 .
 __**Magic**__
@@ -395,7 +583,21 @@ __**Magic**__
 .
 > __**Phase 4**__
 .tag:p4
-*Note: For magic it is recommended to get 12 Exsanguinate <:exsanguinate:856635090745950258> stacks for Phase 5*
+__**Ranged**__
+⬥ Stack Black stone arrows <:blackstonearrow:785031580149743617> and shards <:Shard:583429757975396366>
+    • Shatter <:Shatter:536256673904328704> damage scales based on the arrow or weapon tier the shards were stacked with, because of this it is recommended to stack shards with t95 arrows (Not BSA <:blackstonearrow:785031580149743617>).
+        - In addition to this, Wen arrows <:wenarrow:971025697046925362> will boost shatter damage so it is highly recommended to use shatter with 15 Wen arrow stacks.
+
+⬥ Never Disrupt <:disrupt:535614336207552523> going into Phase 5.
+
+.
+__**Magic**__
+⬥ Get 12 Exsanguinate <:exsanguinate:856635090745950258> stacks for Phase 5
+
+⬥ The weekly rotations where you Disrupt <:disrupt:535614336207552523> going into Phase 5 are:
+    • Scopulus
+    • The End
+        - Do not disrupt going into Phase 5 on any other rotations if following the suggested Phase 5 methods.
 
 .
 __**Ceilings Collapse**__
@@ -405,15 +607,11 @@ __**Ceilings Collapse**__
 
 ⬥ Barricade <:cade:535541306353778689> can be skipped for the second cycle if the Hp is too high.
 
-⬥ Do **not** Disrupt <:disrupt:535614336207552523> into Phase 5.
-
 .
 __**Scopulus**__
 ⬥  Try to Resonance <:res:535541258844635148> 3rd Blue bomb <:bluebomb:923249600276615200> out of Waterfall to avoid losing healing from being already max Hp
     • Barricade <:cade:535541306353778689> the Red bomb <:redbomb:761711981186646096> (same method as Phase 2), clear Bleeds <:dismember:535532879376023572>
         - Devotion <:devo:513190158728953857> reflect and repeat.
-
-⬥ Disrupt <:disrupt:535614336207552523> as soon as Vorago dies to have it back from cooldown as soon as possible on Phase 5.
 
 .
 __**Green Bomb**__
@@ -425,15 +623,11 @@ __**Green Bomb**__
     • Clear bleeds <:dismember:535532879376023572>
         - Reflect <:reflect:535541258786177064> during reflect and repeat.
 
-⬥ Do **not** Disrupt <:disrupt:535614336207552523> into Phase 5.
-
 .
 __**Teamsplit**__
 ⬥ Try to Resonance <:res:535541258844635148> 3rd Blue bomb <:bluebomb:923249600276615200> out of Waterfall to avoid losing healing from being already max Hp
     • Clear bleeds <:dismember:535532879376023572>
         - Devotion <:devo:513190158728953857> reflect and repeat.
-
-⬥ Do **not** Disrupt <:disrupt:535614336207552523> into Phase 5.
 
 .
 __**The End**__
@@ -442,8 +636,6 @@ __**The End**__
         - For 2nd cycle skip Barricade <:cade:535541306353778689> as it will be on cooldown for Phase 5
     • On stand use <:res:535541258844635148> → <:reflect:535541258786177064> + <:vitality:654618235097972737> → <:shielddome:537341954392850442>
         - Use <:devo:513190158728953857> start of reflect.
-
-⬥ Disrupt <:disrupt:535614336207552523> as soon as Vorago dies to have it back from cooldown as soon as possible on Phase 5.
 
 .
 > __**Phase 5 Specific Mechanics**__
@@ -471,7 +663,7 @@ __**Push mechanic:**__
 .img:https://i.imgur.com/GpSIPMs.mp4
 .
 __**Stacking:**__
-⬥ As mentioned before Vorago is limited to pushing 1 tile per tick, this means you can stack multiple auto attacks on the same tick to only get pushed back 1 tile.
+⬥ As mentioned before, Vorago is limited to pushing 1 tile per tick, this means you can stack multiple auto attacks on the same tick to only get pushed back 1 tile.
 
 ⬥ Because Blue bombs <:bluebomb:923249600276615200> have a different travel time depending on your distance away from Vorago, you can move to manipulate their travel time and stack multiple autos on the same tick. The ticks autos are released relevant for this are (remember tile 1 is MD):
     • Melee swipes - tick 1
@@ -523,12 +715,17 @@ __**Stalling:**__
 .
 .img:https://i.imgur.com/AsJYNe3.mp4
 .
+__**Defence scaling**__
+⬥ Vorago will increase its defence based on how close it is from maul spot, starting at 90 defence and scaling up to 97.
+    • If you get pushed back from the starting point it won't decrease below 90.
+        - This means you can go from 94.5% hitchance (from a standard setup with 20 BSA <:blackstonearrow:785031580149743617> stacks) to 89% or from 99.7% (Gstaff <:gstaff:513203008608141314> <:eofspec:746403211908481184> + SWH <:swh:641670143197446182> <:eofspec:746403211908481184>) to 94.3%.
+.
+.img:https://i.imgur.com/0Q3BRGz.png
+.
 __**General Strategies**__
-⬥ As mentioned earlier, there are 2 ways of dealing with Phase 5 with Ranged
-    • The first strategy is utilizing Black Stone Arrows <:blackstonearrow:785031580149743617> to debuff Vorago at the start
-        - This will require a Strykebow <:strykebow:643109318845267988> as well as a physical Seren Godbow <:sgb:626466665848242186> on top of <:eofblue:780401412906680330> <:sgb:626466665848242186> for the Ruby <:RubyBakri:565726489413287956> proc chance
-        - It is highly recommended to use a Pernix's quiver <:pernixsquiver:902209626450296892> as it will make switching easier
-    • The second method consists on utilizing Ruby bolts <:RubyBakri:565726489413287956> at the start to get as many free tiles of push as possible, aiming to finish the phase as fast as possible.
+⬥ Ranged has the advantage of being much more consistent compared to magic as you have Black stone arrows <:blackstonearrow:785031580149743617> and Wen arrows <:wenarrow:971025697046925362> that increase your accuracy and don't have that much variable adrenaline.
+    • Because of this, it is possible to have specific rotations that most of the time will not require much improvisation and will get you a quick phase with little to none mistakes done.
+        - It is highly recommended to use Pernix's quivers <:pernixsquiver:902209626450296892> with the suggested setups as it will make switching easier.
 
 ⬥ For Magic, the strategy is generally the same on all weeks, dealing with the mechanics as best as possible to reduce pushback and brute force it with damage
     • Although there is a method to continue with in case the phase does not finish around the end of the first cycle.
@@ -536,29 +733,14 @@ __**General Strategies**__
 .
 > __**Phase 5: Teamsplit**__
 .tag:p5ts
-__**Ranged BSA start method**__
-(-27) <:nat:535541258131865633> → (Build) → (<:blackstonearrow:785031580149743617> + <:sgb:626466665848242186>) (TC) <:snap:535534127131394088> → (<:teamsplitredblue:956854185591197776> start) <:freedom:535541258240786434> → (wait 2 ticks) → <:Reprisal:513190159462694912> → <:anti:535541306475151390> → (<:teamsplitredblue:956854185591197776> end) (<:RubyBakri:565726489413287956>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → (<:blackstonearrow:785031580149743617> + <:sgb:626466665848242186>) <:snipe:535541258425204770> → <:gricocaroming:867678153966878740> → <:corruptshot:535541306294796299> → (<:strykebow:643109318845267988>) <:cade:535541306353778689> + <:adrenrenewal:736298121704767538> → <:mds:535541259033378827> → <:Tuskas:513201065513058306> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:deathsswift:994921434633744455> → <:piercing:535541258538450944> → (Switch to <:RubyBakri:565726489413287956> / <:HydrixBakri:550834403136503822> bolts based on Hp left)
+__**Ranged**__
+(-27) (<:wenarrow:971025697046925362>) <:nat:535541258131865633> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:Tuskas:513201065513058306> → <:prep:535541258546970624> → (TC) <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → (<:teamsplitredblue:956854185591197776> start) <:surge:535533810004262912> → <:anti:535541306475151390> → (<:teamsplitredblue:956854185591197776> end) (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → (<:wenarrow:971025697046925362>) <:frag:535541273755385885> → (<:blackstonearrow:785031580149743617>) <:gricocaroming:867678153966878740> → <:corruptshot:535541306294796299> → <:cade:535541306353778689> + <:adrenrenewal:736298121704767538> → <:mds:535541259033378827> → (Refl start) <:Tuskas:513201065513058306> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → (Refl end) (<:wenarrow:971025697046925362>) <:deathsswiftpf:994921597813137518> → <:mds:535541259033378827> + <:escape:535541258832052231> → <:needle:535541259108876293> → <:freedom:535541258240786434> + OH auto → 2H Auto → <:gricocaroming:867678153966878740> → <:deadshot:535541307666595870> + <:escape:535541258832052231> → <:corruptshot:535541306294796299> → <:limitless:641339233638023179> <:rapid:535541270521708566> (8t) → <:snap:535534127131394088> → <:gricocaroming:867678153966878740> → (<:teamsplitredblue:956854185591197776> start) build → (<:teamsplitredblue:956854185591197776> end) (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:snipe:535541258425204770> → <:bolg:994189289623662702> <:spec:537340400273195028> → (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740>
 
 .
-__** Ranged Ruby start method**__
-(-27) <:nat:535541258131865633> → (Build) → (<:HydrixBakri:550834403136503822>) (TC) <:snap:535534127131394088> → (<:teamsplitredblue:956854185591197776> start) <:freedom:535541258240786434> → (wait 2 ticks) → <:Reprisal:513190159462694912> → <:anti:535541306475151390> → (<:teamsplitredblue:956854185591197776> end) (<:RubyBakri:565726489413287956>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:snipe:535541258425204770> → <:gricocaroming:867678153966878740> → <:corruptshot:535541306294796299> → <:cade:535541306353778689> → <:piercingenergising:867678153979854868> → <:Tuskas:513201065513058306> + <:adrenrenewal:736298121704767538> → <:piercingenergising:867678153979854868> → <:gricocaroming:867678153966878740> → <:piercingenergising:867678153979854868> → <:Sacrifice:513201065907322880> → <:deathsswift:994921434633744455> → <:piercingenergising:867678153979854868> → (Switch to <:RubyBakri:565726489413287956> / <:HydrixBakri:550834403136503822> bolts based on Hp left)
+⬥ Disrupt <:disrupt:535614336207552523> near the end to make mauling easier.
 
-.
-⬥ The rotation after Barricade <:cade:535541306353778689> is pretty much improvised based on adren, some things to keep in mind are:
-    • Hammering <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> in between Bleeds <:dismember:535532879376023572> is ideal.
-    • Always save <:sgb:626466665848242186> <:eofspec:746403211908481184> for TS <:teamsplitredblue:956854185591197776>, using it on the earliest possible tick out of TS will guarantee a pushed tile before first Blue bomb <:bluebomb:923249600276615200> which is good to stall Vorago.
-    • When running in from escaping first Bleed <:dismember:535532879376023572> you can use a Dual-wielding ability to <:freedom:535541258240786434> + OH Auto → 2H Auto the second Bleed.
-    • Use <:frag:535541273755385885> right after <:sgb:626466665848242186> <:eofspec:746403211908481184> to guarantee a walked bleed.
-    • Divert <:divert:787904334377648130> can be really helpful when stacking for free adrenaline.
-
-.
-⬥ If you do not have enough adrenaline to <:deathsswift:994921434633744455> before Bleeds <:dismember:535532879376023572> you can <:escape:535541258832052231> → <:deathsswift:994921434633744455> + <:escape:535541258832052231> → (last bleed) <:freedom:535541258240786434>.
-
-⬥ Always stack Blue bombs after Bleeds <:dismember:535532879376023572> when <:deathsswift:994921434633744455> is up
-    • This is because stalling Vorago too much before the next Teamsplit will make it run out too early and it is needed for the rotation after Teamsplit.
-
-⬥ If the phase extends too much the general rotation to keep in mind is (<:teamsplitredblue:956854185591197776> end) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:frag:535541273755385885> → <:gricocaroming:867678153966878740> → <:cade:535541306353778689> → build to <:deathsswift:994921434633744455> during reflect → stack after Bleeds <:dismember:535532879376023572> + <:snipe:535541258425204770> → (<:teamsplitredblue:956854185591197776> end) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:gricocaroming:867678153966878740> → <:dbow:643848618553507843> → stack → (Reflect start) run back and stack
-    • If Vorago is close to maul spot after a Teamsplit <:teamsplitredblue:956854185591197776> you can skip stacking bombs to finish pushing it.
+⬥ If the phase extends too much, the general rotation to keep in mind is (<:teamsplitredblue:956854185591197776> end) (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:snipe:535541258425204770> → <:bolg:994189289623662702> <:spec:537340400273195028> → (<:wenarrow:971025697046925362>) <:gricocaroming:867678153966878740> → (Refl start) Stack autos + <:divert:787904334377648130> → (Refl end)<:bolg:994189289623662702> <:spec:537340400273195028> → (3rd bleed) <:deadshot:535541307666595870> + <:escape:535541258832052231> → <:rapid:535541270521708566> (8t) → <:snap:535534127131394088> → <:gricocaroming:867678153966878740>
+    • Might need to improvise based on adren and tiles away from maul.
 
 .
 __**Magic**__
@@ -577,25 +759,14 @@ __**Magic**__
 .
 > __**Phase 5: Purple Bomb**__
 .tag:p5pb
-__**Ranged BSA start method**__
-(-27) <:nat:535541258131865633> → (Build) → (<:RubyBakri:565726489413287956>) (TC) <:sgb:626466665848242186> <:eofspec:746403211908481184> → (<:blackstonearrow:785031580149743617> + <:sgb:626466665848242186>) <:frag:535541273755385885> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:mds:535541259033378827> → (<:strykebow:643109318845267988>) <:cade:535541306353778689> + <:adrenrenewal:736298121704767538> → <:Tuskas:513201065513058306> → <:mds:535541259033378827> → <:grico:787904334812807238> → <:piercing:535541258538450944> → <:Sacrifice:513201065907322880> → <:deathsswift:994921434633744455> → <:piercing:535541258538450944> → (Switch to <:RubyBakri:565726489413287956> / <:HydrixBakri:550834403136503822> bolts based on Hp left)
+__**Ranged**__
+(-27) (<:wenarrow:971025697046925362>) <:nat:535541258131865633> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:Tuskas:513201065513058306> → <:prep:535541258546970624> → (TC) (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> → (<:blackstonearrow:785031580149743617>) <:frag:535541273755385885> → <:gricocaroming:867678153966878740> → (<:wenarrow:971025697046925362>) → <:corruptshot:535541306294796299> → <:cade:535541306353778689> + <:adrenrenewal:736298121704767538> → (<:blackstonearrow:785031580149743617>) <:mds:535541259033378827> → <:Tuskas:513201065513058306> → <:Sacrifice:513201065907322880> → (Refl start) <:gricocaroming:867678153966878740> → <:mds:535541259033378827> → <:deathsswiftpf:994921597813137518> → <:piercing:535541258538450944> → (<:wenarrow:971025697046925362>) <:Shard:583429757975396366> → <:prep:535541258546970624> → (Refl end) 2H Auto + <:gricocaroming:867678153966878740> + <:escape:535541258832052231> → <:needle:535541259108876293> → <:freedom:535541258240786434> + OH auto → 2H Auto → <:frag:535541273755385885> → (<:fularrow:971025696958853180>) <:sgb:626466665848242186> <:eofspec:746403211908481184> + <:escape:535541258832052231> → (<:wenarrow:971025697046925362>) <:deadshot:535541307666595870> → <:gricocaroming:867678153966878740> → <:rapid:535541270521708566> (8t) → <:snap:535534127131394088> → (<:fularrow:971025696958853180>) <:snipe:535541258425204770> → (<:wenarrow:971025697046925362>) <:grico:787904334812807238> → (<:pb:646794381055229953> start) (<:fularrow:971025696958853180>) <:bolg:994189289623662702> <:spec:537340400273195028> → (<:wenarrow:971025697046925362>) Improvise
 
 .
-__**Ranged Ruby start method**__
-(-27) <:nat:535541258131865633> → (Build) → (<:RubyBakri:565726489413287956>) (TC) <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:frag:535541273755385885> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:cade:535541306353778689> → <:piercingenergising:867678153979854868> → <:Tuskas:513201065513058306> + <:adrenrenewal:736298121704767538> → <:piercingenergising:867678153979854868> → <:Sacrifice:513201065907322880> → (<:HydrixBakri:550834403136503822>) → <:grico:787904334812807238> → <:deathsswift:994921434633744455> → (Switch to <:RubyBakri:565726489413287956> / <:HydrixBakri:550834403136503822> bolts based on Hp left)
+⬥ Disrupt <:disrupt:535614336207552523> near the end to make mauling easier.
 
-.
-⬥ The rotation after Barricade <:cade:535541306353778689> is pretty much improvised based on adrenaline, some things to keep in mind are:
-    • Hammering <:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> in between Bleeds <:dismember:535532879376023572> is ideal.
-    • <:sgb:626466665848242186> <:eofspec:746403211908481184> again same tick you Escape <:escape:535541258832052231> third Bleed <:dismember:535532879376023572> can help stalling more.
-    • When running in from escaping first Bleed <:dismember:535532879376023572> you can use a Dual-wielding ability to <:freedom:535541258240786434> + OH Auto → 2H Auto the second Bleed.
-    • Use <:frag:535541273755385885> right after <:sgb:626466665848242186> <:eofspec:746403211908481184> to guarantee a walked bleed.
+⬥ If the phase extends too much, the general rotation to keep in mind is <:cade:535541306353778689> first blue after <:pb:646794381055229953> release, <:deathsswiftpf:994921597813137518> + <:adrenrenewal:736298121704767538>/<:bolg:994189289623662702> <:spec:537340400273195028> during/after reflect and deal damage during Bleeds <:dismember:535532879376023572> and the next <:pb:646794381055229953> set, stack during reflect, thresh during Bleeds <:dismember:535532879376023572> and repeat.
     • Divert <:divert:787904334377648130> can be really helpful when stacking for free adrenaline.
-
-.
-⬥ If you do not have enough adrenaline to <:deathsswift:994921434633744455> before Bleeds <:dismember:535532879376023572> you can <:escape:535541258832052231> → <:deathsswift:994921434633744455> + <:escape:535541258832052231> → (last bleed) <:freedom:535541258240786434>.
-
-⬥ If the phase extends too much the general rotation to keep in mind is <:cade:535541306353778689> first blue after <:pb:646794381055229953> release, <:deathsswift:994921434633744455> during reflect and deal damage during Bleeds <:dismember:535532879376023572> and the next <:pb:646794381055229953> set, stack during reflect, thresh during Bleeds <:dismember:535532879376023572> and repeat.
 
 .
 __**Magic**__
@@ -641,11 +812,12 @@ __**General P5 notes:**__
 .
 > **__Example Kills__**
 .tag:example
-⬥ <https://www.youtube.com/watch?v=9UGcUKKjvjQ> - Ceilings 8:46.8 by <@191388421548146689>
-⬥ <https://www.youtube.com/watch?v=TrbfJcMO9PQ> - Scopulus 8:37.2 by <@207623978720690176>
-⬥ <https://www.youtube.com/watch?v=dZprHLzAX_0> - Green Bomb 9:18.6 by <@191388421548146689>
-⬥ <https://www.youtube.com/watch?v=BH7CC2genJ4> - Teamsplit 9:40.8 by <@191388421548146689>
-⬥ <https://www.youtube.com/watch?v=SB1su-eWT7k> - The End 10:23.4 by <@191388421548146689>
+⬥ <https://www.youtube.com/watch?v=9UGcUKKjvjQ> - Ceilings 8:46.8 (magic) by <@191388421548146689>
+⬥ <https://www.youtube.com/watch?v=TrbfJcMO9PQ> - Scopulus 8:37.2 (magic) by <@207623978720690176>
+⬥ <https://www.youtube.com/watch?v=dZprHLzAX_0> - Green Bomb 9:18.6 (magic) by <@191388421548146689>
+⬥ <https://www.youtube.com/watch?v=BH7CC2genJ4> - Teamsplit 9:40.8 (magic) by <@191388421548146689>
+⬥ <https://www.youtube.com/watch?v=SB1su-eWT7k> - The End 10:23.4 (magic) by <@191388421548146689>
+⬥ <https://www.youtube.com/watch?v=-X2faepCmsE> - The End 10:11.4 (ranged) by <@191388421548146689>
 .
 {
   "embed": {
@@ -663,12 +835,12 @@ __**General P5 notes:**__
         "inline": true
       },
       {
-        "name": "__Requirements__",
-        "value": "[Link]($linkmsg_reqs$)",
+        "name": "__Beginner Presets__",
+        "value": "[Link]($linkmsg_beginner$)",
         "inline": true
       },
       {
-        "name": "__Presets__",
+        "name": "__Advanced Presets__",
         "value": "[Link]($linkmsg_presets$)",
         "inline": true
       },
