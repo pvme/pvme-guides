@@ -1,112 +1,433 @@
-**__Credits to <@435481585379180554> and Trollster__**
+**__Interface Guide__ (Courtesy of <@261354899525074954> and <@181747481565069312>)**
 .
 > __**Introduction**__
 .tag:intro
-Having a proper interface setup is important as it allows you to organize your game view and have quick, convenient access to game windows that you frequently interact with such as inventory, gear, ability bars, etc.
+Having a proper interface setup is important as it allows you to organize your game view and have quick, convenient access to game windows that you frequently interact with such as inventory, gear, familiars, ability bars and so on. A good interface can make the game easier to play and more enjoyable.
 
 .
-> **__Uses of Tertiary Action Bars:__**
-.tag:tert
-Tertiary action bars can be used as a quick access tool for many things.
-⬥ Condense ability books (i.e. Defensives and Prayers).
-    • Having prayers and defensive abilities on an ability bar is handy because it lets you only see what you need rather than trying to find the ability/prayer you want out of the whole book.
-⬥ Keybind extra actions (i.e. Food and Prayers).
-    • This is useful because it makes it easier to eat or flick prayers while you are busy moving and/or reacting to mechanics with your mouse.
-⬥ Have stuff that are used with every style so that the main bar has more room (i.e. Food, Mobility abilities, Constitution abilities).
-    • Again, having a universal ability bar with food and abilities that apply to all combat styles is important so you can always have access to what you need regardless of what combat style is being used.
-⬥ Fill remaining empty slots with niche stuff
-    • Example: full gear switches for Solak hybridding, quick access to abilities/inputs for Ingenuity of the Humans + Seren Godbow special attack, etc.
-⬥ Weapon and Shield keybinds if using an MMO mouse
-    • You can remap the buttons of an MMO mouse to some hard to reach buttons on a keyboard to effectively give yourself more keybinds.
+> __**User Interface**__
+.tag:ui
+Creating a good interface is all about displaying the interface elements in a way where everything you need to access is open and important elements are appropriately close to one another, to minimize the distance your eyes and mouse need to travel around your screen. The game comes with a few pre-made layouts, but they all suffer from similiar issues.
 
 .
-> __**Creating an Interface**__
-.tag:start
-⬥ Creating a good interface is all about displaying your game windows in a way where everything you need to access is open and are close to each other so you can minimize the distance your eyes and mouse need to travel around your screen.
-
-**__RS3 Default Interface__**
+**__RS3 New Player Interface__**
 .
-.img:https://i.imgur.com/w3KN6uG.jpg
+⬥ Consider the the *New Player* interface that players are given when first playing the game.
 .
-There are a lot of things wrong with this interface. Game windows are spread across the screen on corners and most of the space is unused.
-
+.img:https://i.imgur.com/tDs3spx.jpg
 .
-**__Essential Game Windows for Combat__**
-⬥ Ability bars
-⬥ Inventory
-⬥ Gear
-⬥ Familiar
-⬥ Prayer
-⬥ Minimap
-⬥ Chatbox
+There are a number of issues with this interface, such as:
+⬥ UI elements are spread out and not easily accessible.
+    • e.g. the primary action bar is too far away from the inventory, and the buff bar (with the buff icons) is not near either of them.
+⬥ The existing space is not well utilized.
+⬥ The tabs are not appropriately sized and hide the game world underneath them.
+⬥ The buff/debuff bars that indicate status effects are not placed in ideal locations.
+⬥ Missing elements - including the summoning/familiar tab, the magic spellbook or the defensives tab, and additional action bars.
 
 .
-**__Nonessential but Preferred Game Windows__**
-⬥ Skills
-⬥ Friends List
-⬥ Friends Chat List
-⬥ Clan Chat List
-⬥ Group Chat List
+__**Useful Interface Elements**__
+.
+⬥ We can observe that some UI elements are more important than others for PvM, including:
+    • **Additional action bars** - gives access to a wider range of keybinds by increasing the number of action bar slots visible on-screen at any given time.
+    • **Inventory** - goes without saying.
+    • **Worn items/equipment** - useful to ensure correct gear is being worn, unequip armor for certain situations, activate your pocket slot items, etc.
+    • **Familiar** - makes it easier to track special move points, call your familiar if it's misbehaving, and to make it attack faster.
+    • **Spellbook** - allows you to quickly switch autocast spell
+    • **Minimap** - a larger minimap (where permissible) can make it easier to get a high-level overview of areas and navigate quicker.
+    • **Chatbox** - most mechanics and interactions will have some form of chat message, and keeping an eye on them can be useful. Also pairs well with the **Alt1 plugin**.
+    • **Buff/debuff bars** - keep track of all buffs/debuffs on the player.
+    • **Specific style windows** - it can be helpful sometimes to have additional menus open like the defensives tab, magic spellbook or style-specific ability tabs, to click on certain abilities or spells that you might not want to (or cannot) keybind.
+.
+⬥ Other non-essential but nice-to-have menus include:
+    • Skills menu
+    • Friends list
+    • Friends/Clan/Group chat lists
+    • Prayers tab
+    • Drops tab to track drops
+    • Runemetrics tab to track statistics/damage
 
 .
-**__Classic RS2 Interface__**
-.
-.img:https://i.imgur.com/t39aJyj.jpg
-.
-This is not a horrible foundation for an interface, but there are some easy improvements that can be made.
-⬥ Just by reorganizing a bit and adding the ability book with all ability tabs adds some quick access, and with the addition of focusing all of the game windows towards the bottom right, the interface is much more optimized.
-⬥ The interface is organized in a way where everything on screen is important, but the more you need to interact with something, the more it is focused towards that bottom right corner
-    • For example, chat boxes aren't as important, so they are farther away from the essential corner. Gear and inventory tabs are heavily interacted with, so they are at the focal point of the interfaces here.
-.
-.img:https://i.imgur.com/rJ9iYfS.jpg
-.
-⬥ Switching the ribbon into Edit Mode can be done by clicking on the icon with a box and a pencil.
-⬥ Editing the buttons on the ribbon can be done by clicking on the cog icon.
-⬥ Inventory dimensions can be customized by going to Settings → Gameplay → General → Inventory → Dynamic backpack columns.*
+> __**Creating A Good Interface**__
+.tag:creatingui
+Keeping in mind the important elements of a good interface, we can use the earlier one as a reference, and modify it into a layout more suitable for PvM and general gameplay. We'll do this in two broad steps - **bringing into view and arranging important menus**, and then using the **advanced layout options** to customize the interface further. Any minor tweaks or changes can be made afterwards with ease.
+*Note: This is only an example to demonstrate how to create an interface, but it is ultimately up to personal preference.*
 
 .
-**__Example interface__**
+__**Step 1: Interface Layout**__
 .
-.img:https://i.imgur.com/gh0lwgt.jpg
+The first step is to setup the main menus and layout of the interface.
+⬥ **Unlock the interface** by clicking the lock icon on the Options ribbon, or using the default keybind **`L`**.
+⬥ The bottom center to lower right is chosen as the focus for the main PvM menus.
+⬥ **Extra extra action bars are added** to give us more keybinds to use.
+⬥ The minimap is adjusted, and the Options ribbon is made smaller.
+    • The ribbon can be edited by clicking the small pencil-in-box edit icon in it.
+⬥ **Unwanted tabs are removed**, like the path menu.
+⬥ Useful PvM tabs are added around the area of focus - such as the **inventory**, the **familiar interface**, **worn items**, **defensives**, and **spells**.
+⬥ Additional menus such as the **skills menu** or **friends list** are placed in relatively accesible locations.
+⬥ Tabs are make large enough to **eliminate extra scrollbars wherever possible**.
+⬥ Some of the non-essential but useful menus are added and fill in any glaring gaps; the **runemetrics** tab is optional but can be used to track damage in a fight.
+⬥ Now we have an interface that looks something like this:
 .
-⬥ Split private chat can be turned on in Settings → Gameplay → Social → Chat Customization → Split private chat.
+.img:https://i.imgur.com/DuVjrMQ.jpg
+⬥ The basic structure of the interface has taken shape.
+*Note: A portion of the game window is now covered by interface menus - this will adjusted in the next step.*
 
 .
-**__Edit Layout Mode Advanced settings__**
+__**Step 2: Edit Layout Mode > Advanced Options**__
 .
-.img:https://i.imgur.com/ss5kjLS.jpg
+After finalizing the basic layout, the **advanced options** can be used to customize how some detailed and important aspects of the interface, such as the buff/debuff bars, split private chat, the game viewm etc.
+⬥ To access the menu, press **Escape > Edit Layout Mode > Advanced Options** and you'll be greeted with a menu that looks similar to the following image. Click the tickboxes to add or remove overlays from the view to customize.
 .
-⬥ The Buff and Debuff bars are extremely important in PvM. Having them in a practical place close to the middle of the screen where your attention will mostly be is important.
-⬥ The chatbox is set to NOT click-through.
-    • This setting can be found in Gameplay → Interfaces → Game Interaction → Click-through chatboxes.
+.img:https://i.imgur.com/mIHOKe2.jpg
+.
+⬥ Click the tickboxes to add or remove overlays from the view to customize.
+⬥ The **buff/debuff** bars are placed close to the focus of the interface, near where the character stands in the center of the screen, to make them easier to see.
+⬥ The **private chat** is split and placed to one side to prevent it from cluttering up the chatbox.
+⬥ The **extra action button** is kept in an easy-to-click location.
+⬥ The **boss instance/kill timers**, **slayer counter**, and **game clock** are clearly visible and don't cover other menus.
+⬥ **Group invitation** popups are placed off to one side to prevent them being misclicked, say during a boss fight.
+⬥ The **game view** can be customized in the same way. The following screenshots compare two game view sizes, indicated by the red outline.
+.
+.img:https://i.imgur.com/1mSDoFy.jpg
+.
+.img:https://i.imgur.com/87cxTOT.jpg
+.
+⬥ Adjust the game view to avoid having large potions of it covered by the interface and to your preference.
+    • This *can* affect visibility at some bosses.
+    • It affects where the player character is centered in your field of view.
 
 .
-**__Extra__**
+__**Saving Interface Layout**__
 .
-.img:https://i.imgur.com/NbMVwsX.jpg
+To **save** a layout, open the **Edit Layout Mode** menu and click on a preset name in the **Save Layout** dropdown menu, and confirm the changes.
 .
-The bank's length can also be resized (the default is very small).
+.img:https://i.imgur.com/pX6Rh9A.png
+.
+To **load** a layout, click on one of the created/saved loadouts accessed by pressing **Escape** and selecting a preset from the **Load Layout** dropdown menu.
+.
+.img:https://i.imgur.com/TpVjzIi.png
+.
 
-At the end of the day, a good interface is one that works for you. Look for common patterns in the interfaces of good PvMers to see what aspects help them PvM.
+.
+__**Miscellaneous settings**__
+.
+⬥ Some options that can improve the UI are listed under the **Gameplay > Interfaces > Appearance** settings. Consider enabling the following options:
+    • Slim headers
+    • Hide title bars when locked
+    • Transparency (adjust to your preference)
+⬥ For very high-resolution displays, or simply for better visual clarity for tasks such as recording videos, the interface scaling can be adjusted under the **Graphics > Interface Scaling** setting.
+    • *Note: Changing the interface scaling may prevent Alt1 plugins working, due to how they read text in the chatbox.*
+⬥ The size of the Bank interface can be adjusted - simply unlock the interface, and it can be moved/resized.
+.
+.img:https://i.imgur.com/my8L2iK.jpg
+.
 
 .
 > __**Example Interfaces**__
-.tag:henchers
-⬥ Mocktail - <https://i.imgur.com/BqvEReh.jpg>
-⬥ Couchy - <https://i.imgur.com/uQ0ZD3c.jpg>
-⬥ Ideal Gas - <https://i.imgur.com/S9sKls2.jpg>
-⬥ Empathzy - <https://i.imgur.com/W6I3IyT.jpg>
-⬥ Prismania - <https://i.imgur.com/KGYFgkW.jpg>
-⬥ Lunge - <https://i.imgur.com/1g0R0oJ.jpg>
-⬥ Wazzy xD - <https://i.imgur.com/adhFRtc.jpg>
-⬥ Xephorr - <https://i.imgur.com/9Gxy7Qv.jpg>
-⬥ DEATHSOFFICE - <https://i.imgur.com/oZuuGxV.jpg>
+.tag:exampleui
+⬥ At the end of the day, a good interface is one that works for you. Look for common patterns in the interfaces of good PvMers to see how they structure them and why it helps them PvM.
+.
+{
+  "embed": {
+    "title": "__Example Interfaces__",
+    "description": "⬥ These are examples taken from some of the top players.\n⬥ You can use them for ideas to create your own layouts.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__PvM Interfaces__",
+        "value": "⬥ [Couchy](https://i.imgur.com/Cz5bOvM.jpg)\n⬥ [Ideal Gas](https://i.imgur.com/S9sKls2.jpg)\n⬥ [Lunge](https://i.imgur.com/Ox10gGJ.jpg)\n⬥ [Wazzy xD](https://i.imgur.com/i29w46j.jpg)\n⬥ [DEATHSOFFICE](https://i.imgur.com/oZuuGxV.jpg)\n⬥ [Evil Lucario](https://i.imgur.com/wctbxju.jpg)\n\u00a0\u00a0\u00a0\u00a0• Note the increased interface scaling.\n⬥ [DePose](https://i.imgur.com/TpwAnMI.jpeg)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-> __**Keybind Guide**__
-.tag:key
-⬥ In addition to the interface guide, check out this very well thought out guide to setting up your keybinds, made by <@158292421724209152>.
+> __**Settings Menu**__
+.tag:settings
+.
+The **Settings** menu is accessed through the **Options** menu in-game, reachable at any time by pressing **escape**, and contains in-game settings that can be modified. Here, we cover a number of useful/important options that can be customized.
+.img:https://i.imgur.com/nOIbsLE.png
+
+.
+__**Gameplay Settings > Interfaces**__
+.
+These settings affect your screen area, visible interfaces and information, and general QoL.
+.
+⬥ **Game Interaction > Mouseover text**
+    • Keep this on to make it easier to ensure your clicks land on their intended target.
+⬥ **Game Interaction > Walk markers**
+    • Makes it easier to see where the character is moving when ground tiles are not visually clear, or when animation stalls occur (stalling abilities, delayed animations).
+⬥ **Game Interaction > Disable shortcuts to close windows**
+    • Prevent UI windows from being accidentally closed if keybound.
+⬥ **Game Interaction > Slim headers / Hide title bars when locked**
+    • Reduces the space taken up by bulky title bars.
+⬥ **Game Interaction > Extra potion info**
+    • Show all effects of any potion being consumed.
+⬥ **Information Windows > Slayer counter**
+    • Keep open to see slayer task counts without needing a slayer helm or slayer gem. Can click icon to toggle and show reaper tasks.
+⬥ **Information Windows > Highlight boosted skills**
+    • Show when skills are boosted above or drained below their usual values, useful to know when to re-apply boosts like overloads, or notice stat drains from mechanics or items like saradomin brews.
+⬥ **Information Windows > Boss kill/instance timers**
+    • Shows time since the start of the fight/instance, can be used to keep track of mechanics.
+⬥ **Warning Screens**
+    • Can disable warnings to enter certain areas quicker, such as the Wilderness. Can also add security features like item value warnings and requiring bank PINs on every login.
+⬥ **Inventory > Drag-to-drop**
+    • Disable this to prevent accidentally dropping valuable items.
+⬥ **Inventory > Auto-teleport/destroy empty containers**
+    • QoL for skilling.
+⬥ **Buff Bar**
+    • Turn on everything to ensure you have all necessary buffs, and know if you are ever debuffed.
+
+.
+__**Gameplay Settings > Combat & Action Bar**__
+⬥ These settings affect your combat and gameplay experience with regards to PvM.
+.
+⬥ **Combat Mode > Familiar combat mode**
+    • Set to *attack same target* to maximize the damage done by the familiar.
+⬥ **Action Bar > Ability cooldown timer**
+    • Show ability cooldown in seconds - can be useful when learning.
+⬥ **Action Bar > Ability queueing**
+    • Ability queueing lets abilities be *queued* in advance, to activate once ready. This has both benefits and downsides.
+⬥ **Action Bar > Manual spellcasting**
+    • See the `!manualspellcasting` command.
+⬥ **Action Bar > Precise adrenaline value**
+    • Ever wonder why your dark bow didn't work at 58% adrenaline? This has you covered. Shows exact adrenaline values for more advanced rotations.
+⬥ **Action Bar > Additional action bars**
+    • Have up to 4 *extra* on-screen action bars for more keybinds.
+    • More details in __**Keybinds and Action Bars**__ section.
+⬥ **Action Bar Binding**
+    • Bind action bars to weapons to automatically switch between them when swapping weapons. Helps with setting up keybinds for switches and hybridding.
+    • More details in __**Keybinds and Action Bars**__ section.
+⬥ **Choose Option Menu > Player/NPC attack options**
+    • Choose what click options are available for players and NPCs to avoid misclicks.
+⬥ **Choose Option Menu > Hide familiar options**
+    • Prevent accidentally misclicking familiars during combat with things like bladed dive or intercept.
+⬥ **Targeting > Target reticules**
+    • Indicate what targets are selected (*yellow* circle) or aggroed to the player (*red* circle).
+⬥ **Targeting > Target cycle settings**
+    • Set up target cycle to target monsters with keybinds.
+    • Target cycling can target monsters at precise times, switch between multiple targets rapidly in multi-target scenarios, and in some cases target monsters earlier than they normally would be attackable (e.g. any of the GWD2 bosses like Vindicta or Helwyr).
+⬥ **Hitsplats**
+    • Customize hitsplat colors to distinguish between different hits in combat more effectively.
+
+.
+__**Gameplay Settings > Camera**__
+⬥ Settings to do with camera and camera movement.
+⬥ **System > Camera mode**
+    • Different camera modes offer different levels of maximum zoom and rotation speed. *Recommended to use freedom mode for better visibility.*
+⬥ **System > Camera shake**
+    • Toggle whether camera shakes during cutscenes and certain PvM encounters.
+    • Situationally useful - e.g. enable for ED2 (to see dragon special attacks easier), but disable for RotS (easier to escape tunnels without the shaking effect).
+
+.
+__**Gameplay Settings > Item Drops**__
+⬥ These settings impact the loot system and visual appearance of drops.
+⬥ **Loot System > Use area loot**
+    • *Area loot* opens up a menu to loot items. Both opening the interface and looting items can be keybound.
+    • Can be customized based on item quantities, types and values to determine what gets looted.
+    • Useful to avoid accidentally missing loot on the floor.
+⬥ **Loot Beams > Show loot beams**
+    • Highlights items above a player-defined threshold with a customizable beam to avoid accidentally not picking them up.
+
+.
+__**Gameplay Settings > Chat & Social**
+⬥ These settings affect the chatbox and MMO aspect of the game.
+⬥ **Chat Customisation**
+    • Customize how your chatbox appears, decide what messages are shown and in what colors, and re-size text, amongst other options.
+    • Enabling *Split private chat* will make it easier to keep track of private messages.
+⬥ **Accept Aid**
+    • These settings affect what 'aid' spells other players can cast on you. It is recommended to use the following specific settings to ensure you can receive buffs from other players during group PvM:
+        - **Invitations** - *everybody*
+        - **Tele-other** - *nobody* (keep this OFF to avoid potential lures)
+        - **Lunar spells** - *everybody*
+        - **Seren spells** - *everybody*
+        - **Other assists** - *everybody*
+
+.
+__**Controls**__
+⬥ These settings are used to set all keybinds used within the game, affecting everything from action bar bindings to UI elements to hidden hotkeys. It is recommended to go through the controls set to ensure they are to your preference, but some of the less well-known keybinds that can be set are mentioned for convenience.
+⬥ **Quick prayer** - this keybind toggles on/off all prayers set to quick prayer simultaneously.
+⬥ **Target cycle** - keybinds for target cycling.
+⬥ **Special attack** - can keybind weapon special attacks without having to sacrifice an ability bar slot\*.
+⬥ **Familiar action** - can keybind familiar actions without having to sacrifice an ability bar slot*.
+⬥ **Extra action button** - can trigger extra action button effects (in fights like Solak or Zamorak) without clicking it.
+⬥ **Area loot** - open the area loot menu without moving.
+.
+*Note: Special attack and familiar action keybinds cannot be queued with ability queueing if set through the Controls tab. Use the action bar if queueing is required.*
+
+.
+__**Graphics**__
+⬥ These settings affect the visual appearance of the game. Depending on your computer's specs, you can adjust these to adjust to improve game performance, or increase the graphical fidelity of the game. Some useful ones are covered here, but more detailed explanations of all the options can be found on the RuneScape Wiki page about Graphics Settings.
+⬥ **Draw distance** - the higher this setting, the more of the world is visible, but it can impact FPS on slower machines.
+⬥ **Remove roofs** - this can make it easier to navigate the world (e.g. for activities like solving clues).
+⬥ **Textures** and **terrain blending** - these the game significantly nicer to look at, but when both are disabled, certain areas of the game may become easier to navigate.
+    • e.g. placing dummies at Solak might become easier due to ground tiles at Solak becoming visible.
+⬥ **Mouse-over entity highlights** - when the cursor hovers over and clicks an object, a colored outline appears, with the color depending on what was interacted with (non-monster NPC, monster NPC or interactable terrain).
+.
+.img:https://i.imgur.com/1PlF7IY.jpg
+.
+
+.
+> __**Action Bars**__
+.tag:actionbars
+Action bars are part of every players interface containg slots that you can drag different actions to keybind. This section covers basic information about action bars, extra action bars, and action bar binding.
+
+.
+__**Action Bar Basics**__
+⬥ Action bars have 14 slots that that can be filled with a variety of actions, including but not limited to abilities, prayers, spells, and gear switches. To populate the bar, simply drag what an action onto a slot on the bar.
+*Note: If this does not work, then your bar is **locked.** To unlock your action bar, click the golden lock icon on the primary bar (shown in the following picture).*
+.img:https://i.imgur.com/nd8js0o.png
+.
+⬥ In addition to the ability slots, the primary action bar also displays:
+    • **Health** - the red meter
+    • **Adrenaline** - the yellow meter
+    • **Prayer points** - the purple meter
+    • **Summoning points** OR **special move points** - the green meter, click this to toggle it
+⬥ Additionally, the four icons on the bar can be interacted with to enable some settings:
+    • Clicking the heart icon will turn on **regenerate** which will enable once outside combat.
+    • Clicking the sword icon will toggle **auto-retaliate** mode on and off - when this is on, the icon will be replaced with a pair of cross swords
+    • Right-clicking the prayer and summoning icons will let you set up quick prayers and configure a familiar action respectively.
+        - These can then be activated through clicking on their respective icons, or keybinding them.
+⬥ The golden lock icon can be toggled **lock the action bars** - to prevent changes being made to abilities on any bar on-screen.
+⬥ Right-clicking the cog will bring up access to combat settings and quickly change combat mode.
+
+.
+__**Action Bar Presets**__
+⬥ The number on any action bar indicates what **preset** for that bar is currently loaded. There are a total of 15 presets (10 in free-to-play).
+⬥ Populating an action is sufficient to update the preset. The preset can then be loaded any any visible action bar by changing the number on that bar.
+    • *Right-clicking the number icon* of the action bar will bring up a list of presets that can be loaded.
+.
+.img:https://i.imgur.com/mVwHAop.png
+.
+⬥ Action bar presets can be named in the settings found at **Settings > Gameplay > Action Bar > Change Action Bar Preset Names**
+
+.
+__**Additional Action Bars**__
+⬥ Additional action bars can be displayed by enabling them in the settings.
+    • **Settings > Gameplay > Action Bar > Display Additional Action Bars**
+⬥ You can have up to **four additional bars** for a total of five on screen at any given time.
+.
+.img:https://i.imgur.com/pddRfuh.png
+.
+⬥ Additonal bars provide more slots to place actions for keybinding, reducing the number of things you need to manually click. They also faciliate easier switching of gear during combat and can overall improve your gameplay experience as you take time and familiarize yourself with your keybinds while playing.
+
+.
+__**Action Bar Binding**__
+⬥ Action bars can be configured to switch automatically depending on the weapons equipped by the player.
+    • The settings can be found in **Settings > Gameplay > Action Bar Binding**
+⬥ Bindings can be made for when the following types of weapons are equipped:
+    • only 2h weapons
+    • only dual wield weapons
+    • either 2h or dual wield weapons
+*Note: Both the primary and additional action bars can be bound, independent of one another if needed*.
+⬥ Consider the following example:
+    • Action bar preset number 5 is an **ability bar for 2h magic**
+    • Action bar preset number 6 is an **ability bar for dual wield magic**.
+    • Action bar preset number 9 is an **additional ability bar for magic-related abilities and switches**.
+    • We want our **primary action bar to change based on our equipped weapons**.
+    • We also want our **secondary bar to change based on our equipped style**.
+.
+.img:https://i.imgur.com/PNTSHp8.png
+.
+⬥ In the above example, the first binding setup makes the *main/primary action bar*, when equipping *2h magic* weapons, to swap to *preset number 6* (named *Magic - 2h*).
+⬥ The second binding setup changes the primary action bar to preset number 5 (*Magic - Dw*), whenever equipping dual wield magic weapons.
+⬥ The third binding setup changes the *additional action bar*, when equipping *any* magic weapons, to the correct preset (*Magic - Switches*)
+⬥ When set up correctly for multiple styles, it will look something like this:
+.
+.img:https://i.imgur.com/mjAyjqV.mp4
+.
+
+.
+> __**Keybinds**__
+.tag:keybinds
+When it comes to setting up keybinds, there are some important points that can help structure your keybinds, and make them easier to incorporate into PvM. The goal is to make learning your keybinds less frustrating, and feel more natural to use. This is done by making a few decisions.
+
+.
+__**Keybind Tips**__
+⬥ Keybinds should be **easy to reach** - moving your hands too far can make it difficult to find and press keys.
+    • Consider placing your more **frequently used binds closer** at hand, and rarely-used ones further away.
+⬥ **Bind similar items near each other**.
+    • e.g. Overhead prayers could be put together to prayer switch more easily. Or your shield keybind and shield abilities. Or weapon switches.
+⬥ **Modifier keys** can increase the number of binds available, at a cost - it's easier to press one key than two.
+    • This affects things such as prayer switches which occur very often. For more information, look at __**Modifier Keys**__.
+⬥ **Using an MMO mouse** gives many easily accessibly buttons to bind actions to.
+⬥ Using the **middle mouse button for camera** instead of keys frees up 4 keybinds.
+    • Significantly easier to move the camera during PvM using the mouse.
+
+.
+__**Modifier Keys**__.
+⬥ The **Shift**, **Alt**, and **Ctrl** keys can be used to modify keybinds.
+    • `A`, `Shift+A`, `Ctrl+A` and `Alt+A` would be four separate keybinds.
+⬥ This increases the range of available keybinds.
+⬥ If using a mouse, you can bind `Modifier+Key` to a single mouse button, making it easier to press.
+*Note: If you release the modifier before the key first, it will trigger the underlying key press. Keep this in mind when setting up modifier keys.*
+
+.
+__**Keybinds Guide**__ (Courtesy of <@158292421724209152>)
+⬥ As a reference, check out this very well thought out guide to setting up your keybinds that can help you plan your own keybinds.
 https://www.youtube.com/watch?v=zn_y-_2giZg
+
+.
+> __**Banking & presets**__
+.tag:banking
+Bank organization is very much a subjective choice, and entirely up to your preference. That being said, there are some items that you may want to consider sorting and placing in their own tabs.
+
+__**Bank Tabs**__
+⬥ Having well sorted bank tabs can make it easier to keep track of gear upgrades, and ensure you have enough supplies to last your bossing trips, which is especially relevant for group PvM, so you don't have to interrupt gameplay and slow your teammates by having to buy supplies during an aura.
+    • PvM gear - armor, weapons, switches, jewellery, pouches, quivers, and other related items.
+    • Supplies for PvM - all kinds of food, potions, runes, ammunition, summoning pouches + scrolls, and more.
+    • Herblore tab - optional but might make it easier to keep track of your supplies to make potions with (more relevant for ironmen).
+
+.
+{
+  "embed": {
+    "title": "__Sample Bank Tabs__",
+    "description": "⬥ Here are some examples of sorted bank tabs.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Bank Tabs__",
+        "value": "⬥ [Base Tank](https://i.imgur.com/5P8TUNm.png)\n⬥ [Die Alive](https://i.imgur.com/Dn83Mhl.png)\n⬥ [Mionee](https://i.imgur.com/CAPopF5.png)\n⬥ [Pernix](https://i.imgur.com/NckQvjE.png)\n",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+__**Bank Presets**__
+⬥ Bank presets make it easy get equip entire loadouts with a single click.
+⬥ There are 15 presets available, accessible by clicking the **cog icon** at the bottom right of your bank interface. We can cover a few important points about presets here.
+.
+.img:https://i.imgur.com/yrDIIUL.png
+.
+.
+.img:https://i.imgur.com/7zASc7R.png
+.
+⬥ Every preset can be configured to load **any combination of the inventory, worn items and beast of burden storage** (if summoned).
+    • This can be done by clicking the yellow icons next to the preset.
+    • In the above image, preset 11 & 12 will also load familiar storage in addition to inventory and worn items, but the others will not.
+⬥ To save a preset with the current equipped items, select a preset slot and click the **Overwrite** button at the bottom left.
+⬥ To save the beast of burden storage, use the **dedicated Beast of Burden** located below preset number 15.
+⬥ The middle section of the interface shows the inventory/worn items that will be equipped when that preset be loaded.
+⬥ The **Exact Matching** option **will check for perks when equipment is withdrawn** if there is an augmented item in the preset.
+    • After enabling this option, you must re-save the preset with the correct augmented items for it to apply.
+    • This is useful when you have multiple of the same item but with different perks.
+⬥ Presets can be dragged and dropped to re-order them.
+⬥ Saved presets can be loaded within the *bank* interface by clicking the numbered icons at the bottom right corresponding to each preset.
+    • They can also be loaded using the number keys `1` and `2` for the first two presets, and `Alt+(number)` for higher presets.
+⬥ Here is an example demonstrating setting up and loading a preset.
+.
+.img:https://i.imgur.com/gVodqX7.mp4
+.
+
+.
+__**Quick Banking Preset**__
+⬥ It is generally a useful idea to dedicate one of your preset slots to a 'quick banking' preset that you can use to apply buffs before a bossing trip or between kills, such as bonfire boosts, incense sticks, potion effects, familiar timers, etc.
+⬥ Use the `!bankingpreset` command to learn more.
 
 .
 {
@@ -115,29 +436,44 @@ https://www.youtube.com/watch?v=zn_y-_2giZg
     "color": 39423,
     "fields": [
       {
-	    "name": "__Introduction__",
+        "name": "__Introduction__",
         "value": "[Link]($linkmsg_intro$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Tertiary Action Bars__",
-        "value": "[Link]($linkmsg_tert$)",
-		"inline": true
+      {
+        "name": "__User Interface__",
+        "value": "[Link]($linkmsg_ui$)",
+        "inline": true
       },
-	  {
-	    "name": "__Creating an Interface__",
-        "value": "[Link]($linkmsg_start$)",
-		"inline": true
+      {
+        "name": "__Creating a Good Interface__",
+        "value": "[Link]($linkmsg_creatingui$)",
+        "inline": true
       },
-	  {
-	    "name": "__Example Interfaces__",
-        "value": "[Link]($linkmsg_henchers$)",
-		"inline": true
+      {
+        "name": "__Example Interfaces__",
+        "value": "[Link]($linkmsg_exampleui$)",
+        "inline": true
       },
-	  {
-	    "name": "__Keybind Guide__",
-        "value": "[Link]($linkmsg_key$)",
-		"inline": true
+      {
+        "name": "__Settings Menu__",
+        "value": "[Link]($linkmsg_settings$)",
+        "inline": true
+      },
+      {
+        "name": "__Action Bars__",
+        "value": "[Link]($linkmsg_actionbars$)",
+        "inline": true
+      },
+      {
+        "name": "__Keybinds__",
+        "value": "[Link]($linkmsg_keybinds$)",
+        "inline": true
+      },
+      {
+        "name": "__Banking & Presets__",
+        "value": "[Link]($linkmsg_banking$)",
+        "inline": true
       }
     ]
   }
