@@ -2,7 +2,7 @@
 .
 .img:https://imgur.com/7ki2FQ7.png
 .
-> **__Preset__**
+> **__Presets__**
 .tag:presets
 **All presets**
 ⬥ <:lanispear:839903893177106454> Laniakea's Spear with <:p6:712073088769982475> <:eq4:712073088589627505> and <:Laceration:602581988599398400> Laceration Boots
@@ -206,12 +206,21 @@ In general, use <:gstaff:513203008608141314> <:eofspec:746403211908481184> whene
 ⬥ Inner Power and try to finish off Raksha while in <:sunshinepf:994921595489488927>.
 
 .
-**__Example Kill__**
+**__Example Kills__**
 .tag:example
 <https://youtu.be/esnDkA33hig> - Ranged Example
 
 <https://www.youtube.com/watch?v=v2NGGkN3YI0> - Magic Example
 
+.
+> __**Alt1 Raksha Helper (Courtesy of <@326454337561821184>)**__
+.tag:alt1
+__**Voice guidance throughout the kill**__
+This tool reads your screen and based on certain lines of dialogue in your chatbox, it will trigger voice lines which will speak to you during the kill to let you know about upcoming mechanics and what to do for them.
+⬥ Download instructions: (check out <https://linktr.ee/igorspresets> to see other boss guides like this).
+    • Solo: <https://www.reddit.com/r/igorspresets/comments/wh77t2/raksha_the_shadow_colossus_solo/?utm_source=share&utm_medium=web2x&context=3>
+    • Duo DPS role: <https://www.reddit.com/r/igorspresets/comments/wh7888/raksha_the_shadow_colossus_duo_dps/?utm_source=share&utm_medium=web2x&context=3>
+    • Duo Base role: <https://www.reddit.com/r/igorspresets/comments/wh78ec/raksha_the_shadow_colossus_duo_base/?utm_source=share&utm_medium=web2x&context=3>
 .
 {
   "embed": {
@@ -219,47 +228,52 @@ In general, use <:gstaff:513203008608141314> <:eofspec:746403211908481184> whene
     "color": 39423,
     "fields": [
       {
-	    "name": "__Presets__",
+        "name": "__Presets__",
         "value": "[Link]($linkmsg_presets$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__General Knowledge__",
+      {
+        "name": "__General Knowledge__",
         "value": "[Link]($linkmsg_general$)",
-		"inline": true
+        "inline": true
       },
-      	  {
-	    "name": "__Unlocking Raksha__",
+      {
+        "name": "__Unlocking Raksha__",
         "value": "[Link]($linkmsg_unlock$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Recommendation__",
+      {
+        "name": "__Recommendation__",
         "value": "[Link]($linkmsg_recommend$)",
-		"inline": true
+        "inline": true
       },
-
-	  {
-	    "name": "__Attack Order__",
+      {
+        "name": "__Raksha Attack Pattern__",
         "value": "[Link]($linkmsg_attackorder$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Mechanics Summary__",
+      {
+        "name": "__Mechanics Summary__",
         "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Basic Rotations__",
+      {
+        "name": "__Basic Rotations__",
         "value": "[Link]($linkmsg_rots$)",
-		"inline": true
+        "inline": true
       },
-                {
-	    "name": "__Example Kill__",
-	"value": "[Link]($linkmsg_example$)",
-	        "inline": true
+      {
+        "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+        "inline": true
+      },
+      {
+        "name": "__Alt1 Raksha Helper__",
+        "value": "[Link]($linkmsg_alt1$)",
+        "inline": true
       }
     ]
   }
 }
 .embed:json
+.pin:delete
