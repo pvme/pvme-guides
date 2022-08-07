@@ -1,462 +1,204 @@
-> **__Cheat Sheets__**
-.tag:cheatsheets
-.img:https://i.imgur.com/ps5Lz98.png
-.
-.img:https://i.imgur.com/EfiERnH.png
-.
-.img:https://i.imgur.com/nK9iDMH.png
-.
-.img:https://i.imgur.com/Clt82DY.png
-.
-.img:https://i.imgur.com/QgupqRL.png
-.
 > **__Auras__**
-.tag:auras
-**__Berserker Auras__** <:berserker:643505116347105290> <:mani:643505153709965322> <:reckless:643505179378974748>
-⬥ Costs <:MarksofWar:704701746869567551> 25,000 Marks of War
-⬥ BIS auras at most places, they last 30 minutes but are extended to 1 hour via vis wax. Provide the following effects:
-    • These auras provide an invisible 10% boost to the player's melee/magic/ranged damage and accuracy.
-        - This does not stack with damage-boosting ultimates <:deathsswift:994921434633744455> <:sunshine:994921119381463070> <:Berserk:513190158468907012> <:meta:535533811304497183>
-    • The respective combat level is also increased by 10%. With an elder overload, this results in a level of 130.
-    • You will also receive 15% more melee, magic, ranged and soft typeless damage.
-        - Hard typeless is unaffected.
-        - In addition to this, your defence level is reduced by 15%.
-⬥ They should be used in nearly all bossing encounters, especially if you don't have 100% hitchance.
-    • Priority: `High`
-    • These should be the first auras you unlock. Start with the combat style you use the most then move on to the remaining two before getting other auras.
-
+.tag:Auras
+{
+  "embed": {
+    "title": "__Index of Auras__",
+    "description": "⬥ It is recommended to look up further information for an aura on the [Wiki](https://runescape.wiki/)\n⬥ Use `!zerkaura` for more info on zerk auras\n⬥ Use `!aura` to see when to use various auras",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Bought with Marks of War__ <:MarksofWar:704701746869567551>",
+        "value": "⬥ **Zerk Auras** <:berserker:643505116347105290> <:mani:643505153709965322> <:reckless:643505179378974748> | 25K <:MarksofWar:704701746869567551>\n⬥ **Dark Magic** <:dm:643505652571963417> | 12.5k <:MarksofWar:704701746869567551>\n⬥ **Penance** <:penance:643505653062565907> | 5K <:MarksofWar:704701746869567551>\n⬥ **Vampyrism** <:vamp:643505653079343144> | 5K <:MarksofWar:704701746869567551>",
+        "inline": true
+      },
+      {
+        "name": "__Bought via Other Means__",
+        "value": "⬥ **Sup. Accuracy** <:brawler:643505376917979138> <:runic:643505377211842582> <:sharp:643505377291534366> | 107k <:loyaltypoint:704657054987452447>\n⬥ **Mahjarrat** <:mahj:643148943856762890> | 1K <:Reaperpoints:704657943194501140> or 3 <:Bond:513213538463121408>\n⬥ **Inspiration** <:inspiration:643505652634746881> | 23K <:loyaltypoint:704657054987452447>\n⬥ **Sup. Invigorate** <:invig:643505652865695767> | 115K <:loyaltypoint:704657054987452447>\n⬥ **Desert Pantheon** <:pantheonaura:982264010126819380> | 2 <:Bond:513213538463121408>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__Accuracy Auras__** <:brawler:643505376917979138> <:runic:643505377211842582> <:sharp:643505377291534366>
-⬥ Costs <:loyaltypoint:704657054987452447> 107,000 Loyalty Points per aura (cumulative cost for supreme variant)
-⬥ Increase melee/magic/ranged accuracy by 3%/5%/7%/10% per rank respectively. They last 1 hour by default and can be extended to 2 hours.
-⬥ Reasonable option if zerk auras are on cooldown and you do not have 100% accuracy.
-    • Priority: `Medium`
-
-.
-**__Mahjarrat & Dark Magic Aura__** <:mahj:643148943856762890> <:dm:643505652571963417>
-⬥ Dark Magic costs <:MarksofWar:704701746869567551> 12,500 Marks of War
-⬥ Mahjarrat costs either <:Reaperpoints:704657943194501140> 1000 Reaper Points or <:Bond:513213538463121408> 3 Bonds. The bond is always the more cost-efficient choice.
-⬥ Mahjarrat provides a 5% damage boost and Dark Magic deals damage over time to your target.
-⬥ These are used in cases where you hybrid or already have 100% accuracy with zerk auras on cooldown.
-    • Priority: `Medium, High if you intend to camp Solak/Elite Dungeons`
-
-.
-**__Inspiration & Invigorate Aura__** <:inspiration:643505652634746881> <:invig:643505652865695767>
-⬥ Inspiration costs <:loyaltypoint:704657054987452447> 23,000 Loyalty Points
-    • Causes successful attacks to grant an extra 0.5% adrenaline. This counts all hits of bleeds/multihit attacks.
-        - Some use cases have been found where the large adrenaline income with <:HydrixBakri:550834403136503822> <:grico:787904334812807238> + <:inspiration:643505652634746881> can be used for higher damage output via <:eofspec:746403211908481184> <:dbow:643848618553507843>
-⬥ Invigorate costs <:loyaltypoint:704657054987452447> 115,000 Loyalty Points (cumulative cost for supreme variant)
-    • Invigorate saves 2.5%/5%/7.5%/10% adrenaline after an ultimate.
-        - This effect stacks with a ring of vigour <:vigour:615613235512737792>
-⬥ These auras can be used as a last resort option for bosses you already have 100% accuracy. Alternatively they can be used for Elite Dungeons or slayer, but are still inferior to zerk auras.
-    • Priority: `Medium/Low`
-
-.
-**__Penance & Vampyrism Aura__** <:penance:643505653062565907> <:vamp:643505653079343144>
-⬥ Vampyrism costs <:MarksofWar:704701746869567551> 5,000 Marks of War
-    • Vampyrism restores life points equal to 5% of any damage dealt.
-        - This is capped at 50 life points per hit.
-⬥ Penance costs <:loyaltypoint:704657054987452447> 23,000 Loyalty Points
-    • Penance restores prayer points equal to 5% of any damage taken, rounded down.
-⬥ Very low usage for bossing and are mainly used for slayer
-    • Priority: `Low`
 
 .
 > **__Invention Perks__**
-.tag:invention
-**__Beginner Perks__** <:Explosivecomp:513190158917566485> <:Armadylcomp:513190158477033474> <:cywircomp:583430147538026496> <:Ilujankancomp:513190158674427906>
-⬥ Higher invention levels give you access to new components and perks. Important milestones are level 49/74/89 giving you crackling <:crack4:712073087662686249>, precise <:p5:689504239025782825>, and planted feet/aftershock <:pf:689501925770919981> <:as4:712074245202772009>
-    • Note: Ilujankan & Cywir components also require 2,500 reputation in their respective GWD2 faction.
-    • Crackling deals 50% ability damage per rank every 60 seconds
-    • Precise increases your minimum damage by 1.5% per rank of your maximum damage.
-    • Planted Feet increases the duration of Sunshine <:sunshine:994921119381463070> and Death's Swiftness <:deathsswift:994921434633744455> by 25%.
-    • Aftershock deals additional AoE damage every 50,000 damage the player deals.
-⬥ These basic perks should be used in any general combat scenario as they are unlocked early and provide a substantial boost to DPS
-    • Note: Check <#553632787639435284> to see updated basic perks with ancient invention.
-    • Priority: `High`
+.tag:InventionPerks
+Refer to to the **Starter Perks** or **Advanced PvM Perks** section of <#553632787639435284> (use the Table of Contents to find).
 
 .
 > **__Potions & Prayers__**
-.tag:potions
-**__Overloads/Supreme/Elder variants__** <:elderovlsalve:648976643687317532>
-⬥ Overloads increase a player's combat stats + 15% of the stat level + 3
-⬥ Supreme overloads increase a player's combat stats + 16% of the stat level + 4 `(128 at 99 + berserker aura)`
-⬥ Elder overloads increase a player's combat stats + 17% of the stat level + 5 `(130 at 99 + berserker aura)`
-⬥ The stat boost is significant in every combat scenario for additional damage and accuracy
-    • Priority: `High`
-    • These should be one of the first unlocks to get if you want to do any sort of PvM
-
+.tag:Potions&Prayers
+{
+  "embed": {
+    "title": "__Index of Potions and Prayers__",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ <:elderovlsalve:648976643687317532> can be made at 99 <:Herblore:689554435583508558> using <:pulsecore:1005450653390360626> boost (wait at w84 Lumbrige market)\n⬥ <:adrenrenewal:736298121704767538> are cheaper at 119 <:Herblore:689554435583508558>, request assist a player if unable to do yourself\n⬥ T99 prayers are low priority, each requires a <:pcodex:643166740833894400> (<:coins:698816156961603654> $data_pvme:Unlocks!B13$ each)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Potions__",
+        "value": "⬥ **Elder Overload** <:elderovlsalve:648976643687317532> - 106 <:Herblore:689554435583508558>\n⬥ **Adrenaline Renewal** <:adrenrenewal:736298121704767538> - 115 <:Herblore:689554435583508558>" ,
+        "inline": true
+      },
+      {
+        "name": "__Prayers__",
+        "value": "⬥ **Soul Split** <:soulsplit:615613924506599497> - 92 <:prayer:1005450651347730533>\n⬥ **T95 Curses** <:turmoil:583429936606347280> <:torment:583429936958930964> <:anguish:583429936665198592> - 95 <:prayer:1005450651347730533>\n⬥ **T99 Curses**  <:Malevolence:513190159416557573> <:Desolation:513190159018098713> <:Affliction:513190158468907008> - 99 <:prayer:1005450651347730533>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__Soul Split__** <:soulsplit:615613924506599497>
-⬥ T92 Prayer
-⬥ Damage you inflict on your target(s) will regenerate your own lifepoints.
-    • ≤ 2,000 heals the user 10% of the damage they deal
-    • > 2,000 to ≤ 4,000 heals the user 5% of the damage they deal, on top of ≤ 2,000 healing provided
-    • > 4,000 heals the user 1.25% of the damage they deal, in addition to the ≤ 2,000 and > 2,000 to ≤ 4,000 healing provided
-    • The healing cap is set to 25% of the target's current lifepoints within a single hit.
-    • Damage dealt to secondary targets heals half as much.
-    • Synergizes with Amulet of Souls and Essence of Finality, granting a 50% chance every hit to heal a further 25-50% which results in an average increase of ~18.75% additional healing.
-    • Soul Split must be active 1 tick prior to an ability hitting (dealing damage) to heal from it.
-        - For abilities that hit multiple times across different ticks (e.g., Seren Godbow), this rule applies for each hit on a specific tick.
-    • Priority: `High`
-    • An important upgrade that should be prioritized to unlock as early as possible en route to T95 curses
-
-.
-**__T95 curses__** <:turmoil:583429936606347280> <:torment:583429936958930964> <:anguish:583429936665198592>
-⬥ Turmoil, torment and anguish provide the following combat boosts for melee/mage/ranged respectively:
-    • +10 Combat levels (for accuracy)
-    • +10% Damage
-    • +10 Defence levels (for armour)
-    • Drains enemy -6 to -10 levels (for accuracy)
-    • -6 to -10 enemy drain modifier (for armour)
-    • -9% to -15% enemy damage
-    • Priority: `High`
-    • Another very important upgrade that should be prioritized to unlock as early as possible
-
-.
-**__T99 curses__** <:Malevolence:513190159416557573> <:Desolation:513190159018098713> <:Affliction:513190158468907008>
-⬥ Costs <:coins:698816156961603654> $data_pvme:Unlocks!B13$ per prayer
-⬥ Stronger versions of the level 95 variants that do the following:
-    • +12 Combat levels (for accuracy)
-    • +12% Damage
-    • +12 Defence levels (for armour)
-    • drains enemy -8 to -12 levels (for accuracy)
-    • -8 to -12 enemy drain modifier (for armour)
-    • -9% to -15% enemy damage
-    • Priority: `High`
-    • Bigger upgrade than t92s without a special attack or passive, as well as the Staff of Sliske <:Sos:626466320132734976>, should be prioritized after basic gear is obtained (see <#689236598847701075>)
 
 .
 > **__Archaeology Relics__**
-.tag:relics
-The general layout for most pvm scenarios is: Fury of the Small, Berserker's Fury, and Death Ward.
-Further examples may be seen here: <https://runescape.wiki/w/Optimal_PvM_Relic_Power_Setup>
-
+.tag:ArchaeologyRelics
+{
+  "embed": {
+    "title": "__Index of Relics__",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Listed relics can be boosted to meet the <:archaeology:941211288665739274> level unless otherwise stated\n⬥ 650 energy reuqires 120 <:archaeology:941211288665739274> (boostable)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Relics__",
+        "value": "⬥ **Font of Life** <:fontoflife:698225967679930408> - <:archaeology:941211288665739274>tutorial\n⬥ **Berserker's Fury** <:berserkersfury:697808774106185768> - 56 <:archaeology:941211288665739274>\n⬥ **Blessing of Het** <:blessingofhet:934078945391947817> - Blessing of Het II (requires unboostable 74 <:archaeology:941211288665739274>)\n⬥ **Death Ward** <:deathward:697808774068699286> - 81 <:archaeology:941211288665739274>\n⬥ **Fury of the Small** <:furyofthesmall:697808773917573233> - 97 <:archaeology:941211288665739274>\n⬥ **Persistent Rage** <:persistentrage:739965637056659567> - 98 <:archaeology:941211288665739274>\n⬥ **Heightened Senses** <:heightenedsenses:697808773573771344> - 105 <:archaeology:941211288665739274>\n⬥ **Conservation of Energy** <:conservationofenergy:697808773711921195> - 118 <:archaeology:941211288665739274>"
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__General PvM Relics__**
-⬥ **Font of Life** <:fontoflife:698225967679930408>
-    • Increases maximum health by 500
-    • Obtained by completing the Archaeology tutorial
-    • Priority: `Low, replace with Death Ward when you unlock 650 monolith power`
-
-⬥ **Berserker's Fury** <:berserkersfury:697808774106185768>
-    • Deal up to +5.5% damage the lower your current life points are below max
-        - Averages to around 2-3% dpm increase
-    • Combine Saradomin I collection reward with Forsaken amulet
-    • 56 Archaeology (boostable)
-    • Detailed information can be found here: <https://i.imgur.com/NqHePFM.png>
-    • Priority: `High`
-
-.
-⬥ **Death Ward** <:deathward:697808774068699286>
-    • 5% damage reduction when your life points are below 50%; 10% damage reduction when they are below 25%
-    • 81 Archaeology (boostable)
-    • Dig up an Aviansie dreamcoat, repair and give to Armadyl on top of Armadyl's tower.
-    • Note: If Armadyl isn't at his tower, check your *__Sliske's Endgame__* quest log. If it is not complete, you need to redo the last boss fight. Once the quest is completed Armadyl will be back on top of his tower.
-    • Priority: `Medium if you have 650 monolith power unlocked, low otherwise`
-
-⬥ **Fury of the Small** <:furyofthesmall:697808773917573233>
-    • All basic abilities generate 1% more adrenaline
-    • Unlocked by solving *__Out of the Cruicible__* mystery.
-    • 97 Archaeology (boostable)
-    • Priority: `High`
-
-.
-⬥ **Heightened Senses** <:heightenedsenses:697808773573771344>
-    • Increases maximum adrenaline by 10%
-    • Unlocked by solving *__The Everlight__* mystery
-    • 105 Archaeology (boostable)
-    • Priority: `High if ranging, low otherwise (replaces Fury of the Small in some Ranged encounters)`
-
-⬥ **Conservation of Energy** <:conservationofenergy:697808773711921195>
-    • After using an ultimate ability, you will regain 10% adrenaline
-    • Chuluu stone combined with invention components, requires 108 invention
-    • 118 Archaeology (boostable)
-    • Priority: `Low`
-
-.
-⬥ **Persistent Rage** <:persistentrage:739965637056659567>
-    • Prevents adrenaline from being drained.
-    • Unlocked by giving two Hellfire Katars to Dagon the Gatekeeper
-    • 98 Archaeology (boostable)
-    • Priority: `Low`
 
 .
 > **__Task Sets for PvM__**
-.tag:tasks
-**__General PvM Task Sets__**
-⬥ **Hard Seers' Village Task Set**
-    • Ability to enhance Excalibur <:excal:641337999170207763>
-        - Recovers 20% of your LP over time
-    • Priority: `High`
-
-⬥ **Elite Seers' Village Task Set**
-    • Doubles effectiveness of Enhanced Excalibur
-        - A lossless source of healing with a cooldown of 5 minutes
-        - Heals 4% of your max hp 10 times over 40 seconds with Elite Seers' Task Set completed for a total of 40% hp restoration
-⬥ Increases enchanted bolt proc chance by a flat 2%
-    • Priority: `High`
-
+.tag:TaskSetsforPvM
+{
+  "embed": {
+    "title": "__PvM-related Task Sets__",
+    "description": "⬥ **Hard Seers' Village**\n\u00a0\u00a0\u00a0\u00a0• Unlocks Enhanced Excalibur <:excal:641337999170207763> (restores 20% HP over 21s)\n⬥ **Elite Seers' Village**\n\u00a0\u00a0\u00a0\u00a0• <:excal:641337999170207763> upgraded (restores 40% HP over 42s)\n\u00a0\u00a0\u00a0\u00a0• Enchanted bolts have a +2% chance to proc\n⬥ **Tirannwn**\n\u00a0\u00a0\u00a0\u00a0• Each tier unlocks a quiver to use <:quiver:656863806080811038> (higher tiers have higher <:prayer:1005450651347730533> bonus)\n⬥ **Hard Desert**\n\u00a0\u00a0\u00a0\u00a0• <:keris:859483155407699988> has +25% hitchance and 5% chance to deal 3x damage vs. Kalphites\n⬥ **Elite Fremmenik**\n\u00a0\u00a0\u00a0\u00a0• Automatically note Dagganoth King bones\n\u00a0\u00a0\u00a0\u00a0• Deal 10% more auto damage and 5% more ability damage against DKs",
+    "color": 39423,
+    "fields": [
+    ]
+  }
+}
+.embed:json
 .
-⬥ **Easy Tirannwn Task Set**
-    • Access to quiver (each tier gives a higher prayer bonus)
-    • Priority: `High if using ascendri bolts, low otherwise`
-
-⬥ **Hard Desert Task Set**
-    • Boosts effect of Keris
-        - +25% hitchance, +5% chance to deal triple damage when worn
-    • Priority: `High for Kalphite King, low otherwise`
-
-⬥ **Elite Fremmenik Task Set**
-    • Deal 10% more damage with autos and 5% more damage with abilities against Dagannoth Kings
-    • Notes DK bones automatically
-    • Priority: `High if camping DKs, low otherwise`
 
 .
 > **__Quest Unlocks__**
-.tag:quests
-**__General PvM Quests__**
-⬥ **The World Wakes**
-    • Unlocks the Sunshine, Death's Swiftness, Natural Instinct, and Balanced Strike <:sunshine:994921119381463070> <:deathsswift:994921434633744455> <:nat:535541258131865633> <:balancedstrike:535532854336290826> abilities
-    • Priority: `High`
-
-⬥ **Merlin's Crystal**
-    • Unlocks Excalibur <:EnhancedExcalibur:513200949016264727>
-        - Lossless healing with completion of both Hard and Elite Seers' Task Sets
-    • Priority: `High`
-
-⬥ **The Light Within**
-    • Unlocks Seren spells/prayers + access to Spellbook Swap <:SBS:543875425055670275> in the Ancient Spellbook
-    • *__The Temple at Senntisten__* and *__Desert Treasure__* quests are prerequisites for *__The Light Within.__*
-    • Priority: `High`
-
-⬥ **Extinction**
-    • Unlocks passive Ring of Vigour <:RoV:513201065877831680> and Enriched pontifex shadow ring <:pontifexshadowring:870326852361789501>, which gives a GWD3 drop rate buff.
-    • Priority: `High`
+.tag:QuestUnlocks
+**__Quests with Notable Unlocks for PvM__**
+.
+{
+  "embed": {
+    "title": "__Quests with Notable PvM-related Unlocks__",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Part 1__",
+        "value": "⬥ **The World Wakes**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:sunshine:994921119381463070> <:deathsswift:994921434633744455> <:nat:535541258131865633>\n⬥ **Desert Treasure**\n\u00a0\u00a0\u00a0\u00a0• Unlocks ancient magicks\n⬥ **The Light Within**\n\u00a0\u00a0\u00a0\u00a0• Seren spells + Prayers\n\u00a0\u00a0\u00a0\u00a0• <:SBS:543875425055670275> on ancients\n⬥ **The Tempate at Sennisten**\n\u00a0\u00a0\u00a0\u00a0• Unlocks curses\n⬥ **Extinction**\n\u00a0\u00a0\u00a0\u00a0• Passive <:RoV:513201065877831680>\n\u00a0\u00a0\u00a0\u00a0• Buffs <:pontifexshadowring:870326852361789501> (GWD3 DR buff)\n⬥ **The Digsite**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:BloodTend:513190158431158274> <:shadowtend:642713547142332416> <:smoketendrils:536257336130404372>\n⬥ **Merlin's Crystal**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:excal:641337999170207763>\n⬥ **Lunar Diplomacy**\n\u00a0\u00a0\u00a0\u00a0• Unlocks lunar spells\n⬥ **Dream Mentor**\n\u00a0\u00a0\u00a0\u00a0• <:SBS:543875425055670275> on lunars\n\u00a0\u00a0\u00a0\u00a0• Unlocks Livid farm\n⬥ **Broken Home**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:asr:513190158472839208>\n⬥ **Icthlarin's Little Helper**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:magister:643788569579618304>\n⬥ **Summer's End**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:CorporealBeast:513212996726685749>" ,
+        "inline": true
+      },
+      {
+        "name": "__Part 2__",
+        "value": "⬥ **Impressing the Locals**\n\u00a0\u00a0\u00a0\u00a0• Unlocks ED1\n⬥ **Horror from the Deep**\n\u00a0\u00a0\u00a0\u00a0• Unlocks god books\n⬥ **One Piercing Note**\n\u00a0\u00a0\u00a0\u00a0• God book illumination <:SaraBook:574290439482638346>\n⬥ **River of Blood**\n\u00a0\u00a0\u00a0\u00a0• Unlocks blood essences\n⬥ **One of a Kind**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:drider:656785090994503700>\n⬥ **Song from the Depths**\n\u00a0\u00a0\u00a0\u00a0• QBD damage reduction\n\u00a0\u00a0\u00a0\u00a0• QBD reapers\n⬥ **Curse of the Black Stone**\n\u00a0\u00a0\u00a0\u00a0• 10% less damage at ED1-3\n**⬥ The Elder Kiln**\n\u00a0\u00a0\u00a0\u00a0• Unlocks Fight Kiln\n⬥ **Ritual of the Mahjarrat**\n\u00a0\u00a0\u00a0\u00a0• <:jas:662032366667300875> buff\n⬥ **Contact!**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:keris:859483155407699988>\n⬥ **Haunted Mine**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:salveamulet:797899945730244648>\n**Lair of Tarn Razorlor**\n\u00a0\u00a0\u00a0\u00a0• <:salveamulet:797899945730244648> enchantment\n⬥ **Let Them Eat Pie**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:spices:662038182807732255>\n⬥ **As a First Resort**\n\u00a0\u00a0\u00a0\u00a0• Unlocks spas + flask decant",
+        "inline": true
+      },
+      {
+        "name": "__Part 3__",
+        "value": "⬥ **City of Senntisten**\n\u00a0\u00a0\u00a0\u00a0• Unlocks <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:animatedead:856635090453135382> <:smokecloud:856635090641879050>"
+      }
+    ]
+  }
+}
+.embed:json
+.
 
 .
-⬥ **The Digsite**
-    • Awards the Codex Ultimatus, which unlocks the smoke/shadow/blood tendrils <:Smoke_Tendrils:536257336130404372> <:shadowtend:642713547142332416> <:BloodTend:513190158431158274> and ice asylum <:IceAsylum:553050196817215491> abilities
-    • Priority: `High for Melee/Ranged & Magic if using FSOA, low for Magic if not`
-
-⬥ **Dream Mentor**
-    • Full access to Lunar spellbook
-        - *__Lunar Diplomacy__* quest gives access to all useful spells for PvM + access to Livid Farm
-    • Priority: `High`
-
-⬥ **Broken Home**
-    • Must do all 3 challenges post-quest for Asylum surgeon's ring <:asr:513190158472839208>
-    • Priority: `Low`
+**__Quests for Dominion Mines__**
+.
+{
+  "embed": {
+    "title": "__Quests for Dominion Mines__ <:dommine:662249620579155968>",
+    "description": "*Note: It is recommended to look up further information on the [Wiki](https://runescape.wiki/)*\n⬥ **The Chosen Commander** - Sigmund\n⬥ **A Void Dance** - Black Knight Guardian + Solus Dellagar\n⬥ **Blood Runs Deep**\n\u00a0\u00a0\u00a0\u00a0• Dagannoth Sentinels + Both Mothers\n\u00a0\u00a0\u00a0\u00a0• The Inadequacy, Everlasting + Illusive, Untouchable\n\u00a0\u00a0\u00a0\u00a0• Koschei + Draugen\n⬥ **The Curse of Arrav** - Arrav\n⬥ **Demon Slayer** - Delrith\n⬥ **Dragon Slayer** - Melzar + Elvarg\n⬥ **Lair of Tarn Razorlor** - Tarn + Treus\n⬥ **Missing My Mummy**- Tumeken\n⬥ **Mountain Daughter** - Kendal\n⬥ **Nomad's Requiem** - Nomad\n⬥ **Recipe for Disaster** - All bosses\n⬥ **Spirits of the Elid** - Golems\n⬥ **Vampyre** - Count Draynor",
+    "color": 39423
+  }
+}
+.embed:json
+.
 
 .
-⬥ **Icthlarin's Little Helper**
-    • Access to Sophanem, its slayer dungeon, and Magister <:magister:643788569579618304>
-        - *__Jack of Spades__* quest gives access to Menaphos and its reputation system
-    • Priority: `High for slayer`
-
-⬥ **Summer's End**
-    • Access to Corporeal Beast <:CorporealBeast:513212996726685749>
-
-⬥ **Impressing the Locals**
-    • Miniquest
-    • Access to Temple of Aminishi (ED1) <:Seiryu:583430543321071626>
+> **__Reaper Store__**
+.tag:ReaperStore
+{
+  "embed": {
+    "title": "__Reaper Store__ <:death:641341976960172043>",
+    "description": "⬥ **Mahjarrat Aura** - +5% damage | 3 <:Bond:513213538463121408> or 1K <:Reaperpoints:704657943194501140>\n⬥ **Reaper's Choice** - 10% chance to choose own reaper task | 250 <:Reaperpoints:704657943194501140>\n⬥ **Bonfire Booster** - increases bonfire HP boost duration by 25% | 250 <:Reaperpoints:704657943194501140> \n⬥ **Instance Cost** - reduces instance costs by 25% | 250 <:Reaperpoints:704657943194501140>\n⬥ **Death's Support** - <:signoflife:1005552211847295076> <:portentoflife:1005552210081493052> <:signofdeath:1005552215190151232> <:portentofdeath:1005552213529215076> <:defencecape:1005552207824953456> heal 2x as much | 250 <:Reaperpoints:704657943194501140>\n⬥ **Ring of Death (o)** - Unlocks ability to quintuple RoD capacity | 150 <:Reaperpoints:704657943194501140>\n⬥ **Aura Refreshes**\n\u00a0\u00a0\u00a0\u00a0• Tier 1 <:aurarefresh1:1005552204230426787>| 5 <:Reaperpoints:704657943194501140>\n\u00a0\u00a0\u00a0\u00a0• Tier 2 <:aurarefresh2:1005552202468839445> - refreshes <:vamp:643505653079343144> <:penance:643505653062565907> <:inspiration:643505652634746881> | 10 <:Reaperpoints:704657943194501140>\n\u00a0\u00a0\u00a0\u00a0• Tier 3 <:aurarefresh3:1005552198702334086> - refreshes <:berserker:643505116347105290> <:mani:643505153709965322> <:reckless:643505179378974748> <:dm:643505652571963417> <:mahj:643148943856762890> | 15 <:Reaperpoints:704657943194501140>\n\u00a0\u00a0\u00a0\u00a0• Tier 4 <:aurarefresh4:1005552200677851187> - refreshes <:invig:643505652865695767> <:brawler:643505376917979138> <:runic:643505377211842582> <:sharp:643505377291534366> | 20 <:Reaperpoints:704657943194501140>",
+    "color": 39423
+  }
+}
+.embed:json
+.
 
 .
-⬥ **One Piercing Note**
-    • Illuminated God books
-        - *__Horror from the Deep__* quest unlocks God books <:armabook:513190159051915264>
-    • Priority: `Medium`
-
-⬥ **River of Blood**
-    • Unlocks blood essences
-        - *__Branches of Darkmeyer__* quest unlocks Drakan's medallion
-    • Priority: `Medium`
-
-⬥ **One of a Kind**
-    • Unlocks dragonrider amulet <:drider:656785090994503700> and celestial dragons
-    • Priority: `Medium`
+> **__War's Retreat__**
+.tag:WarsRetreat
+{
+  "embed": {
+    "title": "__War's Wares__ <:war:1005552206302416986>",
+    "description": "⬥ **Hub Teleport** | 10 Boss Kills\n⬥ **Access to Eastern Boss Portal** | 100 Boss Kills\n⬥ **Altar of War** | 200 Boss Kills (500 for cooldown reset)\n⬥ **Adrenaline Crystal** | 1K Boss Kills (2K for adren. pot reset) \n⬥ **Campfire Upgrades** | 1K <:MarksofWar:704701746869567551> + 1K of the logs per upgrade tier + prior tier\n\u00a0\u00a0\u00a0\u00a0• Tiers: Oak → Willow → Maple → Yew → Magic → Elder\n⬥ **Various Auras** - [refer to Auras section]($linkmsg_Auras$): \n⬥ **Aura Refreshes**\n\u00a0\u00a0\u00a0\u00a0• Tier 1 <:aurarefresh1:1005552204230426787>| 1K <:MarksofWar:704701746869567551>\n\u00a0\u00a0\u00a0\u00a0• Tier 2 <:aurarefresh2:1005552202468839445> - refreshes <:vamp:643505653079343144> <:penance:643505653062565907> <:inspiration:643505652634746881> | 2K <:MarksofWar:704701746869567551>\n\u00a0\u00a0\u00a0\u00a0• Tier 3 <:aurarefresh3:1005552198702334086> - refreshes <:berserker:643505116347105290> <:mani:643505153709965322> <:reckless:643505179378974748> <:dm:643505652571963417> <:mahj:643148943856762890> | 3K <:MarksofWar:704701746869567551>\n\u00a0\u00a0\u00a0\u00a0• Tier 4 <:aurarefresh4:1005552200677851187> - refreshes <:invig:643505652865695767> <:brawler:643505376917979138> <:runic:643505377211842582> <:sharp:643505377291534366> | 4K <:MarksofWar:704701746869567551>\n⬥ **Life Refreshes** | 2.5k <:MarksofWar:704701746869567551>",
+    "color": 39423
+  }
+}
+.embed:json
+.
 
 .
-⬥ **Song from the Depths**
-    • Reduced damage at Queen Black Dragon <:qbd:513212948194394113>
-    • Access to QBD as reaper assignment
-    • Priority: `High if doing QBD, Low otherwise`
-
-⬥ **Curse of the Black Stone**
-    • 10% dmg reduction in all Elite Dungeons
-    • Priority: `High if doing Elite Dungeons`
-
-⬥ **The Elder Kiln**
-    • Unlocks the Fight Kiln
-    • Priority: `Medium`
+> **__Sliver Enchantments__**
+.tag:SliverEnchantments
+{
+  "embed": {
+    "title": "__Enchantments__",
+    "description": "*Note: refer to the [Wiki](https://runescape.wiki/w/Enchantment) or <#689235882724818962> for enchantment effects* \n⬥ **Enchantment of affliction** | <:coins:698816156961603654> $data_pvme:Unlocks!B22$\n⬥ **Enchantment of agony** | <:coins:698816156961603654> $data_pvme:Unlocks!B23$\n⬥ **Enchantment of dispelling** | <:coins:698816156961603654> $data_pvme:Unlocks!B24$\n⬥ **Enchantment of dread** | <:coins:698816156961603654> $data_pvme:Unlocks!B25$\n⬥ **Enchantment of flames** | <:coins:698816156961603654> $data_pvme:Unlocks!B26$\n⬥ **Enchantment of heroism** | <:coins:698816156961603654> $data_pvme:Unlocks!B27$\n⬥ **Enchantment of metaphysics** | <:coins:698816156961603654> $data_pvme:Unlocks!B28$\n⬥ **Enchantment of savagery** | <:coins:698816156961603654> $data_pvme:Unlocks!B29$\n⬥ **Enchantment of shadows** | <:coins:698816156961603654> $data_pvme:Unlocks!B30$",
+    "color": 39423
+  }
+}
+.embed:json
+.
 
 .
-⬥ **Ritual of the Mahjarrat**
-    • Unlock ability to make dragonbane arrows/bolts
-    • Unlock Stone of Jas buff for GWD1
-    • Priority: `High if PvMing anywhere Stone of Jas buff works`
-
-⬥ **Contact!**
-    • Access to Keris (good for Kalphite King with Desert Amulet 3+)
-    • Priority: `High if doing Kalphite King, Low otherwise`
-
-⬥ **Haunted Mine**
-    • Access to Salve Amulet
-        - The *__Lair of Tarn Razorlor__* miniquest gives access to Salve Amulet (e) <:salveamulet:797899945730244648>
-    • Priority: `Medium`
+> **__Animal PvM Perks (PoF / RoOT)__**
+.tag:AnimalPvMPerks
+{
+  "embed": {
+    "title": "__Index of Perks__",
+    "description": "⬥ Each tier of a perk needs an elder of the animal in a pen with a farm totem\n⬥ Effects will be formatted as `tier 1  increase (tier 2 increase)`",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Animal Perks__",
+        "value": "⬥ **NopeNopeNope** <:Araxxi:513213019543699466> - +2% (+3%) damage against spiders + <:Araxxi:513213019543699466> | 64 <:Farming:513213693790519307>\n⬥ **King of Beasts** <:bagrada:690136116992671875> - 5% (10%) chance to save a thrown bomb | 106 <:Farming:513213693790519307>\n⬥ **No Fear** <:corbicula:690136117273821280> - +20% (+40%) crit chance to <:meteorstrike:535532879359377439> | 112 <:Farming:513213693790519307>\n⬥ **Armoured Hide** <:malletops:690136117374484508> - +1.8s (+3.6s) duration to <:cade:535541306353778689> | 118 <:Farming:513213693790519307>"
+      }
+    ]
+  }
+}
+.embed:json
+.
 
 .
-⬥ **Let Them Eat Pie**
-    • Access to Expensive Spices <:spices:662038182807732255>
-    • Priority: `Low`
-
-⬥ **As a First Resort**
-    • Unlocks spas
-    • Unlocks ability to have NPCs decant flasks for you
-    • Priority: `Medium`
-
-⬥ **City of Senntisten**
-    • Unlocks the Smoke Cloud <:smokecloud:856635090641879050>, Animate Dead <:animatedead:856635090453135382>, Exsanguinate <:exsanguinate:856635090745950258>, and Incite Fear <:incitefear:856635090783567902> spells
-    • Priority: `High`
-
-.
-**__Quests for Dominion Mines__** <:dommine:662249620579155968>
-Note: Only the last quests in a quest line are listed, rather than listing all prerequisites.
-⬥ **The Chosen Commander**
-    • Sigmund
-⬥ **A Void Dance**
-    • Black Knight Guardian
-    • Solus Dellagar
-⬥ **Blood Runs Deep**
-    • Dagannoth Sentinels + Both Mothers
-    • The Inadequacy, Everlasting + Illusive, Untouchable
-    • Koschei + Draugen
-.
-⬥ **The Curse of Arrav**
-    • Arrav
-⬥ **Demon Slayer**
-    • Delrith
-⬥ **Dragon Slayer**
-    • Melzar + Elvarg
-.
-⬥ **Lair of Tarn Razorlor**
-    • Tarn
-    • Treus
-⬥ **Missing My Mummy**
-    • Tumeken
-⬥ **Mountain Daughter**
-    • Kendal
-.
-⬥ **Nomad's Requiem**
-    • Nomad
-⬥ **Recipe for Disaster**
-    • All bosses
-⬥ **Spirits of the Elid**
-    • Golems
-⬥ **Vampyre Slayer**
-    • Count Draynor
-
-.
-> **__Reaper Store__** <:death:641341976960172043>
-.tag:reaper
-⬥ **Mahjarrat Aura**
-    • Increases player damage by 5%
-    • Makes no sense to buy with reaper points, as bonds are objectively cheaper
-    • Priority: `High`
-
-⬥ **Reaper's Choice**
-    • 10% chance of being able to choose your own reaper assignment
-    • Priority: `Medium if you need to farm reaper points, Low otherwise`
-
-⬥ **Bonfire Booster**
-    • Permanently increases duration of bonfire health boost duration by 25%
-    • Priority: `Medium`
-
-.
-⬥ **Instance Cost**
-    • Reduces instance costs by 25%
-    • Priority: `Low`
-
-⬥ **Death's Support**
-    • Doubles the amount healed by Portents of Life/Death
-    • Priority: `High`
-
-⬥ **Ring of Death (o)**
-    • Quintuples charge capacity of RoD
-    • Priority: `High if you forget to charge your RoD often, Low otherwise`
-
-⬥ **Aura Resets**
-    • Recharge your aura without waiting for the normal cooldown time
-    • Priority: `High`
-
-.
-> **__Player Owned Farm/Ranch Out of Time PvM Perks__**
-.tag:pof
-⬥ **NopeNopeNope Perk** <:Araxxi:513213019543699466>
-    • A 2% (at tier 1) or 3% (at tier 2) damage increase against all spiders as well as Araxxor/Araxxi
-    • Priority: `High if you do Araxxi, Low otherwise`
-
-⬥ **King of Beasts Perk** <:bagrada:690136116992671875>
-    • A 5% (at tier 1) or 10% (at tier 2) chance to conserve a bomb when thrown
-    • Priority: `Medium, can save some money when other perks are not useful`
-
-.
-⬥ **No Fear Perk** <:corbicula:690136117273821280>
-    • Increases the critical hit chance of Meteor Strike <:meteorstrike:535532879359377439> by 20% (at tier 1) or 40% (at tier 2)
-    • Priority: `Medium`
-
-⬥ **Armoured Hide Perk** <:malletops:690136117374484508>
-    • Increases the duration of Barricade <:cade:535541306353778689> by 1.8 seconds (at tier 1) or 3.6 seconds (at tier 2)
-    • Priority: `High at any place you need to Barricade`
-
-.
-> **__Miscellaneous Upgrades__**
-.tag:misc
-**__General Upgrades__**
-⬥ **Reaper Crew** <:achiev:641342351532621824>
-    • For killing each boss once you unlock the following benefits:
-        - +2 Prayer bonus
-        - +20 Armor
-        - +200 Life points
-        - +12 Melee/Mage/Ranged Damage bonus
-    • Priority: `High`
-
-⬥ **Anachronia Slayer Helmet Stand**
-    • Placing a slayer helmet grants slayer helmet bonuses everywhere without needing to wear it
-    • Priority: `High for slayer, low otherwise`
-
-.
-⬥ **Spirit Cape** <:spiritcape:697405301623619624>
-    • Bought from the Dungeoneering shop for 45,000 Dungeoneering tokens
-    • Permanently reduces the cost of Summoning familiar special attack costs by 20%
-    • Priority: `High`
-
-⬥ **Permanent Access to Nex Bank**
-    • Players can speak to Ashuelot Reis in the Nex Bank with a set of ancient ceremonial robes, a frozen key and 10,000,000 coins <:coins:698816156961603654> to allow for permanent free access to Nex's lobby.
-    • Priority: `High if doing a lot of Nex/AoD, Low otherwise`
-
-.
-**__Customizable Upgrades__**
-⬥ **Increased Monolith Energy**
-    • After completing the Mysterious City mystery in the Orthen digsite, you will receive an extra 150 monolith energy, totalling to 650.
-    • Level 120 arch, boostable from 117
-    • Priority: `Medium, 500 monolith energy is good enough for most activities`
-
-⬥ **Anachronia Skillcape Stand**
-    • Adds an additional skillcape slot at the Anachronia player lodge
-    • Priority: `Medium`
-
-.
-⬥ **Dreadnips** <:nip:537336877900890135>
-    • Dominion Tower reward for achieving 450 boss kills and spectating another player's match.
-    • Dreadnips can deal upwards of 8k average dpm and are usable against most monsters.
-    • Priority: `Medium`
-
-⬥ **Raids Shop Ring Imbues** <:teci:641332337451204608>
-    • Applies mainly for RoD <:RoD:513190159462825984> and Asr <:asr:513190158472839208>, but the general idea is the same for all imbueable rings
-    • Gives a ~+2 permanent stat buff to the ring's damage bonuses
-    • Priority: `Low`
-
+> **__Miscellaneous Unlocks__**
+.tag:MiscellaneousUnlocks
+{
+  "embed": {
+    "title": "__Misc. Unlocks__",
+    "description": "*Note: it is recommended to look up further information on the [Wiki](https://runescape.wiki/)*\n⬥ **Reaper Crew** <:achiev:641342351532621824> | Kill each boss once \n⬥ **Anachronia Slayer Helm Stand** | Tier 3 Slayer Lodge\n⬥ **Anachronia Cape Stand**  - use `!capeperk` for setup | Tier 3 Player Lodge\n⬥ **Spirit Cape** <:spiritcape:697405301623619624> | 45K DG tokens\n⬥ **Permanent Nex Bank Access** | <:coins:698816156961603654> 10M + Ancient Ceremonial Robes set\n⬥ **Dreadnips** <:nip:537336877900890135> | 450 Dominion Tower KC + spectate another player\n⬥ **Raids Shop Ring Imbues** | 10K <:teci:641332337451204608> for <:asr:513190158472839208>, 15K <:teci:641332337451204608> for <:RoD:513190159462825984>",
+    "color": 39423
+  }
+}
+.embed:json
 .
 {
   "embed": {
@@ -464,54 +206,59 @@ Note: Only the last quests in a quest line are listed, rather than listing all p
     "color": 39423,
     "fields": [
       {
-	    "name": "__Cheat Sheets__",
-        "value": "[Link]($linkmsg_cheatsheets$)",
-		"inline": true
+        "name": "__Auras__",
+        "value": "[Link]($linkmsg_Auras$)",
+        "inline": true
       },
       {
-	    "name": "__Auras__",
-        "value": "[Link]($linkmsg_auras$)",
-		"inline": true
+        "name": "__Invention Perks__",
+        "value": "[Link]($linkmsg_InventionPerks$)",
+        "inline": true
       },
-	  {
-	    "name": "__Invention Perks__",
-        "value": "[Link]($linkmsg_invention$)",
-		"inline": true
+      {
+        "name": "__Potions & Prayers__",
+        "value": "[Link]($linkmsg_Potions&Prayers$)",
+        "inline": true
       },
-	  {
-	    "name": "__Potions & Prayers__",
-        "value": "[Link]($linkmsg_potions$)",
-		"inline": true
+      {
+        "name": "__Archaeology Relics__",
+        "value": "[Link]($linkmsg_ArchaeologyRelics$)",
+        "inline": true
       },
-	  {
-	    "name": "__Relics__",
-        "value": "[Link]($linkmsg_relics$)",
-		"inline": true
+      {
+        "name": "__Task Sets for PvM__",
+        "value": "[Link]($linkmsg_TaskSetsforPvM$)",
+        "inline": true
       },
-	  {
-	    "name": "__Task Sets for PvM__",
-        "value": "[Link]($linkmsg_tasks$)",
-		"inline": true
+      {
+        "name": "__Quest Unlocks__",
+        "value": "[Link]($linkmsg_QuestUnlocks$)",
+        "inline": true
       },
-	  {
-	    "name": "__Quest Unlocks__",
-        "value": "[Link]($linkmsg_quests$)",
-		"inline": true
+      {
+        "name": "__Reaper Store__",
+        "value": "[Link]($linkmsg_ReaperStore$)",
+        "inline": true
       },
-	  {
-	    "name": "__Reaper Store__",
-        "value": "[Link]($linkmsg_reaper$)",
-		"inline": true
+      {
+        "name": "__War's Retreat__",
+        "value": "[Link]($linkmsg_WarsRetreat$)",
+        "inline": true
       },
-	  {
-	    "name": "__Player Owned Farm__",
-        "value": "[Link]($linkmsg_pof$)",
-		"inline": true
+      {
+        "name": "__Sliver Enchantments__",
+        "value": "[Link]($linkmsg_SliverEnchantments$)",
+        "inline": true
       },
-	  {
-	    "name": "__Miscellaneous Upgrades__",
-        "value": "[Link]($linkmsg_misc$)",
-		"inline": true
+      {
+        "name": "__Animal PvM Perks (PoF / RoOT)__",
+        "value": "[Link]($linkmsg_AnimalPvMPerks$)",
+        "inline": true
+      },
+      {
+        "name": "__Miscellaneous Unlocks__",
+        "value": "[Link]($linkmsg_MiscellaneousUnlocks$)",
+        "inline": true
       }
     ]
   }
