@@ -135,6 +135,32 @@ It should be noted that Zuk will skip the first 3 auto attacks and go into the G
 .
 > **__Example Kills__**
 .tag:example
+*To be added*
+
+.
+> __**Alt1 TzKal-Zuk Helper (Courtesy of <@!326454337561821184>)**__
+.tag:alt1
+__**Voice guidance throughout the kill**__
+.
+This tool reads your screen, and based on certain lines of dialogue in your chatbox, will **trigger and play voice lines during the kill** to let you know about upcoming mechanics and what to do for them.
+
+***Disclaimer**: Alt1 is a third party tool, and while generally safe to use, is still recommended to be installed and used at your own risk.*
+.
+{
+  "embed": {
+    "title": "Alt1 TzKal-Zuk Helper",
+    "description": "Download instructions are given in the following links.\n Check out [Igor's Presets](https://linktr.ee/igorspresets) to see other guides like this.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Presets__",
+        "value": "⬥ [TzKal-Zuk (Normal Mode)](https://www.reddit.com/r/igorspresets/comments/wka381/tzkalzuk_normal_mode_voice_acted_by_the_rs_guy/)"
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 {
   "embed": {
@@ -190,7 +216,12 @@ It should be noted that Zuk will skip the first 3 auto attacks and go into the G
         "name": "__Example Kills__",
         "value": "[Link]($linkmsg_example$)",
         "inline": true
-      }
+      },
+      {
+        "name": "__Alt1 TzKal-Zuk Helper__",
+        "value": "[Link]($linkmsg_alt1$)",
+        "inline": true
+      }      
     ]
   }
 }
