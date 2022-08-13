@@ -1,157 +1,140 @@
 **__Auto Attacks__ (Courtesy of <@781280949790572554>)**
 .tag:intro
-Autos are separate from abilities and also have their own cooldown system separate from the Global Cooldown (GCD) system abilities are typically bound to.
+Autos are separate from abilities and also have their own cooldown system separate from the GCD system abilities are typically bound to.
 
 .
 > **__Cooldown__**
 .tag:cooldown
-**__Brief Introduction__**
-⬥ Generally speaking casting an ability will reset the auto's cooldown, and for channels each casted hit resets it.
+{
+  "embed": {
+    "title": "__Cooldown__",
+    "description": "⬥ Casting an ability or auto incurs an auto cooldown\n\u00a0\u00a0\u00a0\u00a0• Channels are cast multiple times, each cast incurs a cooldown as expected\n\u00a0\u00a0\u00a0\u00a0• Discussed later are exceptions to if/when/how auto cooldown is incurred",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__The Cooldown Incurred__",
+        "value": "⬥ Every weapon has a weapon speed, this determines the cooldown incurred\n```\nWeapon Speed | Cooldown in ticks / seconds\n-------------------------------------------\n   Slowest   |        12t / 7.2s\n-------------------------------------------\n   Average   |         6t / 3.6s\n-------------------------------------------\n     Fast    |         5t / 3.0s\n-------------------------------------------\n    Fastest  |         4t / 2.4s```"
+      },
+      {
+        "name": "__How to Think About Auto Cooldown System__",
+        "value": "⬥ Cooldowns incurred overlap, they must all end before an auto can be cast\n\u00a0\u00a0\u00a0\u00a0• Examples will follow visualizing this"
+      }
+    ]
+  }
+}
+.embed:json
+.
 
 .
-**__Cooldowns Work as Follows__**
-⬥  Every weapon has a weapon speed tied to it. This is used to determine the auto's cooldown based on the auto or ability fired:
-```
-Speed (cooldown in ticks/seconds)
-Slowest (12t/7.2s)
-Average (6t/3.6s)
-Fast (5t/3.0s)
-Fastest (4t/2.4s)
-```
-*Note: There are exceptions to if, when, and how abilities incur the cooldown, these will be discussed later*
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
-
+**__Examples__**
 .
-**__How Cooldowns Work__**
-⬥ It is best to think of the auto cooldown system as one where the cooldowns set overlap, and only when all these overlapping cooldowns end can you cast an auto.
-
-.
-Let us look at a couple scenarios and talk about why they would or would not work:
-
-.
-**__Scenario 1 (Will Not Work):__**
-```
-Average Auto + Fastest Ability → (4t) Auto + Ability
-```
-⬥ This will not work, why?
-    • The Avg. Auto applies a 6t cooldown and the Fastest Ability applies a 4t cooldown, these overlap
-    • When the GCD ends there will still be 3t of cooldown left from the Avg. Auto and 1t from the Fastest Ability
-        - Waiting 1t more means the Auto is still on a 2t cooldown from the Avg. Auto, though the cooldown applied by the Fastest Ability has ended
-        - Hence, you cannot Auto 4t after the Fastest Ability despite it applying a 4t cooldown, since there is still 2t of cooldown remaining from the Avg Auto
+{
+  "embed": {
+    "title": "__Example 1 - Will NOT Work__",
+    "description": "\"Average / Fastest\" refers to weapon speed used to cast it dicussed [here]($linkmsg_cooldown$)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__The Scenario__",
+        "value": "```Average Auto + Fastest Ability → (4t) Auto + Ability```"
+      },
+      {
+        "name": "__Why Does This NOT Work?__",
+        "value": "⬥ Average auto applies 6t cooldown, fastest ability applies a 4t one\n⬥ GCD end: 3t of cooldown left from the auto and 1t from the ability\n\u00a0\u00a0\u00a0\u00a0• Wait 1t more: cooldown from ability ended, but still 2t left from auto\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Thus, cannot auto 4t after a fastest ability despite its 4t cooldown, as there is still 2t of cooldown left from the average auto"
+      }
+    ]
+  }
+}
+.embed:json
 .
 .img:https://i.imgur.com/kSjRxIM.png
 .
-**__Scenario 2 (Will Work):__**
-```
-Average Auto + Average Ability → Fastest Ability → (4t) Auto + Ability
-```
-⬥ This will work, why?
-    • The Avg. Auto and Ability will both apply an overlapping 6t auto cooldown
-    • The Fastest Ability after will apply a 4t cooldown
-        - At this point the cooldowns from the Average Auto and Ability from before are at 3t remaining
-    • By the time the GCD after this Fastest Ability ends, the cooldown set by the initial Average Auto and Ability end
-        - However, 1t of cooldown remains from the Fastest ability
-    • Thus, you must wait 1t more, and so 4t the Auto after, in order to actually get it as it will be off cooldown only then
+
 .
-.img:https://i.imgur.com/cZ4UTXs.png
+{
+  "embed": {
+    "title": "__Example 2 - Will Work__",
+    "description": "\"Average / Fastest\" refers to weapon speed used to cast it dicussed [here]($linkmsg_cooldown$) ",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__The Scenario__",
+        "value": "```Avg Auto + Ability → Fastest Auto → (4t) Auto + Ability```"
+      },
+      {
+        "name": "__Why Does This Work?__",
+        "value": "⬥ Average auto and ability both apply an overlapping 6t auto coolown\n⬥ GCD 1 End: 3t left of both cooldowns, fastest ability applies a 4t cooldown\n⬥ GCD 2 End: auto cooldown of avg auto + ability end\n\u00a0\u00a0\u00a0\u00a0• Wait 1t more: cooldown from fastest ability ended (4t total elapsed)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Thus, you can now auto as all overlapping cooldowns have ended"
+      }
+    ]
+  }
+}
+.embed:json
 .
-__**How Channeled Abilities Interact with the auto Cooldown**__
-⬥ You can think of each hit of a channeled ability being "cast" where each cast incurs the auto cooldown as expected
+.img:https://i.imgur.com/kSjRxIM.png
+.
 
 .
 **__Exceptions__**
-⬥  As mentioned, there are exceptions when it comes to abilities that affect the cooldown. Abilities that incur the cooldown on cast are typically referred to as "damaging abilities", there are also "non-damaging abilities" which exist that do not, they are as follows:
-<:zerk:535532854004678657>, <:sunshine:994921119381463070>, <:deathsswift:994921434633744455>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:lengmh:883134308146098227> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, (non-targeted) <:magmatempesttarget:924741973858996284>, (non-target) <:bd:535532854281764884>
-*Note: ZGS Spec <:zgs:626465964325601290> <:spec:537340400273195028> is actually a damaging ability, and hence it would try to drag you in like one; however, it does not actually affect the auto cooldown, hence why it is listed here*
-*Note: Unlike normal non-damaging abilities, Freedom <:freedom:535541258240786434> will always give you an off-hand auto on cast with it*
-
 .
-⬥  Moreover, there are other abilities that affect or interact with the cooldown in unexpected ways, they are as follows:
-<:tsunami:535533809995874304>, <:omni:535533809664262179>, <:overpower:535532879334080517>, <:shadowtend:642713547142332416>, <:ecb:615618531937222657> <:spec:537340400273195028> (+ <:eofspec:746403211908481184>), <:deto:535533833358016512>
+{
+  "embed": {
+    "title": "__Exceptions__",
+    "description": "⬥ Abilities that incur auto cooldown are referred to as \"damaging\" abilities\n⬥ This section will cover the abilities that do not, and ones that incur it oddly",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Abilities That Will Not Incur Auto Cooldown (\"Non-damaging\" Abilities)__",
+        "value": "<:zerk:535532854004678657>, <:sunshine:994921119381463070>, <:deathsswift:994921434633744455>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:lengmh:883134308146098227> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, (non-targeted) <:magmatempesttarget:924741973858996284>, (non-target) <:bd:535532854281764884>\n*Note: <:zgs:626465964325601290> <:spec:537340400273195028> drags you in to attack, resetting <:gbarge:535532879250456578> timer if not \"offing\" after*\n*Note: (DW) <:freedom:535541258240786434> - always gives an OH auto with it*"
+      },
+      {
+        "name": "__Unexpected Abilities That Incur Cooldown Oddly__",
+        "value": "*Note: these will be elaborated on in the next section of the guide*\n⬥ (fastest) <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> - incur 5t instead of 4t cooldown\n⬥ <:shadowtend:642713547142332416> - if cast t0, incurs cooldown on t3 (if fastest <:shadowtend:642713547142332416>) or t2 (otherwise)\n⬥ <:ecb:615618531937222657> <:spec:537340400273195028> - if cast in combat, adds 2t to auto cooldown\n⬥ (DW) <:ecb:615618531937222657> <:eofspec:746403211908481184> - effect of <:ecb:615618531937222657> <:spec:537340400273195028>, and in some cases can also cast an OH auto\n⬥ <:deto:535533833358016512> - incurs cooldown on release\n⬥ <:snipe:535541258425204770> - if cast t0, incurs cooldown on t3"
+      }
+    ]
+  }
+}
+.embed:json
+.tag:nonToCdefensive
 
 .
 > **__In-depth Look at these Unexpected Abilities__**
 .tag:Unexpected
-**__Tsunami, Omnipower, and Overpower__**
-⬥ Tsunami <:tsunami:535533809995874304>, Omnipower <:omni:535533809664262179>, and Overpower <:overpower:535532879334080517> works as follows:
-```
-T0: Average/Fast/Fastest Nami/Omni/Overpower cast
-T5: Fastest cast Nami/Omni/Overpower Auto cast; Fast cast Overpower Auto cast
-T6: Average cast Nami/Omni/Overpower Auto cast
-```
-⬥ Essentially, if you cast <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> with an Average (and fast for <:overpower:535532879334080517>) speed weapon, the auto cooldown will be affected as expected
-    • However, if you cast it with a Fastest speed weapon, the auto cooldown will be delayed a tick further than normal
+{
+  "embed": {
+    "title": "__Unexpected Abilities (In-depth)__",
+    "description": "\"Average\", \"Fastest\", etc. refers to weapon speed used to cast it dicussed [here]($linkmsg_cooldown$)\n\u200B",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Tsunami, Omnipower, and Overpower__ <:tsunami:535533809995874304> <:omni:535533809664262179> <:overpower:535532879334080517>",
+        "value": "```\nT0: Average / Fast / Fastest Nami/Omni/Overpower cast\nT5: Fastest / Fast Nami/Omni/Overpower Auto cast\nT6: Average cast Auto cast```⬥ Average / Fast  <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> incurs cooldown as expected\n\u00a0\u00a0\u00a0\u00a0• Fastest <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> does not, it incurs a 5t cooldown instead of a 4t one\n\u200B"
+      },
+      {
+        "name": "__Shadow Tendrils__ <:shadowtend:642713547142332416>",
+        "value": "⬥ <:shadowtend:642713547142332416> incurs cooldown later, either 3t (if fastest) or 2t after activation\n\u00a0\u00a0\u00a0\u00a0• If weapon swap is <2t after <:shadowtend:642713547142332416>, the cooldown incurred is based off the new weapon's speed, else it uses cooldown of the weapon used to cast <:shadowtend:642713547142332416>\n\u00a0\u00a0\u00a0\u00a0• This allows <:shadowtend:642713547142332416> to cast an auto mid-GCD\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 - To practically get it, <:shadowtend:642713547142332416> **must** be after a **fastest** non-channel\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 - It is possible to get after a **fast** non-channel if the auto is queued\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 - If you \"offed\" (discussed later), to regain the auto either click once before <:shadowtend:642713547142332416> or spam click after <:shadowtend:642713547142332416>\n\n⬥ [Demo](https://i.imgur.com/IEjufyY.mp4): <:needle:535541259108876293> → <:shadowtend:642713547142332416>\n\u200B"
+      },
+      {
+        "name": "__ECB (EoF) Special__ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184>",
+        "value": "⬥ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> extends auto cooldown by 2t when used in combat\n\n⬥ Thus, to get an auto either of the following needs to be done:\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T3 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- [Demo](https://i.imgur.com/M1cy1gS.gif): auto → <:needle:535541259108876293> → <:frag:535541273755385885> → <:ecb:615618531937222657> <:spec:537340400273195028> → (4t) <:piercing:535541258538450944>\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T4 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This way gives you 1t more of <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> to use\n\n⬥ Similar to <:freedom:535541258240786434>, DW ECB EoF *can* give OH autos only in certain cases, e.g.:\n```\nFastest non-channel →\n1) ECB spec does not work\n2) click to off → ECB spec works\n3) Def. → ECB spec works``` \n⬥ [Demo](https://i.imgur.com/uWLnvLu.mp4): auto → <:needle:535541259108876293> → <:anti:535541306475151390> → ECB EoF\n\u200B"
+      },
+      {
+        "name": "__Detonate__ <:deto:535533833358016512>",
+        "value": "⬥ <:deto:535533833358016512> incurs auto cooldown on release, so you can release <:deto:535533833358016512> with an auto\n⬥ `Avg. Auto + Ability → Deto (wait 3t+) → Average Auto + Deto + Ability`\n\u00a0\u00a0\u00a0\u00a0• Input order is important, use `!deto` for more info\n⬥ [Demo](https://i.imgur.com/01jlvxF.mp4): <:FireSurge:543465116092334083> <:sonic:535533809924571136> → <:deto:535533833358016512> (3t) → <:deto:535533833358016512> <:FireSurge:543465116092334083> <:dbreath:535533833391702017>\n\u200B"
+      },
+      {
+        "name": "__Snipe__ <:snipe:535541258425204770>",
+        "value": "⬥ <:snipe:535541258425204770> incurs auto cooldown on t3, so cancelling <:snipe:535541258425204770> early it can allow an auto\n\u00a0\u00a0\u00a0\u00a0• e.g.: `T0 Fast Ability → T3 Snipe → T5 click away then mob → Auto fires`\n\u00a0\u00a0\u00a0\u00a0• <:snipe:535541258425204770> is a 4t channel, so getting an auto with it means losing <:snipe:535541258425204770> damage"
+      }
+    ]
+  }
+}
+.embed:json
+.
 
-.
-**__Shadow Tendrils__**
-⬥ Shadow Tendrils <:shadowtend:642713547142332416> is technically a damaging ability, but unlike normal damaging abilities it incurs the auto cooldown later, either 2t (1.2s) after you activate it, this is when it is cast, or 3t (1.8s) after activation, which is when it hits
-    • If you do a fastest <:shadowtend:642713547142332416>, it will reset the auto cooldown on t3, otherwise t2
-        - If you do your weapon swap input <2t after <:shadowtend:642713547142332416> (where <:shadowtend:642713547142332416> is activated on t0) it will use the new weapon speed's auto cooldown, otherwise it will use the weapon you casted <:shadowtend:642713547142332416> with's auto cooldown
-    • Because of this, like a non-damaging ability you can get an auto cast during the GCD
-        - Unlike non-damaging abilities, to get this lossless auto in practical scenarios the ability before <:shadowtend:642713547142332416> **must** be cast with a fastest weapon and also non-channeled (it is technically possible to get an auto if the ability before is cast with a fast weapon too; however, it requires queueing a spell auto, and thus is not practical)
-        - Further, unlike normal non-damaging abilities, if you offed (this will be explained later) you will have to spam click after casting <:shadowtend:642713547142332416> to get the auto. Though, if you click before you only need to click once to get back on to get the auto
-
-⬥ Video Demonstration:
-    • Abilities used in clip: <:needle:535541259108876293> → <:shadowtend:642713547142332416>
-.
-.img:https://i.imgur.com/IEjufyY.mp4
-.
-**__ECB Special__**
-⬥ ECB special <:ecb:615618531937222657> <:spec:537340400273195028>, unlike normal non-damaging abilities, actually extends the auto cooldown
-    • It adds 2 ticks to the cooldown
-
-.
-⬥ Therefore, to get an auto with your <:ecb:615618531937222657> <:spec:537340400273195028> will be done as follows:
-```
-T0: Fastest non-channeled Ability
-t3: ECB Spec
-t6: Auto cast
-t7: Ability
-```
-⬥ Video Demonstration (Courtesy of <@151249084106276865>)
-    • Abilities used in clip: auto → <:needle:535541259108876293> → <:frag:535541273755385885> → <:ecb:615618531937222657> <:spec:537340400273195028> → (4t/2.4s) <:piercing:535541258538450944>
-.
-.img:https://i.imgur.com/M1cy1gS.gif.
-.
-⬥ That being said, to most efficiently make use of <:ecb:615618531937222657> uptime when you want to get the auto, ideally you delay casting your <:ecb:615618531937222657> <:spec:537340400273195028> by 1t as follows:
-```
-T0: Fastest non-channeled Ability
-T4: ECB Spec
-T6: Auto cast
-T7: Ability
-```
-.
-⬥ Further, with ECB EoF spec <:ecb:615618531937222657> <:eofspec:746403211908481184>, you can get an offhand auto on cast, similar to Freedom <:freedom:535541258240786434>
-    • Though there seems to be some conditions related to this, for instance:
-```
-Fastest non-channeled Ability → ECB spec does not work
-Fastest non-channeled Ability + click to off → ECB spec does work
-Fastest non-channeled Ability → Defensive → ECB spec also works (even if you do not click off)
-```
-.
-⬥ Video Demonstration of an example (Courtesy of <@401918445429587969>)
-    • Abilities used in clip: Auto → <:needle:535541259108876293> → <:anti:535541306475151390> → <:ecb:615618531937222657> <:eofspec:746403211908481184>
-.
-.img:https://i.imgur.com/uWLnvLu.mp4
-.
-**__Detonate__**
-⬥ Detonate <:deto:535533833358016512> is technically a damaging ability, but unlike normal damaging abilities it incurs the auto cooldown when you release it
-    • Because of this, you can release <:deto:535533833358016512> with an auto as follows:
-```
-Average Auto + Ability → Detonate (3t+/1.8s+) → Average Auto + Detonate + Ability
-```
-*Note: The order you execute the release is important to get the Auto, <:deto:535533833358016512>, and the Ability*
-
-.
-⬥ Video Demonstration:
-    • Abilities used in clip: <:FireSurge:543465116092334083> <:sonic:535533809924571136> → <:deto:535533833358016512> (3t/1.8s) → <:deto:535533833358016512> <:FireSurge:543465116092334083> <:dbreath:535533833391702017>
-.
-.img:https://i.imgur.com/01jlvxF.mp4
 .
 > **__Adrenaline__**
 .tag:Adren
-The adrenaline per auto works as follows:
-*Note: this also displays the adrenaline with various ranks of Invigorate*
+The adrenaline per auto works as follows (rank column is Invigorate rank):
 .
 .img:https://i.imgur.com/7EINzgc.png
 .
@@ -165,328 +148,188 @@ The adrenaline per auto works as follows:
     • Slower things hit harder, similarly 2H weapons hit harder than mainhand weapons and mainhand weapons harder than offhand, hence why you preferably will auto with the slowest 2H weapon you have
         - This is not to say you should default to the slowest weapon of course, because weapon tier is also a factor, but if the tiers are close then odds are the slower weapon will hit harder assuming all other things are equal.
 
+⬥ Use `!abilitydamage` to calculate damage
+
 .
 > **__Offing__**
 .tag:Offing
 **__What it is__**
 ⬥ It is important to mention that autos can be forced to not automatically try and fire when their cooldown ends by "offing", this is done as follows:
     • Clicking under yourself
-    • Clicking a spell you cannot cast (e.g., trying to cast Disruption Shield <:disrupt:535614336207552523> when on the Ancient Spellbook)
+    • Using a spell you cannot cast (e.g., trying to cast <:disrupt:535614336207552523> when on the Ancient Spellbook)
     • Clicking something from your inventory
     • Using Cease <:cease:864235458464186418>
 
 .
 > **__Clicking vs Auto Bind__**
 .tag:ClickVsBind
-**__The Differences__**
-⬥ It is also important to clarify key differences between clicking your target to auto and using an auto bind to get back on after offing to auto:
-    • You cannot hit your auto bind to try and recast your auto mid-GCD (unless you queue the auto with Ability Queuing turned on), you would need to atleast 3 tick it (i.e., wait for GCD to end)
-    • If you use your auto bind to recast your auto, you can alter what the auto will be when you cast it
-        - This is mostly applicable to Magic
-    • You can click to recast your auto mid-GCD
-    • If you click to recast your auto, your next ability must be at least 1t after otherwise you will override it
-        - if you click to recast your auto ideally you do it mid-GCD so that you do not waste ticks
-
+{
+  "embed": {
+    "title": "__Clicking (Target) vs. Using a Bind (or Clicking From Bar) to Auto__",
+    "description": "1) If offed, cannot use auto bind mid-GCD to try recast the auto\n\u00a0\u00a0\u00a0\u00a0• Would need to recast after GCD ends\n\u00a0\u00a0\u00a0\u00a0• Ability Queueing gets around this by queueing the auto mid-GCD\n\n2) Auto bind can alter what auto will be when fired (mostly applicable to <:Magic:689504724159823906>)\n\n3) If offed, can can click to recast auto mid-GCD\n\u00a0\u00a0\u00a0\u00a0• If doing so, next ability must be 1t+ after, else auto overriden\n\n4) Auto bind gives the ability to cast an auto and ability on the same tick\n\u00a0\u00a0\u00a0\u00a0• Autos normally executed after ability in a tick, so abilities override it\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0-  So, <:Attack:689509250472476758> / <:Ranged:689504724403486920> autos can't be 4TAA'd, ability is on t5 where auto is t4",
+    "color": 39423
+  }
+}
+.embed:json
 .
-⬥ One important benefit of an auto bind though is the ability to cast an auto and ability on the same tick
-    • Normally, an auto is executed after an ability in a tick, and so normally an ability will override it
-        - This is why you cannot 4TAA with Melee and Ranged autos, and instead need to cast the ability on the 5th tick as opposed to the 4th tick with the auto
 
 .
 > **__Application: Defensive Autos__**
 .tag:DefAutos
-*Note: While this section is colloquialy referred to as "Defensive Autos", it is more technical to say they are non-damaging abilities, and so includes things like Sunshine <:sunshine:994921119381463070> and Metamorphosis <:meta:535533811304497183>.*
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
-
+{
+  "embed": {
+    "title": "__Defensive Autos__",
+    "description": "⬥ Abilities that are considered \"defensives\" can be found [here]($linkmsg_nonToCdefensive$)\n\u00a0\u00a0\u00a0\u00a0• They are essentially abilities that would allow you to auto mid-GCD\n⬥ \"Average\", etc. refers to weapon speed used to cast it dicussed [here]($linkmsg_cooldown$)\n⬥ Use `!defauto` for a very brief summary of everything explained\n\u200B",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__What a Defensive Auto is and Why it Exists__",
+        "value": "⬥ **What**: when you use a \"defensive\" and get an auto as a result\n⬥ **Why**: \"non-damaging\" abilities, <:deto:535533833358016512>, and <:shadowtend:642713547142332416> do not incur cooldown on cast\n\u200B"
+      },
+      {
+      	"name": "__First Implication__",
+        "value": "⬥ Non-channeled fast/fastest ability into a defensive causes a mid-GCD auto\n\u00a0\u00a0\u00a0\u00a0• For <:Magic:689504724159823906>: this will be your autocasted spell, but can be altered using a spell\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 - To change: do the spell (e.g. <:icebarrage:537340400185245701> / <:ent:567727987274022924>) *then* defensive on same tick\n\u00a0\u00a0\u00a0\u00a0• For <:range:580168050121113623> / <:Attack:689509250472476758>: this will be your default auto, can be altered with a spell\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- To change: do the spell (e.g. <:ent:567727987274022924>) *then* defensive on same tick\n\u00a0\u00a0\u00a0\u00a0• Ticks: `T0: Fast/Fastest Ability → T3 Defensive → T4/5 Auto → T6 Ability`\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/QgFxQpD.mp4) - <:dbreath:535533833391702017> → <:freedom:535541258240786434> → <:sonic:535533809924571136> | <:sever:535532879577612298> → <:freedom:535541258240786434> → <:cleave:535532878616985610> | <:piercing:535541258538450944> → <:freedom:535541258240786434> → <:mds:535541259033378827>\n\u00a0\u00a0\u00a0\u00a0• As auto's cooldown ends, can swap to a 2H for a stronger auto\n\u200B"
+      },
+      {
+      	"name": "__Second Implication__",
+        "value": "⬥ <:Magic:689504724159823906>, due to haing auto binds, can cast an auto + ability on the same tick\n\u00a0\u00a0\u00a0\u00a0• This lets <:Magic:689504724159823906> do an average ability into a defensive auto\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ticks: `T0: Average Ability → T3: Defensive → T6: Auto + Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- For <:range:580168050121113623> / <:melee:615612332521029632>: the ability would have to be on T7 to not lose the T6 auto\n\n⬥ [Demo](https://i.imgur.com/q7LMPRo.mp4)\n\u00a0\u00a0\u00a0\u00a0• <:Magic:689504724159823906>: <:sonic:535533809924571136> → <:anti:535541306475151390> → (3t) <:FireSurge:543465116092334083> <:dbreath:535533833391702017>\n\u00a0\u00a0\u00a0\u00a0• <:melee:615612332521029632>: <:sever:535532879577612298> → <:freedom:535541258240786434> → (3t) <:cleave:535532878616985610> (no auto)\n\u00a0\u00a0\u00a0\u00a0• <:melee:615612332521029632>: <:sever:535532879577612298> → <:freedom:535541258240786434> → (4t) <:cleave:535532878616985610> (yes auto)\n\n⬥ Useful if staff camping, to avoid using weaker abilities like <:Sacrifice:513201065907322880> / <:Tuskas:513201065513058306>\n\u200B"
+      },
+      {
+      	"name": "__How Freedom is Different__ <:freedom:535541258240786434>",
+        "value": "⬥ If cast with DW, <:freedom:535541258240786434> gives both a MH/2H and an OH auto\n\u00a0\u00a0\u00a0\u00a0• Always get the OH auto, to change what is case do auto → <:freedom:535541258240786434> same tick\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- To change the 2H auto: do auto + ability input at GCD end\n\u00a0\u00a0\u00a0\u00a0• To change OH to a spell for <:range:580168050121113623> / <:melee:615612332521029632>, must use OH <:Magic:689504724159823906> weapon (e.g. <:ancientlantern:580177522503712781>)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Must also have an OH autocast set (ideally <:polyporestrike:859483781487394826> as it is on all books)\n⬥ Feel free to use the `!freedom` command\n\u200B"
+      },
+      {
+      "name": "__Delaying Defensive Autos__",
+      "value": "⬥ As stated [here]($linkmsg_Offing$), you can \"off\" to prevent autos, thus you can delay them\n\u00a0\u00a0\u00a0\u00a0• Useful for <:freedom:535541258240786434> to change the 2H and OH auto after a fast/fastest ability\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This since can only change 2H auto at end of GCD (unless queueing it)\n\n⬥ [Demo 1 - No Delay](https://i.imgur.com/GfrY35W.mp4): <:AirSurge:543465115870035999> is the autocast and <:FireSurge:543465116092334083> is the user input when able\n```\nT0: Fast/Fastest Non-channel\nT3: DW Freedom + OH Auto Cast\nT4/5: 2H Auto Cast\nT6: Ability```\n⬥ [Demo 2 - Delay](img:https://i.imgur.com/GfrY35W.mp4): <:AirSurge:543465115870035999> is the autocast and <:FireSurge:543465116092334083> is the user input when able\n```\nT0: Fast/Fastest Non-channel\nT3: DW Freedom + OH Auto (If \"Off\" here, lose OH Auto)\nT4/5: \"Off\"\n2H Auto + Ability```\n⬥ Non-<:freedom:535541258240786434> defensives: works, but doing spell → defensive changes auto too\n\u200B"
+      },
+      {
+      "name": "__When are Defesive Autos Used__",
+      "value": "⬥ Usually only when it is lossless, like using <:sunshine:994921119381463070> / <:zgs:626465964325601290> <:spec:537340400273195028>\n⬥ When maximizing adren gain during a build by spamming defensive autos\n\u200B"
+      },
+      {
+        "name": "__Summary of How to Defensive Auto__",
+        "value": "**⬥ __After an Average-speed ability or after offing__**\n\u00a0\u00a0\u00a0\u00a0• non-channeled Ability → Defensive → (end of GCD) Spell + Ability\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- If you offed after a fast/fastest ability, can also click the target to auto\n**⬥ __After a Fast/Fastest-speed ability__**\n\u00a0\u00a0\u00a0\u00a0• non-channeled Ability → Spell + Defensive → Ability\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Only use a spell if you want to fire a non-autocast auto mid GCD"
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__Why Defensive Autos Exist__**
-⬥ As mentioned non-damaging abilities (and with exception damaging abilities) will not put your auto on cooldown on cast
-    • This has several implications, the first applies to all styles, the second is magic specific
-
-.
-**__Implications__**
-⬥ Firstly, this means if you cast a fast/fastest ability into a defensive ability, your auto will happen mid Global Cooldown (GCD)
-    • Normally this will be whatever you have set as your autocasted spell, however you can alter what will be cast with the defensive by doing the spell (e.g., Ice Barrage <:icebarrage:537340400185245701> or Entagle <:ent:567727987274022924>) *then* the defensive on the same tick
-        - For Melee/Ranged this will just be your default auto, though you can alter it to a spell like <:ent:567727987274022924> still
-    • The following table will break down the ticks of this:
-.
-```
-T0: Fast/Fastest Ability
-T3: Defensive
-T4/5: Auto is cast
-T6: Ability
-```
-⬥ Video Demonstration:
-    • Abilities used in clip:
-        - Magic: <:dbreath:535533833391702017> → <:freedom:535541258240786434> → <:sonic:535533809924571136>
-        - Melee: <:sever:535532879577612298> → <:freedom:535541258240786434> → <:cleave:535532878616985610>
-        - Range: <:piercing:535541258538450944> → <:freedom:535541258240786434> → <:mds:535541259033378827>
-.
-.img:https://i.imgur.com/QgFxQpD.mp4
-.
-    • Further, you can exploit this to make it a 2H auto, as the cooldown for any auto ends on t4
-        - So, you would simply swap to a 2H weapon between the Fast/Fastest Ability cast to before the Auto would be cast
-    • A further consideration is if that Ability on t6 is a non-channeled fastest ability, you can 4t an ability afterwards
-        - This also requires a t4 auto to work assuming an Average auto after the t0 ability, therefore it only works when you do a Fastest ability into the Defensive
-        - This is Magic specific, though can apply for Debuff spells cast by other styles
-        - This can be seen in the following video by <@593106625955495947>: <https://www.youtube.com/watch?v=UmsbPrkqrtw>
-
-.
-⬥ Secondly, as mentioned, Magic, due to it having auto binds, can make sure an auto + ability is cast on the same tick
-    • This allows Magic to do an avg. ability into a defensive auto as a result
-    • The following table will break down the ticks of this:
-```
-T0: Average Ability
-T3: Defensive
-T6: Auto + Ability
-```
-    • For Melee and Ranged this would result in:
-```
-T0: Average Speed Ability
-T3: Defensive
-T6: Auto auto-casts
-T7: Ability
-```
-⬥ Video Demonstration:
-    • Abilities used in clip:
-        - Magic: <:sonic:535533809924571136> → <:anti:535541306475151390> → (3t) <:FireSurge:543465116092334083> <:dbreath:535533833391702017>
-        - Melee: <:sever:535532879577612298> → <:freedom:535541258240786434> → (3t) <:cleave:535532878616985610> (does not net an auto)
-        - Melee: <:sever:535532879577612298> → <:anti:535541306475151390> → (4t) <:cleave:535532878616985610> (does net an auto)
-.
-.img:https://i.imgur.com/q7LMPRo.mp4
-.
-    • This is important as it is highly beneficial to use when staff camping with Magic, as it will aid in preventing you from using bad abilities like Tuska's Wrath <:Tuskas:513201065513058306> and Sacrifice <:Sacrifice:513201065907322880> due to the lack of abilities at your disposal
-
-.
-**__Freedom__**
-⬥ It is important to note that Freedom <:freedom:535541258240786434> works a little differently, in that you will get both an off-hand and a main-hand/2H auto
-    • You will always get the off-hand auto, and what is cast as an off-hand auto can be changed by doing auto → <:freedom:535541258240786434> on the same tick.
-        - If you wanted to change what the 2H auto is, you would have to 3 tick it.
-
-⬥ If you wanted to change what the off-hand auto is for Melee or Range (i.e., to replace the auto for some specific spell), to cast the spell you are required to equip an off-hand magic weapon such as an Ancient Lantern <:ancientlantern:580177522503712781>.
-    • It is important to note that you must have an off-hand auto cast set
-        - Because of this it is recommended to use Polypore Strike <:polyporestrike:859483781487394826> as it can be accessed by all books, which allows you to Spellbook Swap <:SBS:543875425055670275> between books without issue.
-    • It is recommended that you set the off-hand auto cast before the start of your hour
-        - Further, you must have the mage off-hand weapon equipped to do so or it will not set it.
-
-.
-**__Delaying Defensive Auto__**
-⬥ Further, as mentioned, you can delay autos by offing, and so you can make use of this if you need to delay a defensive auto for whatever reason
-    • More specifically, this can be useful for Freedom <:freedom:535541258240786434> if you need to change what *both* the off-hand and 2H auto are when casting <:freedom:535541258240786434> after a faster-than-Average speed weapon, as you can only change the 2H auto if you 3t it
-    • The following examples will be done with <:freedom:535541258240786434>, however the same idea applies to delaying the auto with other non-damaging abilities, except that you only have the 2H auto and that you can off any time after your ability before the the auto should be cast
-    • For <:freedom:535541258240786434> specifically we will "off" to delay the auto directly after the OH auto is cast, otherwise we lose the OH auto
-*Note: If you off before or directly as you cast your defensive normally you will either have to click or hit your auto bind again to actually cast your auto.*
-
-.
-⬥ Thus, for <:freedom:535541258240786434> we can do as follows:
-    • Instead of the normal
-```
-T0: Fast/Fastest Speed Ability
-T3: DW Freedom + OH Auto Cast
-T4/5: 2H Auto cast
-T6: Ability
-```
-.
-.img:https://i.imgur.com/GfrY35W.mp4
-.
-    • We can instead do:
-```
-T0: Fast/Fastest Wield Ability
-T3: DW Freedom + OH Auto cast
-T4/5: "Off"
-T6: 2H Auto + Ability
-```
-.
-.img:https://i.imgur.com/2BumygZ.mp4
-.
-*Note: For both of these sample videos, Air Surge <:AirSurge:543465115870035999> is the autocast spell and Fire Surge <:FireSurge:543465116092334083> is the manually selected auto. The Defensive auto is manually changed to Fire Surge where possible for sake of demonstration*
-
-.
-⬥ What are the differences between these two scenarios?
-    • The 2H auto is cast and thus hits at different times
-    • We can alter the 2H auto in the second scenario, whereas in the first it will be whatever your autocast spell is
-        - We can alter the OH auto in both scenarios by simply doing Other Auto → Freedom (e.g., <:FireSurge:543465116092334083> → <:freedom:535541258240786434>)
-
-.
-*Note: This is how we can alter the auto sent with non-damaging abilities normally as well, though you can still alter it if you "off" for it and 3 tick it afterwards like the 2H auto with Freedom <:freedom:535541258240786434>.*
-
-.
-⬥ Generally speaking, the only defensive Autos you will do are with your ultimates like Sunshine <:sunshine:994921119381463070>, special attacks like ZGS <:zgs:626465964325601290> <:spec:537340400273195028>, and Freedom <:freedom:535541258240786434> due to it giving two autos
-    • Though in cases of maximizing adrenaline gain when building you would want to exploit as many as possible as you will generate more adrenaline overall relative to normal abilities due to you getting the auto adrenaline ontop of the normal abilities adrenaline gains
 
 .
 > **__Application: 4TAA__**
 .tag:4TAA
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
-
+{
+  "embed": {
+    "title": "__4-tick Auto-attack (4TAA)__",
+    "color": 39423,
+    "description": "Use `!4taa` for a brief summary",
+    "fields": [
+    	{
+      	"name": "__What 4TAA is__",
+        "value": "⬥ Largely applicable to <:Magic:689504724159823906>, but <:range:580168050121113623> / <:melee:615612332521029632> can use it to weave in debuff spells\n⬥ As mentioned [here]($linkmsg_cooldown$), damaging abilities incur auto cooldown\n\u00a0\u00a0\u00a0\u00a0• 4t cooldown after a fastest (wand) ability; 6t after an average (staff) one\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- 4TAA makes use of this and the fact <:Magic:689504724159823906> can auto + ability same tick\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Use this by delaying next ability 1t to force auto + ability on 4th tick"
+      },
+      {
+        "name": "__4TAA Guide__",
+        "value": "⬥ Video guide by <@162317885044293632> [here](https://youtu.be/HmZR1BBwsK0)\n⬥ When 4TAAing you will generally use Method A or B\n⬥ In the following, DW = Wand + Orb, 2H = Staff"
+      },
+      {
+        "name": "__Method A__",
+        "value": "2H Auto + Abil → <:gconc:869285393223254107> → unchannelled DW Abil → Staff On → Repeat ([demo](https://youtu.be/Ezn1gJpfRbs))"
+      },
+      {
+        "name": "__Method B__",
+        "value": "2H Auto + <:gconc:869285393223254107> → DW Abil → unchannelled DW Abil → Staff On → Repeat ([demo](https://youtu.be/NeWln6VcSSc))"
+      },
+      {
+      	"name": "__No gConc__",
+      	"value": "2H Auto + 2H/DW Ability → unchanneled DW Ability → Staff ON → Repeat"
+      },
+      {
+      	"name": "__Things to Notice__",
+        "value": "⬥ Without <:gconc:869285393223254107>, auto is every 2nd ability as 2H auto causes a 6t cooldown\n\u00a0\u00a0\u00a0\u00a0• With <:gconc:869285393223254107> it is every 3rd due to <:gconc:869285393223254107> cooldown\n\n⬥ The ability before repeat **must** be non-channeled, since channels cast and incur auto cooldown multiple times, as discussed [here]($linkmsg_cooldown$)\n\u00a0\u00a0\u00a0\u00a0• It **must** also be DW due to it only incurring a 4t cooldown\n\n⬥ The reason a DW ability follows <:gconc:869285393223254107> is discussed in `!critbuff`\n\n⬥ Avoid 2H channels as it can cause issues, another benefit of DW after <:gconc:869285393223254107>\n\u00a0\u00a0\u00a0\u00a0• Issue as each channel hit incurs a 6t cooldown, so need to delay autoing:\n```Visualization of why 2H channels can be an issue:\nThe soonest you can auto after Asphyxiate\n-------------------------------------------------------\n2H Asphyx | Auto Asphyx → Abil → DW Abil → Auto Abil\nDW Asphyx | Auto Asphyx → DW Abil → Auto Abil```"
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__What it is__**
-⬥ 4-tick auto Attack (4TAA) is an extension of weapon juggling wherein, as the name implies, you force an auto attack on the 4th tick after casting the ability before
-    • This largely applies to Magic, but can be extended to casting Debuff spells with non-Magic too
-
-.
-⬥ As mentioned earlier, when you cast a damaging ability it will put your autos on cooldown
-    • 4t cooldown after a fastest speed (Wand) ability, 6t after an average speed (Staff) ability
-
-.
-⬥ So, to 4TAA we make use of this fact, along with the fact that Magic can force an auto + ability on the same tick due to having access to spell (and so auto) binds
-    • We make use of this by delaying our next ability by a tick to force an auto and ability on the 4th tick
-
-.
-**__How it Works__**
-⬥ The general 4TAA structure will be like:
-```
-2H auto + Avg/Fastest Ability → non-channeled Fastest Ability → Repeat
-```
-
-⬥ As you can see, the auto is forced every other ability, this is simply due to the fact that 2H autos have a 6t cooldown so you can only cast it after every other ability
-
-.
-⬥ Further, you can see the ability before it repeats has to be a non-channeled Fastest ability
-    • It *must* be a Fastest ability due to the 4t auto cooldown associated with it, allowing you to do a 2H auto 4t later
-    • It *must* be non-channeled because each hit of a channel resets your auto cooldown
-        - Thus it is generally ideal to always do an auto into your channeled ability
-
-.
-⬥ Moreover, you can see that after an auto you can do either an Average or a Fastest ability, this is because it does not particularly matter assuming same perks and tier
-    • That being said, you *must* (outside of very niche cases) always ensure that when you do an auto into a channel that the channeled ability is done with Fastest (this is mostly important for Asphyxiate <:asphyx:535533833072672778>)
-        - This is because of the fact that when the channeled hits reset your auto cooldown, it is going to reset it based off the weapon you are wearing. So, if you staff <:asphyx:535533833072672778>, when your <:asphyx:535533833072672778> ends your auto is on a 6t cooldown still
-        - The table below will showcase two different scenarios:
-```
-Staff (Average) Asphyxiate:
-
-You MUST do:
-Auto + Asphyxiate → Ability → Fastest Ability → Auto + Ability
-
-Wand (Fastest) Asphyxiate:
-
-You can do:
-Auto + Asphyxiate → Fastest ability → Auto + Ability
-```
 
 .
 > **__Application: 5TAA:__**
 .tag:5TAA
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
-
+{
+  "embed": {
+    "title": "__5-tick Auto-attack (5TAA)__",
+    "description": "\"Average\", etc. refers to weapon speed used to cast it dicussed [here]($linkmsg_cooldown$)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__What 5TAA is__",
+        "value": "⬥ Like 4TAA, but for <:range:580168050121113623> / <:melee:615612332521029632> as no auto binds; must wait 1t more for ability\n\u00a0\u00a0\u00a0\u00a0• 4TAA: `T0: Fastest non-channel → T4: Auto + Ability`\n\u00a0\u00a0\u00a0\u00a0• 5TAA: `T0: Fastest non-channel → T4: Auto → T5: Ability`\n\u00a0\u00a0\u00a0\u00a0• This is the case as autos by default are after abilities in a tick, so casting a T4 ability will incur cooldown before the auto casts, hence need for T5 ability\n\n⬥ [Demo](https://i.imgur.com/tWAuKfP.mp4):\n\u00a0\u00a0\u00a0\u00a0• <:melee:615612332521029632>: <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>\n\u00a0\u00a0\u00a0\u00a0• <:range:580168050121113623>: <:piercing:535541258538450944> → (wait 4t) auto fires → (wait 1t) <:mds:535541259033378827>"
+      },
+      {
+        "name": "__Use Cases__",
+        "value": "⬥ Far more limited than 4TAA, primarily for aligning ticks\n\u00a0\u00a0\u00a0\u00a0• E.g. <:zerk:535532854004678657> rotations with a 7t channel (e.g. 4-hit <:destroy:535532879330148352>) but unable to do a 5t channel (e.g. <:gflurry:535532879283879977>); though this is niche post <:abyssalscourge:947871842469834832> + <:jawsoftheabyss:947871842595639306>\n"
+      },
+      {
+        "name": "__Example__",
+        "value": "```Visualization of 5TAA to align ticks\nT0: Zerk\nT3-T6: 2x Ability\nT9: 7t channel\nT16-19: 2x Ability\nT22: Fastest non-channel\nT26: Auto casts\nT27-30: 2x Ability\nT33: Ability + Zerk ends```⬥ By using 5TAA it was possible to get an ability on last tick of <:zerk:535532854004678657>\n\u00a0\u00a0\u00a0\u00a0• Results in <:zerk:535532854004678657> and <:berserker:643505116347105290> damage modifers stacking, discussed in `!lasttick`\n⬥ Notice: like 4TAA, the ability before auto must be a fastest non-channel\n\u00a0\u00a0\u00a0\u00a0• Further, using a non-fastest channel prior to that non-channel cannot be used either for similar reasons to why 2H channels can cause issues for 4TAA"
+      },
+     	{
+      	"name": "__5TAA Zerk vs Non-5TAA Zerk Example__",
+        "value": "⬥ [Demo 1](https://i.imgur.com/ghyfnwt.mp4): <:zerk:535532854004678657>  → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:sever:535532879577612298> → (5TAA) <:quake:535532879506309150>\n⬥ [Demo 2](https://i.imgur.com/5yGLBou.mp4): <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:quake:535532879506309150> → <:deci:535532879325822986>\n\u00a0\u00a0\u00a0\u00a0• Differences:\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Demo 1 has a 5TAA, 2 has an unboosted <:deci:535532879325822986> after <:quake:535532879506309150>\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- With 5TAA: <:quake:535532879506309150> does more damage (8451 > 7644) due to `!lasttick` \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- In 2: last decimate shows no 5TAA ≠ extra zerk ability"
+      }
+    ]
+  }
+}
+.embed:json
 .
-**__What it is__**
-⬥ This is pretty similar to 4TAA, but for Melee and Ranged, in that you are essentially delaying your next ability to get an auto in; however, a key difference is that Melee and Ranged do not have an auto bind, and so must wait an additonal tick before casting their ability
-
-.
-⬥ So, instead of doing:
-```
-T0: Fastest non-channeled Ability
-T4: Auto + Ability
-```
-⬥ You do
-```
-T0: Fastest non-channeled Ability
-T4: Auto auto-casts
-T5: Ability
-```
-⬥ Video Demonstration:
-    • Abilities used in clip:
-        - Melee: <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>
-        - Range: <:piercing:535541258538450944> → (wait 4t) auto fires → (wait 1t) <:mds:535541259033378827>
-.
-.img:https://i.imgur.com/tWAuKfP.mp4
-.
-⬥ The reason for this is because Autos normally are executed after abilities in a tick, so using an ability on the same tick it is casted will override it as it incurs the auto cooldown, hence the need to delay the ability an additional tick to get the auto in
-
-.
-⬥ The use cases are far more limited to 4TAA which you regularly weave in. 5TAA is primarily done to align ticks, this is most notably seen in Berserk <:Berserk:513190158468907012> rotations that use one 7t channel (e.g., 4-hit Destroy <:destroy:535532879330148352>) without the ability to use a 5t (3.0s/3-hit) Greater Flurry <:gflurry:535532879283879977> to align ticks, as can be seen below:
-```
-T0: Zerk
-T3: Ability
-T6: Ability
-T9: 7t channeled Ability
-T16: Ability
-T19: Ability
-T22: Fastest non-channeled Ability
-T26: Auto auto-casts
-T27: Ability
-T30: Ability
-T33: Ability + Zerk ends
-```
-.
-⬥  As you can see in the above table, by using a 5TAA it was possible to get an ability on the last tick of <:Berserk:513190158468907012>, this then allows any ability to hit outside of <:Berserk:513190158468907012> and thus get both <:Berserk:513190158468907012> and Berserker Aura <:berserker:643505116347105290> damage modifiers
-
-⬥ It is important to note that like 4TAA, the ability before must be a fastest non-channeled ability
-    • Further the ability before that cannot be a slower-than-fastest channeled ability for the same reasons as to why staff Asphyxiate <:asphyx:535533833072672778> causes issues with 4TAA
-
-.
-⬥ Video Demonstration of Berserk <:Berserk:513190158468907012> with 5TAA to align ticks:
-    • Abilities used in clip: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4-hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → (5taa) <:quake:535532879506309150>
-.
-.img:https://i.imgur.com/ghyfnwt.mp4
-.
-⬥ Video Demonstration of Berserk <:Berserk:513190158468907012> without 5TAA to align ticks:
-    • Abilities used in clip: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4-hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → <:quake:535532879506309150> → <:deci:535532879325822986>
-.
-.img:https://i.imgur.com/5yGLBou.mp4
-.
-**__Difference in the Above Clips__**
-⬥ As seen, they both follow the same ability order, except the first has an auto, and the other has a non-boosted Decimate <:deci:535532879325822986> after Quake <:quake:535532879506309150>
-    • In the clip where 5TAA is used, <:quake:535532879506309150> does more damage (8451 vs 7644)
-    • This is because by making using of 5TAA it was possible to realign the Zerk rotation to get an ability on the last tick of <:Berserk:513190158468907012> to get the Ultimate <:Berserk:513190158468907012> and Aura <:berserker:643505116347105290> buff
-        - Doing a 7t (4.2s) channel will require you to do this to realign to last tick of <:Berserk:513190158468907012>
-        - An alternate way to realign is to use a 5t (3.0s) channel
-    • The <:deci:535532879325822986> after the <:quake:535532879506309150> was used to display how you cannot fit another ability by skipping the auto anyway, so to make full use of <:Berserk:513190158468907012> ticks you want to 5TAA
-        - The benefits of this is gone in more in depth in this video by <@162317885044293632>: <https://youtu.be/AzswBOuBnUQ>
 
 .
 > **__Dark Bow Autos__**
 .tag:Dbow
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
+{
+  "embed": {
+    "title": "__Dark Bow Autos__",
+    "description": "\"Average\", etc. refers to weapon speed used to cast it dicussed [here]($linkmsg_cooldown$)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Why They Are Interesting__",
+        "value": "⬥ <:dbow:643848618553507843> casts 2 autos at once but incurs as 12t cooldown"
+      },
+      {
+        "name": "__When They Can Be Used__",
+        "value": "⬥ Defensive autos to maximize adrenaline gain\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/W6L6UBB.mp4): <:piercing:535541258538450944> → <:anti:535541306475151390> → <:dbow:643848618553507843> swap → <:needle:535541259108876293>\n⬥ Defensive autos for damage, if not in <:ecb:615618531937222657> but accuracy and inventory allows\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/68PhZHW.mp4): <:piercing:535541258538450944> → <:ds:535541258924326912> + <:dbow:643848618553507843> swap"
+      }
+    ]
+  }
+}
+.embed:json
+.
 
-.
-**__Why Dark Bow Autos are Interesting__**
-⬥ Dark Bows <:dbow:643848618553507843> are interesting in that they cast 2 autos at once, and this is balanced around the fact that it has a 12t (7.2s) cooldown, and as such they are primarily used for adrenaline gain in conjunction with defensives to maximize adrenaline gain.
-
-.
-⬥ Video Demonstration:
-    • Abilities used in clip: <:piercing:535541258538450944> → <:anti:535541306475151390> → <:dbow:643848618553507843> swap → <:needle:535541259108876293>
-.
-.img:https://i.imgur.com/W6L6UBB.mp4
-.
-⬥ You can also just use them for damage as regular defensive autos should you not be in <:ecb:615618531937222657>, and accuracy and inventory space permits, as follows:
-```
-T0: Fast/Fastest non-channeled Ability
-T3: Death's Swiftness
-T4/5: Dark Bow Auto auto-casts
-T6: Ability
-```
-⬥ Video Demonstration:
-    • Abilities used in clip: <:piercing:535541258538450944> → <:ds:535541258924326912> + <:dbow:643848618553507843> swap
-.
-.img:https://i.imgur.com/68PhZHW.mp4
 .
 > **__Application: Stalling__**
 .tag:Stalling
-**__Click vs Auto Bind Release__**
-⬥ There are two ways to release a stalled ability (in the context of stalling an ability and clicking under yourself so your character does not run in to release it by themself)
-    • The first is clicking to release
-    • The second is using an auto to release, which will be the focus
-
-.
-⬥ Essentially, when you click to release you are limited to stalling and releasing on the same target, and further like clicking autos you cannot click release and use an ability on the same tick - but you can release mid GCD
-
-.
-⬥ Video Demonstration:
-    • Abilities used in clip: stall <:deci:535532879325822986> → Click (releases <:deci:535532879325822986>) → <:cleave:535532878616985610>
-.
-.img:https://i.imgur.com/J7HRXD1.mp4
-.
-⬥ Using an auto to release on the other hand is not limited to this, you can stall on one target and release on another, and like using an auto bind you can release the ability and use an ability on the same tick - but you are limited in that you cannot auto-bind release mid GCD (unless you queue the auto with Ability Queuing turned on)
-    • Additionally, using an auto to release makes the next auto you cast that auto used to release the stall
-        - However, it is possible to clear the spell by using Cease <:cease:864241157520097281>, thus removing this potential drawback
-
-.
-⬥ Video Demonstration
-    • Abilities used in clip: stall <:deci:535532879325822986> → <:Vuln:537349530551582720> (releases <:deci:535532879325822986>) <:cleave:535532878616985610>
-.
-.img:https://i.imgur.com/6EErwTj.mp4
+{
+  "embed": {
+    "title": "__Click vs. Auto Bind Release__",
+    "description": "⬥ 2 ways to release a stall: first is clicking, second is using an auto\n⬥ Use `!stalling` for more info on stalling",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Click Release__",
+        "value": "⬥ Limited to stalling and releasing on the same target\n⬥ Similar to [5TAA]($linkmsg_5TAA$), next ability must be 1t after you click to release\n\u00a0\u00a0\u00a0\u00a0• Can release mid-GCD making this a non-issue\n⬥ [Demo](https://i.imgur.com/J7HRXD1.mp4): stall <:deci:535532879325822986> → Click (releases <:deci:535532879325822986>) → <:cleave:535532878616985610>"
+      },
+      {
+        "name": "__Auto Bind Release__",
+        "value": "⬥ Can stall on one target and release on another\n⬥ Similar to [4TAA]($linkmsg_4TAA$), release and next ability can be same tick\n\u00a0\u00a0\u00a0\u00a0• Cannot release mid-GCD (unless the auto bind was queued)\n⬥ Releasing this way makes next auto casted the auto used to release it\n\u00a0\u00a0\u00a0\u00a0• Can clear with <:cease:864241157520097281> making this a non-issue (click boss after for familiar)\n⬥ [Demo](https://i.imgur.com/6EErwTj.mp4): stall <:deci:535532879325822986> → <:Vuln:537349530551582720> (releases <:deci:535532879325822986>) + <:cleave:535532878616985610>"
+      }
+    ]
+  }
+}
+.embed:json
 .
 {
   "embed": {
@@ -494,64 +337,64 @@ T6: Ability
     "color": 39423,
     "fields": [
       {
-	    "name": "__Introduction__",
+        "name": "__Introduction__",
         "value": "[Link]($linkmsg_intro$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Cooldown__",
+      {
+        "name": "__How Cooldown Works__",
         "value": "[Link]($linkmsg_cooldown$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Unexpected Abilities__",
+      {
+        "name": "__Unexpected Abilities__",
         "value": "[Link]($linkmsg_Unexpected$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Adrenaline__",
+      {
+        "name": "__Adrenaline Gain__",
         "value": "[Link]($linkmsg_Adren$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Damage__",
+      {
+        "name": "__How Damage Works__",
         "value": "[Link]($linkmsg_Damage$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Offing__",
+      {
+        "name": "__Offing__",
         "value": "[Link]($linkmsg_Offing$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Clicking vs Auto Bind__",
+      {
+        "name": "__Click Vs Auto Bind__",
         "value": "[Link]($linkmsg_ClickVsBind$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Application: Def. Autos__",
+      {
+        "name": "__Application: Def. Autos__",
         "value": "[Link]($linkmsg_DefAutos$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Application: 4TAA__",
+      {
+        "name": "__Application: 4TAA__",
         "value": "[Link]($linkmsg_4TAA$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Application: 5TAA__",
+      {
+        "name": "__Application: 5TAA__",
         "value": "[Link]($linkmsg_5TAA$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Application: Dark Bow__",
+      {
+        "name": "__Application: Dark Bow__",
         "value": "[Link]($linkmsg_Dbow$)",
-		"inline": true
+        "inline": true
       },
-	  {
-	    "name": "__Application: Stalling__",
+      {
+        "name": "__Application: Stalling__",
         "value": "[Link]($linkmsg_Stalling$)",
-		"inline": true
+        "inline": true
       }
     ]
   }
