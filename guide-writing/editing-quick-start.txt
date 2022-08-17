@@ -1,0 +1,180 @@
+> __**Quick Start for Editors**__
+.img:https://i.imgur.com/qLynqJh.png
+
+.
+> __**Introduction**__
+.tag:intro
+This **Quick Start** channel serves as a central hub for editing information and resources required to contribute as an editor in PVME.
+*Note: assign yourself roles in <#924484538187522098> to ensure you have access to all necessary channels.*
+
+> __**Quick Resource Links**__
+.tag:quicknav
+.
+{
+  "embed": {
+    "title": "__Editor Resource Links__",
+    "description": "Links for all important resources.\nThe main repository is located at [PVME Github repository](https://github.com/pvme/pvme-guides).\nThe website can be accessed at [PVME Guides website](https://pvme.github.io/).",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__GitHub Info__",
+        "value": "⬥ <#772256355380887634>\n⬥ <#927007291625058415>\n⬥ <#724323531948556369>",
+        "inline": true
+      },
+      {
+        "name": "__Talk Channels__",
+        "value": "⬥ <#724129126314803230>\n⬥ <#841095662338703390>",
+        "inline": true
+      },
+      {
+        "name": "__Style Guides__",
+        "value": "⬥ <#711468605358866463>\n⬥ <#953422011546341416>",
+        "inline": true
+      },
+      {
+        "name": "__Editor Tools__",
+        "value": "⬥ <#689575078698287152>\n⬥ <#998259836527579156>\n⬥ <#908375161890275378>\n⬥ [PVME Guide Editor](https://pvme.github.io/guide-editor/)\n⬥ [Rotation Builder](https://pvme.github.io/rotation-builder/)\n⬥ [Embed Visualiser](https://leovoel.github.io/embed-visualizer/)",
+        "inline": true
+      },
+      {
+        "name": "__Emojis and Assets__",
+        "value": "⬥ <#856674081789181953>\n⬥ <#771436827214086154>\n⬥ [PVME Data Sheet](https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/)\n⬥ [Preset Generator](https://docs.google.com/spreadsheets/d/1WpbEGSWK5qhsdq7ERMYh70PUOg9BTW85nFW0TAcNWCQ/)",
+        "inline": true
+      },
+      {
+        "name": "\u200b",
+        "value": "\u200b",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+> __**GitHub Info**__
+.tag:github
+__**Working with GitHub**__
+⬥ If you are a new user, then it is suggested that you learn how to work with GitHub. We have two channels for this purpose:
+    • <#772256355380887634> - covers the basics of GitHub and on making your first contribution.
+    • <#927007291625058415> - more advanced information, solutions to common issues, and other miscellaneous info.
+⬥ **This is not mandatory**, and you can contribute without personally using GitHub if you prefer.
+⬥ For experienced users. you can fork a copy of the main repository to begin contributing.
+⬥ All contributions will be submitted as Pull Requests that get reviewed and accepted by a senior editor.
+⬥ The GitHub bot automatically logs all activity on the repository in the <#724323531948556369> channel, so you can keep track of your pull requests and updates.
+
+.
+> __**Style Guides**__
+.tag:styleguide
+__**PVME Style Guide**__ <#711468605358866463>
+⬥ The style guide aims to keep the discord consistent by providing guidelines for formatting guides in a standardised manner.
+⬥ This helps improve readability and navigation within guides for users.
+⬥ It enables faster editing, as stylistic doubts can be resolved quickly by checking the style guide, or any up-to-date channel.
+
+.
+__**Templates**__ <#953422011546341416>
+⬥ Commonly used templates for guide writing are placed in this channel, as well as some more information about formatting the templates.
+⬥ This channel is slightly less relevant due to the advent of the web editing tool, but is still maintained with useful presets for editors.
+
+.
+> __**Editor Tools**__
+.tag:tools
+As an editor, the typical editing process involves writing and updating channels with content, which can take a number of forms. It can be in the form of formatted sections of text, or could involve creating embeds for content such as `!commands`, or even writing out rotations for PvM encounters. To simplify the process, a number of tools have been created.
+
+**__PVME Guide Editor__ (Courtesy of <@207588233780002818>)** <#998259836527579156>
+⬥ Try it out for yourself: **<https://pvme.github.io/guide-editor>**
+⬥ This online tool allows for a live preview while editing content, making it easier to write guides with a relatively accurate preview of how it will appear in Discord later.
+⬥ There are a number of options available on the website for formatting, embeds, templates and more.
+⬥ **This editor has the same style checking as GitHub pull requests.** If your text does not show errors like 'trailing whitespace' or 'invalid JSON object', etc. then it will pass the style and formatting checks when you submit a pull request.
+
+.
+**__Rotation Builder__ (Courtesy of <@207588233780002818>)** <#908375161890275378>
+⬥ Try it out for yourself: **<https://pvme.github.io/rotation-builder>**
+⬥ Writing out a rotation is a more tedious task that it appears at first sight.
+⬥ For example, consider a random zerk rotation:
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
+.
+    • The rotation may look relatively short but the underlying formatting will be much longer:
+```<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>```
+⬥  This tool can instead rapidly generate rotations if the correct emoji names are typed in. The above formatting could be accomplished simply by typing the following into the rotation builder and copying the output:
+```zerk + adrenrenewal + vulnbomb → gbarge → sever → deci → lengmh destroy + (equip abyssalscourge) → gflurry (3 hit) → Glovesofpassage havoc → deci → assault → cane```
+⬥ This has the added benefit of being able to quickly look up full emoji IDs if you know their names.
+    • Most names are relatively intuitive and so this method tends to work quite well.
+    • **Similar functionality for quickly inserting emojis is also built into the PVME Guide Editor.** Instructions are available on the Guide Editor page.
+
+.
+__**Embed Visualiser**__
+⬥ Try it out for yourself: **<https://leovoel.github.io/embed-visualizer/>**
+⬥ This is an alternative way to visualize purely embedded content.
+⬥ When working on something like a command, this way you can ensure you do not include text that would not constitute a valid embed, since it will immediately raise an error.
+
+.
+__**Bot Test**__ <#689575078698287152>
+⬥ Once you have finished creating or updating content, you can use the PVME Bot to test this out directly in Discord.
+    • Simply type `pvme$txtpost` and attach a `.txt` file (in the bot-test channel) and the bot will print out the content as it would appear to users.
+⬥ Always do this once before submitting changes. It gives a chance for others to review and comment on your work, and give it a final once-over before submitting.
+
+.
+> **__Emojis and Assets__ (Courtesy of <@435481585379180554>, <@275626039579901952>, and others)**
+.tag:resources
+__**Emojis**__ <#856674081789181953>
+⬥ PVME has over 1650 (and counting!) emojis that need to be stored and used. This is done through the use of emoji servers that are updated as the need arises.
+⬥ A full list of all the emojis can be found both in the emoji channel linked above and in the pinned messages in <#724129126314803230>.
+
+.
+__**PVME Data Sheet**__
+⬥ PVME has a data sheet that contains a list of all values that need to update automatically over time, such as prices of items and supplies and invention components.
+⬥ Values in this sheet can be accessed using `data_pvme:sheet!<cell number>` enclosed within `$...$` to print the corresponding value when the text is rendered in Discord.
+*Note: A link to this sheet is found at the top of this guide in the quick navigation section.*
+
+.
+__**Preset Generator**__
+⬥ The Preset Generator was created using Google Sheets to make creating preset images easier and more consistent, especially if you do not have the required items for the preset.
+⬥ It also generates a detailed breakdown of the preset that you can customise with added user notes, which will then be included in guides.
+⬥ Instructions to create and share preset images are contained within the sheet.
+*Note: A link to this sheet is found at the top of this guide in the quick navigation section.*
+
+.
+__**Assets Requests**__ <#771436827214086154>
+⬥ To request new features or modifications for emojis, spreadsheet entries, etc. you can use the linked request channel.
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Quick Resource Links__",
+        "value": "[Link]($linkmsg_quicknav$)",
+        "inline": true
+      },
+      {
+        "name": "__GitHub Info__",
+        "value": "[Link]($linkmsg_github$)",
+        "inline": true
+      },
+      {
+        "name": "__Style Guides__",
+        "value": "[Link]($linkmsg_styleguide$)",
+        "inline": true
+      },
+      {
+        "name": "__Editor Tools__",
+        "value": "[Link]($linkmsg_tools$)",
+        "inline": true
+      },
+      {
+        "name": "__Emojis and Assets__",
+        "value": "[Link]($linkmsg_resources$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
