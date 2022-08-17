@@ -1,70 +1,119 @@
-This guide covers how to use Github for contributing to PvME.
+> __**GitHub Tutorial**__
+.img:https://i.imgur.com/dneHxlu.png
 
-1. Create an account on GitHub (<https://github.com/> ; Your username and email account will both be visible, so make sure you don't include personal information)
-        - If you have a GitHub account already, it is advised to make a new one for contributing to PvME unless you are confident that you haven't doxxed yourself
-  in any of your commit history
-        - Additionally, if you're using the git CLI, make sure you check your git config user.name / user.email, as these settings can still dox you, even if
-  using a new github account
 .
-.img:https://i.imgur.com/GHW09lA.png
+> **__Introduction__**
+.tag:intro
+GitHub is a service that lets users maintain a repository of information that is organized, version controlled, and allows for easy contribution from many users. PvME uses GitHub to maintain its guides and information.
+
+This guide covers how to use Github for contributing to PvME. If you would like to directly skip to the instructions, you can directly navigate to the __**Tutorial**__ section using the pinned links.
+
+Once you have completed this short tutorial, you can look at <#927007291625058415> for more tips, tricks, and other information.
+
 .
-2. Fork the PvME Repository (<https://github.com/pvme/pvme-guides>)
-        - think of this as "make a copy" on google drive; it'll create a copy of the repository that you can then edit
+> **__How GitHub Works__**
+.tag:summary
+⬥ GitHub is a company that offers use of Git repositories, which is how PvME stores its information and guides.
+⬥ A repository is simply the collection of all the files and folders for a single project, that is tracked and version controlled.
+⬥ Anyone can offer to contribute to the PvME repository.
+⬥ The basic contribution process looks like this:
+```fork PvME repo → make changes → commit changes → make pull request → changes get accepted```
+⬥ A brief explanation of the steps:
+    • **Make a copy of the repository**, also known as *forking* the repository. You now have an up-to-date copy of PvME files.
+    • **Make changes to the files in your repository and commit them** to your own repository. You can think of this as "saving" your changes.
+    • To add your new changes into the offical PvME repository, **make a pull request**. This tells PVME that you have changes you want *pulled* from your files into PvME's files.
+    • **Wait for your pull request to be accepted**. When this is done, your changes will now be a part of PvME's guides!
+    • You can now delete your fork, and re-fork the repository again once you want to make more changes.
+
 .
-.img:https://i.imgur.com/u8eJYdR.png
+> __**Tutorial**__
+.tag:tutorial
 .
-        - Fork to your account
+The goal of this tutorial is to add your name to the list at the bottom of this guide. Let's do that now.
+
+__**Step 1: Create a GitHub Account**__ (<https://github.com>)
+.tag:step1
+⬥ Go to GitHub and use the *Sign Up* button on the top right of the page.
+⬥ **Your username and e-mail account will both be visible, so make sure you don't include personal information**.
+⬥ If you have a GitHub account already, it is advised to make a new one for contributing to PvME unless you are confident that you haven't doxxed yourself in any of your commit history.
+*For experienced users: If you use the Git CLI, make sure you check your `git config [user.name|user.email]` configs, as these settings can still dox you, even if you use a new account.*
 .
-.img:https://i.imgur.com/78jyQPF.png
+.img:https://i.imgur.com/uI7JVfh.png
 .
-3. Open the repository on the web editor (if you're already experienced with the GitHub workflow, you can clone the repository and use an editor on your PC)
-4. The structure of the PvME repository mimics the server category/channel structure, so to navigate through the repository, simply click through folders
-  which share the name of the discord categories, until you find this guide in the GitHub repository. It will be in the guide-writing folder, labeled github-tutorial.txt (our goal in this tutorial is to add your name to the list at the bottom of this channel).
+__**Step 2: Fork the PvME Repository**__ (<https://github.com/pvme/pvme-guides>)
+.tag:step2
+⬥ Think of this as "Make a Copy" on Google Drive - it creates a personal copy of the repository that you can then edit at your leisure.
+⬥ Click the *Fork* button at the top right of the page, then confirm the creation of the fork.
 .
-.img:https://i.imgur.com/LeBkXNe.png
+.img:https://i.imgur.com/9sDym3q.png
 .
-.img:https://i.imgur.com/1wDkAr1.png
+.img:https://i.imgur.com/TenWOom.png
 .
-.img:https://i.imgur.com/O8uzzN7.png
+__**Step 3: Open Your Forked Repository In Your Browser**__
+.tag:step3
+⬥ You can find it by selecting *Your Repositories* in the dropdown menu, accessible by clicking your profile picture at the top right.
+⬥ You will know you are in your forked repository when the top-left of the website looks like this:
 .
-5. For your first change, add your Discord username to the list below
+.img:https://i.imgur.com/h0zk8pQ.png
 .
-.img:https://i.imgur.com/nMe1tbu.png
+*For experienced users: You can just clone the repository locally and work from your local machine, whatever you prefer.*
 .
-        - This next step requires Discord developer options to be enabled, so that you can copy your own discord ID
-        - app settings > advanced > developer console > turn on
+__**Step 4: Navigate to the *github-tutorial.txt* File**__
+.tag:step4
+⬥ The structure of the PvME repository mimics the server category/channel structure, so to navigate through the repository, simply click through folders which share the name of the discord categories, until you find this guide in the GitHub repository.
+⬥ The file is located at *guide-writing > github-tutorial.txt*.
+.
+.img:https://i.imgur.com/5A6RX3i.png
+.
+.img:https://i.imgur.com/aNgCmxl.png
+.
+__**Step 5: Enable Discord Developer Options and Copy Discord ID**__
+.tag:step5
+⬥ This is required to be able to copy your own Discord ID.
+⬥ These settings are accessible at *Discord App Settings > Advanced > Developer Console > (turn on)*.
+⬥ After enabling them, you can right-click your name or profile picture to copy your own Discord ID.
+.
 .img:https://i.imgur.com/fUd2Z3a.png
 .
-.img:https://i.imgur.com/lcdti4x.png
+.img:https://i.imgur.com/17NA9pa.png
 .
-.img:https://i.imgur.com/872g2sl.png
+.img:https://i.imgur.com/uK0diGu.png
 .
-        - Right click on your name or picture and click "Copy ID", then paste it below in the format <@YOURIDGOESHERE>
+__**Step 6: Your First Change and Contribution**__
+.tag:step6
+⬥ Click the *Edit* icon at the top right to begin editing the file. It looks like a pencil.
+⬥ Paste your Discord ID at the bottom of the file, below the other IDs, in the format `<@yourusedidhere>`.
+    • Replace the text with your Discord ID numbers.
+⬥ Then *commit* (i.e. save) your changes.
+    • Leave the settings at their default (i.e. "Commit directly to the `master` branch").
 .
-.img:https://i.imgur.com/1fYJbxV.png
+.img:https://i.imgur.com/SFB0OqA.png
 .
-6. After this, commit your changes
+.img:https://i.imgur.com/EKpuYym.png
 .
-.img:https://i.imgur.com/zU3CwVn.png
+__**Step 7: Create A Pull Request**__
+.tag:step7
+⬥ Navigate to the *Code* tab in your personal repository. You will notice that you are now *1 commit ahead* - this merely says that you have changes ready to contribute!
+⬥ Click the *Contribute* button and select *Pull Request* from the drop down.
+⬥ You can add a comment like "added my name to github-tutorial", and then create the *pull request*.
 .
-7. Add a comment message like `added my name to github-tutorial`, and then create a pull request
+.img:https://i.imgur.com/DXYZid4.png
 .
-.img:https://i.imgur.com/IzcR48S.png
+.img:https://i.imgur.com/696GEzw.png
 .
-.img:https://i.imgur.com/ebFLwpQ.png
+__**Step 8: That's it!**__
+.tag:step8
+⬥ You're done! If your changes are approved, then your pull request will be accepted by a senior editor or moderator.
+⬥ The <#772256355380887634> channel will get updated, and your name will appear in the channel.
+⬥ You can delete your fork *after* the pull request is accepted, if you wish. To delete a fork, go to your repo *Settings*, and scroll down till you find the option to delete. Then follow the confirmation process.
+.img:https://i.imgur.com/VpO5Lde.png
 .
-.img:https://i.imgur.com/jMWhmqL.png
+.img:https://i.imgur.com/YaxlO8O.png
 .
-.img:https://i.imgur.com/dbZKXUN.png
+.img:https://i.imgur.com/a1HmkID.png
 .
-.img:https://i.imgur.com/VBTPgYl.png
-.
-.img:https://i.imgur.com/K9Lwl7Q.png
-.
-8. Wait for your changes to be approved, and if they are, when the Pull Request is accepted by a <@799649057881718794>, your name will appear in the channel.
-
-.
-**__Successfully Completed PvME's Github Tutorial__**
+> __**Successfully Completed PvME's Github Tutorial**__
+.tag:completed
 <@173969201726226443>
 <@190066298338803712>
 <@277989267656146944>
@@ -203,3 +252,30 @@ This guide covers how to use Github for contributing to PvME.
 <@181747481565069312>
 <@133693891386802177>
 <@125985243311112192>
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Tutorial__",
+        "value": "[Step 1]($linkmsg_step1$)\n[Step 2]($linkmsg_step2$)\n[Step 3]($linkmsg_step3$)\n[Step 4]($linkmsg_step4$)\n[Step 5]($linkmsg_step5$)\n[Step 6]($linkmsg_step6$)\n[Step 7]($linkmsg_step7$)\n[Step 8]($linkmsg_step8$)\n",
+        "inline": true
+      },
+      {
+        "name": "__Users That Completed Tutorial__",
+        "value": "[Link]($linkmsg_completed$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
