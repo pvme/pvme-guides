@@ -84,7 +84,11 @@ Autos are separate from abilities and also have their own cooldown system separa
     "fields": [
       {
         "name": "__Abilities That Will Not Incur Auto Cooldown (\"Non-damaging\" Abilities)__",
-        "value": "<:zerk:535532854004678657>, <:sunshine:994921119381463070>, <:deathsswift:994921434633744455>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:lengmh:883134308146098227> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, (non-targeted) <:magmatempesttarget:924741973858996284>, (non-target) <:bd:535532854281764884>\n*Note: <:zgs:626465964325601290> <:spec:537340400273195028> drags you in to attack, resetting <:gbarge:535532879250456578> timer if not \"offing\" after*\n*Note: (DW) <:freedom:535541258240786434> - always gives an OH auto with it*"
+        "value": "<:zerk:535532854004678657>, <:sunshine:994921119381463070>, <:deathsswift:994921434633744455>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:lengmh:883134308146098227> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, (non-targeted) <:magmatempesttarget:924741973858996284>, (non-target) <:bd:535532854281764884>"
+      },
+      {
+        "name": "__Notes related to \"Non-damaging\" Abilities__",
+        "value": "⬥ <:zgs:626465964325601290> / <:lengmh:883134308146098227> <:spec:537340400273195028> drags you in to attack, resetting <:gbarge:535532879250456578> timer if not \"offing\" after\n⬥ (DW) <:freedom:535541258240786434> always gives an OH auto with it"
       },
       {
         "name": "__Unexpected Abilities That Incur Cooldown Oddly__",
@@ -200,7 +204,7 @@ The adrenaline per auto works as follows (rank column is Invigorate rank):
       },
       {
       "name": "__Delaying Defensive Autos__",
-      "value": "⬥ As stated [here]($linkmsg_Offing$), you can \"off\" to prevent autos, thus you can delay them\n\u00a0\u00a0\u00a0\u00a0• Useful for <:freedom:535541258240786434> to change the 2H and OH auto after a fast/fastest ability\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This since can only change 2H auto at end of GCD (unless queueing it)\n\n⬥ [Demo 1 - No Delay](https://i.imgur.com/GfrY35W.mp4): <:AirSurge:543465115870035999> is the autocast and <:FireSurge:543465116092334083> is the user input when able\n```\nT0: Fast/Fastest Non-channel\nT3: DW Freedom + OH Auto Cast\nT4/5: 2H Auto Cast\nT6: Ability```\n⬥ [Demo 2 - Delay](img:https://i.imgur.com/GfrY35W.mp4): <:AirSurge:543465115870035999> is the autocast and <:FireSurge:543465116092334083> is the user input when able\n```\nT0: Fast/Fastest Non-channel\nT3: DW Freedom + OH Auto (If \"Off\" here, lose OH Auto)\nT4/5: \"Off\"\n2H Auto + Ability```\n⬥ Non-<:freedom:535541258240786434> defensives: works, but doing spell → defensive changes auto too\n\u200B"
+      "value": "⬥ As stated [here]($linkmsg_Offing$), you can \"off\" to prevent autos, thus you can delay them\n\u00a0\u00a0\u00a0\u00a0• Useful for <:freedom:535541258240786434> to change the 2H and OH auto after a fast/fastest ability\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This since can only change 2H auto at end of GCD (unless queueing it)\n\n⬥ [Demo 1 - No Delay](https://i.imgur.com/GfrY35W.mp4): <:AirSurge:543465115870035999> is the autocast and <:FireSurge:543465116092334083> is the user input when able\n```\nT0: Fast/Fastest Non-channel\nT3: DW Freedom + OH Auto Cast\nT4/5: 2H Auto Cast\nT6: Ability```\n⬥ [Demo 2 - Delay](https://i.imgur.com/GfrY35W.mp4): <:AirSurge:543465115870035999> is the autocast and <:FireSurge:543465116092334083> is the user input when able\n```\nT0: Fast/Fastest Non-channel\nT3: DW Freedom + OH Auto (If \"Off\" here, lose OH Auto)\nT4/5: \"Off\"\n2H Auto + Ability```\n⬥ Non-<:freedom:535541258240786434> defensives: works, but doing spell → defensive changes auto too\n\u200B"
       },
       {
       "name": "__When are Defesive Autos Used__",
@@ -243,7 +247,7 @@ The adrenaline per auto works as follows (rank column is Invigorate rank):
       },
       {
       	"name": "__No gConc__",
-      	"value": "2H Auto + 2H/DW Ability → unchanneled DW Ability → Staff ON → Repeat"
+      	"value": "2H Auto + 2H/DW Ability → unchanneled DW Ability → Staff On → Repeat"
       },
       {
       	"name": "__Things to Notice__",
