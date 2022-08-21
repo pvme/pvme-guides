@@ -229,6 +229,27 @@ This method will reliably allow you to get consistent Kerapac (NM) kills without
 ⬥ This video showcases three separate kills and the banking/looting process. First kill has bad rng, second has *great* rng, and the third is around the average kill one may expect using this setup.
 https://www.youtube.com/watch?v=rk7nRJgvnRU
 .
+> __**Alt1 Kerapac NM Helper (Courtesy of <@!326454337561821184>)**__
+.tag:alt1
+__**Voice guidance throughout the kill**__
+.
+This tool reads your screen, and based on certain lines of dialogue in your chatbox, will **trigger and play voice lines during the kill** to let you know about upcoming mechanics and what to do for them.
+
+***Disclaimer**: Alt1 is a third party tool, and while generally safe to use, is still recommended to be installed and used at your own risk.*
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Alt1 Kerapac Normal Mode Helper__",
+        "value": "Check out [Igor's Presets](https://linktr.ee/igorspresets) and follow the download instructions there for Alt1 presets for this boss and more!"
+      }
+    ]
+  }
+}
+.embed:json
+.
 {
    "embed":{
       "title":"Table of Contents",
@@ -258,7 +279,12 @@ https://www.youtube.com/watch?v=rk7nRJgvnRU
             "name":"__Low Effort Melee Normal Mode Kerapac__",
             "value":"[Link]($linkmsg_loweffortmelee$)",
             "inline":true
-         }
+         },
+          {
+        		"name": "__Alt1 Kerapac NM Helper__",
+        		"value": "[Link]($linkmsg_alt1$)",
+        		"inline": true
+            }
       ]
    }
 }
