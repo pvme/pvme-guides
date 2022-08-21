@@ -40,8 +40,8 @@
 ⬥ <:cryptbloombody:892819107253194762> is the best tank armour in game, but not always needed - see `!crypt`
 
 .
-**__Gloves__**
-.
+> **__Gloves__**
+.tag:gloves
 {
   "embed": {
     "title": "__Gloves__",
@@ -70,8 +70,8 @@
 .embed:json
 
 .
-**__Boots and Capes__**
-.
+> **__Boots and Capes__**
+.tag:bootsandcapes
 {
   "embed": {
     "title": "__Boots and Capes__",
@@ -366,6 +366,16 @@
       {
         "name": "__Armour__",
         "value": "[Link]($linkmsg_armour$)",
+        "inline": true
+      },
+       {
+        "name": "__Gloves__",
+        "value": "[Link]($linkmsg_gloves$)",
+        "inline": true
+      },
+       {
+        "name": "__Boots and Capes__",
+        "value": "[Link]($linkmsg_bootsandcapes$)",
         "inline": true
       },
       {
