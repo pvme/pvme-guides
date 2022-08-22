@@ -59,7 +59,7 @@ Autos are separate from abilities and also have their own cooldown system separa
     "fields": [
       {
         "name": "__The Scenario__",
-        "value": "```Avg Auto + Ability → Fastest Auto → (4t) Auto + Ability```"
+        "value": "```Avg Auto + Abil. → Fastest Abil. → (4t) Auto + Abil.```"
       },
       {
         "name": "__Why Does This Work?__",
@@ -150,8 +150,12 @@ Autos are separate from abilities and also have their own cooldown system separa
     "color": 39423,
     "fields": [
       {
-        "name": "__How it is Unexpected__",
-        "value": "⬥ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> extends auto cooldown by 2t when used in combat\n⬥ To get an auto either of the following needs to be done:\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T3 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- [Demo](https://i.imgur.com/M1cy1gS.gif): auto → <:needle:535541259108876293> → <:frag:535541273755385885> → <:ecb:615618531937222657> <:spec:537340400273195028> → (4t) <:piercing:535541258538450944>\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T4 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This way gives you 1t more of <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> to use\n⬥ Similar to <:freedom:535541258240786434>, DW ECB EoF *can* give OH autos only in certain cases, e.g.:\n```\nFastest non-channel →\n1) ECB spec does not work\n2) click to off → ECB spec works\n3) Def. → ECB spec works```⬥ [Demo](https://i.imgur.com/uWLnvLu.mp4): auto → <:needle:535541259108876293> → <:anti:535541306475151390> → ECB EoF"
+        "name": "__Unexpected Behavior 1: Auto Cooldown Extention__",
+        "value": "⬥ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> adds 2t to auto cooldown when used in combat\n⬥ To get an auto either of the following needs to be done:\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T3 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- [Demo](https://i.imgur.com/M1cy1gS.gif): auto → <:needle:535541259108876293> → <:frag:535541273755385885> → <:ecb:615618531937222657> <:spec:537340400273195028> → (4t) <:piercing:535541258538450944>\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T4 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This way gives you 1t more of <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> to use (T4 vs T3 <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184>)"
+      },
+      {
+      	"name": "__Unexpected Behavior 2: Offhand Auto__",
+        "value": "⬥ Similar to <:freedom:535541258240786434>, DW <:ecb:615618531937222657> <:eofspec:746403211908481184> *can* give OH autos only in certain cases, e.g.:\n```\nFastest non-channel →\n1) ECB spec does not work\n2) click to off → ECB spec works\n3) Def. → ECB spec works```⬥ [Demo](https://i.imgur.com/uWLnvLu.mp4): auto → <:needle:535541259108876293> → <:anti:535541306475151390> → <:ecb:615618531937222657> <:eofspec:746403211908481184>"
       }
     ]
   }
@@ -375,7 +379,7 @@ The adrenaline per auto works as follows (rank column is Invigorate rank):
     "fields": [
       {
         "name": "__What 5TAA is__",
-        "value": "⬥ Like 4TAA, but for <:range:580168050121113623> / <:melee:615612332521029632> as no auto binds; must wait 1t more for ability\n\u00a0\u00a0\u00a0\u00a0• 4TAA: `T0: Fastest non-channel → T4: Auto + Ability`\n\u00a0\u00a0\u00a0\u00a0• 5TAA: `T0: Fastest non-channel → T4: Auto → T5: Ability`\n\u00a0\u00a0\u00a0\u00a0• This is the case as autos by default are after abilities in a tick, so casting a T4 ability will incur cooldown before the auto casts, hence need for T5 ability\n\n⬥ [Demo](https://i.imgur.com/tWAuKfP.mp4):\n\u00a0\u00a0\u00a0\u00a0• <:melee:615612332521029632>: <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>\n\u00a0\u00a0\u00a0\u00a0• <:range:580168050121113623>: <:piercing:535541258538450944> → (wait 4t) auto fires → (wait 1t) <:mds:535541259033378827>"
+        "value": "⬥ Like 4TAA, but for <:range:580168050121113623> / <:melee:615612332521029632> as no auto binds; must wait 1t more for ability\n\u00a0\u00a0\u00a0\u00a0• 4TAA: `T0: Fastest non-channel → T4: Auto + Ability`\n\u00a0\u00a0\u00a0\u00a0• 5TAA: `T0: Fastest non-channel → T4: Auto → T5: Ability`\n\u00a0\u00a0\u00a0\u00a0• This is the case as autos by default are after abilities in a tick, so casting a T4 ability will incur cooldown before the auto casts, hence need for T5 ability\n⬥ [Demo](https://i.imgur.com/tWAuKfP.mp4):\n\u00a0\u00a0\u00a0\u00a0• <:melee:615612332521029632>: <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>\n\u00a0\u00a0\u00a0\u00a0• <:range:580168050121113623>: <:piercing:535541258538450944> → (wait 4t) auto fires → (wait 1t) <:mds:535541259033378827>"
       },
       {
         "name": "__Use Cases__",
