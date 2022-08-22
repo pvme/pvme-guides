@@ -65,7 +65,7 @@ The first step is to setup the main menus and layout of the interface.
 ⬥ Useful PvM tabs are added around the area of focus - such as the **inventory**, the **familiar interface**, **worn items**, **defensives**, and **spells**.
 ⬥ Additional menus such as the **skills menu** or **friends list** are placed in relatively accesible locations.
 ⬥ Tabs are make large enough to **eliminate extra scrollbars wherever possible**.
-⬥ Some of the non-essential but useful menus are added and fill in any glaring gaps; the **runemetrics** tab is optional but can be used to track damage in a fight.
+⬥ Some of the non-essential but useful menus are added and fill in any glaring gaps - the **runemetrics** tab is optional but can be used to track damage in a fight.
 ⬥ Now we have an interface that looks something like this:
 .
 .img:https://i.imgur.com/DuVjrMQ.jpg
@@ -352,19 +352,30 @@ __**Keybind Tips**__
     • e.g. Overhead prayers could be put together to prayer switch more easily. Or your shield keybind and shield abilities. Or weapon switches.
 ⬥ **Modifier keys** can increase the number of binds available, at a cost - it's easier to press one key than two.
     • This affects things such as prayer switches which occur very often. For more information, look at __**Modifier Keys**__.
+.
+⬥ **Certain common rapid input sequences that are often used as your PvM progresses are worth considering when choosing binds**. It is helpful to have easy-to-press keybinds sequences for such scenarios. An input such as `q → w → r` is easier to press than something like `q → ctrl+w → alt+r`.
+⬥ Examples of such input sequences found in PvM:
+    • Auto <:AirSurge:543465115870035999> + Detonate <:deto:535533833358016512> + Ability
+    • Auto <:AirSurge:543465115870035999> + DW switch <:praeswand:643166769518739477> <:Core:625304432581672961> + Ability
+    • Target Cycle + Smoke Cloud <:smokecloud:856635090641879050> + Ability
+.
 ⬥ **Using an MMO mouse** gives many easily accessibly buttons to bind actions to.
 ⬥ Using the **middle mouse button for camera** instead of keys frees up 4 keybinds.
-    • Significantly easier to move the camera during PvM using the mouse.
+    • It can also be easier to move the camera during PvM using the mouse.
 
 .
 __**Modifier Keys**__.
+*Note: If you release the modifier before the key first, it will trigger the underlying key press. Keep this in mind when setting up modifier keys.*
 ⬥ The **Shift**, **Alt**, and **Ctrl** keys can be used to modify keybinds.
     • `A`, `Shift+A`, `Ctrl+A` and `Alt+A` would be four separate keybinds.
 ⬥ This increases the range of available keybinds.
 ⬥ If using a mouse, you can bind `Modifier+Key` to a single mouse button, making it easier to press.
-*Note: If you release the modifier before the key first, it will trigger the underlying key press. Keep this in mind when setting up modifier keys.*
-⬥ For Linux users: most remapping software for gaming mice only works on Windows/Mac. Logitech mouse users have an open source option called *logiops*. Find it in your favorite distro's repository (e.g. Chaotic-Aur for Arch Linux users) or look at their repository at <https://github.com/PixlOne/logiops>. Note that other options such as *xbindkeys* or *input-remapper* will not work to actually hold down a a mouse key and have it act like holding down `Shift` or `Control`, they can only do a one-time click, not extended holds, despite what their documentation says. Lastly, there are also other alternatives such as *Piper* for consideration.
-***Disclaimer**: These are third party tools, and as always are recommended to be installed and used at your own risk.*
+.
+⬥ Some gaming mice software may not work on all operating systems, especially Linux.
+    • Logitech mouse users have an open source option for Linux called *logiops*. Find it in your favorite distro's repository (e.g. Chaotic-Aur for Arch Linux users) or look at their repository at <https://github.com/PixlOne/logiops>. Note that other options such as *xbindkeys* or *input-remapper* will not work to actually hold down a a mouse key and have it act like holding down `Shift` or `Control`, they can only do a one-time click, not extended holds, despite what their documentation says. Lastly, there are also other alternatives such as *Piper* for consideration.
+    • On Mac, the *Logitech Gaming Software* may be a useful alternative to the default G-Hub software.
+.
+***Disclaimer**: Any unofficial third-party tools are as always recommended to be installed and used at your own risk.*
 
 .
 __**Keybinds Guide**__ (Courtesy of <@158292421724209152>)
