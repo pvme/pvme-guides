@@ -6,7 +6,7 @@
     "fields": [
       {
         "name": "__Natural vs Forced Crit__",
-        "value": "⬥ A critical hit occurs when you hit 95%+ of your ability damage range\n\u00a0\u00a0\u00a0\u00a0• It also increases your hitcap from 10k to 12k (before <:grim:568262896375824385> / <:smokecloud:856635090641879050> / <:lengmh:883134308146098227> <:spec:537340400273195028>)\n⬥ Forced crits automatically hit within that damage\n⬥ Natural crits are when you fail to force a crit and roll in the 95%+ range normally\n⬥ Your overall crit chance is the sum of your forced and natural crit chances"
+        "value": "⬥ Critical hits are split into two types - Natural and Forced\n\u00a0\u00a0\u00a0\u00a0• These are shown as bold hitsplats, and increase your hitcap from 10k to 12k (before <:grim:568262896375824385> / <:smokecloud:856635090641879050> / <:lengmh:883134308146098227> <:spec:537340400273195028>)\n⬥ For every hit, the game first rolls to check whether that hit should crit based on your current crit chance\n\u00a0\u00a0\u00a0\u00a0• Forced crits happen when this roll is successful, guaranteeing the resulting hitsplat falls in the top 5% of the hit's damage range\n\u00a0\u00a0\u00a0\u00a0• Natural crits happen when this roll fails, but your hit still rolls above 95% of its max damage\n⬥ There is no set Natural crit chance as it is based on each hit's max damage and damage range\n⬥ Some abilities cannot crit by design, such as <:dismember:535532879376023572> <:slaughter:535532879237873666> <:frag:535541273755385885> <:incend:535541258429661215> <:comb:535533833098100745> <:magmatempest:902209626509025290>"
       },
       {
         "name": "__Important Forced Crit Chance Buffs__",
