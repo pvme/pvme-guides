@@ -322,7 +322,7 @@ Mob clearing in ED2 is arguably the most tricky to do properly amongst the trilo
 
 .embed:json
 .
-⬥ You may find the dragons in ED2 tricky to hit with AoE abilities, the table below sheds some light on this. For more information, refer to:https://discord.com/channels/534508796639182860/689206023675838471/978118227441909780
+⬥ You may find the dragons in ED2 tricky to hit with AoE abilities, the table below sheds some light on this. For more information, refer to: https://discord.com/channels/534508796639182860/689206023675838471/978118227441909780
 
 .
 {
@@ -358,17 +358,24 @@ Mob clearing in ED2 is arguably the most tricky to do properly amongst the trilo
 __**Example runs**__
 .tag:examples
 .
-⬥ Ranged (16min10s)
-    • <https://youtu.be/4OfNYJlYnBg>
-.
-⬥ Magic (17min40s)
-    • <https://youtu.be/up1p_0qLHh8>
-    • 4TAA is not utilised in this example video.
-
-.
-⬥ <@!229207492234575873>'s comprehensive beginner guide to ED2:
-    • <https://www.youtube.com/watch?v=FGVWKr2HByI&t=0s>
-
+{
+  "embed": {
+    "title": "__Example runs__",
+    "description": "**Suggested:** [<@!229207492234575873>'s comprehensive beginner guide to ED2](https://www.youtube.com/watch?v=FGVWKr2HByI&t=0s)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [16min10s](https://youtu.be/4OfNYJlYnBg)\n"
+      },
+      {
+        "name": "__Magic__",
+        "value": "⬥ [17min40s](https://youtu.be/up1p_0qLHh8)\n\u00a0\u00a0\u00a0\u00a0• 4TAA is not utilised in this example video.\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
 .
 {
   "embed": {
