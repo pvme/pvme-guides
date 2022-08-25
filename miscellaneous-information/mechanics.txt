@@ -4,7 +4,8 @@
 ⬥ All of your actions will be registered on one of these intervals.
 ⬥ Below is a video on understanding the tick system and ways to take advantage of it.
 .
-https://youtu.be/hElkOvHJmaA
+<https://youtu.be/hElkOvHJmaA>
+
 .
 > **__Target Cycling__**
 .tag:tc
@@ -43,7 +44,8 @@ __**Notable Applications**__
     • Tagging Teamsplit on drop to Reprisal <:Reprisal:513190159462694912> the first Teamsplit.
     • The timing for P3/P5 is 17 ticks from when you can crack heal:
 .
-https://youtu.be/9YejOAvquQk
+<https://youtu.be/9YejOAvquQk>
+
 .
 ⬥ **Nex: Angel of Death**
     • Radial targeting to tag P2 Amalgamations when Detonating <:deto:535533833358016512>. This allows to tag on spawn without risking cancelling detonate accidentally.
@@ -99,17 +101,24 @@ https://youtu.be/9YejOAvquQk
 .
 .img:https://i.imgur.com/OOreFqF.png
 .
-> **__Critical Hits__ (Courtesy of <@844317937329766401>)**
+> **__Critical Hits__**
 .tag:crits
 **__Brief Introduction__**
-⬥ A Critical hit is when the player hits between 95% and 100% of potential damage with an ability or auto-attack, denoted by a bolder hit splat.
-    • This is broken up into two categories: forced critical hits and natural critical hits
-        - A forced critical hit is when the game forces you to critical hit, based on your chance to force a critical hit
-        - A natural critical hit is when the game fails to force a critical hit, and instead rolls damage normally and hits within the critical damage range
-⬥ Landing a Critical hit also increases your damage cap from 10000 to 12000 (15000 with <:grim:568262896375824385>, 15720 with <:grim:568262896375824385> and <:smokecloud:856635090641879050> using non-<:Magic:689504724159823906>) and 16800 with <:grim:568262896375824385> and <:smokecloud:856635090641879050> using <:Magic:689504724159823906>).
-⬥ Forced critical chance is a unique combat stat in RuneScape, spread all-over different items and interacting in unique ways.
-    • E.g. getting +5% critical hit means you are getting +5% chance to get a forced critical hit, this is where the game forces your damage to roll in the top 5% of possible damage range, as opposed to the upper 80% as usual.
-
+.
+{
+  "embed": {
+    "title": "__Critical Hits__",
+    "description": "*Note: a crit chance calc can be found [here](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance)*\n",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Natural vs Forced Crit__",
+        "value": "⬥ Critical hits are split into two types - Natural and Forced\n\u00a0\u00a0\u00a0\u00a0• These are shown as bold hitsplats, and increase your hitcap from 10k to 12k (before <:grim:568262896375824385> / <:smokecloud:856635090641879050> / <:lengmh:883134308146098227> <:spec:537340400273195028>)\n⬥ For every hit, the game first rolls to check whether that hit should crit based on your current crit chance\n\u00a0\u00a0\u00a0\u00a0• Forced crits happen when this roll is successful, guaranteeing the resulting hitsplat falls in the top 5% of the hit's damage range\n\u00a0\u00a0\u00a0\u00a0• Natural crits happen when this roll fails, but your hit still rolls above 95% of its max damage\n⬥ There is no set Natural crit chance as it is based on each hit's max damage and damage range\n⬥ Some abilities cannot crit by design, such as <:dismember:535532879376023572> <:slaughter:535532879237873666> <:frag:535541273755385885> <:incend:535541258429661215> <:comb:535533833098100745> <:magmatempest:902209626509025290>"
+      }
+    ]
+  }
+}
+.embed:json
 .
 **__Abilities interaction__**
 ⬥ **Fury <:fury:535532879510372352>**
@@ -229,13 +238,15 @@ The RuneScape wiki has an excellent calculator to calculate your current critica
     • South-walking boss will turn either east or west.
     • The Araxxor Walking Guide demonstrates this behavior:
 .
-https://youtu.be/A_6ah7GF_1k
+<https://youtu.be/A_6ah7GF_1k>
+
 .
 **__Applications__**
 ⬥ The simplest of these includes walking a bleed such as Combust <:comb:535533833098100745>, Fragmentation Shot <:frag:535541273755385885>, or Slaughter <:slaughter:535532879237873666>.
     • Below is a demonstation of this (Courtesy of <@287398612558675968>):
 .
-https://youtu.be/0Y0JGMeLcmI
+<https://youtu.be/0Y0JGMeLcmI>
+
 .
 ⬥ Advanced version: Use a bleed and then immediately Surge <:surge:535533810004262912> to go under the boss and Bladed Dive <:bd:535532854281764884> to get back all within a GCD.
     • This allows you to double bleed damage against bosses when you aren't MD.
@@ -438,7 +449,8 @@ Corruption Shot <:corruptshot:535541306294796299>, Ricochet<:ricochet:5355412595
 ⬥ The act of activating an ability outside your weapon's cast distance, "holding" the ability, and finally releasing it.
 ⬥ Short video guide on this topic.
 .
-https://youtu.be/kd9QpM12ckg
+<https://youtu.be/kd9QpM12ckg>
+
 .
 > **__Weapon Poison__ (Courtesy of <@108682527304060928>, <@239465986825256971>, <@99615618117935104>, and help from Mod Sponge)**
 .tag:poison
@@ -610,7 +622,8 @@ https://youtu.be/kd9QpM12ckg
 
 ⬥ Demonstration:
 .
-https://youtu.be/M65xdRYYxJ4
+<https://youtu.be/M65xdRYYxJ4>
+
 .
 > **__Instance Hopping__ (Courtesy of <@287398612558675968>)**
 .tag:inshopp
@@ -618,7 +631,8 @@ https://youtu.be/M65xdRYYxJ4
 ⬥ Basis: kill boss → pick loot if worth it → quickly leave instance → re-join instance → repeat
 ⬥ Comparison of waiting for spawn time x instance hopping:
 .
-https://youtu.be/O-Lb93vFRAI
+<https://youtu.be/O-Lb93vFRAI>
+
 .
 > **__Camera Shaking Toggle__ (Courtesy of <@216433706343202816>)**
 .tag:shake
