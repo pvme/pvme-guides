@@ -98,12 +98,17 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
 
 ⬥ **100%** Phase 7 introduced
 ⬥ **500%** During Infernal Tomb, all players must be on their pad at the same time to exit Infernus
+⬥ **500%** The chaos witch channelers in Infernus spawn with 50% adrenaline and the first ability they use will be Asphyxiate <:asphyx:535533833072672778>
 ⬥ **750%** During Infernal Tomb, demons will move faster towards the portal
-⬥ **900%** During Channelers, boss shield HP (grey) regenerates too fast for players to deplete it
-⬥ **1000%** During Channelers, Chaos Witch Channeler spawns with 100% adrenaline and their first ability is <:omni:535533809664262179>
+⬥ **900%** During Channelers, boss shield HP (grey) starts regenerating at fastest, making it too fast for players to deplete
+⬥ **1000%** During Channelers, Chaos Witch Channeler spawns with 100% adrenaline and their first ability is Omnipower <:omni:535533809664262179>
 ⬥ **1000%** On phase 7, charge damage is no longer reset between cycle(s)
-⬥ **1500%** Magic attacks during Adrenaline Cage ignores devotion for its target
+⬥ **1000%** On phase 7, Zamorak's life points cap at 250,000 per player
+⬥ **1470%** The life points of a chaos demon cap at 70,000 while on Infernus
+⬥ **1500%** During the Adrenaline Cage attack, the targeted player will have their Devotion <:devo:513190158728953857> deactivated
 ⬥ **1600%** Zamorak stagger after killing a rune on Phase 7 reduced from 10 to 5 ticks
+⬥ **1740%** For phases 1-6, Zamorak's starting life points cap at 1,600,000 per player
+⬥ **3500%** On phase 7, the life points the runes revive with are capped at 60,000
 
 .
 > **__Attack Rotation__**
@@ -178,30 +183,40 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
     • *E.g. If the Affliction-Balance of Power pad is activated, after all pads are active the player will only heal 40% from food and have outgoing damage increased by 36% when below 60% lifepoints*
 
 .
-⬥ **Hex:** Twinshot, **Edict:** Anima Flow *(Stacking)*
-    • Zamorak's attacks deal a second hit at 10% of the original hit, per stack
-    • Players' basic abilities generate 2% more adrenaline per stack
-
-⬥ **Hex:** Smite, **Edict:** Haste *(Stacking)*
-    • If Zamorak's targets are hit below 5% (per stack) of their constitution level, they'll be executed instantly
-    • Your ability cooldowns are reduced by 8% of the original cooldown per stack
-
-⬥ **Hex:** Coven, **Edict:** Inner Chaos
-    • Zamorak calls forth some of his coven to support him.
-    • When standing near a hexed rune, you deal and take 5% more damage
-
-⬥ **Hex:** Disintegrate, **Edict:** Guardian's Triumph *(Stacking)*
-    • Zamorak's attacks push 7% of damage through any shielding effects, per stack
-    • After casting an ultimate ability, your next basic consumes guardian's triumph, increases the damage it deals by 20% damage and heals you for 8% of your missing LP per stack
-
-⬥ **Hex:** Chaos Traps, **Edict:** Sword of Edicts
-    • Upon activation, Zamorak spawns traps across the arena that deal spike magic damage as you walk over them
-    • Temporarily siphon the dwindling defensive power from the sword, dealing and taking 5% less damage while standing near it
-
-⬥ **Hex:** Affliction, **Edict:** Balance of Power *(Stacking)*
-    • When Zamorak's targets heal, the amount will be reduced by 10% per stack
-    • While below 60% lifepoints, outgoing damage is increased by 6% per stack
-
+{
+  "embed": {
+    "title": "__Hexes and Edicts__",
+    "description": "⬥ Every time a player activates a pad, they and Zamorak will gain a stack of currently active stacking edicts and hexes, respectively\n⬥ This makes it such that stacks are accumulated as additional runes are activated\n\u00a0\u00a0\u00a0\u00a0• [RS Wiki calculator for rune pads](https://runescape.wiki/w/Calculator:Combat/Rune_pads)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Hex: Twinshot, Edict: Anima Flow (Stacking)__ <:twinshotrune:994206062498549780>",
+        "value": "⬥ Zamorak's attacks deal a second hit at 10% of the original hit, per stack.\n⬥ Players' basic abilities generate 2% more adrenaline per stack.\n\u200B"
+      },
+      {
+        "name": "__Hex: Smite, Edict: Haste (Stacking)__ <:smiterune:994206048334393385>",
+        "value": "⬥ If Zamorak's targets are hit below 5% (per stack) of their Constitution level (times 100), they'll be executed instantly.\n⬥ Your ability cooldowns are reduced by 8% of the original cooldown per stack.\n\u200B"
+      },
+      {
+        "name": "__Hex: Coven, Edict: Inner Chaos__ <:covenrune:994206032773517364>",
+        "value": "⬥ Zamorak periodically calls forth some of his coven to support him. Lifeweavers will continually heal Zamorak for 1,000 health every few ticks, while Protectors apply a buff that reduces the damage he takes by 25% for each one present. These enemies will spawn to the far west and east (by the second and fifth runes) respectively, but will not move towards Zamorak until a player is in mini-map range of them.\n⬥ When standing near a hexed rune, you deal and take 5% more damage.\n\u200B"
+      },
+      {
+        "name": "__Hex: Disintegrate, Edict: Guardian's Triumph (Stacking)__ <:disintegraterune:994206018680668171>",
+        "value": "⬥ Zamorak's attacks push 7% of damage through any shielding effects, per stack.\n⬥ After casting an ultimate ability, your next basic consumes Guardian's Triumph, increasing the damage it deals by 20% damage and heals you for 8% of your missing LP per stack. Has a 30s cooldown.\n\u200B"
+      },
+      {
+        "name": "__Hex: Chaos Traps, Edict: Sword of Edicts__ <:chaostrapsrune:994206002658431016>",
+        "value": "⬥ Upon activation, Zamorak spawns traps across the arena that deal spike magic damage as you walk over them. Traps will spawn around the arena and on all runes each time a rune is activated.\n⬥ Temporarily siphon the dwindling defensive power from the sword, dealing and taking 5% less damage while standing near it. Also protects against the damage, stun and bind when setting off Chaos Traps. Lasts 30 seconds and has a 60 second cooldown.\n\u200B"
+      },
+      {
+        "name": "__Hex: Affliction, Edict: Balance of Power (Stacking)__ <:afflictionrune:994205987663794206>",
+        "value": "⬥ When Zamorak's targets heal, the amount will be reduced by 10% per stack.\n⬥ While below 60% lifepoints, outgoing damage is increased by 6% per stack.\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
 .
 > **__Phase 7__**
 .tag:p7
@@ -214,7 +229,7 @@ At 100% enrage, phase 7 is introduced. At the point where the fight would end be
     • Runes uber heal after they are defeated, be careful not to kill it twice.
 
 .
-After the last rune is defeated, Zamorak is attackable and uses in this order:
+⬥ After the last rune is defeated, Zamorak is attackable and uses in this order:
     • [1] A heavy <:melee:615612332521029632> hit
     • [2] A large soft typeless hit along with 4 additional hits at 10% of the original typeless hit.
         - The original hit before mitigation is **equivalent to the red HP bar** in place of the green HP bar visible when killing runes.
