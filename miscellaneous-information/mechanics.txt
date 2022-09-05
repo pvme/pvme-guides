@@ -1,666 +1,978 @@
-> **__Tick System__**
-.tag:tick
-⬥ The time between game information updates is 0.6 seconds, this is commonly referred to as a tick.
-⬥ All of your actions will be registered on one of these intervals.
-⬥ Below is a video on understanding the tick system and ways to take advantage of it.
-.
-<https://youtu.be/hElkOvHJmaA>
+> __**Introduction**__
+.tag:intro
+This channel will cover a number of game mechanics, uncommon ability interactions, and more nuanced game information that can be used for reference.
+
+Mechanics are split into two categories: **basic** and **advanced**. Basic mechanics are game interactions that are more important to the casual player and may be relatively easily learned, whereas advanced mechanics may be learnt slowly with time as you play the game.
+
+Information was sourced courtesy of many players, including *but not limited to*: <@222668864704610305>, <@130322872089575424>, <@435481585379180554>, <@158293690001915904>, <@110810140445294592>, <@712324334911225909>, <@425520655920791553>, <@185315527571406848>, <@150284127126552576>, <@216433706343202816>, <@236955913859104778>, <@133391081109716992>, <@150675804596994048>, <@781280949790572554>, <@127417821817864192>, <@104602229910028288>, <@145413546409197569>, <@108682527304060928>, <@239465986825256971>, <@287398612558675968> and <@191388421548146689>.
 
 .
-> **__Target Cycling__**
-.tag:tc
-**__Keybind NPC Targetting__**
-⬥ Targeting settings can be found under the Combat Tab in the Settings Interface and includes the situationally useful Cycle Target keybinds.
+> __**Ability Queueing**__
+.tag:queueing
+__**How It Works**__
+⬥ **Ability queueing ('queueing') is a toggleable setting that allows you to 'queue' abilities to trigger them when possible.**
+⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat & Action Bar > Action Bar**.
+.img:https://i.imgur.com/0Xh92hO.png
 .
-.img:https://i.imgur.com/Apqq3Th.png
-.
-⬥ This function allows you to select a target procedurally based on whether you set the targeting mode to Radial or Conal.
-
-⬥ **Radial targeting:**
-    • Cycles from the nearest to the farthest target from the player when pressed.
-    • In the case of multiple equidistant targets, it will cycle clockwise starting from the north.
-    • This is useful for simply snapping to the closest target available.
-
-⬥ **Conal Targeting:**
-    • Cycles from the closest to the farthest target in the direction the camera is facing.
-    • The angle for an NPC to be considered eligible for selection is around 75-90°.
-    • This is most useful for more precise targeting in scenarios with multiple NPCs around.
+⬥ When you enable ability queueing, pressing an ability that cannot immediately be activated queues it, with the following icon appearing on top of it <:queueing:898660152025161778>.
+⬥ The ability will then get used as soon as it becomes possible to do so (after constraints like adrenaline, 2H/DW weapon requirements, global/ability cooldowns, etc.)
+⬥ There are a number of interactions with ability queueing that are worth mentioning.
 
 .
-**__Why it is Useful__**
-⬥ It is very useful for improving consistency and speed in nearly all boss encounters.
-⬥ A notable advantage of Target Cycle is that Detonate is not cancelled upon selecting a new target before release.
-    • Without Target Cycle if you wished to do this you would have to click and release on same tick to not lose Detonate
+__**Movement Stalling**__
+⬥ Queued abilities will interrupt movement when they are are activated by the game.
+⬥ This may cause issues if you are trying to 'kite' monsters (like at Nex or Barrows: Rise of the Six) while also trying to use ability queueing.
+⬥ The solution is to disable queueing, or simply press the ability slightly later so that it triggers normally (without queueing).
 
 .
-__**Notable Applications**__
-⬥ **The Shadow Reef**
-        - Tagging Sinister Fragments at the Ambassador, saves 4 ticks.
-.
-.img:https://i.gyazo.com/a3b13b217022a8523de01b4e50b3cc9f.mp4
-.
-⬥ **Vorago**
-    • Gaining aggro on p2 dropdown. This can solve the 1 HP P1 issue where P2 starts off with random aggro.
-    • Tagging Teamsplit on drop to Reprisal <:Reprisal:513190159462694912> the first Teamsplit.
-    • The timing for P3/P5 is 17 ticks from when you can crack heal:
-.
-<https://youtu.be/9YejOAvquQk>
+__**On-tick Defensives**__
+⬥ Some abilities will have their effects affected depending on whether or not they're queued.
+⬥ **Defensive abilities that are queued will have different 'on-tick' behaviour under different scenarios**.
+    • 'On-tick' refers to a defensive ability that is cast on the same tick as getting hit by an attack.
+⬥ They can be queued on 3 different ticks (since each global cooldown is 3t long), and they work as follows:
+    • **3 ticks** before cast: works with on-tick damage if player is between 1 to 5 tiles from the enemy.
+    • **2 ticks** before cast: works with with on-tick damage if player is 1 or 2 tiles from the enemy.
+    • **1 tick** before cast: __does not work__ with on-tick damage.
 
 .
-⬥ **Nex: Angel of Death**
-    • Radial targeting to tag P2 Amalgamations when Detonating <:deto:535533833358016512>. This allows to tag on spawn without risking cancelling detonate accidentally.
-    • Tagging Pillars on P4, prevents possible misclicks with the camera snapping over after using Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884>.
+__**Last-Tick Interactions**__
+⬥ Certain 'last tick' interactions (with ultimates and other timed abilities) are affected by queueing.
+⬥ **Greater Barge** <:gbarge:535532879250456578>
+    • The buff from <:gbarge:535532879250456578> lasts 10t/6s, but trying to convert a channel into a DoT barge bleed on the last tick, will not work if the ability is queued.
+⬥ **Limitless / Ingenuity of the Humans** <:limitless:641339233638023179> / <:ingen:641339234111848463>
+    • <:limitless:641339233638023179> lasts 10t/6s, but trying to use a **queued** threshold with <50% adrenaline on the last tick will not work.
+    • <:ingen:641339234111848463> lasts 10t/6s, but trying to use an ability on the last tick will not give it the guaranteed 100% hitchance.
+⬥ **Berserk** <:zerk:535532854004678657>
+    • Queued abilities will **not** on the last tick of <:zerk:535532854004678657> will not get the damage boost, but this does not affect other damage-boosting special attacks and ultimates.
 
-⬥ **Solak**
-    • Tagging the Blight Afflicted Core on spawn, potentially saves a tick which helps a bit for one-cycling.
-    • Tagging Arms and Legs faster.
+*Note: For more information on damage boosts from the last ticks of damage-boosting buffs, see the section on __**Berserker Auras**__ (linked in the pinned message).*
 
-⬥ **GWD2**
-    • The bosses with long spawn animations can be tagged immediately, which helps particularly on Helwyr.
-
-⬥ When attempting to cycle to a target on spawn, spam clicking the keybind will not work so you just have to know the exact tick it becomes targetable.
-    • Alternatively if you're constantly moving you can spam it once per tick.
-
-.
-> **__Solo Flanking__(Courtesy of <@110810140445294592>)**
-.tag:soloflanking
-⬥ In this section, different use cases of solo Flanking will be explained.
-
-⬥ **Case 1.0**: Target is stuck in position.
-    • Target must be unable to move, not just their animation but actual position in the server.
-    • Moving under or behind are the easiest flanking spots to reach.
-    • Examples:
-        - Black Stone Dragon while casting Smoke Spiral.
-        - Taraket the Necromancer during the last phase as he casts Spirit Line.
-
-⬥ **Case 1.5**: Target is stuck but the player is unable to reach behind the target.
-    • This condition applies to certain bosses and mobs.
-    • They might be casting an AoE mechanic that originates from their center.
-    • Simply prepare ahead of time and step 1 tile away from any of the cardinal directions.
-    • Once the target locks their position, move 1 tile towards the same cardinal direction and activate your flanking ability.
-    • Below is an example of Raksha's tail swipe mechanic. Notice the last ability used was Impact within Sunshine buff:
-.
-.img:https://imgur.com/G1zlwXH.mp4
-.
-⬥ **Case 2**: Walking under an immovable and non-blocked target:
-    • Taraket the Necromancer in his Ranged form.
-    • Kerapac, while he is casting Shatter ability, upon landing from Jumping Slam, during casting Lightning Strike, and in his phase transitions (SS heal).
-    • Any boss or monster that is rooted from Ice Barrage or Sticky Bombs can be walked under for flanking.
-    • The Ambassador at all times:
-.
-.img:https://imgur.com/FMhz1Cm.mp4
-.
-⬥ **Case 3**: Target that are size 2x2 can always be flanked on two of their adjacent tiles.
-    • Applicable bosses: Commander Zilyanna, Gregovic.
-    • Applicable monsters: Sea Horrors, Scopulus, Ripper Demons, Nightmare Creatures, Igneous Tzekhaar-Xil, Igneous Tzekhaar-Hur.
-    • Below is a picture of the 2 tiles where flanking will always work as well as an example of Igneous Tzkhaar-Hur:
-.
-.img:https://i.imgur.com/btearNY.png
-.
-.img:https://i.imgur.com/kmlnJMh.png
-.
-.img:https://i.imgur.com/OOreFqF.png
-.
-> **__Critical Hits__**
-.tag:crits
-**__Brief Introduction__**
 .
 {
   "embed": {
-    "title": "__Critical Hits__",
-    "description": "*Note: a crit chance calc can be found [here](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance)*\n",
     "color": 39423,
     "fields": [
       {
-        "name": "__Natural vs Forced Crit__",
-        "value": "⬥ Critical hits are split into two types - Natural and Forced\n\u00a0\u00a0\u00a0\u00a0• These are shown as bold hitsplats, and increase your hitcap from 10k to 12k (before <:grim:568262896375824385> / <:smokecloud:856635090641879050> / <:lengmh:883134308146098227> <:spec:537340400273195028>)\n⬥ For every hit, the game first rolls to check whether that hit should crit based on your current crit chance\n\u00a0\u00a0\u00a0\u00a0• Forced crits happen when this roll is successful, guaranteeing the resulting hitsplat falls in the top 5% of the hit's damage range\n\u00a0\u00a0\u00a0\u00a0• Natural crits happen when this roll fails, but your hit still rolls above 95% of its max damage\n⬥ There is no set Natural crit chance as it is based on each hit's max damage and damage range\n⬥ Some abilities cannot crit by design, such as <:dismember:535532879376023572> <:slaughter:535532879237873666> <:frag:535541273755385885> <:incend:535541258429661215> <:comb:535533833098100745> <:magmatempest:902209626509025290>"
+        "name": "__Ability Queueing and Last-Tick __",
+        "value": "To see how ability queueing prevents the last tick of Berserk from boosting an ability, [click here](https://i.imgur.com/JlBezRH.mp4). (Courtesy of <@683763716394975294>)"
       }
     ]
   }
 }
 .embed:json
-.
-**__Abilities interaction__**
-⬥ **Fury <:fury:535532879510372352>**
-    • Each <:fury:535532879510372352> hit increases your next hit's chance to force a critical hit by 5% per strike, up to a maximum of 15% after the 3rd hit
-        - A previous <:fury:535532879510372352> hit can affect a subsequent <:fury:535532879510372352> hit because of this
-
-⬥ **Greater Fury <:gfury:535532879334080527>**
-    • <:gfury:535532879334080527> turns <:fury:535532879510372352> into a non-channeled ability, granting 10% forced critical strike to your next hit.
-    • If <:gfury:535532879334080527> itself critical hits, your next hit is guaranteed to be a critical hit.
-
-⬥ **Concentrated blast <:conc:535533833106489365> & Greater Concentrated Blast <:gconc:869285393223254107>**
-    • Each <:conc:535533833106489365> / <:gconc:869285393223254107> hit increases your next hit's chance to force a critical hit by 5% per strike, up to a maximum of 15% after the 3rd hit.
-        - A previous <:conc:535533833106489365> / <:gconc:869285393223254107> hit can affect a subsequent <:conc:535533833106489365> / <:gconc:869285393223254107> because of this
-
-⬥ **Meteor strike <:meteorstrike:535532879359377439>, Tsunami <:tsunami:535533809995874304> and Incendiary Shot <:incend:535541258429661215>**
-    • <:meteorstrike:535532879359377439>, <:tsunami:535533809995874304> and <:incend:535541258429661215> each provide a 30 seconds that provides 10% adrenaline whenever your roll a critical hit.
-    • <:incend:535541258429661215> starts the buff when it hits, while <:meteorstrike:535532879359377439> / <:tsunami:535533809995874304> start the buff when you release them
-    • The Corbicula Rex Perk from Player owned Farm **No Fear** increases the forced critical hit chance of <:meteorstrike:535532879359377439> by 20% at tier 1 and 40% at tier 2.
-
-.
-⬥ **Smoke tendrils <:smoketendrils:536257336130404372>**
-    • Each hit of smoke tendrils <:smoketendrils:536257336130404372> will always critical hit granted you are properly using overload and prayer
-        - There is some weird case where it is possible for it to calculate two critical hits in a single hit (i.e. providing 20% adrenaline in <:meteorstrike:535532879359377439>, <:tsunami:535533809995874304> and <:incend:535541258429661215> instead of 10%)
-
-⬥ **Abilities unable to critical hit**
-    • Combustion <:comb:535533833098100745>
-    • Corruption blast <:corruptblast:513190159194259467>
-    • Fragmentation shot <:frag:535541273755385885>
-    • Corruption shot <:corruptshot:535541306294796299>
-    • DeadShot <:deadshot:535541307666595870> bleed hits
-    • Dismember <:dismember:535532879376023572>
-    • Slaughter <:slaughter:535532879237873666>
-    • Massacre <:massacre:535532879384543253> bleed hits
-    • Blood Tendrils <:BloodTend:513190158431158274>
-    • Ek-ZekKil special attack <:zekkil:903244090953588787> <:spec:537340400273195028> / <:eofspec:746403211908481184> bleed hits
-    • Magma Tempest <:magmatempest:902209626509025290>
-    • Onslaught <:onsl:513190159085207555>
-
-.
-**__Item interaction__**
-⬥ **Deathspore arrows <:deathsporearrows:900758234527301642>**
-    • Increases chance of forcing a critical hit by 3% when used.
-    • If you land a critical strike while using these arrows you get a stack of *Feasting Spores*
-        - Reaching 5 stacks of *Feasting Spores* causes your next Ranged threshold, ultimate or special attack to cost 0% adrenaline.
-    • Getting a free ranged action has a 60 second cooldown.
-        - Each critical hit landed during this cooldown reduces it by 1.8 seconds.
-
-.
-⬥ **Fractured Staff of Armadyl <:soa:869284271595069451>**
-    • The Fractured Staff of Armadyl <:soa:869284271595069451> is a level 95 staff.
-    • The Fractured Staff of Armadyl <:soa:869284271595069451> has a special attack called *Instability*, which costs 50% adrenaline and has a 60 second cooldown between uses.
-        - For the next 30 seconds whenever the player lands a critical hit with Magic **by any means** on your primary target, a lossless mainhand / two-handed auto attack will be fired based on your current autocast.
-
-.
-⬥ **Precise and Equilibrium**
-    • Precise and Equilibrium both affect your maximum and minimum possible max hit by modifying the potential damage rolls ranges.
-    • Precise increases your minimum damage by 1.5% per rank of your maximum damage
-    • Equilibrium increases the minimum roll by 2.4% per rank & decreased the maximum hit by 0.8% per rank.
-    • These will affect your chances of naturally rolling a critical hit
-
-.
-  **__Forced Critical Hit Chance increases__**
-⬥ Some items increase the chance you force critical strikes and said items can stack together
-    • E.g. combining the Biting 4 perk, A Reaver's ring <:reaverring:839903943018283050>, Erethdor's grimoire <:grim:568262896375824385>, a Kal'gerion demon <:kalgpouch:921410226484301925> using its scroll <:kalgscroll:841409588954923049> you'll have a base Forced Critical strike chance of 31% (31.8% with biting at lv20).
-.
-⬥ **__Biting perk & Tuska's Might__**
-    • The biting perk grants you +2% forced critical hit chance per rank.
-    • Tuska's Might is the set effect of Tuska's warpriest, granting 1% force critical hit chance per piece equipped.
-        - Usable with Anima Core of Sliske.
-    • If Tuska's Might is in effect, then Biting is ignored.
-
-.
-⬥ **__Kal'gerion Demon <:kalgpouch:921410226484301925>__**
-    • Special attack <:kalgscroll:841409588954923049> grants a buff granting +5% forced critical hit chance to everyone around the Kal'gerion Demon for 60 seconds
-        - <:kalgscroll:841409588954923049> cannot be auto-fired
-        - Ironman cannot benefit from other players' <:kalgscroll:841409588954923049> buff
-    • Has a passive effect that grants you a passive +1% forced critical hit chance
-
-⬥ **__Erethdor's grimoire <:grim:568262896375824385>__**
-    • When active, Erethdor's grimoire <:grim:568262896375824385> will give you +12% forced critical hit chance and increase your critical hit damage cap from 12000 to 15000.
-
-⬥ **__Channeler's ring <:channellerring:839903943404027914>__**
-    • When using any channeled ability with Magic you will get stacks of *Runic Embrace* for every hit in the channel, giving you a stacking +4% increase to your forced critical hit chance on each hit of the channel.
-        - E.g. a 2-hit channel would get +4% on the first hit and +8% on the second hit due to Runic Embrace.
-
-⬥ **__Champion's ring <:championring:839903943630520350>__**
-    • if your target is suffering from any Bleed you'll get +3% forced critical hit chance.
-
-⬥ **__Reaver's ring <:reaverring:839903943018283050>__**
-    • At the cost of 5% accuracy, the Reaver's ring gives you a passive +5% forced critical hit chance.
-        - Generally speaking, you can calculate this accuracy impact as 0.95\*(current hitchance).
-
-⬥ **__Stalker's ring <:stalkerring:839903943601029120>__**
-    • When using a bow, the <:stalkerring:839903943601029120> provides +3% increase to forced critical hit chance.
-.
-⬥ **__Smoke cloud <:smokecloud:856635090641879050>__**
-    • It is a debuff applied to the boss, how it affects your critical hit damage cap depends on the style
-    • For Magic:
-        - Increases the target's damage received from critical strikes by 15%.
-        - Critical hit damage cap increase to 13440 (no <:grim:568262896375824385>) or 16800 (with <:grim:568262896375824385>)
-    • For non-Magic:
-        - Increases the target's damage received from critical strikes by 6%.
-        - Critical hit damage cap increase to 12576 (no <:grim:568262896375824385>) or 15.720 (with <:grim:568262896375824385>)
-
-.
- **__RuneScape Wiki's Critical hit chance calculator__**
-The RuneScape wiki has an excellent calculator to calculate your current critical hit chance here: <https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance/>
-
-.
-> **__Walking Bosses__ (Courtesy of <@236955913859104778>)**
-.tag:walking
-**__Moving NPCs__**
-⬥ In RS, bosses only walk East, West, or South (never North). The direction they walk is random at first, but they will always walk in that direction afterwards.
-⬥ Hitting a wall changes walking behavior in the following ways:
-    • East-walking boss will turn west
-    • West-walking boss will turn south
-    • South-walking boss will turn either east or west.
-    • The Araxxor Walking Guide demonstrates this behavior:
-.
-<https://youtu.be/A_6ah7GF_1k>
-
-.
-**__Applications__**
-⬥ The simplest of these includes walking a bleed such as Combust <:comb:535533833098100745>, Fragmentation Shot <:frag:535541273755385885>, or Slaughter <:slaughter:535532879237873666>.
-    • Below is a demonstation of this (Courtesy of <@287398612558675968>):
-.
-<https://youtu.be/0Y0JGMeLcmI>
-
-.
-⬥ Advanced version: Use a bleed and then immediately Surge <:surge:535533810004262912> to go under the boss and Bladed Dive <:bd:535532854281764884> to get back all within a GCD.
-    • This allows you to double bleed damage against bosses when you aren't MD.
-⬥ Reposition a boss: Fixing base spot on P2 Vorago, moving Vorago out of green bomb mists, and moving Telos out of beams.
-⬥ Most bosses move at 2 squares per tick, just like players' characters.
-    • Bosses that you don’t want to walk, should be moved an even number of squares to prevent unwanted movement.
-
-.
-> **__Manual Spell Casting__ (Courtesy of <@133391081109716992>, <@150675804596994048> and <@110810140445294592>)**
-.tag:manualspellcasting
-**__Where to Find it__**
-⬥ Manual spell casting toggle can be found in the combat settings:
-.
-.img:https://i.imgur.com/e678FYp.png
-.
-**__What it Does and Why it is Useful__**
-⬥ Magic auto attacks deal damage based on the spell your weapon is set to.
-    • The Surge <:AirSurge:543465115870035999>, Aurora <:RubyAurora:574292444791963659>, and Barrage <:bloodbarrage:537338981747261446> spells deal damage scaling up to T99 while other spells are capped at a lower tier.
-
-⬥ Enabling manual spell casting makes it so that the autocast spell that the player's weapon is set to does not change even if they attack with a different spell.
-
-⬥ Without manual spell casting enabled, Using Ice blitz <:iceblitz:535613865912696883>, while autocast is set to Blood Barrage <:bloodbarrage:537338981747261446>, results in Ice Biltz <:iceblitz:535613865912696883> becoming the autocast, which is capped at T92 damage
-    • With manual spell casting toggled on, the autocast spell remains Blood Barrage <:bloodbarrage:537338981747261446>:
-        - Holds damage done to Blood Barrage <:bloodbarrage:537338981747261446> damage even if a lower damaging spell is casted.
-        - This is due to magic ability damage being based on the current autocast spell, not the spell the player last attacked with.
-        - This is useful for players that are using the Fractured Staff of Armadyl <:soa:869284271595069451> as otherwise the damage is reduced from T95 to T92.
-
-.
-⬥ On the normal spellbook, the player can manually cast Air Strike <:airstrike:895600427930910730> instead of Air Surge <:AirSurge:543465115870035999>, reducing Air rune costs by 4 per cast.
-
-⬥ On Ancient spellbook, Aurora spells can be manually cast to benefit yourself or your teammates:
-    • Ruby Aurora <:RubyAurora:574292444791963659> can increase the damage of teammates by upto 3%.
-    • Emerald Aurora provides damage reduction up to 5% to yourself only.
-    • Blood Burst <:bloodburst:841419289714098246> for the same damage and effect as Blood Barrage <:bloodbarrage:537338981747261446> but a lower cost.
-
-⬥ At Telos, manual spell casting may be used to prevent the player from accidentally auto attacking with an Ice spell when it may be undesirable to do so.
-    • Stops poorly timed binding of Telos or breaking his freedom too early by having control on when you want to freeze.
-    • Potential ping spikes won't have as much of an unintended consequence.
-.
-> **__NPC Centre and AoE__ (Courtesy of <@110810140445294592>, Mod Sponge, and <@175995416955977728>)**
-.tag:centre
-**__NPC Centre and NPC Coordinate__**
-⬥ For all NPCs, there's two Attributes used as the center of the NPC:
-    • NPC Centre: This differs depends on the size of NPC.
-        - Odd-sized (1x1, 3x3, 5x5...): This will always be the centre tile.
-        - Even-Sized (2x2, 4x4, 6x6...): This will always be the first SW tile in that NPC's middle region.
-    • NPC Coordinate: This will always be the most SW tile of that NPC.
-
-⬥ Below image show cases all the NPC Centre tiles and NPC Coordinate tiles:
-.
-.img:https://i.imgur.com/53FBsUZ.png
-.
-**__Abilities that use NPC Coordinate as the Point of Origin:__**
-⬥ <:Magic:689504724159823906> **Magic:**
-Corruption blast <:corruptblast:513190159194259467>, Chain <:chain:535533833056026624>, Greater Chain <:gchain:787904334495088672>, Detonate <:deto:535533833358016512>, and all Bursts and Barrages <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>.
-
-⬥ <:range:580168050121113623> **Ranged:**
-Corruption Shot <:corruptshot:535541306294796299>, Ricochet <:ricochet:535541259566186521>, Greater ricochet <:grico:787904334812807238>, Bombardment <:bombard:535541306391265284>, and Incendiary Shot <:incend:535541258429661215>.
-
-⬥ All abilities and auto-attacks of Mechanized Chinchompas <:mechchin:641669268722810881>.
-
-.
-⬥ Below picture shows the Detonate <:deto:535533833358016512> crosshairs are on NPC Coordinate tile, meaning the Dragon north of it will not be hit.
-.
-.img:https://i.imgur.com/cPreXnV.png
-.
-⬥ Below picture shows crosshairs are perfectly aligned to hit both dragons.
-.
-.img:https://i.imgur.com/7JT4mVE.png
-.
-⬥ Here is a general diagram showcasing the above visuals in the context of a 3x3 AoE being used:
-.
-.img:https://i.imgur.com/D4A5eC2.png
-.
-> **__Various Interactions of the Seren Godbow (SGB)__ (Courtesy of <@781280949790572554>, <@150284127126552576>, and <@110810140445294592>)** <:sgb:626466665848242186>
-.tag:sgbspec
-**__Reliance on Arrow 1__**
-⬥ Arrows 2-5+ scale their random damage as follows:
-    • Based on the minimum hit of Arrow 1 after Precise perk <:p6:712073088769982475> is applied.
-        - I.e., after calculating most the damage using a diminishing multiplier on it.
-    • Equilibrium perk <:eq4:712073088589627505> is applied as normal.
-    • The diminishing multiplier is as follows:
-.
-.img:https://i.imgur.com/hwUELED.png
-.
-⬥ Ammunition with secondary effects, such as Blackstone arrows <:blackstonearrow:785031580149743617>, also only proc/apply on Arrow 1.
-    • Deathspore arrows <:deathsporearrows:900758234527301642> will apply for each calculated critical hit.
-
-.
-**__Where Arrows 2-5 can Land__**
-1) Determine NPC's center
-    a) The actual centre tile for odd sizes
-    b) SW tile of the middle 2x2 area for even sizes
-
-2) Choose a random tile that is: Floor(Size / 2) away from NPC centre.
-    a) This will be the center tile of the SGB Spec <:sgb:626466665848242186> <:spec:537340400273195028> arrow landing zone.
-    b) It must be possible for the player to walk from this tile to the NPC's centre.
-        - If the player can not walk from any of the tiles chosen randomly to the NPC centre, then the NPC Centre is used as a default.
-
-3) Choose 4 random tiles in a 2 tile radius from the above tile
-    • If an arrow chooses to land on a tile already chosen by a previous arrow, it will reroll its choice up to 10 times.
-
-.
-⬥ Diagram from Mod Pi visualizing this:
-.
-.img:https://i.imgur.com/OOMssns.png
-.
-**__What Blocking Is__**
-⬥ A blocked NPC is an NPC where the player is unable to reach the NPC centre tile.
-
-⬥ The area covered by the SGB Spec <:sgb:626466665848242186> <:spec:537340400273195028> is as shown above is a 5x5 area.
-
-⬥ So, NPCs size 5x5 or bigger and are blocked will have all subsequent arrows land 100% of the time if the first arrows lands.
-.
-**__Practical Applications of This Info__**
-⬥ Assuming best in slot gear, average damage will be as follows:
-.
-.img:https://i.imgur.com/Us84iTb.png
-.
-⬥ SGB is only worth using on-style for 3x3+, and off-style for 5x5+
-
-⬥ Multi SGB Hits:
-    • Each spec that hits within 2 ticks will get a normal Arrow 1 hit.
-        - Arrows 2-5 can hit as normal and any arrows beyond those will continue to scale down linearly until their max hit is the same as their min hit.
-
-⬥ Crit chance for these is updated when they are "cast," i.e., after Arrow 1 hits/3t after SGB cast.
-
-⬥ Ingenutiy of the Humans <:ingen:641339234111848463> makes Arrow 1 hit with 100% accuracy, so the remaining arrows can not splash.
-    • This is because normally if you <:sgb:626466665848242186> <:spec:537340400273195028>, if Arrow 1 hits, Arrows 2-5 do not splash
-
-.
-**__SGB EoF interactions__** <:sgb:626466665848242186> <:eofblue:780401412906680330>
-⬥ **Chin <:mechchin:641669268722810881> SGB:**
-    • Acts as if you have SGBed N times, once per target affected by the Chin effect.
-⬥ **Bakriminel bolts <:RubyBakri:565726489413287956> SGB:**
-    • As mentioned, these are determined on cast, so only Arrow 1 can proc them
-        - But if it affects Arrow 1's hit directly (e.g., Ruby <:RubyBakri:565726489413287956> / Onyx <:OnyxBakri:565726489362956308>) it will also affect Arrows 2-5's damage as described earlier
-
-.
-> **__Boss Sizes for SGB__ (Courtesy of <@127417821817864192>)**
-.tag:sizes
-**__List__**
-*Note: Only bosses where it is worth using SGB have been included (3x3 and larger). 5x5+ Blocked targets are guaranteed to be hit with 5 arrows*
-⬥ **The Ambassador (ED3) **- 3x3
-⬥ **Araxxor/Araxxi** - 5x5 (Araxxi is blocked)
-⬥ **Arch-Glacor** - 8x8 (blocked)
-⬥ **Astellarn (ED2)** - 5x5 (blocked)
-⬥ **Beastmaster Durzag** - 4x4 (Pets are 3x3)
-⬥ **Black Stone Dragon (ED2)** - 5x5 (Black hands are 1x1)
-⬥ **Chaos Elemental** - 3x3
-⬥ **Corporeal Beast** - 5x5
-⬥ **Dagannoth Kings** - 3x3
-⬥ **General Graardor** - 3x3
-⬥ **Giant mole** - 3x3
-⬥ **Har-Aken** - 5x5
-⬥ **Helwyr** - 5x5
-⬥ **Kalphite King** - 5x5
-⬥ **Kalphite Queen** - 5x5
-⬥ **Kerapac** - 3x3
-⬥ **Kerapac Echos** - 1x1
-⬥ **King Black Dragon** - 5x5
-⬥ **Kree'arra** - 3x3
-⬥ **K'ril Tsutsaroth** - 5x5
-⬥ **Nex AoD **- 3x3 (Pillars are 5x5 non-blocked)
-⬥ **Queen Black Dragon** - 5x5 (blocked)
-⬥ **Raksha** - 5x5 (blocked on p4)
-⬥ **Sanctum Guardian (ED1)** - 9x9
-⬥ **Seiryu (ED1)** - 4x4 (Black crystals are 1x1)
-⬥ **Solak** - 3x3 (Core is 3x3)
-⬥ **Telos **- 5x5 (10x10 p5)
-⬥ **Twin Furies **- 3x3
-⬥ **TzKal-Zuk** - 5x5 (blocked when sitting on his throne during DPS check)
-⬥ **Tztok-Jad** - 5x5
-⬥ **Verak Lith (ED2)** - 5x5
-⬥ **Vindicta **- 3x3 (5x5 with Gorvek)
-⬥ **Vorago** - 5x5 (blocked on p5/10/11 and during "The End" spin)
-⬥ **Yakamaru** - 5x5 (blocked)
-⬥ **Zamorak, Lord of Chaos** - 5x5
-
-⬥ For a full list of all NPC sizes, see the NPC Bestiary: <https://chisel.weirdgloop.org/gazproj/cache/bestiary.json>*
-.
-> **__How Adren Gaining Without a Target Works__ (Courtesy of <@236955913859104778>)**
-.tag:adrengain
-**__Stalling Adrenaline__**
-⬥ After doing your last damaging ability on an NPC, you can use any abilities to gain adren for then next 10 seconds.
-
-⬥ After 10 seconds, you will only be able to gain adren for 1 defensive basic for every 10 seconds.
-
-⬥ The following abilities do not affect or reset this “cooldown”:
-    • Non-defensive abilities that do not require a target (Surge <:surge:535533810004262912>, Escape <:escape:535541258832052231>, and Bladed Dive <:bd:535532854281764884>)
-    • Defensive thresholds (these will always take 15 adren unless you lose target, and their use does not affect the CD)
-    • Ultimates that do not require a target.
-
-⬥ An example showcasing the latter (ultimates not affecting this cooldown):
-.
-.img:https://i.imgur.com/kq3890N.mp4
-.
-> **__Ability Stalling__ (Courtesy of <@145413546409197569>)**
-.tag:stall
-⬥ The act of activating an ability outside your weapon's cast distance, "holding" the ability, and finally releasing it.
-⬥ Short video guide on this topic.
-.
-<https://youtu.be/kd9QpM12ckg>
-
-.
-> **__Weapon Poison__ (Courtesy of <@108682527304060928>, <@239465986825256971>, <@99615618117935104>, and help from Mod Sponge)**
-.tag:poison
-**__How it Works__**
-⬥ Weapon Poison provides a buff to the player for an amount of time dependent on the grade of poison being used.
-    • While this is active, players have a 12.5% chance of poisoning a target so long as they are not poison-immune.
-    • After being poisoned, the target will take damage every 16 game ticks, or 9.6 seconds, and will continue to take damage for 3 minutes.
-    • Poison damage will hit 2 ticks after the damage that applied it.
-
-⬥ Damage is derived in the following manner:
-    • Poison damage starts with a base value of 20% of the player's ability damage, base Weapon Poison representing 100% of this damage.
-    • Each tier of poison adds +25% to this value. Cinderbane Gloves <:Cinderbanes:513190158355660812> will also provide an additional 25%.
-    • Damage is rolled between 65-130% of this final poison damage value.
-    • Unless refreshed, the damage range will be reduced by 3% on every subsequent hit (63.5-127%, 62-124%, etc.)
-    • Final Damage Ranges:
-        - Weapon Poison = 13.00-26.00%
-        - Weapon Poison+ = 16.25-32.50%
-        - Weapon Poison++ = 19.50-39.00%
-        - Weapon Poison+++ = 22.75-45.50%
-        - Cinderbanes+++ = 26.00-52.00%
-    • Average Damage Values:
-        - Weapon Poison = 19.50%
-        - Weapon Poison+ = 24.36%
-        - Weapon Poison++ = 29.25%
-        - Weapon Poison+++ = 34.13%
-        - Cinderbanes+++ = 39.00%
-
-⬥ Vulnerability <:Vuln:537349530551582720>, Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>, Bik Arrows <:bikarrow:971025697235689513>, and Laniakea's Spear <:lanispear:839903893177106454> increase poison damage values, but prayers and damage boosting ultimates do not.
-
-.
-⬥ **Cinderbane Gloves** <:Cinderbanes:513190158355660812>:
-    • The gloves effectively ignore the 16 tick cooldown on poison damage, 12.5% chance of reapplication and refreshing the poison timer on the target.
-    • This reapplication will incur an extra poison hit, and the 16 tick damage timer is also reset.
-    • This effect also allows for poison to reapply itself, so each poison hitsplat has a 12.5% chance of dealing an extra poison hit and refreshing the timer.
-        - With this considered, the effective application rate per hitsplat is ~14.3%
-    • Even without consuming Weapon Poison, the gloves will apply poison damage as if Weapon Poison+ was in effect.
-
-.
-⬥ **Kwuarm Incense Sticks** <:KwuarmSticks:565726489341984779>:
-    • Per potency level, Kwuarm Incense Sticks will add a multiplicative damage increase of 2.5% to the player's final poison damage.
-    • At maximum potency, this is a multiplicative 10% to poison damage.
-    • This brings the range of Weapon Poison+++ with Cinderbane Gloves worn to 28.60-57.52%, or an average of 42.9% ability damage.
-
-.
-⬥ **Bik Arrows** <:bikarrow:971025697235689513>:
-    • Per stack, Bik Arrows will add a multiplicative damage increase of 2% to the player's final poison damage.
-        - An arrow is consumed for every stack added, which are applied on every ranged ability hit. *Bleed effects after the initial cast do NOT add any stacks.*
-        - Bik arrow stacks will last for **30 seconds**, with the timer refreshing every time a new stack is applied.
-        - Bik arrows will continue to be consumed in the espected manner even after reaching maximum stacks, and they will continue refreshing the effect.
-    • At maximum stacks (200) this is a multiplicative 400% damage increase, or an effective **5x multiplier** to poison damage.
-    • This brings the range of Weapon Poison+++ with Cinderbane Gloves and Kwuarm Incense Sticks to 143.00-287.60%, or an average of 214.50% ability damage.
-
-.
-⬥ **Laniakea's Spear** <:lanispear:839903893177106454>:
-    • The application rate of poison is boosted by an additive 5%, increasing it to 17.5%.
-        - When considering poison re-applying itself, this gives an effective application rate per hitsplat of ~21.2%, up from ~14.3%.
-    • Poison damage is increased by a multiplicative 5%, similar to Kwuarm Incense Sticks.
-
-.
-⬥ **Upgraded Bone Blowpipe**:
-    • Poison damage is halved, but the application rate is doubled to 25%.
-        - When considering poison re-applying itself, this gives an effective application rate per hitsplat of ~33.3%, up from ~14.3%.
-
-.
-⬥ **Wyvern Crossbow** <:wyverncrossbow:580177522587729940>:
-    • Applies its own "poison" damage separate from normal weapon poison.
-        - 50% chance on hit to apply a stacking damage over time effect.
-        - Hits every 2 ticks after application, up to 5 hits unless refreshed before the final hit.
-        - When refreshed, the damage will increase and hit another 5 times.
-        - Damage starts with a range of 10-24 per hit, and can climb up to 125-249 per hit.
-    • While this weapon doesn't directly influence the base damage or application rate of poison, the passive effect hits very rapidly and consistently.
-    • This allows for more chances for poison hits to occur.
-
-.
-⬥ Poison can be applied/refreshed by **any player-sourced damage**. This includes:
-    • Abilities (Includes every hit from bleeds/damage over time, including Sunshine & Death's Swiftness)
-    • Abyssal Parasites
-    • Auras (Ancestor Spirits & Dark Magic)
-    • Auto attacks
-    • Bakriminel/Enchanted Bolt extra hits (Emerald & Dragonstone)
-    • Blood necklaces
-    • Blood Reaver passive
-    • Cannon damage
-    • Dominion mines
-    • Eldritch Crossbow special
-    • God books and Scriptures
-    • Poison damage
-    • Puncture bleeds
-    • Reflect damage
-    • Wyvern Crossbow passive.
-
-.
-> **__Zerk Auras and On-Cast Ult Interactions__ (Courtesy of <@781280949790572554>)**
-.tag:zerkAura
-⬥ Sunshine, Death's Swiftness, and Berserk apply on yourself when you cast the ability.
-⬥ Maniacal, Berserker, and Reckless auras apply on-hit.
-⬥ The ability(s) and/or hit(s) initiated on the last tick of an ultimate ability boosting your damage will also benefit from the Auras mentioned above.
-⬥ Notice the following image: the same ability is cast, yet one hit significantly harder, that is because of this interaction.
-.
-.img:https://i.imgur.com/0TxDCjz.png
-.
-⬥ In the following video, a well known bug with Ability Queueing and "last tick of ult" is shown. (courtesy of <@683763716394975294>)
-.
-.img:https://i.imgur.com/JlBezRH.mp4
-.
-⬥ The ability rotation being done is: <:zerk:535532854004678657> → <:barge:535532853916860437> → <:flankicon:841419289755385866> <:backhand:535532854302605333> → <:freedom:535541258240786434> → <:assault:535532855191928842> → (4-hit) <:destroy:535532879330148352> → (3-hit) <:gflurry:535532879283879977> → <:deci:535532879325822986> → <:gfury:535532879334080527> → <:flankicon:841419289755385866> <:backhand:535532854302605333>
-    • Clearly the last flank Backhand did not go off inside your berserk even though it was queued at that point.
-    • To resolve this either do not queue the ability that will be casted on the last tick of your ultimate, or turn of ability queueing
-
-.
-> **__Hex Modifier__** (Courtesy of <@99615618117935104>)
-.tag:hex
-**__What Is a Hex Modifier__**
-⬥ This refers to the passive effect of the Hexhunter bow <:hexhunterbow:581180369911414794>, Terrasaur maul <:terramaul:602561894829522954>, and Inquisitor staff <:inquisitorstaff:694566917553520680>.
-    • The modifier is commonly just called "Hex" because the <:hexhunterbow:581180369911414794> was the first weapon released with this effect.
-
-.
-**__What Is the Passive Effect__**
-⬥ When active, it provides +12.5% ability damage and +10% hit chance.
-
-⬥ This damage increase applies to all abilities and auto attacks, but not to poison, Aftershock <:as4:712074245202772009>, or Crackling <:crack4:712073087662686249> procs.
-
-⬥ The hit chance increase is a flat +10% over typical T80 weapon hit chance values before the effects of DBA <:DBA:603979368850653216> and Reaver's Ring <:reaverring:839903943018283050> are considered.
-
-.
-**__When is the Effect Active__**
-⬥ To receive the buffs, you must be against a target whose main attack style is weak to your weapon's style (based on the combat triangle).
-
-⬥ If you don't see a debuff icon under your target's health bar indicating it is susceptible to your weapon, you are effectively using a normal T80 weapon.
-
-.
-**__What Does This all Mean__**
-⬥ Expect to see a ~4.8%/3.4%/1.4% damage increase over T90/T92/T95 weapons, provided you aren't losing any hits due to the lower accuracy.
-
-⬥ It is a common misconception that the weapons have T97 damage and accuracy
-
-⬥ This is only a theoretical effective tier for their damage and is only true with sufficient level boosts and equipment bonuses.
-
-⬥ The hit chance is typically slightly above that of a T90 weapon, but because it is a flat hit chance increase, this scales up as the target's armour increases.
-
-.
-**__Useful Links__**
-⬥ For damages make a copy of the Ability damage sheet then customize to your liking:
-<https://docs.google.com/spreadsheets/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0/>
-
-⬥ For hitchances make a copy of the Hit chance calculator then customize it to your liking:
-<https://docs.google.com/spreadsheets/d/1X0GwTMCpCW5plaV0Gdvgw_glPlj-y-UBDiKjHmTkGBM/edit#gid=1250242134>
-
-⬥ For a list of susceptible things refer to:
-    • For <:hexhunterbow:581180369911414794> <https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow>
-    • For <:terramaul:602561894829522954> <https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul>
-    • For <:inquisitorstaff:694566917553520680> <https://runescape.wiki/w/Category:Susceptible_to_inquisitor_staff>
-
-.
-> **__Grimoire and Scrimshaw Switching__**
-.tag:grimshaw
-**__Obtaining both pocket slot's benefits__**
-⬥ It is possible to obtain the boosts of Erethdor's Grimoire at the same time as a Scrimshaw.
-
-⬥ This can result in roughly a 6% increase in damage across the course of an entire rotation, but will significantly increase the amount of inputs.
-
-⬥ This happens because critical hits are rolled on cast, while modifiers like scrimshaws are calculated on hit.
-
-⬥ Inputs for grimshaw with 4taa, in order (bracket groups indicate inputs in a single tick):
-
-⬥ [Have Active Grimoire <:grim2:643168158613504031> + Staff Equipped <:inquisitorstaff:694566917553520680>] → [ <:bloodblitz:535616247807868938> → Ability → Equip and activate Scrimshaw] → [Equip and Activate Grimoire <:grim2:643168158613504031>]
-
-⬥ [Have Active Grimoire <:grim2:643168158613504031> + DW Equipped <:praeswand:643166769518739477> <:impercore:643166751067996160>] → [Ability → Equip and activate Scrimshaw] → [Equip and Activate Grimoire <:grim2:643168158613504031> + Equip Staff <:inquisitorstaff:694566917553520680>]
-
-⬥ Demonstration:
-.
-<https://youtu.be/M65xdRYYxJ4>
-
-.
-> **__Instance Hopping__ (Courtesy of <@287398612558675968>)**
-.tag:inshopp
-**__Why is it Useful__**
-⬥ Basis: kill boss → pick loot if worth it → quickly leave instance → re-join instance → repeat
-⬥ Comparison of waiting for spawn time x instance hopping:
-.
-<https://youtu.be/O-Lb93vFRAI>
 
 .
-> **__Camera Shaking Toggle__ (Courtesy of <@216433706343202816>)**
+__**Other Ability Interactions**__
+⬥ **Greater Barge** <:gbarge:535532879250456578> has different behaviours with and without queueing.
+    • **Without queueing**: using <:gbarge:535532879250456578> from out-of-combat will treat it as a 25-225% ability damage (the maximum) and give the secondary buff as well.
+    • **With queueing**: using <:gbarge:535532879250456578> *as a queued ability* from out-of-combat will treat it as 25-125% ability and *not* give the secondary buff.
+.
+⬥ **Detonate** <:deto:535533833358016512>
+    • Can be released mid-GCD if queueing is enabled - this is not possible with it disabled.
+⬥ **Stalled Abilities**
+    • Stalled abilities can be released mid-GCD (using spells on an action bar) if queueing is enabled - this is not possible with it disabled.
+
+.
+__**Losing Target**__
+⬥ When ability queueing is enabled, you can lose a target with the following options:
+    • **Right-click a shield and use the 'Provoke' option** - requires a T80 or higher shield (from Dungeoneering or Barrows: Rise of the Six).
+    • **Use a special attack without having a target selected**. This does *not* work with special attacks of the following weapons, as they do not require any target to activate.
+        - Dragon Battleaxe <:DBA:603979368850653216>
+        - Zaros Godsword <:zgs:626465964325601290>
+        - Staff of Light/Darkness <:staffoflight:841419289319964763> / <:staffofdarkness:925794592387907634>
+        - Decimation <:decimation:643848618477879328>
+        - Eldritch Crossbow <:ecb:615618531937222657>
+
+.
+> __**Ability Stalling**__
+.tag:stalling
+*Note: See `!stalling` for a summary on how to stall and release abilities.*
+__**How It Works**__
+⬥ It is possible to 'stall' an ability by activating it but not actually using it, instead holding it 'in reserve' to release it at a later time.
+⬥ This is primarily used to delay the activation of an ability to stack it together with another ability, to deal extra damage without losing any ticks.
+
+
+__**How to Stall Abilities**__
+⬥ Casting a non-channeled ability outside your maximum attack range will normally try to run your character back into range to use it on a target.
+⬥ If you interrupt this action by clicking away (e.g. on the floor), it will 'hold' the ability in reserve to be released (**this is the stalled ability**).
+⬥ The ability can then be 'released' later to use the ability without consuming a global cooldown.
+
+.
+__**How to Release Stalled Abilities**__
+⬥ **Method 1: Run-in Release**
+    • Casting an ability outside your attack range and not interrupting the action, your character will run in and release it automatically.
+⬥ **Method 2: Click Release**
+    • After stalling an ability, click your target to release the stalled ability.
+⬥ **Method 3: Spell Release**
+    • After stalling an ability, use a spell from your ability bar to release the stalled ability.
+    • You **must** have the runes required to cast the spell, but a weapon is not required.
+
+*Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack unless you override it, such as with Cease <:cease:864235458464186418> or another spell.*
+
+.
+> __**Adrenaline Management**__
+.tag:adren
+Adrenaline is generated when players use auto attacks and basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannont use at any given point.
+
+There are a couple different mechanics to note with regard to adrenaline.
+⬥ Stalling adrenaline to not lose it out of combat.
+⬥ Gaining adrenaline even without a target under some circumstances.
+⬥ Deliberately losing your target to use some abilities (like Reflect <:reflect:535541258786177064> or Detonate <:deto:535533833358016512>) without costing adrenaline.
+⬥ Adrenaline gained from certain actions may feel 'delayed' (covered below).
+
+.
+__**Stalling Adrenaline**__
+⬥ There are multiple ways to stall adrenaline.
+⬥ **Method 1: Simply remain in combat**.
+    • This is done by **using abilities that do not require a target within every 10 seconds** to make the game think the player is still 'in combat'.
+        - Non-defensive abilities that do not require a target - <:surge:535533810004262912> / <:escape:535541258832052231> / <:bd:535532854281764884> / <:Reprisal:513190159462694912> / etc.
+        - Defensive abilities - <:prep:535541258546970624> / <:res:535541258844635148> / <:reflect:535541258786177064> / etc.
+        - Other abilities like Reprisal <:Reprisal:513190159462694912>
+⬥ **Method 2: Use something that grants permanent adrenaline stalling**.
+    • Adrenaline Urn <:adrenurn:656426717413507074> (holds up to 1000% adrenaline).
+    • Persistent Rage <:persistentrage:739965637056659567> relic.
+    • Infernal Puzzle Box <:infernalpuzzlebox:994189299681607800> (unlocked up to the 3rd tier).
+
+.
+__**Gaining Adrenaline Without Target**__
+⬥ For 10 seconds after your last damaging ability on a target, you can use any abilities to gain adrenaline.
+⬥ After 10 seconds, you can continue to gain adrenaline using defensive basics, at most once per 10 seconds.
+⬥ The following abilities do not affect or reset this 'cooldown':
+    • Non-defensive abilities that do not require a target <:surge:535533810004262912> / <:escape:535541258832052231> / <:bd:535532854281764884>.
+    • Defensive thresholds (these will consume 15 adren if you have a target, but their use does not affect the cooldown).
+    • Ultimates that do not require a target <:deathsswift:994921434633744455> / <:sunshine:994921119381463070> / <:zerk:535532854004678657> / etc.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Adrenaline Without Target__",
+        "value": "For a demonstration of gaining adrenaline after losing target, [click here](https://i.imgur.com/kq3890N.mp4)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+__**Late Adrenaline**__
+⬥ **Adrenaline Renewals** <:adrenrenewal:736298121704767538>
+    • When used, gives 4% adrenaline per tick for 10 ticks (40% total).
+    • Except the first tick, when drinking a <:adrenrenewal:736298121704767538> the adrenaline gained cannot be used until the next game tick.
+    • This is because the input action (drinking) is registered on the same tick as other input actions, but for all other ticks, player input registers before the adren gain.
+⬥ **Barrages** <:icebarrage:537340400185245701> <:bloodbarrage:537338981747261446>
+    • Barrage crits check for crit buffs that give adrenaline later in the tick than normal.
+    • Essentially, this means that if you crit a barrage auto attack and in the same tick gain a buff that generates adrenaline from crits, the barrage will give adrenaline.
+    • For example: <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → will give adrenaline if <:bloodbarrage:537338981747261446> crits.
+⬥ **Mech Chins** <:mechchin:641669268722810881>
+    • Similar to barrages, adrenaline gained from crits with attacks using <:mechchin:641669268722810881> will be calculated late.
+    • This may impact certain actions (like back-to-back <:dbow:643848618553507843> <:eofspec:746403211908481184> with <:mechchin:641669268722810881>) that rely on adrenaline gained from previous abilities.
+
+.
+__**How To Lose Target**__
+⬥ It is possible to lose your target to enable the using threshold abilities like Devotion <:devo:513190158728953857> to be used without consuming adrenaline, in a couple ways.
+⬥ **Method 1: Simply drop out of combat**.
+    • This is accomplished by not attacking/being attacked for 10 seconds.
+⬥ **Method 2: Have your target no longer be present.**
+    • Kill your current target, or switch to a target that then dies (e.g. Combat Dummy <:dummy:656844963522281473> that gets dismissed), then use an ability.
+        - If queueing is on: try to use a special attack or press 'Provoke' on a shield.
+        - If queueing is off: try to use a damaging ability.
+
+*Note: For more information, see the section on __**Ability Queueing**__ (linked in the pinned message).*
+
+.
+> __**Berserker Auras**__ <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
+.tag:zerkaura
+__**How It Works**__
+⬥ Berserker-variant auras exist for each style:
+    • Berserker <:berserker:643505116347105290> for <:melee:615612332521029632>
+    • Reckless <:reckless:643505179378974748> for <:range:580168050121113623>
+    • Maniacal <:mani:643505153709965322> for <:Magic:689504724159823906>
+⬥ They provide the following boosts:
+    • **Invisible** +10% to damage.
+    • **Invisible** +10% to accuracy.
+    • Boosts the corresponding attack stats (Attack + Strength, Ranged, or Magic) by 10%.
+    • Increases all damage taken (except hard typless) by 15%.
+    • Reduces defence level by 15%.
+.
+__**Interactions with Damage-Boosting Ultimates**__
+⬥ The invisible +10% damage boost from berserker-variant auras **does not stack** with damage-boosting ultimates. These are:
+    • Berserk <:zerk:535532854004678657>
+    • Death's Swiftness <:deathsswift:994921434633744455>
+    • Sunshine <:sunshine:994921119381463070>
+    • Metamorphosis <:meta:535533811304497183>
+⬥ However, the damage boost from ultimates is **on-cast**, while the aura damage boost is **on-hit**.
+⬥ This interaction makes it so that if you cast an ability on the last tick of an ultimate, it gets boosted by both the ultimate *and* the aura.
+⬥ In the following image, the same ability is cast within <:zerk:535532854004678657> and on the last tick of <:zerk:535532854004678657> - see the damage difference.
+.img:https://i.imgur.com/7p6v2bc.png
+
+.
+> __**Back-to-Back Special Attacks**__
+.tag:b2bspec
+__**How It Works**__
+⬥ Attempting to use special attacks back-to-back (<:spec:537340400273195028> → <:spec:537340400273195028>) can potentially incur a delay in-between, depending on the **speed** of the attack used *before* the first special attack used.
+⬥ In other words, the first special attack won't be delayed, the second one **may** be delayed. See the table below.
+
+```
+Abilities:
+> Fastest Ability: Spec → no delay → Spec
+> Fast Ability   : Spec → no delay → Spec
+> Average Ability: Spec → 1t delay → Spec
+> Slowest Ability: Spec → 7t delay → Spec
+
+Autos:
+> Fastest Auto: Spec → 1t delay → Spec
+> Fast Auto   : Spec → 2t delay → Spec
+> Average Auto: Spec → 3t delay → Spec
+> Slowest Auto: Spec → 9t delay → Spec
+```
+*Note: Preceding abilities are assumed to be non-channeled. The delay when using a channeled ability is **2t**.*
+.
+__**Examples**__
+Here we cover some example scenarios of chaining special attacks.
+⬥ (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+    • There is **no delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> since the first one was **fastest** speed.
+
+⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+    • There is **1t delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the first one was only **average** speed.
+
+⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+    • There is **1t delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the first one was only **average** speed.
+    • The speed of the second one does not affect this.
+
+⬥ (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+    • This results in **1t delay** on the 2nd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the <:dbreath:535533833391702017> was only **average** speed.
+
+.
+> __**Camera Shaking**__
 .tag:shake
-**__Camera Toggles__**
-⬥ If you suffer from motion sickness, you may toggle this off in the settings menu. This is particularly useful for Rise of the Six tunnels, or usage of Quake <:quake:535532879506309150>.
-
-⬥ However be aware that camera shake often helps indicate a mechanic is about to happen, for example at Solak or Black Stone Dragon.
-.
+__**How It Works**__
+⬥ During some mechanics and cutscenes, the game has the ability to 'shake' the camera view.
+    • An easy example is when you use the ability Quake <:quake:535532879506309150> with the setting enabled.
+⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Camera > System**.
 .img:https://i.imgur.com/Qw1kFay.png
 .
-> **__Typless Damage__**
+⬥ **This is sometimes used as an indicator for certain boss mechanics**, but you can disable this if you suffer from motion sickness.
+⬥ Some examples of places this is found:
+    • Barrows: Rise of the Six (during the tunnels - recommended to have camera shaking turned *off*).
+    • Solak (during the roots phase in P1).
+    • Raksha (during the rockfall attack).
+    • ED2 (during the 'spikes' special attack of Black Stone Dragon and any other Gemstone Dragon).
+
+.
+> __**Critical Hits**__
+.tag:crit
+*Note: For a summary, see the `!crit` and `!critbuff` commands.*
+__**How It Works**__
+⬥ Critical hits (crits) occur when you hit for >95% of your ability damage range. They are indicated by larger, stylized damage numbers.
+⬥ Crits have an increased hitcap: 10k → 12k. This hitcap can be increased by some items (see __**Items That Affect Critical Hits**__ below).
+.
+⬥ There are two types of crits:
+    • **Forced crit**: When your critical hit chance *forces* your attack to hit >95% of your damage range. All attacks first get checked to see if they will be a forced crit.
+    • **Natural crit**: When you don't get a forced crit, *but you hit >95% of your damage range anyway*.
+⬥ **Your total critical hit chance is the sum of your forced crit chance + natural crit chance.**
+
+.
+__**Ability Interactions**__
+⬥ **Fury** <:fury:535532879510372352>
+    • Each hit of <:fury:535532879510372352> increases the next hit's forced crit chance by 5%.
+    • This caps at 15% after the 3rd hit.
+⬥ **Greater Fury**
+    • Adds a fixed +10% forced crit chance to the next hit.
+⬥ **(Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:535533833106489365>**
+    • Same as Fury <:fury:535532879510372352>.
+⬥ **Meteor Strike <:meteorstrike:535532879359377439>, Tsunami <:tsunami:535533809995874304> and Incendiary Shot <:incend:535541258429661215>**
+    • All three abilities provide a 30s buff that grants 10% adrenaline for every critical hit.
+    • The buff starts from when the abilities hit the target (on-cast for <:tsunami:535533809995874304> / <:meteorstrike:535532879359377439>, and when it detonates for <:incend:535541258429661215>).
+    • If the Corbicula Rex perk **No Fear** is owned, it increases the forced crit chance of <:meteorstrike:535532879359377439> by 20% (tier 1) / 40% (tier 2).
+⬥ **Smoke Tendrils** <:smoketendrils:536257336130404372>
+    • All hits of <:smoketendrils:536257336130404372> will always crit.
+.
+⬥ The following abilities cannot do critical hits, **regardless** of what they actually hit.
+    • Dismember <:dismember:535532879376023572>
+    • Slaughter <:slaughter:535532879237873666>
+    • Blood Tendrils <:bloodtendrils:535532854327640064>
+    • Massacre <:massacre:535532879384543253> (bleed hits)
+    • EZK special attack <:zekkil:903244090953588787> <:spec:537340400273195028> (bleed hits)
+    • Combust <:comb:535533833098100745>
+    • Corruption Blast <:corruptblast:513190159194259467>
+    • Magma Tempest <:magmatempest:902209626509025290>
+    • Frag Shot <:frag:535541273755385885>
+    • Corruption Shot <:corruptshot:535541306294796299>
+    • Incendiary Shot <:incend:535541258429661215>
+    • Deadshot <:deadshot:535541307666595870> (bleed hits)
+
+.
+__**Items That Affect Critical Hits**__
+*Note: In the following section, all critial hit chance increases apply to **forced** critical hit chance. These methods **can** stack together.*
+⬥ **Biting Perk** <:biting4:712073087809617931>
+    • **+2%** critical hit chance per rank, up to 8% at Biting 4 <:biting4:712073087809617931> (up to 8.8% with level 20 equipment)
+⬥ **Tuska's Might**
+    • **+1%** critical hit chance **per** equipped piece of Warpriest Armor of Tuska.
+    • This effect is not strong enough to justify using this armour.
+⬥ **Kal'gerion Demon familiar** <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>
+    • Its special move, *Crit-i-kal* <:kalgscroll:841409588954923049> gives **+5%** critical hitchance for 60 seconds.
+    • This applies to everyone near the familiar when it is cast, and you can move away from the familiar without losing the effect after it is cast.
+    • The scrolls cannot be autofired.
+    • Ironmen can only benefit from their own familiar.
+⬥ **Erethedor's Grimoire** <:grim:568262896375824385>
+    • **+12%** critical hit chance while active, and increases hit cap for **crits** from **12k → 15k.**
+    • Outside of Solak, <:grim:568262896375824385> is extremely expensive to use.
+⬥ **Reaver's Ring** <:reaverring:839903943018283050>
+    • **+5%** critical hit chance at the expense of -5% accuracy.
+⬥ **Champion's Ring** <:championring:839903943630520350>
+    • **+3%** critical hit chance if the target has any active bleed on it.
+⬥ **Channeller's Ring** <:channellerring:839903943404027914>
+    • Channelled magic abilities gain **+4%** critical hit chance per channeled hit.
+    • e.g. Asphyx would gain +4%/+8%/+12%/+16% critical hit chance on each of its 4 hits respectively.
+    • This affects (Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:535533833106489365> , Asphyxiate <:asphyx:535533833072672778> , and Onslaught <:onsl:513190159085207555>
+.
+⬥ **Smoke Cloud** <:smokecloud:856635090641879050>
+    • Increase hitcap for **crits** by **15%** for <:Magic:689504724159823906>, and by **6%** for <:range:580168050121113623> / <:melee:615612332521029632>
+⬥ **Dark Shark of Leng (T95 Leng mainhand) special attack** <:lengmh:883134308146098227> <:spec:537340400273195028>
+    • Increases damage cap by **30%** for Melee <:melee:615612332521029632>, Reflect <:reflect:535541258786177064> and Dominion mine <:dommine:662249620579155968> damage.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Critical Hit Chance Calculator__",
+        "value": "To calculate your own critical hit chance using the RuneScape Wiki's calculator, [click here](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance/)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Grimoire/Scrimshaw Switching ('Grimshaw')**__
+.tag:grimshaw
+*Note: This is very rarely done due to the extreme intensity of inputs required, and due to how some weapons like the FSoA <:fsoa:869284271595069451> can actually be hindered by doing it.*.
+.
+__**How It Works**__
+⬥ **It is possible to obtain the boosts of Erethdor's Grimoire <:grim:568262896375824385> and a Scrimshaw <:elementsscrim:841409588959510539> <:Cruelty:513190159546712074> at the same time**.
+    • This can result in ~6% damage increase *across the course of an entire rotation*, but will drastically increase the amount of inputs.
+⬥ This is due to how critical hits work:
+    • Critical hits are rolled **on cast**.
+    • Modifiers like scrimshaws are calculated **on hit**.
+.
+__**Sample Rotation**__
+⬥ The grimoire must be on when the ability is cast, and the scrimshaw must be on when it hits.
+.
+⬥ A single input sequence using Dragon Breath <:dbreath:535533833391702017> might look like:
+    • <:grim:568262896375824385> → <:dbreath:535533833391702017> + <:elementsscrim:841409588959510539> → repeat
+.
+⬥ It is possible do this while using 4TAA, for example:
+    •  <:grim:568262896375824385> <:praeswand:643166769518739477> <:Core:625304432581672961> → <:dbreath:535533833391702017> + <:elementsscrim:841409588959510539> → (1t delay) + <:grim:568262896375824385> <:fsoa:869284271595069451> + <:AirSurge:543465115870035999> <:sonic:535533809924571136> + <:elementsscrim:841409588959510539> → repeat
+.
+*Note: <:grim:568262896375824385> and <:elementsscrim:841409588959510539> take **2 inputs** to use → one input to equip, second input to activate, both in the same tick as all other actions.*
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Grimshaw __",
+        "value": "For a brief example on how to 'grimshaw' with an auto attack, [click here](https://www.youtube.com/watch?v=M65xdRYYxJ4)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Hex Weapons**__ <:terramaul:602561894829522954> <:hexhunterbow:581180369911414794> <:inquisitorstaff:694566917553520680>
+.tag:hex
+__**How It Works**__
+⬥ This refers to the following three weapons:
+    • **Hexhunter bow** <:hexhunterbow:581180369911414794>
+    • **Terrasaur maul** <:terramaul:602561894829522954>
+    • **Inquisitor's staff** <:inquisitorstaff:694566917553520680>.
+⬥ They are referred to as 'Hex' weapons because the *Hex*hunter bow was the first weapon with its passive effect, and all of them have very similar passive effects.
+.
+⬥ **The passive effect provides +12.5% damage and +10% hitchance against susceptible targets.**
+    • This is a passive +10% hitchance compared to a standard T80 weapon.
+    • Effect works on targets whose main attack style is weak to the weapon's style (based on the combat triangle).
+    • If the passive works, a debuff icon will appear underneath the target's health bar.
+.
+⬥ The damage increase works on the following:
+    • Abilities
+    • Auto-attacks
+⬥ The damage increase does **not** work on the following:
+    • Poison <:poisonicon:944649693500154006>
+    • Aftershock <:as4:712074245202772009>
+    • Crackling <:crack4:712073087662686249>
+.
+⬥ **The damage can be further boosted by an additional +5% if the relevant style-specific enchantment is consumed.**
+    • Enchantment of Affliction <:enchantmentofaffliction:1006481321087991819> boosts damage of <:inquisitorstaff:694566917553520680> by +5%.
+    • Enchantment of Dispelling <:enchantmentofdispelling:1006481317266993193> boosts damage of <:hexhunterbow:581180369911414794> by +5%.
+    • Enchantment of Savagery <:enchantmentofsavagery:1006481307443937310> boosts damage of <:terramaul:602561894829522954> by +5%.
+
+.
+__**Notes**__
+⬥ It is common to see people refer to them as 'T97' or 'T105' weapons, etc. - this is a common misconception, and is only a theoretical effective tier possible with sufficient level boosts and equipment bonuses.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Hex Weapons__",
+        "value": "⬥ For a list of targets weak to <:hexhunterbow:581180369911414794>, [click here](https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow).\n⬥ For a list of targets weak to <:terramaul:602561894829522954>, [click here](https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul).\n⬥ For a list of targets weak to <:inquisitorstaff:694566917553520680>, [click here](https://runescape.wiki/w/Category:Susceptible_to_inquisitor_staff)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Instance Hopping**__
+.tag:instance
+__**How It Works**__
+⬥ This is a minor mechanic, but can be used to get more kills per hour at some places (most notably, at GWD2 bosses).
+⬥ To do it: kill boss → pick up loot → **quickly** exit instance → **quickly** re-enter instance → repeat.
+⬥ This works because it is faster to spawn a boss for the first time in an instance, compared to the duration between subsequent spawns.
+⬥ At the expense of higher effort, this can potentially save time even compared to the 'Fastest' instance spawn speed, if you instance-hop sufficiently quickly.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Instance Hopping__",
+        "value": "For a comparison to see the time saved by instance hopping, [click here](https://youtu.be/O-Lb93vFRAI).\n(Courtesy of <@287398612558675968>)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Manual Spellcasting**__
+.tag:manualsc
+.
+__**How It Works**__
+⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
+⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
+.img:https://i.imgur.com/xiuCIqX.png
+.
+⬥ **Behaviour with manual spellcasting *off***:
+    • Magic auto attacks deal damage based on the spell your weapon is set to.
+    • Clicking on a spell in your Magic spellbook or on your ability bar will switch your autocast spell to it.
+    • Clicking on an ability from an ability book or on your ability bar will use that ability against your target.
+.
+⬥ **Behaviour with manual spellcasting *on***:
+    • Magic auto attacks deal damage based on the spell your weapon is set to.
+    • Clicking on a spell on your ability bar no longer switches your autocast spell - it casts the selected auto, **but** with the damage and effects of your **original** autocast spell.
+    • To change autocast spells, you must right click a spell and select 'Autocast', either from your ability bar or your Magic spellbook.
+    • Clicking on a spell in your Magic spellbook now requires you to select a target before it is used.
+    • Clicking on an ability from an ability book will now require you to select a target before it is used.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Manual Spellcasting__",
+        "value": "If you prefer to watch a video guide, check out [this guide](https://youtu.be/iJzOHlYuULo) by <@145413546409197569>."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+__**Why It's Good**__
+⬥ **Saving rune costs with manual spellcasting on.**
+    • You can autocast Air Surge <:AirSurge:543465115870035999> but have your keybound spell on your ability bar as Air Strike <:airstrike:895600427930910730>
+    • When you press your auto keybind, it will cast <:airstrike:895600427930910730> and consume only 1 Air Rune <:Airrune:536252658986647589> but do the damage of <:AirSurge:543465115870035999>
+    • Note that this works with Ancient Magicks as well, but to get AoE damage, your auto keybind **must** also be an AoE spell.
+
+⬥ **Getting the benefit of one spell while autocasting another.**
+    • For example, you can autocast Exsanguinate <:exsanguinate:856635090745950258> to build stacks, but use Blood Barrage to get healing on the autos instead.
+    • Another example would be using a Blood spell <:bloodbarrage:537338981747261446> autocast but using an Ice spell instead to freeze a monster <:icebarrage:537340400185245701> without changing your default autocast.
+
+⬥ Some example applications of manual spellcasting:
+    • **Telos**: Selectively using Ice spells at correct times with Blood spells autocast, to get better control of freeze timings.
+
+.
+> __**NPC Center vs. Coordinate**__
+.tag:npccenter
+This section covers the difference between an NPC's **center** and **coordinate** and how it impacts certain abilities when it comes to targeting and hitboxes.
+.
+__**NPC Center vs. Coordinate**__
+⬥ An NPC's **center** and **coordinate** are both attributes of its position. They are *not* the same, and are both used in different scenarios to decide where exactly the 'center' of an NPC is.
+⬥ **The NPC center depends on the size of the NPC**:
+    • For odd-sized NPCs (1x1, 3x3, 5x5, etc.): it is always the **center tile**.
+    • For even-size NPCs (2x2, 4x4, 6x6, etc.): it is always the **south-west tile in middle 2x2 tile region**.
+⬥ **The NPC coordinate is always the south-west tile.**
+⬥ The follow image visualizes these changes.
+.img:https://i.imgur.com/53FBsUZ.png
+
+.
+__**Abilities and NPC Coordinate**__
+⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'center'.
+    • **Note that this is not their *hitbox*, which is the entirety of the tiles they occupy. It is simply the point from which these abilities begin to propagate.**
+⬥ **Ranged abilities:**
+    • Corruption Shot <:corruptshot:535541306294796299>
+    • (Greater) Ricochet <:grico:787904334812807238> / <:ricochet:535541259566186521>
+    • Bombardment <:bombard:535541306391265284>
+    • Incendiary Shot <:incend:535541258429661215>
+    • All attacks with Mechanical Chinchompas <:mechchin:641669268722810881>
+⬥ **Magic abilities:**
+    • Corruption Blast <:corruptblast:513190159194259467>
+    • (Greater) Chain <:gchain:787904334495088672> / <:chain:535533833056026624>
+    • Detonate <:deto:535533833358016512>
+    • All burst/barrage auto attacks <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>
+⬥ We can use this information to predict where our AoEs will begin from and what targets they will hit, as show in the following illustration.
+.img:https://i.imgur.com/kr61SvG.png
+⬥ See the picture below for an example of this behaviour - Detonate <:deto:535533833358016512> will only hit the south dragon in A, but it will hit both dragons in Scenario B (both dragons are **3x3** in size).
+.img:https://i.imgur.com/NhmICrb.png
+*Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
+
+.
+> __**NPC Facing and Flanking**__
+.tag:npcfacing
+*Note: For more information on boss sizes and how to calculate their NPC center and coordinate tiles, see __**NPC Center vs. Coordinate**__.*
+This section covers how NPCs face, how it affects their movement and targeting, and its impact on Flanking Angles.
+.
+__**Facing Direction: Movement**__
+⬥ **NPC's in RuneScape can only face in one of 8 drections**: the four cardinal directions N/W/S/E and the four diagonal directions in-between, NW/SW/SE/NE.
+⬥ NPCs can also only **move** in one of these 8 directions.
+    • The same behaviour applies to players as well.
+⬥ Each direction therefore corresponds to a 45° angle.
+
+.
+__**Facing Direction: Targeting**__
+⬥ **Bosses in Runescape will always face the direction their target is in**. Again, this can only be one of the 8 directions mentioned earlier.
+    • When without a target, NPCs will face in the direction they are moving.
+⬥ **Players can face any direction, but they will be re-oriented to face their target when**:
+    • They get a new target (by clicking or using target cycle).
+    • They attack a target (using any spell/ability/special attack/etc.)
+    • They try to cast a channel while in attack range of a target.
+⬥ The following image attempts to show how bosses will face based on their target's location.
+.img:https://i.imgur.com/BJtN9We.png
+.
+⬥ In the above image:
+    • The center 2x2 region represents the monster's hitbox.
+    • The monster's center tile is marked by **C** (in this case, the SW tile of the middle 2x2 region since the monster is even-sized).
+    • The dark-colored tiles represent cardinal directions, and the lighter tiles are diagonal directions.
+.
+⬥ Here is a small table of player positions vs. where the monster would face:
+```
+Player at F6  → Monster faces NORTH-WEST
+Player at R10 → Monster faces EAST
+Player at K14 → Monster faces SOUTH
+Player at L14 → Monster faces SOUTH-EAST
+etc.
+```
+⬥ This is important as it can affect flanking angles.
+.
+__**NPC Directions and Flanking**__
+⬥ Flanking <:flankicon:841419289755385866> requires the following conditions to be met:
+    • Target is facing a particular direction.
+    • Your distance past the target's center tile *in that direction* is zero - i.e. relative to the center tile you are not further ahead than the target *in that direction*.
+⬥ If **both** the above conditions are met, then you can Flank <:flankicon:841419289755385866> the target.
+⬥ See the following image for 2 examples of angles that you can Flank from on larger targets.
+.img:https://i.imgur.com/fgggN05.png
+.
+⬥ **Case 1: Target Facing South (Cardinal Direction)**
+    • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
+        - The target is facing south.
+        - The player is not further south than the target's center.
+    • i.e. **Flanking angle is the 180° region behind the target's center**.
+.
+⬥ **Case 2: Target Facing North-West (Diagonal Direction)**
+    • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
+        - The target is facing both north and west.
+        - Player is *only* futher north, *not* also further west, than the target's center.
+    • i.e. **Flanking angle is the 270° region not including the quadrant the boss is facing**.
+⬥ See the following image for an example of this behaviour with a 2x2 monster:
+.img:https://i.imgur.com/G3bGkKk.png
+
+.
+__**Solo Flanking**__
+⬥ It is possible to use <:flankicon:841419289755385866> on some bosses even in a solo scenario.
+⬥ **Method 1: Move Behind Target**
+    • By moving behind the target, you can use cast an ability and get the <:flankicon:841419289755385866> effect.
+    • Some bosses like Black Stone Dragon (during the spiral flames) or Kerapac (when he spawns the Time Thread Tears) will avoid moving, and this gives time for the player to move behind them.
+.
+⬥ **Method 2: Move Under Target**
+    • You can move under a target when casting an ability and be able to benefit from <:flankicon:841419289755385866> effect.
+    • This can happen when the target is immobile (like Ambassador), or temporarily immobile (like the examples before).
+    • Mobile but stunnable/bindable targets (like Telos) can be stunned/bound then walked under.
+
+.
+{
+  "embed": {
+    "title": "__Solo Flanking Examples__",
+    "description": "Some sample applications of using Flanking <:flankicon:841419289755385866> in solo encounters.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ambassador__",
+        "value": "⬥ [Walking under Ambassador to use Flanking.](https://imgur.com/FMhz1Cm.mp4)"
+      },
+      {
+        "name": "__Raksha__",
+        "value": "⬥ [Moving to one side to use Flanking during the tail swipe.](https://imgur.com/G1zlwXH.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Player Character Movement**__
+.tag:playermove
+__**Bladed Dive**__
+⬥ **Bladed Dive <:bd:535532854281764884> is a melee movement ability** that can be unlocked from Shattered World for 63M anima.
+⬥ It is unique, in that **it allows you to specify a tile to move to** after casting the ability.
+⬥ **The maximum range is 10 tiles.**
+⬥ After the ability is used, the player's final position and facing direction depend on where the click was made. The following image illustrates this:
+.img:https://i.imgur.com/ODMwLfr.png
+.
+⬥ Note the following in the above image:
+    • The maximum range of <:bd:535532854281764884> (10 tiles) is indicated by the black border.
+    • Clicking anywhere within this range will move the player to exactly that tile, and their facing direction will be the same orientation as the arrow within that tile.
+    • Clicking outside the range will move the player up to 10 tiles along one of the 8 main directions based on where they clicked, indicated by the **green** and **red** tiles along the border - this will be where the game tries to move the player to.
+.
+⬥ **If Surge <:surge:535533810004262912> is used immediately after <:bd:535532854281764884> then it will move the player in the direction they are facing after the <:bd:535532854281764884> landed.**
+.
+⬥ Additionally, Bladed Dive also does damage.
+    • Bladed Diving onto a target will attempt to do damage in a 3x3 AoE.
+    • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
+    • *This AoE is centered on around the player where they land*.
+
+__**Walking Abilities**__
+⬥ Players can move while casting abilities, with some exceptions:
+    • Generally cannot move while channeling an ability (with some exceptions, see below).
+    • Queued abilities interrupt movement (see __**Ability Queueing**__ for a video example).
+⬥ Moving during a channeled ability will cancel the ability - this may happen by accident.
+    • To prevent this, **press an auto attack keybind before pressing your channel**.
+    • e.g. pressing <:AirSurge:543465115870035999> → <:onsl:513190159085207555> will prevent it from accidentally being cancelled.
+    • This works because the auto attack attempts to stop your character, even if it's on cooldown.
+.
+⬥ The following channeled abilities are exceptions:
+    • Players can walk during <:melee:615612332521029632> Melee channels (<:assault:535532855191928842> / <:destroy:535532879330148352> / <:flurry:864492981763702834>) on any *non-cast tick*.
+        - Cast ticks are ticks 1/3/5/7, so players can move on ticks on ticks 2/4/6/8 and not cancel the channel.
+    • Players can walk during Rapid Fire <:rapid:535541270521708566> if wearing Fleeting Boots <:fleetingboots:789813993480388640>
+    • Players can walk during Snipe <:snipe:535541258425204770> if wearing <:nightmaregauntlets:513190159441723392>
+
+.
+> __**Seren Godbow (SGB) Mechanics**__ <:sgb:626466665848242186>
+.tag:sgb
+__**How It Works**__
+⬥ The Seren Godbow <:sgb:626466665848242186> is a T92 chargebow that has a strong special attack, *Crystal Rain*.
+⬥ The special attack fires 5 arrows that land in a certain area around the target. There are two aspects to this:
+    • Whether Arrow 1 hits, and how it affects the special attack.
+    • How the game decides whether Arrows 2-5 hit the target, and how much damage they do.
+
+.
+__**Arrow 1**__
+⬥ Arrow 1 lands 1 tick before the other arrows, dealing **80-200% ability damage.**
+⬥ **If Arrow 1 hits**: damage from the remaining arrows is calculated, and <:sgb:626466665848242186> <:spec:537340400273195028> goes on cooldown for 30s.
+⬥ **If Arrow 1 splashes**: all other arrows splash, and <:sgb:626466665848242186> <:spec:537340400273195028> can be re-used immediately (no cooldown).
+
+.
+__**Arrows 2-5+**__
+***Note**: In most cases, only the first 5 arrows are considered. For exceptions, see __**Notes**__ below.*
+.
+⬥ All subsequent arrows scale their maximum damage range based on Arrow 1's **minimum** hit - see the following table.
+.img:https://i.imgur.com/HQBDkMa.png
+⬥ Some perks can impact this range:
+    • **Precise <:p6:712073088769982475> applies its effect to Arrow 1 first**, then subsequent damages are calculated using the new minimum.
+    • **Equilibrium <:eq4:712073088589627505> applies its effects on the final damage range**.
+.
+⬥ To decide whether Arrows 2-5 hit the target, the game does the following:
+    • **Step 1: Find NPC center**
+        - This is the actual NPC center (middle tile).
+        - For even-sized NPCs (2x2, 4x4, etc.) this is the SW tile of their middle 2x2 region.
+    • **Step 2: Find starting tile for spec**
+        - Choose a tile that is `Floor(NPC Size/2)` away from its center.
+        - Player must be able to walk to this tile - if no options are acceptable, then use the NPC center instead.
+    • **Step 3: Choose 4 tiles in a 2x2 radius around chosen tile**
+        - Arrows 2-5 will land on these tiles.
+        - If a tile is already used by a previous arrow, reroll the choice up to 10 times.
+    • **Step 4: Any arrows that overlap with NPC hitbox will do damage.**
+
+⬥ **This means that the chances that Arrows 2-5 hit the target increase with the size of the target.**
+    • **i.e.** on bigger targets, the minimum expected damage of <:sgb:626466665848242186> <:spec:537340400273195028> increases.
+⬥ The following diagram visualizes this process for two example targets, 4x4 and 5x5 in size.
+.img:https://i.imgur.com/B1kn9o9.png
+*Note: The image is just an __example__, actual results may vary due to randomness.*
+
+⬥ The average number of targets that will hit a given NPC, based on its size is given in the following table:
+.img:https://i.imgur.com/LeTp1JH.png
+.
+⬥ **A general rule of thumb for <:sgb:626466665848242186> <:spec:537340400273195028>**:
+    • When Ranging → use on 3⨯3 or bigger targets.
+    • When off-style → use 5⨯5 or larger targets.
+
+.
+__**Blocked Targets**__
+⬥ A target is considered 'blocked' when the player is unable to reach it's center tile.
+    • e.g. P5 Telos
+⬥ Any NPC that is larger than 5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
+
+.
+__**Notes**__
+⬥ **Multi-SGB Hits**
+    • It is possible for multiple <:sgb:626466665848242186> <:spec:537340400273195028> to hit a target 'at once'.
+    • This can happen with **chin-sgb** (<:mechchin:641669268722810881> + <:sgb:626466665848242186> <:eofspec:746403211908481184>) or if multiple people use <:sgb:626466665848242186> <:spec:537340400273195028> at the same time.
+    • **All arrows that land on a target within 2t of Arrow 1 are considered part of the same 'spec'**, and so will scale down in damage based on the table earlier.
+.
+⬥ Arrows 2-5+ roll for critical hits when they are 'cast'.
+    • i.e. after Arrow 1 lands, or 3t after using <:sgb:626466665848242186> <:spec:537340400273195028>.
+⬥ If Ingenuity of the Humans <:ingen:641339234111848463> is used, it guarantees Arrow 1 to hit.
+    • This forces Arrows 2-5 to roll for damage, and on a blocked target >5x5 in size, means all 5 arrows will hit.
+
+.
+> __**Target Cycling (TC)**__
+.tag:tc
+__**How It Works**__
+⬥ **Target cycling is the ability to select a new combat target using a keybind, instead of clicking it.**
+    • This is similar to 'tab-targeting', found in other MOBAs and MMOs.
+⬥ Target cycle settings can be found by pressing **Esc > Settings > Gameplay > Combat > Targeting**.
+.img:https://i.imgur.com/Apqq3Th.png
+.
+⬥ These settings determine how a target is found when the corresponding keybind (*forward* or *backward*) is pressed.
+⬥ **Radial targeting:**
+    • Cycles from the nearest to the farthest target from the player when pressed.
+    • In the case of multiple equidistant targets, it will cycle clockwise starting from the north.
+    • This is useful for simply snapping to the closest target available.
+⬥ **Conal Targeting:**
+    • Cycles from the closest to the farthest target in the direction the camera is facing.
+    • The angle for an NPC to be considered eligible for selection is around 75-90°.
+    • This is most useful for more precise targeting in scenarios with multiple NPCs around.
+⬥ The **maximum target distance** limits the range of available targets to the set value.
+
+.
+__**Why it is Useful**__
+⬥ Allows for **easy target selection** with just the press of a keybind.
+⬥ Can **target some encounters earlier than normal** by using target cycling instead of clicking.
+    • This happens at places like Helwyr or Vindicta, where the boss has spawned but cannot be clicked for a few ticks. Target cycling bypasses this delay.
+⬥ It is useful for improving consistency and speed in nearly all boss encounters.
+    • Being able to target them on the same tick every encounter makes opening rotations at first easier.
+⬥ A notable advantage is that **you can target cycle to a new target while still charging Detonate** <:deto:535533833358016512> without cancelling it.
+    • This is not possible without target cycle (you would have to release Detonate then select a new target).
+
+.
+{
+  "embed": {
+    "title": "__Target Cycling (TC)__",
+    "description": "Some sample applications of target cycling.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Vorago__",
+        "value": "⬥ [Targetting a Scopulus on P3 earlier than usual to lure it properly.](https://www.youtube.com/watch?v=KmYgKcfLeRc)\n⬥ [Tagging Vorago early on phase dropdowns to aggro or get in an extra hit.](https://www.youtube.com/watch?v=9YejOAvquQk)"
+      },
+      {
+        "name": "__Ambassador__",
+        "value": "⬥ [Targeting fragments earlier in the spinner phase to get more time.](https://i.gyazo.com/a3b13b217022a8523de01b4e50b3cc9f.mp4)"
+      },
+      {
+        "name": "__Solak__",
+        "value": "⬥ Tagging the core/arms/legs on P1 faster to save ticks.\n⬥ Tagging eruptions on P2 before they're visible to save ticks."
+      },
+      {
+        "name": "__Angel of Death__",
+        "value": "⬥ [Changing target to Nex while charging Detonate.](https://i.imgur.com/ZFIZdKl.mp4)\n⬥ Using TC to target pillars, since it's easier than trying to click a target while moving."
+      },
+      {
+        "name": "__GWD2__",
+        "value": "⬥ Attacking bosses before their spawn animations are complete using TC."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Tick System**__
+.tag:ticksystem
+⬥ RuneScape runs on an internal clock, otherwise known as the 'tick system'.
+⬥ This is how often the game updates information. All actions and updates are registered on a tick.
+⬥ Each game tick (often just written as 't') is 0.6 seconds long - i.e. 1t = 0.6s.
+    • For reference, the global cooldown (the time between pressing abilities one after another) is 3t/1.8s long.
+⬥ This has enormous impact on virtually all aspects of the game, from movement to abilities used in combat to skilling and everything inbetween.
+⬥ One big advantage of the tick system is that **even if you have relatively high latency, its impact on the gameplay is not as noticable as in other games like FPS shooters**, due to the lengthy in-built tick duration.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Tick System and Movement__",
+        "value": "For a short video explanation of the tick system and how it affects movement, [click here](https://youtu.be/hElkOvHJmaA)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Typeless Damage**__
 .tag:typeless
-**__What Is Typeless Damage__**
-⬥ This refers to damage that appears as a red hitsplat with no symbol beside it.
-    • All hits of this nature are categorized as either hard typeless or soft typeless.
+__**How It Works**__
+⬥ **Typeless damage is a generic damage that appears as a red hitsplat with no symbol next to it.** There are two kinds of typeless damage: **hard typeless** and **soft typeless**.
+⬥ **Hard Typeless**
+    • This damage is immune to being affected by almost all damage modifiers.
+    • Common exceptions include Barricade <:cade:535541306353778689> and Intercept <:Cept:543478434509357098>.
+    • Examples include Araxxor's Egg Bomb special attack, Vorago's damage on drop-down or his Red Bomb attacks.
+⬥ **Soft Typeless**
+    • This damage is affected by most damage modifiers.
+    • It is also increased by effects like Berserk <:zerk:535532854004678657> and Berserker aura variants <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>.
+    • Examples include Telos' rockfall damage, and Nex: AoD's 'Elements' special attack.
 
 .
-**__Hard Typeless__**
-⬥ This is damage that is unaffected by nearly all damage modifiers.
-    • Common exceptions of this are <:cade:535541306353778689> and <:Cept:543478434509357098> (5% damage reduction).
-⬥ Araxxor <:Araxxi:513213019543699466> Egg Bomb and Vorago <:vorago:572867742613635082> Drop Down are a couple examples of this.
+> __**Vengeance**__
+.tag:veng
+__**How It Works**__
+⬥ Vengeance <:Veng:543478434953822208> is a Lunar Spell that gives a player the 'Vengeance' buff - **the next incoming hit will be rebounded for 75% of its damage**.
+    • **It does not prevent damage taken.**
+    • It can be cast every 30 seconds.
+⬥ It can reflect up to 8000 damage.
+⬥ Group Vengeance <:venggroup:1009570755836641331> is a variant that applies the effect to the caster **and** up to 50 players in a 7x7 region centered on the caster.
+⬥ Similarly, Vengeance Other <:vengother:1015698983034826794> applies the effects of <:Veng:543478434953822208> to **one** other player with accept aid turned on.
+
+__**Vengeance Interactions**__
+⬥ It cannot damage reflect-immune targets.
+⬥ It does **not** get consumed by typeless damage.
+⬥ The following spells/abilities will take priority - Vengeance <:Veng:543478434953822208> will not be consumed if they are active:
+    • Disruption Shield <:disrupt:535614336207552523>
+    • Divert <:divert:787904334377648130>
+    • Resonance <:res:535541258844635148>
+    • Devotion <:devo:513190158728953857> (assuming correct overhead prayer)
+    • Barricade <:cade:535541306353778689>
+⬥ Vengeance **is** affected by damage modifiers, and applied at the end.
+    • Vulnerability <:Vuln:537349530551582720> and other damage-increasing curses on the target will increase rebounded damage.
+    • Modifiers that reduce incoming damage will reduce <:Veng:543478434953822208> damage since you will take a smaller hit.
+        - e.g. Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> / Intercept <:Cept:543478434509357098>
+    • Modifiers that increase incoming damage will also increase <:Veng:543478434953822208> damage as you take a bigger hit
+        - e.g. Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> / Berserk <:zerk:535532854004678657>
 
 .
-**__Soft Typeless__**
-⬥ This is damage that is scaled by most modifiers.
-    • Decreased by all defensive abilities, <:disrupt:535614336207552523>, etc.
-    • Increased by <:Berserk:513190158468907012>, Zerk auras, etc.
-⬥ Examples of this are Elements at Nex: AoD <:Nex:513213159071547395> and Rockfall at Telos <:Telos:513212949033123840>.
+> __**Walking Monsters**__
+.tag:walking
+*Note: Not all targets can be walked (e.g. Ambassador) - this section specifically refers to targets that **can** be walked.*
+__**How It Works**__
+⬥ 'Walking' refers to moving a target from its original position.
+⬥ There are **two ways to walk targets**:
+    • Move outside its attack range, and it will move to try and attack you.
+    • Move underneath it, and it will move aside to try and attack you.
+        - For targets not in MD, movement abilities like Surge <:surge:535533810004262912> and Bladed Dive <:bd:535532854281764884> can be used to get under them losslessly during GCD.
+⬥ **NPCs can only be walked in 3 directions: east, west and south**. Never north.
+⬥ Bosses will move at 2 squares per tick, just like players running.
+
+
+__**Determining Walk Direction**__
+⬥ When walking a target by moving under them, they will first move in a random direction.
+⬥ After hitting a wall:
+    • Targets moving **east** will now move **west**.
+    • Targets moving **west** will now move **south**.
+    • Targets moving **south** will go **east or west**.
+
+.
+__**Why Its Good**__
+⬥ You can walk bosses to **position them better for mechanics** or to save time.
+    • e.g. moving Telos out of a beam, or walking Vorago on the waterfall phase to skip mechanics and save time.
+⬥ Being able to **walk your own bleeds for increased damage** is a *strong* DPS increase.
+    • Applies to Frag Shot <:frag:535541273755385885> / Combust <:comb:535533833098100745> / Slaughter <:slaughter:535532879237873666>
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Walking Bosses__",
+        "value": "⬥ To see an how walking a boss like Araxxor works, [click here](https://youtu.be/A_6ah7GF_1k).\n⬥ To see how to walk a bleed by moving under your target, [click here](https://youtu.be/0Y0JGMeLcmI)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Weapon Poison**__ <:weppoison:689525476158472288>
+.tag:poison
+__**How It Works**__
+⬥ **Weapon Poison provides provides a buff that allows players to have a 12.5% chance of poisoning a non-immune target every attack.**
+    • Duration of this buff depends on the grade of poison (normal, +, ++, +++) being used.
+    • After being poisoned <:poisonicon:944649693500154006> targets will take damage every 16t/9.6s, for 3 minutes.
+    • Poison damage hits 2t after the damage that applied it.
+
+__**Calculating Poison Damage**__
+⬥ **Base poison damage <:poisonicon:944649693500154006> is 20% of ability damage**.
+    • Each tier of weapon poison (+, ++, +++) increases this value by 25% of its **base** value. Cinderbane gloves <:cinderbanes:513190158355660812> also give an additional 25%.
+    • The final damage is 65-130% of the total value.
+    • Unless refreshed, the damage range is reduced by 3% every poison hit.
+.
+⬥ **Final poison damage averages in terms of ability damage**:
+    • Weapon Poison: 19.5% (1)
+    • Weapon Poison+: 16.25-32.50% (average 24.36%)
+    • Weapon Poison++: 19.50-39.00% (average 29.25%)
+    • Weapon Poison+++: 22.75-45.50% (average 34.13%)
+    • Cinderbanes+++ 26.00-52.00% (average 39.00%)
+.
+⬥ Poison damage **is **affected by a number of items, covered in the following section.
+
+__**Poison Interactions**__
+⬥ **Cinderbane gloves** <:cinderbanes:513190158355660812>
+    • Ignores the 16t poison damage cooldown.
+    • Gives **1/8 (12.5%) chance per hit to apply poison**, doing an extra hit of damage and resetting the 16t damage timer.
+    • Also gives **1/8 (12.5%) chance for a poison hit to re-apply poison**, also resetting the 16t timer.
+    • Works out to an **effective 1/7 (~14.3%) chance of apply poison on any given hit**.
+    • If no poison variant is used, the gloves act as if Weapon Poison+ is used.
+.
+⬥ **Kwuarm Incense Sticks** <:KwuarmSticks:565726489341984779>
+    • Per level of potency, <:KwuarmSticks:565726489341984779> will add a multiplicative +2% increase to the final poison damage (up to 10% at potency level 4).
+    • This therefore stacks with other buffs.
+.
+⬥ **Bik Arrows** <:bikarrow:971025697235689513>
+    • Per stack, <:bikarrow:971025697235689513> will add a multiplicative +2% increase to the final poison damage (up to +400% at 200 stacks, or a 5x damage multiplier to poison).
+    • One arrow is consumed per hit (except bleed hits).
+    • Stacks last 30 seconds, and vanish entirely if not refreshed within the duration.
+    • They are recommended to be used at fights that take 3-4 minutes or longer where poison-stacking methods can be utilised.
+.
+⬥ **Laniakea's Spear** <:lanispear:839903893177106454>
+    • Increases the rate of application of poison is by an additive 5%, increasing it from 12.5% → 17.5%.
+    • After accounting for poison re-applying itself, this gives an effective application rate per hitsplat of ~21.2% (up from ~14.3% with Cinderbanes).
+    • Also increases poison damage by a multiplicative 5%, similar to Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>.
+.
+⬥ **Upgraded Bone Blowpipe** <:boneblowpipe:982264010563018772>
+    • Halves poison damage but doubles its base application rate (12.5% → 25%).
+    • After accounting for poison re-applying itself, this gives an effective application rate per hitsplat of or 33.3% (up from ~14.3% with Cinderbanes).
+.
+⬥ **Wyvern Crossbow** <:wyverncrossbow:580177522587729940>
+    • Applies its own "poison" damage separate from normal weapon poison.
+        - 50% chance per hit to apply a DoT that can stack.
+        - DoT deals damage 5 times, every 2 ticks, unless refreshed.
+        - Damage range increases with stacks, from 10-24 per hit → 125-249 per hit.
+    • **The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply.**
+.
+⬥ **Poison can be applied/refreshed by any player-sourced damage, including**:
+    • All auto-attacks and abilities - including bleeds and DoTs from abilities like <:comb:535533833098100745> / <:corruptshot:535541306294796299> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / etc.
+    • Abyssal Parasites
+    • Bakriminel Bolts (extra hits from Emerald <:emeraldbakri:866551637714665484> and Dragonstone <:DragonstoneBakri:565726489144852511> bolts)
+    • Blood Necklaces <:bloodfury:1015698981118038117>
+    • Blood Reaver familiar <:bloodreaver:929773044296216666> (passive effect)
+    • Dwarf Multicannon (+upgrades) <:cannon:869283142350041098>
+    • Dominion Mines <:dommine:662249620579155968>
+    • Eldritch Crossbow <:ecb:615618531937222657> <:spec:537340400273195028>
+    • God books and Scriptures <:armabook:513190159051915264> <:scriptureofjas:869284342839513108><:scriptureofful:902209626412560395> <:scriptureofwen:883134307902816297>
+    • Poison Damage <:poisonicon:944649693500154006> (can re-apply itself)
+    • Puncture bleeds
+    • Reflect damage
+    • Wyvern Crossbow <:wyverncrossbow:580177522587729940> (passive effect)
 
 .
 {
@@ -668,95 +980,20 @@ Corruption Shot <:corruptshot:535541306294796299>, Ricochet <:ricochet:535541259
     "title": "Table of Contents",
     "color": 39423,
     "fields": [
-     {
-	    "name": "__Tick System__",
-        "value": "[Link]($linkmsg_tick$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Target Cycling__",
-        "value": "[Link]($linkmsg_tc$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Solo Flanking__",
-        "value": "[Link]($linkmsg_soloflanking$)",
-		"inline": true
+      {
+        "name": "__Mechanics (1/3)__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Abiltiy Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [B2B Special Attacks]($linkmsg_b2bspec$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)",
+        "inline": true
       },
       {
-	    "name": "__Critical Hits__",
-        "value": "[Link]($linkmsg_crits$)",
-		"inline": true
+        "name": "__Mechanics (2/3)__",
+        "value": "⬥ [Grimshaw]($linkmsg_grimshaw$)\n⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
+        "inline": true
       },
-	  {
-	    "name": "__Walking Bosses__",
-        "value": "[Link]($linkmsg_walking$)",
-		"inline": true
-      },
-          {
-	    "name": "__Manual Spellcasting__",
-        "value": "[Link]($linkmsg_manualspellcasting$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Boss Centre and AoE__",
-        "value": "[Link]($linkmsg_centre$)",
-		"inline": true
-      },
-	  {
-	    "name": "__SGB Interactions__",
-        "value": "[Link]($linkmsg_sgbspec$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Boss Sizes for SGB__",
-        "value": "[Link]($linkmsg_sizes$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Adren Gain without a Target__",
-        "value": "[Link]($linkmsg_adrengain$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Ability Stalling__",
-        "value": "[Link]($linkmsg_stall$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Weapon Poison__",
-        "value": "[Link]($linkmsg_poison$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Zerk Auras and Ult Interactions__",
-        "value": "[Link]($linkmsg_zerkAura$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Hex Modifier__",
-        "value": "[Link]($linkmsg_hex$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Grimoire and Scrimshaw Switching__",
-        "value": "[Link]($linkmsg_grimshaw$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Instance Hopping__",
-        "value": "[Link]($linkmsg_inshopp$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Camera Shaking__",
-        "value": "[Link]($linkmsg_shake$)",
-		"inline": true
-      },
-       {
-	    "name": "__Typeless Damage__",
-        "value": "[Link]($linkmsg_typeless$)",
-		"inline": true
+      {
+        "name": "__Mechanics (3/3)__",
+        "value": "⬥ [Target Cycle]($linkmsg_tc$)\n⬥ [Tick System]($linkmsg_ticksystem$)\n⬥ [Typeless Damage]($linkmsg_typeless$)\n⬥ [Vengeance]($linkmsg_veng$)\n⬥ [Walking Monsters]($linkmsg_walking$)\n⬥ [Weapon Poison]($linkmsg_poison$)",
+        "inline": true
       }
     ]
   }
