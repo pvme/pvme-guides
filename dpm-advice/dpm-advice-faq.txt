@@ -101,7 +101,7 @@ __**Combat Strategy with Revo**__
 ⬥ When you reach 100% adrenaline, activate your damage-boosting Ultimate abilites.
     • These are Sunshine <:sunshine:994921119381463070> , Death's Swiftness <:deathsswift:994921434633744455> and Berserk <:Berserk:513190158468907012> depending on your combat style.
 ⬥ From there, use your thresholds, modified ultimate abilities and special attacks as adrenaline and ability cooldowns permit.
-    • Examples include Wild Magic <:wm:535533809978966037> , Snapshot <:snap:535534127131394088> , Assault <:assault:535532855191928842> ,  etc.
+    • Examples include Wild Magic <:wm:535533809978966037> , Snapshot <:snap:535534127131394088> , Assault <:assault:535532855191928842> , etc.
 ⬥ This simple pattern can be used to achieve a moderate level of DPS with low-medium player input
     • **Build to 100% → damage-boosting ultimate → thresholds/modified ultimates/special attacks → Repeat**
     • If you have full adrenaline, but cannot use a damage-boosting ultimate, you can use a couple thresholds while waiting for the cooldown.
@@ -109,8 +109,8 @@ __**Combat Strategy with Revo**__
 __**Setting Up A Revolution Bar**__
 ⬥ Strong basics are prioritized over weaker basics.
 ⬥ At least one short cooldown ability is placed at the front to help with ability cooldowns.
-⬥ **Avoid normal Fury <:fury:535532879510372352> and normal Concentrated Blast <:conc:535533833106489365> if you do not manually cancel them.**
-    • Revolution does *not* do this for you.
+⬥ **Avoid normal Fury <:fury:535532879510372352> and normal Concentrated Blast <:conc:535533833106489365> if you do not manually cancel them after 2 hits.**
+    • Revolution does *not* do this for you, it channels them for the full 3 hits.
 ⬥ Thresholds and ultimate abilities can be placed anywhere on the bar − you will be manually activating them, so the order does not matter.
 
 .
@@ -332,7 +332,7 @@ __**Channeled Abilities**__
     • Concentrated Blast <:conc:535533833106489365> - 2-hit (3t/1.8s)
     • Greater Concentrated Blast <:gconc:869285393223254107> - 3-hit (3t/1.8s)
     • Asphyxiate <:asphyx:535533833072672778> - 2-hit (3t/1.8s), or 4-hit (7t/4.2s)
-    • Smoke Tendrils <:smoketendrils:536257336130404372> - 2-hit (3t/1.8s), or 4-hit (7t/4.2s)
+    • Smoke Tendrils <:smoketendrils:536257336130404372> - 4-hit (7t/4.2s)
 .
 ⬥**Ranged Abilities** <:range:580168050121113623>
     • Snipe <:snipe:535541258425204770> - 1-hit (4t/2.4s)
@@ -364,8 +364,8 @@ __**Channeled Abilities**__
 .tag:priority
 __**Why It's Important**__
 ⬥ As obvious as it may sound, **using stronger abilities increase your DPS**, more so than any other gear upgrade.
-⬥ Abilities can be prioritised differently based on the scenario. For example, bleeds (e.g. <:comb:535533833098100745> <:corruptblast:513190159194259467> / <:frag:535541273755385885> <:corruptshot:535541306294796299> / <:dismember:535532879376023572> <:BloodTend:513190158431158274> <:slaughter:535532879237873666> ) have lower priority while under damage-boosting ultimates ( <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> ) since their damage doesn't get boosted.
-        - In fact, if using a Berserker-variant aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>, these abilities will actually be *worse* than if used outside these ultimates, as the auras don't boost damage while in an ultimate.
+⬥ Abilities can be prioritised differently based on the scenario. For example, DoTs, or damage-over-time abilities (e.g. <:comb:535533833098100745> <:corruptblast:513190159194259467> / <:frag:535541273755385885> <:corruptshot:535541306294796299> / <:dismember:535532879376023572> <:BloodTend:513190158431158274> <:slaughter:535532879237873666> ) have lower priority while under damage-boosting ultimates ( <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> ) since their damage doesn't get boosted.
+    • In fact, if using a Berserker-variant aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>, these abilities will actually be *worse* than if used outside these ultimates, as the auras don't boost damage while in an ultimate.
 ⬥ In other words, **you should know which abilities are strong in which scenarios**, and use that to your advantage.
 
 .
@@ -373,7 +373,6 @@ __**How to Fix**__
 ⬥ Read the __**Ability Prioritisation**__ sections in the style-specific channels to get an idea of how to prioritize abilities for each style (<#534567464370044928>, <#563917498169425930>, <#534912860711550989>).
 ⬥ For more information, check out the **Ability Damage Maths** spreadsheet in <#611748860746006528>.
 ⬥ Also, an explanation of how most abilities work can be found in <#689212192398114875>.
-
 
 .
 > __**Managing Cooldowns**__
@@ -394,7 +393,7 @@ __**How to Fix**__
 .
 > __**Losing Ticks**__
 .tag:lostticks
-__**Why It's Important**__
+__**Why It's Important* To Be Aware of Losing Ticks*__
 ⬥ Not using the next ability in the sequence fast enough causes lost ticks, where your character stands still doing nothing.
 ⬥ This may be due to slow ability input, or being slow with weapon switches, or forgetting to click a target again while using revo if you stop attacking for any reason.
 ⬥ This is similar to not cancelling channeled abilities properly - it can add up to a large amount of wasted DPS potential over time.
@@ -424,13 +423,13 @@ __**How to Fix**__
 .
 > __**Not Using Invention Perks**__
 .tag:perks
-__**Why It's Important**__
+__**Why It's Important To Use Perks**__
 ⬥ Invention perks offer large increases to both your damage and survivability, and are absolutely recommended to be used. The benefits of perks far outweigh the costs of using augmented gear.
 ⬥ There are two kinds of perks - the perks that you camp, or *base perks*, and the perks that go on switches, that we'll call *switch perks*.
 ⬥ It is strongly recommended to unlock **Ancient Invention**, requiring 85 <:Invention:689509250946695292> Invention (boostable with an extreme invention potion from level 67 and blueprints for gizmos can be bought on the Grand Exchange).
     • **Ancient invention perks are stronger, and in many cases far easier to get**, than their normal counterparts.
 .
-*Note: For a detailed list of perks and why they're used, check out <#553632787639435284> and <#689236234912137266>.*
+*Note: You can get starter perks going **as low as level 68 Invention** <:Invention:689509250946695292> + an Extreme Invention potion. For a detailed list of perks and why they're used, check out <#553632787639435284> and <#689236234912137266>.*
 
 .
 __**Base Perks**__
@@ -479,7 +478,6 @@ __**How to Fix**__
 __**Why It’s Important**__
 ⬥ It may seem convenient and cost-effective to save on supplies, doing things such as:
     • Using normal spells <:AirSurge:543465115870035999> over ancient spells <:bloodbarrage:537338981747261446> <:exsanguinate:856635090745950258> <:incitefear:856635090783567902>
-    • Manually casting debuffs <:Vuln:537349530551582720> instead of using bombs <:vulnbomb:655341074235129858>
     • Using cheap ammo like ascension bolts instead of bakriminel bolts <:RubyBakri:565726489413287956> <:HydrixBakri:550834403136503822>
     • Using low tier food instead of <:Sailfish:565726489363087360> or <:sailfishsoup:537336701933060106>
     • Wearing cheaper alternatives <:Armadyl_helmet:556582831527034919> <:armaplate:643150997828403231> <:Armadyllegs:556592073340354574> instead of better equipment <:sirenicmask:643846959454617610> <:sirenicbody:643846948570267648> <:sireniclegs:643846938537623564>

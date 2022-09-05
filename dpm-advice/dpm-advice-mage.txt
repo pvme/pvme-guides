@@ -111,6 +111,7 @@ Here we'll cover some of the points to keep in mind to build a succesful Magic D
 
 *Note 1: In the current meta, camping dual-wield > camping 2H, although ideally we use both.*
 *Note 2: If Greater Concentrated Blast <:gconc:869285393223254107> is not unlocked, use the regular version <:conc:535533833106489365> below.*
+
 .
 __**Managing Cooldowns**__
 ⬥ **High damaging abilities often come with long cooldowns** - when building a rotation, ability prioritisations *and* cooldowns should be on your mind.
@@ -142,14 +143,14 @@ __**Basic Pattern**__
 
 .
 __**Building The Rotation**__
-*Note: It is assumed that Sunshine lasts for 37.8 seconds. You can do this with using Planted Feet <:sunshinepf:994921595489488927> or by unlocking Greater Sunshine <:gsunshine:994644352871714836> - both alternatives work. Examples of full Sunshine rotations can be found at the bottom of this guide in the __**General Sun Rotations**__ section.*
+*Note: It is assumed that Sunshine lasts for 38.4 seconds. You can do this with using Planted Feet <:sunshinepf:994921595489488927> or by unlocking Greater Sunshine <:gsunshine:994644352871714836> - both alternatives work. Examples of full Sunshine rotations can be found at the bottom of this guide in the __**General Sun Rotations**__ section.*
 .
-⬥ Sunshine <:sunshinepf:994921595489488927> lasts 37.8 seconds, but only has a 60 second cooldown. **We want to prioritise building to 100% adrenaline and using Sunshine often, as it boosts damage by 50%.**
+⬥ Sunshine <:sunshinepf:994921595489488927> lasts 38.4 seconds, but only has a 60 second cooldown. **We want to prioritise building to 100% adrenaline and using Sunshine often, as it boosts damage by 50%.**
     • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration.
     • Ideally, enter boss fights with 100% adrenaline so you can activate it immediately at the start.
 .
 ⬥ **You can think of your overall rotation as two repeating sections**:
-    • [37.8s inside <:sunshinepf:994921595489488927> ] → [22.2s outside]  → Repeat
+    • [38.4s inside <:sunshinepf:994921595489488927> ] → [21.6s outside]  → Repeat
 .
 ⬥ Both in and out of Sunshine <:sunshinepf:994921595489488927>, you will want to prioritise your strong thresholds, special attacks, and modified ultimates.
     • Wild Magic <:wm:535533809978966037>
@@ -192,12 +193,13 @@ __**Tips**__
 .
 Magic spells can be set to *autocast*, which essentially 'selects' them to use with your abilities.Think of this like picking your ammo for a ranged weapon. When using abilities, stronger spells can increase your ability damage, similar to ranged ammo. If you don't press an ability, then the selected spell gets used to cast auto attacks.
 
-However, there are a few points to note:
+__**Important Notes**__:
 ⬥ All spells have a damage limit they can scale up to. For example, Air Surge <:AirSurge:543465115870035999> is unlocked at level 81, but scales up to level 99, with the damage being capped by your weapon tier.
 ⬥ This is important, because **your autocast must *atleast* scale up to your weapon tier**.
     • e.g. You should not autocast Air Strike <:airstrike:895600427930910730> with a Noxious Staff <:noxstaff:513190159294922753> because it stops scaling at level 16, but the staff has a requirement of level 90.
-⬥ **The element of a spell generally does not affect its damage**, but it can affect hitchance if a monster is weak to that element.
-    • e.g. If you have 100% hitchance on a target, then <:AirSurge:543465115870035999> and <:FireSurge:543465116092334083> would do the same damage.
+⬥ **The element of a spell generally does not affect its damage, but it can affect hitchance** if a monster is weak to that element.
+    • e.g. <:AirSurge:543465115870035999> and <:FireSurge:543465116092334083> would do the same *damage* to a target weak to Air spells.
+    • However, if you are not at 100% *hitchance* on a target, then using the correct weakness will increase it.
     • Some exceptions exist, such as Ice Strykewyrms <:icestrykewyrm:1004107267915907166> / Glacors <:glacor:1004107344935923743> taking boosted damage from Fire spells <:FireSurge:543465116092334083> spells.
 ⬥ **Some spells like <:exsanguinate:856635090745950258> or <:incitefear:856635090783567902> will only give their passive benefits if selected as autocast**.
 
@@ -270,7 +272,7 @@ __**When to Cancel Channels**__
     • <:gconc:869285393223254107> → <:asphyx:535533833072672778> → <:gconc:869285393223254107> is still a strong option, especially if not using 4TAA.
     • To cancel on the 3rd hit you would cancel after 5t/3s.
 ⬥ **Smoke Tendrils** <:Smoke_Tendrils:536257336130404372>
-    • Same as Asphyxiate <:asphyx:535533833072672778> timing.
+    • Same as Asphyxiate <:asphyx:535533833072672778> timing, but typically only cancelled after 4 hits.
 ⬥ **Armadyl Battlestaff** <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>
     • Generally used for its full duration of 5t/3s.
 .
@@ -422,7 +424,7 @@ __**Notes**__
 .tag:gsun
 __**How It Works**__
 ⬥ Greater Sunshine <:gsunshine:994644352871714836> is an upgraded version of regular Sunshine <:sunshine:994921119381463070>, unlocked by reading a Greater Sunshine ability codex <:gsunshinecodex:1004453784539373688> costing <:coins:698816156961603654> $data_pvme:Unlocks!B21$.
-⬥ It **increases the duration from 52t/31.2s to 63t/37.8s**, and **retains the damage-over-time effect** that regular Sunshine <:sunshine:994921119381463070> has.
+⬥ It **increases the duration from 52t/31.2s to 64t/38.4s**, and **retains the damage-over-time effect** that regular Sunshine <:sunshine:994921119381463070> has.
     • This effect may be replicated using the Planted Feet perk <:pf:689501925770919981> however this loses the damage-over-time component.
 
 .
@@ -550,7 +552,6 @@ __**How It Works**__
     • <:dbreath:535533833391702017> gets a 10% chance of applying a bleed that hits 3 times, dealing 10% of Dragon Breath's <:dbreath:535533833391702017> max hit (rounded down) per hit.
         - This excludes boosts that do not normally boost bleeds.
 
-
 .
 > __**Fractured Staff of Armadyl**__
 .tag:fsoa
@@ -663,7 +664,7 @@ __**How It Works**__
 .
 > **__Defensive Autos__**
 .tag:defauto
-While colloquially referred to as 'defensive' autos, it is more accurate to call them 'non-damaging' autos, since some non-defensive abilities have similar interactions with autos. Examples include Sunshine <:sunshine:994921119381463070> , Metamorphosis <:meta:535533811304497183> and (targeted) Magma Tempest <:magmatempesttarget:924741973858996284>.*
+While colloquially referred to as 'defensive' autos, it is more accurate to call them 'non-damaging' autos, since some non-defensive abilities have similar interactions with autos. Examples include Sunshine <:sunshine:994921119381463070> , Metamorphosis <:meta:535533811304497183> and (targeted) Magma Tempest <:magmatempesttarget:924741973858996284>
 For a thorough explanation of how defensive autos (and auto attacks in general) work, refer to <#848333214589911040>. Here, we will simply cover some of their uses.
 .
 __**Why Defensive Autos Exist**__
