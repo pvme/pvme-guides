@@ -1,6 +1,6 @@
 > __**Introduction**__
 .tag:intro
-This chnanel will cover a number of game mechanics, uncommon ability interactions, and more nuanced game information that can be used for reference.
+This channel will cover a number of game mechanics, uncommon ability interactions, and more nuanced game information that can be used for reference.
 
 Mechanics are split into two categories: **basic** and **advanced**. Basic mechanics are game interactions that are more important to the casual player and may be relatively easily learned, whereas advanced mechanics may be learnt slowly with time as you play the game.
 
@@ -53,7 +53,7 @@ __**Last-Tick Interactions**__
     "color": 39423,
     "fields": [
       {
-        "name": "__Ability Queueing and Last-tick __",
+        "name": "__Ability Queueing and Last-Tick __",
         "value": "To see how ability queueing prevents the last tick of Berserk from boosting an ability, [click here](https://i.imgur.com/JlBezRH.mp4). (Courtesy of <@683763716394975294>)"
       }
     ]
@@ -107,6 +107,8 @@ __**How to Release Stalled Abilities**__
     • After stalling an ability, use a spell from your ability bar to release the stalled ability.
     • You **must** have the runes required to cast the spell, but a weapon is not required.
 
+*Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack unless you override it, such as with Cease <:cease:864235458464186418> or another spell.*
+
 .
 > __**Adrenaline Management**__
 .tag:adren
@@ -156,7 +158,7 @@ __**Gaining Adrenaline Without Target**__
 .
 __**Late Adrenaline**__
 ⬥ **Adrenaline Renewals** <:adrenrenewal:736298121704767538>
-    • When drunk, gives 4% adrenaline per tick for 10 ticks (40% total).
+    • When used, gives 4% adrenaline per tick for 10 ticks (40% total).
     • Except the first tick, when drinking a <:adrenrenewal:736298121704767538> the adrenaline gained cannot be used until the next game tick.
     • This is because the input action (drinking) is registered on the same tick as other input actions, but for all other ticks, player input registers before the adren gain.
 ⬥ **Barrages** <:icebarrage:537340400185245701> <:bloodbarrage:537338981747261446>
@@ -169,7 +171,7 @@ __**Late Adrenaline**__
 
 .
 __**How To Lose Target**__
-⬥ It is possible to lose your target to enable the using threshold abilities like Devotion ;devotion; to be used without consuming adrenaline, in a couple ways.
+⬥ It is possible to lose your target to enable the using threshold abilities like Devotion <:devo:513190158728953857> to be used without consuming adrenaline, in a couple ways.
 ⬥ **Method 1: Simply drop out of combat**.
     • This is accomplished by not attacking/being attacked for 10 seconds.
 ⬥ **Method 2: Have your target no longer be present.**
@@ -184,7 +186,7 @@ __**How To Lose Target**__
 .tag:zerkaura
 __**How It Works**__
 ⬥ Berserker-variant auras exist for each style:
-    • Berserker <:zerk:535532854004678657> for <:melee:615612332521029632>
+    • Berserker <:berserker:643505116347105290> for <:melee:615612332521029632>
     • Reckless <:reckless:643505179378974748> for <:range:580168050121113623>
     • Maniacal <:mani:643505153709965322> for <:Magic:689504724159823906>
 ⬥ They provide the following boosts:
@@ -287,7 +289,7 @@ __**Ability Interactions**__
 ⬥ **Smoke Tendrils** <:smoketendrils:536257336130404372>
     • All hits of <:smoketendrils:536257336130404372> will always crit.
 .
-⬥ Not all abilities can cause critical hit, **regardless** of what they actually hit.
+⬥ The following abilities cannot do critical hits, **regardless** of what they actually hit.
     • Dismember <:dismember:535532879376023572>
     • Slaughter <:slaughter:535532879237873666>
     • Blood Tendrils <:bloodtendrils:535532854327640064>
@@ -305,7 +307,7 @@ __**Ability Interactions**__
 __**Items That Affect Critical Hits**__
 *Note: In the following section, all critial hit chance increases apply to **forced** critical hit chance. These methods **can** stack together.*
 ⬥ **Biting Perk** <:biting4:712073087809617931>
-    • **+2%** critical hit chance per rank, up to 8% at Biting 4 <:biting4:712073087809617931>
+    • **+2%** critical hit chance per rank, up to 8% at Biting 4 <:biting4:712073087809617931> (up to 8.8% with level 20 equipment)
 ⬥ **Tuska's Might**
     • **+1%** critical hit chance **per** equipped piece of Warpriest Armor of Tuska.
     • This effect is not strong enough to justify using this armour.
@@ -321,14 +323,14 @@ __**Items That Affect Critical Hits**__
     • **+5%** critical hit chance at the expense of -5% accuracy.
 ⬥ **Champion's Ring** <:championring:839903943630520350>
     • **+3%** critical hit chance if the target has any active bleed on it.
-⬥ **Channeler's Ring** <:channellerring:839903943404027914>
-    • Channeled magic abilities gain **+4%** critical hit chance per channeled hit.
+⬥ **Channeller's Ring** <:channellerring:839903943404027914>
+    • Channelled magic abilities gain **+4%** critical hit chance per channeled hit.
     • e.g. Asphyx would gain +4%/+8%/+12%/+16% critical hit chance on each of its 4 hits respectively.
     • This affects (Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:535533833106489365> , Asphyxiate <:asphyx:535533833072672778> , and Onslaught <:onsl:513190159085207555>
 .
 ⬥ **Smoke Cloud** <:smokecloud:856635090641879050>
     • Increase hitcap for **crits** by **15%** for <:Magic:689504724159823906>, and by **6%** for <:range:580168050121113623> / <:melee:615612332521029632>
-⬥ **T95 Leng mainhand special attack** <:lengmh:883134308146098227> <:spec:537340400273195028>
+⬥ **Dark Shark of Leng (T95 Leng mainhand) special attack** <:lengmh:883134308146098227> <:spec:537340400273195028>
     • Increases damage cap by **30%** for Melee <:melee:615612332521029632>, Reflect <:reflect:535541258786177064> and Dominion mine <:dommine:662249620579155968> damage.
 
 .
@@ -531,7 +533,7 @@ __**Abilities and NPC Coordinate**__
 .img:https://i.imgur.com/kr61SvG.png
 ⬥ See the picture below for an example of this behaviour - Detonate <:deto:535533833358016512> will only hit the south dragon in A, but it will hit both dragons in Scenario B (both dragons are **3x3** in size).
 .img:https://i.imgur.com/NhmICrb.png
-*Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be adjacent to another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
+*Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
 
 .
 > __**NPC Facing and Flanking**__
@@ -601,7 +603,7 @@ __**Solo Flanking**__
     • Some bosses like Black Stone Dragon (during the spiral flames) or Kerapac (when he spawns the Time Thread Tears) will avoid moving, and this gives time for the player to move behind them.
 .
 ⬥ **Method 2: Move Under Target**
-    • You can move under a target when casting an ability and be able to benefit from ;flank; effect.
+    • You can move under a target when casting an ability and be able to benefit from <:flankicon:841419289755385866> effect.
     • This can happen when the target is immobile (like Ambassador), or temporarily immobile (like the examples before).
     • Mobile but stunnable/bindable targets (like Telos) can be stunned/bound then walked under.
 
@@ -645,6 +647,7 @@ __**Bladed Dive**__
 ⬥ Additionally, Bladed Dive also does damage.
     • Bladed Diving onto a target will attempt to do damage in a 3x3 AoE.
     • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
+    • *This AoE is centered on around the player where they land*.
 
 __**Walking Abilities**__
 ⬥ Players can move while casting abilities, with some exceptions:
@@ -658,7 +661,8 @@ __**Walking Abilities**__
 ⬥ The following channeled abilities are exceptions:
     • Players can walk during <:melee:615612332521029632> Melee channels (<:assault:535532855191928842> / <:destroy:535532879330148352> / <:flurry:864492981763702834>) on any *non-cast tick*.
         - Cast ticks are ticks 1/3/5/7, so players can move on ticks on ticks 2/4/6/8 and not cancel the channel.
-    • Players can walk during Rapid Fire <:rapid:535541270521708566> if wearing Fleeting Boots <:fleetingboots:789813993480388640>.
+    • Players can walk during Rapid Fire <:rapid:535541270521708566> if wearing Fleeting Boots <:fleetingboots:789813993480388640>
+    • Players can walk during Snipe <:snipe:535541258425204770> if wearing <:nightmaregauntlets:513190159441723392>
 
 .
 > __**Seren Godbow (SGB) Mechanics**__ <:sgb:626466665848242186>
