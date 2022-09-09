@@ -4,7 +4,17 @@ This channel contains templates for some of the more commonly used structures in
 
 > __**Formatting Embeds**__
 .tag:howtoembed
-This refers to Discord embed messages that are JSON-formatted to produce good looking output. The basic template and and useful tools are given below.
+This refers to Discord embed messages that are JSON-formatted to produce good looking output. The basic template is shared below, as well as ways to see the output in real-time for faster and easier writing.
+
+.
+{
+  "embed": {
+    "title": "__Embed Visualisers__",
+    "description": "⬥ [Leovoel's Embed Visualiser](https://leovoel.github.io/embed-visualizer/) - preview embed outputs in real time while writing.\n⬥ [PvME Guide Editor](https://pvme.github.io/guide-editor/) - preview embeds *and* all PvME markdown syntax in real time while writing.",
+    "color": 39423
+  }
+}
+.embed:json
 
 .
 __**Embed Commands**__
@@ -15,9 +25,7 @@ __**Embed Commands**__
 ⬥ **`[text](website link)`** = add hyperlink (links will only resolve if they are valid and exist)
 ⬥ **`[text]($linkmsg_tagword$)`** = add link to previous discord message in the channel that has been tagged using `.tag:tagword` (links will only resolve if they are valid and exist)
 
-To see your template live, utilize this embed visualiser: <https://leovoel.github.io/embed-visualizer/>
-Alternatively, you can use the Guide Editor.
-
+.
 A example embed structure is given below, as a starting point to create your own embeds.
 
 ```
@@ -27,6 +35,13 @@ A example embed structure is given below, as a starting point to create your own
   "title": "__Embed Template Example__",
   "description": "This is the embed description. Ask for help if you have any questions!",
   "color": 39423,
+  "thumbnail": {
+    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+  },
+  "footer": {
+    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "text": "Some embed footer text."
+  },
   "fields": [
     {
       "name": "__Field 1__",
@@ -51,8 +66,15 @@ When rendered, this looks like the following:
 {
   "embed": {
   "title": "__Embed Template Example__",
-  "description": "This is the embed description.",
+  "description": "This is the embed description. Ask for help if you have any questions!",
   "color": 39423,
+  "thumbnail": {
+    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+  },
+  "footer": {
+    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "text": "Some embed footer text."
+  },
   "fields": [
     {
       "name": "__Field 1__",
@@ -212,7 +234,6 @@ This is an alternate approach to the Table of Contents embed, and may be useful 
 }
 ..embed:json
 ```
-*Note: Links will only resolve if they are valid and exist.*
 When rendered, it looks like the following:
 
 .
@@ -349,13 +370,9 @@ Another version of a minimal embed, even even compact.
 ..
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__[field name]__",
-        "value": "[field contents]"
-      }
-    ]
+    "title": "__[embed title]__",
+    "description": "[embed description]",
+    "color": 39423
   }
 }
 ..embed:json
@@ -365,13 +382,9 @@ When rendered, it gives the following output:
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__[field name]__",
-        "value": "[field contents]"
-      }
-    ]
+    "title": "__[embed title]__",
+    "description": "[embed description]",
+    "color": 39423
   }
 }
 .embed:json
@@ -390,7 +403,7 @@ When rendered, it gives the following output:
       },
 	    {
 	      "name": "__Basic Templates__",
-        "value": "⬥ [Basic Guide Layout]($linkmsg_basicguide$)\n⬥ [Basic ToC]($linkmsg_tocbasic$)",
+        "value": "⬥ [Basic Guide Layout]($linkmsg_guidebasic$)\n⬥ [Basic ToC]($linkmsg_tocbasic$)",
 		    "inline": true
       },
       {
