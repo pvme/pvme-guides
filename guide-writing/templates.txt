@@ -1,0 +1,405 @@
+> __**Introduction**__
+.tag:intro
+This channel contains templates for some of the more commonly used structures in PvME guides. You can use them as they are, or modify them as required.
+
+> __**Formatting Embeds**__
+.tag:howtoembed
+This refers to Discord embed messages that are JSON-formatted to produce good looking output. The basic template and and useful tools are given below.
+
+.
+__**Embed Commands**__
+⬥ **`\n`** = add a new line
+⬥ **`\u00a0\u00a0\u00a0\u00a0`** = add 4 spaces after a new line
+⬥ **`\n\u00a0\u00a0\u00a0\u00a0•`** = add a new line and 4 spaces (to add subsubpoints)
+⬥ **`\n\u200B`** = add a blank line at the end of string
+⬥ **`[text](website link)`** = add hyperlink (links will only resolve if they are valid and exist)
+⬥ **`[text]($linkmsg_tagword$)`** = add link to previous discord message in the channel that has been tagged using `.tag:tagword` (links will only resolve if they are valid and exist)
+
+To see your template live, utilize this embed visualiser: <https://leovoel.github.io/embed-visualizer/>
+Alternatively, you can use the Guide Editor.
+
+A example embed structure is given below, as a starting point to create your own embeds.
+
+```
+..
+{
+  "embed": {
+  "title": "__Embed Template Example__",
+  "description": "This is the embed description. Ask for help if you have any questions!",
+  "color": 39423,
+  "fields": [
+    {
+      "name": "__Field 1__",
+      "value": "⬥ Field 1 point\n\u00a0\u00a0\u00a0\u00a0• Field 1 subpoint\n⬥ Field 1 point"
+    },
+	  {
+      "name": "__Field 2__",
+      "value": "⬥ Field 2 point\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint"
+    },
+	  {
+      "name": "__Field 3__",
+      "value": "⬥ Field 3 point\n⬥ Field 3 point with embedded hyperlink to [Google Search](https://www.google.com/)."
+      }
+    ]
+  }
+}
+..embed:json
+```
+When rendered, this looks like the following:
+
+.
+{
+  "embed": {
+  "title": "__Embed Template Example__",
+  "description": "This is the embed description.",
+  "color": 39423,
+  "fields": [
+    {
+      "name": "__Field 1__",
+      "value": "⬥ Field 1 point\n\u00a0\u00a0\u00a0\u00a0• Field 1 subpoint\n⬥ Field 1 point"
+    },
+	  {
+      "name": "__Field 2__",
+      "value": "⬥ Field 2 point\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint"
+    },
+	  {
+      "name": "__Field 3__",
+      "value": "⬥ Field 3 point\n⬥ Field 3 point with embedded hyperlink to [Google Search](https://www.google.com/)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Not all fields are mandatory, adjust it as required. Other template examples are given below as well*.
+*Note: Links will only resolve if they are valid and exist.*
+
+.
+> __**Basic Guide Writing Template**__
+.tag:guidebasic
+The following template covers the basic structure of a guide for reference. Copy this into the Guide Editor tool and use it as a starting point for the guide layout.
+
+```> __**Title**__
+..img:https://i.imgur.com/gIzPFEV.png
+
+..
+> __**Intro**__
+..tag:intro
+[Brief overview of the boss]
+
+..
+> __**Drops**__
+..tag:drops
+⬥ [Unique drops from killing the boss (including droprates and prices if known)]
+
+..
+> __**Presets**__
+..tag:presets
+⬥ [Required/used relics]
+⬥ [Preset picture + link to preset breakdown]
+⬥ [Describe important items in the preset]
+⬥ [Any other important notes]
+..
+..img:https://i.imgur.com/oVjpPka.png
+> __**Mechanics**__
+..tag:mechanics
+⬥ [First mechanic]
+    • [Describe the mechanic]
+        - [Describe how to handle mechanic]
+..img:https://i.imgur.com/oB20Btb.png
+⬥ [Repeat for the rest of the mechanics]
+
+..
+> __**The Fight**__
+..tag:fight
+⬥ [Explain the fight, break it down into phases if applicable]
+
+..
+> __**Rotations__ (optional section)**__
+..tag:rotations
+⬥ [Phase 1 rotations]
+⬥ [Phase 2 rotations]
+⬥ [etc]
+
+..
+> __**Example Kills**__
+..tag:example```
+.
+
+.
+> __**Table of Contents (Basic)**__
+.tag:tocbasic
+This is a basic ToC embed structure, typically paired with the previous basic guide layout. All guides must contain a ToC at the end (and in the pinned messages).
+
+```
+..
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Drops__",
+        "value": "[Link]($linkmsg_drops$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__The Fight__",
+        "value": "[Link]($linkmsg_fight$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+..embed:json
+..pin:delete
+```
+*Note: Links will only resolve if they are valid and exist.*
+
+.
+> __**Table of Contents (v2)**__
+.tag:tocv2
+This is an alternate approach to the Table of Contents embed, and may be useful in cases where the channels are longer, or to make it easier for users to identify relevant sections and links.
+
+```
+..
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	      "name": "__Group 1__",
+        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)",
+		    "inline": true
+      },
+	    {
+	      "name": "__Group 2__",
+        "value": "⬥ [Section 1]($linkmsg_basicguide$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
+		    "inline": true
+      },
+      {
+        "name": "__Group 3__",
+        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
+        "inline": true
+      }
+    ]
+  }
+}
+..embed:json
+```
+*Note: Links will only resolve if they are valid and exist.*
+When rendered, it looks like the following:
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	      "name": "__Group 1__",
+        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)",
+		    "inline": true
+      },
+	    {
+	      "name": "__Group 2__",
+        "value": "⬥ [Section 1]($linkmsg_basicguide$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
+		    "inline": true
+      },
+      {
+        "name": "__Group 3__",
+        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Links will only resolve if they are valid and exist.*
+
+.
+> __**Example Kills**__
+.tag:examplekill
+An embed format to add example kills to a guide.
+
+```
+..
+{
+  "embed": {
+    "title": "__Example Kills__",
+    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough) by <@userid>.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__ <:Magic:689504724159823906>",
+        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+      },
+      {
+        "name": "__Melee__ <:melee:615612332521029632>",
+        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+      },
+      {
+        "name": "__Ranged__ <:Ranged:689504724403486920>",
+        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+      }
+    ]
+  }
+}
+..embed:json
+```
+When rendered, it looks like the following:
+
+.
+{
+  "embed": {
+    "title": "__Example Kills__",
+    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough) by <@userid>.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__ <:Magic:689504724159823906>",
+        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+      },
+      {
+        "name": "__Melee__ <:melee:615612332521029632>",
+        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+      },
+      {
+        "name": "__Ranged__ <:Ranged:689504724403486920>",
+        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Links will only resolve if they are valid and exist.*
+
+.
+> __**Minimal Embed 1**__
+.tag:minimal1
+A regular embed with some optional tags removed, to make it smaller and more compact.
+
+```
+..
+{
+  "embed": {
+    "title": "__[embed title]__",
+    "description": "[embed description]",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__[field name]__",
+        "value": "[field contents]"
+      }
+    ]
+  }
+}
+..embed:json
+```
+When rendered, it looks like the following;
+
+.
+{
+  "embed": {
+    "title": "__[embed title]__",
+    "description": "[embed description]",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__[field name]__",
+        "value": "[field contents]"
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Links will only resolve if they are valid and exist.*
+
+.
+> __**Minimal Embed 2**__
+.tag:minimal2
+Another version of a minimal embed, even even compact.
+
+```
+..
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__[field name]__",
+        "value": "[field contents]"
+      }
+    ]
+  }
+}
+..embed:json
+```
+When rendered, it gives the following output:
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__[field name]__",
+        "value": "[field contents]"
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Links will only resolve if they are valid and exist.*
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	      "name": "__Information__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Formatting Embeds]($linkmsg_howtoembed$)",
+		    "inline": true
+      },
+	    {
+	      "name": "__Basic Templates__",
+        "value": "⬥ [Basic Guide Layout]($linkmsg_basicguide$)\n⬥ [Basic ToC]($linkmsg_tocbasic$)",
+		    "inline": true
+      },
+      {
+        "name": "__Other Templates__",
+        "value": "⬥ [ToC v2]($linkmsg_tocv2$)\n⬥ [Example Kills]($linkmsg_examplekill$)\n⬥ [Minimal Embed 1]($linkmsg_minimal1$)\n⬥ [Minimal Embed 2]($linkmsg_minimal2$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
