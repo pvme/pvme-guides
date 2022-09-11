@@ -7,6 +7,33 @@
 Zamorak, Lord of Chaos is the fifth and final installment in the Elder God Wars dungeon. This guide will primarily focus on the final boss encounter, for help clearing the dungeon refer to <#992228698096934982>. If you would like a much simpler version of the guide for getting your first couple of kills, feel free to refer to <#996607815370145882>.
 
 .
+> __**Drops**__
+.tag:drops
+⬥ <:bolgtop:994189310913941534> **Bow of the Last Guardian Piece**
+⬥ <:vestmentsofhavoctop:994189295592161291> **Vestments of Havoc Equipment**
+⬥ <:chaosroarcodex:994189286960287764> **Chaos Roar Codex**
+⬥ <:lostknowledgecodex:994189285102202890> **Codex of Lost Knowledge**
+⬥ <:jewelsofzamorak:994189282933739611> **Jewels of Zamorak** - 1/500 group, 1/300 solo (100 threshold)
+.
+{
+  "embed": {
+    "title": "__How Drops Work__",
+    "description": "Unique drops have a base drop rate based on enrage, after 10 kills without a unique drop bad luck mitigation takes effect which reduces the drop denominator until unique drop roll caps at 1/20. The chance of a unique drop being a piece of the Bow of the Last Guardians increases with enrage.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Drop Enrage Calculator__",
+        "value": "[Link to calculator](https://nullopt.github.io/ZammyDrops/) - Courtesy of <@102870112314335232>, <@269934766453817344>, & <@184394201553829890>."
+      },
+      {
+        "name": "__Full Drop Rate Page__",
+        "value": "[Link to Official RuneScape News Post](https://secure.runescape.com/m=news/zamorak-drop-rates#:~:text=It%20has%20a%20base%20drop,So%20there%20you%20have%20it!)"
+      }
+    ]
+  }
+}
+.embed:json
+.
 > __**Presets**__
 .tag:preset
 It is assumed that Zuk capes <:igneouskalmej:902209626408382494> <:igneouskalxil:902209626404171786> <:igneouskalket:902209626404192316> for your chosen style, Disruption Shield <:disrupt:535614336207552523> and passive Ring of Vigour <:vigour:615613235512737792> are unlocked.
@@ -163,6 +190,27 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
     • The player cannot teleport to Infernus and runes cannot be charged for the duration of the attack
 
 .
+> __**Alt1 Zamorak Attack Rotation Helper(Courtesy of <@271748608410386432>)**__
+.tag:alt1
+.
+{
+  "embed": {
+    "title": "",
+    "description": "***Disclaimer:** Alt1 is a third party tool, and while generally safe to use, is still recommended to be installed and used at your own risk.*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Attack Rotation Helper__",
+        "value": "[Link to Alt1 forum page](https://runeapps.org/forums/viewtopic.php?id=1463)\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+The app tracks the special attack order at the Zamorak boss. The special attack highlighted in **green** is the upcoming attack.
+.img:https://i.imgur.com/9WMk2ZJ.png
+
+.
 > **__Hexes and Edicts__**
 .tag:mech
 ⬥ **Charge Pads**
@@ -218,6 +266,11 @@ Zamorak's damage and HP scales with enrage, and additional mechanics are introdu
   }
 }
 .embed:json
+> __**Chaos Traps Map**__
+.tag:chaos
+Once the Chaos Traps rune <:chaostrapsrune:994206002658431016> is active, traps will spawn in **__set__** locations. The locations on the map below are posible locations where the traps may spawn.
+.img:https://i.imgur.com/WSYjF3w.png
+
 .
 > **__Phase 7__**
 .tag:p7
@@ -243,7 +296,6 @@ At 100% enrage, phase 7 is introduced. At the point where the fight would end be
 
 .
 **__Suggested Phase 7 Method__**
-*Disclaimer*: This may change.
 
 **After entering Infernus:**
 ⬥ Team kills the Chaos Demon
@@ -352,43 +404,18 @@ In 5-person team, assign people to NW/NE/SE/SW/Middle
     "color": 39423,
     "fields": [
       {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
+          "name": "__Intro__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_preset$)\n\u200B",
+            "inline": true
+      },
+        {
+          "name": "__Mechanics__",
+        "value": "⬥ [Enrage Changes]($linkmsg_enrage$)\n⬥ [Attack Patterns]($linkmsg_attack$)\n⬥ [Alt1 Plugin]($linkmsg_alt1$)\n⬥ [Mechanics]($linkmsg_mech$)\n⬥ [Chaos Trap Map]($linkmsg_chaos$)\n\u200B",
+            "inline": true
       },
       {
-        "name": "__Preset__",
-        "value": "[Link]($linkmsg_preset$)",
-        "inline": true
-      },
-      {
-        "name": "__Enrage Mechanics__",
-        "value": "[Link]($linkmsg_enrage$)",
-        "inline": true
-      },
-      {
-        "name": "__Attack Rotation__",
-        "value": "[Link]($linkmsg_attack$)",
-        "inline": true
-      },
-      {
-        "name": "__Hexes and Edicts__",
-        "value": "[Link]($linkmsg_mech$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 7__",
-        "value": "[Link]($linkmsg_p7$)",
-        "inline": true
-      },
-      {
-        "name": "__Helpful Tips__",
-        "value": "[Link]($linkmsg_tips$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_examples$)",
+        "name": "__Strategy__",
+        "value": "⬥ [Phase 7]($linkmsg_p7$)\n⬥ [Tips and Tricks]($linkmsg_tips$)\n⬥ [Example Kills]($linkmsg_examples$)\n\u200B",
         "inline": true
       }
     ]
