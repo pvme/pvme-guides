@@ -726,17 +726,22 @@ __**What is 4TAA**__
     • Staff abilities (average speed) place it on a 6t (3.6s) cooldown.
     • Wand/Orb abilities (fastest speed) place it on a 4t (2.4s) cooldown.
     • Magic <:Magic:689504724159823906> in particular can keybind auto attacks by dragging spells on to the ability bar.
-⬥ Combining these, we get **4TAA - delaying the next ability by one tick, to force an auto and ability together on the 4th tick.****
-⬥ The basic 4TAA structure looks like this:
-    • 2H <:AirSurge:543465115870035999> + 2H/DW Ability → non-channelled DW Ability → Staff Swap → Repeat
-.
-⬥ This means forcing an auto every 2 abilities, for example:
-    • <:fsoa:869284271595069451> + <:AirSurge:543465115870035999> <:sonic:535533809924571136> → <:praeswand:643166769518739477> <:Core:625304432581672961> + <:wrack:856662355952795658> → (1t delay) + <:fsoa:869284271595069451> + <:AirSurge:543465115870035999> <:corruptblast:513190159194259467> →  <:praeswand:643166769518739477> <:Core:625304432581672961> + <:wrack:856662355952795658> → continue
+⬥ Combining these, we get 4TAA: **delaying the next ability by one tick, to force an auto and ability together on the 4th tick.**
+    • 2H autos are multiple times stronger than DW autos; for this reason, **4-tick autos are almost always 2H (staff) autos**.
+⬥ The basic 4TAA structure is: non-channelled DW Ability → 2H auto + ability → continue
+    • The ability before the auto **must** be DW so that a 4-tick auto cooldown is incurred. 
+        - If the ability was 2H, a 6-tick auto cooldown would be incurred, meaning 4TAA would not be possible.
+    • The ability before the auto **must also** be non-channelled, since channels incur auto cooldown multiple times, one for each cast. 
+        - For example, <:gconc:869285393223254107> incurs a 4t auto cooldown 3 separate times: once on T0 (first cast), and again on T1 and T2. Therefore, forcing an auto on T4 is not going to be possible, as auto cooldown is not available until T2 + 4 = T6.
 
 .
-⬥ After Greater Concentrated Blast <:gconc:869285393223254107> is unlocked, however, it becomes important to change the way we do it ensure we continue using <:gconc:869285393223254107> as often as we can. There are two ways to do this:
+⬥ With Greater Concentrated Blast <:gconc:869285393223254107> unlocked, it is important to ensure its usage is not delayed. This means that, generally, rotations will be structured using two types of patterns. Both patterns are built in groups of three abilities, with one <:gconc:869285393223254107> and one 2H auto per group.
     • **Method A**: 2H <:AirSurge:543465115870035999> + DW/Staff ability → <:gconc:869285393223254107> → non-channelled DW ability → Repeat
     • **Method B**: 2H <:AirSurge:543465115870035999> + <:gconc:869285393223254107> → DW/Staff ability → non-channelled DW ability → Repeat
+
+.
+⬥ It is important to note that both patterns should be used together, rather than just always choosing one or the other.
+    • Only being able to execute one method will mean your rotations are less flexible and you will lose damage as a result.
 
 __**Method A**__
 ⬥ How to do it, starting with staff <:soa:869284271595069451> equipped:
@@ -791,15 +796,14 @@ __**Method B**__
 .
 __**Notes**__
 ⬥ **Method A can be easier for learners** to execute as it has less actions in a single tick.
+    • Again, try not to fall into the habit of only using one method. Both should be leveraged.
 ⬥ Differences before and after buying Greater Concentrated Blast <:gconc:869285393223254107>:
     • Autos <:AirSurge:543465115870035999> are now 3 abilities (10 ticks) apart instead of 2 abilities (7 ticks).
-⬥ **The ability before the auto <:AirSurge:543465115870035999> *must* be a non-channelled DW ability**:
-    • It *must* be a DW ability for the shorter 4t auto attack cooldown.
-    • It *must* not be channelled, because each hit channelled hit resets the auto-attack cooldown.
+⬥ As described before, **the ability before the auto <:AirSurge:543465115870035999> *must* be a non-channelled DW ability**.
 ⬥ It is generally ideal to auto into your channels, or at least not channel before you plan to auto.
 ⬥ When using Detonate <:deto:535533833358016512> or Asphyxiate <:asphyx:535533833072672778>, use it as the ability *before* <:gconc:869285393223254107>.
 .
-⬥ When doing auto <:AirSurge:543465115870035999> into a channel, **assuming same tier weapons, always do dual-wield channels.**
+⬥ When doing auto <:AirSurge:543465115870035999> into a channel, generally always prefer dual-wield channels.
     • This is because the cooldown after channel ends will be based on the weapon used.
     • This lets you 4TAA one ability after the channel ends, rather than two.
     • You can see the difference in the following rotations.
