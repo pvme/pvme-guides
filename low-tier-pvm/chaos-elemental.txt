@@ -1,8 +1,8 @@
-**__Starting out at Chaos Elemental__**
+**__Chaos Elemental (Courtesy of <@102870112314335232>)__**
 .img:https://i.imgur.com/LcvLEL0.jpg
 .
 > **__Introduction__**
-Chaos Elemental is another old boss, and also one with the distinction of being located in the wilderness. There is not much to this boss, as the only interesting mechanic present is his ability to unequip your gear. Do not take anything you are not willing to lose, and in general it is recommended to 1 item the boss with a royal crossbow or hellfire bow.
+Chaos Elemental is another old boss, and also one with the distinction of being located in the wilderness. There is not much to this boss, as the only interesting mechanic present is his ability to unequip your gear.
 
 More specific information is available here:
 <https://runescape.wiki/w/Chaos_elemental>
@@ -11,4 +11,101 @@ More specific information is available here:
 > **__Drops__**
 ⬥ <:statiusbody:643162730827874324> **Ancient warriors equipment** `1/847`
 ⬥ <:ribsofchaos:643162714557906965> **Ribs of chaos** `1/2500 (500 threshold)`
+
 .
+> **__Mechanics__**
+.tag:mechanics
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Discord__",
+        "value": "⬥ Deals Melee, Ranged or Magic Damage.\n\u00a0\u00a0\u00a0\u00a0• Green particles."
+      },
+      {
+        "name": "__Madness__",
+        "value": "⬥ Unequips up to four equipped items.\n\u00a0\u00a0\u00a0\u00a0• Red, green and blue particles."
+      },
+      {
+        "name": "__Confusion__",
+        "value": "⬥ Teleports the target to a random area nearby.\n\u00a0\u00a0\u00a0\u00a0• Fire particles.\n\u00a0\u00a0\u00a0\u00a0• Will cancel your current spell/ability's damage."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> **__Presets__**
+.tag:presets
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+(Runes for <:exsanguinate:856635090745950258>)
+⬥ <:igneouskalmej:902209626408382494> **Igneous Kal-Xil** for <:omnipowerigneous:959089455560540200>
+⬥ <:wildernesssword:1009419838764109834> **Wilderness sword** for quick teleports
+⬥ <:infernalpuzzlebox:994189299681607800> **Tier 2+ Infernal Puzzlebox** for 11% damage reduction and 6% increased damage in the wilderness
+⬥ <:ripperpouch:703581275453128714> with <:ripperscroll:703581275155464203> stored
+.img:https://i.imgur.com/W3zViVz.png
+
+.
+> **__Tips__**
+.tag:tips
+Use summer pies and disable *Destroy empty pie dishes when eating* to avoid it's **Madness** attack; making sure you maintain a full inventory.
+.img:https://i.imgur.com/ulfMvZk.png
+
+.
+> **__Rotations__**
+.tag:rotations
+You will rotate between these two rotations:
+⬥ `1st kill:` <:gconc:869285393223254107> → <:omnipowerigneous:959089455560540200>
+⬥ `2nd kill:` <:gconc:869285393223254107> → <:wm:535533809978966037> → <:dbreath:535533833391702017>
+
+You can build adrenaline on the nearby **Abyssal Savages** - <https://runescape.wiki/w/Abyssal_savage>.
+
+.
+> **__Example Kills__**
+.tag:examplekills
+https://youtu.be/kD_HvIMmUiQ
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Mechanics__",
+        "value": "[Link]($linkmsg_mechanics$)",
+        "inline": true
+      },
+      {
+        "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+        "inline": true
+      },
+      {
+        "name": "__Tips__",
+        "value": "[Link]($linkmsg_tips$)",
+        "inline": true
+      },
+      {
+        "name": "__Rotations__",
+        "value": "[Link]($linkmsg_rotations$)",
+        "inline": true
+      },
+      {
+        "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_examplekills$)",
+        "inline": true
+      },
+      {
+        "name": "\u00a0",
+        "value": "\u00a0",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
