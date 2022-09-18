@@ -1,21 +1,8 @@
 **__Giant Mole__**
 .img:https://i.imgur.com/M7LbbrC.jpg
 .
-> **__Introduction__**
-.tag:intro
-Another old boss, only camped for the pet and title. Giant Mole is very straightforward, only requiring the ability to do damage. The only relevant mechanic present is her dig, where she will dig to a different part of the arena, indicated by a dirt arrow on the ground. Falador Hard and Elite diaries provide buffs to the rewards from the Mole, but these are minimal, and not required for camping the boss. <:soulsplit:615613924506599497> can be used to mitigate any damage done by the Mole.
-
-More information available at the wiki page:
-<https://runescape.wiki/w/Giant_mole>
-
-.
-> **__Drops__**
-.tag:drops
-⬥ <:rottenfang:643162604725862410> **Rotten Fang** 1/2500 Normal mode (500 threshold) 1/500 Hard mode (500 threshold)
-
 .
 > **__Semi-AFK Magic Strategy (~30 kph) (Courtesy of <@!101449893687615488> and <@!94933391014633472>)__**
-.tag:afk
 .
 **__Explanation__**
 ⬥ This method is only about 90-95% reliable for AFKing per kill.
@@ -27,8 +14,7 @@ More information available at the wiki page:
 ⬥ You will have to target the boss at the start of every kill.
     • She will not aggro to you automatically, even with an Aggression Potion <:aggressionpotion:925794592199147581>.
 ⬥ Turning game sounds on will help you realise when the method breaks.
-
-.
+.tag:intro
 {
   "embed": {
     "title": "__Mandatory Semi-AFK Requirements__",
@@ -40,6 +26,7 @@ More information available at the wiki page:
   }
 }
 .embed:json
+.tag:mand
 .
 **__Aura Choice__**
 ⬥ <:penance:643505653062565907> Penance aura is recommended for prayer restoration
@@ -55,16 +42,17 @@ More information available at the wiki page:
 ⬥ **Ancient Elven Ritual Shard** <:ancientshard:656426717505650708> - Active used for periodical prayer gain.
 ⬥ ⬥ **Holy Scarab** <:holyscarab:929773040273862656> - Used to reduce prayer drain by 50%.
 ⬥ <:graspingpouchblack:892816436974735361> <:graspingpouchpink:892816437503221830> <:graspingpouchblue:892816437406728252> - Runes for Blood Blitz <:bloodblitz:535616247807868938> and Animate Dead <:animatedead:856635090453135382>.
-.
+.tag:preset
 .img:https://i.imgur.com/BgVPIAq.png
 
 .
 **__Action Bar__**
-.
+.tag:bar
 .img:https://i.imgur.com/Sy1b73I.png
 
 .
 **__Example Kill__**
+.tag:example
 <https://youtu.be/iWVTSbO4qN8>
 
 .
@@ -74,18 +62,8 @@ More information available at the wiki page:
     "color": 39423,
     "fields": [
       {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-	  {
 	    "name": "__Semi-AFK Magic Strategy__",
-        "value": "[Link]($linkmsg_afk$)",
+        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bar]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
 		"inline": true
       }
     ]
