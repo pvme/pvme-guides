@@ -1,370 +1,1409 @@
-> **__Preventing Walked Onslaughts__**
-.tag:onscancel
-⬥ In order to prevent yourself from walking your Onslaught, simply hit an auto keybind before hitting your Onslaught keybind.
-    • This will stop your movement and prevent you from walking and cancelling your Onslaught.
+> __**Introduction**__
+.tag:intro
+*Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
+
+This channel is intended to provide generic information for all auto attacks/spells/abilities for all 3 combat styles.
+
+Some general notes:
+⬥ The game runs on an internal tick system: **1t (tick) = 0.6s (seconds)**.
+⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
+⬥ Auto attacks will only give adrenaline if they hit (splash = no adrenaline gain).
+    • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not given adrenaline.
+⬥ The following abilities give an **additional 2 + (Invigorating Perk <:invigorating:1009422698633502881> rank * 0.2) %** adrenaline if they hit multiple targets:
+    • Dragon Breath <:dbreath:535533833391702017> , (Greater) Chain <:chain:535533833056026624> / <:gchain:787904334495088672> , Detonate <:deto:535533833358016512> and Tsunami <:tsunami:535533809995874304>
+⬥ Special attacks may incur a delay when used back-to-back consecutively - see __**Back-to-Back Special Attacks**__ in <#1020050319457132654> for more details.
+⬥ Some useful sheets and resources are given below.
 
 .
-> **__Slow Hitting Abilities__ (Courtesy of <@222668864704610305> and <@130322872089575424>)**
-.tag:slow
-**__What Slow Abilities are:__**
-⬥ In RS, there are some abilities whose damage will go through one tick after they are activated, and some abilities whose damage will be delayed.
-    • The latter are known as slow abilities, and are worth being aware of.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://i.imgur.com/7EINzgc.png)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
 
 .
-**__Melee Abilities__** <:melee:615612332521029632>
-⬥ <:quake:535532879506309150> (DW) <:assault:535532853979512842> <:meteorstrike:535532879359377439> <:dismember:535532879376023572> <:slaughter:535532879237873666> <:bd:535532854281764884> <:fury:535532879510372352> <:BloodTend:513190158431158274>
-    • <:cleave:535532878616985610> <:cane:535532878969438210> are slow if stalled and drag in or click released.
+> **__Magic__** <:Magic:689504724159823906>
+This section covers auto attacks and spells, basics, thresholds, ultimate abilities and special attacks for Magic.
 
 .
-**__Magic Abilities__** <:Magic:689504724159823906>
-⬥ The following autos/abilities always hit slow:
-    • <:comb:535533833098100745> <:corruptblast:513190159194259467> <:sonic:535533809924571136>, DW <:wm:535533809978966037>, <:omni:535533809664262179>, surge spells, and blitz spells always hit slow
-        - stalled <:sonic:535533809924571136> released with DW hits fast
-
-⬥ The following autos/abilities hit 1 tick slower when cast from the distance as mentioned (Melee tile is tile # 1)
-    • 5 tiles: (2H) <:wm:535533809978966037>, <:omni:535533809664262179>, surge and blitz spells
-    • 8 tiles: <:dbreath:535533833391702017> <:conc:535533833106489365> <:chain:535533833056026624> <:impact:535533809655873556> <:wrack:856662355952795658> <:deep:535533833139912724> <:asphyx:535533833072672778>, and <:tsunami:535533809995874304>
-
-.
-**__Ranged Abilities__** <:Ranged:689504724403486920>
-*Note: these assume normal 2H/DW Cbow (read Weapon Overrides for more details)*
-⬥ <:corruptshot:535541306294796299> <:frag:535541273755385885> <:piercing:535541258538450944> <:bindingshot:535541306563231790> <:tight:535541275957657600> <:needle:535541259108876293> <:dazing:535541307142307860> / <:mds:535541259033378827> <:snap:535534127131394088> <:rapid:535541270521708566> <:shadowtend:642713547142332416> <:incend:535541258429661215> <:stw:535541259109138463>
+**__Autos and Spells__**
+.tag:MagicAutos
+{
+  "embed": {
+    "title": "__Barrages__ <:bloodbarrage:537338981747261446>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 AoE\n\u00a0\u00a0\u00a0\u00a0• Secondary targets take reduced damage",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:barrage
 
 .
-> **__Weapon Override Speeding Up Abilities__ (Courtesy of <@333479049680650241> & <@158293690001915904>)**
-.tag:hitspeed
-⬥ Certain weapon types for Ranged can cause abilities that normally take 2 ticks to deal damage with a 2H Cbow/Bow or DW Cbow to only take 1 tick to deal damage.
-    • This depends on your distance from your target's SW tile.
-
-⬥ Slow abilities which are unaffected by overrides include: Needle <:needle:535541259108876293>, Binding <:bindingshot:535541306563231790>, and Tight Binding <:tight:535541275957657600>
-
-.
-**__Override Types__**
-*Note: The system used here is such that MD = Tile 1 from True Centre, and MD → x means MD to Tile x from True Centre, so MD → 2 = MD to Tile 2 from True Centre*
-
-⬥ **Javelins** (only mainhand required)
-    • Unload <:unload:535541258664411169> hits fast at MD → 3
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 2
-    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD
+{
+  "embed": {
+    "title": "__Blitzes__ <:bloodblitz:535616247807868938>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:blitz
 
 .
-⬥ **Darts** (only mainhand required)
-    • Unload <:unload:535541258664411169> hits fast at MD → 3
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
-    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+{
+  "embed": {
+    "title": "__Surges__ <:FireSurge:543465116092334083>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:surgeSpell
 
 .
-⬥ **Knives** (only mainhand required)
-    • Unload <:unload:535541258664411169> hits fast at MD → 3
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD
+{
+  "embed": {
+    "title": "__Vulnerability__ <:Vuln:537349530551582720>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Increases damage dealt by 10%\n⬥ Lasts 60s",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:vuln
 
 .
-⬥ **Blowpipe** (2H override)
-    • Dazing Shot <:mds:535541259033378827> and Non-bleed hit from Deadshot <:deadshot:535541307666595870> hits fast at MD → 2
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5
-    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
+{
+  "embed": {
+    "title": "__Incite Fear__ <:incitefear:856635090783567902>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Every ability cast applies a stack:\n\u00a0\u00a0\u00a0\u00a0• Caps at 5 stacks, and at max stacks uses no runes on ability casts\n\u00a0\u00a0\u00a0\u00a0• Stacks are lost every 20s, refreshed upon trying to apply another stack\n\u00a0\u00a0\u00a0\u00a0• Each stack reduces Tsunami's <:tsunami:535533809995874304> cast cost by -12% adrenaline\n⬥ Frost Surge:\n\u00a0\u00a0\u00a0\u00a0• At 5 stacks, ability casts trigger Frost Surge; deals 10-50% ability damage\n\u00a0\u00a0\u00a0\u00a0• Triggering it costs runes even at max stacks\n\u00a0\u00a0\u00a0\u00a0• Frost Surge is a 5x5 AoE around your primary target which hits up to 8 extra targets in range for 10-50% ability damage each\n\u00a0\u00a0\u00a0\u00a0• Frost Surge has a 12s cooldown, after an ability cast can trigger it again",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:incitefear
 
 .
-*Note: A list of all hit timings, including other overrides, can be found at: <https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>*
+{
+  "embed": {
+    "title": "__Exsanguinate__ <:exsanguinate:856635090745950258>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Every ability cast applies a stack:\n\u00a0\u00a0\u00a0\u00a0• Caps at 12 stacks, and at max stacks uses no runes on ability casts\n\u00a0\u00a0\u00a0\u00a0• Stacks are lost every 20s, refreshed upon trying to apply another stack\n\u00a0\u00a0\u00a0\u00a0• Each stack increases basic ability damage by +1% (excludes: <:comb:535533833098100745> and <:corruptblast:513190159194259467>)\n⬥ Wrack and Ruin <:wrackandruin:856662355912032256>:\n\u00a0\u00a0\u00a0\u00a0• At 12 stacks <:wrack:856662355952795658> becomes <:wrackandruin:856662355912032256>\n\u00a0\u00a0\u00a0\u00a0• It deals 60-300% ability damage (120-360% on stun/bound)\n\u00a0\u00a0\u00a0\u00a0• Resets all stacks and makes your next <:comb:535533833098100745> within 10s do 2 additional hits",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:exsang
 
 .
-> **__Facing & Position Determination__ (Courtesy of <@110810140445294592>, <@712324334911225909>, and <@242039053841596418>)**
-.tag:faceposangle
-**__Facing direction: Movement__**
-⬥ While idle or in motion, the game determines the direction NPCs and PCs face depending on the previous tile.
-⬥ Only 8 directions can be faced, regardless of what a NPC or PC model might look at.
-    • The directions are North, North-east, East, South-east, South, South-west, West, North-west.
-        - Each direction covers the span of 45°, starting at 22.5° north of hard east.
-
-⬥ List of Each direction and the angles corresponding to it:
-```
- North-east    :     22.5°  to  67.5°
- North         :     67.5°  to 112.5°
- North-west    :     112.5° to 157.5°
- West          :     157.5° to 202.5°
- South-west    :     202.5° to 247.5°
- South         :     247.5° to 292.5°
- South-east    :     292.5° to 337.5°
- 1st-half-East :     337.5° to 360.0°
- 2nd-half-East :     0.00°  to  22.5°
-```
-⬥ Bladed dive is affected by this significantly, read more below.
+{
+  "embed": {
+    "title": "__Smoke Cloud__ <:smokecloud:856635090641879050>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Increases damage dealt with critical hits by 15% for Magic, 6% otherwise\n⬥ Increases critical hit damage cap by 12% for <:Magic:689504724159823906>, 4.8% otherwise\n\u00a0\u00a0\u00a0\u00a0• Stacks with <:grim:568262896375824385>: makes hitcap 16.8k for <:Magic:689504724159823906>, 15.72k otherwise\n⬥ Lasts 120s",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:smokecloud
 
 .
-**__Facing direction: Targeting__**
-⬥ The direction a boss faces will be the tile its target is stood on.
-⬥ Players will face their target's center, if:
-    • They acquire a new target by left clicking and Target Cycling.
-    • Using any ability, spell or special attack.
-    • For channelled abilities, when within range of the target, you will face your target; otherwise you will not cast the channel.
-        - Melee channeled abilities behave differently, they will cast from any range you have on your target and deal damage along the way.
+{
+  "embed": {
+    "title": "__Animate Dead__ <:animatedead:856635090453135382>",
+    "description": "⬥ Applies a flat damage reduction:\n\u00a0\u00a0\u00a0\u00a0• Reduction based on 10% of equipped magic tank gear's armour + 33% of your current Defence <:Defence:689509250979987525> level after any buffs or debuffs\n\u00a0\u00a0\u00a0\u00a0• Damage reduced cannot exceed 75% of the damage taken\n\u00a0\u00a0\u00a0\u00a0• 75% cap is based off the damage after all other damage reductions such as deflect prayers (<:DeflectMelee:544195488447201300> / <:DeflectRange:544195488317046812> / <:DeflectMage:544195487926845462>) on the hit\n⬥ Lasts 12 minutes\n⬥ Does not reduce <:res:535541258844635148> / <:divert:787904334377648130> HP / adrenaline gain\n⬥ A calculator can be found [here](https://runescape.wiki/w/Calculator:Combat/Animate_Dead)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:animatedead
 
 .
-⬥ The image below explains NPC facing zones that are dependent on target movement.
-    • Shark tiles are cardinal direction (North, South, West, East) tiles.
-    • Lobster tiles are non-cardinal direction (Northwest, Northeast, Southwest, Southeast) tiles.
-    • Tile with a character in the middle is the NPC's Center tile.
-    • Notice the offset in the SW region (bottom-left lobster pile).
-.
-.img:https://i.imgur.com/6z5YGvX.png
-.
-**__Flanking Implications__**
-⬥ Flanking can only activate if:
-    • You are standing no more tiles in one direction relative to the center tile.
-    • This direction is what the NPC is facing.
-
-⬥ Walk-under flanking works because of these conditions being met.
-.
-.img:https://i.imgur.com/tvao5QX.png
-.
-⬥ In the above image, the boss is facing South, and your character is is stood in the same direction but further south. No flanking.
-.
-⬥ One exception occurs when your target is facing a non-cardinal direction:
-    • If you can draw a straight line from your position to the NPC's
-.
-.img:https://i.imgur.com/dkMhMtp.png
-.
-⬥ In the above image, the boss is facing North West, and your character is the same number of tiles away in the East/West direction. Flanking is possible.
+**__Basics__**
+.tag:magicBasics
+{
+  "embed": {
+    "title": "__Combust__ <:comb:535533833098100745>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Burn:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Doubles damage of each hit when walked\n⬥ Affected by <:lunging:1009423860875153559>:\n\u00a0\u00a0\u00a0\u00a0• Max increases by 20% per <:lunging:1009423860875153559> rank\n\u00a0\u00a0\u00a0\u00a0• Walking only causes 50% more damage\n⬥ Two extra hits if used within 10 seconds after Wrack and Ruin <:wrackandruin:856662355912032256>\n⬥ Affected by <:dbreath:535533833391702017> modified by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>:\n\u00a0\u00a0\u00a0\u00a0• Next <:comb:535533833098100745> to hit within 10t of the <:dbreath:535533833391702017> cast will have remaining hits instantly hit at 25% more damage\n\u00a0\u00a0\u00a0\u00a0• Within 10t means: if <:dbreath:535533833391702017> is cast t0, <:comb:535533833098100745> has to hit within t0-9\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Latest you can cast <:comb:535533833098100745> is t7",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:combust
 
 .
-> **__Bladed Dive__**
+{
+  "embed": {
+    "title": "__Corruption Blast__ <:corruptblast:513190159194259467>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a DoT:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Spreads to targets within 2 tiles each hit\n\u00a0\u00a0\u00a0\u00a0• Will not draw aggro of any additional targets",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:corrblast
+
+.
+{
+  "embed": {
+    "title": "__Impact__ <:impact:535533809655873556>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:shock:535533809932697610>\n⬥ Stuns and binds for 2t (1.2s)\n⬥ It is affected by <:flankicon:841419289755385866>:\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> Rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:impact
+
+.
+{
+  "embed": {
+    "title": "__Shock__ <:shock:535533809932697610>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:impact:535533809655873556>\n⬥ Stuns and binds for 2t (1.2s)\n⬥ It causes Knockback\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:shock
+
+.
+{
+  "embed": {
+    "title": "__Surge__ <:surge:535533810004262912>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• Moves you forward 10 tiles\n⬥ Affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ Can be upgraded with a Double Surge codex: <:surgecodex:602561894414417944>\n\u00a0\u00a0\u00a0\u00a0• Gives you a second <:surge:535533810004262912> on its own 34t (17t <:mob:689501908628799488>) internal cooldown that is used after the first",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:surge
+
+.
+{
+  "embed": {
+    "title": "__Dragon Breath__ <:dbreath:535533833391702017>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• AoE is straight line to target + 3x3 around it\n\u00a0\u00a0\u00a0\u00a0• Hits 3 targets, inclusive of main\n⬥ It is affected by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>:\n\u00a0\u00a0\u00a0\u00a0• Next <:comb:535533833098100745> to hit within 10t of the <:dbreath:535533833391702017> cast will have remaining hits instantly hit at 25% more damage\n\u00a0\u00a0\u00a0\u00a0• Within 10t means: if <:dbreath:535533833391702017> is cast t0, <:comb:535533833098100745> has to hit within t0-9\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Latest you can cast <:comb:535533833098100745> is t7\n⬥ It is affected by the Dragonrider Amulet <:drider:656785090994503700>\n\u00a0\u00a0\u00a0\u00a0• Boosts damage by 10%\n\u00a0\u00a0\u00a0\u00a0• Has a 10% chance of applying a 3-hit DoT, each for 10% of <:dbreath:535533833391702017> max hit, rounded down (excludes boosts that do not normally boost bleeds)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:dbreath
+
+.
+{
+  "embed": {
+    "title": "__Sonic Wave__ <:sonic:535533809924571136>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Provides a 6% hitchance buff\n\u00a0\u00a0\u00a0\u00a0• Works cross-style\n\u00a0\u00a0\u00a0\u00a0• Does not work cross-target",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:sonic
+
+.
+{
+  "embed": {
+    "title": "__Concentrated Blast__ <:conc:535533833106489365>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 5% increased crit chance for each hit it does\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ Channelled ability\n\u00a0\u00a0\u00a0\u00a0• Hits a maximum of 3 times over 5t (3s)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:conc
+
+.
+{
+  "embed": {
+    "title": "__Greater Concentrated Blast__ <:gconc:869285393223254107>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Same critical strike buff as normal Conc Blast\n⬥ Channelled ability with shortened duration\n\u00a0\u00a0\u00a0\u00a0• Hits 3 times within 3t (1.8s)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:gconc
+
+.
+{
+  "embed": {
+    "title": "__Chain__ <:chain:535533833056026624>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Hits within a 5 square radius from SW tile of initial target\n\u00a0\u00a0\u00a0\u00a0• Hits 3 targets, inclusive of main\n\u00a0\u00a0\u00a0\u00a0• Does not hit things on initial target's SW tile\n⬥ Affected by Caroming <:caroming4:791281588792590336>\n\u00a0\u00a0\u00a0\u00a0• <:chain:535533833056026624> hits Caroming rank more targets",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:chain
+
+.
+{
+  "embed": {
+    "title": "__Greater Chain__ <:gchain:787904334495088672>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ All <:chain:535533833056026624> things apply\n⬥ Secondary targets hit by <:gchain:787904334495088672> take the next ability cast on your main target within 6s at 50% of its damage range. <:comb:535533833098100745> and <:corruptblast:513190159194259467> do not get reduced.",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:gchain
+
+.
+{
+  "embed": {
+    "title": "__Wrack__ <:wrack:856662355952795658>",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 37.6%-188% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:wrack
+
+.
+{
+  "embed": {
+    "title": "__Wrack and Ruin__ <:wrackandruin:856662355912032256>",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Significantly stronger variant of regular Wrack <:wrack:856662355952795658>\n\u00a0\u00a0\u00a0\u00a0• Damage increases to 60%-300%\n\u00a0\u00a0\u00a0\u00a0• Usable after 12 <:exsanguinate:856635090745950258> stacks\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 120%-360% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range\n⬥ All <:exsanguinate:856635090745950258> stacks lost after using <:wrackandruin:856662355912032256>",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:superwrack
+
+.
+{
+  "embed": {
+    "title": "__Magma Tempest__ <:magmatempest:902209626509025290> / <:magmatempesttarget:924741973858996284>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Is a 5x5 area-of-effect\n⬥ Hits every 1.2s (2t) over 9.6s for a total of 8 hits\n⬥ Cannot critical hit\n⬥ Has two variants, see differences using `!magma`",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:magma
+
+.
+**__Thresholds__**
+.tag:magicThresholds
+{
+  "embed": {
+    "title": "__Wild Magic__ <:wm:535533809978966037>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Two separate, strong hits",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:wm
+
+.
+{
+  "embed": {
+    "title": "__Asphyxiate__ <:asphyx:535533833072672778>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Stuns for 6t (3.6s)\n⬥ Channelled ability, 4 hits at full channel duration (7t, 4.2s)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:asphyx
+
+.
+{
+  "embed": {
+    "title": "__Deep Impact__ <:deep:535533833139912724>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:horror:535533833261547520>\n⬥ Stuns and bind for 6t (3.6s)\n⬥ Affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:deep
+
+.
+{
+  "embed": {
+    "title": "__Horror__ <:horror:535533833261547520>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Deep Impact <:deep:535533833139912724>\n⬥ Stun and binds for 6t (3.6s)\n⬥ Causes Knockback\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:horror
+
+.
+{
+  "embed": {
+    "title": "__Smoke Tendrils__ <:Smoke_Tendrils:536257336130404372>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ Channelled ability, 4 hits at full channel duration (7t, 4.2s)\n⬥ Inflicts self-damage each hit\n⬥ Each hit is a guaranteed critical hit",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:smoketendrils
+
+.
+{
+  "embed": {
+    "title": "__Detonate__ <:deto:535533833358016512>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• It is 3x3 at <100% Charge\n\u00a0\u00a0\u00a0\u00a0• It is 5x5 at 100% Charge\n⬥ It is affected by Blast Diffusion Boots <:detoboots:602581956072439828>:\n\u00a0\u00a0\u00a0\u00a0• Takes 4t (2.4s) to reach 100% instead of 6t (3.6s)\n\u00a0\u00a0\u00a0\u00a0• Gains 40% charge at a time instead of 20%",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:deto
+
+.
+**__Special Attacks__**
+.tag:mageSpecial
+{
+  "embed": {
+    "title": "__Guthix Staff__ <:gstaff:513203008608141314>",
+    "description": "⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)\n⬥ Applies an affinity and defence reduction:\n\u00a0\u00a0\u00a0\u00a0• +2 affinity\n\u00a0\u00a0\u00a0\u00a0• Reduces <:Defence:689509250979987525> level by 5% of base",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:gstaff
+
+.
+{
+  "embed": {
+    "title": "__Armadyl Battlestaff__ <:armadylbattlestaff:881962727705280512>",
+    "description": "⬥ Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)\n⬥ Channelled ability, 5 hits at full channel duration (5t, 3s)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:abs
+
+.
+**__Ultimates__**
+.tag:mageUltimates
+{
+  "embed": {
+    "title": "__Sunshine__ <:sunshine:994921119381463070>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Shares a cooldown with <:meta:535533811304497183>\n⬥ It is an on cast buff\n⬥ Increases damage by 50% from t0→t51 (52t/31.2s duration); buff starts t1\n⬥ 7x7 buff radius\n⬥ Does not incur the auto cooldown\n⬥ Affected by Planted Feet <:pf:689501925770919981>\n\u00a0\u00a0\u00a0\u00a0• Duration becomes t0→t63 (64t/38.4s duration); buff starts t1",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:sunshine
+
+.
+{
+  "embed": {
+    "title": "__Greater Sunshine__ <:gsunshine:994644352871714836>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Shares a cooldown with <:meta:535533811304497183>\n⬥ Duration is 1 tick longer than <:sunshinepf:994921595489488927>, t0→t64 (65t/39s duration)\n\u00a0\u00a0\u00a0\u00a0• Using <:pf:689501925770919981> does not extend this further\n⬥ <:gsunshine:994644352871714836> retains the DoT effect of <:sunshine:994921119381463070>\n\u00a0\u00a0\u00a0\u00a0• Using <:pf:689501925770919981> will cancel this",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:gsun
+
+.
+{
+  "embed": {
+    "title": "__Metamorphosis__ <:meta:535533811304497183>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Shares a cooldown with Sunshine <:sunshine:994921119381463070>\n⬥ It is an on hit buff\n⬥ For buff to work, spell type of <:meta:535533811304497183> and abilities and autos must match\n\u00a0\u00a0\u00a0\u00a0• E.g., Fire <:meta:535533811304497183> into Fire ability works, Fire <:meta:535533811304497183> into Air ability would not\n⬥ Increases damage by 63.5% from t0-t25 (26t/15.6s duration); buff starts t1\n⬥ Does not incur the auto cooldown",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:meta
+
+.
+{
+  "embed": {
+    "title": "__Omnipower__ <:omni:535533809664262179>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Affected by the Igneous Kal-Mej <:igneouskalmej:902209626408382494> and Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n\u00a0\u00a0\u00a0\u00a0• Adrenaline cost becomes 60%\n\u00a0\u00a0\u00a0\u00a0• Fires 4 hits\n\u00a0\u00a0\u00a0\u00a0• Increases average ability damage from 300% to 540%",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:omni
+
+.
+{
+  "embed": {
+    "title": "__Tsunami__ <:tsunami:535533809995874304>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE\n⬥ Provides n Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, critical hits give 10% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on release of the ability\n⬥ Adrenaline cost can be reduced through auto-casting Incite Fear <:incitefear:856635090783567902>\n\u00a0\u00a0\u00a0\u00a0• Each stack reduces <:tsunami:535533809995874304> cost by 12$, down to 40% at 5 stacks",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:nami
+*Note: This marks the end of the Magic <:Magic:689504724159823906> section. Use the __**Table of Contents**__ to find more useful information, or keep reading for the  Melee <:melee:615612332521029632> section.*
+
+.
+> **__Melee__** <:melee:615612332521029632>
+This section covers auto attacks, basics, thresholds, ultimate abilities and special attacks for Melee.
+
+.
+**__Autos__**
+.tag:meleeAutos
+{
+  "embed": {
+    "title": "__Default Melee Auto__ <:melee:615612332521029632>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest: 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Fast: 5t (3.0s)\n\u00a0\u00a0\u00a0\u00a0• Average: 6t (3.6s)",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:defaultmelee
+
+.
+**__Basics__**
+.tag:meleeBasics
+{
+  "embed": {
+    "title": "__Chaos Roar__ <:chaosroar:994644356671737966>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Unlocked using a Chaos Roar ability codex <:chaosroarcodex:994189286960287764>\n⬥ Doubles the base damage of the next melee ability cast within 7.2s\n\u00a0\u00a0\u00a0\u00a0• So, it doubles all hits of bleeds (e.g. <:slaughter:535532879237873666>) and multi-hit attacks (e.g. <:cane:535532878969438210>)\n\u00a0\u00a0\u00a0\u00a0• Channels have multiple casts, so only doubles the first cast (e.g <:assault:535532853979512842> hit 1)",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:chaosroar
+
+.
+{
+  "embed": {
+    "title": "__Dismember__ <:dismember:535532879376023572>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Can be extended:\n\u00a0\u00a0\u00a0\u00a0• Strength skillcape <:strcape:689503815296352308> passive adds 3 hits\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits\n⬥ It is affected by <:lunging:1009423860875153559>\n\u00a0\u00a0\u00a0\u00a0• Max hit increases by 20% per <:lunging:1009423860875153559> rank",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:dismember
+
+.
+{
+  "embed": {
+    "title": "__Backhand__ <:backhand:535532854302605333>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Kick <:kick:535532879132885025>\n⬥ Stuns for 2t (1.2s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> Rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:backhand
+
+.
+{
+  "embed": {
+    "title": "__Kick__ <:kick:535532879132885025>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Backhand <:backhand:535532854302605333>\n⬥ Stuns for 2t (1.2s)\n⬥ Causes Knockback:\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:kick
+
+.
+{
+  "embed": {
+    "title": "__Barge__ <:barge:535532853916860437>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• Will move you to Melee Distance\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ Binds for 11t (6.6s)\n⬥ It clears Binds",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:barge
+
+.
+{
+  "embed": {
+    "title": "__Greater Barge__ <:gbarge:535532879250456578>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ All normal <:barge:535532853916860437> things apply\n⬥ It has additional effects:\n\u00a0\u00a0\u00a0\u00a0• Every tick (0.6s) since the player stopped attacking their target, <:gbarge:535532879250456578> gains +10% to its max range and +2% to its min, capping at 10t (6s) for a total of 100% and 20%. Damage range go from 25%-125% to 45%-225%\n\u00a0\u00a0\u00a0\u00a0• After 8t (4.8s) pass since you stopped attacking, when you <:gbarge:535532879250456578>, if you cast <:fury:535532879510372352> / <:flurry:864492981763702834> / <:gflurry:535532879283879977> / <:destroy:535532879330148352> / <:assault:535532853979512842> / <:frenzy:535532879279554581> within 10t (6s), it will covert the first one done into a damage over time\n⬥ For details on how to use it, use `!gbarge`",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:gbarge
+
+.
+{
+  "embed": {
+    "title": "__Bladed Dive__ <:bd:535532854281764884>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• If you use it on a tile, it will <:bd:535532854281764884> you to that tile\n\u00a0\u00a0\u00a0\u00a0• If you use it on a target it will <:bd:535532854281764884> you some point at Melee Distance of the target (the movement is accounted 1t later than had you clicked a tile)\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Hits 3x3 around where you land if used on a target\n\u00a0\u00a0\u00a0\u00a0• This becomes 5x5 with <:Laceration:602581988599398400> Halberd <:bd:535532854281764884>\n⬥ If you use it on a target and it dies within 10t (6s), the cooldown ends",
+    "color": 15158332
+  }
+}
+.embed:json
 .tag:bd
-**__Bladed Dive Angle__**
-⬥ After using Bladed Dive it will leave your character facing a consistent direction.
-    • It is important to be comfortable with this so you can Bladed Dive → Surge and move in a predictable manner.
-
-⬥ See this graphic for more information (Courtesy of <@76883062381621248>):
-.
-.img:https://i.imgur.com/ODMwLfr.png
-.
-**__Bladed Dive AoE__**
-⬥ The way in which Bladed Dive's AoE works is that when you BD onto a target it will move you to a position, and this position becomes the centre of the AoE.
-
-⬥ The below graphic shows how Bladed Dive's AoE works.
-.
-.img:https://i.imgur.com/nN90Hp6.png
-.
-> **__Freedom Autos__ (Courtesy of <@425520655920791553>)**
-.tag:freedom
-**__What Makes Freedom Unique__**
-Freedom is unique in the respect that it can be used to force an offhand auto as well as a 2H auto within 3t.
 
 .
-**__Uses due to this Property__**
-1) Freedom Vuln: using vuln instead of the offhand auto loses less damage than if you were to do it in place of a 2H auto.
-2) Accelerated adren gain because you also get adren from 2 autos.
+{
+  "embed": {
+    "title": "__Cleave__ <:cleave:535532878616985610>",
+    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It is an AoE",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:cleave
 
 .
-**__How to use it__**
-⬥ Mage: It's usually easier to time, and also often beneficial to do it immediately after a 2H abil, as this means the 2H auto comes at the same time as your next ability.
-
-⬥ You do the following:
-```Tick 0: Activate abil with staff equipped
-Tick 0-3: Equip dual wield
-Tick 3: Click auto → freedom (you don't have to click the keybind for this auto if you just want a regular auto).
-Tick 4-6: Switch to staff
-Tick 6: Click auto → abil```
-.
-⬥ You can see a clip of this here:
-.
-https://youtu.be/3vIVqAYj4Xk
-.
-⬥ For other styles you'll need to do it after a dual wield ability (or delay your ability afterwards but this isn't worthwhile):
-```Tick 0: Activate abil with dual wield equipped
-Tick 3: Activate freedom
-Tick 4: Equip 2H
-Tick 6: Activate abil```
-.
-⬥ You can see a clip of this here:
-.
-https://youtu.be/YydKrY05Kc8
-.
-⬥ It's worth noting that if you're maging and freedom after a dual wield ability, to avoid losing autos you have to do a dual wield ability immediately after as well. Consider:
-```any abil → DW abil → freedom (oh + 2H auto) → DW abil → auto + staff abil
-staff abil → freedom (oh + 2H auto) → any abil → DW abil → auto + staff abil```
-⬥ If you just did a staff ability afterwards, you would clearly lose an auto:
-```staff abil → DW abil → freedom (oh + 2H auto) → any abil → DW abil```
-⬥ You can also use freedom to cancel a channelled ability:
-    • Click the target on the same tick you use freedom or you won't get the offhand auto off.
-    • Delay your subsequent ability by 1 tick in order to get your 2H auto off.
+{
+  "embed": {
+    "title": "__Decimate__ <:deci:535532879325822986>",
+    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It does more damage against Shielded targets:\n\u00a0\u00a0\u00a0\u00a0• It goes from a 37.6%-188% to 48.8%-244% ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:deci
 
 .
-> **__Forcing an Auto with Defensives__**
-.tag:defensiveautos
-⬥ When using a defensive, an auto attack will be fired if the auto is off cooldown.
-⬥ This auto attack can be changed from a normal auto into a utility spell, such as <:Vuln:537349530551582720> or <:ent:567727987274022924>.
-    • This is done by pressing the keybind for <:Vuln:537349530551582720> or <:ent:567727987274022924>, followed by the keybind for <:freedom:535541258240786434>, <:anti:535541306475151390>, <:res:535541258844635148>, <:prep:535541258546970624>, and so on.
-*Note: this is elaborated on in much more detail in <#848333214589911040>*
+{
+  "embed": {
+    "title": "__Sever__ <:sever:535532879577612298>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It reduces target's damage by 10% for 8t (4.8s)",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:sever
 
 .
-> **__Switching Weapons during Detonate__ (Courtesy of <@185315527571406848>)**
-.tag:detoswitch
-⬥ While charging Detonate, it is possible to switch weapons without Detonate being released.
-⬥ It is also worth noting that it's possible to Spellbook Swap in deto, allowing for a vuln release.
-.
-https://youtu.be/OxXEWwHODwQ
-.
-> **__Shield Dome Detonate__**
-.tag:detodome
-⬥ It is also possible to channel shield dome inside Detonate, provided Detonate is pressed first.
-    • This is done by charging Detonate, and then casting shield dome.
-    • This will result in a lost auto, but can be prevented by sipping a super restore or an overload salve to cancel the shield dome.
-.
-https://youtu.be/wxoyeMobO_o
-.
-> **__Dragon Battleaxe Spec__** <:DBA:603979368850653216> (Courtesy of <@110810140445294592>)
-.tag:dbaxe
-**__What the Special Attack is__**
-⬥ Special Attack: Rampage.
-⬥ Adrenaline Cost: 100% (90% with <:RoV:513201065877831680>)
+{
+  "embed": {
+    "title": "__Fury__ <:fury:535532879510372352>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ It provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 5% increased crit chance for each hit it does\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ Channelled ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:fury
 
 .
-**__How it Works:__**
-⬥ Drains 10% (rounded down) of your attack, range, magic, and defence levels.
-⬥ Multiplicative 10% reduction on your hit chance.
-⬥ Gain strength level boost of 10 + 1 level for every 4 levels drained from your other stats.
-⬥ Gain a hidden damage boost of 1.2x your damage, lasting 1 minute. Stacks with:
-    • Zaros godsword spec going from a 1.25x to 1.5x boost.
-    • Berserk ability going from 2.0x to 2.2x boost making DBA a 1.1x instead of 1.2x damage boost.
+{
+  "embed": {
+    "title": "__Greater Fury__ <:gfury:535532879334080527>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ It provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 10% increased crit chance\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ When <:gfury:535532879334080527> crits it guarantees your next ability will crit too",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:gfury
 
 .
-**__When is it Used:__**
-⬥ Accuracy debuff is not detrimental.
-⬥ Enough downtime to reobtain your full adren bar. Downtime includes:
-    • Time where you cant deal any damage at all (ex: Taraket intermission phases).
-    • Time where the damage you do is not priority damage (ex: The Ambassador spinners).
-⬥ Speed Kills: at adrenaline crystal in War's Retreat (PvM Hub).
+{
+  "embed": {
+    "title": "__Havoc__ <:havoc:535532879300526080>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ Affected by Gloves of Passage <:Glovesofpassage:556588694862037012>, details in <#1020050199785254912>",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:havoc
 
 .
-> **__Back-to-Back Special Attacks__ (Courtesy of <@150284127126552576>)**
-.tag:b2bSpec
-__**How It Works**__
-Doing b2b (or more) specs seems to follow a pattern of [X tick loss, Y tick loss] of every b2b [odd, even] spec, as shown in the following table:
-```
-Ability before spec spamming:
-Fast/Fastest Ability → no tick loss, no tick loss
-Average Ability → no tick loss, 1 tick loss
-Slowest Ability → no tick loss, 7 tick loss
-
-Auto before spec spamming:
-Fastest Auto → no tick loss, 1 tick loss
-Fast Auto → no tick loss, 2 tick loss
-Average Auto → no tick loss, 3 tick loss
-Slowest Auto → no tick loss, 9 tick loss
-```
-*Note: These tests were done using non-channeled abilities and special attacks, interactions with channeled abilities and special attacks still need to be documented*
+{
+  "embed": {
+    "title": "__Smash__ <:smash:535532879820619786>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ Affected by Gloves of Passage <:Glovesofpassage:556588694862037012>, details in <#1020050199785254912>",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:smash
 
 .
-**__In Other Words__**
-⬥ Your first special attack in a chain will always be fine.
-⬥ The second special attack can be delayed based on the weapon speed used to cast the ability or auto before the first special.
+{
+  "embed": {
+    "title": "__Slice__ <:slice:535532879594258432>",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 80%-146% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:slice
 
 .
-**__Examples__**
-⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • This results in a delay on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> because of the average speed first <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-
-⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • This results in a delay on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> because of the average speed first <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-
-.
-⬥ (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • This has no delays.
-
-⬥ (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • This results in a delay on the 2nd <:gstaff:513203008608141314> <:eofspec:746403211908481184> because of the average speed <:dbreath:535533833391702017>
+{
+  "embed": {
+    "title": "__Punish__ <:punish:535532879439069184>",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 37.6%-188% basic",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:punish
 
 .
-> **__Barricade__** <:cade:535541306353778689>
-.tag:cade
-**__Ability Information__**
-⬥ Adrenaline Cost: 100%
-    • 90% with <:RoV:513201065877831680>
-    • 80% with <:RoV:513201065877831680> + <:conservationofenergy:697808773711921195>
-⬥ Barricade is an ultimate defensive ability that requires a shield or defender to activate
-⬥ While activated the user is immune to all damage types, unless the player receives an attack that disables defensives.
-⬥ It does not prevent stuns, but the damage associated with the stunning attacks are negated.
-⬥ The amount of time barricade is active scales with the level of the shield or defender equipped
-    • For every 10 levels of shield, one extra tick is added to the duration.
-        - So, duration ranges from 4.8 seconds (8 ticks) with a level 1 shield to 10.2 seconds (17 ticks) with a level 90 shield
+**__Thresholds__**
+.tag:meleeThresholds
+{
+  "embed": {
+    "title": "__Slaughter__ <:slaughter:535532879237873666>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Triples damage when walked\n⬥ Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:slaughter
 
 .
-**__Barricade duration extenders__**
-⬥ The Turtling perk extends the duration of this ability in but also increases its cooldown by 10% per rank, up to a 13.8 second duration and a 84 second cooldown.
-⬥ The Malletops perk from the Anachronia Dinosaur Farm extends the duration of Barricade by 1.8 seconds per tier, and stacks with the Turtling perk, offering an additional 3.6 seconds at the maximum tier of 2.
-    • This requires a Farming level of 117 and two large dinosaur pens with at least one elder Malletops each. Both these pens should have a farm totem on them.
-⬥ The following table details this:
+{
+  "embed": {
+    "title": "__Blood Tendrils__ <:BloodTend:513190158431158274>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:bloodtendrils
+
 .
-.img:https://i.imgur.com/WTo9R5O.png
+{
+  "embed": {
+    "title": "__Assault__ <:assault:535532853979512842>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Channelled ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:assault
+
 .
-**__Additional Notes__**
-⬥ If activated with a defender, the defender's level in regard to calculating Barricade's duration is halved. For example, the Kalphite defender is a level 90 defender but acts like a level 45 shield and it is the level 45 that is used to determine the length of Barricade's duration.
-⬥ If the shield or defender is unequipped or switched to a different shield or defender (even to a second copy of the same item) while Barricade is still active, the ability is cancelled immediately.
+{
+  "embed": {
+    "title": "__Destroy__ <:destroy:535532879330148352>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Hurricane <:cane:535532878969438210>\n\u00a0\u00a0\u00a0\u00a0• Cooldowns split when cast with MH and OH Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870> / <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>\n⬥ Stuns for 6t (3.6s)\n⬥ Channelled ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:destroy
+
+.
+{
+  "embed": {
+    "title": "__Hurricane__ <:cane:535532878969438210>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Destroy <:destroy:535532879330148352>\n\u00a0\u00a0\u00a0\u00a0• Cooldowns split when cast with MH and OH Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870> / <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:hurricane
+
+.
+{
+  "embed": {
+    "title": "__Flurry__ <:flurry:864492981763702834>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n⬥ Channelled Ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:flurry
+
+.
+{
+  "embed": {
+    "title": "__Greater Flurry__ <:gflurry:535532879283879977>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ All normal <:flurry:864492981763702834> things apply\n⬥ Hits reduce <:Berserk:513190158468907012> cooldown by 2t/hit (1.2s/hit) for up to an 8t (4.8s)\n⬥ When used on a single target, hits go from 94%/ea to 157%/ea",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:gflurry
+
+.
+{
+  "embed": {
+    "title": "__Forceful Backhand__ <:fbackhand:535532879346794516>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Stomp <:stomp:535532879552315412>\n⬥ Stuns for 6t (3.6s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:forcebackhand
+
+.
+{
+  "embed": {
+    "title": "__Stomp__ <:stomp:535532879552315412>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Forceful Backhand <:fbackhand:535532879346794516>\n⬥ Stuns for 6t (3.6s)\n⬥ It causes Knockback\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:stomp
+
+.
+{
+  "embed": {
+    "title": "__Quake__ <:quake:535532879506309150>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Applies a defence and affinity debuff:\n\u00a0\u00a0\u00a0\u00a0• +2 affinity\n\u00a0\u00a0\u00a0\u00a0• Reduces <:Defence:689509250979987525> level by 5% of base if level is >90% of base\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:quake
+
+.
+**__Special Attacks__**
+.tag:meleeSpecials
+{
+  "embed": {
+    "title": "__Ek-Zekkil__ <:zekkil:903244090953588787>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Does not benefit from the special attack accuracy buff\n⬥ Non-bleed hit followed by a 6-hit bleed\n\u00a0\u00a0\u00a0\u00a0• Each hit deals a multiplicative 5% increase in damage from the previous\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 3 hits. Requires <:zekkil:903244090953588787> <:eof:787526151978614824>\n⬥ <:dismember:535532879376023572>, <:BloodTend:513190158431158274>, <:slaughter:535532879237873666>, <:massacre:535532879384543253>, <:comb:535533833098100745>, <:frag:535541273755385885>, <:deadshot:535541307666595870> and <:abyssalscourge:947871842469834832>'s parasite bleed extend the <:zekkil:903244090953588787> <:spec:537340400273195028> bleed by 1 hit each, capping at 5 extensions",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:ezk
+
+.
+{
+  "embed": {
+    "title": "__Zaros Godsword__ <:zgs:626465964325601290>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)\n⬥ On cast buff\n⬥ 7x7 area (enemy you cast spec on takes damage every 3t (1.8s) while in it)\n⬥ Increases damage by 25% from t0→34t (35t/21s duration)\n\u00a0\u00a0\u00a0\u00a0• Buff starts t1 for autos, t2 for everything\n⬥ Does not incur the auto cooldown, but will still attempt to force an auto\n⬥ Can take weapon off and retain spec effect",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:zgs
+
+.
+{
+  "embed": {
+    "title": "__Dragon Battleaxe__ <:DBA:603979368850653216>",
+    "description": "⬥ Adrenaline Cost: 100% (90% with <:vigour:615613235512737792>)\n⬥ Drains 10% (rounded down) of your <:Attack:689509250472476758>, <:range:580168050121113623>, <:Magic:689504724159823906>, and <:Defence:689509250979987525> levels and gain a <:Strength:689509250879324165> level boost of 10 + 1 level for every 4 drained from your other stats\n⬥ Boosts damage by `1.2*` (stacks with <:zgs:626465964325601290> for a `1.25 * 1.2 = 1.5*` boost), or `1.1*` when using <:Berserk:513190158468907012>, making it a `2 * 1.1 = 2.2*` boost\n⬥ Multiplicative 10% reduction to hitchance debuff\n⬥ These effects lasts 1 minute\n⬥ Can take weapon off and retain spec effect",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:dba
+
+.
+{
+  "embed": {
+    "title": "__Dragon Dagger__ <:dragondagger:779048040644083733>",
+    "description": "⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)\n⬥ This is a channeled special attack",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:dds
+
+.
+{
+  "embed": {
+    "title": "__Dragon Halberd__ <:dragonhalberd:841409589261238282>",
+    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)\n⬥ This is a channelled special attack\n⬥ It is an AoE",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:dhally
+
+.
+{
+  "embed": {
+    "title": "__Dragon Claws__ <:dragonclaw:779048041088024606>",
+    "description": "⬥ Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)\n⬥ It is a channelled special attack",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:dclaws
+
+.
+{
+  "embed": {
+    "title": "__Statius's Warhammer__ <:swh:641670143197446182>",
+    "description": "⬥ Adrenaline Cost: 35% (31.5% with <:vigour:615613235512737792>)\n⬥ Applies an affinity and <:Defence:689509250979987525> reduction:\n\u00a0\u00a0\u00a0\u00a0• +5 affinity\n\u00a0\u00a0\u00a0\u00a0• Reduces <:Defence:689509250979987525> level by 30% of base",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:swh
+
+.
+{
+  "embed": {
+    "title": "__Vesta Longsword__ <:vls:841409238717956125>",
+    "description": "⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:vls
+
+.
+{
+  "embed": {
+    "title": "__Granite Maul__ <:gmaul:796989663051120640>",
+    "description": "⬥ Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)\n⬥ Can be used during the GCD",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:gmaul
+
+.
+**__Ultimates__**
+.tag:meleeUltimates
+{
+  "embed": {
+    "title": "__Berserk__ <:Berserk:513190158468907012>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an on cast buff\n⬥ It increases damage by 100% from t0→t33 (34t/20.4s duration)\n⬥ It increases damage taken by 50%\n⬥ Does not incur the auto cooldown",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:zerk
+
+.
+{
+  "embed": {
+    "title": "__Meteor Strike__ <:meteorstrike:535532879359377439>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon\n⬥ Provides a Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, crtical hits give 10% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on release of the ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:meteor
+
+.
+{
+  "embed": {
+    "title": "__Pulverise__ <:pulverise:535532879053062146>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Reduces damage dealt by target by 25%\n⬥ If target dies to <:pulverise:535532879053062146> you gain 50% adrenaline",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:pulverize
+
+.
+{
+  "embed": {
+    "title": "__Overpower__ <:overpower:535532879334080517>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Affected by the Igneous Kal-Ket <:igneouskalket:902209626404192316> and the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>:\n\u00a0\u00a0\u00a0\u00a0• Arenaline cost reduced to 60%\n\u00a0\u00a0\u00a0\u00a0• The ability has two hits.",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:overpower
+
+.
+{
+  "embed": {
+    "title": "__Massacre__ <:massacre:535532879384543253>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is mostly a Bleed:\n\u00a0\u00a0\u00a0\u00a0• It does 6 hits, 5 of which are a bleed which means:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits 5 times total, once every 2t (1.2s)\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:massacre
+
+.
+{
+  "embed": {
+    "title": "__Frenzy__ <:frenzy:535532879279554581>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Channelled ability",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:frenzy
+
+.
+{
+  "embed": {
+    "title": "__Balanced Strike__ <:balancedstrike:535532854336290826>",
+    "description": "⬥ Cooldown: 200t (120s)\n⬥ Compares player and targets current HP percentage; Higher of the two takes damage based on that difference, and lower is healed for half of that. For details read [wiki](https://runescape.wiki/w/Balanced_Strike)",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:balancedstrike
+*Note: This marks the end of the Melee <:melee:615612332521029632> section. Use the __**Table of Contents**__ to find more useful information, or keep reading for the  Ranged <:Ranged:689504724403486920> section.*
+
+.
+> **__Ranged__** <:Ranged:689504724403486920>
+This section covers auto attacks and spells, basics, thresholds, ultimate abilities and special attacks for Ranged.
+
+.
+**__Autos__**
+.tag:rangedAutos
+{
+  "embed": {
+    "title": "__Default Ranged Auto__ <:Ranged:689504724403486920>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest: 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Fast: 5t (3.0s)\n\u00a0\u00a0\u00a0\u00a0• Average: 6t (3.6s)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:rangeauto
+
+.
+**__Basics__**
+.tag:rangedBasics
+{
+  "embed": {
+    "title": "__Fragmentation Shot__ <:frag:535541273755385885>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Doubles damage of each hit when walked\n⬥ It is affected by <:lunging:1009423860875153559>:\n\u00a0\u00a0\u00a0\u00a0• Max increases by 20% per <:lunging:1009423860875153559> rank\n\u00a0\u00a0\u00a0\u00a0• Walking bleed only causes it to increase by 50% damage",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:fragshot
+
+.
+{
+  "embed": {
+    "title": "__Corruption Shot__ <:corruptshot:535541306294796299>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a DoT:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Spreads to targets within 2 tiles each hit\n\u00a0\u00a0\u00a0\u00a0• Does *not* aggro said targets",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:corrshot
+
+.
+{
+  "embed": {
+    "title": "__Binding Shot__ <:bindingshot:535541306563231790>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:demoralise:535541258559553546>\n⬥ Stuns for 2t (1.2s) and Binds for 16t (9.6s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> Rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:binding
+
+.
+{
+  "embed": {
+    "title": "__Demoralise__ <:demoralise:535541258559553546>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:bindingshot:535541306563231790>\n⬥ Stuns for 2t (1.2s) and Binds for 16t (9.6s)\n⬥ It causes Knockback:\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:demoralise
+
+.
+{
+  "embed": {
+    "title": "__Escape__ <:escape:535541258832052231>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• For <:range:580168050121113623>: moves you back (weapon attack range - 1) tiles\n\u00a0\u00a0\u00a0\u00a0• For non-<:range:580168050121113623>: moves you back 7 tiles\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ Can be upgraded with a Double Escape codex: <:escapecodex:602561894443778115>\n\u00a0\u00a0\u00a0\u00a0• Gives you a second <:escape:535541258832052231> on its own 34t (17t <:mob:689501908628799488>) internal cooldown that is used after the first",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:escape
+
+.
+{
+  "embed": {
+    "title": "__Snipe__ <:snipe:535541258425204770>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ It is a channeled ability\n⬥ It is affected by Nightmare Gauntlets <:NMG:513190159441723392>, details in <#1020050199785254912>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:snipe
+
+.
+{
+  "embed": {
+    "title": "__Dazing Shot__ <:dazing:535541307142307860>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Target suffers a 10% accuracy decrease on their next attack",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:dazing
+
+.
+{
+  "embed": {
+    "title": "__Greater Dazing Shot__ <:mds:535541259033378827>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ All normal dazing shot things apply\n⬥ Applies the Puncture effect:\n\u00a0\u00a0\u00a0\u00a0• +1 Puncture stack count (caps at 10 stacks) on successful hits\n\u00a0\u00a0\u00a0\u00a0• Deal Puncture Stack * (5.8-7.2%) bleed damage over its full duration\n\u00a0\u00a0\u00a0\u00a0• Refreshes timer before clearing Puncture stacks to 9s even on splashes\n\u00a0\u00a0\u00a0\u00a0• Bleed start from the beginning again at its current Puncture stacks",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:gds
+
+.
+{
+  "embed": {
+    "title": "__Needle Strike__ <:needle:535541259108876293>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ The damage of the next ability done on the main target is increased by 7%.\n\u00a0\u00a0\u00a0\u00a0• Damage done within two ticks is boosted, meaning both Snap Shot <:snap:535534127131394088> hits are boosted, all of Greater Ricochet <:grico:787904334812807238> is boosted, two hits of Rapid Fire <:rapid:535541270521708566> are boosted, etc.",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:needle
+
+.
+{
+  "embed": {
+    "title": "__Ricochet__ <:ricochet:535541259566186521>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Hits within a 5 square radius from SW tile of initial target\n\u00a0\u00a0\u00a0\u00a0• Hits 3 targets, inclusive of main\n\u00a0\u00a0\u00a0\u00a0• Does not hit things on initial target's SW tile\n⬥ It is affected by Caroming <:caroming4:791281588792590336>\n\u00a0\u00a0\u00a0\u00a0• Ricochet hits Caroming rank more targets\n⬥ Not affected by Chinchompas <:mechchin:641669268722810881>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:ricochet
+
+.
+{
+  "embed": {
+    "title": "__Greater Ricochet__ <:grico:787904334812807238>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ All normal <:ricochet:535541259566186521> things apply\n⬥ It has an additional effect:\n⬥ Any non-primary <:ricochet:535541259566186521> hit that does not hit an additional target will instead hit the primary target. The first two additional hits deal 10-50% ability damage; any further additional hits provided by the Caroming perk <:caroming4:791281588792590336> deal 5-15% ability damage",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:grico
+
+.
+{
+  "embed": {
+    "title": "__Piercing Shot__ <:piercing:535541258538450944>",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 37.6%-188% basic\n⬥ Affected by <:energising:1009423839341576294>\n\u00a0\u00a0\u00a0\u00a0• Gain (E<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:piercing
+
+.
+**__Thresholds__**
+.tag:rangedThresholds
+{
+  "embed": {
+    "title": "__Snap Shot__ <:snap:535534127131394088>",
+    "description": "⬥ Cooldown: 34t (20.4s)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:snap
+
+.
+{
+  "embed": {
+    "title": "__Shadow Tendrils__ <:shadowtend:642713547142332416>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ Calculates damage on activation\n⬥ Incurs auto cooldown 2t (if fastest then 3t) after activation",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:shadowtendril
+
+.
+{
+  "embed": {
+    "title": "__Rapid Fire__ <:rapid:535541270521708566>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Binds for 10t (6s)\n⬥ Channelled ability\n⬥ Affected by Fleeting Boots <:fleetingboots:789813993480388640>\n\u00a0\u00a0\u00a0\u00a0• Lets you move while channeling <:rapid:535541270521708566>\n\u00a0\u00a0\u00a0\u00a0• Increases hitchance of <:rapid:535541270521708566> by 10%",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:rapid
+
+.
+{
+  "embed": {
+    "title": "__Bombardment__ <:bombard:535541306391265284>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with target's true centre (SW tile) as centre\n⬥ Not affected by Chinchompas <:mechchin:641669268722810881>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:bmbard
+
+.
+{
+  "embed": {
+    "title": "__Salt the Wound__ <:stw:535541259109138463>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n⬥ It is affected by Puncture:\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 18% per Puncture stack\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 3.6% per Puncture rank\n\u00a0\u00a0\u00a0\u00a0• This means at 10 stacks <:stw:535541259109138463>'s damage range is 73.6%-368%\n⬥ It affects Puncture:\n\u00a0\u00a0\u00a0\u00a0• Refreshes the timer before clearing Puncture stacks to 9s\n\u00a0\u00a0\u00a0\u00a0• Bleed starts from the beginning again at its current Puncture stacks",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:salt
+
+.
+{
+  "embed": {
+    "title": "__Tight Bindings__ <:tight:535541275957657600>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:rout:535541259268521994>\n⬥ Stuns for 6t (3.6s) and Binds for 16t (9.6s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:tightbinding
+
+.
+{
+  "embed": {
+    "title": "__Rout__ <:rout:535541259268521994>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It shares cooldown with <:tight:535541275957657600>\n⬥ Stuns for 6t (3.6s)\n⬥ It causes Knockback\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:rout
+
+.
+**__Special Attacks__**
+.tag:rangedSpecials
+{
+  "embed": {
+    "title": "__Dark Bow__ <:dbow:643848618553507843>",
+    "description": "⬥ Adrenaline Cost: 65% (58.5% with <:vigour:615613235512737792>)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:dbow
+
+.
+{
+  "embed": {
+    "title": "__Seren Godbow__ <:sgb:626466665848242186>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)\n⬥ To see how use the special attack, use `!sgb` in <#534563158304620564>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:sgb
+
+.
+{
+  "embed": {
+    "title": "__Eldritch Crossbow__ <:ecb:615618531937222657>",
+    "description": "⬥ Special Attack: Split Soul\n⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)\n\u00a0\u00a0\u00a0\u00a0• Lasts 25t (t0-t24)\n\u00a0\u00a0\u00a0\u00a0• Anything <:soulsplit:615613924506599497> would have healed whilst spec is active instead deals Blight damage equal to 4 * <:soulsplit:615613924506599497> heal amount\n\u00a0\u00a0\u00a0\u00a0• To get the Split Soul damage both the <:soulsplit:615613924506599497> heal and the hit of the ability must occur within the duration of the special\n\u00a0\u00a0\u00a0\u00a0• Blight damage is affected a second time by Vulnerability <:Vuln:537349530551582720>, X Slayer sigils <:demonslayer:641339921675845633> <:dragonslayer:641339921814126594> <:undeadslayer:641339922019516416>, the NopeNopeNope PoF perk, and X Slayer perks <:undeadslayerperk:689502804720615441> <:demonslayerperk:689502842653900818> <:dragonslayerperk:689502927731163170>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:ecb
+
+.
+**__Ultimates__**
+.tag:rangedUltimates
+{
+  "embed": {
+    "title": "__Death's Swiftness__ <:deathsswift:994921434633744455>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an on cast buff\n⬥ Increases damage by 50% from t0→t51 (52t/31.2s duration); buff starts t1\n⬥ It has a 7x7 buff radius\n⬥ It does not incur the auto cooldown\n⬥ Planted Feet <:pf:689501925770919981> increases duration to t0→t63 (64t/38.4)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:ds
+
+.
+{
+  "embed": {
+    "title": "__Greater Death's Swiftness__ <:gdeathsswift:994644354536837121>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Duration is 1 tick longer than <:deathsswiftpf:994921597813137518>, t0→t64 (65t/39s duration)\n\u00a0\u00a0\u00a0\u00a0• Using <:pf:689501925770919981> does not extend this further\n⬥ <:gdeathsswift:994644354536837121> retains the DoT effect of <:deathsswift:994921434633744455>\n\u00a0\u00a0\u00a0\u00a0• Using <:pf:689501925770919981> will cancel this",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:greaterds
+
+.
+{
+  "embed": {
+    "title": "__Incendiary Shot__ <:incend:535541258429661215>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with target's true centre (SW tile) as centre\n⬥ It provides an Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, critical hits give 10% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on hit of the ability\n⬥ Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:incend
+
+.
+{
+  "embed": {
+    "title": "__Deadshot__ <:deadshot:535541307666595870>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is mostly a Bleed:\n\u00a0\u00a0\u00a0\u00a0• It does 6 hits, 5 of which are a bleed which means:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits 5 times total, once every 2t (1.2s)\n⬥ Affected by the Igneous Kal-Xil <:igneouskalxil:902209626404171786> or the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n\u00a0\u00a0\u00a0\u00a0• Ability damage is increased.\n\u00a0\u00a0\u00a0\u00a0• The total number of bleed hits increases to 7, from 5\n\u00a0\u00a0\u00a0\u00a0• Adrenaline cost reduced to 60%.",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:deadshot
+
+.
+{
+  "embed": {
+    "title": "__Unload__ <:unload:535541258664411169>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Channelled ability",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:unload
+*Note: This marks the end of the Ranged <:range:580168050121113623> section. Use the __**Table of Contents**__ to find more useful information.*
+
+
+.
+> __**Quick Navigation**__
+.tag:quicknav
+Use the following links to quickly find your way around this channel.
+
+.
+{
+  "embed": {
+    "title": "<:Magic:689504724159823906> __Magic Ability Index__ <:Magic:689504724159823906>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Spells and Basics__ (1/3)",
+        "value": "⬥ [Barrage Spells]($linkmsg_barrage$)\n⬥ [Blitz Spells]($linkmsg_blitz$)\n⬥ [Surge Spells]($linkmsg_surgeSpell$)\n⬥ [Vulnerability]($linkmsg_vuln$)\n⬥ [Incite Fear]($linkmsg_incitefear$)\n⬥ [Exsanguinate]($linkmsg_exsang$)\n⬥ [Smoke Cloud]($linkmsg_smokecloud$)\n⬥ [Animate Dead]($linkmsg_animatedead$)",
+        "inline": true
+      },
+      {
+        "name": "__Spells and Basics__ (2/3)",
+        "value": "⬥ [Combust]($linkmsg_combust$)\n⬥ [Corr. Blast]($linkmsg_corrblast$)\n⬥ [Impact]($linkmsg_impact$)\n⬥ [Shock]($linkmsg_shock$)\n⬥ [Surge]($linkmsg_surge$)\n⬥ [Dragon Breath]($linkmsg_dbreath$)\n⬥ [Sonic Wave]($linkmsg_sonic$)",
+        "inline": true
+      },
+      {
+        "name": "__Spells and Basics__ (3/3)",
+        "value": "⬥ [Conc. Blast]($linkmsg_conc$)\n⬥ [G. Conc. Blast]($linkmsg_gconc$)\n⬥ [Chain]($linkmsg_chain$)\n⬥ [G. Chain]($linkmsg_gchain$)\n⬥ [Wrack]($linkmsg_wrack$)\n⬥ [Wrack and Ruin]($linkmsg_superwrack$)\n⬥ [Magma Tempest]($linkmsg_magma$)",
+        "inline": true
+      },
+      {
+        "name": "__Thresholds__",
+        "value": "⬥ [Wild Magic]($linkmsg_wm$)\n⬥ [Asphyxiate]($linkmsg_asphyx$)\n⬥ [Deep Impact]($linkmsg_deep$)\n⬥ [Horror]($linkmsg_horror$)\n⬥ [Smoke Tendrils]($linkmsg_smoketendrils$)\n⬥ [Detonate]($linkmsg_deto$)",
+        "inline": true
+      },
+      {
+        "name": "__Special Attacks__",
+        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Sunshine]($linkmsg_sunshine$)\n⬥ [G. Sunshine]($linkmsg_gsun$)\n⬥ [Metamorphosis]($linkmsg_meta$)\n⬥ [Omnipower]($linkmsg_omni$)\n⬥ [Tsunami]($linkmsg_nami$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:magicIndex
+
+.
+{
+  "embed": {
+    "title": "<:melee:615612332521029632> __Melee Ability Index__ <:melee:615612332521029632>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Auto and Basics__ (1/3)",
+        "value": "⬥ [Default Auto]($linkmsg_defaultmelee$)\n⬥ [Chaos Roar]($linkmsg_chaosroar$)\n⬥ [Dismember]($linkmsg_dismember$)\n⬥ [Backhand]($linkmsg_backhand$)\n⬥ [Kick]($linkmsg_kick$)\n⬥ [Barge]($linkmsg_barge$)\n⬥ [G. Barge]($linkmsg_gbarge$)\n⬥ [Bladed Dive]($linkmsg_bd$)",
+        "inline": true
+      },
+      {
+        "name": "__Auto and Basics__ (2/3)",
+        "value": "⬥ [Cleave]($linkmsg_cleave$)\n⬥ [Decimate]($linkmsg_deci$)\n⬥ [Sever]($linkmsg_sever$)\n⬥ [Fury]($linkmsg_fury$)\n⬥ [G. Fury]($linkmsg_gfury$)\n⬥ [Havoc]($linkmsg_havoc$)\n⬥ [Smash]($linkmsg_smash$)",
+        "inline": true
+      },
+      {
+        "name": "__Auto and Basics__ (3/3)",
+        "value": "⬥ [Slice]($linkmsg_slice$)\n⬥ [Punish]($linkmsg_punish$)",
+        "inline": true
+      },
+      {
+        "name": "__Thresholds__",
+        "value": "⬥ [Slaughter]($linkmsg_slaughter$)\n⬥ [Blood Tendrils]($linkmsg_bloodtendrils$)\n⬥ [Assault]($linkmsg_assault$)\n⬥ [Destroy]($linkmsg_destroy$)\n⬥ [Hurricane]($linkmsg_hurricane$)\n⬥ [Flurry]($linkmsg_flurry$)\n⬥ [G. Flurry]($linkmsg_gflurry$)\n⬥ [F. Backhand]($linkmsg_forcebackhand$)\n⬥ [Stomp]($linkmsg_stomp$)\n⬥ [Quake]($linkmsg_quake$)",
+        "inline": true
+      },
+      {
+        "name": "__Special Attacks__",
+        "value": "⬥ [Ek-Zekkil]($linkmsg_ezk$)\n⬥ [Zaros Godsword]($linkmsg_zgs$)\n⬥ [Dragon Battleaxe]($linkmsg_dba$)\n⬥ [Dragon Dagger]($linkmsg_dds$)\n⬥ [Dragon Halberd]($linkmsg_dhally$)\n⬥ [Dragon Claws]($linkmsg_dclaws$)\n⬥ [Stat. Warhammer]($linkmsg_swh$)\n⬥ [Vesta Longsword]($linkmsg_vls$)\n⬥ [Granite Maul]($linkmsg_gmaul$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Berserk]($linkmsg_zerk$)\n⬥ [Meteor Strike]($linkmsg_meteor$)\n⬥ [Pulverize]($linkmsg_pulverize$)\n⬥ [Overpower]($linkmsg_overpower$)\n⬥ [Massacre]($linkmsg_massacre$)\n⬥ [Frenzy]($linkmsg_frenzy$)\n⬥ [Balanced Strike]($linkmsg_balancedstrike$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:meleeIndex
+
+.
+{
+  "embed": {
+    "title": "<:range:580168050121113623> __Ranged Ability Index__ <:Ranged:689504724403486920>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__Auto and Basics__ (1/2)",
+        "value": "⬥ [Default Auto]($linkmsg_rangeauto$)\n⬥ [Frag. Shot]($linkmsg_fragshot$)\n⬥ [Corr. Shot]($linkmsg_corrshot$)\n⬥ [Binding Shot]($linkmsg_binding$)\n⬥ [Demoralise]($linkmsg_demoralise$)\n⬥ [Escape]($linkmsg_escape$)\n⬥ [Snipe]($linkmsg_snipe$)",
+        "inline": true
+      },
+      {
+        "name": "__Auto and Basics__ (2/2)",
+        "value": "⬥ [Dazing Shot]($linkmsg_dazing$)\n⬥ [G. Dazing Shot]($linkmsg_gds$)\n⬥ [Needle Strike]($linkmsg_needle$)\n⬥ [Ricochet]($linkmsg_ricochet$)\n⬥ [G. Ricochet]($linkmsg_grico$)\n⬥ [Piercing Shot]($linkmsg_piercing$)",
+        "inline": true
+      },
+      {
+        "name": "__Thresholds__",
+        "value": "⬥ [Snapshot]($linkmsg_snap$)\n⬥ [Shadow Tendrils]($linkmsg_shadowtendril$)\n⬥ [Rapid Fire]($linkmsg_rapid$)\n⬥ [Bombard]($linkmsg_bmbard$)\n⬥ [Salt The Wound]($linkmsg_salt$)\n⬥ [Tight Bindings]($linkmsg_tightbinding$)\n⬥ [Rout]($linkmsg_rout$)",
+        "inline": true
+      },
+      {
+        "name": "__Special Attacks__",
+        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Death's Swiftness]($linkmsg_ds$)\n⬥ [G. Death's Swiftness]($linkmsg_greaterds$)\n⬥ [Incendiary Shot]($linkmsg_incend$)\n⬥ [Deadshot]($linkmsg_deadshot$)\n⬥ [Unload]($linkmsg_unload$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:rangedIndex
+
 .
 {
   "embed": {
     "title": "Table of Contents",
+    "description": "Use __**Quick Navigation**__ to get a panel of links to all abilities for a particular style.\nAlternatively, use the style-specific links to quickly scroll to a certain section (e.g. **Basic Abilities** for Magic <:Magic:689504724159823906>).",
     "color": 39423,
     "fields": [
       {
-	    "name": "__Preventing Walked Onslaughts__",
-        "value": "[Link]($linkmsg_onscancel$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Slow Hitting Abilities__",
-        "value": "[Link]($linkmsg_slow$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Weapon Override Hitspeed__",
-        "value": "[Link]($linkmsg_hitspeed$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Facing-Angle Determination__",
-        "value": "[Link]($linkmsg_faceposangle$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Bladed Dive__",
-        "value": "[Link]($linkmsg_bd$)",
-		"inline": true
+      	"name": "__Quick Navigation__",
+        "value": "⬥ [Introduction / General Notes]($linkmsg_intro$)\n⬥ [Magic Ability Index]($linkmsg_magicIndex$) <:Magic:689504724159823906>\n⬥ [Melee Ability Index]($linkmsg_meleeIndex$) <:melee:615612332521029632>\n⬥ [Range Ability Index]($linkmsg_rangedIndex$) <:Ranged:689504724403486920>",
+        "inline": false
       },
       {
-	    "name": "__Freedom Autos__",
-        "value": "[Link]($linkmsg_freedom$)",
-		"inline": true
+      	"name": "__Magic Abilities__ <:Magic:689504724159823906>",
+        "value": "⬥ [Spells & Auto Attacks]($linkmsg_MagicAutos$)\n⬥ [Basics]($linkmsg_magicBasics$)\n⬥ [Thresholds]($linkmsg_magicThresholds$)\n⬥ [Special Attacks]($linkmsg_mageSpecial$)\n⬥ [Ultimates]($linkmsg_mageUltimates$)",
+        "inline": true
       },
-	  {
-	    "name": "__Defensive Autos__",
-        "value": "[Link]($linkmsg_defensiveautos$)",
-		"inline": true
+      {
+      	"name": "__Melee Abilities__ <:melee:615612332521029632>",
+        "value": "⬥ [Auto Attacks]($linkmsg_meleeAutos$)\n⬥ [Basics]($linkmsg_meleeBasics$)\n⬥ [Thresholds]($linkmsg_meleeThresholds$)\n⬥ [Special Attacks]($linkmsg_meleeSpecials$)\n⬥ [Ultimates]($linkmsg_meleeUltimates$)",
+        "inline": true
       },
-	  {
-	    "name": "__Switching Weapons during Detonate__",
-        "value": "[Link]($linkmsg_detoswitch$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Using Shield Dome during Detonate__",
-        "value": "[Link]($linkmsg_detodome$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Dragon Battleaxe Spec__",
-        "value": "[Link]($linkmsg_dbaxe$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Back-to-Back Special Attacks__",
-        "value": "[Link]($linkmsg_b2bSpec$)",
-		"inline": true
-      },
- 	  {
-	    "name": "__Barricade__",
-        "value": "[Link]($linkmsg_cade$)",
-		"inline": true
+      {
+      	"name": "__Ranged Abilities__ <:range:580168050121113623>",
+        "value": "⬥ [Auto Attacks]($linkmsg_rangedAutos$)\n⬥ [Basics]($linkmsg_rangedBasics$)\n⬥ [Thresholds]($linkmsg_rangedThresholds$)\n⬥ [Special Attacks]($linkmsg_rangedSpecials$)\n⬥ [Ultimates]($linkmsg_rangedUltimates$)",
+        "inline": true
       }
     ]
   }

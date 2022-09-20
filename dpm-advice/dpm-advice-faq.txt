@@ -1,269 +1,499 @@
-> **__Introduction__**
+> __**Introduction**__
 .tag:intro
-In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics. This channel will go over fundamental terminology, combat modes, and ways that you as a player can avoid making common mistakes while trying to improve your own damage output
+In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics.
+
+This channel will cover fundamental terminology, discuss full manual vs. revolution, how to put together a rotation, and common hiccups that players run into while getting into PvM.
+
+.
+> __**Related Channels**__
+.tag:related
+For futher information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more information about PvM and DPS.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__DPM-Advice Channels__",
+        "value": "⬥ <#1020729755064074291>\n⬥ <#1020729582086782996>\n⬥ <#1020729671127662643>",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Info__",
+        "value": "⬥ <#1020050459618185328>\n⬥ <#1020050319457132654>\n⬥ <#1020050437963010149>",
+        "inline": true
+      },
+      {
+        "name": "__Invention__",
+        "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Terminology__**
-.tag:Abb
+.tag:pvmterms
 **__Common Abbreviations in PvM__**
-⬥ **DPM** - damage per minute, a measure of how much damage is done over a minute time
-⬥ **DPS** – damage per second, or in-general referring to damage
-⬥ **DW** – dual wield weapon
-⬥ **2H** – two handed weapon
-⬥ **Juggling/Swapping** – generally referring to switching between DW and 2H weapons to gain access to more damaging abilities
-⬥ **Camping** – refers to using only one type of weapon, ie. 2H camping or DW camping
-⬥ **Rotation** – refers to the usage of abilities and managing ability cooldowns
-⬥ **Switch** – refers to a weapon or gear item that is equipped and use temporarily for its effects
-⬥ **Auto** – an auto attack, NOT an ability
-⬥ **Tick** – a unit of time in which a game action can occur. Runescape's tick is 0.6 seconds in duration
-⬥ **Lossless** - meaning no ticks are lost in performing an action
-⬥ **GCD** - global cooldown. An innate cooldown built into every ability. Lasts for 3 ticks (1.8 seconds)
-*Note: For more abbreviations, see Evil Lucario's list of common PVM Lingo and Abbreviations: <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/>*
+⬥ **Ability** - the combat actions you can perform for each style, unique to EoC.
+    • **Basic ability** - abilities that require no adrenaline to use, such as Sonic Wave <:sonic:535533809924571136>
+    • **Threshold** - abilities that require 50% adren to use, and cost 15% adren, e.g. Wild Magic <:wm:535533809978966037>
+    • **Ultimate** - abilities that require and cost 100% adren to use, such as Tsunami <:tsunami:535533809995874304>
+    • **Special attack** - some weapons have in-built special attacks, e.g. the Dragon Battleaxe <:DBA:603979368850653216>
+⬥ **Auto** – an auto attack (not an ability).
+⬥ **Tick** – a unit of time in which a game action can occur.
+⬥ **DPS** – damage per second, or referring to damage in general.
+⬥ **DW** – dual-wield weapons.
+⬥ **2H** – two-handed weapons.
+⬥ **Juggling/Swapping** – generally referring to switching between DW and 2H weapons to gain access to more damaging abilities.
+⬥ **Camping** – refers to using only one type of weapon - e.g. 2H camping or DW camping.
+⬥ **Rotation** – refers to the usage of abilities in sequence, and managing ability cooldowns.
+⬥ **Switch** – refers to a piece of gear worn and used only temporarily for some effect.
+⬥ **Tick** – a unit of time in which a game action can occur - Runescape runs on 0.6 second ticks.
+⬥ **Lossless** - meaning no ticks are lost in performing an action.
+⬥ **GCD** - global cooldown - an innate cooldown built into every ability that lasts for 3 ticks (1.8 seconds).
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Evil Lucario's PVM Abbreviations__",
+        "value": "For a more extensive list of abbreviations, [click here](https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Combat Modes**__
+.tag:combatmodes
+⬥ Runescape 3 combat can vary in how much user input is required during the encounter depending on what combat mode is selected. From least to most input required, they are:
+    • **Revolution++** - all basic, threshold and ultimate abilities in your bar will be used automatically when possible.
+    • **(Basic) Revolution** - only basic abilities in your bar will be used automatically when possible, everything else must be used by the player.
+    • **Full Manual** - you will have to manually activate all abilities.
+⬥ You can change combat modes by clicking the **yellow cog icon** on the action bar.
+    • The settings can also be found at: **(Press Esc) > Settings > Gameplay > Combat & Action Bar > Combat Mode**
+.img:https://i.imgur.com/Dn6UDOV.png
+⬥ **When revolution or revolution++ is enabled, a yellow bar will appear around your abilities**. This indicates which abilities the system has access to.
+    • Abilities outside this box will not be used automatically.
+    • The bar can be made bigger or smaller by adjusting *Revolution Size* in the settings menu.
+
+.
+> **__Basic Revolution__**
+.tag:revo
+__**What is Revo**__
+⬥ With Basic Revolution (often just called *Revo*), basic abilities are used automatically, but everything else must be used by the player.
+    • **You can still override this with manual inputs**!
+⬥ Newer players may find this combat mode helpful, as it gives some control over your ability rotation but takes away the burden of managing your basic abilities.
+⬥ To enable Revolution, only allow basic abilities to be used by the game automatically:
+.img:https://i.imgur.com/NIEidFb.png
+
+.
+__**Combat Strategy with Revo**__
+.
+⬥ Set up your ability bar properly (see below).
+⬥ When you reach 100% adrenaline, activate your damage-boosting Ultimate abilites.
+    • These are Sunshine <:sunshine:994921119381463070> , Death's Swiftness <:deathsswift:994921434633744455> and Berserk <:Berserk:513190158468907012> depending on your combat style.
+⬥ From there, use your thresholds, modified ultimate abilities and special attacks as adrenaline and ability cooldowns permit.
+    • Examples include Wild Magic <:wm:535533809978966037> , Snapshot <:snap:535534127131394088> , Assault <:assault:535532855191928842> , etc.
+⬥ This simple pattern can be used to achieve a moderate level of DPS with low-medium player input
+    • **Build to 100% → damage-boosting ultimate → thresholds/modified ultimates/special attacks → Repeat**
+    • If you have full adrenaline, but cannot use a damage-boosting ultimate, you can use a couple thresholds while waiting for the cooldown.
+
+__**Setting Up A Revolution Bar**__
+⬥ Strong basics are prioritized over weaker basics.
+⬥ At least one short cooldown ability is placed at the front to help with ability cooldowns.
+⬥ **Avoid normal Fury <:fury:535532879510372352> and normal Concentrated Blast <:conc:535533833106489365> if you do not manually cancel them after 2 hits.**
+    • Revolution does *not* do this for you, it channels them for the full 3 hits.
+⬥ Thresholds and ultimate abilities can be placed anywhere on the bar − you will be manually activating them, so the order does not matter.
+
+.
+__**Magic Basic Revolution Bars**__
+⬥ Dual-wield:
+.img:https://i.imgur.com/T53LZuj.png
+⬥ Two-handed (if you don't have Magma Tempest <:magmatempest:902209626509025290>, use the dual-wield revo bar and replace <:gconc:869285393223254107> with Sonic Wave <:sonic:535533809924571136>):
+.img:https://i.imgur.com/en2tHME.png
+
+.
+__**Ranged Basic Revolution Bars**__
+⬥ For 2H camping, replace Needle Strike <:needle:535541259108876293> with Dazing Shot <:dazing:535541307142307860> / Greater Dazing Shot <:mds:535541259033378827>
+⬥ Dual-wield basic setup:
+.img:https://i.imgur.com/Cg5lv8q.png
+⬥ With Greater Ricochet <:grico:787904334812807238> andthats Caroming 4 <:caroming4:791281588792590336> :
+.img:https://i.imgur.com/4682r2g.png
+
+.
+__**Melee Basic Revolution Bars**__
+⬥ Dual-wield:
+.img:https://i.imgur.com/HZokBdk.png
+⬥ Two-handed:
+.img:https://i.imgur.com/5rOMWEo.png
 
 .
 > **__Revolution++__**
 .tag:revo++
-⬥ Revolution++ is a combat mode wherein you can toggle the game to automatically activate basic, threshold, and ultimate abilities automatically upon reaching the required adrenaline
+__**What is Revo++**__
+⬥ Revolution++ (often just called *revo++*) is similar to normal Revolution, but now the game also activates thresholds and ultimate abilities when adrenaline permits.
+⬥ **Revo++ is generally not recommended for most bossing encounters, as it is severely limiting.** Normal Revo or Full Manual are preferred.
+⬥ However, there are *some* situations where it can be useful:
+    • Low-input play such as AFKing or Slayer.
+    • Specific setups designed to AFK some bosses. You can see examples of this in <#1020039351188586597>.
+⬥ To enable Revo++, ensure you tick the following settings:
+.img:https://i.imgur.com/5hVT0eI.png
 
 .
-⬥ We do not encourage using Revo++ as it is severely limiting; however, it can be desirable for low-input play such as AFKing or Slayer
+__**Setting Up a Revo++ Bar**__
+⬥ This is more complicated than before as you now have to manage cooldowns of your important thresholds and ultimates to maximize damage.
+⬥ Luckily, there are some sample bars set as examples for this that you can use instead.
 
-.
-⬥ To toggle on revolution++ and highlight how many abilities to trigger with it, click the cog icon on your ability bar:
-.
-.img:https://i.imgur.com/Dn6UDOV.png
-.
-> **__Magic Revo++ Bars__**
-⬥ Replace <:gconc:869285393223254107> with <:sonic:535533809924571136> if 2H camping and no <:magmatempest:902209626509025290>
-⬥ With Igneous Kal-Mej <:igneouskalmej:902209626408382494> unlocked:
-.
+__**Magic Revo++ Bars**__
+⬥ For 2H camping, if you don't have Magma Tempest <:magmatempest:902209626509025290>, use the dual-wield bars and replace <:gconc:869285393223254107> with Sonic Wave <:sonic:535533809924571136>.
+⬥ **With** Igneous Kal-Mej <:igneouskalmej:902209626408382494> unlocked:
+    • Dual-wield:
 .img:https://i.imgur.com/d3zHL4H.png
-.
+    • Two-handed:
 .img:https://i.imgur.com/AqFVp0l.png
 .
-⬥ Otherwise:
-.
+⬥ **Without** Igneous Kal-Mej <:igneouskalmej:902209626408382494>:
+    • Dual-wield:
 .img:https://i.imgur.com/gZ0R3Nj.png
-.
+    • Two-handed:
 .img:https://i.imgur.com/OK2Vfyg.png
+
 .
-> **__Ranged Revo++ Bars__**
-⬥ Replace <:needle:535541259108876293> with <:mds:535541259033378827> if 2H camping
-⬥ With Greater Ricochet and Caroming 4 <:gricocaroming:867678153966878740>:
-.
-.img:https://i.imgur.com/cVw2cVO.png
-.
-⬥ Otherwise:
-.
+__**Ranged Revo++ Bars**__
+⬥ For 2H camping, replace Needle Strike <:needle:535541259108876293> with Dazing Shot <:dazing:535541307142307860> / Greater Dazing Shot <:mds:535541259033378827>
+⬥ Duel-wield basic setup:
 .img:https://i.imgur.com/EpqTv5H.png
-.
-> **__Melee Revo++ Bars__**
-⬥ Dual-wield:
-.
-.img:https://i.imgur.com/NxIGDXQ.png
-.
-⬥ 2-Handed:
-.
-.img:https://i.imgur.com/yJYih9P.png
-.
-> **__Basic Revolution__**
-.tag:revo
-⬥ Basic Revolution (commonly referred to as simply "Revolution") is a combat mode wherein basic abilities are used automatically by the game but threshold and ultimate abilities are manually activated
-
-.
-⬥ Newer players may find this combat mode helpful starting out as it allows for some control over your rotation but doesn't overburden you with managing basic abilities
-
-.
-⬥ Note that the thresholds and ultimate abilities can be placed in any order as it does not matter where they are on the bar − you will be manually activating them
-
-.
-⬥ With revolution activating all basic abilities, the following strategy is recommended:
-    • Activate your damage boosting Ultimate <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> once you reach 100% adrenaline
-        - From there, use your thresholds and modified ultimates whenever you reach the requisite amount of adrenaline, and repeat
-
-.
-⬥ Following this simple repeating pattern of *Build to 100% → Damage-Boosting Ultimate → Thresholds and Modified Ultimates → Repeat*, one can expect to reach a moderate level of DPM with low-medium player input
-
-.
-> **__Magic Basic Revolution Bars__**
-⬥ Replace <:gconc:869285393223254107> with <:sonic:535533809924571136> if 2H camping and no <:magmatempest:902209626509025290>
-.img:https://i.imgur.com/T53LZuj.png
-.
-.img:https://i.imgur.com/en2tHME.png
-.
-> **__Ranged Basic Revolution Bars__**
-⬥ Replace <:needle:535541259108876293> with <:mds:535541259033378827> if 2H camping
 ⬥ With Greater Ricochet and Caroming 4 <:gricocaroming:867678153966878740>:
+.img:https://i.imgur.com/cVw2cVO.png
+
 .
-.img:https://i.imgur.com/4682r2g.png
-.
-⬥ Basic unlocks:
-.
-.img:https://i.imgur.com/Cg5lv8q.png
-.
-> **__Melee Basic Revolution Bars__**
+__**Melee Revo++ Bars**__
 ⬥ Dual-wield:
-.
-.img:https://i.imgur.com/HZokBdk.png
-.
+.img:https://i.imgur.com/NxIGDXQ.png
 ⬥ 2-Handed:
-.
-.img:https://i.imgur.com/5rOMWEo.png
-.
-> **__Full Manual__**
-.tag:Manual
-**__Why to Use Full Manual__**
-⬥ Full Manual is a combat mode wherein all abilities are manually activated by the player
-    • No automatic inputs from the game means no damaging abilities will be done, therefore this mode requires high input from the player
+.img:https://i.imgur.com/yJYih9P.png
 
 .
-⬥ The benefit of this mode is that it allows for the greatest degree of control over which abilities are used in any given scenario
+__**AoE Revo++ Bars**__
+⬥ These are some example bars for AFK-type content that requires good AoE damage. **These are not optimal bars, just a reference for you to get started with.**
+    • If Greater Chain <:gchain:787904334495088672> is not owned, replace with normal Chain <:chain:535533833056026624> after <:corruptblast:513190159194259467> instead, and remove <:omni:535533809664262179>.
+    • To use <:omni:535533809664262179> it is assumed that Igneous Kal-Mej <:igneouskalmej:902209626408382494> is owned, remove it if not owned.
+    • Remove Magma Tempest <:magmatempest:902209626509025290> if not owned.
+    • If Greater Fury <:gfury:535532879334080527> or Greater Conc. Blast <:gconc:869285393223254107> are not owned, do not use the regular versions in an AFK Revo++ bar, just remove them.
+⬥ Mage 2-Handed:
+.img:https://i.imgur.com/gsZQs3a.png
+⬥ Mage Dual-wield:
+.img:https://i.imgur.com/d3sexhY.png
+⬥ Melee 2-Handed:
+.img:https://i.imgur.com/xXqLqKl.png
 
 .
-⬥ Most high level pvmers opt to use this combat mode
+> __**Full Manual**__
+.tag:manual
+__**What is Full Manual**__
+⬥ Full manual is a combat mode where all abilities are manually activated by the player. The game will not help you with any automatic ability usage.
+⬥ **This requires a high degree of player input.**
+⬥ It is also the style with the **greatest degree of control over ability usage** and flexibility in combat.
+⬥ Most high-level PvMers will opt to use full manual.
 
 .
 **__How to Approach Using Full Manual__**
-⬥ While it does not matter where you place your abilities on your bar with full manual, you may still find it helpful to organise your bar based on basics to thresholds to ultimates
+*Note: For a more in-depth guide, you can look at <#622619691667685404>.*
+.
+⬥ It does not matter where you place your abilities on your bar with Full Manual, but you may still find it helpful to organize how you set it up.
+    • e.g. basics first, then thresholds, then ultimates.
+⬥ Going from Revo to Full Manual can seem intimidating, but the key to success is **practice, practice, practice**.
+⬥ You can begin with Revo to use your basics, and manually using thresholds and ultimates.
+⬥ Once comfortable, you can also press your basic abilities, but leave Revo on as a backup (to avoid losing ticks doing nothing).
+⬥ Once you feel confident with your keybinds, try turning off Revolution entirely.
+
+__**Practicing Full Manual**__
+⬥ One way to practice is to try attacking a Combat Dummy <:dummy:656844963522281473> for a full minute, *using only basics*.
+⬥ Your goal is to not lose any ticks between basic abilities, while still using as many high damaging basics as you can.
+    • This helps you **learn about ability cooldowns** and **get used to pressing inputs**.
+⬥ Then you can practice a more realistic rotation including thresholds and ultimates.
+⬥ Once you get comfortable at a combat dummy, try it out on a real boss at GWD1 (e.g. K'ril Tustsaroth) or GWD2 (e.g. Vindicta).
+⬥ There is no easy "trick" to skip past the practice. **It takes time to learn full manual, so don't give up**!
+⬥ Do not worry if your damage lessens during this process - **it is normal have worse DPS while learning full manual.**
+
+> __**How to Build a Rotation**__
+.tag:rotation
+*Note: This is just one example for one style. More detailed and style-specific information can be found in their respective channels: <#1020034653945593857> / <#1020034741644316754> / <#1020034711491444737>.*
+.
+__**Factors to Consider**__
+⬥ A rotation is a general order of abilities we try to follow to maximize our DPS. This is achieved taking into account a number of factors, such as:
+    • **Ability Damage** - we want to use strong abilities!
+    • **Ability Cooldowns** - we can only use each ability every so often.
+    • **2H/DW reqs** - some abilities can only be used with two-handed or dual-wield weapons specifically.
 
 .
-⬥ Transitioning from revolution to full manual can seem intimidating, but all it takes is practice
+⬥ This is a lot to take in, so **consider the following example**. Using a 2H melee weapon, such as a Noxious Scythe <:noxscythe:513190159341322240>, and starting at 0% adrenaline, we randomly use some of the strong melee basics and see what happens:
+    • Sever <:sever:535532879577612298> → Dismember <:dismember:535532879376023572> → Cleave <:cleave:535532878616985610> → Fury <:fury:535532879510372352> → Smash <:smash:535532879820619786> → ?
+    • **All the strong basics are now on cooldown!** and we have to use weak filler abilities like Slice <:slice:535532879594258432> or Tuska's Wrath <:Tuskas:513201065513058306>
+⬥ How can this be fixed?
 
 .
-⬥ Most players start by letting revolution activate basics while they manually input thresholds and ultimates
-    • The next step would be to manually activate basic abilities too, with revolution still active as a failsafe
-        - Once you feel confident in activating basic abilities manually, try turning off revolution
+__**Rotating Your Basic Abilities**__
+⬥ To avoid running into situations where there are no good abilities to use, we pick a strong basic that has a relatively short cooldown to build around.
+⬥ The Noxious Scythe <:noxscythe:513190159341322240> is a two-handed weapon, so we pick Fury <:fury:535532879510372352> because:
+    • It is not too weak - 157% maximum ability damage over 2 hits (cancelled correctly).
+    • It has a short cooldown -  5.4 seconds / 9 ticks, or 3 global cooldowns (GCDs).
+    • In other words, **we can use Fury as every 3rd ability.**
+⬥ We also notice Cleave <:cleave:535532878616985610>:
+    • It is one of our strongest basics (188% maximum damage)
+    • It also has a short cooldown - **we can use Cleave every 4th ability**.
 
 .
-⬥ An exercise to help you here is to only use basics for a full minute of combat on a combat dummy
-    • Your goal is to not lose any ticks between basic abilities, either due to cooldowns or due to not manually activating the next ability fast enough
+⬥ Putting it together, we get a rotation:
+.    
+    • [ <:fury:535532879510372352> → <:cleave:535532878616985610> → <:dismember:535532879376023572> ] → [ <:fury:535532879510372352> → <:sever:535532879577612298> → <:cleave:535532878616985610> ] → [ <:fury:535532879510372352> → <:smash:535532879820619786>  → **Filler ability** ] → Repeat
+.
+⬥ This rotation, using groups of 3 abilities around Fury, can be indefinitely repeated, and only requires a single 'filler' ability in every 3rd group.
+⬥ This gives us a **strong foundation to build adrenaline** that we can then consume to use thresholds and ultimates.
+    • The filler ability could be a strong threshold such as Quake <:quake:535532879506309150> / Blood Tendrils <:bloodtendrils:535532854327640064> / Hurricane <:cane:535532878969438210> / etc.
 
 .
-⬥ Once you get comfortable at a combat dummy, try on a real boss such as GWD1 (Graador/K'ril/Kree) or GWD2 (Vindicta)
+__**When To Use Thresholds / Ultimates**__
+⬥ We want to use our damage-boosting ultimates ( <:sunshine:994921119381463070> <:deathsswift:994921434633744455> <:zerk:535532854004678657> ) as often as we can, if the fight will last longer than the duration of the ultimate.
+⬥ Inside the ultimate, the goal is to use as many good thresholds, modified ultimates (like Overpower with an Ingeous Kal-Ket <:overpowerigneous:959089455640215633> ) and special attacks <:spec:537340400273195028> as possible, and minimize the use of weak abilities.
+    • During cooldowns, we will continue to use strong basics.
+⬥ After the ultimate ability ends, while waiting for it to come back off cooldown, we can use a few thresholds.
+
+__**What to Use Inside Ultimates**__
+⬥ Players have worked out some of the best ways to use abilities inside ultimates.
+⬥ There are rotations available depending on your gear and what abilities you have unlocked.
+⬥ Knowing such information helps plan out ability rotations, and commit them to muscle memory over time with practice.
+.
+⬥ For example, using T85 Lengs <:darkiceshard:915232154160594974><:darkicesliver:915232153787334677>, Greater Barge <:gbarge:535532879250456578> and an Adrenaline Renewal <:adrenrenewal:736298121704767538> we can fit the following abilities within a single Berserk <:zerk:535532854004678657> :
+    • **1x** Destroy <:destroy:535532879330148352>
+    • **1x** Greater Flurry <:gflurry:535532879283879977>
+    • **1x** Assault <:assault:535532855191928842>
+    • **1x** Hurricane <:cane:535532878969438210>
+*Note: Many different ultimate rotations for different scenarios can be found in the style-specific **#dpm-advice** channels.*
 
 .
-⬥ There is no easy "trick" to skip past the practice. It takes time to learn full manual so stick with it!
-
-.
-⬥ More information about the full manual transition available here: <#622619691667685404>
-
-.
-> __**Common Mistakes and How to Fix Them**__
+>  __**Common Mistakes and How to Fix Them**__
 .tag:mistakes
-The following list notes some of the common mistakes made by players in PvM. It is likely that as you work towards improving your DPM, you will need to improve in one or many of these areas. The first step is recognising what mistakes you're making, then working on the solution. Don't be discouraged if you don't get it right away, some of these mistakes are harder to fix than others. Remember, everything just takes practice
+The following sections cover some common mistakes made by players in PvM. It is likely that as you work towards improving your PvM ability, you will need to improve in one or many of these areas. The first step is recognizing what mistakes you're making, then working on the solution. Don't be discouraged if you don't get it right away, some of these issues can be harder to fix than others. Remember, everything just takes practice.
 
 .
-> **__Cancelling Channelled Abilities Late or Early__**
-.tag:cancelling
-**__Channeled Abilities__**
-⬥ Concentrated Blast <:conc:535533833106489365>: 2hit (3t/1.8s)
-⬥ Greater Concentrated Blast <:gconc:869285393223254107>: 3hit (3t/1.8s)
-⬥ Snipe <:snipe:535541258425204770>: 1-hit (4t/2.4s)
-⬥ Fury <:fury:535532879510372352>: 2-hit (3t/1.8s)
-⬥ Asphyxiate <:asphyx:535533833072672778>: 2-hit (3t/1.8s), or 4-hit (7t/4.2s)
-⬥ Smoke Tendrils <:smoketendrils:536257336130404372>: 2-hit (3t/1.8s), or 4-hit (7t/4.2s)
-⬥ Rapid fire <:rapid:535541270521708566>: 8-hit (8t/4.8s)
-⬥ Assault <:assault:535532853979512842>: 4-hit (7t/4.2s)
-⬥ Destroy <:destroy:535532879330148352>: 4-hit (7t/4.2s)
-⬥ Greater Flurry <:gflurry:535532879283879977>: 2-hit (3t/1.8s), or 3-hit (5t/3.0s)
-*Note: The listed cancel timings are standard, depending on overall rotation the cancel time you use may vary*
+> __**PvM Checklist**__
+.tag:checklist
+It may seem obvious, but ensuring that you are not missing anything in terms of gear loadout and character buffs can help with avoiding frustration during PvM. Here are some things that you may want to check if you run into difficulties, or to avoid them.
+__**Checklist**__
+⬥ **Gear/equipment**
+    • Enough divine charges <:divinecharge:1010485547598356530>
+    • Equipment is repaired <:detoboots:602581956072439828> <:noxstaff:513190159294922753>
+    • Jewellery is charged <:RoD:513190159462825984> <:onyx:1010485544188391424> / <:eof:787526151978614824> <:alchemicalhydrixdust:1010485545480228895>
+    • Rune pouches are filled <:graspingpouchpink:892816437503221830> <:Airrune:536252658986647589>
+    • Quivers are filled <:pernixsquiver:902209626450296892> <:fularrow:971025696958853180>
+    • Pocket slots are charged <:scriptureofjas:869284342839513108> <:grim:568262896375824385>
+    • Familiar + *scrolls* <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>
+⬥ **Character Buffs**
+    • HP boosts <:thermalflask:689530593796423724>
+    • Overloads <:elderovlsalve:648976643687317532>
+    • Weapon poison <:cinderbanes:513190158355660812> <:weppoison:689525476158472288>
+    • Activated aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
+    • Correct spellbook <:SBS:543875425055670275> <:SBSLunars:565726489467682816>
+    • Incense sticks <:LantaSticks:565726489404899368> <:SpiritSticks:565726489136463894> <:KwuarmSticks:565726489341984779>
+⬥ **Other**
+    • Action bar switches set up correctly.
+    • Keybinds set up correctly.
+    • Quick prayers set up <:protectitem:1010486261682810891> <:soulsplit:615613924506599497> <:Malevolence:513190159416557573>
+.
+__**Quick Banking Preset**__
+⬥ It can be helpful to have a preset dedicated to general PvM setup, for quickly preparing for a bossing hour and to ensure that you don't miss the items on the checklist.
+⬥ Use the `!bankingpreset` command to learn more.
 
 .
-**__Why it’s Important__**
-⬥ It is important to properly cancel abilities in order to not lose any ticks, or damage potential
-    • Animations can be unreliable, and longer than the actual duration of the ability
-    • It can be higher damage-per-tick, or net you more adrenaline, to cancel long channels early
-    • Greater Concentrated Blast <:gconc:869285393223254107>, and Snipe <:snipe:535541258425204770> may suffer a 1t delay when revolution is enabled
+> __**Cancelling Channelled Abilities Late/Early**__
+.tag:cancel
+__**Why Channeled Abilities Are Important**__
+⬥ Most abilities in the game take 1.8 seconds / 3 ticks, or 1 GCD, to cast. *Channeled* abilities take longer than this duration to cast fully.
+⬥ These abilities can be *cancelled*, by activating the next ability early.
+⬥ It is important to properly cancel abilities in order to not lose any ticks, or damage potential.
+    • Animations can be unreliable, and longer than the actual hit duration of the ability.
+    • It can be higher damage-per-tick, or net you more adrenaline, to cancel long channels early.
+    • Some channels incur an extra 1t delay when using Revolution - e.g. Greater Concentrated Blast <:gconc:869285393223254107> or Snipe <:snipe:535541258425204770>
 
 .
-**__How to Fix__**
-⬥ The following videos demonstrate proper cancel timings for channelled abilities
+__**Channeled Abilities**__
+*Note: 2-hit implies that you channel the ability for 2 hits, and so on. How long you channel will depend on your rotations. 3 ticks = 1.8 seconds = 1 GCD.*
+.
+⬥ **Magic Abilities** <:Magic:689504724159823906>
+    • Concentrated Blast <:conc:535533833106489365> - 2-hit (3t/1.8s)
+    • Greater Concentrated Blast <:gconc:869285393223254107> - 3-hit (3t/1.8s)
+    • Asphyxiate <:asphyx:535533833072672778> - 2-hit (3t/1.8s), or 4-hit (7t/4.2s)
+    • Smoke Tendrils <:smoketendrils:536257336130404372> - 4-hit (7t/4.2s)
+.
+⬥**Ranged Abilities** <:range:580168050121113623>
+    • Snipe <:snipe:535541258425204770> - 1-hit (4t/2.4s)
+    • Rapid fire <:rapid:535541270521708566> - 8-hit (8t/4.8s)
+.
+⬥ **Melee Abilities** <:melee:615612332521029632>
+    • Fury <:fury:535532879510372352> - 2-hit (3t/1.8s)
+    • Assault <:assault:535532853979512842> - 4-hit (7t/4.2s)
+    • Destroy <:destroy:535532879330148352> - 4-hit (7t/4.2s)
+    • Greater Flurry <:gflurry:535532879283879977> - 2-hit (3t/1.8s), or 3-hit (5t/3.0s)
+.
+{
+  "embed": {
+    "title": "__Channeled Abilities__",
+    "description": "How to properly cancel channeled abilities. (Courtesy of <@781280949790572554>)",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Video Guides__",
+        "value": "⬥ [How to Cancel <:Magic:689504724159823906> Abilities](https://youtu.be/DaCy60sZav4)\n⬥ [How to Cancel <:range:580168050121113623> Abilities](https://youtu.be/939znioyCMA)\n⬥ [How to Cancel <:melee:615612332521029632> Abilities](https://youtu.be/y33z3WLM7H8)"
+      }
+    ]
+  }
+}
+.embed:json
 
-.
-⬥ Proper Cancelling of Magic <:Magic:689504724159823906> Abilities
-.
-https://youtu.be/DaCy60sZav4
-.
-⬥ Proper Cancelling of Ranged <:range:580168050121113623> Abilities
-.
-https://youtu.be/939znioyCMA
-.
-⬥ Proper Cancelling of Melee <:melee:615612332521029632> Abilities
-.
-https://youtu.be/y33z3WLM7H8
 .
 > __**Ability Prioritisation**__
-.tag:prio
-**__Why it’s Important__**
-⬥ As silly as it may sound, pressing stronger buttons will greatly increase your DPM moreso than any other gear upgrade
-    • In other words, you should know which abilities are strong in which scenarios, and use that to your advantage
+.tag:priority
+__**Why It's Important**__
+⬥ As obvious as it may sound, **using stronger abilities increase your DPS**, more so than any other gear upgrade.
+⬥ Abilities can be prioritised differently based on the scenario. For example, DoTs, or damage-over-time abilities (e.g. <:comb:535533833098100745> <:corruptblast:513190159194259467> / <:frag:535541273755385885> <:corruptshot:535541306294796299> / <:dismember:535532879376023572> <:BloodTend:513190158431158274> <:slaughter:535532879237873666> ) have lower priority while under damage-boosting ultimates ( <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> ) since their damage doesn't get boosted.
+    • In fact, if using a Berserker-variant aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>, these abilities will actually be *worse* than if used outside these ultimates, as the auras don't boost damage while in an ultimate.
+⬥ In other words, **you should know which abilities are strong in which scenarios**, and use that to your advantage.
 
 .
-**__How to Fix__**
-⬥ Take a look in <#534567464370044928>, <#563917498169425930>, and <#534912860711550989> to get an idea of how to prioritise each ability under certain conditions
-    • The numbers behind these can be found here: <https://docs.google.com/spreadsheets/d/1OetEUz4xU5sg7pqmJBkkafmZIye8qoPOXprUPGhin14/edit?usp=sharing>
-    • Note how the same ability can be prioritised differently depending on the scenario; for example:
-        - Bleeds (including <:comb:535533833098100745> <:corruptblast:513190159194259467> <:frag:535541273755385885> <:corruptshot:535541306294796299> <:dismember:535532879376023572> <:BloodTend:513190158431158274> <:slaughter:535532879237873666>) are lower priority when under the effects of damage-boosting ultimates <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012>, because their damage is not boosted by these abilities. In fact, if using a Berserker-variant aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>, these abilities will actually be worse than if used outside these ultimates, as the direct damage boost from these auras is lost
+__**How to Fix**__
+⬥ Read the __**Ability Prioritisation**__ sections in the style-specific channels to get an idea of how to prioritize abilities for each style (<#1020034653945593857>, <#1020034711491444737>, <#1020034741644316754>).
+⬥ For more information, check out the **Ability Damage Maths** spreadsheet in <#611748860746006528>.
+⬥ Also, an explanation of how most abilities work can be found in <#1020050459618185328>.
 
 .
 > __**Managing Cooldowns**__
 .tag:cooldowns
-**__Why it’s Important__**
-⬥ Strong abilities often come with long cooldowns. This poses an inherent problem: if you use all your strong abilities at once, you'll be left with only weak abilities until they are available again
+__**Why It's Important**__
+⬥ Strong abilities often come with long cooldowns. If you use all your strong abilities at once, you will be forced to use many weak abilities during the cooldown.
+⬥ By contrast, managing the cooldowns lets you use a balance of very strong and and moderately strong abilities, and for the most part, *avoid weak abilities altogether*.
 
 .
-**__How to Fix__**
-⬥ Your goal should be to make use of "filler" abilities, ones with decent damage and short cooldowns, in-between your strong abilities in order to "manage" their cooldowns
+__**How to Fix**__
+⬥ Your goal should be to make use of "filler" abilities, ones with decent damage and short cooldowns, in-between your strong abilities in order to "manage" their cooldowns.
 ⬥ Managing your cooldowns effectively will translate to a direct DPM increase, as you will be using fewer weak abilities overall
-    • Examples of such abilities are Sonic Wave <:Sonic:535533809924571136>, (Greater) Concentrated Blast <:gconc:869285393223254107> / <:Conc:535533833106489365>, (Greater) Dazing Shot <:mds:535541259033378827> / <:Dazing:535541307142307860>, Needle Strike <:Needle_Strike:535541259108876293>, (Greater) Fury <:Mut_Fury:535532879334080527> / <:Fury:535532879510372352>, Cleave <:Cleave:535532878616985610>, and Decimate <:Deci:535532879325822986>
+⬥ Example filler abilities by style:
+    • Magic :  Sonic Wave <:Sonic:535533809924571136> , (Greater) Concentrated Blast <:gconc:869285393223254107> / <:Conc:535533833106489365>
+    • Ranged : (Greater) Dazing Shot <:mds:535541259033378827> / <:Dazing:535541307142307860> , Needle Strike <:Needle_Strike:535541259108876293>
+    • Melee : (Greater) Fury <:Mut_Fury:535532879334080527> / <:Fury:535532879510372352> , Cleave <:Cleave:535532878616985610> , Decimate <:Deci:535532879325822986>
 
 .
 > __**Losing Ticks**__
-.tag:losing
-**__Cause__**
-⬥ Not inputting the next ability fast enough, having trouble determining what is the next ability, or clicking and being slow on weapon switches
+.tag:lostticks
+__**Why It's Important* To Be Aware of Losing Ticks*__
+⬥ Not using the next ability in the sequence fast enough causes lost ticks, where your character stands still doing nothing.
+⬥ This may be due to slow ability input, or being slow with weapon switches, or forgetting to click a target again while using revo if you stop attacking for any reason.
+⬥ This is similar to not cancelling channeled abilities properly - it can add up to a large amount of wasted DPS potential over time.
 
 .
-**__Why it’s Important__**
-⬥ Same rationale as canceling channels. These losses add up over time to a large amount of wasted damage potential
+__**How to Fix**__
+⬥ Practice more! Try to anticipate what abilities you will need to use in advance, so that you are prepared to input them as required.
+⬥ **This will be especially noticeable during the transition to full manual.**
 
 .
-**__How to Fix__**
-⬥ Practice lots. Try and think 2 abilities ahead and plan out your rotation
+> __**Not Using Auto Attacks**__
+.tag:autos
+__**Why It's Important**__
+⬥ Lossless auto attacks can be made during PvM under certain circumstances, which can result in 'free' damage.
+⬥ For example, after using a damage-boosting ultimate like <:sunshine:994921119381463070>, you can get a free 2-handed auto attack <:noxstaff:513190159294922753> <:AirSurge:543465115870035999> if done properly.
+    • To get this, use a non-channeled dual-wield ability before the ultimate, and switch to a 2H weapon afterwards and click your target again.
+⬥ Similarly, a lossless 2H auto attack can be gained when using Shadow Tendrils <:shadowtend:642713547142332416> with Ranged, if you use a fastest-speed dual-wield ability beforehand.
+    • *Note that this does not work with glaives due to their attack speed.*
+⬥ There are more situations, but the summary is - **not taking advantage of auto attacks is essentially giving up free damage**.
 
 .
-> __**Auto Attacks with Ultimates**__
-.tag:uauto
-**__Why it’s Important__**
-⬥ They are lossless, which means "free" damage with your ultimate! However, mistakes can result in them being outright lost, or its damage being significantly reduced, notably:
-    • Not releasing the auto attack, or releasing a dual wield auto attack instead of a 2H auto attack
+__**How to Fix**__
+⬥ This is a slightly more advanced topic, and as such merits its own channel as there is a lot of information to cover.
+⬥ For information on auto attacks in general, <#1020050437963010149> has you covered.
+⬥ For more information on defensive autos, check out the `!defauto` command.
 
 .
-**__How to Fix__**
-⬥ Use a non-channelled dual-wield ability before activating your ultimate, and immediately after activating your ultimate switch to a 2H and click on the target to obtain a free auto attack before the GCD is over
-    • Clicking the target is only necessary if you clicked your Planted Feet/2H switch from your inventory. If you keybound everything, disregard clicking the target; the auto will come with no extra input needed
+> __**Not Using Invention Perks**__
+.tag:perks
+__**Why It's Important To Use Perks**__
+⬥ Invention perks offer large increases to both your damage and survivability, and are absolutely recommended to be used. The benefits of perks far outweigh the costs of using augmented gear.
+⬥ There are two kinds of perks - the perks that you camp, or *base perks*, and the perks that go on switches, that we'll call *switch perks*.
+⬥ It is strongly recommended to unlock **Ancient Invention**, requiring 85 <:Invention:689509250946695292> Invention (boostable with an extreme invention potion from level 67 and blueprints for gizmos can be bought on the Grand Exchange).
+    • **Ancient invention perks are stronger, and in many cases far easier to get**, than their normal counterparts.
+.
+*Note: You can get starter perks going **as low as level 68 Invention** <:Invention:689509250946695292> + an Extreme Invention potion. For a detailed list of perks and why they're used, check out <#553632787639435284> and <#689236234912137266>.*
 
 .
-> __**Utilising Flanking**__ <:flank4:712073088296157185>
-.tag:flank
-**__Why it’s Important__**
-⬥ Your basic flanking (<:impactflank:867678154369400862>, <:bindingshotflank:867678153400647701>, <:backhandflank:867678153854025779>) are 260% abilities and are better than nearly any other basic ability in terms of damage
+__**Base Perks**__
+⬥ These are the perks you would camp on your weapons and armor. For players beginning their PvM journey, the following starter perks are recommended:
+    • Weapons: Precise 6 <:p6:712073088769982475> + Equilibrium 4 <:eq4:712073088589627505>
+    • Body: Biting 3 <:b3:689502516874051590> + Crackling 4 <:crack4:712073087662686249>
+    • Legs: Impatient 4 <:imp4:712073088204013640> + Enhanced Devoted 4 <:enhdev4:712073087507628035>
+    • Defender: Planted Feet <:pf:689501925770919981> (can be on a switch weapon too)
+⬥ These perks offer *substantial* DPS increases over no perks at all, boost your adrenaline gains with Impatient <:imp4:712073088204013640> and offer large defensive damage mitigation with Enhanced Devoted 4 <:enhdev4:712073087507628035>.
+⬥ **Not using at least some level of starter invention perks is a large damage and defence loss**.
 
 .
-**__How to Fix__**
-⬥ Practice. Understand where it is feasible to use, how to do so, and make an effort to incorporate it into your rotation
+__**Switch Perks**__
+⬥ Some invention perks like **Flanking** <:flank4:712073088296157185> , **Caroming** <:caroming4:791281588792590336> and **Lunging** <:lunge4:736522494315593759> can *drastically* change how good certain abilities are to use.
+⬥ However, depending on the situation, these perks may not be good to permanently put on your items - in which case, they may end up as switches.
+⬥ **Not using these perks *under the right circumstances* can be significant lost DPS potential**.
 
 .
-> __**Changing Weapons Mid-Channel Ability**__
-.tag:changing
-**__Why it’s Important__**
-⬥ Changing your weapon mid-chanel, for example, <:gconc:869285393223254107> / <:conc:535533833106489365>, will cancel the ability
-⬥ Therefore, precise timing is required to ensure you’re still getting all hits from your channel
-    • There are further implications as well, for example, changing your main-hand during or after <:gconc:869285393223254107> / <:conc:535533833106489365> will lose you the crit bonus from the ability
+__**How to Fix**__
+⬥ **Always use augmented, properly perked gear!** Even the 'starter' invention perks are miles better than no perks at all.
+⬥ **Practice adding in the switches slowly**, and it will become muscle memory with time.
+⬥ With Flanking <:flank4:712073088296157185> your basic stun abilities like Impact <:impactflank:867678154369400862> / Binding Shot <:bindingshotflank:867678153400647701> / Backhand <:backhandflank:867678153854025779> become some of your strongest basics, and add more options to your rotations. It also buffs the corresponding threshold stun abilities!
+⬥ Caroming <:caroming4:791281588792590336> combined with Greater Ricochet <:gricocaroming:867678153966878740> makes it your strongest ranged basic by far, in a style that suffers from a lack of strong basics.
+    • With Greater Chain <:gchaincaroming:867678153882861568> it can become an exceptionally good way to clear large groups of monsters.
+⬥ Lunging <:lunge4:736522494315593759> combined with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> makes <:dismemberlunge:867678153899769876> your strongest melee basic ability.
 
 .
-**__How to Fix__**
-⬥ Practice the timing as described earlier
+> __**Incorrect Weapon Switching**__
+.tag:juggling
+__**Why It’s Important**__
+⬥ Changing your weapon during a channeled ability such as during Rapid Fire <:rapid:535541270521708566> will cancel the ability abruptly.
+⬥ Some abilities and special attacks are tied to your main-hand weapon. Changing weapons loses the buff.
+    • After using Greater Concentrated Blast <:gconc:869285393223254107> your next ability must be dual-wield as well, to use the crit chance buff.
+    • Some special attacks like ECB spec <:ecb:615618531937222657> <:spec:537340400273195028> are tied to your main-hand weapon as well, and changing weapons loses the buff.
+⬥ Understanding abilities used with 2H vs. DW weapons is critical to understanding how to 4TAA, which has nice utility in combat.
+⬥ **Mistakes like these, and more, can cost significant lost damage potential, and are essential to avoid**.
+
+.
+__**How to Fix**__
+⬥ Learn when you can and cannot switch weapons, and deliberately practice proper juggling rotations to ensure that you commit the *correct* actions to muscle memory.
+⬥ In the long term, it is easier to learn good habits than to unlearn bad ones.
+
+.
+> __**Cheaping Out On Supplies**__
+.tag:cheap
+__**Why It’s Important**__
+⬥ It may seem convenient and cost-effective to save on supplies, doing things such as:
+    • Using normal spells <:AirSurge:543465115870035999> over ancient spells <:bloodbarrage:537338981747261446> <:exsanguinate:856635090745950258> <:incitefear:856635090783567902>
+    • Using cheap ammo like ascension bolts instead of bakriminel bolts <:RubyBakri:565726489413287956> <:HydrixBakri:550834403136503822>
+    • Using low tier food instead of <:Sailfish:565726489363087360> or <:sailfishsoup:537336701933060106>
+    • Wearing cheaper alternatives <:Armadyl_helmet:556582831527034919> <:armaplate:643150997828403231> <:Armadyllegs:556592073340354574> instead of better equipment <:sirenicmask:643846959454617610> <:sirenicbody:643846948570267648> <:sireniclegs:643846938537623564>
+    • Not using perked gear <:Invention:689509250946695292>
+    • and the list goes on...
+.
+⬥ It may seem appealing to save money in these little ways, *but it is not worth it*.
+⬥ The loss of any one of these upgrades may look small, but **together they can add up to a large impact on your PvM ability**.
+⬥ Being able to have more utility spells at hand, to not waste time casting vuln, to do more damage with better ammo/spells, to heal more health quickly, to take less damage with better armor and perks, and so on can make PvM *far* less tedious and more enjoyable.
+.
+*Note: in some **extreme** scenarios, it is worth considering cheaper alternatives. For example, it is almost never worth using Elite Sirenic <:elitesirenicmask:643846921944956929> <:elitesirenicbody:643846908305211413> <:elitesireniclegs:643846897525850165> over other alternatives, as it is simply too expensive and has high reclaim costs. Or it might not be worth using a Grimoire <:grim:568262896375824385> at low tier bosses due to the high cost of pages <:grimpage:643168594493964298> <:coins:698816156961603654>. Use common sense.*
+
+.
+__**How to Fix**__
+⬥ Supply costs are the price to pay for the chance to do exciting PvM encounters, and fight fun bosses. Just accept them as a part of PvM.
+⬥ **Treat it as an incentive to get better at PvM** - the faster you kill things, the fewer supplies you use and the more money you make.
 
 .
 {
@@ -272,68 +502,23 @@ https://youtu.be/y33z3WLM7H8
       "color":39423,
       "fields":[
          {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
+            "name":"__Begin__",
+            "value":"⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)\n⬥ [Common PvM Terms]($linkmsg_pvmterms$)",
             "inline":true
          },
          {
-            "name":"__Terminology__",
-            "value":"[Link]($linkmsg_Abb$)",
+            "name":"__Combat Modes__",
+            "value":"⬥ [Revo / Revo Bars]($linkmsg_revo$)\n⬥ [Revo++ / Revo++ Bars]($linkmsg_revo++$)\n⬥ [Full Manual]($linkmsg_manual$)",
             "inline":true
          },
          {
-            "name":"__Revo++ and Action Bars__",
-            "value":"[Link]($linkmsg_revo++$)",
-            "inline":true
-         },
-         {
-            "name":"__Basic Revo and Action Bars__",
-            "value":"[Link]($linkmsg_revo$)",
-            "inline":true
-         },
-         {
-            "name":"__Full Manual__",
-            "value":"[Link]($linkmsg_Manual$)",
+            "name":"__Rotations__",
+            "value":"⬥ [How to Build A DPS Rotation]($linkmsg_rotation$)",
             "inline":true
          },
          {
             "name":"__Common Mistakes__",
-            "value":"[Link]($linkmsg_mistakes$)",
-            "inline":true
-         },
-         {
-            "name":"__Ability Cancelling__",
-            "value":"[Link]($linkmsg_cancelling$)",
-            "inline":true
-         },
-         {
-            "name":"__Ability Prioritisation__",
-            "value":"[Link]($linkmsg_prio$)",
-            "inline":true
-         },
-         {
-            "name":"__Managing Cooldowns__",
-            "value":"[Link]($linkmsg_cooldowns$)",
-            "inline":true
-         },
-         {
-            "name":"__Losing Ticks__",
-            "value":"[Link]($linkmsg_losing$)",
-            "inline":true
-         },
-         {
-            "name":"__Auto Attacks with Ultimates__",
-            "value":"[Link]($linkmsg_uauto$)",
-            "inline":true
-         },
-         {
-            "name":"__Utilising Flanking__",
-            "value":"[Link]($linkmsg_flank$)",
-            "inline":true
-         },
-         {
-            "name":"__Switching Mid-Channel__",
-            "value":"[Link]($linkmsg_changing$)",
+            "value":"⬥ [Cancelling Channels]($linkmsg_cancel$)\n⬥ [Ability Prioritisation]($linkmsg_priority$)\n⬥ [Managing Cooldowns]($linkmsg_cooldowns$)\n⬥ [Losing Ticks]($linkmsg_lostticks$)\n⬥ [Not Using Auto-Attacks]($linkmsg_autos$)\n⬥ [Not Using Perks]($linkmsg_perks$)\n⬥ [Incorrect Weapon Switching]($linkmsg_juggling$)\n⬥ [Cheaping Out On Supplies]($linkmsg_cheap$)",
             "inline":true
          }
       ]

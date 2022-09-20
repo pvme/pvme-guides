@@ -1,933 +1,1035 @@
- **__Introduction__**
-.tag:Intro
-⬥ Melee is a style designed around big bursts and damage over time. It tries to balance high hitting abilities in Berserk and bleeding outside of it.
+> __**Introduction**__
+.tag:intro
+In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics.
+
+This channel will go over general damage output lessons, ability prioritisations, crafting a rotation, a learning path, common mistakes, and tips and tricks.
+
+.
+> __**Related Channels**__
+.tag:related
+For further information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more info about PvM and DPS.",
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__DPM-Advice Channels__",
+        "value": "⬥ <#1019754991575113790>\n⬥ <#1020034741644316754>\n⬥ <#1020034711491444737>",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Info__",
+        "value": "⬥ <#1020050459618185328>\n⬥ <#1020050319457132654>\n⬥ <#1020050437963010149>",
+        "inline": true
+      },
+      {
+        "name": "__Invention__",
+        "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Revolution Bars and General Background Knowledge__**
-.tag:generalInfo
-⬥ For general PvM terminology, DPM tips, and revolution bars, see <#622623001694699560>
+.tag:generalinfo
+For general PvM terminology, DPS tips, and revolution bars, refer to sections in <#1019754991575113790>.
+
+.
+> __**Ability Information**__
+.tag:info
+.
+{
+  "embed": {
+    "title": "__Ability Information Resources__",
+    "description": "The following links contain information about abilities and auto attacks.",
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Ability Information__",
+        "value": "For accurate tooltips and information about specific spells (auto attacks) and abilities and how they work refer to <#1020050459618185328>."
+      },
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://i.imgur.com/7EINzgc.png)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+> __**Ability Prioritisation**__
+.tag:priority
+__**Ability Ranking**__
+⬥ Generally, high damaging abilities should be prioritised and used more often than low damaging abilities.
+    • **This can be affected by what equipment the player owns**, such as Gloves of Passage <:Glovesofpassage:556588694862037012> or an Abyssal Scourge <:abyssalscourge:947871842469834832> or a Masterwork Spear of Annihilation <:mwspear:694566917456789554> and so when upgrading gear, it is worth spending a little time to learn how it affects your abilities.
+.
+⬥ The following image shows the relative strengths of abilities in different scenarios, ranked by *damage per tick*.
+.img:https://i.imgur.com/8xK47v3.png
+.
+*Note: This is **not** an ability rotation, only a damage comparison chart. It does not consider ability cooldowns or any specific PvM encounter, simply damage-per-tick in a vacuum. For information on how to incorporate these into a proper rotation, see the __**Building A Melee Rotation**__ section below or in the pinned Table of Contents.*
 
-.
-> **__Ability Prioritisations & Building a Rotation__**
-.tag:Priority
-**__Ability Prioritisation__**
-⬥ Generally speaking, high damaging abilities should be prioritised and used more often than low damaging abilities
-    • However, there's a catch. High damaging abilities often come with long cooldowns.
-        - If you use all of the high damaging abilities at once, you will be forced to wait for cooldowns before you may use them again – during which time you are forced to use low damage abilities.
-
-⬥ To circumvent this, the trick is to use 'filler abilities'.
-    • For Melee these are just strong basics with short cooldowns, which will be used between your other high damaging but longer cooldowned abilities in order to pace your cooldowns.]
-
-*Note: You will have to use weak abilities like Fury <:fury:535532879510372352> as a filler ability should you be weapon camping*
-
-.
-⬥ See this image for an idea of which abilities should be prioritised based on damage (in a vacuum):
-.
-.img:https://i.imgur.com/kSuOqLi.png
-.
-*Note: You should not necessarily use abilities in the listed order due to aforementioned reasons.*
-
-.
-**__Building a Rotation__**
-⬥ When building a rotation, ability prioritisations AND cooldowns should be on your mind.
-
-⬥ You want to make sure to prioritise usage of Assault <:assault:535532853979512842>, Destroy <:destroy:535532879330148352>, and Cane <:cane:535532878969438210> as these are your strongest thresholds, where ideally they are used in your <:Berserk:513190158468907012> zerk and generally the first couple thresholds you use.
-    • Outside of <:zerk:535532854004678657>, especially with the Masterwork Spear of Annilihation <:mwspear:694566917456789554> you would want to prioritise bleed thresholds such as Slaughter <:slaughter:535532879237873666> and Blood Tendrils <:BloodTend:513190158431158274>, too.
-
-.
-⬥ There are certain thresholds that your focus should be cooldown management
-    • These include <:slaughter:535532879237873666>, <:assault:535532853979512842>, and sometimes <:cane:535532878969438210> / <:destroy:535532879330148352>
-        - These are your strongest thresholds, but also have the tightest cooldowns in terms of maximising usage/minute
-    • In contrast, there are abilities that would not define your ability rotation as strictly such as Cleave, which is what is considered filler in between these
-
-⬥ Filler abilities such as Cleave <:cleave:535532878616985610> and Decimate <:deci:535532879325822986> should be used in-between other high damage but longer cooldowned ability such as Dismember <:dismember:535532879376023572>, and flank Backhand <:backhandflank:867678153854025779>
-
-⬥ Any basic ability with equal-or-lower damage than 2-hit Fury / Greater Fury <:fury:535532879510372352> / <:gfury:535532879334080527> would be considered a weak ability (Barge <:barge:535532853916860437>, Smash <:smash:535532879820619786>, Havoc <:havoc:535532879300526080>, Slice <:slice:535532879594258432>, and Punish <:punish:535532879439069184>).
-    • Generally speaking, these should be avoided.
-        - There are cases and conditions where <:gfury:535532879334080527> is on average better than what are referred to as 188 abilities (<:sever:535532879577612298> / <:cleave:535532878616985610> / <:deci:535532879325822986>), this will be discussed later.
-    • If you are DW or 2H camping you will likely have to regularly weave in (2-hit) <:fury:535532879510372352> / <:gfury:535532879334080527> more often as your weakest ability.
-
-.
-⬥ If you are 2H or DW camping, you will be limited to only one strong filler ability (Cleave <:cleave:535532878616985610> or Decimate <:deci:535532879325822986>, respectively). Thus, try to utilise Cleave <:cleave:535532878616985610> or Decimate <:deci:535532879325822986> as often as possible in your rotation.
-    • <:fury:535532879510372352> / <:gfury:535532879334080527> becomes another one of your filler abilities, albeit it is weaker than what is typically a melee filler ability
-        - A basic pattern of (2-hit) <:fury:535532879510372352> / <:gfury:535532879334080527> → Ability → Ability → Repeat is recommended for camping rotations.
-
-⬥ For weapon juggling, you will have access to both Cleave <:cleave:535532878616985610> and Decimate <:deci:535532879325822986> as your filler abilities.
-    • This lets you have more breathing room in what rotations and fillers you create.
-
-.
-> **__Ability Information__**
-.tag:abilInfo
-**__General__**
-⬥ Note: t = "ticks", s = "seconds"
-⬥ To see the damages of the listed things with your gear set up, feel free to make a copy of the following sheet to customise:
-<https://docs.google.com/spreadsheets/u/2/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0>
-
-.
-**__Autos__**
-⬥ All Autos are affected by Invigorating <:invig4:712073087859949570>
-    • (Invigorating Rank * 10)% increased adrenaline on Autos
-
-⬥ **Default Melee Auto** <:melee:615612332521029632>
-    • Cooldown: Based on Weapon Speed
-        - Fastest: 4t (2.4s)
-        - Fast: 5t (3.0s)
-        - Average: 6t (3.6s)
-
-.
-**__Basics:__**
-⬥ **Chaos Roar** <:chaosroar:994644356671737966>
-    • Cooldown: 100t (60s)
-    • Unlocked by reading a Chaos Roar ability codex <:chaosroarcodex:994189286960287764>
-    • Doubles the base damage of the next melee ability cast within 7.2s
-        - As a result, doubles all hits of bleeds (e.g. <:slaughter:535532879237873666>) and multi-hit attacks (e.g. <:cane:535532878969438210>)
-        - Channels have multiple casts, so it only doubles the first cast (e.g first hit of <:assault:535532853979512842>)
-
-.
-⬥ **Dismember** <:dismember:535532879376023572>
-    • Cooldown: 25t (15s)
-    • It is a Bleed:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • The Bleed can be extended:
-        - Strength skillcape <:strcape:689503815296352308> passive adds 3 hits
-        - Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits
-    • It is affected by Lunging <:lunge4:736522494315593759>
-        - Max hit increases by 20% per Lunging rank
-
-.
-⬥ **Backhand** <:backhand:535532854302605333>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Kick <:kick:535532879132885025>
-    • Stuns for 2t (1.2s)
-    • It is affected by Flanking <:flank4:712073088296157185>
-        - Increases Max by 40% per Flanking rank
-        - Increases Minimum by 8% per Flanking Rank
-        - No longer stuns or binds
-
-.
-⬥ **Kick** <:kick:535532879132885025>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Backhand <:backhand:535532854302605333>
-    • Stuns for 2t (1.2s)
-    • It causes Knockback:
-        - Pushes 1x1 targets back 1 tile
-
-⬥ **Barge** <:barge:535532853916860437>
-    • Cooldown: 34t (20.4s)
-    • It is a Mobility ability:
-        - Will move you to Melee Distance
-    • It is affected by Mobile <:mob:689501908628799488>
-        - Reduces cooldown to 17t (10.2s)
-        - Removes adrenaline gain
-    • Binds for 11t (6.6s)
-    • It clears Binds
-
-.
-⬥ **Greater Barge** <:gbarge:535532879250456578>
-    • Cooldown: 34t (20.4s)
-    • All normal <:barge:535532853916860437> things apply
-    • It has additional effects:
-        - Every tick (0.6s) since the player stopped attacking their target, <:gbarge:535532879250456578> gains +10% to its max range and +2% to its min, capping at 10t (6s) for a total of 100% and 20%. This makes the damage range go from 25%-125% to 45%-225%
-        - After 8t (4.8s) pass since you stopped attacking, when you <:gbarge:535532879250456578>, if you cast <:fury:535532879510372352> / <:flurry:864492981763702834> / <:gflurry:535532879283879977> / <:destroy:535532879330148352> / <:assault:535532853979512842> / <:frenzy:535532879279554581> within 10t (6s), it will covert the first one done into a damage over time
-    • For more details on <:gbarge:535532879250456578> look at the Greater Barge section later in the channel
-
-⬥ **Bladed Dive** <:bd:535532854281764884>
-    • Cooldown: 34t (20.4s)
-    • It is a Mobility ability:
-        - If you use it on a tile, it will <:bd:535532854281764884> you to that tile
-        - If you use it on a target it will <:bd:535532854281764884> you some point at Melee Distance of the target (the movement is accounted 1t later than had you clicked a tile)
-    • It is affected by Mobile <:mob:689501908628799488>
-        - Reduces cooldown to 17t (10.2s)
-        - Removes adrenaline gain
-    • It is an AoE:
-        - Hits 3x3 around where you land if used on a target
-        - This becomes 5x5 with Laceration Halberd <:bd:535532854281764884>
-    • It has an additional effect:
-        - If you use it on a target and it dies within 10t (6s), the cooldown ends
-
-.
-⬥ **Cleave** <:cleave:535532878616985610>
-    • Cooldown: 12t (7.2s)
-    • It is an AoE
-
-⬥ **Decimate** <:deci:535532879325822986>
-    • Cooldown: 12t (7.2s)
-    • It does more damage against Shielded targets:
-        - It goes from a 37.6%-188% to 48.8%-244% ability
-
-.
-⬥ **Sever** <:sever:535532879577612298>
-    • Cooldown: 25t (15s)
-    • It reduces target's damage by 10% for 8t (4.8s)
-
-⬥ **Fury** <:fury:535532879510372352>
-    • Cooldown: 9t (5.4s)
-    • It provides a passive critical hit buff:
-        - 5% increased crit chance for each hit it does
-        - Lost when swapping mainhands
-    • Channelled ability
-
-⬥ **Greater Fury** <:gfury:535532879334080527>
-    • Cooldown: 9t (5.4s)
-    • It provides a passive critical hit buff:
-        - 10% increased crit chance
-        - Lost when swapping mainhands
-    • When <:gfury:535532879334080527> crits it guarantees your next ability will crit too
-        - Unlike the passive buff, this guaranteed crit **is not** lost upon swapping mainhands
-
-.
-⬥ **Havoc** <:havoc:535532879300526080>
-    • Cooldown: 17t (10.2s)
-    • It is affected by Gloves of Passage <:Glovesofpassage:556588694862037012>
-        - The damage of the next ability done on the main target is increased by 10%
-        - The damage of bleeds is increased by 20% for the next 17t (10.2s)
-
-⬥ **Smash** <:smash:535532879820619786>
-    • Cooldown: 17t (10.2s)
-    • It is affected by Gloves of Passage <:Glovesofpassage:556588694862037012>
-        - The damage of the next ability done on the main target is increased by 10%
-        - The damage of bleeds is increased by 20% for the next 17t (10.2s)
-
-.
-⬥ **Slice** <:slice:535532879594258432>
-    • Cooldown: 5t (3s)
-    • Damage boosted on stun/bound targets:
-        - Becomes a 80%-146% basic
-    • Affected by Energising:
-        - Gain (Energising Rank \* 0.6) more adrenaline
-        - Damage range is now 0.8 \* original damage range
-
-⬥ **Punish** <:punish:535532879439069184>
-    • Cooldown: 5t (3s)
-    • Damage boosted on stun/bound targets:
-        - Becomes a 37.6%-188% basic
-
-.
-**__Thresholds__**
-⬥ **Slaughter** <:slaughter:535532879237873666>
-    • Cooldown: 50t (30s)
-    • It is a Bleed:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • The Bleed can be extended:
-        - Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits
-
-⬥ **Blood Tendrils** <:BloodTend:513190158431158274>
-    • Cooldown: 75t (45s)
-    • It is a Bleed:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • The Bleed can be extended:
-        - Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits
-
-.
-⬥ **Assault** <:assault:535532853979512842>
-    • Cooldown: 50t (30s)
-    • Channelled ability
-
-⬥ **Destroy** <:destroy:535532879330148352>
-    • Cooldown: 34t (20.4s)
-    • It shares cooldown with Hurricane <:cane:535532878969438210>
-        - Cooldown is split when cast with MH and OH Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870> / <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>
-    • Stuns for 6t (3.6s)
-    • Channelled ability
-
-⬥ **Hurricane** <:cane:535532878969438210>
-    • Cooldown: 34t (20.4s)
-    • It shares cooldown with Destroy <:destroy:535532879330148352>
-        - Cooldown is split when cast with MH and OH Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870> / <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>
-    • It is an AoE:
-        - 3x3 with player as centre
-        - 5x5 with player as centre with Halberd-type weapon
-
-.
-⬥ **Flurry** <:flurry:864492981763702834>
-    • Cooldown: 34t (20.4s)
-    • It is an AoE:
-        - 3x3 with player as centre
-    • Channelled Ability
-
-⬥ **Greater Flurry** <:gflurry:535532879283879977>
-    • Cooldown: 34t (20.4s)
-    • All normal <:flurry:864492981763702834> things apply
-    • It also has some additional effects:
-        - For each successful hit on any target reduce Berserk <:Berserk:513190158468907012> cooldown by 2t/hit (1.2s/hit) for up to an 8t (4.8s) reduction
-        - When used on a single target, hits go from 94%/ea to 157%/ea
-
-.
-⬥ **Forceful Backhand** <:fbackhand:535532879346794516>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Stomp <:stomp:535532879552315412>
-    • Stuns for 6t (3.6s)
-    • It is affected by Flanking <:flank4:712073088296157185>
-        - Increases Max by 40% per Flanking rank
-        - Increases Minimum by 8% per Flanking rank
-        - No longer stuns or binds
-
-⬥ **Stomp** <:stomp:535532879552315412>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Forceful Backhand <:fbackhand:535532879346794516>
-    • Stuns for 6t (3.6s)
-    • It causes Knockback
-        - Pushes 1x1 targets back 1 tile
-
-.
-⬥ **Quake** <:quake:535532879506309150>
-    • Cooldown: 34t (20.4s)
-    • It applies a defence and affinity debuff:
-        - +2 affinity
-        - Reduces Defence level by 5% of base, will not reduce if at least at 90% of base though
-    • It is an AoE:
-        - 3x3 with player as centre
-        - 5x5 with player as centre with Halberd-type weapon
-
-.
-**__Special Attacks__**
-*Note: All Special Attacks have an inherent cooldown when doing back-to-back special attacks, this is discussed in <#689212192398114875>*
-
-.
-⬥ **Ek-Zekkil** <:zekkil:903244090953588787>
-    • Cooldown: 100t (60s)
-    • Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)
-    • Special Attack: Igneous Cleave
-        - This special attack does not benefit from the special attack accuracy buff.
-        - Has a non-bleed hit followed by a 6-hit bleed. Each subsequent hit deals a multiplicative 5% increased amount of damage from the previous.
-        - This special attack stacks with the effect of Masterwork Spear of Annihilation <:mwspear:694566917456789554> to increase the number of bleed hits to 9. This requires the <:zekkil:903244090953588787> being stored inside an Essence of Finality amulet.
-        - If a target is suffering from this special attack and is hit with another bleed or burn ability, an additional bleed hit is added. You can only gain up to 5 more hits this way.
-        - Only <:dismember:535532879376023572>, <:BloodTend:513190158431158274>, <:slaughter:535532879237873666>, <:massacre:535532879384543253>, <:comb:535533833098100745>, <:frag:535541273755385885>, <:deadshot:535541307666595870> and <:abyssalscourge:947871842469834832>'s parasite bleed extend the <:zekkil:903244090953588787> <:spec:537340400273195028>.
-
-.
-⬥ **Zaros Godsword** <:zgs:626465964325601290>
-    • Cooldown: 100t (60s)
-    • Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)
-    • Special Attack: Blackhole
-        - It is an on cast buff
-        - Creates a 7x7 area that boosts all melee damage by 25% from t0-34t (35t/21s duration), where no damage buff occurs on t0 and only autos are boosted t1
-        - Enemies positioned within this area take 25%-50% ability damage every 3t (1.8s)
-        - Does not incur the auto cooldown, but will still make you attempt to force an auto
-        - Can take weapon off and retain spec effect
-
-⬥ **Dragon Battleaxe** <:DBA:603979368850653216>
-    • Special Attack: Rampage
-    • Adrenaline Cost: 100% (90% with <:vigour:615613235512737792>)
-        - Drains 10% (rounded down) of your Attack, Range, Magic, and Defence levels and are given a Strength level boost of 10 + 1 level for every 4 drained from your other stats
-        - Has hidden damage boost of 1.2\* your damage (which stacks with <:zgs:626465964325601290> going from a 1.25\* to a 1.25 \* 1.2 = 1.5\* boost) or 1.1\* when under the effect of <:Berserk:513190158468907012>, making it a 2 \* 1.1 = 2.2\* damage boost
-        - You also get a debuff: a multiplicative 10% reduction to hitchance
-        - These effects lasts 1 minute
-        - Can take weapon off and retain spec effect
-
-.
-⬥ **Dragon Dagger** <:dragondagger:779048040644083733>
-    • Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)
-    • This is a channeled special attack
-
-⬥ **Dragon Halberd** <:dragonhalberd:841409589261238282>
-    • Cooldown: 12t (7.2s)
-    • Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)
-    • This is a channelled special attack
-    • It is an AoE
-
-.
-⬥ **Dragon Claws** <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485>
-    • Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)
-    • It is a channelled special attack
-
-⬥ **Statius's Warhammer** <:swh:641670143197446182>
-    • Adrenaline Cost: 35% (31.5% with <:vigour:615613235512737792>)
-    • Its special attack applies an affinity and defence reduction:
-        - +5 affinity
-        - Reduces Defence level by 30% of base
-
-.
-⬥ **Vesta Longsword** <:vls:841409238717956125>
-    • Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)
-
-⬥ **Granite Maul** <:gmaul:796989663051120640>
-    • Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)
-    • Ths special attack can be used during the GCD
-
-.
-**__Ultimate__**
-⬥ **Berserk** <:Berserk:513190158468907012>
-    • Cooldown: 100t (60s)
-    • It is an on cast buff
-    • It increases damage by 100% from t0→t33 (34t/20.4s duration)
-    • It increases damage taken by 50%
-    • It does not incur the auto cooldown
-
-⬥ **Meteor Strike** <:meteorstrike:535532879359377439>
-    • Cooldown: 100t (60s)
-    • It is an AoE:
-        - 3x3 with player as centre
-        - 5x5 with player as centre with Halberd-type weapon
-    • It provides an Critical Adrenaline buff:
-        - For the next 30s, crtical hits give 10% adrenaline
-        - This buff is applied on release of the ability
-
-.
-⬥ **Pulverise** <:pulverise:535532879053062146>
-    • Cooldown: 100t (60s)
-    • Reduces damage dealt by target by 25%
-    • If target dies to <:pulverise:535532879053062146> you gain 50% adrenaline
-
-⬥ **Overpower** <:overpower:535532879334080517>
-    • Cooldown: 50t (30s)
-    • Is affected by the Igneous Kal-Ket <:igneouskalket:902209626404192316> and the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>:
-        - The ability's adrenaline cost and the amount of adrenaline required to activate it are reduced to 60%.
-        - The ability has two hits.
-
-.
-⬥ **Massacre** <:massacre:535532879384543253>
-    • Cooldown: 100t (60s)
-    • It is mostly a Bleed:
-        - It does 6 hits, 5 of which are a bleed which means:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • The Bleed can be extended:
-        - Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits
-
-⬥ **Frenzy** <:frenzy:535532879279554581>
-    • Cooldown: 100t (60s)
-    • Channelled ability
-
-⬥ **Balanced Strike** <:balancedstrike:535532854336290826>
-    • Cooldown: 200t (120s)
-    • Compares player and targets current HP percentage; Higher of the two takes damage based on that difference, and lower is healed for half of that. For details read wiki: <https://runescape.wiki/w/Balanced_Strike>
-
-.
-**__Hit Timings__**
-Refer to this table for hit timings of each ability:
-⬥ Auto, Basics and Thresholds:
-.
-.img:https://i.imgur.com/ZsVgPYq.png
-.
-⬥ Special Attacks and Ultimates:
-.
-.img:https://i.imgur.com/z5DdlqJ.png
-.
-*Notes:*
-⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
-⬥ *r2H means "release stalled ability with 2H", rDW means "release stalled ability with dual wield"*
-
-.
-> **__Bleeds__**
-.tag:bleeds
-**__What is a Bleed?__**
-⬥ Used interchangibly with the term "damage over time (DoT)"
-    • The distinction between these is important for melee:
-        - A DoT does its damage in multiple hits (e.g. Dismember <:dismember:535532879376023572>)
-        - A bleed is a subsection of DoTs
-⬥ Any melee effect that works with bleeds only works with bleeds and not other DoTs
-
-**__List of Melee Bleeds__**
-    • Dismember <:dismember:535532879376023572>
-    • Blood Tendrils <:bloodtendrils:535532854327640064>
-    • Slaughter <:slaughter:535532879237873666>
-    • Massacre <:massacre:535532879384543253>
-    • Ez-Zekkil special attack <:zekkil:903244090953588787>
-    • Abbysal Scourge <:abyssalscourge:947871842469834832> and Abyssal (Alloy) Armour Spikes' <:abyssalarmourspikesalloy:947871842541129768> Parasite bleed
-
-.
-**__Parasite Stacks__**
-⬥ Can be applied by <:abyssalarmourspikesalloy:947871842541129768> or the <:abyssalscourge:947871842469834832>
-⬥ Does 18-31 (24.5 avg) damage per stack
-        - Maxes at 937-1562 (1225 avg) damage at 50 stacks
-⬥ It lasts 9s/15t and hits every 1.8s/3t
-⬥ Is a bleed
-
-.
-**__Jaws of the Abyss__** <:jawsoftheabyss:947871842595639306>
-⬥ Gain +2% adrenaline per active bleed on target when casting melee basics.
-    • Affected non-melee bleeds too (<:frag:535541273755385885> and <:deadshot:535541307666595870>)
-    • Affected by Natural Instinct
-    • The extra adrenaline is vital to performing meta rotations.
-⬥ Best-in-slot despite being T85
-
-.
-> **__Abyssal Scourge__** <:abyssalscourge:947871842469834832>
-.tag:parasites
-⬥ A T92 mainhand weapon
-⬥ Applies **Abyssal Parasites**
-
-**__Using Abyssal Scourge__**
-⬥ It is currently the BIS mainhand weapon
-    • The T95 leng MH <:lengmh:883134308146098227> should be used as a main weapon in the following scenarios:
-        - Accuracy is important
-        - The phases are too short to stack Parasite stacks
-        - You are hybridding
-    • Only require 3 hits of the Parasites before a T93 (<:abyssalscourge:947871842469834832> + <:lengoh:883134308070604870>) ability has outdamaged a T95 (<:lengmh:883134308146098227> + <:lengoh:883134308070604870>) ability
-⬥ Stalling with not <:abyssalscourge:947871842469834832> and releasing with <:abyssalscourge:947871842469834832> applies stack(s)
-    • Useful for <:destroy:535532879330148352> / <:cane:535532878969438210>
-
-.
-**__How to Quickly Build Stacks__**
-⬥ Casting <:zekkil:903244090953588787> <:eofspec:746403211908481184> with <:abyssalscourge:947871842469834832> gives 6 to 11 Parasite stacks
-    • Loses the 3 extra hits of (<:mwspear:694566917456789554>) <:zekkil:903244090953588787> <:eofspec:746403211908481184>
-        - So, it is only recommended to do this when you cannot fit all 14 (<:mwspear:694566917456789554>) <:zekkil:903244090953588787> <:eofspec:746403211908481184> hits
-⬥ Casting <:dismember:535532879376023572> at the start of your rotation
-    • With <:strcape:689503815296352308> this will give 8 Parasite stacks and can be stronger than 188% abilities
-    • The following image give an indication of when it is worth using.
-        - The time is how long there is remaining in the phase when using Dismember <:dismember:535532879376023572>.
-.
-.img:https://imgur.com/6rAKtFr.png
-.
-> **__Leng weapons__**
-.tag:lengs
-The leng weapons (both T85 and T95) will be your main weapons alongside the Abyssal Scourge <:abyssalscourge:947871842469834832>.
-
-.
-**__Set effect__**
-⬥ When any combination of the T85 and T95 lengs are worn the cooldown of <:destroy:535532879330148352> and <:cane:535532878969438210> are split
-    • This applies even if <:cane:535532878969438210> or <:destroy:535532879330148352> are stalled then released with a different weapon.
-        - Lets you stall a Barge bled <:destroy:535532879330148352> and release it with the <:abyssalscourge:947871842469834832>, generating an extra Parasite stack
-        - Same idea for <:cane:535532878969438210>
-
-.
-**__Mainhand__** <:lengmh:883134308146098227> / <:darkiceshard:915232154160594974>
-⬥ The T85 mainhand leng does T88 damage and has T85 accuracy
-⬥ The T95 mainhand leng has a special attack called Icy Tempest.
-    • It costs 20% adrenaline and has a 60s/100t cooldown
-    • It increases the hitcap of the following abilities:
-        - The hitcap of all melee damage is increased by 30%
-    • It is only recommended to use the spec pre-kill or in a time gated phase, for example:
-        - Taraket (Salve amulet bonus damage)
-        - Raksha (phase 4 anima boost)
-        - Seiryu's last crystal
-        - Telos (phase 5 with <:revenge:535541259645878302> + <:zerk:535532854004678657>)
-        - At war's retreat for any kill you start with <:Berserk:513190158468907012>
-
-.
-**__Off-hand__** <:lengoh:883134308070604870> / <:darkicesliver:915232153787334677>
-⬥ The T85 off-hand leng does T88 damage
-⬥ Allows hurricane to be cast with dual wield.
-
-.
-> **__When to Cancel Channels__**
-.tag:cancel
-**__Desired Channel Lengths__**
-⬥ You will always cancel Fury <:fury:535532879510372352> on its 2nd hit, this is as your Global Cooldown ends (3t/1.8s)
-
-⬥ Typically you will cancel your Assault <:assault:535532853979512842> and Destroy <:destroy:535532879330148352> on the 4th hit (7t/4.2s)
-    • To cancel on 3rd hit you would cancel on t5 (3s)
-    • To cancel on 2nd hit you would cancel on t3 (1.8s)
-        - The above cancel timings are the same for Flurry <:flurry:864492981763702834>, Greater Flurry <:gflurry:535532879283879977>, and Frenzy <:frenzy:535532879279554581>
-
-⬥ When you want to cancel <:gflurry:535532879283879977> differs according to the following
-    • If ult cooldown is important you should 4 hit <:gflurry:535532879283879977>
-    • If the cooldown is not important you should do as many hits as you need to properly realign your rotation to get an ability on the last tick of <:zerk:535532854004678657>
-
-⬥ A video demonstration of when to cancel channels
-.
-https://www.youtube.com/watch?v=y33z3WLM7H8
-.
-**__2H vs Dual Wield <:assault:535532853979512842>__**
-⬥ <:assault:535532853979512842> hit splats will land at different times depending on whether it is cast with 2H or DW.
-    • The timing to cancel it remains unchanged.
-```
-Assuming a T0 <:assault:535532853979512842> cast, it hits on ticks:
-2 4 6 8 for 2H
-3 5 7 9 for DW
-```
-.
-.img:https://i.imgur.com/sQpb7RM.mp4
-.
-> **__Greater Codices__**
-.tag:gCodices
-**__How Greater Barge Works__** <:gbarge:535532879250456578>
-⬥ Breaks you free of binds, and where applicable bind a target for 11 ticks (6.6sec)
-⬥ For each tick (0.6sec) since the player stopped attacking their target, Greater Barge gains +10% to its max damage range, and +2% to its min
-    • This caps at 10 tick (6s) for +100% and +20%, for a final range of 45%-225%
-
-⬥ If it has been atleast 8 ticks (4.8sec) since you stopped attacking it gains another effect:
-    • This is indicated by the Greater Barge <:gbarge:535532879250456578> icon appearing on your Buff Bar
-    • Any melee channeled ability used within 10 ticks (6sec) of casting <:gbarge:535532879250456578>, indicated by the <:voke:535541259465392143> icon appearing on your Buff Bar, will be turned into a damage-over-time (DoT) instead
-        - Converted channels are typically called barge "bleeds"; however, these should not be confused with normal bleeds (e.g. <:dismember:535532879376023572>) as they are different.
-    • This is the reason Greater Barge <:gbarge:535532879250456578> is so strong
-
-.
-**__When Greater Barge Is Used__** <:gbarge:535532879250456578>
-⬥ At the start of a fight
-⬥ After any mechanic that forces you to not attack (e.g. Vorago's reflect)
-⬥ During a <:zerk:535532854004678657> mid-combat
-
-.
-**__Using Greater Barge Mid-Combat__**
-1) Ability → click away → Defensive → <:zerk:535532854004678657> → <:gbarge:535532879250456578>
-    a) It is important to click off atleast 1 tick prior otherwise you will not get the effect
-
-2) Ability → wait 2 ticks → <:zerk:535532854004678657> → <:gbarge:535532879250456578>
-    a) Doing it this way saves 1 tick (8 ticks vs 9 ticks)
-.
-https://youtu.be/GPPMjY2wrjw
-.
-**__Notes on Greater Barge__**
-*Note: bullets marked with ★ are likely unintended / bugs*
-
-⬥ Unlike normal non-damaging abilities, ZGS spec <:zgs:626465964325601290> <:spec:537340400273195028> will try to drag you in to auto
-    • Therefore, if you want to <:zgs:626465964325601290> <:spec:537340400273195028> → <:gbarge:535532879250456578> mid combat, you need to click off again as you <:zgs:626465964325601290> <:spec:537340400273195028> to not auto and lose the <:gbarge:535532879250456578> buff
-
-⬥ Greater Barge channels DoTs can stack
-
-.
-⬥ If you bleed Greater Flurry <:gflurry:535532879283879977> all the hits will reduce your Berserk <:zerk:535532854004678657> cooldown
-
-.
-⬥ ★ If you use queuing and have no target, ensure you don't queue Greater Barge <:gbarge:535532879250456578> before acquiring a target, otherwise you will not get the <:gbarge:535532879250456578> buff
-
-⬥ ★ Greater Barge <:gbarge:535532879250456578> also does not give adrenaline if you still have a target that is dead
-
-.
-⬥ ★ Bleed Frenzy <:frenzy:535532879279554581> only does 180% hits
-
-⬥ Equipping a different tier of weapon *after* bleeding will change the damage of the weapon according to the latter weapon tier
-    • For example, if you bleed with a t90 weapon equipped then switch to t92, the damage will be calculated as t92 damage for any remaining hits
-
-⬥ Each hit has its own chance to hit
-
-⬥ ★ If you stall a barge bleed the following will occur:
-    • Hits 2-4 will hit as normal on the target you casted the ability on to stall
-    • Hit 1 will be the only hit that gets stalled, and when released will hit the same time as it would normally hit if it were the first hit of its channeled ability
-        - This also means is you can far-cast your barge bleed on a target to make hits 2-4 hit it from a large distance
-
-.
-**__What Greater Fury Does__** <:gfury:535532879334080527>
-.tag:Gfury
-*Note: due to regular fury's interaction with the Abyssal Scourge and <:gfury:535532879334080527>'s need to use <:grim:568262896375824385>, <:gfury:535532879334080527> is generally considered a downgrade.*
-
-.
-⬥ Greater Fury <:gfury:535532879334080527> hits once dealing 157% ability damage
-
-⬥ The next ability cast after Greater Fury has an added 10% chance to critically strike
-    • This is lost upon swapping mainhands
-.
-⬥ If Greater Fury <:gfury:535532879334080527> crits, it guarantees the first hit of the next ability crits
-
-⬥ The main benefit to this upgrade is transforming this ability from a 3-hit (5t/3.0s) channeled ability to a 1-hit non-channeled ability
-    • This makes <:gfury:535532879334080527> more friendly in Revolution++ and Revolution setups
-.
-⬥ Due to the guaranteed crit effect, it is possible for <:gfury:535532879334080527> to be stronger (on average) than a 188% ability (<:deci:535532879325822986> / <:cleave:535532878616985610> / <:sever:535532879577612298>)
-    • This is when the crit chance of <:gfury:535532879334080527> and the ability damage of the following ability are sufficiently high.
-        - Currently some successful Greater Fury complements, under an active Grimoire <:grim:568262896375824385> and Biting perk <:biting4:712073087809617931>, are flanking abilities, charged Greater Barge <:gbarge:535532879250456578> or Igneous Overpower.
-        - Another niche consideration is when under the effects of Berserk <:zerk:535532854004678657> (and <:grim:568262896375824385>), there is almost no damage difference between <:gfury:535532879334080527> → <:assault:535532853979512842> and 188% → <:assault:535532853979512842>.
-*Note: A sheet comparing <:gfury:535532879334080527> to <:deci:535532879325822986> / <:cleave:535532878616985610> / <:sever:535532879577612298> before various abilities can be found here:
-<https://docs.google.com/spreadsheets/d/1beHYkyPKV-tj8eHlbRDQTRX9GkdFBKhBr89B8fKyuXI/edit#gid=1063393167>*
-
-.
-> **__Switches__**
-.tag:switches
-.
-**__2H swap__**
-⬥ Using a 2H weapon you can use <:cleave:535532878616985610> as a filler ability as well as <:quake:535532879506309150> or <:cane:535532878969438210> (if no lengs) as thresholds
-⬥ The tier of the 2H does not matter if stalling abilities with it and then releasing with dual wield
-
-.
-**__Gloves of Passage__** <:Glovesofpassage:556588694862037012>
-⬥ After casting <:havoc:535532879300526080> or <:smash:535532879820619786> with Gloves of Passage equipped:
-    • The target will take 20% increased damage from bleeds for 17t (10.2s).
-        - This also applies to existing bleeds and non-melee bleeds.
-    • The next ability cast within 6s/10t will do 10% more damage.
-
-.
-⬥ The 10% damage boost works as follows when stalling abilities (if an Essence of Finality <:eof:787526151978614824> is worn):
-    • All abilities released on the same tick will be boosted (if cast with the same mainhand weapon).
-    • If you cast <:havoc:535532879300526080> / <:smash:535532879820619786> → stall ability 1 → release ability 1 + cast ability 2, both abilities will get buffed
-    • If you stall <:havoc:535532879300526080> / <:smash:535532879820619786> and release it with another ability, the other ability will consume the buff.
-    • How to boost 2 hits of a barge bleed + next ability:
-        - Barge bleed has to be released on tick 3 (tick 0 stall).
-        - The next ability cast on tick 4.
-        - This allows you to boost 4 hits when stalling a barge bleed into <:cane:535532878969438210> / <:overpower:535532879334080517>.
-
-.
-⬥ The 10% damage boost works as follows when stalling abilities (if an <:eof:787526151978614824> isn't worn) [*requires further testing*].
-    • Instead of boosting all abilities on just 1 tick, the following tick will also be boosted.
-    • This allows you to 5TAA → ability and get both boosted.
-    • Alternatively the first ability can be click or walk-in released 2 ticks after stalling it and the following ability can be cast on tick 3 as normal.
-    • If click releasing an ability on tick 2, an <:eof:787526151978614824> can be equipped tick 3 along with casting an ability and both abilities will still be boosted. This will not work if the abilities are 2H, channeled, or weapon special attacks.*
-
-Note: * Requires further testing.
-
-.
-**__Flanking__** <:flankicon:841419289755385866>
-⬥ This turns Backhand <:backhand:535532854302605333> and Forceful Backhand <:fbackhand:535532879346794516> into far stronger abilities at the cost of their stun
-    • It increases Minimum of <:backhand:535532854302605333> by 8% per Flanking rank and its Max by 40% per Flanking rank
-    • It increases Minimum of <:fbackhand:535532879346794516> by 6% per Flanking rank and its Max by 30% per Flanking rank
-
-⬥ It is recommended to put this perk on an off-hand switch
-    • Reduces the damage and accuracy loss of using a lower tier weapon for switches
-
-⬥ In order to get 2 <:backhand:535532854302605333> in one <:Berserk:513190158468907012> rotation, the first <:backhand:535532854302605333> must be at the latest the second ability after <:zerk:535532854004678657>.
-
-.
-**__Masterwork Spear of Annilihation__** <:mwspear:694566917456789554>
-⬥ Its effect increases the duration of bleeds by 50% rounded down. That means abilities are affected as follows:
-    • Dismember <:dismember:535532879376023572> (bringing it to 7 from 5 hits, and up to 10 with the Strength Cape <:strcape:689503815296352308> effect)
-    • Slaughter <:slaughter:535532879237873666> (bringing it to 7 from 5 hits)
-    • Blood Tendrils <:bloodtendrils:535532854327640064> (bringing it to 7 from 5 hits)
-    • Ez-Zekkil spec <:zekkil:903244090953588787> <:spec:537340400273195028> (bringing it to 9 from 6 hits)
-    • Massacre <:massacre:535532879384543253> (bringing it to 7 from 5 hits)
-⬥ It is better to use it as a switch for the above 3 abilities as you can perk it to have <:lunge4:736522494315593759> to boost <:dismember:535532879376023572> damage and get full benefit of normal DPS perks on your remaining abilities.
-
-.
-**__Laniakea Spear__** <:lanispear:839903893177106454>
-⬥ T82 weapon with T90 damage and T75 accuracy
-⬥ Passive effect: poison does +5% damage and procs 5% more often
-    • This make it better than the Noxious Scythe <:noxscythe:513190159341322240> on poisonable targets where you have 100% accuracy
-⬥ It is normally not worth using over higher tier weapons, but the following can make it whorwhile:
-    • If Bik arrows are applied to your target
-    • If using a Blood Reaver alongside Scrimshaw of Vampyrism <:VampScrim:513201294262009874> and/or Vampyrism aura <:vamp:643505653079343144>
-    • If Lani flicking
-        - Lani flicking is the act of casting abilities with your higher tier weapons, and then equipping the Laniakea spear inbetween during the GCD
-        - This is extremely click intensive and prone to mistakes
-
-.
-> **__EZK vs ZGS vs OP__** <:zekkil:903244090953588787> vs <:zgs:626465964325601290> vs <:overpower:535532879334080517>
-.tag:ezkzgsop
-All three of <:zekkil:903244090953588787>, <:zgs:626465964325601290> and <:overpower:535532879334080517> are strong abilities used in between <:zerk:535532854004678657> rotations.
-
-.
-**__When to EZK__** <:zekkil:903244090953588787>
-⬥ Ek-Zekkil <:zekkil:903244090953588787> is the strongest if all of its hits can hit and should generally be prioritised
-    • In group encounters only one person should use <:zekkil:903244090953588787> <:eofspec:746403211908481184> as multiple casts will override each other
-
-.
-**__When to ZGS__** <:zgs:626465964325601290>
-⬥ Zaros Godsword <:zgs:626465964325601290> is the second strongest if you will be casting a lot of strong abilities, including thresholds, or if hitting multiple targets
-    • Usually won't have the adrenaline to cast <:zerk:535532854004678657> off-cooldown
-    • Generally only worth using if <:zekkil:903244090953588787> <:eofspec:746403211908481184> isn't worth using and you don't need to use a second <:zerk:535532854004678657>
-        - In group encounters only one person should use <:zgs:626465964325601290> <:spec:537340400273195028> as only one of the DoTs from the spec will do damage
-
-.
-**__When to OP__** <:overpower:535532879334080517>
-⬥ Overpower <:overpower:535532879334080517> is the strongest of the three only if the phase is so short that you cannot fully use the above two specs
-⬥ In group encounters, anyone not using <:zekkil:903244090953588787> <:eofspec:746403211908481184> or <:zgs:626465964325601290> <:spec:537340400273195028> should use <:overpower:535532879334080517>
-
-.
-> **__Autos__**
-.tag:autos
-**__Defensive Autos__**
-.tag:defAutos
-*Note: in this context "defensives" refer to any non-damaging abilities, and so includes things like Berserk <:zerk:535532854004678657> and the Zaros Godsword spec <:zgs:626465964325601290> <:spec:537340400273195028>.*
-
-.
-**__Why Defensive Autos Exist__**
-⬥ Typically, when you cast an auto or ability it put your Auto on cooldown based on the weapon speed of the weapon it was cast with
-    • Cooldowns for various weapon speeds are as follows:
-```
-Speed (cooldown in ticks/seconds)
-Slowest (12t/7.2s)
-Average (6t/3.6s)
-Fast (5t/3.0s)
-Fastest (4t/2.4s)
-```
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
-
-⬥ Non-damaging abilities are the exception to this rule, so if you cast one it will not put your auto on cooldown
-
-.
-**__What This Means__**
-⬥ If you cast a fast/fastest ability into a defensive ability, your auto will happen mid Global Cooldown (GCD)
-    • For Melee this will just be your default auto, though you can alter it to a debuff spell like <:ent:567727987274022924> still by doing <:ent:567727987274022924> → Defensive
-    • The following table will break down the ticks of this:
-.
-```
-T0: Fast/Fastest Ability
-T3: Defensive
-T4/5: Auto is cast
-T6: Ability
-```
-⬥ Video Demonstration (Courtesy of <@184952892422094848>):
-    • Abilities used in clip:
-        - <:sever:535532879577612298> → <:freedom:535541258240786434> → <:cleave:535532878616985610>
-.
-.img:https://i.imgur.com/hlw4KFW.mp4
-.
-    • Further, you can exploit this to make it a 2H auto, as the cooldown for any auto ends on t4
-        - So, you would simply swap to a 2H weapon between the Fast/Fastest Ability cast to before the Auto would be cast
-
-.
-**__Freedom__**
-It is important to note that Freedom <:freedom:535541258240786434> works a little differently, in that you will get both an off-hand and a mainhand/2H auto
-⬥ You will always get the off-hand auto, and what is cast as an off-hand auto can be changed by doing auto → <:freedom:535541258240786434> on the same tick.
-    • To do this with Melee you will need an off-hand magic weapon on (e.g., Ancient Lantern <:ancientlantern:580177522503712781>), and to have an offhand autocast spell set (Polypore Strike <:polyporestrike:859483781487394826> recommended)
-⬥ An example of getting both offhand and 2H auto can be seen in this clip by @Wh#4119: <https://youtu.be/YydKrY05Kc8>
-    • It is important to stress that you should not swap to 2H too early, otherwise you will lose the offhand auto. You should swap 1t after you cast <:freedom:535541258240786434>
-
-.
-**__5TAA__**
-.tag:5TAA
-*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it*
-
-.
-**__What It is__**
-⬥ This is pretty similar to 4TAA, but Melee does not have an auto bind, and so must wait an additonal tick before casting their ability.
-    • With Revolution, some extra effort must be done to 5TAA
-        - First, use Cease <:cease:864235458464186418> after casting your ability
-        - Second, click the target 1t after the GCD ends
-        - Finally, use an ability 1t after that
-.
-⬥ So, instead of doing:
-```
-T0: Fastest non-channeled Ability
-T4: Auto + Ability
-```
-⬥ You do
-```
-T0: Fastest non-channeled Ability
-T4: Auto auto-casts
-T5: Ability
-```
-⬥ It is important to note that the ability before must be a fastest non-channeled ability
-    • Further the ability before that cannot be a slow/fast/average-speed channeled ability
-
-⬥ Video Demonstration (Courtesy of <@184952892422094848>):
-    • Abilities used in clip:
-        - <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>
-.
-.img:https://i.imgur.com/1KJ1v9d.mp4
-.
-⬥ This is because Autos normally are executed after abilities in a tick, so using an ability on the same tick it is casted will override it as it incurs the auto cooldown, hence the need to delay the ability an additional tick to get the auto in
-
-.
-⬥ Video Demonstration For Revolution:
-    • Abilities used in clip:
-        - <:deci:535532879325822986> + <:cease:864235458464186418> → (wait 4t) click on target → (wait 1t) <:sever:535532879577612298>
-.
-.img:https://i.imgur.com/pS3rypQ.mp4
-.
-**__When It is Used__**
-⬥ When using the Abyssal Scourge <:abyssalscourge:947871842469834832> with the Jaws of the Abyss <:jawsoftheabyss:947871842595639306>, 5TAA is rarely used as a 3 hit <:gflurry:535532879283879977> gives the same result.
-⬥ 5TAA is primarily done to align ticks so you can cast an ability on the last tick of Berserk, this is typical in Berserk <:Berserk:513190158468907012> rotations that use one 7t channel (e.g., 4-hit Destroy <:destroy:535532879330148352>) without the ability to use a 5t channel (e.g., 3-hit Greater Flurry <:gflurry:535532879283879977>) to align ticks, as can be seen below:
-```
-T0: Zerk
-T3-6: 2x Ability
-T9: 7t channeled Ability
-T16-19: 2x Ability
-T22: Fastest non-channeled Ability
-T26: Auto auto-casts
-T27-30: 2x Ability
-T33: Ability + Zerk ends
-```
-.
-⬥ By using a 5TAA it was possible to get an ability on the last tick of <:Berserk:513190158468907012>, so it hits after <:Berserk:513190158468907012> ends and thus get both <:Berserk:513190158468907012> and Berserker Aura <:berserker:643505116347105290> damage modifiers
-*Note: You can read more on this interaction in <#689206023675838471>*
-
-.
-⬥ Video Demonstration of Berserk <:Berserk:513190158468907012> with 5TAA to align ticks:
-    • Abilities used in clip: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4-hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → (5taa) <:quake:535532879506309150>
-.
-.img:https://i.imgur.com/ghyfnwt.mp4
-.
-⬥ Video Demonstration of Berserk <:Berserk:513190158468907012> without 5TAA to align ticks:
-    • Abilities used in clip: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4-hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → <:quake:535532879506309150> → <:deci:535532879325822986>
-.
-.img:https://i.imgur.com/5yGLBou.mp4
-.
-**__Difference in the Above Clips__**
-As seen, they both follow the same ability order, except the first has an auto, and the other has a non-boosted Decimate <:deci:535532879325822986> after Quake <:quake:535532879506309150>
-
-⬥ In the clip where 5TAA is used, <:quake:535532879506309150> does more damage (8451 vs 7644)
-
-⬥ The <:deci:535532879325822986> after the <:quake:535532879506309150> was used to display how you cannot fit another ability by skipping the auto anyway, so to make full use of <:Berserk:513190158468907012> ticks you want to 5TAA
-    • The benefits of this is gone in more in depth in this video by <@162317885044293632>: <https://youtu.be/AzswBOuBnUQ>
-
-.
-**__Applying Smoke Cloud__** <:smokecloud:856635090641879050>
-.tag:smoke
-**__How to Apply It__**
-There are two ways to go about applying Smoke Cloud with Melee:
-⬥ **4-ticking it**
-    • Similar to doing 5TAA, except you will do <:smokecloud:856635090641879050> + Ability on the 4th tick, instead of doing an ability on the 5th tick
-        - 4th/5th tick are in relation to the ability before it being on tick 0
-    • This costs an additional tick compared to using <:freedom:535541258240786434>. So, if done in Berserk <:zerk:535532854004678657>, to ensure you realign back to final tick of <:zerk:535532854004678657>:
-        - If a 7t channel is done in <:zerk:535532854004678657> then you will have to do another 7t channel, or drop a tick somewhere (e.g., <:zerk:535532854004678657> 1t earlier before a fight starts)
-        - If a 7t channel is not done then you will have to 5TAA or do a 5t channel
-
-⬥ **Using Freedom** <:freedom:535541258240786434>
-    • Replacing the offhand <:freedom:535541258240786434> auto for Smoke Cloud <:smokecloud:856635090641879050> by doing <:smokecloud:856635090641879050> → <:freedom:535541258240786434>
-        - It is worth noting this requires an offhand autocast spell like Polypore Strike <:polyporestrike:859483781487394826> to be set beforehand, as well as an offhand Magic weapon being equipped
-
-.
-⬥ **Target Cycling**
-    • If starting an encounter without wanting to get Greater Barge off, Smoke Cloud can be applied by using Target Cycle + smoke cloud + ability in the same tick.
-    • Here's a clip showing it off (courtesy of <@920182208508088320>
-        - Abilities used in the clip: <:smokecloud:856635090641879050> + <:swh:641670143197446182> <:eofspec:746403211908481184>
-.
-img:https://i.imgur.com/nQvSbce.mp4
 .
 > **__Dual Wield vs 2H Camp__**
-.tag:2HvsDW
-In the current meta, 2h should only be camped while afking multiple monsters at the same time. This is because dual wield allows access to the two strongest weapons melee has to offer, namely, the Abyssal Scourge <:abyssalscourge:947871842469834832> and the Leng weapons <:lengmh:883134308146098227> / <:lengoh:883134308070604870>.
+.tag:camping
+*Note: This compares strictly camping dual-wield vs. camping 2H, but it is recommended to juggle, as it gives access to all the following benefits and more.*
+.
+**__Dual-wield Camp Benefits__** <:abyssalscourge:947871842469834832> + <:lengmh:883134308146098227> <:lengoh:883134308070604870>
+⬥ Access to both Hurricane <:cane:535532878969438210> and Destroy <:destroy:535532879330148352> using T85/95 weapons <:lengmh:883134308146098227> <:lengoh:883134308070604870> dropped by Arch-Glacor.
+    • The off-hand allows use of Hurricane <:cane:535532878969438210> with dual-wields.
+    • When both Leng weapons are equipped, the shared cooldown between <:cane:535532878969438210> and <:destroy:535532879330148352> is removed.
+    • The T95 main-hand also has a situational special attack <:lengmh:883134308146098227> <:spec:537340400273195028> that raises your damage cap for 30 seconds.
+⬥ Easier to use switches.
+    • Can use <:malevkite:513190159412625411> or off-hand switches like Flanking <:flank4:712073088296157185> easier, as no extra main-hand switch is required.
+⬥ Access to Destroy <:destroy:535532879330148352> as an ability.
 
 .
-> **__Pocket slots__**
+**__2H Camp Benefits__** <:noxscythe:513190159341322240> <:zgs:626465964325601290> <:mwspear:694566917456789554>
+⬥ Access to 2H autos, which are much stronger than dual-wield autos.
+⬥ Access to halberd-range weapons like Laniakea's Spear <:lanispear:839903893177106454> and Noxious Scythe <:noxscythe:513190159341322240> for bigger 5x5 AoEs.
+    • With Laceration boots <:Laceration:602581988599398400> even Bladed Dive <:bd:535532854281764884> can become a 5x5 AoE.
+    • Benefits abilities like Hurricane <:cane:535532878969438210> and Meteor Strike <:meteorstrike:535532879359377439>.
+⬥ Some AFK Methods may benefit from the bleed-extending effect of the Masterwork Spear of Annihilation <:mwspear:694566917456789554>, etc.
+⬥ Can be more revolution-friendly, such as for Slayer <:slayer:797896049548066857> tasks or AFK grinding methods.
+
+.
+> **__Building a Melee Rotation__**
+.tag:rotation
+Here we'll cover some of the points to keep in mind to build a successful Melee DPS rotation. **For more information on how these rotations are affected by certain items or switches, such as see the __Important Items__ section**.
+
+*Note 1: In the current meta, camping dual-wield > camping 2H, but you can juggle weapons at times. Additionally, some switches used in melee are 2H.*
+*Note 2: If Greater Fury <:gfury:535532879334080527> is unlocked, you can replace Fury <:fury:535532879510372352>, with it.*
+
+.
+__**Managing Cooldowns**__
+⬥ **High damaging abilities often come with long cooldowns** - when building a rotation, ability prioritisations *and* cooldowns should be on your mind.
+⬥ If you use all of the high damaging abilities at once, their cooldowns will force you to use multiple weak abilities in succession while waiting to use them again.
+⬥ To avoid this problem, you want to **use filler abilities to space out your high damage abilities**, to pace yourself and manage cooldowns.
+⬥ The filler abilities that you can build your rotations around for melee can vary, based on camping a single weapon or juggling dual-wield and 2H:
+    • **If camping weapons: (Greater) Fury <:gfury:535532879334080527> / <:fury:535532879510372352> will be used as fillers.**
+        - Both have decent damage (157% maximum damage) **and** short cooldowns (9t/5.4s, or 3 GCDs).
+        - They can be used with both dual-wield and 2H.
+    • **If juggling 2H/DW: (Greater) Fury is still an option, but now Cleave <:cleave:535532878616985610> and Decimate <:deci:535532879325822986> can form the backbone of rotations.**
+        - <:cleave:535532878616985610> and <:deci:535532879325822986> are both strong (188% maximum damage) and have cooldowns of relatively short cooldowns (12t)
+    • Both have decent damage (157% maximum damage) **and** short cooldowns (12t/7.2s or 4 GCDs).
+    • *They do not share cooldowns* - if using 2H/DW switches, you can use both.
+
+.
+__**Basic Pattern**__
+⬥ When camping either 2H or DW, Fury <:fury:535532879510372352> should form the foundation of your rotation. Aside from being a suitable filler ability, it also provides a crit chance buff that helps boost the following ability.
+    • Remember to cancel <:fury:535532879510372352> after 2-hits (3t/1.8s), by using the next ability as soon as possible. This is not required when using <:gfury:535532879334080527>.
+⬥ **The basic pattern when camping 2H or DW uses <:fury:535532879510372352> often, in 'blocks' of 3 abilities**:
+    • [ <:fury:535532879510372352> → Ability → Ability ] → Repeat
+.
+⬥ When building adrenaline, fill the empty slots with strong basics like the following, prioritising those that can crit:
+    • Decimate (DW) <:deci:535532879325822986> or Cleave (2H) <:cleave:535532878616985610>
+    • Sever <:sever:535532879577612298>
+    • Dismember <:dismember:535532879376023572>
+    • Backhand (Flanking) <:backhandflank:867678153854025779>
+    • Havoc (DW) <:havoc:535532879300526080> or Smash (2H) <:smash:535532879820619786>
+        - Anything weaker than this (157% maximum damage) should be avoided.
+.
+*Note: With Gloves of Passage <:Glovesofpassage:556588694862037012> worn, <:havoc:535532879300526080> can potentially be stronger than abilities like <:cleave:535532878616985610> and <:deci:535532879325822986> - see the section on __**Gloves of Passage**__ for more info.*
+
+⬥ When it comes to weapon juggling, some recent powercreep has made 2H/DW juggling *for the sake of having more abilities* to use less common.
+    • With Lengs <:lengmh:883134308146098227> <:lengoh:883134308070604870> you can use **both** <:cane:535532878969438210> and <:destroy:535532879330148352> just camping DW.
+    • Enhanced Gloves of Passage <:Glovesofpassage:556588694862037012> makes <:havoc:535532879300526080> strong.
+    • With Abyssal Scourge <:abyssalscourge:947871842469834832> camping DW becomes extremely strong due to its passive effect.
+    • <:cleave:535532878616985610> becomes more of a filler ability than something you aim to constantly use.
+
+⬥ Prior to getting the above upgrades, **if you juggle 2H/DW, a basic rotation using <:cleave:535532878616985610> and <:deci:535532879325822986> in 'blocks' of 4**:
+    • [ <:cleave:535532878616985610> → <:deci:535532879325822986> → Ability → Ability ] → Repeat
+.
+***Note**:  This pattern becomes less important as you add the upgrades mentioned earlier, and you may prioritize more dual-wield abilities over switching to 2H for <:cleave:535532878616985610> specifically.*
+
+⬥ Once your rotation gets going, you can start using abilities like thresholds or better to fill in the blanks.
+
+.
+__**Building The Rotation**__
+*Note: The default Berserk <:zerk:535532854004678657> duration is 34t/20.4s seconds, but can be extended to 44t/26.4s from the 3-piece set effect of Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>. Examples of full Berserk rotations can be found at the bottom of this guide in the __**General Berserk Rotations**__ section.*
+.
+⬥ Berserk <:Berserk:513190158468907012> lasts 20 seconds, but only has a 60 second cooldown. **We want to prioritise building to 100% adrenaline and using Berserk often, as it boosts damage by 100%.**
+    • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration.
+    • Ideally, enter boss fights with 100% adrenaline so you can activate it immediately at the start.
+.
+⬥ **You can think of your overall rotation as two repeating sections**:
+    • [20.4s inside <:zerk:535532854004678657>] → [39.6s outside]  → Repeat
+.
+⬥ Both in and out of Berserk <:zerk:535532854004678657>, you will want to prioritise your strong thresholds, special attacks, and modified ultimates.
+    • Assault <:assault:535532855191928842>
+    • Destroy <:destroy:535532879330148352>
+    • Hurricane <:cane:535532878969438210>
+    • Greater Flurry <:gflurry:535532879283879977>
+    • Forceful Backhand (Flanking) <:fbackhandflank:867678153866870824>
+    • Igneous Overpower <:overpowerigneous:959089455640215633>
+    • EZK <:zekkil:903244090953588787> <:eofspec:746403211908481184>
+    • etc.
+.
+⬥ Additionally, when not in <:zerk:535532854004678657> the following thresholds are also strong, *especially* with the Masterwork Spear of Annihilation <:mwspear:694566917456789554>:
+    • Slaughter (walked) <:slaughter:535532879237873666>
+    • Blood Tendrils <:bloodtendrils:535532854327640064>
+.
+⬥ The goal is to fit as many of these strong abilities within the duration of <:zerk:535532854004678657> as you can to maximise the damage potential.
+    • **While inside <:zerk:535532854004678657> you deal double damage - take full advantage of this.**
+    • As <:zerk:535532854004678657> is relatively shorter in duration compared to <:sunshine:994921119381463070> or <:deathsswift:994921434633744455>, so you will have to plan your cooldowns a little carefully.
+    • Continue to use the basic building block patterns to space out your abilities as required.
+⬥ Typically, you do not want to use bleeds inside <:zerk:535532854004678657> as it does not boost them, but you may have to at times, such as:
+    • If you need the extra adrenaline <:dismember:535532879376023572> is an option.
+    • If you run out of good abilities (possible at times).
+.
+⬥ **While waiting for <:zerk:535532854004678657> cooldown, you have time to make use of your thresholds (and stronger) adequately.**
+    • You do not want to needlessly camp 100% adrenaline.
+    • There are a few options for this depending on your gear:
+        - Ek-Zekkil special attack <:zekkil:903244090953588787><:spec:537340400273195028> (typically used in an EoF <:zekkil:903244090953588787><:eof:787526151978614824>)
+        - Zaros Godsword special attack <:zgs:626465964325601290> <:spec:537340400273195028>
+        - Igneous Overpower <:overpowerigneous:959089455640215633>
+        - All the other thresholds available to Melee.
+    • You can start building to 100% adrenaline when <:zerk:535532854004678657> is nearly ready to use again.
+.
+*Note 1: For more information about these options, see the sections on the __**EZK vs. ZGS vs. Overpower**__.*
+*Note 2: To see examples of how to maximise your damage inside <:zerk:535532854004678657> see the section at the bottom called __**General Berserk Rotations**__.*
+.
+__**Tips**__
+⬥ Any basic ability with damage lower than Fury <:fury:535532879510372352> is considered a weak ability and should be avoided when possible. Sometimes you may be forced to use them. Don't sweat it too much.
+    • Slice <:slice:535532879594258432>
+    • Punish <:punish:535532879439069184>
+    • Sacrifice <:Sacrifice:513201065907322880>
+    • Tuska's Wrath <:Tuskas:513201065513058306>
+    • Backhand (no Flank) <:backhand:535532854302605333>
+    • Regular Barge <:barge:535532853916860437>
+⬥ You may hear people refer to abilities as '188s' - this means abilities that have a maximum damage of 188%, including Sever <:sever:535532879577612298> , Cleave <:cleave:535532878616985610> , and Decimate <:deci:535532879325822986> amongst others.
+⬥ The critical chance buff gained through <:fury:535532879510372352> is wasted if the follow-up ability cannot crit, but it may be unavoidable sometimes.
+⬥ If Greater Fury is owned <:gfury:535532879334080527>, there are scenarios where it may be better than some strong abilities like <:sever:535532879577612298> / <:deci:535532879325822986> / <:cleave:535532878616985610> etc.
+
+.
+> **__Cancelling Channels__**
+.tag:cancel
+**__Why Channelled Abilities are Important__**
+.
+⬥ It is important to properly cancel abilities in order to not lose any ticks, or damage potential.
+    • Animations can be unreliable, and longer than the actual hit duration of the ability.
+    • It can be higher damage-per-tick, or net you more adrenaline, to cancel long channels early.
+    • Abilities like <:fury:535532879510372352> and channels that are not cancelled, suffer significant delays with revolution.
+        -  See the following example.
+.
+.img:https://i.imgur.com/9C2JEZQ.mp4
+
+.
+__**When to Cancel Channels**__
+*Reminder: 1.8s = 3t = 1 GCD*
+⬥ **Fury** <:fury:535532879510372352>
+    • Cancel after its 2nd hit as global cooldown ends (3t/1.8s).
+⬥ **Assault** <:assault:535532855191928842>
+    • Typically cancelled on the 4th hit (7t/4.2s), but other cancel timings include 3-hit (5t/3s) and 2-hit (3t/1.8s).
+⬥ **Destroy** <:destroy:535532879330148352>
+    • Timings to cancel on 2/3/4 hits are the same as Assault <:assault:535532855191928842> cancel timings.
+        - When Vestments of Havoc are worn, and Greater Barge <:gbarge:535532879250456578> is used, typically you'll end up doing a second 2-hit <:destroy:535532879330148352> in your rotation.
+⬥ **Greater Flurry** <:gflurry:535532879283879977>
+    • Timings to cancel on 2/3/4 hits are the same as Assault <:assault:535532855191928842> cancel timings.
+    • You can 4-hit <:gflurry:535532879283879977> if you need to bring <:zerk:535532854004678657> off cooldown faster.
+    • Otherwise do the number of hits you require to align your rotation, so that you can fit one ability on the last tick of <:zerk:535532854004678657> for boosted damage.
+.
+⬥ Note that Assault suffers from different hit timings based on if cast with DW or 2H, but the cancel timings will remain un-affected.
+    • <:assault:535532855191928842> hit timings will change from ticks 2/4/6/8 to ticks 3/5/7/9 (delayed by 1 tick) if cast with DW, *but the cancel timings remain the same*.
+.
+{
+  "embed": {
+    "title": "__Channelled Abilities__",
+    "description": "How to properly cancel channelled abilities. (Courtesy of <@781280949790572554>)",
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Video Guides__",
+        "value": "⬥ [How to Cancel <:Magic:689504724159823906> Abilities](https://youtu.be/DaCy60sZav4)\n⬥ [How to Cancel <:range:580168050121113623> Abilities](https://youtu.be/939znioyCMA)\n⬥ [How to Cancel <:melee:615612332521029632> Abilities](https://youtu.be/y33z3WLM7H8)\n⬥ To see a clip of 2H vs. DW assault, [click here](https://i.imgur.com/sQpb7RM.mp4)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Important Melee Abilities**__
+.tag:importantabil
+Certain Melee abilities are worth noting, due to their behaviour and how they can be used. Here, we cover some of these abilities.
+
+.
+> __**Greater Fury**__
+.tag:gfury
+__**How It Works**__
+⬥ Greater Fury <:fury:535532879510372352> is an upgraded version of regular Fury <:fury:535532879510372352>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:Unlocks!B12$.
+⬥ Greater Fury <:gfury:535532879334080527> hits **once** dealing 157% ability damage, giving the next ability an added 10% critical strike chance.
+    • Switching your main-hand weapon loses the buff.
+    • **If <:gfury:535532879334080527> crits, the first hit of the next ability will be a guaranteed crit.**
+    • As it becomes a non-channelled ability, it is Revolution-friendly.
+
+.
+__**Is it Worth it?**__
+⬥ **Generally, Greater Fury is not a recommended upgrade**.
+    • Regular Fury <:fury:535532879510372352> has better synergy with the Abyssal Scourge <:abyssalscourge:947871842469834832> in a fight
+⬥ It is *possible* for <:gfury:535532879334080527> to be stronger (on average) than some 188% damage abilities ( <:cleave:535532878616985610> / <:sever:535532879577612298> / <:deci:535532879325822986> ) under the right circumstances.
+    • This is due to its potential guaranteed crit buffs.
+    • This requires sufficient critical chance stacking, using a Grimoire <:grim:568262896375824385> and Biting 4 <:biting4:712073087809617931> perk active, *and* the next ability must be both high-damage and be able to crit.
+    • Some examples of follow-up abilities include Igneous Overpower <:overpowerigneous:959089455640215633>, charged Greater Barge <:gbarge:535532879250456578> and Assault <:assault:535532855191928842>.
+.
+{
+  "embed": {
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Greater Fury Maths__",
+        "value": "To see how Greater Fury <:gfury:535532879334080527> compares to other abilities when used before something much stronger, [click here](https://docs.google.com/spreadsheets/d/1beHYkyPKV-tj8eHlbRDQTRX9GkdFBKhBr89B8fKyuXI//)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Greater Barge**__
+.tag:gbarge
+__**How It Works**__
+⬥ Greater Barge <:gbarge:535532879250456578> is an upgraded version of regular Barge <:barge:535532853916860437>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:Unlocks!B10$.
+⬥ It has two components - its own damage, and its passive effect.
+⬥ Normal ability effect:
+    • For each tick (0.6s) since a player stopped attacking their target, <:gbarge:535532879250456578> damage range increases (+2% minimum hit, +10% maximum hit), capping at 10 ticks for a damage range of 45%-225%.
+    • It also clears binds on the player, and where possible, will also bind a target for 11t/6.6s.
+.
+⬥ Additionally, if it has been **at least 8t/4.8s since the player has attacked a target**, it gains another effect:
+    • This is indicated by the Greater Barge <:gbarge:535532879250456578> icon appearing on your Buff Bar.
+    • Using the ability will cause a second buff icon <:voke:535541259465392143> to appear on your bar.
+    • **The next following melee channelled ability within 10t/6s will become a damage-over-time (DoT) instead**.
+    • **This is the reason <:gbarge:535532879250456578> is so strong.**
+.
+*Note: Channelled abilities that become DoTs through the effect of <:gbarge:535532879250456578> are typically called barge "bleeds" - however, they are **not** actually bleeds.*
+
+.
+__**Why It's Good**__
+⬥ Being able to **turn channelled abilities into DoTs** offers the following advantages:
+    • It reduces the time required to cast them to 3t/1.8s, allowing you to continue using other abilities while they deal damage.
+    • This is very strong when combined with something like Berserk <:zerk:535532854004678657> to fit more high-damaging abilities into its short duration.
+    • It also **increases the burst potential of Melee** <:melee:615612332521029632> in a fight.
+⬥ This effect is typically used at the following places:
+    • At the start of a fight.
+    • After any mechanic that forces you to stop attacking for a period of time (e.g. reflect at Vorago).
+    • After a Berserk <:zerk:535532854004678657> mid-combat.
+
+__**Using Greater Barge in Combat**__
+⬥ To use <:gbarge:535532879250456578> in combat, there are two ways to do it.
+⬥ **Method 1**:
+    • Ability + click away → any Defensive → <:zerk:535532854004678657> → <:gbarge:535532879250456578>
+        - You must click away at least 1 tick before the defensive, or you will not get the bleed effect.
+    • Defensives include abilities such as Anticipation <:anti:535541306475151390> , Freedom <:freedom:535541258240786434>, etc.
+⬥ **Method 2**:
+    • Ability → wait 2 ticks → <:zerk:535532854004678657> → <:barge:535532853916860437>
+        - Doing it this way saves 1 tick (8t vs 9t) compared to the first method.
+
+.
+__**Notes**__
+*Note: points marked with \* are likely unintended bugs*.
+⬥ **Multiple <:gbarge:535532879250456578> DoTs can stack on the same target,** so it is group-PvM-friendly.
+⬥ Bleeding <:gflurry:535532879283879977> will reduce the cooldown of <:zerk:535532854004678657> for all 4 hits.
+⬥ <:gbarge:535532879250456578> has some strange interactions when using Ability Queueing:
+⬥ Unlike normal non-damaging abilities, ZGS special attack <:zgs:626465964325601290> <:spec:537340400273195028> will try to drag you in when using it, so remember to click away as you use it otherwise you will auto-attack and lose the <:gbarge:535532879250456578> buff.
+.
+⬥**\*** **If Greater Barge is queued prior to attacking a target, the buff will not be gained**. Similar issues occur when using target cycling.
+⬥**\*** Greater Barge <:gbarge:535532879250456578> also does not give adrenaline if you still have a target that is dead.
+⬥ Damage dealt from the bleed will be affected by the equipment *currently* worn.
+    • e.g. if you bleed Assault <:assault:535532855191928842> with T80 weapons and change to T90, any remaining hits will be calculated with T90 damage instead of T80.
+⬥ Each bleed hit rolls its own chance to hit.
+
+⬥**\*** If you **stall** a barge bleed the following will occur:
+    • Hit 1 will be stalled, and when released will hit at the time it usually would as the first hit of that ability.
+    • Hits 2-4 will *not* be stalled, and will hit the target at their usual timing, *no matter how far you currently are from the target* - this allows the hits to be far-cast.
+
+.
+> __**Greater Flurry**__
+.tag:gflurry
+__**How It Works**__
+⬥ Greater Flurry <:gflurry:535532879283879977> is an upgraded version of regular Flurry <:flurry:864492981763702834>, unlocked by reading a Greater Flurry ability codex <:gflurrycodex:1004453767397249144> costing <:coins:698816156961603654> $data_pvme:Unlocks!B11$.
+⬥ Each hit of <:gflurry:535532879283879977> reduces the cooldown of Berserk by 2t/1.2s, up to a maximum of 4 hits, or 8t/4.8s.
+⬥ The damage dealt depends on the situation:
+    • Against a single target, damage is increased, dealing 31-157% damage per hit.
+    • Against multiple targets, the damage is the same as normal Flurry <:flurry:864492981763702834>.
+    • If bled with <:gbarge:535532879250456578> it does NOT act as an AoE.
+
+.
+__**Why It's Good**__
+⬥ It can help reduce the cooldown time of Berserk <:zerk:535532854004678657> significantly, used almost 3 times per minute. This is important to minimize the amount of time spent outside a damage-boosting ultimate.
+⬥ It acts as an extra strong damaging threshold for Melee <:melee:615612332521029632> users.
+⬥ You can cancel it on a desired hit to help line up timings for an ability on the last tick of <:zerk:535532854004678657>.
+    • For more information, see `!lasttick` command.
+
+.
+> __**Chaos Roar**__
+.tag:roar
+*Note: for a quick summary, you can use the `!chaosroar` command.*
+__**How It Works**__
+⬥ Chaos Roar <:chaosroar:994644356671737966> is a basic ability unlocked by reading a Chaos roar Ability codex <:chaosroarcodex:994189286960287764> costing <:coins:698816156961603654> $data_pvme:Unlocks!B19$.
+⬥ It has an initial hit of 20-130%, but also **doubles the base damage of the next melee ability used with 12t/7.2s**.
+    • This includes all hits of bleeds and multi-hit abilities like Hurricane <:cane:535532878969438210> and Igneous Overpower <:overpowerigneous:959089455640215633>.
+    • For channelled abilities like Assault <:assault:535532855191928842> only get their first hit boosted.
+
+.
+__**Why It's Good**__
+⬥ It can be extremely damaging when followed-up with certain abilities:
+    • Ek-Zekkil special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184> can deal massive damage used after <:chaosroar:994644356671737966>.
+    • Slaughter <:slaughter:535532879237873666> and Tendrils <:bloodtendrils:535532854327640064> with <:mwspear:694566917456789554> are strong choices as well (note that <:bloodtendrils:535532854327640064> will give double recoil damage).
+    • Can follow up with Hurricane <:cane:535532878969438210> or Meteor Strike <:meteorstrike:535532879359377439> for high AoE clear damage.
+
+.
+> __**Important Items**__
+.tag:importantitems
+This section will examine equipment that is useful for Melee <:melee:615612332521029632>, and should be incorporated where relevant as you get comfortable with handling them. Not all items are applicable in all scenarios, so use your best judgement.
+
+.
+> __**Flanking Switch**__ <:flank4:712073088296157185>
+.tag:flanking
+__**How It Works**__
+*Note: To learn more about how flanking angles work, check out <#1020050319457132654>.*
+⬥ This is a **simple, easy-to-get, relatively inexpensive and strongly recommended switch, especially for group-based content.**
+⬥ Recommended to **put <:flank4:712073088296157185> on an off-hand weapon to use with dual-wield.**
+⬥ When standing 'behind' bosses, Flanking <:flankicon:841419289755385866> turns Backhand <:backhand:535532854302605333> and Forceful Backhand <:fbackhand:535532879346794516> into far stronger abilities at the cost of their stun. At it's maximum rank of Flanking 4:
+    • The damage range of <:backhandflank:867678153854025779> is increased from 20-100% up to 52-260%, making it one of the strongest basics.
+    • The damage range of <:fbackhandflank:867678153866870824> is increased from 40-200% up to 64-320%, making it much stronger.
+⬥ In order to get 2 <:backhand:535532854302605333> in one <:Berserk:513190158468907012> rotation, the first <:backhand:535532854302605333> must be at the latest the second ability after <:zerk:535532854004678657>.
+    • This is before the 3-piece set effect of Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544> is acquired.
+.
+*Note: (Flanking) Forceful Backhand <:fbackhandflank:867678153866870824> may not heavily prioritised due to the availability of stronger thresholds, however it can help salvage a rotation in a pinch.*
+
+.
+> __**Sliver Enchantments**__
+.tag:sliver
+__**How It Works**__
+⬥ With the release of Zamorak <:zamorak:994914159969976440> and ED4, *slivers* were added to the game.
+⬥ Slivers can be consumed with some other items to create *enchantments*.
+    • **Enchantments are one-off consumables that permanently unlock certain effects**.
+⬥ There are 3 enchantments relevant to Melee <:melee:615612332521029632>:
+    • **Enchantment of Agony** <:enchantmentofagony:1006481311378190456> costing <:coins:698816156961603654> $data_pvme:Unlocks!B23$.
+        - Increases the non-bleed damage-boosting effect of enhanced Gloves of Passage <:Glovesofpassage:556588694862037012> by +6%.
+        - Increases their bleed damage buff effect by +5%.
+    • **Enchantment of Heroism** <:enchantmentofheroism:1006481309524299786> costing <:coins:698816156961603654> $data_pvme:Unlocks!B27$.
+        - Champion's Ring <:championring:839903943630520350> has +1% increased critical hit chance.
+        - <:championring:839903943630520350> also adds +1.5% critical hit damage per bleed on the target.
+        - **If bleeds are used on the target, the upgraded <:championring:839903943630520350> is better than the Reaver's Ring <:reaverring:839903943018283050>.**
+    • **Enchantment of Savagery** <:enchantmentofsavagery:1006481307443937310> costing <:coins:698816156961603654> $data_pvme:Unlocks!B29$.
+        - Increases the damage-boosting effect of the Terrasaur Maul <:terramaul:602561894829522954> by a further 5%.
+
+.
+__**Jaws of the Abyss**__ <:jawsoftheabyss:947871842595639306>
+.tag:jaws
+__**How It Works**__
+⬥ It is a T85 power armour helmet that has one a strong passive: melee basics give +2% adrenaline per active bleed on a target.
+⬥ **It is camped for this effect, and is a high priority upgrade.**
+⬥ Bleeds that affect <:jawsoftheabyss:947871842595639306> include the following:
+    • Dismember <:dismember:535532879376023572>
+    • Slaughter <:slaughter:535532879237873666>
+    • Blood Tendrils <:bloodtendrils:535532854327640064>
+    • Massacre <:massacre:535532879384543253>
+    • Ek-Zekkil special attack <:zekkil:903244090953588787> <:spec:537340400273195028>
+    • Abyssal Parasites from Abyssal Scourge <:abyssalscourge:947871842469834832> / Abyssal Armor Spikes <:abyssalarmourspikesalloy:947871842541129768>
+    • Fragmentation Shot <:frag:535541273755385885>
+    • Corruption Shot <:corruptshot:535541306294796299>
+    • Deadshot <:deadshot:535541307666595870>
+⬥ The effect is doubled under Natural Instinct <:nat:535541258131865633> buff.
+
+__**Key Considerations**__
+⬥ Despite being T85, it is the best-in-slot where Trimmed Masterwork Armor <:tmwhelm:643847130619969562> <:tmwbody:536966366272552960> <:tmwlegs:643847107186524200> set effect is not absolutely vital to survival.
+⬥ The **extra adrenaline** from the effect can help make stronger rotations, and is *required* for some meta rotations to work.
+⬥ As the effect activates without any additional input required from the user, this is a revo-friendly buff.
+
+.
+__**Abyssal Scourge**__ <:abyssalscourge:947871842469834832>
+.tag:scourge
+*Note: See `!lengs` and `!scourge` for a summary.*
+__**How It Works**__
+⬥ It is a T92 mainhand melee weapon, currently the **best-in-slot main-hand option for long-term dual-wield damage**, and is a high-priority upgrade.
+⬥ **It has a passive effect called *Abyssal Parasites***:
+    • Every melee hit with <:abyssalscourge:947871842469834832> refreshes and adds a stack of Abyssal Parasites.
+    • Parasite stacks deal 18-31 bleed damage every 1.8s, per stack , increasing up to 50 stacks.
+    • Stacks reset after 9 seconds if not refreshed.
+    • **Parasite stacks count as a bleed**.
+⬥ Parasite stacks can also be added by <:abyssalarmourspikesalloy:947871842541129768> at a lower rate.
+
+.
+__**Key Considerations**__
+⬥ Camping <:abyssalscourge:947871842469834832> is extremely strong, and building stacks at the start of a fight is important to quickly benefit from the full bleed damage.
+⬥ **Stacks can be gained faster using bleeds and multi-hit abilities**, including:
+    • Dismember <:dismember:535532879376023572> is typically cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> but can be cast with <:abyssalscourge:947871842469834832> at the start of a fight to build stacks quicker.
+        - See the link below to get an idea of when this is worth doing.
+    • Similarly, the Ek-ZekKil special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184> can be cast with <:abyssalscourge:947871842469834832> for parasite stacks.
+        - Only do this if you cannot benefit from the full 14 hits from using <:mwspear:694566917456789554> instead.
+⬥ It is better to use Leng mainhand <:lengmh:883134308146098227> over <:abyssalscourge:947871842469834832> when:
+    • The additional accuracy is required.
+    • Parasite stacks cannot be consistently built.
+    • Need to use Hurricane <:cane:535532878969438210> and Destroy <:destroy:535532879330148352> within 20 seconds of each other, using <:lengmh:883134308146098227> as a switch.
+⬥ **Between <:abyssalscourge:947871842469834832> and Lengs <:lengmh:883134308146098227> <:lengoh:883134308070604870>, it is generally the case that Drygores <:drygorelongmh:513190158900658180> <:drygorelongoh:852939843767369783> and Khopeshes <:khopeshmh:513206794844110858> <:khopeshoh:513206794752098327> are irrelevant in the current meta.**
+
+.
+{
+  "embed": {
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Abyssal Scourge and Dismember__",
+        "value": "To see the when it is better to use <:dismember:535532879376023572> with <:abyssalscourge:947871842469834832> over <:mwspear:694566917456789554>, [click here](https://i.imgur.com/6rAKtFr.png)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+__**Leng Weapons**__ <:lengmh:883134308146098227> <:lengoh:883134308070604870>
+.tag:lengs
+*Note: See `!lengs` and `!scourge` for a summary.*
+__**How It Works**__
+⬥ Lengs are T95 (or T85 for the weaker variant) dual-wield weapons that will be your primary dual-wield weapons, used alongside the Abyssal Scourge <:abyssalscourge:947871842469834832> as a switch.
+⬥ The off-hand allows you to use Hurricane <:cane:535532878969438210> with dual wield.
+⬥ **When any combination of the T85/T95 main-hand and off-hand Lengs are worn, <:cane:535532878969438210> and <:destroy:535532879330148352> no longer share a cooldown**.
+    • This effectively gives an extra threshold to that can be used.
+⬥ The T95 main-hand Leng special attack <:lengmh:883134308146098227> <:spec:537340400273195028> is called *Icy Tempest*:
+    • Increases hitcap for all melee damage by 30%.
+    • Costs 20% adrenaline, and has a 100t/60s cooldown.
+
+.
+__**Key Considerations**__
+⬥ **Using <:lengmh:883134308146098227> <:lengoh:883134308070604870> to de-sync <:cane:535532878969438210> and <:destroy:535532879330148352> cooldowns lets you use *both* with dual-wield** - this is more DPS due to the extra threshold.
+⬥ <:destroy:535532879330148352> can be cast with <:lengmh:883134308146098227> and stalled, then released with <:abyssalscourge:947871842469834832> to benefit from both Parasite stacks as well as the cooldown benefits.
+⬥ It is better to use Leng mainhand <:lengmh:883134308146098227> over <:abyssalscourge:947871842469834832> when:
+    • The additional accuracy is required.
+    • Parasite stacks cannot be consistently built.
+    • Need to use Hurricane <:cane:535532878969438210> and Destroy <:destroy:535532879330148352> within 20 seconds of each other, using <:lengmh:883134308146098227> as a switch.
+⬥ **The special attack <:lengmh:883134308146098227> <:spec:537340400273195028> is recommended to be used pre-kill or in timegated phases**, where you can benefit from the increased hitcap, such as:
+    • Tarakat (Salve Amulet <:salveamulet:797899945730244648> damage boost).
+    • Raksha (anima damage boost in phase 4).
+    • Seiryu (at the last crystal).
+    • Telos (under <:revenge:535541259645878302> and <:zerk:535532854004678657> in phase 5).
+    • At War's retreat (using the adrenaline crystals) for fights where you <:zerk:535532854004678657> at the beginning.
+.
+⬥ **Between <:abyssalscourge:947871842469834832> and Lengs <:lengmh:883134308146098227> <:lengoh:883134308070604870>, Drygores <:drygorelongmh:513190158900658180> <:drygorelongoh:852939843767369783> and Khopeshes <:khopeshmh:513206794844110858> <:khopeshoh:513206794752098327> are mostly irrelevant in the current meta.**
+
+.
+__**Masterwork Spear of Annihilation (MSoA)**__ <:mwspear:694566917456789554>
+.tag:msoa
+__**How It Works**__
+⬥ The MSoA <:mwspear:694566917456789554> is the upgraded form of the regular Spear of Annihilation.
+**⬥ It is recommended to use it as a bleed switch, perked with Lunging 4 <:lunge4:736522494315593759> for <:dismember:535532879376023572>.**
+⬥ **The following bleeds are affected by <:mwspear:694566917456789554>:**
+    • Dismember <:dismember:535532879376023572> (5 → 7 hits)
+    • Blood Tendrils <:bloodtendrils:535532854327640064> (5 → 7 hits)
+    • Slaughter <:slaughter:535532879237873666> (5 → 7 hits)
+    • Ek-ZekKil special attack (with EoF) <:zekkil:903244090953588787> <:eofspec:746403211908481184> (6 → 9 hits)
+    • Massacre <:massacre:535532879384543253> (5 → 7 hits)
+⬥ The effect stacks with the Strength Cape <:strcape:689503815296352308> making <:dismember:535532879376023572> hit 10 times.
+⬥ The effect does *not* work with Greater Barge <:gbarge:535532879250456578> bleeds, as they are not considered actual bleeds.
+
+.
+__**Key Considerations**__
+⬥ **This weapon is typically used to switch for bleeds** but may also serve as a 2H switch in general if you do not want to bring more items.
+⬥ It **drastically improves the damage of the abilities it affects**.
+    • <:mwspear:694566917456789554> <:dismemberlunge:867678153899769876> becomes your strongest basic ability.
+⬥ The extended bleeds pair well with the Champion's Ring <:championring:839903943630520350> and Gloves of Passage <:Glovesofpassage:556588694862037012> (as well as their respective Enchantments).
+
+.
+> __**Laniakea Spear**__ <:lanispear:839903893177106454>
+.tag:lanispear
+__**How It Works**__
+⬥ It is a **halberd-range** T82 weapon with T90 damage and T75 accuracy, with the range of a halberd.
+⬥ Its passive effect causes poison <:poisonicon:944649693500154006> to proc 5% more often, dealing 5% more damage.
+
+.
+__**Key Considerations**__
+⬥ Normally not worth using over higher tier weapons, but the following can make it worthwhile:
+    • If Bik arrows <:bikarrow:971025697235689513> are used to scale <:poisonicon:944649693500154006> damage.
+    • If using a Blood Reaver <:reaverpouch:839903693837959228> along with a Scrimshaw of Vampyrism <:VampScrim:513201294262009874> and/or Vampyrism aura <:vamp:643505653079343144>.
+    • It can be better than a Noxious Scythe <:noxscythe:513190159341322240> on poisonable targets with 100% hitchance.
+⬥ **It can be used to clear pools with Bladed Dive <:Laceration:602581988599398400> <:bd:535532854281764884> at Raksha** instead of <:noxscythe:513190159341322240> if you perk it with <:p6:712073088769982475> + <:eq4:712073088589627505> for the minimum hit increase.
+.
+⬥ One rarely-done, extremely niche application is called *Lani-flicking*:
+    • It is when you cast abilities with better weapons but switch to <:lanispear:839903893177106454> during GCD, to try and increase <:poisonicon:944649693500154006> procs.
+    • This is extremely click intensive and prone to mistakes.
+
+.
+> __**Ek-ZekKil (EZK)**__ <:zekkil:903244090953588787>
+.tag:ezk
+*Note: Use `!ezkeof` (or see the section on __**EZK EoF**__) for a summary on why you should EoF your EZK <:zekkil:903244090953588787> <:eof:787526151978614824>.*
+__**How It Works**__
+⬥ The EZK's special attack, *Igneous Cleave* costs 50% adrenaline, has a 60 second cooldown, and has two components:
+    • An **initial hit of 62-190% ability damage**.
+    • A **follow-up 6-hit bleed** that hits every 4 ticks, with each hit dealing 5% more damage multiplicatively than the previous hit.
+⬥ **The follow-up bleed can be increased up to 9 hits using the Masterwork Spear of Annihilation** <:mwspear:694566917456789554> if using an EZK EoF special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184>.
+⬥ While the special attack is active, each time a bleed used on the target, <:zekkil:903244090953588787> <:spec:537340400273195028> gains 1 extra hit (capped at 5 extra hits).
+.
+⬥ **The following abilities extend <:zekkil:903244090953588787> <:spec:537340400273195028> duration**:
+    • Dismember <:dismember:535532879376023572>
+    • Slaughter <:slaughter:535532879237873666>
+    • Blood Tendrils <:bloodtendrils:535532854327640064>
+    • Massacre <:massacre:535532879384543253>
+    • Combust <:comb:535533833098100745>
+    • Frag Shot <:frag:535541273755385885>
+    • Deadshot <:deadshot:535541307666595870>
+    • Abyssal Parasites from Abyssal Scourge <:abyssalscourge:947871842469834832>
+    • Morrigan's Javelin spec <:superiormorriganjav:860891495033077810> <:spec:537340400273195028> - **PvP only.**
+    • Combust effect from Dragon Rider amulet <:drider:656785090994503700> <:dbreath:535533833391702017> - 10% proc chance.
+⬥ **The following abilities do *not* extend <:zekkil:903244090953588787> <:spec:537340400273195028> duration**:
+    • Corruption Shot <:corruptshot:535541306294796299>
+    • Corruption Blast <:corruptblast:513190159194259467>
+    • Puncture from Greater Dazing Shot <:mds:535541259033378827>
+    • Incendiary Shot <:incend:535541258429661215>
+
+__**Key Considerations**__
+⬥ It is **strongly recommended to place the EZK in an EoF** <:zekkil:903244090953588787> <:eof:787526151978614824> to be able to use the special attack with <:mwspear:694566917456789554> for the longer bleed. *See `!ezkeof` for more.*
+⬥ It is one of the best attacks to follow up after Chaos Roar <:chaosroar:994644356671737966> for the massively increased damage.
+⬥ You can use <:zekkil:903244090953588787> <:eofspec:746403211908481184> with <:abyssalscourge:947871842469834832> instead to get more stacks of Abyssal Parasites, **if** you will not benefit from the increased duration by using it with <:mwspear:694566917456789554> instead.
+
+.
+> __**Gloves of Passage**__ <:Glovesofpassage:556588694862037012>
+.tag:gop
+__**How It Works**__
+⬥ The passive effect, *Enduring Rain*, causes Smash <:smash:535532879820619786> and Havoc <:havoc:535532879300526080> has two effects:
+    • Next non-bleed attack within 10t/6s deals ~10% more damage.
+        - If a bleed ability is used, the effect is consumed but does not benefit the player.
+    • Target takes 20% more damage from bleeds for 17t/10.2s (including bleeds already in effect).
+⬥ The effect is retained if switching gloves after using <:havocgop:994920849117282365> / <:smashgop:994929821727604808>.
+⬥ If an Enchantment of Agony <:enchantmentofagony:1006481311378190456> is consumed, these gloves can be upgraded from T85 → T90 enhanced version to benefit from the following:
+    • Damage-boosting effect increased by +6%.
+    • The bleed damage buff is increased by a further +5%.
+
+.
+__**Key Considerations**__
+⬥ Melee is a bleed heavy style - it has many abilities that benefit from the bleed damage-increasing effect like  <:dismember:535532879376023572> / <:bloodtendrils:535532854327640064> / <:slaughter:535532879237873666> / <:zekkil:903244090953588787> <:eofspec:746403211908481184>.
+    • It also increases the parasite bleed from using <:abyssalscourge:947871842469834832> or <:abyssalarmourspikesalloy:947871842541129768>.
+    • The MSoA <:mwspear:694566917456789554> only amplifies this effect.
+⬥ **This makes <:havocgop:994920849117282365> / <:smashgop:994929821727604808> far stronger than their 157% maximum damage may suggest.**
+
+.
+__**Stalling**__
+⬥ **The increased next-ability damage from using <:havocgop:994920849117282365> / <:smashgop:994929821727604808> can be applied to multiple abilities using stalling.**
+⬥ The following examples work both with <:havocgop:994920849117282365> and <:smashgop:994929821727604808> interchangeably.
+.
+⬥ When wearing <:eof:787526151978614824>:
+    • <:havocgop:994920849117282365> → (stall) Ability 1 → (release) Ability 1 + Ability 2 will buff both abilities
+    • (stall) <:havocgop:994920849117282365> → (release) <:havocgop:994920849117282365> + Ability 2 will result in Ability 2 being buffed as normal.
+.
+*Note: The following section requires further testing!*
+⬥ When not wearing <:eof:787526151978614824>:
+    • The boost will extend for **2 ticks** (i.e. all abilities on 1 tick + the following tick).
+    • <:havocgop:994920849117282365> → 5TAA → Ability will both the auto and ability.
+    • <:havocgop:994920849117282365> → (stall) Ability 1 → (1t early release) Ability 1 → Ability 2 will also work.
+    • Equipping <:eof:787526151978614824> on tick 3 when click-releasing an ability on tick 2 in the second method, will not break the effect, except if the abilities are: 2H / channelled / special attacks.
+
+.
+> __**Vestments of Havoc**__ <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>
+.tag:vestments
+*Note: Use `!armour` to see raw damage comparisons between different tiers of armor.*
+__**How It Works**__
+⬥ These are a T95 set of melee power armour that are intended to be used as 'glass cannon' armour - more damage at the expense of defence.
+    • **They are T95 but have T100 damage bonus, and an armour bonus equivalent to T75 power armour**.
+⬥ The set effect, *Herald of Chaos*, depends on how many pieces are worn.
+    • **2-piece effect**: Gain 15% adrenaline over 18 seconds after casting a melee <:melee:615612332521029632> ultimate ability.
+        - <:nat:535541258131865633> does not affect the adrenaline gain.
+        - Using a *second* ultimate while it is active will end the effect and instantly add +20% adrenaline.
+    • **3-piece effect**: **Berserk <:zerk:535532854004678657> duration is extended by 10t/6s**, from 34t/20.6s to 44t/26.2s.
+    • **4-piece effect**: Adrenaline cap while wearing all 4 pieces is raised to 120%.
+        - This stacks with Heightened Senses <:heightenedsenses:697808773573771344> to 130%.
+        - The effect instantly ends if any piece is unequipped.
+
+.
+__**Key Considerations**__
+⬥ By sacrificing some defence, **the player gains a substantial amount of damage potential.**
+⬥ The low armour rating usually does not matter, but some exceptions exist (such as melee Telos).
+⬥ The 2-piece set effect can act as a replacement for Limitless <:limitless:641339233638023179>.
+⬥ The **3-piece effect can adjust the way <:zerk:535532854004678657> rotations are executed**:
+    • Doing <:gbarge:535532879250456578> → <:destroy:535532879330148352> → <:cane:535532878969438210> allows you to use a second (2-hit) <:destroy:535532879330148352> → <:cane:535532878969438210> before <:zerk:535532854004678657> runs out.
+    • The extended duration requires more strong abilities to fill - it is common to see <:zekkil:903244090953588787> <:eofspec:746403211908481184> being used within <:zerk:535532854004678657> for this reason.
+⬥ **The 4-piece effect can be used as a switch at the start of a fight**, but requires a helmet switch (with <:jawsoftheabyss:947871842595639306>) to use properly.
+    • This allows you to <:lengmh:883134308146098227> <:spec:537340400273195028> → <:zerk:535532854004678657> → <:gbarge:535532879250456578> at the start of a fight.
+
+.
+> __**Dragon Battleaxe**__ <:DBA:603979368850653216>
+.tag:dba
+__**How It Works**__
+⬥ The special attack <:DBA:603979368850653216> <:spec:537340400273195028> *Rampage* costs 100% adrenaline and has the following effects:
+    • Drains 10% (rounded down) of <:Attack:689509250472476758> / <:Ranged:689504724403486920> / <:Magic:689504724159823906> / <:Defence:689509250979987525> levels.
+    • Boosts <:Strength:689509250879324165> level by 10 + 1 level for every 4 levels drained from other stats.
+    • Multiplicative 10% reduction on hitchance.
+    • Multiplicative 20% damage boost (hidden).
+        - Stacks with <:zgs:626465964325601290> <:spec:537340400273195028> going from 1.25x → 1.5x damage boost.
+        - Stacks with Berserk <:zerk:535532854004678657> (2.0x → 2.2x boost) - *making <:DBA:603979368850653216> <:spec:537340400273195028> only a 10% damage boost, not 20%.*
+
+__**Key Considerations**__
+⬥ **<:DBA:603979368850653216> <:spec:537340400273195028> is mostly used when the hitchance debuff will not matter, and you have time to use it.**
+⬥ Examples of places it can be used:
+    • Where you cannot deal damage for a time (e.g. Taraket while phasing).
+    • Where your damage output is not a priority for a time (e.g. Ambassador spinners' phase).
+    • Where you can use it in advance (e.g. War's Retreat adren crystals before a fight, or preparing for a speedkill).
+
+.
+> __**Important EoFs**__
+.tag:importanteofs
+This section covers weapons that are worth placing into an Essence of Finality <:eof:787526151978614824> amulet for access to their special attacks.
+
+.
+> __**Dragon Claws EoF**__ <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofred:780401412839833601>
+.tag:dclawseof
+__**How It Works**__
+⬥ Dragon Claws have a special attack called *Slice and Dice* <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofspec:746403211908481184> that consumes 50% adrenaline to deal 4 damaging hits on the target, dealing a total of 176-480% ability damage.
+⬥ They are a useful way to dump excess adrenaline in scenarios such as:
+    • Getting a Relentless <:relentless5:712244800920748092> proc after a Berserk <:zerk:535532854004678657>
+    • Near the end of a kill where you no longer need the adrenaline.
+    • Places where you get excess adrenaline (e.g. Telos green beam).
+⬥ Some examples of bosses where <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofred:780401412839833601> is used:
+    • Melee Telos
+    • Seiryu 1-cycle attempts
+    • Advanced rotations are Solak and Ambassador
+
+.
+> __**Statius' Warhammer (SWH) EoF**__ <:swh:641670143197446182> <:eofblack:780401412915855380>
+.tag:swheof
+__**How It Works**__
+⬥ The SWH special attack, *Smash* <:swh:641670143197446182> <:eofspec:746403211908481184> costs 35% adrenaline and has two effects:
+    • Deals an initial hit of 83-208% ability damage.
+    • **Lowers the target's Defence <:Defence:689509250979987525> level by 30%, and increases affinity by +5 for 1 minute.**
+        - This can stack with a Guthix staff <:gstaff:513203008608141314> <:spec:537340400273195028> and Quake <:quake:535532879506309150> to reach 5+2+2 = +9 affinity bonus.
+⬥ **It is primarily used for its special attack.**
+⬥ Placing <:swh:641670143197446182> in an EoF <:eof:787526151978614824> prevents it from degrading when used.
+    • You can place it in an <:eof:787526151978614824> even when it is low on charge without issues.
+⬥ It's great where you require additional accuracy to avoid splashing, such as:
+    • Vorago
+    • Telos
+    • Nex: Angel of Death
+    • Raids
+
+.
+> __**Ek-Zekkil (EZK) EoF**__ <:zekkil:903244090953588787> <:eof:787526151978614824>
+.tag:ezkeof
+__**How It Works**__
+⬥ The EZK special attack, *Igneous Cleave* <:zekkil:903244090953588787> <:eofspec:746403211908481184> costs 50% adrenaline and has two effects:
+    • Deals an initial hit of 62-190% ability damage.
+    • Applies a 6-hit bleed on the target with an initial hit of 30-105% ability damage, increasing by 5% multiplicatively each hit.
+        - While the special attack is active, each time a bleed used on the target, <:zekkil:903244090953588787> <:eofspec:746403211908481184> gains 1 extra hit (capped at 5 extra hits).
+⬥ **It is primarily used for its extremely strong special attack.**
+⬥ **It is strongly recommended to EoF this weapon, as this allows it to be cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> which extends the bleed by 3 hits.**
+
+*Note: See the section on __**Ek-Zekkil (EZK)**__ for a list of abilities that do and don't extend <:zekkil:903244090953588787> <:eofspec:746403211908481184> duration.*
+
+.
+> __**EZK vs. ZGS vs. Overpower**__ <:zekkil:903244090953588787> <:zgs:626465964325601290> <:overpowerigneous:959089455640215633>
+.tag:ezkzgsop
+Here we compare which of these options is recommended to use between Berserks <:zerk:535532854004678657> while waiting for the cooldown.
+**Briefly, <:zekkil:903244090953588787> <:eofspec:746403211908481184> > <:overpowerigneous:959089455640215633> > <:zgs:626465964325601290> <:spec:537340400273195028> when wearing Vestments of Havoc.**
+.
+__**When to EZK**__ <:zekkil:903244090953588787> <:eofspec:746403211908481184>
+⬥ **This is strongest option if all its hit can hit, and should be prioritised if possible**.
+    • If you cannot get off all the hits *after* <:zerk:535532854004678657> which may often happen, then it gets use within <:zerk:535532854004678657> instead.
+⬥ **Multiple casts will override one another** - only one person in a group encounter should use it at a time.
+    • This is even more important because the later hits deal more damage than the earlier hits.
+
+.
+__**When to ZGS**__ <:zgs:626465964325601290> <:spec:537340400273195028>
+⬥ Considering that Greater Flurry <:gflurry:535532879283879977> and other strong abilities exist, the duration of <:zgs:626465964325601290> <:spec:537340400273195028> is long enough that without Relentless <:relentless5:712244800920748092> it's very difficult to get off a full rotation.
+⬥ **Mostly used if you won't really be able to use <:zerk:535532854004678657> a second time *and* <:zekkil:903244090953588787> <:eofspec:746403211908481184> is not an option.**
+⬥ Can be nice for AoE scenarios.
+
+.
+__**When to Overpower**__ <:overpowerigneous:959089455640215633>
+⬥ You will almost always use Igneous Overpower because you can it get off fully, and the adrenaline costs manageable enough to use it mostly off-cooldown.
+⬥ You can use it twice per minute (50t/30s cooldown) if you do it early enough within <:zerk:535532854004678657> but that depends more on your specific rotations.
+
+.
+__**Other**__
+⬥ Bleeds like Slaughter <:slaughter:535532879237873666> / Blood Tendrils <:bloodtendrils:535532854327640064> / Dismember <:dismember:535532879376023572> are important and will also be used in this period.
+⬥ <:gflurry:535532879283879977> is also often used to get the next <:zerk:535532854004678657> on time, but may not be needed if phases are long enough.
+    • It may also impact adrenaline remaining for other thresholds.
+
+.
+> __**Defensive Autos**__
+.tag:defauto
+While colloquially referred to as 'defensive' autos, it is more accurate to call them 'non-damaging' autos, since some non-defensive abilities have similar interactions with autos. Examples include ZGS special attack <:zgs:626465964325601290> <:spec:537340400273195028> and Berserk <:zerk:535532854004678657>.
+For a thorough explanation of how defensive autos (and auto attacks in general) work, refer to <#1020050437963010149>. Here, we will simply cover some of their uses.
+.
+__**Why Defensive Autos Exist**__
+⬥ Generally, casting any ability will put your auto-attack <:AirSurge:543465115870035999> on cooldown based on your weapon speed.
+⬥ However, **non-damaging abilities do not cause this cooldown.**
+    • This means that defensive autos can be used within your main ability rotation.
+⬥ Note that Melee <:melee:615612332521029632> does not have an auto attack keybind like Magic <:Magic:689504724159823906> and so some input sequences may be different/delayed.
+
+.
+__**Common Applications**__
+*Note: You can check out `!defauto` and `!freedom` for a brief summary of mechanics.*
+.
+⬥ **Forcing 2H autos** using  using `Fast/Fastest Ability → Defensive → Ability`.
+    • Replacing the with a *magic spell keybind* with the appropriate runes will attempt to cast the spell in place of the auto.
+⬥ **Forcing off-hand + 2H autos** with Freedom <:freedom:535541258240786434>
+    • The rotation is: Fast/Fastest Ability → Freedom → (1t delay) + 2H switch → Ability
+    • This will give an off-hand and a 2H auto, but do not switch to 2H too early.
+⬥ **Applying Smoke Cloud <:smokecloud:856635090641879050>**
+    • **Method 1**: Press <:smokecloud:856635090641879050> + Ability 1 tick after GCD ends to 4TAA <:smokecloud:856635090641879050>.
+        - This must be done following a Fastest speed, non-channelled ability.
+    • **Method 2**: Use <:freedom:535541258240786434> to get OH + 2H autos, and replace the OH auto by pressing <:smokecloud:856635090641879050> before <:freedom:535541258240786434> - this is 1t faster than method 1.
+        - This requires a magic offhand with an autocast set, that you have the required runes for.
+    • **Method 3**: Press Target Cycle → <:smokecloud:856635090641879050> + Ability to start an encounter if you do not intend to utilise the Greater Barge <gbarge:535532879250456578> buff at the start of a fight.
+
+.
+{
+  "embed": {
+    "title": "Defensive Auto Clips for Melee <:melee:615612332521029632>",
+    "description": "Here are some examples of defensive auto attack interactions with Melee.",
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Defensive 2H Auto__",
+        "value": "To see an example of Defensive 2H auto, [click here](https://i.imgur.com/hlw4KFW.mp4).\nThe abilities used are: Fast/Fastest Ability → Defensive → 2H switch + Ability\n(Courtesy of <@184952892422094848>)"
+      },
+      {
+        "name" : "__Freedom OH + 2H Auto__",
+        "value": "To see an example of Freedom OH + 2H autos, [click here](https://youtu.be/YydKrY05Kc8).\nThe abilities used are: Fast/Fastest Ability → Freedom → (1t delay) + 2H switch → Ability\n(Courtesy of <@425520655920791553>)"
+      },
+      {
+        "name" : "__Smoke Cloud__",
+        "value": "To see an example applying <:smokecloud:856635090641879050> with target cycle, [click here](https://i.imgur.com/nQvSbce.mp4).\nThe abilities used are: Target Cycle → <:smokecloud:856635090641879050> + Ability\n(Courtesy of <@920182208508088320>)"
+      }
+    ]
+  }
+}
+.embed:json
+*Note: this is not an exhaustive list of auto attacks, just some of their uses cases*.
+
+.
+**__5-Tick Auto Attack (5TAA)__**
+.tag:5taa
+.
+{
+  "embed": {
+    "color": 15158332	,
+    "fields": [
+      {
+        "name": "__5TAA Guide__",
+        "value": "If you prefer to watch a video guide, [click here](https://www.youtube.com/watch?v=AzswBOuBnUQ) (Courtesy of <@162317885044293632>)"
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Any time a speed is before an auto/ability (e.g., "Average Ability") this simply refers to the weapon speed used to cast it.*
+
+.
+**__What is 5TAA__**
+*Note 1: With the Abyssal Scourge <:abyssalscourge:947871842469834832> with the Jaws of the Abyss <:jawsoftheabyss:947871842595639306>, 5TAA is rarely used, as a 3-hit Greater Flurry <:gflurry:535532879283879977> gives the same result. It's also less prevalent when hybridding or using non-zerk auras like Invigorate <:invigaura:643505652865695767>.*
+*Note 2: See `!lasttick` command or <#1020050319457132654> for more information.*
+.
+⬥ 5TAA is an extension of weapon juggling, similar to 4TAA with Magic <:AirSurge:543465115870035999> <:Magic:689504724159823906> but as Melee <:melee:615612332521029632> does not have an auto-attack keybind, it delays the execution by 1 tick.
+    • With <:Magic:689504724159823906>: Fast/Fastest Ability → T4 Auto + Ability
+    • With <:melee:615612332521029632>: Fast/Fastest Ability → T4 Auto → T5 Ability
+⬥ This is because **without the auto keybind, we cannot force the auto before the ability**, so the ability gets delayed to prevent putting the auto attack on cooldown.
+.
+⬥ If using Revolution, some extra effort must be done to 5TAA:
+    • You have to use Cease <:cease:864235458464186418> after casting your first ability.
+    • Then click your target after global cooldown ends.
+    • Finally, use an ability 1t after that.
+
+.
+{
+  "embed": {
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__5TAA with Full Manual__",
+        "value": "To see 5TAA with full manual in action, [click here](https://i.imgur.com/1KJ1v9d.mp4). (Courtesy of <@184952892422094848>)\nRotation used is <:sever:535532879577612298> → (1t delay) + Auto → (1t delay) + <:cleave:535532878616985610>"
+      },
+      {
+        "name": "__5TAA with Revolution__",
+        "value": "To see 5TAA with Revolution active, [click here](https://i.imgur.com/pS3rypQ.mp4). (Courtesy of <@184952892422094848>)\nRotation used is <:sever:535532879577612298> → (1t delay) + Auto → (1t delay) + <:cleave:535532878616985610>"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+__**Where It's Used**__
+⬥ **5TAA is primarily done to align ticks so you can cast an ability on the last tick of Berserk <:zerk:535532854004678657>**.
+    • This is because that ability will be boosted by both the <:zerk:535532854004678657> and an active Berserker <:berserker:643505116347105290> aura.
+⬥ This is typical in <:Berserk:513190158468907012> rotations that use one 7t channel ( 4-hit Destroy <:destroy:535532879330148352>) without the ability to use a 5t channel (like 3-hit Greater Flurry <:gflurry:535532879283879977>) to align ticks. See the following table for an example.
+
+```
+T0    : Berserk cast
+T3-6  : 2x Ability
+T9    : 7t channelled Ability
+T16-19: 2x Ability
+T22   : Fastest non-channelled Ability
+T26   : Auto attack*
+T27-30: 2x Ability
+T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Berserker aura)
+```
+*Note: this is **not** a rotation to copy - it is simply an example to show how the ticks align.*
+
+.
+{
+  "embed": {
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Berserk with 5TAA (Last Tick Aligned)__",
+        "value": "To see a <:zerk:535532854004678657> rotation using 5TAA to align ticks, [click here](https://i.imgur.com/5yGLBou.mp4).\nNotice the damage Quake does (8451).\n\nThe rotation used: <:sever:535532879577612298> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532855191928842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4-hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → (5TAA) <:quake:535532879506309150>"
+      },
+      {
+        "name": "__Berserk without 5TAA__",
+        "value": "To see a <:zerk:535532854004678657> rotation without 5TAA to align ticks, [click here](https://i.imgur.com/5yGLBou.mp4).\nNotice the lower damage Quake does (7644).\n\nThe rotation used: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4-hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → <:quake:535532879506309150> → <:deci:535532879325822986>"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> **__Pocket Slots__**
 .tag:pocket
-For melee there are 4 choices of pocket slot items (Grimoire <:grim:568262896375824385>, Scrimshaw of Vampyrism <:VampScrim:513201294262009874>, Scripture of Ful <:scriptureofful:902209626412560395>, and Scripture of Jas <:scriptureofjas:869284342839513108>). Here is a run down of when to use which.
+⬥ The following image describes when to use which option.
+.img:https://i.imgur.com/f8Sml50.png
 .
-.img:https://i.imgur.com/Sv79AfY.png
-.
-> **__Drygores and Khopeshes__**
-.tag:drygore
-⬥ T85 leng weapons are stronger than drygores and khopeshes due to their passive effect of being able to <:cane:535532878969438210> or <:destroy:535532879330148352> (or both if both lengs are equipped)
-⬥ The Abyssal Scourge is strictly better than MH khopesh due to its passive effect of applying parasite stack bleeds
-⬥ Drygore off-hands can still be used as switches
+*Note: For more information, you can check out the `!pocket` command.*
 
 .
-Smoke Cloud Zerk
-> **__Example Rotations__**
-.tag:zerkRots
-**__Without Vestments of Havoc__**
-Smoke Cloud Zerk
-<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → (dw) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:assault:535532853979512842> → <:cane:535532878969438210>
-
-Standard Apot Zerk
-<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
-
-Standard Limitless Zerk
-<:zerk:535532854004678657> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → limitliess + <:gflurry:535532879283879977> (3 hit) → <:cane:535532878969438210> → <:assault:535532853979512842> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080>
+> **__General Berserk Rotations__**
+.tag:zerk
+**This section will cover usage of strong abilities (thresholds or better) within your Berserk <:zerk:535532854004678657> under different scenarios**.
+**The following unlocks are assumed:**
+⬥ Ring of Vigour <:vigour:615613235512737792> or its passive effect after Extinction quest.
+⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316>
+.
+**Keep in mind the following:**
+⬥ These are only *suggestions* work from, and will not necessarily be applicable at all bosses or all scenarios.
+    • For boss-specific rotations, see their respective guides.
+⬥ If Igneous Kal-Ket <:igneouskalket:902209626404192316> is not unlocked, use Forceful Backhand (Flank) <:fbackhandflank:867678153866870824> , Cleave <:cleave:535532878616985610> or other strong abilities to substitute.
+⬥ Conservation of Energy relic <:conservationofenergy:697808773711921195> is recommended for adrenaline refunds from <:Berserk:513190158468907012> and <:overpowerigneous:959089455640215633> in order to execute a stronger rotation.
+⬥ Replace Fury <:fury:535532879510372352> with Greater Fury <:gfury:535532879334080527> if you have it instead.
 
 .
-**__With Vestments of Havoc__**
-Standard Apot Zerk
-<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:lengmh:883134308146098227> <:cane:535532878969438210>
+__**Berserk w/ Adren Renewal**__ <:adrenrenewal:736298121704767538>
+⬥ 1x Destroy <:destroy:535532879330148352>
+⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3-hit)
+⬥ 1x Assault <:assault:535532855191928842>
+⬥ 1x Hurricane <:cane:535532878969438210>
 
-Smoke Cloud Zerk with <:zekkil:903244090953588787> <:eof:787526151978614824>
-<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → (dw) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:cane:535532878969438210>
+⬥ Example rotation:
+    • <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3-hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
 
 .
-Standard Limitless Zerk
-<:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:jawsoftheabyss:947871842595639306> <:abyssalscourge:947871842469834832> <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:smokecloud:856635090641879050> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> 3hit → <:gfury:535532879334080527> → <:fbackhandflank:867678153866870824> → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:limitless:641339233638023179> <:lengmh:883134308146098227> <:destroy:535532879330148352> 2hit → <:abyssalscourge:947871842469834832> <:cane:535532878969438210>
+__**Berserk w/ Limitless**__ <:limitless:641339233638023179>
+⬥ 1x Destroy <:destroy:535532879330148352>
+⬥ 1x Greater Flurry <:flurry:864492981763702834> (3-hit)
+⬥ 1x Assault <:assault:535532855191928842>
+⬥ 1x Hurricane <:cane:535532878969438210>
+
+⬥ Example rotation:
+    • <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → <:limitless:641339233638023179> + <:gflurry:535532879283879977> (3-hit) → <:cane:535532878969438210> → <:assault:535532853979512842> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080>
+
+.
+__**Berserk w/ Adren Renewal + Smoke Cloud Berserk**__ <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050>
+⬥ 1x Destroy <:destroy:535532879330148352>
+⬥ 1x Greater Flurry <:gflurry:535532879283879977> (4-hit)
+⬥ 1x Assault <:assault:535532855191928842>
+⬥ 1x Hurricane <:cane:535532878969438210>
+
+⬥ Example rotation:
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4-hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:assault:535532853979512842> → <:cane:535532878969438210>
+
+.
+__**Berserk w/ 4-piece Vestments + Adren Renewal **__ <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538>
+⬥ 2x Destroy <:destroy:535532879330148352> (second Destroy is 2-hit)
+⬥ 1x Igneous Overpower <:overpowerigneous:959089455640215633>
+⬥ 1x Assault <:assault:535532855191928842>
+⬥ 2x Hurricane <:cane:535532878969438210>
+⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + Slaughter  <:slaughter:535532879237873666>
+
+⬥ Example rotation:
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2-hit) → <:lengmh:883134308146098227> <:cane:535532878969438210>
+
+.
+__**Berserk w/ 4-piece Vestments + Adren Renewal + EZK EoF**__ <:vestmentsofhavoctop:994189295592161291> +<:adrenrenewal:736298121704767538> + <:zekkil:903244090953588787> <:eof:787526151978614824>
+⬥ 1x Destroy <:destroy:535532879330148352>
+⬥ 1x Assault <:assault:535532855191928842>
+⬥ 1x Greater Flurry <:gflurry:535532879283879977> (4-hit)
+⬥ 2x Hurricane <:cane:535532878969438210>
+⬥ 1x Forceful Backhand (Flank) <:fbackhandflank:867678153866870824>
+⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + EZK special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184>
+
+⬥ Example rotation:
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (4-hit) → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:cane:535532878969438210>
+
+.
+__**Berserk w/ 4-piece Vestments + Adren Renewal + Limitless**__ <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538> + <:limitless:641339233638023179>
+⬥ 2x Destroy <:destroy:535532879330148352> (second Destroy is 2-hit)
+⬥ 1x Assault <:assault:535532855191928842>
+⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3-hit)
+⬥ 2x Hurricane <:cane:535532878969438210>
+⬥ 1x Forceful Backhand (Flank) <:fbackhandflank:867678153866870824>
+⬥ 1x Igneous Overpower <:overpowerigneous:959089455640215633>
+
+⬥ Example rotation:
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (equip <:jawsoftheabyss:947871842595639306>) + <:abyssalscourge:947871842469834832> <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:smokecloud:856635090641879050> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3-hit) → <:gfury:535532879334080527> → <:fbackhandflank:867678153866870824> → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:destroy:535532879330148352> (2-hit) → <:abyssalscourge:947871842469834832> <:cane:535532878969438210>
 
 .
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
+    "color": 15158332,
     "fields": [
       {
-	    "name": "__Begin__",
-        "value": "[Introduction]($linkmsg_Intro$)\n[Revolution Bars and General Background Knowledge]($linkmsg_generalInfo$)",
-		"inline": true
+        "name": "__Begin__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)\n⬥ [Revo Bars/General Info]($linkmsg_generalinfo$)",
+        "inline": true
       },
-	  {
-	    "name": "__Building Blocks__",
-        "value": "[Ability Prioritisations and Building a Rotation]($linkmsg_Priority$)\n[Ability Information]($linkmsg_abilInfo$)",
-		"inline": true
+      {
+        "name": "__Building Blocks__",
+        "value": "⬥ [Ability Information]($linkmsg_info$)\n⬥ [Ability Prioritisation]($linkmsg_priority$)\n⬥ [DW vs. 2H Camp]($linkmsg_camping$)\n⬥ [Building a Rotation!]($linkmsg_rotation$)\n⬥ [Cancelling Channels]($linkmsg_cancel$)",
+        "inline": true
       },
-	  {
-	    "name": "__To Learn__",
-        "value": "[Bleeds]($linkmsg_bleeds$)\n[Abyssal Scourge]($linkmsg_parasites$)\n[Leng Weapons]($linkmsg_lengs$)\n[Cancelling Channels]($linkmsg_cancel$)\n[Greater Codices]($linkmsg_gCodices$)\n[Switches]($linkmsg_switches$)\n[Auto Attacks]($linkmsg_autos$)\n[Post-zerk Rotation]($linkmsg_ezkzgsop$)",
-		"inline": true
+      {
+        "name": "__Important Abilities__",
+        "value": "⬥ [Greater Fury]($linkmsg_gfury$)\n⬥ [Greater Barge]($linkmsg_gbarge$)\n⬥ [Greater Flurry]($linkmsg_gflurry$)\n⬥ [Chaos Roar]($linkmsg_roar$)",
+        "inline": true
       },
-	  {
-	    "name": "__Generic Information__",
-        "value": "[DW vs 2H camp]($linkmsg_2HvsDW$)\n[Pocket slots]($linkmsg_pocket$)\n[Drygores]($linkmsg_drygore$)",
-		"inline": true
+      {
+        "name": "__Important Items__ (1/2)",
+        "value": "⬥ [Flanking Switch]($linkmsg_flanking$)\n⬥ [Sliver Enchantments]($linkmsg_sliver$)\n⬥ [Jaws of the Abyss]($linkmsg_jaws$)\n⬥ [Abyssal Scourge]($linkmsg_scourge$)\n⬥ [Leng Weapons]($linkmsg_lengs$)\n⬥ [TMW Spear]($linkmsg_msoa$)\n⬥ [Laniakea Spear]($linkmsg_lanispear$)\n⬥ [Ek-ZekKil (EZK)]($linkmsg_ezk$)",
+        "inline": true
       },
-	  {
-	    "name": "__Examples__",
-        "value": "[General Zerk Rotations]($linkmsg_zerkRots$)",
-		"inline": true
+      {
+        "name": "__Important Items__ (2/2)",
+        "value": "⬥ [Gloves of Passage]($linkmsg_gop$)\n⬥ [Vestments of Havoc]($linkmsg_vestments$)\n⬥ [Dragon Battleaxe]($linkmsg_dba$)",
+        "inline": true
+      },
+      {
+        "name": "__Important EoFs__",
+        "value": "⬥ [Dragon Claws]($linkmsg_dclawseof$)\n⬥ [Statius' Warhammer]($linkmsg_swheof$)\n⬥ [Ek-Zekkil (EZK)]($linkmsg_ezkeof$)",
+        "inline": true
+      },
+      {
+        "name": "__Advanced Mechanics__",
+        "value": "⬥ [EZK vs. ZGS vs. Overpower]($linkmsg_ezkzgsop$)\n⬥ [Defensive Autos]($linkmsg_defauto$)\n⬥ [5TAA]($linkmsg_5taa$)\n⬥ [Pocket Slots]($linkmsg_defauto$)",
+        "inline": true
+      },
+      {
+        "name": "__Berserk Rotations__",
+        "value": "⬥ [General Zerk Rotations]($linkmsg_zerk$)",
+        "inline": true
       }
     ]
   }

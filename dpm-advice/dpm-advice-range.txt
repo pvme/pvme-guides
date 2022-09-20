@@ -1,675 +1,832 @@
 > **__Introduction__**
 .tag:intro
-⬥ In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics. This channel will go over general damage output lessons, ability prioritisations, crafting a rotation, a learning path, common mistakes, and tips and tricks.
+In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics.
+
+This channel will go over general damage output lessons, ability prioritisations, crafting a rotation, a learning path, common mistakes, and tips and tricks.
+
+.
+> __**Related Channels**__
+.tag:related
+For further information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more information about PvM and DPS.",
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__DPM-Advice Channels__",
+        "value": "⬥ <#1019754991575113790>\n⬥ <#1020034741644316754>\n⬥ <#1020034711491444737>",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Info__",
+        "value": "⬥ <#1020050459618185328>\n⬥ <#1020050319457132654>\n⬥ <#1020050437963010149>",
+        "inline": true
+      },
+      {
+        "name": "__Invention__",
+        "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
 
 .
 > **__Revolution Bars and General Background Knowledge__**
-.tag:generalInfo
-⬥ For general PvM terminology, DPM tips, and revolution bars, see <#622623001694699560>
+.tag:generalinfo
+For general PvM terminology, DPS tips, and revolution bars, sections in <#1019754991575113790>.
 
 .
-> **__Ability Information__**.
-.tag:abilInfo
-**__General__**
-⬥ Note: t = "ticks", s = "seconds"
-⬥ To see the damages of the listed things with your gear set up, feel free to make a copy of the following sheet to customise:
-<https://docs.google.com/spreadsheets/u/2/d/1F5vBijBmZw2aWI-OA0DxV0Iw5efolCx58nqkzGLeqC0>
+> __**Ability Information**__
+.tag:info
+.
+{
+  "embed": {
+    "title": "__Ability Information Resources__",
+    "description": "The following links contain information about abilities and auto attacks.",
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__Ability Information__",
+        "value": "For accurate tooltips and information about specific spells (auto attacks) and abilities and how they work refer to <#1020050459618185328>."
+      },
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://i.imgur.com/7EINzgc.png)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
 
 .
-**__Autos__**
-⬥ All Autos are affected by Invigorating <:invig4:712073087859949570>
-    • (Invigorating Rank * 10)% increased adrenaline on Autos
-
-⬥ Default Ranged Auto <:Ranged:689504724403486920>
-    • Cooldown: Based on Weapon Speed
-        - Fastest: 4t (2.4s)
-        - Fast: 5t (3.0s)
-        - Average: 6t (3.6s)
+> __**Ability Prioritisation**__
+.tag:priority
+__**Ability Ranking**__
+⬥ **Generally, high damaging abilities should be prioritised and used more often than low damaging abilities**.
+    • **This can be affected by what equipment the player owns**, such as using more multi-hit abilities like Rapid Fire <:rapid:535541270521708566> and Frag Shot <:frag:535541273755385885> under an ECB spec <:ecb:615618531937222657> <:spec:537340400273195028>, and so when upgrading gear, it's worth spending a little time to understand how it impacts your abilities.
+.
+⬥ The following image shows the relative strengths of abilities in different scenarios, ranked by *damage per tick*.
+.img:https://i.imgur.com/H4vw4d3.png
+.
+*Note: This is **not** an ability rotation, only a damage comparison chart. It does not consider ability cooldowns or any specific PvM encounter, simply damage-per-tick in a vacuum. For information on how to incorporate these into a proper rotation, see the __**Building A Range Rotation**__ section below or in the pinned links.*
 
 .
-**__Basics:__**
-⬥ **Fragmentation Shot** <:frag:535541273755385885>
-    • Cooldown: 25t (15s)
-    • It is a Bleed:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • It is Walkable:
-        - Doubles damage of each hit
-    • It is affected by Lunging <:lunge4:736522494315593759>:
-        - Max increases by 20% per Lunging rank
-        - Walking bleed only causes it to increase by 50% damage
+> **__Dual Wield vs 2H Bow Camp__**
+.tag:camping
+*Note: This compares strictly camping dual-wield vs. camping 2H **bows**. For more information, see the __**What Ammo To Use**__ section.*
 
-⬥ **Corruption Shot** <:corruptshot:535541306294796299>
-    • Cooldown: 25t (15s)
-    • It is a Bleed:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • It is an AoE:
-        - Spreads to targets within 2 tiles each hit
-        - Does *not* aggro said targets
+Crossbows used to be the meta, due to Bakriminel bolts. However with more and more arrow choices available to players, the gap has narrowed, and **bows have become the current recommended weapons of choice**.
+
+Certain types of ammunition like Jas <:jasdragonbanearrow:971025697042755584> or Ful <:fularrow:971025696958853180> make camping 2H stronger than camping comparable dual-wield setups using ammo like Ruby Bakriminel <:RubyBakri:565726489413287956> bolts. Others like Wen <:wenarrow:971025697046925362> or Bik <:bikarrow:971025697235689513> can be situationally stronger as well, where there is time to build and use their effects. Lastly, arrows like Deathspore <:deathsporearrows:900758234527301642> and Black stone arrows <:blackstonearrow:785031580149743617> provide great utility at certain fights like Nex and Vorago that dual-wield camping cannot.
+
+One point of concern when it comes to ammo is **adrenaline** - Hydrix Bakriminel bolts <:HydrixBakri:550834403136503822> provide *incredible* adrenaline gain, and Ranged <:Ranged:689504724403486920> is a style that heavily benefits from excess adrenaline.
+    • It is possible to get around this by briefly using a dual-wield/2H crossbow switch with <:HydrixBakri:550834403136503822> and abilities like Greater Ricochet <:grico:787904334812807238> or Rapid Fire <:rapid:535541270521708566> to get multiple bolt procs quickly, and then switching back to 2H camping with arrows again.
 
 .
-⬥ **Binding Shot** <:bindingshot:535541306563231790>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Demoralise <:demoralise:535541258559553546>
-    • Stuns for 2t (1.2s) and Binds for 16t (9.6s)
-    • It is affected by Flanking <:flank4:712073088296157185>
-        - Increases Max by 40% per Flanking rank
-        - Increases Minimum by 8% per Flanking Rank
-        - No longer stuns or binds
-
-⬥ **Demoralise** <:demoralise:535541258559553546>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Binding Shot <:bindingshot:535541306563231790>
-    • Stuns for 2t (1.2s) and Binds for 16t (9.6s)
-    • It causes Knockback:
-        - Pushes 1x1 targets back 1 tile
+**__Dual Wield Camp Benefits__** <:mechchin:641669268722810881> + <:bbc:626714879218155521> <:bbcoh:626714879230738434>
+⬥ Access to Needle Strike <:needle:535541259108876293>
+    • A relatively strong basic that be used every 3 abilities to add a small damage buff to the following ability.
+⬥ Easier to use switches.
+    • Can use shields <:vengeful:583430259110576140> or off-hand switches like Flanking <:flank4:712073088296157185> and Caroming <:caroming4:791281588792590336> easier.
+⬥ Can use Mechanical Chinchompas <:mechchin:641669268722810881> which provide extremely strong AoE damage when paired with a suitable off-hand weapon.
+⬥ Access to Bakriminel bolts while still being able to use switches.
+    • *Explained further in the __**What Ammo To Use**__ section.*
 
 .
-⬥ **Escape** <:escape:535541258832052231>
-    • Cooldown: 34t (20.4s)
-    • It is a Mobility ability:
-        - For Ranged: Moves you back (weapon attack range - 1) tiles
-        - For non-Ranged: Moves you back 7 tiles
-    • It is affected by Mobile <:mob:689501908628799488>
-        - Reduces cooldown to 17t (10.2s)
-        - Removes adrenaline gain
-    • Can be upgraded with a Double Escape codex: <:escapecodex:602561894443778115>
-        - This gives you a second <:escape:535541258832052231> on its own 34t (17t <:mob:689501908628799488>) internal cooldown that is used after the first
-
-⬥ **Snipe** <:snipe:535541258425204770>
-    • Cooldown: 17t (10.2s)
-    • It is a channeled ability
-    • It is affected by Nightmare Gauntlets <:NMG:513190159441723392>
-        - Lets you move while charging <:snipe:535541258425204770>
-        - Increases hitchance of <:snipe:535541258425204770> by 25%
+**__Bow Camp Benefits__** <:bolg:994189289623662702> <:sgb:626466665848242186> <:ecb:615618531937222657>
+⬥ Access to Greater Dazing Shot <:mds:535541259033378827>
+    • Upgraded version of Dazing Shot <:dazing:535541307142307860> that applies a small bleed, that can trigger poison <:poisonicon:944649693500154006> effects and help in phasing bosses.
+⬥ Access to 2H Autos, which are much stronger than dual-wield autos.
+    • When 2H camping this can let you make use of Defensive Autos to replace weaker abilities like Tuska's Wrath <:Tuskas:513201065513058306>.
+⬥ Typically longer attack range than dual-wield weapons.
+⬥ Access to Incendiary Shot <:incend:535541258429661215> which can be used to set up some fights where you teleport to War's Retreat after each encounter, like Kerapac or Raksha or Telos.
+    • The extra adrenaline can lend itself to stronger rotations.
+.
+⬥ Access to Elder God arrows as well as other strong ammo.
+    • *Explained further in the __**What Ammo To Use**__ section.*
+⬥ The end-game bow, Bow of the Last Guardian <:bolg:994189289623662702> has a special attack that only works when it's equipped.
+.
+*Note: Some 2H range weapons like the Wyvern Crossbow <:wyverncrossbow:580177522587729940> and the ECB <:ecb:615618531937222657> can also use Bakriminel bolts.*
 
 .
-⬥ **Dazing Shot** <:dazing:535541307142307860>
-    • Cooldown: 9t (5.4s)
-    • Target suffers a 10% accuracy decrease on their next attack
-
-⬥ **Greater Dazing Shot** <:mds:535541259033378827>
-    • Cooldown: 9t (5.4s)
-    • All normal dazing shot things apply
-    • Applies the Puncture effect:
-        - Increases Puncture stack count (caps at 10 stacks) on successful hits
-        - Deal Puncture Stack /* (5.8-7.2%) bleed damage over its full duration
-        - Refreshes the timer before clearing Puncture stacks to 9s even on splashes
-        - Makes the bleed start from the beginning again at its current Puncture stacks
-
-.
-⬥ **Needle Strike** <:needle:535541259108876293>
-    • Cooldown: 9t (5.4s)
-    • The damage of the next ability done on the main target is increased by 7%.
-        - Damage done within two ticks is boosted, meaning both Snap Shot <:snap:535534127131394088> hits are boosted, all of Greater Ricochet <:grico:787904334812807238> is boosted, two hits of Rapid Fire <:rapid:535541270521708566> are boosted, etcetera.
-
-⬥ **Ricochet** <:ricochet:535541259566186521>
-    • Cooldown: 17t (10.2s)
-    • It is an AoE:
-        - Hits within a 5 square radius from SW tile of initial target
-        - Hits 3 targets, inclusive of main
-    • It is affected by Caroming <:caroming4:791281588792590336>
-        - Ricochet hits Caroming rank more targets
-    • Not affected by Chinchompas <:mechchin:641669268722810881>
-
-.
-⬥ **Greater Ricochet** <:grico:787904334812807238>
-    • Cooldown: 17t (10.2s)
-    • All normal chain things apply
-    • It has an additional effect:
-        - Any non-primary Ricochet hit that does not hit an additional target will instead hit the primary target. The first two additional hits deal 10-50% ability damage; any further additional hits provided by the Caroming perk <:caroming4:791281588792590336> deal 5-15% ability damage.
-
-⬥ **Piercing Shot** <:piercing:535541258538450944>
-    • Cooldown: 5t (3s)
-    • Damage boosted on stun/bound targets:
-        - Becomes a 37.6%-188% basic
-    • Affected by Energising:
-        - Gain (Energising Rank \* 0.6) more adrenaline
-        - Damage range is now 0.8 \* original damage range
-
-.
-**__Thresholds__**
-⬥ **Snap Shot** <:snap:535534127131394088>
-    • Cooldown: 34t (20.4s)
-
-⬥ **Shadow Tendrils** <:shadowtend:642713547142332416>
-    • Cooldown: 75t (45s)
-    • Calculates damage on activation
-    • Incurs auto cooldown 2t (if fastest then 3t) after activation
-
-.
-⬥ **Rapid Fire** <:rapid:535541270521708566>
-    • Cooldown: 34t (20.4s)
-    • Binds for 10t (6s)
-    • Channelled ability
-    • It is affected by Fleeting Boots <:fleetingboots:789813993480388640>
-        - Lets you move while channeling <:rapid:535541270521708566>
-        - Increases hitchance of <:rapid:535541270521708566> by 10%
-
-⬥ **Bombardment** <:bombard:535541306391265284>
-    • Cooldown: 50t (30s)
-    • It is an AoE:
-        - 3x3 with target's true centre (SW tile) as centre
-    • Not affected by Chinchompas <:mechchin:641669268722810881>
-
-.
-⬥ **Salt the Wound** <:stw:535541259109138463>
-    • Cooldown: 25t (15s)
-    • It is an AoE:
-        - 3x3 with player as centre
-    • It is affected by Puncture:
-        - Increases Max by 18% per Puncture stack
-        - Increases Minimum by 3.6% per Puncture rank
-        - This means at 10 stacks <:stw:535541259109138463>'s damage range is 73.6%-368%
-    • It affects Puncture:
-        - Refreshes the timer before clearing Puncture stacks to 9s
-        - Makes the bleed start from the beginning again at its current Puncture stacks
-
-⬥ **Tight Bindings** <:tight:535541275957657600>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Rout <:rout:535541259268521994>
-    • Stuns for 6t (3.6s) and Binds for 16t (9.6s)
-    • It is affected by Flanking <:flank4:712073088296157185>
-        - Increases Max by 40% per Flanking rank
-        - Increases Minimum by 8% per Flanking rank
-        - No longer stuns or binds
-
-.
-⬥ **Rout** <:rout:535541259268521994>
-    • Cooldown: 25t (15s)
-    • It shares cooldown with Tight Bindings <:tight:535541275957657600>
-    • Stuns for 6t (3.6s)
-    • It causes Knockback
-        - Pushes 1x1 targets back 1 tile
-
-.
-**__Special Attacks__**
-*Note: All Special Attacks have an inherent cooldown when doing back-to-back special attacks, this is discussed in <#689212192398114875>*
-
-⬥ **Dark Bow** <:dbow:643848618553507843>
-    • Adrenaline Cost: 65% (58.5% with <:vigour:615613235512737792>)
-
-⬥ **Seren Godbow** <:sgb:626466665848242186>
-    • Cooldown: 50t (30s)
-    • Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)
-    • To see how the special attack Crystal Rain works use !sgb in <#534563158304620564>
-
-.
-⬥ **Eldritch Crossbow** <:ecb:615618531937222657>
-    • Special Attack: Split Soul
-    • Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)
-        - Lasts 25t (t0-t24)
-        - Anything that Soul Split <:soulsplit:615613924506599497> would have healed whilst spec is active instead deals Blight damage equal to 4 * Soul Split heal amount
-        - To get the Split Soul damage both the Soul Split heal and the hit of the ability must occur within the duration of the special
-        - Blight damage is affected a second time by Vulnerability <:Vuln:537349530551582720>, X Slayer sigils <:demonslayer:641339921675845633> <:dragonslayer:641339921814126594> <:undeadslayer:641339922019516416>, the NopeNopeNope PoF perk, and X Slayer perks <:undeadslayerperk:689502804720615441> <:demonslayerperk:689502842653900818> <:dragonslayerperk:689502927731163170>
-
-.
-**__Ultimate__**
-⬥ **Death's Swiftness** <:deathsswift:994921434633744455>
-    • Cooldown: 100t (60s)
-    • It is an on cast buff
-    • It increases damage by 50% from t0→t51 (52t/31.2s duration), where buff starts t1
-    • It has a 7x7 buff radius
-    • It does not incur the auto cooldown
-    • It is affected by Planted Feet <:pf:689501925770919981>
-        - Increases duration by 25%: duration becomes t0→t63 (64t/38.4s duration), where buff starts t1
-
-.
-⬥ **Greater Death's Swiftness** <:gdeathsswift:994644354536837121>
-    • Cooldown: 100t (60s)
-    • Duration is the same as <:deathsswiftpf:994921597813137518>, t0→t63 (64t/38.4s duration)
-        - Using <:pf:689501925770919981> does not extend this further
-    • <:gdeathsswift:994644354536837121> retains the DoT effect of <:deathsswift:994921434633744455>
-        - Using <:pf:689501925770919981> will cancel this
-
-.
-⬥ **Incendiary Shot** <:incend:535541258429661215>
-    • Cooldown: 100t (60s)
-    • It is an AoE:
-        - 3x3 with target's true centre (SW tile) as centre
-    • It provides an Critical Adrenaline buff:
-        - For the next 30s, critical hits give 10% adrenaline
-        - This buff is applied on hit of the ability
-    • It is a Bleed:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-
-.
-⬥ **Deadshot** <:deadshot:535541307666595870>
-    • Cooldown: 50t (30s)
-    • It is mostly a Bleed:
-        - It does 6 hits, 5 of which are a bleed which means:
-        - Not affected by Precise <:p6:712073088769982475> or Equilibrium <:eq4:712073088589627505>
-        - Hits 5 times total, once every 2t (1.2s)
-    • It is affected by the Igneous Kal-Xil <:igneouskalxil:902209626404171786> or the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734> capes. When these are worn, the following effects take place:
-        - Ability damage is increased.
-        - The total number of bleed hits increases to 7, from 5
-        - The ability's adrenaline cost and the amount of adrenaline required to activate it are both reduced to 60%.
-
-⬥ **Unload** <:unload:535541258664411169>
-    • Cooldown: 100t (60s)
-    • Channelled ability
-
-.
-**__Hit Timings__**
-Refer to this spreadsheet for hit timings of each ability for various overrides:
-<https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>
-
-*Notes:*
-⬥ *All distances mentioned assume Melee Distance (MD) is tile 1, so "8" = (MD + 7) tiles*
-
-⬥ *r2H means "release stalled ability with 2H", rDW means "release stalled ability with dual wield"*
-
-.
-> **__Ability Prioritisations__**
-.tag:prioritisation
-**__Could I have used a Stronger Ability?__**
-⬥ Generally speaking, high damaging abilities should be prioritised and used more often than low damaging abilities
-    • However, there's a catch. High damaging abilities often come with long cooldowns.
-        - If you use all of the high damaging abilities at once, you will be forced to wait for cooldowns before you may use them again – during which time you are forced to use low damage abilities.
-
-⬥ To circumvent this, the trick is to use 'filler abilities', abilities with decent damage **and** short cooldowns, in-between your high damaging abilities in order to pace your cooldowns.
-
-⬥ See this image to understand which abilities are strongest, and begin comprehending our objectives during a rotation of a particular encounter.
-.
-.img:https://i.imgur.com/4zBiGNb.png
-.
-*Note: You should not necessarily use abilities in the listed order due to aforementioned reasons.*
-
-.
-> **__Building a Rotation__**
+> **__Building a Ranged Rotation__**
 .tag:rotation
-**__Putting them in Action__**
-⬥ When building a rotation, ability prioritisations **and** cooldowns should be on your mind.
+Here we'll cover some of the points to keep in mind to build a successful ranged DPS rotation. **For more information on how these rotations are affected by certain items or switches, such as see the __Important Items__ section**.
 
-⬥ Filler abilities such as Needle Strike <:needle:535541259108876293> and Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827> should be used in-between high damage abilities such as Snipe <:snipe:535541258425204770>, Corruption Shot <:corruptshot:535541306294796299>, Binding Shot-Flanking <:bindingshotflank:867678153400647701>, and Fragmentation Shot-Walk <:frag:535541273755385885>.
-
-⬥ Any basic ability with damage lower than Needle Strike <:needle:535541259108876293> / Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827> would be considered a weak ability.
-    • Such as Piercing Shot <:piercing:535541258538450944>, Tuska's Wrath <:Tuskas:513201065513058306>, Sacrifice <:Sacrifice:513201065907322880>, Binding Shot <:bindingshot:535541306563231790> without Flanking <:flankicon:841419289755385866>, and Richochet <:ricochet:535541259566186521> on a single target. Thus, they should be avoided.
+*Note 1: In the current meta, camping 2H > camping dual-wield, but it can be used as a switch or under certain circumstances.*
+*Note 2: If you don't have Greater Dazing Shot <:mds:535541259033378827> replace it with Dazing Shot <:dazing:535541307142307860> but try to get it unlocked quickly.*
+.
+__**Managing Cooldowns**__
+⬥ **High damaging abilities often come with long cooldowns** - when building a rotation, ability prioritisations *and* cooldowns should be on your mind.
+⬥ If you use all of the high damaging abilities at once, their cooldowns will force you to use multiple weak abilities in succession while waiting to use them again.
+⬥ To avoid this problem, you want to **use filler abilities to space out your high damage abilities**, to pace yourself and manage cooldowns.
+⬥ **The primary ranged filler abilities are Greater (Dazing Shot) <:mds:535541259033378827> / <:dazing:535541307142307860> Needle Strike <:needle:535541259108876293>**
+    • Both have decent damage (157% maximum damage) **and** short cooldowns (9t/5.4s or 3 GCDs)
+    • *They do not share cooldowns* - if using 2H/DW switches, you can use both.
 
 .
-⬥ If you are using a 2H or dual wield camping you will be limited to only one of these filler abilities: Dazing Shot <:dazing:535541307142307860> / Greater Dazing Shot <:mds:535541259033378827> or Needle Strike <:needle:535541259108876293>, respectively.
-    • Thus, try to utilise Dazing Shot <:dazing:535541307142307860> / Greater Dazing Shot <:mds:535541259033378827> or Needle Strike <:needle:535541259108876293> as often as possible in your rotations.
-    • A basic pattern of Needle Strike <:needle:535541259108876293> → Ability → Ability → Repeat is recommended for camping rotations.
+__**Basic Pattern**__
+⬥ Greater Dazing Shot <:mds:535541259033378827> should form the foundation of your rotation early on.
+⬥ **The basic pattern uses <:mds:535541259033378827> often, in 'blocks' of 3 abilities**:
+    • [<:mds:535541259033378827> → Ability → Ability ] → Repeat
+⬥ **If camping dual-wield, replace it with Needle Strike <:needle:535541259108876293> instead**:
+    • [<:needle:535541259108876293> → Ability → Ability ] → Repeat
+.
+⬥ **If Greater Ricochet <:grico:787904334812807238> is owned, prioritise <:grico:787904334812807238> as often as possible, and use the earlier pattern in-between.**
+.
+⬥ When building adrenaline, fill the empty slots with strong basics like the following, prioritising those that can crit:
+    • Greater Ricochet <:grico:787904334812807238>
+    • Snipe <:snipe:535541258425204770>
+    • Binding Shot (Flanking) <:bindingshotflank:867678153400647701>
+    • Piercing Shot (Bound) <:piercing:535541258538450944> - hits for boosted damage.
+    • Corruption Shot <:corruptshot:535541306294796299>
+    • Frag Shot (Walked) <:frag:535541273755385885>
+    • Needle Strike <:needle:535541259108876293> / Greater Dazing Shot <:mds:535541259033378827> - if weapon switching.
 
-⬥ For weapon juggling, you will have access to both Needle <:needle:535541259108876293> and Dazing <:dazing:535541307142307860> / <:mds:535541259033378827> as filler abilities. Giving you access to stronger rotations.
-    • This lets you have more breathing room in what rotations and fillers you create.
-    • While there is no singular rotation that is best here, a general pattern of Needle Strike <:needle:535541259108876293> → Ability → Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827> → Ability → Repeat will give you strong DPS.
+⬥ Once your rotation gets going, you can start using abilities like thresholds or better to fill in the blanks.
 
 .
-**__Weapon Switching__**
-⬥ Assuming you have been DW camping until this point, a 2H bow will allow you to DW/2H switch. Preferably an ammoless weapon for ease of switching.
-    • Start focusing on never using an ability worse than 157% ability damage. Any Tuska's Wrath <:Tuskas:513201065513058306> or Sacrifice <:Sacrifice:513201065907322880> in your rotation should be swapped for a Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827>.
-
-⬥ Maintain the same threshold order in Death's Swiftness <:ds:535541258924326912> and remember to Needle Strike <:needle:535541259108876293> before Snap Shot <:snap:535534127131394088> and Shadow Tendrils <:shadowtend:642713547142332416> for higher damage.
+__**Building The Rotation**__
+*Note: It is assumed that Death's Swiftness lasts for 38.4 seconds. You can do this by using Planted Feet <:deathsswiftpf:994921597813137518> or by unlocking Death's Swiftness <:gdeathsswift:994644354536837121> - both alternatives work. Examples of full Death's Swiftness rotations can be found at the bottom of this guide in the __**General Death's Swiftness Rotations**__ section.*
+.
+⬥ Death's Swiftness <:deathsswift:994921434633744455> lasts 38.4 seconds, but only has a 60 second cooldown. **We want to prioritise building to 100% adrenaline and using it often, as it boosts damage by 50%.**
+    • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration.
+    • Ideally, enter boss fights with 100% adrenaline so you can activate it immediately at the start.
+.
+⬥ **You can think of your overall rotation as two repeating sections**:
+    • [38.4s inside <:deathsswiftpf:994921597813137518> ] → [21.6s outside]  → Repeat
+.
+⬥ Both in and out of Death's Swiftness <:deathsswiftpf:994921597813137518>, you will want to prioritise your strong thresholds, special attacks, and modified ultimates.
+    • Snapshot <:snap:535534127131394088>
+    • Rapid Fire <:rapid:535541270521708566>
+    • Shadow Tendrils <:shadowtend:642713547142332416>
+    • Tight Bindings (Flanking) <:tightbindingsflank:867678154096640010>
+    • Igneous Deadshot <:deadshotigneous:959089455283728386>
+    • Dark Bow (EoF) <:dbow:643848618553507843> <:eofspec:746403211908481184>
+    • SGB <:sgb:626466665848242186> <:spec:537340400273195028>
+    • etc.
+.
+⬥ The goal is to fit as many of these strong abilities within the duration of <:deathsswiftpf:994921597813137518> as you can to maximise your damage output.
+    • **You spend the majority of time inside <:deathsswiftpf:994921597813137518> - take full advantage of this.**
+    • Continue using the basic 3-ability pattern to space your cooldowns.
+⬥ **While waiting for <:deathsswiftpf:994921597813137518> cooldown, you can use a few more thresholds/etc.**
+    • You do not want to needlessly camp 100% adrenaline.
+    • You can start building to 100% adrenaline when <:deathsswiftpf:994921597813137518> is nearly ready to use again.
+.
+*Note: To see examples of how to maximise your damage inside <:deathsswiftpf:994921597813137518> see the section at the bottom called __**General Death's Swiftness Rotations**__.*
+.
+__**Tips**__
+⬥ Any basic ability with damage lower than <:mds:535541259033378827> / <:needle:535541259108876293> is considered a weak ability and should be avoided when possible. Sometimes you may be forced to use them. Don't sweat it too much.
+    • Piercing Shot <:piercing:535541258538450944>
+    • Sacrifice <:Sacrifice:513201065907322880>
+    • Ricochet <:ricochet:535541259566186521>
+    • Tuska's Wrath <:Tuskas:513201065513058306>
+    • Binding Shot (no Flank) <:bindingshot:535541306563231790>
+    • Frag Shot (no Walking) <:frag:535541273755385885>
+⬥ The damage buff gained through <:needle:535541259108876293> is wasted if the follow-up ability is a damage-over-time ability <:corruptshot:535541306294796299> / <:frag:535541273755385885> but sometimes it may be unavoidable.
+.
+⬥ Juggling both DW and 2H weapons may be beneficial at times.
+    • Gives to both <:mds:535541259033378827> and <:needle:535541259108876293> as filler abilities.
+    • This may provide you with more flexibility when improvising rotations.
+**⬥ If Greater Ricochet <:grico:787904334812807238> is unlocked, it is your strongest basic - prioritise it highly.**
 
 .
-⬥ From this point onwards we will also incorporate ways to force auto attacks.
-    • For Death's Swiftness, using a DW MH / OH for Planted Feet <:pf:689501925770919981> then switching to 2H will also force an auto attack, which can contribute significant damage. Sometimes clicking your target is necessary to force the auto attack. The sequence of actions goes as follows:
-        - Equip DW PF → Activate Death's Swiftness <:deathsswift:994921434633744455> → Equip 2H within GCD → Click target (auto attack will come out here) → Activate Ability.
+> __**What Ammo to Use **__ <:Ranged:689504724403486920>
+.tag:whatammo
+*Note 1: These are just general guidelines, not rules set in stone.*
+*Note 2: Keep in mind that dual-wield range was **not** nerfed - 2H range was simply buffed*.
+Ranged weapons can use multiple types of ammo - bows consume *arrows*, and crossbows use *bolts*. While the choice of weapon (bow vs. crossbow) can be affected by the gear available, **your DPS can significantly improve if proper ammo is used**.
 
-⬥ Using Shadow Tendrils <:shadowtend:642713547142332416> with 2H after using a DW ability with a 'fastest' speed weapon allows for stacking an auto on top of the tendrils.
+Crossbows used to be the meta, due to Bakriminel bolts, however with more and more arrow choices available to players, **bows have become the current recommended weapons of choice**. In this section, we cover some of the available options to players as well as how to use them properly.
 
-.
-**__Priorising Thresholds__**
-⬥ At this stage it is very important to learn a good ultimate rotation and if you haven't already, you should get a Planted Feet <:pf:689501925770919981> switch in order to gain +7.2 seconds on your Death's Swiftness <:ds:535541258924326912>.
-
-⬥ Learning which thresholds to prioritise and use in an Ultimate <:ds:535541258924326912> is extremely important to maximise your dpm. It is critical to focus on being able to fit in 6 thresholds in a Death's Swiftness <:ds:535541258924326912> with an Adrenaline Potion <:adrenrenewal:736298121704767538>, and 5 thresholds without an Adrenaline potion <:adrenrenewal:736298121704767538>.
-    • Not having a planted feet <:pf:689501925770919981> switch will also cut your ultimates short by 1 threshold, generally speaking.
-    • Its heavily recommended to familiarise yourself with the strength of your abilities in: <#562827048914124800>.
+**For a full list of what ammo to use at what bosses, use the `!ammo` command.**
 
 .
-**__No Planted Feet/Flanking__**
-⬥ **With Adrenaline Potion**
-Rapid Fire <:rapid:535541270521708566> → Snapshot <:snap:535534127131394088> → Shadow Tendrils <:shadowtend:642713547142332416> → Rapid Fire <:rapid:535541270521708566> → Bombardment <:bombard:535541306391265284> → Snapshot <:snap:535534127131394088>
-
-⬥ **Without Adrenaline Potion**
-Snapshot <:snap:535534127131394088> → Shadow Tendrils <:shadowtend:642713547142332416> → Rapid Fire <:rapid:535541270521708566> → Snapshot <:snap:535534127131394088> → Bombardment <:bombard:535541306391265284>
+__**Elder God Arrows**__
+⬥ **Elder god arrows are T95 ammunition** made by charging dinarrows with resonant anima from GWD3, providing effects based on what anima was used to charge them.
+⬥ All Elder God arrows have a 33% of being consumed per ability (even if the ability does not benefit from them, e.g. Ful arrows <:fularrow:971025696958853180> on Frag Shot).
+.
+⬥ **Jas arrows** <:jasdragonbanearrow:971025697042755584>
+    • Provides +30% damage and +20% hitchance against dragons.
+    • **Straight up best-in-slot ammunition for susceptible content** such as Queen Black Dragon, ED2 dragons + bosses, etc.
+    • Jas arrows come in two variants - *dragonbane* and *demonbane*, that apply to the monsters implied by their names.
+.
+⬥ **Ful arrows** <:fularrow:971025696958853180>
+    • All non-bleed abilities deal 15% more damage but have -10% accuracy.
+    • **The most commonly camped arrow, providing consistent damage bonuses** with minor accuracy issues.
+    • Accuracy issues are usually solved using an aura <:reckless:643505179378974748> or other buffs like black stone arrows <:blackstonearrow:785031580149743617> or affinity debuffs like <:swh:641670143197446182> <:spec:537340400273195028>.
+.
+⬥ **Wen arrows** <:wenarrow:971025697046925362>
+    • Basic abilities add stacks of *Icy Chill* (capping at 15 stacks) that can be consumed by the next threshold or ultimate used to provide **+2% damage and accuracy per stack for all threshold abilities**, with the effect lasting 0.6s per consumed stack.
+    • Stacks vanish after 30 seconds if not re-applied.
+    • **Useful where there's time to build stacks (timegates) and other ammunition like Ful or Jas are not usable**, such as Vorago, Nex, etc.
+.
+⬥ **Bik arrows** <:bikarrow:971025697235689513>
+    • All abilities add a stack of *Evolving Toxin*, increasing poison damage <:poisonicon:944649693500154006> taken by 2% per stack, capping at 200 stacks (400% increased damage).
+    • Stacks vanish after 30 seconds if not re-applied.
+    • **Very strong in sustained, poisonable encounters.**
+        - Examples include Solak, high enrage Arch-Glacor, Kerapac, etc.
 
 .
-**__With Planted Feet and Flanking__** <:pf:689501925770919981> <:flank4:712073088296157185>
-⬥ **With Adrenaline Potion**
-Snapshot <:snap:535534127131394088> → Rapid Fire <:rapid:535541270521708566> → Shadow Tendrils <:shadowtend:642713547142332416> → Tight Bindings <:tightbindingsflank:867678154096640010> → Snapshot <:snap:535534127131394088> → Rapid Fire <:rapid:535541270521708566>
+__**Other Arrows**__
+⬥ **Black stone arrows** <:blackstonearrow:785031580149743617>
+    • T95 arrows with a passive effect where **each ability used with <:blackstonearrow:785031580149743617> lowers the target's defence** by 0.75% (up to 22 armour), capping at 15% (454 armour).
+        - Arrows are not consumed past max stacks.
+        - Abilities that hit multiple times (like Greater Ricochet <:grico:787904334812807238> will apply one stack per hitsplat).
+    • This is an easy way for rangers <:range:580168050121113623> **to increase hitchance** at encounters like Nex, Vorago (P5/10/11), Telos, etc.
 
-
-⬥ **Without Adrenaline Potion**
-Snapshot <:snap:535534127131394088> → Shadow Tendrils <:shadowtend:642713547142332416> → Rapid Fire <:rapid:535541270521708566> → Snapshot <:snap:535534127131394088> → Tight Bindings <:tightbindingsflank:867678154096640010>
-
-⬥ **Notes:**
-    • We remove Bombardment <:bombard:535541306391265284> from our threshold rotations as they are all replaced with Flanking <:flank4:712073088296157185>.
-    • Remember to use your Flanking <:flank4:712073088296157185> switch for basics, not just for thresholds. Using it on Binding Shot <:bindingshotflank:867678153400647701> improves that ability from 100% ability damage to 260% ability damage and is often overlooked by inexperienced players.
-
-.
-> **__Shadow Tendrils__**
-.tag:Tendril
-**__What Makes It Special__**
-⬥ Tendrils <:shadowtend:642713547142332416>, despite being a damaging ability, actually incurs the auto cooldown later than usual
-    • This can net you a lossless auto during the GCD, similar to what is colloquially referred to as "Defensive Autos", though there are a couple differences.
+⬥ **Deathspore Arrows**
+    • T95 arrows that have the following effects:
+        - +3% critical hit chance.
+        - Critical hits give 1 stack of *Feasting Spores*.
+        - At 5 stacks, the next ranged ability that would cost adrenaline is free (9s window to use it). **You must still have the required adrenaline to use the ability.**
+        - This effect has a cooldown of 100t/60s, but each critical hit lowers it by 3t/1.8s.
+    • When stacking multiple crit chance buffs, these arrows can be strong.
+    • **They can be used to guarantee a free ultimate at the start of some fights** from War's Retreat, such as at Raksha or Kerapac, or give free special attacks like <:dbow:643848618553507843> <:eofspec:746403211908481184>.
 
 .
-**__How It Works__**
-⬥ To get your Auto with Shadow Tendrils <:shadowtend:642713547142332416> you must perform a non-channeled fastest speed weapon ability before Tendrils <:shadowtend:642713547142332416>.
-    • For example, Needle <:needle:535541259108876293> with Blightbound Crossbows <:bbc:626714879218155521> <:bbcoh:626714879230738434>.
+__**Bakriminel Bolts**__
+⬥ **Ruby Bakriminel bolts** <:RubyBakri:565726489413287956>
+    • Has a chance to trigger its effect that deals large amounts of damage (capped at the critical hit cap) to the enemy at the expense of some life, with a 6s cooldown *tied to the target.*
+    • The effect weakens as the target drops to lower health.
+    • **Strong at most boss encounters, however it becomes weaker in group encounters with more than one ranger using it.**
+.
+⬥  **Onyx Bakriminel bolts** <:OnyxBakri:565726489362956308>
+    • Has a chance to heal 25% of damage dealt in a hit, with no cooldown on the proc.
+    • Can give a reasonable amount of sustain in encounters, lowering the requirement for food.
+
+⬥ **Hydrix Bakriminel bolts** <:HydrixBakri:550834403136503822>
+    • These bolts have a **10% chance of granting 10% adrenaline instantly** and refreshing a buff that makes **basics give +1% adrenaline for 15 seconds**.
+    • **The proc has no cooldown**.
+        - This makes them incredibly good for building adrenaline.
+    • Often used as a bolt switch when camping dual-wield, or **can be brought as a switch, along with a 2H/DW crossbow, to use with Greater Ricochet <:grico:787904334812807238> when camping 2H bows.**
 
 .
-⬥ To further make use of this interaction, you want to ensure that this Auto is a 2H-Auto, such as SGB <:sgb:626466665848242186> or ECB <:ecb:615618531937222657>, or Dbow <:dbow:643848618553507843> (where accuracy permits).
-    • To do this, simply swap to your 2H after your ability before Tendrils <:shadowtend:642713547142332416>, or swap to your 2H directly as you or after you cast Tendrils <:shadowtend:642713547142332416>.
+> __**Cancelling Channels**__
+.tag:cancel
+__**Why Channelled Abilities are Important**__
+⬥ It is important to properly cancel abilities in order to not lose any ticks, or damage potential.
+    • Animations can be unreliable, and longer than the actual hit duration of the ability.
+    • It can be higher damage-per-tick, or net you more adrenaline, to cancel long channels early.
+    • Abilities like <:snipe:535541258425204770> can suffer delays when using revolution. For example:
 .
-.img:https://i.imgur.com/AFX2niP.mp4
-.
-**__Differences From Typical Non-Damaging Abilities__**
-As mentioned prior, there are some caveats to this ability and they are as follows:
-⬥ You cannot delay the Auto with Tendrils <:shadowtend:642713547142332416> like other Defensive Autos.
-
-⬥ Fast speed weapons do not work like with other Defensive Autos.
-    • Thus, the non-channeled ability before Tendrils <:shadowtend:642713547142332416> must be fastest.
-
-⬥ You have to spam click if you want to get Auto after Tendrils <:shadowtend:642713547142332416> if you offed for some reason before it, though clicking once before Tendrils <:shadowtend:642713547142332416> works too.
+.img:https://i.imgur.com/X01BpGR.mp4
 
 .
-> **__Weapon Overrides__**
-.tag:overrides
-Certain weapon types for Ranged can cause abilities that normally take 2 ticks to deal damage with a 2H Cbow/Bow or DW Cbow to only take 1 tick to deal damage depending on your distance from your target's true centre instead. Slow abilities which are unaffected by overrides include: Needle <:needle:535541259108876293>, Binding <:bindingshot:535541306563231790>, and Tight Binding <:tight:535541275957657600>
+__**When to Cancel Channels**__
+*Reminder: 1.8s = 3t = 1 GCD*
+⬥ **Snipe** <:snipe:535541258425204770>
+    • Cancel slightly after GCD ends, or when the bar flashes (4t/2.4s).
+⬥ **Rapid fire** <:rapid:535541270521708566>
+    • Cancelled after its full 8 hits (8t/4.8s).
 
 .
-**__Override Types__**
-*Note: The system used here is such that MD = Tile 1 from True Centre, and MD → x means MD to Tile x from True Centre, so MD → 2 = MD to Tile 2 from True Centre*
-
-⬥ **Javelins** (only mainhand required)
-    • Unload <:unload:535541258664411169> hits fast at MD → 3
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> / <:grico:787904334812807238>, hit fast at MD → 2
-    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD
-
-⬥ **Darts** (only mainhand required)
-    • Unload <:unload:535541258664411169> hits fast at MD → 3
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> / <:grico:787904334812807238>, hit fast at MD → 5
-    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
-
-⬥ **Knives** (only mainhand required)
-    • Unload <:unload:535541258664411169> hits fast at MD → 3
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> / <:grico:787904334812807238>, hit fast at MD
-
-⬥ **Blowpipe** (2H override)
-    • Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827> and Non-bleed hit from Deadshot <:deadshot:535541307666595870> hits fast at MD → 2
-    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> / <:grico:787904334812807238>, hit fast at MD → 5
-    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4
-
-*Note: A list of all hit timings, including other overrides, can be found at: <https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/edit#gid=0>*
+{
+  "embed": {
+    "title": "__Channelled Abilities__",
+    "description": "How to properly cancel channelled abilities. (Courtesy of <@781280949790572554>)",
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__Video Guides__",
+        "value": "⬥ [How to Cancel <:Magic:689504724159823906> Abilities](https://youtu.be/DaCy60sZav4)\n⬥ [How to Cancel <:range:580168050121113623> Abilities](https://youtu.be/939znioyCMA)\n⬥ [How to Cancel <:melee:615612332521029632> Abilities](https://youtu.be/y33z3WLM7H8)"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-**__Notable Benefits__**
-Included but not limited to:
-
-⬥ **Nex** <:Nex:513213159071547395>
-    • Each phase will be a tick faster, up to 6s faster for the whole kill.
-    • Phasing faster will reduce the danger from some of her special attacks, including but not limited to Embrace the Shadows, Blood Siphon, and Die in a Prison of Ice.
-
-⬥ **Raksha** <:raksha:789813907706478603>
-    • Faster hitting abilities can mean phasing before an auto, saving several ticks.
-    • Faster hitting abilities can mean you get a mind poison skip when you otherwise would have not, saving several seconds.
-
-⬥ **Vorago** <:vorago:572867742613635082>
-    • Allows you better choices of what to Target Cycle on Phase 1, and Teamsplit and The End P3s.
-    • Can allow you to fit an extra ability's hit in before reflect.
-    • Allows consistent 0-speccing
-
-⬥ **Eldritch Crossbow** <:ecb:615618531937222657>
-    • Split Soul damage is only applied if your hit would've healed you from Soul Split <:soulsplit:615613924506599497> and your ability hits within the duration of your special attack, this can have a substantial impact on your rotations by allowing you to fit in more abilities on the given window.
+> __**Important Ranged Abilities**__
+.tag:importantabil
+Certain Ranged abilities are worth noting in particular, due to their behaviour and how they can be used. Here, we cover some of these abilities.
 
 .
-> **__Ruby Bakriminel Bolts (e)__** <:RubyBakri:565726489413287956>
-.tag:ruby
-**__Mechanics__**
-The second most potent bolt used in combat. Its description is as follows:
-⬥ A chance of triggering the **Blood Forfeit** effect <:RubyBakri:565726489413287956>, with a cooldown of 6s per target.
-.
-.img:https://imgur.com/oH31Dbp.png
-.
-⬥ **Replaces** your hit on the target for up to 20% of their remaining life points, while dealing the player 10% of their own life points as recoil.
-    • Capped at 10,000 for regular hits.
-    • Critical hits are capped at 12,576 with Smoke Cloud <:smokecloud:856635090641879050>, 12,000 without.
-    • Critical hits are capped at 15,720 with Erethodor's Grimoire <:grim:568262896375824385> and <:smokecloud:856635090641879050>, 15,000 with just <:grim:568262896375824385>
-⬥ For monsters with over 1,000,000 life points remaining, the chance of triggering is lowered by 1% for every 1,000,000 of the enemy's current health. Down to a minimum of 1% proc chance.
-
-.
-**__Considerations__**
-⬥ Enemy health
-    • Activating Blood Forfeit <:RubyBakri:565726489413287956> on an enemy with 5,000 health, out of 100,000 of his maximum health will replace your ability's original damage with a much lower one. Consider the health pool of the enemy, and with intuition you'll understand when you should *roughly* equip another bolt.
-
-⬥ Ability to be used
-    • Consider the previous point when using a weak ability, as the replaced hit could still be stronger at a much lower health threshold. Let's compare such an scenario:
-        - Rapid Fire <:rapid:535541270521708566> has several smaller hits that make a single proc stronger than usual.
-        - Shadow Tendrils <:shadowtend:642713547142332416> can usually hit for 12,000. If replaced by Blood Forfeit <:RubyBakri:565726489413287956> when the enemy is low, it'll be reduced to a meager amount.
-
-⬥ Bolts available for usage.
-    • Consider the descriptions of other bolts and their synergies outlined on these sections.
-
-.
-> **__Emerald Bakriminel Bolts (e)__** <:emeraldbakri:866551637714665484>
-.tag:emerald
-**__Mechanics__**
-A potent bolt able to infect your target with poison. Its description is as follows:
-⬥ A chance of triggering the **Magical Poison** effect <:emeraldbakri:866551637714665484>, no cooldown per activation
-.
-.img:https://i.imgur.com/E4cGLwz.jpg
-.
-⬥ **Poisons** your target in a single hit of 2-4% of your weapon damage and does not override your Weapon Poison+++.
-⬥ The effect is enhanced with Cinderbane Gloves <:Cinderbanes:513190158355660812> and Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>
-⬥ Each activation has an 87.5% chance to not consume a bolt.
-
-.
-**__Considerations__**
-⬥ Target is poisonable
-    • Activating Magical Poison <:emeraldbakri:866551637714665484> is only possible on targets susceptible to poison.
-
-⬥ Cost
-    • Emerald Bakrimienl Bolts (e) <:emeraldbakri:866551637714665484> are similar in cost to Onyx Bakriminel Bolts (e) <:OnyxBakri:565726489362956308>
-    • To reach full strength, these are best used in tandem with Cinderbane Gloves <:Cinderbanes:513190158355660812>, they're otherwise weaker damage output than Onyx Bakriminel Bolts (e) <:OnyxBakri:565726489362956308>
-
-⬥ Bolts available for usage
-    • Consider the descriptions of other bolts and synergies outlined on these sections.
-
-.
-> **__Onyx Bakriminel Bolts (e)__** <:OnyxBakri:565726489362956308>
-.tag:onyx
-**__Mechanics__**
-A potent bolt for sustain with a hefty damage boost. Its description is as follows:
-⬥ A chance of triggering the **Life Leech** effect <:OnyxBakri:565726489362956308>, no cooldown per activation.
-.
-.img:https://imgur.com/uxF8Pvh.png
-.
-⬥ **Adds** to your hit a 25% damage boost of the attack's maximum hit, healing you for the same amount.
-    • If the attack's max hit is 1,000, the effect will boost it to 1,250 and heal you 250.
-    • Normal hitcaps are applied.
-
-.
-**__Considerations__**
-⬥ Enemy health
-    • Activating Life Leech <:OnyxBakri:565726489362956308> on a low health enemy will give you the extra damage necessary for the last finishing blows.
-
-⬥ Your health
-    • Activating Life Leech <:OnyxBakri:565726489362956308> under constant enemy damage will grant you enough sustain to comfortably pull through the encounter. If healing is necessary, these should be prioritised over risking death.
-
-⬥ Abilities to be used
-    • We must consider the previous two pointers when deciding when Life Leech <:OnyxBakri:565726489362956308> can overtake Blood Forfeit <:RubyBakri:565726489413287956> damage potential according to the ability.
-        - Rapid Fire <:rapid:535541270521708566> has usually a 40% chance to grant you a max hit of up to 15,720 with Blood Forfeit <:RubyBakri:565726489413287956> on one of the hits.
-        - Rapid Fire <:rapid:535541270521708566> has a 80% chance for a single hit to give you some form of almost secured healing and a small damage boost with Life Leech <:OnyxBakri:565726489362956308>. Quite small.
-    • Consider the enemy's **total** health, given Blood Forfeit <:RubyBakri:565726489413287956> becomes weaker the beefier the enemy is, giving greater margin to the previous point.
-
-.
-⬥ Bolts available for usage.
-    • Consider the descriptions of other bolts and synergies outlined on these sections.
-
-.
-> **__Hydrix Bakriminel Bolts (e)__** <:HydrixBakri:550834403136503822>
-.tag:hydrix
-**__Mechanics__**
-An extremely potent bolt that increases your adrenaline. Its description is as follows:
-⬥ A chance of triggering the **Deathmark** effect <:HydrixBakri:550834403136503822>, no cooldown per activation.
-.
-.img:https://imgur.com/uxF8Pvh.png
-.
-⬥ **Adds** 10% to your current adrenaline, and for 15s +1% to your basic abilities afterwards.
-    • Changing bolts or weapons **won't** remove this effect.
-    • Affected by normal adrenaline modifiers. Such as Natural Instinct <:nat:535541258131865633> and can stack with Incendiary Shot's <:incend:535541258429661215> buff.
-
-.
-**__Considerations__**
-⬥ Cost
-    • At the bolt's current price of <:coins:698816156961603654> $data_pvme:Miscellaneous!B9$, you must decide wether you're going for profit or not; As these bolts are consumed rapidly and will not necessarily grant you a higher KPH at most encounters.
-
-⬥ Your rotations
-    • The Deathmark effect <:HydrixBakri:550834403136503822> is strongest when you can use the adrenaline to your advantage, staying at 100% adrenaline without having abilities to use won't be of benefit.
-
-⬥ Your gear and abilities at your disposal
-    • As previously said, using the adrenaline to your advantage is primordial to benefit from the bolt. The following Essence of Finality <:eofor:745279787471470713> special attacks will greatly benefit from being able to dump the adrenaline:
-        - Greater Ricochet <:grico:787904334812807238>, for an almost secured chance at receiving instant adrenaline.
-        - Dark Bow <:dbow:643848618553507843>
-        - Seren Godbow <:sgb:626466665848242186>
-        - Eldritch Crossbow <:ecb:615618531937222657>
-        - Limitless <:limitless:641339233638023179>, to activate thresholds earlier and potentially build from their procs. Most notably Rapid Fire <:rapid:535541270521708566>.
-
-⬥ Adrenaline boosting effects
-    • Being under the effect of Natural Instinct <:nat:535541258131865633> / Incendiary Shot <:incend:535541258429661215> can make any ability extremely good to use in tandem with the bolt for dumping the previously mentioned abilities.
-
-.
-> **__Greater Ricochet__** <:grico:787904334812807238>
+> __**Greater Ricochet**__ <:grico:787904334812807238>
 .tag:grico
-**__Mechanics__**
-An extremely powerful basic ability that works in tandem with Caroming 4 <:caroming4:791281588792590336> and should always be used as much as possible.
-
-⬥ The ability hits the target for 20-100% ability damage, and will also strike 2 nearby targets within a 5 square radius of the primary target. It can hit secondary targets beyond the player's normal attack range, but cannot hit secondary targets that the player cannot see (straight line-of-sight required).
-    • If there are no suitable targets for the secondary shots they will instead hit the primary target; the first two initial hits deal 10-50% ability damage each, and the subsequent four hits from caroming deal 5-15% ability damage each. Potential ability damage outlined below:
-.
-.img:https://i.imgur.com/lRc3bXS.png
-.
-    • Unless using a physical Eldritch Crossbow <:ecb:615618531937222657>, its highly recommended to move Caroming 4 <:caroming4:791281588792590336> to an off-hand while keeping the standard Aftershock 4 Equillibrium 2 <:as4:712074245202772009> <:eq2:689502258424971564> / Equillibrium 4 <:eq4:712073088589627505> on your primary off-hand weapon.
-        - This ensures all perks benefit **all** of your abilities.
-        - You can still camp Caroming 4 <:caroming4:791281588792590336> instead if so you wish.
+*Note: Use `!grico` for a summary on how it works.*
+__**How It Works**__
+⬥ Greater Ricochet <:grico:787904334812807238> is an upgraded version of regular Ricochet <:ricochet:535541259566186521>, unlocked by reading a Greater Ricochet ability codex <:gricocodex:1004454436690739311> costing <:coins:698816156961603654> $data_pvme:Unlocks!B14$.
+⬥ It hits the target, as well 2 additional targets within a 6 tile radius. **Any hits not dealt to an additional target are instead dealt to the primary target at reduced effect**.
+    • With Caroming 4 <:caroming4:791281588792590336>, the number of additional hits on the main target from <:gricocaroming:867678153966878740> can be increased up to 6, for **a total of 7 hits on the primary target**.
+    • On a single target, the initial hit deals 20-100% damage, followed by two hits of 10-50%, and any extra hits from <:caroming4:791281588792590336> deal 5-15% damage each.
 
 .
-**__Synergies__**
-⬥ Eldritch Crossbow <:ecb:615618531937222657>
-    • The weapon will now use Precise 6 Aftershock 1 <:p6:712073088769982475> <:as1:689502339891331093> + Caroming 4 Equillibrium 2 <:caroming4:791281588792590336> <:eq2:689502258424971564> as its main perks until it's consumed by an Essence of Finality <:eofpink:780401412865523722>.
-    • Soul Split <:soulsplit:615613924506599497> (and therefore Split Soul) is softcapped at 2,000. Making small hits much better than single big hits and making the ability even stronger.
-
-⬥ Immediately get 7 chances to trigger Bakriminel special effects in a single ability.
-    • With Hydrix <:HydrixBakri:550834403136503822>, it may potentially give you an immense amount of adrenaline.
-    • With Rubies <:RubyBakri:565726489413287956>, it may potentially give you a needed burst if necessary.
-    • With Onyx <:OnyxBakri:565726489362956308>, it may potentially giving you a much needed heal and damage burst if necessary.
-    • With Emeralds <:emeraldbakri:866551637714665484>, it'll greatly improve your damage output on poisonable targets.
+{
+  "embed": {
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__Greater Ricochet Damage Comparison__",
+        "value": "⬥ To see how <:grico:787904334812807238> compares at different ranks of Caroming <:caroming4:791281588792590336>, [click here](https://i.imgur.com/lRc3bXS.png)."
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-> **__Seren Godbow__** <:sgb:626466665848242186>
+__**Why It's Good**__
+⬥ **This is the strongest ranged basic ability available**.
+⬥ **It synergizes well with multiple other items**:
+    • Can greatly increase chance of Bakriminel bolt procs <:RubyBakri:565726489413287956> <:HydrixBakri:550834403136503822> and is often used to fish for adrenaline.
+    • Can build stacks faster when using arrows <:bikarrow:971025697235689513> <:deathsporearrows:900758234527301642> etc.
+    • Creates far more hitsplats when using weapon poison (and cinderbanes) <:cinderbanes:513190158355660812> <:weppoison:689525476158472288> due to increased hits per minute.
+    • Does great damage under an ECB spec <:ecb:615618531937222657> <:spec:537340400273195028> due to how Soul Split <:soulsplit:615613924506599497> healing works.
+⬥ The range camp perk meta has revolved around <:grico:787904334812807238> and now has Caroming 4 (Equilibrium 2) <:caroming4:791281588792590336> <:eq2:689502258424971564> on your main weapons.
+
+.
+> __**Greater Dazing Shot (GDS)**__ <:mds:535541259033378827>
+.tag:mds
+__**How It Works**__
+⬥ GDS <:mds:535541259033378827> is a 2H range ability that unlocks the **Salt The Wound** threshold <:stw:535541259109138463> as well when it is purchased at the Shattered Worlds shop.
+⬥ **It modifies Dazing Shot <:dazing:535541307142307860> to do the same damage but also apply a *Puncture* stack.**
+    • Puncture deals bleed damage every 1.8s for 9s (4 times), with damage increasing per stack (caps at 10 stacks).
+    • Using <:mds:535541259033378827> or <:stw:535541259109138463> refreshes this duration.
+    • Splintering arrows <:splinteringarrows:900758234246299649> can be used to maintain stacks and increase the cap from 10 to 13 stacks.
+.
+⬥ Salt the Wound <:stw:535541259109138463> deals damage based on the number of Puncture stacks.
+    • The damage caps at 73.6-368% damage at 10 stacks, or 84.4%-422% at 13 stacks with Splintering arrows.
+
+.
+__**Why It's Good**__
+⬥ The **bleed damage from Puncture stacks can trigger poison** <:poisonicon:944649693500154006> and so synergizes well with poison-stacking methods.
+    • It **can also help phase bosses**, saving time by not having to use an extra ability, a prominent example of this is Nex.
+⬥ **Salt the Wound <:stw:535541259109138463> can be a strong threshold early on, especially paired with Splintering arrows** <:splinteringarrows:900758234246299649>.
+    • For example, it would be stronger than Bombardment <:bombard:535541306391265284> when trying to plan out your rotations.
+    • The usefulness of this begins to drop once you get access to more weapons' special attacks and abilities (<:ecb:615618531937222657> <:spec:537340400273195028> / <:sgb:626466665848242186> <:spec:537340400273195028> / <:dbow:643848618553507843> <:spec:537340400273195028>), as adrenaline management and ability cooldowns become more of an issue.
+    • At some point between using stronger ammo and ammo switching, usage of <:stw:535541259109138463> decreases - it is not very often used at the endgame meta.
+
+.
+> __**Shadow Tendrils**__ <:shadowtend:642713547142332416>
+.tag:shadowtendrils
+__**How It Works**__
+⬥ Shadow Tendrils <:shadowtend:642713547142332416> is a threshold **ability that hits you multiple times, then hits the target for twice the damage**.
+    • Deals a total of 33-250% ability damage to the player → results in **66-500% ability damage** on target.
+⬥ The self-damage can activate effects like Penance <:penanceaura:643505653062565907> <:powderofpenance:928221126360969226>.
+⬥ **The attack is guaranteed to crit.**
+
+.
+__**Why It's Good**__
+⬥ Despite the large damage variance, it is extremely strong.
+⬥ Despite being a damaging ability, it incurs a later auto-attack cooldown than usual - **you can use this to get a strong 2H auto attack with <:shadowtend:642713547142332416>.**
+    • To do this: non-channelled DW Ability → (equip 2H) + <:shadowtend:642713547142332416>
+        - Note that Shadow Glaives <:glaivemh:643161561988595782> <:glaiveoh:643161561707446283> do not work this way.
+    • This can **pair very well with the Bow of the Last Guardian** <:bolg:994189289623662702> <:spec:537340400273195028> to line up procs.
+⬥ The guaranteed crit can be used to get adrenaline if used after <:incend:535541258429661215> or <:tsunami:535533809995874304> or any other critical hit adrenaline buff.
+⬥ The self-damage is not too significant, as it can be healed back with Soul Split <:soulsplit:615613924506599497> very quickly.
+
+.
+{
+  "embed": {
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__Shadow Tendrils__",
+        "value": "⬥ To see how to use <:shadowtend:642713547142332416> and get a free 2H auto, [click here](https://i.imgur.com/AFX2niP.mp4)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Incendiary Shot**__ <:incend:535541258429661215>
+.tag:incend
+__**How It Works**__
+⬥ Incendiary Shot <:incend:535541258429661215> fires an arrow that explodes after 3 seconds, dealing **250-350% weapon damage to all targets in a 3x3 area.**
+    • If the main target dies before <:incend:535541258429661215> triggers, the effect will be lost.
+⬥ It also grants a critical hit adrenaline gain buff - **all critical hits for 30s afterwards will give +10% adrenaline.**
+
+.
+__**Why It's Good**__
+⬥ **It can be used to setup pre-fight to execute stronger rotations**.
+    • e.g. Use War's Retreat adrenaline crystals and Invention combat dummies to <:incend:535541258429661215> before the start of a fight like Raksha or Kerapac to have plenty of adrenaline in your opening ultimate rotation <:deathsswift:994921434633744455>.
+⬥ It can be **stalled and released with mechanised chinchompas <:mechchin:641669268722810881> to apply <:incend:535541258429661215> to multiple targets** for massive AoE damage.
+    • Decimation's special attack <:decimation:643848618477879328> <:spec:537340400273195028> will also produce the same result, albeit at a higher adrenaline cost.
+    • This is great for scenarios where you have the adrenaline and time to execute it properly, such as the 'chinner' role at AoD, or at high-enrage (2.5k+) Arch-Glacor.
+.
+⬥ The high adrenaline cost can make it a little difficult to use at times, but some situational mechanics can make it more easy to use, such as:
+    • Kerapac's Timewarp <:timewarp:870328868815396914>
+    • Using Deathspore arrows <:deathsporearrows:900758234527301642> to get a free Incendiary Shot.
+
+*Note: See Deathspore Arrows in the __**What Ammo to Use**__ section for more info.*
+
+.
+> __**Greater Death's Swiftness**__ <:gdeathsswift:994644354536837121>
+.tag:gswift
+__**How It Works**__
+⬥ Greater Death's Swiftness <:gdeathsswift:994644354536837121> is an upgraded version of regular Death's Swiftness <:deathsswift:994921434633744455>, unlocked by reading a Greater Death's Swiftness ability codex <:gsunshinecodex:1004453784539373688> costing <:coins:698816156961603654> $data_pvme:Unlocks!B20$.
+⬥ It **increases the duration from 52t/31.2s to 65t/39s**, and **retains the damage-over-time effect** that regular Death's Swiftness <:sunshine:994921119381463070> has.
+    • This effect may be replicated using the Planted Feet perk <:pf:689501925770919981> however this loses the damage-over-time component.
+
+.
+__**Why It's Good**__
+⬥ It removes the need for a <:pf:689501925770919981> switch, potentially freeing up one inventory slot or making certain perks like Caroming 4 Planted Feet <:caroming4:791281588792590336> <:pf:689501925770919981> no longer needing to be combo'd.
+⬥ The damage-over-time component can deal a moderate amount of damage, but it can also trigger other on-hit effects such as weapon poison <:weppoison:689525476158472288> <:cinderbanes:513190158355660812> making it stronger than it appears.
+
+.
+> __**Important Items**__
+.tag:importantitems
+This section will examine equipment that is useful for Ranged <:Ranged:689504724403486920>, and should be incorporated where relevant as you get comfortable with handling them. Not all items are applicable in all scenarios, so use your best judgement.
+
+.
+> __**Planted Feet Switch**__ <:pf:689501925770919981>
+.tag:pf
+__**How It Works**__
+*Note: If you own Greater Death's Swiftness <:gdeathsswift:994644354536837121> this switch is not required*.
+<:gdeathsswift:994644354536837121> at the cost of its damage-over-time component. **It is one of the strongest switches you can have, assuming you do not have Greater Sunshine.**
+    • The duration of <:deathsswift:994921434633744455> is extended from 52t/31.2s total (t0→51) to 64t/38.4s total (t0→t63).
+⬥ Generally, always use <:deathsswift:994921434633744455> with your Planted Feet <:pf:689501925770919981> switch, except when the encounter would end in 30 seconds or less.
+.
+⬥ Common choices for the switch include defenders <:ancientrepriser:643150658891153428> and the Enhanced Excalibur <:excal:641337999170207763>
+    • Placing <:pf:689501925770919981> on <:ancientrepriser:643150658891153428> can potentially save one inventory space, as it doubles up both as a shield <:vengeful:583430259110576140> and a <:pf:689501925770919981> switch.
+    • Placing <:pf:689501925770919981> on  <:excal:641337999170207763> could also save an inventory space wherever you would normally bring it.
+        - Many bosses do not require a shield at all, in which case <:excal:641337999170207763> can save *another* extra inventory space.
+        - It also means you can use the same switch for both Ranged <:Ranged:689504724403486920> and Magic <:Magic:689504724159823906>
+        - Placing it on <:excal:641337999170207763> makes it slightly more involved to use, as you have to click on the floor to not be dragged into melee distance.
+    • You can also put it on a cheaper mainhand like <:chaoticcbowmh:923248841959022653> <:glaivemh:643161561988595782>, though this is not generally recommended for the above reasons.
+
+.
+> __**Flanking Switch**__ <:flank4:712073088296157185>
+.tag:flanking
+__**How It Works**__
+*Note: To learn more about how flanking angles work, check out <#1020050319457132654>.*
+⬥ This is a **simple, easy-to-get, relatively inexpensive and strong switch, especially for group-based content**.
+⬥ When standing 'behind' bosses, <:flank4:712073088296157185> turns Binding Shot <:bindingshot:535541306563231790> and Tight Bindings <:tight:535541275957657600> into far stronger abilities at the cost of their stun. At it's maximum rank of Flanking 4:
+    • The damage range of <:bindingshotflank:867678153400647701> is increased from 20-100% up to 52-260%, making it one of the strongest basics.
+    • The damage range of <:tightbindingsflank:867678154096640010> is increased from 40-200% up to 64-320%, making it much stronger.
+⬥ **Flanking is usually an off-hand switch when using dual-wield, otherwise a separate bow** perked with <:flank4:712073088296157185> will have to be used.
+⬥ The usefulness of <:flank4:712073088296157185> can decrease once more weapons and abilities are unlocked, as there may be stronger abilities.
+*Note: (Flanking) Tight Bindings <:tightbindingsflank:867678154096640010> is still not heavily prioritised due to the availability of stronger thresholds, however it can help salvage a rotation in a pinch.*
+
+.
+> __**Sliver Enchantments**__
+.tag:sliver
+__**How It Works**__
+⬥ With the release of Zamorak <:zamorak:994914159969976440> and ED4, *slivers* were added to the game.
+⬥ Slivers can be consumed with some other items to create *enchantments*.
+    • **Enchantments are one-off consumables that permanently unlock certain effects**.
+⬥ There are 3 enchantments relevant to Ranged <:Ranged:689504724403486920>:
+    • **Enchantment of Shadows** <:enchantmentofshadows:1006481313190129694>, costing <:coins:698816156961603654> $data_pvme:Unlocks!B30$.
+        - Stalker's Ring <:stalkerring:839903943601029120> gains an additional +1% critical hit chance when using a bow.
+        - It also gains +3% critical hit damage when using a bow.
+    • **Enchantment of Dread** <:enchantmentofdread:1006481315199209524>, costing <:coins:698816156961603654> $data_pvme:Unlocks!B25$.
+        - Enhanced Nightmare gauntlets <:nightmaregauntlets:513190159441723392> will now also make Snipe <:snipe:535541258425204770> fire an additional shot dealing 50% damage, when used on targets not facing you (i.e. in Flanking <:flankicon:841419289755385866> position).
+        - This is primarily used at flankable, non-poisonable bosses.
+    • **Enchantment of Dispelling** <:enchantmentofdispelling:1006481317266993193>, costing <:coins:698816156961603654> $data_pvme:Unlocks!B24$.
+        - Increases the damage-boosting effect of the Hexhunter Bow <:hexhunterbow:581180369911414794> by a further 5%.
+
+.
+> __**Mechanical Chinchompas**__ <:mechchin:641669268722810881>
+.tag:mechchin
+__**How It Works**__
+⬥ Mech Chins <:mechchin:641669268722810881> are unlocked with Invention <:Invention:689509250946695292> and require 75 <:Ranged:689504724403486920> to use.
+⬥ They convert most abilities to do AoE damage instead, applying on each target (up to 9) within a 3x3 region.
+⬥ Abilities that don't benefit from <:mechchin:641669268722810881> include:
+    • Greater Ricochet <:grico:787904334812807238>
+    • Tuska's Wrath <:Tuskas:513201065513058306>
+    • Sacrifice <:Sacrifice:513201065907322880>
+    • Bombardment <:bombard:535541306391265284>
+
+.
+__**Why It's Strong**__
+⬥ **Gives massive AoE damage.**
+⬥ Despite being T75, their actual ability damage and accuracy is slightly higher.
+⬥ Used anywhere AoE damage matters:
+    • Rise of the Six.
+    • Nex: AoD (as the 'chinner' role).
+    • ED1/2/3 (to clear trash mobs).
+    • Arch-Glacor (for the minions)
+    • Telos (on P4).
+    • Non-AFK Ranged Slayer <:slayer:797896049548066857> tasks.
+    • etc.
+⬥ **It is possible to 'chin-sgb**' by using <:sgb:626466665848242186> <:eofspec:746403211908481184> while equipping <:mechchin:641669268722810881> for massive AoE damage.
+⬥ **It is possible to 'chincend'** by stalling <:incend:535541258429661215> and releasing it with <:mechchin:641669268722810881> equipped to apply <:incend:535541258429661215> to all hit targets, for massive AoE damage.
+    • It takes some setup to do, but has use at some places, such as Nex: AoD and *high-enrage* Arch-Glacor to clear minions faster, as well as some speedkill setups.
+⬥ <:mechchin:641669268722810881> <:shadowtend:642713547142332416> will hit every target for a guaranteed crit, and can be a good way to build adrenaline while under adrenaline-boosting effects like <:incend:535541258429661215>.
+
+.
+__**Notes**__
+⬥ Chins get consumed on auto-attacks, so it may not be very revo-friendly.
+⬥ Using Corruption Shot <:corruptshot:535541306294796299> with <:mechchin:641669268722810881> will apply the initial hit to all monsters.
+⬥ **Do not use Onslaught <:onsl:513190159085207555> with <:mechchin:641669268722810881> **as it will lead to a very fast death.
+⬥ Trying to use Flanking <:flankicon:841419289755385866> with <:mechchin:641669268722810881> will check each hit target for flanking angle separately.
+
+.
+> __**Seren Godbow (SGB)**__ <:sgb:626466665848242186>
+*Note: See `!sgb` command for a list of boss sizes. For a full breakdown on how SGB special attack calculations work, and boss sizes, also see <#1020050319457132654>.*
+*Note 2: It is recommended to not put this weapon in an EoF until a Bow of the Last Guardian is obtained <:bolg:994189289623662702>. See the section on __**SGB EoF**__ for more.*
 .tag:sgb
-**__Mechanics__**
-A powerful weapon with the Crystal Rain special attack, requiring 30% (27% with a Ring of Vigour <:RoV:513201065877831680>). Its description is as follows:
-⬥ Five arrows are launched into the air with the first arrow always landing and dealing damage one tick before the remaining arrows.
-    • If the attack is successful, there is a 30 second cooldown before it may be used again. If the attack misses, then the remaining four arrows will also miss, but no cooldown penalty is incurred, allowing the player to use the special attack again.
-    • The first arrow always has an opportunity to land while the others have a varying chance depending on the enemy size: <https://runescape.wiki/w/Seren_godbow#Recommended_bosses>
-        - The first arrow determines the damage of arrows 2-5, thus bolt and arrow effects only activate on the first arrow. Further details below.
+.
+__**How It Works**__
+⬥ The SGB is a T92 chargebow that can also fire arrows - **gets the benefits of all strong arrow-based ammo**.
+⬥ **This weapon is primarily used for its strong special attack**.
+⬥ The damage calculation for how <:sgb:626466665848242186> <:spec:537340400273195028> works can be summarised into the following scenarios:
+    • Camping ranged: use it on **3x3 or bigger** targets.
+    • Off-style switch: use it on **5x5 or bigger** targets.
+⬥ <:sgb:626466665848242186> <:spec:537340400273195028> has a 30s cooldown, but if the attack completely splashes, it can be used again immediately.
 
 .
-> **__Eldritch Crossbow__** <:ecb:615618531937222657>
+__**Why It's Strong**__
+⬥ It's special attack is hits up to 5 times for large damage (making hitcaps less of an issue).
+⬥ If using it as an EoF special attack <:sgb:626466665848242186> <:eofspec:746403211908481184> then the special attack can benefit from Bakriminel bolts.
+    • This may be used in some speed-kill strategies (e.g. with Ruby bolts <:RubyBakri:565726489413287956>) but Ful Arrows <:fularrow:971025696958853180> can be better on average.
+
+.
+__**Key Considerations**__
+⬥ **On 5x5 or bigger targets, prioritise getting 2x <:sgb:626466665848242186> <:spec:537340400273195028> under <:deathsswift:994921434633744455>** where possible.
+    • On 3x3 targets, it may be beneficial to only use it once and adjust rotation accordingly.
+⬥ **<:sgb:626466665848242186> <:spec:537340400273195028> is 5 individual hits - synergizes well with the ECB** <:ecb:615618531937222657> <:spec:537340400273195028>.
+⬥ Using <:sgb:626466665848242186> <:spec:537340400273195028> → <:ecb:615618531937222657> <:eofspec:746403211908481184> will apply the ECB effect to the SGB damage, as the hits are slightly delayed.
+    • This can be used to save ticks inside <:ecb:615618531937222657> <:eofspec:746403211908481184>.
+
+.
+> __**Eldritch Crossbow (ECB)**__ <:ecb:615618531937222657>
+*Note 1: For a full breakdown on Soul Split <:soulsplit:615613924506599497> healing works, see <#1020050319457132654>.*
+*Note 2: It is recommended to EoF the weapon <:ecb:615618531937222657> <:eofpurple:780401412936040478> once it is obtained if other ranged weapons are available. See the section on __**ECB EoF**__ for more.*
 .tag:ecb
-**__Mechanics__**
-An extremely powerful weapon with the Split Soul special attack, requiring 25% (22.5% with a Ring of Vigour <:RoV:513201065877831680> equipped). Its descriptions is as follows:
-⬥ For 15 seconds (25 ticks) the Soul Split curse damages the player's target for 4 times the amount of life points it would have healed.
-    • Soul Split <:soulsplit:615613924506599497> will not heal you for the duration.
-    • Soul Split <:soulsplit:615613924506599497> (and therefore Split Soul) is softcapped at a low amount of 2,000. Making small hits much better than single big hits.
-        - Corruption Shot <:corruptshot:535541306294796299>, Frag-Shot Walked <:frag:535541273755385885>, Rapid Fire <:rapid:535541270521708566>, and Greater Ricochet <:grico:787904334812807238> massively benefit from this.
-    • The weapon must remain equipped for the duration of the special attack.
-    • The boost from an Amulet of Souls <:aosor:544200033847869443> / Essence of Finality <:eofor:745279787471470713> can be applied to Split Soul.
-⬥ Split Soul alone is up to a 30% damage boost on a rotation.
+.
+__**How It Works**__
+⬥ The ECB is a T92 2H crossbow that uses bolts (the minimum recommended ammo is enchanted Bakriminel bolts).
+⬥ The special attack, *Split Soul*, <:ecb:615618531937222657> <:spec:537340400273195028> costs 25% adrenaline and has the following effect:
+    • **For 15 seconds, all Soul Split healing <:soulsplit:615613924506599497> instead damages the target for 4 times the amount it would have healed.**
+    • **During this period, <:soulsplit:615613924506599497> will not heal.**
+⬥ The effect is tied to your mainhand weapon - if you change weapons, the effect is lost.
+⬥ An Amulet of Souls <:aos:513190158359724056> or EoF <:eof:787526151978614824> will boost the damage from Split Soul.
 
 .
-> **__Essence of Finality Weapons__** <:sgb:626466665848242186> <:ecb:615618531937222657> <:dbow:643848618553507843>
-.tag:eof
-The Essence of Finality <:eofor:745279787471470713> is an Alchemical Hydrix jewelry that lets you store special attack weapons into it for usage with your regular gear. Ranged benefits greatly from this equipment and can be summarised with these three Essence of Finality weapons. For more information on back-to-back special attacks, consult: <#689212192398114875>
-
-*Notes: Weapons can't be recovered upon storage.*
-
-.
-**__Dark Bow Benefits__** <:dbow:643848618553507843> <:eofgreen:780401412727242773>
-⬥ A very powerful attack, similar to Snap Shot <:snap:535534127131394088>, that has only your auto-attack cooldown as its limiting spam-able factor.
-⬥ Can be used repeatedly under adrenaline boosting effects.
-    • Included but not limited to: Natural Instinct <:nat:535541258131865633>, Incendiary Shot <:incend:535541258429661215>, Hydrix Bakriminel Bolts <:HydrixBakri:550834403136503822>, and the Inspiration aura <:inspiration:643505652634746881>.
-
-.
-**__Dark Bow Drawbacks__**
-⬥ Costs 65% (58.5% with Ring of Vigour <:RoV:513201065877831680>) adrenaline, making it an expensive adrenaline investment. Usually offset with Hydrix Bakriminels <:HydrixBakri:550834403136503822> alone, or Relentless <:relentless5:712244800920748092> activations.
+__**Why It's Strong**__
+⬥ It's special attack is extremely strong but takes practice to use.
+⬥ <:ecb:615618531937222657> <:spec:537340400273195028> adds a significant amount of 'free' damage that scales well with strong ability rotations.
+⬥ **Prioritise abilities that hit for many (smaller) hits in <:ecb:615618531937222657> <:spec:537340400273195028>**:
+    • Rapid Fire <:rapid:535541270521708566>
+    • Greater Ricochet <:grico:787904334812807238> (can fit twice within 15s).
+    • Frag Shot (Walked) <:frag:535541273755385885>
+    • Corruption Shot <:corruptshot:535541306294796299>
+    • SGB special attack <:sgb:626466665848242186> <:spec:537340400273195028>
+⬥ The Bow of the Last Guardian <:bolg:994189289623662702> <:spec:537340400273195028> benefits from <:ecb:615618531937222657> <:spec:537340400273195028> as it adds a **lot** of frequent extra hits.
 
 .
-**__Seren Godbow Benefits__** <:sgb:626466665848242186> <:eofblue:780401412906680330>
-⬥ Can now be used under Split Soul.
-⬥ A chance to trigger bolt effects on Crystal Rain, most notably Blood Forfeit <:RubyBakri:565726489413287956>
-.
-.img:https://imgur.com/CFnUpqr.mp4
-.
-**__Seren Godbow Drawbacks__**
-⬥ Off-style Crystal Rain is harder due to inventory space and number of inputs.
-⬥ Black Stone Arrow <:blackstonearrow:785031580149743617> application will be weaker until a new Seren Godbow <:sgb:626466665848242186> is acquired.
-⬥ Will irreversably set you back from other possible primary upgrades.
-    • Eldritch Crossbow <:ecb:615618531937222657> and Greater Ricochet <:grico:787904334812807238> are the primary upgrades.
-⬥ A second Essence of Finality <:eofor:745279787471470713> must be obtained to not lose Dark Bow <:dbow:643848618553507843>.
+__**Key Considerations**__
+⬥ It is normal to do **less** damage when first learning to use the special attack. It takes time and practice to get it going well.
+⬥ **The goal is to have <:ecb:615618531937222657> <:spec:537340400273195028> active as much as possible**, *without* losing out on the use other strong thresholds and special attacks.
+    • The increased damage results in shorter fights, meaning less damage taken.
+    • You can add a little downtime between <:ecb:615618531937222657> <:spec:537340400273195028> to heal back.
+⬥ Using <:sgb:626466665848242186> <:spec:537340400273195028> → <:ecb:615618531937222657> <:eofspec:746403211908481184> will apply the ECB effect to the SGB damage, as the hits are slightly delayed.
+    • This can be used to save ticks inside <:ecb:615618531937222657> <:eofspec:746403211908481184>.
+    • This applies to the hits from Arrows 2-5 as they are delayed, but not Arrow 1.
 
 .
-**__Eldritch Crossbow Benefits__** <:ecb:615618531937222657> <:eofpink:780401412865523722>
-⬥ Access to AS4 <:as4:712074245202772009> over AS1 <:as1:689502339891331093>.
-    • Possible as you can use Caroming 4 <:caroming4:791281588792590336> as a switch, as opposed to camping it.
-    • Adds ~15k DPM.
-⬥ Access to Flank <:flank4:712073088296157185> under Split Soul.
-⬥ Ability to Needle <:needle:535541259108876293> instead of Greater Dazing Shot <:dazing:535541307142307860> / <:mds:535541259033378827> under Split Soul.
-⬥ Ability to execute better rotations (harder to quantify):
-    • For instance, makes Tendrils <:shadowtend:642713547142332416> better under Split Soul as you gain a MH Auto with it.
-    • Can do B2B Special Attacks under Split Soul.
-    • Generally can make stalling abilities under Split Soul easier.
-⬥ Can use Mechanised Chinchompas <:mechchin:641669268722810881> under Split Soul.
-    • Notable at Elite Dungeons.
+> __**Bow of the Last Guardian (BgLG)**__ <:bolg:994189289623662702>
+*Note: For a summary, use the `!bolg` command.*
+.tag:bolg
+__**How It Works**__
+⬥ The BoLG <:bolg:994189289623662702> is a T95 bow and the current best-in-slot ranged weapon. **It's passive effect has the following effects**:
+    • Every ability hit (except damage-over-time hits like <:corruptshot:535541306294796299>) grants a stack of *Perfect Equilibrium*.
+    • The ability that applies the 8th stack **fires an extra attack** dealing a percentage of its damage, resetting the stacks.
+⬥ **Its special attack <:bolg:994189289623662702> <:spec:537340400273195028> has two effects**:
+    • Consumes 30% adrenaline and deals 175-375% damage (like a mini Dark Bow).
+    • For 30s, the passive effect triggers every 4 stacks instead of 8.
 
 .
-**__Eldritch Crossbow Drawbacks__**
-⬥ You lose 2H auto-attacks, Greater Dazing Shot <:mds:535541259033378827>, and 9 square attack range.
-    • Though you can substitute this with a Wyvern Crossbow <:wyverncrossbow:580177522587729940>
-⬥ You may need to put Caroming <:caroming4:791281588792590336> / Flanking <:flank4:712073088296157185> on t80 <:chaoticcbowoh:851514430633803786> too, which will do less damage relative to it having been on say an offhand t90 <:ascoh:513190159362031631>.
-    • This is not super reasonable to do without Blightbound Crossbows <:bbc:626714879218155521>
-⬥ It is also harder to use because you will be using more switches overall.
-    • An additional EoF <:eofpink:780401412865523722> and off-hand to account for.
-    • -1 inventory space
-⬥ If using queueing, then you cannot use the special without a target
-
-*Note: The first drawback to an ECB EoF <:ecb:615618531937222657> <:eofpink:780401412865523722> is very relevant to Nex. Do not get an ECB EoF <:ecb:615618531937222657> <:eofpink:780401412865523722> until you either finish your grind or acquire a second Eldritch Crossbow <:ecb:615618531937222657>.*
+__**Why It's Strong**__
+⬥ **Prioritise using high-hitting abilities to trigger the passive effect** to increase damage output.
+⬥ Good abilities to trigger the effect, in descending order of strength:
+    • Shadow Tendrils <:shadowtend:642713547142332416>
+    • BolG special attack <:bolg:994189289623662702> <:spec:537340400273195028>
+    • Dark Bow special attack <:dbow:643848618553507843> <:eofspec:746403211908481184>
+    • Salt the Wound <:stw:535541259109138463> (with high *Puncture* stacks, using Splintering arrows<:splinteringarrows:900758234246299649>)
+    • Snapshot <:snap:535534127131394088> (the second, bigger hit)
+    • Snipe <:snipe:535541258425204770>
+    • SGB special attack <:sgb:626466665848242186> <:eofspec:746403211908481184>
+⬥ The **extra passive hits can trigger on-hit effects** like poison, and help build stacks with ammo like <:wenarrow:971025697046925362> or <:bikarrow:971025697235689513> faster.
+⬥ The extra passive hits can 'double-dip' on ammo effects.
+    • e.g. using Ful arrows <:fularrow:971025696958853180> to boost the ability that triggers the proc, and the proc itself gets boosted again by the arrows.
+⬥ <:bolg:994189289623662702> <:spec:537340400273195028> can be used instead of <:dbow:643848618553507843> <:eofspec:746403211908481184> if adrenaline is a concern.
 
 .
-> **__Real-World Scenarios__**
-.tag:life
-*Coming soon...*
+__**Key Considerations**__
+⬥ **Prioritise keeping <:bolg:994189289623662702> <:spec:537340400273195028> active constantly.**
+⬥ Greater Ricochet (with Caroming 4) <:gricocaroming:867678153966878740> and <:rapid:535541270521708566> can be used to line up stacks for stronger abilities.
+⬥ <:frag:535541273755385885> and <:corruptshot:535541306294796299> don't give stacks, so can be used to line up cooldowns on stronger abilities to proc the passive.
+⬥ **Using <:bolg:994189289623662702> <:spec:537340400273195028> when stacks are ≥ 3 instantly triggers the proc** and resets stacks.
+⬥ If camping <:bolg:994189289623662702> (like any other 2H weapon) you cannot use <:spec:537340400273195028> back-to-back.
+⬥ <:shadowtend:642713547142332416> can give **2 stacks** if you get the 2H auto with it correctly.
+⬥ The first hit of Deadshot <:deadshot:535541307666595870> will apply 1 stack.
+
+.
+> __**Important EoFs**__
+.tag:importanteofs
+This section covers weapons that are worth placing into an Essence of Finality <:eof:787526151978614824> amulet for access to their special attacks.
+
+.
+> __**Dark Bow EoF**__ <:dbow:643848618553507843> <:eofgreen:780401412727242773>
+.tag:dboweof
+__**How It Works**__
+⬥ Placing a Dark Bow in an EoF <:dbow:643848618553507843> <:eofgreen:780401412727242773> makes the special attack strong enough to use for how much adrenaline it consumes.
+⬥ It's attack, *Descent of Darkness*, costs 65% adrenaline and hits twice for 148-338% ability damage, for a total of 296-676%.
+⬥ This makes it **good for dumping excess adrenaline**, and **quickly bursting out large amounts of damage** at the expense of lots of adrenaline.
+
+.
+> __**ECB EoF**__ <:ecb:615618531937222657> <:eofpurple:780401412936040478>
+.tag:ecbeof
+*Note: See `!ecbeof` for a summary.*
+__**How It Works**__
+⬥ **When in an EoF, the ECB's special attack <:ecb:615618531937222657> <:eofspec:746403211908481184> can be used with other weapons.**
+⬥ This makes it possible to benefit from the ECB effect while using:
+    • Dual-wield range weapons and off-hand switches (like Flanking <:flankicon:841419289755385866>).
+    • Able to use Bow of the Last Guardian <:bolg:994189289623662702> while still benefitting from <:ecb:615618531937222657> <:eofspec:746403211908481184>.
+    • Able to use <:mechchin:641669268722810881> under <:ecb:615618531937222657> <:eofspec:746403211908481184> for more AoE damage.
+⬥ **It is recommended to EoF your first ECB** if you have access to strong arrow-based ammo (with a Noxious Longbow <:noxbow:513190159425208342> or SGB <:sgb:626466665848242186> or similar weapon).
+.
+*Note: If using ability queueing, you will not be able to use <:ecb:615618531937222657> <:eofspec:746403211908481184> without a target.*
+
+.
+> __**SGB EoF**__ <:sgb:626466665848242186> <:eofblue:780401412906680330>
+.tag:sgbeof
+*Note: See `!sgbeof` for a summary.*
+__**How It Works**__
+⬥ The SGB special attack in an EoF <:sgb:626466665848242186> <:eofspec:746403211908481184> is similar to the physical weapon.
+⬥ The difference is that **it can also be affected by bolt ammo as well if used with crossbows**.
+    • Typically this is done with Ruby Bakriminel bolts <:RubyBakri:565726489413287956> to try and trigger a large proc.
+⬥ **It makes it possible to 'chin-sgb'.**
+    • <:sgb:626466665848242186> <:eofspec:746403211908481184> fires once for each target present (up to 9) if used with Mechanical Chinchompas <:mechchin:641669268722810881>.
+    • This has uses in some places, such as ranged Telos.
+⬥ It is **recommended to EoF your SGB *after* you obtain a Bow of the Last Guardian** <:bolg:994189289623662702>.
+    • Note that it is easier to use <:sgb:626466665848242186> <:spec:537340400273195028> off-style with a physical weapon instead, due to 1 less switch required.
+    • If you are an ironman, you may prefer to use a physical <:ecb:615618531937222657> for easier ammo upkeep, and use <:sgb:626466665848242186> <:eofblue:780401412906680330> instead.
+
+.
+{
+  "embed": {
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__SGB Interactions__",
+        "value": "⬥ To see an example of how <:RubyBakri:565726489413287956> interacts with <:sgb:626466665848242186> <:eofspec:746403211908481184>, [click here](https://imgur.com/CFnUpqr.mp4)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Weapon Overrides**__
+.tag:overrides
+*Note: See `!override` for a summary.
+**tl;dr - use Dart overrides for DW, blowpipe override for 2H**.*
+.
+__**How It Works**__
+⬥ Weapon overrides are when you use a different weapon animation than the default one for your equipped weapon.
+    • This can be done by keepsaking a different weapon type, or by using certain cosmetic overrides.
+⬥ **Certain weapon overrides for Ranged can cause some abilities to hit 1 tick faster**, depending on 3 factors:
+    • The distance between you and your target's NPC coordinate (also called 'true centre'). For targets ≥ 3x3 in size, this is their SW tile.
+    • What weapon type you use to override.
+    • What abilities are affected by that override.
+⬥ This is **not** a general DPS increase, but can be used to get in an extra hit where otherwise not possible, due to mechanics.
+    • It **can make Soul Split <:soulsplit:615613924506599497> flicking easier** to time.
+
+.
+__**List of Overrides**__
+*Note 1: The convention used here is that `MD` = `1 tile from target's true centre`, and `MD → X` means `from MD to X tiles from target's true centre` (e.g. `MD → 2` = `from MD to 2 tiles from target's true centre`)*
+*Note 2: Greater Ricochet <:grico:787904334812807238> and Ricochet <:ricochet:535541259566186521> behave the same.*
+
+⬥ **Javelins** (only mainhand required):
+    • Unload <:unload:535541258664411169> hits fast at MD → 3.
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 2.
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD.
+
+.
+⬥ **Darts** (only mainhand required):
+    • Unload <:unload:535541258664411169> hits fast at MD → 3.
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5.
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4.
+
+.
+⬥ **Knives** (only mainhand required):
+    • Unload <:unload:535541258664411169> hits fast at MD → 3.
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD.
+
+.
+⬥ **Blowpipe** (2H override):
+    • Dazing Shot <:mds:535541259033378827> and first hit of Deadshot <:deadshot:535541307666595870> hits fast at MD → 2.
+    • Piercing Shot <:piercing:535541258538450944> and Ricochet <:ricochet:535541259566186521> hit fast at MD → 5.
+    • Rapid Fire <:rapid:535541270521708566> and Snapshot <:snap:535534127131394088> hit fast at MD → 4.
+
+.
+> **__General Death's Swiftness Rotations__**
+.tag:ds
+**This section will cover usage of strong abilities (thresholds or better) within your Death's Swiftness <:deathsswift:994921434633744455> under different scenarios.**
+**The following unlocks are assumed**:
+⬥ Ring of Vigour <:vigour:615613235512737792> or its passive effect after Extinction quest.
+⬥ Planted Feet <:pf:689501925770919981> or Greater Death's Swiftness <:gdeathsswift:994644354536837121> unlocked.
+⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786>
+.
+**Keep in mind the following:**
+⬥ These are only *suggestions* work from, and will not necessarily be applicable at all bosses or all scenarios.
+    • For boss-specific rotations, see their respective guides.
+⬥ Conservation of Energy relic <:conservationofenergy:697808773711921195> is recommended for adrenaline refunds from <:deathsswift:994921434633744455> and other ultimates in order to execute a stronger rotation.
+⬥ Replace Tight Bindings (Flanking) <:tightbindingsflank:867678154096640010> with Bombardment <:bombard:535541306391265284> if no other good abilities are available.
+⬥ A number of factors will impact your rotations, including:
+    • Whether or not Hydrix bolts <:HydrixBakri:550834403136503822> are used (affects adrenaline management, especially if Greater Ricochet <:grico:787904334812807238> is owned).
+    • Whether or not Inspiration aura <:inspiration:643505652634746881> is used (affects adrenaline management).
+    • Whether you intend to dump all your adrenaline, or conserve it for post-ultimate abilities.
+    • If you get any relentless <:relentless5:712244800920748092> procs.
+    • If Incendiary Shot <:incend:535541258429661215> is used to setup.
+⬥ Therefore **adjust your use of thresholds in your rotations based on your situation**.
+    • If you have large amounts of excess adrenaline, you can use <:dbow:643848618553507843> <:eofspec:746403211908481184> or <:bolg:994189289623662702> <:eofspec:746403211908481184> to dump it for damage.
+
+.
+**__Death's Swiftness - Basic__**
+⬥ 1x Rapid Fire <:rapid:535541270521708566>
+⬥ 2x Snapshot <:snap:535534127131394088>
+⬥ 1x Shadow Tendrils <:shadowtend:642713547142332416>
+⬥ 1x Tight Bindings (Flanking) <:tightbindingsflank:867678154096640010>
+
+.
+**__Death's Swiftness w/ Adren Renewal OR Limitless__** <:adrenrenewal:736298121704767538> / <:limitless:641339233638023179>
+⬥ 2x Rapid Fire <:rapid:535541270521708566>
+⬥ 2x Snapshot <:snap:535534127131394088>
+⬥ 1x Shadow Tendrils <:shadowtend:642713547142332416>
+⬥ 1x Tight Bindings (Flanking) <:tightbindingsflank:867678154096640010>
+
+.
+**__Death's Swiftness w/ SGB __**<:sgb:626466665848242186>
+⬥ 1x SGB <:sgb:626466665848242186> <:spec:537340400273195028>
+⬥ 2x Rapid Fire <:rapid:535541270521708566>
+⬥ 2x Snapshot <:snap:535534127131394088>
+⬥ 1x Shadow Tendrils <:shadowtend:642713547142332416>
+
+.
+**__Death's Swiftness w/ SGB + Adren Renewal OR Limitless__** <:sgb:626466665848242186> + <:adrenrenewal:736298121704767538> / <:limitless:641339233638023179>
+⬥ 2x SGB <:sgb:626466665848242186> <:spec:537340400273195028>
+⬥ 2x Rapid Fire <:rapid:535541270521708566>
+⬥ 2x Snapshot <:snap:535534127131394088>
+⬥ 1x Shadow Tendrils <:shadowtend:642713547142332416>
+
+.
+**__Death's Swiftness w/ SGB + ECB + Adren Renewal + Limitless__** <:sgb:626466665848242186> + <:ecb:615618531937222657> <:eofpurple:780401412936040478> + <:adrenrenewal:736298121704767538> + <:limitless:641339233638023179>
+⬥ 2x ECB<:ecb:615618531937222657>
+⬥ 2x SGB <:sgb:626466665848242186> <:spec:537340400273195028>
+⬥ 2x Rapid Fire <:rapid:535541270521708566>
+⬥ 1x Snapshot <:snap:535534127131394088>
 
 .
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
+    "color": 3066993,
     "fields": [
       {
-	    "name": "__Begin__",
-        "value": "[Introduction]($linkmsg_intro$)\n[Revolution Bars and General Background Knowledge]($linkmsg_generalInfo$)",
-		"inline": true
+        "name": "__Begin__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)\n⬥ [Revo Bars/General Info]($linkmsg_generalinfo$)",
+        "inline": true
       },
-	  {
-	    "name": "__Building Blocks__",
-        "value": "[Ability Prioritisation]($linkmsg_prioritisation$)\n[Ability Information]($linkmsg_abilInfo$)\n[Building a Rotation]($linkmsg_rotation$)",
-		"inline": true
+      {
+        "name": "__Building Blocks__",
+        "value": "⬥ [Ability Information]($linkmsg_info$)\n⬥ [Ability Prioritisation]($linkmsg_priority$)\n⬥ [DW vs. 2H Bow Camp]($linkmsg_camping$)\n⬥ [Building a Rotation!]($linkmsg_rotation$)\n⬥ [What Ammo to Use]($linkmsg_whatammo$)\n⬥ [Cancelling Channels]($linkmsg_cancel$)",
+        "inline": true
       },
-	  {
-	    "name": "__To Learn__",
-        "value": "[Shadow Tendrils]($linkmsg_Tendril$)\n[Weapon Overrides]($linkmsg_overrides$)\n[Ruby Bakriminel Bolts (e)]($linkmsg_ruby$)\n[Emerald Bakriminel Bolts (e)]($linkmsg_emerald$)\n[Onyx Bakriminel Bolts (e)]($linkmsg_onyx$)\n[Hydrix Bakriminel Bolts (e)]($linkmsg_hydrix$)\n[Greater Ricochet]($linkmsg_grico$)\n[Seren Godbow]($linkmsg_sgb$)\n[Eldritch Crossbow]($linkmsg_ecb$)\n[Essence of Finality weapons]($linkmsg_eof$)",
-		"inline": true
+      {
+        "name": "__Important Abilities__",
+        "value": "⬥ [Greater Ricochet]($linkmsg_grico$)\n⬥ [Greater Dazing Shot]($linkmsg_mds$)\n⬥ [Shadow Tendrils]($linkmsg_shadowtendrils$)\n⬥ [Incendiary Shot]($linkmsg_incend$)\n⬥ [Greater Death's Swift.]($linkmsg_gswift$)",
+        "inline": true
       },
-	  {
-	    "name": "__Examples__",
-        "value": "[Real-World Scenarios]($linkmsg_life$)",
-		"inline": true
+      {
+        "name": "__Important Items__",
+        "value": "⬥ [Planted Feet Switch]($linkmsg_pf$)\n⬥ [Flanking Switch]($linkmsg_flanking$)\n⬥ [Sliver Enchantments]($linkmsg_sliver$)\n⬥ [Mech. Chins]($linkmsg_mechchin$)\n⬥ [Seren Godbow (SGB)]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
+        "inline": true
+      },
+      {
+        "name": "__Important EoFs__",
+        "value": "⬥ [Dark Bow]($linkmsg_dboweof$)\n⬥ [Seren Godbow]($linkmsg_sgbeof$)\n⬥ [Eldritch Crossbow]($linkmsg_ecbeof$)",
+        "inline": true
+      },
+      {
+        "name": "__Advanced Mechanics__",
+        "value": "⬥ [Weapon Overrides]($linkmsg_overrides$)",
+        "inline": true
+      },
+      {
+        "name": "__Death's Swiftness Rotations__",
+        "value": "⬥ [General DS Rotations]($linkmsg_ds$)",
+        "inline": true
       }
     ]
   }
