@@ -1,17 +1,21 @@
 > **__Pthentraken__**
 image
 > **__Pthentraken (38-40 kph)__ (Courtesy of <@!108682527304060928> and <@!657579387910094851>)**
-.tag:intro
-__**Disclaimer**__
-This AFK method has high requirements regarding **equipment** and **unlocked abilities + passive effects.**
-
-⬥ The gear setups used represent the **minimum requirements** (or close) to reliably attain the advertised KPH while being consistently safe.
-
-⬥ If you find that your setup is not working, **__PLEASE DO NOT PING AND ESPECIALLY DO NOT MESSAGE THE AUTHORS OF THIS GUIDE.__**
-    • Double check your preset, prayers, perks, passive effects and revo bar against that mentioned in the guide.
-    • The setup in the guide has been tested extensively, it is **impossible** for it to not work if everything is done properly.
+.tag:disc
+{
+  "embed": {
+    "title": "__**Disclaimer**__",
+    "description": "This AFK method has high requirements:\n\n⬥ The gear setups used represent the **minimum requirements** (or close) to reliably attain the advertised KPH while being consistently safe.\n⬥ If you find that your setup is not working\n\u00a0\u00a0\u00a0\u00a0• Double check your preset, prayers, perks, passive effects and revo bar against that mentioned in the guide.\n\u00a0\u00a0\u00a0\u00a0• The setup in the guide has been tested extensively, it is **impossible** for it to not work if everything is done properly.",
+    "color": 39423,
+    "footer": {
+      "text": "PLEASE DO NOT PING AND ESPECIALLY DO NOT MESSAGE THE AUTHORS OF THIS GUIDE."
+    }
+  }
+}
+.embed:json
 .
 __**Explanation and Notes**__
+.tag:intro
 Consistency and safety are attained via <:reaverpouch:839903693837959228> damage and healing through specs, taking advantage of <:necklaceofsalamancy:970657245312467004>, and proper postion of <:escape:535541258832052231> on the ability bar.
 
 ⬥ **Slayer task (with Slayer Helm on your Anachronia slayer lodge stand) is required for accuracy unless using <:hexhunterbow:581180369911414794>**
@@ -29,10 +33,10 @@ Consistency and safety are attained via <:reaverpouch:839903693837959228> damage
 ⬥ <:prismofrestoration:938475261366784070> is used to heal your <:reaverpouch:839903693837959228>. If it dies, summon another and load it with scrolls.
 ⬥ To pick up loot, use <:SBSStandards:565726489526534154> <:telekeneticgrab:866551637970255872> to not move from your position.
     • Moving can cause you to get killed on the next Overcharge.
+
 .
 __**Aura Choice**__
 .tag:aura
-Aura choice can vary but will affect how afk kills can be. They are listed in order of effectiveness:
 ⬥ <:vampaura:643505653079343144> Vampyrism Aura
 
 .
@@ -74,11 +78,10 @@ __**Mandatory AFK Requirements**__
 ⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
 (Runes for <:prismofrestoration:938475261366784070> <:SBSStandards:565726489526534154> <:telekeneticgrab:866551637970255872>)
 .
-**__Relics and Passives__**
-This method strongly relies on the use of the following passive effects. **Missing any of these may detriment the effectiveness of this method.**
-⬥ Fury of the Small <:furyofthesmall:697808773917573233>
-⬥ Conservation of Energy <:conservationofenergy:697808773711921195> and/or Ring of Vigour Passive <:vigour:615613235512737792> <:warpedgem:968908526955167774>
-⬥ Dinosaur Slayer Task <:slayerhelm:798285340460449792>
+**__Relics__**
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
+⬥ <:deathward:697808774068699286> Death Ward
 
 .
 **__Action Bar__**
@@ -115,7 +118,7 @@ This method strongly relies on the use of the following passive effects. **Missi
     "fields": [
       {
 	    "name": "__AFK Strategy__",
-        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bars]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
+        "value": "⬥ [Disclaimer]($linkmsg_disc$)\n⬥ [Explanation]($linkmsg_intro$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bar]($linkmsg_bar$)\n⬥ [Method and Setup]($linkmsg_pos$)\n⬥ [Example Kills]($linkmsg_example$)",
 		"inline": true
       }
     ]
