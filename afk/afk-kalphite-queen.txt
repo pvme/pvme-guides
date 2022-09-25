@@ -2,7 +2,7 @@
 .img:https://i.imgur.com/B4KkbaD.jpg
 .
 .
-> **__AFK Overview__ (Courtesy of <@269513930949263363>)**
+> **__AFK Melee Strategy__(~40-45KPH)**
 .tag:intro
 **__Explanation__**
 ⬥ This method is slower than the active hybrid methods (~40KPH), but it requires little to no input.
@@ -13,18 +13,21 @@
 ⬥ The use of Potion Reservoirs <:potionreservoir:878739200407654431> allows for 36 minute AFK times, resulting in only needing to make sure the player isn't lobbied.
 
 .
-**__Aura Choice__**
+__**Aura Choice**__
 .tag:aura
-⬥ <:penance:643505653062565907> Penance Aura
-⬥ <:mahj:643148943856762890> Mahjarrat Aura with <:powderofpenance:928221126360969226>
+⬥ Aura choice can vary, but will affect how afk kills can be. They are listed in order of effectiveness:
+    • <:penance:643505653062565907> Penance Aura allows for the most afk experience.
+    • <:dm:643505652571963417> Dark Magic with <:powderofpenance:928221126360969226>
+    • <:berserker:643505116347105290> Berserker with <:powderofpenance:928221126360969226>
+    • <:vamp:643505653079343144> Vampyrism Aura with <:powderofpenance:928221126360969226>
 
 .
-**__Mandatory AFK Requirements__**
+__**Mandatory AFK Requirements**__
 .tag:mand
 {
   "embed": {
     "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk the Kalphite Queen.\nThe following are required or this method will not work:\n\n⬥ Verac the Defiled’s equipment <:veracbody:854475442190549042> with standard perks\n⬥ Ripper demon familiar with scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Turmoil <:turmoil:583429936606347280>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Auto-retaliate is on",
+    "description":"This setup should reliably allow you to afk Kalphite Queen.\nThe following are required or this method will not work:\n\n⬥ Verac the Defiled’s equipment <:veracbody:854475442190549042> with standard perks\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Turmoil <:turmoil:583429936606347280> / Malevolence <:Malevolence:513190159416557573>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Ripper Demon <:ripperpouch:703581275453128714> with scrolls <:ripperscroll:703581275155464203>\n⬥ Scripteure of Wen <:scriptureofwen:883134307902816297>\n⬥ Auto-retaliate is on\n",
     "color": 39423,
     "footer": {
       "text": "Cutting corners will result in failure"
@@ -32,23 +35,33 @@
   }
 }
 .embed:json
-.
-**__Preset__**
+> **__Preset__**
 .tag:preset
-.img:https://i.imgur.com/FimjniV.png
+.img:https://i.imgur.com/eb9E40A.png
+⬥ <:KwuarmSticks:565726489341984779> **Kwuarm Incense Sticks** - Increased poison damage
+⬥ <:LantaSticks:565726489404899368> **Lantadyme Incense Sticks**
+⬥ <:SpiritSticks:565726489136463894> **Spirit Weed Incense Sticks** - Increases Ripper Demon DPS
+⬥ <:powderofpenance:928221126360969226> **Powder of Penance** - __Necessary__ if not using <:penanceaura:643505653062565907>
+⬥ <:potionreservoir:878739200407654431> **Potion reservoir** - Increased AFKness
+
+.
+__**Relic Setup**__
+⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
+⬥ <:deathward:697808774068699286> Death's Ward
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+
 .
 **__Action Bar__**
 .tag:bar
-.img:https://i.imgur.com/U9MJoZp.png
+.img:https://i.imgur.com/2jkC0AS.png
+**__Positioning__**
+.tag:pos
+Position yourself on the marked tile. If you have troubles finding where to stand, follow the steps below.
+insert steps
 .
-**__Placement__**
-.tag:where
-.img:https://i.imgur.com/vUYBEPS.jpg
-.
-.
-**__Video Guide__ (Courtesy of <@282899558172983306>)**
+> **__Video Example__**
 .tag:example
-<https://youtu.be/eBfiJfTe3v0>
+insert vid
 
 .
 {
@@ -58,7 +71,7 @@
     "fields": [
       {
 	    "name": "__AFK Strategy__",
-        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bar]($linkmsg_bar$)\n⬥ [Placement]($linkmsg_where$)\n⬥ [Example Kills]($linkmsg_example$)",
+        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bars]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
 		"inline": true
       }
     ]
