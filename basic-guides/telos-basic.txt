@@ -300,50 +300,8 @@ Full kill: <https://youtu.be/jeZnAP4kNb8>
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Disclaimer__",
-        "value": "[Link]($linkmsg_disclaimer$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Enrage Mechanics__",
-        "value": "[Link]($linkmsg_enrage$)",
-		"inline": true
-      },
-
-	  {
-	    "name": "__Attack Pattern__",
-        "value": "[Link]($linkmsg_attackorder$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics Summary__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Stunning Guide__",
-        "value": "[Link]($linkmsg_stun$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Basic Rotations__",
-        "value": "[Link]($linkmsg_rots$)",
-		"inline": true
-      },
-                {
-	    "name": "__Example Kill__",
-	"value": "[Link]($linkmsg_example$)",
-	        "inline": true
-      }
-    ]
+    "description": "⬥ [Presets]($linkmsg_presets)\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Enrage Mechanics]($linkmsg_enrage$)\n⬥ [Attack Pattern]($linkmsg_attackorder$)\n⬥ [Mechanics Summary]($linkmsg_mechanics$)\n⬥ [Stunning Guide]($linkmsg_stun$)\n⬥ [Basic Rotations]($linkmsg_rots$)\n⬥ [Example Kill]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json
