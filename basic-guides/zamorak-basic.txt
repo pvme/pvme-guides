@@ -197,39 +197,8 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Preset__",
-        "value": "[Link]($linkmsg_preset$)",
-        "inline": true
-      },
-      {
-        "name": "__Attack Rotation__",
-        "value": "[Link]($linkmsg_attack$)",
-        "inline": true
-      },
-      {
-        "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mech$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_examples$)",
-        "inline": true
-      },
-      {
-        "name": "__Alt1 Zamorak Helper__",
-        "value": "[Link]($linkmsg_alt1$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Attack Rotation]($linkmsg_attack$)\n⬥ [Mechanics]($linkmsg_mech$)\n⬥ [Example Kills]($linkmsg_examples$)\n⬥ [Alt1 Zamorak Helper]($linkmsg_alt1$)",
+    "color": 39423
   }
 }
 .embed:json

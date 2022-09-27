@@ -158,41 +158,10 @@
 ⬥ Ranged: <https://youtu.be/JiHCvhgtYN8>
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Presets__",
-            "value":"[Link]($linkmsg_presets$)",
-            "inline":true
-         },
-         {
-            "name":"__General Knowledge__",
-            "value":"[Link]($linkmsg_general$)",
-            "inline":true
-         },
-         {
-            "name":"__Mechanics Summary__",
-            "value":"[Link]($linkmsg_mechanics$)",
-            "inline":true
-         },
-         {
-            "name":"__Kerapac's Attack Order__",
-            "value":"[Link]($linkmsg_attackorder$)",
-            "inline":true
-         },
-         {
-            "name":"__Basic Rotations__",
-            "value":"[Link]($linkmsg_rots$)",
-            "inline":true
-         },
-         {
-            "name":"__Example Kills__",
-            "value":"[Link]($linkmsg_example$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Presets]($linkmsg_presets$)\n⬥ [General Knowledge]($linkmsg_general$)\n⬥ [Mechanics Summary]($linkmsg_mechanics$)\n⬥ [Kerapac's Attack Order]($linkmsg_attackorder$)\n⬥ [Basic Rotations]($linkmsg_rots$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
 }
 .embed:json

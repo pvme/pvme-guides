@@ -247,58 +247,10 @@ Drops include components for three level 90 two-handed weapons, one for each com
 .embed:json
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Presets__",
-            "value":"[Link]($linkmsg_presets$)",
-            "inline":true
-         },
-         {
-            "name":"__General Knowledge__",
-            "value":"[Link]($linkmsg_general$)",
-            "inline":true
-         },
-         {
-            "name":"__Special Attacks__",
-            "value":"[Link]($linkmsg_specs$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 1__",
-            "value":"[Link]($linkmsg_p1$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 2__",
-            "value":"[Link]($linkmsg_p2$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 3__",
-            "value":"[Link]($linkmsg_p3$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 4__",
-            "value":"[Link]($linkmsg_p4$)",
-            "inline":true
-         },
-         {
-            "name":"__Example Kills__",
-            "value":"[Link]($linkmsg_examples$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [General Knowledge]($linkmsg_general$)\n⬥ [Special Attacks]($linkmsg_specs$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "color": 39423
+  }
 }
 .embed:json
-.tag:quickguideToC
-.

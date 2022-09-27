@@ -1,7 +1,7 @@
 > **__Basic Guide: Dragonkin Laboratory__**
 .
 .img:https://imgur.com/EA7wP1w.png
-.
+.tag:intro
 ED2 is considered the most beginner friendly Elite Dungeon. The requirements to feasibly solo it both in terms of gear and skill are generally considered low. However, it still has considerable amount of challenging components which can result in fast KOs if the player is not careful.
 
 .
@@ -380,56 +380,9 @@ __**Example runs**__
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset__",
-        "value": "[Link]($linkmsg_preset$)",
-        "inline": true
-      },
-      {
-        "name": "__Astellarn, the First Celestial (Info)__",
-        "value": "[Link]($linkmsg_astellmechs$)",
-        "inline": true
-      },
-      {
-        "name": "__Astellarn, the First Celestial (Fight tips)__",
-        "value": "[Link]($linkmsg_astelltips$)",
-        "inline": true
-      },
-      {
-        "name": "__Verak Lith (Info)__",
-        "value": "[Link]($linkmsg_verakmechs$)",
-        "inline": true
-      },
-      {
-        "name": "__Verak Lith (Fight tips)__",
-        "value": "[Link]($linkmsg_veraktips$)",
-        "inline": true
-      },
-      {
-        "name": "__Black Stone Dragon (Info)__",
-        "value": "[Link]($linkmsg_bsdmechs$)",
-        "inline": true
-      },
-      {
-        "name": "__Black Stone Dragon (Fight tips)__",
-        "value": "[Link]($linkmsg_bsdtips$)",
-        "inline": true
-      },
-      {
-        "name": "__Mobs and movement__",
-        "value": "[Link]($linkmsg_mobs$)",
-        "inline": true
-      },
-      {
-        "name": "__Example runs__",
-        "value": "[Link]($linkmsg_examples$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Astellarn, the First Celestial (Info)]($linkmsg_astellmechs$)\n⬥ [Astellarn, the First Celestial (Fight tips)]($linkmsg_astelltips$)\n⬥ [Verak Lith (Info)]($linkmsg_verakmechs$)\n⬥ [Verak Lith (Fight tips)]($linkmsg_veraktips$)\n⬥ [Black Stone Dragon (Info)]($linkmsg_bsdmechs$)\n⬥ [Black Stone Dragon (Fight tips)]($linkmsg_bsdtips$)\n⬥ [Mobs and Movement]($linkmsg_mobs$)\n⬥ [Example runs]($linkmsg_examples$)",
+    "color": 39423
   }
 }
-
 .embed:json
 .pin:delete

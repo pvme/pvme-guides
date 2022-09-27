@@ -279,41 +279,10 @@
 .embed:json
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Presets__",
-            "value":"[Link]($linkmsg_preset$)",
-            "inline":true
-         },
-         {
-            "name":"__P1 Mechanics__",
-            "value":"[Link]($linkmsg_p1$)",
-            "inline":true
-         },
-         {
-            "name":"__P2 Mechanics__",
-            "value":"[Link]($linkmsg_p2$)",
-            "inline":true
-         },
-         {
-            "name":"__P3 Mechanics__",
-            "value":"[Link]($linkmsg_p3$)",
-            "inline":true
-         },
-         {
-            "name":"__P4 Mechanics__",
-            "value":"[Link]($linkmsg_p4$)",
-            "inline":true
-         },
-         {
-            "name":"__Basic Strategy__",
-            "value":"[Link]($linkmsg_strats$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Presets]($linkmsg_preset$)\n⬥ [P1 Mechanics]($linkmsg_p1$)\n⬥ [P2 Mechanics]($linkmsg_p2$)\n⬥ [P3 Mechanics]($linkmsg_p3$)\n⬥ [P4 Mechanics]($linkmsg_p4$)\n⬥ [Basic Strategy]($linkmsg_strats$)",
+    "color": 39423
+  }
 }
 .embed:json
