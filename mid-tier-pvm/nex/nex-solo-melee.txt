@@ -211,39 +211,8 @@ Auto → <:corruptshot:535541306294796299> → <:rapid:535541270521708566>
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Rotations__",
-        "value": "[Link]($linkmsg_rotations$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Phase Notes__",
-        "value": "[Link]($linkmsg_PN$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Phase Notes]($linkmsg_PN$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json
