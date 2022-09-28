@@ -149,7 +149,7 @@ __**Impatient 4 X**__
 ⬥ **Impatient 4 Lucky 1/2:** 6 <:zaroscomp:583435429949341697> 1 <:zamorakcomp:607288026334232576> 1 <:fortunatecomp:583435543845797891> 1 <:silentcomp:583435429563465730> `(1/1.98 at 113 invention)` <:coins:698816156961603654> $data_pvme:Perks!H46$ / <:coins:698816156961603654> $data_pvme:Perks!H47$
 ⬥ **Impatient 4 Dragon Slayer:** 6 <:zaroscomp:583435429949341697> 1 <:zamorakcomp:607288026334232576> 2 <:dragonfirecomp:583428397439516673> `(1/1.82 at 113 invention)` <:coins:698816156961603654> $data_pvme:Perks!H48$
 ⬥ **Impatient 4 Undead Slayer:** 6 <:zaroscomp:583435429949341697> 1 <:zamorakcomp:607288026334232576> 1 <:undeadcomp:583428397397573659> 1 <:livingcomp:583434584679776256> `(1/2.09 at 113 invention)` <:coins:698816156961603654> $data_pvme:Perks!H49$
-⬥ **Impatient 4 Genocidal:** 6 <:zaroscomp:583435429949341697> 1 <:zamorakcomp:607288026334232576> 2 <:bandoscomp:583435429861261322> `(1/2.22 at 113 invention)` <:coins:698816156961603654> $data_pvme:Perks!H50$
+⬥ **Impatient 4 Genocidal:** 6 <:zaroscomp:583435429949341697> 1 <:zamorakcomp:607288026334232576> 2 <:bandoscomp:583435429861261322> `(1/2.21 at 116 invention)` <:coins:698816156961603654> $data_pvme:Perks!H50$
 ⬥ **Impatient 4 Hoarding:** 1 <:zaroscomp:583435429949341697> 6 <:zamorakcomp:607288026334232576> 2 <:fortunatecomp:583435543845797891> `(1/5.25 at 102 invention)` <:coins:698816156961603654> $data_pvme:Perks!K42$
 *Note: The highest rates for the perks are listed.*
 
@@ -243,8 +243,19 @@ __**Not Your Everyday Perks**__
 .
 > __**Perk Calculator**__
 .tag:calc
-If you wish to test your own perk combinations you can use the calculator available on the Wiki:
-<https://runescape.wiki/w/Calculator:Perks>
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Perk Calculator__",
+        "value": "[Click here](https://runescape.wiki/w/Calculator:Perks) to check out the perk calculator available on the Wiki to test out your own perk combinations."
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > __**Item Levelling Guide**__
@@ -266,7 +277,6 @@ Shattered worlds currently remains the fastest and most efficient ways to level 
 }
 .embed:json
 *Note: Use 8 <:serencomp:583435429877907456> 1 <:piouscomp:583434604363644929> `(1/1.08 at 120 invention)` for Enlightened 4, instead of 8 <:serencomp:583435429877907456> as mentioned in the video.*
-
 .
 {
   "embed": {
@@ -274,59 +284,34 @@ Shattered worlds currently remains the fastest and most efficient ways to level 
     "color": 39423,
     "fields": [
       {
-	    "name": "__Starter Perks__",
-        "value": "[Link]($linkmsg_starterperks$)",
-		"inline": true
+        "name": "__PvM Perk Setups__",
+        "value": "⬥ [Starter Perks]($linkmsg_starterperks$)\n⬥ [Advanced Perks]($linkmsg_advancedperks$)",
+        "inline": true
       },
-	  {
-	    "name": "__Advanced PvM Perks__",
-        "value": "[Link]($linkmsg_advancedperks$)",
-		"inline": true
+      {
+        "name": "__Basic Perk Combos__",
+        "value": "⬥ [Armor Perks]($linkmsg_basiccombos$)\n⬥ [Weapon Perks]($linkmsg_basicwep$)",
+        "inline": true
       },
-	  {
-	    "name": "__Basic Armour Perk Combinations__",
-        "value": "[Link]($linkmsg_basiccombos$)",
-		"inline": true
+      {
+        "name": "__Advanced Perk Combos__",
+        "value": "⬥ [Armor Perks]($linkmsg_maxcombos$)\n⬥ [Weapon Perks]($linkmsg_maxwep$)",
+        "inline": true
       },
-	  {
-	    "name": "__Basic Weapon Perk Combinations__",
-        "value": "[Link]($linkmsg_basicwep$)",
-		"inline": true
+      {
+        "name": "__Other Perk Combos__",
+        "value": "⬥ [Alternative Perks]($linkmsg_alternatives$)\n⬥ [Slayer Perks]($linkmsg_slayerperks$)\n⬥ [Specalized Perks]($linkmsg_niche$)",
+        "inline": true
       },
-	  {
-	    "name": "__Maxed Armour Perk Combinations__",
-        "value": "[Link]($linkmsg_maxcombos$)",
-		"inline": true
+      {
+        "name": "__Misc. Info__",
+        "value": "⬥ [Perk Calculator]($linkmsg_calc$)\n⬥ [Item Levelling Guide]($linkmsg_guide$)",
+        "inline": true
       },
-	  {
-	    "name": "__Maxed Weapon Perk Combinations__",
-        "value": "[Link]($linkmsg_maxwep$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Alternative Perks__",
-        "value": "[Link]($linkmsg_alternatives$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Slayer Perks__",
-        "value": "[Link]($linkmsg_slayerperks$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Specialized Perks__",
-        "value": "[Link]($linkmsg_niche$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Perk Calculator__",
-        "value": "[Link]($linkmsg_calc$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Item levelling Guide__",
-        "value": "[Link]($linkmsg_guide$)",
-		"inline": true
+      {
+        "name": "\u200b",
+        "value": "\u200b",
+        "inline": true
       }
     ]
   }
