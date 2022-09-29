@@ -1,219 +1,457 @@
-> **__Araxxor Basic Guide__ (Courtesy of <@657579387910094851> and <@300201707378442240>)**
-.
+> __**Araxxor Basic Guide**__ (Courtesy of <@657579387910094851> and <@300201707378442240>)
 .img:https://i.imgur.com/zScW6sP.png
+
 .
 > __**Introduction**__
 .tag:intro
-Araxxor is an Araxyte spider who lives in the Araxyte lair, a cave beneath the Haunted Woods, just south of Port Phasmatys. Each kill of Araxxor with melee is worth <:coins:698816156961603654> $data_pvme:Bosses!E37$. Advanced players can get up to $data_pvme:Bosses!B42$ kph average across all paths, earning on average $data_pvme:Bosses!C42$ gp/hr.
+Araxxor is a large araxyte spider who lives in the Araxyte lair, a cave beneath the Haunted Woods, just south of Port Phasmatys. It is a mid-to-high-tier boss that drops parts to create level 90 2H weapons for all 3 combat styles, and is a commonly used stepping stone on players' PvM journeys.
+
+**This guide aims to get you your first few kills at araxxor, with any combat style**. For more advanced rotations, check out <#534514775120412692> and <#776298051567353917>.
+
+First we cover the __**Mechanics**__  (special attacks) that the boss can use followed by going through the __**The Fight**__ where we cover rotations and strategies throughout the fight.
 
 .
 > __**Drops**__
+.tag:drops
 Drops include components for three level 90 two-handed weapons, one for each combat style, along with a pet, with multiple skins to be unlocked for the pet through achievements.
 
-⬥ <:pheromone:643122483641188372> **Pheromone**: 1/(50-[Enrage/20])
-⬥ <:spiderlegtop:643122501521768491> **Leg piece**: 1/40 (1/70 in duo)
-⬥ <:araxxifang:643148203604049940> **Hilt**: 1/120 (1/200 in duo)
-⬥ <:araxyteegg:643149217313062913> **Araxyte egg**: 1/500 (200 threshold)
+⬥ **Leg pieces** <:spiderlegtop:643122501521768491> <:spiderlegmid:643122511931768883> <:spiderlegbot:643148153293373480>
+    • 1/40 (1/170 duo).
+⬥ **Hilts** <:araxxifang:643148203604049940> <:araxxieye:643148502804725769> <:araxxiweb:643148219030700102>
+    • 1/120 (1/200 in duo), twice as likely to get the hilt of the style Araxxor uses.
+⬥ **Pheromone** <:pheromone:643122483641188372>
+    • 1/50 at 0% → 1/35 at 300%, the formula is `1/[50-(Enrage/20)]`.
+⬥ **Araxyte egg** <:araxyteegg:643149217313062913>
+    • 1/500 (200 threshold).
+    • First egg unlocks Barry, second egg unlocks Mallory.
+
+On average, this makes each kill of Araxxor worth:
+⬥ <:coins:698816156961603654> $data_pvme:Bosses!E36$ with Melee <:melee:615612332521029632>
+⬥ <:coins:698816156961603654> $data_pvme:Bosses!E37$ with Range <:range:580168050121113623>
+⬥ <:coins:698816156961603654> $data_pvme:Bosses!E38$ with Magic <:Magic:689504724159823906>
 
 .
-> **__Presets__**
-.tag:presets
-*Note 1: If you don't have access to <:elderovlsalve:648976643687317532>, use <:elderovl:841419289831800882> + <:superantipoison:841409588884406272> super antipoison*
-*Note 2: It is recommended to have the NopeNopeNope perk from Player Owned Farms active*
-.
-**__Ranged__**
-*Note: downgrade as needed.*
-⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-⬥ <:shadownihil:854475441946230855> Shadow Nihil familiar
-⬥ <:adrenrenewal:736298121704767538> Adrenaline renewal
-⬥ <:dbow:643848618553507843> Dark Bow with Mobile <:mob:689501908628799488>
-⬥ <:raxarrow:643507040248922130> Araxyte Arrows + <:fularrow:971025696958853180> Ful arrows
-⬥ <:Cruelty:513190159546712074> Scrimshaw of Cruelty
-.
-.img:https://i.imgur.com/bvuDJ77.png
-.
+> __**Presets**__
+The following presets contain recommended setups for learning to kill Araxxor. They serve as a reference for the kind of gear you may want to use when learning the boss.
+
+Gear is *mostly* from __**Stage 1**__ of the upgrade order for each combat style, but not limited to it. **As always, feel free to downgrade items as needed/based on your available gear**.
 
 .
-**__Magic__**
-*Note: downgrade as needed.*
+__**Basic Magic Preset**__ <:Magic:689504724159823906>
+.tag:magicpreset
+__**Gear Setup**__
+.img:https://i.imgur.com/1VmQl0V.png
+***Note**: For a full breakdown of the preset, check out: <https://i.imgur.com/sqkTnLJ.png>.*
+
+.
+__**Important Items**__
+⬥ <:ancientlantern:580177522503712781> with Planted Feet <:pf:689501925770919981>
 ⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:smokenihil:854475442227642388> Smoke Nihil familiar
-⬥ <:adrenrenewal:736298121704767538> Adrenaline renewal
-⬥ <:elementsscrim:841409588959510539> Scrimshaw of the elements
-⬥ Ganodermic armour for <:animatedead:856635090453135382> Animate dead
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
 ⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
 ⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
 (Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:animatedead:856635090453135382> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
-.
-.img:https://i.imgur.com/5tk0EoR.png
-.
 
 .
-**__Melee__**
-*Note: downgrade as needed.*
-⬥ <:eofred:780401412839833601> with Dragon Halberd <:dragonhalberd:841409589261238282>
-⬥ <:bloodnihil:854475442169053194> Blood Nihil familiar
-⬥ <:adrenrenewal:736298121704767538> Adrenaline renewal
-⬥ <:VampScrim:513201294262009874> Scrimshaw of Vampyrism
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:berserkersfury:697808774106185768> Berserker's Fury
+⬥ <:fontoflife:698225967679930408> Font of Life
+
+.
+__**Notes**__
+⬥ **Use a Smoke Nihil <:smokenihil:854475442227642388> to increase hitchance.**
+    • A Pack Yak <:Yak:513195712201228289> may be used when learning, but it is recommended to move to using Nihils quickly.
+⬥ **Maniacal aura <:mani:643505153709965322> is strongly recommended for hitchance reasons.**
+⬥ <:eofpurple:780401412936040478> <:gstaff:513203008608141314> can be substituted with a physical Guthix Staff <:gstaff:513203008608141314> if using a Souls <:aos:513190158359724056> or Reaper <:Reaper:513190159412494367> necklace instead.
+    • The special attack <:gstaff:513203008608141314> <:spec:537340400273195028> does good damage, and also increases hitchance.
+⬥ **Vuln bombs <:vulnbomb:655341074235129858> are for Araxxi on phase 4**, as it's cleared constantly during phase 1-3.
+⬥ Animate Dead <:animatedead:856635090453135382> is strong here, as it works against the typeless bleed that Araxxor inflicts.
+⬥ **Avoid using pocket slot items like activated Godbooks <:SaraBook:574290439482638346> <:armabook:513190159051915264> or Jas/Wen scriptures** <:scriptureofjas:869284342839513108> <:scriptureofwen:883134307902816297> as they may randomly trigger during a webshield and potentially kill you.
+    • The inactive versions may be used for stat bonuses if other options like <:elementsscrim:841409588959510539> are not available.
+
+.
+__**Basic Melee Preset**__ <:melee:615612332521029632>
+.tag:meleepreset
+__**Gear Setup**__
+.img:https://i.imgur.com/vrg9qHt.png
+***Note**: for a full breakdown of the preset, check out: <https://i.imgur.com/kCYLtyd.png>.*
+
+.
+__**Important Items**__
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
-.
-.img:https://i.imgur.com/QWLstEB.png
-.
+(Runes for <:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
 
 .
-> **__General Knowledge__**
-.tag:general
-**__Important Things to be Aware of__**
-⬥ Araxxor and Araxxi's enrage ranges from 0-300%, each kill adding 20%, the higher the enrage the more damage they deal
-⬥ Bring a pheromone or use an instance so Araxxor spawns weak to the weapons you're holding
-⬥ Araxxor uses a special attack after every 5 normal attacks
-⬥ Use <:anti:535541306475151390> or <:freedom:535541258240786434> before each special attack
-⬥ Araxxor does not die until phase 3
-⬥ There are three paths in total, one of which will be blocked:
-    • Top path (minions) - Northeast
-    • Middle path (acid) - East
-    • Bottom path (darkness) - Southeast
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:berserkersfury:697808774106185768> Berserker's Fury
+⬥ <:fontoflife:698225967679930408> Font of Life
 
 .
-> **__Special Attacks__**
+__**Notes**__
+⬥ **Use a Blood Nihil <:bloodnihil:854475442169053194> to increase hitchance.**
+    • A Pack Yak <:Yak:513195712201228289> may be used when learning, but it is recommended to move to using Nihils quickly.
+⬥ **Berserker aura <:berserker:643505116347105290> is strongly recommended for hitchance reasons.**
+⬥ <:eofred:780401412839833601> can be substituted with a Souls <:aos:513190158359724056> or Reaper <:Reaper:513190159412494367> necklace instead.
+⬥ **Vuln bombs <:vulnbomb:655341074235129858> are for Araxxi on phase 4**, as it's cleared constantly during phase 1-3.
+⬥ **Avoid using pocket slot items like activated Godbooks <:SaraBook:574290439482638346> <:armabook:513190159051915264> or Jas/Wen scriptures** <:scriptureofjas:869284342839513108> <:scriptureofwen:883134307902816297> as they may randomly trigger during a webshield and potentially kill you.
+    • The inactive versions may be used for stat bonuses if other options like <:VampScrim:513201294262009874> are not available.
+    • **Scrimshaw of Vampyrism <:VampScrim:513201294262009874> is very good when learning**, as it significantly reduces the need for food.
+⬥ Noxious Scythe is used <:noxscythe:513190159341322240> for halberd-range attacks, to avoid being in MD.
+    • A Dragonrider Lance <:dragonriderlance:643161541931171872> or Attuned Crystal Halberd <:attunedcrystalhalberd:923248695556857857> will work as well.
+
+.
+__**Basic Range Preset**__ <:range:580168050121113623>
+.tag:rangepreset
+__**Gear Setup**__
+.img:https://i.imgur.com/9DbxXCk.png
+***Note**: For a full breakdown of the preset, check out: <https://i.imgur.com/5e0k8GD.png>.*
+
+.
+__**Important Items**__
+⬥ <:dbow:643848618553507843> with Planted Feet <:pf:689501925770919981>
+⬥ <:eofgreen:780401412727242773> with <:dbow:643848618553507843>
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+(Runes for <:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
+
+.
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:berserkersfury:697808774106185768> Berserker's Fury
+⬥ <:fontoflife:698225967679930408> Font of Life
+
+.
+__**Notes**__
+⬥ **Use a Shadow Nihil <:shadownihil:854475441946230855> to increase hitchance.**
+    • A Pack Yak <:Yak:513195712201228289> may be used when learning, but it is recommended to move to using Nihils quickly.
+⬥ **Reckless aura <:reckless:643505179378974748> is strongly recommended for hitchance reasons.**
+⬥ <:eofgreen:780401412727242773> can be substituted with a Souls <:aos:513190158359724056> or Reaper <:Reaper:513190159412494367> necklace instead, but you will lose out on <:dbow:643848618553507843> <:eofspec:746403211908481184>.
+⬥ **Vuln bombs <:vulnbomb:655341074235129858> are for Araxxi on phase 4**, as it's cleared constantly during phase 1-3.
+⬥ **Avoid using pocket slot items like activated Godbooks <:SaraBook:574290439482638346> <:armabook:513190159051915264> or Jas/Wen scriptures** <:scriptureofjas:869284342839513108> <:scriptureofwen:883134307902816297> as they may randomly trigger during a webshield and potentially kill you.
+    • The inactive versions may be used for stat bonuses if other options like <:Cruelty:513190159546712074> are not available.
+⬥ **Splintering arrows <:splinteringarrows:900758234246299649> are used during phase 1-3 and Ful arrows are used during phase 4**. This is due to hitchance issues.
+    • While <:splinteringarrows:900758234246299649> are used, Salt the Wound is a very strong threshold.
+
+.
+> __**Basic Information**__
+
+This section covers the basics of what the encounter is, how the boss attacks, and what mechanics it can utilize as well as how to deal with them. Afterwards, we cover how to progress through the fight phase-by-phase in __**Fight Phases**__.
+
+.
+> __**Fight Overview**__
+.tag:overview
+⬥ The fight consists of fighting **two** monsters back-to-back: *Araxxor* in phases 1-3, and *Araxxi* in phase 4.
+⬥ It can be fought in both solo and ***duo*** modes, however note that while difficulty increases, the droprate of leg pieces *decreases* in a duo, so **it is recommended to solo the fight**.
+⬥ **The starting enrage scales from 0-300%, increasing by 20% per succesful kill.** This resets every day at 00:00 GMT.
+    • This is only the *starting* enrage - this can increase further during the fight via certain mechanics.
+⬥ Araxxor's combat style is random by default.
+    • **Use a paid instance OR carry a pheromone in your inventory.** This makes Araxxor's combat style to be weak to your mainhand weapon style.
+⬥ **There are 3 possible paths in the fight**:
+    • **Path 1 / Top path** - the minion path.
+    • **Path 2 / Middle path** - the acid path.
+    • **Path 3 / Bottom path** - the darkness path.
+    • At any time, only 2 paths are unlocked and 1 path is blocked off.
+    • Which paths are open determines what special attacks can be encountered during the fight.
+    • Phase 2 is different for each path.
+⬥ **To progress the fight, you must defeat phase 1, open a path to reach and defeat phase 2 and 3, then finally kill Araxxi in phase 4.**
+⬥ The boss can use some special attacks during the fight, *typically* once every 5 auto attacks.
+
+.
+> __**Auto-attacks**__
+.tag:autos
+__**How It Works**__
+⬥ **Phase 1-3**:
+    • **Outside melee distance**: Araxxor's auto attacks are by default the combat style he spawned with - e.g. his range form attacks with range autos, etc.
+    • **In melee distance**: Araxxor can also use melee auto attacks.
+⬥ **Phase 4**:
+    • **Outside melee distance**: Araxxi uses *both* magic and range attacks, depending on which one you are *not* praying against.
+    • **In melee distance**: Araxxi attacks with melee and magic.
+⬥ Araxxor slightly heals from his auto-attacks if he hits you while you have Soul Split <:soulsplit:615613924506599497> active, but this is fairly negligible. However, **it is still recommended to prayer flick at higher enrages**.
+
+.
+> __**Special Attacks**__
 .tag:specs
-{
-  "embed": {
-    "title": "__Special Attacks__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Cleave__",
-        "value": "⬥ Araxxor pulls you in and cleaves dealing heavy damage. [Example](https://i.imgur.com/96lukzA.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run away.\n\u200B"
-      },
-      {
-        "name": "__Cocoon__",
-        "value": "⬥ Araxxor wraps you in a cocoon dealing constant damage. [Example](https://i.imgur.com/yR1K9t6.mp4)\n\u00a0\u00a0\u00a0\u00a0• Spam left-click anywhere on your screen to free yourself.\n\u00a0\u00a0\u00a0\u00a0• <:anti:535541306475151390> / <:freedom:535541258240786434> beforehand reduces the time it takes to get free.\n\u200B"
-      },
-      {
-        "name": "__Web Shield__",
-        "value": "⬥ Araxxor covers himself in a web, and any damage dealt during this time is reflected back to you. [Example](https://i.imgur.com/vbEApc1.mp4)\n\u00a0\u00a0\u00a0\u00a0• Stop attacking Araxxor and wait for the special to end.\n\u200B"
-      },
-      {
-        "name": "__Egg Bomb__",
-        "value": "⬥ Araxxor spawns a group of eggs, and fires a slow moving projectile towards you that explodes in a 4x4 radius. [Example](https://i.imgur.com/6z3wvTk.mp4)\n\u00a0\u00a0\u00a0\u00a0• Stand top of the eggs and wait for it to explode.\n\u200B"
-      },
-      {
-        "name": "__Minion Spawn__",
-        "value": "⬥ Araxxor spawns 5 spiders, one of which is a special one: a **pulsing spider** which rapidly heals Araxxor, or a **mirrorback spider** which reflects damage dealt to Araxxor back to you. [Example](https://i.imgur.com/Nf7BooD.mp4)\n\u00a0\u00a0\u00a0\u00a0• Stop attacking Araxxor until the special spider is killed.\n\u200B"
-      },
-      {
-        "name": "__Instakill Spider__",
-        "value": "⬥ Araxxor sends out a green blob marking the ground, from which a spider spawns and chases you. [Example](https://i.imgur.com/yMhi3Jr.mp4)\n\u00a0\u00a0\u00a0\u00a0• Making contact with the spider results in instant death.\n\u00a0\u00a0\u00a0\u00a0• Run away using <:surge:535533810004262912> / <:bd:535532854281764884> and wait for it to explode on its own.\n\u200B"
-      },
-      {
-        "name": "__Light Spots__",
-        "value": "⬥ Darkness covers the room and one lit up spot appears.\n\u00a0\u00a0\u00a0\u00a0• Stand in the light to avoid taking damage\n\u00a0\u00a0\u00a0\u00a0• Utilize <:surge:535533810004262912> + <:bd:535532854281764884>\n\u200B"
-      },
-      {
-        "name": "__Acidic Spider__",
-        "value": "⬥ Looks like the Instakill spider but does not have a bar that fills over its head.\n\u00a0\u00a0\u00a0\u00a0• Harmless and best left alone.\n\u00a0\u00a0\u00a0\u00a0• Exclusive to phase 3 when middle path is open.\n\u200B"
-      },
-      {
-        "name": "__Acid Absorb__",
-        "value": "⬥ Araxxi absorbs leftover acid from phase 3, increasing her enrage.\n\u00a0\u00a0\u00a0\u00a0• Exclusive to phase 4 when middle path is open.\n\u200B"
-      },
-      {
-        "name": "__Acid Core__",
-        "value": "⬥ Excluse to phase 4, at 25k HP, Araxxi drains 50% of your adrenaline and spawns a blob that bounces around the room and deals heavy damage if it touches you.\n\u00a0\u00a0\u00a0\u00a0• If it hits you, move 1 tile then stand still."
-      }
-    ]
-  }
-}
-.embed:json
+Araxxor has multiple special attacks that can occur at different points during the fight. In this section we cover what they are and how to deal with them. After that, in the __**The Fight**__ section, we see how they appear during different phases of the fight.
+
 .
-> **__Phase 1:__**
+__**Cleave**__
+.img:https://i.imgur.com/A2rkoT1.gif
+⬥ **How it works**:
+    • The boss bends its front legs and swipes up to **2 tiles** in front of itself, dealing heavy **hard typeless damage**.
+    • **Players are dragged in if not in melee distance.**
+    • The attack damages everything it hits - including players, familiars, and any spider minions the boss has summoned.
+.
+⬥ **How to deal with it**:
+    • **Stay out of the attack range** and it will deal no damage.
+    • If Anticipation <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> are active *in advance*, the player will **not** be dragged in.
+    • **If dragged in, quickly click away to move.**
+
+.
+__**Cocoon**__
+.img:https://i.imgur.com/QfbT4nH.gif
+⬥ **How it works**:
+    • The player is wrapped in a cocoon that deals **constant damage over time** (200 damage per tick at 0% enrage, increasing with enrage).
+    • **This attack disables all active defensives.**
+    • During the cocoon, the boss will not use auto attacks.
+.
+⬥ **How to deal with it:**
+    • **Spam-click anywhere on the screen to break the cocoon.**
+    • If Anticipation <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> are active *in advance*, the number of clicks required is reduced.
+
+.
+__**Web Shield**__
+.img:https://i.imgur.com/2gfprsH.gif
+⬥ **How it works**:
+    • Araxxor hides under a web, healing 1000 health five times, reducing damage taken by 50%, and **reflecting all incoming damage heavily to the player**.
+    • Reflected damage scales with enrage.
+.
+⬥ **How to deal with it:**
+    • **Stop attacking the boss to avoid taking reflected damage**.
+    • Defensives like Debilitate <:debil:535541278264393729> and Reflect <:reflect:535541258786177064> *will* reduce reflected damage taken.
+    • Resonance <:res:535541258844635148> can be used to heal off a reflected attack.
+
+.
+__**Egg Bomb**__
+.img:https://i.imgur.com/FXooXiP.gif
+⬥ **How it works**:
+    • Araxxor spawns up to 3 eggs and fires a homing projectile at the player, that explodes dealing up to 3k typeless damage in a 5x5 area.
+    • If the player is in range of the eggs when it explodes, it destroys the eggs and reduces damage taken.
+    • If the eggs are not destroyed, they spawn spider minions.
+    • **This attack disables all defensives.**
+.
+⬥ **How to deal with it:**
+    • Stand near/on top of the eggs so that they are destroyed, which also reduces the damage taken per egg destroyed.
+    • If Anticipation <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> are active *in advance*, the number of eggs spawned is reduced from 3 to 2.
+
+.
+__**Minion Spawn**__
+.img:https://i.imgur.com/J5SMqvv.gif
+⬥ **How it works**:
+    • Araxxor spawns a wave of 5 minions, one of which can be a **special spider** - a **mirrorback** or a **pulsing** spider.
+        - **Mirrorback spiders reflect all damage the boss takes** back onto the player.
+        - **Pulsing spiders rapidly heal the boss** while they are alive.
+    • Araxxor can summon **up to 4 waves** of spiders (total of 4 × 5 = 20 spiders summoned) during the fight.
+.
+⬥ **Special spiders spawn at set times**:
+    • Wave 1: the **3rd spider** is either a Mirrorback or Pulsing spider.
+    • Wave 2: the **2nd spider** is either a Mirrorback or Pulsing spider.
+    • Wave 3: the **1st spider** is either a Mirrorback or Pulsing spider.
+    • Wave 4: **no** special spiders.
+.
+⬥ **How to deal with it:**
+    • Stop attacking the boss when it spawns spiders, if it is not the 4th wave.
+    • If spawned, **kill the Mirrorback or Pulsing spiders first.** Then either kill or ignore the remaining spiders, depending on your level of experience at the boss.
+
+.
+__**Acidic Spider**__
+.img:https://i.imgur.com/DK7CuBC.gif
+⬥ **How it works**:
+    • Araxxor spawns an Acidic spider during phase 3 if it has not absorbed all 100% acid if path 2 is open.
+    • Can be aggroed on the player and lured under Araxxor to heal him for 5k HP and reduce the available acid for Araxxi to absorb on P4 by 25%.
+.
+⬥ **How to deal with it:**
+    • **Ignore it.** It is not worth spending time dealing with, and is harmless.
+
+.
+__**Instakill Spider**__
+.img:https://i.imgur.com/mYTxw9X.gif
+⬥ **How it works**:
+    • Araxxor spits a green blob onto the ground. After a few seconds, a spider spawns and chases the player for a few seconds.
+    • A bar on the top of the spider shows how long it will chase the player.
+    • If it touches the player, it deals 32k hard typeless damage (instantly killing the player).
+.
+⬥ **How to deal with it:**
+    • **Run away from it.** It will die/despawn after the bar on its head fills up.
+    • **Barricade <:cade:535541306353778689> will prevent taking damage from this attack.**
+        - This is sometimes used if player is at the top of the ramp on phase 2 when taking the middle path, to avoid having to move.
+
+.
+__**Darkness / Light Spots**__
+.img:https://i.imgur.com/XXnmQsO.gif
+⬥ **How it works**:
+    • Araxxor turns the entire arena dark for a short time, except one lit up spot. Standing in the darkness deals increasing damage over time.
+    • Standing in the light prevents taking damage and resets the DoT damage amount.
+.
+⬥ **How to deal with it:**
+    • **Stand in the light.** Use Bladed Dive <:bd:535532854281764884> and Surge <:surge:535533810004262912> to get into it faster.
+    • Double Surge <:surgecodex:602561894414417944> and Mobile perk <:mob:689501908628799488> perk are useful here.
+
+.
+__**Putrid Wave**__
+.img:https://i.imgur.com/76WZHlY.gif
+⬥ **How it works**:
+    • When Araxxi drops below 25k HP in P4, it spawns a **black blob that bounces around and lands on the player, dealing heavy damage over time.**
+    • The player's adrenaline is also drained by 50% when it spawns.
+    • **Mechanic is exclusive to P4.**
+.
+⬥ **How to deal with it:**
+    • **Option 1**: Stand still and let it hit you *one time*, then move. **This is the preferred way.**
+    • **Option 2**: Keep running around and don't let it hit you.
+
+.
+__**Acid Absorb**__
+.img:https://i.imgur.com/iMUFaEP.gif
+⬥ **How it works**:
+    • When middle path is open, Araxxi's first special attack on phase 4 will *always* be to absorb any leftover acid from phases 2 and 3.
+    • **Mechanic is exclusive to P4, when middle path is open.**
+.
+⬥ **How to deal with it:**
+    • You cannot prevent it from happening.
+    • Use this time to quickly bring Araxxi's health to below 50k, preventing any other special attacks from being used.
+
+.
+> __**Fight Phases**__
+In this section we go over the fight phase-by-phase, covering how the phase works, what mechanics (described earlier in the __**Mechanics**__ section) may be encountered, and basic ability rotations to help you get through the phases easier.
+
+.
+> __**Phase 1**__
 .tag:p1
-⬥ Timegated phase - burn the web of your choice and lower Araxxor's hp to <5000
-⬥ Phase 1 special attacks:
+__**Phase Overview**__
+⬥ Phase 1 occurs in the starting room of the arena after dropping down. Webs cover tunnel entrances that lead to phase 2, and the player must burn one of the webs to progress to the next phase.
+⬥ This timegated phase lasts for ~1 minute from the time the player burns the web.
+⬥ Araxxor has 100k HP, which is *not* required to be depleted, but it is recommended to do so to make the fight easier (see __**Phase 3**__ for more info).
+⬥ **Araxxor uses special attacks every 5 auto attacks**. Having Anticipate <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> active will make them easier to deal with, try to use them on the 4th auto attack.
+⬥ **Possible special attacks this phase**:
     • Cleave
     • Cocoon
     • Web Shield
 
-⬥ Use <:snap:535534127131394088> + <:rapid:535541270521708566> / <:assault:535532853979512842> + <:cane:535532878969438210> + <:quake:535532879506309150> / <:wm:535533809978966037> + <:asphyx:535533833072672778>
+.
+__**Strategy**__
+⬥ **Burn the web** to your chosen path immediately when the fight starts.
+⬥ **Reduce Araxxor's health to < 5K HP.**
+    • If the web burns before you reach 5k HP, you *can* run ahead to the next phase early, but generally it's quite easy to do the required damage in time.
+⬥Remember to use strong abilities to make it easy to deplete Araxxor's health down to 5k:
+    • Magic: Wild Magic <:wm:535533809978966037> / Asphyxiate <:asphyx:535533833072672778> / Guthix Staff <:gstaff:513203008608141314> <:eofspec:746403211908481184> / Igneous Omnipower <:omnipowerigneous:959089455560540200> if <:igneouskalmej:902209626408382494> is owned.
+    • Melee: Assault <:assault:535532855191928842> / Hurricane <:cane:535532878969438210> / Quake <:quake:535532879506309150> / Tendrils <:bloodtendrils:535532854327640064> / Igneous Overpower <:overpowerigneous:959089455640215633> if <:igneouskalket:902209626404192316> is owned.
+    • Range: Snapshot <:snap:535534127131394088> / Rapid Fire <:rapid:535541270521708566> / Dark Bow EoF <:dbow:643848618553507843> <:eofspec:746403211908481184> / Shadow Tendrils <:shadowtend:642713547142332416>
+⬥ **Do not use ultimate abilities** at the start of the phase, as it is too short and timegated to make use of it.
+    • Ultimates refer to Berserk <:zerk:535532854004678657> / Death's Swiftness <:deathsswift:994921434633744455> / Sunshine <:sunshine:994921119381463070>
 
 .
-> **__Phase 2:__**
+> __**Phase 2**__
 .tag:p2
-.
-**__Top Path__**
-⬥ Lower Araxxor to <5000 HP and progress down the path to phase 3
-⬥ Additional special attacks:
-    • Egg Bomb (always the first spec of this phase)
-    • Minion Spawn
-
-⬥ With <:range:580168050121113623>, use <:deathsswift:994921434633744455> right before 100% web burn, then <:snap:535534127131394088> + <:rapid:535541270521708566> + <:shadowtend:642713547142332416>
-⬥ With <:melee:615612332521029632>, use <:igneouskalket:902209626404192316> <:overpower:535532879334080517> + <:assault:535532853979512842> + <:cane:535532878969438210>, then build adrenaline
-⬥ With <:Magic:689504724159823906>, use <:sunshine:994921119381463070> right before 100% web burn, then <:wm:535533809978966037> + <:asphyx:535533833072672778> + <:igneouskalmej:902209626408382494> <:omni:535533809664262179>
+__**Phase Overview**__
+⬥ **Phase 2 begins after crossing the burnt web** into the chosen path.
+⬥ The phase is different, depending on the path chosen.
+⬥ Araxxor's health resets to 100k at the start of the phase.
+⬥ **Phase 2 ends when you reach the part of the arena designated for phase 3**, regardless of Araxxor's remaining health.
 
 .
-**__Middle Path__**
-⬥ Timegated phase - lower Araxxor's hp to <5000.
-⬥ Lure Araxxor to the acid pool, and then onto the ledge after the acid level hits ~57% to dissolve it
-    • In order to have space to dodge the Cleave special attack, go all the way up the ledge, then move 1 tile west (down) before Araxxor reaches you
-    • Use <:surge:535533810004262912> / <:bd:535532854281764884> to reach the end of the ledge quicker
-⬥ Additional special attacks:
-    • Egg Bomb
-    • Instakill Spider
-
-⬥ Use <:snap:535534127131394088> + <:rapid:535541270521708566> / <:assault:535532853979512842> + <:cane:535532878969438210> + <:quake:535532879506309150> / <:wm:535533809978966037> + <:asphyx:535533833072672778>
-
-.
-**__Bottom Path__**
-⬥ Timegated phase - survive and stay in the light spots. Araxxor will charge at you and prompt you to choose a direction to dodge
-⬥ Move to phase 3 when the wall breaks
-.
-.img:https://imgur.com/8IvNFgM.png
-.
-⬥ Additional Special Attacks:
-    • Egg Bomb
-    • Light Spots
-
-.
-> **__Phase 3:__**
-.tag:p3
-⬥ This is the phase where you finally kill Araxxor
-⬥ Special attacks can occur from whichever 2 paths are open
-
-⬥ Top Path
-    • Use <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> / <:igneouskalxil:902209626404171786> <:deadshot:535541307666595870> + <:snap:535534127131394088> + <:rapid:535541270521708566> + <:dbow:643848618553507843> <:eofspec:746403211908481184> / <:igneouskalmej:902209626408382494> <:omni:535533809664262179> + <:wm:535533809978966037> + <:asphyx:535533833072672778> + <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-⬥ Middle & Bottom Paths
-    • Use <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> / <:sunshine:994921119381463070> + <:adrenrenewal:736298121704767538>
-        - Follow with <:snap:535534127131394088> + <:rapid:535541270521708566> + <:shadowtend:642713547142332416> / <:assault:535532853979512842> + <:cane:535532878969438210> + <:igneouskalket:902209626404192316> <:overpower:535532879334080517> / <:wm:535533809978966037> + <:asphyx:535533833072672778> + <:igneouskalmej:902209626408382494> <:omni:535533809664262179>
-
-.
-> **__Phase 4:__**
-.tag:p4
-⬥ Kill Araxxi
-⬥ Araxxi is able to use magic and ranged attacks if you stand beyond melee distance, and attacks with the style you are NOT praying against, making prayer flicking crucial
-    • Resort to <:devo:513190158728953857> if deemed necessary
-⬥ Special Attacks
+__**Top Path Strategy**__
+⬥ Araxxor will now be able to spawn minions during his special attacks, which is the primary mechanic in the top path.
+⬥ **If any minions spawn, prioritise killing Mirrorback/Pulsing spiders.**
+⬥ **Burst Araxxor's health down to <5k, then *quickly* go down the path into phase 3**:
+    • **With Range** <:range:580168050121113623>: Use Death's Swiftness <:deathsswift:994921434633744455> and build adrenaline right before the web burns, then use <:snap:535534127131394088> → <:rapid:535541270521708566> → <:shadowtend:642713547142332416> and follow up with strong basics.
+    • **With Melee** <:melee:615612332521029632>: Use Berserk <:zerk:535532854004678657> as the web burns and build adrenaline, then use <:assault:535532855191928842> → <:cane:535532878969438210> → <:slaughter:535532879237873666> and follow up with strong basics. Alternatively, if Igneous Kal Ket <:igneouskalket:902209626404192316> is owned, you can skip <:zerk:535532854004678657> and just use <:overpowerigneous:959089455640215633> instead.
+    • **With Magic**: Use Sunshine <:sunshine:994921119381463070> before the web burns and build adrenaline, then use <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> etc. and follow up with strong basics. If Igneous Kal-Mej <:igneouskalmej:902209626408382494> is owned, you can use <:omnipowerigneous:959089455560540200> as well.
+⬥ **Possible special attacks this phase:**
     • Cleave
     • Cocoon
-    • Light Spots
-    • Minion Spawn
-    • Acid Absorb
-    • Acid Core
-
-⬥ Use <:fularrow:971025696958853180> Ful arrows if ranging
-⬥ Use <:igneouskalxil:902209626404171786> <:deadshot:535541307666595870> + <:snap:535534127131394088> + <:rapid:535541270521708566> / <:igneouskalket:902209626404192316> <:overpower:535532879334080517> + <:assault:535532853979512842> + <:cane:535532878969438210> + <:dragonhalberd:841409589261238282> <:eofspec:746403211908481184> / <:igneouskalmej:902209626408382494> <:omni:535533809664262179> + <:wm:535533809978966037> + <:asphyx:535533833072672778> + <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+    • Web Shield
+    • Minion Spawn (new)
+    • Egg Bomb (new) - this will *always* be the first special attack when taking the top path.
 
 .
-**__Additional HP-based Mechanics__**
-⬥ **__50k HP:__**
-    • Araxxi stops using special attacks, gains increased damage, attack speed
-    • Soft cap: any hits above 5k are heavily reduced
+__**Middle Path Strategy**__
+⬥ Araxxor will now be able to use acid-based mechanics during this timegated phase.
+⬥ Araxxor will always try to stay within 3 tiles of the player during this phase.
+⬥ **Lure Araxxor anywhere over the acid pit to absorb acid, then walk him up the ramp near the top to drop the acid on the ramp. Once the ramp breaks, climb over it to reach phase 3.**
+⬥ **At least 50% acid must be dropped *on* the ramp** - have Araxxor absorb at least 60-65% acid before going up.
+⬥ If you run out of acid, you must lure him over the pool again.
+⬥ **When going up the ramp, the ideal spot to stand is to go all the way up, then 1 tile down.**
+    • This is so that if Araxxor uses Cleave on the ramp, you can move back 1 tile to dodge it.
+    • Use <:bd:535532854281764884> and <:surge:535533810004262912> to get up the ramp faster.
+.img:https://i.imgur.com/Sd1qxtX.jpg
+⬥ **Try to bring Araxxor's health down to <5K using your thresholds/specs.** There is plenty of time to do damage.
+    • i.e. use <:wm:535533809978966037> + <:asphyx:535533833072672778> + <:gstaff:513203008608141314> <:eofspec:746403211908481184> + <:omnipowerigneous:959089455560540200> / <:snap:535534127131394088> + <:rapid:535541270521708566> + <:dbow:643848618553507843> <:eofspec:746403211908481184> + <:shadowtend:642713547142332416> / <:assault:535532855191928842> + <:cane:535532878969438210> + <:quake:535532879506309150> + <:slaughter:535532879237873666> + <:bloodtendrils:535532854327640064>
+⬥ **Do not use ultimate abilities** as you have to move around a lot.
+⬥ **Possible special attacks this phase:**
+    • Cleave
+    • Cocoon
+    • Web Shield
+    • Instakill Spider (new)
+    • Egg Bomb (new)
 
-⬥ **__At 25k HP:__**
-    • Araxxi spawns the acid core
-        - Utilize channeled threshold <:rapid:535541270521708566> / <:assault:535532853979512842> / <:asphyx:535533833072672778> before adrenaline drain (when Araxxi has ~27k hp)
+.
+__**Bottom Path Strategy**__
+⬥ This is a timegated phase where you do not have to actively attack Araxxor.
+⬥ Araxxor will occasionally use range and mage auto attacks.
+⬥ **Stay in the light spots when they spawn, and avoid the darkness.** Standing in the dark will deal increasing damage over time.
+⬥ **When Araxxor charges at you, dodge in the correct direction to damage the wall to phase 3**.
+    • Dodging correctly will deal 100% damage to the wall.
+    • Dodging incorrectly will deal 50% and deal 2500 damage to the player.
+    • Not dodging at all will deal no damage to the wall, and deal 5000 damage to the player.
+⬥ **As soon as the wall breaks, move to phase 3.**
+⬥ Having the Mobile perk and using <:bdmobile:867678153668820992> + <:surgemobile:867678153798975498> makes it easier to reach the light spots. Double Surge <:surgecodex:602561894414417944> can be helpful as well.
+⬥ This is a good time to heal with an Enhanced Excalibur <:excal:641337999170207763>.
+⬥ See the following image for which directions to dodge the charge, based on how Araxxor swings his legs:
+.img:https://i.imgur.com/8IvNFgM.jpg
+⬥ **Possible special attacks this phase:**
+    • Egg Bomb (new) - at higher enrages, you may ignore this since moving to the eggs will cause you to take more damage from the darkness.
+
+.
+> __**Phase 3**__
+.tag:p3
+__**Phase Overview**__
+⬥ Araxxor's health resets to 100k, but he will also heal all health that was not depleted in phase 1 and 2.
+⬥ **Phase 3 ends when Araxxor's health is brought to 0.**
+⬥ Araxxor attacks with increased speed during p3.
+⬥ This phase is similar to phase 1, but Araxxor will have access to additional special attacks depending on the path rotation.
+⬥ **Possible special attacks this phase:**
+    • Cleave
+    • Cocoon
+    • Web Shield
+    • Egg Bomb
+    • Minions (if path 1 is not closed)
+    • Acid Spider + Instakill Spider (if path 2 is not closed)
+    • Darkness (if path 3 is not closed)
+
+.
+__**Strategy**__
+⬥ **Prioritise dealing damage and bringing Araxxor's health to zero quickly.**
+    • If Mirrorback/Pulsing spiders spawn (when top path is open) prioritise killing them first.
+⬥ If you did not use your damage-boosting ultimates <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> in phase 2, you may choose to use them here.
+⬥ **If top path was taken**: Use strong thresholds/special attacks/etc. to kill Araxxor.
+    • i.e. use <:wm:535533809978966037> + <:asphyx:535533833072672778> + <:gstaff:513203008608141314> <:eofspec:746403211908481184> + <:omnipowerigneous:959089455560540200> / <:snap:535534127131394088> + <:rapid:535541270521708566> + <:dbow:643848618553507843> <:eofspec:746403211908481184> + <:shadowtend:642713547142332416> / <:assault:535532855191928842> + <:cane:535532878969438210> + <:quake:535532879506309150> + <:slaughter:535532879237873666> + <:bloodtendrils:535532854327640064>
+⬥ **If middle/bottom path was taken**: Use a damage-boosting ultimate (<:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:zerk:535532854004678657>) and strong thresholds/etc. and finish Araxxor off.
+
+.
+> __**Phase 4**__
+.tag:p4
+__**Phase Overview**__
+⬥ Araxxor drags the player to phase 4, then dies and Araxxi spawns. **Araxxi has 100k health and must be killed to finish the fight.**
+⬥ Araxxi will use auto-attacks depending on where you are standing:
+    • Outside melee distance: Araxxi uses both magic and range attacks, depending on which one you are *not* praying against.
+    • In melee distance: Araxxi attacks with melee and magic.
+⬥ **When Araxxi has 100k to 50k health**:
+    • Has access to **all the special attacks** used in phase 3.
+    • If acid path is open: first special attack in phase 4 will *always* be replaced with absorbing remaining acid from phase 2 and 3. **This is a good time to DPS hard.**
+    • If top path is open: if all 20 spiders were not killed in phase 3, Araxxi can summon Mirrorback/Pulsing spiders. during the minion spawn special attack.
+⬥ **When Araxxi reaches 50k health**:
+    • Stops using special attacks.
+    • Attacks faster, and deals increased damage.
+⬥ **When Araxxi reaches 25k health**:
+    • Drains 50% adrenaline from the player, and uses the **Putrid Wave** special attack.
+
+.
+__**Strategy**__
+⬥ **Prioritise prayer flicking** as it is your single biggest source of damage reduction during the phase.
+⬥ **When Araxxi has 100k to 50k health**:
+    • Focus on bringing Araxxi down to 50k quickly to stop her using special attacks.
+⬥ **When Araxxi reaches 50k health**:
+    • Start building adrenaline in preparation for when Araxxi reaches 25k HP left.
+⬥ **When Araxxi has 27-30k health left**:
+    • **Use your strongest thresholds/modified ultimate abilities before your adrenaline gets drained** to make the rest of the fight as quick as possible.
+    • These include: <:asphyx:535533833072672778> / <:omnipowerigneous:959089455560540200> / <:assault:535532855191928842> / <:overpowerigneous:959089455640215633> / <:rapid:535541270521708566> / <:deadshotigneous:959089455283728386>
+⬥ You may choose to use Debilitate <:debil:535541278264393729> or Devotion <:devo:513190158728953857> before to reduce damage taken during the last part of the fight.
+⬥ **If the Acid Core spawns, do not panic** - panicking is a quick way to die.
+    • Eat up and and focus on your prayer flicks.
+    • If it hits you, simply move a tile afterwards, and continue to do damage.
+.
+⬥ If you did not use your damage-boosting ultimates <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012> + <:adrenrenewal:736298121704767538> in phase 3 (or not on cooldown at the start of phase 4) you can use them during phase 4 to help make it go quicker.
+    • If using range, Ful arrows <:fularrow:971025696958853180> are great for P4.
 
 .
 > __**Example Kills**__
@@ -221,36 +459,65 @@ Drops include components for three level 90 two-handed weapons, one for each com
 .
 {
   "embed": {
-    "title": "",
-    "description": "",
+"title": "__Example Kills__",
+    "description": "Some example kills to compare and improve your own kills with.",
     "color": 39423,
     "fields": [
       {
-        "name": "__Melee__",
-        "value": "⬥ [2:55 Top path](https://youtu.be/pMHgkRT-u64)\n⬥ [3:34 Middle path](https://youtu.be/jER2natZBWo)\n⬥ [3:20 Bottom path](https://youtu.be/By2-7DhwOIc)\n"
+        "name": "__Magic__ <:Magic:689504724159823906>",
+        "value": "⬥ [2:52 - Top Path](https://youtu.be/yJFOWlzbtuE)\n⬥ [3:38 - Middle Path](https://youtu.be/RRN25Boy9jc)\n⬥ [3:22 - Bottom Path](https://youtu.be/i-0Js_wJLX0)"
       },
       {
-        "name": "__Melee with <:igneouskalket:902209626404192316>__",
-        "value": "⬥ [2:45 Top path](https://youtu.be/WY8hyAy-nSM)\n⬥ [3:22 Middle path](https://youtu.be/dOVU9P5TdVs)\n⬥ [3:05 Bottom path](https://youtu.be/O0zvMsqY4MA)\n"
+        "name": "__Melee__ <:melee:615612332521029632>",
+        "value": "⬥ [2:55 - Top Path](https://youtu.be/pMHgkRT-u64)\n⬥ [2:45 - Pop path](https://youtu.be/WY8hyAy-nSM)\n⬥ [3:22 - Middle Path](https://youtu.be/dOVU9P5TdVs)\n⬥ [3:34 - Middle Path](https://youtu.be/jER2natZBWo)\n⬥ [3:20 - Bottom Path](https://youtu.be/By2-7DhwOIc)\n⬥ [3:05 - Bottom Path](https://youtu.be/O0zvMsqY4MA)"
       },
       {
-        "name": "__Range__",
-        "value": "⬥ [4:30 Top path](https://youtu.be/FtabpPPrXmw)\n⬥ [3:38 Middle path](https://youtu.be/nlAEwOdtTPE)\n⬥ [3:28 Bottom path](https://youtu.be/0NPDLStUYes)\n"
-      },
-      {
-        "name": "__Magic__",
-        "value": "⬥ [2:52 Top path](https://youtu.be/yJFOWlzbtuE)\n⬥ [3:38 Middle path](https://youtu.be/RRN25Boy9jc)\n⬥ [3:22 Bottom path](https://youtu.be/i-0Js_wJLX0)\n\u200B"
+        "name": "__Range__ <:range:580168050121113623>",
+        "value": "⬥ [4:30 - Top Path](https://youtu.be/FtabpPPrXmw)\n⬥ [3:38 - Bottom Path](https://youtu.be/nlAEwOdtTPE)\n⬥ [3:28 - Bottom Path](https://youtu.be/0NPDLStUYes)"
       }
+
     ]
   }
 }
 .embed:json
+
 .
 {
-  "embed": {
-    "title": "Table of Contents",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [General Knowledge]($linkmsg_general$)\n⬥ [Special Attacks]($linkmsg_specs$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_examples$)",
-    "color": 39423
-  }
+   "embed":{
+      "title":"Table of Contents",
+      "color":39423,
+      "fields":[
+         {
+            "name":"__Introduction__",
+            "value":"⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)",
+            "inline":true
+         },
+         {
+            "name":"__Presets__",
+            "value":"⬥ [Magic Preset]($linkmsg_magicpreset$)\n⬥ [Melee Preset]($linkmsg_meleepreset$)\n⬥ [Range Preset]($linkmsg_rangepreset$)",
+            "inline":true
+         },
+         {
+            "name":"__Basic Information__",
+            "value":"⬥ [Fight Overview]($linkmsg_overview$)\n⬥ [Auto-attacks]($linkmsg_autos$)\n⬥ [Special Attacks]($linkmsg_specs$)",
+            "inline":true
+         },
+         {
+            "name":"__Fight Phases__",
+            "value":"⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)",
+            "inline":true
+         },
+         {
+            "name":"__Misc.__",
+            "value":"⬥ [Example Kills]($linkmsg_examples$)",
+            "inline":true
+         },
+         {
+            "name":"\u200B",
+            "value":"\u200B",
+            "inline":true
+         }
+      ]
+   }
 }
 .embed:json
