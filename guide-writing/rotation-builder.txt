@@ -1,7 +1,49 @@
-<@!207588233780002818> made a rotation builder website (https://pvme.github.io/rotation-builder/) that will display pictures of the emojis when you type their name or an alias of their name from <#1020845621227307110>. For example if i type gbarge -> assault -> deci -> destroy, it will give me greaterbarge → assault → decimate → destroy, it outputs this:
+.
+> __**Introduction**__
+.tag:intro
+⬥ The **Rotation Builder** is a tool that was developed by <@207588233780002818> to make writing rotations for guides easier.
+⬥ Try it for yourself here: **<https://pvme.github.io/rotation-builder/>**
+
+.
+> __**Rotation Builder Layout**__
+.tag:layout
+⬥ When you open the website you'll see the a layout similar to the following.
+.img:https://i.imgur.com/bigtPP9.png
+⬥ **Input Text** is where your input text goes.
+⬥ **Output** is a live output of the emojis from your input text.
+⬥ **Copy Options** allow you to copy the text in a couple different output options.
+    • **Copy Discord** copies the text as it would be input for a guide in PVME.
+    • **Copy Draw.io** copies the raw HTML for import into **draw.io** (a free online tool that helps make flowcharts, diagrams, etc.)
+
+.
+> __**Input Text**__
+.tag:input
+⬥ When typing the name or alias of an emoji from <#1020845621227307110>, the website will automatically display it as an emoji instead of text.
+⬥ For example, typing the raw input text `gbarge → assault → deci → destroy` will yield the following output:
 .img:https://i.imgur.com/7x5KPtM.png
-⬥ Instructions to use the rotation builder are on the website, but feel free to ask questions if you need help.
+⬥ More examples of how to format input are given on the website.
 
-⬥ When you make a new rotation, please cope paste your INPUT text into the <#924678625465368656> channel of github, or paste it in <#724129126314803230> and ask someone to post it to github for you. We Want to save the input text so we have something to go back if the rotation requires edits in the future.
+.
+> __**Saving Output**__
+.tag:output
+⬥ **To save it as an image**: please screenshot *only* the output section.
+    • A picture of the rotation looks cleaner and is more easily shared with people than a ton of emoji text IDs.
+⬥ **To use emojis directly in a guide**: use the **Copy Discord** button and paste the copied text into your guide.
+⬥ Copying the data for draw.io: follow the tutorial given at the bottom of the website.
 
-⬥ When you are happy with how the rotation looks, please screenshot just the OUTPUT section and use the screenshot of the rotation for the actual guide. A picture of the rotation looks cleaner and is more easily shared with people than a ton of emoji text IDs.
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Information__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Layout]($linkmsg_layout$)\n⬥ [Input Text]($linkmsg_input$)\n⬥ [Saving Output]($linkmsg_output$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
