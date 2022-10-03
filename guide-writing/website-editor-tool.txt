@@ -1,52 +1,85 @@
-<https://pvme.github.io/guide-editor/> by <@!207588233780002818>: A comprehensive editor tool to accelerate guide making for PvME.
+.
+> __**Introduction**__
+.tag:intro
+⬥ Try it for yourself: **<https://pvme.github.io/guide-editor/>**
+⬥ The **PVME Guide Editor**, developed by <@!207588233780002818>, is a comprehensive editor tool to accelerate guide making for PvME.
+⬥ It is the recommended way to write content for guides, as it makes it easier to write guides with the live preview, and prevent issues from occuring when submitting them with the help of the integrated error checker.
 
 .
-When you open the website you'll see 3 boxes with a top bar.
-.
-.img:https://imgur.com/bXI7tuj.png
-.
-**Box 1** is where you put your text.
-**Box 2** is live preview of what it will look like in discord.
-**Box 3** displays any formatting errors in your text.
+> __**Editor Layout**__
+.tag:layout
+⬥ When you open the website you'll see the a layout similar to the following.
+.img:https://i.imgur.com/zr62id2.png
+⬥ **Input Text** is where your input text goes.
+⬥ **Discord Preview** is a live preview of what it will look like in discord.
+⬥ **Error Checker** displays any formatting and syntax errors in your text that need to be corrected.
+⬥ The **Formatting Bar** contains tools to help you format your input text.
+    • Covered in detail below.
 
 .
-**Top Bar** buttons from left to right:
+> __**Formatting Bar**__
+⬥ The formatting bar at the top contains tools to help format your input text.
 .
+__**Text Formatting**__
 .img:https://imgur.com/WcekSyf.png
-.
-**B** *I* __U__ ~~S~~ - **Bold**, *italicize*, __underline__, and ~~strike through~~.
-**H1** - Indents, bolds and underlines paragraph.
-**H2** - Bolds and underlines paragraph.
+⬥ **B** *I* __U__ ~~S~~ - **Bold**, *italicize*, __underline__, and ~~strike through~~.
+⬥ **H1** - Indents, bolds and underlines paragraph.
+⬥ **H2** - Bolds and underlines paragraph.
 
 .
+__**Lists and Code**__
 .img:https://imgur.com/H8jz5KQ.png
-**2 buttons on the left** - Reformats selected text as bulleted and numbered lists, respectively.
-**2 buttons on the right** - Applies the following effects to selected words:
-.
+⬥ **2 buttons on the left** - Reformats selected text as **bulleted** and **numbered** lists, respectively.
+⬥ **2 buttons on the right** - Reformat selected text as **inline code** and as a **code block** respectively.
 .img:https://imgur.com/HUYXf3K.png
 
 .
+__**Commands and Templates**__
 .img:https://imgur.com/YpdbuKa.png
-Template ⏷ - Dropdown containing a few short stylistic templates to be standardized across editors creating guides (e.g. adding website links, describing EoFs and Rune Pouch contents).
+⬥ **Template ⏷** - Menu containing a few short stylistic templates to be standardized across editors creating guides. This will be updated as new templates get added.
+    • Contains templates for embeds, a barebones guide template, a copy of the style guide for reference, etc.
+⬥ **Command ⏷** - Menu containg a few shortcuts for implementing elements other than raw text (e.g. images, tags for Table of Contents, links to spreadsheet values, etc.).
 
 .
-⬥ This is the most notable button convenience wise, allowing you to use functions like "Embed Formatting" for a complete raw template of an embed, or "Guide" for a complete raw backbone of an entire guide.
-
-Command ⏷ - Dropdown containg a few shortcuts for implementing elements other than raw text (e.g. images, tags (for TOC), and links to spreadsheet values).
-
-.
+__**Misc. Buttons**__
 .img:https://imgur.com/rYEb2gj.png
 .
-<|> - Toggles automatically scrolling of the live preview to the bottom of the preview (mimics guide channels in the discord).
-
-👁 - Toggles the live preview on/off, useful for reducing lag if writing very long guides.
-
-.
-? - Shows various autoformatting shortcuts for features like emojis, channel names, role names, and users, which automatically becomes converted into the proper discord text.
-
-ⓘ - Links websites editors may use, as well as the issues tab for this website editor for any updates that are in the works.
+⬥ **<|>** - Toggles automatically scrolling of the live preview to the bottom of the preview (mimics guide channels in the discord).
+⬥ **👁** - Toggles the live preview on/off, useful for reducing lag when writing very long guides.
+⬥ **?** - Shows formatting shortcuts and features, and instructions for the editor.
+⬥ ⓘ - Some quick links for editors may use, as well as the GitHub issues tab for this website editor for any updates that are in the works.
 
 .
-Video walkthrough by <@160462420693745664>: https://youtu.be/LQWuufctPLA
+> __**Input Text**__
+.tag:input
+⬥ Use the **left box for input text** to write the raw content for your guides.
+⬥ There is a **live preview on the right**, as shown in the layout image above.
+⬥ See the question mark **?** button on the top right of the web editor for tips to make editing a little quicker.
 
 .
+> __**Error Checker**__
+.tag:error
+⬥ If any style or formatting errors are present in your guide, then they will be listed here.
+⬥ The checker is the same as the one used during pull requests on GitHub, so **if you see any errors here, fix them before submitting it!**
+
+.
+> __**Video Tutorial**__
+.tag:video
+If you prefer to watch a video guide, then see the following tutorial by <@160462420693745664>: https://youtu.be/LQWuufctPLA
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Information__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Editor Layout]($linkmsg_layout$)\n⬥ [Input Text]($linkmsg_input$)\n⬥ [Error Checker]($linkmsg_error$)\n⬥ [Video Tutorial]($linkmsg_video$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

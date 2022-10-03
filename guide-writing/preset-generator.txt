@@ -1,0 +1,87 @@
+.
+> __**Introduction**__
+.tag:intro
+The **PVMe Preset Generator**, developed by <@!207588233780002818>, is a Google Sheet created for the purpose of making standarised presets for guides easier to create and maintain. It is the preferred way to display presets in guides.
+
+**This guide only covers how to use the tool. For full preset formatting, please see <#1020843999642271774> or any of the other guides in PVMe where presets are used.**
+
+The preset generator can be found at the following link.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Generator__",
+        "value": "Check out the PVME Preset Generator [here](https://docs.google.com/spreadsheets/d/1WpbEGSWK5qhsdq7ERMYh70PUOg9BTW85nFW0TAcNWCQ).\n__Make a copy__ to use for yourself."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Preset Generator Layout**__
+.tag:layout
+⬥ When you open the preset generator, you'll see the following layout.
+.img:https://i.imgur.com/7yZxYbS.png
+⬥ There are **4 sheets** shown at the bottom.
+⬥ **Presets Sheet**
+    • Contains the final output preset images.
+⬥ **Presets - Source**
+    • Contains the populated names for the items in the presets.
+    • This is how you decide what items are shown in the presets.
+⬥ **Presets - Item Database**
+    • Contains the raw information required by the preset generator to function.
+⬥ **Presets - Breakdown**
+    • Contains the full breakdowns (item names + additional info/comments) for presets.
+
+.
+> __**Creating a Preset**__
+.tag:guide
+__**Step 1: Populating Preset**__
+⬥ The first step is to fill the preset contents.
+⬥ Go to the *Presets - Source* sheet and find find the cells associated with your preset. You will see something like the following:
+.img:https://i.imgur.com/SiQBFRG.png
+⬥ **You need to write the appropriate item names in the cells to create the preset.**
+⬥ Item names are available in the dropdown menu as you type, but you can also find them in the *Presets - Item Database* tab.
+    • This process will become faster as you learn the item names as you create more presets.
+
+.
+__**Step 2: Populating Preset Breakdown**__
+⬥ The second step is to populate the advanced preset breakdown.
+⬥ Go to the *Presets - Breakdown* sheet and find the cells associated with your preset. You will see something like the following:
+.img:https://i.imgur.com/c8OiFru.png
+⬥ **You need to fill in any notes required to make the breakdown more useful for viewers**. The purpose of the breakdown is for readers who are not sure what items are in a preset in a guide, and so any additional comments here can be useful. See the following for an example of a filled-in breakdown.
+.img:https://i.imgur.com/0hpAL3h.png
+
+.
+__**Step 3: Taking Screenshots**__
+⬥ The third step is to take screenshots of your preset and its breakdown.
+⬥ **For the preset screenshot**:
+    • Zoom in your browser tab to **150%**.
+    • Capture the preset with a small border around the items.
+    • See the following example of an example of a properly taken preset image:
+.img:https://i.imgur.com/P28zwFP.png
+.
+⬥ **For the preset breakdown screenshot**:
+    • Zoom out your browser to 90% (on a standard 1080p screen, this is sufficient).
+    • Capture the preset breakdown, staying within the white/grey border.
+    • The image should be a single, unbroken image.
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Information__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset Generator Layout]($linkmsg_layout$)\n⬥ [Creating Preset - Guide]($linkmsg_guide$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
