@@ -117,6 +117,11 @@ This channel contains a list of all of PvME's commands along with a brief summar
 ⬥ !teamforming - Generates invite links to popular affiliated teamforming servers.
 
 .
+> __**OSRS**__
+.tag:osrs
+⬥ !runelite - Lists secure places to download Runelite.
+
+.
 > __**Miscellaneous**__
 .tag:misc
 ⬥ !banking - Provides a sample banking preset and describes its contents.
@@ -184,6 +189,11 @@ This channel contains a list of all of PvME's commands along with a brief summar
        {
         "name": "__Server Help Commands__",
         "value": "[Link]($linkmsg_serverhelp$)",
+        "inline": true
+      },
+       {
+        "name": "__OSRS Commands__",
+        "value": "[Link]($linkmsg_osrs$)",
         "inline": true
       },
        {
