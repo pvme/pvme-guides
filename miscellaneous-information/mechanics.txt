@@ -208,43 +208,6 @@ __**Interactions with Damage-Boosting Ultimates**__
 .img:https://i.imgur.com/7p6v2bc.png
 
 .
-> __**Back-to-Back Special Attacks**__
-.tag:b2bspec
-__**How It Works**__
-⬥ Attempting to use special attacks back-to-back (<:spec:537340400273195028> → <:spec:537340400273195028>) can potentially incur a delay in-between, depending on the **speed** of the attack used *before* the first special attack used.
-⬥ In other words, the first special attack won't be delayed, the second one **may** be delayed. See the table below.
-
-```
-Abilities:
-> Fastest Ability: Spec → no delay → Spec
-> Fast Ability   : Spec → no delay → Spec
-> Average Ability: Spec → 1t delay → Spec
-> Slowest Ability: Spec → 7t delay → Spec
-
-Autos:
-> Fastest Auto: Spec → 1t delay → Spec
-> Fast Auto   : Spec → 2t delay → Spec
-> Average Auto: Spec → 3t delay → Spec
-> Slowest Auto: Spec → 9t delay → Spec
-```
-*Note: Preceding abilities are assumed to be non-channeled. The delay when using a channeled ability is **2t**.*
-.
-__**Examples**__
-Here we cover some example scenarios of chaining special attacks.
-⬥ (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • There is **no delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> since the first one was **fastest** speed.
-
-⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • There is **1t delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the first one was only **average** speed.
-
-⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • There is **1t delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the first one was only **average** speed.
-    • The speed of the second one does not affect this.
-
-⬥ (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • This results in **1t delay** on the 2nd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the <:dbreath:535533833391702017> was only **average** speed.
-
-.
 > __**Camera Shaking**__
 .tag:shake
 __**How It Works**__
@@ -997,12 +960,12 @@ __**Poison Interactions**__
     "fields": [
       {
         "name": "__Mechanics (1/3)__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [B2B Special Attacks]($linkmsg_b2bspec$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)\n⬥ [Grimshaw]($linkmsg_grimshaw$)",
         "inline": true
       },
       {
         "name": "__Mechanics (2/3)__",
-        "value": "⬥ [Grimshaw]($linkmsg_grimshaw$)\n⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
+        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
         "inline": true
       },
       {
