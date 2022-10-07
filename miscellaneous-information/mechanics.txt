@@ -667,6 +667,8 @@ __**Walking Abilities**__
 .
 > __**Seren Godbow (SGB) Mechanics**__ <:sgb:626466665848242186>
 .tag:sgb
+*Note: For a summary of where/when/how to use SGB, and a list of boss sizes use the `!sgb` command.*
+.
 __**How It Works**__
 ⬥ The Seren Godbow <:sgb:626466665848242186> is a T92 chargebow that has a strong special attack, *Crystal Rain*.
 ⬥ The special attack fires 5 arrows that land in a certain area around the target. There are two aspects to this:
@@ -713,12 +715,25 @@ __**Arrows 2-5+**__
 ⬥ **A general rule of thumb for <:sgb:626466665848242186> <:spec:537340400273195028>**:
     • When Ranging → use on 3⨯3 or bigger targets.
     • When off-style → use 5⨯5 or larger targets.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Boss Sizes for SGB__",
+        "value": "For a list of boss sizes to decide when to use SGB on/off-style, [click here.](https://docs.google.com/spreadsheets/d/1fyH5qJjb08SzefZTQ23jANcKq7V8xSw7YHCu8QasQco)"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 __**Blocked Targets**__
 ⬥ A target is considered 'blocked' when the player is unable to reach it's center tile.
-    • e.g. P5 Telos
-⬥ Any NPC that is larger than 5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
+    • e.g. P4 Araxxi
+⬥ Any NPC whose size is ≥5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
 
 .
 __**Notes**__
