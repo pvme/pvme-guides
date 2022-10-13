@@ -46,12 +46,28 @@ This encounter has 17 waves of enemies, and then the final boss, TzKal-Zuk. Norm
 2. There should only be 1-2 mobs that can attack you at a time.
     a. Kill them and move out to let some more mobs find you. Move back in once they are untrapped
 3. Repeat until the wave is cleared*
+.tag:mobs
+.img:https://i.imgur.com/WxvWBTS.png
 
 .
 > **__Normal Waves (1-3, 7-8, 12-13) and Igneous Waves (4, 9, 14)__**
 .tag:normal
-**__Waves 1-3, 7-8, 12-13__**
-⬥ Various mobs that need to be killed
+**__Waves 1-3__**
+⬥ Wave 1: <:DeflectMelee:544195488447201300> at 10 seconds Kih will spawn south and southwast, kill them immediately.
+.
+⬥ Wave 2: <:DeflectRange:544195488317046812> focus the Xil x2 >  <:soulsplit:615613924506599497> Kih > Yt-Mejkot.
+.
+⬥ Wave 3: <:DeflectRange:544195488317046812> Xil > <:soulsplit:615613924506599497> Kih > Yt-Mejkot.
+.
+**__Waves 7-8__**
+⬥ Wave 7: <:soulsplit:615613924506599497> Kih > Yt-Mejkot > <:DeflectRange:544195488317046812> Tok-Xil > Mej > -Xil.
+.
+⬥ Wave 8: Focus <:DeflectRange:544195488317046812> Mej, > Yt-Mejkot > Tok-Xil > Xil. Tok-Xil takes priority over anything else when safely attackable.
+.
+**__Waves 12-13__**
+⬥ Wave 12:  <:DeflectMage:544195487926845462> Mej > <:DeflectRange:544195488317046812> Tok-Xil > Kih x2 > Tok-Xil > <:DeflectMage:544195487926845462> Mej x2 > NE Ket-Zek > Mej > NW Ket-Zek.
+.
+⬥ Wave 13:  <:DeflectMage:544195487926845462> Ket-Zek > <:DeflectRange:544195488317046812> Tok-Xil > <:DeflectMage:544195487926845462> Mej > <:DeflectRange:544195488317046812> Tok-Xil > <:DeflectMage:544195487926845462> Ket-Zek > Mej, NE Ket-Zek > Mej > NW Ket-Zek.
 
 **__Igneous Waves 4, 9, 14__**
 ⬥ 3 Large Igneous variants of mobs will spawn along with many normal versions of that mob
@@ -139,7 +155,7 @@ It should be noted that Zuk will skip the first 3 auto attacks and go into the G
 .
 > **__Example Kills__**
 .tag:example
-*To be added*
+https://youtu.be/5pJXzPYhvsk
 
 .
 > __**Alt1 TzKal-Zuk Helper (Courtesy of <@!326454337561821184>)**__
@@ -167,64 +183,8 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-        "inline": true
-      },
-      {
-        "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-        "inline": true
-      },
-      {
-        "name": "__The Fight__",
-        "value": "[Link]($linkmsg_fight$)",
-        "inline": true
-      },
-      {
-        "name": "__Normal Waves (1-3, 7-8, 12-13) and Miniboss Waves (4, 9, 14)__",
-        "value": "[Link]($linkmsg_normal$)",
-        "inline": true
-      },
-      {
-        "name": "__Challenge Waves (5, 10, 15)__",
-        "value": "[Link]($linkmsg_challenge$)",
-        "inline": true
-      },
-      {
-        "name": "__Jad Waves (6, 11, 16)__",
-        "value": "[Link]($linkmsg_jad$)",
-        "inline": true
-      },
-      {
-        "name": "__TzekHaar-Aken__",
-        "value": "[Link]($linkmsg_aken$)",
-        "inline": true
-      },
-      {
-        "name": "__TzKal-Zuk__",
-        "value": "[Link]($linkmsg_zuk$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-        "inline": true
-      },
-      {
-        "name": "__Alt1 TzKal-Zuk Helper__",
-        "value": "[Link]($linkmsg_alt1$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Normal Waves (1-3, 7-8, 12-13) and Miniboss Waves (4, 9, 14)]($linkmsg_normal$)\n⬥ [Challenge Waves (5, 10, 15)]($linkmsg_challenge$)\n⬥ [Jad Waves (6, 11, 16)]($linkmsg_jad$)\n⬥ [TzekHaar-Aken]($linkmsg_aken$)\n⬥ [TzKal-Zuk]($linkmsg_zuk$)\n⬥ [Example Kills]($linkmsg_example$)\n⬥ [Alt1 TzKal-Zuk Helper]($linkmsg_alt1$)",
+    "color": 39423
   }
 }
 .embed:json
