@@ -1,8 +1,36 @@
-> **__Bossing Path (Courtesy of <@401918445429587969>)__**
-.tag:bossing
-This path isn't set in stone. Everyone learns in different ways; however this is a decent route to follow. Additionally, the encounters listed are from a solo perspective, as group encounter requirements can be much more vague.
+> **__Bossing Path (Courtesy of <@401918445429587969> & <@690924118744367236>)__**
+.tag:introduction
+This path isn't set in stone. Everyone learns in different ways; however, this is a decent route to follow. Additionally, the encounters listed are from a solo perspective, as group encounter requirements can be much more vague.
 
-Initial combat experience can be gained by doing general Slayer. This can be used to get the hang of the abilties and what they do. You can also take this chance to get used to some keybinds, as you can go at your own pace during Slayer. Alternatively, you may practice on a dummy, though you won't gain any XP or GP.
+Initial combat experience can be gained by doing general Slayer at your own pace. This can be used to get the hang of combat abilties and what they do. You can also take this chance to get used to some keybinds. Alternatively, you may practice on a dummy, though you won't gain any XP or GP, and the dummy doesn't fight back!
+
+.
+> **__Bosses to Learn__**
+.tag:learn
+Arguably the best boss for overall learning, Arch-Glacor provides a customizable bossing experience. In normal mode, the player may turn mechanics on and off in order to learn them at their own pace. Once comfortable with a few mechanics, the player can turn many mechanics on at once to test their knowledge. In hard mode, all mechanics are enabled, with a few changes, and survivability becomes more of a challenge. In general, it is recommended to start on normal mode, progress through the mechanics, and work up to unlocking & successfully completing a hard mode kill.
+
+.
+{
+  "embed": {
+    "title": "Arch-Glacor",
+    "description": "For a more detailed overview of mechanics, please read <#1020357624476221520>",
+    "color": 9175039,
+	"thumbnail": {
+      "url": "https://i.imgur.com/KxlQTyI.png"
+    },
+    "fields": [
+      {
+        "name": "__Introductory Milestones__",
+        "value": "⬥ Complete a normal mode kill with no mechanics enabled.\n⬥ Complete five normal mode kills, each one with a different single mechanic enabled.\n⬥ Complete a normal mode kill with all mechanics enabled.⬥ Complete a hard mode kill."
+      },
+      {
+        "name": "__Advanced Milestones__",
+        "value": "⬥ Complete a hard mode kill using no food, at 0% enrage, by using <:soulsplit:615613924506599497> flicking.\n\u00a0\u00a0\u00a0\u00a0• Try to keep <:soulsplit:615613924506599497> active as much as possible, while flicking to <:DeflectMage:544195487926845462> for Arch-Glacor's auto attacks.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Don't forget <:DeflectMelee:544195488447201300> / <:DeflectRange:544195488317046812> for the Flurry mechanic!"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 **__Twin Furies__** <:Twin_Fury:513213159209828373> <:TwinFury:513212995892019211>
@@ -149,18 +177,18 @@ These encounters do not provide anything meaningful to your PvM growth, or have 
     "color": 39423,
     "fields": [
       {
-	    "name": "__Bossing Path__",
-        "value": "[Link]($linkmsg_bossing$)",
+	    "name": "__Introduction__",
+        "value": "[Link]($linkmsg_introduction$)",
 		"inline": true
       },
 	  {
-	    "name": "__Other Good Bosses__",
-        "value": "[Link]($linkmsg_any$)",
+	    "name": "__Bosses to Learn__",
+        "value": "[Link]($linkmsg_learn$)",
 		"inline": true
       },
 	  {
 	    "name": "__Bosses to Avoid__",
-        "value": "[Link]($linkmsg_bosses$)",
+        "value": "[Link]($linkmsg_avoid$)",
 		"inline": true
       }
     ]
