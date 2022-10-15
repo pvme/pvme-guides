@@ -166,39 +166,8 @@ This action bar should be used with 2H magic weapons. The bis 2H magic weapon ag
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Desireable Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-        "inline": true
-      },
-      {
-        "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-        "inline": true
-      },
-      {
-        "name": "__Active Strategy__",
-        "value": "[Link]($linkmsg_active$)",
-        "inline": true
-      },
-      {
-        "name": "__AFK Strategy__",
-        "value": "[Link]($linkmsg_afk$)",
-        "inline": true
-      },
-      {
-        "name": "__Video Guides__",
-        "value": "[Link]($linkmsg_videoguides$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desireable Drops]($linkmsg_drops$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Active Strategy]($linkmsg_active$)\n⬥ [AFK Strategy]($linkmsg_afk$)\n⬥ [Video Guides]($linkmsg_videoguides$)",
+    "color": 39423
   }
 }
 .embed:json
