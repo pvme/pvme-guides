@@ -175,39 +175,8 @@ Reach out to <@!295843279231123457> for more details
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__What To Do__",
-        "value": "[Link]($linkmsg_do$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Positioning__",
-        "value": "[Link]($linkmsg_position$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Particular Rotations__",
-        "value": "[Link]($linkmsg_rot$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Miscellaneous Tips and Tricks__",
-        "value": "[Link]($linkmsg_misc$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [What To Do]($linkmsg_do$)\n⬥ [Positioning]($linkmsg_position$)\n⬥ [Particular Rotations]($linkmsg_rot$)\n⬥ [Miscellaneous Tips and Tricks]($linkmsg_misc$)",
+    "color": 39423
   }
 }
 .embed:json
