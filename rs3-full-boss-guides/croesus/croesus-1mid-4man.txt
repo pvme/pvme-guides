@@ -162,47 +162,11 @@ There are 2 strategies, it is recommended for you to use alts to benefit the qua
 }
 .embed:json
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__General Information__",
-            "value":"[Link]($linkmsg_info$)",
-            "inline":true
-         },
-         {
-            "name":"__Presets__",
-            "value":"[Link]($linkmsg_presets$)",
-            "inline":true
-         },
-         {
-            "name":"__Tips__",
-            "value":"[Link]($linkmsg_tips$)",
-            "inline":true
-         },
-         {
-            "name":"__Strategy Information__",
-            "value":"[Link]($linkmsg_strat$)",
-            "inline":true
-         },
-         {
-            "name":"__Role Specific__",
-            "value":"[Link]($linkmsg_roles$)",
-            "inline":true
-         },
-         {
-            "name":"__Statues__",
-            "value":"[Link]($linkmsg_statues$)",
-            "inline":true
-         },
-         {
-            "name":"__Example Kills__",
-            "value":"[Link]($linkmsg_example$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [General Information]($linkmsg_info$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips]($linkmsg_tips$)\n⬥ [Strategy Information]($linkmsg_strat$)\n⬥ [Role Specific]($linkmsg_roles$)\n⬥ [Statues]($linkmsg_statues$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete
