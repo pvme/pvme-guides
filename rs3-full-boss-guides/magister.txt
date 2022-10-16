@@ -184,49 +184,8 @@ Range - <https://i.imgur.com/EchqRpO.png>
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Specials__",
-        "value": "[Link]($linkmsg_specs$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Protecting Your Familiar__",
-        "value": "[Link]($linkmsg_familiars$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Strategy__",
-        "value": "[Link]($linkmsg_strats$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Low Effort Mage__",
-        "value": "[Link]($linkmsg_hells$)",
-		"inline": true
-      },
-      {
-	    "name": "__Old rotations__",
-        "value": "[Link]($linkmsg_oldrots$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Specials]($linkmsg_specs$)\n⬥ [Protecting Your Familiar]($linkmsg_familiars$)\n⬥ [Strategy]($linkmsg_strats$)\n⬥ [Low Effort Mage]($linkmsg_hells$)\n⬥ [Old rotations]($linkmsg_oldrots$)",
+    "color": 39423
   }
 }
 .embed:json
