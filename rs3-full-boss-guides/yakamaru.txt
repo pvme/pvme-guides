@@ -197,39 +197,8 @@ https://discord.gg/88ru2vd
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Roles__",
-        "value": "[Link]($linkmsg_roles$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Learning Raids__",
-        "value": "[Link]($linkmsg_learn$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Roles]($linkmsg_roles$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Learning Raids]($linkmsg_learn$)",
+    "color": 39423
   }
 }
 .embed:json
