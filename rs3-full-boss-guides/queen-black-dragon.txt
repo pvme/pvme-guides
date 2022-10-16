@@ -131,44 +131,8 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-        "inline": true
-      },
-      {
-        "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-        "inline": true
-      },
-      {
-        "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-        "inline": true
-      },
-      {
-        "name": "__Rotation__",
-        "value": "[Link]($linkmsg_rotation$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kill__",
-        "value": "[Link]($linkmsg_example$)",
-        "inline": true
-      },
-      {
-        "name": "__Alt1 QBD Helper__",
-        "value": "[Link]($linkmsg_alt1$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Rotation]($linkmsg_rotation$)\n⬥ [Example Kill]($linkmsg_example$)\n⬥ [Alt1 QBD Helper]($linkmsg_alt1$)",
+    "color": 39423
   }
 }
 .embed:json
