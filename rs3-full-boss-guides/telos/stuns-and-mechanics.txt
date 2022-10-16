@@ -208,59 +208,8 @@ If using deto/wm strategy for P1, it's important to make sure you are either sou
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Attack Speeds__",
-        "value": "[Link]($linkmsg_attack$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Stuns__",
-        "value": "[Link]($linkmsg_stuns$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Telos's Freedom__",
-        "value": "[Link]($linkmsg_freedom$)",
-		"inline": true
-      },
-	  {
-	    "name": "__General Stun Combos__",
-        "value": "[Link]($linkmsg_combos$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Common Mistakes__",
-        "value": "[Link]($linkmsg_mistakes$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Stun Applications__",
-        "value": "[Link]($linkmsg_applications$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Stunning P5__",
-        "value": "[Link]($linkmsg_p5$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Target Cycling__",
-        "value": "[Link]($linkmsg_targetcycle$)",
-		"inline": true
-      },
-       {
-	    "name": "__P1 Walk__",
-        "value": "[Link]($linkmsg_p1walk$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Attack Speeds]($linkmsg_attack$)\n⬥ [Stuns]($linkmsg_stuns$)\n⬥ [Telos's Freedom]($linkmsg_freedom$)\n⬥ [General Stun Combos]($linkmsg_combos$)\n⬥ [Common Mistakes]($linkmsg_mistakes$)\n⬥ [Stun Applications]($linkmsg_applications$)\n⬥ [Stunning P5]($linkmsg_p5$)\n⬥ [Target Cycling]($linkmsg_targetcycle$)\n⬥ [P1 Walk]($linkmsg_p1walk$)",
+    "color": 39423
   }
 }
 .embed:json
