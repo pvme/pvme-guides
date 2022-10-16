@@ -43,7 +43,7 @@ Drop <:dummy:656844963522281473> on stairs → <:DBA:603979368850653216> <:spec:
 
 *Note: alternatively, stall and release <:incend:535541258429661215> on the War's Retreat dummies at the cost of having a few seconds less on your special attacks*
 
-.
+.tag:rotation
 **__Phase 1__**
 *Note: use <:championring:839903943630520350> as your main ring in phases 1 and 2*
 
@@ -67,7 +67,7 @@ Drop <:dummy:656844963522281473> on stairs → <:DBA:603979368850653216> <:spec:
 
 <:anti:535541306475151390> → <:gbarge:535532879250456578> → <:assault:535532853979512842> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havoc:535532879300526080> → <:deci:535532879325822986> + <:mob:689501908628799488> <:escape:535541258832052231> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:gflurry:535532879283879977> (3 hit) → <:havoc:535532879300526080> → <:mwspear:694566917456789554> <:BloodTend:513190158431158274> → (wait 2t) → <:escape:535541258832052231> → <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:deci:535532879325822986> → <:gfury:535532879334080527> → (run out of MD to bait <:range:580168050121113623> / <:Magic:689504724159823906> auto) → <:res:535541258844635148> → <:Berserk:513190158468907012> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:havoc:535532879300526080> <:escape:535541258832052231> <:adrenrenewal:736298121704767538> → (collect anima then <:bd:535532854281764884> into MD) → <:assault:535532853979512842> (activate inner power) → <:ingen:641339234111848463> <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:lengmh:883134308146098227> <:limitless:641339233638023179> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> <:escape:535541258832052231> → <:gflurry:535532879283879977>
 
-.
+.tag:example
 **__Video Example__**
 Pre-build example: <https://www.youtube.com/watch?v=1EnQZcX0Qr4>
 .
@@ -81,22 +81,11 @@ https://www.youtube.com/watch?v=r6sq9S2Araw
 
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-	       {
-            "name":"__Rotations__",
-            "value":"[Link]($linkmsg_melee$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_melee$)\n⬥ [Rotation]($linkmsg_rotation$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete
