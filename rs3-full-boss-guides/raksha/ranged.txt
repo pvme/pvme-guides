@@ -11,7 +11,7 @@ Each Raksha kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B606$, w
 
 This guide assumes you are already familiar with Raksha's mechanics, phasing, and attack rotations. If not, please read <#1020559920669663304>.
 
-.
+.tag:preset
 > __**Tips for the Fight**__
 **__General Tips__**
 ⬥ Kill times vary a lot and sometimes you will get specials you normally skip, pay attention to the phases hp and adapt accordingly.
@@ -180,7 +180,7 @@ Rockfall: <:gricocaroming:867678153966878740> → <:flankicon:841419289755385866
 ⬥ If <:sgb:626466665848242186> <:eofspec:746403211908481184> was skipped on P3, you may want to try a double <:sgb:626466665848242186> <:eofspec:746403211908481184> P4 and <:ecb:615618531937222657> <:eofspec:746403211908481184> instead of <:gdeathsswift:994644354536837121>.
     • This may not be optimal.
 
-.
+.tag:example
 **__Video Example__**
 .
 ⬥ ECB EoF - <https://youtu.be/ioPKdV1Sncg>
@@ -197,37 +197,11 @@ Rockfall: <:gricocaroming:867678153966878740> → <:flankicon:841419289755385866
 
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Physical ECB Strategy__",
-            "value":"[Link]($linkmsg_ranged$)",
-            "inline":true
-         },
-         {
-            "name":"__ECB EoF Strategy__",
-            "value":"[Link]($linkmsg_ecbeof$)",
-            "inline":true
-         },
-         {
-            "name":"__BoLG Strategy__",
-            "value":"[Link]($linkmsg_bolg$)",
-            "inline":true
-         },
-         {
-            "name":"__Old Rotations__",
-            "value":"[Link]($linkmsg_old$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_preset$)\n⬥ [Physical ECB Strategy]($linkmsg_ranged$)\n⬥ [ECB EoF Strategy]($linkmsg_ecbeof$)\n⬥ [BoLG Strategy]($linkmsg_bolg$)\n⬥ [Example Kills]($linkmsg_example$)\n⬥ [Old Rotations]($linkmsg_old$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete
