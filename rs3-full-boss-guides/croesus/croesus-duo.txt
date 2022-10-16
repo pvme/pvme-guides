@@ -84,42 +84,11 @@ Your optimal goal is to deplete both your nodes before going to the energy fungu
 }
 .embed:json
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__General Information__",
-            "value":"[Link]($linkmsg_info$)",
-            "inline":true
-         },
-         {
-            "name":"__Presets__",
-            "value":"[Link]($linkmsg_presets$)",
-            "inline":true
-         },
-         {
-            "name":"__Hunter & Woodcutting__",
-            "value":"[Link]($linkmsg_huntwc$)",
-            "inline":true
-         },
-         {
-            "name":"__Mining & Fishing__",
-            "value":"[Link]($linkmsg_miningfish$)",
-            "inline":true
-         },
-         {
-            "name":"__Strategy__",
-            "value":"[Link]($linkmsg_strat$)",
-            "inline":true
-         },
-         {
-            "name":"__Example Kills__",
-            "value":"[Link]($linkmsg_example$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [General Information]($linkmsg_info$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Hunter & Woodcutting]($linkmsg_huntwc$)\n⬥ [Mining & Fishing]($linkmsg_miningfish$)\n⬥ [Strategy]($linkmsg_strat$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete

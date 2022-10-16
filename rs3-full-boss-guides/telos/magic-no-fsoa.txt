@@ -156,47 +156,11 @@ get into black beam and begin running toward red beam → (DW) <:bloodbarrage:53
 
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Preset__",
-            "value":"[Link]($linkmsg_preset$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 1__",
-            "value":"[Link]($linkmsg_p1$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 2__",
-            "value":"[Link]($linkmsg_p2$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 3__",
-            "value":"[Link]($linkmsg_p3$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 4__",
-            "value":"[Link]($linkmsg_p4$)",
-            "inline":true
-         },
-         {
-            "name":"__Phase 5__",
-            "value":"[Link]($linkmsg_p5$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Phase 5]($linkmsg_p5$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete

@@ -93,29 +93,8 @@ https://discord.gg/88ru2vd
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Roles__",
-        "value": "[Link]($linkmsg_roles$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Learning Raids__",
-        "value": "[Link]($linkmsg_bossskool$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Roles]($linkmsg_roles$)\n⬥ [Learning Raids]($linkmsg_bossskool$)",
+    "color": 39423
   }
 }
 .embed:json

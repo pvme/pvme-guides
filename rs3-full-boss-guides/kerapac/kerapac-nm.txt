@@ -253,42 +253,11 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 .embed:json
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Drops__",
-            "value":"[Link]($linkmsg_drops$)",
-            "inline":true
-         },
-         {
-            "name":"__Low Effort Ranged Method__",
-            "value":"[Link]($linkmsg_loweffortrange$)",
-            "inline":true
-         },
-         {
-            "name":"__Low Effort Magic Method__",
-            "value":"[Link]($linkmsg_loweffortmagic$)",
-            "inline":true
-         },
-         {
-            "name":"__Low Effort Melee Method__",
-            "value":"[Link]($linkmsg_loweffortmelee$)",
-            "inline":true
-         },
-          {
-        		"name": "__Alt1 Kerapac NM Helper__",
-        		"value": "[Link]($linkmsg_alt1$)",
-        		"inline": true
-            }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Low Effort Ranged Method]($linkmsg_loweffortrange$)\n⬥ [Low Effort Magic Method]($linkmsg_loweffortmagic$)\n⬥ [Low Effort Melee Method]($linkmsg_loweffortmelee$)\n⬥ [Alt1 Kerapac NM Helper]($linkmsg_alt1$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete

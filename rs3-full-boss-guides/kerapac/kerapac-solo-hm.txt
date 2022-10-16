@@ -459,48 +459,17 @@ Improvise with <:omni:535533809664262179> / <:smoketendrils:536257336130404372> 
 
 .
 __**Example Kills**__
-.
+.tag:example
 https://youtu.be/mH28QAslosQ
 .
 
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introductions__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Magic: no FSOA__",
-            "value":"[Link]($linkmsg_nofsoarot$)",
-            "inline":true
-         },
-         {
-            "name":"__Magic: FSOA__",
-            "value":"[Link]($linkmsg_fsoarot$)",
-            "inline":true
-         },
-         {
-            "name":"__Ranged: no ECB no BOLG __",
-            "value":"[Link]($linkmsg_rangedrotpoison$)",
-            "inline":true
-         },
-	   {
-            "name":"__Melee__",
-            "value":"[Link]($linkmsg_meleerot$)",
-            "inline":true
-         },
-	   {
-            "name":"__Mage/Melee Hybrid__",
-            "value":"[Link]($linkmsg_hybrid$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Magic: no FSOA]($linkmsg_nofsoarot$)\n⬥ [Magic: FSOA]($linkmsg_fsoarot$)\n⬥ [Ranged: no ECB no BOLG]($linkmsg_rangedrotpoison$)\n⬥ [Melee]($linkmsg_meleerot$)\n⬥ [Mage/Melee Hybrid]($linkmsg_hybrid$)\n⬥ [Example Kill]($linkmsg_example$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete

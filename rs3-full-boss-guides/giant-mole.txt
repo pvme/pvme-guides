@@ -73,24 +73,8 @@ More information available at the wiki page:
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Semi-AFK Magic Strategy__",
-        "value": "[Link]($linkmsg_afk$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Semi-AFK Magic Strategy]($linkmsg_afk$)",
+    "color": 39423
   }
 }
 .embed:json

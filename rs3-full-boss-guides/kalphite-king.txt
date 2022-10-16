@@ -257,59 +257,8 @@ __**Example Kills**__
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Player Stun Timings__",
-        "value": "[Link]($linkmsg_playerstun$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Bladed Dive Guide__",
-        "value": "[Link]($linkmsg_bdguide$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Strategies and Tips__",
-        "value": "[Link]($linkmsg_strats$)",
-		"inline": true
-      },
-	  {
-	    "name": "__What Not To Do__",
-        "value": "[Link]($linkmsg_nop$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Duo Guide__",
-        "value": "[Link]($linkmsg_duo$)",
-		"inline": true
-      },
-      	  {
-	    "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Player Stun Timings]($linkmsg_playerstun$)\n⬥ [Bladed Dive Guide]($linkmsg_bdguide$)\n⬥ [Strategies and Tips]($linkmsg_strats$)\n⬥ [What Not To Do]($linkmsg_nop$)\n⬥ [Duo Guide]($linkmsg_duo$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json

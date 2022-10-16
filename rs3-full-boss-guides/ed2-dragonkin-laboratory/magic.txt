@@ -204,54 +204,8 @@ All example runs are done off task.
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-      {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	    {
-	    "name": "__Astellarn, the First Celestial__",
-        "value": "[Link]($linkmsg_astellarn$)",
-		"inline": true
-      },
-	    {
-	    "name": "__Verak Lith__",
-        "value": "[Link]($linkmsg_veraklith$)",
-		"inline": true
-      },
-	    {
-	    "name": "__Black Stone Dragon__",
-        "value": "[Link]($linkmsg_blackstonedragon$)",
-		"inline": true
-      },
-	    {
-	    "name": "__Pre-Astellarn__",
-        "value": "[Link]($linkmsg_preast$)",
-		"inline": true
-      },
-      {
-	    "name": "__Post-Astellarn to Verak Lith__",
-        "value": "[Link]($linkmsg_astverak$)",
-		"inline": true
-      },
-      {
-	    "name": "__Post-Verak Lith to Black Stone Dragon__",
-        "value": "[Link]($linkmsg_verakbsd$)",
-		"inline": true
-      },
-      {
-        "name": "__Example Runs__",
-          "value": "[Link]($linkmsg_ER$)",
-    "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Astellarn, the First Celestial]($linkmsg_astellarn$)\n⬥ [Verak Lith]($linkmsg_veraklith$)\n⬥ [Black Stone Dragon]($linkmsg_blackstonedragon$)\n⬥ [Pre-Astellarn]($linkmsg_preast$)\n⬥ [Post-Astellarn to Verak Lith]($linkmsg_astverak$)\n⬥ [Post-Verak Lith to Black Stone Dragon]($linkmsg_verakbsd$)\n⬥ [Example Runs]($linkmsg_ER$)",
+    "color": 39423
   }
 }
 .embed:json

@@ -286,54 +286,8 @@ Non-FSoA example - <https://www.youtube.com/watch?v=b6Xq0kJ0dZE> - 10:45 by <@!1
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Sanctum Guardian__",
-        "value": "[Link]($linkmsg_sanctum$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Masuta, the Ascended__",
-        "value": "[Link]($linkmsg_masuta$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Seiryu, the Azure Serpent__",
-        "value": "[Link]($linkmsg_seiryu$)",
-		"inline": true
-      },
-    {
-	    "name": "__Pre-Sanctum__",
-        "value": "[Link]($linkmsg_presanctum$)",
-		"inline": true
-      },
-    {
-	    "name": "__Post-Sanctum to pre-Masuta__",
-        "value": "[Link]($linkmsg_sanctummasuta$)",
-		"inline": true
-      },
-    {
-	    "name": "__Post-Masuta to pre-Seiryu__",
-        "value": "[Link]($linkmsg_masutaseiryu$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Example Runs__",
-        "value": "[Link]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Sanctum Guardian]($linkmsg_sanctum$)\n⬥ [Masuta, the Ascended]($linkmsg_masuta$)\n⬥ [Seiryu, the Azure Serpent]($linkmsg_seiryu$)\n⬥ [Pre-Sanctum]($linkmsg_presanctum$)\n⬥ [Post-Sanctum to pre-Masuta]($linkmsg_sanctummasuta$)\n⬥ [Post-Masuta to pre-Seiryu]($linkmsg_masutaseiryu$)\n⬥ [Example Runs]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json

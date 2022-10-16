@@ -326,6 +326,7 @@ This will occur 7 times before the boss becomes vulnerable again and continues t
 
 .
 > **__Example Run__**
+.tag:example
 <https://youtu.be/PcA4NRmzalY> 14:46 (Offtask) by <@!145413546409197569>
 <https://youtu.be/AjuBCnsnDLY> 12:43 (Offtask) by <@!145413546409197569>
 
@@ -333,54 +334,8 @@ This will occur 7 times before the boss becomes vulnerable again and continues t
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Monster Information__",
-        "value": "[Link]($linkmsg_monsterinformation$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Section 1__",
-        "value": "[Link]($linkmsg_section1$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Astellarn, the First Celestial__",
-        "value": "[Link]($linkmsg_astellarn$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Section 2__",
-        "value": "[Link]($linkmsg_section2$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Verak Lith__",
-        "value": "[Link]($linkmsg_veraklith$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Section 3__",
-        "value": "[Link]($linkmsg_section3$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Black Stone Dragon__",
-        "value": "[Link]($linkmsg_blackstonedragon$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Monster Information]($linkmsg_monsterinformation$)\n⬥ [Section 1]($linkmsg_section1$)\n⬥ [Astellarn, the First Celestial]($linkmsg_astellarn$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Verak Lith]($linkmsg_veraklith$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Black Stone Dragon]($linkmsg_blackstonedragon$)\n⬥ [Example Runs]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json
