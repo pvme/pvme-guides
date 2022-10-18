@@ -5,6 +5,33 @@ This path isn't set in stone. Everyone learns in different ways; however, this i
 Initial combat experience can be gained by doing general Slayer at your own pace. This can be used to get the hang of combat abilties and what they do. You can also take this chance to get used to some keybinds. Alternatively, you may practice on a dummy, though you won't gain any XP or GP, and the dummy doesn't fight back!
 
 .
+> **__Bosses to Avoid__**
+.tag:avoid
+Some encounters in the game do not generally provide a great avenue to learn and improve your skills as a PvMer. These can be done for fun as you wish, however we do not recommend them for the purpose of self-improvement.
+
+.
+{
+  "embed": {
+    "title": "**__Bosses to Avoid__**",
+    "description": "",
+    "color": 8421504,
+    "fields": [
+      {
+        "name": "__A-J__",
+        "value": "⬥ Barrows Brothers\n⬥ Chaos Elemental\n⬥ Corporeal Beast\n⬥ Commander Zilyana\n⬥ Dagannoth Kings\n⬥ General Graardor\n⬥ Giant Mole",
+		"inline": true
+      },
+      {
+        "name": "__K-Z__",
+        "value": "⬥ Kalphite Queen\n⬥ King Black Dragon\n⬥ Kree'arra\n⬥ K'ril Tsutsaroth\n⬥ Legiones\n⬥ Magister\n⬥ Rex Matriarchs",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
 > **__Bosses to Learn: Introductory__**
 .tag:learn_introductory
 Bosses in this category serve as a great place to start in your journey to learn more about the combat system and engage in harder PvM content. While not as rewarding in terms of loot, they will provide you with many opportunities to improve your skillset.
@@ -150,6 +177,8 @@ Generally considered the easiest of the three elite dungeons, ED2 provides a new
 .
 > **__Bosses to Learn: Advanced__**
 .tag:learn_advanced
+Something something something.
+
 **__Raksha__**
 This higher-tier boss encounter provides a good challenge along with the prospect of decent rewards. Raksha provides the player with the opportunity to improve multiple aspects of their PvMing skillset. It can be fought alone, or with a friend in duo. In general, the easiest way to get your first few kills is to duo in the DPS role. After a handful of kills and becoming more familiar, it is encouraged to either start tanking in duo, or soloing. Soloing from the get-go is also perfectly viable.
 
@@ -183,31 +212,19 @@ This higher-tier boss encounter provides a good challenge along with the prospec
 .embed:json
 
 .
-> **__Bosses to Avoid__**
-.tag:avoid
-Some encounters in the game do not generally provide a great avenue to learn and improve your skills as a PvMer. These can be done for fun as you wish, however we do not recommend them for the purpose of self-improvement.
+> **__Next Steps_**
+.tag:next_steps
+If you've made it this far, you have all the tools you need to step into just about any encounter in the game. The skills you should have developed at this point include
 
-.
-{
-  "embed": {
-    "title": "**__Bosses to Avoid__**",
-    "description": "",
-    "color": 8421504,
-    "fields": [
-      {
-        "name": "__A-J__",
-        "value": "⬥ Barrows Brothers\n⬥ Chaos Elemental\n⬥ Corporeal Beast\n⬥ Commander Zilyana\n⬥ Dagannoth Kings\n⬥ General Graardor\n⬥ Giant Mole",
-		"inline": true
-      },
-      {
-        "name": "__K-Z__",
-        "value": "⬥ Kalphite Queen\n⬥ King Black Dragon\n⬥ Kree'arra\n⬥ K'ril Tsutsaroth\n⬥ Legiones\n⬥ Magister\n⬥ Rex Matriarchs",
-		"inline": true
-      }
-    ]
-  }
-}
-.embed:json
+⬥ Maintaining high damage output while dealing with involved mechanics and keeping track of a boss's attack cycle
+⬥ Using defensive abilities as needed to negate specific mechanics and incoming damage
+⬥ Leveraging a variety of gear to deal with different scenarios and enemies
+⬥ Moving efficiently throughout arenas of various sizes
+⬥ Prayer flicking to both heal yourself and reduce incoming damage
+
+Past this point, the content you choose to engage with is up to personal preference. When learning new content, it is important to take the same approach as this guide; that is, break your goal down into steps, and tackle them one at a time. In general, it is encouraged to try and find content that challenges you and that you genuinely enjoy doing, rather than suffering through something just to chase a drop (though, we all understand this is easier said than done).
+
+Best of luck in your PvMing adventures, and don't forget to check <#920506750250135552> for any guide you may need, and leverage <#656898197561802760> / <#1021152606455873686> as you like.
 
 .
 {
@@ -217,7 +234,12 @@ Some encounters in the game do not generally provide a great avenue to learn and
     "fields": [
       {
 	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_introduction$)",
+        "value": "⬥ [Link]($linkmsg_introduction$)",
+		"inline": true
+      },
+      	  {
+	    "name": "__Bosses to Avoid__",
+        "value": "⬥ [Link]($linkmsg_avoid$)",
 		"inline": true
       },
 	  {
@@ -226,8 +248,8 @@ Some encounters in the game do not generally provide a great avenue to learn and
 		"inline": true
       },
 	  {
-	    "name": "__Bosses to Avoid__",
-        "value": "[Link]($linkmsg_avoid$)",
+	    "name": "__Next Steps__",
+        "value": "[Link]($linkmsg_next_steps$)",
 		"inline": true
       }
     ]
