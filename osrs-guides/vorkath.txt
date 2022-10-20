@@ -1,11 +1,11 @@
 > **__Introduction__**
-.tag:introduction
+.tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
 Vorkath is accessible after completing Dragon Slayer 2. The quest version of the boss is 2/3 as strong as the version you can farm for consistent GP. Notable drops include the guaranteed 2 superior dragon bones, high chance of rune and dragon alchables, and high tier fletching supplies.
 
 > __**Attack Pattern**__
-.tag:Attack_Pattern
+.tag:attacks
 Vorkath attacks randomly with all three styles. However, if you are not in melee distance, Vorkath will only alternate between magic and ranged attacks. Vorkath's attack pattern is as follows,
 
 6 normal attacks → special to replace 7th attack → 6 normal attacks → other special to replace 7th attack → repeat
@@ -32,8 +32,9 @@ Additionally, Vorkath can also attack with dragonfire. Dragonfire damage taken c
     • 3x3 AoE hit, centred around the player's position at time of launch.
         - It is quite slow; move at least two tiles to dodge it.
 
+.
 > __**Special Attacks**__
-.tag:Special_Attacks
+.tag:specs
 The order of Vorkath's special attacks will always alternate; in other words, you cannot get the same special back-to-back. The starting special, however, is random.
 
 __**Acid Phase**__
@@ -55,7 +56,7 @@ Players **meleeing** Vorkath should always bring a staff switch as it is possibl
 
 .
 > **__Ranged Equipment__**
-.tag:Ranged_Equipment
+.tag:rangegear
 .img:https://i.imgur.com/1RYHbpg.png
 .
 **IMPORTANT: THIS GEAR SETUP ONLY BEATS ELITE VOID IF YOU CAN MATCH IT EXACTLY. IF YOU CANNOT THEN ELITE VOID WITH AN ARCHERS RING (I) IS SLIGHLY BETTER DPS**
@@ -92,7 +93,7 @@ __Inventory__
 
 .
 > **__Melee Equipment__**
-.tag:Melee_Equipment
+.tag:meleegear
 .img:https://i.imgur.com/PUQd7NP.png
 .
 __Gear__
@@ -128,8 +129,9 @@ __Inventory__
 ⬥ Fremennik sea boots 4 for teleporting back to Vorkath
 ⬥ Rune pouch with runes for teleport to house and crumble undead
 
+.
 > __**Strategy**__
-.tag:Strategy
+.tag:strategy
 __**The Fight**__
 Vorkath will not begin attacking until poked by the player.
 
@@ -163,7 +165,7 @@ __**Recovering your items**__
 
 .
 > **__Example Kills__**
-.tag:Example_Kills
+.tag:example
 .
 {
   "embed": {
@@ -171,7 +173,7 @@ __**Recovering your items**__
     "fields": [
       {
         "name": "__**Example Kills**__",
-        "value": "⬥ https://www.youtube.com/watch?v=I1-V9HnFPHs - Range trip example\n⬥ https://www.youtube.com/watch?v=BKplYZQFZUk - Melee trip example"
+        "value": "⬥ [Range Trip](https://www.youtube.com/watch?v=I1-V9HnFPHs) (Courtesy of <@133693891386802177>)\n⬥ [Melee Trip](https://www.youtube.com/watch?v=BKplYZQFZUk) (Courtesy of <@133693891386802177>)"
       }
     ]
   }
@@ -182,44 +184,8 @@ __**Recovering your items**__
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_Introduction$)",
-        "inline": true
-      },
-      {
-        "name": "__Attack Pattern__",
-        "value": "[Link]($linkmsg_Attacks$)",
-        "inline": true
-      },
-      {
-        "name": "__Special Attacks__",
-        "value": "[Link]($linkmsg_Special_Attacks$)",
-        "inline": true
-      },
-      {
-        "name": "__Ranged Equipment__",
-        "value": "[Link]($linkmsg_Ranged_Equipment$)",
-        "inline": true
-      },
-      {
-        "name": "__Melee Equipment__",
-        "value": "[Link]($linkmsg_Melee_Equipment$)",
-        "inline": true
-      },
-      {
-        "name": "__Strategy__",
-        "value": "[Link]($linkmsg_Strategy$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_Example_Kills$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Attack Pattern]($linkmsg_attacks$)\n⬥ [Special Attacks]($linkmsg_specs$)\n⬥ [Ranged Equipment]($linkmsg_rangegear$)\n⬥ [Melee Equipment]($linkmsg_meleegear$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json
