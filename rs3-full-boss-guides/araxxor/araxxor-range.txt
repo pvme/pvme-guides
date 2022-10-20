@@ -153,32 +153,11 @@ Just before Araxxi becomes attackable, s <:gricocaroming:867678153966878740> →
 
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-        	"name": "__P1-3__",
-        	"value": "[Top Path (Non-Skip)]($linkmsg_top$)\n[Top Path Skips]($linkmsg_skip$)\n[Mid Path]($linkmsg_mid$)\n[Bottom Path]($linkmsg_bot$)",
-        	"inline": true
-         },
-         {
-            "name":"__P4__",
-            "value":"[Link]($linkmsg_p4$)",
-            "inline":true
-         },
-         {
-            "name":"__Example Kills__",
-            "value":"[Link]($linkmsg_example$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Top Path (Non-Skip)]($linkmsg_top$)\n⬥ [Top Path Skips]($linkmsg_skip$)\n⬥ [Mid Path]($linkmsg_mid$)\n⬥ [Bottom Path]($linkmsg_bot$)\n⬥ [P4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete

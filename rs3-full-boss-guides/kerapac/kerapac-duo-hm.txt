@@ -163,37 +163,11 @@ __**Phase 4**__
 
 .
 {
-   "embed":{
-      "title":"Table of Contents",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__General Information__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Magic/Melee Intro & Preset__",
-            "value":"[Link]($linkmsg_intromage$)",
-            "inline":true
-         },
-         {
-            "name":"__Magic/Melee Rotations__",
-            "value":"[Link]($linkmsg_magemeleerot$)",
-            "inline":true
-         },
-         {
-            "name":"__Range Intro & Preset__",
-            "value":"[Link]($linkmsg_introrange$)",
-            "inline":true
-         },
-         {
-            "name":"__Range Rotations__",
-            "value":"[Link]($linkmsg_rangerot$)",
-            "inline":true
-         }
-      ]
-   }
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [General Information]($linkmsg_intro$)\n⬥ [Magic/Melee Intro & Preset]($linkmsg_intromage$)\n⬥ [Magic/Melee Rotations]($linkmsg_magemeleerot$)\n⬥ [Range Intro & Preset]($linkmsg_introrange$)\n⬥ [Range Rotations]($linkmsg_rangerot$)",
+    "color": 39423
+  }
 }
 .embed:json
 .pin:delete

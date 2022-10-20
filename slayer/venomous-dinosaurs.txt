@@ -135,39 +135,8 @@ Place the cannon on the red square and stand on the yellow square shown in the i
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-      {
-	    "name": "__Desirable Drops__",
-        "value": "[Link]($linkmsg_desirabledrops$)",
-		"inline": true
-      },
-      {
-	    "name": "__How to Get There__",
-        "value": "[Link]($linkmsg_locationandhowtogetthere$)",
-		"inline": true
-      },
-      {
-	    "name": "__Useful Items__",
-        "value": "[Link]($linkmsg_usefulitems$)",
-		"inline": true
-      },
-      {
-	    "name": "__Melee__",
-        "value": "[Link]($linkmsg_melee$)",
-		"inline": true
-      },
-      {
-	    "name": "__Magic__",
-        "value": "[Link]($linkmsg_magic$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desireable Drops]($linkmsg_desirabledrops$)\n⬥ [How to Get There]($linkmsg_locationandhowtogetthere$)\n⬥ [Useful Items]($linkmsg_usefulitems$)\n⬥ [Melee]($linkmsg_melee$)\n⬥ [Magic]($linkmsg_magic$)",
+    "color": 39423
   }
 }
 .embed:json

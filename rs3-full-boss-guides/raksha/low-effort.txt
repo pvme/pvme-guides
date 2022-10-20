@@ -105,44 +105,8 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Essential Items__",
-        "value": "[Link]($linkmsg_essentialitems$)",
-        "inline": true
-      },
-      {
-        "name": "__Presets - Beginner__",
-        "value": "[Link]($linkmsg_presetbeginner$)",
-        "inline": true
-      },
-      {
-        "name": "__Presets - Advanced__",
-        "value": "[Link]($linkmsg_presetadvanced$)",
-        "inline": true
-      },
-      {
-        "name": "__Revo++ Bar__",
-        "value": "[Link]($linkmsg_abilitybar$)",
-        "inline": true
-      },
-      {
-        "name": "__Strategy__",
-        "value": "[Link]($linkmsg_strategy$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kill__",
-        "value": "[Link]($linkmsg_examplekill$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Essential Items]($linkmsg_essentialitems$)\n⬥ [Presets - Beginner]($linkmsg_presetbeginner$)\n⬥ [Presets - Advanced]($linkmsg_presetadvanced$)\n⬥ [Revo++ Bar]($linkmsg_abilitybar$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Example Kill]($linkmsg_examplekill$)",
+    "color": 39423
   }
 }
 .embed:json

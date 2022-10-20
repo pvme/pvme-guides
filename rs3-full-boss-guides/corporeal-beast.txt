@@ -110,39 +110,8 @@ Old active method: <https://i.imgur.com/FJDigCE.png>
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-      	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__AFK Method__",
-        "value": "[Link]($linkmsg_afk$)",
-		"inline": true
-      },
-	  {
-	    "name": "__ALT AFK Method__",
-        "value": "[Link]($linkmsg_afkalt$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [AFK Method]($linkmsg_afk$)\n⬥ [ALT AFK Method]($linkmsg_afkalt$)",
+    "color": 39423
   }
 }
 .embed:json

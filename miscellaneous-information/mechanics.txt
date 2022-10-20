@@ -908,8 +908,8 @@ __**Calculating Poison Damage**__
 __**Poison Interactions**__
 ⬥ **Cinderbane gloves** <:cinderbanes:513190158355660812>
     • Ignores the 16t poison damage cooldown.
-    • Gives **1/8 (12.5%) chance per hit to apply poison**, doing an extra hit of damage and resetting the 16t damage timer.
-    • Also gives **1/8 (12.5%) chance for a poison hit to re-apply poison**, also resetting the 16t timer.
+    • Gives *1/8 (12.5%) chance per hit to apply poison*, doing an extra hit of damage and resetting the 16t damage timer.
+    • Also gives *1/8 (12.5%) chance for a poison hit to re-apply poison*, also resetting the 16t timer.
     • Works out to an **effective 1/7 (~14.3%) chance of apply poison on any given hit**.
     • If no poison variant is used, the gloves act as if Weapon Poison+ is used.
 .
@@ -937,7 +937,7 @@ __**Poison Interactions**__
         - 50% chance per hit to apply a DoT that can stack.
         - DoT deals damage 5 times, every 2 ticks, unless refreshed.
         - Damage range increases with stacks, from 10-24 per hit → 125-249 per hit.
-    • **The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply.**
+    • *The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply*.
 .
 ⬥ **Poison can be applied/refreshed by any player-sourced damage, including**:
     • All auto-attacks and abilities - including bleeds and DoTs from abilities like <:comb:535533833098100745> / <:corruptshot:535541306294796299> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / etc.
@@ -955,8 +955,14 @@ __**Poison Interactions**__
     • Wyvern Crossbow <:wyverncrossbow:580177522587729940> (passive effect)
 
 .
-**__Poison Build__**
-⬥ Use `!poison` to see components of a poison build
+__**Poison in Group Encounters**__
+⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are are target-based will affect all poison damage (i.e. sourced from any player).
+⬥ **Local** modifiers (that are player-specific) like Cinderbanes <:cinderbanes:513190158355660812> / Wyvern Crossbow <:wyverncrossbow:580177522587729940> / etc. will only affect the hitsplats as a result of that player.
+⬥ The single recurring poison hit that occurs on a poisoned target every 9.6s will take its damage based on the last player who applied poison on the target.
+
+.
+__**Poison Build**__
+⬥ Use `!poison` to see components of a poison build.
 
 .
 {

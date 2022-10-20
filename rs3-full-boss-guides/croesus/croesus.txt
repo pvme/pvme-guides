@@ -386,49 +386,8 @@ The Hunter initiates the encounter. Players will first gather all the resources 
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Drops__",
-        "value": "[Link]($linkmsg_drops$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Tips and Tricks__",
-        "value": "[Link]($linkmsg_tips$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__The Fight__",
-        "value": "[Link]($linkmsg_thefight$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Strategy__",
-        "value": "[Link]($linkmsg_rotations$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips and Tricks]($linkmsg_tips$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [The Fight]($linkmsg_thefight$)\n⬥ [Strategy]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json

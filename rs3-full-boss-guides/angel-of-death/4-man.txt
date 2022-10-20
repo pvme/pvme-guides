@@ -132,39 +132,8 @@ use <:fsoa:869284271595069451>
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-        "inline": true
-      },
-      {
-        "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-        "inline": true
-      },
-      {
-        "name": "__Minion Lure__",
-        "value": "[Link]($linkmsg_lure$)",
-        "inline": true
-      },
-      {
-        "name": "__Magic Rotations__",
-        "value": "[Link]($linkmsg_magicrotations$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_examples$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Minion Lure]($linkmsg_lure$)\n⬥ [Magic Rotations]($linkmsg_magicrotations$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "color": 39423
   }
 }
 .embed:json

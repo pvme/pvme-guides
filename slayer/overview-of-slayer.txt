@@ -293,44 +293,8 @@ Some base action bars are shown below
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Action Bars__",
-        "value": "[Link]($linkmsg_bars$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Slayer Tips__",
-        "value": "[Link]($linkmsg_tips$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Armours__",
-        "value": "[Link]($linkmsg_armour$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Useful Items__",
-        "value": "[Link]($linkmsg_items$)",
-		"inline": true
-      },
-          {
-	    "name": "__Slayer Points Farming__",
-        "value": "[Link]($linkmsg_slayerpointsfarming$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Action Bars]($linkmsg_bars$)\n⬥ [Slayer Tips]($linkmsg_tips$)\n⬥ [Armours]($linkmsg_armour$)\n⬥ [Useful Items]($linkmsg_items$)\n⬥ [Slayer Points Farming]($linkmsg_slayerpointsfarming$)",
+    "color": 39423
   }
 }
 .embed:json
