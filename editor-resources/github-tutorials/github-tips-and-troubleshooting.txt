@@ -1,6 +1,5 @@
-> **__Github Tips & Troubleshooting__**
-.img:https://i.imgur.com/BuRStUD.png
-.
+> **__Introduction__**
+.tag:intro
 This guide will go over an assortment of common issues you may encounter while working with Github, as well as a few helpful things you can do to streamline your workflow.
 *Note: You can always ask any editor or staff for help with GitHub at any time.*
 
@@ -52,10 +51,8 @@ This guide will go over an assortment of common issues you may encounter while w
 .tag:commitdiff
 ⬥ When you make a new fork, your fork will look like this:
 .img:https://i.imgur.com/j3kEy55.png
-.
 ⬥ However, after some time it may look something like this:
 .img:https://i.imgur.com/ztJQ0wj.png
-.
 ⬥ This is because changes might have happened to the main repository (`'X' commits behind`) and it is no longer longer in-sync with your copy. This may cause issues when making a pull request.
 ⬥ To resolved this, **the simplest solution is to delete your fork, and make a new fork of the PvME repository**.
 ⬥ This will give you a fresh, up-to-date copy, and get rid of any lingering issues.
@@ -72,9 +69,7 @@ This guide will go over an assortment of common issues you may encounter while w
 *Note: It is assumed you have already forked the repository.*
 
 ⬥ Consider the scenario: a pull request has been made, with changes to *one* file, visible in the *Files Changed* tab.
-.
 .img:https://i.imgur.com/kxvu0O2.png
-.
 
 .
 **__Modify an Existing File in the Pull Request__**
@@ -82,17 +77,11 @@ This guide will go over an assortment of common issues you may encounter while w
 To make an a change to a file that already contains a change, *in the same pull request*, do the following.
 ⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
 ⬥ Go to the top right corner of the file you wish to update, click the three dots, then *Edit File*.
-.
 .img:https://i.imgur.com/h2i3Rkb.jpg
-.
 ⬥ Make whatever additional changes you like, and then *Commit directly to the xxx branch*.
-.
 .img:https://i.imgur.com/GbkYLNi.png
-.
 ⬥ Navigate back to your Pull Request, and the additional change should be included!
-.
 .img:https://i.imgur.com/OxtPQXE.png
-.
 
 .
 **__Add a New File to the Pull Request__**
@@ -102,19 +91,12 @@ To edit a different file, and include it in the same pull request, do as follows
     • You are now looking at the main directory of your own branch, where all files will reside.
 .
 .img:https://i.imgur.com/ylNa85w.png
-.
 ⬥ Locate the additional file you would like to change, open it, and then click the edit icon.
-.
 .img:https://i.imgur.com/kSt0Xpa.png
-.
 ⬥ Make whatever changes you like, and then *Commit directly to the xxx branch*.
-.
 .img:https://i.imgur.com/sa6tPYh.png
-.
 ⬥ Navigate back to your Pull Request, and the additional file should be included!
-.
 .img:https://i.imgur.com/UKnKrfs.png
-.
 
 .
 > **__Helpful Tips__**
@@ -126,18 +108,12 @@ To edit a different file, and include it in the same pull request, do as follows
 ⬥ Sometimes, especially for larger changes, it can be helpful to use *Split View* instead.
 ⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
     • By default, you will see unified changes, as shown below:
-.
 .img:https://i.imgur.com/KqtUExJ.png
-.
 ⬥ Click the settings icon, select *Split*, and then *Apply and reload*.
-.
 .img:https://i.imgur.com/mqNCNlT.png
-.
 ⬥ Congratulations! From now on, your changes will be shown in *Split View*.
     • You can reverse the process to go back to a unified view at any time, if you prefer.
-.
 .img:https://i.imgur.com/IAz8bya.png
-.
 
 .
 {
@@ -146,23 +122,23 @@ To edit a different file, and include it in the same pull request, do as follows
     "color": 39423,
     "fields": [
       {
-	      "name": "__Terminology__",
-        "value": "[Link]($linkmsg_keywords$)",
+	      "name": "__Introduction__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Frequently Used Terminology]($linkmsg_keywords$)",
 		    "inline": true
       },
       {
 	      "name": "__Common Problems__",
-        "value": "[Failed Checks]($linkmsg_failedchecks$)\n[Stuck Checks]($linkmsg_stuckchecks$)\n[Branch 'X' Commits Behind]($linkmsg_commitdiff$)",
+        "value": "⬥ [Failed Checks]($linkmsg_failedchecks$)\n⬥ [Stuck Checks]($linkmsg_stuckchecks$)\n⬥ [Branch 'X' Commits Behind]($linkmsg_commitdiff$)",
 		    "inline": true
       },
 	  {
 	      "name": "__Pull Requests__",
-        "value": "[Modify an added file]($linkmsg_modifypr$)\n[Add a new file]($linkmsg_addpr$)",
+        "value": "⬥ [Modify an Added File]($linkmsg_modifypr$)\n⬥ [Add a New File]($linkmsg_addpr$)",
 		    "inline": true
       },
 	  {
 	      "name": "__Tips & Tricks__",
-        "value": "[File Split View]($linkmsg_diffview$)",
+        "value": "⬥ [File Split View]($linkmsg_diffview$)",
 		    "inline": true
       }
     ]

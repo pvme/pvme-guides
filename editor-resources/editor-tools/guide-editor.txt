@@ -2,7 +2,7 @@
 > __**Introduction**__
 .tag:intro
 ⬥ Try it for yourself: **<https://pvme.github.io/guide-editor/>**
-⬥ The **PVME Guide Editor**, developed by <@!207588233780002818>, is a comprehensive editor tool to accelerate guide making for PvME.
+⬥ The **PvME Guide Editor**, developed by <@!207588233780002818>, is a comprehensive editor tool to accelerate guide making for PvME.
 ⬥ It is the recommended way to write content for guides, as it makes it easier to write guides with the live preview, and prevent issues from occuring when submitting them with the help of the integrated error checker.
 
 .
@@ -71,14 +71,8 @@ If you prefer to watch a video guide, then see the following tutorial by <@16046
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Information__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Editor Layout]($linkmsg_layout$)\n⬥ [Input Text]($linkmsg_input$)\n⬥ [Error Checker]($linkmsg_error$)\n⬥ [Video Tutorial]($linkmsg_video$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Editor Layout]($linkmsg_layout$)\n⬥ [Input Text]($linkmsg_input$)\n⬥ [Error Checker]($linkmsg_error$)\n⬥ [Video Tutorial]($linkmsg_video$)",
+    "color": 39423
   }
 }
 .embed:json
