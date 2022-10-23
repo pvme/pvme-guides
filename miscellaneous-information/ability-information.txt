@@ -380,6 +380,17 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:abs
 
 .
+{
+  "embed": {
+    "title": "__Fractured Staff of Armadyl__ <:soa:869284271595069451>",
+    "description": "⬥ Special Attack: Instability\n⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)\n⬥ Lasts 50t (30s)\n⬥ Whenever a magic critical hit is inflicted on primary target, a magic auto-attack will also be fired\n\u00a0\u00a0\u00a0\u00a0• Uses your current selected spell\n\u00a0\u00a0\u00a0\u00a0• If a staff is not equipped, the auto-attack will come from mainhand weapon\n\u00a0\u00a0\u00a0\u00a0• Auto-attacks can trigger additional auto-attacks if they land as a critical hit on the *primary target*\n⬥ For more information on how to use the special attack, use `!fsoa` in <#534563158304620564>",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:soa
+
+.
 **__Ultimates__**
 .tag:mageUltimates
 {
@@ -750,7 +761,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Ek-Zekkil__ <:zekkil:903244090953588787>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ Does not benefit from the special attack accuracy buff\n⬥ Non-bleed hit followed by a 6-hit bleed\n\u00a0\u00a0\u00a0\u00a0• Each hit deals a multiplicative 5% increase in damage from the previous\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 3 hits. Requires <:zekkil:903244090953588787> <:eof:787526151978614824>\n⬥ <:dismember:535532879376023572>, <:BloodTend:513190158431158274>, <:slaughter:535532879237873666>, <:massacre:535532879384543253>, <:comb:535533833098100745>, <:frag:535541273755385885>, <:deadshot:535541307666595870> and <:abyssalscourge:947871842469834832>'s parasite bleed extend the <:zekkil:903244090953588787> <:spec:537340400273195028> bleed by 1 hit each, capping at 5 extensions",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 50% (45% with <:vigour:615613235512737792>)\n⬥ Does not benefit from the special attack accuracy buff\n⬥ Non-bleed hit followed by a 6-hit bleed\n\u00a0\u00a0\u00a0\u00a0• Each hit deals a multiplicative 5% increase in damage from the previous\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 3 hits. Requires <:zekkil:903244090953588787> <:eof:787526151978614824>\n⬥ <:dismember:535532879376023572>, <:BloodTend:513190158431158274>, <:slaughter:535532879237873666>, <:massacre:535532879384543253>, <:comb:535533833098100745>, <:frag:535541273755385885>, <:deadshot:535541307666595870> and <:abyssalscourge:947871842469834832>'s parasite bleed extend the <:zekkil:903244090953588787> <:spec:537340400273195028> bleed by 1 hit each, capping at 5 extensions",
     "color": 15158332
   }
 }
@@ -1183,12 +1194,23 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Eldritch Crossbow__ <:ecb:615618531937222657>",
-    "description": "⬥ Special Attack: Split Soul\n⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)\n\u00a0\u00a0\u00a0\u00a0• Lasts 25t (t0-t24)\n\u00a0\u00a0\u00a0\u00a0• Anything <:soulsplit:615613924506599497> would have healed whilst spec is active instead deals Blight damage equal to 4 * <:soulsplit:615613924506599497> heal amount\n\u00a0\u00a0\u00a0\u00a0• To get the Split Soul damage both the <:soulsplit:615613924506599497> heal and the hit of the ability must occur within the duration of the special\n\u00a0\u00a0\u00a0\u00a0• Blight damage is affected a second time by Vulnerability <:Vuln:537349530551582720>, X Slayer sigils <:demonslayer:641339921675845633> <:dragonslayer:641339921814126594> <:undeadslayer:641339922019516416>, the NopeNopeNope PoF perk, and X Slayer perks <:undeadslayerperk:689502804720615441> <:demonslayerperk:689502842653900818> <:dragonslayerperk:689502927731163170>",
+    "description": "⬥ Special Attack: Split Soul\n⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)\n\u00a0\u00a0\u00a0\u00a0• Lasts 25t (t0-t24)\n\u00a0\u00a0\u00a0\u00a0• Anything <:soulsplit:615613924506599497> would have healed whilst spec is active instead deals Blight damage equal to 4 * <:soulsplit:615613924506599497> heal amount\n\u00a0\u00a0\u00a0\u00a0• To get the Split Soul damage both the <:soulsplit:615613924506599497> heal and the hit of the ability must occur within the duration of the special\n\u00a0\u00a0\u00a0\u00a0• Special attack is lost if mainhand weapon is switched while active\n\u00a0\u00a0\u00a0\u00a0• Blight damage is affected a second time by Vulnerability <:Vuln:537349530551582720>, X Slayer sigils <:demonslayer:641339921675845633> <:dragonslayer:641339921814126594> <:undeadslayer:641339922019516416>, the NopeNopeNope PoF perk, and X Slayer perks <:undeadslayerperk:689502804720615441> <:demonslayerperk:689502842653900818> <:dragonslayerperk:689502927731163170>",
     "color": 3066993
   }
 }
 .embed:json
 .tag:ecb
+
+.
+{
+  "embed": {
+    "title": "__Bow of the Last Guardian__ <:bolg:994189289623662702>",
+    "description": "⬥ Special Attack: Balance by Force\n⬥ Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)\n\u00a0\u00a0\u00a0\u00a0• Lasts 50t (t0-t49)\n\u00a0\u00a0\u00a0\u00a0• While active, the number of stacks needed to trigger the passive effect is lowered to 4\n\u00a0\u00a0\u00a0\u00a0• If 3 or more <:perfectequilibrium:1006119102814887957> stacks when used the passive effect will trigger\n\u00a0\u00a0\u00a0\u00a0• For more info on how to use the special attack, use `!bolg` in <#534563158304620564>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:bolg
 
 .
 **__Ultimates__**
@@ -1283,7 +1305,7 @@ Use the following links to quickly find your way around this channel.
       },
       {
         "name": "__Special Attacks__",
-        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)",
+        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)\n⬥ [F. Staff of Armadyl]($linkmsg_soa$)",
         "inline": true
       },
       {
@@ -1364,7 +1386,7 @@ Use the following links to quickly find your way around this channel.
       },
       {
         "name": "__Special Attacks__",
-        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)",
+        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
         "inline": true
       },
       {
