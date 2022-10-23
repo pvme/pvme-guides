@@ -12,7 +12,7 @@
 ⬥ **Input Text** is where your input text goes.
 ⬥ **Output** is a live output of the emojis from your input text.
 ⬥ **Copy Options** allow you to copy the text in a couple different output options.
-    • **Copy Discord** copies the text as it would be input for a guide in PVME.
+    • **Copy Discord** copies the text as it would be input for a guide in PvME.
     • **Copy Draw.io** copies the raw HTML for import into **draw.io** (a free online tool that helps make flowcharts, diagrams, etc.)
 
 .
@@ -35,14 +35,8 @@
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Information__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Layout]($linkmsg_layout$)\n⬥ [Input Text]($linkmsg_input$)\n⬥ [Saving Output]($linkmsg_output$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Layout]($linkmsg_layout$)\n⬥ [Input Text]($linkmsg_input$)\n⬥ [Saving Output]($linkmsg_output$)",
+    "color": 39423
   }
 }
 .embed:json

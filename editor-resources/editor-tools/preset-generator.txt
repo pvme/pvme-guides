@@ -1,21 +1,17 @@
 .
 > __**Introduction**__
 .tag:intro
-The **PVMe Preset Generator**, developed by <@!269513930949263363>, <@!435481585379180554>, and friends, is a Google Sheet created for the purpose of making standarised presets for guides easier to create and maintain. It is the preferred way to display presets in guides.
+The **PvME Preset Generator**, developed by <@!269513930949263363>, <@!435481585379180554>, and friends, is a Google Sheet created for the purpose of making standarised presets for guides easier to create and maintain. It is the preferred way to display presets in guides.
 
-**This guide only covers how to use the tool. For full preset formatting, please see <#1020843999642271774> or any of the other guides in PVMe where presets are used.**
+**This guide only covers how to use the tool. For full preset formatting, please see <#1020843999642271774> or any of the other guides in PvME where presets are used.**
 
 The preset generator can be found at the following link.
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset Generator__",
-        "value": "Check out the PVME Preset Generator [here](https://docs.google.com/spreadsheets/d/1WpbEGSWK5qhsdq7ERMYh70PUOg9BTW85nFW0TAcNWCQ).\n__Make a copy__ to use for yourself."
-      }
-    ]
+    "title": "__Preset Generator__",
+    "description": "Check out the PvME Preset Generator [here](https://docs.google.com/spreadsheets/d/1WpbEGSWK5qhsdq7ERMYh70PUOg9BTW85nFW0TAcNWCQ).\n__Make a copy__ to use for yourself.",
+    "color": 39423
   }
 }
 .embed:json
@@ -73,14 +69,8 @@ __**Step 3: Taking Screenshots**__
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Information__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset Generator Layout]($linkmsg_layout$)\n⬥ [Creating Preset - Guide]($linkmsg_guide$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset Generator Layout]($linkmsg_layout$)\n⬥ [Creating a Preset]($linkmsg_guide$)",
+    "color": 39423
   }
 }
 .embed:json

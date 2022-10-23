@@ -1,0 +1,63 @@
+> __**Introduction**__
+.tag:intro
+The PVMe Spreadsheet is a Google Sheet document that is used to store dynamic information for use in guides. This includes things like prices of items, values of invention components, calculating boss revenue, etc. which can change over time. This guide is a brief overview of the sheet, and how you can use data from it in your guides.
+
+The spreadsheet can be found at the following link.
+.
+{
+  "embed": {
+    "title": "__PvME Spreadsheet__",
+    "description": "Check out the PvME Preset Generator [here](https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/).\nYou *can* make a copy for own use, but it will *not* affect any PvME guides.",
+    "color": 39423
+  }
+}
+.embed:json
+*Note: Data in guides is only pulled from the **master** copy of the sheet. To modify existing data, or add new data, use <#771436827214086154>.*
+
+.
+> __**PvME Spreadsheet Layout**__
+.tag:layout
+⬥ When you open the spreadsheet, you will see the following sheets at the bottom:
+.img:https://i.imgur.com/u0WjDXv.png
+⬥ These tabs correspond to different categories of items/etc. within the game for data is present/calculated for use in the guides:
+    • **Prices**: sheet that contains and periodically fetches/updates GE prices of items.
+    • **Bosses**: used to calculate earnings for <#1020550477043216424>.
+    • **Slayer**: used to calculate earnings for <#1020024227115573369>.
+    • **Perks**: used to calculate cost of Invention components and perks for <#553632787639435284>.
+    • **Unlocks**: prices of unlockable items found in <#1025569719056597042>.
+    • **Miscellanous**: some misc. prices and calculations.
+    • **Consumables**: prices of consumable items found in <#1025569374532288622>.
+    • **Mastery**: outdated sheet, kept for historic/reference purposes.
+⬥ To access a specific piece of information, only two things are required: the **sheet name** and **cell number**.
+
+.
+> __**Using Spreadsheet Data In Guides**__
+.tag:howto
+⬥ Using data from the spreadsheet in a guide is very straightforward.
+⬥ Values from the sheet can be accessed using the following command: `data_pvme:<sheet>!<cell>`, replacing the contents of `<sheet>` and `<cell>` with the **sheet name** and **cell number** respectively.
+⬥ *When posted (by the PvME Bot), the command text will get replaced by the value present in that cell*.
+
+⬥ For example, the following sentence might be in a guide:
+```
+Greater Chain <:gchain:787904334495088672> is a very powerful ability, but is also quite expensive, costing <:coins:698816156961603654> $data_pvmе:Unlocks!B15$.
+```
+⬥ When posted by the bot, it will look like the following:
+.img:https://i.imgur.com/KQeL5Dq.png
+*Note: The command syntax can also be found in the **Commands** dropdown menu in the web guide editor tool*.
+
+.
+> __**Requesting Changes/Additions**__
+.tag:requests
+⬥ Anyone can make a copy of the sheet for personal use, but only data from the master sheet will be referenced by the bot.
+⬥ To request any changes or additions to the sheet, use the <#771436827214086154> channel.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [PvME Spreadsheet Layout]($linkmsg_layout$)\n⬥ [Using Spreadsheet Data in Guides]($linkmsg_howto$)\n⬥ [Requesting Changes/Additions]($linkmsg_requests$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
