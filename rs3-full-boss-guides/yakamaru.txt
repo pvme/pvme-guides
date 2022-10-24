@@ -3,202 +3,610 @@
 .img:https://i.imgur.com/3gn3ujr.png
 .
 > **__Introduction__**
-Raids is a mechanically intensive group boss that may seem daunting at first. But, when you break it down into different pieces, it is fairly straight forward. One thing to note is that Yakamaru has a unique mechanic that gives it 100% hit accuracy. If Yaka were to splash, it will deal half damage instead. Keeping this in mind, keeping the appropriate prayers up (mage in md, ranged otherwise) is critical. During the entirety of the fight (including Mirage Phase), Yakamaru will add stacks towards its primary target. These stacks will allow Yakamaru to deal increased damage to anyone with these stacks. This mechanic can be dealt with using Freedom to halve the number of stacks that you have. Unlike AoD, these stacks will not reset your defensive abilities.
+*Note: a **Table of Contents** can be found in the pins.*
+
+Yakamaru is the second boss in the Liberation of Mazcab raid, with up to 10 players in a single encounter. While the fight itself does have many mechanics and sections that require coordination between players, with just a little knowledge and practice and communication between your teammates, it can become a relatively smooth and fun boss encounter.
+
+This guide aims to cover the basic mechanics of Yakamaru, and cover some of strategies, tips and tricks that will help you get your first kills and beyond. As this is a mechanically intensive group fight with a longer guide, it is broken into a few sections (all linked in the Table of Contents) for easier navigation:
+⬥ To see what roles there are and what each one does, see __**Roles at Yakamaru**__.
+⬥ To learn about Yakamaru's attacks and pool mechanics, see __**Auto Attacks**__, __**Special Attacks**__ and __**Pool Mechanics**__.
+⬥ See __**Fight Overview**__ for a brief description of the fight, and __**Fight Phases**__ for more in-depth information.
 
 .
 > **__Drops__**
 .tag:drops
-⬥ <:yakahelm:643162695667023907> **Yakamaru's helmet ** `1/300 (60 threshold)`
+⬥ Teci <:teci:641332337451204608>
+    • Always dropped.
+⬥ **Yakamaru's Helmet** <:yakahelm:643162695667023907>
+    • 1/300 (60 threshold).
+⬥ **Mazcab Ability Codex** <:mazcabcodex:643162636447645714>
+    • See below.
+⬥ **Achto Primeval <:achtoprimevaltop:641344704939819028> / Achto Teralith <:achtoteralithbody:583428622136901633> / Achto Tempest <:achtotempestbody:583428622094958612>**
+    • See below.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Raids Drop Rates__",
+        "value": "To see how droprates for Raids uniques are calculated, [click here](https://www.runescape.com/drop-rates).\n(Scroll down to the **Liberation of Mazcab** section)."
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-> **__Presets__**
-.tag:presets
-*Special Note: All presets can utilize a Powerburst of Acceleration <:accel:756236265472524418> to instantly be freed from Quick Sand.*
+> __**Presets**__
+Given that Yakamaru is a fairly advanced boss and that its a *group boss*, it is reasonable (and ideal) to have a sufficient level of gear before attempting the boss. **This helps both make the fight easier and make it easier for you to get into teams.**
 
-__<:Magic:689504724159823906> **DPS**__
-⬥ <:augseissing:656785077883109407> **Seismic singularity** `Flanking 4`
-⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427> **Rune Pouch** <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:borrowedpower:657248051190300682> <:Vuln:537349530551582720> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+A guideline set of recommendations might this include:
+⬥ T80+ power armor + T90+ weapons, perked with **Starter Perks** from <#553632787639435284>
+⬥ 95+ Prayer <:prayer:1005450651347730533> for curses <:turmoil:583429936606347280> <:anguish:583429936665198592> <:torment:583429936958930964> <:soulsplit:615613924506599497>
+⬥ 99+ Herblore <:Herblore:689554435583508558> for overloads <:ovl:689554436179361864> <:elderovlsalve:648976643687317532>
+⬥ Berserker auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
+
+**As always, feel free to adjust the presets according to what you have available.**
+
 .
-.img:https://i.imgur.com/rpd9MQB.png
+__**Basic Magic Preset**__ <:Magic:689504724159823906>
+.tag:basicmagic
+__**Gear Setup**__
+.img:https://i.imgur.com/83bP9tR.png
+***Note:** For a full breakdown of the preset, check out: <https://i.imgur.com/kp054r8.png>.*
+
 .
-__**<:range:580168050121113623> DPS**__
-⬥ <:ascoh:513190159362031631> **Off-hand Ascension crossbow** `Flanking 4`
+__**Important Items**__
+⬥ <:ancientlantern:580177522503712781> with Planted Feet <:pf:689501925770919981>
+⬥ <:cywirorb:643161591210049556> with Flanking <:flankicon:841419289755385866>
+⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
+(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050><:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
+
+.
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:berserkersfury:697808774106185768> Berserker's Fury
+⬥ <:fontoflife:698225967679930408> Font of Life
+
+.
+__**Notes**__
+⬥ **Prefer a DPS familiar** like <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203> or <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>, but if required, use a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> or Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for better survivability.
+    • See `!familiar` and `!yak` for more info.
+⬥ **Maniacal aura <:mani:643505153709965322> is strongly recommended for hitchance reasons.**
+⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
+
+.
+__**Basic Range Preset**__ <:range:580168050121113623>
+.tag:basicrange
+.img:https://i.imgur.com/LL2fAJy.png
+***Note:** For a full breakdown of the preset, check out: <https://i.imgur.com/qCfjnZ6.png>.*
+
+.
+__**Important Items**__
+⬥ <:dbow:643848618553507843> with Planted Feet <:pf:689501925770919981>
+⬥ <:eofgreen:780401412727242773> with <:dbow:643848618553507843>
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
 (Runes for <:disrupt:535614336207552523>)
+
 .
-.img:https://i.imgur.com/9A8qJn8.png
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:berserkersfury:697808774106185768> Berserker's Fury
+⬥ <:fontoflife:698225967679930408> Font of Life
+
 .
-__**<:melee:615612332521029632> DPS**__
-⬥ <:maceoh:656785061059756032> **Off-hand Drygore mace** `Flanking 4`
+__**Notes**__
+⬥ **Prefer a DPS familiar** like <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203> or <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>, but if required, use a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> or Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for better survivability.
+    • See `!familiar` and `!yak` for more info.
+⬥ **Reckless aura <:reckless:643505179378974748> is strongly recommended for hitchance reasons.**
+⬥ An Upgraded Bone Blowpipe is a cheap and effective option for Flanking <:flankicon:841419289755385866> (recommended).
+⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
+
+.
+__**Melee Preset**__ <:melee:615612332521029632>
+.tag:basicmelee
+.img:https://i.imgur.com/PSIjfCl.png
+***Note:** For a full breakdown of the preset, check out: <https://i.imgur.com/SRRTVQz.png>.*
+
+.
+__**Important Items**__
+⬥ <:maceoh:656785061059756032> with Flanking <:flankicon:841419289755385866>
+⬥ <:eofred:780401412839833601> with <:swh:641670143197446182> (optional)
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
 (Runes for <:disrupt:535614336207552523>)
+
 .
-.img:https://i.imgur.com/WgcIduo.png
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:berserkersfury:697808774106185768> Berserker's Fury
+⬥ <:fontoflife:698225967679930408> Font of Life
+
 .
-__**North Tank**__
-Ancients are recommended to freeze any jelly that spawns on you, while its common to have a JW to deal with them, it's also not uncommon to just let jellies spawn and the team itself works as a whole to prevent their movement.
-⬥ <:augseissing:656785077883109407> **Seismic singularity** `Flanking 4`
-⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427> **Rune Pouch** <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:borrowedpower:657248051190300682> <:Vuln:537349530551582720> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+__**Notes**__
+⬥ Melee is not very learner-friendly, and without sufficient gear will lack DPS compared to other styles - **avoid it if you are a learner, or if a low budget.**
+⬥ **Prefer a DPS familiar** like <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203> or <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>, but if required, use a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> or Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for better survivability.
+    • See `!familiar` and `!yak` for more info.
+⬥ **Berserker aura <:berserker:643505116347105290> is strongly recommended for hitchance reasons.**
+⬥ A Scrimshaw of Vampyrism <:VampScrim:513201294262009874> will significantly increase survivability.
+⬥ The Zaros Godsword spec <:zgs:626465964325601290> <:spec:537340400273195028> can be used on alternate pools when Berserk <:zerk:535532854004678657> is on cooldown to increase DPS.
+⬥ As melee, you can Hammer <:swh:641670143197446182> <:eofspec:746403211908481184> without requiring Ingenuity of the Humans <:ingen:641339234111848463> - this may be useful.
+⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
+
 .
-.img:https://i.imgur.com/tLQs2Yg.png
+__**Basic Tank Preset**__ <:Magic:689504724159823906>
+.tag:basictank
+.img:https://i.imgur.com/M07dhTp.png
+***Note:** For a full breakdown of the preset, check out: <https://i.imgur.com/in4pT0w.png>.*
+
 .
-__**Base Tank on Ripper**__
-Achto used for defensive resets, arcane used for damage reduction if needed at any point. It is recommended to try to use power armour however if you are learning this is a suitable alternative.
-⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427> **Rune Pouch** <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:borrowedpower:657248051190300682> <:Vuln:537349530551582720> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+__**Important Items**__
+⬥ <:ancientlantern:580177522503712781> with Planted Feet <:pf:689501925770919981>
+⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
+(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:animatedead:856635090453135382> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
+
 .
-.img:https://i.imgur.com/WsNy53P.png
+__**Relic Setup**__
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+⬥ <:deathward:697808774068699286> Death Ward
+⬥ <:fontoflife:698225967679930408> Font of Life
+
 .
-__**Mammoth Basing with Mage**__
-The most efficient strategy to base Yakamaru with, this setup ensures you eat through the damage as much as possible with the Mammoth Scrolls, allowing you to fully concentrate on doing DPS rather than Survivability. The faster the kill, the less defensives you *should* use.
-⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Bloodrune:536252658970001409> <:Firerune:536252659850674186> <:Bodyrune:536252659301089280>
-⬥ <:purppouch:656786565149884427> **Rune Pouch** <:Cosmicrune:536252659615924258> <:Astralrune:536252658961481769> <:Lawrune:536252661406760970>
-⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Waterrune:536252660165115905> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:borrowedpower:657248051190300682> <:Vuln:537349530551582720> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+__**Notes**__
+⬥ **This preset is built around survivability** - the most important thing as a tank is to stay alive - use a survival-oriented familiar like a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> , Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> or even a BoB <:Mammoth:513195712146702337> <:mammothscroll:1032540070332346388> for survivability.
+    • If not using <:Mammoth:513195712146702337> remove the scrolls from inventory.
+⬥ **Raids armor <:achtoprimevaltop:641344704939819028> defensive resets can make tanking a lot easier**, alternatively Seasingers <:Seasingersrobebottom:556592058958348298>, Ganodermic <:ganolegs:1003947803673903204> etc. will also benefit from using Animate Dead <:animatedead:856635090453135382> if not owned.
+⬥ **Once you are more comfortable tanking, you can switch to power armor and avoid shield-camping**, and rely on <:Mammoth:513195712146702337> <:mammothscroll:1032540070332346388> or <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for healing.
+⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
+
 .
-.img:https://i.imgur.com/Jz7TqyW.png
+> __**Fight Overview**__
+.tag:overview
+⬥ Yakamaru is the second boss in Liberation of Mazcab raid, fought after Beastmaster Durzag is killed, and the puzzle section afterwards is completed.
+⬥ **The loot lock can be reset every 2 days at reset (00:00 UTC)**, but the boss can be fought more often for KC.
+    • This gives no loot, but *does* give chance at pet drops.
+⬥ Yakamaru fight takes place at the Mazcab beach, where there are 5 pools located.
+⬥ The arena looks like the following:
+.img:https://i.imgur.com/A9OBq6m.png
 .
-__**Beginner Base**__
-Replace Achto Gloves with Achto Legs if you have them, this way you keep the Bracelet. This preset ensures you don't stray too far away from the META strategies while at the same time giving you room to breathe in handling this type of basing.
-This preset also assumes you're camping Standards
-⬥ <:runepouch:583430011868938283> <:Airrune:536252658986647589> <:Soulrune:536252660333019136> <:Chaosrune:536252659422855188>
-(Runes for <:AirSurge:543465115870035999> <:Vuln:537349530551582720>)
+⬥ **The fight consists of two phases**:
+    • **Pools phase** - Yakamaru jumps between different pools using different mechanics and must be killed in each one.
+    • **Mirage phase** - After killing it once in each pool, Yakamaru spawns in all pools simultaneously and must be killed in all the pools and 'closed' permanently, to finish the fight.
+
+⬥ During the pools phase, there will be a special mechanic for each pool - this is covered in the __**Pool Mechanics**__ section.
+⬥ Yakamaru's attacks with auto attacks (Range if out of MD, Magic if in MD) and special attacks.
+    • The default attack cycle uses a number of auto attacks followed by a special attack, and then repeats.
+    • The number of autos varies from pool to pool.
+    • *The attack cycle starts at a random point in the cycle* (i.e. Yakamaru could begin with a spec, and then continue from there.)
+
 .
-.img:https://i.imgur.com/XDBB2ta.png
-.
-> **__Roles__**
+> __**Roles at Yakamaru**__
 .tag:roles
-__**North Tank**__
-Also known as NT or Sand Tank. This person must voke and tank the Sand pool during mirage. Since the DPS will be focused on the other 3 pools first, the NT will be tanking mirage for the longest amount of time. That being said, a defensive rotation is advised as well as using <:freedom:535541258240786434>, <:disrupt:535614336207552523>, and shield dome as effectively as possible. A good way of dealing with this pool is using <:devo:513190158728953857>, then using <:res:535541258844635148> once a good number of stacks are built in order to receive a good heal, then using <:freedom:535541258240786434> and other defensive thresholds/ultimates as needed.
+As it is a group fight, a number of players are assigned roles to make the encounter smoother and faster. Here we cover what they are and their basic responsibilities.
 
 .
-__**Jelly Wrangler**__
-This person is to tag, voke and drag jellyfish away from the other players during mirage phase. A maximum number of 10 jellyfish can be present in the instance at one point. Using ice barrage is a good way of dealing with the jellyfish as it will affect multiple targets. Using melee prayer and <:devo:513190158728953857> is also critical in reducing damage taken. If enough jellyfish surround the JW, it is very easy to get KO'ed. Using defensives is crucial as killing jellyfish in your party will force Yakamaru to spawn another jellyfish near the team. Bolas can also be used if you are ranging.
+{
+  "embed": {
+    "title": "__Yakamaru Roles__",
+    "description": "The following roles may be assigned to players at Yakamaru.\nPlayers without a dedicated role are just DPSers.\nRoles are roughly sorted by difficulty, for new players.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Easy Roles__",
+        "value": "⬥ CPR\n⬥ Stun 0 (ST0)",
+        "inline": true
+      },
+      {
+        "name": "__Medium Roles__",
+        "value": "⬥ Jelly Wrangler (JW)\n⬥ Stun 5 (ST5)\n⬥ Poison Tank (PT)\n⬥ Double",
+        "inline": true
+      },
+      {
+        "name": "__Advanced Roles__",
+        "value": "⬥ Base Tank\n⬥ North Tank (NT)\n⬥ Shark 10 (SH10)\n⬥ Main Stun (MS)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+***Note**: A single player can have more than 1 role, depending on what roles they take.*
 
 .
-__**Main Stun**__
-Also known as MS. This person will stun Yakamaru during the Stun pool. It is important that this is the ONLY person who stuns the pool. It is also important to note that asphyxiate should NOT be used as main stun; impact/deep impact or their ranged/melee variants will be sufficient. Using stuns during this pool will deal 1000 typeless damage to the whole team and drastically reduce Yakamaru's defense. If another stun is used quickly, the typeless damage can hit up to 5000 typeless damage (in conjunction to the initial 1000).
-Back-up Stun: Also known as BUS. This person is to stun Yakamaru during the Stun pool ONLY if the MS misses their stun. If the MS misses their stun, they are to call out "stun missed", then the BUS will use a stun ability. Again, do NOT use asphyxiate to stun the pool.
+__**Base Tank / Base**__
+⬥ **Primary tasks**
+    • Tank Yakamaru during each pool until Mirage phase.
+    • Tank Tendrils pool during Mirage phase until it is dead.
+⬥ **Other tasks**
+    • Avoid standing near other players, allow them to flank the boss.
+    • *Do not die* - prioritise staying alive even at the expense of DPS.
+⬥ **Notable info**
+    • Yakamaru's enrage mechanic affects the base - they will take the most damage during the fight.
+    • This role can help do more DPS on faster teams, or go full tank/shield camp route. This depends on the player and expected killtimes for the team. *If in doubt - focus on surviving.*
 
 .
-__**Double**__
-Also known as DBL. This person will act as a poison tank for Stun pool. During Sand pool, you will take the poison from sand (in conjunction with the PT). However, you will not run MD to Yakamaru during Sand pool. You will tank the poison from this point up until Stun pool is defeated. It is important to stand MD to Yakamaru during the entirety of Stun pool (pray mage) and to keep a high HP level as you will be getting hit by mage hits, poison hits, and the occasional stun hit.
+__**Poison Tank / PT**__
+⬥ **Primary tasks**
+    • Stand on the correct tile and absorb the poison that Yakamaru spawns after each pool reaches 100k HP left.
+    • Move into MD of Yakamaru after absorbing poison, then help defeat the pool.
+⬥ **Notable info**
+    • The tile the poison will land on looks is indicated by *green arrows*.
+    • There is no poison to absorb during Mirage phase - only during the first phase with the 4 pools.
+    • Bladed Dive <:bd:535532854281764884> helps get to the poison ASAP, and Barge <:barge:535532853916860437> can be used to get into MD quickly and consistently.
+    • Teams will typically assign a *Double* role - if the first pool is *not* Stun pool, then the Double will absorb the poison required for stun pool *during the sand pool's poison*.
+        - This is to save time and lower chances of failing poison on Stun pool as it can die very quickly.
+        - If this happens, the Poison Tank only ends up absorbing 3 sets of poison instead of 4.
+    • After a successful pool, the PT will be washed up on the beach near the south. *The CPR role is expected to revive the player in time*.
+
+.
+__**North Tank / NT**__
+⬥ **Primary tasks**
+    • Tank Sand pool (and also usually Stun pool) during Mirage phase until the other 3 pools are dead.
+        - Stand *north* of the pool when tanking it.
+        - To aggro both pools: tag Shark pool, then use <:voke:535541259465392143> on Stun pool.
+⬥ **Notable info**
+    • *Sand pool is almost always the last to die during Mirage phase* - on slower teams, this can be a tank test. Use defensives if you have to.
+    • Jellies may spawn while tanking the pool - dodge them and let the Jelly Wranger handle them, or freeze/stun them and move away.
 
 .
 __**CPR**__
-This person must revive the PT after the pool is phased. The PT will show up on the beach and will have a bar over their head indicating how long you have to revive them. If you do not get to the PT before this bar is depleted, the PT will be instantly killed.
+⬥ **Primary tasks**
+    • Click on the washed-up player on the beach after each pool to prevent them being instakilled.
+⬥ **Notable info**
+    • Once Mirage phase starts, there are no more players to revive.
 
 .
-__**Poison Tank**__
-Also known as PT. This person must tank the poison for each pool (except for Stun). At 100k HP, Yakamaru will release a poison to a random square and you will have a few seconds to be standing on this square. The designated tile will be at the center of four inward facing green arrows (this looks like detonate). Once you get the confirmation message that you have received the poison, you must rush into melee distance to Yakamaru (pray mage). Once Yakamaru hits 0 HP, you will be taken to the beach (southeast area of the instance) and the CPR will revive you. Make sure to switch ranged prayer here. If the poison tank misses the poison or is not standing MD as the pool dies, the entire pool must be repeated.
+__**Double**__
+⬥ **Primary tasks**
+    • Absorb poison on the Sand pool and take the place of the Poison Tank during Stun pool instead.
+        - The Double will stand on the same tile as the Poison Tank during the Sand pool to do this.
+⬥ **Notable info**
+    • *Stand in MD of the Stun pool the entire time*. This is because the Stun pool dies very quickly.
+    • If Stun pool is the first pool, this role has no responsibilities.
+    • Be sure to bring extra food to compensate for the extra damage taken, *especially on slower teams*.
 
 .
-__**Stun 0**__
-Also known as St0 or S0. This person must DPS the Stun pool during mirage. This person should also follow the same rotation as St5 but does not need to use any planks. This role is optional as the NT may act as a St0 (this should only be done if you are very experienced).
+__**Main Stun**__
+⬥ **Primary tasks**
+    • Stun Yakamaru *at the appropriate time* during the Stun pool, when his damage reduction is too high.
+    • If all stuns miss, call for a backup stun from another player.
+⬥ **Notable info**
+    • Ingenuity of the Humans <:ingen:641339234111848463> can guarantee a stun without splashing, if you don't have high hitchance.
+    • Do NOT accidentally kill the team by stunning too early or multiple times.
+    • A correctly timed stun will only deal 1000 damage to all players, which can rise up to 5000 damage if stunned too early (stun when Yakamaru's health begins to drop very slowly).
+    • It is preferred to use non-channeled abilities to stun.
+    • On newer/inexperienced teams, a warning that you are about to stun may let players eat up before stunning.
 
 .
-__**Stun 5**__
-Also known as St5 or S5. These 2 people must take 5 planks from the beach and DPS the Stun pool during mirage. A quick way of dealing with this is tagging the pool, <:devo:513190158728953857> → <:enhreplen:634350450887622656> → <:onsl:513190159085207555> on the pool. Once the pool flies into the air, you and your partner will close the pool with your 5 planks (together, 10 planks are used).
+__**Stun 0 / ST0**__
+⬥ **Primary tasks**
+    • On Mirage phase, help kill the Stun pool first *ASAP*.
+    • Then help kill the other pools in order (Shark > Tendrils > Sand).
+⬥ **Notable info**
+    • This role may not always be assigned, especially on more experienced teams where two Stun 5 roles are sufficient.
+    • If a Stun 5 role dies, you can easily take their place.
+    • *Do not randomly use stuns during Mirage phase*.
 
 .
-__**Shark 10**__
-Also known as Stag10, SH10, or S10. This person must voke and tank the Shark pool during mirage and then use 10 planks to cover the pool once Yakamaru is defeated. Since most of the DPS will be focused on the Shark pool during mirage, the SH10 will not have to rotate defensive abilities asides from devotion or debilitate. That being said, using devotion then building into <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:Berserk:513190158468907012>, using an adrenaline renewal potion and doing a DPS rotation is advised. Once Yakamaru hits 0 HP, it will jump into the air and the SH10 must close the pool with their 10 planks so the pool does not respawn.
+__**Stun 5 / ST5**__
+⬥ **Primary tasks**
+    • Kill the Stun pool *ASAP* after Mirage phase starts and use *5 planks* on it by clicking on the pool.
+    • Then help kill the other pools in order (Shark > Tendrils > Sand).
+⬥ **Notable info**
+    • *Use your strongest abilities to burst the pool down*.
+    • Pick up your planks *before* Mirage phase starts to make it easier and prevent issues.
+    • *Do not randomly use stuns during Mirage phase*.
+    • The pool only needs to be tanked for a short amount of time as it dies quickly.
 
 .
-> **__Mechanics__**
-.tag:mechanics
-Yakamaru has different mechanics based on the pool he is currently occupying (Choice of tendril, shark, sand, stun, and mid).
-
-**__Map of Yakamaru Pools__**
-.
-.img:https://i.imgur.com/Ct30d18.png
-.
-__**Sand Pool**__
-This is the northwestern pool, it will always follow the shark pool unless Yakamaru dives to the sand pool first. Yakamaru will use the "Quick Sand" special attack here. During this attack, Yakamaru will begin burying eight random players in the instance (or however many are in the instance minus 2, so if 8 remain, 6 will be affected). The two free players must click on the other players in order to free them from being isnta-killed. If the base tank is buried, they must be freed as soon as possible. Typically, the 2 unaffected players should free the player closest to them and then immediately free the base tank. If you are affected by the special attack, your defensive abilities (except freedom and anticipation) will be put on cooldown (you can still use Disruption Shield and Shield Dome). Furthermore, you will still be able to attack Yamaru even if you are affected by the Quick Sand attack.
-
-Keeping the special attack in mind, the team should be cautious with doing too much or too little DPS around 100k HP. If Yakamaru does the Quick Sand attack in conjunction to releasing the poison, the poison tank and double may not be able to get the poison in time. If Yakamaru is preparing to do the Quick Sand attack and the HP is slightly above 100k, the team should slow down on the DPS. If Yakamaru is close to 0 HP and the poison tank is in position to phase and Yakamaru is preparing to do the Quick Sand attack, the team should either phase ASAP or slow down. This ensures the CPR is free to save the poison tank from the insta-kill.
+__**Shark 10 / SH10**__
+⬥ **Primary tasks**
+    • Tank the Shark pool during Mirage phase, and use *10 planks* on it by clicking the pool after it dies.
+⬥ **Notable info**
+    • Stand behind the Shark pool to prevent other players from getting enrage stacks.
+    • Pick up your planks *before* Mirage phase starts to make it easier and prevent issues (area loot can help).
+    • *If inventory space is an issue, ask another player to help with planks when assigning roles*.
+    • Be sure to bring extra food to compensate for the extra damage taken, *especially on slower teams*. Defensives <:devo:513190158728953857> <:res:535541258844635148> <:reflect:535541258786177064> <:cade:535541306353778689> are useful to mitigate damage.
+    • Setting up an Ultimate ability <:sunshine:994921119381463070> / <:zerk:535532854004678657> / <:deathsswift:994921434633744455> before Mirage phase starts can help make this a lot quicker.
 
 .
-__**Stun Pool**__
-This is the northeastern pool, it will always follow Sand Pool unless Yakamaru dives to Stun Pool first. During this pool, Yakamaru will not gain a special attack, but will gain a special mechanic. This means that Yakamaru's special attack rotation will be: 4 auto attacks, jellyfish, 4 auto attacks, blue, repeat. The unique mechanic that Yakamaru gains is a defensive buff. This buff increases as the fight progresses to the point where Yakamaru will become invulnerable to all attacks except to the style it is weak against. Yakamaru's weakness is indicated by its helmet's color (red for melee, green for ranged, blue for mage) or the text next to Yakamaru's name. This mechanic is bypassed by using a stun ability to drastically lower Yakamaru's defense. Stuns that will proc this are: asphyxiate, deep impact, impact, horror, shock, tight bindings, rout, binding shot, demoralise, destroy, stomp, forceful backhand, backhand, and kick. Dreapnips and dominion tower gloves will not stun the pool. Once a stun is used, Yakamaru will reflect damage to the team, the damage reflected can be anywhere between 1000-5000 damage. This damage scales to Yakamaru's current defense. If Yakamaru has a very high defense and a stun is used, the damage reflected will be closer to 1000. If Yakamaru has a low defense or was recently stunned, the damage will be closer to 5000. If two players stun Yakamaru at the same time, the typeless damage will stack, meaning the team will instantly be hit for 6000 damage.
+__**Jelly Wrangler / JW**__
+⬥ **Primary tasks**
+    • *Quickly* tag and aggro all Jellyfish spawned during Mirage phase and keep them away from other players.
+    • Keep Jellyfish alive after tagging them.
+⬥ **Notable info**
+    • *Yakamaru will not attack the Jelly Wrangler if they are attacking Jellies, so praying against Melee <:DeflectMelee:544195488447201300> works*.
+    • A maximum of 10 Jellyfish may be alive at once, so avoid killing them.
+    • If JW moves too far away, Jellies will lose aggro, so be careful with <:surge:535533810004262912> / <:escape:535541258832052231>
+    • Use of Ice Barrage <:icebarrage:537340400185245701> or Entangle <:ent:567727987274022924> can help, as well as the Provoke <:voke:535541259465392143> ability to gain aggro.
+    • Keep moving around to avoid being surrounded by jellies. Defensives <:devo:513190158728953857> <:reflect:535541258786177064> <:cade:535541306353778689> are useful to mitigate damage.
 
 .
-Once Yakamaru is stunned, you should use high hitting abilities and thresholds like snapshot/wild magic/hurricane and use sacrifice (as it can hit up to 10k during this time). Using soulsplit during these thresholds is also advised as it will drastically cut down on food usage if done properly.
-If your double has done their role properly, you do not need to slow down around 100k HP as you will already have a poison tank ready.
-A fast way to do this pool is to have everyone heal to full HP and build to full adrenaline, have someone stun, then use onslaught at the same time. If executed properly, this will cut down on kill time fairly noticeably.
+> __**Auto-attacks**__
+.tag:autos
+⬥ Yakamaru uses **AoE auto attacks**, and the attack style changes based on location:
+    • **Within halberd range (≤2 tiles)**: Magic attacks
+    • **Outside halberd range (≥3 tiles)**: Ranged attacks
+⬥ Yakamaru has **100% hitchance on all auto attacks.**
+    • Attacks that 'miss' deal 50% damage instead.
+⬥ **Each auto-attack on the primary target (base) applies 1 enrage stack ('Drenched' debuff)**.
+    • This also applies to any player within 7 tiles of the base.
+    • Each stack increases damage taken by +20% additively.
+    • Using Freedom <:freedom:535541258240786434> halves the number of stacks.
 
 .
-__**Shark Pool**__
-This is the western most pool, it will always follow the tendril pool unless Yakamaru dives to shark pool first. Yakamaru will use the "Sharknado" special attack here. During this attack, Yakamaru will shroud itself in a Sharknado and, after a few attacks, will release the sharks. These sharks will land around Yakamaru and at the feet of every player in the fight. To avoid tanking the ~2 thousand+ typeless damage, you must surge/escape/bladed dive away from the sharks or kick them away. It is highly recommended to surge/escape/bladed dive away as you may kick a shark into the DPS pile. It is very important to note that the sharks will trail you until they land on the ground, meaning that escaping too early will cause a shark to land at your feet and hit you (and other DPS who are near you). One method of dealing with this is having the DPS death dot next to the Tendril pool (southern pool) during this special attack. Only a single shark will land next to the death dot and can easily be kicked away. This method requires extensive communication and is not advised.
-
-Immediately after the sharks land, a jellyfish will spawn (as four auto-attacks will have passed). Since the team will be spread out, make sure to bind the jellyfish so that it does not attack the base tank or the DPS pile.
-
-As poison tank, it is important to note that there may be more than one shark at your feet as the poison is released. It is advised to bring bladed dive in order to escape from the sharks, dive to the poison, then barge to pool in the event that the "Sharknado" special is unleashed as poison is released.
-
-.
-__**Tendril Pool**__
-The southern most pool is referred to the "tendril pool". In this pool, Yaka will still use the Jellyfish and Blue attacks, but will also use two more mechanics. In this pool, it is imperative that the base tank is the first person who tags the pool, otherwise Yakamaru may unleash a "Tendril" special attack into the DPS pile that will deal rapid typeless damage. The special attack order will always follow this: jellyfish, blue, pool special. For the southern pool, the tendril special attack will be the third special. Keeping this in mind, it is possible to use resonance on every single jellyfish spawn outside of middle pool (assuming you tag the jellyfish and Yakamaru does not snipe your res) and maintain a high HP level without eating.
-
-The tank will deal with a tendril that will shoot up from the ground and deal rapid typeless damage. This can be negated by using barricade or stepping away from the tendril.
-
-The DPS will deal with a "choke". This choke will deal small amounts of typeless damage that will affect the top 5 DPSers. The DPS can negate this special attack by doing more damage to Yakamaru. If the DPS does not do enough damage to Yakamaru during the special attack, the choke will deal increasing amounts of damage (up to 2000). Freedom will not clear this (defensives are reset by this special attack). If the poison is released when the top 5 DPSers are choked, you should be prepared to take the poison for this pool and tank it. This is more of a courtesy towards your group and you should indicate if you are covering the role to avoid confusion.
-
-As the poison tank, you should be prepared to barge into Yakamaru immediately after receiving the poison to avoid the possibility of being choked outside of melee distance. Make sure you pray magic while standing in melee distance and eat as necessary as the poison will hit you for fairly high damage and cannot be negated by venomblood or antipoison.
+> __**Jellyfish**__
+.tag:jellyfish
+⬥ **Yakamaru spawns Jellyfish of different colors during the fight**.
+⬥ There are 6 different types of Jellyfish:
+    • **Normal/Orange**: deals melee damage and spawns as part of Yakamaru's 'Jellyfish Spawn' special attack (see __**Special Attacks**__).
+    • **Durable**: heals other neaby Jellies and Yakamaru while alive.
+    • **Magical**: deals Magic damage.
+    • **Meleefish**: deals Melee damage.
+    • **Piercing**: deals Range damage.
+    • **Reflecting**: causes all other Jellies to take less damage, and reflect damage taken onto players - these will die on their own.
+⬥ Except before Sand Pool and Mirage, first phase Yakamark in the center pool, *then* kill the colorful jellies.
 
 .
-__**Mirage Phase**__
-After all 4 pools have been completed, there will be 20 planks on the beach (to the southeast) and a number of jellyfish around Yakamaru. At this point, the SH10 and two St5's should get their planks and position themselves near their pools. The NT and Base Tank should also position themselves near their pools as the phase continues. Ideally, the St5's, the St0, NT, and JW should stand to the north of the middle pool. The SH10 and the free DPS should stand to the west of the middle pool. The base tank should stand south of the middle pool. Once the middle pool hits 50k HP, mirage will begin. Each pool will only have 150k HP.
-The NT will tag the Stun pool to draw aggression and then provoke the Sand pool, then use devotion to negate incoming damage from both pools. The St5's and the St0 will use devotion, drink an adrenaline potion (or replenishment potion), and then use onslaught. The pool should close after a few seconds. Both St5's will click on the pool and use their 5 planks to close the pool. If the pool is not closed, the pool will respawn and must be repeated. It is important to NOT use stuns on this pool, as the stun mechanic will still be present.
+> __**Special Attacks**__
+.tag:specs
+The following 2 special attacks are generic and common to all pools.
+Pool-specific special attacks are covered in the __**Pool Mechanics**__ section.
 
 .
-__**Stun Pool (Mirage)**__
-The NT will tag the Stun pool to draw aggression and then provoke the Sand pool, then use devotion to negate incoming damage from both pools. The St5's and the St0 will use devotion, drink an adrenaline potion (or replenishment potion), and then use onslaught. The pool should close after a few seconds. Both St5's will click on the pool and use their 5 planks to close the pool. If the pool is not closed, the pool will respawn and must be repeated. It is important to NOT use stuns on this pool, as the stun mechanic will still be present. The NT should then move to the north of the Sand pool and the St5's and St0 should move to Shark pool.
+__**Jellyfish Spawn**__
+.img:https://i.imgur.com/qdrWMC0.gif
+⬥ Yakamaru spawns one orange jellyfish and 5 'cracks' on the floor.
+⬥ **The jellyfish should be killed ASAP** as it deals high AoE melee damag.
+⬥ Standing on the cracks will shortly deal 10000 damage to the jellyfish, but also deal 1500-2000 Magic damage to the player.
+    • Defensives <:res:535541258844635148> <:disrupt:535614336207552523> will mitigate this.
+⬥ Stuns/binds (like <:icebarrage:537340400185245701>) are useful here.
 
 .
-__**Shark Pool**__
-The SH10 should be positioned to the south of the pool. They will tag the pool, voke, use devotion, build to 100% and then do a DPS rotation. The four free DPS should move to the east of the pool and also do a DPS rotation. If the DPS is optimal, Yakamaru will only unleash two special attacks. Once the pool hits 0 HP, the SH10 will use all 10 planks to cover the pool and then use freedom to halve the number of aggression stacks they have. The SH10 and free DPS should then remain in their sunshines/death's swiftnesses and attack Tendril pool.
-If the DPS is not sufficient, the SH10 should use resonance, freedom, then rotate defensives to reduce incoming damage. The incoming DPS from the St5's and St0 should be enough and the pool should close.
+__**Blue**__
+.img:https://i.imgur.com/Ncu3Fpt.gif
+⬥ This attack is typically referred to as '**blue**'.
+⬥ A random player will be turned blue (similar to the Metamorphosis <:meta:535533811304497183> ability) and take up to **4 increasing typeless damage hits** (1500 → 2500 → 3500 → 4500).
+⬥ Standing next to someone else will pass the effect to them with no damage taken.
+⬥ **Passing it to other players is the recommended way of dealing with it.** Otherwise, just spam eat.
+
+*Note: If this occurs during mirage phase, it will deal a **single hit of 2000 damage**, so avoid panicking and running around should it occur to you.*
 
 .
-__**Tendril Pool**__
-The Base Tank will be south east of the Tendril Pool and must tank the pool until after Shark Pool is finished. The special attack rotation will remain the same, meaning the Base Tank's rotation should remain the same. Once Shark Pool is closed, the DPS will focus on Tendril Pool and it should be closed before anyone is choked. Once the pool hits 0 HP, the DPS and Base Tank MUST spam click on the pool in order to add buckets of sand and close the pool. Every player can only add 2 buckets of sand, meaning a minimum of 5 people are needed to close the pool on the first try. If the pool isn't closed in time, it must be repeated. If the pool is repeated, the Base Tank must provoke the pool off the DPS or risk having a tendril spawn in the DPS pile. It is important to note that buckets of sand added to the pool during previous attempts will carry over. This means if 6 buckets of sand are added during the first attempt, only 4 buckets of sand are needed to close the pool on the next attempt.
-Once the pool is over, everyone becomes DPS and moves to Sand pool.
+> __**Pool Mechanics**__
+.tag:pools
+Here we go over what each pool at Yakamaru does and how to deal with them. Then we cover the actual fight in the __**Fight Phases**__ section.
 
 .
-__**Sand Pool**__
-The NT will be north of the pool and be tanking auto attacks. Since no one else from the team should be near the pool (until Tendril is defeated), Yakamaru will not use the blue special attack or the Quick Sand attack. However, Jellyfish can still spawn during this pool and will be a problem. You can use stuns/binds/entangle/bolas to deal with Jellyfish, though your JW SHOULD be keeping those off the NT. Once the DPS comes to finish Sand pool, you need to be cautious of the Quick Sand attack. If your NT was rotating DPS rotations during their Barricade/Devotion, the pool should be finished quickly. When the pool hits 0 HP, the team should spam click on the pool and fill it with 10 buckets of sand.
-If the team is affected by the Quick Sand attack as the pool hits 0 HP, you won't be able to fill the pool with 10 buckets of sand and will be forced to repeat the pool.
+__**Tendrils Pool**__ **(south-most)**
+.img:https://i.imgur.com/l1etI6A.gif
+⬥ Yakamaru gains access to **two new special attacks** (both used at the same time):
+    • **Choking Tendrils**: Yakamaru chokes top 5 DPS, dealing increasing damage per tick. *Players must free themselves by doing damage.*
+    • **Damage Tendrils**:  Summons a large pile of tendrils on Yakamaru's current target that hit 2000 damage per tick for several ticks. Players should move away or use Barricade <:cade:535541306353778689> / Immort <:immort:535541258538582017> to deal with it.
+
+⬥ **Attack cycle for this pool is as follows**:
+    • 4 autos → Jellyfish → 4 autos → Blue → 4 autos → Tendrils → repeat
+
+⬥ **Let the base tag the pool first** - prevents the Damage Tendrils randomly spawning on the DPS pile.
+⬥ If poison tank gets choked when poison spawns.
+    • Someone else can get it.
+    • Alternatively, using Powerburst of Acceleration <:accel:756236265472524418> + Bladed Dive <:bd:535532854281764884> will let them escape tendrils.
+
+⬥ This pool is relatively straightforward - **just avoid the tendrils** and it'll go smoothly.
 
 .
-__**Mid Pool**__
-The Base Tank will tag, provoke, then run west to tank the middle pool after mirage. The DPS should use thresholds and dump their adrenaline as the pool will only have 50k HP. The JW should keep their Jellyfish away from the team during this last portion of the fight
-.
-The middle pool will utilize the "jellyfish attack" and the "blue". It is important to note that Yakmaru will use four auto attacks before using a special attack.
-The jellyfish attack will spawn a jellyfish in the arena and five holes will spawn around it. After a few seconds, the holes will shoot water up and damage everyone standing on them for about two thousand damage. This damage can be negated using resonance or simply standing off of them. What is important to note is that every person who "tanks" this special attack by standing on the holes will deal 10 thousand damage to the jellyfish. This means that only five people need to stand on the holes in order to kill the jellyfish. An easy way to deal with this mechanic is to use binding shot (or entangle) on the jellyfish, equip a shield, and use resonance. You can switch to soulsplit and use piercing shot (or wrack/slice) to deal extra damage and finish off the jellyfish. If the mechanic is ignored entirely, the jellyfish will deal quick melee hits to everyone around it.
+__**Shark Pool**__ **(south-west)**
+.img:https://i.imgur.com/RaWF56G.gif
+⬥ Yakamaru gains access to **one new special attack**:
+    • **Sharknado**: Yakamaru spins in a whirlpool and throws out sharks on the floor randomly, which explode for 2k damage *each*.
 
-The middle pool will utilize the "jellyfish attack" and the "blue". It is important to note that Yakmaru will use four auto attacks before using a special attack.
+⬥ **Attack cycle for this pool is as follows**:
+    • 4 autos → Jellyfish → 4 autos → Blue → 4 autos → Sharknado → repeat
+
+⬥ Sharks can be clicked to kick them away, or simply move away from them.
+⬥ **The sharks spawned are blocking** - be careful of getting stuck!
+⬥ The poison tank should be careful and use Barricade <:cade:535541306353778689> if necessary, if Sharknado occurs during the last 100k HP.
+    • This can also be helpful when basing or getting hit by multiple sharks.
+⬥ Note that sharks will follow the player while being thrown out - **move away from the sharks __after__ they have landed**.
+⬥ A Jellyfish will spawn
+
+⬥ This pool is relatively straightforward - just avoid the shark spawns and it'll go somothly.
+
+.
+__**Sand Pool**__ **(north-west)**
+.img:https://i.imgur.com/NzqhNcQ.gif
+⬥ Yakamaru gains access to **one new special attack**:
+    • **Sand**: All but 1-2 players are 'sanded'/stuck and cannot move. Players not stuck must rescue others by **clicking on them**. If not freed in time, they are instakilled.
+
+⬥ **Attack cycle for this pool is as follows**:
+    • 4 autos → Blue → 4 autos → Jelly → 4 autos → Sand → repeat
+
+⬥ **Using <:accel:756236265472524418> + <:bd:535532854281764884> can also be used to free yourself.**
+⬥ Players **can** continue to eat, attack targets, etc. while sanded, but cannot move.
+⬥ If Yakamaru is about to sand, *delay phasing it to 100k HP* to ensure the Poison Tank does not get stuck and miss poison.
+⬥ One person should go and free the base ASAP as they are usually stuck further away.
+
+⬥ As long as players don't panic, and click on each other to be freed, this pool can be finished quickly. **Just don't miss the poison.**
+
+.
+__**Stun Pool**__ **(north-most)**
+*Note: If using Revo/Revo++, remove all stuns from your bar!*
+.img:https://i.imgur.com/wPhGTHF.gif
+⬥ Yakamaru gains access to **two new mechanics**:
+    • **Defence Gain**: Yakamaru takes reduced damage as players continue to attack him. This must be reset by stunning him.
+    • **Stun Reflect Damage**: When Yakamaru is stunned, he reflects 1000-5000 typeless damage to *all* players on the team.
+
+⬥ **Attack cycle for this pool is as follows**:
+    • 6 autos → Blue → 7 autos → Jelly → repeat
+
+⬥ The damage from stunning The higher his damage reduction, the less the reflected damage.
+    • **In other words, don't stun him more than once quickly**.
+    • **Multi-hit abilities like Asphyxiate <:asphyx:535533833072672778> / Destroy <:destroy:535532879330148352> will almost certainly wipe your team.**
+⬥ Damage ranges from 1000 (lowest) to 5000 (highest).
+⬥ Yakamaru takes increased damage this pool, and poison can be easily missed.
+    • Assigning a Double to take double poison on Sand pool is *strongly* recommended.
+
+⬥ **The following count as stuns**:
+    • Impact <:impact:535533809655873556> / Deep Impact <:deep:535533833139912724> / Asphyxiate <:asphyx:535533833072672778> / Shock <:shock:535533809932697610> /  Horror <:horror:535533833261547520>
+    • Binding Shot <:bindingshot:535541306563231790> / Tight Bindings <:tight:535541275957657600> / Rout <:rout:535541259268521994> / Demoralise <:demoralise:535541258559553546>
+    • Backhand <:backhand:535532854302605333> / F. Backhand <:fbackhand:535532879346794516> / Destroy <:destroy:535532879330148352> / Stomp <:stomp:535532879552315412> / Kick <:kick:535532879132885025>
+⬥ **The following do __not__ count as stuns:**
+    • Rapid Fire <:rapid:535541270521708566>
+    • (Greater) Barge <:gbarge:535532879250456578> / <:barge:535532853916860437>
+    • Ice Spells <:icebarrage:537340400185245701>
+    • Dreadnips <:nip:537336877900890135>
+    • Dominion Gloves <:spellcaster:643214402169864213> <:goliathgloves:1030084069939232778> <:swiftgloves:1023132419597008906>
+
+.
+> __**Fight Phases**__
+In this section we go over how the fight flows, general recommendations/rotations for DPS, and so on. It is broadly broken up into **two phases**: pools phase (i.e. before mirage) and mirage phase.
+
+.
+__**Phase 1 - Pools**__
+.tag:p1
+⬥ Start the fight. Yakamaru will start in the middle pool.
+⬥ Reduce Yakamaru's health in the center pool to 800k using thresholds, making him randomly choose the first pool to jump to.
+⬥ **Fight Yakamaru in the new pool and reduce his health to 100k**:
+    • If your ultimate <:sunshine:994921119381463070> / <:zerk:535532854004678657> / <:deathsswift:994921434633744455> is available you can use it, assuming you're not saving it for anything else.
+    • If cannot ult (due to cooldown or adren issues), use thresholds/strong specs to help phase.
+    • When he does special attacks, or spawns jellies, deal with them if needed before attacking Yakamaru again.
+⬥ **At 100k health left, Yakamaru spawns a 'poison' that a player must absorb and then stand in MD of Yakamaru**, then players will finish off Yakamaru to 0 HP.
+    • *If this is missed, the pool will not advance* and must be re-completed.
+
+⬥ Yakamaru will jump back to the middle pool. **Phase the middle pool (200k damage) while Yakamaru is still green**, *then* focus on Jellies.
+    • Place dominion mines if you brought them at this point to help with the Jellies.
+
+⬥ The following image shows where roughly where to stand during pools:
+.img:https://i.imgur.com/HCiIUtO.png
+.
+⬥ **Repeat the above process until all 4 pools have been dealt with.**
+⬥ The first pool is random, but after that it is always in the following order:
+    • Sand Pool → Stun Pool
+    • Stun Pool → Tendrils Pool
+    • Tendrils Pool → Shark Pool
+    • Shark Pool → Sand Pool
+
+.
+__**Phase 2 - Mirage**__
+.tag:p2
+⬥ This is a *fast-paced phase*.
+⬥ After Yakamaru returns to the middle after the 4th pool, **prepare for mirage phase**:
+    • Stun 5 and Shark 10 roles should pick up their planks.
+    • Poison tank should be revived.
+    • Base and Northtank should get ready to tank their pools.
+    • On less experienced teams: kill all remaining Jellies.
+⬥ **Begin by reducing Yakamaru's health in the middle pool to 50k HP**.
+    • All 4 pools will again simultaneously spawn with 150k HP each.
+    • They must all be killed and the *pools must be closed by spam clicking the pools after clearing them*.
+    • **At this point, the Jelly Wrangler begins tagging and provking jellies off the rest of the team.**
+
+⬥ The following image shows where to stand when mirage starts:
+.img:https://i.imgur.com/KWDTNoa.png
+.
+⬥ Usual kill order for pools is: **Stun → Shark → Tendrils → Sand**.
+
+⬥ **Base Tank**: voke Tendrils pool and run south and tank the pool until it is dead and help close it, then follow along with the DPSers
+⬥ **Stun 0/Stun 5**: use strong thresholds/special attacks to kill the pool quickly and close with 10 planks, then help DPSers after it is closed.
+⬥ **North Tank**: voke Sand pool and run *north*, and tank the pool until the other pools are dead and team comes to help kill and close pool.
+⬥ **Shark 10**: voke Shark pool and stay away from DPS; use your ultimate as mirage starts to help make the process quicker, and join the DPSers after it is closed.
+⬥ **All other players**:
+    • Use your ultimates (if available) before mirage starts and help kill and close Tendrils pool.
+    • Then finish off Shark pool (ultimate should still be up) and move to Sand pool.
+    • Kill Sand pool and help close it.
+.
+⬥ Finally Yakamaru will respawn with 50k HP in the middle pool, and can be killed to finish the fight.
+
+__**General Tips for Mirage Phase**__
+⬥ **DPSers (i.e. players with no other roles) should try to drop their ultimate <:sunshine:994921119381463070> / <:zerk:535532854004678657> / <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> as the phase starts**.
+    • Ideally near *both* the Tendrils and Shark pools.
+    • This lets them attack both pools from their ultimate.
+⬥ Players focused on tanking a pool should make use of Resonance <:res:535541258844635148>, Debilitate <:debil:535541278264393729>, Freedom <:freedom:535541258240786434> and Devotion <:devo:513190158728953857> to help reduce incoming damage.
+    • ***Except the North tank*, prefer to avoid camping shields and focus on damage.**
+    • Faster phase → less mechanics → easier kill.
+⬥ **Ignore Jellies - let the Jelly Wrangler focus on them**.
+⬥ Tips for Jelly Wranglers:
+    • Keep Camera zoomed out and pay attention to other players.
+    • Use of binding spells <:icebarrage:537340400185245701> <:ent:567727987274022924> can be helpful as well as the <:voke:535541259465392143> ability.
+    • Keep the Jellies away from other players - going east of the middle pool after aggro'ing all jellies is a good option.
 
 .
 > **__Learning Raids__**
 .tag:learn
-If you're interested in learning raids, join this boss school link and check out the pins there to get started!
-
-https://discord.gg/88ru2vd
+{
+  "embed": {
+    "title": "__Learning Raids__",
+    "description": "The following resources may help when it comes to learning raids.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Discord Servers__",
+        "value": "⬥ [Boss School](https://discord.gg/88ru2vd)\n⬥ [Mazcab Academy](https://discord.gg/egQBwuM)\n⬥ [Raids School](https://discord.gg/vfXXTBE)"
+      }
+    ]
+  }
+}
+.embed:json
+.
+> __**Example Kills**__
+.tag:example
+{
+  "embed": {
+    "title": "__Example Kills__",
+    "description": "Some example kills to compare and improve your own kills with.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ranged__ <:range:580168050121113623>",
+        "value": "⬥ [DPS Role](https://www.youtube.com/watch?v=jOvHWU8Q_hE)"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Roles]($linkmsg_roles$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Learning Raids]($linkmsg_learn$)",
-    "color": 39423
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ ",
+        "inline": true
+      },
+      {
+        "name": "__Presets__",
+        "value": "⬥ [Basic Magic Preset]($linkmsg_basicmagic$)\n⬥ [Basic Range Preset]($linkmsg_basicrange$)\n⬥ [Melee Preset]($linkmsg_basicmelee$)\n⬥ [Basic Tank Preset]($linkmsg_basictank$)",
+        "inline": true
+      },
+      {
+        "name": "__Basic Information__",
+        "value": "⬥ [Fight Overview]($linkmsg_overview$)\n⬥ [Roles at Yakamaru]($linkmsg_roles$)\n⬥ [Auto-attacks]($linkmsg_autos$)\n⬥ [Jellyfish]($linkmsg_jellyfish$)\n⬥ [Special Attacks]($linkmsg_specs$)\n⬥ [Pool Mechanics]($linkmsg_pools$)",
+        "inline": true
+      },
+      {
+        "name": "__Fight Phases__",
+        "value": "⬥ [P1 - Pools Phase]($linkmsg_p1$)\n⬥ [P2 - Mirage Phase]($linkmsg_p2$)",
+        "inline": true
+      },
+      {
+        "name": "__Misc.__",
+        "value": "⬥ [Example Kills]($linkmsg_example$)\n⬥ [Learning Raids]($linkmsg_learn$)",
+        "inline": true
+      },
+      {
+        "name": "__\u200b__",
+        "value": "\u200b",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
