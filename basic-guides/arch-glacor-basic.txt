@@ -48,7 +48,7 @@ In general, the recommended strategy for GP/hour is to streak from 0% until core
 .
 > __**Mechanics**__
 .tag:mechanics
-The Arch-Glacor will cycle through sets of 5 different mechanics (Glacyte Minions, Flurry, Pillars of Ice, Frost Cannon and Exposed Core) in random order. Once a set of 5 mechanics is completed, the next randomized set will begin. This repeats until the fight ends.
+The Arch-Glacor will cycle through sets of 5 different mechanics (Glacyte Minions, Flurry, Pillars of Ice, Frost Cannon and Exposed Core) in random order. Once a set of 5 mechanics is completed, the next randomized set will begin. This repeats until the fight ends. Please note that mechanics cannot occur twice in the same cycle of 5. However, it is possible to get the same mechanic back-to-back if it is the last of the previous cycle, and first of the next.
 
 *Note: in normal mode, all mechanics except for Creeping Ice can be toggled off, which decreases the Arch-Glacor's HP but lowers the quality of drops.*
 
@@ -74,20 +74,9 @@ __**Glacyte Minions**__
 ⬥ Hard mode: minions have 13500 HP until 2500% enrage. Starting from 250% enrage, a Bolstered Glacyte minion will additionally spawn, which has 27000 health and attacks with melee. After 2500% enrage, all minions' health start to scale.
 
 ⬥ The spawning animation will interrupt the attack animation of the previous auto attack, but the auto attack will still go through. This is especially important to know if the previous mechanic is Flurry.
-
 .
-{
-  "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Glacyte Minions Demo__",
-        "value": "⬥ [Normal mode example](https://imgur.com/kSB6UcI)\n⬥ [!!!! TODO Hard mode 250+ enrage example](https://imgur.com/gurj6VM.mp4)"
-      }
-    ]
-  }
-}
-.embed:json
+.img:https://imgur.com/kSB6UcI
+.
 
 .
 __**Flurry**__
@@ -100,20 +89,9 @@ __**Flurry**__
 
 *Note 1: The last 2 auto-attacks from this mechanic can carry over into Glacyte Minions.*
 *Note 2: if playing with game sounds, each type of attack has a different audio cue.*
-
 .
-{
-  "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Flurry Demo__",
-        "value": "⬥ [Normal mode example](https://imgur.com/0CU0qXf)\n⬥ [!!!! TODO Hard mode example](https://imgur.com/bpa24Bj.mp4)"
-      }
-    ]
-  }
-}
-.embed:json
+.img:https://imgur.com/0CU0qXf
+.
 
 .
 __**Pillars of Ice**__
@@ -138,7 +116,7 @@ __**Pillars of Ice**__
     "fields": [
       {
         "name": "__Pillars of Ice Demo__",
-        "value": "⬥ [Normal mode example - bladed dive](https://imgur.com/Q8z6iV4)\n⬥ [Normal mode example - running](https://imgur.com/omGXX0a)\n⬥ [!!!! TODO Hard mode example - running](https://imgur.com/omGXX0a)"
+        "value": "⬥ [Normal mode example - bladed dive](https://imgur.com/Q8z6iV4)\n⬥ [Normal mode example - running](https://imgur.com/omGXX0a)"
       }
     ]
   }
@@ -175,20 +153,9 @@ __**Exposed Core**__
 ⬥ Normal mode: Arch-Glacor releases its frozen core into the centre of the arena, trapping players with its arms, each having 17500 HP. The frozen core damages and applies a stacking debuff on the player, each stack increasing the damage dealt. The player must kill one of the arms in order to stop the damage.
 
 ⬥ Hard mode: arms now have 32500 base HP, scaling upwards with enrage after 2500%.
-
 .
-{
-  "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Exposed Core Demo__",
-        "value": "⬥ [Normal mode example](https://imgur.com/PRb83Qv)\n⬥ [TODO !!!! Hard mode example?](https://imgur.com/9PyGvb4.mp4)"
-      }
-    ]
-  }
-}
-.embed:json
+.img:https://imgur.com/PRb83Qv
+.
 
 .
 __**Enrage**__
