@@ -1,20 +1,20 @@
 {
   "embed": {
     "title": "__Critical Hits__",
-    "description": "To calculate your own critical hit chance, use [this Wiki calculator](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance).\nMore info can be found in the __**Critical Hits**__ section of <#1020550599248466050>.\n\n*Also see `!critbuff` to learn how <:conc:535533833106489365> / <:gconc:869285393223254107> / <:fury:535532879510372352> / <:gfury:535532879334080527> passive crit buffs work.*",
+    "description": "To calculate your own critical hit chance, use [this Wiki calculator](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance).\nMore info can be found in the __**Critical Hits**__ section of <#1020550599248466050>.\n Refer to `!critbuff` to learn how <:conc:535533833106489365> / <:gconc:869285393223254107> / <:fury:535532879510372352> / <:gfury:535532879334080527> passive crit buffs work.",
     "color": 39423,
     "fields": [
       {
         "name": "__What is a Critical Hit?__",
-        "value": "⬥ A critical hit occurs when you hit 95%+ of your ability damage range\n⬥ This also increases your hitcap from 10k to 12k (before <:grim:568262896375824385> / <:smokecloud:856635090641879050> / <:lengmh:883134308146098227> <:spec:537340400273195028>)\n⬥ **Critical hits appear as bold hitsplats**."
+        "value": "⬥ A critical hit occurs when you hit 95%+ of your ability damage range\n⬥ This also increases your hitcap from 10k to 12k (before <:grim:568262896375824385> / <:smokecloud:856635090641879050> / <:lengmh:883134308146098227> <:spec:537340400273195028>)"
       },
       {
         "name": "__Natural vs Forced Crits__",
-        "value": "⬥ Crits are split in two types - **Forced** and **Natural**\n⬥ Each hit is first checked for a forced crit:\n\u00a0\u00a0\u00a0\u00a0• Forced crits are guaranteed to hit above 95% of the damage range\n⬥ If you fail to force a crit but hit >95% of the range anyway, a natural crit occurs\n⬥ Your overall crit chance is the sum of your forced and natural crit chances\n⬥ Some abilities cannot crit by design, such as <:dismember:535532879376023572> <:slaughter:535532879237873666> <:frag:535541273755385885> <:incend:535541258429661215> <:comb:535533833098100745> <:magmatempest:902209626509025290>"
+        "value": "⬥ **Forced crits** are guaranteed to hit ≥95% of the range; **this is checked first**\n⬥ If you fail to force a crit but hit ≥95% of the range anyway, **a natural crit occurs**\n⬥ Your overall crit chance is the sum of your forced and natural crit chances\n⬥ Some abilities cannot crit by design, such as <:dismember:535532879376023572> <:slaughter:535532879237873666> <:frag:535541273755385885> <:incend:535541258429661215> <:comb:535533833098100745> <:magmatempest:902209626509025290>"
       },
       {
         "name": "__Important Forced Crit Chance Buffs__",
-        "value": "*Note: these are high priority if you want to maximize crit chance*\n⬥ Reaver's Ring <:reaverring:839903943018283050> (+5% crit chance)\n⬥ Kal'gerion Demon <:kalgpouch:921410226484301925> (+1% crit chance)\n⬥ Crit-i-Kal Scroll <:kalgscroll:841409588954923049> (+5% crit chance)\n⬥ Biting 4 <:biting4:712073087809617931> (+8% (8.8% at level 20) crit chance)\n⬥ Erethdor's Grimoire <:grim:568262896375824385> (+12% crit chance)"
+        "value": "⬥ Reaver's Ring <:reaverring:839903943018283050> (+5% crit chance)\n⬥ Kal'gerion Demon <:kalgpouch:921410226484301925> (+1% crit chance)\n⬥ Crit-i-Kal Scroll <:kalgscroll:841409588954923049> (+5% crit chance)\n⬥ Biting 4 <:biting4:712073087809617931> (+8% (8.8% at level 20) crit chance)\n⬥ Erethdor's Grimoire <:grim:568262896375824385> (+12% crit chance)"
       }
     ]
   }
