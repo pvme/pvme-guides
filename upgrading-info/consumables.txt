@@ -5,7 +5,7 @@
 {
   "embed": {
     "title": "__Solid Food__",
-    "description": "⬥ All solid food **drain 10% adrenaline** when eaten while attacking\n⬥ Use `!food` to see issues of solids and food you should use",
+    "description": "⬥ All solid food **drain 10% adrenaline** when eaten while attacking\n⬥ Use `!food` to see why solid foods are not great, and the alternatives",
     "color": 39423,
     "fields": [
       {
@@ -24,7 +24,7 @@
 {
   "embed": {
     "title": "__Other Foods__",
-    "description": "⬥ These do **not** drain adrenaline",
+    "description": "⬥ These do **not** drain adrenaline, and are commonly used",
     "color": 39423,
     "fields": [
       {
@@ -169,7 +169,7 @@
 {
   "embed": {
     "title": "__Familiars__",
-    "description": "⬥ This will just categorize familiars, for info of them refer to the [Wiki](https://runescape.wiki/)\n⬥ Use `!familiar` for a rough idea of where to use each familiar\n⬥ Refer to specific boss guides to see explicit familiar usage",
+    "description": "⬥ This will just categorize familiars, for more info refer to the [Wiki](https://runescape.wiki/)\n⬥ Use `!familiar` for a rough idea of where to use each familiar\n⬥ Refer to specific boss guides to see explicit familiar usage",
     "color": 39423,
     "fields": [
       {
@@ -188,7 +188,7 @@
 {
   "embed": {
     "title": "__Notable Ammo__",
-    "description": "⬥ Look up information related to ammo effects on the [Wiki](https://runescape.wiki/)\n⬥ Use `!ammo` to see what ammo to use where\n⬥ Use `!quiver` to see Pernix Quiver setups\n⬥ Both the **Elite Seer's Diary** and **Ranged Skillcape** increase bolt proc chance",
+    "description": "⬥ For more infor on ammo effects, refer on the [Wiki](https://runescape.wiki/)\n⬥ Use `!ammo` to see what ammo to use where\n⬥ Use `!quiver` to see Pernix Quiver setups\n⬥ Both the **Elite Seer's Diary** and **Ranged Skillcape** increase bolt proc chance",
     "color": 39423,
     "fields": [
       {
@@ -213,7 +213,7 @@
 {
   "embed": {
     "title": "__Notable Pocket Slots__",
-    "description": "⬥ Look up information related to ammo effects on the [Wiki](https://runescape.wiki/)\n⬥ Use `!pocketslot` to see what pocket slots to use",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Use `!pocketslot` to see what pocket slots to use",
     "color": 39423,
     "fields": [
       {
@@ -249,68 +249,13 @@
 > **__Banking Preset__**
 .tag:preset
 ⬥ Use `!banking` or check <#1025569571710718093>
+
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Healing__",
-        "value": "[Link]($linkmsg_food$)",
-        "inline": true
-      },
-      {
-        "name": "__Prayer Restoration__",
-        "value": "[Link]($linkmsg_prayerrestore$)",
-        "inline": true
-      },
-      {
-        "name": "__Overloads__",
-        "value": "[Link]($linkmsg_ovls$)",
-        "inline": true
-      },
-      {
-        "name": "__Adrenaline Potions__",
-        "value": "[Link]($linkmsg_apot$)",
-        "inline": true
-      },
-      {
-        "name": "__Bombs__",
-        "value": "[Link]($linkmsg_bomb$)",
-        "inline": true
-      },
-      {
-        "name": "__Incense Sticks__",
-        "value": "[Link]($linkmsg_incense$)",
-        "inline": true
-      },
-      {
-        "name": "__Familiars__",
-        "value": "[Link]($linkmsg_summ$)",
-        "inline": true
-      },
-      {
-        "name": "__Ammo__",
-        "value": "[Link]($linkmsg_ammo$)",
-        "inline": true
-      },
-      {
-        "name": "__Pocket Slot__",
-        "value": "[Link]($linkmsg_pocketslot$)",
-        "inline": true
-      },
-      {
-        "name": "__Miscellaneous__",
-        "value": "[Link]($linkmsg_miscellaneous$)",
-        "inline": true
-      },
-      {
-        "name": "__Banking Preset__",
-        "value": "[Link]($linkmsg_preset$)",
-        "inline": true
-      }
-    ]
+    "title": "__Table of Contents__",
+    "description": "⬥ [Healing]($linkmsg_food$) \n⬥ [Prayer Restoration]($linkmsg_prayerrestore$) \n⬥ [Overloads]($linkmsg_ovls$) \n⬥ [Adrenaline Potions]($linkmsg_apot$) \n⬥ [Bombs]($linkmsg_bomb$) \n⬥ [Incense Sticks]($linkmsg_incense$) \n⬥ [Familiars]($linkmsg_summ$) \n⬥ [Ammo]($linkmsg_ammo$) \n⬥ [Pocket Slot]($linkmsg_pocketslot$) \n⬥ [Misc. Consumables]($linkmsg_miscellaneous$)\n⬥ [Banking Preset]($linkmsg_preset$) ",
+    "color": 39423
   }
 }
 .embed:json
