@@ -1,0 +1,186 @@
+> __**Introduction**__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+Unlike OSRS which has the RuneLite client, RS3 only has its NXT client. In order to add some extra QoL/features, the  Alt1 Toolkit was developed by <@107515476296368128>. This channel serves as a brief overview about Alt1 and what it's used for, as well as some extra helpful add-ons/plugins developed for it.
+.
+{
+  "embed": {
+    "title": "__Alt1 Download__",
+    "description": "You can download Alt1 from the official [RuneApps website](https://runeapps.org/alt1).\nFor Alt1 support/queries, please visit the [RuneApps discord](https://discord.gg/G3SbcS8).\nYou can also check out the [RuneApps forums](https://runeapps.org/forums/).",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
+
+.
+**If you have any issues with regard to Alt1, *please* use the dedicated RuneApps discord server that has a section for player support.**
+
+.
+> __**Alt1 Overview**__
+.tag:alt1
+__**What Is Alt1**__
+.
+Alt1 is a 3rd-party program that consists of several application overlays on your screen. They get information by reading your screen, and provide a bunch of QoL/useful features.
+
+A detailed explanation of Alt1's features can be found on the Alt1 website, but amongst its default features it includes:
+⬥ **AFK Warden** - the most common use for Alt1, its in-game activity detection overlays
+⬥ **Clue Solver** - solves all clue puzzles and displays output as an overlay to speed up clue solving
+⬥ **DgKey** - an overlay of your Dungeoneering <:dungeoneering:1003947795541143632> map to keep track of gatestones, teammates, etc.
+⬥ **Stats Lookup** - look up a player's stats ;stats;, quest points, etc.
+⬥ **Item Lookup** - quickly find any item's page on the Runescape Wiki
+⬥ **D&D Notifications** - opt in for D&D notification alerts
+⬥ **XpMeter** - track XP/hr rates in real time
+⬥ **Droplogger** - an alternative to using the endgame RuneMetrics drop log
+
+.
+__**How It Works**__
+⬥ Alt1 is designed to capture images of the NXT Client and parse them with an OCR (Optical Character Recognition) Library.
+⬥ The captured data is then transformed into pixel data that can be used in Alt1 apps.
+⬥ More information can be found on the forums and in the Alt1 Toolkit discord.
+
+.
+__**Is It Safe?**__
+⬥ Alt1 is essentially a glorified Chromium browser that creates overlays over your game. Every Alt1 app is essentially a webpage.
+⬥ Alt1 does not send any inputs or otherwise directly interact with your client beyond reading the pixels on the screen.
+⬥ **It is not a client, therefore you won't get banned for using it.**
+
+.
+> __**AFK Warden**__
+.tag:afkwarden
+.img:https://i.imgur.com/UG5psi4.png
+__**What Is AFK Warden**__
+⬥ This is one of the most commonly used Alt1 apps, so will be covered in some detail here.
+⬥ This reads the pixels on your screen to recognize your character, buff bars, chatbox and more in order to provide AFK alert notifications.
+⬥ It tracks a number of things, including:
+    • HP <:Constitution:689509250887712902> and Prayer <:prayer:1005450651347730533> alerts
+    • Buff timers like <:elderovlsalve:648976643687317532> <:LantaSticks:565726489404899368>
+    • Familiar duration <:Summoning:583430259064569856>
+    • Loot beams <:coins:698816156961603654>
+    • AFK lobby timers
+    • Seren Spirits and Blessings of the Gods
+    • Character stance (for AFK skilling alerts)
+    • XP drops, and more.
+
+.
+> __**Clue Solver**__
+.tag:cluesolver
+.img:https://i.imgur.com/EhTPOsI.png
+__**What Is Clue Solver**__
+⬥ This is a very useful app that looks at your currently open clue on screen, and tells you how to solve it.
+⬥ It can handle all clue puzzles, including puzzle boxes, scans, compass clues, etc.
+⬥ Have your clue visible on-screen clearly and click the 'Unlock Any' button to find a solution to your clue that will be displayed on the overlay.
+
+.
+> __**Useful 3rd-Party Alt1 Apps**__
+.tag:3rdparty
+In addition to the default apps that come with Alt1, there are a number of other useful third-party apps that can be installed, which will briefly be covered here.
+
+.
+__**How to Install Alt1 Apps**__
+.tag:installapps
+⬥ Alt1 Addons can be installed by going to the correct URL in either your normal browser or the Alt1 in-built browser.
+⬥ The list of apps below have the full URL following each one.
+
+.
+__**Combat Apps**__
+.tag:combat
+⬥ **Barrows Helper** - track killed brothers, solve doors and displays droprates
+<alt1://addapp/https://markvsrs.github.io/BarrowsHelperSrc/appconfig.json>
+
+⬥ **Better AoD** - improved minion order tracker over the default Alt1 tracker
+<alt1://addapp/https://markvsrs.github.io/BarrowsHelperSrc/appconfig.json>
+
+⬥ **BoLG Tracker** - shows BoLG <:bolg:994189289623662702> stacks more clearly
+<alt1://addapp/http://holycoil.nl/alt1/bolg>
+
+⬥ **Dharok Relic** - shows the %DPS boost from Berserker's Fury
+<alt1://addapp/http://holycoil.nl/alt1/DharokRelic/appconfig.json>
+
+⬥ **Vorago Timer** - shows Target Cycle (TC) timings for Vorago phases
+<alt1://addapp/http://holycoil.nl/alt1/VoragoTag/appconfig.json>
+
+⬥ **Slayer Tasks** - helps decide what <:slayer:797896049548066857> task to pick when using <:slayervip:975284344597934120> tickets
+<alt1://addapp/https://unlishema.github.io/slayerassistant/appconfig.json>
+
+⬥ **Zamorak Specs** - shows the next special attack at Zamorak
+<alt1://addapp/http://holycoil.nl/alt1/zamorak/appconfig.json>
+
+.
+__**Skilling Apps**__
+.tag:skilling
+⬥ **Archaeology Mats** - tracks excavated Archaeology <:archaeology:941211288665739274> mats and calculate artefact restore costs
+<alt1://addapp/https://zerogwafa.github.io/ArchMatCounter/appconfig.json>
+
+⬥ **Components Counter** - tracks Invention <:Invention:689509250946695292> components from disassembly / scavenging
+<alt1://addapp/https://zerogwafa.github.io/ComponentCounter/appconfig.json>
+
+⬥ **Construction Contracts** - calculates what supplies to bring and where to go to complete a contract
+<alt1://addapp/https://chisel.weirdgloop.org>
+
+⬥ **Croesus Alerts** - displays upcoming attacks and other fight information at Croesus
+<alt1://addapp/https://raphire.github.io/SusAlert/appconfig.json>
+
+⬥ **Penguins** - shows weekly Penguin locations (pulled from `www.w60pengs.com`)
+<alt1://addapp/https://shaun.us.to/alt1/penguins/appconfig.json>
+
+⬥ **Seren Spirit Tracker** - alerts when a Seren Spirit appears
+<alt1://addapp/https://zerogwafa.github.io/SerenTracker/appconfig.json>
+
+⬥ **Bik Book Timer** - alerts when to flick Bik book <:scriptureofbik:892342109791735848> on/off (to lower costs)
+<alt1://addapp/https://github.com/amerryma/alt1-bik-proc-timer>
+
+.
+__**Misc. Apps**__
+.tag:misc
+⬥ **Screen Markers** - customizeable on-screen markers to make clicking easier
+<alt1://addapp:https://kosblue.com/nekoapps/apps/ScreenMarkers/appconfig.json>
+
+⬥ **Travelling Merchant** - shows daily item stock at the Merchant
+<alt1://addapp/https://starur.github.io/appconfig.json>
+
+⬥ **Price Check & Trade (PCT)** - helps record/view transactions for Suity's PCT service
+<alt1://addapp/https://pct.wtf/appconfig.json>
+
+⬥ **Vis Wax** - shows daily rune combinatiosn and costs
+<alt1://addapp/http://www.runeguide.info/alt1/viswax/appconfig.json>
+
+.
+> __**Troubleshooting**__
+.tag:troubleshooting
+For any issues it is preferred to search if someone else has had the same issue or see the FAQ section on the forums, or use the official discord for support.
+
+Links to the Alt1 website, Forums and Discord can be found in the pinned messages.
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Alt1 Overview]($linkmsg_alt1$)",
+        "inline": true
+      },
+      {
+        "name": "__Default Apps Guide__",
+        "value": "⬥ [AFK Warden]($linkmsg_afkwarden$)\n⬥ [Clue Solver]($linkmsg_cluesolver$)",
+        "inline": true
+      },
+      {
+        "name": "__3rd-Party Apps__",
+        "value": "⬥ [How To Install Apps]($linkmsg_installapps$)\n⬥ [Combat Apps]($linkmsg_combat$)\n⬥ [Skilling Apps]($linkmsg_skilling$)\n⬥ [Misc. Apps]($linkmsg_skilling$)",
+        "inline": true
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Troubleshooting]($linkmsg_troubleshooting$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
