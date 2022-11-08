@@ -1,17 +1,16 @@
-**__Interface Guide__ (Courtesy of <@261354899525074954> and <@181747481565069312>)**
+**__Interface Guide__ (Courtesy of <@261354899525074954>)**
 .
 > __**Introduction**__
 .tag:intro
 Having a proper interface setup is important as it allows you to organize your game view and have quick, convenient access to game windows that you frequently interact with such as inventory, gear, familiars, ability bars and so on. A good interface can make the game easier to play and more enjoyable.
 
 .
-> __**User Interface**__
+> __**What is the User Interface**__
 .tag:ui
 Creating a good interface is all about displaying the interface elements in a way where everything you need to access is open and important elements are appropriately close to one another, to minimize the distance your eyes and mouse need to travel around your screen. The game comes with a few pre-made layouts, but they all suffer from similiar issues.
 
 .
 **__RS3 New Player Interface__**
-.
 ⬥ Consider the the *New Player* interface that players are given when first playing the game.
 .
 .img:https://i.imgur.com/tDs3spx.jpg
@@ -54,7 +53,6 @@ Keeping in mind the important elements of a good interface, we can use the earli
 
 .
 __**Step 1: Interface Layout**__
-.
 The first step is to setup the main menus and layout of the interface.
 ⬥ **Unlock the interface** by clicking the lock icon on the Options ribbon, or using the default keybind **`L`**.
 ⬥ The bottom center to lower right is chosen as the focus for the main PvM menus.
@@ -74,7 +72,6 @@ The first step is to setup the main menus and layout of the interface.
 
 .
 __**Step 2: Edit Layout Mode > Advanced Options**__
-.
 After finalizing the basic layout, the **advanced options** can be used to customize how some detailed and important aspects of the interface, such as the buff/debuff bars, split private chat, the game viewm etc.
 ⬥ To access the menu, press **Escape > Edit Layout Mode > Advanced Options** and you'll be greeted with a menu that looks similar to the following image. Click the tickboxes to add or remove overlays from the view to customize.
 .
@@ -106,7 +103,6 @@ To **save** a layout, open the **Edit Layout Mode** menu and click on a preset n
 To **load** a layout, click on one of the created/saved loadouts accessed by pressing **Escape** and selecting a preset from the **Load Layout** dropdown menu.
 .
 .img:https://i.imgur.com/TpVjzIi.png
-.
 
 .
 __**Miscellaneous settings**__
@@ -120,22 +116,46 @@ __**Miscellaneous settings**__
 ⬥ The size of the Bank interface can be adjusted - simply unlock the interface, and it can be moved/resized.
 .
 .img:https://i.imgur.com/my8L2iK.jpg
-.
 
 .
 > __**Example Interfaces**__
 .tag:exampleui
-⬥ At the end of the day, a good interface is one that works for you. Look for common patterns in the interfaces of good PvMers to see how they structure them and why it helps them PvM.
+At the end of the day, a good interface is one that works for you. Look for common patterns in the interfaces of good PvMers to see how they structure them and why it helps them PvM.
 .
 {
   "embed": {
     "title": "__Example Interfaces__",
-    "description": "⬥ These are examples taken from some of the top players.\n⬥ You can use them for ideas to create your own layouts.",
+    "description": "These are example RS3 interface layouts, categorized by screen resolution.\nPercent % values  in brackets indicate interface scaling - e.g. (150%).\n**Miscellanous**  has some random examples for things like AFK/etc.\n**Ultrawide** refers to both 2560x1080 and 3440x1440 ultrawides.",
     "color": 39423,
     "fields": [
       {
-        "name": "__PvM Interfaces__",
-        "value": "⬥ [Couchy](https://i.imgur.com/Cz5bOvM.jpg)\n⬥ [Ideal Gas](https://i.imgur.com/S9sKls2.jpg)\n⬥ [Lunge](https://i.imgur.com/Ox10gGJ.jpg)\n⬥ [Wazzy xD](https://i.imgur.com/i29w46j.jpg)\n⬥ [DEATHSOFFICE](https://i.imgur.com/oZuuGxV.jpg)\n⬥ [Evil Lucario](https://i.imgur.com/wctbxju.jpg)\n\u00a0\u00a0\u00a0\u00a0• Note the increased interface scaling.\n⬥ [DePose](https://i.imgur.com/TpwAnMI.jpeg)",
+        "name": "__900p__ (1600x900)",
+        "value": "⬥ [Ideal Gas](https://i.imgur.com/S9sKls2.jpg)\n⬥ [DEATHSOFFICE](https://i.imgur.com/oZuuGxV.jpg)",
+        "inline": true
+      },
+      {
+        "name": "__1080p__ (1920x1080)",
+        "value": "⬥ [Couchy](https://i.imgur.com/Cz5bOvM.jpg)\n⬥ [Lunge](https://i.imgur.com/Ox10gGJ.jpg)\n⬥ [Wazzy xD](https://i.imgur.com/i29w46j.jpg)\n⬥ [Archer](https://i.imgur.com/tLKTkL8.jpeg) \n⬥ [DePose](https://i.imgur.com/TpwAnMI.jpeg)\n⬥ [Just Eswar](https://i.imgur.com/O8JbvS6.jpeg)\n⬥ [Ferrous](https://i.imgur.com/KjHdGQ0.jpeg)\n⬥ [Hero1](https://i.imgur.com/Knx2bFd.jpg)\n⬥ [Washly](https://i.imgur.com/gNA41bz.jpeg)\n⬥ [Dyanne](https://i.imgur.com/E9AgKB7.jpeg)",
+        "inline": true
+      },
+      {
+        "name": "__1440p__ (2560x1440)",
+        "value": "⬥ [TXJ](https://i.imgur.com/3LkFkEk.jpeg)\n⬥ [TXJ](https://i.imgur.com/c2Zyidp.jpeg) (150%)\n⬥ [TXJ](https://i.imgur.com/Dwj61cx.jpeg) (200%)\n⬥ [Finah](https://i.imgur.com/c0udPPa.jpeg)\n⬥ [Evil Lucario](https://i.imgur.com/3iqGdFt.jpeg) (175%)",
+        "inline": true
+      },
+      {
+        "name": "__2160p__ (3840x2160)",
+        "value": "Examples needed!",
+        "inline": true
+      },
+      {
+        "name": "__Ultrawide.__",
+        "value": "⬥ [IO (2560x1080)](https://i.imgur.com/5Jk8Bit.jpeg)",
+        "inline": true
+      },
+      {
+        "name": "__Miscellanous__",
+        "value": "⬥ [Just Eswar (960x1080)](https://i.imgur.com/XsL9pCF.jpeg)\n⬥ [Inter (800x600)](https://i.imgur.com/L7vuCSs.png)",
         "inline": true
       }
     ]
@@ -146,15 +166,13 @@ __**Miscellaneous settings**__
 .
 > __**Settings Menu**__
 .tag:settings
-.
 The **Settings** menu is accessed through the **Options** menu in-game, reachable at any time by pressing **escape**, and contains in-game settings that can be modified. Here, we cover a number of useful/important options that can be customized.
 .img:https://i.imgur.com/nOIbsLE.png
 
 .
 __**Gameplay Settings > Interfaces**__
-.
+.tag:setui
 These settings affect your screen area, visible interfaces and information, and general QoL.
-.
 ⬥ **Game Interaction > Mouseover text**
     • Keep this on to make it easier to ensure your clicks land on their intended target.
 ⬥ **Game Interaction > Walk markers**
@@ -182,7 +200,8 @@ These settings affect your screen area, visible interfaces and information, and 
 
 .
 __**Gameplay Settings > Combat & Action Bar**__
-⬥ These settings affect your combat and gameplay experience with regards to PvM.
+.tag:setcombat
+These settings affect your combat and gameplay experience with regards to PvM.
 .
 ⬥ **Combat Mode > Familiar combat mode**
     • Set to *attack same target* to maximize the damage done by the familiar.
@@ -214,7 +233,8 @@ __**Gameplay Settings > Combat & Action Bar**__
 
 .
 __**Gameplay Settings > Camera**__
-⬥ Settings to do with camera and camera movement.
+.tag:setcamera
+Settings to do with camera and camera movement.
 ⬥ **System > Camera mode**
     • Different camera modes offer different levels of maximum zoom and rotation speed. *Recommended to use freedom mode for better visibility.*
 ⬥ **System > Camera shake**
@@ -223,7 +243,8 @@ __**Gameplay Settings > Camera**__
 
 .
 __**Gameplay Settings > Item Drops**__
-⬥ These settings impact the loot system and visual appearance of drops.
+.tag:setdrops
+These settings impact the loot system and visual appearance of drops.
 ⬥ **Loot System > Use area loot**
     • *Area loot* opens up a menu to loot items. Both opening the interface and looting items can be keybound.
     • Can be customized based on item quantities, types and values to determine what gets looted.
@@ -233,7 +254,8 @@ __**Gameplay Settings > Item Drops**__
 
 .
 __**Gameplay Settings > Chat & Social**__
-⬥ These settings affect the chatbox and MMO aspect of the game.
+.tag:setsocial
+These settings affect the chatbox and MMO aspect of the game.
 ⬥ **Chat Customisation**
     • Customize how your chatbox appears, decide what messages are shown and in what colors, and re-size text, amongst other options.
     • Enabling *Split private chat* will make it easier to keep track of private messages.
@@ -247,27 +269,28 @@ __**Gameplay Settings > Chat & Social**__
 
 .
 __**Controls**__
-⬥ These settings are used to set all keybinds used within the game, affecting everything from action bar bindings to UI elements to hidden hotkeys. It is recommended to go through the controls set to ensure they are to your preference, but some of the less well-known keybinds that can be set are mentioned for convenience.
+.tag:setcontrols
+These settings are used to set all keybinds used within the game, affecting everything from action bar bindings to UI elements to hidden hotkeys. It is recommended to go through the controls set to ensure they are to your preference, but some of the less well-known keybinds that can be set are mentioned for convenience.
 ⬥ **Quick prayer** - this keybind toggles on/off all prayers set to quick prayer simultaneously.
 ⬥ **Target cycle** - keybinds for target cycling.
 ⬥ **Special attack** - can keybind weapon special attacks without having to sacrifice an ability bar slot\*.
 ⬥ **Familiar action** - can keybind familiar actions without having to sacrifice an ability bar slot*.
 ⬥ **Extra action button** - can trigger extra action button effects (in fights like Solak or Zamorak) without clicking it.
 ⬥ **Area loot** - open the area loot menu without moving.
-.
 *Note: Special attack and familiar action keybinds cannot be queued with ability queueing if set through the Controls tab. Use the action bar if queueing is required.*
 
 .
 __**Graphics**__
-⬥ These settings affect the visual appearance of the game. Depending on your computer's specs, you can adjust these to adjust to improve game performance, or increase the graphical fidelity of the game. Some useful ones are covered here, but more detailed explanations of all the options can be found on the RuneScape Wiki page about Graphics Settings.
+.tag:setgraphics
+These settings affect the visual appearance of the game. Depending on your computer's specs, you can adjust these to adjust to improve game performance, or increase the graphical fidelity of the game. Some useful ones are covered here, but more detailed explanations of all the options can be found on the RuneScape Wiki page about Graphics Settings.
 ⬥ **Draw distance** - the higher this setting, the more of the world is visible, but it can impact FPS on slower machines.
 ⬥ **Remove roofs** - this can make it easier to navigate the world (e.g. for activities like solving clues).
-⬥ **Textures** and **terrain blending** - these the game significantly nicer to look at, but when both are disabled, certain areas of the game may become easier to navigate.
+⬥ **Textures** and **Terrain Blending** - these make the game significantly nicer to look at, but when both are disabled, certain areas of the game may become easier to navigate.
     • e.g. placing dummies at Solak might become easier due to ground tiles at Solak becoming visible.
+⬥ **Interface Scaling** - changes interface scaling anywhere from 70-300%.
 ⬥ **Mouse-over entity highlights** - when the cursor hovers over and clicks an object, a colored outline appears, with the color depending on what was interacted with (non-monster NPC, monster NPC or interactable terrain).
 .
 .img:https://i.imgur.com/1PlF7IY.jpg
-.
 
 .
 > __**Action Bars**__
@@ -315,19 +338,20 @@ __**Additional Action Bars**__
 
 .
 __**Action Bar Binding**__
-⬥ Action bars can be configured to switch automatically depending on the weapons equipped by the player.
+⬥ **Action bars can be configured to switch automatically depending on the weapons equipped by the player**.
     • The settings can be found in **Settings > Gameplay > Action Bar Binding**
 ⬥ Bindings can be made for when the following types of weapons are equipped:
     • only 2h weapons
     • only dual wield weapons
     • either 2h or dual wield weapons
 *Note: Both the primary and additional action bars can be bound, independent of one another if needed*.
+
 ⬥ Consider the following example:
-    • Action bar preset number 5 is an **ability bar for 2h magic**
-    • Action bar preset number 6 is an **ability bar for dual wield magic**.
-    • Action bar preset number 9 is an **additional ability bar for magic-related abilities and switches**.
-    • We want our **primary action bar to change based on our equipped weapons**.
-    • We also want our **secondary bar to change based on our equipped style**.
+    • Action bar preset number 5 → ability bar for 2h magic
+    • Action bar preset number 6 → ability bar for dual wield magic.
+    • Action bar preset number 9 → *additional* ability bar for magic-related abilities and switches.
+    • **We want our primary action bar to change based on our equipped weapons**.
+    • **We also want our secondary bar to change based on our equipped style**.
 .
 .img:https://i.imgur.com/PNTSHp8.png
 .
@@ -337,7 +361,6 @@ __**Action Bar Binding**__
 ⬥ When set up correctly for multiple styles, it will look something like this:
 .
 .img:https://i.imgur.com/mjAyjqV.mp4
-.
 
 .
 > __**Keybinds**__
@@ -370,7 +393,7 @@ __**Modifier Keys**__.
     • `A`, `Shift+A`, `Ctrl+A` and `Alt+A` would be four separate keybinds.
 ⬥ This increases the range of available keybinds.
 ⬥ If using a mouse, you can bind `Modifier+Key` to a single mouse button, making it easier to press.
-.
+
 ⬥ Some gaming mice software may not work on all operating systems, especially Linux.
     • Logitech mouse users have an open source option for Linux called *logiops*. Find it in your favorite distro's repository (e.g. Chaotic-Aur for Arch Linux users) or look at their repository at <https://github.com/PixlOne/logiops>. Note that other options such as *xbindkeys* or *input-remapper* will not work to actually hold down a mouse key and have it act like holding down `Shift` or `Control`, they can only do a one-time click, not extended holds, despite what their documentation says. Lastly, there are also other alternatives such as *Piper* for consideration.
     • On Mac, the *Logitech Gaming Software* may be a useful alternative to the default G-Hub software.
@@ -394,7 +417,7 @@ __**Keybinds Guide**__ (Courtesy of <@158292421724209152>)
 https://www.youtube.com/watch?v=zn_y-_2giZg
 
 .
-> __**Banking & presets**__
+> __**Banking & Presets**__
 .tag:banking
 Bank organization is very much a subjective choice, and entirely up to your preference. That being said, there are some items that you may want to consider sorting and placing in their own tabs.
 
@@ -428,7 +451,6 @@ __**Bank Presets**__
 .
 .img:https://i.imgur.com/yrDIIUL.png
 .
-.
 .img:https://i.imgur.com/7zASc7R.png
 .
 ⬥ Every preset can be configured to load **any combination of the inventory, worn items and beast of burden storage** (if summoned).
@@ -446,61 +468,38 @@ __**Bank Presets**__
 ⬥ Here is an example demonstrating setting up and loading a preset.
 .
 .img:https://i.imgur.com/gVodqX7.mp4
-.
 
 .
 __**Quick Banking Preset**__
 ⬥ It is generally a useful idea to dedicate one of your preset slots to a 'quick banking' preset that you can use to apply buffs before a bossing trip or between kills, such as bonfire boosts, incense sticks, potion effects, familiar timers, etc.
 ⬥ Use the `!bankingpreset` command to learn more.
-
 .
 {
   "embed": {
-    "title": "Table of Contents",
+    "title": "__Table of Contents__",
     "color": 39423,
     "fields": [
       {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__User Interface__",
-        "value": "[Link]($linkmsg_ui$)",
-        "inline": true
-      },
-      {
-        "name": "__Creating a Good Interface__",
-        "value": "[Link]($linkmsg_creatingui$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Interfaces__",
-        "value": "[Link]($linkmsg_exampleui$)",
+        "name": "__User Interface (UI)__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [What Is The UI]($linkmsg_ui$)\n⬥ [Creating a Good UI]($linkmsg_creatingui$)\n⬥ [Example UI Layouts]($linkmsg_exampleui$)",
         "inline": true
       },
       {
         "name": "__Settings Menu__",
-        "value": "[Link]($linkmsg_settings$)",
+        "value": "⬥ [Interface]($linkmsg_setui$)\n⬥ [Combat & Action Bar]($linkmsg_setcombat$)\n⬥ [Camera]($linkmsg_setcamera$)\n⬥ [Item Drops]($linkmsg_setdrops$)\n⬥ [Chat & Social]($linkmsg_setsocial$)\n⬥ [Controls]($linkmsg_setcontrols$)\n⬥ [Graphics]($linkmsg_setgraphics$)",
         "inline": true
       },
       {
-        "name": "__Action Bars__",
-        "value": "[Link]($linkmsg_actionbars$)",
+        "name": "__Action Bar & Keybinds__",
+        "value": "⬥ [Action Bars]($linkmsg_actionbars$)\n⬥ [Keybinds]($linkmsg_keybinds$)",
         "inline": true
       },
       {
-        "name": "__Keybinds__",
-        "value": "[Link]($linkmsg_keybinds$)",
-        "inline": true
-      },
-      {
-        "name": "__Banking & Presets__",
-        "value": "[Link]($linkmsg_banking$)",
+        "name": "__Misc.__",
+        "value": "⬥ [Banking & Presets]($linkmsg_banking$)",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-.pin:delete
