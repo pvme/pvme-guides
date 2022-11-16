@@ -66,7 +66,7 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "title": "__**PvME Special Roles**__",
     "color": 16711683,
     "thumbnail": { "url": "https://i.imgur.com/QlUVe0U.gif" },
-    "description": "*Note: \"roles\" = either mastery or feats.*",
+    "description": "**\"Roles\" = either mastery or feats.**",
     "fields": [
       {
         "name": "**__Available Roles__**",
@@ -83,12 +83,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:Araxxor
 {
   "embed": {
-    "title": "**__Araxxor__**",
+    "title": "**__Araxxor (Solo)__**",
     "color": 2281522,
     "thumbnail": {
       "url": "https://runescape.wiki/images/thumb/Araxxor_%28ranged%29.png/250px-Araxxor_%28ranged%29.png?ee26b"
     },
-    "description": "*Note: solo only.*",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery__**",
@@ -107,6 +109,9 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "thumbnail": {
       "url": "https://runescape.wiki/images/Arch-Glacor.png?ac3e5"
     },
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery__**",
@@ -120,12 +125,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:ED1
 {
   "embed": {
-    "title": "**__ED1: Temple of Aminishi__**",
+    "title": "**__ED1: Temple of Aminishi (Solo)__**",
     "color": 1514853,
     "thumbnail": {
       "url": "https://i.imgur.com/LbesfGr.png"
     },
-    "description": "*Note: solo runs only.*",
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -139,12 +143,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:ED2
 {
   "embed": {
-    "title": "**__ED2: Dragonkin Laboratory__**",
+    "title": "**__ED2: Dragonkin Laboratory (Solo)__**",
     "color": 5651338,
     "thumbnail": {
       "url": "https://i.imgur.com/byVZh7g.png"
     },
-    "description": "*Note: solo runs only.*",
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -158,12 +161,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:ED3
 {
   "embed": {
-    "title": "**__ED3: Shadow Reef__**",
+    "title": "**__ED3: Shadow Reef (Solo)__**",
     "color": 5198952,
     "thumbnail": {
       "url": "https://i.imgur.com/qRBpfeH.png"
     },
-    "description": "*Note: solo runs only.*",
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -177,12 +179,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:Kerapac
 {
   "embed": {
-    "title": "**__Kerapac, the Bound__**",
+    "title": "**__Kerapac, the Bound (Solo HM)__**",
     "color": 4220571,
     "thumbnail": {
       "url": "https://i.imgur.com/8LRCGjz.png"
     },
-    "description": "*Note: solo hard mode only.*",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills | HM = hard mode"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -196,12 +200,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:Nex
 {
   "embed": {
-    "title": "**__Nex__**",
+    "title": "**__Nex (Solo)__**",
     "color": 12788795,
     "thumbnail": {
       "url": "https://runescape.wiki/images/Nex.png?67c8a"
     },
-    "description": "*Note: solo only.*",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery__**",
@@ -220,7 +226,10 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "thumbnail": {
       "url": "https://runescape.wiki/images/Nex_%28Angel_of_Death%29.png?00050"
     },
-    "description": "*Note: AoD 7-10 or FC trial kills are disallowed.*",
+    "description": "**AoD 7-10 or FC trial kills are not allowed.**",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -238,6 +247,9 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "color": 9135043,
     "thumbnail": {
       "url": "https://i.imgur.com/8TO6d0O.png"
+    },
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
     },
     "fields": [
       {
@@ -275,6 +287,9 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "thumbnail": {
       "url": "https://runescape.wiki/images/thumb/Telos%2C_the_Warden.png/200px-Telos%2C_the_Warden.png?99e18"
     },
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -288,12 +303,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:TzKal-Zuk
 {
   "embed": {
-    "title": "**__TzKal-Zuk__**",
+    "title": "**__TzKal-Zuk__ (HM)**",
     "color": 11286325,
     "thumbnail": {
       "url": "https://i.imgur.com/OmNkPgY.png"
     },
-    "description": "Note: hard mode only.",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills | HM = hard mode"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",

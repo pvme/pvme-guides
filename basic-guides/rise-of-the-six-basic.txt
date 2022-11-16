@@ -1,0 +1,271 @@
+> **__Rise of the Six (RotS) Basic Guide__**
+.
+.img:https://i.imgur.com/WtQpNoN.png
+.
+
+.
+> __**Introduction**__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+Rise of the Six (RotS) is a follow-up to the original Barrows Brothers encounter. Players, in groups of sizes 1 to 4, will take the six brothers in a cave-like arena. The brothers in RotS are significantly stronger than in the original encounter, and have deadly mechanics.
+
+After successfully killing all brothers, the player is tasked with escaping from the cave through a randomly generated tunnel.
+
+Please note that you can attune your Barrows portal in War's Retreat directly to the Rise of the Six well, as shown here: <https://i.imgur.com/NB0HcoM.png>
+
+.
+> __**Drops**__
+.tag:drops
+Most of the consistent money from RotS comes from Malevolent Energy, which are obtained in quantities of either 1, or 2 (equal probability). Additionally, T90 shields can be obtained at a rate of 1/80 for any shield (1/240 for a specific shield).
+
+Each RotS kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B186$ per person.
+
+⬥ **Malevolent Energy** <:malevenergy:643207275670011908>
+⬥ **Malevolent Kiteshield** <:malevkite:513190159412625411>
+⬥ **Merciless kiteshield** <:Merciless:583430258829688854>
+⬥ **Vengeful Kiteshield** <:vengeful:583430259110576140>
+
+.
+> __**Preset**__
+.tag:presets
+.img:https://i.imgur.com/keVEKyl.png
+*Note: full preset breakdown available here: <https://i.imgur.com/Fv9bRlT.png>*
+
+__**Important Items**__
+⬥ <:shadownihil:854475441946230855> Shadow Nihil familiar for accuracy
+⬥ <:barrowstotem:1040180941173309481> Barrows Totem for each individual arena entry (only player who creates instance)
+⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
+⬥ <:mechchin:641669268722810881> for effective group clearing
+⬥ <:fleetingboots:789813993480388640> for mobility and <:rapid:535541270521708566> accuracy
+
+__**Relic Setup**__
+⬥ <:berserkersfury:697808774106185768> Berserkers Fury
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+
+> __**Arena Overview**__
+.tag:arena_overview
+The RotS arena is unique in that it is randomly generated for each and every kill. The path may twist and turn, and features a host of gaps, crossed by bridges. At the end of the tunnel there are four pads. In order to enter the final section of the arena, where the fight takes place, every player must stand on a pad.
+
+.
+.img:https://i.imgur.com/JQrja8Q.png
+.
+
+.
+> __**Mechanics**__
+.tag:mechanics
+__**Brothers**__
+The mechanics encountered are described on a brother-by-brother basis. As a general rule of thumb: **if something looks bad in RotS, it probably is**.
+
+There are some mechanics that are shared across all brothers. Namely:
+
+⬥ **Shadow Realm**
+    • A random brother will pull all players into the shadow realm.
+    • The screen will turn a shade of grey, and all brothers will deal increased damage (including their special mechanics).
+
+⬥ **Healing**
+    • Upon killing a brother, a bar will be placed above their heads.
+    • If the bar is filled, all deceased brothers will return to life.
+        - Killing another brother will reset all bars back to empty.
+
+Some other mechanics are shared between just a few brothers:
+
+⬥ **Hurricane**
+    • All melee brothers (Dharok, Guthan, Torag, Verac).
+    • Brother will slow down and spin in a circle, dealing rapid damage.
+        - Stay away from them!
+
+⬥ **Wall Slam**
+    • Dharok, Torag, Verac.
+    • Brother will jump off the wall, and deal damage in a 5x5 area on landing.
+        - Run away before it lands!
+
+⬥ **Lightning Conductor / Turret of Fire**
+    • Karil and Ahrim, respectively.
+    • Spin around shooting energy out of their hands and become immune to damage.
+        - Stay away from them!
+
+⬥ **Teleport**
+    • Karil or Ahrim will teleport up high in the centre of the arena.
+    • Karil will then unleash lightning across the other side of the arena.
+        - Surge through the lightning, or move sideways to dodge it.
+    • Ahrim will then unleash purple and red gas pits that deal damage if stood upon.
+        - Do not step on the pits!
+
+⬥ **Throw**
+    • Karil or Ahrim will be thrown across the room in a random direction, dealing damage if stuck under them.
+
+Finally, each brother has its own unique mechanics, as described below:
+
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/cd2jksl.png"
+    },
+    "fields": [
+      {
+        "name": "__Ahrim, the Blighted__",
+        "value": "⬥ Attacks with <:Magic:689504724159823906>\n⬥ **Special**: Flight\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: levitates in the air, gaining full immunity against <:melee:615612332521029632> damage, and 50% reduction in <:Magic:689504724159823906> damage\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: continue to deal damage as normal, unless using magic or melee (switch to another target, if so)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/Hu9KXnp.png"
+    },
+    "fields": [
+      {
+        "name": "__Dharok, the Wretched__",
+        "value": "⬥ Attacks with <:melee:615612332521029632>\n⬥ **Special**: Give Me Everything!\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: becomes immune and absorbs all damage taken for 10 seconds, then hits the player with his axe, dealing the full value of absorbed damage\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: do not deal damage to Dharok until the animation is finished"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/fDdXidh.png"
+    },
+    "fields": [
+      {
+        "name": "__Guthan, the Infested__",
+        "value": "⬥ Attacks with <:melee:615612332521029632>\n⬥ **Special**: Impale\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: throws his spear at a player. Player will be frozen briefly, and then start taking rapid damage\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: stand next to Guthan until he pulls his spear back out, dealing 1000 damage"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/QUyvMQt.png"
+    },
+    "fields": [
+      {
+        "name": "__Karil, the Tainted__",
+        "value": "⬥ Attacks with <:range:580168050121113623>\n⬥ **Special**: Portal Dash\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: Teleports to the other side of the chasm, leaving behind a bomb which deals very high damage in an 8x8 range. Repeats three times per side\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: Stay well clear of each bomb (it will spawn in the place Karil disappeared from)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/BLRn2Cr.png"
+    },
+    "fields": [
+      {
+        "name": "__Torag, the Corrupted__",
+        "value": "⬥ Attacks with <:melee:615612332521029632>\n⬥ **Special**: Whack\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: slams the player into the ground and starts whacking them into the ground\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: the other player should deal damage to Torag until the player is freed"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://i.imgur.com/rTZvYKT.png"
+    },
+    "fields": [
+      {
+        "name": "__Verac, the Defiled__",
+        "value": "⬥ Attacks with <:melee:615612332521029632>\n⬥ **Special**: Soulspot\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: Verac will mark a location on the map with green arrows, and rapidly drain prayer points\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: Proceed to the location marked by the four green arrows to stop the drain\n⬥ **Special**: Deathcopter\n\u00a0\u00a0\u00a0\u00a0• **Mechanic**: tracks a player with his flail, similar to the hurricane mechanic\n\u00a0\u00a0\u00a0\u00a0• **Strategy**: stay at a safe distance"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+__**Tunnel Escape**__
+In general, your goal is to reach the end of the tunnel and climb the rope, as fast as possible. In doing so, you will have to navigate around fallen obstacles, as well as cross gaps - these gaps were previously home to bridges; however, they are destroyed before the escape.
+
+Make sure that all players have looted the chest and are ready to proceed before starting the escape. It only takes one person crossing the line to trigger the tunnel collapse.
+
+Each previous bridge is replaced with two options: a ledge on the side of the gap, and a pedastal/vine in the middle of the gap. It is recommended to save the pedastal/vine for the last person crossing the gap. Players farther up should instead use the ledge.
+
+.
+.img:https://i.imgur.com/5hxreuy.jpg
+.
+
+.
+While navigating the tunnel, it is recommended to use <:bd:535532854281764884> and <:surge:535533810004262912> as much as possible, preferably with the Mobile <:mob:689501908628799488> perk in effect. It is recommended to use a Powerburst of Acceleration <:accel:756236265472524418> during the escape so that <:bd:535532854281764884> and <:surge:535533810004262912> can be used repeatedly, for a short while.
+
+As the countdown continues, you may notice your screen tilting and shaking more aggressively. If desired, it can be helpful to turn this off in settings: **Gameplay > Camera > System > Camera Shake**.
+
+.
+> __**Basic Strategy**__
+.tag:strategy
+Keep in mind the golden rule of RotS: **if it looks bad, it is**.
+
+Players in a group should split sides; for example, one experienced player soloing one side, and two less experienced players duoing the other side. Or, a solo/duo on either side.
+
+Once everyone is inside the final arena, take position and prepare for the fight. If duoing a side, it is recommended to position as shown below, with one player holding aggro of the brothers (green diamond), and the other DPSing from a safe distance (blue square). The player holding aggro of the brothers can 'kite' as required in order to keep themselves safe. The player holding aggro should also use Incite <:Incite:553050196725071893>. Once positioned, players can start the fight by right-clicking the shadow portal in the middle of the arena.
+
+.
+.img:https://i.imgur.com/FdM5SZz.jpg
+.
+
+.
+Prioritizing **Karil first** is recommended, followed by Torag. Largely speaking, the other brothers can be killed with less urgency. Keep in mind the mechanics of each brother, and kite as necessary so as to delay or avoid their special attacks.
+
+**__More Advanced Positioning__**
+After gaining a bit of experience, it is possible to experiment with positioning. Both players can activate Soul Link <:soullink:989442220484616242> curse, stand on the same square, and don’t move unless necessary. The player using Incite <:Incite:553050196725071893> will <:DeflectMelee:544195488447201300> and the DPSer can <:soulsplit:615613924506599497>. <:soullink:989442220484616242> splits both the damage taken and health healed between the two players. This allows the incite to stay healthy while not moving, maintaining the stack of brothers and effectiveness of chins.
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "description": "",
+    "color": 39423,
+    "fields": [
+    	{
+      	"name": "__Introduction__",
+        "value": "⬥ [General Info]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Preset]($linkmsg_presets$)",
+        "inline": true
+      },
+      {
+      	"name": "__Mechanics & Strategy__",
+        "value": "⬥ [Arena Overview]($linkmsg_arena_overview$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Basic Strategy]($linkmsg_strategy$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
