@@ -400,7 +400,6 @@ __**How It Works**__
 ⬥ To do it: kill boss → pick up loot → **quickly** exit instance → **quickly** re-enter instance → repeat.
 ⬥ This works because it is faster to spawn a boss for the first time in an instance, compared to the duration between subsequent spawns.
 ⬥ At the expense of higher effort, this can potentially save time even compared to the 'Fastest' instance spawn speed, if you instance-hop sufficiently quickly.
-
 .
 {
   "embed": {
@@ -414,7 +413,7 @@ __**How It Works**__
 .
 > __**Manual Spellcasting**__
 .tag:manualsc
-.
+*Note: For a summary, see the `!manualspellcasting` and `!spellswap` commands.*
 __**How It Works**__
 ⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
@@ -423,6 +422,7 @@ __**How It Works**__
 ⬥ **Behaviour with manual spellcasting *off***:
     • Magic auto attacks deal damage based on the spell your weapon is set to.
     • Clicking on a spell in your Magic spellbook or on your ability bar will switch your autocast spell to it.
+        - Typically, you'll press spell + next ability on the same tick, not during a global cooldown.
     • Clicking on an ability from an ability book or on your ability bar will use that ability against your target.
 .
 ⬥ **Behaviour with manual spellcasting *on***:
