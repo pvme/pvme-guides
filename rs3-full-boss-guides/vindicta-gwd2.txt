@@ -1,0 +1,171 @@
+**__Vindicta and Gorvek__**
+.
+.img:https://i.imgur.com/bieuGdZ.png
+.
+> **__Introduction__**
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+Vindicta, the Zarosian general residing in the Heart of Gielinor, requires 80 attack (boostable) and 40 Zaros killcount to fight. Her drops include the t85 Dragon Rider Lance <:dragonriderlance:643161541931171872> which disassembles for Ilujankan components <:Ilujankancomp:513190158674427906> needed for the Aftershock <:as4:712074245202772009> perk, and the Crest of Zaros <:crestzaros:643161512177041428> which is used to make the t80 Anima Core of Zaros set <:animahelmzaros:643120081790042163>.
+
+.
+> **__Drops__**
+.tag:drops
+⬥ <:zarosess:643162860830326824> **Zarosian essence**
+    • 1/128 base, 1/64 at 100% reputation
+⬥ <:crestzaros:643161512177041428> **Crest of Zaros**
+    • 1/512 base, 1/256 at 100% reputation
+⬥ <:dragonriderlance:643161541931171872> **Dragonrider lance**
+    • 1/512 base, 1/256 at 100% reputation
+⬥ <:glimmeringscale:643163068846702596> <:imbuedbladeslice:643169149639589918> **Glimmering scale / Imbued Blade Slice**
+    • 1/2000 base (Normal Mode)
+    • 1/1000 base (Hard mode)
+        - Separate items. Unlocks Gorvek and Vindicta pets respectively.
+
+Each Vindicta kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B300$, with <:coins:698816156961603654> $data_pvme:Bosses!E300$ of that being from commons. Advanced players can get up to $data_pvme:Bosses!B303$ kph, earning on average $data_pvme:Bosses!C303$ gp/hr.
+
+.
+> **__Presets__**
+.tag:presets
+**__Beginner Mage Preset__**
+.tag:magicbeg
+⬥ TI is encouraged to use a Staff, as you can cast Sonic Wave <:sonic:535533809924571136> while moving.
+⬥ The shield is used to resonance the range auto during phase 2
+⬥ A Wand of the Cywir Elders <:cywirwand:643161591571021824> is used as a Planted Feet switch <:pf:689501925770919981>.
+⬥ Excalibur <:excal:641337999170207763> is used for healing over time with Sailfish <:Sailfish:565726489363087360> as potential panic healing.
+    • This inventory is intended to last roughly an hour long trip.
+⬥ <:luckpotion:656426717295935500> **Enhanced Luck Potion** - Gives tier 3 luck, can be removed if swapping to LotD <:LotD:566453486913323042>
+⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
+(Runes for <:AirSurge:543465115870035999> <:Vuln:537349530551582720>)
+.
+.img:https://i.imgur.com/G0uyB4C.png
+.
+__**Beginner Melee Preset**__
+.tag:meleebeg
+⬥ If you are not comfortable with weapon switching then you may use either only a Scythe or only Drygores.
+⬥ DW Melee is used for Bladed Dive <:bd:535532854281764884>,
+⬥ A shield is used for Resonance <:res:535541258844635148>, alongside <:soulsplit:615613924506599497> + <:aosor:544200033847869443> resulting in high sustain.
+⬥ <:luckpotion:656426717295935500> **Enhanced luck potion** - Gives tier 3 luck, can be removed if swapping to LotD <:LotD:566453486913323042>
+.
+.img:https://i.imgur.com/TejqffG.png
+.
+> **__Mechanics__**
+.tag:mechanics
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Attack Rotation__",
+        "value": "⬥ __Phase 1 (200k - 100k hp):__\n\u00a0\u00a0\u00a0\u00a0• 2 Autos → Hurricane → 3 Autos → Dragonfire → 3 Autos → Hurricane → Repeat\n⬥ __Phase 2 (100k - 0 hp):__\n\u00a0\u00a0\u00a0\u00a0• Melee Auto → Ranged attack → Melee Auto → Fly + Dragonfire → Repeat\n\nNote: Hurricane is replaced by Ranged attack outside of md.\n\u200B"
+      },
+      {
+        "name": "__Hurricane__",
+        "value": "⬥ A 5x5 melee AoE attack.\n⬥ Hurricane is replaced by Ranged attack outside of md.\n\u00a0\u00a0\u00a0\u00a0• Can be resonanced <:res:535541258844635148>. [Example](https://imgur.com/1tatA2X.mp4)\n\u200B"
+      },
+      {
+        "name": "__Dragonfire__",
+        "value": "⬥ Vindicta raises her arms to signal Gorvek.\n⬥ Drops a dragonfire smoke line fron top of the player. [Example](https://imgur.com/TG1pugT.mp4)\n⬥ Deals high continuous magic damage if stood in.\n\u00a0\u00a0\u00a0\u00a0• Move out of the way and pray <:DeflectMage:544195487926845462> if stood in.\n\u200B"
+      },
+      {
+        "name": "__Gorvek (Phase 2)__",
+        "value": "⬥ Mounts Gorvek at 100k HP.\n⬥ Gains new attack pattern.\n\u200B"
+      },
+      {
+        "name": "__Ranged attack__",
+        "value": "⬥ Vindicta deals a moderate amount of ranged damage to a random target. [Example](https://imgur.com/h5uwYYH.mp4)\n\u200B"
+      },
+      {
+        "name": "__Dragonfire Wall__",
+        "value": "⬥ Vindicta commands Gorvek to engulf a straight line in flames.\n⬥ Exactly the same as the dragonfire from Phase 1.\n⬥ This is identical to the lines placed during phase 1 and can be dealt with the same way. [Example](https://imgur.com/flnK9zh.mp4)\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+.
+> **__Undergeared Vindicta__**
+.tag:under
+**__What to Expect__**
+This method can achieve around 20 kills per hour with average kill times around 1:45.
+
+.
+**__Preset__**
+.
+.img:https://i.imgur.com/X9Mm3TI.png
+.
+**__Inventory Breakdown__**
+⬥ **Armour**: Lunar (T60 Power Armour)
+⬥ **Weapon**: Vanquish (T75 Weapon)
+⬥ **Pocket Slot**: Illuminated Godbook <:ZamBook:574290439461404672>
+⬥ **Aura**: Maniacal <:mani:643505153709965322>
+⬥ **Ring**: Vigour <:vigour:615613235512737792>
+⬥ **Shield**: Bandos Warshield (T70 Shield)
+⬥ **Inventory**: Left → Right, Up → Down:
+    • Grand Magic Potion
+    • Super Guthix Rest <:supergrest:690140078407680059>
+    • Green Blubber Jellyfish
+    • Super Prayer Renewal <:SuperPrayerRenewal:547603714681339915>
+    • Bandos Warshield
+    • Expensive Spices
+    • Guthix Staff <:gstaff:513203008608141314>
+⬥ **Runes**: <:Soulrune:536252660333019136> <:Airrune:536252658986647589> <:Chaosrune:536252659422855188>
+(Runes for <:AirSurge:543465115870035999> <:Vuln:537349530551582720>)
+
+.
+**__Brief Guide__**
+.tag:brief
+Drink Grand Magic Potion before going in w/ Prayers on (prot melee + Augury), spam Target Cycle <:Vuln:537349530551582720> <:comb:535533833098100745> whilst running around then <:sunshine:994921119381463070> and then follow the rotation below.
+
+.
+**__Rotation__**
+.tag:rotation
+(Target Cycle) <:Vuln:537349530551582720> <:comb:535533833098100745> → <:sunshine:994921119381463070> <:supergrest:690140078407680059> → <:AirSurge:543465115870035999> <:sonic:535533809924571136> → <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> → <:wm:535533809978966037> → <:sonic:535533809924571136> → non-<:freedom:535541258240786434> Defensive → <:AirSurge:543465115870035999> <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:spec:537340400273195028> → <:sonic:535533809924571136> → <:comb:535533833098100745> → <:dbreath:535533833391702017> → <:sonic:535533809924571136> → <:freedom:535541258240786434> → <:AirSurge:543465115870035999> <:wm:535533809978966037> → <:gstaff:513203008608141314> <:spec:537340400273195028> → Improvise with thresholds + specials + good basics to end the kill
+
+.
+⬥ **Sample Kills**
+.
+<https://youtu.be/oNOEKg_1Fgc>
+.
+*Note: While it is beneficial to follow the rotation, it is not vital to follow it. It is just important to remember that you should ultimate (<:sunshine:994921119381463070>), thresh (<:wm:535533809978966037> twice, <:asphyx:535533833072672778> once ideally)*
+
+.
+**__Tips and Tricks__**
+.tag:tips
+⬥ It is possible for your ability to get stalled (casted but not released) when Vindicta flies away, should this occur just run in and click Vindicta *or* hit your Auto <:AirSurge:543465115870035999> bind and your next ability
+    • If your Guthix Staff Special <:gstaff:513203008608141314> <:spec:537340400273195028> gets stalled, you will need to ensure your Guthix Staff is on when you release it, otherwise it will not release and you will get refunded your adrenaline.
+
+.
+⬥ Avoid Asphxiating <:asphyx:535533833072672778> after Vindicta's Ranged hit as it is very likely you will lose 1 or 2 hits when she flies off
+.
+⬥ If you need to Resonance <:res:535541258844635148>, do it when Vindicta uses her Ranged hit in the 2nd phase.
+.
+⬥ If you followed the rotation, Freedom <:freedom:535541258240786434> when it is off cooldown and apply Vulnerbility <:Vuln:537349530551582720>
+    • If you did not follow the rotation, just use a defensive at ~1 minute mark to apply Vulnerability <:Vuln:537349530551582720>
+.
+⬥ To time Target Cycle just spam it *and* run to spot and you will get it, ideally have these binds near one another to make it easy to do
+    • Refer to <#1020050319457132654> to set up Target Cycle.
+    • Further, it is important to ensure you run and spam the bind, for if you try to Target Cycle without a target it goes on a cooldown which is reset by walking a tile.
+
+.
+.
+> __**Old Rotations**__
+.tag:oldrot
+Melee - <https://i.imgur.com/xF3lCKN.png>
+.
+> **__AFK Strategy__**
+.tag:afk
+A full guide on how to AFK Vindicta is available here: <#1023090092245536818>
+.
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Beginner Mage Preset]($linkmsg_magicbeg$)\n⬥ [Beginner Melee Preset]($linkmsg_meleebeg$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Undergeared Preset]($linkmsg_under$)\n⬥ [Old Rotations]($linkmsg_oldrot$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

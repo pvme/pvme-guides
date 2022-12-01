@@ -147,49 +147,8 @@ https://discord.gg/88ru2vd
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-        "inline": true
-      },
-      {
-        "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-        "inline": true
-      },
-      {
-        "name": "__Overview__",
-        "value": "[Link]($linkmsg_overview$)",
-        "inline": true
-      },
-      {
-        "name": "__Pet Tank__",
-        "value": "[Link]($linkmsg_pettank$)",
-        "inline": true
-      },
-      {
-        "name": "__North Chargers__",
-        "value": "[Link]($linkmsg_nc$)",
-        "inline": true
-      },
-      {
-        "name": "__Back-up (South Chargers)__",
-        "value": "[Link]($linkmsg_busc$)",
-        "inline": true
-      },
-      {
-        "name": "__Base Tank__",
-        "value": "[Link]($linkmsg_base$)",
-        "inline": true
-      },
-      {
-        "name": "__Learning Raids__",
-        "value": "[Link]($linkmsg_bossschool$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Overview]($linkmsg_overview$)\n⬥ [Pet Tank]($linkmsg_pettank$)\n⬥ [North Chargers]($linkmsg_nc$)\n⬥ [Back-up (South Chargers)]($linkmsg_busc$)\n⬥ [Base Tank]($linkmsg_base$)\n⬥ [Learning Raids]($linkmsg_bossschool$)",
+    "color": 39423
   }
 }
 .embed:json

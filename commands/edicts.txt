@@ -1,20 +1,22 @@
+.
 {
   "embed": {
-    "title": "__Zamorak Farming Edicts Order__",
+    "title": "__Zamorak Edicts Activation Order__",
+    "description": "These are some suggested edict activation orders for the Zamorak boss fight.\nEach number refers to a particular relic, shown in [this image](https://i.imgur.com/rANHfFw.png).",
     "color": 39423,
     "fields": [
       {
-        "name": "__Sub-100% (Any Style / Team Size)__",
-        "value": "⬥ 214653"
+        "name": "__Groups (Any Style)__",
+        "value": "⬥ **< 100%:** 2 1 4 6 5 3\n⬥ **100 - 899%:** 2 4 6 1 5 3 **or** 2 1 4 6 5 3\n⬥ **> 900%:** 2 4 3 6 1 5"
       },
       {
-        "name": "__Magic__ <:Magic:689504724159823906>",
-        "value": "⬥ 100-500: 214653 | any size",
-        "inline": true
+        "name": "__Solo Magic__ <:Magic:689504724159823906>",
+        "value": "⬥ **100 - 899%:** 2 1 4 6 5 3 \n⬥ **> 900%**: 2 4 3 6 1 5 **or** 2 4 6 1 3 5",
+        "inline": false
       },
       {
-        "name": "__Ranged__ <:Ranged:689504724403486920>",
-        "value": "⬥ 100+: 462135 | solo",
+        "name": "__Solo Ranged__ <:Ranged:689504724403486920>",
+        "value": "⬥ **100 - 499%:** 2 1 4 6 5 3 \n⬥ **> 500%:** 4 6 2 1 3 5",
         "inline": true
       }
     ]

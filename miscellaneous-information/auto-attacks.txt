@@ -92,7 +92,7 @@ Autos are separate from abilities and also have their own cooldown system separa
       },
       {
         "name": "__Unexpected Abilities That Incur Cooldown Oddly__",
-        "value": "*Note: these will be elaborated on in the next section of the guide*\n⬥ (fastest) <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> - incur 5t instead of 4t cooldown\n⬥ <:shadowtend:642713547142332416> - if cast t0, incurs cooldown on t3 (if fastest <:shadowtend:642713547142332416>) or t2 (otherwise)\n⬥ <:ecb:615618531937222657> <:spec:537340400273195028> - if cast in combat, adds 2t to auto cooldown\n⬥ (DW) <:ecb:615618531937222657> <:eofspec:746403211908481184> - effect of <:ecb:615618531937222657> <:spec:537340400273195028>, and in some cases can also cast an OH auto\n⬥ <:deto:535533833358016512> - incurs cooldown on release\n⬥ <:snipe:535541258425204770> - if cast t0, incurs cooldown on t3"
+        "value": "*Note: these will be elaborated on in the next section of the guide*\n⬥ (fastest) <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> - incur 5t instead of 4t cooldown\n⬥ <:shadowtend:642713547142332416> - if cast t0, incurs cooldown on t3 (if fastest <:shadowtend:642713547142332416>) or t2 (otherwise)\n⬥ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> - if cast in combat, adds 2t to auto cooldown\n⬥ <:deto:535533833358016512> - incurs cooldown on release\n⬥ <:snipe:535541258425204770> - if cast t0, incurs cooldown on t3"
       }
     ]
   }
@@ -152,10 +152,6 @@ Autos are separate from abilities and also have their own cooldown system separa
       {
         "name": "__Unexpected Behavior 1: Auto Cooldown Extention__",
         "value": "⬥ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> adds 2t to auto cooldown when used in combat\n⬥ To get an auto either of the following needs to be done:\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T3 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- [Demo](https://i.imgur.com/M1cy1gS.gif): auto → <:needle:535541259108876293> → <:frag:535541273755385885> → <:ecb:615618531937222657> <:spec:537340400273195028> → (4t) <:piercing:535541258538450944>\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T4 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- This way gives you 1t more of <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> to use (T4 vs T3 <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184>)"
-      },
-      {
-      	"name": "__Unexpected Behavior 2: Offhand Auto__",
-        "value": "⬥ Similar to <:freedom:535541258240786434>, DW <:ecb:615618531937222657> <:eofspec:746403211908481184> *can* give OH autos only in certain cases, e.g.:\n```\nFastest non-channel →\n1) ECB spec does not work\n2) click to off → ECB spec works\n3) Def. → ECB spec works```⬥ [Demo](https://i.imgur.com/uWLnvLu.mp4): auto → <:needle:535541259108876293> → <:anti:535541306475151390> → <:ecb:615618531937222657> <:eofspec:746403211908481184>"
       }
     ]
   }
@@ -219,6 +215,12 @@ The adrenaline per auto works as follows (rank column is Invigorate rank):
         - This is not to say you should default to the slowest weapon of course, because weapon tier is also a factor, but if the tiers are close then odds are the slower weapon will hit harder assuming all other things are equal.
 
 ⬥ Use `!abilitydamage` to calculate damage
+
+.
+**__BoLG Auto Damage Note__**
+⬥ It is worth noting that because of how <:bolg:994189289623662702> is set up, it does more auto damage than expected for a T95 average-speed 2H weapon.
+    • This is due to the fact when it computes auto damage, it uses the damage value which is part of the weapon itself (which is a feature of chargebows and not part of normal bows), as well as the damage value of ammo (which chargebows ignore and is used by normal bows).
+        - Since <:bolg:994189289623662702> is not a chargebow, it uses both when computing auto damage.
 
 .
 > **__Offing__**
@@ -414,7 +416,7 @@ The adrenaline per auto works as follows (rank column is Invigorate rank):
       },
       {
         "name": "__When They Can Be Used__",
-        "value": "⬥ Defensive autos to maximize adrenaline gain\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/W6L6UBB.mp4): <:piercing:535541258538450944> → <:anti:535541306475151390> → <:dbow:643848618553507843> swap → <:needle:535541259108876293>\n⬥ Defensive autos for damage, if not in <:ecb:615618531937222657> but accuracy and inventory allows\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/68PhZHW.mp4): <:piercing:535541258538450944> → <:ds:535541258924326912> + <:dbow:643848618553507843> swap"
+        "value": "⬥ Defensive autos to maximize adrenaline gain\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/W6L6UBB.mp4): <:piercing:535541258538450944> → <:anti:535541306475151390> → <:dbow:643848618553507843> swap → <:needle:535541259108876293>\n⬥ Defensive autos for damage, if not in <:ecb:615618531937222657> but accuracy and inventory allows\n\u00a0\u00a0\u00a0\u00a0• [Demo](https://i.imgur.com/68PhZHW.mp4): <:piercing:535541258538450944> → <:deathsswift:994921434633744455> + <:dbow:643848618553507843> swap"
       }
     ]
   }

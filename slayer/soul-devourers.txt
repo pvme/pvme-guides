@@ -131,39 +131,8 @@ Also afk'able with melee, due to their low HP their dangerous special attack can
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__General Setup__",
-        "value": "[Link]($linkmsg_general$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Salawa Akhs__",
-        "value": "[Link]($linkmsg_salawa$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Feline Akhs__",
-        "value": "[Link]($linkmsg_feline$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Crocodile Akhs__",
-        "value": "[Link]($linkmsg_crocodile$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Imperial Akhs__",
-        "value": "[Link]($linkmsg_imperial$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [General Setup]($linkmsg_general$)\n⬥ [Salawa Akhs]($linkmsg_salawa$)\n⬥ [Feline Akhs]($linkmsg_feline$)\n⬥ [Crocodile Akhs]($linkmsg_crocodile$)\n⬥ [Imperial Akhs]($linkmsg_imperial$)",
+    "color": 39423
   }
 }
 .embed:json

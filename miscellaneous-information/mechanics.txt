@@ -50,23 +50,15 @@ __**Last-Tick Interactions**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Ability Queueing and Last-Tick __",
-        "value": "To see how ability queueing prevents the last tick of Berserk from boosting an ability, [click here](https://i.imgur.com/JlBezRH.mp4). (Courtesy of <@683763716394975294>)"
-      }
-    ]
+    "title": "__Ability Queueing and Last-Tick __",
+    "description": "To see how ability queueing prevents the last tick of Berserk from boosting an ability, [click here](https://i.imgur.com/JlBezRH.mp4). (Courtesy of <@683763716394975294>",
+    "color": 39423
   }
 }
 .embed:json
 
 .
 __**Other Ability Interactions**__
-⬥ **Greater Barge** <:gbarge:535532879250456578> has different behaviours with and without queueing.
-    • **Without queueing**: using <:gbarge:535532879250456578> from out-of-combat will treat it as a 25-225% ability damage (the maximum) and give the secondary buff as well.
-    • **With queueing**: using <:gbarge:535532879250456578> *as a queued ability* from out-of-combat will treat it as 25-125% ability and *not* give the secondary buff.
-.
 ⬥ **Detonate** <:deto:535533833358016512>
     • Can be released mid-GCD if queueing is enabled - this is not possible with it disabled.
 ⬥ **Stalled Abilities**
@@ -86,7 +78,18 @@ __**Losing Target**__
 .
 > __**Ability Stalling**__
 .tag:stalling
-*Note: See `!stalling` for a summary on how to stall and release abilities.*
+***Note**: See `!stalling` for a summary instead on how to stall and release abilities.*
+.
+{
+  "embed": {
+    "title": "__Ability Stalling Video Guide__",
+    "description": "If you prefer a video guide, [click here.](https://youtu.be/kd9QpM12ckg) (Courtesy of  <@145413546409197569>)",
+    "color": 39423
+  }
+}
+.embed:json
+
+.
 __**How It Works**__
 ⬥ It is possible to 'stall' an ability by activating it but not actually using it, instead holding it 'in reserve' to release it at a later time.
 ⬥ This is primarily used to delay the activation of an ability to stack it together with another ability, to deal extra damage without losing any ticks.
@@ -104,10 +107,19 @@ __**How to Release Stalled Abilities**__
 ⬥ **Method 2: Click Release**
     • After stalling an ability, click your target to release the stalled ability.
 ⬥ **Method 3: Spell Release**
-    • After stalling an ability, use a spell from your ability bar to release the stalled ability.
-    • You **must** have the runes required to cast the spell, but a weapon is not required.
+    • After stalling an ability, use a debuff spell like <:smokecloud:856635090641879050> <:ent:567727987274022924> <:Vuln:537349530551582720>  from your ability bar to release the stalled ability.
+    • *You must have the runes required to cast the spell*, but a weapon is not required.
 
-*Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack unless you override it, such as with Cease <:cease:864235458464186418> or another spell.*
+*Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack. See the differences between **Click and Spell Release** below.*
+
+.
+__**Differences between Click and Spell Release**__
+⬥ Click release is limited to the target you stall on - spell release does not have this restriction.
+⬥ Click release can be done mid-GCD at any time - spell release can only do this if using an auto *with ability queueing on.*
+⬥ After a click release, the next ability must be at least 1 tick afterwards. With spell release, the next ability can be on the same tick as the spell release of the stalled ability.
+⬥ Spell release replaces your next auto with the spell used to release.
+    • Use Cease <:cease:864235458464186418> + click target to clear this.
+    • Not an issue when using Magic <:Magic:689504724159823906> - you can just hit a different spell keybind for your intended auto.
 
 .
 > __**Adrenaline Management**__
@@ -144,13 +156,9 @@ __**Gaining Adrenaline Without Target**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Adrenaline Without Target__",
-        "value": "For a demonstration of gaining adrenaline after losing target, [click here](https://i.imgur.com/kq3890N.mp4)."
-      }
-    ]
+    "title": "__Adrenaline Without Target__",
+    "description": "For a demonstration of gaining adrenaline after losing target, [click here](https://i.imgur.com/kq3890N.mp4).",
+    "color": 39423
   }
 }
 .embed:json
@@ -201,48 +209,11 @@ __**Interactions with Damage-Boosting Ultimates**__
     • Berserk <:zerk:535532854004678657>
     • Death's Swiftness <:deathsswift:994921434633744455>
     • Sunshine <:sunshine:994921119381463070>
-    • Metamorphosis <:meta:535533811304497183>
 ⬥ However, the damage boost from ultimates is **on-cast**, while the aura damage boost is **on-hit**.
-⬥ This interaction makes it so that if you cast an ability on the last tick of an ultimate, it gets boosted by both the ultimate *and* the aura.
-⬥ In the following image, the same ability is cast within <:zerk:535532854004678657> and on the last tick of <:zerk:535532854004678657> - see the damage difference.
+⬥ This interaction makes it so that if you cast an ability on *during* an ultimate, but it lands/hits *after* the ultimate ends, it stacks both the ult and the aura buff.
+⬥ In the following image, the same ability is cast twice: on** the left it casts and hits during <:zerk:535532854004678657>,** and **on the right it's cast on during <:zerk:535532854004678657> but hits after <:zerk:535532854004678657> ends** - see the damage difference.
 .img:https://i.imgur.com/7p6v2bc.png
-
-.
-> __**Back-to-Back Special Attacks**__
-.tag:b2bspec
-__**How It Works**__
-⬥ Attempting to use special attacks back-to-back (<:spec:537340400273195028> → <:spec:537340400273195028>) can potentially incur a delay in-between, depending on the **speed** of the attack used *before* the first special attack used.
-⬥ In other words, the first special attack won't be delayed, the second one **may** be delayed. See the table below.
-
-```
-Abilities:
-> Fastest Ability: Spec → no delay → Spec
-> Fast Ability   : Spec → no delay → Spec
-> Average Ability: Spec → 1t delay → Spec
-> Slowest Ability: Spec → 7t delay → Spec
-
-Autos:
-> Fastest Auto: Spec → 1t delay → Spec
-> Fast Auto   : Spec → 2t delay → Spec
-> Average Auto: Spec → 3t delay → Spec
-> Slowest Auto: Spec → 9t delay → Spec
-```
-*Note: Preceding abilities are assumed to be non-channeled. The delay when using a channeled ability is **2t**.*
-.
-__**Examples**__
-Here we cover some example scenarios of chaining special attacks.
-⬥ (fastest) <:dbreath:535533833391702017> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • There is **no delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> since the first one was **fastest** speed.
-
-⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • There is **1t delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the first one was only **average** speed.
-
-⬥ (fastest) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (fastest) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • There is **1t delay** on the 3rd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the first one was only **average** speed.
-    • The speed of the second one does not affect this.
-
-⬥ (average) <:dbreath:535533833391702017> → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184> → 1t delay → (average) <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-    • This results in **1t delay** on the 2nd <:gstaff:513203008608141314> <:eofspec:746403211908481184> as the <:dbreath:535533833391702017> was only **average** speed.
+***Note**: this interaction does **not** work if you queue an ability on the last tick of an ultimate*.
 
 .
 > __**Camera Shaking**__
@@ -336,13 +307,9 @@ __**Items That Affect Critical Hits**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Critical Hit Chance Calculator__",
-        "value": "To calculate your own critical hit chance using the RuneScape Wiki's calculator, [click here](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance/)."
-      }
-    ]
+    "title": "__Critical Hit Chance Calculator__",
+    "description": "To calculate your own critical hit chance using the RuneScape Wiki's calculator, [click here](https://runescape.wiki/w/Calculator:Combat/Critical_hit_chance/).",
+    "color": 39423
   }
 }
 .embed:json
@@ -373,13 +340,9 @@ __**Sample Rotation**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Grimshaw __",
-        "value": "For a brief example on how to 'grimshaw' with an auto attack, [click here](https://www.youtube.com/watch?v=M65xdRYYxJ4)."
-      }
-    ]
+    "title": "__Grimshaw__",
+    "description": "For a brief example on how to 'grimshaw' with an auto attack, [click here](https://www.youtube.com/watch?v=M65xdRYYxJ4).",
+    "color": 39423
   }
 }
 .embed:json
@@ -418,13 +381,9 @@ __**Notes**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Hex Weapons__",
-        "value": "⬥ For a list of targets weak to <:hexhunterbow:581180369911414794>, [click here](https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow).\n⬥ For a list of targets weak to <:terramaul:602561894829522954>, [click here](https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul).\n⬥ For a list of targets weak to <:inquisitorstaff:694566917553520680>, [click here](https://runescape.wiki/w/Category:Susceptible_to_inquisitor_staff)."
-      }
-    ]
+    "title": "__Hex Weapons__",
+    "description": "⬥ For a list of targets weak to <:hexhunterbow:581180369911414794>, [click here](https://runescape.wiki/w/Category:Susceptible_to_hexhunter_bow).\n⬥ For a list of targets weak to <:terramaul:602561894829522954>, [click here](https://runescape.wiki/w/Category:Susceptible_to_terrasaur_maul).\n⬥ For a list of targets weak to <:inquisitorstaff:694566917553520680>, [click here](https://runescape.wiki/w/Category:Susceptible_to_inquisitor_staff).",
+    "color": 39423
   }
 }
 .embed:json
@@ -437,17 +396,12 @@ __**How It Works**__
 ⬥ To do it: kill boss → pick up loot → **quickly** exit instance → **quickly** re-enter instance → repeat.
 ⬥ This works because it is faster to spawn a boss for the first time in an instance, compared to the duration between subsequent spawns.
 ⬥ At the expense of higher effort, this can potentially save time even compared to the 'Fastest' instance spawn speed, if you instance-hop sufficiently quickly.
-
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Instance Hopping__",
-        "value": "For a comparison to see the time saved by instance hopping, [click here](https://youtu.be/O-Lb93vFRAI).\n(Courtesy of <@287398612558675968>)"
-      }
-    ]
+    "title": "__Instance Hopping__",
+    "description": "For a comparison to see the time saved by instance hopping, [click here](https://youtu.be/O-Lb93vFRAI).\n(Courtesy of <@287398612558675968>)",
+    "color": 39423
   }
 }
 .embed:json
@@ -455,7 +409,7 @@ __**How It Works**__
 .
 > __**Manual Spellcasting**__
 .tag:manualsc
-.
+*Note: For a summary, see the `!manualspellcasting` and `!spellswap` commands.*
 __**How It Works**__
 ⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
@@ -464,6 +418,7 @@ __**How It Works**__
 ⬥ **Behaviour with manual spellcasting *off***:
     • Magic auto attacks deal damage based on the spell your weapon is set to.
     • Clicking on a spell in your Magic spellbook or on your ability bar will switch your autocast spell to it.
+        - Typically, you'll press spell + next ability on the same tick, not during a global cooldown.
     • Clicking on an ability from an ability book or on your ability bar will use that ability against your target.
 .
 ⬥ **Behaviour with manual spellcasting *on***:
@@ -475,13 +430,9 @@ __**How It Works**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Manual Spellcasting__",
-        "value": "If you prefer to watch a video guide, check out [this guide](https://youtu.be/iJzOHlYuULo) by <@145413546409197569>."
-      }
-    ]
+    "title": "__Manual Spellcasting__",
+    "description": "If you prefer to watch a video guide, check out [this guide](https://youtu.be/iJzOHlYuULo) by <@145413546409197569>.",
+    "color": 39423
   }
 }
 .embed:json
@@ -667,6 +618,8 @@ __**Walking Abilities**__
 .
 > __**Seren Godbow (SGB) Mechanics**__ <:sgb:626466665848242186>
 .tag:sgb
+*Note: For a summary of where/when/how to use SGB, and a list of boss sizes use the `!sgb` command.*
+.
 __**How It Works**__
 ⬥ The Seren Godbow <:sgb:626466665848242186> is a T92 chargebow that has a strong special attack, *Crystal Rain*.
 ⬥ The special attack fires 5 arrows that land in a certain area around the target. There are two aspects to this:
@@ -713,12 +666,21 @@ __**Arrows 2-5+**__
 ⬥ **A general rule of thumb for <:sgb:626466665848242186> <:spec:537340400273195028>**:
     • When Ranging → use on 3⨯3 or bigger targets.
     • When off-style → use 5⨯5 or larger targets.
+.
+{
+  "embed": {
+    "title": "__Boss Sizes for SGB__",
+    "description": "For a list of boss sizes to decide when to use SGB on/off-style, [click here.](https://docs.google.com/spreadsheets/d/1fyH5qJjb08SzefZTQ23jANcKq7V8xSw7YHCu8QasQco)",
+    "color": 39423
+  }
+}
+.embed:json
 
 .
 __**Blocked Targets**__
 ⬥ A target is considered 'blocked' when the player is unable to reach it's center tile.
-    • e.g. P5 Telos
-⬥ Any NPC that is larger than 5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
+    • e.g. P4 Araxxi
+⬥ Any NPC whose size is ≥5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
 
 .
 __**Notes**__
@@ -771,23 +733,23 @@ __**Why it is Useful**__
     "fields": [
       {
         "name": "__Vorago__",
-        "value": "⬥ [Targetting a Scopulus on P3 earlier than usual to lure it properly.](https://www.youtube.com/watch?v=KmYgKcfLeRc)\n⬥ [Tagging Vorago early on phase dropdowns to aggro or get in an extra hit.](https://www.youtube.com/watch?v=9YejOAvquQk)"
+        "value": "⬥ [Targetting a Scopulus on P3 earlier than usual to lure it properly](https://www.youtube.com/watch?v=KmYgKcfLeRc)\n⬥ [Tagging Vorago early on phase dropdowns to aggro or get in an extra hit](https://www.youtube.com/watch?v=9YejOAvquQk)"
       },
       {
         "name": "__Ambassador__",
-        "value": "⬥ [Targeting fragments earlier in the spinner phase to get more time.](https://i.gyazo.com/a3b13b217022a8523de01b4e50b3cc9f.mp4)"
+        "value": "⬥ [Targeting fragments earlier in the spinner phase to get more time](https://i.gyazo.com/a3b13b217022a8523de01b4e50b3cc9f.mp4)"
       },
       {
         "name": "__Solak__",
-        "value": "⬥ Tagging the core/arms/legs on P1 faster to save ticks.\n⬥ Tagging eruptions on P2 before they're visible to save ticks."
+        "value": "⬥ Tagging the core/arms/legs on P1 faster to save ticks\n⬥ Tagging eruptions on P2 before they're visible to save ticks"
       },
       {
         "name": "__Angel of Death__",
-        "value": "⬥ [Changing target to Nex while charging Detonate.](https://i.imgur.com/ZFIZdKl.mp4)\n⬥ Using TC to target pillars, since it's easier than trying to click a target while moving."
+        "value": "⬥ [Changing target to Nex while charging Detonate](https://i.imgur.com/ZFIZdKl.mp4)\n⬥ Using TC to target pillars, since it's easier than trying to click a target while moving"
       },
       {
         "name": "__GWD2__",
-        "value": "⬥ Attacking bosses before their spawn animations are complete using TC."
+        "value": "⬥ Attacking bosses before their spawn animations are complete using TC"
       }
     ]
   }
@@ -807,13 +769,9 @@ __**Why it is Useful**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Tick System and Movement__",
-        "value": "For a short video explanation of the tick system and how it affects movement, [click here](https://youtu.be/hElkOvHJmaA)."
-      }
-    ]
+    "title": "__Tick System and Movement__",
+    "description": "For a short video explanation of the tick system and how it affects movement, [click here](https://youtu.be/hElkOvHJmaA).",
+    "color": 39423
   }
 }
 .embed:json
@@ -890,13 +848,9 @@ __**Why Its Good**__
 .
 {
   "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Walking Bosses__",
-        "value": "⬥ To see an how walking a boss like Araxxor works, [click here](https://youtu.be/A_6ah7GF_1k).\n⬥ To see how to walk a bleed by moving under your target, [click here](https://youtu.be/0Y0JGMeLcmI)."
-      }
-    ]
+    "title": "__Walking Bosses__",
+    "description": "⬥ To see an how walking a boss like Araxxor works, [click here](https://youtu.be/A_6ah7GF_1k)\n⬥ To see how to walk a bleed by moving under your target, [click here](https://youtu.be/0Y0JGMeLcmI)",
+    "color": 39423
   }
 }
 .embed:json
@@ -910,6 +864,7 @@ __**How It Works**__
     • After being poisoned <:poisonicon:944649693500154006> targets will take damage every 16t/9.6s, for 3 minutes.
     • Poison damage hits 2t after the damage that applied it.
 
+.
 __**Calculating Poison Damage**__
 ⬥ **Base poison damage <:poisonicon:944649693500154006> is 20% of ability damage**.
     • Each tier of weapon poison (+, ++, +++) increases this value by 25% of its **base** value. Cinderbane gloves <:cinderbanes:513190158355660812> also give an additional 25%.
@@ -925,11 +880,12 @@ __**Calculating Poison Damage**__
 .
 ⬥ Poison damage **is **affected by a number of items, covered in the following section.
 
+.
 __**Poison Interactions**__
 ⬥ **Cinderbane gloves** <:cinderbanes:513190158355660812>
     • Ignores the 16t poison damage cooldown.
-    • Gives **1/8 (12.5%) chance per hit to apply poison**, doing an extra hit of damage and resetting the 16t damage timer.
-    • Also gives **1/8 (12.5%) chance for a poison hit to re-apply poison**, also resetting the 16t timer.
+    • Gives *1/8 (12.5%) chance per hit to apply poison*, doing an extra hit of damage and resetting the 16t damage timer.
+    • Also gives *1/8 (12.5%) chance for a poison hit to re-apply poison*, also resetting the 16t timer.
     • Works out to an **effective 1/7 (~14.3%) chance of apply poison on any given hit**.
     • If no poison variant is used, the gloves act as if Weapon Poison+ is used.
 .
@@ -957,7 +913,7 @@ __**Poison Interactions**__
         - 50% chance per hit to apply a DoT that can stack.
         - DoT deals damage 5 times, every 2 ticks, unless refreshed.
         - Damage range increases with stacks, from 10-24 per hit → 125-249 per hit.
-    • **The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply.**
+    • *The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply*.
 .
 ⬥ **Poison can be applied/refreshed by any player-sourced damage, including**:
     • All auto-attacks and abilities - including bleeds and DoTs from abilities like <:comb:535533833098100745> / <:corruptshot:535541306294796299> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / etc.
@@ -975,6 +931,16 @@ __**Poison Interactions**__
     • Wyvern Crossbow <:wyverncrossbow:580177522587729940> (passive effect)
 
 .
+__**Poison in Group Encounters**__
+⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are are target-based will affect all poison damage (i.e. sourced from any player).
+⬥ **Local** modifiers (that are player-specific) like Cinderbanes <:cinderbanes:513190158355660812> / Wyvern Crossbow <:wyverncrossbow:580177522587729940> / etc. will only affect the hitsplats as a result of that player.
+⬥ The single recurring poison hit that occurs on a poisoned target every 9.6s will take its damage based on the last player who applied poison on the target.
+
+.
+__**Poison Build**__
+⬥ Use `!poison` to see components of a poison build.
+
+.
 {
   "embed": {
     "title": "Table of Contents",
@@ -982,12 +948,12 @@ __**Poison Interactions**__
     "fields": [
       {
         "name": "__Mechanics (1/3)__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Abiltiy Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [B2B Special Attacks]($linkmsg_b2bspec$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)\n⬥ [Grimshaw]($linkmsg_grimshaw$)",
         "inline": true
       },
       {
         "name": "__Mechanics (2/3)__",
-        "value": "⬥ [Grimshaw]($linkmsg_grimshaw$)\n⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
+        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
         "inline": true
       },
       {

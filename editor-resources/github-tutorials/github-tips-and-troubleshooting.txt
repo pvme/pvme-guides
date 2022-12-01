@@ -1,0 +1,148 @@
+> **__Introduction__**
+.tag:intro
+This guide will go over an assortment of common issues you may encounter while working with Github, as well as a few helpful things you can do to streamline your workflow.
+*Note: You can always ask any editor or staff for help with GitHub at any time.*
+
+.
+> __**Frequently Used Terminology**__
+.tag:keywords
+⬥ **Repository**
+    • A collection of all the files and folders for a single project, that is tracked and version controlled.
+⬥ **Fork**
+    • A *copy* of an entire repository. A user can *fork* a repository to get a personal copy.
+⬥ **Commit**
+    • Essentially a 'snapshot' of your repository. Think of it like a checkpoint in a video game. Going back to a particular commit shows the entire repository as it was at that point in time. You commit after making your changes, to prepare for a pull request.
+⬥ **Pull Request**
+    • A request to merge *your changes* into the *main repository*, to be accepted by someone with appropriate permissions.
+
+.
+> **__Common Problems__**
+.tag:trouble
+**__Failed Checks__**
+.tag:failedchecks
+⬥ PvME GitHub is set up to automatically check for valid formatting and styling. There are a number of checks, such as:
+    • Trailing whitespace - extra space at the end of a line
+    • Improper spacing around emojis - emojis must be surrounded by a space on either side
+    • Message length exceeded (too many characters) - messages cannot exceed 2000 characters
+    • Invalid embed formatting - creates an invalid embed object.
+    • Invalid commands - any `.command:` used must be a valid command.
+⬥ Checks failing can be avoided by using the **web editor** (<https://pvme.github.io/guide-editor/>) to edit your content before adding it to GitHub, as it runs the same style checks that pull requests use. For more information, check out <#1020843193509629972>.
+⬥ If your pull request fails due to a check, it will inform you. Click on **Details** on the check to see why it has failed, and what you can do to fix it.
+⬥ Consider the following example:
+.img:https://i.imgur.com/ZxizF57.png
+.
+.img:https://i.imgur.com/qdZjUvf.png
+⬥ The bottom red square tells you what the error is. In this case, the message starting at line 108 and ending at line 139 has too many characters.
+⬥ To fix this, click the *Edit File* option in the following image, to open up editing again to make appropriate changes.
+.img:https://i.imgur.com/WHpF7Wq.png
+⬥ In this case, we break the single large message into 2 separate messages by hitting `Enter`, entering a single period `.` and hitting `Enter` again. Then commit these changes, and it will update the pull request.
+.img:https://i.imgur.com/fTIpYv5.png
+⬥ Your Pull Request should now be error-free once the checks complete again.
+
+.
+**__Checks Are Stuck__**
+.tag:stuckchecks
+⬥ Rarely, the style and syntax checks may get stuck, neither succeeding nor failing. In such an event, usually merging a different minor pull request tends to resolve the issue.
+⬥ Checks can take some time to complete at times, so wait for at least 20-30 minutes before it is considered an issue.
+⬥ In case this occurs, you can contact an editor or staff for assistance.
+
+.
+**__Your Branch Is 'X' Commits Behind Master__**
+.tag:commitdiff
+⬥ When you make a new fork, your fork will look like this:
+.img:https://i.imgur.com/j3kEy55.png
+⬥ However, after some time it may look something like this:
+.img:https://i.imgur.com/ztJQ0wj.png
+⬥ This is because changes might have happened to the main repository (`'X' commits behind`) and it is no longer longer in-sync with your copy. This may cause issues when making a pull request.
+⬥ To resolved this, **the simplest solution is to delete your fork, and make a new fork of the PvME repository**.
+⬥ This will give you a fresh, up-to-date copy, and get rid of any lingering issues.
+
+***For more experienced users**: PvME squashes and merges all pull requests. This causes a difference in commit hashes, which is why your branch will be both ahead AND behind in commits after a pull request is accepted. You can clean this up by discarding commits from accepted PRs and syncing your branch to pvme:master. Or by resetting your branch to pvme:master. Or just delete and start over.|*
+
+> __**Pull Requests**__
+.tag:pr
+.
+**__Multiple Changes & Updating an Existing Pull Request__**
+⬥ It is possible to include changes to multiple files within the same Pull Request, and to amend files you have already modified as part of that Pull Request.
+⬥ This can be helpful to reduce the number of PRs being opened, and remove the need of closing a PR and reopening it if a mistake has been made.
+
+*Note: It is assumed you have already forked the repository.*
+
+⬥ Consider the scenario: a pull request has been made, with changes to *one* file, visible in the *Files Changed* tab.
+.img:https://i.imgur.com/kxvu0O2.png
+
+.
+**__Modify an Existing File in the Pull Request__**
+.tag:modifypr
+To make an a change to a file that already contains a change, *in the same pull request*, do the following.
+⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
+⬥ Go to the top right corner of the file you wish to update, click the three dots, then *Edit File*.
+.img:https://i.imgur.com/h2i3Rkb.jpg
+⬥ Make whatever additional changes you like, and then *Commit directly to the xxx branch*.
+.img:https://i.imgur.com/GbkYLNi.png
+⬥ Navigate back to your Pull Request, and the additional change should be included!
+.img:https://i.imgur.com/OxtPQXE.png
+
+.
+**__Add a New File to the Pull Request__**
+.tag:addpr
+To edit a different file, and include it in the same pull request, do as follows,
+⬥ Navigate to your Pull Request and click on the name of your branch, here:
+    • You are now looking at the main directory of your own branch, where all files will reside.
+.
+.img:https://i.imgur.com/ylNa85w.png
+⬥ Locate the additional file you would like to change, open it, and then click the edit icon.
+.img:https://i.imgur.com/kSt0Xpa.png
+⬥ Make whatever changes you like, and then *Commit directly to the xxx branch*.
+.img:https://i.imgur.com/sa6tPYh.png
+⬥ Navigate back to your Pull Request, and the additional file should be included!
+.img:https://i.imgur.com/UKnKrfs.png
+
+.
+> **__Helpful Tips__**
+.tag:tips
+**__File Split View__**
+.tag:diffview
+⬥ When opening a Pull Request, it is good practice to look at your changes and see if any mistakes have been made.
+⬥ By default, you will see differences between your changes and the original file in *Unified View*.
+⬥ Sometimes, especially for larger changes, it can be helpful to use *Split View* instead.
+⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
+    • By default, you will see unified changes, as shown below:
+.img:https://i.imgur.com/KqtUExJ.png
+⬥ Click the settings icon, select *Split*, and then *Apply and reload*.
+.img:https://i.imgur.com/mqNCNlT.png
+⬥ Congratulations! From now on, your changes will be shown in *Split View*.
+    • You can reverse the process to go back to a unified view at any time, if you prefer.
+.img:https://i.imgur.com/IAz8bya.png
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	      "name": "__Introduction__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Frequently Used Terminology]($linkmsg_keywords$)",
+		    "inline": true
+      },
+      {
+	      "name": "__Common Problems__",
+        "value": "⬥ [Failed Checks]($linkmsg_failedchecks$)\n⬥ [Stuck Checks]($linkmsg_stuckchecks$)\n⬥ [Branch 'X' Commits Behind]($linkmsg_commitdiff$)",
+		    "inline": true
+      },
+	  {
+	      "name": "__Pull Requests__",
+        "value": "⬥ [Modify an Added File]($linkmsg_modifypr$)\n⬥ [Add a New File]($linkmsg_addpr$)",
+		    "inline": true
+      },
+	  {
+	      "name": "__Tips & Tricks__",
+        "value": "⬥ [File Split View]($linkmsg_diffview$)",
+		    "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

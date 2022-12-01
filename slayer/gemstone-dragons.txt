@@ -218,39 +218,8 @@ Hydrix dragons are a little impractical to AFK as their special attack drains yo
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Useful Items__",
-        "value": "[Link]($linkmsg_items$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Dragonstone dragons__",
-        "value": "[Link]($linkmsg_dragonstone$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Onyx dragons__",
-        "value": "[Link]($linkmsg_onyx$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Hydrix dragons__",
-        "value": "[Link]($linkmsg_hydrix$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Video Examples__",
-        "value": "[Link]($linkmsg_video$)",
-		"inline": true
-      }
-    ]
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Useful Items]($linkmsg_items$)\n⬥ [Dragonstone dragons]($linkmsg_dragonstone$)\n⬥ [Onyx dragons]($linkmsg_onyx$)\n⬥ [Hydrix dragons]($linkmsg_hydrix$)\n⬥ [Video Examples]($linkmsg_video$)",
+    "color": 39423
   }
 }
 .embed:json

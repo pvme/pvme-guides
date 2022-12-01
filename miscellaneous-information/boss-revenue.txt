@@ -1,10 +1,10 @@
-> **__Boss Profits__ (Courtesy of <@425520655920791553> | <@269513930949263363> | <@435481585379180554>)**
+> **__Boss Profits__ (Courtesy of <@425520655920791553>, <@269513930949263363> & <@435481585379180554>)**
 .tag:intro
-This channel displays calculated gp/kill and related values for many commonly farmed bosses. The calculations use ge list price and auto update as the ge does. Drop rates are sourced from the wiki.
+This channel displays calculated GP/kill and related values for many commonly farmed bosses. The calculations use GE list prices, and auto update as the GE does. Drop rates are sourced from the Runescape Wiki.
 
 .
-**__How to Use this Guide__**
-To calculate your expected gp/hr profits for a given boss, take the listed Gp/Kill total and multiply it by your kills per hour (kph). Meta farming kph have been provided to allow for comparison between boss.
+**__How To Use This Guide__**
+To calculate your expected hourly profits <:coins:698816156961603654> for a given boss, take the listed GP/kill total and multiply it by your kills per hour (KPH). Any listed KPH rates below are based on the current meta farming methods, to allow for comparison between bosses.
 
 *Note: The numbers provided do not take into account supply costs, with the exception of Magister and Legiones where key costs have been accounted for.*
 
@@ -22,11 +22,11 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
     "fields": [
       {
         "name": "__200 killstreak__",
-        "value": "⬥ Only Core, Scriptures and Artefact are accounted for:\n<:coins:698816156961603654> $data_pvme:Bosses!E653$\n(Total value of expected unique loot)."
+        "value": "⬥ Total (uniques) <:coins:698816156961603654> $data_pvme:Bosses!E653$\n"
       },
       {
         "name": "__Notes__",
-        "value": "⬥ Assumes 0% start.\n⬥ Core is the G.E. price of the Dark Shard of Leng.\n⬥ Leng Artefact assumes the difference b/w:\n\u00a0\u00a0\u00a0\u00a0• Normal and enhanced Kerapac Wristwaps.\n\nFor more information on expected drop rates see: [Wiki calc](https://runescape.wiki/w/Calculator:Combat/Arch-Glacor)"
+        "value": "⬥ Assumes 0% start\n⬥ Core value taken as G.E. price of the Dark Shard of Leng\n⬥ Leng Artefact value based on price difference between normal and enhanced Kerapac Wristwraps\n⬥ Commons are omitted\n\nFor more info on expected drop rates see: [Wiki calculator.](https://runescape.wiki/w/Calculator:Combat/Arch-Glacor)"
       }
     ]
   }
@@ -69,10 +69,13 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
 	"thumbnail": {
       "url": "https://i.imgur.com/udJsgOg.png"
     },
+    "footer": {
+      "text": "Note: Assumes 12 piles/kill | only considers uniques, NOT commons"
+    },
     "fields": [
       {
         "name": "__4-man GP per kill__",
-        "value": "⬥ Total: <:coins:698816156961603654> $data_pvme:Bosses!E668$\nDoes not include commons, only unique chance"
+        "value": "⬥ Total (uniques) <:coins:698816156961603654> $data_pvme:Bosses!E668$\n"
       },
       {
         "name": "__GP/Hour__",
@@ -150,6 +153,9 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
     "color": 5198952,
 	"thumbnail": {
       "url": "https://i.imgur.com/qRBpfeH.png"
+    },
+    "footer": {
+      "text": "Note: All commons omitted | doubling chance | all taken into account."
     },
     "fields": [
       {
@@ -247,7 +253,7 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
 .embed:json
 
 .
-> **__Kerapac: Hardmode__**
+> **__Kerapac (Solo)__**
 .tag:kerapac
 {
   "embed": {
@@ -259,12 +265,12 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
     },
     "fields": [
       {
-        "name": "__GP/Kill (Solo)__",
-        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:Bosses!E638$\n⬥ Total <:coins:698816156961603654> $data_pvme:Bosses!B638$"
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons (Normal Mode) <:coins:698816156961603654> $data_pvme:Bosses!E882$\n⬥ Total (Normal Mode) <:coins:698816156961603654> $data_pvme:Bosses!B882$\n⬥ Commons (Hard Mode) <:coins:698816156961603654> $data_pvme:Bosses!E638$\n⬥ Total (Hard Mode) <:coins:698816156961603654> $data_pvme:Bosses!B638$"
       },
       {
         "name": "__GP/Hour__",
-        "value": "⬥ Solo ($data_pvme:Bosses!B641$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C641$"
+        "value": "⬥ Solo AFK (Normal Mode) ($data_pvme:Bosses!B885$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C885$\n⬥ Solo (Hard Mode) ($data_pvme:Bosses!B641$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C641$"
       }
     ]
   }
@@ -347,7 +353,7 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
 .embed:json
 
 .
-> **__Nex, Angel of Death__**
+> **__Nex: Angel of Death__**
 .tag:aod
 {
   "embed": {
@@ -485,11 +491,15 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
     "fields": [
       {
         "name": "__GP/Kill__",
-        "value": "⬥ Orb (Estimated) <:coins:698816156961603654> $data_pvme:Bosses!F497$\n⬥ Total (2449%) <:coins:698816156961603654> $data_pvme:Bosses!B514$\n\n*Note:\n⬥ Calculation generates the orb value from the cheapest complete weapon, based on ge prices.\n⬥ This is currently the $data_pvme:Bosses!E494$.\n\u00a0\u00a0\u00a0\u00a0• This orb value is used to calculate dormant prices for the other 2 weapons.\n\u00a0\u00a0\u00a0\u00a0• Commons are omitted.*"
+        "value": "⬥ Orb (Estimated) <:coins:698816156961603654> $data_pvme:Bosses!F497$\n⬥ Total (2449%, uniques) <:coins:698816156961603654> $data_pvme:Bosses!B514$"
       },
       {
         "name": "__GP/Hour__",
         "value": "⬥ Magic 2449% ($data_pvme:Bosses!B518$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C518$\n⬥ Melee 2449% ($data_pvme:Bosses!B519$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C519$\n⬥ Range 2449% ($data_pvme:Bosses!B517$ kph) <:coins:698816156961603654> $data_pvme:Bosses!C517$"
+      },
+      {
+        "name": "__Notes__",
+        "value": "⬥ Orb value derived from cheapest complete weapon based on GE prices (currently the Staff of Sliske)\n⬥ This value is used to calculate other dormant prices\n⬥ Commons are omitted\n\nFor more info on expected drop rates see: [Wiki calculator.](https://runescape.wiki/w/Calculator:Combat/Telos)"
       }
     ]
   }
@@ -608,138 +618,28 @@ To calculate your expected gp/hr profits for a given boss, take the listed Gp/Ki
 .
 {
    "embed":{
-      "title":"Table of Contents A-G",
+      "title":"Table of Contents",
       "color":39423,
-      "fields":[
+      "fields": [
          {
-            "name":"__Introduction__",
-            "value":"[Link]($linkmsg_intro$)",
-            "inline":true
-         },
-         {
-            "name":"__Arch-Glacor__",
-            "value":"[Link]($linkmsg_ag$)",
-            "inline":true
+           "name": "__Information__",
+           "value": "[Introduction]($linkmsg_intro$)",
+           "inline": false
          },
          {
-            "name":"__Araxxor__",
-            "value":"[Link]($linkmsg_rax$)",
-            "inline":true
+           "name": "__Bosses (A-H)__",
+           "value": "⬥ [Arch-Glacor]($linkmsg_ag$)\n⬥ [Araxxor]($linkmsg_rax$)\n⬥ [Croesus]($linkmsg_croesus$)\n⬥ [ED1]($linkmsg_ed1$)\n⬥ [ED2]($linkmsg_ed2$)\n⬥ [ED3]($linkmsg_ed3$)\n⬥ [Gregorovic]($linkmsg_greg$)\n⬥ [Helwyr]($linkmsg_helwyr$)",
+           "inline": true
          },
          {
-            "name":"__Croesus__",
-            "value":"[Link]($linkmsg_croesus$)",
-            "inline":true
+           "name": "__Bosses (I-R)__",
+           "value": "⬥ [Kalphite King]($linkmsg_kk$)\n⬥ [Kerapac]($linkmsg_kerapac$)\n⬥ [Legiones]($linkmsg_legio$)\n⬥ [Magister]($linkmsg_magi$)\n⬥ [Nex]($linkmsg_nex$)\n⬥ [Nex: AoD]($linkmsg_aod$)\n⬥ [Raksha]($linkmsg_raksha$)\n⬥ [Rex Matriarchs]($linkmsg_rexmatriarchs$)\n⬥ [Rise of the Six]($linkmsg_rots$)",
+           "inline": true
          },
          {
-            "name":"__ED1__",
-            "value":"[Link]($linkmsg_ed1$)",
-            "inline":true
-         },
-         {
-            "name":"__ED2__",
-            "value":"[Link]($linkmsg_ed2$)",
-            "inline":true
-         },
-         {
-            "name":"__ED3__",
-            "value":"[Link]($linkmsg_ed3$)",
-            "inline":true
-         },
-         {
-            "name":"__Gregorovic__",
-            "value":"[Link]($linkmsg_greg$)",
-            "inline":true
-          }
-      ]
-   }
-}
-.embed:json
-.
-{
-   "embed":{
-      "title":"Table of Contents H-Z",
-      "color":39423,
-      "fields":[
-         {
-            "name":"__Helwyr__",
-            "value":"[Link]($linkmsg_helwyr$)",
-            "inline":true
-         },
-		{
-            "name":"__Kalphite King__",
-            "value":"[Link]($linkmsg_kk$)",
-            "inline":true
-         },
-         {
-            "name":"__Kerapac__",
-            "value":"[Link]($linkmsg_kerapac$)",
-            "inline":true
-         },
-         {
-            "name":"__Legiones__",
-            "value":"[Link]($linkmsg_legio$)",
-            "inline":true
-         },
-         {
-            "name":"__Magister__",
-            "value":"[Link]($linkmsg_magi$)",
-            "inline":true
-         },
-         {
-            "name":"__Nex__",
-            "value":"[Link]($linkmsg_nex$)",
-            "inline":true
-         },
-		{
-            "name":"__Nex AoD__",
-            "value":"[Link]($linkmsg_aod$)",
-            "inline":true
-         },
-         {
-            "name":"__Raksha__",
-            "value":"[Link]($linkmsg_raksha$)",
-            "inline":true
-         },
-		{
-            "name":"__Rex Matriarchs__",
-            "value":"[Link]($linkmsg_rexmatriarchs$)",
-            "inline":true
-         },
-         {
-            "name":"__Rise of the Six__",
-            "value":"[Link]($linkmsg_rots$)",
-            "inline":true
-         },
-         {
-            "name":"__Solak__",
-            "value":"[Link]($linkmsg_tree$)",
-            "inline":true
-         },
-         {
-            "name":"__Telos__",
-            "value":"[Link]($linkmsg_telos$)",
-            "inline":true
-         },
-		{
-            "name":"__Twin Furies__",
-            "value":"[Link]($linkmsg_twins$)",
-            "inline":true
-         },
-		{
-            "name":"__Tzkal Zuk__",
-            "value":"[Link]($linkmsg_zuk$)",
-            "inline":true
-         },
-		{
-            "name":"__Vindicta__",
-            "value":"[Link]($linkmsg_vindi$)",
-            "inline":true
-         },
-         {
-            "name":"__Vorago__",
-            "value":"[Link]($linkmsg_vorago$)",
-            "inline":true
+           "name": "__Bosses (S-Z)__",
+           "value": "⬥ [Solak]($linkmsg_tree$)\n⬥ [Telos]($linkmsg_telos$)\n⬥ [Twin Furies]($linkmsg_twins$)\n⬥ [TzKal-Zuk]($linkmsg_zuk$)\n⬥ [Vindicta]($linkmsg_vindi$)\n⬥ [Vorago]($linkmsg_vorago$)",
+           "inline": true
          }
       ]
    }

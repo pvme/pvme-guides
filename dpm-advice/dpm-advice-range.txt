@@ -4,6 +4,8 @@ In RuneScape PvM, the meta at the time of writing is about pushing out as much d
 
 This channel will go over general damage output lessons, ability prioritisations, crafting a rotation, a learning path, common mistakes, and tips and tricks.
 
+**The Table of Contents with navigation links for this channel can be found in the pinned messages.**
+
 .
 > __**Related Channels**__
 .tag:related
@@ -17,12 +19,12 @@ For further information and reading, you can refer to the following resources.
     "fields": [
       {
         "name": "__DPM-Advice Channels__",
-        "value": "⬥ <#1019754991575113790>\n⬥ <#1020034741644316754>\n⬥ <#1020034711491444737>",
+        "value": "⬥ <#1020729755064074291>\n⬥ <#1020729582086782996>\n⬥ <#1020729671127662643>",
         "inline": true
       },
       {
         "name": "__Misc. Info__",
-        "value": "⬥ <#1020050459618185328>\n⬥ <#1020050319457132654>\n⬥ <#1020050437963010149>",
+        "value": "⬥ <#1020550430914252871>\n⬥ <#1020550458231771157>\n⬥ <#1020550599248466050>",
         "inline": true
       },
       {
@@ -39,7 +41,7 @@ For further information and reading, you can refer to the following resources.
 .
 > **__Revolution Bars and General Background Knowledge__**
 .tag:generalinfo
-For general PvM terminology, DPS tips, and revolution bars, sections in <#1019754991575113790>.
+For general PvM terminology, DPS tips, and revolution bars, check out their respective sections in <#1020730084807680073>.
 
 .
 > __**Ability Information**__
@@ -53,7 +55,7 @@ For general PvM terminology, DPS tips, and revolution bars, sections in <#101975
     "fields": [
       {
         "name": "__Ability Information__",
-        "value": "For accurate tooltips and information about specific spells (auto attacks) and abilities and how they work refer to <#1020050459618185328>."
+        "value": "For accurate tooltips and information about specific spells (auto attacks) and abilities and how they work refer to <#1020550430914252871>."
       },
       {
         "name": "__Ability Damage Maths__",
@@ -157,6 +159,7 @@ __**Basic Pattern**__
     • Corruption Shot <:corruptshot:535541306294796299>
     • Frag Shot (Walked) <:frag:535541273755385885>
     • Needle Strike <:needle:535541259108876293> / Greater Dazing Shot <:mds:535541259033378827> - if weapon switching.
+*Note: <:frag:535541273755385885> and <:corruptshot:535541306294796299> cannot crit but are still strong abilities.*
 
 ⬥ Once your rotation gets going, you can start using abilities like thresholds or better to fill in the blanks.
 
@@ -365,8 +368,9 @@ __**How It Works**__
 
 .
 __**Why It's Good**__
-⬥ The **bleed damage from Puncture stacks can trigger poison** <:poisonicon:944649693500154006> and so synergizes well with poison-stacking methods.
+⬥ The **extra hits from Puncture stacks can trigger poison** <:poisonicon:944649693500154006> and so synergizes well with poison-stacking methods.
     • It **can also help phase bosses**, saving time by not having to use an extra ability, a prominent example of this is Nex.
+    • Note that the poison damage is **not** based on the Puncture bleed *damage*, but simply *more poison procs occur due to more hitsplats*.
 ⬥ **Salt the Wound <:stw:535541259109138463> can be a strong threshold early on, especially paired with Splintering arrows** <:splinteringarrows:900758234246299649>.
     • For example, it would be stronger than Bombardment <:bombard:535541306391265284> when trying to plan out your rotations.
     • The usefulness of this begins to drop once you get access to more weapons' special attacks and abilities (<:ecb:615618531937222657> <:spec:537340400273195028> / <:sgb:626466665848242186> <:spec:537340400273195028> / <:dbow:643848618553507843> <:spec:537340400273195028>), as adrenaline management and ability cooldowns become more of an issue.
@@ -626,7 +630,6 @@ __**Key Considerations**__
 ⬥ Greater Ricochet (with Caroming 4) <:gricocaroming:867678153966878740> and <:rapid:535541270521708566> can be used to line up stacks for stronger abilities.
 ⬥ <:frag:535541273755385885> and <:corruptshot:535541306294796299> don't give stacks, so can be used to line up cooldowns on stronger abilities to proc the passive.
 ⬥ **Using <:bolg:994189289623662702> <:spec:537340400273195028> when stacks are ≥ 3 instantly triggers the proc** and resets stacks.
-⬥ If camping <:bolg:994189289623662702> (like any other 2H weapon) you cannot use <:spec:537340400273195028> back-to-back.
 ⬥ <:shadowtend:642713547142332416> can give **2 stacks** if you get the 2H auto with it correctly.
 ⬥ The first hit of Deadshot <:deadshot:535541307666595870> will apply 1 stack.
 
@@ -654,8 +657,6 @@ __**How It Works**__
     • Able to use Bow of the Last Guardian <:bolg:994189289623662702> while still benefitting from <:ecb:615618531937222657> <:eofspec:746403211908481184>.
     • Able to use <:mechchin:641669268722810881> under <:ecb:615618531937222657> <:eofspec:746403211908481184> for more AoE damage.
 ⬥ **It is recommended to EoF your first ECB** if you have access to strong arrow-based ammo (with a Noxious Longbow <:noxbow:513190159425208342> or SGB <:sgb:626466665848242186> or similar weapon).
-.
-*Note: If using ability queueing, you will not be able to use <:ecb:615618531937222657> <:eofspec:746403211908481184> without a target.*
 
 .
 > __**SGB EoF**__ <:sgb:626466665848242186> <:eofblue:780401412906680330>
@@ -751,13 +752,6 @@ __**List of Overrides**__
     • If Incendiary Shot <:incend:535541258429661215> is used to setup.
 ⬥ Therefore **adjust your use of thresholds in your rotations based on your situation**.
     • If you have large amounts of excess adrenaline, you can use <:dbow:643848618553507843> <:eofspec:746403211908481184> or <:bolg:994189289623662702> <:eofspec:746403211908481184> to dump it for damage.
-
-.
-**__Death's Swiftness - Basic__**
-⬥ 1x Rapid Fire <:rapid:535541270521708566>
-⬥ 2x Snapshot <:snap:535534127131394088>
-⬥ 1x Shadow Tendrils <:shadowtend:642713547142332416>
-⬥ 1x Tight Bindings (Flanking) <:tightbindingsflank:867678154096640010>
 
 .
 **__Death's Swiftness w/ Adren Renewal OR Limitless__** <:adrenrenewal:736298121704767538> / <:limitless:641339233638023179>

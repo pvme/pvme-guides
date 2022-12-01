@@ -1,0 +1,179 @@
+> __**Quick Start for Editors**__
+.img:https://i.imgur.com/qLynqJh.png
+
+.
+> __**Introduction**__
+.tag:intro
+This **Quick Start** channel serves as a central hub for editing information and resources required to contribute as an editor in PvME.
+
+**Assign yourself roles in <#924484538187522098> to ensure you have access to all necessary channels.**
+
+> __**Editor Resource Links**__
+.tag:quicknav
+.
+{
+  "embed": {
+    "title": "__Editor Resource Links__",
+    "description": "Links for all important resources.\nThe main repository is located at [PvME Github repository](https://github.com/pvme/pvme-guides).\nThe website can be accessed at [PvME Guides website](https://pvme.github.io/).",
+    "color": 39423,
+    "footer": {
+      "text": "Bookmark the editor tools in your browser for convenience."
+    },
+    "fields": [
+      {
+        "name": "__Talk Channels__",
+        "value": "⬥ <#724129126314803230>\n⬥ <#841095662338703390>\n⬥ <#1019656405780803594>\n⬥ <#1029158968779608105>\n⬥ <#771436827214086154>",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Channels__",
+        "value": "⬥ <#689575078698287152>\n⬥ <#724323531948556369>",
+        "inline": true
+      },
+      {
+        "name": "__GitHub Tutorials__",
+        "value": "⬥ <#1020846500823183460>\n⬥ <#1020846714753646702>\n",
+        "inline": true
+      },
+      {
+        "name": "__Editor Tools__",
+        "value": "⬥ <#1020843193509629972>\n⬥ <#1020842228970688562>\n⬥ <#1026543653499441304>\n⬥ <#1026544337246507059>\n⬥ [Embed Visualiser](https://leovoel.github.io/embed-visualizer/)",
+        "inline": true
+      },
+      {
+        "name": "__Editor References__",
+        "value": "⬥ <#1020843999642271774>\n⬥ <#1020845254548656178>\n⬥ <#1020845621227307110>\n⬥ [PvME Data Sheet](https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/)",
+        "inline": true
+      },
+      {
+        "name": "\u200b",
+        "value": "\u200b",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Talk Channels**__
+.tag:talk
+__**General Talk**__
+⬥ Use <#724129126314803230> to talk about anything and everything editing related.
+⬥ Use <#841095662338703390> to talk about pictures, images, etc. to accompany guides in PvME, and to request help creating them.
+
+.
+__**Guide Creation Talk**__
+⬥ Both <#1019656405780803594> and <#1029158968779608105> can be used to create posts to write and discuss guides to add to PvME.
+⬥ Use them if you want to keep a record of the discussion about guides in one place, and for future reference.
+⬥ This is an easy way for multiple people to collaborate on work together.
+
+.
+__**Assets Requests**__ <#771436827214086154>
+⬥ To request new features or modifications for emojis, spreadsheet entries, etc. you can use this channel.
+⬥ *Requests may take a little while to get added, please have a little patience.*
+
+.
+> __**Misc. Channels**__
+.tag:misc
+__**Bot Test**__ <#689575078698287152>
+⬥ Once you have finished creating or updating content, you can use the PvME Bot to test this out directly in Discord.
+    • Simply type `pvme$txtpost` and attach a `.txt` file (in the bot-test channel) and the bot will print out the content as it would appear to users.
+⬥ Always do this once before submitting changes. It gives a chance for others to review and comment on your work, and give it a final once-over before submitting.
+
+.
+__**GitHub Log**__ <#724323531948556369>
+⬥ This channel automatically logs all GitHub-related activity in the `pvme/pvme-guides` repository.
+⬥ Additionally, any server channels that are linked to a file on GitHub and reposted by the Discord Bot, will be mentioned here.
+⬥ This is used to help ensure that when changes are made, *they are actually reflected in the server*. Any errors identified here are easily noticed and fixed.
+
+.
+> __**GitHub Tutorials**__
+.tag:github
+__**Working with GitHub**__
+⬥ If you are a new user, then it is suggested that you learn how to work with GitHub. We have two channels for this purpose:
+    • <#1020846500823183460> - covers the basics of GitHub and on making your first contribution.
+    • <#1020846714753646702> - more advanced information, solutions to common issues, and other miscellaneous info.
+⬥ **This is not mandatory**, and you can contribute without personally using GitHub if you prefer.
+⬥ For experienced users. you can fork a copy of the main repository to begin contributing.
+⬥ All contributions will be submitted as Pull Requests that get reviewed and accepted by a senior editor.
+⬥ The GitHub bot automatically logs all activity on the repository in the <#724323531948556369> channel, so you can keep track of your pull requests and updates.
+
+.
+> __**Editor Tools**__
+.tag:tools
+As an editor, the typical editing process involves writing and updating channels with content, which can take a number of forms. It can be in the form of formatted sections of text, or could involve creating embeds for content such as `!commands`, or even writing out rotations for PvM encounters. To simplify the process, a number of tools have been created.
+
+**__Guide Editor__ (Courtesy of <@207588233780002818>)** <#1020843193509629972>
+⬥ Try it out for yourself: **<https://pvme.github.io/guide-editor>**
+⬥ This online tool allows for a live preview while editing content, making it easier to write guides with a relatively accurate preview of how it will appear in Discord later.
+⬥ There are a number of options available on the website for formatting, embeds, templates and more.
+⬥ **This editor has the same style checking as GitHub pull requests.** If your text does not show errors like 'trailing whitespace' or 'invalid JSON object', etc. then it will pass the style and formatting checks when you submit a pull request.
+
+.
+**__Rotation Builder__ (Courtesy of <@207588233780002818>)** <#1020842228970688562>
+⬥ Try it out for yourself: **<https://pvme.github.io/rotation-builder>**
+⬥ Writing out a rotation is a more tedious task that it appears at first sight.
+⬥ For example, consider a random zerk rotation:
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
+.
+    • The rotation may look relatively short but the underlying formatting will be much longer:
+```<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:vulnbomb:655341074235129858> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>```
+⬥ This tool can instead rapidly generate rotations if the correct emoji names are typed in. The above formatting could be accomplished simply by typing the following into the rotation builder and copying the output:
+```zerk + adrenrenewal + vulnbomb → gbarge → sever → deci → lengmh destroy + (equip abyssalscourge) → gflurry (3 hit) → Glovesofpassage havoc → deci → assault → cane```
+⬥ This has the added benefit of being able to quickly look up full emoji IDs if you know their names.
+    • Most names are relatively intuitive and so this method tends to work quite well.
+    • **Similar functionality for quickly inserting emojis is also built into the PvME Guide Editor.** Instructions are available on the Guide Editor page.
+
+.
+__**Preset Generator**__ <#1026543653499441304>
+⬥ This tool was created using Google Sheets to more easily make consistent presets for guides, especially if you do not have the required items for the preset.
+⬥ It also generates a detailed breakdown of the preset that you can customise with added user notes, which will then be included in guides.
+⬥ Instructions to create and share preset images are contained within the sheet.
+*Note: A link to this sheet is found at the top of this guide in the channel mentioned above.*
+
+.
+__**Embed Visualiser**__
+⬥ Try it out for yourself: **<https://leovoel.github.io/embed-visualizer/>**
+⬥ This is an alternative way to visualize purely embedded content.
+⬥ When working on something like a command, this way you can ensure you do not include text that would not constitute a valid embed, since it will immediately raise an error.
+
+.
+__**Bot Test**__ <#689575078698287152>
+⬥ Once you have finished creating or updating content, you can use the PvME Bot to test this out directly in Discord.
+    • Simply type `pvme$txtpost` and attach a `.txt` file (in the bot-test channel) and the bot will print out the content as it would appear to users.
+⬥ Always do this once before submitting changes. It gives a chance for others to review and comment on your work, and give it a final once-over before submitting.
+
+.
+> __**Editor References**__
+.tag:references
+__**PvME Style Guide**__ <#1020843999642271774>
+⬥ The style guide aims to keep the discord consistent by providing guidelines for formatting guides in a standardised manner.
+⬥ This helps improve readability and navigation within guides for users.
+⬥ It enables faster editing, as stylistic doubts can be resolved quickly by checking the style guide, or any up-to-date channel.
+
+.
+__**Templates**__ <#1020845254548656178>
+⬥ Commonly used templates for guide writing are placed in this channel, as well as some more information about formatting the templates.
+⬥ This channel is slightly less relevant due to the advent of the web editing tool, but is still maintained with useful presets for editors.
+
+__**Emojis**__ <#1020845621227307110>
+⬥ PvME has over 1650 (and counting!) emojis that need to be stored and used. This is done through the use of emoji servers that are updated as the need arises.
+⬥ A full list of all the emojis can be found both in the emoji channel linked above and in the pinned messages in <#724129126314803230>.
+
+.
+__**PvME Data Sheet**__
+⬥ PvME has a data sheet that contains a list of all values that need to update automatically over time, such as prices of items and supplies and invention components.
+⬥ Values in this sheet can be accessed using `data_pvme:sheet!<cell number>` enclosed within `$...$` to print the corresponding value when the text is rendered in Discord.
+*Note: A link to this sheet is found at the top of this guide in the quick navigation section.*
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Talk Channels]($linkmsg_talk$)\n⬥ [Misc. Channels]($linkmsg_misc$)\n⬥ [GitHub Tutorials]($linkmsg_github$)\n⬥ [Editor Tools]($linkmsg_tools$)\n⬥ [Editor References]($linkmsg_references$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

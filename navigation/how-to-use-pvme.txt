@@ -1,103 +1,145 @@
-Welcome to PvM Encyclopedia, the largest collection of up-to-date combat information.
+> __**Welcome to PvME!**__
+.tag:welcome
+Welcome to the PvM Encyclopedia, the largest collection of resources for RS3 (as well as some OSRS!) combat. This channel summarizes the resources we provide, and allows you to become familiar with how information is organized and presented.
 
-This channel will serve as a how-to guide on utilising this server for your needs. Let's go over what the server contains:
+**__Getting Involved in PvME__**
+.tag:involved
+Before going further, it's important to highlight that **PvME is open source**, and **everybody who wants to become involved is welcome**. No matter what your skill level is, or what bosses you like to do, the editing team would love to have you. Check out <#924484538187522098>.
 
-Our social channels are located here:
-.tag:social
+**__Channel Overview__**
+.
+First, we have a host of social channels, where you can start interacting with the rest of the community.
+.tag:Social_Channels
 {
   "embed": {
-    "title": "Social channels",
-    "description": "These channels are for the community",
+    "title": "**__Social Channels__**",
+    "description": "These channels are for the community.",
     "color": 39423,
     "fields": [
       {
-        "name": "Social",
-        "value": "<#997194218428706957>\n<#882078178066190356>\n<#882077555602096179>\n<#920753142587588658>\n<#882078304998395964>"
+        "name": "**__Channel List__**",
+        "value": "<#997194218428706957>\n<#882078178066190356>\n<#882077555602096179>\n<#920753142587588658>\n<#882078304998395964>",
+        "inline": true
       }
     ]
   }
 }
 .embed:json
-Followed by our RuneScape channels, split into two categories:
-.tag:channels
+
+.
+As well, we provide multiple open channels tied more closely into RuneScape, for both RS3 and OSRS.
+.tag:RuneScape_Channels
 {
   "embed": {
-    "title": "RuneScape channels",
-    "description": "These channels are RuneScape related, for players to find help or post their achievements",
+    "title": "**__RuneScape Channels__**",
+    "description": "Discuss the latest content, ask for help, post your achievements, and more!",
     "color": 39423,
     "fields": [
       {
-        "name": "RuneScape Channels",
-        "value": "<#656898197561802760>\n<#557699151291351060>\n<#536062588090318850>\n<#538137911292329986>\n<#534563158304620564>",
+        "name": "**__RS3 Channels__**",
+        "value": "<#935213935999737916>\n<#656898197561802760>\n<#1021152606455873686>\n<#557699151291351060>\n<#536062588090318850>\n<#538137911292329986>\n<#534563158304620564>",
 	"inline": true
       },
       {
-        "name": "Request Channels",
-        "value": "<#656914685152722954>\n<#827692629197324348>\n<#537042924026724353>",
+        "name": "**__OSRS Channels__**",
+        "value": "<#1021611389627944970>\n<#1027397672283418684>\n<#1027397799010119680>\n<#1027398189390762004>\n<#1027398132532772925>\n<#1027398014316314674>",
+	"inline": true
+      },
+      {
+        "name": "**__Request Channels__**",
+        "value": "<#1019648841965916220>\n<#827692629197324348>\n<#1020853673317908500>",
 	"inline": true
       }
     ]
   }
 }
 .embed:json
-After this, the Encyclopaedia side of the Discord begins, split into several channels. A variety of combat information is offered, followed by individual boss guides.
 
-To start, the single most useful feature for this server, and informations discords in general, is the hotkey **__Ctrl+K__**. PvME has a vast number of channels, so this is the first step to finding what you need quickly.
+.
+The rest of the server consists of an assortment of information channels, and guides. Since there are so many channels in PvME, it is recommended to search using **__Ctrl + K__** in order to find what you need quickly.
 
-Next up, the server <#920506750250135552>. It contains a list of all of our guides, whether they be boss guides or combat information channels. Clicking on the channel name in any of the embeds will take you directly there.
+The server <#920506750250135552> can be referenced as well if you are struggling to find what you are looking for. All channels currently maintained on PvME will be listed there. If you're still unable to find what you're after, ask in <#656898197561802760> for help.
 
 .
 > **__PVM Help__**
 .tag:help
-⬥ If you're still unsure and have a combat-related question, then <#656898197561802760> is the place for you. A welcoming environment frequented by some of the game's most knowledgeable players, chances are if you have a question, we'll know the answer. If not, we'll know where to find it.
-    • To make the best use of this channel, follow these tips
-    • For longer questions requiring a large amount of information, e.g. Preset help, understanding fundamentals of a certain style or boss, then open up a thread to keep your message from being lost.
-    • For quick, short questions, feel free to drop them in the chat. If there's already a conversation going on and chances are it might be missed, try using a thread.
+*Link: <#656898197561802760> / <#1021152606455873686>*
 
-⬥ To help with commonly asked questions, we introduced commands. These can be used in the <#534563158304620564> channel to provide some quick information on a variety of frequently enquired subjects. A list of commands can be found in <#996854552353583185>.
+These channels provide a welcoming environment frequented by some of the game's most knowledgeable players. Chances are that if you have a question, we'll know the answer. If not, we'll know where to find it.
+
+To make the best use of this channel, follow these tips:
+
+⬥ For quick questions, simply ask them in the chat. If there's already a conversation going on and chances are it might be missed, try using a thread, or posting in <#1021152606455873686>.
+⬥ For longer questions requiring a large amount of information, e.g. preset help, understanding fundamentals of a certain style or boss, then create a forum post in <#1021152606455873686>.
+
+To help with commonly asked questions, we introduced commands. These should be used in the <#534563158304620564> channel to provide some quick information on a variety of topics. A list of commands can be found in <#996854552353583185>.
 
 .
 > **__VOD Review__**
 .tag:vod
-⬥ A great way to improve your performance is to record your gameplay. For this purpose, the vod review channels are available for other players to review and give feedback on your videos.
+*Link: <#1019648841965916220>*
 
-⬥ Post your videos in <#656914685152722954>, make a thread and name it with the following convention: <Boss> (<Style>) - RSN. Following this, feedback will be posted in the thread to aid your gameplay.
+A great way to improve your performance is to record your gameplay and solicit feedback from others. For this purpose, we offer the VOD Review channel. Feedback here will be catered specifically to you, and will always be constructive with no judgement.
 
-⬥ Another way to measure your progress is the Mastery system. Working your way up the tiers of the mastery system is a great way to express your achievements and track your progress, whether you're a complete learner or an experienced veteran. There's always something new to learn and the resources are available for everyone!
+To make best use of this feature,
+
+⬥ Make a forum post in <#1019648841965916220>, and name it appropriately, e.g. "<Boss> (<Style>) - RSN". Include any background information or questions you like, as well as a link to your video recording.
 
 .
-> **__Boss Guides__**
+> **__Bossing Path__**
+.tag:mastery
+*Link: <#1020546518941454438>*
+
+The PvME bossing path is meant to provide an avenue to progress one's skills, and work towards higher-tier PvM goals. It defines multiple learning stages, and lays out goals to measure your progression through those stages. This is a great place to look if you are just getting into bossing and not quite sure where to start learning, or if you're feeling stuck with your current abilities and looking for objectives to push you to the next level.
+
+.
+> **__The Mastery System__**
+.tag:bossingpath
+*Link: <#566738213004115968> / <#958429826987995206>*
+
+The PvME Mastery System is a great way to measure your progress in PvM. Its goal is to provide meaningful objectives for you to work towards as you learn new content, or improve your skill somewhere you're already familiar with. There are multiple classifications of mastery ranks, each one granting its own unique role colour for all to see.
+
+.
+> **__PvME Boss Guides__**
 .tag:boss
-⬥ **Headers**
-    • Every boss guide contains a header, drop information, presets and fight information. This information may include mechanics, rotations, and tips and tricks.
+The main focus of our community is providing the best text guides possible, for every encounter, and players of all skill levels. Described below is the general composition of our guides. Each guide will contain a table of contents at the bottom, with a set of links to help you find what you are looking for quickly.
+
+__**Header**__
+Every one of our boss guides contains a header image, which denotes a few key pieces of information for each encounter:
+⬥ The Seren Godbow <:sgb:626466665848242186> icon indicates boss size, for example 3x3 tiles.
+⬥ The poison indicator <:poisonicon:944649693500154006> will inform you whether or not a boss is poisonable.
+⬥ The hex weapon indicator (<:hexhunterbow:581180369911414794> / <:inquisitorstaff:694566917553520680> / <:terramaul:602561894829522954>) shows susceptibility to any of the three hex weapons.
+⬥ The summoning icon <:Summoning:583430259064569856> denotes whether or not the boss can be damaged directly by a summoning familiar.
+.
 .img:https://i.imgur.com/jSMag5g.png
-    • The boss header is more than just a pretty start to a guide. It contains some information that you'd immediately want to know when thinking about a boss. This is split into 4 main pieces of information:
-        - The Seren Godbow <:sgb:626466665848242186> icon indicates boss size, whether that be 1x1 all the way up to 20x20, important to understand how much damage your Seren Godbow <:sgb:626466665848242186> special attack will do.
-        - The poison indicator. This will have a check or a cross, to determine whether the boss is poisonable or not, so you can determine if you should be wearing cinderbanes and using weapon poison to increase damage.
-        - Then the hex weakness is displayed. The 3 hex-style weapons, the Hexhunter bow <:hexhunterbow:581180369911414794>, Inquisitor's staff <:inquisitorstaff:694566917553520680>, and the Terrasaur maul <:terramaul:602561894829522954> all work on their respective styled mobs, so this icon shows which weapon gains the increased damage effect on the boss.
-        - Finally, the Wolf head <:Summoning:583430259064569856> icon shows whether the boss is affected by familiar damage.
+.
 
 .
-⬥ **Presets**
-.img:https://i.imgur.com/Vr2V41u.png
-    • These presets typically show best-in-slot gear.
-        - **__These are by no means REQUIRED__**, you should downgrade your weapons as necessary, unless the method specifically relies on it.
-    • Armour slots represent **__your best power gear for those slots__**
-    • Weapon slots represent your best applicable weapon whether that be 2H or DW
-        - The MH icon slot represents any mainhand Bladed Dive <:bd:535532854281764884> weapon of your choice.
+__**Suggested Presets**__
+PvME provides suggested inventory & equipment presets within every guide. Generally, there will be either one generic preset, or multiple presets for varying skill and gear levels. Presets will contain a summary image showing both the inventory & equipment windows, as well as a link to a full breakdown (where available).
 
-*Note: **__If you don't have any of these items, don't worry, just downgrade as suitable__**, and ask in <#656898197561802760> if you have a question.*
+It's important to note that presets *usually* do not need to be strictly copied. For example, if a preset shows a Seismic Wand & Singularity <:seiswand:583429704837758997> <:sing:513190159261630467> as suggested weapons, but all you have are Cywir Wand & Orb <:cywirwand:643161591571021824> <:cywirorb:643161591210049556>, you can simply downgrade to suit your own gear or budget.
 
-    • For items that aren't typically recognisable, they will be specifically named in the preset.
-        - This applies to Essence of Finality Amulets, Weapon Switches, and Miscellaneous items.
-    • All of the items in our presets will have more information available in the following channels: <#1020050199785254912> <#1020050173633761290> <#1020050157712191508>
-    • Most guides make use of abbreviations, if you're unfamiliar with them, this document <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/> details them.
+In summary, don't be afraid if you can't match what's in a preset exactly. They are just suggestions. If there is a boss guide that has strict gear requirements that **must** be adhered to, then that guide will state it clearly. For any questions relating to a preset or its contents, ask in <#656898197561802760>.
 
 .
-⬥ As always, if you would like to get involved in helping PvME stay up to date on the newest bossing strategies, or feel like something is missing, head over to <#924484538187522098> to become an editor for the server.
+Full preset breakdown available here: <https://i.imgur.com/Z4t12Dl.png>
+
+⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
+(Runes for <:animatedead:856635090453135382> <:bloodbarrage:537338981747261446> <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+.
+.img:https://i.imgur.com/8AcMvXh.png
+.
 
 .
-Finally, located at the bottom of the guide will be a series of links to serve as quick ways to get to the information you're looking for.
+__**Mechanics & Suggested Ability Rotations**__
+After the basic information is laid out, and preset suggestions are provided, guides will generally move into specific mechanics and provide suggested ability rotations. These rotations, similarly to presets, are only suggestions and need not be followed exactly - you are free to adapt them as you see fit.
+
+Many of our guides make use of abbreviations. If you're unfamiliar with them, this document details them: <https://docs.google.com/document/d/1yZmDhx-SJsrVo0iTNwgMN3YsuJ9CrHcySd3hptvz3Ds/>.
+
 .
 {
   "embed": {
@@ -105,23 +147,18 @@ Finally, located at the bottom of the guide will be a series of links to serve a
     "color": 39423,
     "fields": [
       {
-        "name": "__Social Channels__",
-        "value": "[Link]($linkmsg_social$)",
+        "name": "__Introduction__",
+        "value": "⬥ [Welcome!]($linkmsg_welcome$)\n⬥ [Get Involved]($linkmsg_involved$)",
         "inline": true
       },
       {
-        "name": "__Runescape Channels__",
-        "value": "[Link]($linkmsg_channels$)",
+        "name": "__Chat Channels__",
+        "value": "⬥ [Social]($linkmsg_Social_Channels$)\n⬥ [RuneScape]($linkmsg_RuneScape_Channels$)",
         "inline": true
       },
       {
-        "name": "__PVM Help__",
-        "value": "[Link]($linkmsg_help$)",
-        "inline": true
-      },
-      {
-        "name": "__Vod Review__",
-        "value": "[Link]($linkmsg_vod$)",
+        "name": "__Live Help & Goal Setting__",
+        "value": "⬥ [PvM Help]($linkmsg_help$)\n⬥ [VOD Review]($linkmsg_vod$)\n⬥ [Bossing Path]($linkmsg_bossingpath$)\n⬥ [Mastery System]($linkmsg_mastery$)",
         "inline": true
       },
       {

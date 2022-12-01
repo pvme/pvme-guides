@@ -1,0 +1,838 @@
+> __**Hardmode Vorago**__
+.tag:intro
+**Courtesy of <@300296497277173761>, <@346931069968187395>, <@370326067531087884>, <@192962768788258826>, <@106390832944263168>, <@781280949790572554>, & <@205081780309590016>.**
+.
+.img:https://i.imgur.com/MI8GNQ7.png
+.
+**__Introduction__**
+*Note: a **Table of Contents** can be found in the pins.*
+
+Hard Mode Vorago (HM) is a variant of Vorago where the fight is extended from 5 to 11 phases, of which only phases 9 to 11 depend on the weekly rotation. Knowledge of all the Normal Mode (NM) rotations as well as Reflect timings are essential when learning this mode. Strategies do not vary from 4 - 7 man, thence the recommended team size is **5**.
+
+⬥ This guide will be separated into roles, combat styles and skill levels - It will **not** cover DPS rotations by any means
+
+⬥ This guide focuses on transferring and adapting gained knowledge from NM to HM, rather than explaining mechanics and role responsibilities from scratch
+
+⬥ Most warnings and specific comments can be found in the DPS section and will not be repeated for other roles
+
+⬥ After each phase finishes, you are supposed to build to 100% adrenaline for the next phase (usually the team coordinates dummies <:dummy:656844963522281473> for each phase)
+
+.
+The first section of this guide explains every phase and how to deal with it using general strategies. Every phase will have the respective attack order and relevant mechanics. This section will also treat TL5 as a DPS: the DPS strategies and responsibilities will be explained only. This section covers phases 1 - 8.
+
+The second section is dedicated to tank roles. The Base Tank section is applicable to all styles, but the recommended combat style is melee <:melee:615612332521029632>. The Bomb Tank section is applicable to ranged <:Ranged:689504724403486920> and mage <:Magic:689504724159823906>, with the only differences being the use of ultimates <:sunshine:994921119381463070> <:meta:535533811304497183> <:ecb:615618531937222657> <:deathsswift:994921434633744455>. This section covers phases 1 - 8.
+
+The last section explains phases 9 - 11 depending on the weekly special mechanic and is split into all 6 rotations with roles and their respective responsibilities.
+
+.
+For DPS rotations refer to the official Rago Hub spreadsheet:
+<https://docs.google.com/spreadsheets/d/1q7zscYcfJ9qXeIptQmXJiWUloalwDNtmxIOX7bqgkJg>
+
+.
+**__Requirements__**
+*Note: Mauling all NM rotations is **not** a requirement. That is only needed to create an instance or start the challenge, but you can still join someone else.*
+
+⬥ Proper gear (T90+ weapons, T80+ power armour, Invention perks)
+
+⬥ Knowledge of all weekly special mechanics / rotations in Normal Mode
+
+⬥ Intercept <:Cept:543478434509357098> is required for all roles and there should always be at least one person capable of replacing a Bomb Tank in case they die
+
+⬥ Anyone meleeing <:melee:615612332521029632> is responsible for applying the Statius's Warhammer special attack <:swh:641670143197446182> in DPS phases (split by phases if there are multiple meleers on the team)
+
+⬥ Vorago should be debuffed for the majority of all phases, including SWH <:swh:641670143197446182>, Guthix Staff <:gstaff:513203008608141314> and potentially Blackstone Arrows <:blackstonearrow:785031580149743617> for phases 10 / 11
+
+⬥ A Powerburst of Vitality <:vitality:654618235097972737> (Entry hit, Green Bomb and Team Split team split) as well as having `14,000` life points to avoid failing the entry hit
+
+⬥ Nihils <:bloodnihil:854475442169053194> <:shadownihil:854475441946230855> <:smokenihil:854475442227642388> are mandatory for **all** team sizes and roles.
+
+*Note: Do not use Ice Nihils <:icenihil:854475442164334592>*
+
+.
+**__Recommendations__**
+⬥ Heal Other <:HealOther:567727985851891715>
+⬥ Zaros Godsword <:zgs:626465964325601290> for meleers
+⬥ Eldritch Crossbow <:ecb:615618531937222657> for rangers
+⬥ Seren Godbow <:sgb:626466665848242186>
+⬥ Basic knowledge of Target Cycle
+
+.
+> **__Presets__**
+.tag:presets
+These are just examples, you do not need all the switches and types of food. Simply bring the best you can afford.
+
+.
+**__Advanced Magic__**
+⬥ <:sgb:626466665848242186> **Seren Godbow**
+⬥ <:abyssalwand:841409588590805043> **Abyssal Wand** - `Planted Feet`
+⬥ <:sing:513190159261630467> **Seismic Singularity** - `Flanking 4`
+⬥ <:drider:656785090994503700> **Dragonrider Amulet**
+⬥ <:dummy:656844963522281473> **Combat Dummy**
+⬥ <:greatgunkan:689528927928188963> **Great Gunkan** - eat on dropdown
+⬥ <:blessedflask:659122178704408598> **Blessed Flask** - optional, replace with extreme prayer flasks
+⬥ <:eofblack:780401412915855380> **Essence of Finality** - Statius Warhammer <:swh:641670143197446182>
+⬥ <:eofpurple:780401412936040478> **Essence of Finality** - Guthix Staff <:gstaff:513203008608141314>
+⬥ <:blackpouch:656786565359599626> **Rune Pouch** <:Airrune:536252658986647589> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
+⬥ <:greenpouch:690848914638766082> **Rune Pouch** <:Waterrune:536252660165115905> <:Firerune:536252659850674186> <:Chaosrune:536252659422855188>
+⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258> <:Soulrune:536252660333019136>
+⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
+(Runes for <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:sd:537341954392850442> <:Cept:543478434509357098> <:HealOther:567727985851891715>)
+.
+.img:https://imgur.com/V6pw64D.png
+.
+**__Advanced Melee__**
+⬥ <:sgb:626466665848242186> **Seren Godbow**
+⬥ <:augdrygorerapieroh:697485495718117536> **Offhand Drygore** - `Flanking 4`
+⬥ <:dummy:656844963522281473> **Combat Dummy**
+⬥ <:greatgunkan:689528927928188963> **Great Gunkan** - eat on dropdown
+⬥ <:blessedflask:659122178704408598> **Blessed Flask** - optional, replace with extreme prayer flasks
+⬥ <:eofblack:780401412915855380> **Essence of Finality** - Statius Warhammer <:swh:641670143197446182>
+⬥ <:eofor:745279787471470713> **Essence of Finality** - Situational
+⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258> <:Soulrune:536252660333019136>
+⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
+⬥ <:pinkpouch:656786565397348361> **Rune Pouch** <:Waterrune:536252660165115905> <:Earthrune:536252659808731137> <:Airrune:536252658986647589>
+(Runes for <:sbsancients:859483781395120129> <:disrupt:535614336207552523> <:sd:537341954392850442> <:Cept:543478434509357098> <:HealOther:567727985851891715>)
+.
+.img:https://imgur.com/HhDwduP.png
+.
+**__Advanced Range__**
+⬥ <:sgb:626466665848242186> **Seren Godbow**
+⬥ <:ascoh:513190159362031631> **Offhand Ascension Crossbow** - `Flanking 4`
+⬥ <:ancientrepriser:643150658891153428> **Ancient Reprisor** - `Planted Feet`
+⬥ <:blackstonearrow:785031580149743617> **Black Stone Arrows** - for p10
+⬥ <:mechchin:641669268722810881> **Mechanised Chinchompas** - for scops p4
+⬥ <:HydrixBakri:550834403136503822> **Hydrix Bakriminel Bolts (e)**
+⬥ <:OnyxBakri:565726489362956308> **Onyx Bakriminel Bolts (e)**
+⬥ <:RubyBakri:565726489413287956> **Ruby Bakriminel Bolts (e)**
+⬥ <:dummy:656844963522281473> **Combat Dummy**
+⬥ <:greatgunkan:689528927928188963> **Great Gunkan** - eat on dropdown
+⬥ <:blessedflask:659122178704408598> **Blessed Flask** - optional, replace with extreme prayer flasks
+⬥ <:eofblack:780401412915855380> **Essence of Finality** - Statius Warhammer <:swh:641670143197446182>
+⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
+⬥ <:redpouch:690848915020447745> **Rune Pouch** <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258> <:Soulrune:536252660333019136>
+⬥ <:bluepouch:656786565527502858> **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
+⬥ <:pinkpouch:656786565397348361> **Rune Pouch** <:Waterrune:536252660165115905> <:Earthrune:536252659808731137> <:Airrune:536252658986647589>
+(Runes for <:sbsancients:859483781395120129> <:disrupt:535614336207552523> <:sd:537341954392850442> <:Cept:543478434509357098> <:HealOther:567727985851891715>)
+.
+.img:https://imgur.com/NC5C8zF.png
+.
+> **__Entry Hit__**
+.tag:entry
+The entry hit is the first difference with Normal Mode: It is `90%` of health per player, instead of `70%`.
+    • This damage also cancels defensive abilities, and the <:EnhancedExcalibur:513200949016264727> healing effect.
+        - Use <:disrupt:535614336207552523> and <:EnhancedExcalibur:513200949016264727> after taking the entry damage
+
+⬥ There are 12s between challenge and entry damage. Advanced players can use this time to use <:nat:535541258131865633>.
+    • There are 36 ticks from challenging Vorago to Target Cycle, and 35 ticks from the Accept Challenge message to Target Cycle.
+    • Drop down damage is 20 ticks after challenging Vorago.
+    • Sample <:nat:535541258131865633> rotation:
+.
+.img:https://i.imgur.com/JycYCl7.mp4
+.
+⬥ To time <:vitality:654618235097972737>, use it 20 ticks after challenging Vorago/accepting challenge.
+    • This can be done by counting each tick from when you challenge by looking at prayer point drain
+    • It can also be done by looking at the bar above Vorago and clicking on it when it is about to fill, as in the following clip:
+
+.
+https://www.youtube.com/watch?v=MG00fhlSnKA
+
+**__Tips__**
+Things that help getting the HP needed: Fortitude prayer <:fortitude:537341748180025365> and a solid food <:sailfishsoup:537336701933060106>. You may also use your Vitality potion <:vitality:654618235097972737> 15 seconds after challenging. The best way to time this is using Preparation <:prep:535541258546970624> as soon as the challenge prompt appears. Sip your Powerburst of Vitality when the cooldown is at 5 seconds left on Preparation. Using Vitality <:vitality:654618235097972737> **and** having the HP needed is recommended, because if you fail the entry hit due to timing your <:vitality:654618235097972737> poorly, the team will most likely wait until its CD wears off, resulting in a waste of aura time.
+
+Other helpful things to get entry hp:
+⬥ Font of Life (Archaeology Relic) is helpful to get extra HP
+⬥ Using the Thermal effect from Oo'glog is also helpful
+
+.
+> **__Phases and Mechanic Breakdown__**
+.tag:mechanics
+**__Phase Breakdown__**
+There are 11 phases in Hard Mode.
+
+⬥ Phases 1 - 8 stay always the same.
+
+⬥ Phase 9 HM is the same as Phase 4 NM (Waterfall-phase) with some additional changes as described following.
+
+⬥ Phase 10 and 11 are maul phases with the same pushback mechanic as Phase 5 NM. The order is always:
+
+```
+Phase 1: Top Lure (Piece)
+Phase 2: Bring Him Down (Piece)
+Phase 3: Ceiling Collapse
+Phase 4: Scopulus
+Phase 5: Vitalis
+Phase 6: Green Bomb
+Phase 7: Team Split
+Phase 8: The End
+Phase 9: Waterfall (Piece)
+Phase 10: Maul
+Phase 11: Maul
+```
+.
+https://i.imgur.com/pB3bo1z.png
+.
+**__Rewards__**
+⬥ Mauling in Phase 11 will grant you the in-game title `the Defeater` as well as an outfit piece depending on the weekly rotation.
+
+⬥ Having obtained all outfit pieces (6/6 rotations) is a requirement to be eligible to receive the Ancient Artefact (Bombi pet) drop.
+.
+https://i.imgur.com/F61kKIC.png
+.
+**__Differences from Normal Mode__**
+⬥ **Warnings**: **This is the most important change in Hard Mode**. Warning messages do not appear in Hard Mode, which means that Reflect will not be announced, and thus it is easy to PK on accident if you do not know when the respective mechanic happens. Make sure you memorize all the Reflect timings for all the weekly special mechanics to avoid these issues. The only "warning" that appears is on The End (Phase 8) with the Purple Bomb timer (this is also true for The End p9/10/11).
+
+⬥ **Entry Hit**: Total damage is increased from `50,000` to `70,000` and the per player damage cap from `12,500` to `14,000`
+
+⬥ **Reflects**: Players who attack during a Reflect will deal damage to both themselves and the linked players
+
+⬥ **Blue Bombs**: Up to 2 bombs are fired at the same time instead of only one (independent of team size)
+
+⬥ **Red Bombs**: Damage increased by 50%
+    • Minimum damage is increased from `2,000` to `3,000`
+    • Maximum damage dealt by standing close to other players is increased from `7,000` to `10,500`
+
+⬥ **Phase 1 Climb**: Vorago has a chance of dragging the climber back into the arena every time the player is hit by a Blue Bomb
+
+⬥ **Smashes**: Bleed damage is increased from `1,200` to `3,000` and stacked bleeds increase from `6,000` to `10,000`
+
+Additionally, there are also phase-specific changes:
+.
+.img:https://i.imgur.com/MI4OUYu.png
+.
+> __**DPS/TL5 - Introduction**__
+.tag:tl5intro
+The DPS and TL5 are essentially the same role with a few exceptions. On Phase 1, the TL5 must do the usual climb just like in Normal Mode and Provoke <:voke:535541259465392143>. The DPS acts like a Normal Mode DPS: standing close to Vorago and helping lower the HP.
+
+.
+**__Notes__**
+⬥ On phases 2 and 9 the TL5 takes bleeds <:dismember:535532879376023572>, which leaves all other phases unchanged for all DPS and the TL5
+
+⬥ For this section of the guide, the TL5 is only mentioned when specific responsibilities are required on top of being a DPS.
+
+⬥ The DPS should stand at a maximum of 2 - 3 tiles away from Vorago throughout phases 1 - 9, and up to 2 tiles for phases 10 - 11.
+
+.
+**__Positioning for DPS and TL5 throughout Phases 3 - 8__**
+.
+.img:https://i.imgur.com/YIA0fWD.png
+.
+**__Strategy Summary__**
+.
+.img:https://i.imgur.com/REZ0zYh.png
+.
+> **__DPS/TL5 - Phases 1 & 2__**
+.tag:tl5p12
+__**DPS/TL5 - Phase 1**__
+.tag:tl5p1
+In the start, every player will receive a Red Bomb that deals `2,000` damage, except the person who stood on the TL spot at face. However, if someone is nearby, that hit can increase, scaling like in Normal Mode. After the first wave of reds, all following bombs will scale with the HM base damage of `3,000`.
+
+⬥ Spread out and stay in distance to other players in order to avoid increased damage
+
+⬥ Surge <:surge:535533810004262912> is not recommended, as you might get too close to another player, resulting in PKs with the Reds
+
+⬥ By the time the Red Bomb explodes, the Tl5 should be at the entry obstacle in the west
+
+⬥ Due to all Blue Bomb's potential of dragging the climber, the TL5 must jump **as soon as possible**
+
+There is always a chance of a random Red Bomb happening. If you get one, pray Magic <:DeflectMage:544195487926845462> and move away from all players until it explodes. Do not go farther out than the Bomb Tanks.
+
+The following gif shows what's been explained above: the TL5 must get to the spot, Provoke <:voke:535541259465392143> and Jump as soon as possible, regardless of Vorago's HP.
+.
+.img:https://i.imgur.com/lQr0FfS.mp4
+.
+__**DPS/TL5 - Phase 2**__
+.tag:tl5p2
+⬥ The TL5 takes the 5th Bleed <:dismember:535532879376023572>, approaching the phase similar to NM
+
+⬥ Bring Him Down: The time available to retrieve the Maul Piece (b) is reduced to 7.8 seconds
+
+⬥ Use 1 - 2 thresholds, then continue building with basics
+
+⬥ Build on the placed Combat Dummy <:dummy:656844963522281473> once Vorago dies
+
+Disruption Shield <:disrupt:535614336207552523> can be utilized at the start of BHD. It will be off CD early in Phase 3, easily allowing for more damage mitigation.
+.
+.img:https://i.imgur.com/yHSpGcd.png
+.
+> **__DPS/TL5 - Phases 3 - 8__**
+.tag:tl5p38
+__**DPS/TL5 - Phase 3 Ceilings**__
+.tag:tl5p3
+⬥ You must have **shadows enabled to at least medium** to be able to see rocks falling
+
+⬥ All DPS should spread out centrally in the southern half of the arena
+
+⬥ After Vorago jumps, pay attention on the rock's location and pray Deflect Magic <:DeflectMage:544195487926845462> in case you get hit by a Blue Bomb during the jump
+
+⬥ If you are far away post-jump, utilize Surge <:surge:535533810004262912> or Bladed Dive <:surge:535533810004262912> as soon as Vorago lands to avoid dragging additional bombs
+
+.
+__**DPS/TL5 - Phase 4 Scopulus**__
+.tag:tl5p4
+Pray Deflect Melee <:DeflectMelee:544195488447201300> as soon as the phase starts and **do not try to pray flick**. You will receive heavy damage from nearby scopuli.
+
+⬥ Even though you are not required to Provoke <:voke:535541259465392143> any Scopulus, you should do so in case they start chasing one a Bomb Tank
+
+⬥ Initially, position in the south-western quadrant and stand near the crack on the floor (refer to the image below)
+
+⬥ Ultimate before the scopuli spawn and start attacking the eastern Scopulus
+
+⬥ Keep them stacked and prioritize AoE damage
+
+⬥ You may use Devotion <:devo:513190158728953857> after you are out of strong thresholds and special attacks (SWH <:swh:641670143197446182>, Dark Bow <:dbow:643848618553507843>, Guthix Staff <:gstaff:513203008608141314>)
+
+⬥ Once all have died, you can move to the nearest Bomb Tank to Resonance <:res:535541258844635148> the last Blue Bomb
+
+⬥ 1 DPS should drop a Combat Dummy <:dummy:656844963522281473> as soon as 2 scopuli have died or at latest when the last one dies
+.
+.img:https://i.imgur.com/G5hKzZw.png
+.
+__**DPS/TL5 - Phase 5 Vitalis**__
+.tag:tl5p5
+Every person in the team that is not a Bomb Tank must stand north-east of Vorago and in melee distance (MD). Vitalii can block you from moving, so if you are not in melee distance (MD) there is a chance of losing your Line of Sight, preventing you from using any offensive abilities.
+
+⬥ Use your SGB <:sgb:626466665848242186> after Reflect if needed (or before if you are ranging)
+
+⬥ Ignore all Vitalis Orbs as well as all spawned vitali
+
+⬥ If Vorago happens to inflict bleeds <:dismember:535532879376023572>, the Base, Bomb Tanks and TL5 will deal with them as usual
+
+⬥ For 4 man teams it is recommended to deal with Bleeds like this: Base (1 2), TL5 (3 4), BT (5) due to the TL5 being in melee distance (MD)
+
+Once the phase is finished, build to 100% on a Combat Dummy <:dummy:656844963522281473> or an alive Vitalis.
+.
+.img:https://i.imgur.com/SFzYxmS.png
+.
+__**DPS/TL5 - Phase 6 Green Bomb**__
+.tag:tl5p6
+⬥ Drop a Combat Dummy <:dummy:656844963522281473> immediately as you drop into the phase
+
+⬥ DPS usually position centrally in the western half of the arena.
+
+⬥ For Mages <:Magic:689504724159823906> - it is recommended to Sunshine <:sunshine:994921119381463070> (or Metamorphosis <:meta:535533811304497183>) and apply Guthix Staff <:gstaff:513203008608141314>, followed by thresholds
+
+⬥ Rangers <:Ranged:689504724403486920> - should pre-ECB <:ecb:615618531937222657> or only dump thresholds
+
+⬥ If both are available, utilize your Ingenuity of the Humans <:ingen:641339234111848463> in combination with the Seren Godbow <:sgb:626466665848242186> special attack in order to optimize your damage output pre-Reflect.
+
+If you receive a Green Bomb, simply stay close to another player and let it bounce off you. For 4 man you can let it bounce and then use your Powerburst of Vitality <:vitality:654618235097972737> when it targets you a second time. Since the Bomb Tank provokes <:voke:535541259465392143> Vorago in this phase, you should not receive any additional damage, assuming proper positioning.
+
+.
+__**DPS/TL5 - Phase 7 Team Split**__
+.tag:tl5p7
+Team Split cancels all defensive abilities, including Disruption Shield <:disrupt:535614336207552523>. Make sure to eat well above `9,000` to avoid dying.
+
+⬥ Drop a Combat Dummy <:dummy:656844963522281473> in the start of the phase, close to the edge of the arena
+
+⬥ Due to TS cancelling all defensive abilities, the optimal timing for Resonance <:res:535541258844635148> is shortly after Reflect started (aiming to resonance the third or fourth Blue Bomb)
+
+⬥ Reprisal <:Reprisal:513190159462694912> can be used if tanking the TS damage
+
+.
+__**DPS/TL5 - Phase 8 The End**__
+.tag:tl5p8
+⬥ Due to the Stand Up being skipped in most scenarios, avoid tagging any bombs
+
+⬥ Pre-ultimate before using Target Cycle, and use your strongest abilities
+
+⬥ Try to glitch out of arms if possible so you can Ultimate without having to move (due to Quadrants moving)
+
+⬥ In case a Stand Up happens, eat to full HP and use Disruption Shield <:disrupt:535614336207552523> and your Powerburst of Vitality <:vitality:654618235097972737> (if either is available)
+.
+.img:https://i.imgur.com/6j6v67i.png
+.
+⬥ Glitching out of arms
+.
+.img:https://i.imgur.com/wwtUZ8w.mp4
+.
+> __**Base Tank - Introduction**__
+.tag:baseintro
+Basing Hard Mode does not change much from Normal Mode. It is all about not moving the boss when it is not needed, and tanking hits without wasting food. Prayer flicking is also very useful to maintain HP without eating or using Resonance <:res:535541258844635148>. Basing is usually performed by a meleer <:melee:615612332521029632>, who is also in charge of applying the Statius's Warhammer <:swh:641670143197446182> special attack throughout the fight. Range <:Ranged:689504724403486920> or Mage <:Magic:689504724159823906> can be used just as well, but most strategies of this guide will focus on melee <:melee:615612332521029632>. If the Base Tank is not meleeing, a DPS should be in charge of applying SWH <:swh:641670143197446182>.
+
+.
+**__Strategy Summary__**
+.
+.img:https://i.imgur.com/DwkesCR.png
+.
+> **__Base Tank - Phases 1 & 2__**
+.tag:basep12
+__**Base Tank - Phase 1**__
+.tag:basep1
+If not executing the described Solo Lure, perform the following steps.
+
+⬥ Move east of Vorago's spawn location as shown in the following clip
+.
+.img:https://i.imgur.com/uJP5zV5.mp4
+.
+⬥ Once Vorago spawns, use an ability and Provoke <:voke:535541259465392143> shortly after (within the ability's GCD)
+
+*Note: It is important to not <:voke:535541259465392143> right away as if base vokes before the TL5 goes past the rock, they will lose aggro.*
+
+⬥ Take Vorago close to the North-East corner
+
+⬥ Keep Vorago there until the climber reaches the final platform
+
+⬥ At roughly 30 seconds, or before the TL5 jumps the to the last ledge, head west quickly (take 1 or 2 steps followed by Surge <:surge:535533810004262912>)
+
+⬥ Once the Top Lure voked <:voke:535541259465392143> Vorago into spot, position south in MD and Provoke (utilize Bladed Dive <:surge:535533810004262912>)
+
+.
+__**Base Tank - Phase 2**__
+.tag:basep2
+The Base Tank's responsibilities throughout Phase 2 are not any different to basing Normal Mode. During Phase 2 Bomb Tanks will deal with Red Bombs. Intercept <:Cept:543478434509357098> is usually not needed for the base tank in P2. A Combat Dummy <:dummy:656844963522281473> will be placed South once Bring Him Down is finished.
+
+.
+> **__Base Tank - Phases 3 - 8__**
+.tag:basep38
+__**Base Tank - Phase 3 Ceilings**__
+.tag:basep3
+⬥ Optionally: Use Natural Instinct <:nat:535541258131865633> in Phase 2 after Bring Him Down
+
+⬥ Pre-ultimate and drink your adrenaline potion <:adrenrenewal:736298121704767538> as you drop into Phase 3
+
+⬥ Place a Combat Dummy <:dummy:656844963522281473> towards an edge but far from both the middle and the wall
+
+⬥ Apply SWH <:swh:641670143197446182> soon as possible
+
+⬥ Since a Bomb Tank is supposed to voke <:voke:535541259465392143> this phase, the Base Tank should not do so in order to avoid melee auto attacks
+
+.
+__**Base Tank - Phase 4 Scopulus**__
+.tag:basep4
+The Base Tank's job in this Phase is to lure and stack all scopuli. Make sure the rest of the team is focusing them as well in case they go to the Bomb Tanks. A frequent usage of Vulnerability Bombs <:vulnbomb:655341074235129858> increases the probability of keeping all scopuli stacked.
+
+⬥ Stand directly west of the western Scopulus and throw a Vulnerability bomb 3 seconds before Target Cycle
+
+⬥ Once the scopuli are spawned, use one ability on the closest Scopulus, then target the eastern Scopulus and apply SWH <:swh:641670143197446182>
+
+⬥ Walk a few steps north and attack the northern Scopulus quickly
+
+⬥ Walk south-east to lure all scopuli and throw vuln bombs to keep them stacked
+
+⬥ Utilize Devotion <:devo:513190158728953857> once you start consuming too much food rapidly
+
+⬥ Avoid moving the scopuli more than required as it can lead them changing aggro.
+
+⬥ Once all scopuli are defeated, build adrenaline on the placed Combat Dummy <:dummy:656844963522281473>
+
+*Note: You should NOT be voking any scopuli unless they go for the Bomb tank.*
+
+Hammering <:swh:641670143197446182> the western Scopulus is not recommended because it usually takes the heaviest damage, thence dying the fastest with or without SWH.
+
+.
+__**Base Tank - Phase 5 Vitalis**__
+.tag:basep5
+Base tank should position themselves in northeast md.
+
+⬥ If meleeing 4attack, pre-ultimate <:zerk:535532854004678657>, otherwise use thresholds and special attacks
+
+⬥ Place a Combat Dummy <:dummy:656844963522281473> at the start
+
+⬥ Apply SWH <:swh:641670143197446182> as soon as possible
+
+⬥ Utilize SGB <:sgb:626466665848242186> right after Reflect if Vorago's life points are high (80k+)
+
+⬥ Ignore and avoid all Vitalis Orbs as well as any spawned vitalii
+
+⬥ Provoke <:voke:535541259465392143> Vorago shortly before the first Vitalis Orb explodes and avoid moving Vorago (do not leave MD)
+
+⬥ If Vorago happens to inflict bleeds <:dismember:535532879376023572>, the Base, Bomb Tanks and TL5 will deal with them as usual
+
+.
+__**Base Tank - Phase 6 Green Bomb**__
+.tag:basep6
+Base tank should remind Bomb tanks to voke if needed after dropdown. Do not revoke Vorago once his aggression is switched to avoid melee auto attacks.
+
+⬥ No ultimate is required, simply apply SWH <:swh:641670143197446182> and use thresholds
+
+⬥ A Combat Dummy <:dummy:656844963522281473> will be placed on dropdown for the team to build adrenaline
+
+⬥ If Ingenuity of the Humans <:ingen:641339234111848463> is ready, you may use SGB <:sgb:626466665848242186> to optimize your damage pre-Reflect
+
+If you receive a Green Bomb, simply stay close to another DPS and let it bounce off you. For 4 man you can let it bounce and then use your Powerburst of Vitality <:vitality:654618235097972737> when it targets you a second time.
+
+If the Green Bomb targets a Bomb Tank, heal <:HealOther:567727985851891715> them before it explodes.
+
+.
+__**Base Tank - Phase 7 Team Split**__
+.tag:basep7
+⬥ Apply SWH <:swh:641670143197446182> on Target Cycle
+
+⬥ Use thresholds for the rest of the phase. Reprisal <:Reprisal:513190159462694912> the first Team Split if you managed to Target Cycle
+
+⬥ Provoke <:voke:535541259465392143> Vorago shortly before Reflect and stay MD (this saves the entire team quite some food)
+
+⬥ Exit the phase with enough adrenaline to activate Natural Instinct in the end of Phase 7
+
+.
+__**Base Tank - Phase 8 The End**__
+.tag:basep8
+⬥ Use Natural Instinct <:nat:535541258131865633> in the end of Phase 7
+
+⬥ Pre-ultimate <:zerk:535532854004678657> and drink your adrenaline potion as you drop into Phase 8
+
+⬥ Place a Combat Dummy <:dummy:656844963522281473> in the start
+
+⬥ Apply SWH <:swh:641670143197446182> on tick and then build adrenaline with defensive abilities
+
+⬥ Use all your strong thresholds in the first quadrant and try to kill Vorago before Stand Up
+
+⬥ Utilize SGB <:sgb:626466665848242186> and avoid being close to other players in case a Stand Up happens (also use your Powerburst of Vitality <:vitality:654618235097972737> to boost survivability)
+
+.
+> __**Base Tank - Tips**__
+.tag:basetips
+⬥ SWH EoF <:swh:641670143197446182> <:eofblack:780401412915855380> and Dragon Claws EoF <:dragonclaw:779048041088024606> <:eofred:780401412839833601> are useful for optimal ability rotations
+
+⬥ Use Disruption Shield <:disrupt:535614336207552523> every time you can (Phase 2 during BHD, end of Phase 4 Scopulus, during Phase 7 Team Split, end of Phase 9 / start of Phase 10)
+
+⬥ Pre-ultimating and using Natural Instinct <:nat:535541258131865633> is not needed but significantly increases your contribution to progressing DPS phases quickly
+
+⬥ Performing a Solo Lure in Phase 1 is a massive QoL improvement for the entire team
+
+.
+> __**Bomb Tank - Introduction**__
+.tag:btintro
+In Hard Mode Vorago throws 2 Blue Bombs at once, requiring a second Bomb Tank throughout the kill. Bomb Tanks will be referred to as BT1 and BT2. To perform this role, Intercept <:Cept:543478434509357098> is required. BTs with knowledge of cept timings should split cepts before the hour begins. In case of using Heal Other <:HealOther:567727985851891715>, the Bomb Tanks always heal each other. Both BTs position south for most phases.
+
+**__Strategy Summary__**
+.
+.img:https://i.imgur.com/mHVPVse.png
+.
+> **__Bomb Tank - Phases 1 & 2__**
+.tag:btp12
+__**Bomb Tank - Phase 1**__
+.tag:btp1
+After the initial Red Bomb hits, build on Vorago and ultimate. Even if the team deals enough damage in time, utilizing an ultimate is yet recommended, in order to prevent excessive food usage.
+
+
+⬥ Activate Disruption Shield <:disrupt:535614336207552523> **after** the initial wave of reds dealt its `2,000` damage
+
+⬥ Afterwards, the person who devo cepted steps farther away to force the next Red Bomb on themselves
+
+⬥ If the phase takes long, Barricade Intercept can be useful
+
+⬥ Perform crack heals after every phase
+
+In case of a random Red Bomb, one of the Bomb Tanks should either devo or cade cept the targeted player. Additionally you should cast Heal Other <:HealOther:567727985851891715> whilst under the effect of Barricade.
+
+.
+__**Bomb Tank - Phase 2**__
+.tag:btp2
+Phase 2 is mostly similar to Normal Mode.
+
+⬥ The Bomb Tanks should stand south of the boss at all times (also escape bleeds from the south)
+
+⬥ Only one BT will be responsible for taking the third and fourth Bleed <:dismember:535532879376023572>
+
+⬥ BT1 cade cepts <:cade:535541306353778689> <:Cept:543478434509357098> the first and third Red Bomb, BT2 cade cepts the second always intercept the Base Tank too
+
+⬥ Cast Heal Other <:HealOther:567727985851891715> during Barricade, situationally on the player with the lowest HP
+
+⬥ Place a Combat Dummy <:dummy:656844963522281473> close to the south-western corner during Bring Him Down
+
+⬥ Activate Disruption Shield <:disrupt:535614336207552523> at the start of BHD
+
+.
+> **__Bomb Tank - Phases 3 - 8__**
+.tag:btp38
+__**Bomb Tank - Phase 3 Ceilings**__
+.tag:btp3
+Both BTs stay north in this phase due to all others standing on the south side of the arena.
+
+⬥ Start the phase with thresholds and Provoke <:voke:535541259465392143> Vorago as soon as possible
+
+⬥ Watch out for the rock's landing location
+
+⬥ The team will spread out post-jump, be careful and avoid sharing bombs
+
+⬥ Use Surge <:surge:535533810004262912> / Bladed Dive <:surge:535533810004262912> carefully to get closer to Vorago post-jump, you always have to stay out the farthest in order to receive all bombs
+
+⬥ Devotion <:devo:513190158728953857> is not required but can be used if a Reflect occurs
+
+.
+__**Bomb Tank - Phase 4 Scopulus**__
+.tag:btp4
+In the beginning, go to the south-west corner and ultimate as shown in the image. Utilize your apot <:adrenrenewal:736298121704767538> in this phase.
+
+⬥ Positioning in Phase 4 Scopulus
+.
+.img:https://i.imgur.com/G5hKzZw.png
+.
+⬥ Wait a few seconds before attacking the scopuli to avoid dragging aggression from the base tank
+
+⬥ You can use Disruption Shield <:disrupt:535614336207552523> to null a Blue Bomb, followed by Resonance <:res:535541258844635148> if you need the HP
+
+⬥ BT1 should Devotion Intercept <:devo:513190158728953857> <:Cept:543478434509357098> first, with the BT2 following up another 10 seconds of devo cept
+
+⬥ The intercepted person should use Soul Split <:soulsplit:615613924506599497> until the effect wears off
+
+⬥ Rangers should bring Mechanized Chinchompas <:mechchin:641669268722810881> and mages should apply Guthix Staff <:gstaff:513203008608141314> (pair GStaff with a prior Greater Chain <:gchain:787904334495088672>)
+
+⬥ One of the Bomb Tanks should drop a Combat Dummy <:dummy:656844963522281473> once the last Scopulus has died
+
+If a Scopulus switches aggression and starts running towards you, immediately run away until it is provoked off you (make use of Surge <:surge:535533810004262912> and Bladed Dive <:surge:535533810004262912>).
+
+.
+__**Bomb Tank - Phase 5 Vitalis**__
+.tag:btp5
+Even though the meta used to require both BTs position in melee distance to Vorago throughout the entire phase, the most commonly used strategy is changed nowadays.
+
+⬥ Both Bomb Tanks stand out of melee distance for the whole phase to prevent Blue Bombs targeting other players and to avoid the need for prayer flicking
+
+⬥ Use thresholds and special attacks
+
+⬥ Do not use Resonance <:res:535541258844635148> during Reflect if there are vitalii nearby as they may snipe its effect
+
+⬥ If needed, use your SGB <:sgb:626466665848242186> after Reflect
+
+⬥ If Vorago happens to inflict bleeds <:dismember:535532879376023572>, the Base, Bomb Tanks and TL5 will deal with them as usual
+
+.
+__**Bomb Tank - Phase 6 Green Bomb**__
+.tag:btp6
+⬥ The BTs should position in the South
+
+⬥ One Bomb Tank provokes <:voke:535541259465392143> 2 - 3 GCDs after Target Cycle
+
+⬥ If Vorago switches his aggression, revoke in order to avoid melee auto attacks
+
+⬥ Rangers should activate ECB spec <:ecb:615618531937222657> <:spec:537340400273195028>, mages should utilize Sunshine <:sunshine:994921119381463070> or Metamorphosis <:meta:535533811304497183>
+
+⬥ Apply SWH <:swh:641670143197446182> and use thresholds
+
+⬥ A Combat Dummy <:dummy:656844963522281473> will be placed on dropdown for the team to build adrenaline
+
+⬥ If Ingenuity of the Humans <:ingen:641339234111848463> is ready, you may use SGB <:sgb:626466665848242186> to optimize your damage pre-Reflect
+
+If you receive a Green Bomb, eat up and use your Powerburst of Vitality <:vitality:654618235097972737>.
+
+.
+__**Bomb Tank - Phase 7 Team Split**__
+.tag:btp7
+You may use your Powerburst of Vitality <:vitality:654618235097972737> if it is available in order to improve health management when using Reprisal <:Reprisal:513190159462694912> during a Team Split.
+
+⬥ Provoke <:voke:535541259465392143> Vorago as soon as the first Team Split ends
+
+⬥ The Base Tank will provoke during Reflect - do **not** revoke after this
+
+⬥ A Bomb Tank should use Devotion Intercept right after the second Team Split
+
+⬥ Drop a Combat Dummy <:dummy:656844963522281473> during Reflect or during the second TS
+
+.
+__**Bomb Tank - Phase 8 The End**__
+.tag:btp8
+The goal is to skip the Stand Up and avoid tagging any bombs.
+
+⬥ Pre-ultimate before using Target Cycle, and dump the strongest abilities you have available
+
+⬥ If a Stand Up happens, eat to full life points and utilize your Powerburst of Vitality (if it is not on CD)
+
+.
+> __**Weekly Special Mechanics - Phases 9, 10 & 11**__
+.tag:p91011
+**__Overview__**
+.
+.img:https://i.imgur.com/S2PZvtj.png
+.
+.img:https://i.imgur.com/ASTyHHs.png
+.
+> __**Phase 9**__
+.tag:p9
+This section will be split into a regular Phase 9 and a Phase 9 with Clone Skip. The strategies only change for Green Bomb.
+Bomb Tanks will take turns to Barricade <:cade:535541306353778689> and Intercept <:Cept:543478434509357098> the team for each cycle. Make sure to designate who is going to <:cade:535541306353778689> first.
+
+If Clone Skip fails, everyone must get closer to Vorago as soon as possible: DPS goes 2-3 steps away from Vorago and BTs at their usual distance.
+
+.
+**__Ceilings__**
+BTs must <:cade:535541306353778689> and <:Cept:543478434509357098> everyone when Vorago makes the animation to launch the rock. Also, if you are not responsible for bleeds <:dismember:535532879376023572>, you should help the team to clear the rocks asap after you are <:Cept:543478434509357098>.
+
+.
+**__Scopulus__**
+It is dealt with in the same way as Phase 2. One BT will step further from rago and the other will <:cade:535541306353778689> and <:Cept:543478434509357098>.
+
+.
+**__Vitalis__**
+⬥ Right before Vorago launches the Vitalis orb, one Bomb Tank will <:cade:535541306353778689> and <:Cept:543478434509357098> everyone while going to the orb too. For the clone skip one, the BTs will alternate with the <:cade:535541306353778689> and <:Cept:543478434509357098>.
+
+⬥ The DPS should help the team to clear the that spawned. In order to do that, you can deploy dominion mines <:dommine:662249620579155968> before they spawn and use AoE abilities on them.
+
+⬥ For the regular Phase 9, the whole team should be at the NE quadrant and the BTs on the E or N quadrant; but for the Clone Skip, the orb will be thrown in a random direction.
+
+.
+**__Green Bomb__**
+⬥ Regular Phase 9: BTs must build to 100% before the Green Bomb is launched. After the green targets one person, one BT should <:cade:535541306353778689> and <:Cept:543478434509357098> them.
+
+⬥ Clone Skip Phase 9: Both BTs should build to 100% for the first green and deal with it as normal. For the second green, the Base must also build to 100% to <:cade:535541306353778689> and <:Cept:543478434509357098> the BT. If the green is on one of the DPS, the BT with <:cade:535541306353778689> off cooldown will <:cade:535541306353778689> and <:Cept:543478434509357098>.
+
+.
+**__Team Split__**
+The BTs will <:cade:535541306353778689> and <:Cept:543478434509357098> everyone after the team split.
+
+.
+**__The End__**
+⬥ BT 1 will be responsible for tagging reds and BT 2 will <:cade:535541306353778689> and <:Cept:543478434509357098> them. It is important that everyone either glitches out of arms or stays MD while this is done, to avoid receiving damage from red. The BT that tags must also go to the wall as soon as possible to avoid sharing Red Bombs.
+
+⬥ After that, BT 1 will build to 100% asap and will <:cade:535541306353778689> and <:Cept:543478434509357098> everyone right before the stand up of Vorago. Following that, the BT, who is <:Cept:543478434509357098>'d (BT 2), should move away so the red goes to him.
+
+⬥ If there are Ranger <:Ranged:689504724403486920> + Mage <:Magic:689504724159823906> BTs, it is preferable that the Range BT uses <:cade:535541306353778689> and <:Cept:543478434509357098> the Mage BT that will tag the reds.
+
+⬥ Before the last Waterfall, whoever is mauling must have Piece (a) and Piece (b) in their inventory. Make sure to grab the Piece (c) and make the maul <:maul:736524968174682132> before Phase 10 starts.
+
+⬥ One of the BT must drop a dummy <:dummy:656844963522281473> at the end of this phase, preferably during the last waterfall and close to the middle.
+
+.
+> __**Phase 10 and 11 Overview**__
+.tag:p1011
+The strategies for the 6 rotations can be summarised into two methods: the safe method and the fast or advanced method.
+
+For the Phase 10 and 11 sections, all the DPS must place their ultimates in melee distance. Whenever an ultimate is mentioned, it is already implied that it should be place in md.
+
+⬥ Bomb Tanks will always split sides: one BT North (usually the one that ultimates) and the other BT South (DPS side)
+
+⬥ Both BTs must use Disruption Shield <:disrupt:535614336207552523> in Phase 9 when Vorago dies for Scopulus, Vitalis, Green Bomb and The End. This is done to block the first blue in Phase 10 and then Barricade <:cade:535541306353778689> (if needed) the second one. For Phase 11, BTs and DPS should use <:disrupt:535614336207552523> when it is available
+
+⬥ If BTs do not have <:disrupt:535614336207552523> active at the same time, the pushback from the blue will not be nullified
+
+⬥ For 4 man teams the Base and TL5 will take a side too. Base usually goes South and TL5 North. This is only helpful on rotations with Green Bomb and Purple Bomb, as it is easier to tank the specials without having to move from the team
+
+.
+**__Safe Method__**
+It requires everyone to Ultimate on dropdown except for one of the Bomb Tanks. The other BT will use a threshold or two (depending on adrenaline management), and then build to 100% to <:cade:535541306353778689>. The first blue should be blocked by <:disrupt:535614336207552523>, giving more time to build to Barricade. In the next phase, the BT that used <:cade:535541306353778689> will now build to ultimate and vice versa.
+
+.
+**__Advanced Method__**
+Requires everyone to Ultimate except for one BT (South) that will use all the strong thresholds and special attacks available. This is done to help with the push, usually referred to as 0-Link (zero link), to avoid having to use <:cade:535541306353778689>. This method is not recommended on a team with multiple learners.
+The reason why only one of the BT will Ultimate is because the damage needed to push should be enough from the rest of the team's Ultimates and the BT thresholds. This way the BT that didn't Ultimate can do so in Phase 11
+
+The safe method is not considered a common strategy anymore (as it aims for less damage and a longer phase), but it is still recommended when there are multiple learners in the team.
+
+The fast (advanced) method relies on the team pushing Vorago non-stop, but on a team with low damage it is hard to do so without a set rotation.
+
+.
+> __**Phase 10**__
+.tag:p10
+In addition to the two methods, there are also some things to point out for some rotations. Make sure to also read about **Broken Team Splits** below, because it is a bug that happens on every rotation that has as the second special.
+
+**__Ceilings & Team Split__**
+Avoid using <:disrupt:535614336207552523> before the phase starts because team split cancels defensives and <:disrupt:535614336207552523>. Save it for after the team split regardless of what method the team is using. If <:cade:535541306353778689> is used for the team split special, make sure to use it **after** the team split and not before the special. This also applies to Scopulus and Green Bomb.
+
+.
+**__Ceilings, Scopulus, Vitalis, & The End__**
+The DPS must step back to block the Vitalis orb in Phase 10 and 11. Make sure to not go further than Bomb Tanks, to avoid sharing Blue Bombs with each other. For the safe method, one of the BT will <:cade:535541306353778689> and <:Cept:543478434509357098> the whole team before the Vitalis orb is launched. BTs will rotate <:cade:535541306353778689> for each cycle if needed.
+
+.
+**__Green Bomb__**
+Deal with the Green Bomb as usual. If it is on a Bomb Tank, they should use their Vitality potion <:vitality:654618235097972737>. Optional: If the Bomb Tank's HP is too low, the Base Tank can heal <:HealOther:567727985851891715> them before the green hits. If it is on the DPS, eat up and let it bounce amongst the pile. Tank it (with <:vitality:654618235097972737>) on your side of the arena if it is a 4 man team.
+
+The right <:maul:736524968174682132> timing must be used to ensure a consistent Phase 11. Read below for the timings.
+At the end of the arena in Phase 10, and before it is mauled, the BT should drop a <:dummy:656844963522281473> to build at the start of the next phase. This is even more helpful with a Shield Dome maul <:sd:537341954392850442> <:maul:736524968174682132>, explained below.
+
+.
+**__Broken Team Split__**
+.
+.img:https://i.imgur.com/fvNg9AV.png
+.
+Specials marked with a red font represent a broken Team Split. You will notice that it is always going to happen when Team Split is the second special in Phase 10 or 11.
+A broken Team Split is one where Vorago is able to throw autos (Melee or Blue Bombs) while charging the team split.
+The best way to reduce the damage from these is to not attack Vorago at all after the Reflect ends.
+If you get autos during a broken team split, simply Pray Deflect Magic <:DeflectMage:544195487926845462>, go to your colour box and eat up. Make sure to go closer to Vorago as soon as the Team Split explodes, otherwise you will drag more Blue Bombs into the DPS pile.
+
+.
+> __**Mauling Phase 10**__
+.tag:p10maul
+Mauling phase 10 is typically the TL5's job, unless the base is meleeing <:melee:615612332521029632> - this is because a melee base would always be in MD and will be able to <:maul:736524968174682132> at the right time. The timing for the <:maul:736524968174682132> is important because it determines what happens at the start of Phase 11.
+You must always wait for the special to be released before mauling, otherwise Vorago will start the next phase with it instead of Auto Attacks.
+
+If we take the example of Scopulus week, Vorago's rotation for phases 10 and 11 are as follows:
+⬥ Phase 10: **Purple Bomb** release → 5 Attacks → **Reflect** (for 3 Attacks) → 3 Attacks → **Team Split** → 3 Attacks
+
+⬥ Phase 11: **Purple Bomb** release → 5 Attacks → **Reflect** (for 3 Attacks) → 3 Attacks → **Vitalis orb** → 3 Attacks
+
+.
+If you maul in Phase 10 after 2 Attacks have been released, Vorago has 3 remaining Attacks in his rotation (because in Phase 10, there are a total of 5 autos before the Reflect). At the start of Phase 11, he would perform these 3 autos before continuing with his rotation, and going into reflect.
+If you mauled 4 Attacks autos after purple release at the start of Phase 10, there would be 1 remaining Attack. This means that Phase 11 would begin with 1 auto before going into Reflect. This leads to a high chance of killing other people as people attempt to DPS at the start of the phase.
+.
+If you are unsure of how many Attacks have been fired, it is better to keep Vorago in the <:maul:736524968174682132> spot and <:maul:736524968174682132> when reflect starts.
+
+In summary, there are 3 times to <:maul:736524968174682132> that are optimal for the kill, as they maximise the number of Attacks in Phase 11 before the next special:
+⬥ #1: When the **first special** begins
+
+⬥ #2 When **Reflect** starts
+
+⬥ #3: When the **second special** begins
+
+.
+Mauling as soon as Reflect starts is good for all rotations, but it is not the best option.
+While this can seem complicated at first, mauling at the right time makes the kill easier because you do not have to calculate how many autos remain from the Phase 10 rotation before the next special will occur in Phase 11.
+
+The following chart shows all the possible <:maul:736524968174682132> timings for each rotation, and they assume the <:maul:736524968174682132> occurred as soon as the special started, with no autos in between the special release and the <:maul:736524968174682132>.
+.
+.img:https://i.imgur.com/9tJk0aI.png
+.
+If you get more than 2 autos after a Special, go to the next <:maul:736524968174682132> timing as it is best to skip the first timing to optimize the amount of Attacks on the next phase.
+
+**__Shield Dome Mauling__**
+This is a strategy that allows you to skip the <:maul:736524968174682132> animation in Phase 10. It does not save time but allows everyone to build on the dummy <:dummy:656844963522281473> while Vorago is still talking.
+It is done by using Shield Dome <:sd:537341954392850442> before clicking the maul <:maul:736524968174682132> while Vorago is in the <:maul:736524968174682132> spot. do not spam clicking your <:sd:537341954392850442> or the <:maul:736524968174682132>, otherwise it will not work.
+.
+.img:https://i.imgur.com/3X7xQ5k.mp4
+.
+> __**Phase 11**__
+.tag:p11
+This phase is dealt with in the same way as Phase 10, and following the same descriptions in the Overview above,
+The Bomb Tank that used Barricade <:cade:535541306353778689> in Phase 10 should now build to Ultimate <:sunshine:994921119381463070> <:deathsswift:994921434633744455> and the other BT should build to Barricade <:cade:535541306353778689>.
+Depending on the push, it might be better for BTs to Ultimate and threshold respectively. Only use Barricade <:cade:535541306353778689> for one of the specials in Phase 11.
+
+.
+> **__Acknowledgements__**
+.tag:ragohub
+This guide was written by <@300296497277173761>, <@346931069968187395>, <@370326067531087884>, <@192962768788258826>, <@106390832944263168>, <@781280949790572554>, & <@205081780309590016> from the Rago Hub discord community.
+
+Check out Rago Hub for a wide variety of strategy guides for everything-Vorago, featuring a Hammer Climbing guide and more.
+
+.
+Rago Hub: https://discord.gg/uqGJbKH
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__Introduction__",
+        "value": "[Introduction]($linkmsg_intro$)\n[Presets]($linkmsg_presets$)\n[Entry Hit]($linkmsg_entry$)\n[Phases & Mechanics]($linkmsg_mechanics$)",
+		"inline": true
+      },
+	  {
+	    "name": "__DPS/TL5__",
+        "value": "[DPS/TL5 Introduction]($linkmsg_tl5intro$)\n[DPS/TL5 P1 & 2]($linkmsg_tl5p12$)\n[DPS/TL5 P3 - 8]($linkmsg_tl5p38$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Base Tank__",
+        "value": "[Base Tank Introduction]($linkmsg_baseintro$)\n[Base Tank P1 & 2]($linkmsg_basep12$)\n[Base Tank P3 - 8]($linkmsg_basep38$)\n[Base Tank Tips]($linkmsg_basetips$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Bomb Tank__",
+        "value": "[Bomb Tank Introduction]($linkmsg_btintro$)\n[Bomb Tank P1 & 2]($linkmsg_btp12$)\n[Bomb Tank P3 - 8]($linkmsg_btp38$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Phases 9, 10, & 11__",
+        "value": "[Weekly Special Mechanics]($linkmsg_p91011$)\n[Phase 9]($linkmsg_p9$)\n[P10 & 11 Overview]($linkmsg_p1011$)\n[Phase 10]($linkmsg_p10$)\n[Mauling P10]($linkmsg_p10maul$)\n[Phase 11]($linkmsg_p11$)",
+		"inline": true
+      },
+	  {
+	    "name": "__Acknowledgements__",
+        "value": "[Rago Hub]($linkmsg_ragohub$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

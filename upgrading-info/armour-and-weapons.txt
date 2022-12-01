@@ -1,14 +1,16 @@
 > **__Armour__**
 .tag:armour
 **__General Armour Introduction__**
-⬥ The tier of armour is based on equip level
-    • Style bonuses and armour bonuses generally are equal to this tier for its category
-⬥ There are three categories of armour:
+⬥ **There are three categories of armour**:
     • Power: any armour with a style bonus
     • Hybrid: anything stated as "hybrid"
     • Tank: any other item (also has more armour than power / hybrid)
-⬥ Wearing off-style armour slots (excluding cape slot) provides an accuracy penalty based on armour bonus
-    • "Off-style" is any style that does not match your mainhand / 2H
+⬥ **Armor tiers are based on the level required to equip them**
+⬥ **Equipping armor provides style and armor bonuses**
+    • These bonuses are based on armor category and tier
+    • Generally armors in the same category and tier will have equal bonuses
+⬥ **Wearing off-style armour slots (excluding cape slot) provides an accuracy penalty based on armour bonus**
+    • "Off-style" is any style that does not match your equipped mainhand / 2H weapon
     • Hybrid gear incurs no penalty
 
 .
@@ -351,74 +353,18 @@
   "embed": {
     "title": "__Preset Contents__",
     "color": 39423,
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Tank armour, shield, and other HP-boosting gear for bonfire\n⬥ Preferred summoning familiars & scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Potions to use pre-fight\n\u00a0\u00a0\u00a0\u00a0• Overload <:elderovlsalve:648976643687317532>, Weapon Poison+++ <:weppoison:689525476158472288>, Thermal Flask <:thermalflask:689530593796423724>\n⬥ Runes to restock pouches, and Magic cape to change spellbooks\n⬥ Spirit Weed <:SpiritSticks:565726489136463894>, Kwuarm <:KwuarmSticks:565726489341984779>, Lantadyme <:LantaSticks:565726489404899368>\n⬥ Preferred book <:grim:568262896375824385> and pages <:grimpage:643168594493964298>\n⬥ Divine Charges and assorted utility items"
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Tank armour, shield, and other HP-boosting gear for bonfire\n⬥ Preferred summoning familiars & scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Potions to use pre-fight\n\u00a0\u00a0\u00a0\u00a0• Overload <:elderovlsalve:648976643687317532>, Weapon Poison+++ <:weppoison:689525476158472288>, Thermal Flask <:thermalflask:689530593796423724>\n⬥ Runes to restock pouches, and Magic cape to change spellbooks\n⬥ Incense sticks - Spirit Weed <:SpiritSticks:565726489136463894>, Kwuarm <:KwuarmSticks:565726489341984779>, Lantadyme <:LantaSticks:565726489404899368>\n⬥ Preferred book <:grim:568262896375824385> and pages <:grimpage:643168594493964298>\n⬥ Divine Charges <:divinecharge:1010485547598356530> and assorted utility items"
   }
 }
 .embed:json
-.
 .img:https://i.imgur.com/PLEQ4Oe.png
+
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Armour__",
-        "value": "[Link]($linkmsg_armour$)",
-        "inline": true
-      },
-       {
-        "name": "__Gloves__",
-        "value": "[Link]($linkmsg_gloves$)",
-        "inline": true
-      },
-       {
-        "name": "__Boots and Capes__",
-        "value": "[Link]($linkmsg_bootsandcapes$)",
-        "inline": true
-      },
-      {
-        "name": "__Weapons__",
-        "value": "[Link]($linkmsg_weapons$)",
-        "inline": true
-      },
-      {
-        "name": "__Shields and Defenders__",
-        "value": "[Link]($linkmsg_shields$)",
-        "inline": true
-      },
-      {
-        "name": "__Rings__",
-        "value": "[Link]($linkmsg_rings$)",
-        "inline": true
-      },
-      {
-        "name": "__Necklaces__",
-        "value": "[Link]($linkmsg_necklaces$)",
-        "inline": true
-      },
-      {
-        "name": "__Skillcape Perks__",
-        "value": "[Link]($linkmsg_capeperks$)",
-        "inline": true
-      },
-      {
-        "name": "__Pocket Slots__",
-        "value": "[Link]($linkmsg_pocket$)",
-        "inline": true
-      },
-      {
-        "name": "__Ammo Slots__",
-        "value": "[Link]($linkmsg_ammo$)",
-        "inline": true
-      },
-      {
-        "name": "__Banking Preset__",
-        "value": "[Link]($linkmsg_bank$)",
-        "inline": true
-      }
-    ]
+    "title": "__Table of Contents__",
+    "description": "⬥ [Armor Overview]($linkmsg_armour$)\n⬥ [Gloves]($linkmsg_gloves$)\n⬥ [Boots & Capes]($linkmsg_bootsandcapes$)\n⬥ [Weapons]($linkmsg_weapons$)\n⬥ [Shields & Defenders]($linkmsg_shields$)\n⬥ [Rings]($linkmsg_rings$)\n⬥ [Necklaces]($linkmsg_necklaces$)\n⬥ [Skillcape Perks]($linkmsg_capeperks$)\n⬥ [Pocket Slots]($linkmsg_pocket$)\n⬥ [Ammo Slots]($linkmsg_ammo$)\n⬥ [Banking Preset]($linkmsg_bank$)",
+    "color": 39423
   }
 }
 .embed:json

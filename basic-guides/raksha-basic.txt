@@ -238,54 +238,8 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 {
   "embed": {
     "title": "Table of Contents",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-        "inline": true
-      },
-      {
-        "name": "__General Knowledge__",
-        "value": "[Link]($linkmsg_general$)",
-        "inline": true
-      },
-      {
-        "name": "__Unlocking Raksha__",
-        "value": "[Link]($linkmsg_unlock$)",
-        "inline": true
-      },
-      {
-        "name": "__Recommendation__",
-        "value": "[Link]($linkmsg_recommend$)",
-        "inline": true
-      },
-      {
-        "name": "__Raksha Attack Pattern__",
-        "value": "[Link]($linkmsg_attackorder$)",
-        "inline": true
-      },
-      {
-        "name": "__Mechanics Summary__",
-        "value": "[Link]($linkmsg_mechanics$)",
-        "inline": true
-      },
-      {
-        "name": "__Basic Rotations__",
-        "value": "[Link]($linkmsg_rots$)",
-        "inline": true
-      },
-      {
-        "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-        "inline": true
-      },
-      {
-        "name": "__Alt1 Raksha Helper__",
-        "value": "[Link]($linkmsg_alt1$)",
-        "inline": true
-      }
-    ]
+    "description": "⬥ [Presets]($linkmsg_presets$)\n⬥ [General Knowledge]($linkmsg_general$)\n⬥ [Unlocking Raksha]($linkmsg_unlock$)\n⬥ [Recommendation]($linkmsg_recommend$)\n⬥ [Raksha Attack Pattern]($linkmsg_attackorder$)\n⬥ [Mechanics Summary]($linkmsg_mechanics$)\n⬥ [Basic Rotations]($linkmsg_rots$)\n⬥ [Example Kills]($linkmsg_example$)\n⬥ [Alt1 Raksha Helper]($linkmsg_alt1$)",
+    "color": 39423
   }
 }
 .embed:json
