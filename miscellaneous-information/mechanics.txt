@@ -791,6 +791,18 @@ __**How It Works**__
     • Examples include Telos' rockfall damage, and Nex: AoD's 'Elements' special attack.
 
 .
+> __**Lossless Heal Other**__
+.tag:healother
+__**How It Works**__
+⬥ Heal Other <:HealOther:567727985851891715> transfers up to **75%** of the caster's current life points to the targeted player as long as the caster has at least **11%** of their health.
+⬥ To losslessly cast Heal Other <:HealOther:567727985851891715> (as to not take damage), you need to be in an immune state. Examples of being in an immune state are:
+    • Under the effects of barricade <:cade:535541306353778689>.
+    • During the 'crack' portion of Vorago's <:vorago:572867742613635082> phase transition.
+    • During the revival animation of immortality <:immort:535541258538582017>.
+⬥ During any of these states, you can cast Heal Other <:HealOther:567727985851891715> on another player without taking damage.
+⬥ This should be utilized when possible to maintain HP without using food/losing adrenaline.
+
+.
 > __**Vengeance**__
 .tag:veng
 __**How It Works**__
@@ -958,7 +970,7 @@ __**Poison Build**__
       },
       {
         "name": "__Mechanics (3/3)__",
-        "value": "⬥ [Target Cycle]($linkmsg_tc$)\n⬥ [Tick System]($linkmsg_ticksystem$)\n⬥ [Typeless Damage]($linkmsg_typeless$)\n⬥ [Vengeance]($linkmsg_veng$)\n⬥ [Walking Monsters]($linkmsg_walking$)\n⬥ [Weapon Poison]($linkmsg_poison$)",
+        "value": "⬥ [Target Cycle]($linkmsg_tc$)\n⬥ [Tick System]($linkmsg_ticksystem$)\n⬥ [Typeless Damage]($linkmsg_typeless$)\n⬥ [Lossless Heal Other]($linkmsg_healother$)\n⬥ [Vengeance]($linkmsg_veng$)\n⬥ [Walking Monsters]($linkmsg_walking$)\n⬥ [Weapon Poison]($linkmsg_poison$)",
         "inline": true
       }
     ]
