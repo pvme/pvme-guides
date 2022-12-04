@@ -6,25 +6,25 @@ Welcome to our Mastery System channel. The goal of the PvME mastery system is to
 __**Mastery Roles Explained**__
 The PvME mastery system is formed around six distinct ranks. Each rank is meant to be representative of a particular 'snapshot' in a player's journey of mastering an encounter, as follows,
 
-⬥ <@&1016511311556902973>
+⬥ **Novice**
     • Only available for some bosses. This is essentially an introductory feat that a player would aim for when first learning the boss.
 
-⬥ <@&1016510658692530176>
+⬥ **Initiate**
     • Making the transition from a learner to the start of mastery; the primary goal would be to keep building familiarity with the encounter so as to continue climbing through the ranks.
 
-⬥ <@&1016509892909072475>
+⬥ **Apprentice**
     • Once fully familiar with a boss at surface level, starts taking larger steps to understand its nuances and explores methods of optimization.
 
-⬥ <@&1016509879470538792>
+⬥ **Adept**
     • Attempts more efficient tactics with varying degrees of success; establishing the foundations to become a master.
 
-⬥ <@&1016509666529919056>
+⬥ **Master**
     • Displays an extensive understanding of the encounter; utilizing efficient tactics with a high degree of proficiency in the relevant style(s).
 
-⬥ <@&1016509210231578634>
+⬥ **Grandmaster**
     • A true expert achieving peak performance; the most rapid, precise, and difficult tactics are leveraged with near-perfect execution with a focus on high consistency. Grandmasters can take advantage of any form of good luck they encounter to push for a faster time. A player at this skill level would be content to achieve these timers **once per hour**.
 
-⬥ <@&1027331796825808987>
+⬥ **Legend**
     • A special distinction for the absolute best-of-the-best.
 
 .
@@ -32,10 +32,10 @@ The PvME mastery system is formed around six distinct ranks. Each rank is meant 
 .tag:Submissions
 A submission should be provided as follows,
 
-⬥ <@&1016511311556902973> / <@&1016510658692530176> / <@&1016509892909072475>
+⬥ **Novice** / **Initiate** / **Apprentice**
     • **Screenshots or videos** are both accepted.
 
-⬥ <@&1016509879470538792> / <@&1016509666529919056> / <@&1016509210231578634> / <@&1027331796825808987>
+⬥ **Adept** / **Master** / **Grandmaster** / **Legend**
     • **Only videos** are accepted unless otherwise stated.
 
 Please post your submissions in <#827692629197324348> so that they can be reviewed by staff and/or role reviewers. Submissions will be evaluated according to our rules, as follows,
@@ -66,11 +66,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "title": "__**PvME Special Roles**__",
     "color": 16711683,
     "thumbnail": { "url": "https://i.imgur.com/QlUVe0U.gif" },
-    "description": "*Note: \"roles\" = either mastery or feats.*",
+    "description": "**\"Roles\" = either mastery or feats.**",
     "fields": [
       {
         "name": "**__Available Roles__**",
-        "value": "<@&1016907127136202823>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 <@&1016510658692530176> roles\n<@&976237003869933618>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 <@&1016509892909072475> roles\n<@&976237036858138664>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 <@&1016509879470538792> roles\n<@&976237079115747369>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 <@&1016509666529919056> roles\n<@&976237108937244674>\n\u00a0\u00a0\u00a0\u00a0• (Vanity!) Obtain 12 <@&1016509210231578634> roles"
+        "value": "<@&1016907127136202823>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 **Initiate** roles\n<@&976237003869933618>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 **Apprentice** roles\n<@&976237036858138664>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 **Adept** roles\n<@&976237079115747369>\n\u00a0\u00a0\u00a0\u00a0• Obtain 12 **Master** roles\n<@&976237108937244674>\n\u00a0\u00a0\u00a0\u00a0• (Vanity!) Obtain 12 **Grandmaster** roles"
       }
     ]
   }
@@ -83,12 +83,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:Araxxor
 {
   "embed": {
-    "title": "**__Araxxor__**",
+    "title": "**__Araxxor (Solo)__**",
     "color": 2281522,
     "thumbnail": {
       "url": "https://runescape.wiki/images/thumb/Araxxor_%28ranged%29.png/250px-Araxxor_%28ranged%29.png?ee26b"
     },
-    "description": "*Note: solo only.*",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery__**",
@@ -107,6 +109,9 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "thumbnail": {
       "url": "https://runescape.wiki/images/Arch-Glacor.png?ac3e5"
     },
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery__**",
@@ -120,12 +125,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:ED1
 {
   "embed": {
-    "title": "**__ED1: Temple of Aminishi__**",
+    "title": "**__ED1: Temple of Aminishi (Solo)__**",
     "color": 1514853,
     "thumbnail": {
       "url": "https://i.imgur.com/LbesfGr.png"
     },
-    "description": "*Note: solo runs only.*",
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -139,12 +143,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:ED2
 {
   "embed": {
-    "title": "**__ED2: Dragonkin Laboratory__**",
+    "title": "**__ED2: Dragonkin Laboratory (Solo)__**",
     "color": 5651338,
     "thumbnail": {
       "url": "https://i.imgur.com/byVZh7g.png"
     },
-    "description": "*Note: solo runs only.*",
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -158,12 +161,11 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:ED3
 {
   "embed": {
-    "title": "**__ED3: Shadow Reef__**",
+    "title": "**__ED3: Shadow Reef (Solo)__**",
     "color": 5198952,
     "thumbnail": {
       "url": "https://i.imgur.com/qRBpfeH.png"
     },
-    "description": "*Note: solo runs only.*",
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -177,12 +179,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:Kerapac
 {
   "embed": {
-    "title": "**__Kerapac, the Bound__**",
+    "title": "**__Kerapac, the Bound (Solo HM)__**",
     "color": 4220571,
     "thumbnail": {
       "url": "https://i.imgur.com/8LRCGjz.png"
     },
-    "description": "*Note: solo hard mode only.*",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills | HM = hard mode"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -196,12 +200,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:Nex
 {
   "embed": {
-    "title": "**__Nex__**",
+    "title": "**__Nex (Solo)__**",
     "color": 12788795,
     "thumbnail": {
       "url": "https://runescape.wiki/images/Nex.png?67c8a"
     },
-    "description": "*Note: solo only.*",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery__**",
@@ -220,7 +226,10 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "thumbnail": {
       "url": "https://runescape.wiki/images/Nex_%28Angel_of_Death%29.png?00050"
     },
-    "description": "*Note: AoD 7-10 or FC trial kills are disallowed.*",
+    "description": "**AoD 7-10 or FC trial kills are not allowed.**",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -238,6 +247,9 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "color": 9135043,
     "thumbnail": {
       "url": "https://i.imgur.com/8TO6d0O.png"
+    },
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
     },
     "fields": [
       {
@@ -275,6 +287,9 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "thumbnail": {
       "url": "https://runescape.wiki/images/thumb/Telos%2C_the_Warden.png/200px-Telos%2C_the_Warden.png?99e18"
     },
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -288,12 +303,14 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .tag:TzKal-Zuk
 {
   "embed": {
-    "title": "**__TzKal-Zuk__**",
+    "title": "**__TzKal-Zuk__ (HM)**",
     "color": 11286325,
     "thumbnail": {
       "url": "https://i.imgur.com/OmNkPgY.png"
     },
-    "description": "Note: hard mode only.",
+    "footer": {
+      "text": "Note: B2B = back-to-back consecutive kills | HM = hard mode"
+    },
     "fields": [
       {
         "name": "**__Mastery Roles__**",
@@ -322,6 +339,24 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 }
 .embed:json
 
+.tag:Zamorak
+{
+  "embed": {
+    "title": "**__Zamorak: Lord of Chaos__**",
+    "color": 10429986,
+    "thumbnail": {
+      "url": ""
+    },
+    "fields": [
+      {
+        "name": "**__Mastery Roles__**",
+        "value": "<@&1039714273858965565>\n\u00a0\u00a0\u00a0\u00a0• Kill Zamorak at 100%+ enrage (solo)\n<@&1039714412874969089>\n\u00a0\u00a0\u00a0\u00a0• Sub 5:15 at 100%+ enrage (duo/trio), or\n\u00a0\u00a0\u00a0\u00a0• Sub 5:45 at 100%+ enrage (solo)\n<@&1039714497956421702>\n\u00a0\u00a0\u00a0\u00a0• Sub 4:30 at 100%+ enrage (duo/trio), or\n\u00a0\u00a0\u00a0\u00a0• Sub 5:00 at 100%+ enrage (solo) \n<@&1039714566118047765>\n\u00a0\u00a0\u00a0\u00a0• Sub 6:30 at 500%+ enrage (duo/trio), or\n\u00a0\u00a0\u00a0\u00a0• Sub 7:00 at 500%+ enrage (solo)\n<@&1039714604730818581>\n\u00a0\u00a0\u00a0\u00a0• Sub 9:00 at 1000%+ enrage (duo/trio), or\n\u00a0\u00a0\u00a0\u00a0• Sub 10:00 at 1000%+ enrage (solo)\n<@&1039714654215213147>\n\u00a0\u00a0\u00a0\u00a0• Sub 9:30 at 2000%+ enrage (duo/trio), or\n\u00a0\u00a0\u00a0\u00a0• Sub 10:30 at 2000%+ enrage (solo)"
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 {
   "embed": {
@@ -340,7 +375,7 @@ In addition to all of the listed mastery objectives, we provide special roles fo
       },
       {
         "name": "__Bosses [N-Z]__",
-        "value": "⬥ [Nex]($linkmsg_Nex$)\n⬥ [Nex: AoD]($linkmsg_NexAoD$)\n⬥ [Raksha]($linkmsg_Raksha$)\n⬥ [Solak]($linkmsg_Solak$)\n⬥ [Telos]($linkmsg_Telos$)\n⬥ [TzKal-Zuk]($linkmsg_TzKal-Zuk$)\n⬥ [Vorago]($linkmsg_Vorago$)",
+        "value": "⬥ [Nex]($linkmsg_Nex$)\n⬥ [Nex: AoD]($linkmsg_NexAoD$)\n⬥ [Raksha]($linkmsg_Raksha$)\n⬥ [Solak]($linkmsg_Solak$)\n⬥ [Telos]($linkmsg_Telos$)\n⬥ [TzKal-Zuk]($linkmsg_TzKal-Zuk$)\n⬥ [Vorago]($linkmsg_Vorago$)\n⬥ [Zamorak]($linkmsg_Zamorak$)",
         "inline": true
       }
     ]

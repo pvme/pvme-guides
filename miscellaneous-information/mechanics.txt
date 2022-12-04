@@ -4,7 +4,7 @@ This channel will cover a number of game mechanics, uncommon ability interaction
 
 Mechanics are split into two categories: **basic** and **advanced**. Basic mechanics are game interactions that are more important to the casual player and may be relatively easily learned, whereas advanced mechanics may be learnt slowly with time as you play the game.
 
-Information was sourced courtesy of many players, including *but not limited to*: <@222668864704610305>, <@130322872089575424>, <@435481585379180554>, <@158293690001915904>, <@110810140445294592>, <@712324334911225909>, <@425520655920791553>, <@185315527571406848>, <@150284127126552576>, <@216433706343202816>, <@236955913859104778>, <@133391081109716992>, <@150675804596994048>, <@781280949790572554>, <@127417821817864192>, <@104602229910028288>, <@145413546409197569>, <@108682527304060928>, <@239465986825256971>, <@287398612558675968> and <@191388421548146689>.
+Information was sourced courtesy of many players, including *but not limited to*: <@222668864704610305>, <@130322872089575424>, <@435481585379180554>, <@158293690001915904>, <@110810140445294592>, <@712324334911225909>, <@425520655920791553>, <@185315527571406848>, <@150284127126552576>, <@216433706343202816>, <@236955913859104778>, <@133391081109716992>, <@150675804596994048>, <@781280949790572554>, <@127417821817864192>, <@104602229910028288>, <@145413546409197569>, <@108682527304060928>, <@239465986825256971>, <@287398612558675968>, <@191388421548146689> and <@102870112314335232>.
 
 .
 > __**Ability Queueing**__
@@ -59,10 +59,6 @@ __**Last-Tick Interactions**__
 
 .
 __**Other Ability Interactions**__
-⬥ **Greater Barge** <:gbarge:535532879250456578> has different behaviours with and without queueing.
-    • **Without queueing**: using <:gbarge:535532879250456578> from out-of-combat will treat it as a 25-225% ability damage (the maximum) and give the secondary buff as well.
-    • **With queueing**: using <:gbarge:535532879250456578> *as a queued ability* from out-of-combat will treat it as 25-125% ability and *not* give the secondary buff.
-.
 ⬥ **Detonate** <:deto:535533833358016512>
     • Can be released mid-GCD if queueing is enabled - this is not possible with it disabled.
 ⬥ **Stalled Abilities**
@@ -400,7 +396,6 @@ __**How It Works**__
 ⬥ To do it: kill boss → pick up loot → **quickly** exit instance → **quickly** re-enter instance → repeat.
 ⬥ This works because it is faster to spawn a boss for the first time in an instance, compared to the duration between subsequent spawns.
 ⬥ At the expense of higher effort, this can potentially save time even compared to the 'Fastest' instance spawn speed, if you instance-hop sufficiently quickly.
-
 .
 {
   "embed": {
@@ -414,7 +409,7 @@ __**How It Works**__
 .
 > __**Manual Spellcasting**__
 .tag:manualsc
-.
+*Note: For a summary, see the `!manualspellcasting` and `!spellswap` commands.*
 __**How It Works**__
 ⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
@@ -423,6 +418,7 @@ __**How It Works**__
 ⬥ **Behaviour with manual spellcasting *off***:
     • Magic auto attacks deal damage based on the spell your weapon is set to.
     • Clicking on a spell in your Magic spellbook or on your ability bar will switch your autocast spell to it.
+        - Typically, you'll press spell + next ability on the same tick, not during a global cooldown.
     • Clicking on an ability from an ability book or on your ability bar will use that ability against your target.
 .
 ⬥ **Behaviour with manual spellcasting *on***:
@@ -795,6 +791,24 @@ __**How It Works**__
     • Examples include Telos' rockfall damage, and Nex: AoD's 'Elements' special attack.
 
 .
+> __**Lossless Heal Other**__
+.tag:healother
+__**How It Works**__
+⬥ Heal Other <:HealOther:567727985851891715> transfers up to **75%** of the caster's current life points to the targeted player as long as the caster has at least **11%** of their health.
+⬥ To losslessly cast Heal Other <:HealOther:567727985851891715> (as to not take damage), you need to be in an immune state. Examples of being in an immune state are:
+.
+{
+	"embed": {
+  	"title": "Examples",
+    "description": "⬥ Under the effects of Barricade <:cade:535541306353778689> ([Demo](https://youtu.be/Bnkle3v8MRQ))\n⬥ **OR** during 'crack tick' during <:vorago:572867742613635082> phase transition ([Demo](https://youtu.be/I2rr00IhUl8))\n⬥  **OR** during revival animation of Immortality <:immort:535541258538582017> ([Demo](https://youtu.be/LH-h1vBIhZI))",
+    "color": 39423
+  }
+}
+.embed:json
+⬥ During any of these states, you can cast Heal Other <:HealOther:567727985851891715> on another player without taking damage.
+⬥ This should be utilized when possible to maintain HP without using food/losing adrenaline.
+
+.
 > __**Vengeance**__
 .tag:veng
 __**How It Works**__
@@ -962,7 +976,7 @@ __**Poison Build**__
       },
       {
         "name": "__Mechanics (3/3)__",
-        "value": "⬥ [Target Cycle]($linkmsg_tc$)\n⬥ [Tick System]($linkmsg_ticksystem$)\n⬥ [Typeless Damage]($linkmsg_typeless$)\n⬥ [Vengeance]($linkmsg_veng$)\n⬥ [Walking Monsters]($linkmsg_walking$)\n⬥ [Weapon Poison]($linkmsg_poison$)",
+        "value": "⬥ [Target Cycle]($linkmsg_tc$)\n⬥ [Tick System]($linkmsg_ticksystem$)\n⬥ [Typeless Damage]($linkmsg_typeless$)\n⬥ [Lossless Heal Other]($linkmsg_healother$)\n⬥ [Vengeance]($linkmsg_veng$)\n⬥ [Walking Monsters]($linkmsg_walking$)\n⬥ [Weapon Poison]($linkmsg_poison$)",
         "inline": true
       }
     ]
