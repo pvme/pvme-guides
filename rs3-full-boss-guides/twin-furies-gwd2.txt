@@ -1,13 +1,16 @@
-> **__Twin Furies__** **(Courtesy of <@194161817398804480>)**
+> **__Twin Furies__** **(Courtesy of <@298444466845515776>)**
 .img:https://i.imgur.com/V0sEZr0.png
 .
 > **__Introduction__**
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
-The Twin Furies is a Zamorakian boss located in the Heart of Gielinor (aka GWD2). Entering the boss fight requires 40 (or 20 kc if you have enough rep) and 80 (boostable) Ranged <:range:580168050121113623>. Notable drops include the Crest of Zamorak, which is an ingredient for making T80 and T85 power armor, and the T85 Fury Blades.
+The Twin Furies is a Zamorakian boss located in the Heart of Gielinor (aka GWD2). Entering the boss fight requires 40 (or 20 kc if you have enough rep) and 80 (boostable) Ranged <:range:580168050121113623>
 
-The boss itself is the easiest of the four GWD2 fights. The boss is unique in the fact that both targets share the 200k hp pool. This means that an aoe attack will essentially do double damage.
+The boss itself is the easiest of the four GWD2 fights. The boss is unique in the fact that both targets share the 200k hp pool. This means that an AoE attack will essentially do double damage if it hits both twins.
+
+The setup and rotations in this guide features BIS gear. For GWD2 learners, you may find it more helpful to refer to video guide(s) on Youtube after learning the mechanics which can be found below.
+⬥ Learning Twin Furies with melee <:melee:615612332521029632> - <https://www.youtube.com/watch?v=gNN93U-SnDM>
 
 .
 > **__Drops__**
@@ -27,24 +30,9 @@ The boss itself is the easiest of the four GWD2 fights. The boss is unique in th
     • 1/2000 base (Normal Mode)
     • 1/1000 base (Hard Mode)
 
-Each Twin Furies kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B367$, with <:coins:698816156961603654> $data_pvme:Bosses!E367$ of that being from commons. Advanced players can get up to $data_pvme:Bosses!B370$ kph, earning on average $data_pvme:Bosses!C370$ gp/hr.
+The twin fury blades <:avaryssblade:643161612383158296> <:nymorablade:643161612819365888> are weapons with T80 damage and T90 accuracy. The <:crestzamorak:643161512306933800> is combined with Dormant anima core for making T80 ranged power armour, and then with 2 of each essence <:zamorakess:643162860754829315> <:zarosess:643162860830326824> <:sereness:643162860834390016> <:sliskeess:643162860867813396> to upgrade the respective armour to T85.
 
-.
-> **__Presets__**
-.tag:presets
-**__Advanced Melee Preset__**
-.tag:meleeadv
-⬥ A halberd range weapon such as a Noxious Scythe <:noxscythe:513190159341322240> or Dragonrider Lance <:dragonriderlance:643161541931171872> should be used because AoE melee abilities will hit both furies effectively doing **double** damage.
-⬥ If you're struggling with food conservation and Soul Split <:soulsplit:615613924506599497> is not enough to heal you, you may also use a Scrimshaw of Vampyrism <:VampScrim:513201294262009874> to help sustain yourself for the full hour. Otherwise, an unactivated god book can remain in your pocket slot.
-⬥ An elite Enhanced Excalibur <:excal:641337999170207763> and Ancient Elven Ritual shard <:ancientshard:656426717505650708> are used to supplement your HP and prayer upkeep.
-⬥ <:luckpotion:656426717295935500> **Enhanced Luck Potion** - Gives tier 3 luck, can be removed if swapping to LotD <:LotD:566453486913323042>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
- (Runes for <:sbsancients:859483781395120129> <:disrupt:535614336207552523> <:Veng:543478434953822208> <:smokecloud:856635090641879050>)
-.
-.img:https://i.imgur.com/NPAlCDK.png
-.
-*Note: Currently, Deathtouch Bracelet <:DTB:513190159429271562> is used as Cinderbane Gloves <:Cinderbanes:513190158355660812> are bugged at Twin Furies.*
+Each Twin Furies kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B367$, with <:coins:698816156961603654> $data_pvme:Bosses!E367$ of that being from commons. Advanced players can get up to $data_pvme:Bosses!B370$ kph, earning on average $data_pvme:Bosses!C370$ gp/hr.
 
 .
 > **__Mechanics__**
@@ -71,14 +59,59 @@ Each Twin Furies kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B36
 }
 .embed:json
 .
+> **__Preset__**
+.tag:presets
+⬥ <:noxscythe:513190159341322240> Noxious Scythe
+    • This is only relevant for challenge mode
+⬥ <:eofor:745279787471470713> with an <:dragonclaw:779048041088024606> **OR** <:dragondagger:779048040644083733> **OR** <:dragon2hsword:1048592040507744257>
+    • Read rotations below for more information
+⬥ <:vestmentsofhavochood:994189297659940904> Full set of Vestments of Havoc armour
+⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
+ (Runes for <:disrupt:535614336207552523> - This is only relevant for challenge mode)
+.
+.img:https://imgur.com/OGGTwhD.png
+
+.
+> __**Active Strategy**__
+.tag:active
+.
+⬥ The rotations below only work because hit caps do not apply to the Twin Furies' health pool (the capped hitsplats you actually see are misleading), allowing <:chaosroar:994644356671737966> → <:overpowerigneous:959089455640215633> to deal an absurdly large amount of damage.
+    • **If you are reading the guide at a point in time when this has been fixed, the rotations will no longer work and you will need to improvise or create your own rotations.**
+
+⬥ Remember to have an instance set up before your first kill so you can click "rejoin" on your first kill.
+
+⬥ Camp <:soulsplit:615613924506599497> and don't forget to dodge Avaryss's jumps.
+
+.
+**__Normal Mode__**
+**11.4s rotation** (less lenient)
+<:zerk:535532854004678657> and gain 50% adrenaline at War's Retreat → Enter instance + <:anti:535541306475151390> → <:freedom:535541258240786434> → <:bd:535532854281764884> + <:vulnbomb:655341074235129858> ground → (tc) + <:gbarge:535532879250456578> → bleed <:assault:535532855191928842> → <:cane:535532878969438210> → <:gfury:535532879334080527> → <:chaosroar:994644356671737966> → <:overpowerigneous:959089455640215633> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184>
+
+**11.4s-13.2s rotation** (more lenient)
+<:zerk:535532854004678657> and gain 25% adrenaline at War's Retreat → Enter instance + <:anti:535541306475151390> → <:freedom:535541258240786434> → <:bd:535532854281764884> + <:vulnbomb:655341074235129858> ground → (tc) + <:gbarge:535532879250456578> → bleed <:assault:535532855191928842> → <:cane:535532878969438210> → <:gfury:535532879334080527> → <:chaosroar:994644356671737966> → <:overpowerigneous:959089455640215633> → <:dragondagger:779048040644083733> <:eofspec:746403211908481184> → <:deci:535532879325822986>
+
+<:zerk:535532854004678657> in the first rotation may run out at the end of rotation if ticks are lost when entering instance due to the additional time spent gaining adrenaline at War's Retreat. You may execute the first rotation after gaining only 25% adrenaline if you use an <:adrenrenewal:736298121704767538> aftering entering the instance to give yourself more time.
+
+.
+**__Challenge Mode__**
+**24.6s rotation**
+Enter instance → <:anti:535541306475151390> → <:freedom:535541258240786434> → <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:vulnbomb:655341074235129858> ground → (tc) + <:gbarge:535532879250456578> → <:cane:535532878969438210> → <:quake:535532879506309150> → <:assault:535532855191928842> → <:gfury:535532879334080527> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:destroy:535532879330148352> → <:havocgop:994920849117282365> → <:dragon2hsword:1048592040507744257> <:eofspec:746403211908481184>
+
+.
 > **__AFK Strategy__**
 .tag:afk
 A full guide on how to AFK Twin Furies is available here: <#1023080021356728320>
+
+.
+> **__Example Videos__**
+.tag:example
+<https://www.youtube.com/watch?v=fzsozqX_58Q&ab_channel=no0lifeftw> - 11.4s normal mode
+<https://youtu.be/ut0_ZyPwikU> - 24.6s challenge mode
 .
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Advanced Melee Preset]($linkmsg_meleeadv$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Active Strategy]($linkmsg_active$)\n⬥ [AFK Strategy]($linkmsg_afk$)\n⬥ [Example Videos]($linkmsg_example$)",
     "color": 39423
   }
 }
