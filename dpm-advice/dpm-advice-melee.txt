@@ -472,7 +472,7 @@ __**Key Considerations**__
 ⬥ Camping <:abyssalscourge:947871842469834832> is extremely strong, and building stacks at the start of a fight is important to quickly benefit from the full bleed damage.
 ⬥ **Stacks can be gained faster using bleeds and multi-hit abilities**, including:
     • Dismember <:dismember:535532879376023572> is typically cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> but can be cast with <:abyssalscourge:947871842469834832> at the start of a fight to build stacks quicker.
-        - See the link below to get an idea of when this is worth doing.
+    • In rare cases <:dismember:535532879376023572> with <:abyssalscourge:947871842469834832> out damages <:deci:535532879325822986> in <:Berserk:513190158468907012>, see the link below to get an idea of when this is worth doing.
     • Similarly, the Ek-ZekKil special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184> can be cast with <:abyssalscourge:947871842469834832> for parasite stacks.
         - Only do this if you cannot benefit from the full 14 hits from using <:mwspear:694566917456789554> instead.
 ⬥ It is better to use Leng mainhand <:lengmh:883134308146098227> over <:abyssalscourge:947871842469834832> when:
@@ -487,8 +487,8 @@ __**Key Considerations**__
     "color": 15158332,
     "fields": [
       {
-        "name": "__Abyssal Scourge and Dismember__",
-        "value": "To see the when it is better to use <:dismember:535532879376023572> with <:abyssalscourge:947871842469834832> over <:mwspear:694566917456789554>, [click here](https://i.imgur.com/6rAKtFr.png)."
+        "name": "__Abyssal Scourge and 188__",
+        "value": "To see the when it is better to use <:dismember:535532879376023572> with <:abyssalscourge:947871842469834832> over <:deci:535532879325822986> in <:Berserk:513190158468907012>, [click here](https://i.imgur.com/6rAKtFr.png)."
       }
     ]
   }
@@ -530,14 +530,15 @@ __**Key Considerations**__
 .tag:msoa
 __**How It Works**__
 ⬥ The MSoA <:mwspear:694566917456789554> is the upgraded form of the regular Spear of Annihilation.
+⬥ It increases the **base** duration of bleed abilities by 50% rounded down.
 **⬥ It is recommended to use it as a bleed switch, perked with Lunging 4 <:lunge4:736522494315593759> for <:dismember:535532879376023572>.**
 ⬥ **The following bleeds are affected by <:mwspear:694566917456789554>:**
     • Dismember <:dismember:535532879376023572> (5 → 7 hits)
+        - With Strength Cape <:strcape:689503815296352308> <:dismember:535532879376023572> (8 → 10 hits)
     • Blood Tendrils <:bloodtendrils:535532854327640064> (5 → 7 hits)
     • Slaughter <:slaughter:535532879237873666> (5 → 7 hits)
     • Ek-ZekKil special attack (with EoF) <:zekkil:903244090953588787> <:eofspec:746403211908481184> (6 → 9 hits)
     • Massacre <:massacre:535532879384543253> (5 → 7 hits)
-⬥ The effect stacks with the Strength Cape <:strcape:689503815296352308> making <:dismember:535532879376023572> hit 10 times.
 ⬥ The effect does *not* work with Greater Barge <:gbarge:535532879250456578> bleeds, as they are not considered actual bleeds.
 
 .
@@ -603,10 +604,11 @@ __**Key Considerations**__
 > __**Gloves of Passage**__ <:Glovesofpassage:556588694862037012>
 .tag:gop
 __**How It Works**__
-⬥ The passive effect, *Enduring Rain*, causes Smash <:smash:535532879820619786> and Havoc <:havoc:535532879300526080> has two effects:
-    • Next non-bleed attack within 10t/6s deals ~10% more damage.
+⬥ The passive effect, *Enduring Ruin*, grants Smash <:smash:535532879820619786> and Havoc <:havoc:535532879300526080> two effects:
+    • Next non-bleed attack within 10t/6s deals ~10% more **additive** damage.
+        - This does not stack with <:Berserk:513190158468907012> or other boosting effects.
         - If a bleed ability is used, the effect is consumed but does not benefit the player.
-    • Target takes 20% more damage from bleeds for 17t/10.2s (including bleeds already in effect).
+    • Target takes 20% more **multiplicative** damage from bleeds for 17t/10.2s (including bleeds already in effect).
 ⬥ The effect is retained if switching gloves after using <:havocgop:994920849117282365> / <:smashgop:994929821727604808>.
 ⬥ If an Enchantment of Agony <:enchantmentofagony:1006481311378190456> is consumed, these gloves can be upgraded from T85 → T90 enhanced version to benefit from the following:
     • Damage-boosting effect increased by +6%.
@@ -618,6 +620,10 @@ __**Key Considerations**__
     • It also increases the parasite bleed from using <:abyssalscourge:947871842469834832> or <:abyssalarmourspikesalloy:947871842541129768>.
     • The MSoA <:mwspear:694566917456789554> only amplifies this effect.
 ⬥ **This makes <:havocgop:994920849117282365> / <:smashgop:994929821727604808> far stronger than their 157% maximum damage may suggest.**
+    • <:havocgop:994920849117282365> with 11 <:abyssalscourge:947871842469834832> stacks is stronger than:
+        -  <:deci:535532879325822986> / <:cleave:535532878616985610> / <:sever:535532879577612298>
+    • <:havocgop:994920849117282365> with an active <:dismemberlunge:867678153899769876> / <:slaughter:535532879237873666> / <:bloodtendrils:535532854327640064> / <:zekkil:903244090953588787> / <:abyssalscourge:947871842469834832> bleed is stronger than:
+        - <:backhandflank:867678153854025779> / <:fbackhandflank:867678153866870824> / <:quake:535532879506309150>
 
 .
 __**Stalling**__
@@ -690,7 +696,7 @@ This section covers weapons that are worth placing into an Essence of Finality <
 > __**Dragon Claws EoF**__ <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofred:780401412839833601>
 .tag:dclawseof
 __**How It Works**__
-⬥ Dragon Claws have a special attack called *Slice and Dice* <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofspec:746403211908481184> that consumes 50% adrenaline to deal 4 damaging hits on the target, dealing a total of 176-480% ability damage.
+⬥ Dragon Claws have a special attack called *Slice and Dice* <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofspec:746403211908481184> that consumes 50% adrenaline to deal 4 damaging hits on the target, dealing a total of 184-600% ability damage.
 ⬥ They are a useful way to dump excess adrenaline in scenarios such as:
     • Getting a Relentless <:relentless5:712244800920748092> proc after a Berserk <:zerk:535532854004678657>
     • Near the end of a kill where you no longer need the adrenaline.
@@ -699,6 +705,7 @@ __**How It Works**__
     • Melee Telos
     • Seiryu 1-cycle attempts
     • Advanced rotations are Solak and Ambassador
+    • Zamorak, Lord of Chaos.
 
 .
 > __**Statius' Warhammer (SWH) EoF**__ <:swh:641670143197446182> <:eofblack:780401412915855380>
@@ -727,6 +734,7 @@ __**How It Works**__
         - While the special attack is active, each time a bleed used on the target, <:zekkil:903244090953588787> <:eofspec:746403211908481184> gains 1 extra hit (capped at 5 extra hits).
 ⬥ **It is primarily used for its extremely strong special attack.**
 ⬥ **It is strongly recommended to EoF this weapon, as this allows it to be cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> which extends the bleed by 3 hits.**
+⬥ Strongly recommended to cast with <:chaosroar:994644356671737966> as it boosts both the initial cleave and bleed hitsplats.
 
 *Note: See the section on __**Ek-Zekkil (EZK)**__ for a list of abilities that do and don't extend <:zekkil:903244090953588787> <:eofspec:746403211908481184> duration.*
 
@@ -752,6 +760,8 @@ __**When to ZGS**__ <:zgs:626465964325601290> <:spec:537340400273195028>
 __**When to Overpower**__ <:overpowerigneous:959089455640215633>
 ⬥ You will almost always use Igneous Overpower because you can it get off fully, and the adrenaline costs manageable enough to use it mostly off-cooldown.
 ⬥ You can use it twice per minute (50t/30s cooldown) if you do it early enough within <:zerk:535532854004678657> but that depends more on your specific rotations.
+⬥ Will deal nearly identical damage outside of <:Berserk:513190158468907012> with multiple stacking bleeds.
+⬥ Due to hit-capping issues it's recommended to <:gfury:535532879334080527> before it.
 
 .
 __**Other**__
@@ -930,17 +940,17 @@ __**Berserk w/ Adren Renewal**__ <:adrenrenewal:736298121704767538>
 ⬥ 1x Hurricane <:cane:535532878969438210>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
+    • <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
 
 .
 __**Berserk w/ Limitless**__ <:limitless:641339233638023179>
 ⬥ 1x Destroy <:destroy:535532879330148352>
-⬥ 1x Greater Flurry <:flurry:864492981763702834> (3 hit)
+⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3 hit)
 ⬥ 1x Assault <:assault:535532855191928842>
 ⬥ 1x Hurricane <:cane:535532878969438210>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → <:limitless:641339233638023179> + <:gflurry:535532879283879977> (3 hit) → <:cane:535532878969438210> → <:assault:535532853979512842> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080>
+    • <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → <:limitless:641339233638023179> + <:gflurry:535532879283879977> (3 hit) → <:cane:535532878969438210> → <:assault:535532853979512842> → <:havocgop:994920849117282365>
 
 .
 __**Berserk w/ Adren Renewal + Smoke Cloud Berserk**__ <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050>
@@ -950,7 +960,7 @@ __**Berserk w/ Adren Renewal + Smoke Cloud Berserk**__ <:adrenrenewal:7362981217
 ⬥ 1x Hurricane <:cane:535532878969438210>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4 hit) → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:assault:535532853979512842> → <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4 hit) → <:havocgop:994920849117282365> → <:assault:535532853979512842> → <:cane:535532878969438210>
 
 .
 __**Berserk w/ 4-piece Vestments + Adren Renewal **__ <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538>
@@ -961,18 +971,18 @@ __**Berserk w/ 4-piece Vestments + Adren Renewal **__ <:vestmentsofhavoctop:9941
 ⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + Slaughter  <:slaughter:535532879237873666>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:lengmh:883134308146098227> <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:lengmh:883134308146098227> <:cane:535532878969438210>
 .
 __**Berserk w/ 4-piece Vestments + Adren Renewal + EZK EoF**__ <:vestmentsofhavoctop:994189295592161291> +<:adrenrenewal:736298121704767538> + <:zekkil:903244090953588787> <:eof:787526151978614824>
 ⬥ 1x Destroy <:destroy:535532879330148352>
 ⬥ 1x Assault <:assault:535532855191928842>
 ⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3 hit)
 ⬥ 2x Hurricane <:cane:535532878969438210>
-⬥ 1x Forceful Backhand (Flank) <:fbackhandflank:867678153866870824>
+⬥ 1x Backhand (Flank) <:backhandflank:867678153854025779>
 ⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + EZK special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → (equip <:vestmentsofhavochood:994189297659940904>) + <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → (equip <:jawsoftheabyss:947871842595639306>) + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:cane:535532878969438210>
 
 .
 __**Berserk w/ 4-piece Vestments + Adren Renewal + Limitless**__ <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538> + <:limitless:641339233638023179>
