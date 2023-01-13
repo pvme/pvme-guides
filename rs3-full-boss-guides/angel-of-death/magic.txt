@@ -182,7 +182,7 @@ Note: _If doing 0.6 or faster rot for p1, replace <:deto:535533833358016512> wit
 <:smokecloud:856635090641879050> <:sgb:626466665848242186> <:spec:537340400273195028> → <:gricocaroming:867678153966878740> → <:wrackandruin:856662355912032256> → <:bloodbarrage:537338981747261446> <:gconc:869285393223254107> → <:meta:535533811304497183> + <:adrenrenewal:736298121704767538> → <:aod:580167371365548042> <:comb:535533833098100745> → (walk 1 square) → <:dbreath:535533833391702017> → <:bloodbarrage:537338981747261446> <:gconc:869285393223254107> → <:wm:535533809978966037> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (4hit) → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:gstaff:513203008608141314> <:eofspec:746403211908481184>
 
 .
-⬥ **FSoA Rotation (Courtesy of <@223040416830849024>)**
+⬥ **Slow FSoA Rotation (Courtesy of <@223040416830849024>)**
 .tag:magebasefsoa
 .img:https://i.imgur.com/GlDDxNu.png
 .
@@ -232,6 +232,43 @@ _Notes:
 ⬥ If metamorphosis is used, make sure your autocast spell corresponds to your metamorphosis element_
 
 .
+⬥ __**Fast FSoA Rotation, ~1:30 Killtimes (Courtesy of <@655850979329179648>)**__
+.tag:fastfsoa
+.
+**__Prefight__**
+<:kalgscroll:841409588954923049> → <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:nat:535541258131865633> → <:freedom:535541258240786434> → <:anti:535541306475151390> → <:res:535541258844635148> → <:meteorstrike:535532879359377439> → <:gricocaroming:867678153966878740> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:gchain:787904334495088672> → <:gsunshine:994644352871714836> → <:gconc:869285393223254107> → <:dbreath:535533833391702017>
+
+_Notes:
+⬥ Start fight as <:nat:535541258131865633> ends
+⬥ Enter the instance with <:disrupt:535614336207552523> on_
+
+.
+**__Phase 1__**
+0.6 <:magmatempesttarget:924741973858996284> → <:deto:535533833358016512> → 6 <:kalgscroll:841409588954923049> <:vulnbomb:655341074235129858> <:smokecloud:856635090641879050> <:deto:535533833358016512> <:omni:535533809664262179> → <:asphyx:535533833072672778> (3t) → <:smoketendrils:536257336130404372> → <:dbreath:535533833391702017>
+
+_Note: Cancel <:smoketendrils:536257336130404372> with <:dbreath:535533833391702017> just before <:aod:580167371365548042> reaches 2.1m hp_
+
+.
+**__Phase 2__**
+<:Shard:583429757975396366> →  <:comb:535533833098100745> → <:corruptblast:513190159194259467> → (dw) <:wrack:856662355952795658> → (2h) <:bloodbarrage:537338981747261446> <:wm:535533809978966037> → <:iceamalg:878739231785222154> <:tsunami:535533809995874304> → <:dbreath:535533833391702017> → <:bloodamalg:878739232447938670> <:gconc:869285393223254107> → <:gchain:787904334495088672>
+
+.
+**__Phase 3__**
+<:comb:535533833098100745> → <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:omni:535533809664262179> → <:wm:535533809978966037> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> → <:asphyx:535533833072672778> → basics till phased → <:surge:535533810004262912> to lure
+
+.
+**__Lure__**
+<:ingen:641339234111848463> <:swh:641670143197446182> <:eofspec:746403211908481184> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:vulnbomb:655341074235129858> <:divert:787904334377648130>
+
+.
+**__Last Pillar and Zaros__**
+(pillar) pre <:magmatempesttarget:924741973858996284> + <:vulnbomb:655341074235129858> → <:meta:535533811304497183> + <:enhreplen:634350450887622656> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:aod:580167371365548042> <:omni:535533809664262179> → <:smoketendrils:536257336130404372> (7t) → <:Shatter:536256673904328704> → <:asphyx:535533833072672778> (3t) → <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+
+_Notes:
+⬥ Use <:tsunami:535533809995874304> ASAP whenever it comes off cd
+⬥ Spam <:gstaff:513203008608141314> <:eofspec:746403211908481184> until dead_
+
+.
 > **__Example Kills__**
 .tag:egmagebase
 ⬥ **Magic Base (FSoA)** - <https://www.youtube.com/watch?v=HLpPFTbh_bQ&ab_channel=Ed>
@@ -254,7 +291,7 @@ _Notes:
       },
 	  {
 	    "name": "__Mage Base__",
-        "value": "[Introduction]($linkmsg_magebase$)\n[Role Responsibilities]($linkmsg_magebaserr$)\n[Preset]($linkmsg_magebasepreset$)\n[Non-FSoA Rotation]($linkmsg_magebasenonfsoa$)\n[FSoA Rotation]($linkmsg_magebasefsoa$)\n[Example Kills]($linkmsg_egmagebase$)",
+        "value": "[Introduction]($linkmsg_magebase$)\n[Role Responsibilities]($linkmsg_magebaserr$)\n[Preset]($linkmsg_magebasepreset$)\n[Non-FSoA Rotation]($linkmsg_magebasenonfsoa$)\n[Slow FSoA Rotation]($linkmsg_magebasefsoa$)\n[Fast FSoA Rotation]($linkmsg_fastfsoa$)\n[Example Kills]($linkmsg_egmagebase$)",
 		"inline": true
       }
     ]
