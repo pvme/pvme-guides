@@ -145,17 +145,36 @@
 .
 
 .
-> **__Pvm Incense Stick Guide__**
+> **__Incense Sticks__**
 .tag:incense
 {
   "embed": {
     "title": "__Incense Sticks__",
-    "description": "⬥ Refer to specific boss guides to see stick usage\n⬥ Each stick increases buff duration by 10min, capping at 60 minutes\n⬥ Potency has 4 ranks, increasing by 1 every 10min (maxes after 30min)\n\u00a0\u00a0\u00a0\u00a0• Use 6 sticks to 'overload' and start at rank 4 potency (starts at 10min)\n⬥ Any form of death results in losing your incense buffs\n⬥ At 95 <:firemaking:1011705727041163396> you can have 3 incense effects active at once",
+    "description": "⬥ Refer to specific boss guides to see stick usage\n⬥ Each stick increases buff duration by 10min, capping at 60 minutes\n⬥ Potency has 4 ranks, increasing by 1 every 10min (maxes after 30min)\n\u00a0\u00a0\u00a0\u00a0• Use 6 sticks to 'overload' and start at rank 4 potency (starts at 10min)\n⬥ Any form of death results in losing your incense buffs\n\u00a0\u00a0\u00a0\u00a0• An upgrade purchaseable from [Sydekix's Shop of Balance](https://runescape.wiki/w/Sydekix%27s_Shop_of_Balance) prevents this\n⬥ At 95 <:firemaking:1011705727041163396> you can have 3 incense effects active at once",
     "color": 39423,
     "fields": [
       {
         "name": "__Notable Incense Sticks__",
         "value": "⬥ **Spirit Weed** <:SpiritSticks:565726489136463894> - (10 * potency)% increased <:Summoning:583430259064569856> spec attack recovery rate\n⬥ **Kwuarm** <:KwuarmSticks:565726489341984779> - Deal +(2.5 * potency)% poison damage\n⬥ **Irit** <:IritSticks:690987265371144202> - (25 * potency)% posion damage reduction\n⬥ **Lantadyme** <:LantaSticks:565726489404899368> - Increases timed potion durations by (0.5 * Potency)min\n⬥ **Fellstalk** <:FellstalkSticks:690987265421213746> - Potency% increased chance for spawning elite <:slayer:797896049548066857> mobs"
+      }
+    ]
+  }
+}
+.embed:json
+.
+
+.
+> **__Prayer Powders__**
+.tag:powders
+{
+  "embed": {
+    "title": "__Powders__",
+    "description": "⬥ Each powder increases buff duration by 30 min, capping at 60 minutes\n⬥ Any form of death results in losing your incense buffs\n",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Notable Powders__",
+        "value": "⬥ **Penance** <:powderofpenance:928221126360969226> - Restores <:prayer:1005450651347730533> points equal to 2.5% of damage received\n⬥ **Protection** <:powderofitemprotection:1043953716908269598> - 1 more item protected with Protect Item <:protectitem:1010486261682810891>\n\u00a0\u00a0\u00a0\u00a0• You can still only protect 5 items max"
       }
     ]
   }
