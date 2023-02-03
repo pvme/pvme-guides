@@ -22,7 +22,7 @@
     "fields": [
       {
         "name": "__Power Armour__",
-        "value": "⬥ GWD1 Armour <:Subjugation:513190159429402664> (T70)\n⬥ Ancient Warrior <:zurieltop:1004090526250827867> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:SuperiorZurielstop:556586037216804864> is T88\n⬥ **Nex Armour** <:VirtusTop:556586038936600603> (T80)\n⬥ Anima Armour <:animabodyseren:923248695846273054> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ Elite Robinhood <:EliteRobinHoodTop:556585903489810454> (T82)\n⬥ Tectonic <:tectbody:643849268804714506> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitetectbody:552955120707698699> is T92\n⬥ **Sirenic** <:sirenicbody:643846948570267648> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitesirenicbody:643846908305211413> is T92\n⬥ Masterwork <:masterworkbody:643847056527458324> (T90)\n\u00a0\u00a0\u00a0\u00a0• Trimmed <:tmwbody:643847118196441088> is T92\n⬥ Malevolent <:malevbody:643846996842512405> (T90)\n⬥ **Vestments of Havoc** <:vestmentsofhavoctop:994189295592161291> (T95)",
+        "value": "⬥ GWD1 Armour <:Subjugation:513190159429402664> (T70)\n⬥ Ancient Warrior <:zurieltop:1004090526250827867> (T78)\n\u00a0\u00a0\u00a0\u00a0• **Superior** <:SuperiorZurielstop:556586037216804864> is T88\n⬥ Nex Armour <:VirtusTop:556586038936600603> (T80)\n⬥ Anima Armour <:animabodyseren:923248695846273054> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ Elite Robinhood <:EliteRobinHoodTop:556585903489810454> (T82)\n⬥ Tectonic <:tectbody:643849268804714506> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitetectbody:552955120707698699> is T92\n⬥ **Sirenic** <:sirenicbody:643846948570267648> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitesirenicbody:643846908305211413> is T92\n⬥ Masterwork <:masterworkbody:643847056527458324> (T90)\n\u00a0\u00a0\u00a0\u00a0• Trimmed <:tmwbody:643847118196441088> is T92\n⬥ Malevolent <:malevbody:643846996842512405> (T90)\n⬥ **Vestments of Havoc** <:vestmentsofhavoctop:994189295592161291> (T95)",
         "inline": true
       },
       {
@@ -35,11 +35,11 @@
 }
 .embed:json
 **__Notable Armour__**
-⬥ <:vestmentsofhavoctop:994189295592161291> has effects that greatly benefit melee. Should be used over <:tmwbody:643847118196441088>. Does T100 damage and has armour equal to T75 power armour
-⬥ <:sirenicbody:643846948570267648> is solid cheap ranged power armour
-⬥ <:VirtusTop:556586038936600603> (Virtus) is solid cheap magic power armour
-⬥ <:ganobody:1003947805611655208> is very cheap magic tank gear to use with Animate Dead <:animatedead:856635090453135382>
-⬥ <:cryptbloombody:892819107253194762> is the best tank armour in game, but not always needed - see `!crypt`
+⬥ <:vestmentsofhavoctop:994189295592161291> (Vestments of Havoc) has effects that greatly benefit melee. Should be used over <:tmwbody:643847118196441088>. Does T100 damage and has armour equal to T75 power armour
+⬥ <:sirenicbody:643846948570267648> (Sirenic) is solid cheap ranged power armour
+⬥ <:SuperiorZurielstop:556586037216804864> (Superior Zuriel) is solid cheap magic power armour
+⬥ <:ganobody:1003947805611655208> (Ganodermic) is very cheap magic tank gear to use with Animate Dead <:animatedead:856635090453135382>
+⬥ <:cryptbloombody:892819107253194762> (Cryptbloom) is the best tank armour in game, but not always needed - see `!crypt`
 
 .
 > **__Gloves__**
@@ -240,7 +240,7 @@
     "fields": [
       {
         "name": "__Ring of Death__ <:RoD:513190159462825984>",
-        "value": "⬥ On target death, 50% chance to gain 1% adren per 1.5k hp of it (caps at 5%)\n⬥ On player death, avoid Death's office for 15% (3% if overcharged) charge\n⬥ Overchargeable at Death for 5 cut onyx and 25 <:blackstoneheart:643162243571122196> (has 5x charges)"
+        "value": "⬥ On target death, 50% chance to gain 1% adren per 1.5k hp of it (caps at 5%)\n⬥ On player death, the player is revived at full health and a damage-over-time effect is applied for three minutes\n⬥ Overchargeable at Death for 5 cut onyx and 25 <:blackstoneheart:643162243571122196> (has 5x charges)"
       },
       {
         "name": "__Channeler's Ring__ <:channellerring:839903943404027914>",
@@ -353,7 +353,13 @@
   "embed": {
     "title": "__Preset Contents__",
     "color": 39423,
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Tank armour, shield, and other HP-boosting gear for bonfire\n⬥ Preferred summoning familiars & scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Potions to use pre-fight\n\u00a0\u00a0\u00a0\u00a0• Overload <:elderovlsalve:648976643687317532>, Weapon Poison+++ <:weppoison:689525476158472288>, Thermal Flask <:thermalflask:689530593796423724>\n⬥ Runes to restock pouches, and Magic cape to change spellbooks\n⬥ Incense sticks - Spirit Weed <:SpiritSticks:565726489136463894>, Kwuarm <:KwuarmSticks:565726489341984779>, Lantadyme <:LantaSticks:565726489404899368>\n⬥ Preferred book <:grim:568262896375824385> and pages <:grimpage:643168594493964298>\n⬥ Divine Charges <:divinecharge:1010485547598356530> and assorted utility items"
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Tank armour, shield, and other HP-boosting gear for bonfire\n⬥ Preferred summoning familiars & scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Potions to use pre-fight\n\u00a0\u00a0\u00a0\u00a0• Overload <:elderovlsalve:648976643687317532>, Weapon Poison+++ <:weppoison:689525476158472288>, Thermal Flask <:thermalflask:689530593796423724>\n⬥ Runes to restock pouches, and Magic cape to change spellbooks\n⬥ Incense sticks - Spirit Weed <:SpiritSticks:565726489136463894>, Kwuarm <:KwuarmSticks:565726489341984779>, Lantadyme <:LantaSticks:565726489404899368>\n⬥ Preferred book <:grim:568262896375824385> and pages <:grimpage:643168594493964298>\n⬥ Divine Charges <:divinecharge:1010485547598356530> and assorted utility items",
+    "fields": [
+      {
+        "name": "__Example Banking Presets__",
+        "value": "Some players' banking presets for reference.\n[Rcm37](https://i.imgur.com/ErmogoQ.png), [Rin](https://i.imgur.com/ke7HOPo.png), [Dyanne](https://i.imgur.com/RiiXthi.png), [Just Eswar](https://i.imgur.com/7zbu9sY.png), [HightDetal](https://i.imgur.com/wp5RQ68.png), [I O](https://cdn.discordapp.com/attachments/1066489551947825193/1066495892498153583/image.png), [Void](https://i.imgur.com/6ep8iC9.png)"
+      }
+    ]
   }
 }
 .embed:json
