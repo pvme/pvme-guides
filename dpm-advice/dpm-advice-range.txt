@@ -782,6 +782,33 @@ __**List of Overrides**__
 ⬥ 1x Snapshot <:snap:535534127131394088>
 
 .
+> **__Poison Build Rotation Guidance__** <:bikarrow:971025697235689513>
+.tag:poison
+As mentioned in the Ammo section, Bik Arrows <:bikarrow:971025697235689513>are extremely strong against poisonable targets with large HP pools (Solo Kerapac <:kerapac:875443920673337344> Solak <:solak:580167371310891029> 1-4k Arch-Glacor <:glacor:1004107344935923743>). At 200 stacks of Evolving Toxin <:evolvingtoxin:1016651068882550885> (400%), poison hit splats can output massive damage. This section covers tips and strategies to maximise the potential poison damage when using Bik Arrows <:bikarrow:971025697235689513>
+
+.
+**__Preset and Synergy Considerations__**
+⬥ Cinderbane Gloves <:cinderbanes:513190158355660812>, Weapon Poison (+++) <:weppoison:689525476158472288>, and Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779> should all be used as standard poison damage buffs.
+⬥ <:reaverpouch:839903693837959228> Blood Reaver is the best familiar to use with poison builds due to the passive effect which applies additional hits for each healing method active (up to 4). These hits have the usual chance to proc poison which accumulates lots of damage when effected by Cinderbane Gloves <:cinderbanes:513190158355660812> and Bik Arrows' <:bikarrow:971025697235689513> Evolving Toxin effect <:evolvingtoxin:1016651068882550885>
+    • <:vampaura:643505653079343144> Vampyrism Aura is considered BIS at poisonable bosses where you don't have hit chance issues, as this provides additional Blood Reaver <:bloodreaver:929773044296216666> hits.
+    • <:blackcrystal:1000328247441104917> Black Crystal can be used to reduce healing, which will keep you below max HP more often, giving the Blood Reaver <:bloodreaver:929773044296216666> passive more opportunity to hit the target.
+⬥ <:wyverncrossbow:580177522587729940> Wyvern Crossbow with Emerald Bakriminel bolts <:emeraldbakri:866551637714665484> performs very well when the target has 200 Evolving Toxin <:evolvingtoxin:1016651068882550885> stacks. It is slightly worse than using a Bow of the Last Guardian <:bolg:994189289623662702>, but is much less expensive. This can be paired with a Noxious Longbow <:noxbow:513190159425208342> or a Seren Godbow <:sgb:626466665848242186> to form a very strong poison build.
+⬥ <:ecb:615618531937222657> Hitsplats of Split Soul, the Eldritch Crossbow special attack <:ecb:615618531937222657><:spec:537340400273195028>, can also proc poison.
+⬥ <:scriptureofwen:883134307902816297> Scripture of Wen hits can proc poison and is considered the best pocket slot item for poison builds.
+
+.
+**__Ability Prioritisation__**
+⬥ At the start of a fight or when the target has low Evolving Toxin <:evolvingtoxin:1016651068882550885> stacks, the priority is to apply Bik Arrows <:bikarrow:971025697235689513> as often as possible to build to 200 stacks (400%) quickly. General rotations listed above can be used, but should prioritise abilities with multiple hits:
+    • <:grico:787904334812807238> / <:rapid:535541270521708566> / <:snap:535534127131394088> are all multi hit abilities that should be ideally used when they are off cooldown throughout the fight.
+    • Bleeds and damage-over-time abilities only apply 1 stack of Evolving Toxin <:evolvingtoxin:1016651068882550885> and should not be prioritised when building stacks.
+    • <:sgb:626466665848242186><:spec:537340400273195028> Seren Godbow special attack only applies 1 stack despite hitting 5 times.
+⬥ Once a target has Evolving Toxin <:evolvingtoxin:1016651068882550885> stacks, you must apply a Bik Arrow <:bikarrow:971025697235689513> to the target at least once every 30 seconds to upkeep stacks.
+⬥ Once 100 Evolving Toxin <:evolvingtoxin:1016651068882550885> stacks (200%) are reached it is recommended to shift focus to applying more hit splats for maximum poison proc chances. At 200 stacks (400%), you should switch to an alternative ammo.
+    • <:grico:787904334812807238> / <:rapid:535541270521708566> / <:snap:535534127131394088> / <:deadshot:535541307666595870> / <:corruptshot:535541306294796299> / <:frag:535541273755385885> are all high priority abilities for maximising hit splats, even while using Death's Swiftness <:deathsswift:994921434633744455>. Abilities like Snipe <:snipe:535541258425204770> should be lower priority now.
+    • If continuing to camp a bow <:bolg:994189289623662702>, switch to Ful Arrows <:fularrow:971025696958853180>
+    • If utilising the Wyvern Crossbow <:wyverncrossbow:580177522587729940>, switch to Emerald Bakriminel Bolts <:emeraldbakri:866551637714665484>
+
+.
 {
   "embed": {
     "title": "Table of Contents",
@@ -820,6 +847,11 @@ __**List of Overrides**__
       {
         "name": "__Death's Swiftness Rotations__",
         "value": "⬥ [General DS Rotations]($linkmsg_ds$)",
+        "inline": true
+      },
+      {
+        "name": "__Poison Build (Bik Arrows)__",
+        "value": "⬥ [Bik Arrow Rotation Guidance]($linkmsg_poison$)",
         "inline": true
       }
     ]
