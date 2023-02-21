@@ -28,7 +28,6 @@ It is assumed that Zuk capes <:igneouskalmej:902209626408382494> <:igneouskalxil
     • <:pf:689501925770919981> Pf switch for <:Magic:689504724159823906> and <:Ranged:689504724403486920>
     • For <:reflect:535541258786177064> and <:res:535541258844635148>
 ⬥ <:vulnbomb:655341074235129858> Vulnerability bombs
-⬥ <:infernalpuzzlebox:994189299681607800> Infernal Puzzle Box *(to be added to preset images)*
 
 .
 **__Melee__ <:melee:615612332521029632>**
@@ -85,7 +84,7 @@ Zamorak's damage and HP scales with enrage
       },
       {
         "name": "__Flames of Zamorak__",
-        "value": "⬥ Zamorak says `The world will burn.` and slams his wings into the ground, dealing 2 heavy melee hits.\n\u00a0\u00a0\u00a0\u00a0• Step under Zamorak, use <:DeflectMelee:544195488447201300> (use defensives if low hp)\n\u00a0\u00a0\u00a0\u00a0• If any black smoke is absorbed, use defensives to mitigate damage.\n\u200B"
+        "value": "⬥ Zamorak says `The world will burn.` and slams his wings into the ground, dealing 2 heavy melee hits.\n\u00a0\u00a0\u00a0\u00a0• Step into melee distance of Zamorak, use <:DeflectMelee:544195488447201300> (use defensives if low hp)\n\u00a0\u00a0\u00a0\u00a0• Generally, the smoke will go to the Eastern most player.\n\u00a0\u00a0\u00a0\u00a0• If any black smoke is absorbed, use defensives to mitigate damage.\n\u200B"
       },
       {
         "name": "__Chaos Blast__",
@@ -126,16 +125,18 @@ Zamorak's damage and HP scales with enrage
     "color": 39423,
     "fields": [
       {
-        "name": "__123456 Order__",
-        "value": "⬥ Pros: Easy to navigate, extra adrenaline, abilities off cooldown faster.\n⬥ Cons: Must defeat the coven, incoming damage +~30% throughtout fight\n\u200B"
+        "name": "__Groups (Any Style)__",
+        "value": "⬥ **< 100%:** 2 1 4 6 5 3\n⬥ **100 - 899%:** 2 4 6 1 5 3 **or** 2 1 4 6 5 3\n⬥ **> 900%:** 2 4 3 6 1 5"
       },
       {
-        "name": "__146253 Order__",
-        "value": "⬥ Pros: Extra adrenaline, healing after ultimate abilities, extra damage at <60% hp.\n⬥ Cons: Incoming damage +~30% throughtout fight, greatly reduced damage reduction, much less healing from food.\n\u200B"
+        "name": "__Solo Magic__ <:Magic:689504724159823906>",
+        "value": "⬥ **100 - 899%:** 2 1 4 6 5 3 \n⬥ **> 900%**: 2 4 3 6 1 5 **or** 2 4 6 1 3 5",
+        "inline": false
       },
       {
-        "name": "__142653 Order__",
-        "value": "⬥ Pros: Extra adrenaline, healing after ultimate abilities, abilities off cooldown faster.\n⬥ Cons: Incoming damage +~30% throughtout fight, greatly reduced damage reduction, executed at 5-20% HP remaining.\n\u200B"
+        "name": "__Solo Ranged__ <:Ranged:689504724403486920>",
+        "value": "⬥ **100 - 499%:** 2 1 4 6 5 3 \n⬥ **500 - 899%:** 4 6 2 1 3 5 \n⬥ **> 900%:** 2 3 4 1 6 5",
+        "inline": true
       }
     ]
   }
