@@ -1,25 +1,68 @@
 **__Dagannoth Kings__**
-.
-.img:https://i.imgur.com/NVCr6iF.png
-.
-> **__AFK Method (~110-120 KPH)__**
+> **__AFK Melee Strategy__(~110-120 KPH)**
+*Note: a **Table of Contents** can be found in the pins.*
 
 .
 **__Explanation__**
-It’s possible to AFK the Dagannoth Kings by using poison damage and blood reaver.
+.tag:intro
+It’s possible to AFK the Dagannoth Kings using <:melee:615612332521029632> by taking advantage of the synergy between <:weppoison:689525476158472288> and <:reaverpouch:839903693837959228>.
+
+⬥ Healing from various sources such as <:IceAsylum:553050196817215491>, <:VampScrim:513201294262009874> and <:soulsplit:615613924506599497> trigger the <:reaverpouch:839903693837959228> passive damage which together with <:weppoison:689525476158472288> can take down Dagannoth Supreme and Dagannoth Prime despite them being immune to <:melee:615612332521029632>
+⬥ Poison damage from <:weppoison:689525476158472288> is augmented:
+    • Laniakea's spear <:lanispear:839903893177106454> passive effect.
+    • Cinderbane gloves <:Cinderbanes:513190158355660812>
+    • Kwuarm incense sticks <:KwuarmSticks:565726489341984779>
+⬥ <:kineticcyclone:798285651405438997> is used over <:oldakcoil:798285651387613194> as it triggers <:VampScrim:513201294262009874> healing thus greater sustain and more <:weppoison:689525476158472288> hits.
+
 .
-⬥ Camp Soul Split <:soulsplit:615613924506599497> and Turmoil <:turmoil:583429936606347280>
-⬥ Vampyrism aura <:vampaura:643505653079343144>, Scrimshaw of vampryrism <:VampScrim:513201294262009874>, and Brawler's blood necklace help keep health up.
-⬥ Poison damage comes from Laniakea's spear <:lanispear:839903893177106454>, Cinderbane gloves <:Cinderbanes:513190158355660812>, and Kwuarm incense sticks <:KwuarmSticks:565726489341984779>.
-⬥ Kinetic cyclone <:kineticcyclone:798285651405438997> is used for vamp scrim healing and more poison hits.
+__**Mandatory AFK Requirements**__
+.tag:mand
+{
+  "embed": {
+    "title": "__Mandatory AFK Requirements__",
+    "description":"This setup should reliably allow you to AFK Dagannoth Kings.\nThe following are required or this method will not work:\n\n⬥ Superior/Tradeable Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Fortitude <:fortitude:537341748180025365>\n⬥ Elder Overload <:elderovl:841419289831800882>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Kwuarm incense sticks <:KwuarmSticks:565726489341984779>\n⬥ Upgraded kinetic cyclone <:kineticcyclone:798285651405438997>\n⬥ Augmented Laniakea's spear <:lanispear:839903893177106454>\n\u00a0\u00a0\u00a0\u00a0• Precise 6 and Aftershock 4 are highly recommended <:p6:712073088769982475> <:as4:712074245202772009>\n⬥ Perked Masterwork/Trimmed masterwork armour <:tmwbody:536966366272552960> <:masterworkbody:643847056527458324>\n\u00a0\u00a0\u00a0\u00a0• Biting 4 <:biting4:712073087809617931> highly recommended.\n\u00a0\u00a0\u00a0\u00a0• Damage reducing perks such as <:lucky6:890542428287795221> or <:absorbative4:890542428556230666> may help with survivability.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- These perks may reduce prayer upkeep from <:powderofpenance:928221126360969226>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Blood Reaver <:reaverpouch:839903693837959228>\n⬥ Vampirism Aura <:vampaura:643505653079343144>\n⬥ Ice Asylum and/or Enchanced Excalibur <:IceAsylum:553050196817215491> <:excal:641337999170207763>\n⬥ Abyssal armour spikes <:abyssalarmourspike:1004107347259555981>\n⬥ Auto-retaliate is on",
+    "color": 39423,
+    "footer": {
+      "text": "Cutting corners will result in failure"
+    }
+  }
+}
+.embed:json
 .
 **__Preset__**
-.img:https://i.imgur.com/80c74N0.png
+.tag:preset
+.img:https://i.imgur.com/x1l515B.png
+.
+__**Relic Setup**__
+.tag:relics
+⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
+⬥ <:deathward:697808774068699286> Death's Ward
+⬥ <:furyofthesmall:697808773917573233> Fury of the Small
+
+⬥ Other combinations can work, or may be better. Some other viable relics include **Font of life** <:fontoflife:698225967679930408> or **Berserker's Fury** <:berserkersfury:697808774106185768>
+
 .
 __**Action Bar**__
-.img:https://i.imgur.com/K7qtqOs.png
+.tag:bar
+.img:https://i.imgur.com/EwOS9lg.png
 .
 **__Example Kills__**
+.tag:example
+.
 https://youtu.be/d1DmEQMkW0I
 .
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+	    "name": "__AFK Melee Strategy__",
+        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Relic Setup]($linkmsg_relics$)\n⬥ [Action Bars]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
+		"inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .pin:delete
