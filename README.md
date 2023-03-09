@@ -12,4 +12,3 @@ If you're interested in contributing, contact Hoobs#3248 or Ry#3050 on discord, 
 ## Navigation
 The layout of the repository mirrors the layout of the server, so if you're looking to edit a guide, simply navigate as if you were in the discord server.
 
-## Testing Section
