@@ -347,6 +347,32 @@ All runs are done with close to BIS perks, expect slower times if using entry le
 .
 {
   "embed": {
+    "title": "Supplementary Videos",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Example Runs__",
+        "value": "⬥ [Magic]()\n⬥ [Melee]()\n⬥ [Ranged]()",
+        "inline": true
+      },
+      {
+        "name": "__Boss Guides__",
+        "value": "⬥ [Crassian Leviathan](https://www.youtube.com/watch?v=zs8HXmMTLO0)\n⬥ [Taraket](https://www.youtube.com/watch?v=_LELEW40G_k)\n⬥ [The Ambassador](https://www.youtube.com/watch?v=VudEJXfZrNw)",
+        "inline": true
+      },
+      {
+        "name": "__Additional Resources__",
+        "value": "⬥ [Supplementary Videos]($linkmsg_examples$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
     "title": "Table of Contents",
     "color": 39423,
     "fields": [
@@ -357,12 +383,12 @@ All runs are done with close to BIS perks, expect slower times if using entry le
       },
       {
         "name": "__Dungeon Guide__",
-        "value": "[Dungeon (1/3)]($linkmsg_dung1$)\n[Crassian Leviathan]($linkmsg_crassianmechs$)\n[Dungeon (2/3)]($linkmsg_dung2$)\n[Taraket]($linkmsg_taraketmechs$)\n[Dungeon (3/3)]($linkmsg_dung3$)\n[The Ambassador]($linkmsg_ambimechs$)",
+        "value": "⬥ [Dungeon (1/3)]($linkmsg_dung1$)\n⬥ [Crassian Leviathan]($linkmsg_crassianmechs$)\n⬥ [Dungeon (2/3)]($linkmsg_dung2$)\n⬥ [Taraket]($linkmsg_taraketmechs$)\n⬥ [Dungeon (3/3)]($linkmsg_dung3$)\n⬥ [The Ambassador]($linkmsg_ambimechs$)",
         "inline": true
       },
       {
         "name": "__Additional Resources__",
-        "value": "[Supplementary Videos]($linkmsg_examples$)",
+        "value": "⬥ [Supplementary Videos]($linkmsg_examples$)",
         "inline": true
       }
     ]
