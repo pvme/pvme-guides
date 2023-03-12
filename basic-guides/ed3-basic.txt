@@ -7,59 +7,59 @@ ED3 is generally considered the hardest Elite Dungeon in the trilogy, in most pa
 .
 > __**Presets**__
 .tag:preset
-__**All Styles**__
-⬥ <:mani:643505153709965322> / <:reckless:643505179378974748> Berserker-variant aura if <:Magic:689504724159823906> / <:Ranged:689504724403486920>
-    • <:vampaura:643505653079343144> Vampyrism aura if <:melee:615612332521029632> (also viable for <:Magic:689504724159823906> / <:Ranged:689504724403486920>)
-⬥ <:kalgpouch:921410226484301925> Kal'gerion Demon with <:kalgscroll:841409588954923049>
-    • <:reaverpouch:839903693837959228> Blood Reaver if using <:vamp:643505653079343144>
-⬥ <:accel:756236265472524418> Powerburst of Acceleration
-⬥ <:vitality:654618235097972737> Powerburst of Vitality
-⬥ <:salveamulet:797899945730244648> Salve amulet (e) for Taraket and undead mobs
-⬥ <:ancientdefender:643846874498990120> / <:ancientrepriser:643150658891153428> / <:ancientlantern:580177522503712781> for shield abilities, and <:pf:689501925770919981> for <:range:580168050121113623> / <:Magic:689504724159823906>
-
-.
-__**Magic Preset**__
-⬥ <:gconc:869285393223254107> Greater Concentrated Blast unlocked
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:animatedead:856635090453135382> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
-.
-.img:https://i.imgur.com/puNIlJc.png
-.
-
-.
-__**Melee Preset**__
-⬥ <:lanispear:839903893177106454> <:noxscythe:513190159341322240> Halberd type weapon for efficient clearing of mobs.
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
-.
-.img:https://i.imgur.com/9SDkfyA.png
-.
-
-.
-__**Ranged Preset**__
-⬥ <:mechchin:641669268722810881> Mechanised Chinchompas for mobs and Taraket.
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
-.
-.img:https://i.imgur.com/AJannvv.png
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/mYnzcHG.mp4)\n⬥ [Breakdown](https://i.imgur.com/oFvx2jo.mp4)",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/mYnzcHG.mp4)\n⬥ [Breakdown](https://i.imgur.com/oFvx2jo.mp4)",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/mYnzcHG.mp4)\n⬥ [Breakdown](https://i.imgur.com/oFvx2jo.mp4)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Recommended Upgrades__**
 .tag:upgrades
-Some additional items to bring if you have them, or acquire if you can afford them.
-
-⬥ **Melee**
-    • <:eofred:780401412839833601> with Dragon 2H sword <:dragon2hsword:1048592040507744257>
-
-⬥ **Ranged**
-    • Greater Ricochet <:grico:787904334812807238> with Caroming 4 <:caroming4:791281588792590336>
-    • <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-
-⬥ **Magic**
-    • Greater Chain <:gchain:787904334495088672> with Caroming 4 switch <:caroming4:791281588792590336>
-    • <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
+{
+  "embed": {
+    "title": "",
+    "description": "Additional items to bring if possible, or acquire if you can afford to.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ Greater Chain <:gchain:787904334495088672> w/ Caroming 4 switch <:caroming4:791281588792590336>\n⬥ <:eofpurple:780401412936040478> w/ Guthix Staff <:gstaff:513203008608141314>",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ <:eofred:780401412839833601> w/ Dragon 2H <:dragon2hsword:1048592040507744257>",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ Greater Ricochet <:grico:787904334812807238> w/ Caroming 4 <:caroming4:791281588792590336>\n⬥ <:eofgreen:780401412727242773> w/ Dark Bow <:dbow:643848618553507843>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > __**Dungeon Walkthrough (1/3)**__
