@@ -3,22 +3,23 @@
 .img:https://i.imgur.com/lSVgwyB.png
 
 .
-> **__Preset__**
-.tag:preset
-**__Ranged Solo__**
-⬥ <:reaverpouch:839903693837959228> Blood Reaver Familiar + <:reaverscroll:1022562484378419284>
-⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-⬥ <:strykebow:643109318845267988> with Planted Feet <:pf:689501925770919981>
-⬥ <:weppoison:689525476158472288> Weapon Poison +++
-⬥ <:KwuarmSticks:565726489341984779> Kwuarm Incense Sticks used before starting
-⬥ <:pernixsquivergreen:923269339325554688> Pernix Quiver (<:fularrow:971025696958853180> + <:bikarrow:971025697235689513> )
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:prismofrestoration:938475261366784070>)
-⬥ <:DeflectMelee:544195488447201300> will be used for the duration of the fight, with <:soulsplit:615613924506599497> flicking being recommended
-.img:https://i.imgur.com/iHYI5F9.png
-*Note: full preset breakdown available here: <https://i.imgur.com/0CbqEed.png>*
+> __**Presets**__
+.tag:presets
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/iHYI5F9.png)\n⬥ [Breakdown](https://i.imgur.com/0CbqEed.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 > **__Phase One Mechanics__**
 .tag:p1
@@ -243,7 +244,7 @@
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "⬥ [Presets]($linkmsg_preset$)\n⬥ [P1 Mechanics]($linkmsg_p1$)\n⬥ [P2 Mechanics]($linkmsg_p2$)\n⬥ [P3 Mechanics]($linkmsg_p3$)\n⬥ [P4 Mechanics]($linkmsg_p4$)\n⬥ [Basic Strategy]($linkmsg_strats$)",
+    "description": "⬥ [Presets]($linkmsg_presets$)\n⬥ [P1 Mechanics]($linkmsg_p1$)\n⬥ [P2 Mechanics]($linkmsg_p2$)\n⬥ [P3 Mechanics]($linkmsg_p3$)\n⬥ [P4 Mechanics]($linkmsg_p4$)\n⬥ [Basic Strategy]($linkmsg_strats$)",
     "color": 39423
   }
 }
