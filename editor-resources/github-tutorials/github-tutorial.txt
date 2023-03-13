@@ -258,6 +258,252 @@ __**Step 8: That's it!**__
 <@298636470988832778>
 <@161545097597550593>
 <@195662572064604160>
+<@102870112314335232>
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Tutorial__",
+        "value": "[Step 1]($linkmsg_step1$)\n[Step 2]($linkmsg_step2$)\n[Step 3]($linkmsg_step3$)\n[Step 4]($linkmsg_step4$)\n[Step 5]($linkmsg_step5$)\n[Step 6]($linkmsg_step6$)\n[Step 7]($linkmsg_step7$)\n[Step 8]($linkmsg_step8$)\n",
+        "inline": true
+      },
+      {
+        "name": "__Users That Completed Tutorial__",
+        "value": "[Link]($linkmsg_completed$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
+
+.img:https://i.imgur.com/9sDym3q.png
+.
+.img:https://i.imgur.com/TenWOom.png
+.
+__**Step 3: Open Your Forked Repository In Your Browser**__
+.tag:step3
+⬥ You can find it by selecting *Your Repositories* in the dropdown menu, accessible by clicking your profile picture at the top right.
+⬥ You will know you are in your forked repository when the top-left of the website looks like this:
+.
+.img:https://i.imgur.com/h0zk8pQ.png
+.
+*For experienced users: You can just clone the repository locally and work from your local machine, whatever you prefer.*
+.
+__**Step 4: Navigate to the *github-tutorial.txt* File**__
+.tag:step4
+⬥ The structure of the PvME repository mimics the server category/channel structure, so to navigate through the repository, simply click through folders that share the name of the discord categories, until you find this guide in the GitHub repository.
+⬥ The file is located at *editor-resources > github-tutorials > github-tutorial.txt*.
+.
+.img:https://i.imgur.com/tT47C8Y.png
+.
+__**Step 5: Enable Discord Developer Options and Copy Discord ID**__
+.tag:step5
+⬥ This is required to be able to copy your own Discord ID.
+⬥ These settings are accessible at *Discord App Settings > Advanced > Developer Console > (turn on)*.
+⬥ After enabling them, you can right-click your name or profile picture to copy your own Discord ID.
+.
+.img:https://i.imgur.com/fUd2Z3a.png
+.
+.img:https://i.imgur.com/17NA9pa.png
+.
+.img:https://i.imgur.com/uK0diGu.png
+.
+__**Step 6: Your First Change and Contribution**__
+.tag:step6
+⬥ Click the *Edit* icon at the top right to begin editing the file. It looks like a pencil.
+⬥ Paste your Discord ID at the bottom of the file, below the other IDs, in the format `<@yourusedidhere>`.
+    • Replace the text with your Discord ID numbers.
+⬥ Then *commit* (i.e. save) your changes.
+    • Leave the settings at their default (i.e. "Commit directly to the `master` branch").
+.
+.img:https://i.imgur.com/SFB0OqA.png
+.
+.img:https://i.imgur.com/EKpuYym.png
+.
+__**Step 7: Create A Pull Request**__
+.tag:step7
+⬥ Navigate to the *Code* tab in your personal repository. You will notice that you are now *1 commit ahead* - this merely says that you have changes ready to contribute!
+⬥ Click the *Contribute* button and select *Pull Request* from the drop-down.
+⬥ You can add a comment like "added my name to github-tutorial", and then create the *pull request*.
+.
+.img:https://i.imgur.com/DXYZid4.png
+.
+.img:https://i.imgur.com/696GEzw.png
+.
+__**Step 8: That's it!**__
+.tag:step8
+⬥ You're done! If your changes are approved, then your pull request will be accepted by a senior editor or moderator.
+⬥ The <#1020846500823183460> channel will get updated, and your name will appear in the channel.
+⬥ You can delete your fork *after* the pull request is accepted, if you wish. To delete a fork, go to your repo *Settings*, and scroll down till you find the option to delete. Then follow the confirmation process.
+.img:https://i.imgur.com/VpO5Lde.png
+.
+.img:https://i.imgur.com/YaxlO8O.png
+.
+.img:https://i.imgur.com/a1HmkID.png
+.
+> __**Successfully Completed PvME's Github Tutorial**__
+.tag:completed
+<@173969201726226443>
+<@190066298338803712>
+<@277989267656146944>
+<@198465127018659840>
+<@151249084106276865>
+<@387768858431193098>
+<@576229066907320340>
+<@401918445429587969>
+<@307365834366517248>
+<@248814669408501761>
+<@269513930949263363>
+<@646361605310906409>
+<@197736922725089280>
+<@198553571552264192>
+<@193792418003419139>
+<@362345892784635905>
+<@299233903053504512>
+<@160462420693745664>
+<@274611146558930945>
+<@135852236885458944>
+<@152796061612638209>
+<@252908736316833794>
+<@154721166907539457>
+<@271615898907967488>
+<@781280949790572554>
+<@260874752824967168>
+<@291257966584397824>
+<@376444800498401281>
+<@119539798498082817>
+<@391874639111913482>
+<@316175818458136588>
+<@287398612558675968>
+<@130322872089575424>
+<@253258334130405376>
+<@322245537799864350>
+<@223750822671024128>
+<@406876547283157004>
+<@237552787716702209>
+<@198930220663701504>
+<@315107096301535234>
+<@657579387910094851>
+<@119470992769679360>
+<@307284017168908290>
+<@539353252085628934>
+<@258094952137883648>
+<@229641218441609216>
+<@269335584521060353>
+<@186458985769992193>
+<@361930468880416768>
+<@231624498435194880>
+<@299141082795474945>
+<@421807790148026368>
+<@248507482064814082>
+<@127417821817864192>
+<@385968877823328276>
+<@275714418111938560>
+<@341854550627713025>
+<@254859078591971328>
+<@95599997239697408>
+<@767093575417724929>
+<@483434704687595520>
+<@158921443806019584>
+<@273184970808229888>
+<@97959705418149888>
+<@209995523409707009>
+<@208995684358160385>
+<@215231291547844610>
+<@191388421548146689>
+<@110810140445294592>
+<@191250961165975552>
+<@792469083429928980>
+<@177581639965081602>
+<@525801438740217866>
+<@143945330184945664>
+<@472470343320076289>
+<@173025995094360064>
+.
+<@298444466845515776>
+<@387200132145217548>
+<@683763716394975294>
+<@181084307576586240>
+<@144939325140762625>
+<@274329728633274369>
+<@244187475344359424>
+<@638287783160709129>
+<@118206605631291393>
+<@873284073525751869>
+<@185499212291506176>
+<@108682527304060928>
+<@159663440011460609>
+<@261666885513248778>
+<@656278772328169483>
+<@131780008627666944>
+<@224595101610016768>
+<@844317937329766401>
+<@181139459029467136>
+<@690924118744367236>
+<@135249745953292288>
+<@209907470229962752>
+<@414071972415406080>
+<@466047971625140224>
+<@654058705699995700>
+<@181082265340739585>
+<@107898328145989632>
+<@132674775100293121>
+<@300201707378442240>
+<@184078362220822529>
+<@584846569958932480>
+<@197414841407897600>
+<@104602229910028288>
+<@237004164415225857>
+<@479444522980343828>
+<@330869904846749709>
+<@269233963460067340>
+<@300195714267480064>
+<@263976121656147970>
+<@372813942180806658>
+<@188320090645725184>
+<@170326295962583041>
+<@920182208508088320>
+<@147450074757201921>
+<@159799083127668746>
+<@645045935587721216>
+<@212008790944514048>
+<@145884917627224065>
+<@183863832576262147>
+<@918604028898861116>
+<@506154935822450704>
+<@102870112314335232>
+<@128957522630541312>
+<@231664955148075011>
+<@191284343140909057>
+<@261354899525074954>
+<@151417601128398848>
+<@263468727071277059>
+<@181747481565069312>
+<@133693891386802177>
+<@125985243311112192>
+<@1010396418759999539>
+<@143253610526932992>
+<@229107484852224000>
+<@1014781951774834708>
+<@1006831142797844520>
+<@185850969030918147>
+<@191844571024457728>
+<@1029057361723261072>
+<@212599080101085186>
+<@298636470988832778>
+<@161545097597550593>
+<@195662572064604160>
 .
 {
   "embed": {
