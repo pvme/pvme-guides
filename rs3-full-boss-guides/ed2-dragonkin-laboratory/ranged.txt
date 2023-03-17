@@ -1,340 +1,309 @@
-> **__Dragonkin Laboratory__ (Courtesy of <@!145413546409197569> & <@!133391081109716992>)**
+> **__Dragonkin Laboratory (Ranged Advanced)__ (Courtesy of <@159663440011460609>)**
 .tag:intro
-.img:https://imgur.com/EA7wP1w.png
+.img:https://i.imgur.com/EA7wP1w.png
 .
 **__Introduction__**
 *Note: a **Table of Contents** can be found in the pins.*
 
-The second Elite Dungeon released, the Dragonkin Laboratory is a relatively straightforward encounter. Categorized as mid tier PvM, the encounter is useful for anyone wanting to learn how to deal with large mobs as well as bosses, combining aspects of single target and AoE damage.
+The second Elite Dungeon, the Dragonkin Laboratory, is a relatively straightforward encounter. The encounter is useful for anyone wanting to learn how to deal with large mobs as well as bosses and combines aspects of single target and AoE damage.
 
-Each boss has a chance to drop one of their codices which improve your Melee abilities, being the Greater Flurry <:gflurry:535532879283879977>, Greater Fury <:gfury:535532879334080527> and Greater Barge <:gbarge:535532879250456578> codices.
+The three bosses of the Laboratory drop the Greater Flurry, Greater Fury and Greater Barge codices in the order that they appear.
 
-.
-Each solo run of ED2 is worth <:coins:698816156961603654> $data_pvme:Bosses!E546$ in uniques. Advanced players can get up to $data_pvme:Bosses!B549$ kph, earning on average $data_pvme:Bosses!C549$ gp/hr.
+Each solo run of ED2 is worth <:coins:698816156961603654> $data_pvme:Bosses!E546$ in uniques.
 
 .
 **__General Notes__**
-⬥ The rotations listed for the bosses are for an advanced setup, lower tiered set-ups will require improvisation.
-⬥ It's recommended to set your anti-spam delay for your Double Surge <:surge:535533810004262912> to 1 via the Lectern at Anachronia.
-⬥ You can Surge <:surge:535533810004262912> or Bladed Dive <:bd:535532854281764884> a tick before each gate unlocks to save a tick on every entry.
+⬥ It's recommended to set your anti-spam delay for your <:surgemobile:867678153798975498> to 1 via the Lectern at Anachronia.
+⬥ You can <:surgemobile:867678153798975498> or <:bdmobile:867678153668820992> a tick before each gate unlocks to save a tick on every entry.
 ⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve the number of energies dropped, nor the drop rate for any codex.
+⬥ The guide assumes knowledge of bosses and ranged rotations. Visit <#1020729671127662643> or <#1041765492890816573> as needed.
+    • Visit <1020550599248466050> and look at **__NPC Center and Coordinate__** to understand using <:mechchin:641669268722810881> on Dragons.
 
 .
-> **__Presets__**
+> __**Presets**__
 .tag:presets
-**__Beginner/Group__**
-Full preset breakdown available here: <https://i.imgur.com/hNuZQD7.png>
+⬥ <:eofpink:780401412865523722> with an Eldritch Crossbow <:ecb:615618531937222657>
+⬥ <:eofgreen:780401412727242773> with a Dark Bow <:dbow:643848618553507843>
+⬥ <:eofblue:780401412906680330> with a Seren Godbow <:sgb:626466665848242186>
+⬥ <:pernixsquiveryellow:923269339136798800> with <:HydrixBakri:550834403136503822> <:jasdragonbanearrow:971025697042755584>
+⬥ <:pernixsquiverblue:923269339203903488> with <:fularrow:971025696958853180> <:deathsporearrows:900758234527301642>
 ⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
+⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
+(Runes for <:smokecloud:856635090641879050> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
+⬥ Assumes passive <:RoV:513201065877831680> is used
 .
-.img:https://i.imgur.com/CHy9aOH.png
+.img:https://i.imgur.com/ZgkQGKd.jpg
 .
-**__Advanced__**
-Full preset breakdown available here: <https://i.imgur.com/cusUDss.png>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
-.
-.img:https://i.imgur.com/i4mlV0n.png
-.
-> __**Monster Information**__
-.tag:monsterinformation
-For a detailed description of each mob in the dungeon, please reference <#1020559575126126623>
+***Note:** A full preset breakdown can be found here: <https://i.imgur.com/djfUpxK>*
+
+⬥ <:bbc:626714879218155521> <:bbcoh:626714879230738434> are perked with C4E2 and P6As1 respectively.
+    • P6As1 is placed on the offhand for synergy with <:mechchin:641669268722810881>
+
+⬥ Use <:powderofpenance:928221126360969226> and <:KwuarmSticks:565726489341984779>
+    • Include more <:restore:642708657825644554> or use <:blessedflask:659122178704408598> if not using <:powderofpenance:928221126360969226>
+
+⬥ Ensure <:mob:689501908628799488> and <:dragonslayerperk:689502927731163170> are on your armour.
+    • Else, replace Death Ward <:deathward:697808774068699286> with Shadow's Grace <:shadowsgrace:895999229737185280>
 
 .
-> **__Section 1__**
-.tag:section1
-.img:https://i.imgur.com/RS41Laq.png
-.
-*Note: Sections 1, 2, and 3 were written with the assumption that the player has an Seren Godbow <:sgb:626466665848242186> in EoF <:eofor:745279787471470713>. If you do not have an Seren Godbow <:sgb:626466665848242186> in EoF <:eofor:745279787471470713>, you should substitute with Dark Bow EoF Spec <:dbow:643848618553507843> <:eofspec:746403211908481184>.*
-
-.
-**__Room 1__**
-⬥ Tag a Slime with Fragmentation Shot <:frag:535541273755385885> and Corruption Shot <:corruptshot:535541306294796299> while luring the slimes together to use Mechanised Chinchompas <:mechchin:641669268722810881>.
-    • With Mechanised Chinchompas <:mechchin:641669268722810881> use Snap Shot <:snap:535534127131394088> and utilize Binding Shot <:bindingshot:535541306563231790> and Tight Bindings <:tight:535541275957657600> in combination with Piercing Shot <:piercing:535541258538450944> to clear the Slimes.
-⬥ Kill 4 Slimes to open the barrier.
-    • Remember the Slimes cannot multiply while stunned or bound.
-
-.
-**__Room 2__**
-⬥ Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884> and tag the nearest Dragon with Corruption Shot <:corruptshot:535541306294796299>.
-⬥ Proceed down the steps and kill the dragon there in near melee distance to lure the other 2 Dragons together.
-    • Proceed to Mechanised Chinchompas <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184> the remaining 2 Dragons and kill them to open the barrier.
-⬥ Diagonally Bladed Dive <:bd:535532854281764884> to the dragon next to the barrier and turn around to use Mechanised Chinchompas <:mechchin:641669268722810881> on the now stacked Dragons, you may use Snap Shot <:snap:535534127131394088> and Shadow Tendrils <:shadowtend:642713547142332416> here.
-⬥ Lastly kill the 4th Dragon to open the barrier.
-
-.
-**__Room 3__**
-⬥ Run to this spot along the east wall just past the middle pillar to stack the magma golems to use Mechanised Chinchompas <:mechchin:641669268722810881>.
-    • Only 4 golems must be killed to open the barrier so Snap Shot <:snap:535534127131394088> and Rapid Fire <:rapid:535541270521708566> should do the trick.
-.
-.img:https://i.imgur.com/qzt0o4X.png
-.
-**__Room 4__**
-⬥ Diagonally Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884> towards the next barrier and run around to behind the celestial dragon to stack the slimes behind it.
-⬥ From here stun the celestial then target a stacked slime for a Mechanised Chinchompa <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184>.
-⬥ Clean up the remaining slimes with further stuns until the barrier opens.
-
-.
-**__Room 5__**
-⬥ Surge <:surge:535533810004262912> and run up against the West wall.
-    • Use Deaths Swiftness <:deathsswift:994921434633744455> here against the wall and Chin <:mechchin:641669268722810881> down the Celestials.
-⬥ Diagonally Surge <:surge:535533810004262912> down the steps and tag the closer Celestial.
-    • Run up against the east wall to use the remaining Deaths Swiftness <:deathsswift:994921434633744455> timer to kill this Celestial to open the barrier.
-⬥ Run down the steps and use Rapid Fire <:rapid:535541270521708566> and basics to kill 1 of the Celestials.
-
-.
-**__Room 6__**
-Stack the 2 nearest celestials and Chin <:mechchin:641669268722810881> them down to open the barrier.
-
-.
-*Note: Room 6 actually occurs after Astellarn.*
+**__Relics__**
+⬥ <:conservationofenergy:697808773711921195> **Conservation of Energy**
+⬥ <:furyofthesmall:697808773917573233> **Fury of the Small**
+⬥ <:deathward:697808774068699286> **Death Ward**
 
 .
 > __**Astellarn, the First Celestial**__
 .tag:astellarn
 .img:https://i.imgur.com/60URnUZ.jpg
 .
-The first encounter of the Laboratory, This fight heavily utilizes punishing area-of-effect mechanics but is still very straightforward and easy to master with some practice. Additionally, he drops the Greater Flurry Codex <:gflurry:535532879283879977>.
-
-**__Mechanics__**
-⬥ **Pulsar:** Spawned after 2-3 autoattacks, it has 20,000 hp, dealing moderate periodic damage. Shortly after, a bar will appear above the player's head and a Wyrmhole will spawn at their current location when it fills. This special attack is cast based upon the time you entered the dungeon, potentially de-syncing with the Neutron Star.
-
-*Placing the wyrmhole along these lines will prevent it from being blocked out by the later rain mechanic.*
-.
-.img:https://imgur.com/wlaz77A.jpg
-.
-*Pulsar pulsing its firey waves*
-.
-.img:https://imgur.com/0UabHmn.mp4
-.
-⬥ **Neutron Star:** This will follow the player around and must be lured into the Wyrmhole, stabilizing it, turning white, and giving increased damage to Astellarn. This special attack is cast based upon the time you started the fight with Astellarn, potentially de-syncing with the Wyrmhole.
-.
-.img:https://imgur.com/zHIuF3t.mp4
-.
-If it touches a player, it will explode, dealing 5000 damage. Its highly recommended to teleport out and restart the fight if this happens.
+The first encounter of the Laboratory, this fight heavily utilizes punishing area-of-effect mechanics but is still very straightforward and easy to master with some practice. Additionally, she drops the <:gflurry:535532879283879977> <:greatercodex:643169137098752001>
 
 .
-⬥ **Celestial Rain:** Once the boss reaches 200,000 HP, Asterllarn will take decreased damage and spawn a continuous rain in a random quadrant that deals increasing damage as long as it is stood in. This will change quadrants occasionally and will only be a major issue if the Wyrmhole was placed improperly.
+**__Example Rotation__**
 .
-.img:https://imgur.com/M6UbQli.mp4
-.
-From here on, these mechanics repeat with the rain lasting for the remainder of the encounter.
+Start of fight: <:grico:787904334812807238> → <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:snap:535534127131394088> to prephase
+
+After Pulsar spawn: <:grico:787904334812807238>/<:mds:535541259033378827> → equip <:deathsporearrows:900758234527301642> + build to 100% and 5 <:deathsporearrows:900758234527301642> stacks on Pulsar and Astellarn → <:incend:535541258429661215> → equip <:jasdragonbanearrow:971025697042755584> → get 3+ <:perfectequilibrium:1006119102814887957> stacks with basics → <:ecb:615618531937222657> <:eofspec:746403211908481184> when neutron star spawns → lure star into black hole → <:dragonslayer:641339921814126594> + <:bolg:994189289623662702> <:spec:537340400273195028> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:snap:535534127131394088> → <:rapid:535541270521708566> if needed → <:divemobile:1049378665802235968> diagonally to the next room
 
 .
-**__Strategy__**
-⬥ Do not use <:deathsswift:994921434633744455> to start the fight. Astellarn will heavily cap damage starting at 200,000 HP. Your goal is to use a few thresholds before pre-phasing with an <:sgb:626466665848242186> <:eofspec:746403211908481184> as close to 200K as possible.
-⬥ Build to <:deathsswift:994921434633744455> on the pulsar with basics and place the Wyrmhole in melee distance.
-    • After placing, run straight back to the wall along the quadrant line and build on Astellarn while waiting for the Neutron Star to spawn.
-⬥ Lure the Neutron Star to your Wyrmhole and use <:rapid:535541270521708566> → <:snap:535534127131394088> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → improvise.
+*Note: 1st <:sgb:626466665848242186> <:eofspec:746403211908481184> must be cast when Astellarn is >200k HP so you may need to cancel <:rapid:535541270521708566> early.*
 
 .
-> **__Section 2__**
-.tag:section2
-.img:https://i.imgur.com/RPIrzX4.png
-.
-*Note: Dragons are numbered in the order you encounter them.*
-
-.
-**__Room 1__**
-Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884> to the nearest pair of lava strykewyrms and Chin <:mechchin:641669268722810881> them down with Rapid Fire <:rapid:535541270521708566>.
-
-.
-**__Room 2__**
-⬥ Use an Acceleration Powerburst <:accel:756236265472524418> after the barrier to quickly reach Room 2.
-⬥ Go all the way to melee distance of the 3rd Dragon and use a Mechanised Chinchompa <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184> before running back west to drag Dragons 3 and 4.
-    • Doing this should in turn drag Dragons 1 and 2 east setting both pairs up to be chinned.
-⬥ Finish them off with thresholds but try to exit Room 2 with high adrenaline.
-
-.
-**__Room 3__**
-⬥ Run past the 1st 3 Dragons then around to the south side of the 4th Dragon and use Deaths Swiftness <:deathsswift:994921434633744455>. Target Dragon 2 and step back up against the black rocks to drag it south.
-    • This should also draw dragons 5 and 6 closer.
-⬥ Use a Mechanised Chinchompa <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184> on Dragon 2.
-    • Proceed to target Dragon 4 again and kill it.
-⬥ Use a Mechanised Chinchompa <:mechchin:641669268722810881> Dark Bow EoF Spec <:dbow:643848618553507843> <:eofspec:746403211908481184> on Dragon 1 and kill it
-    • Then turn around and Chin <:mechchin:641669268722810881> Dragons 5 and 6.
-⬥ Finish off the remaining dragons to open the barrier.
-.
-.img:https://i.imgur.com/onktJ6h.png
-.
-**__Room 4__**
-⬥ Eldritch Crossbow Spec <:ecb:615618531937222657> <:spec:537340400273195028> and kill the 4 Lava Strykewyrms nearest to the barrier with thresholds.
-
-.
-**__Room 5__**
-⬥ Target the farthest north dragon and step back to drag it and the middle dragon west before using a Mechanised Chinchompa <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184> on the middle dragon.
-⬥ Finish off these 3 dragons and the 1 by the barrier with basics and thresholds. Be careful to exit with 100% adren for Verak Lith.
+__Example kill (Astellarn)__:
+.img:https://i.imgur.com/NFZ0Xlj.mp4
 
 .
 > __**Verak Lith**__
 .tag:veraklith
 .img:https://i.imgur.com/CSMjoJH.jpg
 .
-The second encounter of the Laboratory, his attack rotation is very predictable but deals consistent moderately high damage so it is recommended to learn the few mechanics properly to avoid any unnecessary deaths. Additionally he drops the Greater Fury Codex <:gfury:535532879334080527>.
+The second encounter of the Laboratory. Verak Lith's attack rotation is predictable, but deals consistent moderately high damage. Therefore, it is recommended to learn the mechanics properly to avoid any unnecessary deaths. Additionally, he drops the <:gfury:535532879334080527> <:greatercodex:643169137098752001>
 
-It will always melee auto attack when the player is in melee distance and always mage otherwise. The auto attacks hit quite hard and specifically the mage ones are desynced visually so it is important to not mess up too many prayer flicks here.
-
-.
-**__Verak Lith's Attack Rotation__**
-4 Auto attacks → Spire → 4 Auto attacks → Ricochet → 4 Auto attacks → Spire → 4 Auto Attacks → Nosedive/Hurricanes → Repeat
+He always melees the player when in melee distance and always uses mage otherwise. The auto attacks hit quite hard with the mage ones being desynced visually, so it is important to not mess up too many prayer flicks here.
 
 .
-**__Mechanics__**
-⬥ **Spire**: The message "Verak Lith slams his tail against the ground, the earth shakes beneath your feet!" will appear and after a short delay and spire with 15,000 hp will spawn near the player.
-
-The boss will be immune to damage while the spire is alive so it is good to threshold to get it down immediately. The spawn will also be accompanied by a moderate melee hit that can be Resonanced <:res:535541258844635148>. In a typical kill, this will be the primary method alongside Soul Split <:soulsplit:615613924506599497> flicking to restore HP.
+**__Example Rotation__**
 .
-.img:https://imgur.com/afn857t.mp4
-.
-⬥ **Ricochet**: Verak Lith will send out a projectile that lands at a spot around the player after a few seconds. The element of this projectile can be poison, ice, or shock, and corresponds with the three groups of eggs found around the arena.
-
-The correct way to deal with this mechanic is to pick up the projectile and interact with a **different** type of egg to disperse it before the bar fills up.
-    • Missing the projectile will deal 4000 damage and missing the dispersal can deal 9000+ damage so it is especially important not to miss the second half of this mechanic.
-
-Generally, if the projectile matches the element of the nearest group of eggs to the player, it should be ignored with Disruption Shield <:disrupt:535614336207552523>, Debilitate <:debil:535541278264393729>, or Reflect <:reflect:535541258786177064> (or nothing if the player is high HP). This will end the mechanic early.
-
-*A player picks up the projectile*
-.
-.img:https://imgur.com/1c5I5Ar.mp4
-.
-⬥ **Nosedive**: A message will appear on the screen mentioning that a dragon is nosediving. An arrow will show up near the player to indicate the direction the dragon is approaching from and, after a short delay, a thin line of dragonbreath will be fired along the line the arrow is pointing.
-
-This can deal over 8000 magic damage and can be avoided by simply moving out of the way. However, the arrow will adjust it's position based on the player's movement for a short period so it is recommended to learn the timing on this mechanic and move as it goes off.
-.
-.img:https://imgur.com/66ACLwS.mp4
-.
-⬥ **Hurricanes**: Verak Lith will say "Let the flames melt the flesh from your bones" and engulf the area around the player in fire. This will deal no damage but after a short delay, hurricanes will spawn in the area that deal extremely high damage and last for roughly 20 seconds.
-
-This is a fairly large area attack and should be surged from to be a safe distance away. It isn't very complicated however, simply don't touch a hurricane.
-*Projectile is fired*
-.
-.img:https://imgur.com/uv37IW8.mp4
-.
-*Hurricanes unleashed*
-.
-.img:https://imgur.com/J91SxtZ.mp4
-.
-**__Strategy__**
-⬥ Start out the fight with <:deathsswift:994921434633744455> and try to get in <:snap:535534127131394088> → <:rapid:535541270521708566> → <:shadowtend:642713547142332416> → <:sgb:626466665848242186> <:eofspec:746403211908481184> before the first spire but be wary as sgb specing too late will get it nulled.
-
-⬥ Kill the Spire basics then end your <:deathsswift:994921434633744455> with <:snap:535534127131394088> → <:rapid:535541270521708566> → <:dbow:643848618553507843> <:eofspec:746403211908481184>.
-    • Disrupt the Ricochet rather than going to it and try to get in a <:snap:535534127131394088> before the 2nd spire while building.
-
-⬥ Kill the 2nd Spire with basics then <:deathsswift:994921434633744455> right away.
-
-⬥ Dodge the Nosedive while doing <:snap:535534127131394088> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:limitless:641339233638023179> <:rapid:535541270521708566> and improvise from there with possibly a <:dbow:643848618553507843> <:eofspec:746403211908481184> if Verak's HP is low.
+⬥ <:ecb:615618531937222657> <:eofspec:746403211908481184> + <:dive:1049378668197195808> + <:surge:535533810004262912> into md of Verak → (tc) + <:ingen:641339234111848463> + <:smokecloud:856635090641879050> + <:grico:787904334812807238> → <:dragonslayer:641339921814126594> + <:bolg:994189289623662702> <:spec:537340400273195028> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:limitless:641339233638023179> + <:snap:535534127131394088> → <:rapid:535541270521708566> → <:grico:787904334812807238> → equip <:deathsporearrows:900758234527301642> + <:mds:535541259033378827> + place <:dommine:662249620579155968> for Spire → <:divert:787904334377648130> on Spire → finish off Spire with basics then use basics on Verak to 100% and 5 <:deathsporearrows:900758234527301642> stacks → <:gdeathsswift:994644354536837121> → equip <:jasdragonbanearrow:971025697042755584> + <:ecb:615618531937222657> <:eofspec:746403211908481184> + <:adrenrenewal:736298121704767538> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:snap:535534127131394088> → <:mds:535541259033378827> → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:shadowtend:642713547142332416> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:mds:535541259033378827> → <:divert:787904334377648130> the Spire → kill Spire with basics → <:dragonslayer:641339921814126594> + <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:snap:535534127131394088> → finish off with basics → <:surgemobile:867678153798975498> back towards the bridge
 
 .
-> **__Section 3__**
-.tag:section3
-.img:https://i.imgur.com/6NpSsur.png
-.
-**__Room 1__**
-⬥ Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884> and run past the Onyx Dragons as they don't need to be killed.
-    • Tag the 1st Dragonstone Dragon with Fragmentation Shot <:frag:535541273755385885> and run back towards the pole to lure the dragons together.
-    • A Mechanised Chinchompa <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184> and a Mechanised Chinchompa <:mechchin:641669268722810881> Dark Bow EoF Spec <:dbow:643848618553507843> <:eofspec:746403211908481184> should be used here to clear the stacked dragons.
+*Note: Save <:disrupt:535614336207552523> for bomb, if following the rotation above you will use it right before the first <:rapid:535541270521708566> post <:adrenrenewal:736298121704767538>*
+
+*Note: <:soulsplit:615613924506599497> flick properly is very important in the execution of this rotation. Ensure you have enough food <:supergrest:690140078407680059> <:blueblubber:689530593742291033> as you will take notable damage even if <:soulsplit:615613924506599497> flicking properly and using <:divert:787904334377648130> on pillars*
 
 .
-**__Room 2__**
-⬥ Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884> up the stairs and target the dragonstone closest to the barrier for another Mechanised Chinchompa <:mechchin:641669268722810881> Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184>. A Snap Shot <:snap:535534127131394088> and some basics should be adequate to finish them off.
-
-.
-**__Room 3__**
-⬥ Drink your Acceleration Powerburst <:accel:756236265472524418> to Surge <:surge:535533810004262912> + Bladed Dive <:bd:535532854281764884> past the hydrix dragons to reach to 2 dragonstones at the barrier. (Note: you can cut every corner here)
-    • Kill the dragonstones with thresh and an Seren Godbow EoF Spec <:sgb:626466665848242186> <:eofspec:746403211908481184>.
-
-.
-**__Room 4__**
-⬥ Surge <:surge:535533810004262912> and tag the farthest north Dragonstone.
-⬥ Use Fragmentation Shot <:frag:535541273755385885> then run back to where the wall juts out to lure them together to Chin <:mechchin:641669268722810881> them down.
-    • Try to end on full adren for the Black Stone Dragon.
-
+__Example kill (Verak Lith):__
+.img:https://youtu.be/YeOv4FIcCbw.mp4
 .
 > **__Black Stone Dragon__**
 .tag:blackstonedragon
 .img:https://i.imgur.com/DDRMznI.jpg
 .
-The Black Stone Dragon is the final boss encounter in the Dragonkin Laboratory and is the main source of the dungeon's primary unique: Draconic Energies <:draconicenergy:643162228991983659>, which are used to make the Mage T92 Elite Tectonic set <:elitetectbody:552955120707698699>. Alongside dropping the Greater Barge Codex <:gbarge:535532879250456578>, which sees frequent use in endgame melee encounters.
+The final boss of the Dragonkin Laboratory. She is the main source of the dungeon's primary unique: Draconic Energies <:draconicenergy:643162228991983659>, which are used to make the Mage T92 Elite Tectonic set <:elitetectbody:552955120707698699> and also drops the <:gbarge:535532879250456578> <:greatercodex:643169137098752001>
 
-This fight consists of fairly simple mechanics but can be very punishing if mistakes are made. It is also one of the few bosses to auto attack in all three combat styles, with melee hitting especially hard, so it is possible to die just from auto attacks if the player can't outheal with soul split, is low on food, and/or can't prayer flick the fight.
-
-.
-**__Attack Rotation__**
-⬥ **Phase 1**
-    • 3 Auto Attacks → Gemstone Spikes → 2 Auto Attacks → Dragonbreath → Repeat
-⬥ **Phase 2**
-    • Black Hands
-⬥ **Phase 3**
-    • 1-5 Auto Attacks → Smoke Spiral → 3 Auto Attacks → Mage AoE → 2 Auto Attacks → Dragonbreath → Gemstone Spikes → 3 Auto Attacks → Mage AoE → Repeat
+This fight consists of simple mechanics but can be very punishing if mistakes are made. It is also one of the few bosses to auto attack in all three combat styles, with melee hitting especially hard, so it is possible to die just from auto attacks if the player can't out heal with <:soulsplit:615613924506599497>, is low on food, and/or can't prayer flick the fight.
 
 .
-**__Mechanics__**
-⬥ **Gemstone Spikes**: This mechanic occurs a few auto attacks into the start of the fight and after each dragonbreath after phase 1. This is identical to the hydrix dragon special attack where a line of spikes are shot through the ground and erupt under the player.
+**__Example Rotation:__**
+__**Phase 1**__
+<:surge:535533810004262912> + <:dive:1049378668197195808> + <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:eofspec:746403211908481184> + pre-place <:dommine:662249620579155968> at South Black Hands → <:ingen:641339234111848463> + <:smokecloud:856635090641879050> + <:dragonslayer:641339921814126594> + <:grico:787904334812807238> → <:limitless:641339233638023179> + <:rapid:535541270521708566> → <:sgb:626466665848242186><:eofspec:746403211908481184> → build with basics until hands spawn
 
-This deals 5000+ melee damage and drains all adrenaline upon impact. It will also apply a debuff that reduces all adrenaline gain by 50% for a short duration. Simply move out of the way when this comes out.
-.
-.img:https://imgur.com/4ppYV4M.mp4
-.
-⬥ **Dragonbreath**: The skybox will turn dark blue and Black Stone Dragon will fire a 100% accuracy mage attack that deals moderate damage. This is essentially just a mage auto attack that hits slightly harder but signals that the spikes are coming out immediately after (phase 3).
-.
-.img:https://imgur.com/V3Z0d1j.mp4
-.
-⬥ **Black Hands** (Phase 2): Phase 2 will begin as Black Stone Dragon's first attack after reaching 520k HP. This is signaled by Black Stone Dragon moving to the center of the arena and 4 black hands with 80,000 hp each spawning where the rocks are located.
-.
-.img:https://imgur.com/jBFHmJu.mp4
-.
-These hands will slam the ground regularly and send out a very heavy mage auto if they are in range of the player. Shortly after, a line of small hands will move towards the player that deal rapid 2000+ damage if stood on.
-.
-.img:https://imgur.com/5MAYT2U.mp4
-.
-These hands will **never** reach the player if they are standing in one of the four spots pictured below.
-.
-.img:https://i.imgur.com/Oa1qT6q.png
-.
-The phase will end when all 4 hands are dead, dominion mines are highly recommended here as you can potentially use 6 if you placed some during phase 1.
-
-⬥ **Smoke Spiral**: A line of smoke will spiral inwards towards Black Stone Dragon, dealing 4000+ damage per tick if stood on. The boss will remain stationary during this time so Flanking <:flank4:712073088296157185> is possible here.
-
-It is recommended to learn where you can stand safely to avoid having to cancel channeled abilities. Generally, a max range Death Swiftness <:deathsswift:994921434633744455> to the sides of the boss will provide decent freedom of movement and allow for Flanking <:flank4:712073088296157185>
-.
-.img:https://imgur.com/ak3Y05T.mp4
-.
-⬥ **Mage AoE**: Black Stone Dragon will call out "GET. OUT. OF. ME." or "The shadow overwhelms!" and turn to fire a black projectile towards a random spot in the arena.
-.
-.img:https://imgur.com/UIpNtaq.mp4.
-.
-This is very similar to Verak Lith's hurricanes special and will explode into black tendrils that deal 4000+ damage in the area for a short period. In a solo encounter, this will miss most of the time and isn't a big concern. The boss can also be flanked <:flank4:712073088296157185> when it turns to send out the special.
-.
-.img:https://imgur.com/fJzybng.mp4
-.
-⬥ **Fly**: Upon hitting 260,000 hp, Black Stone Dragon will become invulnerable and fly around the arena, landing at various spots and sending out smoke lines towards the player each time. Additional lines will also spawn out of existing ones on each land, so movement can get hectic if the boss lands at the same area multiple times. This smoke is functionally identical to the type in the spiral mechanic and should be avoided at all costs.
-
-This will occur 7 times before the boss becomes vulnerable again and continues the phase 3 rotation starting from Smoke Spiral. The lines will not spawn if the boss lands out of range but it is still highly recommended to follow and use an ability after each landing as the boss will take longer to fly again if the player stays far away.
-.
-.img:https://imgur.com/IeWJS7V.mp4
-.
-**__Strategy__**
-⬥ Start out the fight with <:deathsswift:994921434633744455> and use <:snap:535534127131394088> → <:rapid:535541270521708566> → <:sgb:626466665848242186> → improvise to phase the boss.
-
-⬥ Spam <:ecb:615618531937222657> <:spec:537340400273195028> to kill the Black Hands.
-
-⬥ <:deathsswift:994921434633744455> right away on BSD and use <:snap:535534127131394088> → <:limitless:641339233638023179> <:rapid:535541270521708566> → <:sgb:626466665848242186> → <:shadowtend:642713547142332416> → <:snap:535534127131394088> → <:rapid:535541270521708566> or <:dbow:643848618553507843> <:eofspec:746403211908481184> (if hp is close to or below 250,000).
-
-⬥ BSD will enter the flying phase where it is near immune to damage; however, Soul Split <:soulsplit:615613924506599497> will still heal you as if full damage was dealt during this phase.
-    • Count the jumps and activate <:nat:535541258131865633> when BSD jumps for the 6th time and build to <:deathsswift:994921434633744455>.
-    • In <:deathsswift:994921434633744455> use <:snap:535534127131394088> → <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:snap:535534127131394088> → <:shadowtend:642713547142332416> → improvise to finish it off.
+*Note: Make sure <:sgb:626466665848242186><:eofspec:746403211908481184> is cast before <:BSD:583430542326759435> reaches 520k to pre-phase.*
 
 .
-> **__Example Run__**
-.tag:example
-<https://youtu.be/PcA4NRmzalY> 14:46 (Offtask) by <@!145413546409197569>
-<https://youtu.be/AjuBCnsnDLY> 12:43 (Offtask) by <@!145413546409197569>
+__**Phase 2: Black Hands**__
+⬥ Hand 1:
+Equip <:fularrow:971025696958853180> + <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:snipe:535541258425204770> → finish off 1st hands with basics
 
+*Note: This hand should be damaged by pre-placed <:dommine:662249620579155968>*
+
+.
+⬥ Hand 2:
+<:rapid:535541270521708566> → <:snap:535534127131394088> →  finish off with basics
+
+⬥ Hand 3:
+<:ecb:615618531937222657> <:eofspec:746403211908481184> → equip <:deathsporearrows:900758234527301642> → build to 100% and 5 <:deathsporearrows:900758234527301642> stacks with basics and <:rapid:535541270521708566> → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → finish off 3rd hands
+
+⬥ Hand 4:
+Place <:dommine:662249620579155968> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → basics to finish off
+
+.
+__**Post-hands BSD**__
+<:ecb:615618531937222657><:eofspec:746403211908481184> → <:grico:787904334812807238> → <:dragonslayer:641339921814126594> + <:rapid:535541270521708566> → <:sgb:626466665848242186><:eofspec:746403211908481184> → <:corruptshot:535541306294796299> → <:grico:787904334812807238> → <:shadowtend:642713547142332416> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:snap:535534127131394088> → finish off with basics/<:bolg:994189289623662702> <:spec:537340400273195028> and <:limitless:641339233638023179> + <:rapid:535541270521708566>
+
+.
+__**Phase 3: Flight**__
+Build to 100% with basics → <:ingen:641339234111848463> + <:smokecloud:856635090641879050> during flight → build to 4 <:deathsporearrows:900758234527301642> stacks → <:grico:787904334812807238> to proc <:deathsporearrows:900758234527301642> during 5th flight → <:incend:535541258429661215> → <:nat:535541258131865633> → build to 100% → <:ecb:615618531937222657> <:eofspec:746403211908481184> + <:adrenrenewal:736298121704767538> after 6th flight and <:vulnbomb:655341074235129858>  + <:dive:1049378668197195808>/<:surge:535533810004262912> next to <:BSD:583430542326759435>
+
+.
+__**Post-Flight BSD**__
+<:dragonslayer:641339921814126594> + <:bolg:994189289623662702> <:spec:537340400273195028> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → finish off with <:dbow:643848618553507843><:eofspec:746403211908481184>/<:snap:535534127131394088>/<:rapid:535541270521708566> depending on adren and <:BSD:583430542326759435> hp.
+
+.
+> **__Mobs__**
+.tag:mobs
+.
+The AoE centre of large mobs such as the dragons and lava strykewyrms is the south-west tile. This is important when choosing which mob to <:mechchin:641669268722810881>. Use <:stickybomb:655341074306301964> on Celestial dragons when their HP falls below ~28k immediately to prevent healing. Otherwise, use <:mechchin:641669268722810881> <:bindingshot:535541306563231790> or <:rapid:535541270521708566> as they begin to heal. **Note that <:mechchin:641669268722810881> <:rapid:535541270521708566> only prevents on the healing on the main target Celestial, other hit Celestials that are not the main target will still heal.** You can also use <:incend:535541258429661215> opportunistically for <:critbuff:943518665842757644>
+
+.
+**__Pre-Astellarn__**
+.tag:preast
+**__4 Laboratory Slimes__**
+⬥ <:mechchin:641669268722810881> <:incend:535541258429661215> method:
+Equip <:mechchin:641669268722810881> + <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> diagonally towards slimes → tag slime with <:corruptshot:535541306294796299> and move towards center of 3 slimes→ <:frag:535541273755385885> → stall <:incend:535541258429661215> on a slime from far cluster and run back into nearby slimes→ (tc) close slime + <:smokecloud:856635090641879050>release  <:incend:535541258429661215> with <:mechchin:641669268722810881> + <:bindingshot:535541306563231790> → equip <:bolg:994189289623662702> and target far away slime <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:mds:535541259033378827> + <:dive:1049378668197195808> + <:surge:535533810004262912> into next room
+
+*Note: After releasing <:mechchin:641669268722810881> <:incend:535541258429661215> use <:cease:864235458464186418> so your next auto isn’t <:smokecloud:856635090641879050>*
+.
+⬥ Non-chincend method:
+Tag a Slime with <:frag:535541273755385885> → <:corruptshot:535541306294796299> while luring the slimes together to use <:mechchin:641669268722810881> <:snap:535534127131394088> → <:bindingshot:535541306563231790> → <:piercing:535541258538450944> → good basics to clear the Slimes.
+
+*Note: Slimes cannot multiply while stunned or bound.*
+
+__Example Section (4 Slimes) (Chincend):__
+.img:https://i.imgur.com/TuQzbFB.mp4
+.
+**__3 Red Dragons__**
+<:limitless:641339233638023179> + <:rapid:535541270521708566> the dragon downstairs → equip <:mechchin:641669268722810881> + <:dbow:643848618553507843> <:eofspec:746403211908481184> the northern dragon → <:needle:535541259108876293> → <:snap:535534127131394088> → finish off remaining dragons with basics.
+
+.
+**__4 Red Dragons__**
+Target NE dragon + equip <:mechchin:641669268722810881> + <:needle:535541259108876293> →  <:dragonslayer:641339921814126594> + <:sgb:626466665848242186> <:eofspec:746403211908481184>  → <:dbow:643848618553507843> <:eofspec:746403211908481184> → equip <:bolg:994189289623662702> and finish off the remaining dragons with <:bolg:994189289623662702> <:spec:537340400273195028> and strong basics
+
+*Note: If NE and NW dragons aren’t next to each other, try targeting NW dragon to hit it alongside SW .*
+
+__Example Section (7 Red Dragons):__
+.img:https://i.imgur.com/6vPjiKD.mp4
+.
+**__4 Lava Golems__**
+<:divemobile:1049378665802235968> into a cluster of golems + <:mechchin:641669268722810881><:frag:535541273755385885> → <:corruptshot:535541306294796299> → <:snipe:535541258425204770> → <:rapid:535541270521708566> → <:snap:535534127131394088> + <:adrenrenewal:736298121704767538>
+
+*Note: Drink <:adrenrenewal:736298121704767538> if low adren so you have close to 100% entering into next room*
+
+__Example Section (4 Lava Golems):__
+.img:https://i.imgur.com/V806hAq.mp4
+.
+**__2 Laboratory Slimes 1 Celestial Dragon__**
+⬥ <:mechchin:641669268722810881> <:incend:535541258429661215> method:
+<:accel:756236265472524418> + <:surge:535533810004262912> + <:dive:1049378668197195808> into the corner behind celestial → <:grico:787904334812807238> → <:mds:535541259033378827> → <:mechchin:641669268722810881> + target slime + <:frag:535541273755385885> → <:corruptshot:535541306294796299> → <:bindingshot:535541306563231790> + <:dive:1049378668197195808> and run away a few squares → s<:incend:535541258429661215> → run in release with <:mechchin:641669268722810881>+ <:needle:535541259108876293> → equip <:bolg:994189289623662702>  + target celestial + <:grico:787904334812807238> → finish off celestial with basics if needed
+
+⬥ Non-chincend method:
+Diagonally <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> towards the next barrier and run around to behind the celestial dragon to stack the slimes behind it. Stun the celestial then target a stacked slime for a <:mechchin:641669268722810881> <:sgb:626466665848242186> <:eofspec:746403211908481184>. Clean up the remaining slimes with further stuns until the barrier opens.
+
+__Example Section (2 Slimes + 1 Celestial Dragon) (Chincend):__
+.img:https://i.imgur.com/W5gZB3D.mp4
+.
+**__3 Celestial Dragons__**
+<:surgemobile:867678153798975498>/<:divemobile:1049378665802235968> to the western wall → <:mechchin:641669268722810881> two celestials + throw a <:stickybomb:655341074306301964> between then + <:dragonslayer:641339921814126594> + <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → finish off the 2 celestials with basics → equip <:bolg:994189289623662702> → <:rapid:535541270521708566> the 3rd celestial → finish it off with basics
+
+__Example Section (3 Celestial Dragons):__
+.img:https://i.imgur.com/Wbi4yUo.mp4
+.
+**__1 Celestial Dragon__**
+<:ecb:615618531937222657> <:eofspec:746403211908481184> + <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> towards celestial → throw a <:stickybomb:655341074306301964> → kill it with <:bolg:994189289623662702> <:spec:537340400273195028> and strong basics
+
+.
+**__1 Celestial Dragon__**
+Run md of dragon and place 2 <:dommine:662249620579155968> → throw a <:stickybomb:655341074306301964> → finish off with basics
+
+__Example Section (2 Celestials):__
+.img:https://i.imgur.com/1XpJk2I.mp4
+.
+**__Post-Astellarn to pre-Verak Lith__**
+.tag:astverak
+**__2 Celestial Dragons__**
+Throw a <:stickybomb:655341074306301964> between the 2 celestials. Use <:mechchin:641669268722810881> and target Eastern celestial + <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:shadowtend:642713547142332416> → <:dbow:643848618553507843> <:eofspec:746403211908481184> with basics in between to kill the 2 celestials.
+
+After celestials are dead run towards the gate and <:divemobile:1049378665802235968> + <:surgemobile:867678153798975498> towards strykewyrms.
+
+*Note: if celestials aren't lined up for chinning, improvise and single target them with <:bolg:994189289623662702> and use <:dommine:662249620579155968> on one of them.*
+
+.
+**__2 Lava Strykewyrms__**
+equip <:mechchin:641669268722810881> + target eastern strykewyrm + <:rapid:535541270521708566> → <:snap:535534127131394088>
+
+__Example Section (2 Celestial Dragons + 2 Lava Strykes):__
+.img:https://i.imgur.com/jmI3O6M.mp4
+.
+**__4 Black Dragons__**
+Drink <:accel:756236265472524418> → <:dive:1049378668197195808> → <:dive:1049378668197195808> + <:surge:535533810004262912> → <:dive:1049378668197195808> + <:surge:535533810004262912> → <:dive:1049378668197195808> + <:surge:535533810004262912> (refer to video below)
+
+Target eastern dragon of the two western dragons with <:mechchin:641669268722810881> use <:dragonslayer:641339921814126594> if available → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:rapid:535541270521708566> → finish off with basics
+
+Target eastern dragon of the two eastern dragons with <:mechchin:641669268722810881> + drink <:adrenrenewal:736298121704767538> → <:snap:535534127131394088> → <:shadowtend:642713547142332416> → strong basics/<:dbow:643848618553507843> <:eofspec:746403211908481184> to finish them off → <:dive:1049378668197195808> + <:surge:535533810004262912> towards the next room
+
+__Example Section (4 Black Dragons):__
+.img:https://i.imgur.com/1jtikWX.mp4
+.
+**__6 Black Dragons__**
+Target closest dragon with <:mechchin:641669268722810881> → basics until 2 black dragons are stacked → <:rapid:535541270521708566> + run past the dragons → <:snap:535534127131394088> → basics to finish them off
+
+<:divemobile:1049378665802235968> + <:surgemobile:867678153798975498> to the dragons near the gate and target the northern one with <:mechchin:641669268722810881> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:shadowtend:642713547142332416> → basics until dead
+
+Run back to remaining 2 dragons and target northern one with <:mechchin:641669268722810881> → <:rapid:535541270521708566> → <:snap:535534127131394088> → basics until dead
+
+*Note: Use <:dragonslayer:641339921814126594> whenever it comes off cooldown.*
+
+__Example Section (6 Black Dragons):__
+.img:https://i.imgur.com/yNSj9Sg.mp4
+.
+**__4 Lava Strykewyrms__**
+Equip <:deathsporearrows:900758234527301642> + <:ecb:615618531937222657> <:eofspec:746403211908481184> + <:divemobile:1049378665802235968> diagonally towards strykewyrms → use basics on strykewyrm near eastern wall and build to 100% and 5 <:deathsporearrows:900758234527301642> stacks
+
+<:surge:535533810004262912> north + place <:dommine:662249620579155968> near a strykewyrm and target another one while building to 100% and ds stacks → <:incend:535541258429661215> → equip <:fularrow:971025696958853180> + <:ecb:615618531937222657> <:eofspec:746403211908481184> → finish off closest strykewyrms with basics and <:rapid:535541270521708566>
+
+Target a strykewyrm near gate and kill it with <:bolg:994189289623662702> <:spec:537340400273195028> and strong basics
+
+__Example Section (4 Lava Strykes):__
+.img:https://i.imgur.com/eNCUZu0.mp4
+.
+**__4 Black Dragons__**
+Equip <:mechchin:641669268722810881> and target middle black dragon → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → equip <:bolg:994189289623662702> and kill north dragon with basics/<:bolg:994189289623662702> <:spec:537340400273195028> + run towards the gate → kill last dragon with <:rapid:535541270521708566> → <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> towards the bank and load preset → drink <:accel:756236265472524418> and <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> diagonally across the bridge and run down the bridge
+
+__Example Section (4 Black Dragons):__
+.img:https://i.imgur.com/A08Cpxv.mp4
+.
+> __**Post-Verak Lith to pre-Black Stone Dragons**__
+.tag:verakbsd
+.
+**__3 Dragonstone dragons 1 Onyx dragon__**
+<:surgemobile:867678153798975498> across the bridge → Teleport option 4 → <:divemobile:1049378665802235968> → <:surgemobile:867678153798975498> → equip <:deathsporearrows:900758234527301642> → <:surgemobile:867678153798975498> → target south dragon → <:grico:787904334812807238> → <:rapid:535541270521708566> (if you have good adren) → build to 100% and 5 <:deathsporearrows:900758234527301642> stacks → <:incend:535541258429661215> → equip <:mechchin:641669268722810881> and target NE dragon → <:sgb:626466665848242186><:eofspec:746403211908481184> → <:dbow:643848618553507843><:eofspec:746403211908481184> → basics/thresholds to finish off the dragons
+
+*Note: If your <:mechchin:641669268722810881> aren't hitting all 4 dragons use <:dommine:662249620579155968> on the remaining dragon.*
+
+__Example Section (3 Dragonstone + 1 Onyx dragons):__
+.img:https://i.imgur.com/RQlMx7c.mp4
+.
+**__2 Dragonstone dragons__**
+<:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> diagonally towards gemstone dragons → equip <:mechchin:641669268722810881> + <:dragonslayer:641339921814126594> + <:dbow:643848618553507843><:eofspec:746403211908481184> → <:needle:535541259108876293> → <:shadowtend:642713547142332416> → basics/<:snap:535534127131394088> to finish off the dragons.
+
+.
+**__1 Hydrix dragon__**
+Drink <:accel:756236265472524418> + <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> towards hydrix dragon → <:ecb:615618531937222657> <:eofspec:746403211908481184> + <:divemobile:1049378665802235968> + <:surgemobile:867678153798975498> → basics until 3+ <:perfectequilibrium:1006119102814887957> stacks → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:snipe:535541258425204770> → <:divemobile:1049378665802235968> + <:surgemobile:867678153798975498> diagonally towards gate
+
+.
+**__2 Dragonstone dragons__**
+Equip <:mechchin:641669268722810881> + target eastern gemstone dragon → <:rapid:535541270521708566> → <:snap:535534127131394088> → <:shadowtend:642713547142332416> → <:HydrixBakri:550834403136503822> <:grico:787904334812807238> to regain adren
+
+*Note: If dragons aren't chinnable run back south to lure west gemstone next to east one.*
+
+*Note: You want to enter <:BSD:583430542326759435> with 100% so use a few basics on the gemstones if gate is open and you have <100%.*
+
+__Example Section (4 Dragonstone + 1 Hydrix dragons)__
+.img:https://i.imgur.com/9DqCMmh.mp4
+.
+> __**Example Runs**__
+.tag:ER
+All example runs are done off task.
+
+<https://youtu.be/AjuBCnsnDLY> 12:43 [Pre-Grico Nerf] [Pre-GWD3] by <@!145413546409197569>
+<https://youtu.be/6_w5uIemVxQ> 11:57 BIS by <@!159663440011460609>
+
+.
 .
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Monster Information]($linkmsg_monsterinformation$)\n⬥ [Section 1]($linkmsg_section1$)\n⬥ [Astellarn, the First Celestial]($linkmsg_astellarn$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Verak Lith]($linkmsg_veraklith$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Black Stone Dragon]($linkmsg_blackstonedragon$)\n⬥ [Example Runs]($linkmsg_example$)",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Astellarn, the First Celestial]($linkmsg_astellarn$)\n⬥ [Verak Lith]($linkmsg_veraklith$)\n⬥ [Black Stone Dragon]($linkmsg_blackstonedragon$)\n⬥ [Pre-Astellarn]($linkmsg_preast$)\n⬥ [Post-Astellarn to Verak Lith]($linkmsg_astverak$)\n⬥ [Post-Verak Lith to Black Stone Dragon]($linkmsg_verakbsd$)\n⬥ [Example Runs]($linkmsg_ER$)",
     "color": 39423
   }
 }

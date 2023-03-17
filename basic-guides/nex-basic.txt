@@ -2,16 +2,24 @@
 .
 .img:https://i.imgur.com/6ycFkjr.png
 .
-> **__Preset__**
-.tag:preset
-*Note: Use a secondary preset with a Frozen key + Ancient Ceremonial set for use with your boss portal.*
+> __**Presets**__
+.tag:presets
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "description": "Note: <:Elderrunehelm5:556582802678743040> and <:Elderrunegauntlets5:556588710456590336> are used to prevent Nex from running to you during the smoke and shadow phases. If you have higher level ranged gear then you will need to upgrade these accordingly",
+    "fields": [
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/bMqqItn.png)\n⬥ [Breakdown](https://i.imgur.com/9PXr6qX.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
-.
-Full preset breakdown available here: <https://i.imgur.com/9PXr6qX.png>
-
-⬥ Elder rune helmet +1 <:Elderrunehelm5:556582802678743040> and Elder rune gauntlets +0 <:Elderrunegauntlets5:556588710456590336> are used to prevent Nex from running to you during the smoke and shadow phases, detailed further down. If you have higher level ranged gear then you will need to upgrade these accordingly.
-.
-.img:https://i.imgur.com/bMqqItn.png
 .
 **__Preventing Nex from meleeing__**
 Matching or having a higher Ranged defence compared to your Magic defence as shown below (found on the "Hero" tab in the subsection "loadout") will prevent Nex from attempting to melee you during the smoke and shadow phases.
@@ -52,6 +60,13 @@ Matching or having a higher Ranged defence compared to your Magic defence as sho
 Nex has 5 phases; Smoke, Shadow, Blood, Ice, and Zaros. Each phase has 2 special attacks, with the exception of Zaros
 
 .
+> **__Nex Attack Pattern__**
+.tag:attackpattern
+**__Image Courtesy of <@298636470988832778>__**
+.img:https://i.imgur.com/uDTfJso.png
+.
+
+.
 > **__Special Attacks__**
 .tag:specs
 {
@@ -61,23 +76,23 @@ Nex has 5 phases; Smoke, Shadow, Blood, Ice, and Zaros. Each phase has 2 special
     "fields": [
       {
         "name": "__Smoke Phase__",
-        "value": "⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.\n\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://imgur.com/BgsPoty.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://imgur.com/0tauAFe.mp4)\n\u200B"
+        "value": "⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.\n\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://i.imgur.com/BgsPoty.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://i.imgur.com/0tauAFe.mp4)\n\u200B"
       },
       {
         "name": "__Shadow Phase__",
-        "value": "⬥ Shadow traps (if phased before virus) → Darkness → Shadow traps → 4 auto-attacks → Repeats from second shadow traps.\n⬥ Move from Shadows and don’t stand MD.\n\u00a0\u00a0\u00a0\u00a0• A shadow trap is avoided. [Example](https://imgur.com/FZJq76Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• A player escapes the shadows engulfing them. [Example](https://imgur.com/4cZwRUJ.mp4)\n\u200B"
+        "value": "⬥ Shadow traps (if phased before virus) → Darkness → Shadow traps → 4 auto-attacks → Repeats from second shadow traps.\n⬥ Move from Shadows and don’t stand MD.\n\u00a0\u00a0\u00a0\u00a0• A shadow trap is avoided. [Example](https://i.imgur.com/FZJq76Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• A player escapes the shadows engulfing them. [Example](https://i.imgur.com/4cZwRUJ.mp4)\n\u200B"
       },
       {
         "name": "__Blood Phase__",
-        "value": "⬥ Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat.\n⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range.\n\u00a0\u00a0\u00a0\u00a0• Nex summoning her Blood Reavers. [Example](https://imgur.com/480GewR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex sacrifices a player. [Example](https://imgur.com/qnjrQdC.mp4)\n⬥ Any bleeds used during this phase will heal Nex rather than damage her (<:frag:535541273755385885> <:corruptshot:535541306294796299> <:deadshot:535541307666595870>)\n\u200B"
+        "value": "⬥ Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat.\n⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range.\n\u00a0\u00a0\u00a0\u00a0• Nex summoning her Blood Reavers. [Example](https://i.imgur.com/480GewR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex sacrifices a player. [Example](https://i.imgur.com/qnjrQdC.mp4)\n⬥ Any bleeds used during this phase will heal Nex rather than damage her (<:frag:535541273755385885> <:corruptshot:535541306294796299> <:deadshot:535541307666595870>)\n\u200B"
       },
       {
         "name": "__Ice Phase__",
-        "value": "⬥ First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat.\n⬥ If Blood phase ended with Sacrifice, Ice will start with Contain. [Example](https://imgur.com/zFmdn67.mp4)\n⬥ If Blood phase ended with Siphon, Ice will start with Prison. [Example](https://imgur.com/YGkCP6F.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:vitality:654618235097972737>\n\u00a0\u00a0\u00a0\u00a0• Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating.\n\u200B"
+        "value": "⬥ First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat.\n⬥ If Blood phase ended with Sacrifice, Ice will start with Contain. [Example](https://i.imgur.com/zFmdn67.mp4)\n⬥ If Blood phase ended with Siphon, Ice will start with Prison. [Example](https://i.imgur.com/YGkCP6F.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:vitality:654618235097972737>\n\u00a0\u00a0\u00a0\u00a0• Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating.\n\u200B"
       },
       {
         "name": "__Zaros Phase__",
-        "value": "⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280> and heals herself for 33,333 (1/6) of her health to boost it up to 73,333. [Example](https://imgur.com/lPTF0V0.mp4)\n⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks\n\u200B"
+        "value": "⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280> and heals herself for 33,333 (1/6) of her health to boost it up to 73,333. [Example](https://i.imgur.com/lPTF0V0.mp4)\n⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks\n\u200B"
       }
     ]
   }
@@ -127,7 +142,7 @@ https://youtu.be/n6I5fNFcOV0
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "⬥ [Preset]($linkmsg_preset$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Special Attacks]($linkmsg_specs$)",
+    "description": "⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Attack Pattern]($linkmsg_attackpattern$)\n⬥ [Special Attacks]($linkmsg_specs$)",
     "color": 39423
   }
 }

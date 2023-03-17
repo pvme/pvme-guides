@@ -5,34 +5,22 @@
 This guide is made with the idea of getting started at Telos, and does not cover meta strategies, for that refer to <#1020754263665811529> or <#1020754060070105210>, or if using other styles visit <#1020754537126035487> and <#1027734069338976348> / <#1027732920250667128>.
 
 .
-> **__Presets__**
+> __**Presets**__
 .tag:presets
-**__With Statius's Warhammer <:swh:641670143197446182>__**
-⬥ <:ripperpouch:703581275453128714> Ripper Demon Familiar
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:ancientlantern:580177522503712781> with <:pf:689501925770919981>
-⬥ <:weppoison:689525476158472288> Weapon Poison +++
-⬥ <:elementsscrim:841409588959510539> Scrimshaw of the Elements
-⬥ <:swh:641670143197446182> Statius's Warhammer
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208> with <:borrowedpower:657248051190300682> <:ent:567727987274022924>)
-.img:https://imgur.com/13soYpt.png
-
-.
-**__Without Statius's Warhammer <:swh:641670143197446182>__**
-⬥ <:smokenihil:854475442227642388> Smoke Nihil Familiar
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:ancientlantern:580177522503712781> with <:pf:689501925770919981>
-⬥ <:weppoison:689525476158472288> Weapon Poison +++
-⬥ <:elementsscrim:841409588959510539> Scrimshaw of the Elements
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208> with <:borrowedpower:657248051190300682> <:ent:567727987274022924>)
-.img:https://imgur.com/r3WKthT.png
-.
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample (with Statius Warhammer)](https://i.imgur.com/13soYpt.png)\n⬥ [Preset Sample (no hammer)](https://i.imgur.com/r3WKthT.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Enrage Mechanics__**
@@ -66,19 +54,19 @@ This guide is made with the idea of getting started at Telos, and does not cover
     "fields": [
       {
         "name": "__Auto-Attacks__",
-        "value": "Telos attacks with [melee](https://imgur.com/e6LpKti.mp4) when the player is in melee distance, otherwise [magic](https://imgur.com/wMhIhgf.mp4). If you leave MD, Telos will do one mage auto before walking up to you again."
+        "value": "Telos attacks with [melee](https://i.imgur.com/e6LpKti.mp4) when the player is in melee distance, otherwise [magic](https://i.imgur.com/wMhIhgf.mp4). If you leave MD, Telos will do one mage auto before walking up to you again."
       },
       {
         "name": "__Tendrils__",
-        "value": "⬥ Telos binds you in place, drains both your health and adrenaline, and heals himself for every hit the player takes. [Example](https://imgur.com/n92IQzM.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Deal (3,000 + 10 x Enrage) damage to free yourself."
+        "value": "⬥ Telos binds you in place, drains both your health and adrenaline, and heals himself for every hit the player takes. [Example](https://i.imgur.com/n92IQzM.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Deal (3,000 + 10 x Enrage) damage to free yourself."
       },
       {
         "name": "__Charge__",
-        "value": "⬥ Telos charges at the player after a short delay, dealing soft-typeless damage. [Example](https://imgur.com/iUIAuba.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Use <:surge:535533810004262912> / <:escape:535541258832052231> / <:bd:535532854281764884> 1 tick after the text above Telos disappears. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Resort to <:disrupt:535614336207552523> / <:res:535541258844635148> if necessary."
+        "value": "⬥ Telos charges at the player after a short delay, dealing soft-typeless damage. [Example](https://i.imgur.com/iUIAuba.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Use <:surge:535533810004262912> / <:escape:535541258832052231> / <:bd:535532854281764884> 1 tick after the text above Telos disappears. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Resort to <:disrupt:535614336207552523> / <:res:535541258844635148> if necessary."
       },
       {
         "name": "__Hold Still__",
-        "value": "⬥ Telos hits the player with a normal attack followed by a large melee hit that stuns, then jumps to the spot the player was standing on. [Example](https://imgur.com/fKhoh6P.mp4)\n\u00a0\u00a0\u00a0\u00a0• The normal attack can be either a melee or a magic hit, depending on how far the player is. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:anti:535541306475151390> / <:freedom:535541258240786434> beforehand to protect against the stun. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:res:535541258844635148> the large melee hit. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Move out of the jump radius."
+        "value": "⬥ Telos hits the player with a normal attack followed by a large melee hit that stuns, then jumps to the spot the player was standing on. [Example](https://i.imgur.com/fKhoh6P.mp4)\n\u00a0\u00a0\u00a0\u00a0• The normal attack can be either a melee or a magic hit, depending on how far the player is. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:anti:535541306475151390> / <:freedom:535541258240786434> beforehand to protect against the stun. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:res:535541258844635148> the large melee hit. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Move out of the jump radius."
       },
       {
         "name": "__Green Beam__",
@@ -134,7 +122,7 @@ This guide is made with the idea of getting started at Telos, and does not cover
       },
       {
         "name": "__Shockwaves and Drain__",
-        "value": "⬥ If meter is on the left side → **__Drain:__** Telos drains the player's adrenaline and prayer points. [Example](https://imgur.com/IrOrcBM.mp4)\n⬥ If meter is on the right side → **__Shockwaves:__** Rapid, hard hitting soft-typeless attacks. [Example](https://imgur.com/GNj9g8i.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Phase Telos before he could use Shockwaves, otherwise resort to <:reflect:535541258786177064>"
+        "value": "⬥ If meter is on the left side → **__Drain:__** Telos drains the player's adrenaline and prayer points. [Example](https://i.imgur.com/IrOrcBM.mp4)\n⬥ If meter is on the right side → **__Shockwaves:__** Rapid, hard hitting soft-typeless attacks. [Example](https://i.imgur.com/GNj9g8i.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Phase Telos before he could use Shockwaves, otherwise resort to <:reflect:535541258786177064>"
       }
     ]
   }
@@ -152,23 +140,23 @@ This guide is made with the idea of getting started at Telos, and does not cover
       },
       {
         "name": "__Golems__",
-        "value": "⬥ Three different-coloured melee golems spawn at each font. [Example](https://imgur.com/Pqb71gY.mp4)\n\u00a0\u00a0\u00a0\u00a0• Red golems attacks are able to stun after their first 3 hits. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:anti:535541306475151390>, resort to <:freedom:535541258240786434> if you got stunned. \n\u00a0\u00a0\u00a0\u00a0• Red golems have normal attack range. \n\u00a0\u00a0\u00a0\u00a0• Green and black golems have halberd attack range."
+        "value": "⬥ Three different-coloured melee golems spawn at each font. [Example](https://i.imgur.com/Pqb71gY.mp4)\n\u00a0\u00a0\u00a0\u00a0• Red golems attacks are able to stun after their first 3 hits. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:anti:535541306475151390>, resort to <:freedom:535541258240786434> if you got stunned. \n\u00a0\u00a0\u00a0\u00a0• Red golems have normal attack range. \n\u00a0\u00a0\u00a0\u00a0• Green and black golems have halberd attack range."
       },
       {
         "name": "__Fonts__",
-        "value": "⬥ To block Telos's instakill, players must walk up to and charge the fonts with their HP, for a total of 5 hits while dealing with golems. [Example](https://imgur.com/mBqSukd.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:res:535541258844635148> + <:reflect:535541258786177064> to reduce damage taken from fonts. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Relevant defensives do NOT work on the last hit of fonts. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Once the instakill is negated, all of your defensive abilities get placed on a 6s cooldown."
+        "value": "⬥ To block Telos's instakill, players must walk up to and charge the fonts with their HP, for a total of 5 hits while dealing with golems. [Example](https://i.imgur.com/mBqSukd.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Utilise <:res:535541258844635148> + <:reflect:535541258786177064> to reduce damage taken from fonts. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Relevant defensives do NOT work on the last hit of fonts. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Once the instakill is negated, all of your defensive abilities get placed on a 6s cooldown."
       },
       {
         "name": "__Font 3__",
-        "value": "⬥ Wrap around the center of the room and wait for the three golems to spawn. \n\u00a0\u00a0\u00a0\u00a0• When the golems reach you, (tc) furthest golem → <:ent:567727987274022924> + <:corruptblast:513190159194259467> + <:surge:535533810004262912> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- See example [here](https://imgur.com/dyeeCcK) \n\u00a0\u00a0\u00a0\u00a0• Chrage the font and phase Telos into P5."
+        "value": "⬥ Wrap around the center of the room and wait for the three golems to spawn. \n\u00a0\u00a0\u00a0\u00a0• When the golems reach you, (tc) furthest golem → <:ent:567727987274022924> + <:corruptblast:513190159194259467> + <:surge:535533810004262912> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- See example [here](https://i.imgur.com/dyeeCcK) \n\u00a0\u00a0\u00a0\u00a0• Chrage the font and phase Telos into P5."
       },
       {
         "name": "__Weak Anima Bomb__",
-        "value": "⬥ Telos fires a slow moving orb that deals soft-typeless damage. [Example](https://imgur.com/rOCPDcD.mp4)\n\u00a0\u00a0\u00a0\u00a0• The player's overload timer is constantly drained after getting hit until cleansed. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block using <:res:535541258844635148> / <:disrupt:535614336207552523> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Cleanse the overload debuff by stepping into one of the fonts."
+        "value": "⬥ Telos fires a slow moving orb that deals soft-typeless damage. [Example](https://i.imgur.com/rOCPDcD.mp4)\n\u00a0\u00a0\u00a0\u00a0• The player's overload timer is constantly drained after getting hit until cleansed. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block using <:res:535541258844635148> / <:disrupt:535614336207552523> \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Cleanse the overload debuff by stepping into one of the fonts."
       },
       {
         "name": "__So Much Power (SMP)__",
-        "value": "⬥ Once phase meter is filled, the next special attack is replaced by an SMP. [Example](https://imgur.com/Ft9mmv4.mp4)\n⬥ Telos fires a deadly soft-typeless attack paired with a normal attack (much like Hold Still). \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block with <:disrupt:535614336207552523> or <:res:535541258844635148>"
+        "value": "⬥ Once phase meter is filled, the next special attack is replaced by an SMP. [Example](https://i.imgur.com/Ft9mmv4.mp4)\n⬥ Telos fires a deadly soft-typeless attack paired with a normal attack (much like Hold Still). \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally skip the mechanic, otherwise block with <:disrupt:535614336207552523> or <:res:535541258844635148>"
       }
     ]
   }
@@ -198,7 +186,7 @@ This guide is made with the idea of getting started at Telos, and does not cover
       },
       {
         "name": "__Phase Meter__",
-        "value": "⬥ Gradually fills up \n\u00a0\u00a0\u00a0\u00a0• Once filled, Telos begins charging an instakill attack and receives heavily reduced damage. [Example](https://imgur.com/7vfE0Da.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally kill before he can use this mechanic, otherwise <:immort:535541258538582017>"
+        "value": "⬥ Gradually fills up \n\u00a0\u00a0\u00a0\u00a0• Once filled, Telos begins charging an instakill attack and receives heavily reduced damage. [Example](https://i.imgur.com/7vfE0Da.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Ideally kill before he can use this mechanic, otherwise <:immort:535541258538582017>"
       }
     ]
   }
@@ -262,7 +250,7 @@ To deal with Telos's SMP, ideally phase him into a font with 2 or 3 auto-attacks
 **__Font 3__**
 ⬥ Stick to the wall of the middle of the room and wait for the golems to reach you.
 ⬥ Target the farthest golem → <:SBS:543875425055670275> → <:ent:567727987274022924> + <:corruptblast:513190159194259467> + <:surge:535533810004262912>
-    • See example here: <https://imgur.com/dyeeCcK>
+    • See example here: <https://i.imgur.com/dyeeCcK>
 ⬥ Charge font
     • Utilise <:res:535541258844635148> + <:reflect:535541258786177064>
 ⬥ Phase Telos into phase 5.

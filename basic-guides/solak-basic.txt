@@ -2,39 +2,32 @@
 .
 .img:https://i.imgur.com/lSVgwyB.png
 .
-> **__Preset__**
-.tag:preset
-**__Magic__**
-⬥ <:ripperpouch:703581275453128714> Ripper Demon Familiar + <:ripperscroll:703581275155464203>
-    • If any <:soa:869284271595069451>, one player should use <:kalgpouch:921410226484301925> Kal'gerion Demon + <:kalgscroll:841409588954923049>
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:ancientlantern:580177522503712781> with Planted Feet <:pf:689501925770919981>
-⬥ <:weppoison:689525476158472288> Weapon Poison +++
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:incitefear:856635090783567902> <:exsanguinate:856635090745950258> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
-.img:https://i.imgur.com/XCYe3x2.png
-
-.
-**__Ranged__**
-⬥ <:ripperpouch:703581275453128714> Ripper Demon Familiar + <:ripperscroll:703581275155464203>
-⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-⬥ <:ancientrepriser:643150658891153428> with Planted Feet <:pf:689501925770919981>
-⬥ <:weppoison:689525476158472288> Weapon Poison +++
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
-.img:https://i.imgur.com/HSmnn7b.png
-
-.
-**__Melee__**
-⬥ <:ripperpouch:703581275453128714> Ripper Demon Familiar + <:ripperscroll:703581275155464203>
-⬥ <:eofred:780401412839833601> with Dragon Claws <:dragonclaw:779048041088024606>
-⬥ <:weppoison:689525476158472288> Weapon Poison +++
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523>)
-.img:https://i.imgur.com/x1v8Fdc.png
-.
+> __**Presets**__
+.tag:presets
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/XCYe3x2.png)",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/x1v8Fdc.png)",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/HSmnn7b.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Phase One Mechanics__**
@@ -281,7 +274,7 @@
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "⬥ [Presets]($linkmsg_preset$)\n⬥ [P1 Mechanics]($linkmsg_p1$)\n⬥ [P2 Mechanics]($linkmsg_p2$)\n⬥ [P3 Mechanics]($linkmsg_p3$)\n⬥ [P4 Mechanics]($linkmsg_p4$)\n⬥ [Basic Strategy]($linkmsg_strats$)",
+    "description": "⬥ [Presets]($linkmsg_presets$)\n⬥ [P1 Mechanics]($linkmsg_p1$)\n⬥ [P2 Mechanics]($linkmsg_p2$)\n⬥ [P3 Mechanics]($linkmsg_p3$)\n⬥ [P4 Mechanics]($linkmsg_p4$)\n⬥ [Basic Strategy]($linkmsg_strats$)",
     "color": 39423
   }
 }
