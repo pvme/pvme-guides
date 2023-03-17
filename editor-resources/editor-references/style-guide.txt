@@ -171,50 +171,72 @@ Gear presets are used at the start of guides to concisely inform users of all it
 __**Styling Explanation**__
 ⬥ The basic preset layout is as follows.
 ```
-→ Preset Name
-→ Relics Used
-→ [preset image]
-	  → (link to advanced preset breakdown)
-→ Important Items
-→ Notes
+→ Preset embed (contains sample image and breakdown with notes)
+→ Relic Setup
 
 ```
-⬥ **Preset/advanced breakdown images should be taken from the Preset Generator** (link in <#1026543653499441304>).
-⬥ **Advanced preset breakdowns should be sufficiently detailed as to be useful to the reader**.
+⬥ **Preset/breakdown images should be taken from the Preset Generator** (link in <#1026543653499441304>).
+⬥ **Preset breakdowns should be sufficiently detailed as to be useful to the reader**.
     • See the one in the example preset below for an example.
 ⬥ **Keep presets consistent**:
-    • Rune pouches should match pouch colors in <#1025569571710718093>.
+    • Rune pouches should match pouch colours in <#1025569571710718093>.
     • EoF emojis (when possible) should match colours in <#1020550560551813131>.
     • Weapon switches be chosen to match their perked equivalents in <#553632787639435284>.
 ⬥ **Avoid using dyed gear in presets**.
-.
-⬥ **Mention important items and rune pouch/quiver/EoF contents** below the preset.
-    • Rune Pouches should be formatted as:  `<pouchEmoji> <rune1> <rune2> ...`.
-    • EoFs should be formatted as:  `<eofEmoji> with <weaponName> <weaponEmoji>`.
-        - A list of common EoF combinations, in preset format, can be found in <#1020845621227307110>.
-⬥ **Mention Relics**.
-⬥ Any additional **notes** that are worth mentioning can go here.
+⬥ **Avoid using unreasonably expensive gear in presets**.
+    • For example, avoid spiked boots, Elite Sirenic, etc. Use your best judgement.
+⬥ **Mention Relics** using title "Relic Setup".
 
 .
-⬥ Combining all of these, we can put together an example preset like the following!
+⬥ Combining all of these, we can put together an example preset like the following.
+    • Note: there are two variations provided here.
+        - The first variation can be used when there are multiple presets to be displayed.
+        - The second variation can be used when there is only a single preset to be displayed.
 
 .
-__**Basic Ranged Preset**__ <:Ranged:689504724403486920>
-.
-__**Gear Setup**__
-.img:https://i.imgur.com/1bDHG9m.png
-*Note: For a full breakdown of the preset, check out: <https://i.imgur.com/xBT8JEk.png>.*
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/h8e3Fuq.png)\n⬥ [Breakdown](https://i.imgur.com/gFyrgE0.png)",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/tp1M1nG.png)\n⬥ [Breakdown](https://i.imgur.com/RdBF24c.png)",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/pcLPRGm.png)\n⬥ [Breakdown](https://i.imgur.com/IxqdpMg.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-__**Important Items**__
-⬥ <:ancientrepriser:643150658891153428> with Planted Feet <:pf:689501925770919981>
-⬥ <:barrowsbbcoh:580176857123651584> with Caroming 4 <:caroming4:791281588792590336>
-⬥ <:eofblue:780401412906680330> with Seren Godbow <:sgb:626466665848242186>
-⬥ <:eofgreen:780401412727242773> with Dark Bow <:dbow:643848618553507843>
-⬥ <:eofpink:780401412865523722> with Eldritch Crossbow <:ecb:615618531937222657>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-(Runes for <:disrupt:535614336207552523> <:Veng:543478434953822208> with <:borrowedpower:657248051190300682> <:smokecloud:856635090641879050>)
+**OR**
+
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestions & Breakdowns__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/h8e3Fuq.png)\n⬥ [Breakdown](https://i.imgur.com/gFyrgE0.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 __**Relic Setup**__
@@ -222,14 +244,6 @@ __**Relic Setup**__
 ⬥ <:berserkersfury:697808774106185768> Berserkers Fury
 ⬥ <:fontoflife:698225967679930408> Font of Life
 
-.
-__**Notes**__
-⬥ If using Smoke Cloud <:smokecloud:856635090641879050> with Spellbook Swap <:SBS:543875425055670275> instead of Borrowed Power <:borrowedpower:657248051190300682> , then can replace extra rune pouch with food.
-⬥ Adjust your food accordingly based on enrage - can substitute <:blueblubber:689530593742291033> <:grest:689530593901412578> with <:Sailfish:565726489363087360> <:Brew:565726489400573962> as needed.
-⬥ Elite Sirenic <:elitesirenicbody:643846908305211413> is **not required** - replace with your best power armor.
-⬥ If Inspiration <:inspiration:643505652634746881> is on cooldown, Reckless <:reckless:643505179378974748> also works.
-⬥ If not using <:mechchin:641669268722810881> then some alternate source of AoE damage is required (like Decimation <:decimation:643848618477879328> <:eof:787526151978614824>) for minions.
-⬥ A Hellhound <:hellhoundpouch:921410226475925514> or Blood Reaver <:reaverpouch:839903693837959228> is recommended, but if you are struggling on food then a Yak <:Yak:513195712201228289> will work too.
 
 .
 > __**Writing Rotations**__
@@ -334,7 +348,7 @@ The Table of Contents (ToC) is present in every guide, and used for quick naviga
 ```
 {
   "embed": {
-    "title": "Table of Contents",
+    "title": "__Table of Contents__",
     "color": 39423,
     "fields": [
       {
@@ -362,7 +376,7 @@ The Table of Contents (ToC) is present in every guide, and used for quick naviga
 .
 {
   "embed": {
-    "title": "Table of Contents",
+    "title": "__Table of Contents__",
     "color": 39423,
     "fields": [
       {
