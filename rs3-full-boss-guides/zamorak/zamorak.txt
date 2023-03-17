@@ -368,6 +368,24 @@ Varies greatly with critical hits and how many stacks you have in <:perfectequil
 ⬥ Final melee hit and final bomb
     • <:surge:535533810004262912> to Zamorak's back → <:res:535541258844635148> → <:reflect:535541258786177064> / <:cade:535541306353778689> → <:anti:535541306475151390>
 
+> __**Phase 7 Troubleshooting**__
+.tag:p7help
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Taking too much damage?__",
+        "value": "⬥ **Edict Order** (see !edicts for recommendations)\n\u00a0\u00a0\u00a0\u00a0• A late edict 4 leads to less effective defensives.\n\u00a0\u00a0\u00a0\u00a0• An early edict 6 leads to lesser healing food.\n\n⬥ **Rune Killing Speed**\n\u00a0\u00a0\u00a0\u00a0• Killing the first rune ***immediately*** is imperative as Zamorak's red bar stops charging for 10 ticks (5 ticks at 1600+ enrage) following each rune death. The red bar directly correlates to the damage you receive.\n\n⬥ **Defensive Usage**\n\u00a0\u00a0\u00a0\u00a0• Pre-<:devo:513190158728953857> / <:debil:535541278264393729> and <:DeflectMelee:544195488447201300> the initial <:melee:615612332521029632>hit? \n\u00a0\u00a0\u00a0\u00a0• <:disrupt:535614336207552523> and <:vitality:654618235097972737> the Large Smoke?\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Full hp when using <:vitality:654618235097972737>?\n\u00a0\u00a0\u00a0\u00a0• Auto-casting <:bloodbarrage:537338981747261446>? (if using <:soa:869284271595069451><:spec:537340400273195028>)"
+      },
+      {
+        "name": "__Not dealing enough damage to one-cycle?__",
+        "value": "⬥ Damage Checklist\n\u00a0\u00a0\u00a0\u00a0• Stacking 7+ <:StormShards:536256663641128971> during p1-6 and using <:Shatter:536256673904328704>?\n\u00a0\u00a0\u00a0\u00a0• Delaying <:omnipowerigneous:959089455560540200>/<:deadshotigneous:959089455283728386>/<:overpowerigneous:959089455640215633> until after the Large Smoke?\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• This is to benefit from edict 6 effect.\n\u00a0\u00a0\u00a0\u00a0• Using movement <:surge:535533810004262912>/<:dive:1049378668197195808> to reach Zamorak immediately after final Rune death?\n\n⬥ Preparing for a Second Cycle\n\u00a0\u00a0\u00a0\u00a0• Remove <:DeflectMelee:544195488447201300>, <:res:535541258844635148> the melee swipe, <:reflect:535541258786177064> + <:sd:537341954392850442>\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0OR\n\u00a0\u00a0\u00a0\u00a0• Remove <:DeflectMelee:544195488447201300>, <:divert:787904334377648130> the melee swipe, <:immort:535541258538582017> / <:cade:535541306353778689>"
+      }
+    ]
+  }
+}
+.embed:json
 .
 __**Suggested Low Enrage Strategy (Courtesy of <@190066298338803712>)**__
 In 5-person team, assign people to NW/NE/SE/SW/Middle
@@ -441,7 +459,7 @@ In 5-person team, assign people to NW/NE/SE/SW/Middle
       },
       {
         "name": "__Strategy__",
-        "value": "⬥ [Phase 7]($linkmsg_p7$)\n⬥ [Tips and Tricks]($linkmsg_tips$)\n⬥ [Example Kills]($linkmsg_examples$)\n",
+        "value": "⬥ [Phase 7]($linkmsg_p7$)\n⬥ [P7 Troubleshooting]($linkmsg_p7help$)\n⬥ [Tips and Tricks]($linkmsg_tips$)\n⬥ [Example Kills]($linkmsg_examples$)\n",
         "inline": true
       }
     ]
