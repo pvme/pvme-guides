@@ -2,11 +2,7 @@
 .
 .img:https://i.imgur.com/W5h47SR.png
 .tag:intro
-ED3 is considered the hardest Elite Dungeon in the trilogy. The requirements to feasibly solo it both in terms of gear and skill is generally considered higher than that of ED1 and ED2.
-
-⬥ Use the zerker aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> variants for the dungeon. Otherwise, <:vamp:643505653079343144> is fine for learning.
-
-⬥ Use a <:reaverpouch:839903693837959228> familiar if using <:vamp:643505653079343144>
+ED3 is generally considered the hardest Elite Dungeon in the trilogy, in most part due to its final boss: the Ambassador.
 
 .
 > __**Presets**__
@@ -14,21 +10,22 @@ ED3 is considered the hardest Elite Dungeon in the trilogy. The requirements to 
 {
   "embed": {
     "title": "__Preset Suggestions & Breakdowns__",
+    "description": "*Note: a Blood Reaver familiar is recommended for all styles.*",
     "color": 39423,
     "fields": [
       {
         "name": "__Magic__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/puNIlJc.png)",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/q4QICAx.png)\n⬥ [Breakdown](https://i.imgur.com/TZHVlqU.png)",
         "inline": true
       },
       {
         "name": "__Melee__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/9SDkfyA.png)",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/aKI11ZA.png)\n⬥ [Breakdown](https://i.imgur.com/gklXw9l.png)",
         "inline": true
       },
       {
         "name": "__Ranged__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/AJannvv.png)",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/yDj8XYa.png)\n⬥ [Breakdown](https://i.imgur.com/1V2RGLf.png)",
         "inline": true
       }
     ]
@@ -66,317 +63,317 @@ ED3 is considered the hardest Elite Dungeon in the trilogy. The requirements to 
 .embed:json
 
 .
-__**Crassian Leviathan (Info)**__
+> __**Dungeon Walkthrough (1/3)**__
+.tag:dung1
+This guide is organized according to the structure of the dungeon itself, and alternates between clearing mobs, and defeating the bosses.
+
+The first few areas of the dungeon are relatively trivial. Generally, you can camp <:soulsplit:615613924506599497> - though, if struggling with some enemies you can use <:DeflectMelee:544195488447201300>. Avoid the Sea Horrors.
+
+Group mobs together and use your area of effect abilities:
+
+.
+<:corruptblast:513190159194259467> / <:dbreath:535533833391702017> / <:deto:535533833358016512> / <:gchain:787904334495088672> / <:tsunami:535533809995874304>
+<:cleave:535532878616985610> / <:cane:535532878969438210> / <:quake:535532879506309150> / <:gflurry:535532879283879977> / <:meteorstrike:535532879359377439>
+<:corruptshot:535541306294796299> / <:bombard:535541306391265284> and <:mechchin:641669268722810881> + strong abilities
+
+.
+> __**Crassian Leviathan**__
 .tag:crassianmechs
 .img:https://i.imgur.com/VENcARf.jpg
 .
-The first boss you encounter. The boss heals over time, use <:weppoison:689525476158472288> and <:cinderbanes:513190158355660812> to slow the healing. It uses moderate but slow auto attacks (<:melee:615612332521029632> if player in melee distance, <:Ranged:689504724403486920> otherwise)
+__**Overview**__
+**A video version of this basic strategy can be found here:** <https://youtu.be/bpvq0Li-pTg>
+
+⬥ Attacks with <:Ranged:689504724403486920>, or <:melee:615612332521029632> if in melee distance, however it is recommended to simply <:soulsplit:615613924506599497>
+⬥ Heals over time. Use <:weppoison:689525476158472288> and <:cinderbanes:513190158355660812> to slow the healing.
+⬥ The mechanic cycle is Poisonous Breath → Head Sweep → Head Sweep → Tactical Retreat → repeat.
+
+.
+__**Key Mechanics**__
+⬥ **Poisonous Breath:** a green blast through the centre of the arena dealing high damage.
+    • Stay near the sides of the arena to avoid it.
+        - If using <:melee:615612332521029632> - use a Halberd to more easily stay in the safe spots: <https://i.imgur.com/wKjEfc9.png>
+⬥ **Head Sweep:** Leviathan will slam its head side to side, twice, dealing high damage.
+    • Move quickly to the opposite side of each slam to avoid it.
+⬥ **Tactical Retreat:** Leviathan will switch to the other end of the arena.
+    • It is possible to be stunned while following it; <:anti:535541306475151390> or <:freedom:535541258240786434> to avoid this.
+    • It is also possible to be poisoned by the green gas; eat food if required.
+
+.
+__**Basic Approach**__
+⬥ Camp <:soulsplit:615613924506599497> + <:turmoil:583429936606347280> / <:anguish:583429936665198592> / <:torment:583429936958930964>
+⬥ Execute a strong ultimate rotation at the start of the encounter, then maintain strong ability usage until Leviathan uses Tactical Retreat. Repeat until boss is defeated.
+    • Take care to avoid both the Poisonous Breath and the Head Sweep while inside of your ultimate.
+
+<:sunshine:994921119381463070> <:adrenrenewal:736298121704767538> → strong basics and <:wm:535533809978966037> / <:asphyx:535533833072672778> / <:gstaff:513203008608141314> <:eofspec:746403211908481184> / <:igneouskalmej:902209626408382494> <:omni:535533809664262179>
+<:Berserk:513190158468907012> <:adrenrenewal:736298121704767538> → strong basics and <:assault:535532853979512842> / <:cane:535532878969438210> / <:destroy:535532879330148352> / <:gflurry:535532879283879977> / <:quake:535532879506309150> / <:igneouskalket:902209626404192316> <:overpower:535532879334080517>
+<:deathsswift:994921434633744455> <:adrenrenewal:736298121704767538> → strong basics and <:rapid:535541270521708566> / <:snap:535534127131394088> / <:shadowtend:642713547142332416> / <:dbow:643848618553507843> <:eofspec:746403211908481184>
+
+.
+> __**Dungeon Walkthrough (2/3)**__
+.tag:dung2
+The first few areas after the Crassian Leviathan are relatively trivial. Again, you can usually camp <:soulsplit:615613924506599497>. Try to use <:surge:535533810004262912> and <:dive:1049378668197195808> / <:bd:535532854281764884> a good amount so as to help you speed along. You can try to surge diagonally when possible to cut corners, and hug walls to avoid being attacked.
 
 .
 {
   "embed": {
-    "title": "__Mechanics__",
     "color": 39423,
     "fields": [
       {
-        "name": "__Attack Rotation__",
-        "value": "⬥ Crassian's starting attack pattern is:\n\u00a0\u00a0\u00a0\u00a0• Breath → 1 auto → sweeps → 2 autos → sweeps → Tactical Retreat.\n\u200B"
-      },
-      {
-        "name": "__Poisonous Breath__",
-        "value": "⬥ The first mechanic of the fight. The Leviathan fires a breath attack in front of it, dealing rapid heavy typeless damage and contaminating the arena. Move to the side after initiating the fight to avoid death. [Example](https://i.imgur.com/RCt6T7m.mp4)\n⬥ There are 2 safespots shown below. Stand here and you will be safe from the breath and headsweeps. [Example](https://i.imgur.com/wKjEfc9.png)\n\u00a0\u00a0\u00a0\u00a0• Use your halberd if you're meleeing during Poisonous Breath to avoid getting dragged in and dying instantly.\n\u00a0\u00a0\u00a0\u00a0• <:sunshinepf:994921595489488927> and <:deathsswiftpf:994921597813137518> at these spots.\n\u200B"
-      },
-      {
-        "name": "__Many Heads__",
-        "value": "⬥ The Leviathan has additional heads that will stun and poison you in the contaminated zones if you are near them. [Example](https://i.imgur.com/YDfiuOf.mp4)\n\u200B"
-      },
-      {
-        "name": "__Head Sweep__",
-        "value": "⬥ The Leviathan will slam its' head across the ground twice, dealing repeated typeless damage around ~4000 each if caught in the area. [Example](https://i.imgur.com/5sWppnG.mp4)\n\u00a0\u00a0\u00a0\u00a0• Avoided by moving to the opposite side of where the sweep begins.\n\u200B"
-      },
-      {
-        "name": "__Tactical Retreat__",
-        "value": "⬥ After going through one **Poisonous Breath** and two sets of **Head Sweeps**, the Leviathan will move to opposite side of the arena, repeating his rotation. [Example](https://i.imgur.com/3iANozs.mp4)\n\u00a0\u00a0\u00a0\u00a0• <:anti:535541306475151390> → <:bd:535532854281764884> + <:surge:535533810004262912> to the other side.\n\u00a0\u00a0\u00a0\u00a0• Leviathan switching sides counts as walking for <:comb:535533833098100745> <:slaughter:535532879237873666> <:frag:535541273755385885>\n\u200B"
+        "name": "__Movement Demo__",
+        "value": "⬥ [Diagonal Surge](https://i.imgur.com/mYnzcHG.mp4)\n⬥ [Hugging Walls](https://i.imgur.com/oFvx2jo.mp4)"
       }
     ]
   }
 }
-
 .embed:json
-.
-__**Crassian Leviathan (Fight tips)**__
-.tag:crassiantips
-⬥ <:surge:535533810004262912> in and immediately ult at either safespot to begin the fight.
-
-⬥ Camp <:soulsplit:615613924506599497> on all styles.
-
-⬥ Outline of rotations:
-    • <:melee:615612332521029632> <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:assault:535532853979512842> → <:destroy:535532879330148352> → <:gflurry:535532879283879977> (if owned) → <:overpowerigneous:959089455640215633> after zerk → cycle thresholds again → move to other side and finish off
-    • <:Ranged:689504724403486920> <:deathsswiftpf:994921597813137518> <:adrenrenewal:736298121704767538> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:shadowtend:642713547142332416> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:deadshotigneous:959089455283728386> → good thresholds → move to other side and finish off
-    • <:Magic:689504724159823906> <:sunshinepf:994921595489488927> <:adrenrenewal:736298121704767538> <:smokecloud:856635090641879050> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:omnipowerigneous:959089455560540200> → move to other side and finish off
-    • Use <:zerk:535532854004678657> <:deathsswiftpf:994921597813137518> <:sunshinepf:994921595489488927> again on the other side if boss has >100k HP left.
-
-⬥ Sometimes your familiar gets stuck at the entrance, remember to call them if this happens.
-
-⬥ Use channelled abilities such as <:asphyx:535533833072672778> <:destroy:535532879330148352> or <:snipe:535541258425204770> right after moving for headsweeps or during auto attacks to ensure getting them off without the need to cut them short to dodge headsweeps.
-
-⬥ <:freedom:535541258240786434> and move out immediately if stunned while moving to the other side to avoid being killed by breath.
 
 .
-> __**Taraket, the Necromancer (Info)**__
+__**Notable Area: The Bridge**__
+This is **the most punishing area** of the dungeon (aside from the bosses). After opening the gate to the bridge, you will be dealt rapid <:Ranged:689504724403486920> damage. In addition, the Sea Horrors at the end of the bridge deal heavy typeless damage.
+
+⬥ Pray <:DeflectRange:544195488317046812> and use <:devo:513190158728953857> while crossing the bridge. Clear the Horrors & Mage at the end of the bridge as fast as possible, making good use of your area-of-effect abilities. You can back yourself into the far corner to help keep them grouped.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Bridge Clearing Demo__",
+        "value": "⬥ [Magic](https://i.imgur.com/YnkBiUx.mp4)\n⬥ [Melee](https://i.imgur.com/jNUYyVz.mp4)\n⬥ [Ranged](https://i.imgur.com/Tp0aI9S.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> __**Taraket, the Necromancer**__
 .tag:taraketmechs
 .img:https://i.imgur.com/sToihl3.jpg
 .
-Taraket and his minions are classified as Undead for Salve Amulet <:salveamulet:797899945730244648>, Undead Slayer perk <:undeadslayerperk:689502804720615441> and sigil <:undeadslayer:641339922019516416> purposes. Taraket uses heavy <:Magic:689504724159823906> auto attacks (<:Ranged:689504724403486920> when he is in <:deathsswift:994921434633744455>).
+__**Overview**__
+⬥ All enemies in the encounter are affected by Salve Amulet (e) <:salveamulet:797899945730244648>, Undead Slayer perk <:undeadslayerperk:689502804720615441> and the Undead Slayer ability <:undeadslayer:641339922019516416>
+⬥ The overall structure of the fight is: (reach phase HP → deal with Corpse Carrier or Bloated Monstrosity) x2 → finish Taraket
+    • Throughout all stages, Taraket will occasionally use Death's Swiftness
+    • Throughout all stages, Rifts of Undeath will occasionally spawn.
+    • In the last stage, Spirit Walls will occasionally spawn.
 
 .
-{
-  "embed": {
-    "title": "__Mechanics__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Rift of Undeath__",
-        "value": "⬥ Taraket spawns a rift with 30k HP that spawns skeletons periodically. [Example](https://i.imgur.com/Xq8JxyR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Kill the Rift before the blue bar runs out, to avoid being dealt up to 9,000 hard typeless damage. [Example](https://i.imgur.com/lNWdkWt.mp4)\n\u00a0\u00a0\u00a0\u00a0• This mechanic is repeated throughout the fight.\n\u200B"
-      },
-      {
-        "name": "__Death's Swiftness__",
-        "value": "⬥ Taraket uses Death's Swiftness <:deathsswift:994921434633744455>, becoming immobile and switches to attacking using Ranged. These autos are slightly stronger than his Magic ones. [Example](https://i.imgur.com/pkwjo5O.mp4)\n\u00a0\u00a0\u00a0\u00a0• Remember to change your prayer flicking accordingly. \n\u00a0\u00a0\u00a0\u00a0• This mechanic is repeated throughout the fight.\n\u200B"
-      },
-      {
-        "name": "__Corpse Carrier and Bloated Monstrosity__",
-        "value": "⬥ Upon reaching 200K hitpoints, Taraket will become invulnerable and fly towards a black crystal at the sides of the arena, healing himself and spawning one of the two corpses: Corpse Carrier (west) or the Bloated Monstrosity (east), with 90K HP each. \n\u00a0\u00a0\u00a0\u00a0• The Corpse Carrier will continuously spawn skeletal mobs until its death. [Example](https://i.imgur.com/L3klbH8.mp4)\n\u00a0\u00a0\u00a0\u00a0• The Bloated Monstrosity increases the damage of Taraket's auto-attacks. [Example](https://i.imgur.com/LeJAsiN.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Both of these attack with melee and are very easy to kite if needed.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Kill these as soon as possible to avoid taking too much damage.\n\u00a0\u00a0\u00a0\u00a0• Taraket can only spawn these once each and will not heal upon hitting 200K HP afterwards.\n\u00a0\u00a0\u00a0\u00a0• The first spawn will always be the closest crystal to Taraket.\n\u200B"
-      },
-      {
-        "name": "__Spirit Wall__",
-        "value": "⬥ Taraket smashes the ground infront of him for heavy melee damage, summoning a line of spirits infront of him that will move towards the player, dealing rapid typeless damage upon contact. [Example](https://i.imgur.com/ESTxXSQ.mp4)\n\u00a0\u00a0\u00a0\u00a0• Taraket does this twice almost consecutively.\n\u00a0\u00a0\u00a0\u00a0• Move out of the way as needed be.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- You can walk behind him to dodge both attacks if in melee distance.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Avoid this attack no matter what, it has the highest KO potential.\n\u200B"
-      },
-      {
-        "name": "__Absorb Undeath__",
-        "value": "⬥ Periodically, Taraket may absorb all skeletons in the arena to heal 2,000 per skeleton. [Example](https://i.imgur.com/Kqlh96V.mp4)\n\u200B"
-      }
-    ]
-  }
-}
-
-.embed:json
-.
-__**Taraket, the Necromancer (Fight tips)**__
-.tag:tarakettips
-⬥ For the first rift, players may do the following lure when the fight begins to stack Taraket together with the rift when it spawns to AoE both targets easily.
-    • There's no need to do this if confident in phasing Taraket and then dealing with the portal or tanking his attacks while killing the portal.
-.
-.img:https://i.imgur.com/pukl6qm.mp4
-.
-⬥ Because Taraket's auto attacks are slow and obvious, <:soulsplit:615613924506599497> flicking is strongly recommended.
-    • When he starts using <:deathsswift:994921434633744455>, zoom in to see if he is using <:Magic:689504724159823906> or <:Ranged:689504724403486920> autos.
-
-⬥ <:melee:615612332521029632> rotation outline:
-    • Start: Lure Taraket + <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:assault:535532853979512842> → <:destroy:535532879330148352> → <:gflurry:535532879283879977>
-    • Portal spawn: Use strong AoEs with halberd <:meteorstrike:535532879359377439> <:cane:535532878969438210> <:cleave:535532878616985610>
-    • Bloated spawn: Hit Bloated upon spawn, target Taraket upon landing and priortise AoEs to also hit Bloated.
-        - Finish Bloated once Taraket is phased.
-    • Carrier spawn: <:zerk:535532854004678657> and kill Corpse Carrier.
-        - <:bd:535532854281764884> with halberd <:lanispear:839903893177106454> to clear skeletons if needed.
-    • Finish off Taraket.
+__**Key Mechanics**__
+⬥ **Rift of Undeath:** a portal that spawns Skeletons, and will eventually explode for high damage.
+    • Kill the rifts immediately, before they explode.
+    • Using area of effect abilities can be helpful to kill Skeletons at the same time.
+⬥ **Absorb Undeath:** Taraket will occasionally absord any Skeletons in the arena to heal himself.
+    • Dispatch skeletons as required.
+⬥ **Death's Swiftness:** Taraket will apply <:deathsswift:994921434633744455> and start dealing <:Ranged:689504724403486920> damage.
+    • Switch to <:DeflectRange:544195488317046812> as required; <:soulsplit:615613924506599497> flick if comfortable.
+⬥ **Corpse Carrier and Bloated Monstrosity:** a large minion that will spawn Skeletons or increase damage dealt to the player, respectively.
+    • Kill them immediately.
+    • Using area of effect abilities can help dispatch skeletons at the same time.
+    • Luring them to Taraket will ensure he suffers from area of effect damage, too.
+⬥ **Spirit Wall:** a blue line of ghost-like minions that rush towards the player, dealing extremely high damage if touched.
+    • There will be two of these lines each time, in relatively quick succession.
+    • Move out of their way.
 
 .
-⬥ <:Ranged:689504724403486920> rotation outline:
-    • Start: Lure Taraket + <:deathsswiftpf:994921597813137518> <:adrenrenewal:736298121704767538> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:shadowtend:642713547142332416>
-    • Portal spawn: Equip <:mechchin:641669268722810881> + <:deadshotigneous:959089455283728386> → good thresholds until Taraket is phased.
-    • Bloated spawn: Hit Bloated, (tc) Taraket upon landing and equip <:mechchin:641669268722810881> once Bloated walks together with Taraket.
-.
-    • Carrier spawn: <:deathsswiftpf:994921597813137518> and target Carrier until Taraket stops flying.
-        - Do what you did for Bloated but on Carrier.
-        - You can use <:corruptshot:535541306294796299> or <:ricocaroming:867678153635004447> to get rid of skeletons in the vicinity.
-    • Finish off Taraket.
-        - Don't stand in melee distance if not confident of avoiding the melee hit from **Spirit Wall**.
+__**Basic Approach**__
+⬥ <:DeflectMage:544195487926845462> by default; <:soulsplit:615613924506599497> flick (or camp) if comfortable.
+    • Again, ensure to <:DeflectRange:544195488317046812> if Taraket uses <:deathsswift:994921434633744455>
+⬥ Execute a strong ultimate rotation at the start of the encounter, then maintain strong ability usage until Taraket reaches phase HP (200,000).
 
-⬥ <:Magic:689504724159823906> rotation outline:
-    • Start: Lure Taraket + <:sunshinepf:994921595489488927> <:adrenrenewal:736298121704767538> <:smokecloud:856635090641879050> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:omnipowerigneous:959089455560540200>
-    • Portal spawn: Use strong AoEs <:deto:535533833358016512> <:dbreath:535533833391702017> (<:gchaincaroming:867678153882861568> + strong abil if owned) until Taraket is phased → finish off portal
-    • Bloated spawn: Hit Bloated, then target Taraket upon landing and priortise AoEs to also hit Bloated.
-        - 4TAA using <:bloodbarrage:537338981747261446> helps with AoEing Taraket together with portrals/giants.
-.
-    • Carrier spawn: <:sunshinepf:994921595489488927> and target Carrier until Taraket stops flying.
-        - Do what you did for Bloated but on Carrier.
-        - You can use <:corruptblast:513190159194259467> or <:chaincaroming:867678153962684426> to get rid of skeletons in the vicinity.
-    • Finish off Taraket.
-        - Don't stand in melee distance if not confident of avoiding the melee hit from **Spirit Wall**.
+<:sunshine:994921119381463070> <:adrenrenewal:736298121704767538> → strong basics and <:wm:535533809978966037> / <:asphyx:535533833072672778> / <:gstaff:513203008608141314> <:eofspec:746403211908481184> / <:igneouskalmej:902209626408382494> <:omni:535533809664262179>
+<:Berserk:513190158468907012> <:adrenrenewal:736298121704767538> → strong basics and <:assault:535532853979512842> / <:cane:535532878969438210> / <:destroy:535532879330148352> / <:gflurry:535532879283879977> / <:quake:535532879506309150> / <:igneouskalket:902209626404192316> <:overpower:535532879334080517>
+<:deathsswift:994921434633744455> <:adrenrenewal:736298121704767538> → strong basics and <:rapid:535541270521708566> / <:snap:535534127131394088> / <:shadowtend:642713547142332416> / <:dbow:643848618553507843> <:eofspec:746403211908481184>
+
+⬥ Prioritize strong abilities and area of effect abilities to kill the Corpse Carrier or Bloated Monstrosity quickly, along with Skeletons.
+⬥ Phase once more, and repeat with the remaining Carrier/Monstrosity.
+⬥ Execute another strong ultimate rotation once Taraket is in its final phase.
+    • Take care so as to avoid Spirit Walls while inside your ultimate.
 
 .
-⬥ If using Scripture of Wen <:scriptureofwen:883134307902816297>, Vampyrism <:vamp:643505653079343144> aura and the Blood Reaver familiar <:reaverpouch:839903693837959228>, players can also kill Taraket in Legacy using <:Magic:689504724159823906>
-    • <https://youtu.be/zcpBIH9SWAg>
+> __**Dungeon Walkthrough (3/3)**__
+.tag:dung3
+Most mobs past Taraket are relatively trivial. However, some hit very hard with <:Magic:689504724159823906> - these include Warped Skeletons, and certain mages. If you start taking heavy magic damage, ensure to <:DeflectMage:544195487926845462>.
 
 .
-> __**The Ambassador (Info)**__
+> __**The Ambassador**__
 .tag:ambimechs
 .img:https://i.imgur.com/9uU19GX.jpg
 .
-Ambi is the final boss of ED3 and attacks using primarily <:Ranged:689504724403486920> auto attacks.
+__**Overview**__
+The Ambassador primarily attacks with <:range:580168050121113623> and is the most complex boss of the dungeon, with an attack cycle that varies based on HP:
+
+⬥ **1,000,000 - 550,000**
+Heavy Hit → Black Stone Flames → Unstable Black Hole → Beams + Fragments → Pulse of Erebus → repeat.
+
+⬥ **550,000 - 400,000**
+Heavy Hit → Black Stone Flames → Unstable Black Hole → repeat.
+
+⬥ **400,000 - End**
+Black Hands + occasional Heavy Hit → Magic Onslaught → repeat.
+
+__**Key Mechanics**__
+⬥ **Heavy Hit:** a very strong <:Magic:689504724159823906> or <:melee:615612332521029632> attack.
+    • It will be <:Magic:689504724159823906> by default, unless you are standing within melee distance.
 
 .
 {
   "embed": {
-    "title": "__Mechanics__",
     "color": 39423,
     "fields": [
       {
-        "name": "__1M - 550k__",
-        "value": "⬥ Ambi does the following attack rotation:\n\u00a0\u00a0\u00a0\u00a0• Mage / Melee auto → 5 autos → Black Stone Flames → 5 autos → Unstable Black Hole → 5 autos → Black Stone Flames → 5 autos → TriBeam + Sinister Fragments → Pulse of Erebus + 5 autos → Repeat\n\u00a0\u00a0\u00a0\u00a0• Ambi usually does a magic auto when the fight starts. [Example](https://i.imgur.com/1oX424k.mp4) Doing <:surge:535533810004262912> + <:bd:535532854281764884> to reach melee distance at the start of the fight will switch it into a melee auto. [Example](https://i.imgur.com/GGEN8a7.mp4)\n\u00a0\u00a0\u00a0\u00a0• Changing the 1st auto into a melee auto changes the timing of the 1st smoke.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Mage 1st auto causes a 22.8s (38t) 1st smoke drop.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Melee 1st auto causes a 31.8s (53t) 1st smoke drop.\n\u00a0\u00a0\u00a0\u00a0• No other timings are changed.\n\u200B"
-      },
-      {
-        "name": "__Black Stone Flames__",
-        "value": "⬥ Instead of an auto, Ambi places a bar over the player's head. \n\u00a0\u00a0\u00a0\u00a0• When the bar almost depletes, two 5x5 areas around the player will become courrpted, separated by 2 ticks. [Example](https://i.imgur.com/5bWwQXr.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Don't move out immediately after the first smoke drops to drop both at the same place.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- These zones will ramp up to 2000 typeless hits to anyone standing inside, get out when both are dropped.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Try to place the smokes next to each other.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- If using <:melee:615612332521029632> you may want to <:escape:535541258832052231> or <:bd:535532854281764884> away to drop them.\n\u00a0\u00a0\u00a0\u00a0• They remain until Seiryu clears them during his intervention.\n\u200B"
-      },
-      {
-        "name": "__Unstable Black Hole__",
-        "value": "⬥ Ambi spawns a black hole near you. [Example](https://i.imgur.com/KkpYl0Z.mp4)\n\u00a0\u00a0\u00a0\u00a0• Stun it before the blue bar runs out to avoid a hard typeless hit (explosion shown below) of up to 9,000 [Example](https://i.imgur.com/mOScu8K.mp4), using abilities such as:\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:melee:615612332521029632> <:bd:535532854281764884> → <:backhand:535532854302605333> → <:bd:535532854281764884> back to Ambi or <:vitality:654618235097972737> with more than ~6k HP to tank\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:Ranged:689504724403486920> <:bindingshot:535541306563231790> or <:demoralise:535541258559553546>\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- <:Magic:689504724159823906> <:impact:535533809655873556> or <:shock:535533809932697610>\n\u200B"
-      },
-      {
-        "name": "__Tribeam & Sinister Fragments__",
-        "value": "⬥ Six fragments will disperse to the edges of the arena with 20K HP each. At the same time, Ambi fires three slowly rotating beams for about a minute. [Example](https://i.imgur.com/Vg7ztvk.mp4)\n\u00a0\u00a0\u00a0\u00a0• Beams always spawn in set locations (N, SE, SW), and rotate counterclockwise slowly.\n\u00a0\u00a0\u00a0\u00a0• This occurs every full attack rotation **or** by hitting the 650K cap until the next phase commences.\n\u00a0\u00a0\u00a0\u00a0• Use <:bd:535532854281764884> to move between spinners as its cooldown will be reset by each spinner death.\n\u00a0\u00a0\u00a0\u00a0• Using Vulnerability bombs <:vulnbomb:655341074235129858> on each spinner can help.\n\u00a0\u00a0\u00a0\u00a0• The spinners are not immune to roots, binds and being pushed.\n\u200B"
-      },
-      {
-        "name": "__Pulse of Erebus__",
-        "value": "⬥ Ambi absorbs any remaining fragments after a minute, and generates a blue bar overhead. When the bar almost depletes, he releases a hit of 8,000 soft typeless damage. He does this the same amount of times as spinners absorbed. [Example](https://i.imgur.com/3U8LBRS.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- You can opt to kill 5 out of 6 and then use either <:disrupt:535614336207552523> or <:res:535541258844635148> to block the hit.\n\u200B"
-      },
-      {
-        "name": "__550k - 400k__",
-        "value": "⬥ Ambi stops using spinners and the mechanics associated with it.\n\u00a0\u00a0\u00a0\u00a0• Ambi continues using Black Stone Flames and Black Hole mechanics\n\u00a0\u00a0\u00a0\u00a0• Crassian Ritual Keepers begin to spawn periodically, about once every 2 attack cycles.\n\u200B"
-      },
-      {
-        "name": "__Crassian Ritual Keepers__",
-        "value": "⬥ Ambi spawns a pair of invulnerable Crassian Ritual Keepers that deal low ranged damage [Example](https://i.imgur.com/GuVOe7f.mp4)\n\u00a0\u00a0\u00a0\u00a0• Do not use <:res:535541258844635148> as it will likely be sniped.\n\u00a0\u00a0\u00a0\u00a0• These last until Seiryu clears them during his intervention.\n\u200B"
-      },
-      {
-        "name": "__400k - 0__",
-        "value": "⬥ Black Stone Flames and Unstable Black Holes are no longer used.\n\u00a0\u00a0⬥ Seiryu intervenes shortly after, after which begins the Ritual phase.\n\u200B"
-      },
-      {
-        "name": "__Seiryu's Intervention & Black Hands__",
-        "value": "⬥ Seiryu shows up and heals you to full with a beam, also removing all Black Stone Flames and Crassian Ritual Keepers shortly after. [Example](https://i.imgur.com/q39LXoM.mp4)\n\u00a0\u00a0\u00a0\u00a0• Black hands will then spawn, encircling the edge of the arena and healing Ambi. [Example](https://i.imgur.com/lzYID2k.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- The hands slam down in a clockwise fashion, sending constant smokes towards Ambi, healing him for 2500 each. [Example](https://i.imgur.com/OJdaot8.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Standing between the Ambassador and the projectiles will make them black, damaging you for a small typeless hit and preventing Ambi from getting healed. Doing this is necessary. [Example](https://i.imgur.com/h6f0cFc.mp4)\n\u200B"
-      },
-      {
-        "name": "__Magic Onslaught__",
-        "value": "⬥ Every 10 auto attacks, Ambi will say Fall now and be forgotten and send out 5 hits that deal about 8000 magic damage each (40k total if taken raw). [Example](https://i.imgur.com/xPYzNrs.mp4)\n\u00a0\u00a0\u00a0\u00a0• Blocking Magic Onslaught (Most to least ideal)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Devotion <:devo:513190158728953857> (Can't be used for b2b Onslaughts due to cooldown)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Reflect <:reflect:535541258786177064> + Vitality Powerburst <:vitality:654618235097972737> and eat.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0- Reflect <:reflect:535541258786177064> + Debilitate <:debil:535541278264393729> and eat.\n\u200B"
+        "name": "__Heavy Hit Demo__",
+        "value": "⬥ [Magic](https://i.imgur.com/1oX424k.mp4)\n⬥ [Melee](https://i.imgur.com/GGEN8a7.mp4)"
       }
     ]
   }
 }
-
 .embed:json
-.
-__**The Ambassador (Fight tips)**__
-.tag:ambitips
-⬥ Although it is not easy, <:soulsplit:615613924506599497> flicking is extremely recommended during this fight.
-    • Consider bringing more food if unable to <:soulsplit:615613924506599497> flick.
-    • This is more so the case for <:Ranged:689504724403486920> as it does not have inbuilt damage reduction unlike <:Magic:689504724159823906> with <:animatedead:856635090453135382> or sustain like <:melee:615612332521029632> with <:VampScrim:513201294262009874>.
-
-⬥ You can use <:res:535541258844635148> occasionally if having trouble sustaining HP.
-    • This is not feasible when Crassian Ritual Keepers are active.
-
-⬥ Using Target Cycle when Ambi flaps open his arms will allow you to hit spinners before you can click on them.
-.
-.img:https://i.imgur.com/dVoH6Re.mp4
-.
-⬥ Save <:excal:641337999170207763> after Ambi spawns Crassian scouts or during last phase as you will take more damage.
 
 .
-⬥ For <:melee:615612332521029632>, follow the general pattern of <:zerk:535532854004678657> rotation → <:dismember:535532879376023572> → <:bloodtend:513190158431158274> → <:overpowerigneous:959089455640215633> → good thresholds
-    • Use <:adrenrenewal:736298121704767538> for <:zerk:535532854004678657>
-    • Repeat the general rotation as many times as you need post spinners.
+⬥ **Black Stone Flames:** a bar is placed above the player's head. Once it has emptied, the zone the player is standing on will be engulfed in flame, dealing rapid damage.
+    • Place the flames out of the way, moving to the edge of the arena if required.
+    • Ensure to **wait at least one second after placing the flames**, or else they will follow you.
 
-.
-⬥ For <:Ranged:689504724403486920>, follow the general pattern of <:deathsswiftpf:994921597813137518> rotation → <:deadshotigneous:959089455283728386> → good thresholds
-    • Use <:adrenrenewal:736298121704767538> for <:deathsswiftpf:994921597813137518>
-    • Drop smoke at the edge of <:deathsswift:994921434633744455> and move to the other side.
-    • Repeat the general rotation as many times as you need post spinners.
-
-.
-⬥ For <:Magic:689504724159823906>, follow the general pattern of <:sunshinepf:994921595489488927> rotation → good thresholds → <:omnipowerigneous:959089455560540200> outside of <:sunshine:994921119381463070>
-    • Use <:adrenrenewal:736298121704767538> for <:sunshinepf:994921595489488927>
-    • Drop smoke at the edge of <:sunshine:994921119381463070> and move to the other side.
-    • Repeat the general rotation as many times as you need post spinners.
-
-.
-⬥ For the last phase focus on blocking the healing smoke, sustaining your HP, and surviving the Magical Onslaughts.
-
-⬥ If uncertain of the timing of second Magical Onslaught, avoid ulting or using igneous abilities to avoid being unable to <:reflect:535541258786177064> (and <:debil:535541278264393729> if not using <:vitality:654618235097972737>).
-
-.
-__**Mobs and movement**__
-.tag:mobs
-Although it appears easy, moving and clearing mobs efficiently can greatly affect the quality of a run. Clearing slowly may allow many mobs to catch up to you and damage you in an Elite Dungeon, increasing the amount of food required. Be mindful of your adrenaline and captilise on AoE abils whenever feasible.
-
-⬥ AoEs by style, generally from most to least viable
-    • Melee: <:cane:535532878969438210> > <:quake:535532879506309150> > <:flurry:864492981763702834> > <:cleave:535532878616985610> > targeted <:bd:535532854281764884>
-        - <:meteorstrike:535532879359377439> is viable at places with >3 enemies.
-    • Ranged: <:mechchin:641669268722810881> <:rapid:535541270521708566> > <:mechchin:641669268722810881> <:snap:535534127131394088> > <:bombard:535541306391265284> > <:corruptshot:535541306294796299> > <:mechchin:641669268722810881> basic > <:ricocaroming:867678153635004447>
-        - <:mechchin:641669268722810881> <:deadshotigneous:959089455283728386> is good on enemies with high HP such as Warped Skeletons and Sea Horrors.
-    • Magic: <:tsunamiincite:958989794757730307> > <:deto:535533833358016512> > <:corruptblast:513190159194259467> > <:dbreath:535533833391702017> > <:chaincaroming:867678153962684426>
-        - 4TAA using <:bloodbarrage:537338981747261446> or <:icebarrage:537340400185245701> is very helpful for clears.
-        - <:gchaincaroming:867678153882861568> should be used whenever possible if owned for clears, in combination with powerful thresholds or even <:omnipowerigneous:959089455560540200>
-
-⬥ If running and not hitting mobs, be sure to use protection prayers against the mobs hitting you and run quickly through them.
-.
-.img:https://i.imgur.com/vMUfgFi.mp4
-.
-⬥ You can move behind mobs or back yourself into corners to prevent melee mobs from attacking you.
-.
-.img:https://i.imgur.com/hqzM2R3.mp4
-.
-⬥ One of the most dangerous parts in ED3 is the bridge before Taraket with skeleton archers.
-    • The Sea Horrors have a spec that does high typeless damage which can catch you off guard.
-    • Skeleton Archers will attack you rapidly with ranged, as such, <:devo:513190158728953857> and pray <:DeflectRange:544195488317046812>
-    • For <:melee:615612332521029632>, back yourself into a corner to prevent a Horror from attacking you and use your halberd to AoE.
-.
-.img:https://i.imgur.com/jNUYyVz.mp4
-.
-    • For <:Ranged:689504724403486920>, use <:mechchin:641669268722810881> and target the Necromancer, then use <:bindingshot:535541306563231790> → basics → <:deadshotigneous:959089455283728386> → kite out the Horrors.
-.
-.img:https://i.imgur.com/Tp0aI9S.mp4
-.
-    • For <:Magic:689504724159823906>, use <:dbreath:535533833391702017> from afar targetting the Necromancer, then <:corruptblast:513190159194259467> → <:deto:535533833358016512>, and kite out the horrors.
-.
-.img:https://i.imgur.com/YnkBiUx.mp4
-.
-⬥ Take advantage of diagonal movement to move quicker and avoid attracting unwanted aggression.
-.
-.img:https://i.imgur.com/mYnzcHG.mp4
-.
-⬥ Do the following <:surge:535533810004262912> + <:bd:535532854281764884> or hug the west wall to prevent, as much as possible, attracting the aggression of the minibosses before Ambi.
-.
-.img:https://i.imgur.com/oFvx2jo.mp4
-
-.
-__**Example runs**__
-.tag:examples
-All runs are done with close to BIS perks, expect slower times if using entry level perks.
-
-.
-⬥ Ranged (17min)
-    • <https://youtu.be/qkqXEm4y0zg>
-.
-⬥ Melee (18min20s)
-    • <https://youtu.be/wTSNtEAAdJc>
-    • <:gflurry:535532879283879977> and <:gbarge:535532879250456578> were both not used for this video.
-.
-⬥ Magic (19min20s)
-    • <https://www.youtube.com/watch?v=zUx84iopkLg>
-    • 4TAA is not utilised in this example video.
-
-.
-⬥ Alternatively, check out <@158292421724209152>'s guides for:
-    • Crassian Leviathan: <https://www.youtube.com/watch?v=zs8HXmMTLO0>
-    • Taraket the Necromancer: <https://www.youtube.com/watch?v=_LELEW40G_k&t=475s>
-    • The Ambassador: <https://www.youtube.com/watch?v=VudEJXfZrNw&t=15s>
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Crassian Leviathan (Info)]($linkmsg_crassianmechs$)\n⬥ [Crassian Leviathan (Fight tips)]($linkmsg_crassiantips$)\n⬥ [Taraket the Necromancer (Info)]($linkmsg_taraketmechs$)\n⬥ [Taraket the Necromancer (Fight tips)]($linkmsg_tarakettips$)\n⬥ [The Ambassador (Info)]($linkmsg_ambimechs$)\n⬥ [The Ambassador (Fight tips)]($linkmsg_ambitips$)\n⬥ [Mobs and Movement]($linkmsg_mobs$)\n⬥ [Example runs]($linkmsg_examples$)",
-    "color": 39423
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Black Stone Flames Demo__",
+        "value": "⬥ [Link](https://i.imgur.com/1oX424k.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+⬥ **Unstable Black Hole:** a black hole will spawn in the arena, and will eventually explode dealing high damage.
+    • Apply a stun to destroy it, before it explodes. Preferably, one of <:impact:535533809655873556> / <:deep:535533833139912724> / <:bindingshot:535541306563231790> / <:tight:535541275957657600> / <:backhand:535532854302605333> / <:fbackhand:535532879346794516>
+
+⬥ **Beams:** the Ambassador will become immune, and summon three spinning beams that will deal high damage on impact.
+    • Never touch the beams. Move calmly, and kill the Fragments one by one.
+
+⬥ **Fragments:** six Sinister Fragments will spawn across the arena.
+    • Prioritize strong abilities to try to kill all of them, or as many as possible.
+        - <:bd:535532854281764884> / <:dive:1049378668197195808> is reset on each kill to aid in mobility.
+        - <:vulnbomb:655341074235129858> can be applied on each fragment.
+
+⬥ **Erebus Pulse:** for each spinner that was not killed, Ambassador will charge a highly-damaging attack, signified with a blue bar over his head.
+    • <:disrupt:535614336207552523> / <:res:535541258844635148> are first-choice options to survive the blow.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Erebus Pulse Demo__",
+        "value": "⬥ [Link](https://i.imgur.com/3U8LBRS.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+⬥ **Black Hands:** during the final phase, several hands will circle the arena, and launch white smoke towards Ambassador, which heal him. After a few seconds, the hand will stop, and the next hand (clockwise) will take over.
+    • Stand between the hand producing smoke, and the Ambassador. This will turn the smoke black and stop the healing.
+    • Move calmly in a clockwise manner around Ambassador so as to continuously block the smoke.
+        - Staying in melee distance makes this much easier.
+
+⬥ **Magic Onslaught:** Ambassador will say "Fall now, and be forgotten", before launching several highly-damaging <:Magic:689504724159823906> attacks.
+    • Pray <:DeflectMage:544195487926845462> and either Devotion <:devo:513190158728953857>, or, Reflect <:reflect:535541258786177064> + Vitality Powerburst <:vitality:654618235097972737>, or, Debilitate <:debil:535541278264393729> and eat.
+
+__**Basic Approach**__
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Phase One__",
+        "value": "⬥ Enter the fight with <:disrupt:535614336207552523> active to negate the first Heavy Hit.\n\u00a0\u00a0\u00a0\u00a0• If no <:disrupt:535614336207552523>, then pray <:DeflectMage:544195487926845462> and tank the hit, or <:res:535541258844635148>.\n⬥ After negating the first Heavy Hit, use a strong ultimate ability rotation.\n⬥ Negate Black Holes with a stun, and place Black Stone Flames as required.\n⬥ Deal as much damage as possible to Ambassador before the first set of Beams + Fragments starts. Once it starts, move calmly and kill as many fragments as possible.\n\u00a0\u00a0\u00a0\u00a0• Afterwards, negate Erebus Pulse according to how many were left alive.\n⬥ Repeat the above, starting with another ultimate rotation, until Phase 2 commences at 550,000 HP."
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Phase Two__",
+        "value": "⬥ Use a strong ultimate rotation(s), as cooldowns allow, to reach 400,000 HP.\n⬥ Prayer flick to negate Heavy Hits, or, use <:res:535541258844635148> to heal from them.\n⬥ Continue to place each Black Stone Flame in a convenient location.\n⬥ Watch for unstable black holes, and close them quickly with a stun.\n⬥ Ignore any minions that may spawn."
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Phase Three__",
+        "value": "⬥ Seiryu will grant the player a **full heal** at this point.\n⬥ Continue to negate Heavy Hits with either prayer flicking or <:res:535541258844635148>\n⬥ Execute a strong ultimate ability rotation\n\u00a0\u00a0\u00a0\u00a0• If using <:range:580168050121113623> / <:Magic:689504724159823906>, try to place your <:deathsswift:994921434633744455> / <:sunshine:994921119381463070> underneath him.\n⬥ Walk calmly in a clockwise circle, close to Ambassador, to block the lines of smoke from the Black Hands.\n\u00a0\u00a0\u00a0\u00a0• Smoke will be **black** if correctly blocked.\n⬥ When Ambassador calls your name and says *\"Fall now...\"*, negate the magic onslaught as described above.\n⬥ After the onslaught has concluded, repeat the above until dead."
+      }
+    ]
+  }
+}
+.embed:json
+
+.tag:examples
+{
+  "embed": {
+    "title": "__Supplementary Videos__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Example Runs__",
+        "value": "⬥ [Magic](https://www.youtube.com/watch?v=zUx84iopkLg)\n⬥ [Melee](https://youtu.be/wTSNtEAAdJc)\n⬥ [Ranged](https://youtu.be/qkqXEm4y0zg)",
+        "inline": true
+      },
+      {
+        "name": "__Boss Guides__",
+        "value": "⬥ [Crassian Leviathan](https://youtu.be/bpvq0Li-pTg)\n⬥ [Taraket](https://www.youtube.com/watch?v=_LELEW40G_k)\n⬥ [The Ambassador](https://www.youtube.com/watch?v=VudEJXfZrNw)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <#924484538187522098>*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__General Information__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Upgrades]($linkmsg_upgrades$)",
+        "inline": true
+      },
+      {
+        "name": "__Dungeon Guide__",
+        "value": "⬥ [Dungeon (1/3)]($linkmsg_dung1$)\n⬥ [Crassian Leviathan]($linkmsg_crassianmechs$)\n⬥ [Dungeon (2/3)]($linkmsg_dung2$)\n⬥ [Taraket]($linkmsg_taraketmechs$)\n⬥ [Dungeon (3/3)]($linkmsg_dung3$)\n⬥ [The Ambassador]($linkmsg_ambimechs$)",
+        "inline": true
+      },
+      {
+        "name": "__Additional Resources__",
+        "value": "⬥ [Supplementary Videos]($linkmsg_examples$)",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
