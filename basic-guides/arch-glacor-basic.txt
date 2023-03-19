@@ -36,42 +36,58 @@ In general, the recommended strategy for GP/hour is to streak from 0% until core
 ⬥ All unique drops from normal mode.
 
 .
-> __**Normal Mode/Beginner Presets**__
-.tag:nm_presets
-It is assumed that the Infernal Puzzle Box <:infernalpuzzlebox:994189299681607800> is attached to the player's toolbelt. If it is tier 3 or above and not, it should be brought physically.
+> __**Presets**__
+.tag:presets
+{
+  "embed": {
+    "title": "__Normal Mode/Beginner Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/9smvBYl.png)\n⬥ [Breakdown](https://i.imgur.com/bCoN6oA.png)",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/CkgAjHP.png)\n⬥ [Breakdown](https://i.imgur.com/j7HHzBV.png)",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/HEvo6QH.png)\n⬥ [Breakdown](https://i.imgur.com/NFhfHD7.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-__**Magic**__
-.img:https://i.imgur.com/9smvBYl.png
-*Note: full preset breakdown available here: <https://i.imgur.com/bCoN6oA.png>*
-
-.
-__**Melee**__
-.img:https://i.imgur.com/CkgAjHP.png
-*Note: full preset breakdown available here: <https://i.imgur.com/j7HHzBV.png>*
-
-.
-__**Ranged**__
-.img:https://i.imgur.com/HEvo6QH.png
-*Note: full preset breakdown available here: <https://i.imgur.com/NFhfHD7.png>*
-
-.
-> __**Hard Mode/Advanced Presets**__
-.tag:hm_presets
-__**Magic**__
-.img:https://i.imgur.com/AFdYRcQ.png
-*Note: full preset breakdown available here: <https://i.imgur.com/KrKGPPB.png>*
-
-.
-__**Melee**__
-.img:https://i.imgur.com/dGdXxSZ.png
-*Note: full preset breakdown available here: <https://i.imgur.com/fK0oZOd.png>*
-
-.
-__**Ranged**__
-.
-.img:https://i.imgur.com/EzwlRXg.png
-*Note: full preset breakdown available here: <https://i.imgur.com/iRkiPet.png>*
+{
+  "embed": {
+    "title": "__Hard Mode/Advanced Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/AFdYRcQ.png)\n⬥ [Breakdown](https://i.imgur.com/KrKGPPB.png)",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/dGdXxSZ.png)\n⬥ [Breakdown](https://i.imgur.com/fK0oZOd.png)",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/EzwlRXg.png)\n⬥ [Breakdown](https://i.imgur.com/iRkiPet.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > __**Mechanics**__
@@ -205,18 +221,13 @@ __**Enrage**__
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "description": "",
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <#924484538187522098>*",
     "color": 39423,
     "fields": [
     	{
       	"name": "__Introduction__",
-        "value": "⬥ [General Info]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)",
-        "inline": true
-      },
-      {
-      	"name": "__Presets__",
-        "value": "⬥ [Normal Mode]($linkmsg_nm_presets$)\n⬥ [Hard Mode]($linkmsg_hm_presets$)\n",
+        "value": "⬥ [General Info]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)",
         "inline": true
       },
       {

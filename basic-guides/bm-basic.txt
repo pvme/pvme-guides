@@ -5,26 +5,26 @@ Beastmaster Durzag (BM) is the first of two raids bosses. Because of the straigh
 .
 > __**Presets**__
 .tag:presets
-**__Magic__**
-*Note: upgrade where relevant*
-⬥ <:ripperpouch:703581275453128714> Ripper Demon familiar (or Beast of Burden while learning)
-⬥ Weapon with Planted Feet <:pf:689501925770919981> (e.g. Cywir Wand or Ancient Lantern)
-⬥ Weapon with Flanking (Flanking 4 <:flank4:712073088296157185> recommended, on e.g. Virtus Book)
-⬥ Powerburst of Vitality
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Firerune:536252659850674186>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Soulrune:536252660333019136>
-(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
-.
-.img:https://i.imgur.com/CWrBIQX.png
-.
-**__Range__**
-*Note: upgrade where relevant*
-⬥ <:ripperpouch:703581275453128714> Ripper Demon familiar (or Beast of Burden while learning)
-⬥ Weapon with Planted Feet <:pf:689501925770919981> (e.g. Shadow Glaive or Ancient Repriser)
-⬥ Weapon with Flanking (Flanking 4 <:flank4:712073088296157185> recommended, on e.g. Off-hand Shadow Glaive or Off-hand Chaotic Crossbow)
-.
-.img:https://i.imgur.com/5XE7J5y.png
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/CWrBIQX.png)",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/5XE7J5y.png)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 > __**Overview of the Fight**__
 .tag:overview
@@ -146,8 +146,8 @@ https://discord.gg/88ru2vd
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Overview]($linkmsg_overview$)\n⬥ [Pet Tank]($linkmsg_pettank$)\n⬥ [North Chargers]($linkmsg_nc$)\n⬥ [Back-up (South Chargers)]($linkmsg_busc$)\n⬥ [Base Tank]($linkmsg_base$)\n⬥ [Learning Raids]($linkmsg_bossschool$)",
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Overview]($linkmsg_overview$)\n⬥ [Pet Tank]($linkmsg_pettank$)\n⬥ [North Chargers]($linkmsg_nc$)\n⬥ [Back-up (South Chargers)]($linkmsg_busc$)\n⬥ [Base Tank]($linkmsg_base$)\n⬥ [Learning Raids]($linkmsg_bossschool$)",
     "color": 39423
   }
 }
