@@ -1,26 +1,15 @@
-**__Helwyr__ (Courtesy of <@!781280949790572554>)**
+**__Helwyr Basic__ (Courtesy of <@!781280949790572554>)**
 .img:https://i.imgur.com/ZfhwfU6.png
 .
 > **__Introduction__**
 .tag:intro
-Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic and 40 Seren killcount to fight. The notable drops for this boss are the Cywir Wand <:cywirwand:643161591571021824>, Cywir Orb, <:cywirorb:643161591210049556> and Crest of Seren <:crestseren:643161511937966122>. These items can be augmented and disassembled for Cywir components <:cywircomp:583430147538026496> which are required for Planted Feet <:pf:689501925770919981>.
+Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic and 40 Seren killcount to fight.
 
 .
 > **__Drops__**
 .tag:drops
-⬥ <:sereness:643162860834390016> **Serenic essence**
-    • 1/128 base, 1/64 at 100% reputation
-⬥ <:crestseren:643161511937966122> **Crest of Seren**
-    • 1/512 base, 1/256 at 100% reputation
-⬥ <:cywirwand:643161591571021824> **Wand of the Cywir Elders**
-    • 1/512 base, 1/256 at 100% reputation
-⬥ <:cywirorb:643161591210049556> **Orb of the Cywir Elders**
-    • 1/512 base, 1/256 at 100% reputation
-⬥ <:twistedantler:643162907772846080> **Twisted Antler**
-    • 1/2000 base (Normal Mode)
-    • 1/1000 base (Hard Mode)
-
-Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, with <:coins:698816156961603654> $data_pvme:Bosses!E334$ of that being from commons. Advanced players can get up to $data_pvme:Bosses!B337$ kph, earning on average $data_pvme:Bosses!C337$ gp/hr.
+⬥ Refer to the Wiki: <https://runescape.wiki/w/Helwyr#Drops>
+⬥  Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, with <:coins:698816156961603654> $data_pvme:Bosses!E334$ of that being from commons
 
 .
 > __**Presets**__
@@ -32,7 +21,7 @@ Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, w
     "fields": [
       {
         "name": "__Magic__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/KW55i9w.png)\n⬥ [Breakdown](https://i.imgur.com/a3wJtUr.png)",
+        "value": "⬥ [Preset Sample](https://i.imgur.com/bVtsjlx.png)\n⬥ [Breakdown](https://i.imgur.com/lSmXkpL.png)",
         "inline": true
       }
     ]
@@ -50,74 +39,75 @@ Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, w
     "fields": [
       {
         "name": "__Attack Rotations__",
-        "value": "Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat\n\u200B"
+        "value": "Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat"
       },
       {
         "name": "__Mushroom Gas__",
-        "value": "⬥ Avoided by just running out of it. Stand near the edges of mushrooms to decrease the distance needed to move out of the gas. Standing in the gas will give you a 250 damage bleed every tick, and if standing in the gas for a prolonged time will bind you. [Example](https://i.imgur.com/KHMLekU.mp4)\n\u200B"
+        "value": "⬥ Deals 250 damage per tick; binds you if you stand in too long ([Example](https://i.imgur.com/KHMLekU.mp4))"
       },
       {
         "name": "__Cleave__",
-        "value": "⬥ Hits in a frontal cone for up to 3k and apply a bleed. Do not freedom this bleed. If you are standing a distance away from Helwyr, he will first lunge towards you before the attack. There are a few methods to handle this attack. [Example](https://i.imgur.com/OKDS0F5.mp4)\n\u00a0\u00a0\u00a0\u00a0• <:Magic:689504724159823906> or <:Range:580168050121113623>: move out of the damage cone.\n\u00a0\u00a0\u00a0\u00a0• Can also be done with <:melee:615612332521029632> but is DPS waste.\n\u00a0\u00a0\u00a0\u00a0• Resonance <:res:535541258844635148> (You will still acquire the bleed)\n\u00a0\u00a0\u00a0\u00a0• <:disrupt:535614336207552523> / <:Veng:543478434953822208>\n\u200B"
+        "value": "⬥ Jumps to you and hits in a frontal cone for up to 3k ([Example](https://i.imgur.com/OKDS0F5.mp4))"
       },
       {
         "name": "__Frenzy__",
-        "value": "⬥ Helwyr’s leaps around doing rapid melee damage while applying a bleed stack with each attack. While using Range or Magic, you can just run away, but with Melee it is better to stay put and continue doing damage. [Example](https://i.imgur.com/G5CPPoC.mp4)\n\u00a0\u00a0\u00a0\u00a0• You can pray melee <:DeflectMelee:544195488447201300> and Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729>.\n\u00a0\u00a0\u00a0\u00a0• Freedom <:freedom:535541258240786434> the bleed after the attack.\n\u200B"
+        "value": "⬥ Deals rapid melee hits, each applying a bleed stack ([Example](https://i.imgur.com/G5CPPoC.mp4))\n\u00a0\u00a0\u00a0\u00a0• When Helwyr finishes, use Freedom <:freedom:535541258240786434> to clear the bleed entirely"
       },
       {
         "name": "__Minion Spawn__",
-        "value": "⬥ Helwyr’s minion spawn attack has him howl and summon two 3k HP Cywir Alphas. Easily taken out with AoEs. [Example](https://i.imgur.com/EB1ss4g.mp4)\n\u200B"
+        "value": "⬥ Summons two 3k HP Cywir Alphas. Easily taken out with AoEs ([Example](https://i.imgur.com/EB1ss4g.mp4))"
       }
     ]
   }
 }
 .embed:json
 .
-**__What to Expect__**
-This method can achieve around 20 kills per hour with average kill times around 1:50-2:00.
-
-.
-**__Brief Guide__**
-Drink Extreme Magic Potion before going in w/ prayers on (prot melee + augury), spam Target Cycle <:Vuln:537349530551582720> <:sonic:535533809924571136> whilst going into spot displayed in the VOD (view image below, its 1 tile Southwest of the middle shroom), then <:sunshine:994921119381463070> and make sure to be at that spot and then follow the rotation below.
+> **__Guide__**
+.tag:guide
+1) Drink an Extreme Magic Potion (or better) before going in with prayers on
+    • Prayers should be Protect from Melee + Augury
+2) Spam Target Cycle + <:Vuln:537349530551582720> + <:sonic:535533809924571136> (or <:dbreath:535533833391702017>) while going into spot displayed in image below
+    • The spot is 1 tile Southwest of the middle mushshroom
 .
 .img:https://i.imgur.com/jlN3dUY.png
 .
-**__Rotation__**
-(tc) <:Vuln:537349530551582720> <:sonic:535533809924571136> → <:sunshine:994921119381463070> <:supergrest:690140078407680059> → <:AirSurge:543465115870035999> <:dbreath:535533833391702017> → <:sonic:535533809924571136> → <:corruptblast:513190159194259467> → <:wm:535533809978966037> → <:sonic:535533809924571136> → <:Tuskas:513201065513058306> → <:res:535541258844635148> → <:AirSurge:543465115870035999> <:asphyx:535533833072672778> → <:comb:535533833098100745> → <:devo:513190158728953857> → <:AirSurge:543465115870035999> <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> → <:freedom:535541258240786434> → <:AirSurge:543465115870035999> <:wm:535533809978966037> → <:gstaff:513203008608141314> <:spec:537340400273195028> → Improvise with thresholds + specials + good basics to kill
+3) Cast Sunshine <:sunshine:994921119381463070> after you have targeted Helwyr <:Helwyr:513213019635843100>, then fellow the **General approach**
+	a) If he Mushroom gases your <:sunshine:994921119381463070> area at the start, teleport out and restart
+
+**__General Approach__**
+⬥ While in <:sunshine:994921119381463070> aim to do 1 <:wm:535533809978966037>, 1 <:asphyx:535533833072672778>, and 1 <:gstaff:513203008608141314> <:spec:537340400273195028>
+⬥ Use Resonance <:res:535541258844635148> to heal when <:Helwyr:513213019635843100> Cleaves (ideally without Protect melee on)
+⬥ Use Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729> when <:Helwyr:513213019635843100> does his Frenzy
+    • Alternatively, run away if <:devo:513190158728953857> is on cooldown
+    • Use Freedom <:freedom:535541258240786434> after the Frenzy
+⬥ Use <:gstaff:513203008608141314> <:spec:537340400273195028> whenever possible (costs ~23 adrenaline with <:vigour:615613235512737792>)
+    • Ensure you still have adrenaline for <:devo:513190158728953857> etc. when you need it (needs >50% adrenaline)
+⬥ Avoid moving <:Helwyr:513213019635843100> unless absolutely necessary as he skips autos when he moves
+    • Only scenarios you should move <:Helwyr:513213019635843100> are:
+        - Walking <:comb:535533833098100745>
+        - To avoid the Frenzy when <:devo:513190158728953857> is on cooldown
+        - To avoid the mushroom
 
 .
-*Note: While it is beneficial to follow the rotation, as it is written in a way to deal and mitigate damage, it is not vital to follow it. It is just important to remember that you should ultimate (<:sunshine:994921119381463070>), thresh (<:wm:535533809978966037> twice, <:asphyx:535533833072672778> once ideally), and that you should Resonance <:res:535541258844635148> the cleave and Devotion <:devo:513190158728953857> the frenzy.*
-
-.
-**__Tips and Tricks__**
-⬥ Avoid moving unless absolutely necessary, as it will cause Helwyr to skip autos and specs
-    • Only move Helwyr under the following circumstances:
-        - Walking a bleed <:comb:535533833098100745>
-        - Avoiding mushroom damage
-        - Avoiding the frenzy when Devotion <:devo:513190158728953857> is on cooldown (can just Debiliate <:debil:535541278264393729> or face tank it too)
-
-.
-⬥ If you get shroomed in your ultimate <:sunshine:994921119381463070> at the start just teleport out.
-⬥ Always aim to Resonance <:res:535541258844635148> the cleave, ideally without protect from melee on.
-.
-⬥ You can Devotion <:devo:513190158728953857> every other frenzy special.
-⬥ Ensure to Freedom <:freedom:535541258240786434> when it ends, Vulnerbility <:Vuln:537349530551582720> with every second Freedom <:freedom:535541258240786434> you do (this will be the Freedom <:freedom:535541258240786434> after the non-Devotioned <:devo:513190158728953857> frenzy).
-.
-⬥ To time Target Cycle just spam it *and* run to spot and you will get it, ideally have these binds near one another to make it easy to do
-    • Refer to <#1020050319457132654> to set up Target Cycle.
-    • Further, it is important to ensure you run *and* spam the bind, for if you try to Target Cycle without a target it goes on a cooldown which is reset by walking a tile
-    • If you properly Target Cycle Helwyr, his HP box will not show.
+**__Tips__**
+⬥ When trying to time Target Cycle, it is *important* to run while you spam it, otherwise you cannot spam Target Cycle
+    • If you Target Cycle properly, <:Helwyr:513213019635843100>'s HP box will not show
+⬥ You can only Devotion <:devo:513190158728953857> every other Frenzy
+⬥ Whenever you cast <:devo:513190158728953857> / <:freedom:535541258240786434>, try to weave in an <:AirSurge:543465115870035999> or <:Vuln:537349530551582720> with it
+    • Be aware, this will not work after <:gconc:869285393223254107> / <:conc:535533833106489365> / <:asphyx:535533833072672778>
+    • If using 2H, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as your next ability
+    • If using DW, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as <:devo:513190158728953857> / <:freedom:535541258240786434>
 
 .
 **__Example Video:__**
 .
-https://youtu.be/2PLV7HSl-vw
+https://youtu.be/1udjVlDsYBY
 .
 {
   "embed": {
-    "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)",
-    "color": 39423
+    "title": "Table of Contents",
+    "color": 39423,
+    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Guide]($linkmsg_guide$)"
   }
 }
 .embed:json
