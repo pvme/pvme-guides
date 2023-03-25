@@ -197,8 +197,24 @@ __**Styling Explanation**__
 {
   "embed": {
     "title": "__Preset Suggestions & Breakdowns__",
-    "description":"⬥ [Magic](https://i.imgur.com/h8e3Fuq.png)\n⬥ [Melee](https://i.imgur.com/h8e3Fuq.png)\n⬥ [Ranged](https://i.imgur.com/h8e3Fuq.png)",
-    "color": 39423
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Magic__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Melee__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Ranged__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"inline":true
+    	}
+    ]
   }
 }
 .embed:json
@@ -213,8 +229,8 @@ __**Styling Explanation**__
     "color": 39423,
     "fields": [
       {
-        "name": "__Preset Suggestions & Breakdowns__",
-        "value": "⬥ [Link](https://i.imgur.com/h8e3Fuq.png)",
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
         "inline": true
       }
     ]
