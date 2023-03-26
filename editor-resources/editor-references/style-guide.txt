@@ -175,7 +175,7 @@ __**Styling Explanation**__
 → Relic Setup
 
 ```
-⬥ **Preset/breakdown images should be taken from the Preset Generator** (link in <#1026543653499441304>).
+⬥ **Preset/breakdown link should be generated using Preset Generator** (link in <#1026543653499441304>).
 ⬥ **Preset breakdowns should be sufficiently detailed as to be useful to the reader**.
     • See the one in the example preset below for an example.
 ⬥ **Keep presets consistent**:
@@ -198,22 +198,22 @@ __**Styling Explanation**__
   "embed": {
     "title": "__Preset Suggestions & Breakdowns__",
     "color": 39423,
-    "fields": [
-      {
-        "name": "__Magic__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/h8e3Fuq.png)\n⬥ [Breakdown](https://i.imgur.com/gFyrgE0.png)",
-        "inline": true
-      },
-      {
-        "name": "__Melee__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/tp1M1nG.png)\n⬥ [Breakdown](https://i.imgur.com/RdBF24c.png)",
-        "inline": true
-      },
-      {
-        "name": "__Ranged__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/pcLPRGm.png)\n⬥ [Breakdown](https://i.imgur.com/IxqdpMg.png)",
-        "inline": true
-      }
+    "fields":[
+    	{
+    		"name":"__Magic__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Melee__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Ranged__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"inline":true
+    	}
     ]
   }
 }
@@ -229,8 +229,8 @@ __**Styling Explanation**__
     "color": 39423,
     "fields": [
       {
-        "name": "__Preset Suggestions & Breakdowns__",
-        "value": "⬥ [Preset Sample](https://i.imgur.com/h8e3Fuq.png)\n⬥ [Breakdown](https://i.imgur.com/gFyrgE0.png)",
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
         "inline": true
       }
     ]
@@ -392,7 +392,7 @@ The Table of Contents (ToC) is present in every guide, and used for quick naviga
       },
       {
         "name": "__Advanced Styling__",
-        "value": "⬥ [__**Preset**__ Sections]($linkmsg_presets$)\n⬥ [Writing Rotations]($linkmsg_rotations$)\n⬥ [Table of Contents]($linkmsg_toc$)",
+        "value": "⬥ [Preset Sections]($linkmsg_presets$)\n⬥ [Writing Rotations]($linkmsg_rotations$)\n⬥ [Table of Contents]($linkmsg_toc$)",
         "inline": true
       },
       {
