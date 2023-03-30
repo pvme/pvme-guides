@@ -6,7 +6,7 @@
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
-Vindicta, the Zarosian general residing in the Heart of Gielinor, requires 80 attack (boostable) and 40 Zaros killcount to fight. Her drops include the t85 Dragon Rider Lance <:dragonriderlance:643161541931171872> which disassembles for Ilujankan components <:Ilujankancomp:513190158674427906> needed for the Aftershock <:as4:712074245202772009> perk, and the Crest of Zaros <:crestzaros:643161512177041428> which is used to make the t80 Anima Core of Zaros set <:animahelmzaros:643120081790042163>.
+Vindicta, the Zarosian general residing in the Heart of Gielinor, requires 80 attack (boostable) and 40 Zaros killcount to fight. Her drops include the t85 Dragon Rider Lance <:dragonriderlance:643161541931171872> which disassembles for Ilujankan components <:Ilujankancomp:513190158674427906> needed for the Aftershock <:as4:712074245202772009> perk, and the Crest of Zaros <:crestzaros:643161512177041428> which is used to make the t80 Anima Core of Zaros set <:animahelmzaros:643120081790042163>
 
 .
 > **__Drops__**
@@ -27,27 +27,27 @@ Each Vindicta kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B300$,
 .
 > **__Presets__**
 .tag:presets
-**__Beginner Mage Preset__**
-.tag:magicbeg
-⬥ TI is encouraged to use a Staff, as you can cast Sonic Wave <:sonicwave:1087373972443775056> while moving.
-⬥ The shield is used to resonance the range auto during phase 2
-⬥ A Wand of the Cywir Elders <:cywirwand:643161591571021824> is used as a Planted Feet switch <:pf:689501925770919981>.
-⬥ Excalibur <:excal:641337999170207763> is used for healing over time with Sailfish <:Sailfish:565726489363087360> as potential panic healing.
-    • This inventory is intended to last roughly an hour long trip.
-⬥ <:luckpotion:656426717295935500> **Enhanced Luck Potion** - Gives tier 3 luck, can be removed if swapping to LotD <:LotD:566453486913323042>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:AirSurge:543465115870035999> <:Vuln:537349530551582720>)
 .
-.img:https://i.imgur.com/G0uyB4C.png
-.
-__**Beginner Melee Preset**__
-.tag:meleebeg
-⬥ If you are not comfortable with weapon switching then you may use either only a Scythe or only Drygores.
-⬥ DW Melee is used for Bladed Dive <:bd:535532854281764884>,
-⬥ A shield is used for Resonance <:res:535541258844635148>, alongside <:soulsplit:615613924506599497> + <:aosor:544200033847869443> resulting in high sustain.
-⬥ <:luckpotion:656426717295935500> **Enhanced luck potion** - Gives tier 3 luck, can be removed if swapping to LotD <:LotD:566453486913323042>
-.
-.img:https://i.imgur.com/TejqffG.png
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Beginner Magic__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/yt189NtxHLE1vlLGmqX9)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Beginner Melee__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/C63Hxf7xCbgpWLk0IB1H)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+
 .
 > **__Mechanics__**
 .tag:mechanics
@@ -163,7 +163,7 @@ A full guide on how to AFK Vindicta is available here: <#1023090092245536818>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Beginner Mage Preset]($linkmsg_magicbeg$)\n⬥ [Beginner Melee Preset]($linkmsg_meleebeg$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Undergeared Preset]($linkmsg_under$)\n⬥ [Old Rotations]($linkmsg_oldrot$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
+    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Undergeared Preset]($linkmsg_under$)\n⬥ [Old Rotations]($linkmsg_oldrot$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
     "color": 39423
   }
 }
