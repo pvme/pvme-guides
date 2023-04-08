@@ -42,7 +42,7 @@ __**Mandatory AFK Requirements**__
 {
   "embed": {
     "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Pthentraken.\nThe following are required or this method will not work:\n\n⬥ Augmented high tier ranged weapon(s)\n\u00a0\u00a0\u00a0\u00a0• Read above for suggested weapons.\n⬥ Greater Ricochet <:grico:787904334812807238>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Vampirism aura <:vamp:643505653079343144>\n⬥ Caroming 4 <:caroming4:791281588792590336>\n⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786> / Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Scripture of Wen <:wengodbook:883134307902816297>\n⬥ Ring of Vigour passive effect <:vigour:615613235512737792> <:warpedgem:968908526955167774>\n\u00a0\u00a0\u00a0\u00a0• And/or Conservation of Energy <:conservationofenergy:697808773711921195>\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004>\n⬥ **Insulated Boots** <:insulatedboots:841409588876279819>\n⬥ T80+ augmented armour <:sirenicbody:643846948570267648>\n\u00a0\u00a0\u00a0\u00a0• With Crystal Shield 4 <:crystalshield4:921410343606034443> and Absorbative 4 <:absorbative4:890542428556230666>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Anguish <:anguish:583429936665198592> / Desolation <:Desolation:513190159018098713>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Blood Reaver <:reaverpouch:839903693837959228> with 200+ scrolls\n\u00a0\u00a0\u00a0\u00a0• Set to autofire at 16\n⬥ Auto-retaliate is on\n⬥ Be in the proper standing spot with buffs and effects active.",
+    "description":"This setup should reliably allow you to afk Pthentraken.\nThe following are required or this method will not work:\n\n⬥ Augmented high tier ranged weapon(s) (**Read above**)\n\u00a0\u00a0\u00a0\u00a0•  Caroming 4 <:caroming4:791281588792590336> MUST be on your weapon\n⬥ Greater Ricochet <:grico:787904334812807238>\n⬥ Persistent Rage  <:persistentrage:739965637056659567>\n⬥ Vampirism aura <:vamp:643505653079343144>\n⬥ Penance Powder <:powderofpenance:928221126360969226> to upkeep prayer\n⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786> / Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Scripture of Wen <:wengodbook:883134307902816297>\n⬥ Ring of Vigour passive effect <:vigour:615613235512737792> <:warpedgem:968908526955167774>\n\u00a0\u00a0\u00a0\u00a0• And/or Conservation of Energy <:conservationofenergy:697808773711921195>\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004>\n⬥ **Insulated Boots** <:insulatedboots:841409588876279819>\n⬥ T80+ augmented armour <:sirenicbody:643846948570267648>\n\u00a0\u00a0\u00a0\u00a0• With Crystal Shield 4 <:crystalshield4:921410343606034443> and Absorbative 4 <:absorbative4:890542428556230666>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Anguish <:anguish:583429936665198592> / Desolation <:Desolation:513190159018098713>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Blood Reaver <:reaverpouch:839903693837959228> with 200+ scrolls\n\u00a0\u00a0\u00a0\u00a0• Set to autofire at 16\n⬥ Auto-retaliate is on\n⬥ Be in the proper standing spot with buffs and effects active.",
     "color": 39423,
     "footer": {
       "text": "Cutting corners will result in failure"
@@ -52,27 +52,22 @@ __**Mandatory AFK Requirements**__
 .embed:json
 > **__Preset__**
 .tag:preset
-⬥ <:insulatedboots:841409588876279819> **Insulated Boots** - Required to reduce damage from Pthentraken's Lightning special attack.
-⬥ <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> **Blood Reaver + Scrolls** - Deals high damage via increasing poison procs. Autofired scrolls are required to mitigate high damage taken.
-    • Extra pouches to be brought in case familiar dies.
-⬥ <:sirenicbody:643846948570267648> **Sirenic Armour and Perks** - Used for its damage stat, as Pthentraken needs to be killed before a second Overcharge.
-    • It is defensively perked to ensure survivability.
-⬥ <:KwuarmSticks:565726489341984779> **Kwuarm Incense Sticks** - Extra poison damage.
-⬥ <:LantaSticks:565726489404899368> **Lantadyme Incense Sticks** (optional) - Increases duration of potions used.
-⬥ <:necklaceofsalamancy:970657245312467004> **Necklace of Salamancy** - Passive 15% accuracy from the necklace allows for >99% accuracy while killing Pthentraken with this method.
-⬥ <:stalkerring:839903943601029120> **Stalker's Ring** - Extra damage while not affecting accuracy unlike <:reaverring:839903943018283050>
-    • Can be substituted for other strong rings like <:RoD:513190159462825984>
 .
-⬥ <:wengodbook:883134307902816297> **Scripture of Wen** - Provides a notable amount of raw damage and poison procs.
-⬥ <:pernixsquiver:902209626450296892> **Pernix's Quiver** (optional) - Loaded with ammo options listed above. Passive effect of Pernix Quiver is helpful.
-⬥ <:weppoison:689525476158472288> **Weapon Poison +++** - Provides a significant portion of the damage dealt.
-⬥ <:powderofpenance:928221126360969226> **Powder of Penance** - Helps upkeep prayer.
-⬥ <:Sailfish:565726489363087360> **Emergency Food** - In case something goes wrong and you end a kill with <3k HP.
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:prismofrestoration:938475261366784070> <:SBSStandards:565726489526534154> <:telekeneticgrab:866551637970255872>)
-.img:https://i.imgur.com/vEFhS8J.png
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK](https://pvme.github.io/preset-maker/#/kBHZKWjTe0vgoEsK9abp)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 **__Relics__**
 ⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
