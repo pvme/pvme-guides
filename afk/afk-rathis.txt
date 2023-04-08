@@ -5,6 +5,7 @@
 .tag:intro
 .
 ⬥ Camp <:soulsplit:615613924506599497>. If you notice that you're dying and or having to constantly use food, use <:VampScrim:513201294262009874> instead of <:scriptureofwen:883134307902816297>
+
 .
 __**Aura Choice**__
 .tag:aura
@@ -18,7 +19,7 @@ __**Mandatory AFK Requirements**__
 {
   "embed": {
     "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to reliably afk Rathis.\nThe following are required or this method will not work:\n\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004> **OR** Essence of Finality <:eof:787526151978614824>\n⬥ Either:\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annihilation <:mwspear:694566917456789554>\n\u00a0\u00a0\u00a0\u00a0• Abyssal Scourge and Dark Sliver of Leng <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> if <:necklaceofsalamancy:970657245312467004> is owned\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Elder Overload <:elderovlsalve:648976643687317532> is active\n⬥ Soulsplit <:soulsplit:615613924506599497> is active\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573> is active",
+    "description":"This setup should reliably allow you to reliably afk Rathis.\nThe following are required or this method will not work:\n\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004> **OR** Essence of Finality <:eof:787526151978614824>\n⬥ Either:\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annihilation <:mwspear:694566917456789554>\n\u00a0\u00a0\u00a0\u00a0• Abyssal Scourge and Dark Sliver of Leng <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> if <:necklaceofsalamancy:970657245312467004> is owned\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Blood Reaver familiar <:reaverpouch:839903693837959228>\n⬥ Elder Overload Salve <:elderovlsalve:648976643687317532> is active\n\u00a0\u00a0\u00a0\u00a0• A Salve is **required** for the <:superantipoison:841409588884406272> effect.\n\u00a0\u00a0\u00a0\u00a0• Normal Elder Overloads <:elderovl:841419289831800882> can be used with Super Prayer Renewals <:SuperPrayerRenewal:547603714681339915> if the Venomblood <:venomblood:841419289714229258> perk is owned.\n\u00a0\u00a0\u00a0\u00a0• Irit incense sticks <:IritSticks:690987265371144202> **DO NOT** mitigate Rathis' poison damage.\n⬥ Soulsplit <:soulsplit:615613924506599497> is active\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573> is active\n⬥ Auto-retaliate is active",
     "color": 39423,
     "footer": {
       "text": "Cutting corners will result in failure"
@@ -28,12 +29,22 @@ __**Mandatory AFK Requirements**__
 .embed:json
 > **__Preset__**
 .tag:preset
-.img:https://i.imgur.com/88MQSV5.png
-⬥ <:championring:839903943630520350> Champions Ring
-⬥ <:scriptureofwen:883134307902816297> Scripture of Wen
-    • Replace with <:VampScrim:513201294262009874> Scrimshaw of Vampyrism if you find yourself constantly using food.
-⬥ <:potionreservoir:878739200407654431> Potion reservoir - increased AFK
-⬥ <:reaverpouch:839903693837959228> Blood Reaver Pouch
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK](https://pvme.github.io/preset-maker/#/FuhvDSyeG0cIkD2AeK2J)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 __**Relic Setup**__
 ⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
