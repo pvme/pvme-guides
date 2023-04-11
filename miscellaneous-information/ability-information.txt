@@ -203,7 +203,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Sonic Wave__ <:sonicwave:1087373972443775056>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Provides a 6% hitchance buff\n\u00a0\u00a0\u00a0\u00a0• Works cross-style\n\u00a0\u00a0\u00a0\u00a0• Does not work cross-target",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Shares cooldown with <:conc:1087373968731811880> / <:gconc:869285393223254107>\n⬥ Provides a 6% hitchance buff\n\u00a0\u00a0\u00a0\u00a0• Works cross-style\n\u00a0\u00a0\u00a0\u00a0• Does not work cross-target",
     "color": 39423
   }
 }
@@ -213,8 +213,19 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .
 {
   "embed": {
+    "title": "__Greater Sonic Wave__ <gsonic>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ All <:sonicwave:1087373972443775056> things apply\n⬥ Abilities cast within 4.2s after it gain +100 ability damage",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:gsonic
+
+.
+{
+  "embed": {
     "title": "__Concentrated Blast__ <:conc:1087373968731811880>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 5% increased crit chance for each hit it does\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ Channelled ability\n\u00a0\u00a0\u00a0\u00a0• Hits a maximum of 3 times over 5t (3s)",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Shares cooldown with <:sonicwave:1087373972443775056> / <gsonic>\n⬥ Provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 5% increased crit chance for each hit it does\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ Channelled ability\n\u00a0\u00a0\u00a0\u00a0• Hits a maximum of 3 times over 5t (3s)",
     "color": 39423
   }
 }
@@ -225,7 +236,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Greater Concentrated Blast__ <:gconc:869285393223254107>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Same critical strike buff as normal Conc Blast\n⬥ Channelled ability with shortened duration\n\u00a0\u00a0\u00a0\u00a0• Hits 3 times within 3t (1.8s)",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Shares cooldown with <:sonicwave:1087373972443775056> / <gsonic>\n⬥ Same critical strike buff as normal Conc Blast\n⬥ Channelled ability with shortened duration\n\u00a0\u00a0\u00a0\u00a0• Hits 3 times within 3t (1.8s)",
     "color": 39423
   }
 }
@@ -258,7 +269,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Wrack__ <:wrack:856662355952795658>",
-    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 37.6%-188% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 52%-182% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
     "color": 39423
   }
 }
@@ -625,7 +636,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Slice__ <:slice:535532879594258432>",
-    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 80%-146% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 105%-161% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
     "color": 15158332
   }
 }
@@ -636,7 +647,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Punish__ <:punish:535532879439069184>",
-    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 37.6%-188% basic",
+    "description": "⬥ Cooldown: 40t (24s)\n⬥ Damage boosted when target is <50% health\n\u00a0\u00a0\u00a0\u00a0• Becomes a X%-Y% basic **(pending testing)**",
     "color": 15158332
   }
 }
@@ -1080,7 +1091,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Piercing Shot__ <:piercing:535541258538450944>",
-    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 37.6%-188% basic\n⬥ Affected by <:energising:1009423839341576294>\n\u00a0\u00a0\u00a0\u00a0• Gain (E<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Fires 2 hits\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 44.5-71.5% per hit basic\n⬥ Affected by <:energising:1009423839341576294>\n\u00a0\u00a0\u00a0\u00a0• Gain (E<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
     "color": 3066993
   }
 }
@@ -1290,7 +1301,7 @@ Use the following links to quickly find your way around this channel.
       },
       {
         "name": "__Spells and Basics__ (2/3)",
-        "value": "⬥ [Combust]($linkmsg_combust$)\n⬥ [Corr. Blast]($linkmsg_corrblast$)\n⬥ [Impact]($linkmsg_impact$)\n⬥ [Shock]($linkmsg_shock$)\n⬥ [Surge]($linkmsg_surge$)\n⬥ [Dragon Breath]($linkmsg_dbreath$)\n⬥ [Sonic Wave]($linkmsg_sonic$)",
+        "value": "⬥ [Combust]($linkmsg_combust$)\n⬥ [Corr. Blast]($linkmsg_corrblast$)\n⬥ [Impact]($linkmsg_impact$)\n⬥ [Shock]($linkmsg_shock$)\n⬥ [Surge]($linkmsg_surge$)\n⬥ [Dragon Breath]($linkmsg_dbreath$)\n⬥ [Sonic Wave]($linkmsg_sonic$)\n⬥ [G. Sonic Wave]($linkmsg_gsonic$)",
         "inline": true
       },
       {
