@@ -185,7 +185,6 @@ __**Styling Explanation**__
 ⬥ **Avoid using dyed gear in presets**.
 ⬥ **Avoid using unreasonably expensive gear in presets**.
     • For example, avoid spiked boots, Elite Sirenic, etc. Use your best judgement.
-⬥ **Mention Relics** using title "Relic Setup".
 
 .
 ⬥ Combining all of these, we can put together an example preset like the following.
@@ -193,6 +192,7 @@ __**Styling Explanation**__
         - The first variation can be used when there are multiple presets to be displayed.
         - The second variation can be used when there is only a single preset to be displayed.
 
+> **__Presets__**
 .
 {
   "embed": {
@@ -201,17 +201,17 @@ __**Styling Explanation**__
     "fields":[
     	{
     		"name":"__Magic__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
     		"inline":true
     	},
     	{
     		"name":"__Melee__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
     		"inline":true
     	},
     	{
     		"name":"__Ranged__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
     		"inline":true
     	}
     ]
@@ -220,8 +220,36 @@ __**Styling Explanation**__
 .embed:json
 
 .
-**OR**
-
+```
+> **__Presets__**
+..
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Magic__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Melee__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Ranged__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+..embed:json
+```
+.
+> **__Preset__**
 .
 {
   "embed": {
@@ -230,7 +258,7 @@ __**Styling Explanation**__
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/qwjm8ipivKiRClVZHMql)",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
         "inline": true
       }
     ]
@@ -239,12 +267,24 @@ __**Styling Explanation**__
 .embed:json
 
 .
-__**Relic Setup**__
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ <:berserkersfury:697808774106185768> Berserkers Fury
-⬥ <:fontoflife:698225967679930408> Font of Life
-
-
+```
+> **__Preset__**
+..
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
+        "inline": true
+      }
+    ]
+  }
+}
+..embed:json
+```
 .
 > __**Writing Rotations**__
 .tag:rotations
