@@ -320,36 +320,34 @@ __**How It Works**__
 .
 __**Why It's Good**__
 ⬥ **It makes dual-wield camping much stronger than 2H camping**.
-    • A lower tier dual-wield like Cywirs <:cywirwand:643161591571021824> <:cywirorb:643161591210049556> can outperform a hypothetical T99 staff.
+    • This holds true even if the dual-wield weapons are lower tier than the 2H alternative; e.g. <:cywirwand:643161591571021824> <:cywirorb:643161591210049556> versus <:noxstaff:513190159294922753>
 ⬥ It hits multiple times rapidly, and has a short cooldown.
     • This gives it **good synergy with spells like Exsanguinate <:exsanguinate:856635090745950258> and Incite Fear** <:incitefear:856635090783567902>.
-    • It is also good for building adrenaline under an FSOA special attack <:fsoa:869284271595069451> <:spec:537340400273195028> as the second and third hits of the ability, as well as the following ability, all benefit from increasingly bigger crit chance buffs.
+    • Strong synergy with <:tsunami:535533809995874304> and/or <:fsoa:869284271595069451> <:spec:537340400273195028> as the second and third hits of the ability, as well as the following ability, all benefit from increasingly bigger crit chance buffs.
 
 .
 > __**Detonate**__
 .tag:deto
 __**How It Works**__
-⬥ Pressing Detonate <:deto:535533833358016512> once begins to charge the ability, pressing <:deto:535533833358016512> a second time releases it, dealing AoE damage.
-⬥ It takes 6t/3.6s to reach 100%, but wearing Blast Diffusion Boots <:detoboots:602581956072439828> reduces this time to 4t/2.4s.
-⬥ The radius depends on how the far it's been charged:
-.img:https://i.imgur.com/W7hGdr0.png
-⬥ **Detonate is centred based on the target's NPC coordinate**, similar to normal AoEs.
-    • For NPCs bigger than 2x2, this is their always their SW tile.
-⬥ **Detonate is centred differently with and without a target**:
+⬥ Pressing <:deto:535533833358016512> once charges the ability, and pressing <:deto:535533833358016512> again releases it, dealing AoE damage.
+    • Takes 4t/2.4s to reach 100% with Blast Diffusion Boots <:detoboots:602581956072439828>, 6t/3.6s otherwise.
+    • AoE radius depends on charge % - see reference image: <ttps://i.imgur.com/W7hGdr0.png>
+⬥ **<:deto:535533833358016512> is centred differently with and without a target**:
     • If you cast <:deto:535533833358016512> without a target, it is centred on your player.
-    • If you cast <:deto:535533833358016512> with a target, it is centred on that target's coordinate.
+    • If you cast <:deto:535533833358016512> with a target, it is centred on that target's coordinate **at the time charging started**.
+        - If a target is 2x2 or larger, this is their **southwest tile**.
 ⬥ If a selected target dies while detonate is still being cast:
     • If you target cycle to another target, the detonate will remain centred on the original (dead) target's coordinate.
     • If you do not target cycle, the centre will be shifted to your player coordinate.
-.img:https://i.imgur.com/NhmICrb.png
-*Note: The detonate on the left will only hit the south dragon, but on the right it will hit both. For more on NPC centres and coordinates, as well as other related information, check out <#1020050319457132654>.*
+
+*Note: the southwest tile being used as <:deto:535533833358016512> is quite important. If two large monsters stand side-by-side, and you would like to hit both of them, you should charge <:deto:535533833358016512> on the northeast-most monster, such that its southwest tile is within detonate range of the other monster.*
 
 .
 **__What Makes Detonate Unique__**
-*Note: Air Surge <:AirSurge:543465115870035999> is used to signify any magic auto spell in general.*
+*Note: <:AirSurge:543465115870035999> is just for demonstration - replace with another spell as desired.*
 .
-⬥ Detonate <:deto:535533833358016512> is technically not a channel, however, it is often considered one due to its unique charge-and-release mechanism.
-⬥ Unlike other channels, Detonate <:deto:535533833358016512> acts similar to a defensive in the context of defensive autos.
+⬥ Detonate <:deto:535533833358016512> is technically **not** a channel, however, it is often considered one due to its unique charge-and-release mechanism.
+⬥ Unlike channels, Detonate <:deto:535533833358016512> acts like a defensive in the context of defensive autos.
     • Auto cooldown is not incurred until its release, meaning you can release it with an auto.
         - Example: charge <:deto:535533833358016512> → auto + (release) <:deto:535533833358016512>
 ⬥ **Detonate <:deto:535533833358016512> is typically released with both an auto and the next ability at the same time, to maximise damage.**
@@ -394,7 +392,7 @@ __**Known Issues with Detonate**__
 *Note: For a brief summary, use `!gchain`*.
 .tag:gchain
 __**How It Works**__
-⬥ Greater Chain <:gchain:787904334495088672> is an upgraded version of regular Chain <:chain:535533833056026624>, unlocked by reading a Greater Chain ability codex <:gchaincodex:1095409584946020486> costing <:coins:698816156961603654> $data_pvme:Unlocks!B15$.
+⬥ <:gchain:787904334495088672> is an upgraded version of <:chain:535533833056026624>, unlocked by reading a Greater Chain ability codex <:gchaincodex:1095409584946020486> costing <:coins:698816156961603654> $data_pvme:Unlocks!B15$.
 ⬥ It hits the target, as well 2 additional targets within a 6 tile radius. **These targets then taken 50% damage from the next ability used on the main target**.
     • With Caroming 4 <:caroming4:791281588792590336>, the number of additional targets hit with <:gchaincaroming:867678153882861568> can be increased up to 6.
 ⬥ If the main target dies, the AoE effect will be lost.
