@@ -10,28 +10,19 @@
 ⬥ **Take note of the Mandatory AFK Requirements and do not cut corners as any lack of damage and/or healing can easily cause methods to fail.**
 
 .
-> **__AFK Melee Strategy (~41-54 kph) (Courtesy of <@!108682527304060928> and <@!683763716394975294>)__**
-
+> **__AFK Melee Strategy (~41-54 kph) (Courtesy of <@!108682527304060928>, <@!683763716394975294>, and <@!218995247986769921>)__**
+.tag:intromelee
 .
 __**Explanation**__
-.tag:intromelee
-The AFK <:melee:1096130867279171706> strategy utilises the synergy between melee's various bleeds <:dismember:535532879376023572> <:abyssalscourge:947871842469834832> <:bloodtendrils:535532854327640064> <:slaughter:535532879237873666> <:massacre:535532879384543253> with healing such as <:soulsplit:615613924506599497> <:VampScrim:513201294262009874> to out sustain Greg's consistent damage, as well as dealing additional damage via <:reaverpouch:839903693837959228> passive and <:cinderbanes:513190158355660812> <:weppoison:689525476158472288> resulting in fast kills.
+The AFK <:melee:1096130867279171706> strategy utilises the synergy between various bleeds <:dismember:535532879376023572> <:abyssalscourge:947871842469834832> <:bloodtendrils:535532854327640064> <:slaughter:535532879237873666> <:massacre:535532879384543253> with healing such as <:soulsplit:615613924506599497> <:VampScrim:513201294262009874> to out sustain Greg's consistent damage, as well as dealing additional damage via <:reaverpouch:839903693837959228> passive and <:cinderbanes:513190158355660812> <:weppoison:689525476158472288> resulting in fast kills. A legendary pet can be used to automatically pick up all loot, but doing so will sacrifice 6-10 kph.
 
 .
-__**Aura Choice**__
-.tag:auramelee
-Aura choice can vary, but will affect how AFK kills can be. They are listed in order of effectiveness:
-⬥ <:vamp:643505653079343144> Vampyrism Aura provides extra safety through its healing and allows more chances for poison damage. However, you must pay more attention to prayer points between kills.
-⬥ <:penance:643505653062565907> Penance Aura allows for the most AFK experience, but can be a slightly unsafe without a Superior Scrimshaw of Vampyrism.
-⬥ <:dm:643505652571963417> Dark Magic provides extra damage, but you lose both the AFK-ness of Penance and the safety net that Vampyrism provides.
-⬥ <:berserker:643505116347105290> **Do __not__ use Berserker** for AFKing, as it will get you killed very easily.
-
-.
+> __**Mandatory AFK Requirements**__
 .tag:mandmelee
 {
   "embed": {
     "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Gregorovic.\nThe following are required or this method will not work:\n\n⬥ Superior/Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Turmoil <:turmoil:583429936606347280> / Malevolence <:Malevolence:513190159416557573>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Poison protection <:venomblood:841419289714229258> / <:IritSticks:690987265371144202>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Blood Reaver <:reaverpouch:839903693837959228>\n⬥ Auto-retaliate is on\n⬥ Run is on",
+    "description":"This setup should reliably allow you to afk Gregorovic.\nThe following are required or this method will not work:\n\n⬥ Superior/Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ Masterwork/Trimmed masterwork <:masterworkbody:643847056527458324> <:tmwbody:536966366272552960> with <:jawsoftheabyss:947871842595639306> or Vestments <:vestmentsofhavoctop:994189295592161291>\n⬥ Persistent Rage <:persistentrage:739965637056659567>\n⬥ Perked Abyssal Scourge  <:abyssalscourge:947871842469834832> >Masterwork Spear of Annihilation <:mwspear:694566917456789554> > Laniakea's Spear <:lanispear:839903893177106454>\n\u00a0\u00a0\u00a0\u00a0• Use Dark Ice Sliver <:darkicesliver:915232153787334677> or its T95 variant <:lengoh:883134308070604870> if using <:abyssalscourge:947871842469834832>\n\u00a0\u00a0\u00a0\u00a0• You may splash with <:lanispear:839903893177106454> if not using <:eof:787526151978614824>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Turmoil <:turmoil:583429936606347280> / Malevolence <:Malevolence:513190159416557573>\n⬥ Elder Overload Salve <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Poison protection <:venomblood:841419289714229258> / <:IritSticks:690987265371144202>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Auto-retaliate is on\n⬥ Run is on",
     "color": 39423,
     "footer": {
       "text": "Cutting corners will result in failure"
@@ -40,29 +31,37 @@ Aura choice can vary, but will affect how AFK kills can be. They are listed in o
 }
 .embed:json
 .
-> **__Preset__**
+> __**Preset**__
 .tag:presetmelee
-.img:https://i.imgur.com/p9l4TRg.png
-⬥ <:KwuarmSticks:565726489341984779> **Kwuarm Incense Sticks** - Provide extra poison damage.
-⬥ <:IritSticks:690987265371144202> **Irit Incense Sticks** - Provide antipoison against Gregorovic.
-    • Not needed if using **Venomblood** <:venomblood:841419289714229258>
-⬥ <:eof:787526151978614824> **Essence of Finality** - Saradomin Godsword stored. Emergency special attack if you're low on health.
-    • Accuracy bonus helps if using Laniakea's Spear <:lanispear:839903893177106454>
-⬥ <:potionreservoir:878739200407654431> **Potion reservoir** - Increased AFKness
 .
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/jdMSUdN5H0Dhx7C3qSSu)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
-__**Relic Setup**__
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ <:deathward:697808774068699286> Death's Ward
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-
-.
-**__Action Bar__**
+> **__Action Bars__**
 .tag:barmelee
-Revo bars based on order of effectiveness.
+Revo++ bars listed in order of effectiveness.
 
+⬥ ** Revo bar for <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> <:vestmentsofhavoctop:994189295592161291> (~55 kph)**
+    • 4 pieces of Vestments <:vestmentsofhavoctop:994189295592161291> needed.
+    • Similar kph to <:massacre:535532879384543253> bar with <:reaverpouch:839903693837959228>, but higher kph than <:massacre:535532879384543253> bar if using legendary pet.
+    • <:igneouskalzuk:902209626479685734> or <:igneouskalket:902209626404192316> **is required** if using this bar.
+.
+.img:https://i.imgur.com/fC2AXgu.png
+.
 ⬥ ** Revo bar for <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> <:vestmentsofhavoctop:994189295592161291> (~54 kph)**
-    • 2+ pieces of <:vestmentsofhavoctop:994189295592161291> Vestments needed.
+    • 2+ pieces of Vestments <:vestmentsofhavoctop:994189295592161291> needed.
 .
 .img:https://i.imgur.com/51fF32B.png
 .
@@ -75,30 +74,23 @@ Revo bars based on order of effectiveness.
     • Trimmed Masterwork Armor <:tmwbody:536966366272552960> is recommended but not necessary.
 .
 .img:https://i.imgur.com/apgDfl0.png
-**__Positioning__**
-.tag:posmelee
-⬥ Position yourself in melee distance, **NORTH WEST** of where Gregorovich spawns.
 
 .
-**__Video Examples__**
+> **__Video Examples__**
 .tag:examplemelee
-10 minute sample with <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> <:vestmentsofhavoctop:994189295592161291> - <https://www.youtube.com/watch?v=yBmwk4LvPjo&>
+10 minute example with <:abyssalscourge:947871842469834832> <:darkicesliver:915232153787334677> <:vestmentsofhavoctop:994189295592161291> <:massacre:535532879384543253> - <https://youtu.be/dabPRep3CX0>
+10 minute example with <:abyssalscourge:947871842469834832> <:darkicesliver:915232153787334677> <:vestmentsofhavoctop:994189295592161291> <:zerk:535532854004678657> - <https://youtu.be/3Q_1gRS_Pr4>
+
 
 .
 > **__AFK Ranged Strategy (60 kph) (Courtesy of <@!193847159697702912>)__**
-
+.tag:introranged
 .
 __**Explanation**__
-.tag:introranged
 The AFK <:range:580168050121113623> strategy utilises the synergy between ranged's ability to generate many hitsplats via <:grico:787904334812807238> <:gdeathsswift:994644354536837121> <:perfectequilibrium:1006119102814887957> <:rapid:535541270521708566> <:mds:535541259033378827> to deal massive amounts of additional damage with <:reaverpouch:839903693837959228> passive and <:cinderbanes:513190158355660812> <:weppoison:689525476158472288> resulting in the fastest AFK kills. This also generates enough healing through <:soulsplit:615613924506599497> to counter Gregorovic's sustained damage.
 
 .
-__**Aura Choice**__
-.tag:auraranged
-⬥ <:vamp:643505653079343144> - the healing, extra damage from <:reaverpouch:839903693837959228> passive, and increased <:weppoison:689525476158472288> procs is vital for the strategy to work and makes <:vampaura:643505653079343144> most viable aura.
-⬥ <:darkmagic:643505652571963417> - a viable aura for additional damage and <:cinderbanes:513190158355660812> synergy.
-
-.
+__**Mandatory AFK Requirements**__
 .tag:mandranged
 {
   "embed": {
@@ -111,20 +103,25 @@ __**Aura Choice**__
   }
 }
 .embed:json
-> **__Preset__**
+> __**Preset**__
 .tag:presetranged
-.img:https://i.imgur.com/UskbPu7.png
 .
-***Note:** A full breakdown of the preset can be found here: <https://i.imgur.com/EiQuVGC>*
-
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/msnxGZ8vyr5smlYd77kA)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
-__**Relic Setup**__
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ <:persistentrage:739965637056659567> Persistent Rage
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-
-.
-**__Action Bar__**
+> **__Action Bars__**
 .tag:barranged
 Action bar for <:fularrow:971025696958853180>
 .img:https://i.imgur.com/IAuwQY0.png
@@ -132,10 +129,10 @@ Action bar for <:fularrow:971025696958853180>
 Action bar for <:splinteringarrows:900758234246299649>
 .img:https://i.imgur.com/IA92LSq.png
 .
-**__Video Examples__**
+> **__Video Examples__**
 .tag:exampleranged
-15 minute sample with <:splinteringarrows:900758234246299649> - <https://youtu.be/AyvugYw5i2w>
-15 minute sample with <:fularrow:971025696958853180> - <https://youtu.be/9EL4ZVv0LKg>
+15 minute example with <:splinteringarrows:900758234246299649> - <https://youtu.be/AyvugYw5i2w>
+15 minute example with <:fularrow:971025696958853180> - <https://youtu.be/9EL4ZVv0LKg>
 
 .
 {
@@ -146,12 +143,12 @@ Action bar for <:splinteringarrows:900758234246299649>
     "fields": [
       {
 	    "name": "__AFK Strategy (Melee)__",
-        "value": "⬥ [Explanation]($linkmsg_intromelee$)\n⬥ [Aura Choice]($linkmsg_auramelee$)\n⬥ [Mandatory Requirements]($linkmsg_mandmelee$)\n⬥ [Preset]($linkmsg_presetmelee$)\n⬥ [Action Bars]($linkmsg_barmelee$)\n⬥ [Example Kills]($linkmsg_examplemelee$)",
+        "value": "⬥ [Explanation]($linkmsg_intromelee$)\n⬥ [Mandatory Requirements]($linkmsg_mandmelee$)\n⬥ [Preset]($linkmsg_presetmelee$)\n⬥ [Action Bars]($linkmsg_barmelee$)\n⬥ [Example Kills]($linkmsg_examplemelee$)",
 		"inline": true
       },
       {
 	    "name": "__AFK Strategy (Ranged)__",
-        "value": "⬥ [Explanation]($linkmsg_introranged$)\n⬥ [Aura Choice]($linkmsg_auraranged$)\n⬥ [Mandatory Requirements]($linkmsg_mandranged$)\n⬥ [Preset]($linkmsg_presetranged$)\n⬥ [Action Bars]($linkmsg_barranged$)\n⬥ [Example Kills]($linkmsg_exampleranged$)",
+        "value": "⬥ [Explanation]($linkmsg_introranged$)\n⬥ [Mandatory Requirements]($linkmsg_mandranged$)\n⬥ [Preset]($linkmsg_presetranged$)\n⬥ [Action Bars]($linkmsg_barranged$)\n⬥ [Example Kills]($linkmsg_exampleranged$)",
 		"inline": true
       }
     ]
