@@ -5,7 +5,7 @@
 **__Introduction__**
 *Note: a **Table of Contents** can be found in the pins.*
 
-The second Elite Dungeon, the Dragonkin Laboratory, is a relatively straightforward encounter. The encounter is useful for anyone wanting to learn how to deal with large mobs as well as bosses, and combines aspects of single target and AoE damage.
+The second Elite Dungeon, the Dragonkin Laboratory, is a relatively straightforward encounter. The encounter is useful for anyone wanting to learn how to deal with large mobs as well as bosses and combines aspects of single target and AoE damage.
 
 The three bosses of the Laboratory drop the Greater Flurry, Greater Fury and Greater Barge codices in the order that they appear.
 
@@ -18,60 +18,45 @@ Each solo run of ED2 is worth <:coins:698816156961603654> $data_pvme:Bosses!E546
 .
 ⬥ <:LotD:566453486913323042> **Luck of the Dwarves** will **not** improve the number of energies dropped, nor the drop rate for any codex.
 ⬥ The Corbicula Rex <:corbicula:690136117273821280> perk (112 Farming) in ROoT is extremely helpful in this dungeon, as Meteor Strike <:meteorstrike:535532879359377439> is frequently used here.
-⬥ All bleeds <:dismember:535532879376023572> <:slaughter:535532879237873666> <:bloodtendrils:535532854327640064> <:zekkil:903244090953588787> <:eofspec:746403211908481184> are cast with <:mwspear:694566917456789554> unless specificed otherwise.
+⬥ All bleeds <:dismember:535532879376023572> <:slaughter:535532879237873666> <:bloodtendrils:535532854327640064> <:zekkil:903244090953588787> <:eofspec:746403211908481184> are cast with <:mwspear:694566917456789554> unless specified otherwise.
 ⬥ Any statement with the prefix "**IDEA:**" indicates a strategy that could theoretically be viable but has not been tested.
-    • Please update the guide or post in <#1020853673317908500> if you are able to confirm or reject their viability via testing.
+    • Please update the guide or post in <#1020853673317908500> if you can confirm or reject their viability via testing.
 ⬥ For rotations without more expensive melee upgrades such as <:vestmentsofhavochood:994189297659940904>, <:zekkil:903244090953588787> and <:grim:568262896375824385> check the 1 hour 4 kill vod below.
 
 .
-> __**Presets**__
+> __**Presets and Relics**__
 .tag:presets
-⬥ <:eofor:745279787471470713> with Dragon Halberd <:dragonhalberd:841409589261238282>
-⬥ <:eof:787526151978614824> with Ek Zek-kil <:zekkil:903244090953588787>
-⬥ T87+ Bow with Black Stone Arrows <:decimation:643848618477879328> <:blackstonearrow:785031580149743617> **OR** <:eofblack:780401412915855380> with a Statius Warhammer <:swh:641670143197446182> (optional for a slightly faster BSD, and is not needed if on-task)
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-(Runes for <:disrupt:535614336207552523> <:Veng:543478434953822208> with <:borrowedpower:657248051190300682> <:smokecloud:856635090641879050>)
-⬥ Assumes passive <:RoV:513201065877831680> is used
 .
-.img:https://i.imgur.com/mcVl2by.png
-.
-.img:https://i.imgur.com/n6ErScX.png
-.
-.
-**__Preset Notes__**
-⬥ <:decimation:643848618477879328> with <:blackstonearrow:785031580149743617> is used to lower BSD's defence during flight so that <:DBA:603979368850653216> <:spec:537340400273195028> can be used without splashing during the final <:zerk:535532854004678657>. Unecessary if not bothering to <:DBA:603979368850653216> <:spec:537340400273195028> during flight.
-    • Required stacks might be less than max but I'm not sure what it is.
-
-⬥ <:abyssalarmourspikesalloy:947871842541129768> are nice to have, but by no means necessary.
-
-⬥ <:grim:568262896375824385> should only really be used if experienced,  <:VampScrim:513201294262009874> is usually better for learning.
-    • <:scriptureofjas:869284342839513108> is also a viable option.
-
-.
-⬥ A Kal'Gerion demon <:kalgpouch:921410226484301925> with scrolls <:kalgscroll:841409588954923049> should be used.
-
-.
-**__Relics__**:
-⬥ <:conservationofenergy:697808773711921195> **conservation of Energy**
-⬥ <:deathward:697808774068699286> **Death Ward**
-⬥ <:furyofthesmall:697808773917573233> **Fury of the Small**
-
-.
-> __**Monster Information**__
-For a detailed description of each mob in the dungeon, please reference <#1020559575126126623>
-
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Dungeon__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/vZG0Lo1FCd5lpcmbdbhp)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__Black Stone Dragon__",
+    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/bLXF6Ozq5o8BW41mPtyC)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
 .
 > __**Astellarn, the First Celestial**__
 .tag:astellarn
 .img:https://i.imgur.com/60URnUZ.jpg
 .
-The first encounter of the Laboratory, This fight heavily utilizes punishing area-of-effect mechanics which are especially punishing to meleers. Make sure to drop the wyrmhole in either of these spots:
+The first encounter of the Laboratory, this fight heavily utilizes punishing area-of-effect mechanics which are especially punishing to meleers. Make sure to drop the wyrmhole in either of these spots:
 .
 .img:https://i.imgur.com/cyNta7z.png
 .
 **__Example Rotation__**
-⬥ Start: <:gbarge:535532879250456578> → bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:deci:535532879325822986> → <:assault:535532855191928842> → prephase with <:abyssalscourge:947871842469834832> <:cane:535532878969438210> to deal with the first 50k HP
+⬥ Start: <:gbarge:535532879250456578> → bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:deci:535532879325822986> → <:assault:535532855191928842> → pre-phase with <:abyssalscourge:947871842469834832> <:cane:535532878969438210> to deal with the first 50k HP
 
 .
 ⬥ Puslar spawn: s<:overpowerigneous:959089455640215633> walk in release + <:cleave:535532878616985610>
@@ -82,7 +67,7 @@ The first encounter of the Laboratory, This fight heavily utilizes punishing are
     • Use basics prioritising <:dismember:535532879376023572> to build <:abyssalscourge:947871842469834832> stacks.
 
 .
-⬥ <:zerk:535532854004678657> around 1 gcd before neutron star touches wyrmhole + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:dragonslayer:641339921814126594> + bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:assault:535532855191928842> → 4-hit <:gflurry:535532879283879977> → basics to finish off
+⬥ <:zerk:535532854004678657> around 1 GCD before neutron star touches wyrmhole + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:dragonslayer:641339921814126594> + bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:assault:535532855191928842> → 4-hit <:gflurry:535532879283879977> → basics to finish off
     • <:disrupt:535614336207552523> in <:zerk:535532854004678657> while using <:soulsplit:615613924506599497> is a good way to block damage and regain HP.
 
 .
@@ -93,7 +78,7 @@ The first encounter of the Laboratory, This fight heavily utilizes punishing are
 .tag:veraklith
 .img:https://i.imgur.com/CSMjoJH.jpg
 .
-The second encounter of the Laboratory. Verak Lith's attack rotation is very predictable, but deals consistent moderately high damage. Prayer flicking is thus heavily recommended.
+The second encounter of the Laboratory. Verak Lith's attack rotation is very predictable but deals consistent moderately high damage. Prayer flicking is thus heavily recommended.
 
 He always melees the player when in melee distance and always uses mage otherwise. Remember to flick <:DeflectMage:544195487926845462> if you need to walk out of MD to deal with spires.
 
@@ -124,7 +109,7 @@ He always melees the player when in melee distance and always uses mage otherwis
 .tag:blackstonedragon
 .img:https://i.imgur.com/DDRMznI.jpg
 .
-The final boss of the Dragonkin Laboratory. The BSD fight is actually quite straightforward with melee, with the only threats being P1 when you're zerked and Black Hands, where you have to properly step out to dodge the small hands that follow the hands' autos. BSD also uses auto attacks in all three combat styles, with melee hitting especially hard, so it is possible to die just from auto attack damage stacked on the same tick. Players might find it helpful to use <:disrupt:535614336207552523> in the first <:Berserk:513190158468907012> rotation, and then using <:vitality:654618235097972737> once it pops while camping <:soulsplit:615613924506599497>
+The final boss of the Dragonkin Laboratory. The BSD fight is quite straightforward with melee, with the only threats being P1 when you're under <:zerk:535532854004678657>, along with the Black Hands phase, where you have to properly step out to dodge the small hands that follow the hands' autos. BSD also uses auto attacks in all three combat styles, with <:melee:615612332521029632> autos hitting especially hard, so it is possible to die just from auto attack damage stacked on the same tick. Players might find it helpful to use <:disrupt:535614336207552523> in the first <:Berserk:513190158468907012> rotation, and then using <:vitality:654618235097972737> once it pops while camping <:soulsplit:615613924506599497>
 
 .
 **__Example Rotation__**
@@ -149,7 +134,7 @@ Using the auto-targetted option for <:vulnbomb:655341074235129858> (default opti
     • Might be problematic depending on consistency of Black Hands' auto timing.
 
 ⬥ **IDEA:** <:backhandflank:867678153854025779> on hand 3 or hand 4 to replace one 188 when they turn around.
-    • Unsure if black hands are consistent with when they are flankable.
+    • Unsure if black hands are consistent with when they can be <:flankicon:841419289755385866>
 
 .
     • **Hand 4**
@@ -187,11 +172,11 @@ Build to 90% or more ASAP and <:DBA:603979368850653216> <:spec:53734040027319502
 
 .
     • **Landing 3 + Jump 4**
-Build to 100% again
+Build to 100% again.
 
 .
     • **Landing 4 + Jump 5**
-You can <:gbargemobile:867678153680617473> in here and re-apply 4T <:ingen:641339234111848463> + <:smokecloud:856635090641879050> if you haven't at the start of flight. This can also be done on the next jump but you will need to build back faster.
+You can <:gbargemobile:867678153680617473> in here and re-apply 4T <:ingen:641339234111848463> + <:smokecloud:856635090641879050> if you haven't at the start of flight. This can also be done on the next jump, but you will need to build adrenaline back faster.
 
 ⬥ **IDEA:** <:incend:535541258429661215> sometime around here to have <:critbuff:943518665842757644> for last phase.
     • Probably won't save much time even if done properly.
@@ -247,7 +232,7 @@ Most of the time, your aim is to stand in the middle of everything as most of me
 **__Pre-Astellarn__**
 .tag:preast
 **__4 Laboratory Slimes (Dangerous)__**
-<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> off the starting platform. Use basics and <:meteorstrike:535532879359377439> as soon as 4 slimes comes in to md. <:noxscythe:513190159341322240> <:cane:535532878969438210> highest HP slimes and <:quake:535532879506309150> and proceed.
+<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> off the starting platform. Use basics and <:meteorstrike:535532879359377439> as soon as 4 slimes comes in to MD. <:noxscythe:513190159341322240> <:cane:535532878969438210> highest HP slimes and <:quake:535532879506309150> and proceed.
 
 .
 **__3 Red Dragons__**
@@ -255,7 +240,7 @@ Most of the time, your aim is to stand in the middle of everything as most of me
 
 .
 **__4 Red Dragons__**
-<:surgemobile:867678153798975498> to south dragon and do basic → <:noxscythe:513190159341322240> <:cane:535532878969438210> → <:quake:535532879506309150> as your main AoEs. <:gflurry:535532879283879977> should be used here for AoE and <:zerk:535532854004678657> CD. Try to AoE at least 2 dragaons when these abilities. Do basics to finish off dragons on low HP and <:assault:535532855191928842> to finish off a dragon you did not manage to AoE.
+<:surgemobile:867678153798975498> to south dragon and do basic → <:noxscythe:513190159341322240> <:cane:535532878969438210> → <:quake:535532879506309150> as your main AoEs. <:gflurry:535532879283879977> should be used here for AoE and <:zerk:535532854004678657> CD. Try to AoE at least 2 dragons when these abilities. Do basics to finish off dragons on low HP and <:assault:535532855191928842> to finish off a dragon you did not manage to AoE.
 
 .
 **__4 Lava Golems__**
@@ -265,7 +250,7 @@ Most of the time, your aim is to stand in the middle of everything as most of me
 
 .
 **__2 Laboratory Slimes 1 Celestial Dragon (Dangerous)__**
-<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> towards Celestial Dragon build with basics until there are 2 slimes within scythe range (not clones). Use <:meteorstrike:535532879359377439> → <:stickybomb:655341074306301964> + <:cleave:535532878616985610> → <:gflurry:535532879283879977>. **Use<:excal:641337999170207763> spec here.**
+<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> towards Celestial Dragon build with basics until there are 2 slimes within scythe range (not clones). Use <:meteorstrike:535532879359377439> → <:stickybomb:655341074306301964> + <:cleave:535532878616985610> → <:gflurry:535532879283879977>. **Use <:excal:641337999170207763>  spec here.**
 
 .
 **__3 Celestial Dragons (Dangerous)__**
@@ -301,7 +286,7 @@ Here you want to take down the dragons down in pairs.
 
 .
 **__4 Lava Strykewyrms__**
-<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> → <:zerk:535532854004678657> + <:surgemobile:867678153798975498> → TC+ <:gbarge:535532879250456578> wyrm furthest from gate → <:deci:535532879325822986> → target other wyrm <:sever:535532879577612298> → bleed <:assault:535532855191928842>. Finish off first wyverm and <:surgemobile:867678153798975498> to other pair . <:noxscythe:513190159341322240> <:cane:535532878969438210> → <:quake:535532879506309150>, with basics to finish off and <:bdmobile:867678153668820992> to black dragons.
+<:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> → <:zerk:535532854004678657> + <:surgemobile:867678153798975498> → TC+ <:gbarge:535532879250456578> wyrm furthest from gate → <:deci:535532879325822986> → target other wyrm <:sever:535532879577612298> → bleed <:assault:535532855191928842>. Finish off first wyrm and <:surgemobile:867678153798975498> to other pair . <:noxscythe:513190159341322240> <:cane:535532878969438210> → <:quake:535532879506309150>, with basics to finish off and <:bdmobile:867678153668820992> to black dragons.
 
 .
 **__4 Black Dragons__**
@@ -323,7 +308,7 @@ If not in <:zerk:535532854004678657> and 3 dragons near gate are clustered, <:me
 <:surgemobile:867678153798975498> → <:surgemobile:867678153798975498> + <:bdmobile:867678153668820992> and <:gbarge:535532879250456578> a hydrix dragon. Bleed <:assault:535532855191928842> and <:gflurry:535532879283879977> (or <:overpowerigneous:959089455640215633> if high adren).
 
 .
-⬥ Be very aware of the other hydrix dragon that is not within melee distance and avoid getting spec'd no matter what.
+⬥ Be aware of the other hydrix dragon that is not within melee distance and avoid getting spec’d.
 
 .
 **__2 Dragonstone dragons__**
@@ -343,7 +328,7 @@ All examples are done off-task.
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Astellarn, the First Celestial]($linkmsg_astellarn$)\n⬥ [Verak Lith]($linkmsg_veraklith$)\n⬥ [Black Stone Dragon]($linkmsg_blackstonedragon$)\n⬥ [Pre-Astellarn]($linkmsg_preast$)\n⬥ [Post-Astellarn to Verak Lith]($linkmsg_astverak$)\n⬥ [Post-Verak Lith to Black Stone Dragon]($linkmsg_verakbsd$)\n⬥ [Example Runs]($linkmsg_ER$)",
+    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets and Relics]($linkmsg_presets$)\n⬥ [Astellarn, the First Celestial]($linkmsg_astellarn$)\n⬥ [Verak Lith]($linkmsg_veraklith$)\n⬥ [Black Stone Dragon]($linkmsg_blackstonedragon$)\n⬥ [Pre-Astellarn]($linkmsg_preast$)\n⬥ [Post-Astellarn to Verak Lith]($linkmsg_astverak$)\n⬥ [Post-Verak Lith to Black Stone Dragon]($linkmsg_verakbsd$)\n⬥ [Example Runs]($linkmsg_ER$)",
     "color": 39423
   }
 }
