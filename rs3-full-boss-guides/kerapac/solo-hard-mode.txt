@@ -125,7 +125,7 @@ This strategy hinges on keeping HP below max from P1 to P3 with <:blackcrystal:1
     "fields": [
       {
         "name": "__Preset Suggestions & Breakdowns__",
-        "value": "*Note: use <:KwuarmSticks:565726489341984779> + <:reaverpouch:839903693837959228> with <:reaverscroll:1022562484378419284> + autofire set to 0*\n⬥ [Preset Sample](https://i.imgur.com/O2NYGVx.png)\n⬥ [Breakdown](https://i.imgur.com/iOD6kmx.png)",
+        "value": "*Note: use <:KwuarmSticks:565726489341984779> + <:reaverpouch:839903693837959228> with <:reaverscroll:1022562484378419284> + autofire set to 0*\n⬥ [Link](https://pvme.github.io/preset-maker/#/PlPVgl4qTATeAwKf2VVN)",
         "inline": true
       }
     ]
@@ -134,67 +134,72 @@ This strategy hinges on keeping HP below max from P1 to P3 with <:blackcrystal:1
 .embed:json
 
 .
-__**Relic Setup**__
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-⬥ <:persistentrage:739965637056659567> Persistent Rage > <:deathward:697808774068699286> Death Ward / <:fontoflife:698225967679930408> Font of Life
-
-.
 __**Overview**__
-⬥ For <:kerapac:875443920673337344> slams use <:escape:535541258832052231> during GCD or run away if channelling <:rapid:535541270521708566>
-⬥ Optional - use stalled Incendiary Shot <:incend:535541258429661215> on War's dummy to make P1 smoother
-    • After releasing <:incend:535541258429661215>, rush inside instance and drop combat to <:gdeathsswift:994644354536837121> without needing to target <:kerapac:875443920673337344>
+⬥ For <:kerapac:875443920673337344> slams use <:dive:1049378668197195808> during GCD or run away if channelling <:rapid:535541270521708566>.
+    • Don't tank slams unless you're very familiar with the timings.
+⬥ P1 rotation assumes stalled <:incend:535541258429661215> on War's dummy.
+    • After releasing <:incend:535541258429661215>, enter instance as soon as possible and run to the starting position.
+    • Don't use movement abilities after entering the instance to drop combat and benefit from <:persistentrage:739965637056659567>.
 ⬥ Do not <:timewarp:870328868815396914> and <:gdeathsswift:994644354536837121> on the same tick.
     • Only <:gdeathsswift:994644354536837121> after seeing the <:timewarp:870328868815396914> icon on buff bar (at least 1t apart).
+⬥ Utilize <:reaverscroll:1022562484378419284> throughout the fight to save food for P4.
+⬥ Rotations assume slayer task and <:slayerhelm:798285340460449792> on anachronia stand.
+⬥ If not bringing <:abyssalscourge:947871842469834832> replace all <:ingen:641339234111848463> <:dismember:535532879376023572> with <:piercing:535541258538450944>.
 
 .
 __**Phase 1**__
-⬥ <:deathsswift:994921434633744455> 2 ticks after the yellow text appears.
+⬥ <:gdeathsswift:994644354536837121> 1 tick after the yellow text appears.
+⬥ During 2nd <:kerapac:875443920673337344> slam <:dive:1049378668197195808> to south western part of the arena to lure <:kerapac:875443920673337344>.
 
-<:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:eofspec:746403211908481184> + <:ingen:641339234111848463> → (tc) + <:smokecloud:856635090641879050> + <:grico:787904334812807238> → walked <:frag:535541273755385885> → <:bolg:994189289623662702> <:spec:537340400273195028> ( → <:corruptshot:535541306294796299> if <50% adren) → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:snap:535534127131394088> → <:snipe:535541258425204770>→ <:sgb:626466665848242186> <:eofspec:746403211908481184> (<:mds:535541259033378827> if under 77%) → <:shadowtend:642713547142332416> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → walked <:frag:535541273755385885> → <:mds:535541259033378827> (→ <:corruptshot:535541306294796299> if <50%) → <:rapid:535541270521708566> (dodge jumps as needed)→ <:grico:787904334812807238> (→ <:snap:535534127131394088> if <:kerapac:875443920673337344> has >75k HP) → basics until capped  + <:dive:1049378668197195808> towards south of the arena
+<:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657><:eofspec:746403211908481184> → <:grico:787904334812807238> → <:bolg:994189289623662702><:spec:537340400273195028> → <:piercing:535541258538450944> → (<:frag:535541273755385885> if <50% adren )→ <:rapid:535541270521708566> → <:snap:535534127131394088> → <:grico:787904334812807238> → <:shadowtend:642713547142332416> → <:mds:535541259033378827> → <:ecb:615618531937222657><:eofspec:746403211908481184> → <:piercing:535541258538450944> → <:sgb:626466665848242186><:eofspec:746403211908481184> → <:grico:787904334812807238> → <:snipe:535541258425204770> → <:rapid:535541270521708566> → finish with <:snap:535534127131394088>/basics depending on hp
 
-⬥ While phasing to P2 use: basic → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:bolg:994189289623662702> <:spec:537340400273195028>
+⬥ While phasing to P2 use: basic(s) to get to 3+ <:perfectequilibrium:1006119102814887957> stacks → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:bolg:994189289623662702> <:spec:537340400273195028>
 
-*Note: skip <:ecb:615618531937222657> <:eofspec:746403211908481184> if you got 3 slams or you're at <70% when Kerapac started phasing.*
+*Note: skip <:ecb:615618531937222657> <:eofspec:746403211908481184> if you got 3 slams or low adrenaline.*
 
 .
 __**Phase 2**__
-⬥ During <:timewarp:870328868815396914> P2 and P3 you will be using <:grico:787904334812807238>/<:mds:535541259033378827> (if needed)/<:snap:535534127131394088>/<:rapid:535541270521708566>.
-    • Swap around order of <:grico:787904334812807238>/<:mds:535541259033378827>/<:snap:535534127131394088> to make sure you proc <:perfectequilibrium:1006119102814887957> on <:snap:535534127131394088> (preferably 2nd hit)
 
-<:grico:787904334812807238> → <:snipe:535541258425204770> → basics until 100% → <:timewarp:870328868815396914> → <:deathsswift:994921434633744455> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:limitless:641339233638023179> + <:snap:535534127131394088> → <:rapid:535541270521708566> + timewarp ends → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:mds:535541259033378827> → <:grico:787904334812807238> → basics until capped
+<:grico:787904334812807238> → <:snipe:535541258425204770> → basics until 100% (end on 3 <:perfectequilibrium:1006119102814887957> stacks preferably) → <:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> → <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:dismember:535532879376023572> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:limitless:641339233638023179> <:rapid:535541270521708566> (<:timewarp:870328868815396914> end) → <:snap:535534127131394088> → <:grico:787904334812807238> → <:rapid:535541270521708566> → basics until phased
 
-Alternative rotation if Kerapac has >300k HP after <:timewarp:870328868815396914> <:rapid:535541270521708566> ends:
-<:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:deadshotigneous:959089455283728386> → <:mds:535541259033378827> → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:snap:535534127131394088> → basics until capped
+⬥ While phasing to P3 use: basic(s) to get to 3+ <:perfectequilibrium:1006119102814887957> stacks → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:bolg:994189289623662702> <:spec:537340400273195028>
 
-⬥ While phasing to P3 use: <:frag:535541273755385885> → <:corruptshot:535541306294796299> → <:bolg:994189289623662702> <:spec:537340400273195028>
+*Note: skip <:ecb:615618531937222657> <:eofspec:746403211908481184> if you got 2 slams or low adrenaline.*
 
 .
 __**Phase 3**__
-<:grico:787904334812807238> → <:snipe:535541258425204770> → basics until 100% → <:timewarp:870328868815396914> → <:deathsswift:994921434633744455> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:limitless:641339233638023179> + <:snap:535534127131394088> → <:rapid:535541270521708566> + timewarp ends → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:mds:535541259033378827> → <:grico:787904334812807238> → basics until capped
+<:grico:787904334812807238> → <:snipe:535541258425204770> → basics until 100% (end on 3 <:perfectequilibrium:1006119102814887957> stacks preferably) → <:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> → <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:dismember:535532879376023572> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:limitless:641339233638023179> <:rapid:535541270521708566> (<:timewarp:870328868815396914> end) → <:snap:535534127131394088> → <:grico:787904334812807238> → <:rapid:535541270521708566> → basics until phased
 
 .
 __**Phase 4**__
-⬥ In addition to eating, you may need to spam <:reaverscroll:1022562484378419284> for healing if you get unlucky.
-⬥ Use <:DeflectMage:544195487926845462> here most of the time and only <:soulsplit:615613924506599497> flick clones if you're careful.
+⬥ Keep high hp by spamming food and <:reaverscroll:1022562484378419284> throughout P4.
+⬥ Camp <:soulsplit:615613924506599497> for the 1st clone. Afterwards swap to <:DeflectMage:544195487926845462> and only <:soulsplit:615613924506599497> flick if you're careful.
 ⬥ Use <:wenarrow:971025697046925362> for clones and to finish off <:kerapac:875443920673337344>
     • You will need to use an ability with <:bikarrow:971025697235689513> on Kerapac when killing the second clone to refresh stacks.
+⬥ (Optional) Use <:fularrow:971025696958853180> for <:sgb:626466665848242186><:eofspec:746403211908481184> and <:bolg:994189289623662702> <:spec:537340400273195028> for extra damage.
+⬥ (Optional) Equip <:rod:513190159462825984> after entering north clone for extra safety.
 
 .
-Enter South clone + equip <:wenarrow:971025697046925362> + <:vulnbomb:655341074235129858> → 2h auto → Basics until 3+ <:perfectequilibrium:1006119102814887957> stacks → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snipe:535541258425204770> → <:mds:535541259033378827> → (basics until <:deathsswift:994921434633744455> runs out or clone is <20k HP)
+⬥ **South echo**
+<:ecb:615618531937222657> <:eofspec:746403211908481184> during phase transition → enter south clone + equip <:wenarrow:971025697046925362> + <:vulnbomb:655341074235129858> + 2h auto → basic(s) until 3+ <:perfectequilibrium:1006119102814887957> stacks → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → basics until <:gdeathsswift:994644354536837121> runs out and echo is dead or <10k HP
 
-*Note: Heal up and <:vitality:654618235097972737> South clone before you enter North clone.*
+*Note: due to hitchance issues some <:grico:787904334812807238> hits may splash. If that happens use <:piercing:535541258538450944>/<:mds:535541259033378827> to get to 3 <:perfectequilibrium:1006119102814887957> stacks for <:bolg:994189289623662702> <:spec:537340400273195028>.*
+*Note: if south echo dies early and <:timewarp:870328868815396914> is still on cooldown, use some basics on west echo.*
 
-Enter North clone + <:vulnbomb:655341074235129858> → 2h auto → <:corruptshot:535541306294796299> → equip <:bikarrow:971025697235689513> + target <:kerapac:875443920673337344> + <:piercing:535541258538450944> → equip <:wenarrow:971025697046925362> target north clone + <:mds:535541259033378827> + <:surge:535533810004262912> east in between north and east clones → target east clone + <:vulnbomb:655341074235129858> + basics until 100%
+⬥ **Refreshing stacks**
+Enter north clone + <:vulnbomb:655341074235129858> → <:corruptshot:535541306294796299> → target <:kerapac:875443920673337344> + <:bikarrow:971025697235689513> <:piercing:535541258538450944> → <:dive:1049378668197195808> in between north and west echoes → target west echo + <:vulnbomb:655341074235129858> + <:wenarrow:971025697046925362> basics until 100%
 
 .
-<:timewarp:870328868815396914> → <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:deadshotigneous:959089455283728386> → <:limitless:641339233638023179> + <:snap:535534127131394088> → target north clone + <:rapid:535541270521708566> → <:snap:535534127131394088> → <:grico:787904334812807238> → finish off north and east clones with <:bolg:994189289623662702> <:spec:537340400273195028> and basics → <:dive:1049378668197195808> towards Kerapac + target <:kerapac:875443920673337344> → <:bikarrow:971025697235689513> <:mds:535541259033378827> → kill south clone with basics if needed
+⬥ **North and west echoes**
+<:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:grico:787904334812807238> → <:piercing:535541258538450944>/<:mds:535541259033378827> → <:deadshotigneous:959089455283728386> → <:limitless:641339233638023179> + <:snap:535534127131394088> → target north echo + <:rapid:535541270521708566> (<:timewarp:870328868815396914> end) → <:snap:535534127131394088> → <:devo:513190158728953857> → <:grico:787904334812807238> → finish off north and east echoes with <:bolg:994189289623662702> <:spec:537340400273195028> and basics → <:dive:1049378668197195808> east and target <:kerapac:875443920673337344>
 
-<:sgb:626466665848242186><:spec:537340400273195028> → <:grico:787904334812807238> → <:deadshotigneous:959089455283728386> → <:limitless:641339233638023179> + <:snap:535534127131394088> → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028>/basics to finish <:kerapac:875443920673337344> off.
+⬥ **Kerapac**
+<:bikarrow:971025697235689513> <:piercing:535541258538450944> → equip <:wenarrow:971025697046925362> → <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:dismember:535532879376023572> → <:sgb:626466665848242186><:spec:537340400273195028> → <:grico:787904334812807238> → <:deadshotigneous:959089455283728386> → <:limitless:641339233638023179> + <:snap:535534127131394088> → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028>/basics to finish <:kerapac:875443920673337344> off.
 
 .
 __**Example Kills**__
-<https://youtu.be/IwQMsiLzZWo> 3:00 <@159663440011460609>
+<https://youtu.be/xxcYU6265ow> 2:56 <@159663440011460609>
+<https://youtu.be/IwQMsiLzZWo> 3:00 <@159663440011460609> (Old rotations)
 
 .
 > **__Melee (Courtesy of <@145413546409197569> and <@361930468880416768>)__**
