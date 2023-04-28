@@ -1,0 +1,24 @@
+{
+	"Insert preset link (single style)": {
+		"scope": "plaintext",
+		"prefix": "pvme",
+		"body": [
+			".",
+			"{",
+			"  \"embed\": {",
+			"    \"title\": \"\",",
+			"    \"color\": 39423,",
+			"    \"fields\": [",
+			"      {",
+			"        \"name\": \"__Preset Suggestion & Breakdown__\",",
+			"        \"value\": \"⬥ [Link]($1)\",",
+			"        \"inline\": true",
+			"      }",
+			"    ]",
+			"  }",
+			"}",
+			".embed:json"
+		],
+		"description": "Insert preset link (single style)",
+	}
+}
