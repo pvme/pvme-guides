@@ -12,7 +12,7 @@ Information was sourced courtesy of many players, including *but not limited to*
 __**How It Works**__
 ⬥ **Ability queueing ('queueing') is a toggleable setting that allows you to 'queue' abilities to trigger them when possible.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat & Action Bar > Action Bar**.
-.img:https://img.pvme.io/0Xh92hO.png
+.img:https://img.pvme.io/images/0Xh92hO.png
 .
 ⬥ When you enable ability queueing, pressing an ability that cannot immediately be activated queues it, with the following icon appearing on top of it <:queueing:898660152025161778>.
 ⬥ The ability will then get used as soon as it becomes possible to do so (after constraints like adrenaline, 2H/DW weapon requirements, global/ability cooldowns, etc.)
@@ -51,7 +51,7 @@ __**Last-Tick Interactions**__
 {
   "embed": {
     "title": "__Ability Queueing and Last-Tick __",
-    "description": "To see how ability queueing prevents the last tick of Berserk from boosting an ability, [click here](https://img.pvme.io/JlBezRH.mp4) (Courtesy of <@683763716394975294>)",
+    "description": "To see how ability queueing prevents the last tick of Berserk from boosting an ability, [click here](https://img.pvme.io/images/JlBezRH.mp4) (Courtesy of <@683763716394975294>)",
     "color": 39423
   }
 }
@@ -157,7 +157,7 @@ __**Gaining Adrenaline Without Target**__
 {
   "embed": {
     "title": "__Adrenaline Without Target__",
-    "description": "For a demonstration of gaining adrenaline after losing target, [click here](https://img.pvme.io/kq3890N.mp4).",
+    "description": "For a demonstration of gaining adrenaline after losing target, [click here](https://img.pvme.io/images/kq3890N.mp4).",
     "color": 39423
   }
 }
@@ -212,7 +212,7 @@ __**Interactions with Damage-Boosting Ultimates**__
 ⬥ However, the damage boost from ultimates is **on-cast**, while the aura damage boost is **on-hit**.
 ⬥ This interaction makes it so that if you cast an ability on *during* an ultimate, but it lands/hits *after* the ultimate ends, it stacks both the ult and the aura buff.
 ⬥ In the following image, the same ability is cast twice: on** the left it casts and hits during <:zerk:535532854004678657>,** and **on the right it's cast on during <:zerk:535532854004678657> but hits after <:zerk:535532854004678657> ends** - see the damage difference.
-.img:https://img.pvme.io/7p6v2bc.png
+.img:https://img.pvme.io/images/7p6v2bc.png
 ***Note**: this interaction does **not** work if you queue an ability on the last tick of an ultimate*.
 
 .
@@ -222,7 +222,7 @@ __**How It Works**__
 ⬥ During some mechanics and cutscenes, the game has the ability to 'shake' the camera view.
     • An easy example is when you use the ability Quake <:quake:535532879506309150> with the setting enabled.
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Camera > System**.
-.img:https://img.pvme.io/Qw1kFay.png
+.img:https://img.pvme.io/images/Qw1kFay.png
 .
 ⬥ **This is sometimes used as an indicator for certain boss mechanics**, but you can disable this if you suffer from motion sickness.
 ⬥ Some examples of places this is found:
@@ -413,7 +413,7 @@ __**How It Works**__
 __**How It Works**__
 ⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
-.img:https://img.pvme.io/xiuCIqX.png
+.img:https://img.pvme.io/images/xiuCIqX.png
 .
 ⬥ **Behaviour with manual spellcasting *off***:
     • Magic auto attacks deal damage based on the spell your weapon is set to.
@@ -463,7 +463,7 @@ __**NPC Center vs. Coordinate**__
     • For even-size NPCs (2x2, 4x4, 6x6, etc.): it is always the **south-west tile in middle 2x2 tile region**.
 ⬥ **The NPC coordinate is always the south-west tile.**
 ⬥ The follow image visualizes these changes.
-.img:https://img.pvme.io/53FBsUZ.png
+.img:https://img.pvme.io/images/53FBsUZ.png
 
 .
 __**Abilities and NPC Coordinate**__
@@ -481,9 +481,9 @@ __**Abilities and NPC Coordinate**__
     • Detonate <:deto:535533833358016512>
     • All burst/barrage auto attacks <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>
 ⬥ We can use this information to predict where our AoEs will begin from and what targets they will hit, as show in the following illustration.
-.img:https://img.pvme.io/kr61SvG.png
+.img:https://img.pvme.io/images/kr61SvG.png
 ⬥ See the picture below for an example of this behaviour - Detonate <:deto:535533833358016512> will only hit the south dragon in A, but it will hit both dragons in Scenario B (both dragons are **3x3** in size).
-.img:https://img.pvme.io/NhmICrb.png
+.img:https://img.pvme.io/images/NhmICrb.png
 *Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
 
 .
@@ -507,7 +507,7 @@ __**Facing Direction: Targeting**__
     • They attack a target (using any spell/ability/special attack/etc.)
     • They try to cast a channel while in attack range of a target.
 ⬥ The following image attempts to show how bosses will face based on their target's location.
-.img:https://img.pvme.io/BJtN9We.png
+.img:https://img.pvme.io/images/BJtN9We.png
 .
 ⬥ In the above image:
     • The center 2x2 region represents the monster's hitbox.
@@ -530,7 +530,7 @@ __**NPC Directions and Flanking**__
     • Your distance past the target's center tile *in that direction* is zero - i.e. relative to the center tile you are not further ahead than the target *in that direction*.
 ⬥ If **both** the above conditions are met, then you can Flank <:flankicon:841419289755385866> the target.
 ⬥ See the following image for 2 examples of angles that you can Flank from on larger targets.
-.img:https://img.pvme.io/fgggN05.png
+.img:https://img.pvme.io/images/fgggN05.png
 .
 ⬥ **Case 1: Target Facing South (Cardinal Direction)**
     • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
@@ -544,7 +544,7 @@ __**NPC Directions and Flanking**__
         - Player is *only* futher north, *not* also further west, than the target's center.
     • i.e. **Flanking angle is the 270° region not including the quadrant the boss is facing**.
 ⬥ See the following image for an example of this behaviour with a 2x2 monster:
-.img:https://img.pvme.io/G3bGkKk.png
+.img:https://img.pvme.io/images/G3bGkKk.png
 
 .
 __**Solo Flanking**__
@@ -567,11 +567,11 @@ __**Solo Flanking**__
     "fields": [
       {
         "name": "__Ambassador__",
-        "value": "⬥ [Walking under Ambassador to use Flanking.](https://img.pvme.io/FMhz1Cm.mp4)"
+        "value": "⬥ [Walking under Ambassador to use Flanking.](https://img.pvme.io/images/FMhz1Cm.mp4)"
       },
       {
         "name": "__Raksha__",
-        "value": "⬥ [Moving to one side to use Flanking during the tail swipe.](https://img.pvme.io/G1zlwXH.mp4)"
+        "value": "⬥ [Moving to one side to use Flanking during the tail swipe.](https://img.pvme.io/images/G1zlwXH.mp4)"
       }
     ]
   }
@@ -586,7 +586,7 @@ __**Bladed Dive**__
 ⬥ It is unique, in that **it allows you to specify a tile to move to** after casting the ability.
 ⬥ **The maximum range is 10 tiles.**
 ⬥ After the ability is used, the player's final position and facing direction depend on where the click was made. The following image illustrates this:
-.img:https://img.pvme.io/ODMwLfr.png
+.img:https://img.pvme.io/images/ODMwLfr.png
 .
 ⬥ Note the following in the above image:
     • The maximum range of <:bd:535532854281764884> (10 tiles) is indicated by the black border.
@@ -637,7 +637,7 @@ __**Arrows 2-5+**__
 ***Note**: In most cases, only the first 5 arrows are considered. For exceptions, see __**Notes**__ below.*
 .
 ⬥ All subsequent arrows scale their maximum damage range based on Arrow 1's **minimum** hit - see the following table.
-.img:https://img.pvme.io/HQBDkMa.png
+.img:https://img.pvme.io/images/HQBDkMa.png
 ⬥ Some perks can impact this range:
     • **Precise <:p6:712073088769982475> applies its effect to Arrow 1 first**, then subsequent damages are calculated using the new minimum.
     • **Equilibrium <:eq4:712073088589627505> applies its effects on the final damage range**.
@@ -657,11 +657,11 @@ __**Arrows 2-5+**__
 ⬥ **This means that the chances that Arrows 2-5 hit the target increase with the size of the target.**
     • **i.e.** on bigger targets, the minimum expected damage of <:sgb:626466665848242186> <:spec:537340400273195028> increases.
 ⬥ The following diagram visualizes this process for two example targets, 4x4 and 5x5 in size.
-.img:https://img.pvme.io/B1kn9o9.png
+.img:https://img.pvme.io/images/B1kn9o9.png
 *Note: The image is just an __example__, actual results may vary due to randomness.*
 
 ⬥ The average number of targets that will hit a given NPC, based on its size is given in the following table:
-.img:https://img.pvme.io/LeTp1JH.png
+.img:https://img.pvme.io/images/LeTp1JH.png
 .
 ⬥ **A general rule of thumb for <:sgb:626466665848242186> <:spec:537340400273195028>**:
     • When Ranging → use on 3⨯3 or bigger targets.
@@ -701,7 +701,7 @@ __**How It Works**__
 ⬥ **Target cycling is the ability to select a new combat target using a keybind, instead of clicking it.**
     • This is similar to 'tab-targeting', found in other MOBAs and MMOs.
 ⬥ Target cycle settings can be found by pressing **Esc > Settings > Gameplay > Combat > Targeting**.
-.img:https://img.pvme.io/Apqq3Th.png
+.img:https://img.pvme.io/images/Apqq3Th.png
 .
 ⬥ These settings determine how a target is found when the corresponding keybind (*forward* or *backward*) is pressed.
 ⬥ **Radial targeting:**
@@ -745,7 +745,7 @@ __**Why it is Useful**__
       },
       {
         "name": "__Angel of Death__",
-        "value": "⬥ [Changing target to Nex while charging Detonate](https://img.pvme.io/ZFIZdKl.mp4)\n⬥ Using TC to target pillars, since it's easier than trying to click a target while moving"
+        "value": "⬥ [Changing target to Nex while charging Detonate](https://img.pvme.io/images/ZFIZdKl.mp4)\n⬥ Using TC to target pillars, since it's easier than trying to click a target while moving"
       },
       {
         "name": "__GWD2__",
