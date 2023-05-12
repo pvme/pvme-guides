@@ -13,7 +13,7 @@ Creating a good interface is all about displaying the interface elements in a wa
 **__RS3 New Player Interface__**
 ⬥ Consider the *New Player* interface that players are given when first playing the game.
 .
-.img:https://i.imgur.com/tDs3spx.jpg
+.img:https://img.pvme.io/tDs3spx.jpg
 .
 There are several issues with this interface, such as:
 ⬥ UI elements are spread out and not easily accessible.
@@ -66,7 +66,7 @@ The first step is to set up the main menus and layout of the interface.
 ⬥ Some of the non-essential but useful menus are added and fill in any glaring gaps - the **runemetrics** tab is optional but can be used to track damage in a fight.
 ⬥ Now we have an interface that looks something like this:
 .
-.img:https://i.imgur.com/DuVjrMQ.jpg
+.img:https://img.pvme.io/DuVjrMQ.jpg
 ⬥ The basic structure of the interface has taken shape.
 *Note: A portion of the game window is now covered by interface menus - this will be adjusted in the next step.*
 
@@ -75,7 +75,7 @@ __**Step 2: Edit Layout Mode > Advanced Options**__
 After finalizing the basic layout, the **advanced options** can be used to customize how some detailed and important aspects of the interface, such as the buff/debuff bars, split private chat, the game view etc.
 ⬥ To access the menu, press **Escape > Edit Layout Mode > Advanced Options** and you'll be greeted with a menu that looks similar to the following image. Click the tickboxes to add or remove overlays from the view to customize.
 .
-.img:https://i.imgur.com/mIHOKe2.jpg
+.img:https://img.pvme.io/mIHOKe2.jpg
 .
 ⬥ Click the tickboxes to add or remove overlays from the view to customize.
 ⬥ The **buff/debuff** bars are placed close to the focus of the interface, near where the character stands in the centre of the screen, to make them easier to see.
@@ -85,9 +85,9 @@ After finalizing the basic layout, the **advanced options** can be used to custo
 ⬥ **Group invitation** popups are placed off to one side to prevent them from being misclicked, say during a boss fight.
 ⬥ The **game view** can be customized in the same way. The following screenshots compare two game view sizes, indicated by the red outline.
 .
-.img:https://i.imgur.com/1mSDoFy.jpg
+.img:https://img.pvme.io/1mSDoFy.jpg
 .
-.img:https://i.imgur.com/87cxTOT.jpg
+.img:https://img.pvme.io/87cxTOT.jpg
 .
 ⬥ Adjust the game view to avoid having large portions of it covered by the interface and to your preference.
     • This *can* affect the visibility of some bosses.
@@ -98,11 +98,11 @@ __**Saving Interface Layout**__
 .
 To **save** a layout, open the **Edit Layout Mode** menu and click on a preset name in the **Save Layout** dropdown menu, and confirm the changes.
 .
-.img:https://i.imgur.com/pX6Rh9A.png
+.img:https://img.pvme.io/pX6Rh9A.png
 .
 To **load** a layout, click on one of the created/saved load-outs accessed by pressing **Escape** and selecting a preset from the **Load Layout** dropdown menu.
 .
-.img:https://i.imgur.com/TpVjzIi.png
+.img:https://img.pvme.io/TpVjzIi.png
 
 .
 __**Miscellaneous settings**__
@@ -115,7 +115,7 @@ __**Miscellaneous settings**__
     • *Note: Changing the interface scaling may prevent Alt1 plugins from working, due to how they read the text in the chatbox.*
 ⬥ The size of the Bank interface can be adjusted - simply unlock the interface, and it can be moved/resized.
 .
-.img:https://i.imgur.com/my8L2iK.jpg
+.img:https://img.pvme.io/my8L2iK.jpg
 
 .
 > __**Example Interfaces**__
@@ -130,17 +130,17 @@ At the end of the day, a good interface is the one that works for you. Look for 
     "fields": [
       {
         "name": "__900p__ (1600x900)",
-        "value": "⬥ [Ideal Gas](https://i.imgur.com/S9sKls2.jpg)\n⬥ [DEATHSOFFICE](https://i.imgur.com/oZuuGxV.jpg)",
+        "value": "⬥ [Ideal Gas](https://img.pvme.io/S9sKls2.jpg)\n⬥ [DEATHSOFFICE](https://img.pvme.io/oZuuGxV.jpg)",
         "inline": true
       },
       {
         "name": "__1080p__ (1920x1080)",
-        "value": "⬥ [Couchy](https://i.imgur.com/Cz5bOvM.jpg)\n⬥ [Lunge](https://i.imgur.com/Ox10gGJ.jpg)\n⬥ [Wazzy xD](https://i.imgur.com/i29w46j.jpg)\n⬥ [Archer](https://i.imgur.com/tLKTkL8.jpeg) \n⬥ [DePose](https://i.imgur.com/TpwAnMI.jpeg)\n⬥ [Just Eswar](https://i.imgur.com/O8JbvS6.jpeg)\n⬥ [Ferrous](https://i.imgur.com/KjHdGQ0.jpeg)\n⬥ [Hero1](https://i.imgur.com/Knx2bFd.jpg)\n⬥ [Washly](https://i.imgur.com/gNA41bz.jpeg)\n⬥ [Dyanne](https://i.imgur.com/E9AgKB7.jpeg)",
+        "value": "⬥ [Couchy](https://img.pvme.io/Cz5bOvM.jpg)\n⬥ [Lunge](https://img.pvme.io/Ox10gGJ.jpg)\n⬥ [Wazzy xD](https://img.pvme.io/i29w46j.jpg)\n⬥ [Archer](https://img.pvme.io/tLKTkL8.jpeg) \n⬥ [DePose](https://img.pvme.io/TpwAnMI.jpeg)\n⬥ [Just Eswar](https://img.pvme.io/O8JbvS6.jpeg)\n⬥ [Ferrous](https://img.pvme.io/KjHdGQ0.jpeg)\n⬥ [Hero1](https://img.pvme.io/Knx2bFd.jpg)\n⬥ [Washly](https://img.pvme.io/gNA41bz.jpeg)\n⬥ [Dyanne](https://img.pvme.io/E9AgKB7.jpeg)",
         "inline": true
       },
       {
         "name": "__1440p__ (2560x1440)",
-        "value": "⬥ [TXJ](https://i.imgur.com/3LkFkEk.jpeg)\n⬥ [TXJ](https://i.imgur.com/c2Zyidp.jpeg) (150%)\n⬥ [TXJ](https://i.imgur.com/Dwj61cx.jpeg) (200%)\n⬥ [Finah](https://i.imgur.com/c0udPPa.jpeg)\n⬥ [Evil Lucario](https://i.imgur.com/3iqGdFt.jpeg) (175%)",
+        "value": "⬥ [TXJ](https://img.pvme.io/3LkFkEk.jpeg)\n⬥ [TXJ](https://img.pvme.io/c2Zyidp.jpeg) (150%)\n⬥ [TXJ](https://img.pvme.io/Dwj61cx.jpeg) (200%)\n⬥ [Finah](https://img.pvme.io/c0udPPa.jpeg)\n⬥ [Evil Lucario](https://img.pvme.io/3iqGdFt.jpeg) (175%)",
         "inline": true
       },
       {
@@ -150,12 +150,12 @@ At the end of the day, a good interface is the one that works for you. Look for 
       },
       {
         "name": "__Ultrawide.__",
-        "value": "⬥ [IO (2560x1080)](https://i.imgur.com/5Jk8Bit.jpeg)",
+        "value": "⬥ [IO (2560x1080)](https://img.pvme.io/5Jk8Bit.jpeg)",
         "inline": true
       },
       {
         "name": "__Miscellanous__",
-        "value": "⬥ [Just Eswar (960x1080)](https://i.imgur.com/XsL9pCF.jpeg)\n⬥ [Inter (800x600)](https://i.imgur.com/L7vuCSs.png)",
+        "value": "⬥ [Just Eswar (960x1080)](https://img.pvme.io/XsL9pCF.jpeg)\n⬥ [Inter (800x600)](https://img.pvme.io/L7vuCSs.png)",
         "inline": true
       }
     ]
@@ -167,7 +167,7 @@ At the end of the day, a good interface is the one that works for you. Look for 
 > __**Settings Menu**__
 .tag:settings
 The **Settings** menu is accessed through the **Options** menu in-game, reachable at any time by pressing **escape**, and contains in-game settings that can be modified. Here, we cover several useful/important options that can be customized.
-.img:https://i.imgur.com/nOIbsLE.png
+.img:https://img.pvme.io/nOIbsLE.png
 
 .
 __**Gameplay Settings > Interfaces**__
@@ -300,7 +300,7 @@ These settings affect the visual appearance of the game. Depending on your compu
 ⬥ **Interface Scaling** - changes interface scaling anywhere from 70-300%.
 ⬥ **Mouse-over entity highlights** - when the cursor hovers over and clicks an object, a coloured outline appears, with the colour depending on what was interacted with (non-monster NPC, monster NPC or interactable terrain).
 .
-.img:https://i.imgur.com/1PlF7IY.jpg
+.img:https://img.pvme.io/1PlF7IY.jpg
 
 .
 > __**Action Bars**__
@@ -311,7 +311,7 @@ Action bars are part of every player's interface containing slots that you can d
 __**Action Bar Basics**__
 ⬥ Action bars have 14 slots that can be filled with a variety of actions, including but not limited to abilities, prayers, spells, and gear switches. To populate the bar, simply drag an action onto a slot on the bar.
 *Note: If this does not work, then your bar is **locked.** To unlock your action bar, click the golden lock icon on the primary bar (shown in the following picture).*
-.img:https://i.imgur.com/nd8js0o.png
+.img:https://img.pvme.io/nd8js0o.png
 .
 ⬥ In addition to the ability slots, the primary action bar also displays:
     • **Health** - the red meter
@@ -332,7 +332,7 @@ __**Action Bar Presets**__
 ⬥ Adding an action to the action bar is sufficient to update the preset. The preset can then be loaded to any action bar by changing the number on that bar.
     • *Right-clicking the number icon* of the action bar will bring up a list of presets that can be loaded.
 .
-.img:https://i.imgur.com/mVwHAop.png
+.img:https://img.pvme.io/mVwHAop.png
 .
 ⬥ Action bar presets can be named in the settings found at **Settings > Gameplay > Action Bar > Change Action Bar Preset Names**
 
@@ -342,7 +342,7 @@ __**Additional Action Bars**__
     • **Settings > Gameplay > Action Bar > Display Additional Action Bars**
 ⬥ You can have up to **four additional bars** for a total of five on-screen at any given time.
 .
-.img:https://i.imgur.com/pddRfuh.png
+.img:https://img.pvme.io/pddRfuh.png
 .
 ⬥ Additional bars provide more slots to place actions for keybinding, reducing the number of things you need to manually click. They also facilitate easier switching of gear during combat and can overall improve your gameplay experience as you take time and familiarize yourself with your keybinds while playing.
 
@@ -363,14 +363,14 @@ __**Action Bar Binding**__
     • **We want our primary action bar to change based on our equipped weapons**.
     • **We also want our secondary bar to change based on our equipped style**.
 .
-.img:https://i.imgur.com/PNTSHp8.png
+.img:https://img.pvme.io/PNTSHp8.png
 .
 ⬥ In the above example, the first binding setup makes the *main/primary action bar*, when equipping *2h magic* weapons, to swap to *preset number 6* (named *Magic - 2h*).
 ⬥ The second binding setup changes the primary action bar to preset number 5 (*Magic - Dw*), whenever equipping dual-wield magic weapons.
 ⬥ The third binding setup changes the *additional action bar*, when equipping *any* magic weapons, to the correct preset (*Magic - Switches*)
 ⬥ When set up correctly for multiple styles, it will look something like this:
 .
-.img:https://i.imgur.com/mjAyjqV.mp4
+.img:https://img.pvme.io/mjAyjqV.mp4
 
 .
 > __**Keybinds**__
@@ -419,7 +419,7 @@ __**Utilizing Additional Action Bars**__
     • **2nd Bar**: defensives <:devo:513190158728953857> <:anti:535541306475151390> <:freedom:535541258240786434> <:reflect:535541258786177064> <:cade:535541306353778689> / constitution abilities <:stormshards:536256663641128971> <:Sacrifice:513201065907322880> <:Tuskas:513201065513058306> (since these are common to all styles and can always be on screen).
     • **3rd Bar**: prayers <:DeflectMelee:544195488447201300> <:DeflectRange:544195488317046812> <:DeflectMage:544195487926845462> <:turmoil:583429936606347280> <:anguish:583429936665198592> <:torment:583429936958930964> / movement abilities like <:bd:535532854281764884> <:barge:535532853916860437> <:surge:535533810004262912> <:escape:535541258832052231> / Bladed Dive switch etc.
     • **4th Bar**: food <:Sailfish:565726489363087360> <:Brew:565726489400573962> <:blueblubber:689530593742291033> / common utility spells <:smokecloud:856635090641879050> <:shielddome:537341954392850442> <:Cept:543478434509357098> <:disrupt:535614336207552523> <:SBSLunars:565726489467682816> / utility items <:vulnbomb:655341074235129858> <:dommine:662249620579155968> / teleport / etc.
-.img:https://i.imgur.com/Om3MYyU.png
+.img:https://img.pvme.io/Om3MYyU.png
 
 .
 __**Keybinds Guide**__ (Courtesy of <@158292421724209152>)
@@ -446,7 +446,7 @@ __**Bank Tabs**__
     "fields": [
       {
         "name": "__Bank Tabs__",
-        "value": "⬥ [Base Tank](https://i.imgur.com/5P8TUNm.png)\n⬥ [Die Alive](https://i.imgur.com/Dn83Mhl.png)\n⬥ [Mionee](https://i.imgur.com/CAPopF5.png)\n⬥ [Pernix](https://i.imgur.com/NckQvjE.png)\n",
+        "value": "⬥ [Base Tank](https://img.pvme.io/5P8TUNm.png)\n⬥ [Die Alive](https://img.pvme.io/Dn83Mhl.png)\n⬥ [Mionee](https://img.pvme.io/CAPopF5.png)\n⬥ [Pernix](https://img.pvme.io/NckQvjE.png)\n",
         "inline": true
       }
     ]
@@ -459,9 +459,9 @@ __**Bank Presets**__
 ⬥ Bank presets make it easy to equip entire loadouts with a single click.
 ⬥ There are 15 presets available, accessible by clicking the **cog icon** at the bottom right of your bank interface. We can cover a few important points about presets here.
 .
-.img:https://i.imgur.com/yrDIIUL.png
+.img:https://img.pvme.io/yrDIIUL.png
 .
-.img:https://i.imgur.com/7zASc7R.png
+.img:https://img.pvme.io/7zASc7R.png
 .
 ⬥ Every preset can be configured to load **any combination of the inventory, worn items and beast of burden storage** (if summoned).
     • This can be done by clicking the yellow icons next to the preset (or the tick boxes below the preset list).
@@ -477,7 +477,7 @@ __**Bank Presets**__
     • They can also be loaded using the number keys `1` and `2` for the first two presets, and `Alt+(number)` for higher presets.
 ⬥ Here is an example demonstrating setting up and loading a preset.
 .
-.img:https://i.imgur.com/gVodqX7.mp4
+.img:https://img.pvme.io/gVodqX7.mp4
 
 .
 __**Quick Banking Preset**__
@@ -510,7 +510,7 @@ __**Quick Banking Preset**__
 {
   "embed": {
     "title": "__Banking Presets__",
-    "description": "Some players' banking presets for reference.\n⬥ [Rcm37](https://i.imgur.com/OHGiibE.png)\n⬥ [Rin](https://i.imgur.com/ke7HOPo.png)\n⬥ [Dyanne](https://i.imgur.com/RiiXthi.png)\n⬥ [Just Eswar](https://i.imgur.com/7zbu9sY.png)\n⬥ [HightDetal](https://i.imgur.com/wp5RQ68.png)\n⬥ [I O](https://cdn.discordapp.com/attachments/1066489551947825193/1066495892498153583/image.png)\n⬥ [Void](https://i.imgur.com/6ep8iC9.png)",
+    "description": "Some players' banking presets for reference.\n⬥ [Rcm37](https://img.pvme.io/OHGiibE.png)\n⬥ [Rin](https://img.pvme.io/ke7HOPo.png)\n⬥ [Dyanne](https://img.pvme.io/RiiXthi.png)\n⬥ [Just Eswar](https://img.pvme.io/7zbu9sY.png)\n⬥ [HightDetal](https://img.pvme.io/wp5RQ68.png)\n⬥ [I O](https://cdn.discordapp.com/attachments/1066489551947825193/1066495892498153583/image.png)\n⬥ [Void](https://img.pvme.io/6ep8iC9.png)",
     "color": 39423
   }
 }
