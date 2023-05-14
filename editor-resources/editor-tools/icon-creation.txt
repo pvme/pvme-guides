@@ -1,0 +1,215 @@
+> __**Introduction**__
+.tag:intro
+This channel will cover creating and editing:
+1. Emojis used in PvME's guides - <#1020845621227307110>
+2. Icons used in the preset generator - <https://pvme.github.io/preset-maker/>
+
+.
+{
+  "embed": {
+    "title": "__Requirements__",
+    "description": "Take note of these before you start.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Interface scaling__",
+        "value": "⬥ Ensure both system and RuneScape interface scaling are set to **100%**.\n\u00a0\u00a0\u00a0\u00a0• System display scaling can be found under [System > Display > Scale](https://img.pvme.io/images/XspEfnR9K5.png) for Windows users.\n\u00a0\u00a0\u00a0\u00a0• RuneScape interface scaling can be found under [Settings > Graphics > Interface Scaling](https://img.pvme.io/images/4wusRQznyv.png).\n\u200B"
+      },
+      {
+        "name": "__Manual emoji creation/Image editing__",
+        "value": "⬥ [Paint.net](https://www.getpaint.net/download.html#download) or better image editing software downloaded.\n\u200B"
+      },
+      {
+        "name": "__Emoji/icon creation by script__",
+        "value": "⬥ [Python](https://www.python.org/downloads/) installed.\n⬥ Internet connection.\n⬥ [Paint.net](https://www.getpaint.net/download.html#download) is still highly recommended to manually edit or make icons where the script fails.\n\u200B"
+      },
+      {
+        "name": "__Raw input picture requirements__",
+        "value": "⬥ Must be taken on a PC or laptop with graphics drivers that are not very outdated (exact requirements needed not known).\n\u00a0\u00a0\u00a0\u00a0• Outdated drivers will cause backgrounds (bank, inventory slots) to be inconsistently coloured which breaks the script and makes manual extraction harder.\n⬥ Must [look clear when zoomed in](https://img.pvme.io/images/DneowCezKn.png) (affected by interface scaling)\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+.
+> __**Icon formatting**__
+.tag:format
+Every icon consists of 4 parts:
+1. The **main item** - Colour varies, never contains the same shade as the **outline** and **shadow**.
+2. The **outline** - A black border that immediately surrounds the main item (RGB value 0,0,2).
+3. The **shadow** - A black border that appears bottom-right of the outline where applicable (RGB value 0,0,1).
+4. (Only for stackable items) The number (RGB value 255,255,0).
+    a. Numbers have their own shadows.
+
+Image showing different regions selected:
+.
+.img:https://img.pvme.io/images/tHGKxIrkby.png
+.
+**Preset icons** are extracted from inventory slots pictures (38x34) and contains all icon parts.
+.
+.img:https://img.pvme.io/images/Yv2AN2KqdH.png
+.
+**Emojis** are extracted from bank pictures and have **shadows** and **numbers** removed. They are also cropped to size.
+.
+.img:https://img.pvme.io/images/ZlC9E1hWBh.png
+.
+> __**RSWiki icons**__
+.tag:wikiicon
+⬥ **All preset icons should be manually made, and not based on RSWiki icons.**
+    • Emojis can be made from RSWiki icons based on conditions below.
+
+⬥ The source of the icon determines whether you can use the RSWiki icon as an **emoji**.
+    • Icons which are prepared by users and accurately reflects how they appear in the game **can be used.**
+    • If the icon is prepared by a bot. It is most likely a **Java icon** which do not reflect how the icon looks like in the live game.
+.img:https://img.pvme.io/images/TgSLjZRTq9.png
+.
+> __**Icon creation (script)**__
+.tag:script
+Currently, the script only works for screen grabs **of the inventory section when banking**.
+
+**Setting up**
+⬥ Download the script here: <https://drive.google.com/file/d/1W6nzHiOYzZhsVZP7k_lmJ_leB9svquoX/view?usp=sharing>
+⬥ Move the script to a desired directory.
+⬥ Run the script to set up the folders required.
+    • Let the script to install the **Pillow** Python package if not installed (required for Python to manipulate images).
+    • DO NOT RENAME THE CREATED FOLDERS.
+.
+https://youtu.be/PG19o3AzfCc
+.
+**Making icons/emojis**
+⬥ Take screen grabs of items from the inventory section of the banking interface (example below) and save it in **"Inventory screengrabs"** as a **.png** file.
+    • To make emojis instead of preset icons: add a "_emoji" suffix to the name of the screengrab.
+.img:https://img.pvme.io/images/0nBdPW5cuc.png
+⬥ Navigate back and run **"Make icon.py"**
+    • Check that the quantities printed in the terminal are correct.
+⬥ Check **"Generated emojis"** for emojis and **"Generated preset icons"** for preset icons.
+⬥ Use **"Archive images.py"** to archive all images after they have been added.
+⬥ Example video of basic/icon creation:
+.
+https://youtu.be/81FjnkxgNoQ
+.
+> __**Icon creation (manual)**__
+.tag:fullmanual
+⬥ Take a screen grab of an item from an **opaque bank interface (for emojis)** or **opaque inventory slot (for preset icons)**
+    • Your bank background should be uniformly coloured to facilitate background removal.
+    • Items on the **Grand Exchange** and **preset interface** have their outlines removed and cannot be used as a source for emojis.
+
+**Manual icon creation**
+1. Open the item you want to make an icon of in **Paint.net**, crop it as nicely as possible.
+2. Zoom in and crop the inventory slot exactly using rectangle select (this should give you a 38x34 area).
+3. Use the crop to selection option under **Image**.
+    a. Shortcut: **Ctrl + Shift + X**.
+5. Select the **Magic Wand** and **Rectangle select**/**Lasso select** tools to select and delete regions until the background is completely removed.
+    a. Use **Shift + Click** with the **Magic Wand** on 0% tolerance on the background to quickly select chunks of regions.
+.
+https://youtu.be/ZjdWPbp4YUo
+.
+**Manual emoji creation**
+1. Open the item you want to make an icon of in **Paint.net**, crop it as nicely as possible.
+2. Select the **Magic Wand** tool on 0% tolerance and use **Shift + Click** followed by **Delete** on the background.
+3. Repeat the previous step for shadow and number pixels.
+5. If removing number pixels, ensure that the number or its shadow do not cover the icon.
+    a. Post in <#771436827214086154> if there is no way to get the complete unnumbered icon or visit the **Image stacking** section below.
+6. Use the **Magic Wand** again to select the transparent background, press **Ctrl + I** followed by **Ctrl + Shift + X** to crop the image to size
+.
+https://youtu.be/9oiHOuCO89U
+.
+> **Image stacking**
+.tag:stack
+If you're trying to emoji-fy a **stackble** item (check if icon is available on wiki first) and cannot get a whole icon due to the number partially covering it, you can stack multiple incomplete images (made by removing different numbers) to form a complete image.
+
+⬥ The most efficient quantities you can use for stacking are not yet known, but generally:
+    • Items without varying icons based on quantity (e.g. teleport tabs), use quantities 1, 7 and 9.
+    • Items with varying icons throughout numbers 1-5 (e.g. bakiriminel bolts), use quantities 11, 44, 77 and 99.
+    • Items with varying icons throughout 1-1000 (e.g. congealed blood), use numbers 1111, 2222, 7777 and 9999.
+
+.
+**Stacking with the script**
+1. Save an image consisting multiple inventories with different quantities of the same item(s) you want stacked.
+2. Run **"Make icon.py"** to generate the incomplete emojis.
+3. Create respective folders starting with "stack" followed by the item name and sort the incomplete emojis into their respective folders.
+4. Run **"Stack.py"** to create the stacked icons.
+.
+https://youtu.be/MCmgf2WiOeY
+.
+**Manual stacking**
+1. Have images consisting different quantities of the item(s) you want stacked open in different windows.
+2. Carry out removal of background, shadows, and quantities.
+3. Paste the incomplete emojis **onto different layers** and merge them to get the complete emoji(s).
+.
+https://youtu.be/yM61GooZZco
+.
+> **Known issues**
+.tag:issues
+⬥ Currently, there is not a standardised method for auras and other icons (e.g. buffs, debuffs).
+⬥ If your inventory slots (from the banking interface) are not completely uniform, the script will not be able to recognise them as inventory slots.
+⬥ The script uses the complete frames of the inventory slot to identify them: <https://imgur.com/CCfr7dG>, <https://imgur.com/ypnZCL3>.
+    • If an item has its shadow and/or outline invading the inventory slot, the frame will not be recognised and the item will not be extracted.
+Examples:
+.
+.img:https://img.pvme.io/images/MmKQxc25gA.png
+.
+> **Submitting completed icons**
+.tag:submit
+**Preset icons** - Upload the icon to Imgur, click "Copy Link" to get the item link, and fill in this template for each item to submit via pasting it to <#1096801858535833602>:
+```
+name:
+image:
+slot:
+label:
+breakdownNotes:
+wikiLink:
+
+```
+Fields explanations:
+⬥ `name:` The item name as displayed **on the RSWiki**.
+⬥ `image:` The raw Imgur link.
+⬥ `slot:` Numbers 0 to 13 which decides where the item can be equipped.
+INVENTORY = 0
+HELM = 1
+BODY = 2
+LEGS = 3
+MH_WEAPON = 4
+OH_WEAPON = 5
+GLOVES = 6
+BOOTS = 7
+AURA = 8
+AMMO = 9
+NECKLACE = 10
+RING = 11
+CAPE = 12
+POCKET = 13
+⬥ `label:` The `name:` of the item with all lower-case and no spacing OR an acceptable abbreviation.
+⬥ `breakdownNotes:` Default text that appears in item breakdown when an item is picked. This is usually left blank.
+⬥ `wikiLink:` Link to the item on RSWiki.
+    • Make sure the link is valid.
+
+.
+Examples:
+```
+name: Abyssal scourge
+image: https://imgur.com/Moh9yya
+slot: 4
+label: abyssalscourge
+breakdownNotes:
+wikiLink: https://runescape.wiki/w/Abyssal_scourge
+```
+```
+name: Black stone arrows
+image: https://imgur.com/uBbMQoy
+slot: 9
+label: bsa100
+breakdownNotes:
+wikiLink: https://runescape.wiki/w/Black_stone_arrows
+```
+**Emojis** - Once done creating the emoji(s), use **Ctrl + A** + **Ctrl + C** to copy the cropped image (if made manually) or drag and drop saved emojis into <#1096801858535833602> along with the item names.
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Icon formatting]($linkmsg_format$)\n⬥ [RSWiki icons]($linkmsg_wikiicon$)\n⬥ [Icon creation (script)]($linkmsg_script$)\n⬥ [Icon creation (manual)]($linkmsg_fullmanual$)\n⬥ [Image stacking]($linkmsg_stack$)\n⬥ [Known issues]($linkmsg_issues$)\n⬥ [Submitting completed icons]($linkmsg_submit$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
