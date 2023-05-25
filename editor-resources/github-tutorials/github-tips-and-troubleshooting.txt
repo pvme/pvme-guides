@@ -29,14 +29,14 @@ This guide will go over an assortment of common issues you may encounter while w
 ⬥ Checks failing can be avoided by using the **web editor** (<https://pvme.github.io/guide-editor/>) to edit your content before adding it to GitHub, as it runs the same style checks that pull requests use. For more information, check out <#1020843193509629972>.
 ⬥ If your pull request fails due to a check, it will inform you. Click on **Details** on the check to see why it has failed, and what you can do to fix it.
 ⬥ Consider the following example:
-.img:https://i.imgur.com/ZxizF57.png
+.img:https://img.pvme.io/images/ZxizF57.png
 .
-.img:https://i.imgur.com/qdZjUvf.png
+.img:https://img.pvme.io/images/qdZjUvf.png
 ⬥ The bottom red square tells you what the error is. In this case, the message starting at line 108 and ending at line 139 has too many characters.
 ⬥ To fix this, click the *Edit File* option in the following image, to open up editing again to make appropriate changes.
-.img:https://i.imgur.com/WHpF7Wq.png
+.img:https://img.pvme.io/images/WHpF7Wq.png
 ⬥ In this case, we break the single large message into 2 separate messages by hitting `Enter`, entering a single period `.` and hitting `Enter` again. Then commit these changes, and it will update the pull request.
-.img:https://i.imgur.com/fTIpYv5.png
+.img:https://img.pvme.io/images/fTIpYv5.png
 ⬥ Your Pull Request should now be error-free once the checks complete again.
 
 .
@@ -50,9 +50,9 @@ This guide will go over an assortment of common issues you may encounter while w
 **__Your Branch Is 'X' Commits Behind Master__**
 .tag:commitdiff
 ⬥ When you make a new fork, your fork will look like this:
-.img:https://i.imgur.com/j3kEy55.png
+.img:https://img.pvme.io/images/j3kEy55.png
 ⬥ However, after some time it may look something like this:
-.img:https://i.imgur.com/ztJQ0wj.png
+.img:https://img.pvme.io/images/ztJQ0wj.png
 ⬥ This is because changes might have happened to the main repository (`'X' commits behind`) and it is no longer longer in-sync with your copy. This may cause issues when making a pull request.
 ⬥ To resolved this, **the simplest solution is to delete your fork, and make a new fork of the PvME repository**.
 ⬥ This will give you a fresh, up-to-date copy, and get rid of any lingering issues.
@@ -69,7 +69,7 @@ This guide will go over an assortment of common issues you may encounter while w
 *Note: It is assumed you have already forked the repository.*
 
 ⬥ Consider the scenario: a pull request has been made, with changes to *one* file, visible in the *Files Changed* tab.
-.img:https://i.imgur.com/kxvu0O2.png
+.img:https://img.pvme.io/images/kxvu0O2.png
 
 .
 **__Modify an Existing File in the Pull Request__**
@@ -77,11 +77,11 @@ This guide will go over an assortment of common issues you may encounter while w
 To make an a change to a file that already contains a change, *in the same pull request*, do the following.
 ⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
 ⬥ Go to the top right corner of the file you wish to update, click the three dots, then *Edit File*.
-.img:https://i.imgur.com/h2i3Rkb.jpg
+.img:https://img.pvme.io/images/h2i3Rkb.jpg
 ⬥ Make whatever additional changes you like, and then *Commit directly to the xxx branch*.
-.img:https://i.imgur.com/GbkYLNi.png
+.img:https://img.pvme.io/images/GbkYLNi.png
 ⬥ Navigate back to your Pull Request, and the additional change should be included!
-.img:https://i.imgur.com/OxtPQXE.png
+.img:https://img.pvme.io/images/OxtPQXE.png
 
 .
 **__Add a New File to the Pull Request__**
@@ -90,13 +90,13 @@ To edit a different file, and include it in the same pull request, do as follows
 ⬥ Navigate to your Pull Request and click on the name of your branch, here:
     • You are now looking at the main directory of your own branch, where all files will reside.
 .
-.img:https://i.imgur.com/ylNa85w.png
+.img:https://img.pvme.io/images/ylNa85w.png
 ⬥ Locate the additional file you would like to change, open it, and then click the edit icon.
-.img:https://i.imgur.com/kSt0Xpa.png
+.img:https://img.pvme.io/images/kSt0Xpa.png
 ⬥ Make whatever changes you like, and then *Commit directly to the xxx branch*.
-.img:https://i.imgur.com/sa6tPYh.png
+.img:https://img.pvme.io/images/sa6tPYh.png
 ⬥ Navigate back to your Pull Request, and the additional file should be included!
-.img:https://i.imgur.com/UKnKrfs.png
+.img:https://img.pvme.io/images/UKnKrfs.png
 
 .
 > **__Helpful Tips__**
@@ -108,25 +108,25 @@ To edit a different file, and include it in the same pull request, do as follows
 ⬥ Sometimes, especially for larger changes, it can be helpful to use *Split View* instead.
 ⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
     • By default, you will see unified changes, as shown below:
-.img:https://i.imgur.com/KqtUExJ.png
+.img:https://img.pvme.io/images/KqtUExJ.png
 ⬥ Click the settings icon, select *Split*, and then *Apply and reload*.
-.img:https://i.imgur.com/mqNCNlT.png
+.img:https://img.pvme.io/images/mqNCNlT.png
 ⬥ Congratulations! From now on, your changes will be shown in *Split View*.
     • You can reverse the process to go back to a unified view at any time, if you prefer.
-.img:https://i.imgur.com/IAz8bya.png
+.img:https://img.pvme.io/images/IAz8bya.png
 
 .
 __**Bulk Replacing**__
 ⬥ To bulk replace, either navigate to the **Edit** menu then select **Replace in Files** or use the Ctrl+Shift+H keybind to do the same.
-.img:https://i.imgur.com/avBqR0i.png
+.img:https://img.pvme.io/images/avBqR0i.png
 ⬥ Doing this will open the **Search/Replace** side menu.
-.img:https://i.imgur.com/bLoBXsg.png
+.img:https://img.pvme.io/images/bLoBXsg.png
 ⬥ The search box is where you enter what you want to replace and the replace box is where you enter what you want to replace it with.
-.img:https://i.imgur.com/1aRteP5.png
+.img:https://img.pvme.io/images/1aRteP5.png
 ⬥ However, most of these results aren't what we're looking for so can be dismissed by hovering over the number to the right and clicking the X to dismiss the whole file or the individual Xs below to dismiss individual matches.
-.img:https://i.imgur.com/acVwcaR.png
+.img:https://img.pvme.io/images/acVwcaR.png
 ⬥ When you find something you want to replace. you can either right click and click Replace to do it one at a time or you can click the icon to the left of the X to replace all matches in a file.
-.img:https://i.imgur.com/wolcMdJ.png
+.img:https://img.pvme.io/images/wolcMdJ.png
 
 .
 {
