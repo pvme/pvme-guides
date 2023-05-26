@@ -5,7 +5,7 @@
 > __**Introduction**__
 *Note: a **Table of Contents** can be found in the pins.*
 
-Raksha is a dinosaur dubbed the "Shadow Colossus" located on Anachronia. Raksha can be fought either solo or duo, with linear hp scaling for duo mode. The drop rates for duo are also exactly the same as solo.
+Raksha is a dinosaur dubbed the "Shadow Colossus" located on Anachronia. Raksha can be fought either solo or duo, with linear hp scaling for duo mode. The drop rates for duo are also the same as solo.
 
 Each Raksha kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B606$, with <:coins:698816156961603654> $data_pvme:Bosses!E606$ of that coming from commons. Advanced players can get up to $data_pvme:Bosses!B609$ kph, earning on average $data_pvme:Bosses!C609$ gp/hr.
 
@@ -13,50 +13,40 @@ This guide assumes you are already familiar with Raksha's mechanics, phasing, an
 
 .
 > **__Melee Strategy__ (Courtesy of <@185499212291506176> & <@443790405318737957>)**
+This is an advanced rotation assuming best-in-slot melee gear.
+
+.
+> **__Presets__**
 .tag:melee
 .
-This is an advanced rotation assuming near best-in-slot melee gear.
-
-.
-**__Preset__**
-⬥ <:kalphitedefender:643151141382651907> for <:divert:787904334377648130>
-⬥ <:eofred:780401412839833601> with Dragon Claws <:dragonclaw:779048041088024606>
-⬥ <:eofor:745279787471470713> with Ek-ZekKil <:zekkil:903244090953588787>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-(Runes for <:Veng:543478434953822208> <:disrupt:535614336207552523> with <:borrowedpower:657248051190300682> <:smokecloud:856635090641879050>)
-.
-.img:https://img.pvme.io/images/O8FBKPE.png
-.
-***Note**: For a full breakdown of the preset, check out: <https://img.pvme.io/images/MoeOVor>*
-
-⬥ Use a ripper demon with scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>
-⬥ If going for Poolskips/GM role timer, change the following from the preset:
-    • Remove:
-        - Some food <:supergrest:690140078407680059> <:blueblubber:689530593742291033> (keep 1 of each).
-        - <:lanispear:839903893177106454> and <:Laceration:602581988599398400>
-    • Replace the above with the following:
-        - <:pernixsquiver:902209626450296892> **equipped** with <:HydrixBakri:550834403136503822> <:deathsporearrows:900758234527301642>
-        - <:ecb:615618531937222657> with C4E2 P6As1.
-        - Bow <:bolg:994189289623662702> <:sgb:626466665848242186> with C4 and As for pre-build.
-        - <:dummy:656844963522281473> to place in instance.
-        - <:lunging:1009423860875153559> offhand for <:abyssalscourge:947871842469834832> <:dismember:535532879376023572>
-
+{
+  "embed": {
+    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__BIS Melee__",
+    		"value":"⬥ [KPH preset](https://pvme.github.io/preset-maker/#/UuTm30RX9Rvi8wJWLl4g)",
+    		"inline":true
+    	},
+    	{
+    		"name":"__BIS Melee__",
+    		"value":"⬥ [Speeds preset](https://pvme.github.io/preset-maker/#/wgj3YplKNVoWDYmuRsUg)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
 .
 **__Assumptions/Details__**
 ⬥ All bleeds are applied using <:mwspear:694566917456789554> unless stated otherwise.
 ⬥ Stalling and releasing melee abilities below is done by clicking the ability and letting your character run in naturally to release it.
-⬥ <:Veng:543478434953822208> is used opportunisitcally in rotations although not explicitly stated.
+⬥ <:Veng:543478434953822208> is used opportunistically in rotations although not explicitly stated.
 ⬥ <:escape:535541258832052231> are mostly used to dodge swipes.
 
 .
-**__Relics__**
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ <:berserkersfury:697808774106185768> Berserker's Fury
-⬥ <:fontoflife:698225967679930408> Font of Life
-
-.
-**__KPH rotation (No Poolskip)__**
+> **__KPH rotation (No Poolskip)__**
 .tag:rotation
 Use this consistent rotation for standard farming of the boss. If done properly, expect kills around 2:10.
 
@@ -69,26 +59,28 @@ Enter instance → <:surge:535533810004262912> → <:surge:535533810004262912> �
 
 .
 __Rockfall + Phase 2 + Rockfall__
-<:lengmh:883134308146098227> <:cane:535532878969438210> (last tick of <:zerk:535532854004678657>) + walk behind <:raksha:789813907706478603> → <:dismember:535532879376023572> → <:backhandflank:867678153854025779> → walked <:slaughter:535532879237873666> → <:bloodtend:513190158431158274> → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:gfury:535532879334080527> → <:overpowerigneous:959089455640215633> → 3-hit <:gflurry:535532879283879977> → <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:backhandflank:867678153854025779> + <:vulnbomb:655341074235129858>
+<:lengmh:883134308146098227> <:cane:535532878969438210> (last tick of <:zerk:535532854004678657>) + walk behind <:raksha:789813907706478603> → <:dismember:535532879376023572> → <:backhandflank:867678153854025779> → walked <:slaughter:535532879237873666> → <:bloodtend:513190158431158274> → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:destroy:535532879330148352> → 3-hit <:gflurry:535532879283879977> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:overpowerigneous:959089455640215633> + <:vulnbomb:655341074235129858> → <:deci:535532879325822986>
 
 ***Note**: Rocks should be falling during the second <:cane:535532878969438210> of the kill which should be cast on the last tick of <:zerk:535532854004678657>. <:raksha:789813907706478603> should then by walkable the tick <:slaughter:535532879237873666> is cast.*
-***Note**: If P2 is fast, delay use of <:overpowerigneous:959089455640215633> until after the 2nd Rockfall and skip the <:backhandflank:867678153854025779>*
+***Note**: If P2 is fast, only do a 2-hit <:destroy:535532879330148352> to allow for 3-hit <:gflurry:535532879283879977> for <:zerk:535532854004678657> cooldown reduction.*
 
 .
 __Phase 3__
-equip <:noxscythe:513190159341322240> <:Laceration:602581988599398400>  clear pools → equip <:vestmentsofhavocboots:994189291515285544> + <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → bleed <:assault:535532853979512842> → <:limitless:641339233638023179> + 2-hit <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:cane:535532878969438210> → <:sever:535532879577612298> + deal with Mind Poison → build
+equip <:noxscythe:513190159341322240> <:Laceration:602581988599398400>  clear pools → equip <:vestmentsofhavocboots:994189291515285544> + <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578> → bleed <:assault:535532853979512842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:deci:535532879325822986> + deal with Mind Poison → build
+
+***Note**: If you managed to maintain <:abyssalscourge:947871842469834832> stacks during P3, it is advised to <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> during Mind Poison to carry stacks over to P4.*
 
 .
 __Phase 4__
-<:anti:535541306475151390> → <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> → bleed <:gflurry:535532879283879977> + <:callfollower:933299003121078332> → <:overpowerigneous:959089455640215633> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:cane:535532878969438210> + <:escape:535541258832052231> → s<:deci:535532879325822986> → r<:deci:535532879325822986> + <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:sever:535532879577612298> → <:havocgop:994920849117282365> → <:bloodtend:513190158431158274> + <:escape:535541258832052231> → s<:dismember:535532879376023572> → r<:dismember:535532879376023572> + <:cleave:535532878616985610> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:deci:535532879325822986> → <:sever:535532879577612298> → equip <:vestmentsofhavochood:994189297659940904> + <:havocgop:994920849117282365> → <:gfury:535532879334080527> + off
+<:anti:535541306475151390> → <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> → bleed <:gflurry:535532879283879977> + <:callfollower:933299003121078332> → <:havocgop:994920849117282365> → <:cane:535532878969438210> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:746403211908481184> + <:escape:535541258832052231> → s<:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → r<:abyssalscourge:947871842469834832> <:dismember:535532879376023572> + <:deci:535532879325822986> → <:havocgop:994920849117282365> → <:bloodtendrils:535532854327640064> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:spec:537340400273195028> + <:escape:535541258832052231> → s<:gfury:535532879334080527> → r<:gfury:535532879334080527> + <:overpowerigneous:959089455640215633> → <:havocgop:994920849117282365> → <:dismember:535532879376023572> → <:deci:535532879325822986> + <:vestmentsofhavochood:994189297659940904> → <:gfury:535532879334080527> + off
 
 .
-<:zerk:535532854004678657> + quickly collect Anima → <:divert:787904334377648130> → <:bd:535532854281764884> to area with most Anima → equip <:jawsoftheabyss:947871842595639306> + <:anti:535541306475151390> → <:innerpower:1006128091422265454> + <:gbarge:535532879250456578> → bleed <:assault:535532853979512842> + <:adrenrenewal:736298121704767538> → <:lengmh:883134308146098227> <:cane:535532878969438210> + <:disrupt:535614336207552523> → <:overpowerigneous:959089455640215633> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184>
+<:zerk:535532854004678657> + quickly collect Anima → <:divert:787904334377648130> → <:bd:535532854281764884> to area with most Anima → equip <:jawsoftheabyss:947871842595639306> + <:anti:535541306475151390> → <:innerpower:1006128091422265454> + <:gbarge:535532879250456578> → bleed <:assault:535532853979512842> + <:adrenrenewal:736298121704767538> → <:lengmh:883134308146098227> <:cane:535532878969438210> + <:disrupt:535614336207552523> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184> + <:escape:535541258832052231>
 
-***Note**: Use <:adrenrenewal:736298121704767538> as soon as it's off cooldown, usually during <:assault:535532853979512842>. If boss has <50k HP after <:cane:535532878969438210>, skip <:overpowerigneous:959089455640215633> and use <:dragonclaw:779048041088024606> <:eofspec:746403211908481184>*
+***Note**: Use <:adrenrenewal:736298121704767538> as soon as it's off cooldown, usually during <:assault:535532853979512842>. If boss is not dead after <:escape:535541258832052231>, follow up with s<:gfury:535532879334080527> → r<:gfury:535532879334080527> + <:dragonclaw:779048041088024606> <:eofspec:746403211908481184>*
 
 .
-__**Speeds rotation (Poolskip)**__
+> __**Speeds rotation (Poolskip)**__
 .tag:poolskip
 Use this rotation only if going for speeds. You may need to improvise and fill GCDs with good basics if unlucky on adrenaline (<:gfury:535532879334080527> is best under <:critbuff:943518665842757644>). Replace <:gflurry:535532879283879977> with <:lengmh:883134308146098227> <:destroy:535532879330148352> when if willing to swap to <:lengmh:883134308146098227>  when using <:cane:535532878969438210> and <:destroy:535532879330148352>
 
@@ -130,9 +122,9 @@ Spam click run right and <:gbarge:535532879250456578> for a chance to keep <:aby
 <https://img.pvme.io/images/TFcaDau.png> - Phases 3 and 4
 
 .
-**__Video Examples__**
+> **__Video Examples__**
 .tag:example
-<https://youtu.be/_Vpf1QTL4BE> - 2:08 + 2:09 + 2:10 Standard Kills by <@185499212291506176>
+<https://youtu.be/BNrLlp5dLUY> - 2:07 + 2:09 + 2:10 Standard Kills by <@185499212291506176>
 <https://youtu.be/Ww3IWTvALmU> - 1:43 Speed Kill by <@443790405318737957>
 <https://youtu.be/hX7rrLpH2aQ> - 2:38 + 2:41 Standard Kills pre-Zamorak by <@425520655920791553>
 
