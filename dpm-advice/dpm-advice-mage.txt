@@ -221,7 +221,6 @@ __**What Autocast to Use**__
 ⬥ To autocast a spell, right-click it in your spellbook and select 'autocast'.
 ⬥ Generally you should be autocasting Exsanguinate <:exsanguinate:856635090745950258>.
     • If you plan to use Tsunami <:tsunami:535533809995874304> then *switch* to Incite Fear <:incitefear:856635090783567902> until 5 stacks, then switch back.
-    • If using an FSOA <:fsoa:869284271595069451> then using Blood spells <:bloodbarrage:537338981747261446> to autocast for healing may be useful.
 ⬥ If the City of Senntisten quest is not completed, use Blood Blitz/Barrage <:bloodblitz:535616247807868938>/ <:bloodbarrage:537338981747261446>
     • Aim to finish this quest ASAP.
 ⬥ If on the standard/normal spellbook, use Air Surge <:AirSurge:543465115870035999> (cheapest Surge spell).
@@ -563,79 +562,7 @@ __**How It Works**__
 .
 > __**Fractured Staff of Armadyl**__
 .tag:fsoa
-__**How It Works**__
-⬥ The FSOA's immensely powerful special attack, *Instability*, costs 50% adrenaline, has a 60 second cooldown, and has two effects:
-    • An initial hit of 50%-200% ability damage.
-    • **Fires an auto-attack for every critical hit on the primary target**.
-        - The auto is cast on the tick the critical hit lands.
-.
-⬥ **Auto-attacks released by <:soa:869284271595069451> <:spec:537340400273195028> can also crit**. This can cause *recursive critical hits*.
-    • Recursive auto-attacks will only occur if the critical hit lands on the primary target.
-        - e.g. <:bloodbarrage:537338981747261446> doing crits on additional targets will not generate autos.
-⬥ The damage of <:fsoa:869284271595069451> <:spec:537340400273195028> auto attacks is determined by the equipped weapon when the auto is fired.
-    • 2H weapon should be preferred over dual-wields for this reason.
-⬥ Fired auto-attacks will *not* interrupt channelled abilities, however they will still put traditional auto attacks on cooldown.
-    • **In other words, you will generally be unable to 4TAA while <:fsoa:869284271595069451> <:spec:537340400273195028> is active.**
-.
-⬥ <:fsoa:869284271595069451> <:spec:537340400273195028> has excellent synergy with Tsunami <:tsunami:535533809995874304> due to the critical hit adrenaline gain buff.
-    • This results in *incredible* adrenaline gains.
-.
-⬥ Where possible, generally you will overlap <:fsoa:869284271595069451> <:spec:537340400273195028> and <:sunshine:994921119381463070> to get the most out of both abilities.
-
-.
-__**Key Considerations**__
-⬥ **An effective <:fsoa:869284271595069451> rotation relies on landing critical hits with 2H equipped as often and reliably as possible.**
-⬥ This makes Biting 4 <:biting4:712073087809617931>, Erethdor's Grimoire <:grim:568262896375824385>, and a Reaver's Ring <:reaverring:839903943018283050> essential to success.
-    • Additionally, a Kal'gerion demon familiar <:kalgpouch:921410226484301925> and Crit-i-Kal scrolls <:kalgscroll:841409588954923049> should also be used when possible.
-.
-⬥ **The Channeller's Ring <:channellerring:839903943404027914> is generally considered *at best* a marginal gain for Armadyl Battlestaff <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> only.** It is not necessary or recommended at its current price.
-    • It does not affect the crit chance of autos produced by channelled abilities.
-    • Generally, it is considered very low priority.
-    • Reaver's Ring <:reaverring:839903943018283050> is significantly better than Channeller's Ring <:channellerring:839903943404027914> if only one is camped.
-*Note: Use the `!hitchance` command to calculate to ensure your hitchance is at 100% with <:reaverring:839903943018283050>.*
-.
-⬥ Care should be taken to avoid equipping DW <:praeswand:643166769518739477> <:Core:625304432581672961> after strong abilities such as <:omnipowerigneous:959089455560540200> or channels like <:asphyx:535533833072672778> / <:smoketendrils:536257336130404372> to avoid firing MH autos instead of 2H autos, *even if you cast the ability with 2H*.
-⬥ **Generally, Greater Concentrated Blast <:gconc:869285393223254107> is the only dual-wield ability worth using under <:fsoa:869284271595069451> <:spec:537340400273195028>**.
-    • Using <:gconc:869285393223254107> → ( DW Ability + equip <:soa:869284271595069451> ) in that order, same-tick, grants the <:gconc:869285393223254107> crit buff to the ability after it, and still allows hit 3 of <:gconc:869285393223254107> and the subsequent ability to fire 2H autos if they crit.
-
-.
-__**Basic Example Rotation**__
-*Note: Many variations of FSOA rotations exist, and crit RNG is involved. This is simply a starting point.*
-.
-⬥ The following assumptions are made:
-    • Tsunami <:tsunami:535533809995874304> is cast with 5 stacks of Incite Fear <:incitefear:856635090783567902>
-    • Manual spellcasting enabled, therefore <:bloodbarrage:537338981747261446> is simply used to 4TAA.
-        - AoE autos generate adrenaline 1t late, so when using <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304>, the auto <:bloodbarrage:537338981747261446> will grant 10% adrenaline if it crits.
-    • Igneous Kal-Mej <:igneouskalmej:902209626408382494> unlocked.
-    • Conservation of Energy relic <:conservationofenergy:697808773711921195> active.
-    • Ring of Vigour <:vigour:615613235512737792> is used (or its passive effect unlocked).
-
-⬥ **Once <:fsoa:869284271595069451> <:spec:537340400273195028> is active, preferably use 2H for all abilities**.
-    • Greater Concentrated Blast <:gconc:869285393223254107> can be used to build adren mid-spec, keeping in mind the limitations specified earlier.
-    • Smoke Tendrils <:smoketendrils:536257336130404372> will always crit each of its 4 hits, and is one of the strongest abilities under <:fsoa:869284271595069451> <:spec:537340400273195028>
-        - This means it will fire at least 4 auto-attacks and generate a lots of guaranteed adrenaline (due to Tsunami crit buff).
-
-⬥ Sample rotation:
-.
-<:sunshine:994921119381463070> <:adrenrenewal:736298121704767538> → <:smokecloud:856635090641879050> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:wrack:856662355952795658> → <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → <:soa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wm:535533809978966037> ★ → <:asphyx:535533833072672778> (2 hit) → <:gconc:869285393223254107> → <:omni:535533809664262179> ★ → (<:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> if high adren) <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → improv. → <:wm:535533809978966037> → <:asphyx:535533833072672778> (2 hit)
-
-*Note: ★ = cast ability with DW, and then equip FSOA, in that order, on the same tick.*
-
-.
-__**Spell Swapping**__
-⬥ Swapping auto-cast spells during an FSOA rotation can provide situational benefits. Swapping will generally occur after 5 Incite Fear <:incitefear:856635090783567902> stacks are achieved for Tsunami <:tsunami:535533809995874304>
-    • Swapping to **Blood Barrage** <:bloodbarrage:537338981747261446>, especially in AOE situations, can provide an immense amount of healing. Its fast hit timing can also mean additional auto-attacks fitting within buffs from <:sunshine:994921119381463070> , <:tsunami:535533809995874304> , or <:soa:869284271595069451> <:spec:537340400273195028> itself.
-    • Camping **Incite Fear** <:incitefear:856635090783567902> allows Frost Surge procs during <:soa:869284271595069451> <:spec:537340400273195028>, which have a chance to crit and subsequently fire auto-attacks
-    • Swapping to **Exsanguinate** <:exsanguinate:856635090745950258> allows for abilities to build stacks that can benefit any usages of <:gconc:869285393223254107> under <:soa:869284271595069451> <:spec:537340400273195028>
-        - It may also grant more efficient access to <:wrackandruin:856662355912032256> after the <:fsoa:869284271595069451> <:spec:537340400273195028> is finished.
-
-.
-**__Supplemental Video Guide__ (Courtesy of <@532347271572881448>)**
-This video contains good information with respect to the fractured Staff of Armadyl <:fsoa:869284271595069451> and can be a helpful reference.
-
-*Please note that this video was made before the changes that coupled the cooldowns of Greater Concentrated Blast and Sonic Wave - replace any instance of Sonic Wave with Wrack.*
-
-https://youtu.be/LQq4D8VB_Tg
+**WIP due to the FSOA <:fsoa:869284271595069451> changes with June 5th Update**
 
 .
 > __**Seren Godbow**__ <:sgb:626466665848242186>
