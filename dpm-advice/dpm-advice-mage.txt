@@ -562,7 +562,54 @@ __**How It Works**__
 .
 > __**Fractured Staff of Armadyl**__
 .tag:fsoa
-**WIP due to the FSOA <:fsoa:869284271595069451> changes with June 5th Update**
+⬥ The FSOA's immensely powerful special attack, *Instability*, costs 50% adrenaline, has a 60 second cooldown, and has two effects:
+    • An initial hit of 49.6%-200% ability damage.
+    • Fires a **Time Strike for every critical hit** on the primary target.
+        - They are **ability damage**; their strength is proportional to the tier of equipped weapon.
+        - They are cast on the tick the critical hit **lands**.
+        - They **can** themselves crit but will **not** fire another Time Strike if they do (no recursion).
+        - They **do not** incur auto-attack cooldown. This means 4TAA **is possible** during <:fsoa:869284271595069451> <:spec:537340400273195028>
+        - They **are boosted by** <:exsanguinate:856635090745950258>
+
+.
+⬥ <:fsoa:869284271595069451> <:spec:537340400273195028> has excellent synergy with Tsunami <:tsunami:535533809995874304> due to the critical hit adrenaline gain buff.
+
+⬥ Where possible, you will overlap <:sunshine:994921119381463070> + <:tsunami:535533809995874304> <:critbuff:943518665842757644> + <:fsoa:869284271595069451> <:spec:537340400273195028> to get the most out of each effect.
+
+.
+__**Key Considerations**__
+⬥ An effective <:fsoa:869284271595069451> rotation relies on **landing critical hits as often and reliably as possible.**
+⬥ This makes Biting 4 <:biting4:712073087809617931>, Erethdor's Grimoire <:grim:568262896375824385>, and either a Reaver's Ring <:reaverring:839903943018283050> or Channeller's Ring <:channellerring:839903943404027914> essential to success.
+    • Additionally, a Kal'gerion demon familiar <:kalgpouch:921410226484301925> and Crit-i-Kal scrolls <:kalgscroll:841409588954923049> should also be used when possible.
+
+*Note: Use the `!hitchance` command to calculate to ensure your hitchance is at 100% with <:reaverring:839903943018283050>.*
+
+.
+__**Basic Example Rotation**__
+*Note: Many variations of FSOA rotations exist, and crit RNG is involved. This is simply a starting point.*
+
+The following assumptions are made:
+
+⬥ Igneous Kal-Mej <:igneouskalmej:902209626408382494> equipped.
+⬥ Conservation of Energy relic <:conservationofenergy:697808773711921195> active.
+⬥ Ring of Vigour <:vigour:615613235512737792> used (or its passive effect unlocked).
+⬥ Manual spellcasting enabled, therefore <:bloodbarrage:537338981747261446> is simply a 4TAA.
+    • AoE autos generate adrenaline late, therefore <:bloodbarrage:537338981747261446> will grant 10% adrenaline if it crits.
+
+.
+(autocast <:incitefear:856635090783567902>) <:sunshine:994921119381463070> <:adrenrenewal:736298121704767538> → <:smokecloud:856635090641879050> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:wrack:856662355952795658> → <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → (autocast <:exsanguinate:856635090745950258>) <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → (improvise) → <:wm:535533809978966037> → <:asphyx:535533833072672778>
+
+.
+When improvising, focus on using <:gconc:869285393223254107> as often as possible. Then, fill with many <:gstaff:513203008608141314> <:eofspec:746403211908481184> and aim to fit one each of: <:omni:535533809664262179> + <:smoketendrils:536257336130404372> + <:deto:535533833358016512>
+
+**__Spell-Swapping During FSOA__**
+Once <:fsoa:869284271595069451> <:spec:537340400273195028> has been activated, and desired <:incitefear:856635090783567902> stacks are reached, it is advisable to switch spells considering the following:
+
+⬥ Time Strikes **are boosted by** Exsanguinate <:exsanguinate:856635090745950258>
+⬥ Frost Surge from Incite Fear <:incitefear:856635090783567902> can proc once per 12s and **can crit**
+⬥ Ruby Aurora <:rubyaurora:574292444791963659> can provide a damage buff to nearby players in group content
+
+With the above considerations, it is recommended to start with <:incitefear:856635090783567902> to build sufficient stacks for discounted <:tsunami:535533809995874304>, then switch to <:exsanguinate:856635090745950258> in order to buff Time Strike damage. **If willing to put in higher effort**, it is most optimal to switch back to <:incitefear:856635090783567902> once every 12s so as to proc Frost Surge, before reverting to <:exsanguinate:856635090745950258>. In group content, weave in <:rubyaurora:574292444791963659> as desired.
 
 .
 > __**Seren Godbow**__ <:sgb:626466665848242186>
@@ -601,9 +648,9 @@ __**How It Works**__
 > __**Armadyl Battlestaff (ABS) EoF**__ <:armadylbattlestaff:881962727705280512> <:eofyellow:780401412902223892>
 .tag:abseof
 __**How It Works**__
-⬥ The special attack of the Armadyl Battlestaff (ABS) <:armadylbattlestaff:881962727705280512>, *Tempest of Armadyl*, is a channel that lasts 5t/3s, dealing 18-90% ability damage per tick, with the Channeler's Ring <:channellerring:839903943404027914> boosting this further.
-⬥ **It is exclusively used in an EoF <:armadylbattlestaff:881962727705280512> <:eofyellow:780401412902223892> during FSOA special attack <:fsoa:869284271595069451> <:spec:537340400273195028>.**
-    • It is used to try and generate rapid crits, as an adrenaline dump, and once other strong thresholds have been exhausted.
+⬥ The special attack of the Armadyl Battlestaff (ABS) <:armadylbattlestaff:881962727705280512>, *Tempest of Armadyl*, is a channel that lasts 5t/3s, dealing 18-90% ability damage per tick.
+⬥ Historically, it was exclusively used in an EoF <:armadylbattlestaff:881962727705280512> <:eofyellow:780401412902223892> during FSOA special attack <:fsoa:869284271595069451> <:spec:537340400273195028>.
+    • **However, after the FSOA rework update in June 2023, this is no longer recommended.**
 
 .
 > **__Defensive Autos__**
