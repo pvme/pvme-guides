@@ -122,11 +122,11 @@ __**Bulleted Lists**__
 ⬥ All bullet points contain 1 space between the bullet and the first word.
 ⬥ Format main points with the `⬥` bullet with no indentation.
     • Format all subpoints using the `•` bullet indented by 4 spaces.
-        - Format sub-subpoints using the  `-` bullet indented by 8 spaces.
+        ⬩ Format sub-subpoints using the  `⬩` bullet indented by 8 spaces.
 __**Alphanumerical Lists**__
 1. Format main points like this:  `appropriate # followed by a period` with no indentation.
     a. Format subpoints like this:  `appropriate letter followed by a period` indented by 4 spaces.
-        - Format subsubpoints like this:  `-` indented by 8 spaces.
+        ⬩ Format subsubpoints like this:  `⬩` indented by 8 spaces.
     b. __**Bold and underline lists if they ever act as titles**__.
 .
 .img:https://img.pvme.io/images/qmLCbAE.png
@@ -189,8 +189,8 @@ __**Styling Explanation**__
 .
 ⬥ Combining all of these, we can put together an example preset like the following.
     • Note: there are two variations provided here.
-        - The first variation can be used when there are multiple presets to be displayed.
-        - The second variation can be used when there is only a single preset to be displayed.
+        ⬩ The first variation can be used when there are multiple presets to be displayed.
+        ⬩ The second variation can be used when there is only a single preset to be displayed.
 
 > **__Presets__**
 .
@@ -295,8 +295,8 @@ __**Rotation/Ability Formatting**__
 .
 ⬥ **Use + to combine extra non-ability actions that occur on the same tick**.
     • This includes GCD surges/bladed dives, apot, vuln bombs, non-mage auto attacks, target cycle, etc.
-        - Example: <:deci:535532879325822986> + <:vulnbomb:655341074235129858> → (5taa) + <:cleave:535532878616985610>
-        - Example: <:deci:535532879325822986> + <:accel:756236265472524418> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:surge:535533810004262912>
+        ⬩ Example: <:deci:535532879325822986> + <:vulnbomb:655341074235129858> → (5taa) + <:cleave:535532878616985610>
+        ⬩ Example: <:deci:535532879325822986> + <:accel:756236265472524418> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:surge:535533810004262912>
 .
 ⬥ **Use → to separate groups of actions that occur on the same tick**.
     • Example: <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>
@@ -304,22 +304,22 @@ __**Rotation/Ability Formatting**__
 ⬥ **Denote non-ability actions in parentheses** (this does not include adrenaline potions or sigils).
 .    
     • Detonate duration
-        - <:sonicwave:1087373972443775056> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
+        ⬩ <:sonicwave:1087373972443775056> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
 .
     • Target cycle
-        - <:deto:535533833358016512> (3t) → (tc) + <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
+        ⬩ <:deto:535533833358016512> (3t) → (tc) + <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
 .
     • Channeling for unconventional durations
-        - <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (3-hit) → <:dbreath:535533833391702017>.
+        ⬩ <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (3 hit) → <:dbreath:535533833391702017>.
 .
     • Explictly specifying weapon
-        - (DW) <:bloodbarrage:537338981747261446> <:corruptblast:513190159194259467> → (2H) <:bloodbarrage:537338981747261446> <:dbreath:535533833391702017>.
+        ⬩ (DW) <:bloodbarrage:537338981747261446> <:corruptblast:513190159194259467> → (2H) <:bloodbarrage:537338981747261446> <:dbreath:535533833391702017>.
 .
     • 5 tick auto attacks
-        - <:deci:535532879325822986> → (5taa) + <:cleave:535532878616985610>
+        ⬩ <:deci:535532879325822986> → (5taa) + <:cleave:535532878616985610>
 .
     • Waiting in rotations
-        - <:devo:513190158728953857> → (wait 2t) + <:surge:535533810004262912> → <:sunshine:994921119381463070>
+        ⬩ <:devo:513190158728953857> → (wait 2t) + <:surge:535533810004262912> → <:sunshine:994921119381463070>
 ⬥ If the next action is delayed, **specify the ticks starting from the cast of the previous action**.
     • For example, the last example above casts Surge <:surge:535533810004262912> 2 ticks after <:devo:513190158728953857> - i.e. one tick before the global cooldown ends.
 .
