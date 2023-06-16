@@ -648,8 +648,8 @@ __**Arrows 2-5+**__
         ⬩ For even-sized NPCs (2x2, 4x4, etc.) this is the SW tile of their middle 2x2 region.
     • **Step 2: Find starting tile for spec**
         ⬩ Choose a tile that is `Floor(NPC Size/2)` away from its center.
-        ⬩ Player must be able to walk to this tile - if no options are acceptable, then use the NPC center instead.
-    • **Step 3: Choose 4 tiles in a 2x2 radius around chosen tile**
+        ⬩ Player must be able to walk to this tile - if no options are acceptable, then use the NPC centre instead.
+    • **Step 3: Choose 4 tiles in a 5x5 square centred at the chosen tile**
         ⬩ Arrows 2-5 will land on these tiles.
         ⬩ If a tile is already used by a previous arrow, reroll the choice up to 10 times.
     • **Step 4: Any arrows that overlap with NPC hitbox will do damage.**
@@ -657,7 +657,7 @@ __**Arrows 2-5+**__
 ⬥ **This means that the chances that Arrows 2-5 hit the target increase with the size of the target.**
     • **i.e.** on bigger targets, the minimum expected damage of <:sgb:626466665848242186> <:spec:537340400273195028> increases.
 ⬥ The following diagram visualizes this process for two example targets, 4x4 and 5x5 in size.
-.img:https://img.pvme.io/images/B1kn9o9.png
+.img:https://img.pvme.io/images/bbQ1nyf3Pu.png
 *Note: The image is just an __example__, actual results may vary due to randomness.*
 
 ⬥ The average number of targets that will hit a given NPC, based on its size is given in the following table:
