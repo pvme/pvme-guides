@@ -452,14 +452,14 @@ __**Why It's Good**__
     • **Telos**: Selectively using Ice spells at correct times with Blood spells autocast, to get better control of freeze timings.
 
 .
-> __**NPC Center vs. Coordinate**__
-.tag:npccenter
-This section covers the difference between an NPC's **center** and **coordinate** and how it impacts certain abilities when it comes to targeting and hitboxes.
+> __**NPC Centre vs. Coordinate**__
+.tag:npccentre
+This section covers the difference between an NPC's **centre** and **coordinate** and how it impacts certain abilities when it comes to targeting and hitboxes.
 .
-__**NPC Center vs. Coordinate**__
-⬥ An NPC's **center** and **coordinate** are both attributes of its position. They are *not* the same, and are both used in different scenarios to decide where exactly the 'center' of an NPC is.
-⬥ **The NPC center depends on the size of the NPC**:
-    • For odd-sized NPCs (1x1, 3x3, 5x5, etc.): it is always the **center tile**.
+__**NPC Centre vs. Coordinate**__
+⬥ An NPC's **centre** and **coordinate** are both attributes of its position. They are *not* the same, and are both used in different scenarios to decide where exactly the 'centre' of an NPC is.
+⬥ **The NPC centre depends on the size of the NPC**:
+    • For odd-sized NPCs (1x1, 3x3, 5x5, etc.): it is always the **centre tile**.
     • For even-size NPCs (2x2, 4x4, 6x6, etc.): it is always the **south-west tile in middle 2x2 tile region**.
 ⬥ **The NPC coordinate is always the south-west tile.**
 ⬥ The follow image visualizes these changes.
@@ -467,7 +467,7 @@ __**NPC Center vs. Coordinate**__
 
 .
 __**Abilities and NPC Coordinate**__
-⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'center'.
+⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
     • **Note that this is not their *hitbox*, which is the entirety of the tiles they occupy. It is simply the point from which these abilities begin to propagate.**
 ⬥ **Ranged abilities:**
     • Corruption Shot <:corruptshot:535541306294796299>
@@ -489,7 +489,7 @@ __**Abilities and NPC Coordinate**__
 .
 > __**NPC Facing and Flanking**__
 .tag:npcfacing
-*Note: For more information on boss sizes and how to calculate their NPC center and coordinate tiles, see __**NPC Center vs. Coordinate**__.*
+*Note: For more information on boss sizes and how to calculate their NPC centre and coordinate tiles, see __**NPC Centre vs. Coordinate**__.*
 This section covers how NPCs face, how it affects their movement and targeting, and its impact on Flanking Angles.
 .
 __**Facing Direction: Movement**__
@@ -510,8 +510,8 @@ __**Facing Direction: Targeting**__
 .img:https://img.pvme.io/images/BJtN9We.png
 .
 ⬥ In the above image:
-    • The center 2x2 region represents the monster's hitbox.
-    • The monster's center tile is marked by **C** (in this case, the SW tile of the middle 2x2 region since the monster is even-sized).
+    • The centre 2x2 region represents the monster's hitbox.
+    • The monster's centre tile is marked by **C** (in this case, the SW tile of the middle 2x2 region since the monster is even-sized).
     • The dark-colored tiles represent cardinal directions, and the lighter tiles are diagonal directions.
 .
 ⬥ Here is a small table of player positions vs. where the monster would face:
@@ -527,7 +527,7 @@ etc.
 __**NPC Directions and Flanking**__
 ⬥ Flanking <:flankicon:841419289755385866> requires the following conditions to be met:
     • Target is facing a particular direction.
-    • Your distance past the target's center tile *in that direction* is zero - i.e. relative to the center tile you are not further ahead than the target *in that direction*.
+    • Your distance past the target's centre tile *in that direction* is zero - i.e. relative to the centre tile you are not further ahead than the target *in that direction*.
 ⬥ If **both** the above conditions are met, then you can Flank <:flankicon:841419289755385866> the target.
 ⬥ See the following image for 2 examples of angles that you can Flank from on larger targets.
 .img:https://img.pvme.io/images/fgggN05.png
@@ -535,13 +535,13 @@ __**NPC Directions and Flanking**__
 ⬥ **Case 1: Target Facing South (Cardinal Direction)**
     • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
         ⬩ The target is facing south.
-        ⬩ The player is not further south than the target's center.
-    • i.e. **Flanking angle is the 180° region behind the target's center**.
+        ⬩ The player is not further south than the target's centre.
+    • i.e. **Flanking angle is the 180° region behind the target's centre**.
 .
 ⬥ **Case 2: Target Facing North-West (Diagonal Direction)**
     • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
         ⬩ The target is facing both north and west.
-        ⬩ Player is *only* futher north, *not* also further west, than the target's center.
+        ⬩ Player is *only* futher north, *not* also further west, than the target's centre.
     • i.e. **Flanking angle is the 270° region not including the quadrant the boss is facing**.
 ⬥ See the following image for an example of this behaviour with a 2x2 monster:
 .img:https://img.pvme.io/images/G3bGkKk.png
@@ -598,7 +598,7 @@ __**Bladed Dive**__
 ⬥ Additionally, Bladed Dive also does damage.
     • Bladed Diving onto a target will attempt to do damage in a 3x3 AoE.
     • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
-    • *This AoE is centered on around the player where they land*.
+    • *This AoE is centreed on around the player where they land*.
 
 __**Walking Abilities**__
 ⬥ Players can move while casting abilities, with some exceptions:
@@ -643,11 +643,11 @@ __**Arrows 2-5+**__
     • **Equilibrium <:eq4:712073088589627505> applies its effects on the final damage range**.
 .
 ⬥ To decide whether Arrows 2-5 hit the target, the game does the following:
-    • **Step 1: Find NPC center**
-        ⬩ This is the actual NPC center (middle tile).
+    • **Step 1: Find NPC centre**
+        ⬩ This is the actual NPC centre (middle tile).
         ⬩ For even-sized NPCs (2x2, 4x4, etc.) this is the SW tile of their middle 2x2 region.
     • **Step 2: Find starting tile for spec**
-        ⬩ Choose a tile that is `Floor(NPC Size/2)` away from its center.
+        ⬩ Choose a tile that is `Floor(NPC Size/2)` away from its centre.
         ⬩ Player must be able to walk to this tile - if no options are acceptable, then use the NPC centre instead.
     • **Step 3: Choose 4 tiles in a 5x5 square centred at the chosen tile**
         ⬩ Arrows 2-5 will land on these tiles.
@@ -678,7 +678,7 @@ __**Arrows 2-5+**__
 
 .
 __**Blocked Targets**__
-⬥ A target is considered 'blocked' when the player is unable to reach it's center tile.
+⬥ A target is considered 'blocked' when the player is unable to reach it's centre tile.
     • e.g. P4 Araxxi
 ⬥ Any NPC whose size is ≥5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
 
@@ -976,7 +976,7 @@ __**Poison Build**__
       },
       {
         "name": "__Mechanics (2/3)__",
-        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
+        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Centre vs. Coordinate]($linkmsg_npccentre$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
         "inline": true
       },
       {
