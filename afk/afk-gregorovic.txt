@@ -135,6 +135,50 @@ Action bar for <:splinteringarrows:900758234246299649>
 15 minute example with <:fularrow:971025696958853180> - <https://youtu.be/9EL4ZVv0LKg>
 
 .
+> **__AFK Magic Strategy (40-45 kph) (Courtesy of <@!645045935587721216>)__**
+.tag:intromagic
+.
+__**Explanation**__
+The AFK <:magic:689504724159823906> strategy makes use of Magic's tankiness through the use of tank armour with Animate Dead <:animatedead:856635090453135382>, while still maintaining fast kills. This method also has the advantage of having lower entry costs compared to both the <:melee:1096130867279171706> and <:range:580168050121113623> methods.
+
+.
+> __**Mandatory AFK Requirements**__
+.tag:mandmagic
+{
+  "embed": {
+    "title": "__Mandatory AFK Requirements__",
+    "description":"This setup should reliably allow you to afk Gregorovic.\nThe following are required or this method will not work:\n\n⬥ Conservation of Energy <:conservationofenergy:697808773711921195> and Persistent Rage <:persistentrage:739965637056659567>\n⬥ Perked Ganodermic or Cryptbloom armour <:ganobody:1003947805611655208><:cryptbloombody:892819107253194762>\n\u00a0\u00a0\u00a0\u00a0• <:biting4:712073087809617931> <:crack4:712073087662686249> <:crystalshield4:921410343606034443> <:absorbative4:890542428556230666> are highly recommended\n⬥  Igneous Kal-Zuk/Kal-Mej <:igneouskalzuk:902209626479685734> <:igneouskalmej:902209626408382494> for <:omnipowerigneous:959089455560540200>\n⬥ Gconc <:gconc:869285393223254107>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ T95 <:torment:583429936958930964> / T99 <:affliction:513190158468907008> curses\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Poison protection <:venomblood:841419289714229258> / <:IritSticks:690987265371144202>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Scripture of Ful <:scriptureofful:902209626412560395> or Jas <:scriptureofjas:869284342839513108>\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is on\n⬥ Stand in melee distance of spawn",
+    "color": 39423,
+    "footer": {
+      "text": "Cutting corners will result in failure"
+    }
+  }
+}
+.embed:json
+> __**Preset**__
+.tag:presetmagic
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/87pkbjoOQqKCtlcZUjuQ)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+> **__Action Bars__**
+.tag:barmagic
+.img:https://https://i.imgur.com/OQQxwY5.png
+.
+
+.
 {
   "embed": {
     "title": "__Table of Contents__",
@@ -149,6 +193,11 @@ Action bar for <:splinteringarrows:900758234246299649>
       {
 	    "name": "__AFK Strategy (Ranged)__",
         "value": "⬥ [Explanation]($linkmsg_introranged$)\n⬥ [Mandatory Requirements]($linkmsg_mandranged$)\n⬥ [Preset]($linkmsg_presetranged$)\n⬥ [Action Bars]($linkmsg_barranged$)\n⬥ [Example Kills]($linkmsg_exampleranged$)",
+		"inline": true
+      },
+      {
+	    "name": "__AFK Strategy (Magic)__",
+        "value": "⬥ [Explanation]($linkmsg_intromagic$)\n⬥ [Mandatory Requirements]($linkmsg_mandmagic$)\n⬥ [Preset]($linkmsg_presetmagic$)\n⬥ [Action Bars]($linkmsg_barmagic$)",
 		"inline": true
       }
     ]
