@@ -96,11 +96,14 @@ Autos are separate from abilities and also have their own cooldown system separa
     • <:zerk:535532854004678657>, <:sunshine:994921119381463070>, <:deathsswift:994921434633744455>, <:meta:535533811304497183>, <:zgs:626465964325601290> <:spec:537340400273195028>, <:annihilation:796989662983094275> <:spec:537340400273195028>, <:lengmh:883134308146098227> <:spec:537340400273195028>, <:cade:535541306353778689>, <:nat:535541258131865633>, <:Reprisal:513190159462694912>, <:Siphon:553050198012854275>, <:devo:513190158728953857>, <:revenge:535541259645878302>, <:reflect:535541258786177064>, <:divert:787904334377648130>, <:res:535541258844635148>, <:anti:535541306475151390>, <:voke:535541259465392143>, <:freedom:535541258240786434>, <:prep:535541258546970624>, (non-targeted) <:magmatempesttarget:924741973858996284>, (non-target) <:bd:535532854281764884>
         ⬩ <:zgs:626465964325601290> / <:lengmh:883134308146098227> <:spec:537340400273195028> drags you in to attack, resetting <:gbarge:535532879250456578> timer if not \"offing\" after
         ⬩ (DW) <:freedom:535541258240786434> always gives an OH auto with it
+.
 ⬥ **Unexpected abilities that incur cooldown oddly:**
     • *These will be elaborated on in the next section*
     • (fastest) <:tsunami:535533809995874304> / <:omni:535533809664262179> / <:overpower:535532879334080517> - incur 5t instead of 4t cooldown
     • <:shadowtend:642713547142332416> - if cast t0, incurs cooldown on t3 (if fastest <:shadowtend:642713547142332416>) or t2 (otherwise)
     • <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> - if cast in combat, adds 2t to auto cooldown
+    • <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> - if cast in combat, adds 2t to auto cooldown
+        ⬩ Also, while <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> is active, autos do not give adrenaline
     • <:deto:535533833358016512> - incurs cooldown on release
     • <:snipe:535541258425204770> - if cast t0, incurs cooldown on t3
 
@@ -161,8 +164,29 @@ Autos are separate from abilities and also have their own cooldown system separa
     "color": 39423,
     "fields": [
       {
-        "name": "__Unexpected Behavior 1: Auto Cooldown Extention__",
+        "name": "__Unexpected Behavior: Auto Cooldown Extention__",
         "value": "⬥ <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> adds 2t to auto cooldown when used in combat\n⬥ To get an auto either of the following needs to be done:\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T3 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ [Demo](https://img.pvme.io/images/M1cy1gS.gif): auto → <:needle:535541259108876293> → <:frag:535541273755385885> → <:ecb:615618531937222657> <:spec:537340400273195028> → (4t) <:piercing:535541258538450944>\n\u00a0\u00a0\u00a0\u00a0• `T0 fastest non-channel → T4 ECB special → T6 Auto → T7 Ability`\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ This way gives you 1t more of <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184> to use (T4 vs T3 <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184>)"
+      }
+    ]
+  }
+}
+.embed:json
+.
+
+.
+**__Decimation (EoF) Special__** <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184>
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Unexpected Behavior 1: Auto Cooldown Extention__",
+        "value": "⬥ <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> adds 2t to auto cooldown when used in combat"
+      },
+      {
+        "name": "__Unexpected Behavior 2: Prevents Auto Adrenaline Gain__",
+        "value": "⬥ While <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> is active, autos give 0 adrenaline"
       }
     ]
   }
