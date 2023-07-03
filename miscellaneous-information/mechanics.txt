@@ -69,11 +69,11 @@ __**Losing Target**__
 ⬥ When ability queueing is enabled, you can lose a target with the following options:
     • **Right-click a shield and use the 'Provoke' option** - requires a T80 or higher shield (from Dungeoneering or Barrows: Rise of the Six).
     • **Use a special attack without having a target selected**. This does *not* work with special attacks of the following weapons, as they do not require any target to activate.
-        - Dragon Battleaxe <:DBA:603979368850653216>
-        - Zaros Godsword <:zgs:626465964325601290>
-        - Staff of Light/Darkness <:staffoflight:841419289319964763> / <:staffofdarkness:925794592387907634>
-        - Decimation <:decimation:643848618477879328>
-        - Eldritch Crossbow <:ecb:615618531937222657>
+        ⬩ Dragon Battleaxe <:DBA:603979368850653216>
+        ⬩ Zaros Godsword <:zgs:626465964325601290>
+        ⬩ Staff of Light/Darkness <:staffoflight:841419289319964763> / <:staffofdarkness:925794592387907634>
+        ⬩ Decimation <:decimation:643848618477879328>
+        ⬩ Eldritch Crossbow <:ecb:615618531937222657>
 
 .
 > __**Ability Stalling**__
@@ -137,9 +137,9 @@ __**Stalling Adrenaline**__
 ⬥ There are multiple ways to stall adrenaline.
 ⬥ **Method 1: Simply remain in combat**.
     • This is done by **using abilities that do not require a target within every 10 seconds** to make the game think the player is still 'in combat'.
-        - Non-defensive abilities that do not require a target - <:surge:535533810004262912> / <:escape:535541258832052231> / <:bd:535532854281764884> / <:Reprisal:513190159462694912> / etc.
-        - Defensive abilities - <:prep:535541258546970624> / <:res:535541258844635148> / <:reflect:535541258786177064> / etc.
-        - Other abilities like Reprisal <:Reprisal:513190159462694912>
+        ⬩ Non-defensive abilities that do not require a target - <:surge:535533810004262912> / <:escape:535541258832052231> / <:bd:535532854281764884> / <:Reprisal:513190159462694912> / etc.
+        ⬩ Defensive abilities - <:prep:535541258546970624> / <:res:535541258844635148> / <:reflect:535541258786177064> / etc.
+        ⬩ Other abilities like Reprisal <:Reprisal:513190159462694912>
 ⬥ **Method 2: Use something that grants permanent adrenaline stalling**.
     • Adrenaline Urn <:adrenurn:656426717413507074> (holds up to 1000% adrenaline).
     • Persistent Rage <:persistentrage:739965637056659567> relic.
@@ -184,8 +184,8 @@ __**How To Lose Target**__
     • This is accomplished by not attacking/being attacked for 10 seconds.
 ⬥ **Method 2: Have your target no longer be present.**
     • Kill your current target, or switch to a target that then dies (e.g. Combat Dummy <:dummy:656844963522281473> that gets dismissed), then use an ability.
-        - If queueing is on: try to use a special attack or press 'Provoke' on a shield.
-        - If queueing is off: try to use a damaging ability.
+        ⬩ If queueing is on: try to use a special attack or press 'Provoke' on a shield.
+        ⬩ If queueing is off: try to use a damaging ability.
 
 *Note: For more information, see the section on __**Ability Queueing**__ (linked in the pinned message).*
 
@@ -271,7 +271,6 @@ __**Ability Interactions**__
     • Magma Tempest <:magmatempest:902209626509025290>
     • Frag Shot <:frag:535541273755385885>
     • Corruption Shot <:corruptshot:535541306294796299>
-    • Incendiary Shot <:incend:535541258429661215>
     • Deadshot <:deadshot:535541307666595870> (bleed hits)
 
 .
@@ -418,7 +417,7 @@ __**How It Works**__
 ⬥ **Behaviour with manual spellcasting *off***:
     • Magic auto attacks deal damage based on the spell your weapon is set to.
     • Clicking on a spell in your Magic spellbook or on your ability bar will switch your autocast spell to it.
-        - Typically, you'll press spell + next ability on the same tick, not during a global cooldown.
+        ⬩ Typically, you'll press spell + next ability on the same tick, not during a global cooldown.
     • Clicking on an ability from an ability book or on your ability bar will use that ability against your target.
 .
 ⬥ **Behaviour with manual spellcasting *on***:
@@ -452,14 +451,14 @@ __**Why It's Good**__
     • **Telos**: Selectively using Ice spells at correct times with Blood spells autocast, to get better control of freeze timings.
 
 .
-> __**NPC Center vs. Coordinate**__
-.tag:npccenter
-This section covers the difference between an NPC's **center** and **coordinate** and how it impacts certain abilities when it comes to targeting and hitboxes.
+> __**NPC Centre vs. Coordinate**__
+.tag:npccentre
+This section covers the difference between an NPC's **centre** and **coordinate** and how it impacts certain abilities when it comes to targeting and hitboxes.
 .
-__**NPC Center vs. Coordinate**__
-⬥ An NPC's **center** and **coordinate** are both attributes of its position. They are *not* the same, and are both used in different scenarios to decide where exactly the 'center' of an NPC is.
-⬥ **The NPC center depends on the size of the NPC**:
-    • For odd-sized NPCs (1x1, 3x3, 5x5, etc.): it is always the **center tile**.
+__**NPC Centre vs. Coordinate**__
+⬥ An NPC's **centre** and **coordinate** are both attributes of its position. They are *not* the same, and are both used in different scenarios to decide where exactly the 'centre' of an NPC is.
+⬥ **The NPC centre depends on the size of the NPC**:
+    • For odd-sized NPCs (1x1, 3x3, 5x5, etc.): it is always the **centre tile**.
     • For even-size NPCs (2x2, 4x4, 6x6, etc.): it is always the **south-west tile in middle 2x2 tile region**.
 ⬥ **The NPC coordinate is always the south-west tile.**
 ⬥ The follow image visualizes these changes.
@@ -467,7 +466,7 @@ __**NPC Center vs. Coordinate**__
 
 .
 __**Abilities and NPC Coordinate**__
-⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'center'.
+⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
     • **Note that this is not their *hitbox*, which is the entirety of the tiles they occupy. It is simply the point from which these abilities begin to propagate.**
 ⬥ **Ranged abilities:**
     • Corruption Shot <:corruptshot:535541306294796299>
@@ -489,7 +488,7 @@ __**Abilities and NPC Coordinate**__
 .
 > __**NPC Facing and Flanking**__
 .tag:npcfacing
-*Note: For more information on boss sizes and how to calculate their NPC center and coordinate tiles, see __**NPC Center vs. Coordinate**__.*
+*Note: For more information on boss sizes and how to calculate their NPC centre and coordinate tiles, see __**NPC Centre vs. Coordinate**__.*
 This section covers how NPCs face, how it affects their movement and targeting, and its impact on Flanking Angles.
 .
 __**Facing Direction: Movement**__
@@ -510,8 +509,8 @@ __**Facing Direction: Targeting**__
 .img:https://img.pvme.io/images/BJtN9We.png
 .
 ⬥ In the above image:
-    • The center 2x2 region represents the monster's hitbox.
-    • The monster's center tile is marked by **C** (in this case, the SW tile of the middle 2x2 region since the monster is even-sized).
+    • The centre 2x2 region represents the monster's hitbox.
+    • The monster's centre tile is marked by **C** (in this case, the SW tile of the middle 2x2 region since the monster is even-sized).
     • The dark-colored tiles represent cardinal directions, and the lighter tiles are diagonal directions.
 .
 ⬥ Here is a small table of player positions vs. where the monster would face:
@@ -527,21 +526,21 @@ etc.
 __**NPC Directions and Flanking**__
 ⬥ Flanking <:flankicon:841419289755385866> requires the following conditions to be met:
     • Target is facing a particular direction.
-    • Your distance past the target's center tile *in that direction* is zero - i.e. relative to the center tile you are not further ahead than the target *in that direction*.
+    • Your distance past the target's centre tile *in that direction* is zero - i.e. relative to the centre tile you are not further ahead than the target *in that direction*.
 ⬥ If **both** the above conditions are met, then you can Flank <:flankicon:841419289755385866> the target.
 ⬥ See the following image for 2 examples of angles that you can Flank from on larger targets.
 .img:https://img.pvme.io/images/fgggN05.png
 .
 ⬥ **Case 1: Target Facing South (Cardinal Direction)**
     • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
-        - The target is facing south.
-        - The player is not further south than the target's center.
-    • i.e. **Flanking angle is the 180° region behind the target's center**.
+        ⬩ The target is facing south.
+        ⬩ The player is not further south than the target's centre.
+    • i.e. **Flanking angle is the 180° region behind the target's centre**.
 .
 ⬥ **Case 2: Target Facing North-West (Diagonal Direction)**
     • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
-        - The target is facing both north and west.
-        - Player is *only* futher north, *not* also further west, than the target's center.
+        ⬩ The target is facing both north and west.
+        ⬩ Player is *only* futher north, *not* also further west, than the target's centre.
     • i.e. **Flanking angle is the 270° region not including the quadrant the boss is facing**.
 ⬥ See the following image for an example of this behaviour with a 2x2 monster:
 .img:https://img.pvme.io/images/G3bGkKk.png
@@ -598,7 +597,7 @@ __**Bladed Dive**__
 ⬥ Additionally, Bladed Dive also does damage.
     • Bladed Diving onto a target will attempt to do damage in a 3x3 AoE.
     • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
-    • *This AoE is centered on around the player where they land*.
+    • *This AoE is centreed on around the player where they land*.
 
 __**Walking Abilities**__
 ⬥ Players can move while casting abilities, with some exceptions:
@@ -611,7 +610,7 @@ __**Walking Abilities**__
 .
 ⬥ The following channeled abilities are exceptions:
     • Players can walk during <:melee:1096130867279171706> Melee channels (<:assault:535532855191928842> / <:destroy:535532879330148352> / <:flurry:864492981763702834>) on any *non-cast tick*.
-        - Cast ticks are ticks 1/3/5/7, so players can move on ticks on ticks 2/4/6/8 and not cancel the channel.
+        ⬩ Cast ticks are ticks 1/3/5/7, so players can move on ticks on ticks 2/4/6/8 and not cancel the channel.
     • Players can walk during Rapid Fire <:rapid:535541270521708566> if wearing Fleeting Boots <:fleetingboots:789813993480388640>
     • Players can walk during Snipe <:snipe:535541258425204770> if wearing <:nightmaregauntlets:513190159441723392>
 
@@ -643,21 +642,21 @@ __**Arrows 2-5+**__
     • **Equilibrium <:eq4:712073088589627505> applies its effects on the final damage range**.
 .
 ⬥ To decide whether Arrows 2-5 hit the target, the game does the following:
-    • **Step 1: Find NPC center**
-        - This is the actual NPC center (middle tile).
-        - For even-sized NPCs (2x2, 4x4, etc.) this is the SW tile of their middle 2x2 region.
+    • **Step 1: Find NPC centre**
+        ⬩ This is the actual NPC centre (middle tile).
+        ⬩ For even-sized NPCs (2x2, 4x4, etc.) this is the SW tile of their middle 2x2 region.
     • **Step 2: Find starting tile for spec**
-        - Choose a tile that is `Floor(NPC Size/2)` away from its center.
-        - Player must be able to walk to this tile - if no options are acceptable, then use the NPC center instead.
-    • **Step 3: Choose 4 tiles in a 2x2 radius around chosen tile**
-        - Arrows 2-5 will land on these tiles.
-        - If a tile is already used by a previous arrow, reroll the choice up to 10 times.
+        ⬩ Choose a tile that is `Floor(NPC Size/2)` away from its centre.
+        ⬩ Player must be able to walk to this tile - if no options are acceptable, then use the NPC centre instead.
+    • **Step 3: Choose 4 tiles in a 5x5 square centred at the chosen tile**
+        ⬩ Arrows 2-5 will land on these tiles.
+        ⬩ If a tile is already used by a previous arrow, reroll the choice up to 10 times.
     • **Step 4: Any arrows that overlap with NPC hitbox will do damage.**
 
 ⬥ **This means that the chances that Arrows 2-5 hit the target increase with the size of the target.**
     • **i.e.** on bigger targets, the minimum expected damage of <:sgb:626466665848242186> <:spec:537340400273195028> increases.
 ⬥ The following diagram visualizes this process for two example targets, 4x4 and 5x5 in size.
-.img:https://img.pvme.io/images/B1kn9o9.png
+.img:https://img.pvme.io/images/bbQ1nyf3Pu.png
 *Note: The image is just an __example__, actual results may vary due to randomness.*
 
 ⬥ The average number of targets that will hit a given NPC, based on its size is given in the following table:
@@ -678,7 +677,7 @@ __**Arrows 2-5+**__
 
 .
 __**Blocked Targets**__
-⬥ A target is considered 'blocked' when the player is unable to reach it's center tile.
+⬥ A target is considered 'blocked' when the player is unable to reach it's centre tile.
     • e.g. P4 Araxxi
 ⬥ Any NPC whose size is ≥5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
 
@@ -831,9 +830,9 @@ __**Vengeance Interactions**__
 ⬥ Vengeance **is** affected by damage modifiers, and applied at the end.
     • Vulnerability <:Vuln:537349530551582720> and other damage-increasing curses on the target will increase rebounded damage.
     • Modifiers that reduce incoming damage will reduce <:Veng:543478434953822208> damage since you will take a smaller hit.
-        - e.g. Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> / Intercept <:Cept:543478434509357098>
+        ⬩ e.g. Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> / Intercept <:Cept:543478434509357098>
     • Modifiers that increase incoming damage will also increase <:Veng:543478434953822208> damage as you take a bigger hit
-        - e.g. Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> / Berserk <:zerk:535532854004678657>
+        ⬩ e.g. Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> / Berserk <:zerk:535532854004678657>
 
 .
 > __**Walking Monsters**__
@@ -844,7 +843,7 @@ __**How It Works**__
 ⬥ There are **two ways to walk targets**:
     • Move outside its attack range, and it will move to try and attack you.
     • Move underneath it, and it will move aside to try and attack you.
-        - For targets not in MD, movement abilities like Surge <:surge:535533810004262912> and Bladed Dive <:bd:535532854281764884> can be used to get under them losslessly during GCD.
+        ⬩ For targets not in MD, movement abilities like Surge <:surge:535533810004262912> and Bladed Dive <:bd:535532854281764884> can be used to get under them losslessly during GCD.
 ⬥ **NPCs can only move in 3 directions when walked under: east, west and south**. Never north.
 ⬥ Bosses will move at 2 squares per tick, just like players running.
 
@@ -924,14 +923,15 @@ __**Poison Interactions**__
     • Also increases poison damage by a multiplicative 5%, similar to Kwuarm Incense Sticks <:KwuarmSticks:565726489341984779>.
 .
 ⬥ **Upgraded Bone Blowpipe** <:boneblowpipe:982264010563018772>
-    • Halves poison damage but doubles its base application rate (12.5% → 25%).
-    • After accounting for poison re-applying itself, this gives an effective application rate per hitsplat of or 33.3% (up from ~14.3% with Cinderbanes).
+    • Halves poison damage but doubles the number of procs from every 16 ticks → every 8 ticks.
+        ⬩ This effect does halve the damage of poison procs caused by Cinderbane gloves, but does not double its proc chance
+    • This effectively halves your poison damage if used in combination with Cinderbane gloves.
 .
 ⬥ **Wyvern Crossbow** <:wyverncrossbow:580177522587729940>
     • Applies its own "poison" damage separate from normal weapon poison.
-        - 50% chance per hit to apply a DoT that can stack.
-        - DoT deals damage 5 times, every 2 ticks, unless refreshed.
-        - Damage range increases with stacks, from 10-24 per hit → 125-249 per hit.
+        ⬩ 50% chance per hit to apply a DoT that can stack.
+        ⬩ DoT deals damage 5 times, every 2 ticks, unless refreshed.
+        ⬩ Damage range increases with stacks, from 10-24 per hit → 125-249 per hit.
     • *The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply*.
 .
 ⬥ **Poison can be applied/refreshed by any player-sourced damage, including**:
@@ -976,7 +976,7 @@ __**Poison Build**__
       },
       {
         "name": "__Mechanics (2/3)__",
-        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Center vs. Coordinate]($linkmsg_npccenter$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
+        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Centre vs. Coordinate]($linkmsg_npccentre$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
         "inline": true
       },
       {

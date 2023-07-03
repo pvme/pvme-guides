@@ -1,37 +1,39 @@
-> **__Vile Blooms__**
-.
-**__Introduction__**
+> **__Introduction__**
 .tag:introduction
-Vileblooms are a combination task of all the plants on Anachronia, they are bad for both gp and xp, and should ideally be skipped every time. The main reason to do them is to obtain their soul for the slayer codex.
+Vileblooms are a combination task of all plant monsters on Anachronia, they are bad for both GP and XP, and should ideally be skipped every time. The main reason to do them is to obtain their soul for <:slayercodex:1097517249499254875>
 
 All methods in this guide are doable off-task. The kill per hour numbers listed are all based on off-task testing.
 
-Due to the limited use of the task, these methods have not been optimised as well as they can be. If you manage to optimise these tasks more please make a post in <#1020853673317908500>.
+Due to the limited popularity of the task, the methods below are not fully optimised. Please make a post in <#1020853673317908500> if you manage to improve them.
 
 .
 **__Desirable Drops__**
 .tag:desirabledrops
-⬥ <:detoboots:602581956072439828> Blast diffusion boots - 1/2000 to 1/4000 on task, 4x rarer off-task
+⬥ <:detoboots:602581956072439828> Blast diffusion boots - 1/2000 to 1/4000 on task
+    • 4x rarer off-task
 ⬥ Three different totem pieces - 1/300
 ⬥ Dinosaur rib bone - 1/1000
 ⬥ Dinosaur tooth - 1/800
 
 .
-**__Useful Items__**
-.tag:usefulitems
-.
-⬥ There are no items that help on Vile bloom tasks.
-
-.
 **__Location and How to Get There__**
 .tag:locationandhowtogetthere
-Teleport the Anachronia lodestone, the Laniakea or to the Orthen teleportation device, see the map for the closest location to the monster you want to get to.
+Helpful teleports to get to Vile Blooms include:
+⬥  Anachronia lodestone <:anachronialode:1032552287773659216>
+⬥  Laniakea <:laniakea:975284345411600426> via <:slayercape:975284344123953164>
+⬥  Locations via Orthen teleportation device.
+⬥  A Powerburst of Acceleration <:accel:756236265472524418> can help greatly when travelling to sites.
+
+Refer to the map below for the closest locations relative to each monster.
 .
 .img:https://img.pvme.io/images/gZgzhA4.png
+
 .
 .img:https://img.pvme.io/images/UJ2KNvT.png
 > __**Devil's snare**__
 .tag:devilssnare
+.
+Besides gathering its soul, devil snares <:devilssnare:1003947791707557958> should generally never be done unless you are clearing a task and are under-leveled to do the other varieties.
 
 .
 **__Stats__**
@@ -39,39 +41,61 @@ Teleport the Anachronia lodestone, the Laniakea or to the Orthen teleportation d
 ⬥ <:combat:797896050370281523> XP per kill: 1759 (580.4 <:Constitution:689509250887712902>)
 ⬥ <:slayer:797896049548066857> XP per kill: 1760
 ⬥ Optimal kills per hour: 180
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~317k
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~317K
 
 .
 **__Method: Magic (AFK)__**
 .tag:devilssnare_magicafk
 .
-Stand on the tile shown below. Activate your <:aggressionscrim:1022562486588821555> Scrimshaw of aggression. Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:Affliction:513190158468907008>, and autocast <:exsanguinate:856635090745950258>. Use <:penanceaura:643505653062565907> + <:powderofpenance:928221126360969226> to upkeep your prayer points. <:animatedead:856635090453135382> is **NOT** required. No monitoring is required for the method, a legendary pet can pick up all loot. The use of <:elderovl:841419289831800882> overloads DECREASES kills per hour because of how the <:aggressionscrim:1022562486588821555> works.
+Ensure you have the following active before switching on the <:cannon:869283142350041098>:
+⬥ Soulsplit <:soulsplit:615613924506599497> and Torment <:torment:583429936958930964> / Affliction <:Affliction:513190158468907008>
+⬥ Autocasting Exsanguinate <:exsanguinate:856635090745950258>
+⬥ Penance aura <:penanceaura:643505653062565907>
+    • You may need Penance powder <:powderofpenance:928221126360969226> if using Crypt <:cryptbloomhelm:892819107123195956>
+
+<:animatedead:856635090453135382> is **not** required but is helpful when cannoning. No monitoring is required for the method and a legendary pet can help pick up all loot if not using <:reaverpouch:839903693837959228>. If using <:aggressionscrim:1022562486588821555>, do not use <:elderovl:841419289831800882> as it DECREASES kills per hour due to the mechanics of <:aggressionscrim:1022562486588821555>
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK](https://pvme.github.io/preset-maker/#/EFDj0Ywomb2jqWF1g16J)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+***Note:** Lower tiers of armour <:ganohelm:1003947807754960896> <:seasingershood:556583076050763776> are usable albeit risky if there are multiple snares on you at once.*
 
 .
 **__Where to Stand__**
 .
-Stand on the cicled tile then move 3 west and 1 north.
+From the position of the eastern-most <:devilssnare:1003947791707557958>, stand 4 west and 1 north. Set up <:cannon:869283142350041098> as shown in the image below
 .
-.img:https://img.pvme.io/images/s0YRAnl.png
-.
-**__Preset__**
-.
-⬥ Achto armour was used for testing, but the passive is not needed or used.
-.img:https://img.pvme.io/images/5RIgIr3.png
-.
-For a full breakdown of the preset see <https://img.pvme.io/images/vaMF4Fz>.
-
+.img:https://img.pvme.io/images/QchiZn77AH.png
 .
 **__Action Bar__**
 .
 .img:https://img.pvme.io/images/FlC0jNz.png
 .
 **__Video Example__**
-If you record an example please make a post in <#1020853673317908500>.
+.tag:snarevideo
+⬥ Devil's snare AFK Magic (Courtesy of <@773145477028773898>) - https://youtu.be/wQK5vsPYGYs
+
 .
 .img:https://img.pvme.io/images/Whr3UF1.png
 > __**Luminous snaggler**__
 .tag:luminoussnaggler
+.
+Luminous snagglers are usually not done except for souls <:ushabti:1097515642749468752>
 
 .
 **__Stats__**
@@ -79,14 +103,40 @@ If you record an example please make a post in <#1020853673317908500>.
 ⬥ <:combat:797896050370281523> XP per kill: 1719 (567.2 <:Constitution:689509250887712902>)
 ⬥ <:slayer:797896049548066857> XP per kill: 1536
 ⬥ Optimal kills per hour: 160
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~246k
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~246K
 
 .
-**__Method: Magic (AFK)__**
+**__Method: AFK Magic__**
 .tag:luminoussnaggler_magicafk
 .
-Stand on the tile shown below. Activate your <:aggressionscrim:1022562486588821555> Scrimshaw of aggression. Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:Affliction:513190158468907008>, and autocast <:exsanguinate:856635090745950258>. Use <:penanceaura:643505653062565907> or <:powderofpenance:928221126360969226> to upkeep prayer points, use <:vampaura:643505653079343144> if having struggles to keep your hp up. Having <:animatedead:856635090453135382>, <:elderovl:841419289831800882>, and <:weppoison:689525476158472288> up at all times is required. No extra monitoring is required for the method, a legendary pet can pick up all loot.
+Stand on the tile shown below and ensure the following active before turning on <:aggressionscrim:1022562486588821555>:
+⬥ Elder overload <:elderovl:841419289831800882>
+⬥ Weapon poison +++ <:weppoison:689525476158472288>
+⬥ Soulsplit <:soulsplit:615613924506599497> and Torment <:torment:583429936958930964> / Affliction <:Affliction:513190158468907008>
+⬥ Autocasting Exsanguinate <:exsanguinate:856635090745950258>
+⬥ Penance aura <:penanceaura:643505653062565907> **or** Penance powder <:powderofpenance:928221126360969226>
+    • Use <:vampaura:643505653079343144> if struggling to upkeep HP.
+⬥ Animate Dead <:animatedead:856635090453135382>
 
+No extra monitoring is required for the method except upkeeping buffs, a legendary pet can pick up all loot if not using <:reaverpouch:839903693837959228>
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK](https://pvme.github.io/preset-maker/#/OslAw6lPZNLXgSRddQQG)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
 **__Where to Stand__**
 .
@@ -94,102 +144,145 @@ Stand on the marked tile then move 2 west.
 .
 .img:https://img.pvme.io/images/8ydOY2U.png
 .
-**__Preset__**
-.
-⬥ Achto armour was used for testing, but the passive is not needed or used.
-.img:https://img.pvme.io/images/cV7NUHX.png
-For a full preset breakdown see <https://img.pvme.io/images/rQAa3b6>
-
-.
 **__Action Bar__**
 .
 .img:https://img.pvme.io/images/FlC0jNz.png
 
 .
 **__Video Example__**
-If you record an example please make a post in <#1020853673317908500>.
+.tag:snagglervideo
+⬥ Luminous snaggler AFK Magic (Courtesy of <@773145477028773898>) - https://youtu.be/vfP7i9OLmbU
+
 .
 .img:https://img.pvme.io/images/ghTWvec.png
 > __**Lampenflora**__
 .tag:lampenflora
+.
+Lampenflora <:lampenflora:1003947793620152320> are the fastest option for a Vile Bloom task, allowing you to quickly move onto other better slayer tasks.
 
 .
 **__Stats__**
-.tag:lampenflora_stats
 ⬥ <:combat:797896050370281523> XP per kill: 1396.8 (460.9 <:Constitution:689509250887712902>)
 ⬥ <:slayer:797896049548066857> XP per kill: 1331.8
-⬥ Optimal kills per hour: 240
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~320k
+⬥ Optimal kills per hour: ~340
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~453K
 
 .
 **__Method: Magic (AFK)__**
 .tag:lampenflora_magicafk
 .
-Stand on the tile shown below. Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:Affliction:513190158468907008>, and autocast <:exsanguinate:856635090745950258>. Use <:penanceaura:643505653062565907> to upkeep prayer points. Having <:animatedead:856635090453135382>, <:elderovl:841419289831800882>, <:weppoison:689525476158472288>, and <:aggressionpotion:925794592199147581> up at all times is required. No extra monitoring is required for the method, a legendary pet can pick up all loot.
+Stand on the tile shown below and ensure the following active:
+⬥ Elder overload <:elderovl:841419289831800882>
+⬥ Weapon poison +++ <:weppoison:689525476158472288>
+⬥ Aggression potion <:aggressionpotion:925794592199147581>
+⬥ Scripture of Ful <:scriptureofful:902209626412560395>
+⬥ Soulsplit <:soulsplit:615613924506599497> and Torment <:torment:583429936958930964> / Affliction <:Affliction:513190158468907008>
+⬥ Autocasting Incite Fear <:incitefear:856635090783567902>
+⬥ Animate Dead <:animatedead:856635090453135382>
+⬥ Penance aura <:penanceaura:643505653062565907>
 
+No extra monitoring is required for the method except upkeeping buffs, a legendary pet can pick up all loot if not using <:reaverpouch:839903693837959228>
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK](https://pvme.github.io/preset-maker/#/H3Ru9QH1wezVli9P4vPv)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
 **__Where to Stand__**
 .
 Stand on the marked tile then move 6 east and 3 south.
 .
-.img:https://img.pvme.io/images/wtLx6de.png
-.
-**__Preset__**
-.
-⬥ Achto armour was used for testing, but the passive is not needed or used.
-.img:https://img.pvme.io/images/imBpE7e.png
-For a full preset breakdown see <#https://img.pvme.io/images/Z8JZaWJZ>
-
+.img:https://img.pvme.io/images/cjCiNs12aP.png
 .
 **__Action Bar__**
 .
-.img:https://img.pvme.io/images/FlC0jNz.png
+.img:https://img.pvme.io/images/jhzfOjAReJ.png
 
 .
-**__Video Example__**
-If you record an example please make a post in <#1020853673317908500>.
+**__Video example__**
+.tag:lampenvideo
+.
+⬥ **Lampenflora AFK Magic** - https://youtu.be/ebj8LkUfPVo
+
 .
 .img:https://img.pvme.io/images/YswqoTF.png
 > __**Liverworts**__
 .tag:liverworts
+.
+Generally regarded as the highest <:slayer:797896049548066857> exp Vile bloom, players should still avoid doing these unless gathering souls for <:ushabti:1097515642749468752> as they are slow and prevent players from quickly moving onto better tasks.
 
 .
 **__Stats__**
-.tag:liverworts_stats
 ⬥ <:combat:797896050370281523> XP per kill: 2970 (980.1 <:Constitution:689509250887712902>)
 ⬥ <:slayer:797896049548066857> XP per kill: 3338
 ⬥ Optimal kills per hour: 140
 ⬥ Optimal <:slayer:797896049548066857> XP per hour: ~467k
 
 .
-**__Method: Magic (AFK)__**
+**__Method: AFK Magic__**
 .tag:liverworts_magicafk
 .
-Stand on the tile shown below. Activate your <:aggressionscrim:1022562486588821555> Scrimshaw of aggression. Pray <:soulsplit:615613924506599497> and <:Affliction:513190158468907008> (the method might not work with <:torment:583429936958930964> unless using other upgrades compared to the preset), autocast <:exsanguinate:856635090745950258>. Use <:powderofpenance:928221126360969226> to upkeep prayer points, use <:vampaura:643505653079343144> to keep hp up. Having <:animatedead:856635090453135382>, <:elderovl:841419289831800882>, and <:weppoison:689525476158472288> up at all times is required. Players must use a <:reaverpouch:839903693837959228> as a familiar, <:reaverscroll:1022562484378419284> are not necessary unless struggling to keep hp up.
+Stand on the tile shown below and ensure the following are active before turning on <:aggressionscrim:1022562486588821555>:
+⬥ Elder overload <:elderovl:841419289831800882>
+⬥ Weapon poison +++ <:weppoison:689525476158472288>
+⬥ Soulsplit <:soulsplit:615613924506599497> and Affliction <:Affliction:513190158468907008>
+    • Method might not work with Torment <:torment:583429936958930964>
+⬥ Autocasting Exsanguinate <:exsanguinate:856635090745950258>
+⬥ Animate Dead <:animatedead:856635090453135382>
+⬥ Penance powder <:powderofpenance:928221126360969226>
+⬥ Vampyrism aura <:vampaura:643505653079343144>
+⬥ <:reaverpouch:839903693837959228> summoned.
+    • <:reaverscroll:1022562484378419284> not necessarily unless struggling to upkeep HP.
 
-This method is extremely tight with the shown gear and players should be wary of cutting any corners. The method was tested off-task, players looking to do this with lower gear should check for themselves if it is possible with the extra damage provided by being on task.
+The gear shown below barely suffices for the method and players **should be wary of cutting any corners.** The method was tested off-task, players looking to do this with lower gear should check for themselves if it is possible with the additional damage on task.
 
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK](https://pvme.github.io/preset-maker/#/ISCCRi3mIR5Gtlz7XmRF)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
 **__Where to Stand__**
 .
 Stand on the marked tile then move 1 south and 11 east.
 .img:https://img.pvme.io/images/du4OcVm.png
 .
-**__Preset__**
-.
-⬥ Achto armour was used for testing, but the passive is not needed or used.
-.img:https://img.pvme.io/images/cV7NUHX.png
-For a full preset breakdown see <https://img.pvme.io/images/rQAa3b6>
-
-.
 **__Action Bar__**
 .
 .img:https://img.pvme.io/images/v5kAcdO.png
-*Note: put <:Tuskas:513201065513058306> behind <:asphyx:535533833072672778> if on-task.
+***Note:** Put <:Tuskas:513201065513058306> behind <:asphyx:535533833072672778> if on-task.*
 
 .
-**__Video Example__**
-If you record an example please make a post in <#1020853673317908500>.
+**__Video examples__**
+.tag:livervideo
+.
+⬥ **Liverworts AFK Magic (Courtesy of <@773145477028773898>)** - https://youtu.be/bMl8XB7GBBY
+
 .
 {
   "embed": {
@@ -198,28 +291,28 @@ If you record an example please make a post in <#1020853673317908500>.
     "color": 15158332,
     "fields": [
      {
-        "name": "__Begin__",
-        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Useful items]($linkmsg_usefulitems$)\n⬥ [Location and how to get there]($linkmsg_locationandhowtogetthere$)",
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Location and how to get there]($linkmsg_locationandhowtogetthere$)",
         "inline": true
       },
       {
         "name": "__Devil's snare__",
-        "value": "⬥ [Stats]($linkmsg_devilssnare_stats$)\n⬥ [Method: Magic (AFK)]($linkmsg_devilssnare_magicafk$)",
+        "value": "⬥ [Introduction]($linkmsg_devilssnare$)\n⬥ [Method: AFK Magic]($linkmsg_devilssnare_magicafk$)\n⬥ [Video example]($linkmsg_snarevideo$)",
         "inline": true
       },
       {
         "name": "__Luminous snaggler__",
-        "value": "⬥ [Stats]($linkmsg_luminoussnaggler_stats$)\n⬥ [Method: Magic (AFK)]($linkmsg_luminoussnaggler_magicafk$)",
+        "value": "⬥ [Introduction]($linkmsg_luminoussnaggler$)\n⬥ [Method: AFK Magic]($linkmsg_luminoussnaggler_magicafk$)\n⬥ [Video Example]($linkmsg_snagglervideo$)",
         "inline": true
       },
       {
         "name": "__Lampenflora__",
-        "value": "⬥ [Stats]($linkmsg_lampenflora_stats$)\n⬥ [Method: Magic (AFK)]($linkmsg_lampenflora_magicafk$)",
+        "value": "⬥ [Introduction]($linkmsg_lampenflora$)\n⬥ [Method: AFK Magic]($linkmsg_lampenflora_magicafk$)\n⬥ [Video Example]($linkmsg_lampenvideo$)",
         "inline": true
       },
       {
         "name": "__Liverworts__",
-        "value": "⬥ [Stats]($linkmsg_liverworts_stats$)\n⬥ [Method: Magic (AFK)]($linkmsg_liverworts_magicafk$)",
+        "value": "⬥ [Introduction]($linkmsg_liverworts$)\n⬥ [Method: AFK Magic]($linkmsg_liverworts_magicafk$)\n⬥ [Video Example]($linkmsg_livervideo$)",
         "inline": true
       }
     ]
