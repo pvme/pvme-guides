@@ -3,32 +3,33 @@
 > **__Introduction__**
 This is a guide for 4-man Nex: Angel of Death. It is assumed that you know how to deal with mechanics in 7-man AoD, described in <#1020818825840689262>.
 
-Due to the meta heavily favouring magic at the time of writing, this guide will assume that the team consists of **magers only**.
+Due to the meta heavily favouring ranged at the time of writing, this guide will assume that the team consists of **ranged mt's / free**. The base can either mage or hybrid.
 
 These rotations can **consistently reaver skip** if executed correctly.
 
 .
 > **__Presets__**
 .tag:presets
-.
-**__Magic__**
-⬥ <:eofblack:780401412915855380> with Statius Warhammer <:swh:641670143197446182> (base only)
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:eofyellow:780401412902223892> with Armadyl Battlestaff <:armadylbattlestaff:881962727705280512>
-⬥ <:ancientlantern:580177522503712781> with <:caroming4:791281588792590336> <:pf:689501925770919981>
-⬥ Seismic Singularity <:sing:513190159261630467> with flanking 4 <:flank4:712073088296157185>
-⬥ Only use Inquisitor Staff <:inquisitorstaff:694566917553520680> if it is enchanted
-⬥ Swap <:accel:756236265472524418> for <:vitality:654618235097972737> if free dps
-⬥ Swap <:spiritualprayer:651079281882955787> for food if using Kal'Gerion Demon <:kalgpouch:921410226484301925>
-⬥ Bring Dominion Mines <:dommine:662249620579155968> if not reaver skipping
-⬥ Learner base can use 4 piece Cryptbloom
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:bloodbarrage:537338981747261446> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:Veng:543478434953822208>)
-⬥ <:pernixsquiver:902209626450296892> should contain <:fularrow:971025696958853180>
-.
-.img:https://img.pvme.io/images/5mQDCJN.png
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__MT / Free__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/o4FLath9XDk0rb9DShWF)",
+        "inline": true
+        },
+        {
+        "name": "__Base__",
+        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/5dX2zjWnRnHGhsTL0HiD)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If the base is uncomfortable on food, they can reaver and a dps kalg instead.*
 .
 > **__Mechanics__**
 .tag:mechanics
@@ -42,7 +43,7 @@ Dealing with mechanics in 4-man AoD is slightly different to how they are dealt 
         ⬩ Sticky bombs last 6s / 10t.
         ⬩ Before getting bound by consecutive sticky bombs, the reaver will always walk at least 1 tile.
 
-*Note: fast teams might not require sticky bombs.*
+*Note: fast teams sould not require sticky bombs.*
 
 .
 **__Phase 2 (2,100,000 - 1,800,000 HP)__**
@@ -60,57 +61,81 @@ Handle mechanics exactly the same as in Phase 1.
 ⬥ All other mechanics work the same as in 7s.
 
 .
-> **__Minion Lure__ (Image courtesy of <@690924118744367236>)**
+> **__Minion Lure__**
 .tag:lure
-To lure the minions using 2 minion tanks (UG tank and CF tank) players need to be positioned correctly.
-The two minion tanks need to be on the green line on the east and west side of AoD respectively. All other players need to be on the north/south line inside the green lines. This will make it so that the minions aggro on the correct targets. The minion tanks then go to the spots from where you would lure in 7s as Glacies MT and Cruor MT before surging across.
+To lure the minions using 2 minion tanks (UG tank and CF tank) players need to do the movement correctly. The movement outlined below allows for DPSers to have <:gdeathsswift:994644354536837121> for first pillar.
+⬥ All 3 DPSers will ult near umbra (see video examples), with UG tank ulting 1sq further out to get aggro (labelled 1 on the images)
+⬥ Free should take 2 steps closer to the middle after <:gdeathsswift:994644354536837121>
+⬥ UG Tank will do the following:
+    • Pre vuln umbra, and surge north after umbra spawns (to 2).
+    • Vuln glacies, and surge through nex to lure (to 3).
+    • After luring, dive back to <:gdeathsswift:994644354536837121> (to 4).
+.img:https://img.pvme.io/images/qyp6ZFFyVB.png
+⬥ CF Tank will do the following:
+    • Surge through and walk to west midline to get fumus agro (to 2).
+    • When fumus has aggrod, dive to the surge spot (to 3).
+    • Once fumus has reached the mid line, surge through into <:gdeathsswift:994644354536837121> to lure the minions (to 4).
+.img:https://img.pvme.io/images/UgBzy4TQkz.jpg
 .
-.img:https://img.pvme.io/images/MayB9DA.png
-.
-> **__Magic Rotations__**
-.tag:magicrotations
+> **__Mage/Melee Base Rotation__**
+.tag:magemeleebase
 **__Pre-fight__**
-*Note: due to the random of adrenaline during <:soa:869284271595069451> <:spec:537340400273195028> and <:tsunami:535533809995874304> players should adapt their rotation.*
-
-.
-**__Pre-fight__**
-(autocast <:incitefear:856635090783567902>) <:dbreath:535533833391702017> (base) → <:nat:535541258131865633> → <:gconc:869285393223254107> → <:wrack:856662355952795658> → <:impact:535533809655873556> → <:anti:535541306475151390> → <:gsunshine:994644352871714836> → <:freedom:535541258240786434> → <:prep:535541258546970624> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:grico:787904334812807238> + start
+<:dbreath:535533833391702017> → <:nat:535541258131865633> → <:freedom:535541258240786434> → <:voke:535541259465392143> → <:anti:535541306475151390> → <:gsunshine:994644352871714836> → <:res:535541258844635148> → <:gconc:869285393223254107> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:dbreath:535533833391702017> → <:tsunamiincite:958989794757730307> → <:gconc:869285393223254107> → <:wrack:856662355952795658> → <:impact:535533809655873556> (start)
 
 .
 **__Phase 1__**
-use <:inquisitorstaff:694566917553520680>
-⬥ Hammer:
-    • (4.8s) <:magmatempesttarget:924741973858996284> → (6.6s) (tc) <:ingen:641339234111848463> + <:swh:641670143197446182> <:eofspec:746403211908481184> → <:gconc:869285393223254107> → <:omni:535533809664262179> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:dbreath:535533833391702017>
-
-⬥ Smoker:
-    • (4.8s) <:magmatempesttarget:924741973858996284> → (6.6s) (tc) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:omni:535533809664262179> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:asphyx:535533833072672778> (3 hit) → <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:dbreath:535533833391702017>
-
-⬥ DPS:
-    • (2.4s) <:magmatempesttarget:924741973858996284> → s<:omni:535533809664262179> → (6.6s) (tc) <:smokecloud:856635090641879050> (to release <:omni:535533809664262179>) + <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:wm:535533809978966037> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:dbreath:535533833391702017>
-*Note: <:limitless:641339233638023179> <:wm:535533809978966037> → <:smoketendrils:536257336130404372> if low adren after first <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184>*
+<:voke:535541259465392143> + <:ingen:641339234111848463> → <:magmatempesttarget:924741973858996284> (4.8s) → s <:swh:641670143197446182> <:eofspec:746403211908481184> → <:smokecloud:856635090641879050> r <:swh:641670143197446182> <:eofspec:746403211908481184> + <:gconc:869285393223254107> → <:wm:535533809978966037> → <:bloodbarrage:537338981747261446> + <:omnipowerigneous:959089455560540200> → <:smoketendrils:536257336130404372> → <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:746403211908481184>
 
 .
 **__Phase 2__**
-use <:inquisitorstaff:694566917553520680>
-.
-⬥ <:magmatempesttarget:924741973858996284> (2 tiles NW of Umbra amalg) → (pre) <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:gconc:869285393223254107> → <:wm:535533809978966037> → <:bloodbarrage:537338981747261446> <:omni:535533809664262179> → <:gconc:869285393223254107> → <:impactflank:867678154369400862>/<:dbreath:535533833391702017> → kill <:aod:580167371365548042> + Umbra amalg with strong basics
-*Note: can skip <:bloodbarrage:537338981747261446> before <:omni:535533809664262179> if the phase is fast*
-*Note: free mage replace <:wm:535533809978966037> with <:gstaff:513203008608141314> <:eofspec:746403211908481184>*
+<:deto:535533833358016512> → <:bloodbarrage:537338981747261446> + r <:deto:535533833358016512> + <:gconc:869285393223254107> → <:wm:535533809978966037> → <:bloodbarrage:537338981747261446> + <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:gchain:787904334495088672> → <:meteorstrike:535532879359377439> → <:gconc:869285393223254107> → <:magmatempesttarget:924741973858996284> → <:smokecloud:856635090641879050> <:gsunshine:994644352871714836>
 
 .
 **__Phase 3__**
-use <:fsoa:869284271595069451>
-.
-⬥ (autocast <:bloodbarrage:537338981747261446>) → <:gsunshine:994644352871714836> → (auto) + <:gconc:869285393223254107> → <:gchaincaroming:867678153882861568>/<:dbreath:535533833391702017> → <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:anti:535541306475151390> → <:gchaincaroming:867678153882861568> → <:omni:535533809664262179> → <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:smoketendrils:536257336130404372> → <:armadylbattlestaff:881962727705280512><:eofspec:746403211908481184>
-*Note: can skip first <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> if the phase is fast*
+<:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:bloodbarrage:537338981747261446> + <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wm:535533809978966037> → <:bloodbarrage:537338981747261446> + <:omnipowerigneous:959089455560540200> → <:deto:535533833358016512> → <:bloodbarrage:537338981747261446> + r <:deto:535533833358016512> + <:gconc:869285393223254107> → <:smoketendrils:536257336130404372> → <:gconc:869285393223254107> / <:gstaff:513203008608141314> <:eofspec:746403211908481184>
 
 .
-**__Pillars and phase 4__**
-⬥ Pillar 1: <:armadylbattlestaff:881962727705280512> <:eofspec:746403211908481184> → <:wm:535533809978966037>
-⬥ Pillar 2: (autocast) <:incitefear:856635090783567902> → <:omni:535533809664262179>
-⬥ Pillar 3: <:sgb:626466665848242186> <:spec:537340400273195028> → <:tsunami:535533809995874304>
-⬥ Pillar 4/phase 4: <:gsunshine:994644352871714836> + <:adrenrenewal:736298121704767538> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:smoketendrils:536257336130404372>/<:wm:535533809978966037>/<:omni:535533809664262179> (<:tsunami:535533809995874304> before <:fsoa:869284271595069451> <:spec:537340400273195028> if you couldn't on pillar 3)
+**__Pilars__**
+⬥ <:smokecloud:856635090641879050> → improv with <:gconc:869285393223254107> + <:gstaff:513203008608141314> <:eofspec:746403211908481184>
+⬥ <:smokecloud:856635090641879050> → improv with <:gconc:869285393223254107> + <:gstaff:513203008608141314> <:eofspec:746403211908481184> ( <:swh:641670143197446182> nex after pillar)
+⬥ <:smokecloud:856635090641879050> + <:gconc:869285393223254107> → corrupt → <:tsunamiincite:958989794757730307> → <:gconc:869285393223254107> → <:dbreath:535533833391702017>
+⬥ <:zerk:535532854004678657> → divert → <:gbarge:535532879250456578> → <:cane:535532878969438210> → <:deci:535532879325822986> (apot)
+
 .
+**__Zaros__**
+<:assault:535532855191928842> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184> → <:punish:535532879439069184> → <:chaosroar:994644356671737966> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184> → <:gricocaroming:867678153966878740> → <:dragonclaw:779048041088024606> <:eofspec:746403211908481184> → improv if Nex is not dead yet.
+
+.
+> **__Ranged MT/Free Rotations__**
+.tag:rangedmt
+**__Pre-fight__**
+(Equip wand/orb and autocast <:incitefear:856635090783567902>) <:dbreath:535533833391702017> (base) → <:nat:535541258131865633> → <:freedom:535541258240786434> → <:voke:535541259465392143> → <:anti:535541306475151390> → <:wrack:856662355952795658> → <:fularrow:971025696958853180> <:gdeathsswift:994644354536837121> → Equip <:bolg:994189289623662702> + Auto → Equip <:crystalbow:925794592849285150> + <:piercingenergising:867678153979854868> → Equip <:dbow:643848618553507843> + <:prep:535541258546970624> + Auto → Equip <:crystalbow:925794592849285150> + <:piercingenergising:867678153979854868> → s <:meteorstrike:535532879359377439> → r <:meteorstrike:535532879359377439> + Equip <:bolg:994189289623662702> + <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:mds:535541259033378827>
+*Note: The stall of meteor is optional, however doing it gives more time on crit buff.*
+
+.
+**__Phase 1__**
+<:ecb:615618531937222657> <:eofspec:746403211908481184> (at 3.0s) → far stall <:sgb:626466665848242186> <:eofspec:746403211908481184> → r <:sgb:626466665848242186> <:eofspec:746403211908481184> + <:bolg:994189289623662702> <:spec:537340400273195028> → <:gricocaroming:867678153966878740> → 7t <:rapid:535541270521708566> → <:dbow:643848618553507843> <:eofspec:746403211908481184> / <:snap:535534127131394088> → <:snipe:535541258425204770> → <:snap:535534127131394088> / <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:gricocaroming:867678153966878740> → <:mds:535541259033378827> / <:bolg:994189289623662702> <:spec:537340400273195028>
+
+.
+**__Phase 2__**
+<:gconc:869285393223254107> → <:gchain:787904334495088672> → <:tsunamiincite:958989794757730307> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:deathsporearrows:900758234527301642> → <:snipe:535541258425204770> → <:rapid:535541270521708566> (swap to <:fularrow:971025696958853180> on 3/4 <:deathsporearrows:900758234527301642> stacks) → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → target amalg <:shadowamalg:878739232951255091> + <:deathsporearrows:900758234527301642> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:deathsporearrows:900758234527301642> <:gdeathsswift:994644354536837121> → <:stormshards:536256663641128971> → <:fularrow:971025696958853180> <:incend:535541258429661215> → <:snipe:535541258425204770> → <:gricocaroming:867678153966878740>
+
+.
+**__Phase 3__**
+<:ecb:615618531937222657> <:eofspec:746403211908481184> → <:decimation:643848618477879328> <:eofspec:746403211908481184> → <:shadowtend:642713547142332416> / <:piercing:535541258538450944> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:rapid:535541270521708566> (cancel at 7 <:perfectequilibrium:1006119102814887957> stacks) → <:bolg:994189289623662702> <:spec:537340400273195028> → if not phased here improv
+
+.
+**__Pilars__**
+⬥ <:gricocaroming:867678153966878740> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:piercing:535541258538450944> → <:bolg:994189289623662702> <:spec:537340400273195028>
+⬥ <:piercing:535541258538450944> → <:snap:535534127131394088> → <:gricocaroming:867678153966878740> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:bolg:994189289623662702> <:spec:537340400273195028> (apot and equip <:deathsporearrows:900758234527301642> for cd if needed)
+⬥ <:rapid:535541270521708566> (cancel on 3 <:perfectequilibrium:1006119102814887957> stacks) → <:mds:535541259033378827> → <:meteorstrike:535532879359377439> → <:gricocaroming:867678153966878740> → <:snipe:535541258425204770> → <:piercing:535541258538450944>
+⬥ <:deathsporearrows:900758234527301642> <:gdeathsswift:994644354536837121> → <:fularrow:971025696958853180> <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:gricocaroming:867678153966878740> → <:bolg:994189289623662702> <:spec:537340400273195028>
+*Note: The pillars rotation is a guideline, feel free to improvise depending on adren, <:perfectequilibrium:1006119102814887957> stacks and kill speed.*
+
+.
+**__Zaros__**
+<:piercing:535541258538450944> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:piercing:535541258538450944> → <:dbow:643848618553507843> <:eofspec:746403211908481184> / <:snap:535534127131394088> → <:gricocaroming:867678153966878740> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:piercing:535541258538450944> → <:bolg:994189289623662702> <:spec:537340400273195028> → improv until dead
+
 > **__Example Kills__**
 .tag:examples
 .
@@ -122,7 +147,7 @@ use <:fsoa:869284271595069451>
     "fields": [
       {
         "name": "__4-man__",
-        "value": "⬥ [2:15.6](https://www.youtube.com/watch?v=y9P30NjGVAU) by Hero1\n⬥ [2:33 4-man DPS](https://youtu.be/UIC2ccDpnyo ) by <@259011909976719360> (old rotation)"
+        "value": "⬥ [2:09 UG PoV](https://youtu.be/C5MSUCs6DIs ) by <@259011909976719360>\n⬥ [2:09.6 UG PoV](https://youtu.be/URs8M7y3pN0 ) by <@259011909976719360>"
       }
     ]
   }
@@ -132,7 +157,7 @@ use <:fsoa:869284271595069451>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Minion Lure]($linkmsg_lure$)\n⬥ [Magic Rotations]($linkmsg_magicrotations$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Minion Lure]($linkmsg_lure$)\n⬥ [Mage/Melee Base Rotation]($linkmsg_magemeleebase$)\n⬥ [Ranged MT/Free Rotations]($linkmsg_rangedmt$)\n⬥ [Example Kills]($linkmsg_examples$)",
     "color": 39423
   }
 }
