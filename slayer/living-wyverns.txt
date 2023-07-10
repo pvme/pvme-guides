@@ -1,0 +1,163 @@
+> __**Living Wyverns**__
+.tag:wyvern
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+**__Introduction__**
+.tag:intro
+Wyverns are one of the 4 raptor mobs, and are known for their unique environmental effects and highly damaging attacks. They offer decent <:slayer:797896049548066857> XP, and are a consistent source of GP due to their wyvern bone drops.
+
+⬥ The Dragon slayer perk and sigil <:dragonslayerperk:689502927731163170> <:dragonslayer:641339921814126594>, along with any other dragon-slaying related items such as <:jasdragonbanearrow:971025697042755584>, do **NOT** work on wyverns.
+
+.
+**__Stats__**
+⬥ <:combat:797896050370281523> XP per kill : 1859 + 613.4 <:constitution:689509250887712902>
+⬥ <:slayer:797896049548066857> XP per kill : 1878.8
+⬥ Optimal kills per hour: ~760 (~530 AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~1.4M (~995K AFK)
+
+.
+**__Desirable Drops__**
+.tag:drops
+⬥ Wyverns have a rich drop table, with each kill being worth <:coins:698816156961603654> $data_pvme:Slayer!D41$. They are the best source of Wyvern bones, an ingredient for super prayer potions.
+
+.
+⬥ For the slayer log, Wyverns are also killed for their unique drop, the Wyvern Crossbow <:wyverncrossbow:580177522587729940>, a T85 crossbow dropped at a rate of 1/2000 on-task and 1/10,000 off-task.
+
+.
+**__Location and How to Get There__**
+.tag:location
+Living Wyverns are found in 2 locations:
+1. The Asgarnian Ice Dungeon, accessed via a rope in the south of the Skeletal Wyvern room.
+    a. The easiest way to get there would be via dungeoneering cape teleport <:dgcape:976732922545586246> to the Frost dragon dungeon (0,8)
+2. **Northeast of Ghorrock, accesed via the Ghorrock teleport (ancient spellbook)**
+    a. This location is the one that should be primarily used due to it benefitting from the <:infernalpuzzlebox:994189299681607800> and <:jasboost:1006121672790773770>
+    b. Wyverns are also attackable from areas without the chill mechanic, making it viable to be stationary and AFK in this location.
+
+.
+**__Mechanics__**
+.tag:mechanics
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Wyrm breath__",
+        "value": "⬥ Wyverns have a breath attack different from that of dragons, and requires **wyrmfire** protection.\n\u00a0\u00a0\u00a0\u00a0• Use wyrmfire potions or elder overload salves to block all damage from this attack.\n\u200B"
+      },
+      {
+        "name": "__Cavern chill__",
+        "value": "⬥ Wyverns reside in a habitat which slowly increases the player's cold percentage.\n\u00a0\u00a0\u00a0\u00a0• The higher the chill percentage, the lower the poison damage taken by the player. No poison damage will be taken by players with ~70% chill.\n\u00a0\u00a0\u00a0\u00a0• At ≥25% chill, wyvern attack damage increases to 2500 from around 1300.\n\u00a0\u00a0\u00a0\u00a0• At ≥90% chill, players will be periodically stunned at 8-10% per stun, **Never let your chill reach this stage.**\n\u00a0\u00a0\u00a0\u00a0• There are fires throughout wyvern habitats, lighting them and standing within 2 tiles of them will lower the player's chill percentage.\n\u00a0\u00a0\u00a0\u00a0• **This mechanic is avoided completely by standing outside of area affected by cavern chill in the wilderness.**\n\u200B"
+      },
+      {
+        "name": "__Wyrm poison__",
+        "value": "⬥ Wyverns can inflict poison damage based on the percentage of **Caven chill** every 4-5 ticks.\n\u00a0\u00a0\u00a0\u00a0• Antipoison++ halves the poison damage, but every tick of poison decreases potion duration.\n\u00a0\u00a0\u00a0\u00a0• **This mechanic is avoided completely by standing outside of area affected by cavern chill in the wilderness.**\n\u200B"
+      },
+      {
+        "name": "__Varied attacking__",
+        "value": "⬥ Wyverns can attack with all 3 styles, alongside their breath attack.\n\u00a0\u00a0\u00a0\u00a0• They will attack with primarily <:melee:1096130867279171706> if the player stands in melee range.\n\u00a0\u00a0\u00a0\u00a0• Hence, either stand in melee distance and use <:deflectmelee:544195488447201300> or camp <:soulsplit:615613924506599497> and outheal their damage through high DPS."
+      }
+    ]
+  }
+}
+
+.embed:json
+.
+**__Useful Items__**
+.tag:useful
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [**Elder overload salve**](https://runescape.wiki/w/Elder_overload_salve#(6)) <:elderovlsalve:648976643687317532>\n\u00a0\u00a0\u00a0\u00a0• By far the best potion to use here due to its wyrmfire protection.\n⬥ [**Upgraded bonecrusher**](https://runescape.wiki/w/Bonecrusher#Bonecrusher_upgrade) <:bonecrusher:975284344526602240>\n\u00a0\u00a0\u00a0\u00a0• Extremely useful for gathering wyvern bones, in combination with Death Note <:deathnote:1023150755093426216>\n\u200B"
+      },
+      {
+        "name": "__Passive unlocks__",
+        "value": "⬥ [**Stone of Jas buff**](https://runescape.wiki/w/Stone_of_Jas_(status)) <:jasboost:1006121672790773770>\n\u00a0\u00a0\u00a0\u00a0• Provides a 5% damage increase against living wyverns in the wilderness.\n⬥ [**Infernal Puzzle box**](https://runescape.wiki/w/Infernal_Puzzle_Box) <:infernalpuzzlebox:994189299681607800>\n\u00a0\u00a0\u00a0\u00a0• Provides a 9% damage increase and 14% damage reduction in the wilderness at max rank.\n⬥ [**Death Note**](https://runescape.wiki/w/Death_Note)  <:deathnote:1023150755093426216>\n\u00a0\u00a0\u00a0\u00a0• An extremely helpful relic to help gather valuable wyvern bones."
+      }
+    ]
+   }
+}
+.embed:json
+.
+**__Method: Active/AFK Magic__**
+.tag:magic
+Magic is the best style at wyverns by far, due to their weakness to the <:inquisitorstaff:694566917553520680> and <:animatedead:856635090453135382> damage reduction.
+
+⬥ Wyverns are stunnable and bindable, so <:iceblitz:535613865912696883> + <:wrack:856662355952795658> can be a powerful combo if using 4TAA. Blood spells help with healing, alongside <:vampaura:643505653079343144> if required.
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Active/AFK Magic](https://pvme.github.io/preset-maker/#/zEddIQpQD0Gq3EYZ7eHf)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+**__Active Strategy__**
+⬥ If doing them actively with best-in-slot gear, stand close to the most north-western fire in the wilderness spot (refer to example vod), and use target cycle to target wyverns within range. Use <:dommine:662249620579155968> whenever <:gsunshine:994644352871714836> is used along with <:adrenrenewal:736298121704767538> if available.
+
+⬥ Use opportunistic <:gchain:787904334495088672> combos on any wyverns that wander close to each other.
+
+⬥ When eating solid food, such as sharks dropped by wyverns, try to eat them in the tick between the end of a kill and the start of the next kill when you have no target, as this does not reduce adrenaline.
+
+⬥ If doing wyverns with lesser gear, an <:oldakcoil:798285651387613194> may be used to aggro a limited amount (2-3) of wyverns which makes it more manageable to <:soulsplit:615613924506599497>, as shown below:
+.
+https://youtu.be/2jCihwc-Bd0
+.
+**__AFK Strategy__**
+⬥ If AFKing, stand south of the area out of range of the cavern chill effect.
+    • If positioned correctly, the chill status icon should not be seen on the debuff bar.
+
+⬥ Set your legendary pet to scavenge for **noted items** along with **runes and talismans**.
+    • Besides noted items and salvage, soul runes <:soulrune:536252660333019136> are also valuable common loot.
+
+⬥ One possibility for positioning is as follows (may not be optimal):
+.img:https://img.pvme.io/images/tyAa0uHuw7.png
+.
+**__Revo bar__**
+This bar should be used only for AFKing.
+.img:https://img.pvme.io/images/eYqv4BMoAM.png
+***Note:** Take out <:tuskas:513201065513058306> if AFKing off-task.*
+
+**__Video Examples__**
+.tag:example
+.
+⬥ Active Magic - https://youtu.be/zwcW5uh37gc
+.
+⬥ AFK Magic - https://youtu.be/2a_OTFIkKm0
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <#924484538187522098>*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and how to get there]($linkmsg_location$)\n⬥ [Useful Items and Unlocks]($linkmsg_useful$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Active/AFK Magic]($linkmsg_magic$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
