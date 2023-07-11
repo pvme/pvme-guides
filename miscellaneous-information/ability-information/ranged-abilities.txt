@@ -1,0 +1,422 @@
+> __**Introduction**__
+.tag:intro
+*Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
+
+Some general notes:
+⬥ The game runs on an internal tick system: **1t (tick) = 0.6s (seconds)**.
+⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
+⬥ Auto attacks will only give adrenaline if they hit (splash = no adrenaline gain).
+    • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not given adrenaline.
+⬥ Some useful sheets and resources are given below.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://img.pvme.io/images/7EINzgc.png)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+> **__Ranged__** <:Ranged:689504724403486920>
+This section covers auto attacks and spells, basics, thresholds, ultimate abilities and special attacks for Ranged.
+
+.
+**__Autos__**
+.tag:rangedAutos
+{
+  "embed": {
+    "title": "__Default Ranged Auto__ <:Ranged:689504724403486920>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest: 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Fast: 5t (3.0s)\n\u00a0\u00a0\u00a0\u00a0• Average: 6t (3.6s)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:rangeauto
+
+.
+**__Basics__**
+.tag:rangedBasics
+{
+  "embed": {
+    "title": "__Fragmentation Shot__ <:frag:535541273755385885>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Doubles damage of each hit when walked\n⬥ It is affected by <:lunging:1009423860875153559>:\n\u00a0\u00a0\u00a0\u00a0• Max increases by 20% per <:lunging:1009423860875153559> rank\n\u00a0\u00a0\u00a0\u00a0• Walking bleed only causes it to increase by 50% damage",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:fragshot
+
+.
+{
+  "embed": {
+    "title": "__Corruption Shot__ <:corruptshot:535541306294796299>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a DoT:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Spreads to targets within 2 tiles each hit\n\u00a0\u00a0\u00a0\u00a0• Does *not* aggro said targets",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:corrshot
+
+.
+{
+  "embed": {
+    "title": "__Binding Shot__ <:bindingshot:535541306563231790>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:demoralise:535541258559553546>\n⬥ Stuns for 2t (1.2s) and Binds for 16t (9.6s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> Rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:binding
+
+.
+{
+  "embed": {
+    "title": "__Demoralise__ <:demoralise:535541258559553546>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:bindingshot:535541306563231790>\n⬥ Stuns for 2t (1.2s) and Binds for 16t (9.6s)\n⬥ It causes Knockback:\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:demoralise
+
+.
+{
+  "embed": {
+    "title": "__Escape__ <:escape:535541258832052231>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• For <:range:580168050121113623>: moves you back (weapon attack range - 1) tiles\n\u00a0\u00a0\u00a0\u00a0• For non-<:range:580168050121113623>: moves you back 7 tiles\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ Can be upgraded with a Double Escape codex: <:escapecodex:602561894443778115>\n\u00a0\u00a0\u00a0\u00a0• Gives you a second <:escape:535541258832052231> on its own 34t (17t <:mob:689501908628799488>) internal cooldown that is used after the first",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:escape
+
+.
+{
+  "embed": {
+    "title": "__Snipe__ <:snipe:535541258425204770>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ It is a channeled ability\n⬥ It is affected by Nightmare Gauntlets <:NMG:513190159441723392>, details in <#1025569571710718093>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:snipe
+
+.
+{
+  "embed": {
+    "title": "__Dazing Shot__ <:dazing:535541307142307860>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Target suffers a 10% accuracy decrease on their next attack",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:dazing
+
+.
+{
+  "embed": {
+    "title": "__Greater Dazing Shot__ <:mds:535541259033378827>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ All normal dazing shot things apply\n⬥ Applies the Puncture effect:\n\u00a0\u00a0\u00a0\u00a0• +1 Puncture stack count (caps at 10 stacks) on successful hits\n\u00a0\u00a0\u00a0\u00a0• Deal Puncture Stack * (5.8-7.2%) bleed damage over its full duration\n\u00a0\u00a0\u00a0\u00a0• Refreshes timer before clearing Puncture stacks to 9s even on splashes\n\u00a0\u00a0\u00a0\u00a0• Bleed start from the beginning again at its current Puncture stacks",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:gds
+
+.
+{
+  "embed": {
+    "title": "__Needle Strike__ <:needle:535541259108876293>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ The damage of the next ability done on the main target is increased by 7%.\n\u00a0\u00a0\u00a0\u00a0• Damage done within two ticks is boosted, meaning both Snap Shot <:snap:535534127131394088> hits are boosted, all of Greater Ricochet <:grico:787904334812807238> is boosted, two hits of Rapid Fire <:rapid:535541270521708566> are boosted, etc.",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:needle
+
+.
+{
+  "embed": {
+    "title": "__Ricochet__ <:ricochet:535541259566186521>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Hits within a 5 square radius from SW tile of initial target\n\u00a0\u00a0\u00a0\u00a0• Hits 3 targets, inclusive of main\n\u00a0\u00a0\u00a0\u00a0• Does not hit things on initial target's SW tile\n⬥ It is affected by Caroming <:caroming4:791281588792590336>\n\u00a0\u00a0\u00a0\u00a0• Ricochet hits Caroming rank more targets\n⬥ Not affected by Chinchompas <:mechchin:641669268722810881>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:ricochet
+
+.
+{
+  "embed": {
+    "title": "__Greater Ricochet__ <:grico:787904334812807238>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ All normal <:ricochet:535541259566186521> things apply\n⬥ It has an additional effect:\n⬥ Any non-primary <:ricochet:535541259566186521> hit that does not hit an additional target will instead hit the primary target. The first two additional hits deal 10-50% ability damage; any further additional hits provided by the Caroming perk <:caroming4:791281588792590336> deal 5-15% ability damage",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:grico
+
+.
+{
+  "embed": {
+    "title": "__Piercing Shot__ <:piercing:535541258538450944>",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Fires 2 hits\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 44.5-71.5% per hit basic\n⬥ Affected by <:energising:1009423839341576294>\n\u00a0\u00a0\u00a0\u00a0• Gain (E<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:piercing
+
+.
+**__Thresholds__**
+.tag:rangedThresholds
+{
+  "embed": {
+    "title": "__Snap Shot__ <:snap:535534127131394088>",
+    "description": "⬥ Cooldown: 34t (20.4s)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:snap
+
+.
+{
+  "embed": {
+    "title": "__Shadow Tendrils__ <:shadowtend:642713547142332416>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ Calculates damage on activation\n⬥ Incurs auto cooldown 2t (if fastest then 3t) after activation",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:shadowtendril
+
+.
+{
+  "embed": {
+    "title": "__Rapid Fire__ <:rapid:535541270521708566>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Binds for 10t (6s)\n⬥ Channelled ability\n⬥ Affected by Fleeting Boots <:fleetingboots:789813993480388640>\n\u00a0\u00a0\u00a0\u00a0• Lets you move while channeling <:rapid:535541270521708566>\n\u00a0\u00a0\u00a0\u00a0• Increases hitchance of <:rapid:535541270521708566> by 10%",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:rapid
+
+.
+{
+  "embed": {
+    "title": "__Bombardment__ <:bombard:535541306391265284>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with target's true centre (SW tile) as centre\n⬥ Not affected by Chinchompas <:mechchin:641669268722810881>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:bmbard
+
+.
+{
+  "embed": {
+    "title": "__Salt the Wound__ <:stw:535541259109138463>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n⬥ It is affected by Puncture:\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 18% per Puncture stack\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 3.6% per Puncture rank\n\u00a0\u00a0\u00a0\u00a0• This means at 10 stacks <:stw:535541259109138463>'s damage range is 73.6%-368%\n⬥ It affects Puncture:\n\u00a0\u00a0\u00a0\u00a0• Refreshes the timer before clearing Puncture stacks to 9s\n\u00a0\u00a0\u00a0\u00a0• Bleed starts from the beginning again at its current Puncture stacks",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:salt
+
+.
+{
+  "embed": {
+    "title": "__Tight Bindings__ <:tight:535541275957657600>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with <:rout:535541259268521994>\n⬥ Stuns for 6t (3.6s) and Binds for 16t (9.6s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:tightbinding
+
+.
+{
+  "embed": {
+    "title": "__Rout__ <:rout:535541259268521994>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It shares cooldown with <:tight:535541275957657600>\n⬥ Stuns for 6t (3.6s)\n⬥ It causes Knockback\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:rout
+
+.
+**__Special Attacks__**
+.tag:rangedSpecials
+{
+  "embed": {
+    "title": "__Dark Bow__ <:dbow:643848618553507843>",
+    "description": "⬥ Adrenaline Cost: 65% (58.5% with <:vigour:615613235512737792>)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:dbow
+
+.
+{
+  "embed": {
+    "title": "__Seren Godbow__ <:sgb:626466665848242186>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)\n⬥ To see how use the special attack, use `!sgb` in <#534563158304620564>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:sgb
+
+.
+{
+  "embed": {
+    "title": "__Eldritch Crossbow__ <:ecb:615618531937222657>",
+    "description": "⬥ Special Attack: Split Soul\n⬥ Adrenaline Cost: 25% (22.5% with <:vigour:615613235512737792>)\n\u00a0\u00a0\u00a0\u00a0• Lasts 25t (t0-t24)\n\u00a0\u00a0\u00a0\u00a0• Anything <:soulsplit:615613924506599497> would have healed whilst spec is active instead deals Blight damage equal to 4 * <:soulsplit:615613924506599497> heal amount\n\u00a0\u00a0\u00a0\u00a0• To get the Split Soul damage both the <:soulsplit:615613924506599497> heal and the hit of the ability must occur within the duration of the special\n\u00a0\u00a0\u00a0\u00a0• Special attack is lost if mainhand weapon is switched while active\n\u00a0\u00a0\u00a0\u00a0• Blight damage is affected a second time by Vulnerability <:Vuln:537349530551582720>, X Slayer sigils <:demonslayer:641339921675845633> <:dragonslayer:641339921814126594> <:undeadslayer:641339922019516416>, the NopeNopeNope PoF perk, and X Slayer perks <:undeadslayerperk:689502804720615441> <:demonslayerperk:689502842653900818> <:dragonslayerperk:689502927731163170>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:ecb
+
+.
+{
+  "embed": {
+    "title": "__Bow of the Last Guardian__ <:bolg:994189289623662702>",
+    "description": "⬥ Special Attack: Balance by Force\n⬥ Adrenaline Cost: 30% (27% with <:vigour:615613235512737792>)\n\u00a0\u00a0\u00a0\u00a0• Lasts 50t (t0-t49)\n\u00a0\u00a0\u00a0\u00a0• While active, the number of stacks needed to trigger the passive effect is lowered to 4\n\u00a0\u00a0\u00a0\u00a0• If 3 or more <:perfectequilibrium:1006119102814887957> stacks when used the passive effect will trigger\n\u00a0\u00a0\u00a0\u00a0• For more info on how to use the special attack, use `!bolg` in <#534563158304620564>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:bolg
+
+.
+**__Ultimates__**
+.tag:rangedUltimates
+{
+  "embed": {
+    "title": "__Death's Swiftness__ <:deathsswift:994921434633744455>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an on cast buff\n⬥ Increases damage by 50% from t0→t51 (52t/31.2s duration); buff starts t1\n⬥ It has a 7x7 buff radius\n⬥ It does not incur the auto cooldown\n⬥ Planted Feet <:pf:689501925770919981> increases duration to t0→t63 (64t/38.4)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:ds
+
+.
+{
+  "embed": {
+    "title": "__Greater Death's Swiftness__ <:gdeathsswift:994644354536837121>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Duration is 1 tick longer than <:deathsswiftpf:994921597813137518>, t0→t64 (65t/39s duration)\n\u00a0\u00a0\u00a0\u00a0• Using <:pf:689501925770919981> does not extend this further\n⬥ <:gdeathsswift:994644354536837121> retains the DoT effect of <:deathsswift:994921434633744455>\n\u00a0\u00a0\u00a0\u00a0• Using <:pf:689501925770919981> will cancel this",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:greaterds
+
+.
+{
+  "embed": {
+    "title": "__Incendiary Shot__ <:incend:535541258429661215>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with target's true centre (SW tile) as centre\n⬥ It provides an Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, critical hits give 10% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on hit of the ability\n⬥ Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:incend
+
+.
+{
+  "embed": {
+    "title": "__Deadshot__ <:deadshot:535541307666595870>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is mostly a Bleed:\n\u00a0\u00a0\u00a0\u00a0• It does 6 hits, 5 of which are a bleed which means:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits 5 times total, once every 2t (1.2s)\n⬥ Affected by the Igneous Kal-Xil <:igneouskalxil:902209626404171786> or the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n\u00a0\u00a0\u00a0\u00a0• Ability damage is increased.\n\u00a0\u00a0\u00a0\u00a0• The total number of bleed hits increases to 7, from 5\n\u00a0\u00a0\u00a0\u00a0• Adrenaline cost reduced to 60%.",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:deadshot
+
+.
+{
+  "embed": {
+    "title": "__Unload__ <:unload:535541258664411169>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Channelled ability",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:unload
+
+.
+{
+  "embed": {
+    "title": "<:range:580168050121113623> __Ranged Ability Index__ <:Ranged:689504724403486920>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 3066993,
+    "fields": [
+      {
+        "name": "__Auto and Basics__ (1/2)",
+        "value": "⬥ [Default Auto]($linkmsg_rangeauto$)\n⬥ [Frag. Shot]($linkmsg_fragshot$)\n⬥ [Corr. Shot]($linkmsg_corrshot$)\n⬥ [Binding Shot]($linkmsg_binding$)\n⬥ [Demoralise]($linkmsg_demoralise$)\n⬥ [Escape]($linkmsg_escape$)\n⬥ [Snipe]($linkmsg_snipe$)",
+        "inline": true
+      },
+      {
+        "name": "__Auto and Basics__ (2/2)",
+        "value": "⬥ [Dazing Shot]($linkmsg_dazing$)\n⬥ [G. Dazing Shot]($linkmsg_gds$)\n⬥ [Needle Strike]($linkmsg_needle$)\n⬥ [Ricochet]($linkmsg_ricochet$)\n⬥ [G. Ricochet]($linkmsg_grico$)\n⬥ [Piercing Shot]($linkmsg_piercing$)",
+        "inline": true
+      },
+      {
+        "name": "__Thresholds__",
+        "value": "⬥ [Snapshot]($linkmsg_snap$)\n⬥ [Shadow Tendrils]($linkmsg_shadowtendril$)\n⬥ [Rapid Fire]($linkmsg_rapid$)\n⬥ [Bombard]($linkmsg_bmbard$)\n⬥ [Salt The Wound]($linkmsg_salt$)\n⬥ [Tight Bindings]($linkmsg_tightbinding$)\n⬥ [Rout]($linkmsg_rout$)",
+        "inline": true
+      },
+      {
+        "name": "__Special Attacks__",
+        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Death's Swiftness]($linkmsg_ds$)\n⬥ [G. Death's Swiftness]($linkmsg_greaterds$)\n⬥ [Incendiary Shot]($linkmsg_incend$)\n⬥ [Deadshot]($linkmsg_deadshot$)\n⬥ [Unload]($linkmsg_unload$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:rangedIndex
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <#924484538187522098>*",
+    "color": 39423,
+    "fields": [
+			{
+      	"name": "__Ranged Abilities__ <:range:580168050121113623>",
+        "value": "⬥ [Auto Attacks]($linkmsg_rangedAutos$)\n⬥ [Basics]($linkmsg_rangedBasics$)\n⬥ [Thresholds]($linkmsg_rangedThresholds$)\n⬥ [Special Attacks]($linkmsg_rangedSpecials$)\n⬥ [Ultimates]($linkmsg_rangedUltimates$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
