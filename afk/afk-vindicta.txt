@@ -11,40 +11,26 @@
 
 .
 > **__Melee AFK Strategy (~30-38 kph) (Courtesy of <@!108682527304060928> & <@!355535846117605378>)__**
-.tag:meleeafk
-***Note:** this setup/guide is VERY new and is subject to change in the near future.*
-
-**__Explanation__**
-⬥ KPH can vary wildly depending on the weapon you use.
+.tag:meleeAFK
+⬥ The KPH is highly affected by weapon choice.
     • Due to the need to be within melee range, variable amounts of time may also be lost from running around the arena between kills.
+
 ⬥ <:DeflectMage:544195487926845462> and <:animatedead:856635090453135382> are **necessary** to mitigate Vindicta & Gorvek's near-constant fire damage.
+
 ⬥ The Masterwork Spear of Annihilation <:mwspear:694566917456789554> or Abyssal scourge <:abyssalscourge:947871842469834832> are the best weapon choices for this setup due to their passive effects and T92 accuracy.
     • If not owned, other 2-handed melee weapons such as Superior Vesta's Spear <:vestaspear:852661743682846720> or Noxious Scythe <:noxscythe:513190159341322240> should be usable, granting slower kills.
 
 .
-__**Aura Choice**__
-⬥ Aura choice can vary, but will affect how afk kills can be. They are listed in order of effectiveness:
-    • Vampyrism <:vamp:643505653079343144> - Provides extra safety through its healing. Due to the constant damage being taken while fighting Vindicta & Gorvek, this is by far the safest and most reliable aura choice to afk with.
-    • Penance <:penance:643505653062565907> - Allows for the most AFK experience, but is less safe to use. **Pay attention to your HP with this aura, and to be prepared to eat.**
-    • Dark Magic <:dm:643505652571963417> - Provides extra damage at the cost of paying attention to both your HP and your prayer points. This should be an effective aura for fast kills, but is the least AFK choice.
+**__Auras__**
+⬥ Aura choice can vary, but will affect how AFK kills can be. They are listed in order of effectiveness:
+    • Vampyrism <:vamp:643505653079343144> - Provides extra safety through its healing. Due to the constant damage being taken while fighting Vindicta & Gorvek, this is by far the safest and most reliable aura choice to AFK with.
+    • Penance <:penance:643505653062565907> - Allows for the most AFK experience, but is less safe to use. **Monitor your HP if using this aura, and to be prepared to eat.**
+    • Dark Magic <:dm:643505652571963417> - Provides extra damage at the cost of paying attention to both your HP and your prayer points. This should be an effective aura for fast kills but is the least AFK choice.
     • Mahjarrat <:mahj:643148943856762890> - Provides extra damage, but does not provide anything else. Still, it is a viable option as a secondary aura.
-    • <:berserker:643505116347105290> **Do __not__ use Berserker** for afking, as it will get you killed very easily.
+    • <:berserker:643505116347105290> **Do __not__ use Berserker** for AFKing, as it will get you killed very easily.
 
 .
-__**Mandatory AFK Requirements**__
-.
-{
-  "embed": {
-    "description":"This setup should reliably allow you to afk Vindicta.\nThe following are required or this method will not work:\n\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Enchantment of Agony <:enchantmentofagony:1006481311378190456>\n⬥ Superior/Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> > <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Deflect Magic <:DeflectMage:544195487926845462>\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Powder of Penance <:powderofpenance:928221126360969226>\n⬥ Enhanced Devoted <:enhdev4:712073087507628035>\n⬥ Ripper Demon <:ripperpouch:703581275453128714>\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530>",
-    "color": 39423,
-    "footer": {
-      "text": "Cutting corners will result in failure"
-    }
-  }
-}
-.embed:json
-.
-> **__Preset__**
+**__Preset__**
 .
 {
   "embed": {
@@ -61,6 +47,19 @@ __**Mandatory AFK Requirements**__
 }
 .embed:json
 .
+__**Mandatory AFK Requirements**__
+.
+{
+  "embed": {
+    "description":"This setup should reliably allow you to AFK Vindicta.\nThe following are required or this method will not work:\n\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Enchantment of Agony <:enchantmentofagony:1006481311378190456>\n⬥ Superior/Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> > <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Deflect Magic <:DeflectMage:544195487926845462>\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Powder of Penance <:powderofpenance:928221126360969226>\n⬥ Enhanced Devoted <:enhdev4:712073087507628035>\n⬥ Ripper Demon <:ripperpouch:703581275453128714>\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530>",
+    "color": 39423,
+    "footer": {
+      "text": "Cutting corners will result in failure"
+    }
+  }
+}
+.embed:json
+.
 **__Action Bar__**
 .
 .img:https://img.pvme.io/images/q9cwS81.png
@@ -73,64 +72,45 @@ __**Mandatory AFK Requirements**__
 .
 https://youtu.be/jkyY0J7k89o
 .
-*Note - Video is outdated, but shows the general strategy and its usage at all of GWD2.*
+***Note:** Video is outdated, but shows the general strategy and its usage at all of GWD2.*
 
 .
 > **__Mage AFK Strategy (~41-50 kph) (Courtesy of <@!108682527304060928> and <@!502132499271385098>)__**
-.tag:mageafk
+.tag:mageAFK
 .
-**__Explanation__**
-⬥ This method will net less kills per hour but may be used if you do not wish to put high amounts of effort into a mid level boss. KPH can vary wildly depending on the weapon you use, not to mention the potential of running all over the boss arena and losing time to that.
-⬥ It is important to pray <:soulsplit:615613924506599497> as this method relies on healing through Vindicta & Gorvek's near-constant fire damage. It is also important to use the **Animate Dead** spell, as the method heavily relies on its usage.
+⬥ The KPH for this varies highly depending on the weapons and setup used.
+
+⬥ It is important to use **Animate Dead** <:animatedead:856635090453135382> and pray <:soulsplit:615613924506599497> to achieve the healing and damage mitigation needed.
+
 ⬥ It is assumed that you will use a **Legendary Pet** for this setup. If you choose to forego auto-looting and bring a **Ripper Demon** <:ripperpouch:703581275453128714> instead, you can expect 7-9 more kills per hour.
+    • If using a setup to the lower end, switching to a hellhound <:hellhoundpouch:921410226475925514>, blood reaver <:reaverpouch:839903693837959228> (with autofire on 10-15) or ripper <:ripperpouch:703581275453128714> can increase safety.
 
-.
-⬥ Aura choice can vary, but will affect how fast or consistent can be. They are listed in order of effectiveness:
-    • <:dm:643505652571963417> Dark Magic provides extra damage, allowing for faster and more consistent kills. This is going to be your best aura choice, and KPH figures used in this section are based on the usage of this aura.
-    • <:mahj:643148943856762890> Mahjarrat Aura provides extra damage, but is not able to be refreshed like Dark Magic.
-    • <:vamp:643505653079343144> Vampyrism Aura provides extra safety through its healing. Due to the constant damage being taken while fighting Vindicta & Gorvek, this is a safe aura choice to afk with.
-    • <:mani:643505153709965322> **Do __not__ use Maniacal** for afking, as it will get you killed very easily.
-    • <:penance:643505653062565907> Penance Aura allows a very afk experience, but is rendered obselete by Penance Powder. It is no longer worth using this aura.
-
-.
 ⬥ Autocasting Exsanguinate <:exsanguinate:856635090745950258> with dual-wield magic weapons <:praeswand:643166769518739477> <:impercore:643166751067996160> will be most effective for this setup.
+
 .
-> **__Mandatory AFK Requirements__**
+__**Auras**__
 .
-{
-  "embed": {
-    "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Vindicta.\nThe following are required or this method will not work:\n\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Adrenaline retention (relic is higher KPH) <:persistentrage:739965637056659567> <:adrenurn:656426717413507074>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Torment <:torment:583429936958930964> / Affliction <:Affliction:513190158468907008>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Amulet of Souls <:aos:513190158359724056> or better \n⬥ Powder of Penance <:powderofpenance:928221126360969226>\n⬥ Greater Concentrated Blast <:gconc:869285393223254107>\n⬥ Scripture of Ful <:scriptureofful:902209626412560395> or Scripture of Jas <:jasgodbook:869284342839513108>\n⬥ Auto-retaliate is on",
-    "color": 39423,
-    "footer": {
-      "text": "Cutting corners will result in failure"
-    }
-  }
-}
-.embed:json
+⬥ Aura choice can vary but will affect how fast or consistent kills will be. They are listed __**in order of effectiveness**__:
+    • Dark Magic <:dm:643505652571963417> - Provides extra damage, allowing for fast and consistent kills. This is the **best** aura choice, and KPH figures used in this section are based on the usage of this aura.
+    • Mahjarrat <:mahj:643148943856762890> - Provides extra damage, similar to <:darkmagic:643505652571963417>
+    • Vampyrism <:vamp:643505653079343144> - Provides extra safety through its healing. Due to the constant damage being taken while fighting Vindicta & Gorvek, this is a safe aura choice to AFK with.
+    • <:mani:643505153709965322> Should __**NOT**__ be used as this __**WILL**__ lead to death.
+
 .
-**__Preset__**
-⬥ **Runes** - Runes required to cast Animate Dead and Exsanguinate <:Soulrune:536252660333019136>, <:Bloodrune:536252658970001409>, <:Deathrune:536252659586433024>, <:Earthrune:536252659808731137>, <:Firerune:536252659850674186>.
-⬥ <:cryptbloomhelm:892819107123195956> **Cryptbloom + Ganodermic Armor** - Magic tank armor is required for **Animate Dead** <:animatedead:856635090453135382>, and the magic damage reduction from Cryptbloom armor is needed to mitigate enough damage for this afk method. While at least 3 pieces of Cryptbloom armor are recommended, you can get away with using 2 with some more added risk. The rest of your non-Cryptbloom armor should be filled out with **Ganodermic or better**.
-⬥ <:channellerring:839903943404027914> **Channeller's Ring** - Can be substituted for other strong rings (Asylum Surgeon's <:asr:513190158472839208> or Ring of Death <:RoD:513190159462825984>).
-⬥ <:potionreservoir:878739200407654431> **Potion reservoir** - Can store up to 6 doses of a potion (e.g. overload), and automatically refresh that potion when its duration is low.
-⬥ <:powderofpenance:928221126360969226> **Powder of Penance** - Restores prayer points equal to 2.5% of damage taken. Each one lasts for 30 minutes, and completely mitigates the need for prayer potions or the Penance aura.
-⬥ <:SpiritSticks:565726489136463894> **Spirit Weed Incense Sticks** - Restores familiar special attack points 40% faster, recommended if you opt to use a Ripper Demon <:ripperpouch:703581275453128714> instead of a legendary pet.
+**__Presets__**
 .
-> **__Presets__**
-.tag:presets
 {
   "embed": {
     "title": "",
     "color": 39423,
     "fields": [
       {
-        "name": "__Minimum Settup__",
+        "name": "__Minimum setup__",
         "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/JHukc40JF76pV7fLdz36)",
         "inline": true
         },
         {
-        "name": "__Ideal Settup__",
+        "name": "__Default setup__",
         "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/SdR1V3ElMQe2ZrNiLE3R)",
         "inline": true
       }
@@ -138,55 +118,90 @@ https://youtu.be/jkyY0J7k89o
   }
 }
 .embed:json
-*Note: While the minimum settup can get kills, there may be times when you sign, proc ROD or die. The chance of this happening can be reduced by upgrading items in the preset, or switching to a hellhound <:hellhoundpouch:921410226475925514>, blood reaver <:reaverpouch:839903693837959228> (with autofire on 10-15) or ripper <:ripperpouch:703581275453128714>. It is important to use the correct perks, as relentless with the lowest weapons can cause deaths.*
-__**Relics**__
-⬥ <:conservationofenergy:697808773711921195> **Conservation of Energy**
-⬥ <:persistentrage:739965637056659567> **Persistent Rage**
-⬥ <:furyofthesmall:697808773917573233> **Fury of the Small** / <:deathward:697808774068699286> **Death ward**
+***Note:** While the **minimum** setup obtains fairly consistent kills, there may be times when you sign, proc ROD or die. The chance of this happening can be reduced by upgrading items in the preset, using the recommendations stated below. It is important to use the correct perks, as with the lower setups **relentless can cause deaths**.*
+
+.
+**__Mandatory AFK Requirements__**
+.
+{
+  "embed": {
+    "description":"This setup should reliably allow you to AFK Vindicta.\nThe following are required or this method will not work:\n\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Adrenaline retention (relic is higher KPH and more consistent) <:persistentrage:739965637056659567> <:infernalpuzzlebox:994189299681607800> <:adrenurn:656426717413507074>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Torment <:torment:583429936958930964> / Affliction <:Affliction:513190158468907008>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Amulet of Souls <:aos:513190158359724056> or better \n⬥ Greater Concentrated Blast <:gconc:869285393223254107>\n⬥ Scripture of Ful <:scriptureofful:902209626412560395> or Scripture of Jas <:jasgodbook:869284342839513108>\n⬥ At least two pieces of Cryptbloom armour <:cryptbloomgloves:892819106879922179> <:cryptbloomboots:892819107236433930>\n⬥ Auto-retaliate is on <:autoretaliate:1084799717726228530>",
+    "color": 39423,
+    "footer": {
+      "text": "Cutting corners will result in failure"
+    }
+  }
+}
+.embed:json
 **__Action Bar:__**
 .img:https://img.pvme.io/images/WwGHCbL.png
+***Note:** If <:igneouskalmej:902209626408382494> is not owned, remove <:omni:535533809664262179>. This will make kills less consistent.*
 
+.
+**__Recommendations__**
+.
+{
+  "embed": {
+    "color": 39423,
+    "description":"The following optimisations are recommended to improve consistency/AFKness:\n\n⬥ Exsanguinate<:exsanguinate:856635090745950258>\n⬥ 3 pieces of Cryptbloom <:cryptbloomhelm:892819107123195956> armour\n⬥ Rings listed in order of effectiveness: <:channellerring:839903943404027914> <:RoD:513190159462825984> <:asr:513190158472839208>\n⬥ Potion Reservoir <:potionreservoir:878739200407654431> to auto renew overloads.\n⬥ Penance Powder <:powderofpenance:928221126360969226> to restore prayer points. \n⬥ Spirit Weed Incense sticks <:SpiritSticks:565726489136463894> if using a Ripper Demon <:ripperpouch:703581275453128714> to restore special attack points faster.\n⬥ Zuk Cape <:igneouskalmej:902209626408382494> / <:igneouskalzuk:902209626479685734>\n⬥ Greater Sunshine <:gsunshine:994644352871714836> (If this is not owned it is worth considering putting <:pf:689501925770919981> on your gear)"
+  }
+}
+.embed:json
 .
 **__KPH with different setups__**
 ⬥ Using <:ripperpouch:703581275453128714> and <:SpiritSticks:565726489136463894> - **50** KPH
 ⬥ Using <:ripperpouch:703581275453128714> - **48.5** KPH
 ⬥ Default setup - **41** KPH
+
+.
+**__Video Examples__**
 .
 {
   "embed": {
+    "description": "⬥ [Minimum Gear](https://youtu.be/221XcYL-Jko)\n⬥ [Recommended setup](https://www.youtube.com/watch?v=ac0QRUNXazo)",
+    "color": 39423
+  }
+}
+.embed:json
+.
+> **__AFK Ranged Strategy (~48-50 kph)__ (Courtesy of <@145884917627224065>)**
+.tag:AFKrange
+.
+⬥ It is important to pray <:soulsplit:615613924506599497> as this method relies on constant healing. It is also important to use the **Animate Dead** <:animatedead:856635090453135382> spell, as the method heavily relies on its usage.
+
+.
+⬥ For fastest kill speeds, a Bow of the Last Guardian <:bolg:994189289623662702> should be used. A Seren Godbow <:sgb:626466665848242186> or Noxious Bow <:noxbow:513190159425208342> are slightly slower substitutes.
+
+.
+**__Auras__**
+⬥ Vampyrism <:vamp:643505653079343144> - Provides extra safety through its healing, this is by far the safest and most reliable aura choice to AFK with. **The only viable aura for this method.**
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
     "color": 39423,
     "fields": [
       {
-        "name": "__Example/Supplementary Videos__",
-        "value": "⬥ [Minimum Gear](https://youtu.be/221XcYL-Jko)\n⬥ [Recommended settup](https://www.youtube.com/watch?v=ac0QRUNXazo)"
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK Vindicta Ranged](https://pvme.github.io/preset-maker/#/eENZDMMh6E6zojBfp1ll)",
+        "inline": true
       }
     ]
   }
 }
 .embed:json
 .
-> **__AFK Ranged Strategy (~48-50 kph)__ (Courtesy of <@145884917627224065>)**
-.tag:afkrange
-.
-**__Explanation__**
-⬥ This method will net less kills per hour but may be used if you do not wish to put high amounts of effort into a mid level boss.
-⬥ It is important to pray <:soulsplit:615613924506599497> as this method relies on constant healing. It is also important to use the **Animate Dead** spell, as the method heavily relies on its usage.
+***Note:** This method can be dangerous, it is advised to take a few pieces of food <:brew:565726489400573962> <:blueblubber:689530593742291033> and an enhanced Excalibur <:excal:641337999170207763> for emergency sustain.*
 
 .
-⬥ Aura choice (Vampyrism is the only aura advised for this method):
-    • <:vamp:643505653079343144> Vampyrism Aura provides extra safety through its healing, this is by far the safest and most reliable aura choice to afk with.
-    • <:reckless:643505179378974748> **Do __not__ use Reckless** for afking, as it will get you killed very easily.
-
-.
-⬥ For fastest kill speeds, a Bow of the Last Guardian <:bolg:994189289623662702> should be used. A Seren Godbow <:sgb:626466665848242186> or Noxious Bow <:noxbow:513190159425208342> are slightly slower substitutes.
-
-.
-> **__Mandatory AFK Requirements__**
+**__Mandatory AFK Requirements__**
 .
 {
   "embed": {
-    "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Vindicta.\nThe following are required or this method will not work:\n\n⬥ **You are standing 1 step north-east of Vindictas spawn**\n⬥ Wen Book <:wengodbook:883134307902816297>\n⬥ Essence of Finality <:eof:787526151978614824>\n⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786>\n⬥ Persistent Rage <:persistentrage:739965637056659567>\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Tank Boots + Gloves <:cryptbloomboots:892819107236433930> <:cryptbloomgloves:892819106879922179>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Anguish <:anguish:583429936665198592> / Desolation <:Desolation:513190159018098713>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Splintering Arrows <:splinteringarrows:900758234246299649>\n⬥ Absorbative 4 <:absorbative4:890542428556230666>\n⬥ Lucky 6 <:lucky6:890542428287795221>\n⬥ Ripper Demon <:ripperpouch:703581275453128714>\n\u00a0\u00a0\u00a0\u00a0• Ripper Demon Scrolls <:ripperpouch:703581275453128714> can be used, set to be used at an interval of 10.\n⬥ Auto-retaliate is on",
+    "description":"This setup should reliably allow you to AFK Vindicta.\nThe following are required or this method will not work:\n\n⬥ **Standing 1 step north-east of Vindictas spawn**\n⬥ Wen Book <:wengodbook:883134307902816297>\n⬥ Essence of Finality <:eof:787526151978614824>\n⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786>\n⬥ Persistent Rage <:persistentrage:739965637056659567>\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Cryptbloom Boots + Gloves <:cryptbloomboots:892819107236433930> <:cryptbloomgloves:892819106879922179>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Anguish <:anguish:583429936665198592> / Desolation <:Desolation:513190159018098713>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Splintering Arrows <:splinteringarrows:900758234246299649>\n⬥ Absorbative 4 <:absorbative4:890542428556230666>\n⬥ Lucky 6 <:lucky6:890542428287795221>\n⬥ Ripper Demon <:ripperpouch:703581275453128714>\n\u00a0\u00a0\u00a0\u00a0• Ripper Demon Scrolls <:ripperpouch:703581275453128714> can be used, set to be used at an interval of 10.\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530>",
     "color": 39423,
     "footer": {
       "text": "Cutting corners will result in failure"
@@ -195,38 +210,18 @@ __**Relics**__
 }
 .embed:json
 .
-**__Preset__**
-⬥ <:conservationofenergy:697808773711921195> **Conservation of Energy**
-⬥ <:persistentrage:739965637056659567> **Persistent Rage**
-⬥ <:deathward:697808774068699286> **Death Ward**
-⬥ <:cryptbloomboots:892819107236433930> <:cryptbloomgloves:892819106879922179> **Cryptbloom Boots + Gloves** - To tank some of the damage with Animate Dead <:animatedead:856635090453135382>.
-.
-⬥ <:eof:787526151978614824> **Essence of Finality** - Stored special attack is not used, but is worn for the accuracy bonus and Soulsplit passive.
-⬥ <:stalkerring:839903943601029120> **Stalker's Ring** - Can be substituted for other strong rings (Ring of Death <:RoD:513190159462825984>).
-⬥ <:wengodbook:883134307902816297> **Scripture of Wen** - Can be substituted with Scripture of Jas <:scriptureofjas:869284342839513108>.
-⬥ <:potionreservoir:878739200407654431> **Potion reservoir** Can store up to 6 doses of a potion (e.g. overload), and automatically refresh that potion when its duration is low.
-⬥ <:graspingpouchblack:892816436974735361> **Runes** - <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> **Runes** - <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> **Runes** - <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:animatedead:856635090453135382>)
-.
-**__Preset__**
-.
-<https://pvme.github.io/preset-maker/#/5JKWmnMD0mULRYsh42us>
-**_Note: this method can be dangerous, it is advised to take a few pieces of food and an enhanced excalibur for emergency food._**
-.
 **__Action Bar__**
 .
 .img:https://img.pvme.io/images/6wtnQR6.png
 .
-**__Example Video:__**
-<https://youtu.be/kEzxs84dkrY>
-
+**__Video Example__**
+.
+https://youtu.be/kEzxs84dkrY
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Melee AFK]($linkmsg_meleeafk$)\n⬥ [Mage AFK]($linkmsg_mageafk$)\n⬥ [Range AFK]($linkmsg_afkrange$)",
+    "description": "*To edit this guide, visit <#924484538187522098>*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Melee AFK]($linkmsg_meleeAFK$)\n⬥ [Mage AFK]($linkmsg_mageAFK$)\n⬥ [Range AFK]($linkmsg_AFKrange$)",
     "color": 39423
   }
 }
