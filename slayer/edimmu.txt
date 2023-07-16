@@ -3,7 +3,7 @@
 
 > __**Introduction**__
 .tag:intro
-The player can only access the Edimmu area if on a slayer task or holding slayer wildcards.
+Edimmu <:Edimmu:1004107277567008922> are undead slayer monster requiring 90 <:slayer:797896049548066857> and 115 <:dungeoneering:1003947795541143632> to kill. They are a **task-only** monster so players going for the Daemonheim log are strongly advised to prioritise picking this monster whenever <:slayercape:975284344123953164> procs. The player can only access the Edimmu area if on a slayer task or holding slayer wildcards.
 
 ⬥ Besides the default Edimmu tasks, you can also kill Edimmu for the following tasks:
     • Creatures of Daemonheim
@@ -15,13 +15,13 @@ The player can only access the Edimmu area if on a slayer task or holding slayer
 .tag:stats
 ⬥ <:combat:797896050370281523> XP per kill : 1539 + 507.8 <:constitution:689509250887712902>
 ⬥ <:slayer:797896049548066857> XP per kill : 880.2
-⬥ Optimal kills per hour: ~530 AFK
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~466K AFK
+⬥ Optimal kills per hour: ~585 (530 AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~515K (466K AFK)
 
 .
 **__Desirable drops__**
 .tag:drops
-⬥ Edimmu pet - 1/512 **only from elites**
+⬥ Edimmu pet - 1/512 **only from Elites**
     • Required for the Slayer log.
 ⬥ Blood Necklace shards <:bloodnecklaceshard:1015699014764728492>
     • Required for the Slayer log.
@@ -36,7 +36,7 @@ The player can only access the Edimmu area if on a slayer task or holding slayer
     "fields": [
       {
         "name": "__Item unlocks__",
-        "value": "⬥ [**Enhanced luck potion**](https://runescape.wiki/w/Enhanced_luck_potion) <:luckpotion:656426717295935500>\n\u00a0\u00a0\u00a0\u00a0• Helpful in both spawning more elites and obtaining uniques.\n⬥ [**Ghost hunter equipment**](https://runescape.wiki/w/Ghost_hunter_equipment) <:ghosthunterhelm:855865893808767016>\n\u00a0\u00a0\u00a0\u00a0• Each piece provides a 3% damage boost.\n⬥ [**Salve amulet (e)**](https://runescape.wiki/w/Salve_amulet_(e)) <:salveamulet:797899945730244648>\n\u00a0\u00a0\u00a0\u00a0• Best in slot for killing Edimmu.\n⬥ [**Slayer wildcards**](https://runescape.wiki/w/Slayer_Wildcard)\n\u00a0\u00a0\u00a0\u00a0• Helpful for killing an Elite if one spawns right as the task ends.\n\u200B"
+        "value": "⬥ [**Enhanced luck potion**](https://runescape.wiki/w/Enhanced_luck_potion) <:luckpotion:656426717295935500>\n\u00a0\u00a0\u00a0\u00a0• Helpful in both spawning more Elites and obtaining uniques.\n⬥ [**Ghost hunter equipment**](https://runescape.wiki/w/Ghost_hunter_equipment) <:ghosthunterhelm:855865893808767016>\n\u00a0\u00a0\u00a0\u00a0• Each piece provides a 3% damage boost.\n⬥ [**Salve amulet (e)**](https://runescape.wiki/w/Salve_amulet_(e)) <:salveamulet:797899945730244648>\n\u00a0\u00a0\u00a0\u00a0• Best in slot for killing Edimmu.\n⬥ [**Slayer wildcards**](https://runescape.wiki/w/Slayer_Wildcard)\n\u00a0\u00a0\u00a0\u00a0• Helpful for killing an Elite if one spawns right as the task ends.\n\u200B"
       },
       {
         "name": "__Passive unlocks__",
@@ -53,11 +53,20 @@ The player can only access the Edimmu area if on a slayer task or holding slayer
 Edimmu are slayer monsters found within the Edimmu dungeon, which is located in the Meilyr district of Prifddnas and requires 115 <:dungeoneering:1003947795541143632> to be assessed. The best way to get there would be the <:dgcape:976732922545586246> teleport straight to the dungeon, or by teleporting to the Meilyr disctict via a teleport seed.
 
 .
-> **__Method: Active Ranged__**
-.tag:edimmuactive
-The active strategy for Edimmu involves aggroing as many as possible, luring them to a barrier and then chinning them down. This method also works with melee if using a <:noxscythe:513190159341322240>, but range has a much easier experience.
+> **__General strategy__**
+Despite looking large, Edimmus are 1x1, with Elites being 2x2. This makes it viable to use strategies which involve stacking them up and then AoEing them down.
 
-⬥ Generally this method is only recommended for relatively ungeared players, as magic hits close to the kph AFKing (530 AFK vs 550 active).
+⬥ For both active and AFK methods, position your cannon as shown below.
+    • If AFKing, note the 2 tiles between the player and the wall.
+.img:https://img.pvme.io/images/TshShihMb5.png
+.
+> **__Method: Active Ranged__**
+.tag:Edimmuactive
+The active strategy for Edimmu involves aggroing as many as possible, luring them to a barrier and then chinning them down. This method also works with melee if using a <:noxscythe:513190159341322240>, but range has a much easier experience. Addtionally, less damage is taken using ranged as Edimmus primarily attack with magic.
+
+⬥ Generally this method is only recommended for relatively ungeared players, as players with good magic equipment can AFK the task obtaining a slightly lower kph.
+
+⬥ The kph of killing Edimmu actively is highly limited by their slow spawn timers.
 
 .
 **__Preset__**
@@ -69,7 +78,7 @@ The active strategy for Edimmu involves aggroing as many as possible, luring the
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Active Ranged](https://pvme.github.io/preset-maker/#/tzE0TUOfUAzjC65VMm19)",
+        "value": "⬥ [Active Ranged](https://pvme.github.io/preset-maker/#/ElNAp0DcfRoKNiq0tvO0)",
         "inline": true
       }
     ]
@@ -78,35 +87,32 @@ The active strategy for Edimmu involves aggroing as many as possible, luring the
 .embed:json
 .
 **__Strategy__**
-⬥ When a bunch of Edimmu are aggro'd onto you, step behind the barrier and wait for the Edimmu to fill in the space immediately in front of the barrier.
-    • When no space is left, immediately enter to avoid losing Edimmu aggression and target the center Edimmu.
+⬥ When a bunch of Edimmu are aggro'd onto you, step behind the barrier and wait for the Edimmu to fill in the space immediately before the barrier.
+    • When Edimmus are in position, immediately enter to avoid losing Edimmu aggression and target the center Edimmu.
     • Rough ability priority with <:mechchin:641669268722810881>: <:deadshotigneous:959089455283728386> > <:rapid:535541270521708566> > <:snap:535534127131394088> > <:shadowtend:642713547142332416>
+    • It is easier to target the normal Edimmu around the Elite and chin them down together.
 
-⬥ Some food can be kept in the <:Yak:513195712201228289> in case you mess up Elite Edimmu spawns.
+⬥ A <:Yak:513195712201228289> can be a viable familiar for this task.
+    • Store some food it in case you mess up Elite Edimmu spawns.
+    • Use it to store rare drop table drops, sharks, or unstackable drops (e.g. crystal seeds).
+    • Winter Storage <:yakscroll:1032540068163895347> can be used to bank untradeable drops like attuned crystal weapon/armour seeds or <:bloodnecklaceshard:1015699014764728492>
 
-⬥ Lure Edimmu to the barrier and use <:mechchin:641669268722810881> to mow them down.
-    • It is easier to target the normal Edimmu around the elite and chin them down together.
-
-⬥ While waiting for Edimmu to respawn, you run around to aggro and kill stray Edimmu out of range of the cannon.
+⬥ While waiting for Edimmu to respawn, you can run around to aggro and kill stray Edimmu not tagged by the cannon.
     • <:ricocaroming:867678153635004447> or <:aggression:909338509234569216> are good options for mass-aggroing.
 
-⬥ Move rare drop table drops, sharks, or unstackable drops (e.g. crystal seeds) into your <:Yak:513195712201228289>
-    • Use Winter Storage to bank untradeable drops like attuned crystal weapon seeds or <:bloodnecklaceshard:1015699014764728492>
+⬥ If done right, you will be able to kill at least 585 per hour.
+    • This will vary a little depending on the number of Elite spawns.
 
-⬥ The image below shows the position of the cannon (yellow box).
-.
-.img:https://img.pvme.io/images/v8LtTm9.png
-.
-⬥ Optimal KPH: Around 550 per hour.
+⬥ <:grico:787904334812807238> is not needed for the method to work well.
 
 .
 **__Video Example__**
-.tag:edimmuactivevideo
-⬥ Active Ranged - https://youtu.be/ltCE7AWbVFM
+.tag:Edimmuactivevideo
+⬥ Active Ranged - https://youtu.be/5XFZDdfoRjA
 .
 > **__Method: AFK Magic__**
 .tag:afk
-Edimmu are best AFK'd using a staff with caroming <:noxstaff:513190159294922753> <:caroming4:791281588792590336> along with gchain <:gchain:787904334495088672>. The gear required strongly depends on the player's effort in dealing with elite edimmu. Even though Edimmu themselves do not deal much damage and can be out healed with mage's AoE easily, elites pose a huge problem if trying to AFK with subpar gear and will require the player to click back and take measures to kill the Elite (e.g. laying <:dommine:662249620579155968>, eating food).
+Edimmu are best AFK'd using a staff with caroming <:noxstaff:513190159294922753> <:caroming4:791281588792590336> along with gchain <:gchain:787904334495088672>. The gear required strongly depends on the player's effort in dealing with Elite Edimmu. Even though Edimmu themselves do not deal much damage and can be out healed with mage's AoE easily, Elites pose a huge problem if trying to AFK with subpar gear and will require the player to click back and take measures to kill the Elite (e.g. laying <:dommine:662249620579155968>, eating food).
 
 .
 **__Preset__**
@@ -118,7 +124,7 @@ Edimmu are best AFK'd using a staff with caroming <:noxstaff:513190159294922753>
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [AFK Magic](https://pvme.github.io/preset-maker/#/vg8nB930MXB34nkbPotD)",
+        "value": "⬥ [AFK Magic](https://pvme.github.io/preset-maker/#/9ZM3gEWURvmTO5res0Rf)",
         "inline": true
       }
     ]
@@ -128,14 +134,12 @@ Edimmu are best AFK'd using a staff with caroming <:noxstaff:513190159294922753>
 
 .
 **__Strategy__**
-⬥ The cannon and player positioning are shown below:
-.img:https://img.pvme.io/images/TshShihMb5.png
 ⬥ You can move in a way similar to this clip to repair your cannon when needed:
 .img:https://img.pvme.io/images/iJqur840Ku.mp4
 .
 ⬥ Although this method should work semi-consistently completely AFK, it is highly recommended to set an Alt1 alert for Elite slayer monster spawns so that Elite Edimmus won't cause problems even in the event of bad RNG.
 
-⬥ This setup is around 530 kph.
+⬥ This setup achieves around 530 kph.
 
 .
 **__Revo bar__**
@@ -156,7 +160,7 @@ Edimmu are best AFK'd using a staff with caroming <:noxstaff:513190159294922753>
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Active Ranged]($linkmsg_edimmuactive$)\n⬥ [AFK Magic]($linkmsg_afk$)",
+        "value": "⬥ [Active Ranged]($linkmsg_Edimmuactive$)\n⬥ [AFK Magic]($linkmsg_afk$)",
         "inline": true
       }
     ]
