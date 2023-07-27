@@ -680,7 +680,7 @@ __**Key Considerations**__
 .tag:dba
 __**How It Works**__
 ⬥ The special attack <:DBA:603979368850653216> <:spec:537340400273195028> *Rampage* costs 100% adrenaline and has the following effects:
-    • Drains 10% (rounded down) of <:Attack:689509250472476758> / <:Ranged:689504724403486920> / <:Magic:689504724159823906> / <:Defence:689509250979987525> levels.
+    • Drains 10% (rounded down) of <:Attack:689509250472476758> / <:range:580168050121113623> / <:Magic:689504724159823906> / <:Defence:689509250979987525> levels.
     • Boosts <:Strength:689509250879324165> level by 10 + 1 level for every 4 levels drained from other stats.
     • Multiplicative 10% reduction on hitchance.
     • Multiplicative 20% damage boost (hidden).
@@ -909,7 +909,7 @@ T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Be
       },
       {
         "name": "__Berserk without 5TAA__",
-        "value": "To see a <:zerk:535532854004678657> rotation without 5TAA to align ticks, [click here](https://img.pvme.io/images/5yGLBou.mp4).\nNotice the lower damage Quake does (7644).\n\nThe rotation used: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4 hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → <:quake:535532879506309150> → <:deci:535532879325822986>"
+        "value": "To see a <:zerk:535532854004678657> rotation without 5TAA to align ticks, [click here](https://img.pvme.io/images/5yGLBou.mp4).\nNotice the lower damage Quake does (7644).\n\nThe rotation used: <:zerk:535532854004678657> + <:enhreplen:634350450887622656> → <:gbarge:535532879250456578> → <:deci:535532879325822986> → <:assault:535532855191928842> → <:cleave:535532878616985610> → <:destroy:535532879330148352> (4 hit) → <:deci:535532879325822986> → <:cleave:535532878616985610> → (fastest) <:sever:535532879577612298> → <:quake:535532879506309150> → <:deci:535532879325822986>"
       }
     ]
   }
@@ -929,7 +929,7 @@ T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Be
 .tag:zerk
 **This section will cover usage of strong abilities (thresholds or better) within your Berserk <:zerk:535532854004678657> under different scenarios**.
 **The following unlocks are assumed:**
-⬥ Ring of Vigour <:vigour:615613235512737792> or its passive effect after Extinction quest.
+⬥ Ring of Vigour <:rov:513201065877831680> or its passive effect after Extinction quest.
 ⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316>
 .
 **Keep in mind the following:**
@@ -947,7 +947,7 @@ __**Berserk w/ Adren Renewal**__ <:adrenrenewal:736298121704767538>
 ⬥ 1x Hurricane <:cane:535532878969438210>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:assault:535532853979512842> → <:cane:535532878969438210>
+    • <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:assault:535532855191928842> → <:cane:535532878969438210>
 
 .
 __**Berserk w/ Limitless**__ <:limitless:641339233638023179>
@@ -957,7 +957,7 @@ __**Berserk w/ Limitless**__ <:limitless:641339233638023179>
 ⬥ 1x Hurricane <:cane:535532878969438210>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → <:limitless:641339233638023179> + <:gflurry:535532879283879977> (3 hit) → <:cane:535532878969438210> → <:assault:535532853979512842> → <:havocgop:994920849117282365>
+    • <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → <:limitless:641339233638023179> + <:gflurry:535532879283879977> (3 hit) → <:cane:535532878969438210> → <:assault:535532855191928842> → <:havocgop:994920849117282365>
 
 .
 __**Berserk w/ Adren Renewal + Smoke Cloud Berserk**__ <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050>
@@ -967,7 +967,7 @@ __**Berserk w/ Adren Renewal + Smoke Cloud Berserk**__ <:adrenrenewal:7362981217
 ⬥ 1x Hurricane <:cane:535532878969438210>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4 hit) → <:havocgop:994920849117282365> → <:assault:535532853979512842> → <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4 hit) → <:havocgop:994920849117282365> → <:assault:535532855191928842> → <:cane:535532878969438210>
 
 .
 __**Berserk w/ 4-piece Vestments + Adren Renewal **__ <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538>
@@ -978,7 +978,7 @@ __**Berserk w/ 4-piece Vestments + Adren Renewal **__ <:vestmentsofhavoctop:9941
 ⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + Slaughter  <:slaughter:535532879237873666>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:lengmh:883134308146098227> <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:lengmh:883134308146098227> <:cane:535532878969438210>
 .
 __**Berserk w/ 4-piece Vestments + Adren Renewal + EZK EoF**__ <:vestmentsofhavoctop:994189295592161291> +<:adrenrenewal:736298121704767538> + <:zekkil:903244090953588787> <:eof:787526151978614824>
 ⬥ 1x Destroy <:destroy:535532879330148352>
@@ -989,7 +989,7 @@ __**Berserk w/ 4-piece Vestments + Adren Renewal + EZK EoF**__ <:vestmentsofhavo
 ⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + EZK special attack <:zekkil:903244090953588787> <:eofspec:746403211908481184>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → (equip <:vestmentsofhavochood:994189297659940904>) + <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → (equip <:jawsoftheabyss:947871842595639306>) + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:assault:535532853979512842> → <:lengmh:883134308146098227> <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:lengmh:883134308146098227> <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → (equip <:vestmentsofhavochood:994189297659940904>) + <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:746403211908481184> → (equip <:jawsoftheabyss:947871842595639306>) + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:assault:535532855191928842> → <:lengmh:883134308146098227> <:cane:535532878969438210>
 
 .
 __**Berserk w/ 4-piece Vestments + Adren Renewal + Limitless**__ <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538> + <:limitless:641339233638023179>
@@ -1001,7 +1001,7 @@ __**Berserk w/ 4-piece Vestments + Adren Renewal + Limitless**__ <:vestmentsofha
 ⬥ 1x Igneous Overpower <:overpowerigneous:959089455640215633>
 
 ⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (equip <:jawsoftheabyss:947871842595639306>) + <:abyssalscourge:947871842469834832> <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → (4t) <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:gfury:535532879334080527> → <:fbackhandflank:867678153866870824> → <:overpowerigneous:959089455640215633> → <:assault:535532853979512842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:abyssalscourge:947871842469834832> <:cane:535532878969438210>
+    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (equip <:jawsoftheabyss:947871842595639306>) + <:abyssalscourge:947871842469834832> <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:cane:535532878969438210> → (4t) <:abyssalscourge:947871842469834832> <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:gfury:535532879334080527> → <:fbackhandflank:867678153866870824> → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:abyssalscourge:947871842469834832> <:cane:535532878969438210>
 
 .
 {
