@@ -354,7 +354,7 @@ __**How It Works**__
         ⬩ The hit timing and input order here are crucial: <:AirSurge:543465115870035999> <:deto:535533833358016512> <:wm:535533809978966037> must be executed in exactly that order, on the same tick.
 .
 ⬥ You can do the following while charging <:deto:535533833358016512>, *without interrupting the ability*:
-    ● Switch weapons <:fsoa:869284271595069451> <:praeswand:643166769518739477> <:Core:625304432581672961>
+    ● Switch weapons <:fsoa:869284271595069451> <:praeswand:643166769518739477> <:impercore:643166751067996160>
     ● Throw bombs <:vulnbomb:655341074235129858> <:stickybomb:655341074306301964>
     ● Spellbook swap <:SBSLunars:565726489467682816> <:SBSStandards:565726489526534154>
     ● Shield Dome <:sd:537341954392850442>
@@ -423,7 +423,7 @@ __**Notes**__
     ● Magma Tempest <:magmatempest:902209626509025290>
     ● Sacrifice <:Sacrifice:513201065907322880>
     ● Reprisal <:Reprisal:513190159462694912>
-    ● Shatter <:Shatter:583429757761224715>
+    ● Shatter <:shatter:536256673904328704>
 ⬥ The following abilities will damage you for each additional target:
     ● Smoke Tendrils <:smoketendrils:536257336130404372>
     ● Onslaught <:onsl:513190159085207555>
@@ -471,7 +471,7 @@ __**How It Works**__
     ● Placing <:pf:689501925770919981> on <:ancientlantern:580177522503712781> can potentially save one inventory space, as it doubles up both as a shield <:merciless:1102553021457645579> and a <:pf:689501925770919981> switch.
     ● Placing <:pf:689501925770919981> on  <:excal:641337999170207763> could also save an inventory space wherever you would normally bring it.
         ⬩ Many bosses do not require a shield at all, in which case <:excal:641337999170207763> can save *another* extra inventory space.
-        ⬩ It also means you can use the same switch for both Ranged <:Ranged:689504724403486920> and Magic <:Magic:689504724159823906>.
+        ⬩ It also means you can use the same switch for both Ranged <:range:580168050121113623> and Magic <:Magic:689504724159823906>.
         ⬩ Placing it on <:excal:641337999170207763> makes it slightly more involved to use, as you have to click on the floor to not be dragged into melee distance.
     ● You can also put it on a cheap wand like <:abyssalwand:841409588590805043> <:crystalwand:925794592849281094> <:attunedcrystalwand:925794593067401277>, though this is not generally recommended for the above reasons.
 
@@ -592,12 +592,12 @@ The following assumptions are made:
 
 ⬥ Igneous Kal-Mej <:igneouskalmej:902209626408382494> equipped.
 ⬥ Conservation of Energy relic <:conservationofenergy:697808773711921195> active.
-⬥ Ring of Vigour <:vigour:615613235512737792> used (or its passive effect unlocked).
+⬥ Ring of Vigour <:rov:513201065877831680> used (or its passive effect unlocked).
 ⬥ Manual spellcasting enabled, therefore <:bloodbarrage:537338981747261446> is simply a 4TAA.
     ● AoE autos generate adrenaline late, therefore <:bloodbarrage:537338981747261446> will grant 10% adrenaline if it crits.
 
 .
-(autocast <:incitefear:856635090783567902>) <:sunshine:994921119381463070> <:adrenrenewal:736298121704767538> → <:smokecloud:856635090641879050> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:wrack:856662355952795658> → <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → (autocast <:exsanguinate:856635090745950258>) <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wrack:856662355952795658> → <:bloodbarrage:537338981747261446> <:wm:535533809978966037> → <:asphyx:535533833072672778> → (improvise) → <:wm:535533809978966037> → <:asphyx:535533833072672778>
+(autocast <:incitefear:856635090783567902>) <:sunshine:994921119381463070> <:adrenrenewal:736298121704767538> → <:smokecloud:856635090641879050> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:wrack:856662355952795658> → <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → (autocast <:exsanguinate:856635090745950258>) <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:wrack:856662355952795658> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (2-hit) → <:wm:535533809978966037> → (improvise) → <:asphyx:535533833072672778> (2-hit) → <:wm:535533809978966037>
 
 .
 When improvising, focus on using <:gconc:869285393223254107> as often as possible. Then, fill with many <:gstaff:513203008608141314> <:eofspec:746403211908481184> and aim to fit one each of: <:omni:535533809664262179> + <:smoketendrils:536257336130404372> + <:deto:535533833358016512>.
@@ -839,7 +839,7 @@ This section will cover usage of strong abilities (thresholds or better) within 
 If you are using an FSOA <:fsoa:869284271595069451> please see the `!fsoa` command or the __**Fractured Staff of Armadyl**__ section for more information, as the rotations with that staff are more dynamic/improvised.
 
 **The following unlocks are assumed**:
-⬥ Ring of Vigour <:vigour:615613235512737792> or its passive effect after Extinction quest.
+⬥ Ring of Vigour <:rov:513201065877831680> or its passive effect after Extinction quest.
 ⬥ Planted Feet <:pf:689501925770919981> or Greater Sunshine unlocked <:gsunshine:994644352871714836>.
 ⬥ Igneous Kal-Mej <:igneouskalmej:902209626408382494>.
 ⬥ Blast Diffusion Boots <:detoboots:602581956072439828>.

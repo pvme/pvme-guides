@@ -2,7 +2,7 @@
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
-Unlike OSRS which has the RuneLite client, RS3 only has its NXT client. In order to add some extra QoL/features, the  Alt1 Toolkit was developed by <@107515476296368128>. This channel serves as a brief overview about Alt1 and what it's used for, as well as some extra helpful add-ons/plugins developed for it.
+Unlike OSRS which has the RuneLite client, RS3 only has its NXT client. In order to add some extra QoL/features, the Alt1 Toolkit was developed by <@107515476296368128>. This channel serves as a brief overview about Alt1 and what it's used for, as well as some extra helpful add-ons/plugins developed for it.
 .
 {
   "embed": {
@@ -69,7 +69,7 @@ __**What Is AFK Warden**__
 .img:https://img.pvme.io/images/EhTPOsI.png
 __**What Is Clue Solver**__
 ⬥ This is a very useful app that looks at your currently open clue on screen, and tells you how to solve it.
-⬥ It can handle all clue puzzles, including puzzle boxes, scans, compass clues, etc.
+⬥ It handles all clue steps, including puzzle boxes, scans, compass clues, etc. With the exception of scan clues.
 ⬥ Have your clue visible on-screen clearly and click the 'Unlock Any' button to find a solution to your clue that will be displayed on the overlay.
 
 .
@@ -80,68 +80,83 @@ In addition to the default apps that come with Alt1, there are a number of other
 .
 __**How to Install Alt1 Apps**__
 .tag:installapps
-⬥ Alt1 Addons can be installed by going to the correct URL in either your normal browser or the Alt1 in-built browser.
-⬥ This will bring up a prompt to add the application to Alt1.
-⬥ The list of apps below have the full URL following each one.
-⬥ Note that none of these links will work on mobile, as they require Alt1 to be installed.
+⬥ **Alt1 Addons can be installed by going to the correct URL in either your normal browser or the Alt1 in-built browser**.
+    • This will bring up a prompt to add the application to Alt1.
+    • The list of apps below have the full URL following each one.
+    • Note that none of these links will work on mobile, as they require Alt1 to be installed.
 
 .
 __**Combat Apps**__
 .tag:combat
 ⬥ **Barrows Helper** - track killed brothers, solve doors and displays droprates
-`alt1://addapp/https://markvsrs.github.io/BarrowsHelperSrc/appconfig.json`
+*<alt1://addapp/https://markvsrs.github.io/BarrowsHelperSrc/appconfig.json>*
 
 ⬥ **Better AoD** - improved minion order tracker over the default Alt1 tracker
-`alt1://addapp/https://cgyi4.csb.app/appconfig.json`
+*<alt1://addapp/https://cgyi4.csb.app/appconfig.json>*
 
 ⬥ **BoLG Tracker** - shows BoLG <:bolg:994189289623662702> stacks more clearly
-`alt1://addapp/https://holycoil.nl/alt1/bolg/appconfig.json`
+*<alt1://addapp/https://holycoil.nl/alt1/bolg/appconfig.json>*
 
 ⬥ **Dharok Relic** - shows the %DPS boost from Berserker's Fury
-`alt1://addapp/https://holycoil.nl/alt1/DharokRelic/appconfig.json`
+*<alt1://addapp/https://holycoil.nl/alt1/DharokRelic/appconfig.json>*
 
 ⬥ **Vorago Timer** - shows Target Cycle (TC) timings for Vorago phases
-`alt1://addapp/https://holycoil.nl/alt1/VoragoTag/appconfig.json`
+*<alt1://addapp/https://holycoil.nl/alt1/VoragoTag/appconfig.json>*
 
 ⬥ **Slayer Tasks** - helps decide what <:slayer:797896049548066857> task to pick when using <:slayervip:975284344597934120> tickets
-`alt1://addapp/https://unlishema.github.io/slayerassistant/appconfig.json`
+*<alt1://addapp/https://unlishema.github.io/slayerassistant/appconfig.json>*
 
 ⬥ **Zamorak Specs** - shows the next special attack at Zamorak
-`alt1://addapp/https://holycoil.nl/alt1/zamorak/appconfig.json`
+*<alt1://addapp/https://holycoil.nl/alt1/zamorak/appconfig.json>*
 
 .
 __**Skilling Apps**__
 .tag:skilling
 ⬥ **Archaeology Mats** - tracks excavated Archaeology <:archaeology:941211288665739274> mats and calculate artefact restore costs
-`alt1://addapp/https://zerogwafa.github.io/ArchMatCounter/appconfig.json`
+*<alt1://addapp/https://zerogwafa.github.io/ArchMatCounter/appconfig.json>*
 
 ⬥ **Components Counter** - tracks Invention <:Invention:689509250946695292> components from disassembly / scavenging
-`alt1://addapp/https://zerogwafa.github.io/ComponentCounter/appconfig.json`
+*<alt1://addapp/https://zerogwafa.github.io/ComponentCounter/appconfig.json>*
 
 ⬥ **Croesus Alerts** - displays upcoming attacks and other fight information at Croesus
-`alt1://addapp/https://raphire.github.io/SusAlert/appconfig.json`
+*<alt1://addapp/https://raphire.github.io/SusAlert/appconfig.json>*
 
 ⬥ **Penguins** - shows weekly Penguin locations (pulled from `www.w60pengs.com`)
-`alt1://addapp/https://shaun.us.to/alt1/penguins/appconfig.json`
+*<alt1://addapp/https://shaun.us.to/alt1/penguins/appconfig.json>*
 
 ⬥ **Seren Spirit Tracker** - alerts when a Seren Spirit appears
-`alt1://addapp/https://zerogwafa.github.io/SerenTracker/appconfig.json`
+*<alt1://addapp/https://zerogwafa.github.io/SerenTracker/appconfig.json>*
 
-⬥ **Bik Book Timer** - alerts when to flick Bik book <:scriptureofbik:892342109791735848> on/off (to lower costs)
-`alt1://addapp/https://amerryma.github.io/alt1-bik-proc-timer/appconfig.json`
+.
+__**Clue Apps**__
+.tag:clues
+⬥ **Scan Trainer** - guides players through efficiently solving scan steps in elite <:eliteclue:1123586941057769552> and master clues <:masterclue:1123586937245151303>
+*<alt1://addapp/https://leridon.github.io/cluetrainer-live/appconfig.json>*
+
+⬥ **Bik Book Timer** - alerts when to disassemble with Bik book <:scriptureofbik:892342109791735848>
+*<alt1://addapp/https://amerryma.github.io/alt1-bik-proc-timer/appconfig.json>*
+
+⬥ **OpenLogger** - an open source clue logger that will help keep track of your clues as you open them
+*<alt1://addapp/https://redx1000.github.io/OpenLogger/appconfig.json>*
+
+⬥ **Catalyst Tracker** - tracks clues from Catalyst of alterations displayed in the chat window
+*<alt1://addapp/https://ibbykay.github.io/CatalystClueTracker/appconfig.json>*
+
+⬥ **Clue Splits** - automatically tracks your clue times while doing a clue run, with no input required <:surge:535533810004262912>
+*<alt1://addapp/https://yongyi781.github.io/clue-split/appconfig.json>*
 
 .
 __**Misc. Apps**__
 *Note: Price Check & Trade Alt1 App currently not working; in the process of being updated.*
 .tag:misc
 ⬥ **Screen Markers** - customizeable on-screen markers to make clicking easier
-`alt1://addapp/https://kosblue.com/nekoapps/apps/ScreenMarkers/appconfig.json`
+*<alt1://addapp/https://kosblue.com/nekoapps/apps/ScreenMarkers/appconfig.json>*
 
 ⬥ **Travelling Merchant** - shows daily item stock at the Merchant
-`alt1://addapp/https://starur.github.io/appconfig.json`
+*<alt1://addapp/https://starur.github.io/appconfig.json>*
 
 ⬥ **Vis Wax** - shows daily rune combinatiosn and costs
-`alt1://addapp/http://www.runeguide.info/alt1/viswax/appconfig.json`
+*<alt1://addapp/http://www.runeguide.info/alt1/viswax/appconfig.json>*
 
 .
 > __**Troubleshooting**__
@@ -169,7 +184,7 @@ Links to the Alt1 website, Forums and Discord can be found in the pinned message
       },
       {
         "name": "__3rd-Party Apps__",
-        "value": "⬥ [How To Install Apps]($linkmsg_installapps$)\n⬥ [Combat Apps]($linkmsg_combat$)\n⬥ [Skilling Apps]($linkmsg_skilling$)\n⬥ [Misc. Apps]($linkmsg_skilling$)",
+        "value": "⬥ [How To Install Apps]($linkmsg_installapps$)\n⬥ [Combat Apps]($linkmsg_combat$)\n⬥ [Skilling Apps]($linkmsg_skilling$)\n⬥ [Clue Apps]($linkmsg_clues$)\n⬥ [Misc. Apps]($linkmsg_misc$)",
         "inline": true
       },
       {
