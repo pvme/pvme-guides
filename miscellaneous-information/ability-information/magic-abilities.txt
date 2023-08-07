@@ -7,8 +7,6 @@ Some general notes:
 ⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
 ⬥ Auto attacks will only give adrenaline if they hit (splash = no adrenaline gain).
     • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not given adrenaline.
-⬥ The following abilities give an **additional 2 + (Invigorating Perk <:invigorating:1009422698633502881> rank * 0.2) %** adrenaline if they hit multiple targets:
-    • Dragon Breath <:dbreath:535533833391702017> , (Greater) Chain <:chain:535533833056026624> / <:gchain:787904334495088672> , Detonate <:deto:535533833358016512> and Tsunami <:tsunami:535533809995874304>
 ⬥ Some useful sheets and resources are given below.
 
 .
@@ -26,7 +24,7 @@ Some general notes:
       },
       {
         "name": "__Auto-attack Adren Gain__",
-        "value": "To see adrenaline gained with different auto attacks, [click here](https://img.pvme.io/images/7EINzgc.png)."
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://runescape.wiki/w/Invigorating)."
       }
     ]
   }
@@ -448,7 +446,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Tsunami__ <:tsunami:535533809995874304>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE\n⬥ Provides n Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, critical hits give 10% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on release of the ability\n⬥ Adrenaline cost can be reduced through auto-casting Incite Fear <:incitefear:856635090783567902>\n\u00a0\u00a0\u00a0\u00a0• Each stack reduces <:tsunami:535533809995874304> cost by 12$, down to 40% at 5 stacks",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE\n⬥ Provides a Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, <:magic:689504724159823906> critical hits give 10% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on release of the ability\n⬥ Adrenaline cost can be reduced through auto-casting Incite Fear <:incitefear:856635090783567902>\n\u00a0\u00a0\u00a0\u00a0• Each stack reduces <:tsunami:535533809995874304> cost by 12$, down to 40% at 5 stacks",
     "color": 39423
   }
 }
