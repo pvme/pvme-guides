@@ -2,15 +2,24 @@
 .img:https://img.pvme.io/images/jxDATbtkjp.png
 > __**Introduction**__
 .tag:intro
-In order to fight Rasial you must complete [Alpha vs Omega](<https://runescape.wiki/w/Alpha_vs_Omega>) quest. It is important to remember to not move too far from Rasial or you will lose any active <:deathskulls:1137809106640572583>. If you go further than 5 tiles you will lose your <:deathskulls:1137809106640572583>.
+*Note: a **Table of Contents** can be found in the pins.*
+
+In order to fight Rasial you must complete [Alpha vs Omega](<https://runescape.wiki/w/Alpha_vs_Omega>) quest. Rasial only deals Necromancy and typeless damage, and can currently only be killed using Necromancy.
+
+⬥ **Important:** Do not move too far from Rasial (>5 tiles) or <:deathskulls:1137809106640572583> cannot bounce to you.
+
+**Rotations last updated: 13 Aug 2023**
+*__Editor's note:__ Rotations may be inaccurate once <:deathskulls:1137809106640572583> damage is fixed, among other potential changes.*
 
 .
-> __**Useful Items & Unlocks**___
-.tag:unlocks
-These are all highly recommended.
-⬥ <:undeadslayer:641339922019516416> Undead Slayer Ability
-⬥ <:undeadslayerperk:689502804720615441> Undead Slayer Perk
-⬥ <:salveamulet:797899945730244648> Salve Amulet (e)
+> **__Requirements__**
+.tag:reqs
+The rotation may not work as well as intended if any of the following are missing:
+⬥ Gear and relics, and items listed in the preset below or better.
+⬥ Passive <:rov:513201065877831680>
+⬥ Undead damage boosts <:salveamulet:797899945730244648> <:undeadslayer:641339922019516416> <:undeadslayerperk:689502804720615441>
+⬥ All of the talent Necromancy talent tree unlocked.
+    • Greater bone shield <:greaterboneshield:1137809118283976814> active.
 
 .
 > __**Preset**__
@@ -37,32 +46,75 @@ These are all highly recommended.
 .
 > __**Mechanics**__
 .tag:mechanics
-He will only auto attack with Necromancy.
-⬥ Dive: If you get too close to Rasial, he will dive away from you. This can be bad as it can remove any active <:deathskulls:1137809106640572583>.
-⬥ Conjure Skeletal Warrior + Putrid Zombie: Rasial will summon Skeleton Warriors and Putrid Zombies to attack the player. You ignore these.
-⬥ Spirt Wall: Rasial will summon a wall of Green Ghosts which will move from behind the player through them. You can negate this by walking onto them the same tick they would hit you or you can just tank them and eat. It is not recommended to <:escape:535541258832052231> or <:dive:1049378668197195808> as it can remove any active <:deathskulls:1137809106640572583>.
-⬥ Soul Obelisk: When Rasial reaches 700k health he summon two Soul Obelisks with 12k health. They have a blue bar, then this fills they will each grant Rasial 1 stack of <:residualsoul:1139453152169558046> then repeating the cycle. It is not recommended to kill these.
-⬥ Soul Sap: Rasial can use <:soulsap:1137809140476031057> which grants Rasial 1 <:residualsoul:1139453152169558046> stack.
-⬥ Volley of Souls: Rasial can use <:volleyofsouls:1137809182364540989> when he reaches max stacks of <:residualsoul:1139453152169558046>. This is negated by skipping this when he enters into Phase 4.
-⬥ Spectral  Scythe: Rasial will dive to you and use <:spectralscythe:1137809145706319892>.
-When Rasial reaches 200k health he will then jump up to the top platform and all his <:residualsoul:1139453152169558046> stacks will be removed. He will be stationary and only launch auto attacks as well as place Necrotic Explosions that erupt on the floor dealing moderate damage whilst also disabling your protection prayers.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Dive__",
+        "value": "⬥ Before the last phase, Rasial uses <:dive:1049378668197195808> to avoid the player if within the player stands withing a 2 square radius (scythe range) of him.\n\u00a0\u00a0\u00a0\u00a0• It is not feasible to use <:spectralscythe:1137809145706319892> against him.\n\u00a0\u00a0\u00a0\u00a0• Getting this mechanic may cancel <:deathskulls:1137809106640572583> bounces.\n\u200B"
+      },
+      {
+        "name": "__Conjure familiars__",
+        "value": "⬥ Rasial can conjure skeletal warriors <:conjureskeleton:1137809204112011274> and putrid zombies <:conjurezombie:1137809200219684924> to attack the player.\n\u00a0\u00a0\u00a0\u00a0• Unlike the player, he can conjure multiple of each.\n\u00a0\u00a0\u00a0\u00a0• It's recommended to ignore them throughout the fight.\n\u200B"
+      },
+      {
+        "name": "__Soul stacks__",
+        "value": "⬥ Rasial can gain <:residualsoul:1139453152169558046> and use <:soulsap:1137809140476031057> like the player, and holds up to 5 stacks, shown by green orbs under his health bar.\n\u00a0\u00a0\u00a0\u00a0• At 5 stacks, he shouts **'This is true power!'** and uses <:volleyofsouls:1137809182364540989>. Flick <:deflectnecromancy:1137809111178813471> (+ <:devo:513190158728953857> if needed) to avoid taking heavy damage.\n\u00a0\u00a0\u00a0\u00a0• The rotation outlined below should skip this mechanic consistently.\n\u200B"
+      },
+      {
+        "name": "__Soul obelisk__",
+        "value": "⬥ At 700k HP, Rasial summons 2 soul obelisks with 12,000 HP each.\n\u00a0\u00a0\u00a0\u00a0• They each have a bar which fills repeatedly. Upon filling, Rasial will give a <:residualsoul:1139453152169558046> stack.\n\u00a0\u00a0\u00a0\u00a0• It's recommended to ignore this mechanic and focus on DPSing the boss.\n\u200B"
+      },
+      {
+        "name": "__Spirit wall__",
+        "value": "⬥ Rasial summons a wall of 7 ghosts behind the player which moves forward, dealing heavy typeless damage upon contact.\n\u00a0\u00a0\u00a0\u00a0• If using movement abilities <:surge:535533810004262912> <:dive:1049378668197195808> to avoid this stay within 5 tiles of Rasial for <:deathskulls:1137809106640572583>\n\u200B"
+      },
+      {
+        "name": "__Spectral scythe__",
+        "value": "⬥ Rasial pulls the player to him and uses <:spectralscythe:1137809145706319892>, shouting 'I will reap your soul!'\n\u200B"
+      },
+      {
+        "name": "__Phase 4__",
+        "value": "⬥ At 200K HP, Rasial jumps to the upper deck of the citadel, remaining stationary and stopping all mechanics mentioned above.\n\u00a0\u00a0\u00a0\u00a0• Necrotic explosions will occur, following the player. If hit, players take heavy Necromancy damage and their protection prayers will be disabled <:antitheism:787523880281047040>"
+      }
+    ]
+  }
+}
+.embed:json
 
+.
 .
 > __**Rotations**__
 .tag:rots
 This rotation requires <:igneouskalmor:1139200072438005851> / <:igneouskalzuk:902209626479685734> and needs to be done tick perfect or you will not be able to <:deathskulls:1137809106640572583> in Phase 4.
+
+⬥ This rotation seeks to hit around 1:05 consistently (may be slightly higher at 95 Necromancy, but should still be sub 1:10 consistently).
 
 **Pre-build outside**
 <:darkness:1137809209782698024> → <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjurewarrior:1137809204112011274> → wait 1 tick and enter instance
 
 .
 **Phase 1-3**
-<:commandghost:1137809196864262154> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:ingen:641339234111848463> → <:splitsoul:1137809168368148490> + <:vulnbomb:655341074235129858> → equip <:praeswand:643166769518739477> → (tc) + <:smokecloud:856635090641879050> + equip <:omniguard:1138809234922934282> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> + <:undeadslayer:641339922019516416> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> → <:fingerofdeath:1137809115066937414> → <:deathskulls:1137809106640572583> + <:veng:543478434953822208> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:deathskulls:1137809106640572583> → <:lifetransfer:1137809128136388819> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → improvise until Phase 4
+⬥ **Pre-Living Death**: <:commandghost:1137809196864262154> + <:surge:535533810004262912> + walk 1 step forward → <:commandskeleton:1137809194423160883> + <:ingen:641339234111848463> → <:splitsoul:1137809168368148490> + <:vulnbomb:655341074235129858> → equip wand → (tc) + <:smokecloud:856635090641879050> + equip <:deathguard90:1138809243143766118> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
+
+.
+⬥ **Living Death:** <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> same tick → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> + <:undeadslayer:641339922019516416> →  <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:deathskulls:1137809106640572583> + <:veng:543478434953822208> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:deathskulls:1137809106640572583>
+
+.
+⬥ **Post Living Death:** <:lifetransfer:1137809128136388819> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:commandwarrior:1137809194423160883> → <:necroauto:1137809137401602109> → more autos if not phased.
+
+⬥ You will experience **Spirit Wall** near the end of <:livingdeath:1137809132485890108>, you can either <:surge:535533810004262912> through Rasial or walk through the wall on the right tick to deal with it. Both methods are shown below.
+.img:https://img.pvme.io/images/8zIM86rl8R.mp4
 
 .
 **Phase 4**
 <:deathskulls:1137809106640572583> → <:reflect:535541258786177064> → <:volleyofsouls:1137809182364540989> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1137809115066937414>
 
+.
+> **__Example Kills__**
+.tag:example
+⬥ 5 kill example - https://youtu.be/YTu9Fft3TG0
 .
 {
   "embed": {
@@ -72,7 +124,7 @@ This rotation requires <:igneouskalmor:1139200072438005851> / <:igneouskalzuk:90
     "fields": [
       {
         "name": "__General Information__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Useful Items & Unlocks]($linkmsg_unlocks$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Rotation]($linkmsg_rots$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Rotation]($linkmsg_rots$)\n⬥ [Example Kills]($linkmsg_example$)",
         "inline": true
       }
     ]
