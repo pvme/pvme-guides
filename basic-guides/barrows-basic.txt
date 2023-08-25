@@ -5,7 +5,7 @@
 .
 > **__Introduction__**
 .tag:intro
-The Barrows Brothers <:dharokhead:513222840162582541> were originally composed of six wights, two more members were added after completing the **Ritual of the Mahjarrat** and **Kindred Spirits** quests.
+The Barrows Brothers <:dharokhead:513222840162582541> were originally composed of six wights, two more members were added after completing the [Ritual of the Mahjarrat](<https://runescape.wiki/w/Ritual_of_the_Mahjarrat>) and [Kindred Spirits](<https://runescape.wiki/w/Kindred_Spirits>) quests.
 
 ⬥ This guides aims to get you started on doing Barrows runs, and will focus on the original six brothers
     • It will be assumed that you're using Magic <:magic:689504724159823906> and the entry-level preset
@@ -13,15 +13,8 @@ The Barrows Brothers <:dharokhead:513222840162582541> were originally composed o
     •  War's Retreat Teleport <:warsretreatteleport:1032540079589163049> is unlocked via getting 10 boss kills (any boss)
 
 .
-**__Drops__**
-.tag:drops
-⬥ <:corruptsigil:643507237985452032> [Corruption sigil](<https://runescape.wiki/w/Corruption_sigil>)
-⬥ <:dharokbody:643507658267164672> [Barrows equipment](<https://runescape.wiki/w/Barrows_equipment>)
-⬥ <:amuletoftheforesaken:855865893934334012> [Amulet of the forsaken](<https://runescape.wiki/w/Amulet_of_the_forsaken>)
-
-.
-> **__Overview__**
-.tag:mechanics
+> **__Strategy__**
+.tag:strategy
 __**Order the Brothers Should be Killed**__
 Dharok → Ahrim → Karil → Guthan → Torag → Verac
 ⬥ You can use protection prayers to mitigate damage
@@ -48,18 +41,46 @@ Dharok → Ahrim → Karil → Guthan → Torag → Verac
 .embed:json
 
 .
-> **__Presets__**
+> __**Presets**__
 .tag:presets
 .
 {
   "embed": {
-    "title": "__Presets__",
+    "title": "",
     "color": 39423,
-    "description" : "⬥ [Entry-level](https://pvme.github.io/preset-maker/#/MAGcprxZTqsvbz820t4g)\n⬥ [Mid-level](https://pvme.github.io/preset-maker/#/rJE1k9F3GUfR93yebEy0)"
+    "image": {
+            "url": "https://img.pvme.io/images/3OcwhDho0R.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Entry-level](https://pvme.github.io/preset-maker/#/K7fbsgueiX8Z1w9smbiN)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/YSwTy609Gd.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Mid-level](https://pvme.github.io/preset-maker/#/Nu2xIB4Lkofr2T9XkjOu)",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
 ⬥ The mid-level preset and example video can be used as a reference if you're interested in killing Akrisae and Linza
+
 .
 {
   "embed": {
@@ -108,12 +129,7 @@ Dharok → Ahrim → Karil → Guthan → Torag → Verac
     "fields": [
      {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Mechanics]($linkmsg_mechanics$)",
-        "inline": true
-      },
-      {
-        "name": "__Method__",
-        "value": "⬥ [Presets]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_examples$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kill]($linkmsg_examples$)",
         "inline": true
       }
     ]
