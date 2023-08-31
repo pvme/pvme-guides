@@ -1,4 +1,4 @@
-> ## **__Necromancy Minion Tank/Free/Hammer__ (Courtesy of <@259011909976719360>)**
+> ## **__Necromancy Minion Tank/Free/Hammer__ (Courtesy of the AoD7-10 discord, rotations provided through community effort)**
 
 ## ⬥ **__Preset__**
 .tag:preset
@@ -24,7 +24,7 @@
 .
 __**Prebuild**__
 .tag:pre
-<:conjureskeleton:1137809204112011274> → <:splitsoul:1137809168368148490> → <:conjureghost:1137809206423060632> → <:conjurezombie:1137809200219684924> → <:commandghost:1137809196864262154> → <:commandskeleton:1137809194423160883>
+<:conjurezombie:1137809200219684924> → <:splitsoul:1137809168368148490> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> →  <:commandghost:1137809196864262154> → <:commandskeleton:1137809194423160883>
 
 _Note: This rotation starts on base's <:reprisal:513190159462694912>_
 
@@ -36,7 +36,7 @@ s <:omniguard:1138809234922934282><:spec:537340400273195028> → r <:omniguard:1
 
 .tag:p1ham
 **If Hammer**
-s <:swh:641670143197446182><:spec:537340400273195028> → r <:swh:641670143197446182><:spec:537340400273195028> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
+<:ingen:641339234111848463> s <:swh:641670143197446182><:spec:537340400273195028> → r <:swh:641670143197446182><:spec:537340400273195028> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
 
 .tag:p1free
 **If Free**
@@ -46,21 +46,13 @@ s <:swh:641670143197446182><:spec:537340400273195028> → r <:swh:64167014319744
 ### __**Phase 2**__
 .tag:p2mt
 **If Minion Tank or Hammer**
-<:stormshards:536256663641128971> → <:lifetransfer:1137809128136388819> + <:cease:864235458464186418> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> + vuln amalgs → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057>
-
-.tag:p2ak
-**If Free**
-<:stormshards:536256663641128971> → <:lifetransfer:1137809128136388819> + <:cease:864235458464186418> → <:soulsap:1137809140476031057> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1137809182364540989> → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057>
+<:stormshards:536256663641128971> → <:lifetransfer:1137809128136388819> + <:cease:864235458464186418> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> + vuln amalgs → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
 
 .
 ### __**Phase 3**__
 .tag:p3mt
 **If Minion Tank or Hammer**
-<:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> → <:volleyofsouls:1137809182364540989> → <:fingerofdeath:1137809115066937414> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1137809182364540989> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
-
-.tag:p3ak
-**If Free**
-<:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> → <:commandskeleton:1137809194423160883> → <:volleyofsouls:1137809182364540989> → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
+<:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:deathskulls:1137809106640572583> → <:volleyofsouls:1137809182364540989> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1137809182364540989> → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
 
 .
 ### __**Pillars**__
@@ -107,12 +99,12 @@ s <:swh:641670143197446182><:spec:537340400273195028> → r <:swh:64167014319744
       },
       {
         "name": "__Phase 2__",
-        "value": "[Minion Tank/Hammer]($linkmsg_p2mt$)\n\u200B[Free]($linkmsg_p2ak$)",
+        "value": "[Link]($linkmsg_p2mt$)",
         "inline": true
       },
       {
         "name": "__Phase 3__",
-        "value": "[Minion Tank/Hammer]($linkmsg_p3mt$)\n\u200B[Free]($linkmsg_p3ak$)",
+        "value": "[Link]($linkmsg_p3mt$)",
         "inline": true
       },
       {
