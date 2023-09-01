@@ -22,9 +22,8 @@ Camel Warriors are one of the 4 Raptor Mobs, generally killed for the collection
 .
 **__Stats__**
 .tag:stats
-⬥ <:combat:797896050370281523> XP per kill : 2186 + 721.3 <:constitution:689509250887712902>
 ⬥ <:slayer:797896049548066857> XP per kill : 4768.8
-⬥ Optimal kills per hour: 300 <:melee:1096130867279171706>, 240 <:range:580168050121113623> <:magic:689504724159823906>, 105 AFK
+⬥ Optimal kills per hour: 300 <:melee:1096130867279171706>, 105 AFK
 ⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.43M (~500K AFK)
 
 .
@@ -50,6 +49,9 @@ Camel Warriors are one of the 4 Raptor Mobs, generally killed for the collection
 .
 The fastest way to kill camels relies on doing trips to a player owned dungeon with 3-4 camel warriors, using <:zerk:535532854004678657> and trying to kill as many camels as possible within the <:zerk:535532854004678657> duration while skipping the mirage mechanic. It also requires essentially best in slot melee gear to be as consistent as possible.
 
+⬥ **2023-AUG-29 - IMPORTANT NOTE**
+    • After <:tuskas:513201065513058306> changes which made the enhanced variant not reset-able with the War's Retreat crystal, this method is significantly worse and will not be able to achieve the advertised kph. However, it is *likely* still better than methods which involves dealing with camel spawns.
+
 .
 **__Preset__**
 .
@@ -57,10 +59,13 @@ The fastest way to kill camels relies on doing trips to a player owned dungeon w
   "embed": {
     "title": "",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/0gGd0tQL1e.png"
+        },
     "fields": [
       {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Melee Active](https://pvme.github.io/preset-maker/#/IaEAq8JYt0E4KufUW910)",
+        "name": "__Melee Active__",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/IaEAq8JYt0E4KufUW910)\n\u200B<:eof:787526151978614824> - <:dragonlongsword:1048592042399383713>\n\u200B<:graspingpouchblack:892816436974735361> - <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>",
         "inline": true
       }
     ]
@@ -88,7 +93,7 @@ The fastest way to kill camels relies on doing trips to a player owned dungeon w
 .
 Step 1 - 6 demonstration: https://youtu.be/ZOVInSkksNI
 .
-**Camel 1:** Target closest Camel → <:tuskas:513201065513058306> → <:punish:535532879439069184> + <:vulnbomb:655341074235129858> spot where it spawns.
+**Camel 1:** Target closest Camel → <:tuskas:513201065513058306> → <:punish:535532879439069184> + <:vulnbomb:655341074235129858> spot where it spawns. If enhanced <:tuskas:513201065513058306> is on cooldown, use defensive basics <:voke:535541259465392143> <:anti:535541306475151390> <:freedom:535541258240786434> for adrenaline until you can <:overpowerigneous:959089455640215633>
 **Camel 2:** Walk next to spawn + (tc) + <:overpowerigneous:959089455640215633> + basic
 **Camel 3 onwards:** (tc) + <:dragonlongsword:1048592042399383713> <:eofspec:746403211908481184> → basic
 
@@ -113,90 +118,6 @@ Step 1 - 6 demonstration: https://youtu.be/ZOVInSkksNI
 .
 ⬥ Narrated task and example kills - https://youtu.be/WxDyOaSMxrM
 .
-> **__Method: Active Range/Magic__ (Courtesy of <@168667605647753216>)**
-.tag:cameltuska
-.
-This method relies on using damage boosting auras, equipment and relics to boost <:tuskas:513201065513058306> damage beyond 20,125 consistently when on task before hit caps apply. **This may not be consistent if the user has anything less than 120 <:slayer:797896049548066857>**
-
-⬥ The completion of **Crocodile Tears** is highly recommended for this method to work well as you're constantly on extremely low HP and cannot afford to take damage from desert heat.
-
-.
-**__Presets__**
-.tag:presets
-.
-{
-  "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
-    "color": 39423,
-    "fields":[
-    	{
-    		"name":"__Magic__",
-    		"value":"⬥ [Active](https://pvme.github.io/preset-maker/#/kyjwObdn3hCuykxxk1oR)",
-    		"inline":true
-    	},
-    	{
-    		"name":"__Ranged__",
-    		"value":"⬥ [Active](https://pvme.github.io/preset-maker/#/TUhFiMC41VdJOogFv4el)",
-    		"inline":true
-    	}
-    ]
-  }
-}
-.embed:json
-.
-**__Strategy__**
-Stalling <:tuskas:513201065513058306> on a dummy will incur a 15 second cooldown, but releasing it on a slayer target will deal the damage of an enhanced <:tuskas:513201065513058306>, allowing players to 1-shot a camel every 15 seconds with <:tuskas:513201065513058306> + a suitable EoF spec that consistently hits for more than 5125.
-
-.
-⬥ Buffs needed:
-    • Elite sirenic / tectonic armour <:elitetectmask:556582803014418432> <:elitesirenicmask:643846921944956929>
-    • Berserker aura variants for the respective style <:mani:643505153709965322> <:reckless:643505179378974748>
-    • Corrupted slayer helmet on Anachronia helmet stand <:slayerhelm:798285340460449792>
-    • Zuk cape for the respective style <:igneouskalmej:902209626408382494> <:igneouskalxil:902209626404171786>
-    • Stalker's / Channeller's ring <:stalkerring:839903943601029120> <:channellerring:839903943404027914>
-    • Ful arrows <:fularrow:971025696958853180> if using ranged and 12 <:exsanguinate:856635090745950258> stacks if using <:magic:689504724159823906>
-    • Deathtouched bracelet <:dtb:513190159429271562> or glove slot providing equivalent bonuses.
-    • Enhanced blast diffusion or fleeting boots <:detoboots:602581956072439828> <:fleetingboots:789813993480388640> <:shadowspike:1003947797491499098>
-    • Essence of Finality (orn) <:eofor:745279787471470713> with a Guthix staff or Magic shieldbow <:gstaff:513203008608141314> <:magicshieldbow:1114256524047568947>
-    • Staff of Sliske/Noxious longbow or above <:sos:626466320132734976> <:noxbow:513190159425208342> or better with P6 <:p6:712073088769982475> and R3 <:ruthless3:712244800572883025>
-    • If using <:bolg:994189289623662702>, <:p5:689504239025782825> will be sufficient and <:ruthless3:712244800572883025> is not needed.
-    • Stack <:ruthless3:712244800572883025> on the Crocodiles before the camel warrior island and refresh it before it expires.
-    • Scrimshaw of the Elements/Cruelty <:elementsscrim:841409588959510539> <:cruelty:513190159546712074> (superior version preferred if lacking any armour bonuses).
-    • Berserker's Fury <:berserkersfury:697808774106185768> with **less than 100 HP.**
-
-.
-⬥ Steps to setup:
-    • Use Enchanted Lyre option 7/Fremennik sea boots to teleport to Fremennik.
-    • Enter the building as shown below, climb up the ladder and spam click the chest to lower HP. Stop once your HP is lower than 1k as it is possible to die from the chest.
-    • Travel to the camel warrior location while eating the dwarven rock cake to lower your HP **below 100.**
-    • Kill Crocodiles before hopping over to the camel island if stacking <:ruthless3:712244800572883025>. Make sure you get 12 <:exsanguinate:856635090745950258> stacks if using <:magic:689504724159823906>
-.
-.img:https://img.pvme.io/images/AOWHniVtZk.png
-.
-⬥ The method itself involves:
-    • Building adrenaline with revo.
-    • Stalling <:tuskas:513201065513058306> on a <:mtxdummy:974503666407067738> by equipping <:excal:641337999170207763>
-    • Waiting until you can use a spec, using target cycle, and then using a spell to release <:tuskas:513201065513058306> + an <:eofspec:746403211908481184> to kill the camels.
-        ⬩ For <:magic:689504724159823906> - <:praeswand:643166769518739477> <:excal:641337999170207763> stall <:tuskas:513201065513058306> → (tc) + <:smokecloud:856635090641879050> + <:gstaff:513203008608141314> <:eofspec:746403211908481184>
-        ⬩ For <:range:580168050121113623> - <:glaivemh:643161561988595782> <:excal:641337999170207763> stall <:tuskas:513201065513058306> → (tc) + <:smokecloud:856635090641879050> + <:magicshieldbow:1114256524047568947> <:eofspec:746403211908481184>
-
-***Note:** The stalled <:tuskas:513201065513058306> can be released with any status or attack spell such as bind, confuse, or blood barrrage.*
-
-.
-**__Revo bars__**
-These are used for building adrenaline only.
-.
-⬥ Ranged bar:
-.img:https://img.pvme.io/images/ZVBTsWtjmg.png
-.
-⬥ Magic bar:
-.img:https://img.pvme.io/images/ctNNpRNVPX.png
-.
-**__Video Guide__**
-.tag:camelvideoguide
-.
-⬥ Full guide by <@168667605647753216> - https://youtu.be/j5PRqjvxWYs
-.
 > **__Method: AFK Cannon__ (Courtesy of <@657579387910094851> and <@645045935587721216>)**
 .tag:camelafk
 .
@@ -208,10 +129,13 @@ This method involves not engaging in combat with the Camel Warriors at all, rely
   "embed": {
     "title": "",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/QGbrmKfRlX.png"
+        },
     "fields": [
       {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ ['Melee' AFK](https://pvme.github.io/preset-maker/#/kEInAonp6ZpJqf7oBVP6)",
+        "name": "__'Melee AFK'__",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/kEInAonp6ZpJqf7oBVP6)\n\u200B<:graspingpouch:892816437478051900> - <:lawrune:536252661406760970> <:airrune:536252658986647589>",
         "inline": true
       }
     ]
@@ -247,7 +171,7 @@ This method involves not engaging in combat with the Camel Warriors at all, rely
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Active Melee]($linkmsg_camelmelee$)\n⬥ [Active Range/Magic]($linkmsg_cameltuska$)\n⬥ [AFK Cannon]($linkmsg_camelafk$)",
+        "value": "⬥ [Active Melee]($linkmsg_camelmelee$)\n⬥ [AFK Cannon]($linkmsg_camelafk$)",
         "inline": true
       }
     ]
