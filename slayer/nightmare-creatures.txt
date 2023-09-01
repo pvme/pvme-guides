@@ -13,11 +13,9 @@ Unlockable for 50 slayer points after the completion of the Children of Mah ques
 .
 **__Stats__**
 .
-⬥ <:combat:797896050370281523> XP per kill : 1954 + 645 <:constitution:689509250887712902>
 ⬥ <:slayer:797896049548066857> XP per kill : 1540
-⬥ Optimal kills per hour: ~960 (~720 AFK)
-    • These are on-task rates.
-⬥ Optimal <:slayer:797896049548066857> XP per hour : ~1.48M (1.10M AFK)
+⬥ Optimal kills per hour: ~720 AFK (on task)
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~1.10M AFK
 
 .
 **__Desirable Drops__**
@@ -60,9 +58,7 @@ Nightmare Creatures are located at the Ritual site on Freneskae, accessible thro
 .
 > **__General strategy__**
 .tag:general
-⬥ Both melee and magic can be used to kill Nightmares optimally, with the main strategy remaining the same. Place your <:cannon:869283142350041098> at the spot shown in the image below, and stand next to the large pillar with <:DeflectRange:544195488317046812> and auto-retaliate on. Prioritise strong AoE abilities.
-    • Melee suffers from a lower hitchance than magic, therefore an aura such as <:brawler:643505376917979138> <:berserker:643505116347105290> should be used if off-task.
-
+⬥ <:magic:689504724159823906> is the recommended style to kill Nightmares with due to their high defence. Place your <:cannon:869283142350041098> at the spot shown in the image below, and stand next to the large pillar with <:DeflectRange:544195488317046812> and auto-retaliate on.
 .
 ⬥ Position yourself as shown below. Place the <:cannon:869283142350041098> on the red square, and stand on the yellow square after loading it with cannonballs.
 .
@@ -70,45 +66,6 @@ Nightmare Creatures are located at the Ritual site on Freneskae, accessible thro
 .
 ***Note:** The player may have a chance to be walked backwards one square if they attack a Nightmare that is running towards them, in this case simply click back onto the highlighted square.*
 
-.
-> **__Active Melee__**
-.tag:melee
-.
-Due to melee's limited accuracy, it generally should not be used to farm nightmares off-task but performs well on task if not AFKing, potentially achieving close to 1000kph with the right rotation. A 2h weapon <:noxscythe:513190159341322240> <:zgs:626465964325601290> should be used along with <:VampScrim:513201294262009874> for healing. Scythe range does not benefit this task.
-
-.
-**__Preset__**
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Active Melee](https://pvme.github.io/preset-maker/#/1WsNP9r3nsC9CuZaMCi1)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-**__Strategy__**
-Rotations are done in 1 minute cycles. <:dragonhalberd:841409589261238282> <:eofspec:746403211908481184> and <:bd:535532854281764884> are your main manual inputs.
-
-1. Use <:meteorstrike:535532879359377439> and utilise the <:critbuff:943518665842757644> to use as many <:dragonhalberd:841409589261238282> <:eofspec:746403211908481184> as possible.
-2. Once <:critbuff:943518665842757644> is over use <:zerk:535532854004678657> and <:adrenrenewal:736298121704767538> if available. Repeat **1** once <:zerk:535532854004678657> ends.
-3. Get as many <:bd:535532854281764884> resets as possible.
-4. Besides ultimates, adrenaline should only be spent on <:cane:535532878969438210>, <:quake:535532879506309150> and <:dragonhalberd:841409589261238282> <:eofspec:746403211908481184>
-
-⬥ If done right, <:soulsplit:615613924506599497> can be camped as most nightmares die before they can use their <:range:580168050121113623> special.
-
-.
-**__Video Example__**
-.
-⬥ Active melee - https://youtu.be/Y1DNeLvFxeY
 .
 > **__AFK Magic__**
 .tag:magic
@@ -131,10 +88,13 @@ Rotations are done in 1 minute cycles. <:dragonhalberd:841409589261238282> <:eof
   "embed": {
     "title": "",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/SYARjq88Cq.png"
+        },
     "fields": [
       {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [AFK Magic](https://pvme.github.io/preset-maker/#/9XDFFRdgsSELVyQrAsyp)",
+        "name": "__AFK Magic__",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/SCHw20BSUsSAkhovCnak)",
         "inline": true
       }
     ]
@@ -145,6 +105,7 @@ Rotations are done in 1 minute cycles. <:dragonhalberd:841409589261238282> <:eof
 .
 **__Revo bar__**
 .img:https://img.pvme.io/images/zPuOy3tLbO.png
+
 .
 **__Video Example__**
 .
@@ -165,7 +126,7 @@ Rotations are done in 1 minute cycles. <:dragonhalberd:841409589261238282> <:eof
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Active Melee]($linkmsg_melee$)\n⬥ [AFK Magic]($linkmsg_magic$)",
+        "value": "⬥ [AFK Magic]($linkmsg_magic$)",
         "inline": true
       }
     ]
