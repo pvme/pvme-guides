@@ -1,0 +1,309 @@
+> __**Introduction**__
+.tag:intro
+*Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
+
+Some general notes:
+⬥ The game runs on an internal tick system: **1t (tick) = 0.6s (seconds)**.
+⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
+⬥ Auto attacks will only give adrenaline if they hit (splash = no adrenaline gain).
+    • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not given adrenaline.
+⬥ Some useful sheets and resources are given below.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://runescape.wiki/w/Invigorating)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+> **__Defence__** <:defence:689509250979987525>
+This section covers auto attacks, basics, thresholds, ultimate abilities and special attacks for Defence.
+
+.
+**__Autos__**
+.tag:defenceAutos
+{
+  "embed": {
+    "title": "__Default Defence Auto__ <:defence:689509250979987525>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest: 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Fast: 5t (3.0s)\n\u00a0\u00a0\u00a0\u00a0• Average: 6t (3.6s)\n⬥ Takes on style of mainhand weapon",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:defaultdefence
+
+.
+**__Basics__**
+.tag:defenceBasics
+{
+  "embed": {
+    "title": "__Anticipate__ <:anti:535541306475151390>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Duration: 17t (10.2s)\n⬥ Reduces all incoming damage by 10%\n⬥ Provides stun immunity",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:anticipate
+
+.
+{
+  "embed": {
+    "title": "__Bash__ <:bash:535541306546716692>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Basic offensive ability",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:bash
+
+.
+{
+  "embed": {
+    "title": "__Cease__ <:cease:864235458464186418>",
+    "description": "⬥ Cooldown: 0t (0s)\n⬥ Stops the following:\n\u00a0\u00a0\u00a0\u00a0• Channelled abilities\n\u00a0\u00a0\u00a0\u00a0• Familiar attacks for 10t (6s)\n\u00a0\u00a0\u00a0\u00a0• Auto-retaliate for 10t (6s)\n\u00a0\u00a0\u00a0\u00a0• Queued abilities\n⬥ Cancelled by attacking target\n⬥ Generates no adrenaline",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:cease
+
+.
+{
+  "embed": {
+    "title": "__Divert__ <:divert:787904334377648130>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Duration: 10t (6s)\n⬥ Shares cooldown with <:res:535541258844635148>\n⬥ Generates 0.8 to 50 adrenaline (1.6 to 100 under the effects of <:nat:535541258131865633>)\n\u00a0\u00a0\u00a0\u00a0• [Divert calculator](https://runescape.wiki/w/Calculator:Combat/Divert)",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:bestability
+
+.
+{
+  "embed": {
+    "title": "__Freedom__ <:freedom:535541258240786434>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Duration: 10t (6s)\n⬥ Removes and grants immunnity to stuns and binds\n⬥ Clears any **existing** damage over time effects",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:freedom
+
+.
+{
+  "embed": {
+    "title": "__Preperation__ <:prep:535541258546970624>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Duration: 16t (9.6s)\n⬥ Reduces any remaining cooldown of <:res:535541258844635148> / <:divert:787904334377648130> by 5t (3s) per attack recieved",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:preperation
+
+.
+{
+  "embed": {
+    "title": "__Provoke__ ",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ Forces enemy to target you\n\u00a0\u00a0\u00a0\u00a0• Some enemies have other methods of aggression rendering <:voke:535541259465392143> useless\n⬥ Castable off gcd\n\u00a0\u00a0\u00a0\u00a0• Will trigger gcd if used on gcd",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:provoke
+
+.
+{
+  "embed": {
+    "title": "__Resonance__ <:res:535541258844635148>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Duration: 10t (6s)\n⬥ Shares cooldown with <:divert:787904334377648130>\n⬥ Heal for (50 + 0.5 x shield tier)% of incoming hit",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:resonance
+
+.
+**__Thresholds__**
+.tag:defenceThresholds
+{
+  "embed": {
+    "title": "__Debilitate__ <:debil:535541278264393729>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Duration: 13t (7.8s) to 23t (13.8s)\n\u00a0\u00a0\u00a0\u00a0• Extended if cast with a shield/defender\n\u00a0\u00a0\u00a0\u00a0• If shield/defender removed the effects are removed\n\u00a0\u00a0\u00a0\u00a0• A full table is available on the wiki [here](https://runescape.wiki/w/Debilitate#Duration)\n⬥ Reduces damage from the effected target",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:debilitate
+
+.
+{
+  "embed": {
+    "title": "__Devotion__ <:devo:513190158728953857>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Duration: 15t (9.6s) to 30t (19.2s)\n\u00a0\u00a0\u00a0\u00a0• Killing an enemy adds 8t (4.8s) to base duration\n⬥ While active protection prayers are 100% effective",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:devotion
+
+.
+{
+  "embed": {
+    "title": "__Reflect__ <:reflect:535541258786177064>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Duration: 316t (9.6s)\n⬥ Incoming damage reduced by 50%\n⬥ Reduced damage returned to sender",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:reflect
+
+.
+{
+  "embed": {
+    "title": "__Revenge__ <:revenge:535541259645878302>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ Duration: 32t (19.2s)\n⬥ Increases outgoing damage done while wielding shield/defender\n\u00a0\u00a0\u00a0\u00a0• Up to 10 stacks can be built\n\u00a0\u00a0\u00a0\u00a0• Each stack adds 10% (5% with defender) damage to your attacks",
+    "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:revenge
+
+.
+**__Ultimates__**
+.tag:defenceUltimates
+{
+  "embed": {
+    "title": "__Barricade__ <:cade:535541306353778689>",
+    "description": "⬥ Cooldown: 100t (60s) to 140t (84s)\n\u00a0\u00a0\u00a0\u00a0• Effected by turtling perk\n⬥ Duration: 8t (4.8s) to 29t (17.4s)\n\u00a0\u00a0\u00a0\u00a0• Effected by shield tier, <:malletops:690136117374484508>, and turtling perk\n⬥ Full table of duration and cooldowns can be found [here](https://runescape.wiki/w/Calculator:Combat/Barricade)\n⬥ Blocks all incoming damage *except* hard typeless",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:barricade
+
+.
+{
+  "embed": {
+    "title": "__Immortality__ <:immort:535541258538582017>",
+    "description": "⬥ Cooldown: 200t (120s)\n⬥ Duration: 50t (30s)\n\u00a0\u00a0\u00a0\u00a0• Or until returned to life\n⬥ Reduces taken damage by 25%\n⬥ Be revived to 40% HP if dead while active\n\u00a0\u00a0\u00a0\u00a0• 3t (1.8s) immunity to all damage while being revived\n\u00a0\u00a0\u00a0\u00a0• Instakills avoid this effect",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:immortality
+
+.
+{
+  "embed": {
+    "title": "__Natural Instinct__ <:nat:535541258131865633>",
+    "description": "⬥ Cooldown: 200t (120s)\n⬥ Duration: 34t (20.4s)\n⬥ Doubles ability adrenaline gain",
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:naturalinstinct
+
+.
+{
+  "embed": {
+    "title": "__Rejuvenate__ <:rejuvenate:535541258873995284>",
+    "description": "⬥ Cooldown: 500t (300s)\n⬥ Duration: 16t (9.6s)\n⬥ Gain 2.5% of hp per tick while active (40% total)\n⬥ Shares cooldown with <:excal:641337999170207763>",
+        "footer": {
+      "text": "This ability requires a shield or defender - the effects will be lost if removed."
+    },
+    "color": 7961980
+  }
+}
+.embed:json
+.tag:rejuvenate
+
+.
+{
+  "embed": {
+    "title": "<:defence:689509250979987525> __Defence Ability Index__ <:defence:689509250979987525>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 7961980,
+    "fields": [
+      {
+        "name": "__Auto and Basics__ (1/2)",
+        "value": "⬥ [Default Auto]($linkmsg_defaultdefence$)\n⬥ [Anticipate]($linkmsg_anticipate$)\n⬥ [Bash]($linkmsg_bash$)\n⬥ [Cease]($linkmsg_cease$)\n⬥ [Divert]($linkmsg_bestability$)",
+        "inline": true
+      },
+      {
+        "name": "__Auto and Basics__ (2/2)",
+        "value": "⬥ [Freedom]($linkmsg_freedom$)\n⬥ [Preparation]($linkmsg_preparation$)\n⬥ [Provoke]($linkmsg_provoke$)\n⬥ [Resonance]($linkmsg_resonance$)",
+        "inline": true
+      },
+      {
+        "name": "__Thresholds__",
+        "value": "⬥ [Debilitate]($linkmsg_debilitate$)\n⬥ [Devotion]($linkmsg_devotion$)\n⬥ [Reflect]($linkmsg_reflect$)\n⬥ [Revenge]($linkmsg_revenge$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Barricade]($linkmsg_barricade$)\n⬥ [Immortality]($linkmsg_immortality$)\n⬥ [Natural Instinct]($linkmsg_naturalinstinct$)\n⬥ [Rejuvinate]($linkmsg_rejuvinate$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:defenceIndex
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+      	"name": "__Defence Abilities__ <:defence:689509250979987525>",
+        "value": "⬥ [Auto Attacks]($linkmsg_defenceAutos$)\n⬥ [Basics]($linkmsg_defenceBasics$)\n⬥ [Thresholds]($linkmsg_defenceThresholds$)\n⬥ [Ultimates]($linkmsg_defenceUltimates$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

@@ -1,0 +1,349 @@
+> __**Introduction**__
+.tag:intro
+*Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
+
+Some general notes:
+⬥ The game runs on an internal tick system: **1t (tick) = 0.6s (seconds)**.
+⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
+⬥ Some useful sheets and resources are given below.
+
+.
+{
+  "embed": {
+    "color": 5510844,
+    "fields": [
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://img.pvme.io/images/7EINzgc.png)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+> **__Necromancy__** <:necromancy:1148995625896120460>
+This section covers the basic abilities, threshold-like abilities, ultimate abilities, conjures and commands, special attacks, and incantations for Necromancy.
+
+.
+**__Basics__**
+.tag:necromancyBasics
+{
+  "embed": {
+    "title": "__Necromancy__ <:necroauto:1137809137401602109> <:singletarget:1137770977506369596>",
+    "description": "⬥ Cooldown: 3t (1.8s)\n⬥ Affected by <:invigorating:1009422698633502881>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:invigorating:1009422698633502881> Rank * 0.05) more adrenaline\n⬥ NOT affected by <:impatient:848803118706720798>\n⬥ NOT affected by <:furyofthesmall:697808773917573233>\n⬥ Automatically activated when in combat (toggleable)\n⬥ Generates 1 Death Spark stack if Omni Guard <:omniguard:1138809234922934282> is equipped\n\u00a0\u00a0\u00a0\u00a0• At 6 Death Spark stacks the <:necroauto:1137809137401602109> will deal double damage",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:necroauto
+{
+  "embed": {
+    "title": "__Touch of Death__ <:touchofdeath:1137809175980810380> <:singletarget:1137770977506369596>",
+    "description": "⬥ Cooldown: 24t (14.4s)\n⬥ Generates 4 <:necrosis:1139452791878856805> stacks",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:touchofdeath
+{
+  "embed": {
+    "title": "__Soul Sap__ <:soulsap:1137809140476031057> <:singletarget:1137770977506369596>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Generates 1 <:residualsoul:1139453152169558046> stack",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:soulsap
+.
+**__Thresholds__**
+.tag:necromancyThresholds
+Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do not require an adrenaline amount more than the ability's requirement, and drain adrenaline by the shown amount on the tooltip. Some Necromancy Thresholds do not require adrenaline at all but instead will consume stacks of varying types.
+.
+{
+  "embed": {
+    "title": "__Soul Strike__ <:soulstrike:1137809142376058910> <:areatarget:1137770972703883354>",
+    "description": "⬥ No Cooldown\n⬥ Requires minimum 1 <:residualsoul:1139453152169558046> stack. One stack is consumed on use.\n⬥ Stuns and Binds for 5t (3s)\n⬥ Deals a reduced amount of damage to enemies within 1 tile of target",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:soulstrike
+{
+  "embed": {
+    "title": "__Volley of Souls__ <:volleyofsouls:1137809182364540989> <:singletarget:1137770977506369596>",
+    "description": "⬥ No Cooldown\n⬥ Requires minimum 2 <:residualsoul:1139453152169558046> stacks. All stacks consumed on use.",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:volleyofsouls
+{
+  "embed": {
+    "title": "__Finger of Death__ <:fingerofdeath:1137809115066937414> <:singletarget:1137770977506369596>",
+    "description": "⬥ No Cooldown\n⬥ Base adrenaline cost of 60%\n⬥ Adrenaline cost reduced by 10% for each <:necrosis:1139452791878856805> stack\n⬥ Consumes up to 6 <:necrosis:1139452791878856805> stacks",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:fingerofdeath
+{
+  "embed": {
+    "title": "__Bloat__ <:bloat:1137809185753550929> <:singletarget:1137770977506369596>",
+    "description": "⬥ No Cooldown\n⬥ Base adrenaline cost of 20%\n⬥ Applies **Bloated** debuff to target for 10 hits\n⬥ **__Bloated:__**\n\u00a0\u00a0\u00a0\u00a0• 25% of initial damage per hit every 3t (1.8s)\n\u00a0\u00a0\u00a0\u00a0• On Death: Applies Bloated to up to 9 enemies within 1 tile for 4 hits",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:bloat
+{
+  "embed": {
+    "title": "__Spectral Scythe__ <:spectralscythe:1137809145706319892> <:areatarget:1137770972703883354>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Base adrenaline cost of 10%\n⬥ AoE damage in a cone (max 9 targets)\n⬥ On-hit: 25% chance to generate 1 <:residualsoul:1139453152169558046> stack\n⬥ Able to be re-cast upon unlock from the Necromancy skill tree:\n\u00a0\u00a0\u00a0\u00a0• <:spectralscythe2:1137809149690916945> 2nd cast costs 20% and does AoE within 2 tiles of you (max 9 targets)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Also has a 25% chance to generate a <:residualsoul:1139453152169558046> stack\n\u00a0\u00a0\u00a0\u00a0• <:spectralscythe3:1137809152043925505> 3rd cast costs 30% and does AoE within 2 tiles of you (max 9 targets)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Damage is increased 1% for per 1% mission life points on target",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:spectralscythe
+{
+  "embed": {
+    "title": "__Blood Siphon__ <:bloodsiphon:1137809187485782149> <:areatarget:1137770972703883354>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ No adrenaline cost\n⬥ AoE to enemies within 2 tiles of player\n⬥ Channeled attack: 4 hits over 8t (4.8s)\n\u00a0\u00a0\u00a0\u00a0• Completing the full channel deals 100% of the total heal plus extra damage to the target\n⬥ Heal for 70% of the damage dealt",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:bloodsiphon
+.
+**__Ultimates__**
+.tag:necromancyUltimates
+{
+  "embed": {
+    "title": "__Death Skulls__ <:deathskulls:1137809106640572583> <:multitarget:1137770974431944835>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Launches a Death Skull that bounces up to 4 times after hitting the target\n⬥ Prioritizes enemies by maximum life points, but can also bounce off of you\n⬥ The Necromancy Zuk Cape <:igneouskalmor:1139200072438005851> reduces the adrenaline cost of this ability to 60% and also adds two additional bounces",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:deathskulls
+{
+  "embed": {
+    "title": "__Living Death__ <:livingdeath:1137809132485890108> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 150t (90s)\n⬥ Change forms into Death form, empowering Necromancy abilities for 30s\n⬥ On-cast: the cooldowns of <:touchofdeath:1137809175980810380> and <:deathskulls:1137809106640572583> are reset\n⬥ While active:\n\u00a0\u00a0\u00a0\u00a0• <:necroauto:1137809137401602109> generates 2 <:necrosis:1139452791878856805> stacks\n\u00a0\u00a0\u00a0\u00a0• <:touchofdeath:1137809175980810380> generates an addition 6% adrenaline\n\u00a0\u00a0\u00a0\u00a0• <:fingerofdeath:1137809115066937414> deals 1.5x damage\n\u00a0\u00a0\u00a0\u00a0• <:deathskulls:1137809106640572583> cooldown reduced to 12s",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:livingdeath
+.
+**__Conjures and Commands__**
+.tag:necromancyConjures
+{
+  "embed": {
+    "title": "__Conjure Skeleton Warrior__ <:conjurewarrior:1137809204112011274> <:selftarget:1137770968736079957>",
+    "description": "⬥ No Cooldown\n⬥ 70t (42s) duration\n⬥ Conjure a Skeleton warrior:\n\u00a0\u00a0\u00a0\u00a0• Skeleton attacks every 5t (3s)\n\u00a0\u00a0\u00a0\u00a0• Generates 1 Rage stack with each attack\n\u00a0\u00a0\u00a0\u00a0• Deals an additional 1% ability damage per Rage stack",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:conjureskeleton
+{
+  "embed": {
+    "title": "__Command Skeleton Warrior__ <:commandwarrior:1137809194423160883> <:singletarget:1137770977506369596>",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Commands a conjured skeleton to perform rapid hits (every 2t (1.2s)) for 10t (6s)",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:commandskeleton
+{
+  "embed": {
+    "title": "__Conjure Vengeful Ghost__ <:conjureghost:1137809206423060632> <:selftarget:1137770968736079957>",
+    "description": "⬥ No Cooldown\n⬥ Base adrenaline cost of 30%\n⬥ 50t (30s) duration\n⬥ Conjure a Vengeful Ghost:\n\u00a0\u00a0\u00a0\u00a0•  Ghost attacks every 7t (4.2s)\n\u00a0\u00a0\u00a0\u00a0• Heal for 175% of the damage dealt by the ghost",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:conjureghost
+{
+  "embed": {
+    "title": "__Command Vengeful Ghost__ <:commandghost:1137809196864262154> <:singletarget:1137770977506369596>",
+    "description": "⬥ No Cooldown\n⬥ Base adrenaline cost of 70%\n⬥ Applies **Haunted** to the target\n\u00a0\u00a0\u00a0\u00a0• Haunted: Takes 2x damage from all attack capped at 35% ability bonus damage",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:commandghost
+{
+  "embed": {
+    "title": "__Conjure Putrid Zombie__ <:conjurezombie:1137809200219684924> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ 75t (45s) duration\n⬥ Conjure a Putrid Zombie:\n\u00a0\u00a0\u00a0\u00a0• Zombie attacks every 6t (3.6s)\n\u00a0\u00a0\u00a0\u00a0• Zombie inflicts poison damage every 3t (1.8s) to enemies within 1 tile",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:conjurezombie
+{
+  "embed": {
+    "title": "__Command Putrid Zombie__ <:commandzombie:1137809191231295549> <:areatarget:1137770972703883354>",
+    "description": "⬥ No Cooldown\n⬥ Command the Zombie to explode, dealing large damage to enemies within 2 tiles",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:commandzombie
+.
+**__Special Attacks__**
+.tag:necromancySpecials
+{
+  "embed": {
+    "title": "__Death Grasp__ <:deathguard70:1138809262194294864>/<:deathguard80:1138809249061929082>/<:deathguard90:1138809243143766118> <:spec:537340400273195028> <:areatarget:1137770972703883354>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Base adrenaline cost of 25%\n⬥ Stuns and Binds the target for 8t (4.8s)\n⬥ Deals extra damage for each <:necrosis:1139452791878856805> stack held, but also consumes all stacks\n\u00a0\u00a0\u00a0\u00a0• The spec seems to hitcap easily without many stacks, so consider using <:fingerofdeath:1137809115066937414> if at high <:necrosis:1139452791878856805> stacks before using the Death Grasp <:spec:537340400273195028> as to not waste <:necrosis:1139452791878856805> stacks",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:deathgrasp
+{
+  "embed": {
+    "title": "__Death Essence__ <:omniguard:1138809234922934282> <:spec:537340400273195028> <:areatarget:1137770972703883354>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Base adrenaline cost of 30%\n⬥ 50t (30s) duration\n⬥ On-cast: immediately readies Death Spark\n\u00a0\u00a0\u00a0\u00a0• Death Spark causes <:necroauto:1137809137401602109> to deal double damage\n⬥ For the duration, <:touchofdeath:1137809175980810380>, <:fingerofdeath:1137809115066937414>, and <:deathskulls:1137809106640572583> immediately ready Death Spark",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:deathessence
+.
+**__Incantations__**
+.tag:necromancyIncantations
+{
+  "embed": {
+    "title": "__Lesser Bone Shield__ <:lesserboneshield:1137809125590450276> <:selftarget:1137770968736079957>",
+    "description": "⬥ No Cooldown\n⬥ Toggleable bone shield with a tier matching 25% <:necromancy:1148995625896120460> level\n\u00a0\u00a0\u00a0\u00a0• Allows the use of non-offensive abilities that typically require a shield\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 5 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 5 <:bonerune:1138808701029982319>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:lesserboneshield
+{
+  "embed": {
+    "title": "__Threads of Fate__ <:threadsoffate:1137809172335951933> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ 11t (6.6s) duration\n⬥ <:singletarget:1137770977506369596> necromancy attacks will also be cast on up to 4 additional enemies within 4 tiles of the target\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 5 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 2 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 1 <:fleshrune:1138808695703207967>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:threadsoffate
+{
+  "embed": {
+    "title": "__Greater Bone Shield__ <:greaterboneshield:1137809118283976814> <:selftarget:1137770968736079957>",
+    "description": "⬥ No Cooldown\n⬥ Toggleable bone shield with a tier matching 50% <:necromancy:1148995625896120460> level\n\u00a0\u00a0\u00a0\u00a0• Allows the use of non-offensive abilities that typically require a shield\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 10 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 10 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 5 <:fleshrune:1138808695703207967>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:greaterboneshield
+{
+  "embed": {
+    "title": "__Life Transfer__ <:lifetransfer:1137809128136388819> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ Deals self damage equal to 50% max health\n⬥ Extends the duration of all active **spirits** by 34t (20.4s)\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 10 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 5 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 2 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:lifetransfer
+{
+  "embed": {
+    "title": "__Invoke Death__ <:invokedeath:1137809121983336548> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 6t (3.6s)\n⬥ 10t (6s) duration\n⬥ Your next necromancy attack during the 10t duration applies Death Mark\n\u00a0\u00a0\u00a0\u00a0• If your target drops below 20% hp, the next necromancy attack to hit it will execute it. Damage caps at 30,000\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 5 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 2 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 2 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:invokedeath
+{
+  "embed": {
+    "title": "__Darkness__ <:darkness:1137809209782698024> <:selftarget:1137770968736079957>",
+    "description": "⬥ No cooldown\n⬥ 1200t (12 min) duration\n⬥ Applies the **Darkness** aspect to self\n\u00a0\u00a0\u00a0\u00a0• 20% chance to dodge incoming attacks\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 40 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 20 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 10 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 5 <:miasmarune:1138808692087730206>",
+    "color": 5510844,
+    "footer": {"text": "Aspect of Evasion: You may only have one aspect active at once"}
+  }
+}
+.embed:json
+.tag:darkness
+{
+  "embed": {
+    "title": "__Split Soul__ <:splitsoul:1137809168368148490> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ 34t (20.4s) duration\n⬥ 400% of the healing from soul split will instead be dealt as damage\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 10 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 5 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 2 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:splitsoul
+{
+  "embed": {
+    "title": "<:necromancy:1148995625896120460> __Necromancy Ability Index__ <:necromancy:1148995625896120460>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 5510844,
+    "fields": [
+      {
+        "name": "__Basic Abilities__",
+        "value": "⬥ [Necromancy (Auto)]($linkmsg_necroauto$)\n⬥ [Touch of Death]($linkmsg_touchofdeath$)\n⬥ [Soul Sap]($linkmsg_soulsap$)",
+        "inline": true
+      },
+      {
+        "name": "__\"Thresholds\"__",
+        "value": "⬥ [Soul Strike]($linkmsg_soulstrike$)\n⬥ [Volley of Souls]($linkmsg_volleyofsouls$)\n⬥ [Finger of Death]($linkmsg_fingerofdeath$)\n⬥ [Bloat]($linkmsg_bloat$)\n⬥ [Spectral Scythe]($linkmsg_spectralscythe$)\n⬥ [Blood Siphon]($linkmsg_bloodsiphon$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Living Death]($linkmsg_livingdeath$)\n⬥ [Death Skulls]($linkmsg_deathskulls$)",
+        "inline": true
+      },
+      {
+        "name": "__Conjures/Commands__",
+        "value": "⬥ Skeleton Warrior\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjureskeleton$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandskeleton$)\n⬥ Vengeful Ghost\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjureghost$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandghost$)\n⬥ Putrid Zombie\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjurezombie$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandzombie$)",
+        "inline": true
+      },
+      {
+        "name": "__Special Attacks__",
+        "value": "⬥ [Death Grasp]($linkmsg_deathgrasp$)\n⬥ [Death Essence]($linkmsg_deathessence$)",
+        "inline": true
+      },
+      {
+        "name": "__Incantations__",
+        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:necromancyIndex
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+    "color": 5510844,
+    "fields": [
+      {
+      	"name": "__Necromancy Abilities__ <:necromancy:1148995625896120460>",
+        "value": "⬥ [Basic Abilities]($linkmsg_necromancyBasics$)\n⬥ [\"Thresholds\"]($linkmsg_necromancyThresholds$)\n⬥ [Ultimates]($linkmsg_necromancyUltimates$)\n⬥ [Conjures/Commands]($linkmsg_necromancyConjures$)\n⬥ [Special Attacks]($linkmsg_necromancySpecials$)\n⬥ [Incantations]($linkmsg_necromancyIncantations$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

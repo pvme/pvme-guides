@@ -1,0 +1,266 @@
+> __**Introduction**__
+.tag:intro
+*Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
+
+Some general notes:
+⬥ The game runs on an internal tick system: **1t (tick) = 0.6s (seconds)**.
+⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
+⬥ Auto attacks will only give adrenaline if they hit (splash = no adrenaline gain).
+    • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not given adrenaline.
+⬥ Some useful sheets and resources are given below.
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ability Damage Maths__",
+        "value": "To calculate your ability hit damage in detail, [click here](https://docs.google.com/spreadsheets/d/1dqGWf8SAQZs-Iagg8Qn27r0OoqzWSytLgWxYTv9vud4/).\nThis is affected by factors such as your gear and other boosts."
+      },
+      {
+        "name": "__Ability Hit Timings__",
+        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
+      },
+      {
+        "name": "__Auto-attack Adren Gain__",
+        "value": "To see adrenaline gained with different auto attacks, [click here](https://runescape.wiki/w/Invigorating)."
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+> **__Constitution__** <:constitution:689509250887712902>
+This section covers auto attacks, basics, thresholds, ultimate abilities and special attacks for Defence.
+
+.
+**__Autos__**
+.tag:constitutionAutos
+{
+  "embed": {
+    "title": "__Default  Auto__ <:constitution:689509250887712902>",
+    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest: 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Fast: 5t (3.0s)\n\u00a0\u00a0\u00a0\u00a0• Average: 6t (3.6s)\n⬥ Takes on style of mainhand weapon",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:defaultconstitution
+
+.
+**__Basics__**
+.tag:constitutionBasics
+{
+  "embed": {
+    "title": "__Siphon__ <:siphon:553050198012854275>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Only works on targets with more adrenaline than you",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:siphon
+
+.
+{
+  "embed": {
+    "title": "__Sacrifice__ <:sacrifice:513201065907322880>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Heal for 25% of your damage dealt\n\u00a0\u00a0\u00a0\u00a0• Increased to 100% if killing hit",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:sacrifice
+
+.
+{
+  "embed": {
+    "title": "__Storm Shards__ <:stormshards:536256663641128971>",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Stacks delayed ability damage on target\n\u00a0\u00a0\u00a0\u00a0• Up to 10 stacks\n\u00a0\u00a0\u00a0\u00a0• Damage is triggered by using <:shatter:536256673904328704>\n⬥ Damage when triggered is dependant on weapon which applied the <:stormshards:536256663641128971>",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:stormshards
+
+.
+{
+  "embed": {
+    "title": "__Regenerate__",
+    "description": "⬥ Cooldown: 0t (0s)\n⬥ Must be **out** of combat to use\n⬥ Trades 10% adrenaline for 2% of max health per tick until either\n\u00a0\u00a0\u00a0\u00a0• Health is full; or\n\u00a0\u00a0\u00a0\u00a0• Adrenaline is empty; or\n\u00a0\u00a0\u00a0\u00a0• Combat is initiated",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:regenerate
+
+.
+{
+  "embed": {
+    "title": "__Eat Food__ <:eatfood:1073883122069934182>",
+    "description": "⬥ Cooldown: 0t (0s)\n⬥ Eats food",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:eatfood
+
+.
+{
+  "embed": {
+    "title": "__Tuska's Wrath__ <:tuskas:513201065513058306>",
+    "description": "⬥ Cooldown: 200t (120s)\n\u00a0\u00a0\u00a0\u00a0• 25t (15s) if used on non slayer target\n⬥ If enemy is your **active slayer target**, it will do `100*(Slayer level` damage)\n\u00a0\u00a0\u00a0\u00a0• All bosses except The Magister are immune to this effect",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:tuskaswrath
+
+.
+**__Thresholds__**
+.tag:constitutionThresholds
+{
+  "embed": {
+    "title": "__Reprisal__ <:reprisal:513190159462694912>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Duration: 10t (6s), or <:reprisal:513190159462694912> is cast again\n⬥ Stores incoming damage while active (up to 10,000)\n⬥ Stored damage dealt to target at end of duration",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:reprisal
+
+.
+{
+  "embed": {
+    "title": "__Shatter__ <:shatter:536256673904328704>",
+    "description": "⬥ Cooldown: 200t (120s)\n⬥ Unleashes all Storm Shards <:stormshards:536256663641128971> on target\n⬥ Maximum hit of 30,000\n⬥ Damage is based on weapon which applied <:stormshards:536256663641128971> , but effected by damage boosts when <:shatter:536256673904328704> is used",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:shatter
+
+.
+**__Special Attacks__**
+.tag:constitutionSpecs
+.
+{
+  "embed": {
+    "title": "__Essence of Finality__ <:eofspec:746403211908481184>",
+    "description": "⬥ Cooldown: 0t (0s)\n⬥ Adrenaline cost: Dependant on weapon stored in Essence of Finality <:eof:787526151978614824>\n⬥ Mainhand weapon must be of the same style as weapon stored",
+        "footer": {
+      "text": "This ability requires an Essence of Finality with a stored weapon"
+    },
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:eofspec
+
+.
+{
+  "embed": {
+    "title": "__Weapon Special Attack__ <:spec:537340400273195028>",
+    "description": "⬥ Cooldown: 0t (0s)\n\u00a0\u00a0\u00a0\u00a0• Some weapons have their own weapon specific cooldown\n⬥ Duration: Dependant on weapon",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:wepspec
+
+.
+**__Ultimates__**
+.tag:constitutionUltimates
+{
+  "embed": {
+    "title": "__Guthix's Blessing__ <:guthixsblessing:553050196767145995>",
+    "description": "⬥ Cooldown: 500t (300s)\n⬥ Duration: 16t (9.6s)\n⬥ Every 4t (1.6s) heal for 8% of your max HP\n\u00a0\u00a0\u00a0\u00a0• Enemies may target the butterfly and end effects early\n⬥ Shares cooldown with <:excal:641337999170207763>",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:guthixsblessing
+
+.
+{
+  "embed": {
+    "title": "__Ice Asylum__ <:iceasylum:553050196817215491>",
+    "description": "⬥ Cooldown: 500t (300s)\n⬥ Duration: 34t (22.2s)\n⬥ Heals players nearby for 1 - 7% of their max HP (based on proximity) every 6t (3.6s)\n⬥ Healing capacity of 300% of your max HP\n⬥ Shares cooldown with <:excal:641337999170207763>",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:iceasylum
+
+.
+{
+  "embed": {
+    "title": "__Onslaught__ <:onsl:513190159085207555>",
+    "description": "⬥ Cooldown: 200t (120s)\n⬥ Channeled ability\n⬥ Up to 26 hits\n\u00a0\u00a0\u00a0\u00a0• Drain adrenaline 25 at per hit to 0\n\u00a0\u00a0\u00a0\u00a0• Subsequent hits damage you for 25% of the outgoing hit",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:onslaught
+
+.
+{
+  "embed": {
+    "title": "__Transfigure__ <:transfigure:553050196523876354>",
+    "description": "⬥ Cooldown: 300t (180s)\n⬥ Duration: 10t (6s) of incapacitation, then 25t (15s) of stun and bind immunity\n⬥ Heal for 250% of damage taken during incapacitation, when it ends, up to a maximum 75% of max HP",
+    "color": 12190465
+  }
+}
+.embed:json
+.tag:transfigure
+
+.
+{
+  "embed": {
+    "title": "<:constitution:689509250887712902> __Constitution Ability Index__ <:constitution:689509250887712902>",
+    "description": "⬥ Click the links to quickly navigate to that ability's information.\n⬥ General notes can be found in the introduction [here]($linkmsg_intro$).",
+    "color": 12190465,
+    "fields": [
+      {
+        "name": "__Auto and Basics__ (1/2)",
+        "value": "⬥ [Default Auto]($linkmsg_defaultconstitution$)\n⬥ [Eat Food]($linkmsg_eatfood$)\n⬥ [Regenerate]($linkmsg_regenerate$)\n⬥ [Sacrifice]($linkmsg_sacrifice$)\n⬥ [Siphon]($linkmsg_siphon$)\n⬥ [Storm Shards]($linkmsg_stormshards$)\n⬥ [Tuska's Wrath]($linkmsg_tuskaswrath$)",
+        "inline": true
+      },
+      {
+        "name": "__Thresholds__",
+        "value": "⬥ [Reprisal]($linkmsg_reprisal$)\n⬥ [Shatter]($linkmsg_shatter$)\n⬥ [Reflect]($linkmsg_reflect$)\n⬥ [Revenge]($linkmsg_revenge$)",
+        "inline": true
+      },
+      {
+        "name": "__Special Attacks__",
+        "value": "⬥ [Essence of Finality]($linkmsg_eofspec$)\n⬥ [Special Attack]($linkmsg_wepspec$)",
+        "inline": true
+      },
+      {
+        "name": "__Ultimates__",
+        "value": "⬥ [Guthix's Blessing]($linkmsg_guthixsblessing$)\n⬥ [Ice Asylum]($linkmsg_iceasylum$)\n⬥ [Onslaught]($linkmsg_onslaught$)\n⬥ [Transfigure]($linkmsg_transfigure$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.tag:constitutionIndex
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+      	"name": "__Constitution Abilities__ <:constitution:689509250887712902>",
+        "value": "⬥ [Auto Attacks]($linkmsg_constitutionAutos$)\n⬥ [Basics]($linkmsg_constitutionBasics$)\n⬥ [Thresholds]($linkmsg_constitutionThresholds$)\n⬥ [Thresholds]($linkmsg_constitutionSpecs$)\n⬥ [Ultimates]($linkmsg_constitutionUltimates$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

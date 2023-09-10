@@ -1,59 +1,83 @@
 **__Kerapac, the Bound: Normal Mode__**
-.
 .img:https://img.pvme.io/images/LuuRiDd.jpg
-.
-> **__Low Effort Ranged Normal Mode Kerapac Guide (~25kph)__ (Courtesy of <@!269335584521060353>, <@118339314508627977>, <@218995247986769921>, and <@1080778657917833246>)**
 *Note: a **Table of Contents** can be found in the pins.*
 
 .
-__**Explanation**__
-.tag:intro1
-This method will reliably allow you to get consistent Kerapac (NM) kills without needing much input or effort. It is recommended to have a slayer task (with slayer helm on your Anachronia slayer lodge stand) when using this method, but it is not mandatory.
+> **__Disclaimer__**
+.tag:disclaimer
+⬥ **IF YOU CANNOT GET A METHOD TO WORK __DO NOT__ MESSAGE THE CREATOR(S)**
+    • It is **more than likely __user error__ or __cutting corners__**, use <#656898197561802760> if you cannot get it to work
 
+.
+> **__Positioning__**
+.tag:positioning
+.img:https://img.pvme.io/images/L3VcOeA4Bw.png
+⬥ It is recommended to start in melee distance of Kerapac as shown in the diagram above
+
+.
+> **__Low Effort Ranged Normal Mode Kerapac Guide (~25kph)__ (Courtesy of <@!269335584521060353>, <@118339314508627977>, <@218995247986769921>, and <@1080778657917833246>)**
+.tag:RangedAFK
+**__Overview__**
+.
+{
+  "embed": {
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ Essence of Finality <:eof:787526151978614824>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Scripture of wen <:scriptureofwen:883134307902816297>\n⬥ Weapon with Caroming 4 <:caroming4:791281588792590336>\n⬥ Bik arrows <:bikarrow:971025697235689513>\n⬥ Elder overload salve <:elderovlsalve:648976643687317532>\n⬥ Vulnerability bomb <:vulnbomb:655341074235129858>\n\u200B"
+      },
+      {
+        "name": "__Passives/Familiar__",
+        "value": "⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Anguish <:anguish:583429936665198592> or Desolation <:desolation:513190159018098713>\n⬥ Blood reaver <:reaverpouch:839903693837959228> with scrolls <:reaverscroll:1022562484378419284>\n\u00a0\u00a0\u00a0\u00a0• Set autofire rate to 5 if using low-level setup.\n\u00a0\u00a0\u00a0\u00a0• Set autofire rate to 30 if using high-level setup.\n⬥ Persistent rage <:persistentrage:739965637056659567>\n⬥ Vampyrism aura <:vampaura:643505653079343144>\n\u200B"
+      },
+      {
+        "name": "__Others__",
+        "value": "⬥ Greater Ricochet <:grico:787904334812807238>\n⬥ Prism of Restoration <:prismofrestoration:938475261366784070>\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is **ON**"
+      }
+    ]
+   }
+}
+.embed:json
+⬥ It is recommended to have a Nodon dragonkin task <:nodondragonkin:1004107324853596251>, with a Slayer helmet stand <:slayerhelm:798285340460449792>
 ⬥ If using the low-level setup, you must use a Prism of Restoration <:prismofrestoration:938475261366784070> and a vulnerability bomb <:vulnbomb:655341074235129858> at the start of each kill.
     • Set Blood Reaver's <:reaverpouch:839903693837959228> autofire rate to 5.
-
-⬥ If using the high-level setup, vulnerability bombs <:vulnbomb:655341074235129858> are optional, and Prism of Restoration <:prismofrestoration:938475261366784070> is used when you repot.
-    • Set Blood Reaver's <:reaverpouch:839903693837959228> autofire rate to 30.
-
-⬥ This method requires using Bik arrows <:bikarrow:971025697235689513>
-    • BoLG <:bolg:994189289623662702> > SGB <:sgb:626466665848242186> / Hex <:hexhunterbow:581180369911414794> > Nox <:noxbow:513190159425208342>
-
 ⬥ Make sure to loot quickly, as Surge <:surge:535533810004262912>, and Dive <:dive:1049378668197195808> will keep you in combat, interfering with Persistant Rage <:persistentrage:739965637056659567>
     • Prism of Restoration <:prismofrestoration:938475261366784070> will also keep you in combat.
 
 .
-__**Mandatory AFK Requirements**__
-.tag:mand1
+**__Presets__**
+.
 {
   "embed": {
-    "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Kerapac.\nThe following are required or this method will not work:\n⬥ Pontifex Shadow Ring <:pontifexshadowring:870326852361789501> passive effect is **unlocked**\n⬥ Wen Book <:wengodbook:883134307902816297> is **active**\n⬥ Essence of Finality <:eof:787526151978614824> is **equipped**\n⬥ Soulsplit <:soulsplit:615613924506599497> is **active**\n⬥ Anguish <:anguish:583429936665198592> or Desolation <:Desolation:513190159018098713> is **active**\n⬥ Greater Ricochet <:grico:787904334812807238> is **unlocked**\n⬥ Caroming 4 <:caroming4:791281588792590336> is **on your weapon**\n⬥ Elder overload salve <:elderovlsalve:648976643687317532> is **active**\n⬥ Poison <:weppoison:689525476158472288> is **active**\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812> are **equipped**\n⬥ Blood Reaver <:reaverpouch:839903693837959228> is **summoned**\n⬥ The Persistant Rage relic <:persistentrage:739965637056659567> is **harnessed**\n⬥ Vampyrism Aura <:vamp:643505653079343144> is **activated**\n⬥ Auto-retaliate is **on**",
+    "title": "",
     "color": 39423,
-    "footer": {
-      "text": "Cutting corners will result in failure"
-    }
+    "image": {
+            "url": "https://img.pvme.io/images/Spp2UOpmwe.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Nox/other bows](https://pvme.github.io/preset-maker/#/w9QeBRfo9ktW07Zz7aka)",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
-
-.
-> **__Preset__**
-.tag:preset1
 .
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
+    "title": "",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/soTJz5Af4c.png"
+        },
     "fields": [
       {
-        "name": "__Low-level__",
-        "value": "⬥ [Nox/other bows](https://pvme.github.io/preset-maker/#/pS95fQG6BlPrixDpcItd)",
-        "inline": true
-      },
-      {
-        "name": "__High-level__",
-        "value": "⬥ [Bow of the Last Guardian](https://pvme.github.io/preset-maker/#/1ZlfyPSrRRwVmFIvevP4)",
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Bow of the Last Guardian](https://pvme.github.io/preset-maker/#/QaMXKWUENSsi9bP2Kyzn)",
         "inline": true
       }
     ]
@@ -63,186 +87,144 @@ __**Mandatory AFK Requirements**__
 
 .
 **__Action Bars__**
-.tag:bar1
 Low-level setup
 .img:https://img.pvme.io/images/RiTfrQhahn.png
 High-level setup
 .img:https://img.pvme.io/images/SMnzhNFNOL.png
 
 .
-__**Video Examples**__
-.tag:example1
-⬥ Low-level setup
-<https://youtu.be/GVstgwhlCCI>
-⬥ High-level setup
-<https://youtu.be/0rUdrdjaaZs>
+**__Example Kills__**
+⬥ [Low-level setup](<https://youtu.be/GVstgwhlCCI>)
+.
+⬥ [High-level setup](https://youtu.be/0rUdrdjaaZs)
+.
 
 .
 > **__Low Effort Magic Normal Mode Kerapac Guide (~22kph)__ (Courtesy of <@!108682527304060928> and <@!638287783160709129>)**
+.tag:MagicAFK
+**__Overview__**
 .
-__**Explanation**__
-.tag:intro2
-This method will reliably allow you to get consistent Kerapac (NM) kills without needing much input or effort. Consistency and safety are attained through a heavy focus on maximising damage dealt while minimising damage taken. It is strongly recommended to have a slayer task (with slayer helm on your Anachronia slayer lodge stand) when using this method.
-
-⬥ You should be using Soulsplit <:soulsplit:615613924506599497> and Torment <:torment:583429936958930964> / Affliction <:Affliction:513190158468907008> for the entire fight.
-    • **If using Affliction <:Affliction:513190158468907008>, you must either use Powder of Penance <:powderofpenance:928221126360969226> or click an Ancient Elven Ritual Shard <:ancientshard:656426717505650708> at the start of each kill.**
-
-⬥ This method requires using at least a Seismic Wand <:seiswand:583429704837758997> and Animate Dead <:animatedead:856635090453135382> with some tank armour <:cryptbloomhelm:892819107123195956>, as raw damage is the focus and this setup is not as strong on healing when compared to the other styles' setups.
-
-__**Aura Choice**__
-.tag:aura2
-⬥ Auras:
-    • <:mani:643505153709965322> For once, Maniacal is actually *your best choice* for your aura here. Usage of Animate Dead and Cryptbloom armour heavily mitigates the downsides that this aura usually presents, and the extra damage makes up for the more defensive setup.
-    • <:dm:643505652571963417> Dark Magic provides extra damage and poison procs, but the lack of raw damage may be detrimental for phases where Sunshine isn't active.
-
-.
-__**Mandatory AFK Requirements**__
-.tag:mand2
 {
   "embed": {
-    "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Kerapac.\nThe following are required or this method will not work:\n\n⬥ Exsanguinate <:exsanguinate:856635090745950258> is **set to autocast**\n⬥ Pontifex Shadow Ring <:pontifexshadowring:870326852361789501> passive effect is **unlocked**\n⬥ Igneous Kal-Mej <:igneouskalmej:902209626408382494> or Kal-Zuk <:igneouskalzuk:902209626479685734> is **equipped**\n⬥ Scripture of Wen <:wengodbook:883134307902816297> is **active**\n⬥ Animate Dead <:animatedead:856635090453135382> is **active**\n⬥ Essence of Finality <:eof:787526151978614824> is **equipped**\n⬥ At least 2 pieces of Cryptbloom Armour <:cryptbloomhelm:892819107123195956> are **equipped**\n⬥ Soulsplit <:soulsplit:615613924506599497> is **active**\n⬥ Torment <:torment:583429936958930964> or Affliction <:Affliction:513190158468907008> is **active**\n⬥ Elder Overload <:elderovlsalve:648976643687317532> is **active**\n⬥ Poison <:weppoison:689525476158472288> is **active**\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812> are **equipped**\n⬥ Ripper Demon <:ripperpouch:703581275453128714> is **summoned** and **loaded with 150+ Death from Above scrolls <:ripperscroll:703581275155464203>, set to autofire**\n⬥ Auto-retaliate is **on**",
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**",
     "color": 39423,
-    "footer": {
-      "text": "Cutting corners will result in failure"
-    }
-  }
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ Essence of Finality <:eof:787526151978614824>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Scripture of wen <:scriptureofwen:883134307902816297>\n⬥ At least a Seismic wand <:seiswand:583429704837758997>\n⬥ At least 3 pieces of Cryptbloom armour <:cryptbloomhelm:892819107123195956>\n⬥ Igneous Kal-Mej <:igneouskalmej:902209626408382494> or Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Elder overload salve <:elderovlsalve:648976643687317532>\n⬥ Vulnerability bomb <:vulnbomb:655341074235129858>\n\u200B"
+      },
+      {
+        "name": "__Passives/Familiar__",
+        "value": "⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Torment <:torment:583429936958930964> or Affliction <:affliction:513190158468907008>\n⬥ Ripper demon <:ripperpouch:703581275453128714> with scrolls <:ripperscroll:703581275155464203>\n⬥ Persistent rage <:persistentrage:739965637056659567>\n⬥ Maniacal aura <:mani:643505153709965322> or Dark magic aura <:darkmagic:643505652571963417>\n\u200B"
+      },
+      {
+        "name": "__Others__",
+        "value": "⬥ Exsanguinate <:exsanguinate:856635090745950258>\n⬥ Animate Dead <:animatedead:856635090453135382>\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is **ON**"
+      }
+    ]
+   }
 }
 .embed:json
+⬥ It is recommended to have a Nodon dragonkin task <:nodondragonkin:1004107324853596251>, with a Slayer helmet stand <:slayerhelm:798285340460449792>
+⬥ Queue Smoke Cloud <:smokecloud:856635090641879050>. Once you begin auto-retaliating, throw a Vulnerability Bomb <:vulnbomb:655341074235129858> **during** your first Greater Concentrated Blast <:gconc:869285393223254107> and AFK from there.
+    • Once the kill ends, gather your loot and teleport to War's Retreat <:warsretreatteleport:1032540079589163049>. Return to instance and repeat.
 
 .
-**__Relics and Passives__**
-⬥ This method strongly relies on the use of the following passive effects. **Missing any of these may harm the effectiveness of this method.**
-    • Fury of the Small <:furyofthesmall:697808773917573233>
-    • Conservation of Energy <:conservationofenergy:697808773711921195>
-    • Adrenaline Retention (Persistent Rage <:persistentrage:739965637056659567> / Adrenaline Urn <:adrenurn:656426717413507074> / Stall <:anti:535541306475151390>)
-    • Ring of Vigour Passive <:vigour:615613235512737792> <:warpedgem:968908526955167774>
-    • Upgraded Pontifex Shadow Ring Passive <:pontifexshadowring:870326852361789501>
-    • Nodon Dragonkin Task <:slayerhelm:798285340460449792>
-
-.
-> **__Preset__**
-.tag:preset2
+**__Presets__**
 .
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
+    "title": "",
     "color": 39423,
-    "fields":[
-    	{
-    		"name":"Preset",
-    		"value":"⬥ [Low Effort Magic](https://pvme.github.io/preset-maker/#/Oe9klPonzguFbnzatxhI)",
-    		"inline":true
-    	}
+    "image": {
+            "url": "https://img.pvme.io/images/gj49Tm9hA1.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Low Effort Magic](https://pvme.github.io/preset-maker/#/A46ihJKEqL9qSnRH4ozg)",
+        "inline": true
+      }
     ]
   }
 }
 .embed:json
-.
 
 .
-**__Action Bar__**
-.tag:bar2
+**__Action Bars__**
 .img:https://img.pvme.io/images/fX66Ufz.png
 
 .
-**__Method/Setup__**
-.tag:pos2
-⬥ Upon entering the boss instance, Surge <:surge:535533810004262912> 2x, then walk forward one tile. Make sure you have all buffs/prayers active, and queue Smoke Cloud <:smokecloud:856635090641879050>. Once you begin auto-retaliating, throw a Vulnerability Bomb <:vulnbomb:655341074235129858> **during** your first Greater Concentrated Blast <:gconc:869285393223254107> and AFK from there. Once the kill ends, gather your loot and teleport to War's Retreat. Restore prayer and heal at the bank if needed, restore adrenaline to 91% or more, and repeat.
-
+**__Example Kills__**
 .
-**__Example Video__**
-.tag:example2
-⬥ This video showcases three separate kills and the banking/looting process. First kill has bad rng, second has *great* rng, and the third is around the average kill one may expect using this setup.
-<https://www.youtube.com/watch?v=5qhkhmLsKaU>
+⬥ [Kills with different RNG](https://www.youtube.com/watch?v=5qhkhmLsKaU)
+.
 
 .
 > **__Low Effort Melee Normal Mode Kerapac Guide (~22kph)__ (Courtesy of <@!108682527304060928>)**
-.tag:intro3
+.tag:MeleeAFK
+**__Overview__**
 .
-__**Explanation**__
-This method will reliably allow you to get consistent Kerapac (NM) kills without needing much input or effort. Consistency and safety are attained through a heavy focus on maximising the Blood Reaver familiar's potential, utilizing weapon poison, Abyssal Parasite stacks, and many sources of healing. It is strongly recommended to have a slayer task (with slayer helm on your Anachronia slayer lodge stand) when using this method.
-
-⬥ You should be using Soulsplit <:soulsplit:615613924506599497> and Turmoil <:turmoil:583429936606347280> / Malevolence <:Malevolence:513190159416557573> for the entire fight.
-    • **If using Malevolence <:Malevolence:513190159416557573>, you must either use Powder of Penance <:powderofpenance:928221126360969226> or click an Ancient Elven Ritual Shard <:ancientshard:656426717505650708> at the start of each kill.**
-
-⬥ This method requires using an Abyssal Scourge <:abyssalscourge:947871842469834832> and Jaws of the Abyss <:jawsoftheabyss:947871842595639306>, as the action bar requires the extra adrenaline.
-
-__**Aura Choice**__
-.tag:aura3
-⬥ Auras:
-    • <:vamp:643505653079343144> Vampyrism provides extra safety through its healing and provides more poison damage via Blood Reaver passive ability. Due to the constant damage being taken while fighting Kerapac, this is by far the safest and most reliable aura choice to afk with.
-    • <:berserker:643505116347105290> **Do __not__ use Berserker** for afking, as it will get you killed very easily.
-
-.
-**__Mandatory Requirements__**
-.tag:mand3
 {
   "embed": {
-    "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to afk Kerapac.\nThe following are required or this method will not work:\n\n⬥ Pontifex Shadow Ring <:pontifexshadowring:870326852361789501> passive effect is **unlocked**\n⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316> or Kal-Zuk <:igneouskalzuk:902209626479685734> is **equipped**\n⬥ Scrimshaw of Vampyrism <:VampScrim:513201294262009874> is **active**\n⬥ Essence of Finality <:eof:787526151978614824> is **equipped**\n⬥ Soulsplit <:soulsplit:615613924506599497> is **active**\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573> is **active**\n⬥ Elder Overload <:elderovlsalve:648976643687317532> is **active**\n⬥ Poison <:weppoison:689525476158472288> is **active**\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812> are **equipped**\n⬥ Blood Reaver <:reaverpouch:839903693837959228> is **summoned** and **loaded with 150+ Blood Siphon scrolls, set to an autofire rate of 15-20**\n⬥ Auto-retaliate is **on**",
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**",
     "color": 39423,
-    "footer": {
-      "text": "Cutting corners will result in failure"
-    }
-  }
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ Essence of Finality <:eof:787526151978614824>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Scrimshaw of vampyrism <:vampscrim:513201294262009874>\n⬥ Abyssal scourge <:abyssalscourge:947871842469834832>\n⬥ Jaws of the Abyss <:jawsoftheabyss:947871842595639306>\n⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316> or Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Elder overload salve <:elderovlsalve:648976643687317532>\n⬥ Vulnerability bomb <:vulnbomb:655341074235129858>\n\u200B"
+      },
+      {
+        "name": "__Passives/Familiar__",
+        "value": "⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:malevolence:513190159416557573>\n⬥ Blood reaver <:reaverpouch:839903693837959228> with scrolls <:reaverscroll:1022562484378419284>\n\u00a0\u00a0\u00a0\u00a0• Set autofire rate to 15-20.\n⬥ Persistent rage <:persistentrage:739965637056659567>\n⬥ Vampyrism aura <:vampaura:643505653079343144>\n\u200B"
+      },
+      {
+        "name": "__Others__",
+        "value": "⬥ Nodon dragonkin task <:nodondragonkin:1004107324853596251>\n\u00a0\u00a0\u00a0\u00a0• Slayer helmet stand <:slayerhelm:798285340460449792>\n⬥ Access to the Altar of War <:warsretreatteleport:1032540079589163049>\n\u00a0\u00a0\u00a0\u00a0• Instantly heals your familiar.\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is **ON**"
+      }
+    ]
+   }
 }
 .embed:json
+⬥ At the start of the kill throw a Vulnerability Bomb <:vulnbomb:655341074235129858>
+    • Once the kill ends, gather your loot and teleport to War's Retreat <:warsretreatteleport:1032540079589163049>. Return to instance and repeat.
 
 .
-.
-> **__Preset__**
-.tag:preset3
+**__Presets__**
 .
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
+    "title": "",
     "color": 39423,
-    "fields":[
-    	{
-    		"name":"Preset",
-    		"value":"⬥ [Low Effort Melee](https://pvme.github.io/preset-maker/#/dGThCHuDeeCwDozU4KdU)",
-    		"inline":true
-    	}
+    "image": {
+            "url": "https://img.pvme.io/images/BCsk9SHHjS.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Low Effort Melee](https://pvme.github.io/preset-maker/#/rk9uc3rFOoWrllwRl4QR)",
+        "inline": true
+      }
     ]
   }
 }
 .embed:json
-.
 
 .
-**__Relics and Passives__**
-⬥ This method strongly relies on the use of the following passive effects. **Missing any of these may strongly detriment the effectiveness of this method.**
-    • Fury of the Small <:furyofthesmall:697808773917573233>
-    • Conservation of Energy <:conservationofenergy:697808773711921195>
-    • Adrenaline Retention (Persistent Rage <:persistentrage:739965637056659567> / Adrenaline Urn <:adrenurn:656426717413507074> / Stall <:anti:535541306475151390>)
-    • Ring of Vigour Passive <:vigour:615613235512737792> <:warpedgem:968908526955167774>
-    • Nodon Dragonkin Task <:slayerhelm:798285340460449792>
-
-.
-**__Action Bar__**
-.tag:bar3
+**__Action Bars__**
 .img:https://img.pvme.io/images/hGVz7fc.png
 
 .
-**__Method/Setup__**
-.tag:pos3
-⬥ Upon entering the boss instance, Surge <:surge:535533810004262912> 2x, then walk forward one tile. Make sure you have all buffs/prayers active, and throw a Vulnerability Bomb <:vulnbomb:655341074235129858> **OR** queue Vulnerability <:Vuln:537349530551582720> + Ingen <:ingen:641339234111848463> as Kerapac lands. Once the kill ends, gather your loot and teleport to War's Retreat. Restore prayer, heal at the bank if needed, restore adrenaline to 74% or more, and repeat.
+**__Example Kills__**
+.
+⬥ [Kills with different RNG](https://www.youtube.com/watch?v=rk7nRJgvnRU)
+.
 
 .
-**__Example Video__**
-.tag:example3
-⬥ This video showcases three separate kills and the banking/looting process. First kill has bad rng, second has *great* rng, and the third is around the average kill one may expect using this setup.
-<https://www.youtube.com/watch?v=rk7nRJgvnRU>
-
-.
-> __**Alt1 Kerapac NM Helper (Courtesy of <@!326454337561821184>)**__
+> **__Alt1 Kerapac NM Helper (Courtesy of <@!326454337561821184>)__**
 .tag:alt1
-__**Voice guidance throughout the kill**__
-.
 This tool reads your screen, and based on certain lines of dialogue in your chatbox, will **trigger and play voice lines during the kill** to let you know about upcoming mechanics and what to do for them.
 
-***Disclaimer**: Alt1 is a third party tool, and while generally safe to use, is still recommended to be installed and used at your own risk.*
 .
 {
   "embed": {
@@ -256,30 +238,14 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
   }
 }
 .embed:json
+***Disclaimer**: Alt1 is a third party tool, and while generally safe to use, is still recommended to be installed and used at your own risk.*
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__AFK Strategy (Ranged)__",
-        "value": "⬥ [Explanation]($linkmsg_intro1$)\n⬥ [Mandatory Reqs.]($linkmsg_mand1$)\n⬥ [Preset]($linkmsg_preset1$)\n⬥ [Action Bars]($linkmsg_bar1$)\n⬥ [Example Kills]($linkmsg_example1$)",
-		"inline": true
-      },
-      {
-	    "name": "__AFK Strategy (Magic)__",
-        "value": "⬥ [Explanation]($linkmsg_intro2$)\n⬥ [Aura Choice]($linkmsg_aura2$)\n⬥ [Mandatory Reqs.]($linkmsg_mand2$)\n⬥ [Preset]($linkmsg_preset2$)\n⬥ [Action Bars]($linkmsg_bar2$)\n⬥ [Example Kills]($linkmsg_example2$)",
-		"inline": true
-      },
-      {
-	    "name": "__AFK Strategy (Melee)__",
-        "value": "⬥ [Explanation]($linkmsg_intro3$)\n⬥ [Aura Choice]($linkmsg_aura3$)\n⬥ [Mandatory Reqs.]($linkmsg_mand3$)\n⬥ [Preset]($linkmsg_preset3$)\n⬥ [Action Bars]($linkmsg_bar3$)\n⬥ [Example Kills]($linkmsg_example3$)",
-		"inline": true
-      }
-    ]
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Low Effort Ranged]($linkmsg_RangedAFK$)\n⬥ [Low Effort Magic]($linkmsg_MagicAFK$)\n⬥ [Low Effort Melee]($linkmsg_MeleeAFK$)\n⬥ [Alt1 Helper]($linkmsg_alt1$)",
+    "color": 39423
   }
 }
 .embed:json

@@ -1,0 +1,131 @@
+> ## **__Necromancy Minion Tank/Free/Hammer__ (Courtesy of the AoD7-10 discord, rotations provided through community effort)**
+
+## ⬥ **__Preset__**
+.tag:preset
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    	"image": {
+      "url": "https://img.pvme.io/images/HCBVfjQZzB.png"
+    },
+    "fields": [
+      {
+        "name": "Necro Minion Tank",
+        "value": "[Preset Link](https://pvme.github.io/preset-maker/#/8H9vxhTaz7cnzcCKk9NF)\n\u200B\n\u200B<:eof:787526151978614824> - <:deathguard90:1138809243143766118> <:eofspec:746403211908481184>\n\u200B\n\u200B_If Hammer bring <:swh:641670143197446182>_\n\u200B_If Free bring <:praeswand:643166769518739477>_",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+## ⬥ **__Rotation__**
+.
+__**Prebuild**__
+.tag:pre
+<:conjurezombie:1137809200219684924> → <:splitsoul:1137809168368148490> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> →  <:commandghost:1137809196864262154> → <:commandskeleton:1137809194423160883>
+
+_Note: This rotation starts on base's <:reprisal:513190159462694912>. You should be using <:commandskeleton:1137809194423160883> at 3s on the timer._
+
+.
+### __**Phase 1**__
+.tag:p1mt
+**If Minion Tank**
+s <:omniguard:1138809234922934282><:spec:537340400273195028> → r <:omniguard:1138809234922934282><:spec:537340400273195028> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109>
+
+.tag:p1ham
+**If Hammer**
+<:ingen:641339234111848463> s <:swh:641670143197446182><:spec:537340400273195028> → r <:swh:641670143197446182><:spec:537340400273195028> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
+
+.tag:p1free
+**If Free**
+<:praeswand:643166769518739477> <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:omniguard:1138809234922934282><:spec:537340400273195028> → <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109>
+
+.
+### __**Phase 2**__
+.tag:p2mt
+<:soulsap:1137809140476031057> → <:stormshards:536256663641128971> → <:lifetransfer:1137809128136388819> + <:cease:864235458464186418> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> + <:vuln:537349530551582720> amalgs → <:deathguard90:1138809243143766118><:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
+
+_Note: The cease used here is to clear your stalled smoke cloud. If smoke cloud is accidentally released instead it will incur a full GCD._
+
+.
+### __**Phase 3**__
+.tag:p3mt
+<:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:deathskulls:1137809106640572583> → <:volleyofsouls:1137809182364540989> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1137809182364540989>/<:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
+
+_Note: Some people should save their <:volleyofsouls:1137809182364540989> for pillar 3. Umbra minion tank should surge on minion spawn, Glacies minion tank should surge on <:livingdeath:1137809132485890108>, and Cruor and Fumus minion tanks should surge after the first <:volleyofsouls:1137809182364540989>. _
+
+.
+### __**Pillars**__
+.tag:pillars
+**Pillar 1** <:touchofdeath:1137809175980810380> → <:fingerofdeath:1137809115066937414> → <:flankicon:841419289755385866> <:soulstrike:1137809142376058910>
+**Pillar 2** <:splitsoul:1137809168368148490> → <:fingerofdeath:1137809115066937414> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
+**Pillar 3** <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057>/<:volleyofsouls:1137809182364540989> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>
+**Pillar 4** <:omniguard:1138809234922934282><:spec:537340400273195028> →<:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
+
+.
+### __**Zaros**__
+.tag:zaros
+<:deathskulls:1137809106640572583> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:volleyofsouls:1137809182364540989>
+.
+.tag:eg
+{
+  "embed": {
+    "title": "__Example Kills__",
+    "description": "24/08/2023 - Rocket Cars - [Free](https://youtu.be/mZpqz_L4r80?si=hZbjZ8uQAQVUZy5F)",
+    "color": 39423
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset__",
+        "value": "[Link]($linkmsg_preset$)",
+        "inline": true
+      },
+      {
+        "name": "__Prebuild__",
+        "value": "[Link]($linkmsg_pre$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "[Minion Tank]($linkmsg_p1mt$)\n\u200B[Hammer]($linkmsg_p1ham$)\n\u200B[Free]($linkmsg_p1free$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2mt$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3mt$)",
+        "inline": true
+      },
+      {
+        "name": "__Pillars__",
+        "value": "[Link]($linkmsg_pillars$)",
+        "inline": true
+      },
+      {
+        "name": "__Zaros__",
+        "value": "[Link]($linkmsg_zaros$)",
+        "inline": true
+      },
+      {
+        "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_eg$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
