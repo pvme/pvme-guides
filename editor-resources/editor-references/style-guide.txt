@@ -72,7 +72,7 @@ __**Language and Formatting**__
 __**PvME Specific**__
 ⬥ Every channel should have its channel topic with the correct title (e.g. channel for "aod" would have "Nex: Angel of Death" as it's topic).
 ⬥ Where possible, the first message of a guide should be an image that best represents the guide.
-⬥ If crediting a user for sections of a guide, use `(Courtesy of @user)` to give them a shoutout.
+⬥ If crediting a user for contributing them to a guide, give them a shoutout in <#1149855521524940892>.
     • To tag a user `@user` use the following syntax: `<@userid>` with the correct `userid`.
     • You can find a Discord User ID by right-clicking a person's name and selecting 'Copy ID'.
     • You will need Developer Mode enabled for this: **Discord Settings > Advanced > Developer Mode (ON)**
@@ -122,13 +122,13 @@ __**Bulleted Lists**__
 ⬥ All bullet points contain 1 space between the bullet and the first word.
 ⬥ Format main points with the `⬥` bullet with no indentation.
     • Format all subpoints using the `•` bullet indented by 4 spaces.
-        ⬩ Format sub-subpoints using the  `⬩` bullet indented by 8 spaces.
+        ⬩ Format sub-subpoints using the `⬩` bullet indented by 8 spaces.
 
 .
 __**Alphanumerical Lists**__
-1) Format main points like this:  `appropriate # followed by a closing parenthesis` with no indentation.
-    a) Format subpoints like this:  `appropriate letter followed by a closing parenthesis` indented by 4 spaces.
-        ⬩ Format subsubpoints like this:  `⬩` indented by 8 spaces.
+1) Format main points like this: `appropriate # followed by a closing parenthesis` with no indentation.
+    a) Format subpoints like this: `appropriate letter followed by a closing parenthesis` indented by 4 spaces.
+        ⬩ Format subsubpoints like this: `⬩` indented by 8 spaces.
     b) __**Bold and underline lists if they ever act as titles**__.
 .
 ```
@@ -312,7 +312,7 @@ __**Rotation/Ability Formatting**__
     • Example: <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>
 .
 ⬥ **Denote non-ability actions in parentheses** (this does not include adrenaline potions or sigils).
-.    
+.
     • Detonate duration
         ⬩ <:sonicwave:1087373972443775056> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
 .
@@ -392,7 +392,7 @@ The Table of Contents (ToC) is present in every guide, and used for quick naviga
 **__ToC Formatting__**
 ⬥ ToC is a Discord embed, and should be in at the end of every guide in a section called "Table of Contents".
 ⬥ The **ToC should be pinned** in the channel.
-    • To do this just  add a new line with the command `.pin:delete` after the message.
+    • To do this just add a new line with the command `.pin:delete` after the message.
 ⬥ The Basic ToC structure has section names along with links to those sections, for each section of the guide. See the code example below.
 .
 ```
