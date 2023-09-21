@@ -84,54 +84,12 @@ _Note: Assumes order of UGCF_
   }
 }
 .embed:json
-.
+.tag:eg
 {
   "embed": {
-    "title": "Table of Contents",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset__",
-        "value": "[Link]($linkmsg_preset$)",
-        "inline": true
-      },
-      {
-        "name": "__Prefight__",
-        "value": "[Link]($linkmsg_prev$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 1__",
-        "value": "[Link]($linkmsg_p1v$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 2__",
-        "value": "[Link]($linkmsg_p2v$)",
-        "inline": true
-      },
-      {
-        "name": "__Phase 3__",
-        "value": "[Link]($linkmsg_p3v$)",
-        "inline": true
-      },
-      {
-        "name": "__Pillars__",
-        "value": "[Link]($linkmsg_pillarsv$)",
-        "inline": true
-      },
-      {
-        "name": "__Zaros__",
-        "value": "[Link]($linkmsg_zarosv$)",
-        "inline": true
-      },
-      {
-        "name": "__Archived Rotations__",
-        "value": "[Link]($linkmsg_archive$)",
-        "inline": true
-      }
-    ]
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Prefight]($linkmsg_prev$)\n⬥ [Phase 1]($linkmsg_p1v$)\n⬥ [Phase 2]($linkmsg_p2v$)\n⬥ [Phase 3]($linkmsg_p3v$)\n⬥ [Pillars]($linkmsg_pillarsv$)\n⬥ [Phase 4]($linkmsg_zarosv$)\n⬥ [Archived Rotations]($linkmsg_archive$)",
+    "color": 39423
   }
 }
 .embed:json
