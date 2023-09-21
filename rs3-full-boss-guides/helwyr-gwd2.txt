@@ -8,18 +8,6 @@
 Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic and 40 Seren killcount to fight. The notable drops for this boss are the Cywir Wand <:cywirwand:643161591571021824>, Cywir Orb, <:cywirorb:643161591210049556> and Crest of Seren <:crestseren:643161511937966122>. These items can be augmented and disassembled for Cywir components <:cywircomp:583430147538026496> which are required for Planted Feet <:pf:689501925770919981>.
 
 .
-> **__Presets__**
-.tag:presets
-**__Advanced Melee Preset__**
-.tag:meleeadv
-⬥ <:Cinderbanes:513190158355660812> **Cinderbane Gloves**
-⬥ <:aosor:544200033847869443> **Amulet of Souls** - extra HP back with <:soulsplit:615613924506599497> and mitigate more damage with protection curses.
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:blackpouch:656786565359599626> **Rune Pouch** <:Airrune:536252658986647589> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137>
-(Runes for <:disrupt:535614336207552523> <:Veng:543478434953822208>)
-.img:https://img.pvme.io/images/aooVhDn.png
-
-.
 > **__Mechanics__**
 .tag:mechanics
 {
@@ -53,30 +41,37 @@ Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic a
 .embed:json
 
 .
-> **__Melee Helwyr Guide__**
-.tag:meleehelwyr
-**__What to Expect__**
-This method can achieve ~75-77 kills per hour with average kill times of ~22.8s
+> __**Presets and Relics**__
+.tag:presets
+{
+  "embed": {
+    "title": "",
+    "description": "⬥ [Melee](https://img.pvme.io/images/72tmpKY.png)\n⬥ [Melee (Advanced)](https://img.pvme.io/images/aooVhDn.png)\n⬥ [Necromancy (T90+)](https://pvme.github.io/preset-maker/#/n2njr1EUFBmauDsV3rrr)\n⬥ [Magic (High-effort)](https://img.pvme.io/images/94xCYSQ.png)\n⬥ [Magic (Low-effort)](https://img.pvme.io/images/WKTUsSX.png$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
 
 .
-**__Melee Preset__ <:melee:1096130867279171706>**
-**__Gear Setup__**
-.img:https://img.pvme.io/images/72tmpKY.png
-*Note: Note: For a full breakdown of the preset, check out: <https://img.pvme.io/images/jRKdJjA.png>*
+> **<:melee:1096130867279171706> __Melee Helwyr Guide__**
+.tag:melee
+This method can achieve ~75-77 kills per hour with average kill times of ~22.8s
+.
+{
+  "embed": {
+    "title": "__Tips & Tricks__",
+    "description": "⬥ Refer to the linked video to see how the BDs and Surges between kills look like - <https://youtu.be/12qTzSHLTTs>\n⬥ If you get shroomed, ideally walk under Helwyr until you are out of the mushroom radius\n⬥ If your HP gets really low then utilize Disrupt <:disrupt:535614336207552523>\n⬥ To make looting more efficient, you can bind the open area loot interface in control settings, and then just hit that bind and the loot bind as soon as Helwyr dies",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
 
-**__Important Items__**
-⬥ 3 pieces of <:vestmentsofhavoctop:994189295592161291> is **required**
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:disrupt:535614336207552523> <:Veng:543478434953822208>)
-
+.
 **__Relic Setup__**
 ⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
 ⬥ <:berserkersfury:697808774106185768> Berserkers Fury
-
-**__Notes__**
-⬥ <:nip:537336877900890135> helps with consistency, can be omitted
-⬥ <:blackcrystal:1000328247441104917> can likely be omitted
 
 .
 **__Rotation__**
@@ -86,36 +81,51 @@ Join instance → <:freedom:535541258240786434> → <:zerk:535532854004678657> +
 
 *Note: Always Vengeance <:Veng:543478434953822208> the cleave, ideally with SS <:soulsplit:615613924506599497> on (Deflect Melee <:DeflectMelee:544195488447201300> if below <70% hp or if uncomfortable tanking with SS <:soulsplit:615613924506599497> )*
 
-.
-**__Tips and Tricks__**
-⬥ Refer to the linked video to see how the BDs and Surges between kills look like - <https://youtu.be/12qTzSHLTTs>
-⬥ If you get shroomed, ideally walk under Helwyr until you are out of the shroom radius
-⬥ If your HP gets really low then utilize Disrupt <:disrupt:535614336207552523>
-⬥ To make looting more efficient, you can bind the open area loot interface in control settings, and then just hit that bind and the loot bind as soon as Helwyr dies.
 
 .
-> **__Magic Helwyr Guides__**
-.tag:magicrot
-**__Methods__**
-1) ~65kph Altar-reseting Method (relatively high effort)
-2) ~55kph AFK for Sunshine Coodown Method (relatively low effort)
+> **<:necromancy:1148995625896120460> __Necromancy Helwyr Guide__**
+.tag:necromancy
+⬥ To save a few ticks, you may wish to summon your conjures on the move, any time after getting 100% adren at Wars Retreat.
+⬥ You may wish to equip <:excal:641337999170207763> to dismiss and renew your conjures.
+⬥ Darkness <:darkness:1137809209782698024> is optional to reduce damage taken.
 
 .
-**__Timing Target Cycle__**
-To time Target Cycle you want to use 3 ability from rejoining instance, this is what the Anticipate <:anti:535541306475151390> → Bladed Dive <:bd:535532854281764884> → Sunshine <:sunshine:994921119381463070> in the below rotations accomplish
+__**Rotation**__
+⬥ This rotation requires <:igneouskalmor:1139200072438005851>. If you don't have one, remove <:deathskulls:1137809106640572583> from the rotation and use <:touchofdeath:1137809175980810380> and <:fingerofdeath:1137809115066937414> where possible.
+⬥ This rotation consistently hits sub-20-second kills and seeks to hit sub-15-seconds. It requires teleporting to Wars Retreat between kills for adren.
+
+**Outside instance**
+<:conjureskeleton:1137809204112011274> → <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:kalgscroll:841409588954923049> → <:commandskeleton:1137809194423160883> + right-click 'rejoin'
+
+**Inside instance**
+<:commandghost:1137809196864262154> + right-click 'quick enter' → <:bd:535532854281764884>+<:surge:535533810004262912> to opposite corner (this will bring your conjures inside) → <:invokedeath:1137809121983336548>
+
+**Main fight**
+<:vulnbomb:655341074235129858> + (tc) + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:deathguard70:1138809262194294864> <:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:volleyofsouls:1137809182364540989> → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> (repeat auto if not dead) → switch <:lotd:566453486913323042> → loot → <:warsretreatteleport:1032540079589163049>
+
 
 .
-**__Sun Positioning__**
-You want to <:sunshine:994921119381463070> in the following spot to ensure you start the fight in Melee Distance and also remain in <:sunshine:994921119381463070> when when you bladed dive out of shrooms
+> **<:magic:689504724159823906> __Magic Helwyr Guides__**
+.tag:magic
+
+**__Magic Methods__**
+⬥ [1. ~65kph Altar-reseting Method (relatively high effort)]($linkmsg_magichigh$)
+⬥ [2. ~55kph AFK for Sunshine Coodown Method (relatively low effort)]($linkmsg_magiclow$)
+
 .
-.img:https://img.pvme.io/images/jlN3dUY.png
-.
-**__Bladed Dive Locations__**
-You want to <:bd:535532854281764884> to the following spots to ensure you remain in <:sunshine:994921119381463070> and out of shrooms while also not walking Helwyr
-.
-.img:https://img.pvme.io/images/O6o5zQn.png
+{
+  "embed": {
+    "title": "__Tips & Tricks__",
+    "description": "⬥ **Timing Target Cycle**: To time Target Cycle you want to use 3 ability from rejoining instance, this is what the Anticipate <:anti:535541306475151390> → Bladed Dive <:bd:535532854281764884> → Sunshine <:sunshine:994921119381463070> in the below rotations accomplish.\n⬥ **Sun Positioning:** You want to <:sunshine:994921119381463070> in the following spot to ensure you start the fight in Melee Distance and also remain in <:sunshine:994921119381463070> when when you bladed dive out of shrooms as in [this image](https://img.pvme.io/images/jlN3dUY.png).\n⬥ **Bladed Dive Locations**: You want to <:bd:535532854281764884> to the following spots to ensure you remain in <:sunshine:994921119381463070> and out of shrooms while also not walking Helwyr, as in [this image](https://img.pvme.io/images/O6o5zQn.png).",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
+
 .
 **__Method 1: Altar-reset Method (High Effort)__**
+.tag:magichigh
 ⬥ This method can achieve ~65kph with average kill times of 30s
 
 .
@@ -126,7 +136,6 @@ You want to <:bd:535532854281764884> to the following spots to ensure you remain
 ⬥ <:graspingpouchpink:892816437503221830>: <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
 ⬥ <:graspingpouchblue:892816437406728252>: <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
 (Runes for <:bloodbarrage:537338981747261446> <:exsanguinate:856635090745950258> <:SBSStandards:565726489526534154> (if normal <:Vuln:537349530551582720>) / <:SBSLunars:565726489467682816> (if BP <:Vuln:537349530551582720>) <:Veng:543478434953822208>
-.img:https://img.pvme.io/images/94xCYSQ.png
 
 .
 **__Rotation__**
@@ -150,6 +159,7 @@ Loot → <:bdmobile:867678153668820992> to altar to reset cooldowns → <:surge:
 
 .
 **__Method 2: AFK for Sunshine Cooldown (Low Effort)__**
+.tag:magiclow
 ⬥ This method can achieve ~55kph with average kill times of atleast 35s
 
 .
@@ -160,8 +170,7 @@ Loot → <:bdmobile:867678153668820992> to altar to reset cooldowns → <:surge:
 ⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
 ⬥ <:purppouch:656786565149884427> **Rune Pouch** <:Airrune:536252658986647589> <:Soulrune:536252660333019136> <:Chaosrune:536252659422855188>
 (Runes for <:AirSurge:543465115870035999> <:Vuln:537349530551582720>)
-.
-.img:https://img.pvme.io/images/WKTUsSX.png
+
 .
 *Note: You can swap Super Restores <:restore:642708657825644554> for Spiritual Prayers <:spiritualprayer:651079281882955787>, but extra ripper specs do not aid much as you are already gated by Sunshine's <:sunshine:994921119381463070> cooldown in this guide, likewise with using a Scrimshaw over Zamorak Book <:ZamBook:574290439461404672>.*
 
@@ -188,7 +197,7 @@ A full guide on how to AFK Helwyr is available here: <#1148984883964813384>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Advanced Melee Preset]($linkmsg_meleeadv$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Melee Rotation]($linkmsg_meleehelwyr$)\n⬥ [Magic Rotation]($linkmsg_magicrot$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Melee Helwyr Guide]($linkmsg_melee$)\n⬥ [Necromancy Helwyr Guide]($linkmsg_necromancy$)\n⬥ [Magic Helwyr Guides]($linkmsg_magic$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
     "color": 39423
   }
 }
