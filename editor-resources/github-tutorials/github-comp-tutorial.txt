@@ -1,44 +1,44 @@
 > **__Introduction__**
 .tag:intro
-GitHub  is a service that lets users maintain a repository of information that is organized, version controlled, and allows for easy contributions from many users. PvME uses GitHub to maintain its guides and information.
+GitHub is a service that lets users maintain a repository of information that is organized, version controlled, and allows for easy contributions from many users. PvME uses GitHub to maintain its guides and information.
 
-This guide covers how to use Github for contributing to PvME. If you would like to directly skip to the instructions, you can directly navigate to the __**Tutorial**__ section using the pinned links.
+This guide covers how to use Github for contributing to PvME. If you would like to directly skip to the instructions, you can directly navigate to the __**Tutorial**__ section using the pinned links, and if you would like a quick tutorial, use <#1153051668448026696>.
 
-Once you have completed this short tutorial, you can look at <#1089958996405911612> for more tips, tricks, and other information.
+Once you have completed this tutorial, you can look at <#1089958996405911612> for more tips, tricks, and other information.
 
 .
 > **__How GitHub Works__**
 .tag:summary
 ⬥ GitHub is an Internet hosting service that offers the use of Git repositories, which is how PvME stores its information and guides.
-⬥ A repository is simply the collection of all the files and folders for a single project, that is tracked and version controlled.
-⬥ Anyone can offer to contribute to the PvME repository.
+⬥ A repository is a collection of all the files and folders for a project, that is tracked and version controlled.
+⬥ Anyone can contribute to the PvME repository.
 ⬥ The basic contribution process looks like this:
 ```fork PvME repo → make changes → commit changes → make pull request → changes get accepted```
 ⬥ A brief explanation of the steps:
     • **Make a copy of the repository**, also known as *forking* the repository. You now have an up-to-date copy of the PvME files.
     • **Make changes to the files in your repository and commit them** to your own repository. You can think of this as "saving" your changes.
-    • To add your new changes to the official PvME repository, **make a pull request**. This tells PvME that you have changes you want *pulled* from your files into PvME's files.
+    • To add your new changes to the PvME repository, **make a pull request**. This tells PvME that you have changes you want *pulled* from your files into PvME's files.
     • **Wait for your pull request to be accepted**. When this is done, your changes will now be a part of PvME's guides!
-    • You can now delete your fork, and re-fork the repository again once you want to make more changes.
+    • You can now re-sync, or delete and re-fork the repository once you want to make more changes.
 
 .
 > __**Tutorial**__
 .tag:tutorial
 .
-The goal of this tutorial is to add your name to the list at the bottom of this guide. Let's do that now.
+The goal of this tutorial is to add your name to the list at the bottom of this guide.
 
 __**Step 1: Create a GitHub Account**__ (<https://github.com>)
 .tag:step1
 ⬥ Go to GitHub and use the *Sign Up* button on the top right of the page.
 ⬥ **Your username and e-mail account will be visible, so ensure you don't include personal information**.
-⬥ If you have a GitHub account already, it is advised to make a new one when contributing to PvME unless you are confident that you haven't doxxed yourself in any of your commit histories.
+⬥ If you have a GitHub account already, it is advised to make a new one for PvME unless you are certain that you haven't doxxed yourself in your commit histories.
 *For experienced users: If you use the Git CLI, make sure you check your `git config [user.name|user.email]` configs, as these settings can still dox you, even if you use a new account.*
 .
 .img:https://img.pvme.io/images/uI7JVfh.png
 .
 __**Step 2: Fork the PvME Repository**__ (<https://github.com/pvme/pvme-guides>)
 .tag:step2
-⬥ Think of this as "Make a Copy" on Google Drive - it creates a personal copy of the repository that you can then edit at your leisure.
+⬥ This creates a personal copy of the repository that you can then edit at your leisure.
 ⬥ Click the *Fork* button at the top right of the page, then confirm the creation of the fork.
 .
 .img:https://img.pvme.io/images/9sDym3q.png
@@ -47,7 +47,7 @@ __**Step 2: Fork the PvME Repository**__ (<https://github.com/pvme/pvme-guides>)
 .
 __**Step 3: Open Your Forked Repository In Your Browser**__
 .tag:step3
-⬥ You can find it by selecting *Your Repositories* in the dropdown menu, accessible by clicking your profile picture at the top right.
+⬥ You can find it by selecting *Your Repositories* in the dropdown menu, found by clicking your profile at the top right.
 ⬥ You will know you are in your forked repository when the top-left of the website looks like this:
 .
 .img:https://img.pvme.io/images/h0zk8pQ.png
@@ -56,7 +56,8 @@ __**Step 3: Open Your Forked Repository In Your Browser**__
 .
 __**Step 4: Navigate to the *github-tutorial.txt* File**__
 .tag:step4
-⬥ The structure of the PvME repository mimics the server category/channel structure, so to navigate through the repository, simply click through folders that share the name of the discord categories, until you find this guide in the GitHub repository.
+⬥ The structure of the PvME repository mimics the server category/channel structure, to navigate through the repository click through folders that share the name of the discord categories, until you find this guide in the GitHub repository.
+    • If you are struggling to find a file you can use the search bar at the top.
 ⬥ The file is located at *editor-resources > github-tutorials > github-tutorial.txt*.
 .
 .img:https://img.pvme.io/images/tT47C8Y.png
@@ -77,7 +78,7 @@ __**Step 6: Your First Change and Contribution**__
 .tag:step6
 ⬥ Click the *Edit* icon at the top right to begin editing the file. It looks like a pencil.
 ⬥ Paste your Discord ID at the bottom of the file, below the other IDs, in the format `<@yourusedidhere>`.
-    • Replace the text with your Discord ID numbers.
+    • Replace the text with your Discord ID.
 ⬥ Then *commit* (i.e. save) your changes.
     • Leave the settings at their default (i.e. "Commit directly to the `master` branch").
 .
@@ -87,9 +88,9 @@ __**Step 6: Your First Change and Contribution**__
 .
 __**Step 7: Create A Pull Request**__
 .tag:step7
-⬥ Navigate to the *Code* tab in your personal repository. You will notice that you are now *1 commit ahead* - this merely says that you have changes ready to contribute!
+⬥ Navigate to the *Code* tab in your personal repository. You will notice that you are now *1 commit ahead* - this means you have changes ready to contribute!
 ⬥ Click the *Contribute* button and select *Pull Request* from the drop-down.
-⬥ You can add a comment like "added my name to github-tutorial", and then create the *pull request*.
+⬥ You can add type something like "add my name to github-tutorial" as the commit message, and then create the *pull request*.
 .
 .img:https://img.pvme.io/images/DXYZid4.png
 .
@@ -97,9 +98,9 @@ __**Step 7: Create A Pull Request**__
 .
 __**Step 8: That's it!**__
 .tag:step8
-⬥ You're done! If your changes are approved, then your pull request will be accepted by a senior editor or moderator.
+⬥ You're done! If your changes are approved, then your pull request will be merged into PvME.
 ⬥ The <#1020846500823183460> channel will get updated, and your name will appear in the channel.
-⬥ You can delete your fork *after* the pull request is accepted, if you wish. To delete a fork, go to your repo *Settings*, and scroll down till you find the option to delete. Then follow the confirmation process.
+⬥ You can resync or delete your fork *after* the pull request is accepted. To delete a fork, go to your repo *Settings*, and scroll down till you find the option to delete. Then follow the confirmation process.
 .img:https://img.pvme.io/images/VpO5Lde.png
 .
 .img:https://img.pvme.io/images/YaxlO8O.png
@@ -266,6 +267,8 @@ __**Step 8: That's it!**__
 <@992343556733800448>
 <@333634752341082112>
 <@195935969851998209>
+<@183645490393382912>
+<@839236111054143508>
 .
 {
   "embed": {
@@ -278,8 +281,8 @@ __**Step 8: That's it!**__
         "inline": true
       },
       {
-        "name": "__Tutorial__",
-        "value": "[Step 1]($linkmsg_step1$)\n[Step 2]($linkmsg_step2$)\n[Step 3]($linkmsg_step3$)\n[Step 4]($linkmsg_step4$)\n[Step 5]($linkmsg_step5$)\n[Step 6]($linkmsg_step6$)\n[Step 7]($linkmsg_step7$)\n[Step 8]($linkmsg_step8$)\n",
+        "name": "__Tutorial Steps__",
+        "value": "[Create an Account]($linkmsg_step1$)\n[Fork the Repository]($linkmsg_step2$)\n[Open The Repository]($linkmsg_step3$)\n[Navigate to the Channel]($linkmsg_step4$)\n[Enable Discord Dev Mode]($linkmsg_step5$)\n[Make Your Change]($linkmsg_step6$)\n[Create A Pull Request]($linkmsg_step7$)\n[Done!]($linkmsg_step8$)\n",
         "inline": true
       },
       {

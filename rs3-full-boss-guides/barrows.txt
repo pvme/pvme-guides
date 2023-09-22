@@ -1,4 +1,4 @@
-**__Barrows__ (Courtesy of <@145884917627224065>, <@118339314508627977>, and <@1080778657917833246>)**
+**__Barrows__**
 .img:https://img.pvme.io/images/spTpeWe.png
 *Note: a **Table of Contents** can be found in the pins.*
 
@@ -30,13 +30,10 @@ Linza → Ahrim → Verac → Akrisae <:barrowsamulet:1097517253056024647> → T
   "embed": {
     "title": "",
     "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/YhDXgChJfZ.png"
-        },
     "fields": [
       {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [High level setup](https://pvme.github.io/preset-maker/#/LRXvESx2VAVy81vo0g4N)",
+        "name": "__Preset Suggestions & Breakdowns__",
+        "value": "⬥ [High level melee + magic setup](https://pvme.github.io/preset-maker/#/LRXvESx2VAVy81vo0g4N)\n⬥ [High level necromancy setup](https://pvme.github.io/preset-maker/#/yhE7Lxmfp78fraP0moPK)",
         "inline": true
       }
     ]
@@ -50,7 +47,7 @@ Linza → Ahrim → Verac → Akrisae <:barrowsamulet:1097517253056024647> → T
 .
 {
   "embed": {
-    "title": "__Example Rotation__",
+    "title": "__Example Melee + Magic Rotation__",
     "description":"⬥ If you're ever lacking adrenaline, you can <:inquisitorstaff:694566917553520680> <:icebarrage:537340400185245701> + <:wrack:856662355952795658> → <:gsonicwave:1095411826839257138>\n⬥ If any brother is still alive, finish with <:gsonicwave:1095411826839257138> or <:dbreath:535533833391702017>\n⬥ In the tunnels build to 100% adrenaline, and 5 stacks of Incite Fear <:incitefear:856635090783567902>",
     "color": 39423,
     "fields":[
@@ -105,19 +102,77 @@ Linza → Ahrim → Verac → Akrisae <:barrowsamulet:1097517253056024647> → T
 .embed:json
 
 .
-**__Example Kill__**
+{
+  "embed": {
+    "title": "__Example Necromancy Rotation__",
+    "description":"⬥ Place your Oldak Coil <:oldakcoil:798285651387613194> on Akrisae\n⬥ Necromancy requires no Barrows amulets <:barrowsamulet:1097517253056024647> as it's just as fast without\n⬥ Use <:commandskeleton:1137809194423160883> whenever it's up and try to use it outside tombs just before you go in\n⬥ Build 5 <:residualsoul:1139453152169558046> stacks on the brothers before the tunnel\n⬥ <:conjurezombie:1137809200219684924> + <:surgemobile:867678153798975498> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> + <:surgemobile:867678153798975498> → <:commandghost:1137809196864262154> after <:drakansmedallion:855869058225274931> teleport",
+    "color": 39423,
+    "fields":[
+        {
+            "name":"__Linza__",
+            "value":"⬥ <:splitsoul:1137809168368148490> → <:invokedeath:1137809121983336548> + <:divemobile:1049378665802235968> → (tc) + <:deathskulls:1137809106640572583> + <:vulnbomb:655341074235129858> + <:undeadslayer:641339922019516416> → <:tuskas:513201065513058306> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:deathguard90:1138809243143766118> <:spec:537340400273195028>\n\u00a0\u00a0\u00a0\u00a0• Run over to Ahrim whilst doing the rotation, be sure to not run out of <:deathskulls:1137809106640572583> range\n\u00a0\u00a0\u00a0\u00a0• If <:Tuskas:513201065513058306> is on cd, use <:bloat:1137809185753550929>\n\u00a0\u00a0\u00a0\u00a0• You can pre-vuln by using <:vulnbomb:655341074235129858> on the ground after clicking the sarcophagus",
+            "inline":false
+        },
+        {
+            "name":"__Ahrim__",
+            "value":"⬥ (tc) + <:soulsap:1137809140476031057>",
+            "inline":false
+        },
+        {
+            "name":"__Verac__",
+            "value":"⬥ <:commandskeleton:1137809194423160883> → (tc) + <:soulsap:1137809140476031057>",
+            "inline":false
+        },
+        {
+            "name":"__Akrisae__",
+            "value":"⬥ (tc) + <:touchofdeath:1137809175980810380>",
+            "inline":false
+        },
+        {
+            "name":"__Torag__",
+            "value":"⬥ (tc) + <:soulsap:1137809140476031057>",
+            "inline":false
+        },
+        {
+            "name":"__Karil__",
+            "value":"⬥ <:commandskeleton:1137809194423160883> → (tc) + <:soulsap:1137809140476031057>",
+            "inline":false
+        },
+        {
+            "name":"__Guthan__",
+            "value":"⬥ (tc) + <:soulsap:1137809140476031057>",
+            "inline":false
+        },
+        {
+            "name":"__Dharok__",
+            "value":"⬥ <:commandskeleton:1137809194423160883> → (tc) + <:soulsap:1137809140476031057>",
+            "inline":false
+        },
+        {
+            "name":"__Tunnels__",
+            "value":"⬥ (tc) + <:volleyofsouls:1137809182364540989>",
+            "inline":false
+        }
+    ]
+  }
+}
+.embed:json
+
+.
+**__Example Kilsl__**
 .tag:examples
 ⬥ [Example run](https://youtu.be/iQy0IqYfvUQ?si=x2wyUrlqoWDmiqm8)
+⬥ [Example necromancy run](https://youtu.be/RTxzSKIBISc)
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <#924484538187522098>*",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
     "color": 39423,
     "fields": [
      {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kill]($linkmsg_examples$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_examples$)",
         "inline": true
       }
     ]
