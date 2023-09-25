@@ -26,21 +26,21 @@ Creatures of the Lost Grove can be accessed through the monolith west of the Inc
 .img:https://img.pvme.io/images/zqSNLFE.png
 > __**Moss Golems**__
 .tag:mossgolems
-Moss Golems have hard hitting melee auto-attacks, and can hit from halberd range. When they lose HP, their heads pop off and spawn a Mossy Rock that also deals damage. To prevent taking too much damage, the Enhanced Devoted <:enhdev4:712073087507628035> or the cryptbloom <:cryptbloomhelm:892819107123195956> are extremely important for survivability, as you will be praying <:DeflectMelee:544195488447201300> regardless of which method you are using.
+Moss Golems have hard hitting melee auto-attacks, and can hit from halberd range. When they lose HP, their heads pop off and spawn a Mossy Rock that also deals damage. To prevent taking too much damage, the Enhanced Devoted <:enhdev4:712073087507628035> or cryptbloom <:cryptbloomhelm:892819107123195956> are extremely important for survivability, as you will be praying <:DeflectMelee:544195488447201300> regardless of which method you are using.
 
 **__Stats__**
 ⬥ <:slayer:797896049548066857> XP per kill : 2408.8
 ⬥ Optimal kills per hour: ~700 AFK
 ⬥ Optimal <:slayer:797896049548066857> XP per hour : ~1.68M AFK
 
-.
-> **__Method - AFK Magic__**
-.tag:magic
-Magic is used via Legacy mode, capitalising on consistent AoE damage and healing from <:bloodbarrage:537338981747261446>
-
 **__Strategy__**
 ⬥ Stand on top of a hill near the entrance next to a pile of Moss Golem bodies (yellow square shown below), and place the cannon <:cannon:869283142350041098> on the red square.
 .img:https://img.pvme.io/images/sYQWYkH.png
+
+.
+> **__Method - AFK Magic__**
+.tag:mossgolemmagic
+Magic is used via Legacy mode, capitalising on consistent AoE damage and healing from <:bloodbarrage:537338981747261446>
 
 .
 ⬥ This allows you to channel golems attacking the player onto 1 spot to be easily AOE'd. If using the Inquisitor's Staff <:inquisitorstaff:694566917553520680>, Blood Burst <:bloodburst:841419289714098246> can be used for a small damage reduction to save a large amount of blood runes, improving profits. Otherwise, Blood Barrage <:bloodbarrage:537338981747261446> should be used.
@@ -69,9 +69,46 @@ Magic is used via Legacy mode, capitalising on consistent AoE damage and healing
 .embed:json
 
 .
-**__Video Example__**
+> **__Method - AFK Necro__**
+.tag:mossgolemnecro
+.
+⬥ Thanks to Necromancies sustain with <:conjureghost:1137809206423060632> and <:bloodsiphon:1137809187485782149>, as well as its strong aoe damage potential with <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>, it can effectively AFK Moss Golems. Around 630-650kph can be achieved on task with this method while being safe and AFK with low input costs.
+
+⬥ Pray <:DeflectMelee:544195488447201300> and <:sorrow:1137941003895046284>/<:ruination:1137940996391452772>
+⬥ Upkeep <:darkness:1137809209782698024> <:elderovl:841419289831800882> <:aggressionpotion:925794592199147581> <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times.
+⬥ Use <:cannon:869283142350041098> to help aggro the Moss Golems.
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/HlkUoNuYdq.png"
+        },
+    "fields": [
+      {
+        "name": "__AFK Necro__",
+        "value": "⬥ [Preset breakdown](https://pvme.io/preset-maker/#/YVYhZEUA8L6W2OAZmuLB)\n\u200B",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+**__Action Bar__**
+.
+.img:https://img.pvme.io/images/4IDRVXEESB.png
+.
+
+.
+**__Video Examples__**
 .
 ⬥ AFK Magic - https://youtu.be/BSnOFP-WMzs
+⬥ AFK Necro - https://www.youtube.com/watch?v=Rds7EhT0vlA
 .
 .img:https://img.pvme.io/images/1JXBJr0Wvj.png
 > **__Vinecrawlers__**
@@ -102,6 +139,7 @@ These monsters are generally not killed for any purpose other than their soul <:
 
 .
 **__Method__**
+.tag:vinecrawlerranged
 ⬥ Use a tier 85+ weapon (or hexhunter bow <:hexhunterbow:581180369911414794>) along with Cryptbloom helm <:cryptbloomhelm:892819107123195956>, and boots <:cryptbloomboots:892819107236433930>, and Animate Dead <:animatedead:856635090453135382>.
 
 ⬥ You need Enhanced devoted 4 <:enhdev4:712073087507628035> on your armour and pray Deflect magic <:DeflectMage:544195487926845462>
@@ -179,6 +217,7 @@ These monsters are generally not killed for any purpose other than their soul <:
 
 .
 **__Preset__**
+.tag:bulbouscrawlersmelee
 .
 {
   "embed": {
@@ -209,8 +248,20 @@ https://youtu.be/FYYxz4xHQIw
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desireable Drops]($linkmsg_desirabledrops$)\n⬥ [How to Get There]($linkmsg_locationandhowtogetthere$)\n⬥ [Moss Golems]($linkmsg_mossgolems$)\n⬥ [Vinecrawlers]($linkmsg_vinecrawlers$)\n⬥ [Bulbous Crawlers]($linkmsg_bulbouscrawlers$)",
-    "color": 39423
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desireable Drops]($linkmsg_desirabledrops$)\n⬥ [How to Get There]($linkmsg_locationandhowtogetthere$)\n⬥ [Moss Golems]($linkmsg_mossgolems$)\n⬥ [Vinecrawlers]($linkmsg_vinecrawlers$)\n⬥ [Bulbous Crawlers]($linkmsg_bulbouscrawlers$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [AFK Magic Moss Golems]($linkmsg_mossgolemmagic$)\n⬥ [AFK Necro Moss Golems]($linkmsg_mossgolemnecro$)\n⬥ [AFK Ranged Vinecrawlers]($linkmsg_vinecrawlerranged$)\n⬥ [AFK Melee Bulbous Crawlers]($linkmsg_bulbouscrawlersmelee$)\n",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
