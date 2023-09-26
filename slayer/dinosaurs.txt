@@ -79,10 +79,10 @@ Venomous Dinosaurs are located on the northwestern part of Anachronia. They can 
 .
 **__Where to Stand__**
 .
-Place the cannon <:cannon:869283142350041098> on the red square and stand on the yellow square shown in the image below. This effectively aggros the 5 dinosaurs labelled in image. This works for both the <:melee:1096130867279171706> and <:Magic:689504724159823906> methods.
+Place the cannon <:cannon:869283142350041098> on the yellow square and stand on the green square shown in the image below. This effectively aggros 5 dinosaurs. This works for all three methods.
 
 .
-.img:https://img.pvme.io/images/gLDFbZ5.png
+.img:https://img.pvme.io/images/WOzKMPVw24.png
 
 .
 > **__Method: Active and AFK Melee__**
@@ -149,9 +149,45 @@ Thanks to the Venomous Dinosaurs' higher affinity to <:Magic:689504724159823906>
 *Note: if <:magmatempest:902209626509025290> and/or <:gchain:787904334495088672> are not owned, simply ignore them and move the remaining abilities closer to the left. <:gsunshine:994644352871714836> is by no means a requirement, but can slightly improve KPH.*
 
 .
+> **__Method: AFK Necromancy__**
+.tag:afkvenonecro
+Thanks to Necromancies sustain with <:conjureghost:1137809206423060632> and <:bloodsiphon:1137809187485782149>, as well as its strong aoe damage potential with <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>, it can effectively AFK Venomous Dinosaurs. Around 450-470kph can be achieved on task with this method while being safe and AFK with low input costs.
+
+⬥ Pray <:DeflectMelee:544195488447201300> and <:sorrow:1137941003895046284>/<:ruination:1137940996391452772>
+⬥ Upkeep <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times.
+⬥ Use <:cannon:869283142350041098> to help aggroing the dinosaurs.
+
+.
+**__Preset__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Necromancy](https://pvme.io/preset-maker/#/B0h6qyW25IAerHlXzqTm)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+
+.
+**__Action Bar__**
+.
+.img:https://img.pvme.io/images/aVsKFtymtR.png
+.
+
+.
 **__Video Example__**
 .tag:venomousvideo
 Melee active - <https://youtu.be/wSqeBdw2cVE>
+Necromancy AFK - <https://www.youtube.com/watch?v=3Z3n6q4v0ps>
 
 .
 .img:https://img.pvme.io/images/lqGkdJ79ji.png
@@ -278,7 +314,7 @@ Magic AFK (Ripper dinosaurs) - <https://youtu.be/pox00C4NLJI>
       },
       {
         "name": "__Venomous dinosaurs__",
-        "value": "⬥ [Introduction]($linkmsg_venomous$)\n⬥ [Location and How to Get There]($linkmsg_location$)\n⬥ [Method: Active/AFK Melee]($linkmsg_venomelee$)\n⬥ [Method: AFK Magic]($linkmsg_afkvenomage$)\n⬥ [Video Example]($linkmsg_venomousvideo$)",
+        "value": "⬥ [Introduction]($linkmsg_venomous$)\n⬥ [Location and How to Get There]($linkmsg_location$)\n⬥ [Method: Active/AFK Melee]($linkmsg_venomelee$)\n⬥ [Method: AFK Magic]($linkmsg_afkvenomage$)\n⬥ [Method: AFK Necro]($linkmsg_afkvenonecro$)\n⬥ [Video Examples]($linkmsg_venomousvideo$)",
         "inline": true
       },
       {

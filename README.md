@@ -1,8 +1,8 @@
 # PvME Guides
-This is the up-to-date repository for all information found in the [PvME Discord Server](https://discord.gg/6djqFVN)
+This is the up-to-date repository for all information found in the [PvME Discord Server](https://discord.gg/pvme)
 All changes made to guides will live here, and everyone is free to use this information as they like, under our [Creative Commons License](LICENSE).
 
-## [Discord](https://discord.gg/6djqFVN)
+## [Discord](https://discord.gg/pvme)
 ![PvME Logo](https://img.pvme.io/images/NYqV8et.png)
 
 ## Contributing

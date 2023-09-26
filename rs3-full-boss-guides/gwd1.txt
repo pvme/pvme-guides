@@ -12,16 +12,27 @@ Style is unimportant, except for the fact that the Armadyl GWD1 Boss cannot be k
 
 <:slayerhelm:798285340460449792> boosts work on K'ril/Kree when on a Greater Demons/Aviansies task. Activating the Intimidation totem <:intimidationtotem:643507594794631198> will allow you to leave and re-enter the boss room without needing to gain 40 kc, this can be used as a way to increase kph.
 
-Summon a legendary pet with beast of burden and scavenge, so that it picks up drops for you and acts as an inventory to store drops and supplies at the beginning of the trip. You may AFK with the Revolution++ Bars provided at: <https://runescape.wiki/w/Revolution/Bars#Revolution++_optimal_bars>
-
+**__Overview__**
+.tag:overview
 .
-> **__Drops__**
-.tag:drops
-⬥ <:godswordshard:643162769520066570> **Godsword shards**
-    • 1/256
-⬥ <:decayingtooth:643150841280200717> **Pet drop**
-    • 1/5000 Normal mode (1000 threshold)
-    • 1/1000 Hard mode (1000 threshold)
+{
+  "embed": {
+  "title": "",
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**\n\u00a0\u00a0\u00a0\u00a0• A more extensive list can be found in <#1130180182544744551>",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [T85+ dual wield magic weapons](https://runescape.wiki/w/Comparison_of_high-level_magic_weapons) <:cywirwand:643161591571021824><:cywirorb:643161591210049556>\n⬥ [Igneous Kal-Mej](https://runescape.wiki/w/Igneous_Kal-Mej) <:igneouskalmej:1153772938252787793>\n⬥ [Scripture of Wen](https://runescape.wiki/w/Scripture_of_Wen) <:scriptureofwen:883134307902816297>\n\u00a0\u00a0\u00a0\u00a0• Other pocket slots can be used\n⬥ [Cinderbane Gloves](https://runescape.wiki/w/Cinderbane_gloves) <:cinderbanes:513190158355660812>\n⬥ [Amulet of Souls](https://runescape.wiki/w/Amulet_of_souls) <:aos:513190158359724056>\n\u00a0\u00a0\u00a0\u00a0• [Demon Horn Necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079> and [Attuned Ectoplasmator](https://runescape.wiki/w/Attuned_ectoplasmator) <:ectoplasmator:1023152065431744542> should be used for prayer upkeep at K'ril"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Torment / Affliction](https://runescape.wiki/w/Torment) <:torment:583429936958930964><:affliction:513190158468907008>\n⬥ [Ripper Demon](https://runescape.wiki/w/Ripper_Demon_(familiar)) <:ripperpouch:703581275453128714>\n\u00a0\u00a0\u00a0\u00a0• Does **not** require scrolls\n"
+      }
+    ]
+   }
+}
+.embed:json
 
 .
 > **__Preset__**
@@ -34,7 +45,7 @@ Summon a legendary pet with beast of burden and scavenge, so that it picks up dr
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/LNY3KtuICIOuYOd9PY81)",
+        "value": "⬥ [General GWD1 preset](https://pvme.github.io/preset-maker/#/0JovGN01V2FxLG3sZ2TU)\n⬥ [K'ril Preset](https://pvme.github.io/preset-maker/#/WF8N4qzSpcqBOuIOkQyT)",
         "inline": true
       }
     ]
@@ -43,12 +54,11 @@ Summon a legendary pet with beast of burden and scavenge, so that it picks up dr
 .embed:json
 
 .
-> **__Relic Setup__**
-.tag:relics
-⬥ <:persistentrage:739965637056659567> **Persistent Rage Relic** - Prevents adrenaline from draining while out of combat.
-⬥ <:deathward:697808774068699286> **Death's Ward** - Helps reduce the large amounts of typeless damage in the fight.
-⬥ <:conservationofenergy:697808773711921195> **Conservation of Energy ** - Helps ensure thresholds are used as early as possible, can be substituted with **Fury of the Small** <:furyofthesmall:697808773917573233>.
+**__Action Bar__**
+.tag:actionbar
+.img:https://img.pvme.io/images/DlVJ1plvse.png
 
+.
 > **__HM GWD1 AFK__**
 .tag:afk
 Full guides on how to AFK GWD1 bosses are available here:
@@ -60,7 +70,7 @@ Full guides on how to AFK GWD1 bosses are available here:
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Relic Setup]($linkmsg_relics$)\n⬥ [HM AFK]($linkmsg_afk$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Overview]($linkmsg_overview$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action bar]($linkmsg_actionbar$)\n⬥ [HM AFK]($linkmsg_afk$)",
     "color": 39423
   }
 }
