@@ -1,0 +1,153 @@
+**__Necromany Solo Solak__**
+.img:https://img.pvme.io/images/XqBD7wM1sJ.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+> **__Introduction__**
+.tag:intro
+This rotation seeks to deal high damage throughout the encounter to skip most boss mechanics. The primary checkpoints for a successful execution are comprised of:
+
+    • Root skipping Phase 1
+    • Entering eruptions around 1:40 boss timer
+    • Completing all 4 Anima Eruptions in <8 Global Cool Downs
+    • Phasing into Phase 3 before Anima Rain ends
+    • One cycling Erethdor on the second Sigil after capping Solak
+
+The rotation as written has an element of RNG from critical strikes, Impatient perk procs and general boss mechanics, but should provide kill times around 5:00 on average.
+
+This is an **advanced guide** which assumes a strong underlying knowledge of all Solak mechanics.
+
+.
+> **__Preset__**
+.tag:preset
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/8lRj1rQyXY.png"
+        },
+    "fields": [
+      {
+        "name": "__Necromancy__",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/nlNT4FvythmRxHYbGnO4)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: Supreme Invigorate aura may be used*
+*Note: One dummy is required, the other is a back up for p4 if conjures expire*
+
+.
+> **__The Fight/Strategy__**
+.tag:strategy
+⬥ This rotation is built around skipping/ignoring most mechanics in favor of dealing more damage.
+⬥ Root skips are expected at about ~95% success rate, they are killed moving clockwise from north-east to north-west
+⬥ This method utilizes free adren-cost  <:conjureghost:1137809206423060632> , <:conjureskeleton:1137809204112011274> , <:conjurezombie:1137809200219684924>  multiple times via target dropping on <:roots:848803062684581929> ,  eruptions and <:dummy:656844963522281473>
+⬥ A <:flank4:712073088296157185>  switch is brought mostly to speed up clearing eruptions, but is also used whenever getting to a 4 or 5 stack <:volleyofsouls:1137809182364540989>  will take too long during Blighted Core and Phase 3
+
+**Rotations last updated: 26 Sep 2023**
+
+.
+> **__Rotation__**
+.tag:rotation
+⬥ **Pre-build**
+⬥**Wars**
+    • <:threadsoffate:1137809172335951933> → (tc) onto <:dummy:656844963522281473> + <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:surge:535533810004262912> + <:dive:1049378668197195808> to crystal
+
+⬥**Instance**
+    • Stand north-east of solak + <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> → <:commandghost:1137809196864262154> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:splitsoul:1137809168368148490> + begin encounter
+
+*Note: Standing north-east of solak allows for walking <:deathskulls:1137809106640572583> into bounce-range of the rools that will eventually spawn there*
+
+⬥ **Phase 1**
+.
+**Solak**
+    • (tc) + <:vulnbomb:655341074235129858> + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> → <:volleyofsouls:1137809182364540989> → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:fingerofdeath:1137809115066937414> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:deathskulls:1137809106640572583> + <:disrupt:535614336207552523> + walk between 2 most north-eastern roots → <:touchofdeath:1137809175980810380> + walk between next set of 2 roots just south → <:fingerofdeath:1137809115066937414> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> → <:deathskulls:1137809106640572583>
+
+.
+**Remaining Volatile Rootlings**
+    •  target root immediately south → <:bloat:1137809185753550929> + <:dive:1049378668197195808> to south-eastern most root → target new root + <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> + <:surge:535533810004262912> west → (tc) new root + 2 stack <:volleyofsouls:1137809182364540989> → target new root +<:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:surge:535533810004262912> north → (tc) new root <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → target final root + <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> + equip <:excal:641337999170207763> → targetless <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> → <:commandghost:1137809196864262154>
+
+.
+*Note: <:deathskulls:1137809106640572583> cast during Blight Bomb passively kills 1 (2 if crit) of the north-eastern root(s) by controlling the bouncing*
+*Note: Last <:livingdeath:1137809132485890108> <:deathskulls:1137809106640572583> kills 2nd most north-eastern root if Blight Bomb <:deathskulls:1137809106640572583> didn't crit*
+*Note: Finish roots with at least 2 <:residualsoul:1139453152169558046>, 1 can work but is less consistent as it leads to a 4 stack <:volleyofsouls:1137809182364540989> on arms*
+
+.
+⬥ **Arms**
+    • Stand on northern edge of circle → <:threadsoffate:1137809172335951933> → (tc) onto solak + <:soulsap:1137809140476031057> → <:volleyofsouls:1137809182364540989> → <:eofspec:746403211908481184>
+
+*Note: Cast <:threadsoffate:1137809172335951933> no earlier than 1 tick after 1:07 on boss timer, otherwise, <:soulsap:1137809140476031057> will not gather <:residualsoul:1139453152169558046> from arms*
+
+⬥ **Legs**
+    • <:splitsoul:1137809168368148490> + walk through Solak to the south → (tc) leg + <:vulnbomb:655341074235129858> + <:spectralscythe:1137809145706319892> → target other leg + <:spectralscythe2:1137809149690916945> → <:spectralscythe3:1137809152043925505> → <:soulsap:1137809140476031057> if needed
+
+⬥ **Core**
+    • <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → target core + <:vulnbomb:655341074235129858> + <:bloat:1137809185753550929> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → (<:volleyofsouls:1137809182364540989> if 4+ souls and finish with <:soulsap:1137809140476031057>) <:flank4:712073088296157185> <:soulstrike:1137809142376058910> → <:soulsap:1137809140476031057> → <:flank4:712073088296157185> <:soulstrike:1137809142376058910>/<:soulsap:1137809140476031057>/<:necroauto:1137809137401602109> as needed to end with at least 1 <:residualsoul:1139453152169558046>
+.
+*Note: Make sure to exit core with at least 1 <:residualsoul:1139453152169558046> in preperation for <:flank4:712073088296157185> <:soulstrike:1137809142376058910>*
+
+.
+⬥ **Phase 2**
+⬥ **Eruptions**
+    • SW: <:anti:535541306475151390> → <:freedom:535541258240786434> → <:commandskeleton:1137809194423160883> → (tc) + <:soulsap:1137809140476031057> → <:flank4:712073088296157185> <:soulstrike:1137809142376058910> + <:dive:1049378668197195808> + <:surge:535533810004262912> east
+    • SE: (tc) + <:accel:756236265472524418> + <:touchofdeath:1137809175980810380> → <:flank4:712073088296157185> <:soulstrike:1137809142376058910> + <:dive:1049378668197195808> + <:surge:535533810004262912> south
+    • NE: (tc) + <:eofspec:746403211908481184> + <:dive:1049378668197195808> + <:surge:535533810004262912> west
+    • NW: (tc) + <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>/<:necroauto:1137809137401602109> as needed → targetless <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> → <:commandghost:1137809196864262154>
+
+.
+⬥ **Solak**
+    • <:commandskeleton:1137809194423160883> + equip <:cywirwand:643161591571021824> →  (tc) + <:ingen:641339234111848463> <:smokecloud:856635090641879050> + <:vulnbomb:655341074235129858> + <:omniguard:1138809234922934282> <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583>→ <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:fingerofdeath:1137809115066937414> → <:soulsap:1137809140476031057> → <:volleyofsouls:1137809182364540989> → <:necroauto:1137809137401602109>→ <:deathskulls:1137809106640572583>→ <:touchofdeath:1137809175980810380>→ <:soulsap:1137809140476031057>→ <:fingerofdeath:1137809115066937414>→ <:necroauto:1137809137401602109>→ <:soulsap:1137809140476031057>→ <:fingerofdeath:1137809115066937414>→ <:deathskulls:1137809106640572583>→ <:soulsap:1137809140476031057> → <:bloat:1137809185753550929> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1137809115066937414> → <:soulsap:1137809140476031057> →  <:eofspec:746403211908481184> → <:volleyofsouls:1137809182364540989> → <:bloat:1137809185753550929> → <:commandzombie:1137809191231295549> → <:soulsap:1137809140476031057>/<:necroauto:1137809137401602109>/<:commandskeleton:1137809194423160883>/<:spec:537340400273195028> as needed
+
+.
+*Note: Damage varies hugely during this phase. It is possible to skip Blight Rain, but most kills will phase during Rain, seldom is the Arm Climb mechanic seen*
+*Note: It helps to exit this phase with around 60% adrenaline and 1-2 <:residualsoul:1139453152169558046>*
+
+.
+⬥ **Phase 3**
+⬥ **Pre-phase**
+    • deploy <:dummy:656844963522281473> +  (tc) <:dummy:656844963522281473>+ <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380>/<:necroauto:1137809137401602109> + dismiss <:dummy:656844963522281473> → drop target + <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> → <:commandghost:1137809196864262154> → <:lifetransfer:1137809128136388819>
+
+.
+⬥ **Solak**
+    • <:commandskeleton:1137809194423160883> + equip <:cywirwand:643161591571021824> →  (tc) + <:smokecloud:856635090641879050> + <:vulnbomb:655341074235129858> + <:omniguard:1138809234922934282> <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:bloat:1137809185753550929> → <:splitsoul:1137809168368148490> → <:soulsap:1137809140476031057>  → <:touchofdeath:1137809175980810380>  + <:surge:535533810004262912>  → <:flank4:712073088296157185> <:soulstrike:1137809142376058910>  → <:soulsap:1137809140476031057> → <:flank4:712073088296157185> <:soulstrike:1137809142376058910>  → <:flank4:712073088296157185> <:soulstrike:1137809142376058910> → <:soulsap:1137809140476031057> → <:flank4:712073088296157185> <:soulstrike:1137809142376058910> + <:surge:535533810004262912>  → <:commandskeleton:1137809194423160883>  → <:bloat:1137809185753550929>  → <:fingerofdeath:1137809115066937414>  → <:touchofdeath:1137809175980810380>  → <:spec:537340400273195028> → <:freedom:535541258240786434> → <:eofspec:746403211908481184> → <:soulsap:1137809140476031057> → <:deathspark:1143642264850141205> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057>/<:deathspark:1143642264850141205>/<:bloat:1137809185753550929>/<:commandskeleton:1137809194423160883>/<:necroauto:1137809137401602109> as needed
+
+.
+*Note: Damage varies hugely during this phase. It is important to keep <:bloat:1146949151091863592>/<:commandskeleton:1146949270549831770> up for the majority of the phase*
+*Note: If entering the phase with 2-3 <:residualsoul:1139453152169558046>, can opt for a 5 stack <:volleyofsouls:1137809182364540989> instead of the <:flank4:712073088296157185> <:soulstrike:1137809142376058910> during the immobilization period on Sigil/Pad 1*
+
+.
+⬥ **Erethdor**
+    • <:invokedeath:1137809121983336548> + <:surge:535533810004262912> → (tc) + <:bloat:1137809185753550929> → <:commandskeleton:1137809194423160883>  → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>  →  <:commandzombie:1137809191231295549> → <:deathspark:1143642264850141205>/<:necroauto:1137809137401602109>/<:soulsap:1137809140476031057> as needed → <:lifetransfer:1137809128136388819> while exiting
+
+.
+*Note: Ideally exit with 3-4 <:residualsoul:1139453152169558046> and close to 100% adren. Can divert Blight Storm hit upon exit if not able to reach 100% on Erethdor*
+
+.
+⬥ **Phase 4**
+    • <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:divert:787904334377648130> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:splitsoul:1137809168368148490> → <:bloat:1137809185753550929> → <:commandskeleton:1137809194423160883> → <:deathskulls:1137809106640572583> → <:fingerofdeath:1137809115066937414> → <:fingerofdeath:1137809115066937414> → <:volleyofsouls:1137809182364540989> → <:eofspec:746403211908481184>
+
+.
+*Note: Can skip <:bloat:1137809185753550929> if low adrenaline or miss the <:divert:787904334377648130> after <:livingdeath:1137809132485890108>*
+
+.
+> __**Example Kill**__
+.tag:example
+.
+⬥ [Necromancy Solo Solak](https://youtu.be/jRpdULaItGQ)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [The Fight/Strategy]($linkmsg_strategy$)\n⬥ [Rotation]($linkmsg_rotation$)\n⬥ [Example Kill]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
