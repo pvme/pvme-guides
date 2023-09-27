@@ -1,13 +1,72 @@
 > **__General Graardor (Hard Mode)__**
 .img:https://img.pvme.io/images/TkhmGuo.jpg
-> **__HM General Graardor AFK(~52-56 kph)__**
+> **__HM General Graardor AFK__**
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
 .
-**__Explanation__**
-⬥ Most of the bosses have large amounts of unavoidable hard typeless damage so everything is needed to have an afk experience cutting out anything will require you to monitor your HP actively.
-⬥ Due to the completely random nature of the mechanics even with everything, you can have rare instances of dying.
+**__Introduction__**
+⬥ General Graardor deals large amounts of unavoidable hard typeless damage, and due to the completely random nature of the mechanics even with everything, you can have rare instances of dying.
+.
+
+.
+> **__Necromancy AFK Method (~60kph)__**
+.tag:necroAFK
+**__Overview__**
+.
+{
+  "embed": {
+  "title": "__Mandatory AFK Requirements__",
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**\n\u00a0\u00a0\u00a0\u00a0• A more extensive list can be found in <#1130180182544744551>",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Talent Tree Unlocks__",
+        "value": "⬥ Tiers 1-2\n\u00a0\u00a0\u00a0\u00a0• [Conjure](https://runescape.wiki/w/Conjure_Skeleton_Warrior) / [Command Skeleton Warrior](https://runescape.wiki/w/Command_Skeleton_Warrior) <:conjureskeleton:1137809204112011274> <:commandskeleton:1137809194423160883>\n⬥ Tiers 3-4\n\u00a0\u00a0\u00a0\u00a0• [Conjure](https://runescape.wiki/w/Conjure_Vengeful_Ghost) / [Command Vengeful Ghost](https://runescape.wiki/w/Command_Vengeful_Ghost) <:conjureghost:1137809206423060632> <:commandghost:1137809196864262154>"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Penance Aura](https://runescape.wiki/w/Penance_aura) <:penanceaura:643505653062565907>\n⬥ [5-piece cryptbloom](https://runescape.wiki/w/Cryptbloom_armour) to absorb large typeless hits\n⬥ [Animate dead <:animatedead:856635090453135382>](https://runescape.wiki/w/Animate_Dead)"
+      }
+    ]
+   }
+}
+.embed:json
+
+.
+**__Preset and Relics__**
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/MxDgCk9oYC.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Necromancy](https://pvme.github.io/preset-maker/#/kSpRmJVzn6alohBMDt7u)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+**__Action Bars__**
+.img:https://img.pvme.io/images/EW1g8I8FQd.png
+
+.
+**__Example Kills__**
+.
+⬥ [Necromancy](https://youtu.be/zfJAKDINDEE)
+
+.
+> **__Magic AFK Method (~52-56 kph)__**
+.tag:magicAFK
+
 .
 __**Aura Choice**__
 .tag:aura
@@ -58,25 +117,17 @@ __**Relic Setup**__
 .tag:pos
 ⬥ Upon entering the room go directly to the east wall and 2 steps north, the boss will occasionally push you out of this position. Reset position every 5mins if it has pushed you, will only be a few squares.
 
+**__Example Kills__**
 .
-> **__Video Example__**
-.tag:example
-https://youtu.be/gCIA32lWDgM
+⬥ [Magic](https://youtu.be/gCIA32lWDgM)
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__AFK Strategy__",
-        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bar]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
-  }
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Necromancy AFK]($linkmsg_necroAFK$)\n⬥ [Magic AFK]($linkmsg_magicAFK$)",
+    "color": 39423
+    }
 }
 .embed:json
 .pin:delete
