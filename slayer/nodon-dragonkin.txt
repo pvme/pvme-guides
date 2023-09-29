@@ -33,61 +33,99 @@ There are 4 Nodon dragonkin variants that can be killed for slayer: Nodon engine
 .tag:stats_guard
 ⬥ <:combat:797896050370281523> XP per kill: 4424 (1459.9 <:Constitution:689509250887712902>)
 ⬥ <:slayer:797896049548066857> XP per kill: 1877
-⬥ Optimal kills per hour: 370 (off-task)
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~694k
+⬥ Optimal kills per hour: 370 <:magic:689504724159823906>, 430 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~694k <:magic:689504724159823906>, ~807k <:necromancy:1148995625896120460>
 
 .
-> **__Method: AFK Magic__**
+**__Where to Stand__**
+.img:https://img.pvme.io/images/vxdRjHbH72.png
+
+.
+**__Method: AFK Magic__**
 .tag:guard_magic_afk
 .
-Place the <:oldakcoil:798285651387613194> and stand north of it as in the below image. Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:Affliction:513190158468907008>, keep your prayer points up with <:bonecrusher:975284344526602240> + <:demonhornnecklace:975765831248130079>. Autocast <:exsanguinate:856635090745950258> and keep your <:elderovlsalve:648976643687317532>, <:weppoison:689525476158472288> and <:animatedead:856635090453135382> up. No other inputs are required except for potential looting. The method is viable both on- and off-task (with <:vampaura:643505653079343144>) and requires no monitoring either way.
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> or <:Affliction:513190158468907008>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:superprayerrenewal:547603714681339915> or <:bonecrusher:975284344526602240> and <:demonhornnecklace:975765831248130079>
+⬥ Autocast <:exsanguinate:856635090745950258>
+⬥ Ensure <:elderovl:841419289831800882>, <:weppoison:689525476158472288> and <:animatedead:856635090453135382> are active
 
 It is unknown if the method works with Ganodermic armour <:ganohelm:1003947807754960896> <:ganobody:1003947805611655208> <:ganolegs:1003947803673903204> <:ganoboots:1003947801836789830>. If you try the method with this gear, please provide a vod in <#1020853673317908500>.
 
 .
-**__Where to Stand__**
-.img:https://img.pvme.io/images/ngatMKm.png
-
-.
 **__Preset__**
-.img:https://img.pvme.io/images/csyLLRj.png
-
 .
-__**Important Items**__
-⬥ Magic tank armour <:cryptbloomhelm:892819107123195956> (except gloves and top) for use with <:animatedead:856635090453135382>
-⬥ Scripture of Ful <:scriptureofful:902209626412560395>
-⬥ Oldak Coil <:oldakcoil:798285651387613194>
-⬥ Demonhorn Necklace <:demonhornnecklace:975765831248130079> for prayer upkeep
-⬥ Blood reaver <:reaverpouch:839903693837959228>
-⬥ Pontifex Shadow Ring <:pontifexshadowring:870326852361789501> for teleporting to Cathedral
-⬥ Igneous Kal-Zuk/Kal-mej <:igneouskalzuk:902209626479685734> <:igneouskalmej:1153772938252787793> for <:omnipowerigneous:959089455560540200>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:exsanguinate:856635090745950258> <:animatedead:856635090453135382>)
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Magic AFK Nodon Guard__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/SugYp7of9AkMugcesLsW)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
 .
 **__Action Bar__**
 .
 .img:https://img.pvme.io/images/M6fxCv1.png
+
 .
-**__Video Example__**
+**__Method - AFK Necro__**
+.tag:guardnecro
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovl:841419289831800882>and <:weppoison:689525476158472288> are active
+
 .
-⬥ Magic AFK - https://youtu.be/d6vZYV4qor8
+**__Preset__**
 .
-.img:https://img.pvme.io/images/J08mUNj.png
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Necro AFK Nodon Guard__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/Newi4CsWkg8gujcLAWhC)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+
+.
+**__Ability Bar__**
+.img:https://img.pvme.io/images/dnZ0ISPMc1.png
+
 .
 > __**Nodon Artificers**__
+.img:https://img.pvme.io/images/J08mUNj.png
 .
 **Stats**
 .tag:stats_artificer
 ⬥ <:combat:797896050370281523> XP per kill: 4424 (1459.9 <:Constitution:689509250887712902>)
 ⬥ <:slayer:797896049548066857> XP per kill: 1877
-⬥ Optimal kills per hour: 410 (off-task)
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~769k
-
+⬥ Optimal kills per hour: 410 <:magic:689504724159823906>, 500 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~769k <:magic:689504724159823906>, ~940k <:necromancy:1148995625896120460>
 .
-> **__Method: AFK Magic__**
+**__Where to Stand__**
+.img:https://img.pvme.io/images/VXuDd4MT4q.png
+.
+**__Method: AFK Magic__**
 .tag:artificer_magic_afk
+.
+⬥ By standing 1 tile behind the position used in the image, one can safespot the artificers. Although this is considerably less AFK as you cannot use <:autoretaliate:1084799717726228530>, it is useful if the player is undergeared.
+
+⬥ Ensure you are doing the following:
+    • Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:affliction:513190158468907008>
+    • Sustain <:prayer:1005450651347730533> points with <:bonecrusher:975284344526602240> + <:demonhornnecklace:975765831248130079> or <:powderofpenance:928221126360969226> + <:holyscarab:929773040273862656>
+    • Autocast <:bloodbarrage:537338981747261446>
+    • Ensure <:elderovlsalve:648976643687317532>, <:weppoison:689525476158472288> and <:animatedead:856635090453135382> are active
+
+⬥ No other inputs are required except for potential looting. The method is viable both on- and off-task.
 .
 **__Preset__**
 .
@@ -97,7 +135,7 @@ __**Important Items**__
     "color": 39423,
     "fields": [
       {
-        "name": "__Preset Suggestion & Breakdown__",
+        "name": "__Magic AFK Nodon Artificer__",
         "value": "⬥ [AFK Magic](https://pvme.github.io/preset-maker/#/ecBD8U3C9dTLGuc9uy1Z)",
         "inline": true
       }
@@ -105,25 +143,56 @@ __**Important Items**__
   }
 }
 .embed:json
-**__Strategy__**
-⬥ Place the <:oldakcoil:798285651387613194> and stand according to the image below.
-.img:https://img.pvme.io/images/8DRBSWh.png
 .
-⬥ By standing 1 tile behind the position used in the image, one can safespot the artificers. Although this is considerably less AFK as you cannot use <:autoretaliate:1084799717726228530>, it is useful if the player is undergeared.
-
-⬥ Ensure you are doing the following:
-    • Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:affliction:513190158468907008>
-    • Sustain <:prayer:1005450651347730533> points with <:bonecrusher:975284344526602240> + <:demonhornnecklace:975765831248130079> or <:powderofpenance:928221126360969226> + <:holyscarab:929773040273862656>
-    • Autocast <:bloodbarrage:537338981747261446>
-    • Ensure <:elderovlsalve:648976643687317532>, <:weppoison:689525476158472288> and <:animatedead:856635090453135382> are active at all times.
-
-⬥ No other inputs are required except for potential looting. The method is viable both on- and off-task.
 
 .
-**__Video Examples__**
+**__Method - AFK Necro__**
+.tag:artificernecro
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active
+
 .
-⬥ Magic AFK - https://youtu.be/soLRw1dhJC8
+**__Preset__**
 .
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Necro AFK Nodon Artificer__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/jszVw35T10CjrjhgX6pR)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+
+.
+**__Ability Bar__**
+.img:https://img.pvme.io/images/dnZ0ISPMc1.png
+
+.
+.tag:videoexamples
+{
+  "embed": {
+"title": "__Video Examples__",
+    "description": "Killing Nodon Guards and Artificers with <:necromancy:1148995625896120460> and <:magic:689504724159823906>",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__AFK Nodon Guards__",
+        "value": "⬥ [Necromancy <:necromancy:1148995625896120460>](<https://www.youtube.com/watch?v=X9yzAzpnKyU>)\n⬥ [Magic <:magic:689504724159823906>](<https://youtu.be/d6vZYV4qor8>)"
+      },
+      {
+        "name": "__AFK Nodon Artificers__",
+        "value": "⬥ [Necromancy <:necromancy:1148995625896120460>](<https://www.youtube.com/watch?v=HbtWLQiwkQw>)\n⬥ [Magic <:magic:689504724159823906>](<https://youtu.be/soLRw1dhJC8>)"
+      }
+    ]
+  }
+}
+.embed:json
 {
   "embed": {
     "title": "__Table of Contents__",
@@ -132,17 +201,17 @@ __**Important Items**__
     "fields": [
      {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Location and how to get there]($linkmsg_location$)",
+        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Location and how to get there]($linkmsg_location$)\n⬥ [Video Examples]($linkmsg_videoexamples$)",
         "inline": true
       },
       {
         "name": "__Nodon Guard__",
-        "value": "⬥ [Stats]($linkmsg_stats_guard$)\n⬥ [Method: AFK Magic]($linkmsg_guard_magic_afk$)",
+        "value": "⬥ [Stats]($linkmsg_stats_guard$)\n⬥ [Method: AFK <:magic:689504724159823906>]($linkmsg_guard_magic_afk$)\n⬥ [Method: AFK <:necromancy:1148995625896120460>]($linkmsg_guardnecro$)",
         "inline": true
       },
       {
         "name": "__Nodon Artificer__",
-        "value": "⬥ [Stats]($linkmsg_stats_artificer$)\n⬥ [Method: AFK Magic]($linkmsg_artificer_magic_afk$)",
+        "value": "⬥ [Stats]($linkmsg_stats_artificer$)\n⬥ [Method: AFK <:magic:689504724159823906>]($linkmsg_artificer_magic_afk$)\n⬥ [Method: AFK <:necromancy:1148995625896120460>]($linkmsg_artificernecro$)",
         "inline": true
       }
     ]
