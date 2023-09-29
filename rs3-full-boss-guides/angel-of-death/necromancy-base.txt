@@ -24,14 +24,14 @@
 .
 __**Prebuild**__
 .tag:pre
-<:reprisal:513190159462694912> → <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> → <:splitsoul:1137809168368148490> (start)  →  <:commandghost:1137809196864262154> → <:commandskeleton:1137809194423160883>
+<:reprisal:513190159462694912> → <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1137809204112011274> → <:splitsoul:1137809168368148490> (start)  →  <:lifetransfer:1137809128136388819> → <:commandghost:1137809196864262154> → <:commandskeleton:1137809194423160883>
 
 _Note: You should be using <:commandskeleton:1137809194423160883> at 4.8s on the timer._
 
 .
 ### __**Phase 1**__
 .tag:p1
-<:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109>
+<:vulnbomb:655341074235129858><:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109>
 
 .
 ### __**Phase 2**__
@@ -41,27 +41,32 @@ _Note: You should be using <:commandskeleton:1137809194423160883> at 4.8s on the
 .
 ### __**Phase 3**__
 .tag:p3
-<:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> → <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:soulsap:1137809140476031057> → improvise
+<:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> → <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:fingerofdeath:1137809115066937414> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380>
 
-_Note: If not phased improvise while prioritising <:necrosis:1139452791878856805> and <:residualsoul:1139453152169558046> stack building_
+
+_Note: It will generally phase on the <:necroauto:1137809137401602109>, however, if not phased improvise while prioritising <:necrosis:1139452791878856805> and <:residualsoul:1139453152169558046> stack building_
 
 .
 ### __**Lure**__
 .tag:lure
-<:surge:535533810004262912> + <:anti:535541306475151390> → <:surge:535533810004262912> → <:divert:787904334377648130> → <:lifetransfer:1137809128136388819> → <:soulsap:1137809140476031057> → <:ingen:641339234111848463> <:swh:641670143197446182> <:spec:537340400273195028> → <:stormshards:536256663641128971> → <:soulsap:1137809140476031057> → <:dummy:656844963522281473> <:touchofdeath:1137809175980810380> → lose target → <:splitsoul:1137809168368148490> → <:commandghost:1137809196864262154>
+<:surge:535533810004262912> + <:anti:535541306475151390> → <:surge:535533810004262912> → <:divert:787904334377648130> → <:lifetransfer:1137809128136388819> → <:soulsap:1137809140476031057> → <:ingen:641339234111848463> <:swh:641670143197446182> <:spec:537340400273195028> → <:vulnbomb:655341074235129858><:stormshards:536256663641128971> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:splitsoul:1137809168368148490> → <:soulsap:1137809140476031057> → <:invokedeath:1137809121983336548> (if you have time)
+
 
 _Note: Be aware of pools during the period of the fight where you use <:lifetransfer:1137809128136388819>_
 
 .
 ### __**Last Pillar and Zaros**__
 .tag:zaros
-<:omniguard:1138809234922934282><:eofspec:746403211908481184> → <:necroauto:1137809137401602109> → <:fingerofdeath:1137809115066937414> (if not dead)  → <:aod:580167371365548042> <:deathskulls:1137809106640572583> → <:volleyofsouls:1137809182364540989> → <:shatter:536256673904328704> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → improvise
+<:fingerofdeath:1137809115066937414> → <:omniguard:1138809234922934282><:eofspec:746403211908481184>  → <:necroauto:1137809137401602109>/<:soulsap:1137809140476031057> (if not dead)→ <:aod:580167371365548042> <:deathskulls:1137809106640572583> → <:volleyofsouls:1137809182364540989> → <:shatter:536256673904328704> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → improvise
+
+_Note: Soul sap on pillar instead of necro auto only if you weren't able to get 5 stacks during the lure. Otherwise, use the enhanced auto._
+
 .
 .tag:eg
 {
   "embed": {
     "title": "__Example Kills__",
-    "description": "09/2023 - Miss Kay Z - [Base](https://www.youtube.com/watch?v=4FKo60xfyUo&t=5s)",
+    "description": "29/09/2023 - Miss Kay Z - [Base](https://www.youtube.com/watch?v=k9M8f0cZTzM)",
     "color": 39423
   }
 }
