@@ -45,7 +45,7 @@ Note: This guide has high requirements and is primarily aimed at those needing 1
     "fields": [
       {
         "name": "__Attack Rotations__",
-        "value": "2 Ava Autos → Jumps + Lava Bombs → 5 Ava Autos → (00:32) Ceiling Collapse + Lava Bombs → 13 Ava Autos → (00:58.8) Channeled bomb + Lava Bombs → 7 Nymora Autos → (01:28) Blue lava bomb + Lava bombs → ? autos → Repeat\n\u200B"
+        "value": "2 Autos → Jumps + Lava Bombs → Autos → (00:32) Ceiling Collapse + Lava Bombs → Autos → (00:58) Channeled bomb + Lava Bombs → Autos → (01:28) Blue lava bomb + Lava bombs → Autos → Repeat\n\u200B"
       },
       {
         "name": "__Jumps__",
@@ -53,19 +53,19 @@ Note: This guide has high requirements and is primarily aimed at those needing 1
       },
       {
         "name": "__Ceiling Collapse__",
-        "value": "⬥ Nymora will jump to a random square yelling 'we will purge them all!' and cause a ceiling collapse, hitting rapid ranged damage up to 1,000 damage every 1.8s.\n\u00a0\u00a0\u00a0\u00a0• Stand in the 3x3 area around her to negate this.\n\u00a0\u00a0\u00a0\u00a0• Nymora is invulnerable during this attack. [Example](https://img.pvme.io/images/QIMa9WS.mp4)\n\u200B"
+        "value": "⬥ Nymora will jump to a random square yelling 'we will purge them all!' and cause a ceiling collapse, hitting rapid ranged damage up to 1,000 damage every 1.8s.\n\u00a0\u00a0\u00a0\u00a0• Stand in the 3x3 area around her to negate this. [Example](https://img.pvme.io/images/QIMa9WS.mp4)\n\u200B"
       },
       {
         "name": "__Channeled Bomb__",
-        "value": "⬥ The twins move to the center of the arena and channel an attack. [NM Example](https://img.pvme.io/images/N7ceSRh.mp4)\n⬥ If the channel finishes, it will deal up to 8,000 damage in Hard Mode. [NM Example](https://img.pvme.io/images/CJkO32O.mp4)\n⬥ During this phase, the twins take 2x damage\n\u00a0\u00a0\u00a0\u00a0• They stand close enough that Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210> , <:spectralscythe:1137809145706319892> , <:spectralscythe2:1137809149690916945> , <:spectralscythe3:1137809152043925505> , and Quake <:quake:535532879506309150> will hit both of them.\n\u00a0\u00a0\u00a0\u00a0• You will take 350 to 500 typeless damage every 1.8s during this, which triples inside the embers around the edges.\n\u00a0\u00a0\u00a0\u00a0• Explosion hit can be avoided by surging <:surge:535533810004262912> to the edges of the arena (or blocking it with defensives)."
+        "value": "⬥ The twins move to the center of the arena and channel an attack. [NM Example](https://img.pvme.io/images/N7ceSRh.mp4)\n⬥ If the channel finishes, it will deal up to 8,000 damage in Hard Mode. [NM Example](https://img.pvme.io/images/CJkO32O.mp4)\n⬥ During this phase, the twins take 2x damage\n\u00a0\u00a0\u00a0\u00a0• They stand close enough that Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210> , <:spectralscythe:1137809145706319892> , <:spectralscythe2:1137809149690916945> , <:spectralscythe3:1137809152043925505> , and Quake <:quake:535532879506309150> will hit both of them.\n\u00a0\u00a0\u00a0\u00a0• Explosion hit can be avoided by surging <:surge:535533810004262912> to the edges of the arena (or blocking it with defensives)."
       },
       {
-        "name": "__Lava bomb__",
-        "value": "⬥ Unique to HM, a lava bomb will spawn with each other mechanic. Lava bombs will randomly bounce around the arena 5 times before disappearing, with green arrows indicating its destination. If the player is in a 5x5 square grid of this attack when it lands they will take 3,000 to 4,000 hard typeless damage.\n\u00a0\u00a0\u00a0\u00a0• After 2 bounces, a second lava bomb spawns."
+        "name": "__Lava Bomb__",
+        "value": "⬥ A lava bomb will spawn with each other mechanic. Lava bombs randomly bounce around the arena 5 times before disappearing, with green arrows indicating its destination. If the player is in a 5x5 square grid of this attack when it lands, they will take 3,000 to 4,000 hard typeless damage.\n\u00a0\u00a0\u00a0\u00a0• After 2 bounces, a second lava bomb spawns."
       },
       {
-        "name": "__Blue Lava bomb__",
-        "value": "⬥ Unique to HM, a blue lava bomb will spawn after Channelled Bomb. The blue bomb will randomly bounce around the arena 3 times, with green arrows indicating its destination.\n\u00a0\u00a0\u00a0\u00a0• If ignored it will hit the player 6,000 to 7,000 hard typeless damage.\n\u00a0\u00a0\u00a0\u00a0• If the player is in a 5x5 square grid of this attack whenever it lands, the blue bomb will hit both twins for 6,000 to 7,000 <:magic:689504724159823906> damage.\n\u200B"
+        "name": "__Blue Lava Bomb__",
+        "value": "⬥ A blue lava bomb will randomly bounce around the arena 3 times, with green arrows indicating its destination.\n\u00a0\u00a0\u00a0\u00a0• If avoided it will home in and hit the player 6,000 to 7,000 hard typeless damage.\n\u00a0\u00a0\u00a0\u00a0• If the player takes the bomb, the blue bomb will hit both twins for the same damage.\n\u200B"
       }
     ]
   }
@@ -80,18 +80,14 @@ __**What to Expect**__
 > **__Melee HM Twins Guide <:melee:1096130867279171706>__**
 .tag:meleetwins
 **__Overview__**
-⬥ The melee rotations below only work because hit caps do not apply to the Twin Furies' health pool (the capped hitsplats you actually see are misleading), allowing <:chaosroar:994644356671737966> → <:overpowerigneous:959089455640215633> to deal an absurdly large amount of damage.
-    • *If you are reading the guide at a point in time when this has been fixed, the rotations will no longer work and you will need to improvise or create your own rotations.*
-⬥ Remember to have an instance set up before your first kill so you can click "rejoin" on your first kill.
-⬥ Camp <:soulsplit:615613924506599497> and don't forget to dodge Avaryss's jumps.
+⬥ The melee rotation below works because hit caps do not apply to the Twin Furies' health pool (the capped hitsplats you see are misleading), allowing <:chaosroar:994644356671737966> → <:overpowerigneous:959089455640215633> to deal a large amount of damage.
 
 .
-> **__Melee Requirements__**
-⬥ <:noxscythe:513190159341322240> Noxious Scythe required for Hard Mode
+**__Melee Requirements__**
+⬥ <:noxscythe:513190159341322240> Noxious Scythe required for Quake.
 ⬥ <:eofor:745279787471470713> with <:dragon2hsword:1048592040507744257>
 ⬥ <:vestmentsofhavochood:994189297659940904> Full set of Vestments of Havoc armour
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136> (Runes for <:disrupt:535614336207552523> - This is only relevant for challenge mode)
-*Note: <:scriptureofful:902209626412560395> can be used in place of <:grim:568262896375824385> as hitcap is ignored*
+⬥ optionally: <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136> for <:disrupt:535614336207552523>
 
 .
 **__Melee Rotation:__**
@@ -101,17 +97,14 @@ __**What to Expect**__
 > **__Necromancy HM Twins Guide <:necromancy:1148995625896120460>__**
 .tag:necrotwins
 **__Overview__**
-⬥ The necromancy rotations below only work because hit caps do not apply to the Twin Furies' health pool (the capped hitsplats you actually see are misleading), allowing <:threadsoffate:1137809172335951933> → 12 <:necrosis:1139452791878856805> <:deathguard70:1138809262194294864> <:spec:537340400273195028> to deal an absurdly large amount of damage.
-    • *If you are reading the guide at a point in time when this has been fixed, the rotations will no longer work and you will need to improvise or create your own rotations.*
+⬥ The necromancy rotation below works because hit caps do not apply to the Twin Furies' health pool (the capped hitsplats you see are misleading), allowing <:threadsoffate:1137809172335951933> → 12 <:necrosis:1139452791878856805> <:deathguard70:1138809262194294864> <:spec:537340400273195028> to deal a large amount of damage.
 
 .
-> __**Necromancy Requirements**__
+__**Necromancy Requirements**__
 ⬥ This rotation requires <:igneouskalmor:1139200072438005851> or <:igneouskalzuk:902209626479685734>.
 ⬥ Omniguard <:omniguard:1138809234922934282>
-⬥ Kal'gerion demon <:kalgpouch:921410226484301925> with scrolls <:kalgscroll:841409588954923049>
-⬥ Erethdor's Grimoire <:grim:568262896375824385> for better consistency.
 ⬥ Vigour passive <:rov:513201065877831680> and Conservation of Energy <:conservationofenergy:697808773711921195> OR supreme invigorate aura <:invigaura:643505652865695767> are REQUIRED for this rotation to work.
-⬥ DPS aura such as Mahjarrat <:mahj:643148943856762890> , Dark Magic <:darkmagic:643505652571963417> , or supreme invigorate <:invigaura:643505652865695767> are recommended.
+⬥ Mahjarrat <:mahj:643148943856762890> or Dark Magic <:darkmagic:643505652571963417> are recommended.
 
 .
 **__Necromancy Rotation:__**
@@ -119,18 +112,17 @@ __**What to Expect**__
 <:conjurezombie:1137809200219684924> + <:kalgscroll:841409588954923049> → <:conjureskeleton:1137809204112011274> → <:conjureghost:1137809206423060632> → <:commandghost:1137809196864262154> → right-click 'rejoin instance'
 
 ⬥ __**Inside instance:**__
-<:commandskeleton:1137809194423160883> + right-click 'quick enter instance' → <:splitsoul:1137809168368148490> + <:dive:1049378668197195808> northwest → ground <:vulnbomb:655341074235129858> → (tc) + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + (2step) → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + (2step) → <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> + (2step) → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> + (2step) → <:necroauto:1137809137401602109> → <:threadsoffate:1137809172335951933> → <:deathguard70:1138809262194294864><:spec:537340400273195028> → volley → <:omniguard:1138809234922934282><:spec:537340400273195028>
+<:commandskeleton:1137809194423160883> + right-click 'quick enter instance' → <:splitsoul:1137809168368148490> + <:dive:1049378668197195808> northwest → ground <:vulnbomb:655341074235129858> → (tc) + <:deathskulls:1137809106640572583> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + → <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1137809106640572583> + → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:threadsoffate:1137809172335951933> → <:deathguard70:1138809262194294864><:eof:787526151978614824> → <:volleyofsouls:1137809182364540989> → <:omniguard:1138809234922934282><:spec:537340400273195028>
+⬥  Equip <:excal:641337999170207763>
 
 .
 > **__Tips and Tricks__**
 .tag:tips
-⬥ To save a few ticks, you may wish to summon your conjures on the move, e.g. while getting 100% adrenaline at War's Retreat.
-⬥ You may wish to equip <:excal:641337999170207763> to dismiss and renew your conjures at the end of each kill.
+⬥ You may wish to summon your conjures on the move, e.g. while getting 100% adrenaline at War's Retreat.
 ⬥ You must continually move out of Avaryss' path (≥2 steps perpendicular).
-⬥ This rotation aims to finish the fight when Avaryss is in <:threadsoffate:1137809172335951933> distance again (4 tiles) after Jumps. Tiles are counted from your primary target: position yourself east of Nymora so Avaryss walks into range after Jumps.
+⬥ Position yourself east of Nymora so Avaryss walks into <:threadsoffate:1137809172335951933> range after Jumps.
 ⬥ It is possible to wrongly Target Cycle onto Avaryss. Manually click on Nymora if this happens.
-⬥ While <:poisonicon:944649693500154006> hits show, they don't actually subtract from the shared LP bar. Therefore, <:poisonicon:944649693500154006> is not used. Reflect damage ( <:dtb:513190159429271562> ) **does** work.
-⬥ Darkness <:darkness:1137809209782698024> is optional to reduce damage taken.
+⬥ While <:poisonicon:944649693500154006> hits show, they don't deal damage. Therefore, <:poisonicon:944649693500154006> is not used.
 ⬥ <:disrupt:535614336207552523> can be used to block a reflect hit when <:deathskulls:1137809106640572583> bounce to Avaryss mid-jump.
 
 .
