@@ -1,6 +1,7 @@
 > **__Crystal Shapeshifters__**
 .
 *Note: a **Table of Contents** can be found in the pins.*
+.img:https://img.pvme.io/images/nlY559n4pJ.png
 
 .
 > __**Introduction**__
@@ -14,14 +15,16 @@ A set of Crystal Armour (preferably attuned) <:attunedcrystalhelm:10975156634902
 <:crystalshapeshifter:1004107281153150986> will **change their attacking style to what you're weakest in defending against.** Generally, you want all of them to attack using <:melee:1096130867279171706>, as it makes them easily clustered for fast AoE kills. To do this, equip 2 pieces of <:range:580168050121113623> armour (1 if using <:attunedcrystalhelm:1097515663490285648>) so that your defensive bonuses against <:melee:1096130867279171706> are the most negative. You can check this in the **Hero > Loadout** tab.
 .img:https://img.pvme.io/images/NQf3fyC.png
 .
-For all AoE methods, you'll want <:crystalshapeshifter:1004107281153150986> aggression toggled **'ON'**. **Visit Angof on Tarddiad to do so.** This makes them premanently aggressive and eliminates the need for <:aggressionpotion:925794592199147581>
-.img:https://img.pvme.io/images/ESHtyB6.png
+> **__Stats__**
+.tag:stats
+⬥ <:combat:797896050370281523> XP per kill: 1500 (495 <:Constitution:689509250887712902>)
+⬥ <:slayer:797896049548066857> XP per kill: 1269.8
+⬥ Optimal kills per hour: ~490 <:magic:689504724159823906>, ~450 <:melee:1096130867279171706>, ~570 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~675k <:melee:1096130867279171706>, ~735k <:magic:689504724159823906>, ~850k <:necromancy:1148995625896120460>
+
 .
 **__Desirable Drops__**
 .tag:desirabledrops
-⬥ Combat <:combat:797896050370281523> XP
-    • <:crystalshapeshifter:1004107281153150986> can give around ~1.3m Combat XP per hour, making them a viable AFK moneymaking and item-levelling method for <:range:580168050121113623> armour <:armaplate:643150997828403231> <:animabodyzamorak:1037460753692770384>, <:magic:689504724159823906> weapons, and <:noxscythe:513190159341322240>
-⬥ Noted herbs <:lantadyme:643119665551376456> <:toadflax:643119665635131418> <:dwarfweed:643119665828200469>
 ⬥ Ancient elven wedding ring
     • Required for <:masterquestcape:1091050888828813412>
 
@@ -35,35 +38,54 @@ Teleport to the World Gate using the <:sixthagecircuit:937093290245894154>. Ensu
 Teleport using the <:slayercodex:1097517249499254875> or a house teleport attuned to the Menaphos house portal and travelling via Portmaster Kags.
 
 .
-> **__Stats__**
-.tag:stats
-⬥ <:combat:797896050370281523> XP per kill: 2686 (886.3 <:Constitution:689509250887712902>)
-⬥ <:slayer:797896049548066857> XP per kill: 1269.8
-⬥ Optimal kills per hour: ~490 with <:Magic:689504724159823906>, 450 with <:melee:1096130867279171706> (AFK)
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~761k (AFK)
+> **__Gathering Souls (Tarddiad)__**
+For all Tarddiad methods, you'll want <:crystalshapeshifter:1004107281153150986> aggression toggled **'ON'**. **Visit Angof on Tarddiad to do so.** This makes them permmanently aggressive and eliminates the need for <:aggressionpotion:925794592199147581>
+.img:https://img.pvme.io/images/ESHtyB6.png
+.tag:habitat
+.
+**__Where to Stand__**
+.img:https://img.pvme.io/images/J2zcidoant.png
+**__Method - AFK Magic__**
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaura:643505653062565907> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovl:841419289831800882> and <:weppoison:689525476158472288> are active
+⬥ Autocast <:bloodbarrage:537338981747261446>
+        ⬩ <:bloodburst:841419289714098246> is viable if using <:inquisitorstaff:694566917553520680>
 
 .
-> **__Presets__**
-.tag:presets
+**__Presets__**
 .
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
     "color": 39423,
     "fields":[
-      {
-        "name": "__Magic (No crystal armour)__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/KjvG4Z6tiY4GlA455xqt)",
-        "inline": true
-      },
     	{
-    		"name":"__Magic (Attuned Crystal)__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/63A2bC7XYe2WYvJLKol4)",
+    		"name":"__Magic AFK Crystal Shapeshifter__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/0SiPBBIBs0tvSZqaijlm)",
     		"inline":true
-    	},
+    	}
+    ]
+  }
+}
+.embed:json
+.
+**__Method - AFK Necro__**
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>, <:ancientshard:656426717505650708> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovl:841419289831800882> and <:weppoison:689525476158472288> are active
+⬥ Move to original player tile if you move south due to shapeshifters not turning melee in time, moving north doesn't seem to matter
+⬥ <:attunedportentofrestorationx:1027212535121850400> and <:enhancedexcalibur:513200949016264727> are for safety on setting up, which is the only KO potential this method has
+
+.
+**__Presets__**
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
     	{
-    		"name":"__Melee (Attuned Crystal)__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/t9mJUhgq3sDqldHvLqi4)",
+    		"name":"__Necro AFK Crystal Shapeshifter__",
+    		"value":"⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/sapM32tjGUPpx89hxLhI)",
     		"inline":true
     	}
     ]
@@ -72,65 +94,131 @@ Teleport using the <:slayercodex:1097517249499254875> or a house teleport attune
 .embed:json
 
 .
-> **__Method: Tarddiad Legacy Magic (AFK) [Gathering Souls]__**
-.tag:habitat
+**__Ability Bar__**
+.img:https://img.pvme.io/images/k08ZDARgjj.png
 .
-This method should only be used for filling up <:ushabti:1097515642749468752> for your PoD or if unable to use a PoD as it is significantly slower than PoD methods at around 280 KPH.
-
-Place the <:cannon:869283142350041098> and stand northwest of it as shown in the below image. Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:Affliction:513190158468907008>, and keep your prayer points up with <:penanceaura:643505653062565907>. Autocast <:bloodbarrage:537338981747261446> and ensure <:autoretaliate:1084799717726228530> is on. Make sure to upkeep your <:elderovlsalve:648976643687317532>, <:weppoison:689525476158472288> and <:animatedead:856635090453135382> up. No other inputs are required except for potential looting. The method is viable both on and off-task and requires no monitoring either way.
-
-.
-**__Where to Stand__**
-In this image, Shapeshifters 1, 5 and 6 are pulled using cannon aggro only.
-.img:https://img.pvme.io/images/ALb7pV3.png
-.
-> **__Method: PoD Legacy Magic/Revo++ Melee (AFK)__**
+> **__Player Owned Dungeon__**
 .tag:podmethod
-Stand in the southeast corner of the PoD room as shown below.
-⬥ Pray <:soulsplit:615613924506599497>
-⬥ Upkeep prayer points up with <:penanceaura:643505653062565907>.
-⬥ Upkeep <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> active.
-
-No other inputs are required except for potential looting. The method is viable both on- and off-task and requires no monitoring either way.
-
-⬥ <:magic:689504724159823906> checks
-    • <:torment:583429936958930964> / <:Affliction:513190158468907008> acitve
-    • Autocast <:bloodbarrage:537338981747261446>
-        ⬩ <:bloodburst:841419289714098246> is viable if using <:inquisitorstaff:694566917553520680> in PoD.
-
-⬥ <:melee:1096130867279171706> checks
-    • <:turmoil:583429936606347280> / <:Malevolence:513190159416557573> is active
-    • Ensure revo++ is active with ultimates and thresholds enabled.
-
 .
 **__Where to Stand__**
-.img:https://img.pvme.io/images/hOD6kvU.png
+.img:https://img.pvme.io/images/L02unU6ApG.png
+.
+**__Method - AFK Necro__**
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovl:841419289831800882> and <:weppoison:689525476158472288> are active
 
 .
-**__Revo Bar__**
-⬥ Melee
+**__Presets__**
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Necro AFK Crystal Shapeshifter__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/jszVw35T10CjrjhgX6pR)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+
+.
+**__Ability Bar__**
+.img:https://img.pvme.io/images/nhd0d8Sq0v.png
+.
+.
+**__Method - AFK Magic__**
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaura:643505653062565907> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovl:841419289831800882> and <:weppoison:689525476158472288> are active
+⬥ Autocast <:bloodbarrage:537338981747261446>
+        ⬩ <:bloodburst:841419289714098246> is viable if using <:inquisitorstaff:694566917553520680>
+
+.
+**__Presets__**
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Magic AFK Crystal Shapeshifter__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/SeNvRa86UKhsUWG7n8iB)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+.
+**__Method - AFK Melee__**
+⬥ Pray <:soulsplit:615613924506599497> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaura:643505653062565907> and <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:elderovl:841419289831800882>, <:vampscrim:513201294262009874> and <:weppoison:689525476158472288> are active
+
+.
+**__Presets__**
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields":[
+    	{
+    		"name":"__Melee AFK Crystal Shapeshifter__",
+    		"value":"⬥ [Preset breakdown](https://pvme.io/preset-maker/#/cnkYhQxobCrzq6GM9Kzy)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+
+.
+**__Ability Bar__**
 .img:https://img.pvme.io/images/SIHXPIH.png
-.
-**__Video Examples__**
-.tag:examples
-⬥ Magic AFK, habitat - <https://youtu.be/9VSpd1vjAfE>
-⬥ Melee AFK, PoD - <https://youtu.be/G1Ql-UBQ5Bc>
 
+.
+> __**Example Kills**__
+.tag:examplekills
+.
+{
+  "embed": {
+"title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Soul Gathering Only (Tarddiad)__",
+        "value": "⬥ [Legacy Magic AFK](<https://www.youtube.com/watch?v=9VSpd1vjAfE>) <:magic:689504724159823906>\n⬥ [Necro AFK](<https://www.youtube.com/watch?v=n8BYDqEn1kI>) <:necromancy:1148995625896120460>",
+        "inline": true
+      },
+      {
+        "name": "__Player owned Slayer Dungeon__",
+        "value": "⬥ [Melee AFK](<https://www.youtube.com/watch?v=G1Ql-UBQ5Bc>) <:melee:1096130867279171706>\n⬥ [Necro AFK](<https://www.youtube.com/watch?v=xjg7S_XRVrs>) <:necromancy:1148995625896120460>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 .
 {
   "embed": {
     "title": "__Table of Contents__",
     "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
-    "color": 15158332,
+    "color": 39423,
     "fields": [
      {
-        "name": "__Begin__",
-        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Location and how to get there]($linkmsg_location$)\n⬥ [Stats]($linkmsg_stats$)",
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Location and how to get there]($linkmsg_location$)\n⬥ [Stats]($linkmsg_stats$)\n⬥ [Video Examples]($linkmsg_examplekills$)",
         "inline": true
       },
       {
-        "name": "__Strategies__",
-        "value": "⬥ [Presets]($linkmsg_presets$)\n⬥ [Method: Magic (AFK - Revo) [Gathering Souls]]($linkmsg_habitat$)\n⬥ [Method: Magic (AFK - Legacy)]($linkmsg_podmethod$)\n⬥ [Video Examples]($linkmsg_examples$)",
+        "name": "__Methods__",
+        "value": "⬥ [Gathering Souls [Tarddiad]]($linkmsg_habitat$)\n⬥ [Player Owned Dungeon]($linkmsg_podmethod$)",
         "inline": true
       }
     ]
