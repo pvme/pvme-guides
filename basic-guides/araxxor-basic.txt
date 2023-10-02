@@ -1,11 +1,13 @@
-> __**Araxxor Basic Guide**__
-.tag:intro
+**__Araxxor Basic Guide__**
 .img:https://img.pvme.io/images/zScW6sP.png
+*Note: a **Table of Contents** can be found in the pins.*
 
 .
+> **__Introduction__**
+.tag:intro
 Araxxor is a large araxyte spider who lives in the Araxyte lair. It is a mid-to-high-tier boss that is a commonly used stepping stone on players' PvM journeys.
 
-**This guide aims to get you your first few kills at araxxor, with any combat style**. For more advanced rotations, check out <#1020760529754664990> and <#1020760618195755128>.
+**This guide aims to get you your first few kills at araxxor, with any combat style**. For more advanced rotations, check out <#1088535234829619210>, <#1020760529754664990>, <#1020760618195755128>, and <#1145799199141666906>.
 
 .
 > __**Presets**__
@@ -42,7 +44,7 @@ Araxxor is a large araxyte spider who lives in the Araxyte lair. It is a mid-to-
 .embed:json
 
 .
-> __**Basic Information**__
+__**Basic Information**__
 This section covers the basics of what the encounter is, how the boss attacks, and what mechanics it can utilize as well as how to deal with them. Afterwards, we cover how to progress through the fight phase-by-phase in __**Fight Phases**__.
 
 .
@@ -88,7 +90,6 @@ __**Cleave**__
     • The boss bends its front legs and swipes up to **2 tiles** in front of itself, dealing heavy **hard typeless damage**.
     • **Players are dragged in if not in melee distance.**
     • The attack damages everything it hits - including players, familiars, and any spider minions the boss has summoned.
-.
 ⬥ **How to deal with it**:
     • **Stay out of the attack range** and it will deal no damage.
     • If Anticipation <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> are active *in advance*, the player will **not** be dragged in.
@@ -101,7 +102,6 @@ __**Cocoon**__
     • The player is wrapped in a cocoon that deals **constant damage over time** (200 damage per tick at 0% enrage, increasing with enrage).
     • **This attack disables all active defensives.**
     • During the cocoon, the boss will not use auto attacks.
-.
 ⬥ **How to deal with it:**
     • **Spam-click anywhere on the screen to break the cocoon.**
     • If Anticipation <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> are active *in advance*, the number of clicks required is reduced.
@@ -113,7 +113,6 @@ __**Web Shield**__
     • Araxxor hides under a web, healing 1000 health five times, reducing damage taken by 50%, and **reflecting all incoming damage heavily to the player**.
         ⬩ *Note: Necromancy conjure damage is **not** reflected by this mechanic, and will continue to deal damage through it.*
     • Reflected damage scales with enrage.
-.
 ⬥ **How to deal with it:**
     • **Stop attacking the boss to avoid taking reflected damage**.
     • Defensives like Debilitate <:debil:535541278264393729> and Reflect <:reflect:535541258786177064> *will* reduce reflected damage taken.
@@ -127,7 +126,6 @@ __**Egg Bomb**__
     • If the player is in range of the eggs when it explodes, it destroys the eggs and reduces damage taken.
     • If the eggs are not destroyed, they spawn spider minions.
     • **This attack disables all defensives.**
-.
 ⬥ **How to deal with it:**
     • Stand near/on top of the eggs so that they are destroyed, which also reduces the damage taken per egg destroyed.
     • If Anticipation <:anti:535541306475151390> or Freedom <:freedom:535541258240786434> are active *in advance*, the number of eggs spawned is reduced from 3 to 2.
@@ -140,13 +138,11 @@ __**Minion Spawn**__
         ⬩ **Mirrorback spiders reflect all (non-conjure) damage the boss takes** back onto the player.
         ⬩ **Pulsing spiders rapidly heal the boss** while they are alive.
     • Araxxor can summon **up to 4 waves** of spiders (total of 4 × 5 = 20 spiders summoned) during the fight.
-.
 ⬥ **Special spiders spawn at set times**:
     • Wave 1: the **3rd spider** is either a Mirrorback or Pulsing spider.
     • Wave 2: the **2nd spider** is either a Mirrorback or Pulsing spider.
     • Wave 3: the **1st spider** is either a Mirrorback or Pulsing spider.
     • Wave 4: **no** special spiders.
-.
 ⬥ **How to deal with it:**
     • Stop attacking the boss when it spawns spiders, if it is not the 4th wave.
     • If spawned, **kill the Mirrorback or Pulsing spiders first.** Then either kill or ignore the remaining spiders, depending on your level of experience at the boss.
@@ -157,7 +153,6 @@ __**Acidic Spider**__
 ⬥ **How it works**:
     • Araxxor spawns an Acidic spider during phase 3 if it has not absorbed all 100% acid if path 2 is open.
     • Can be aggroed on the player and lured under Araxxor to heal him for 5k HP and reduce the available acid for Araxxi to absorb on P4 by 25%.
-.
 ⬥ **How to deal with it:**
     • **Ignore it.** It is not worth spending time dealing with, and is harmless.
 
@@ -168,7 +163,6 @@ __**Instakill Spider**__
     • Araxxor spits a green blob onto the ground. After a few seconds, a spider spawns and chases the player for a few seconds.
     • A bar on the top of the spider shows how long it will chase the player.
     • If it touches the player, it deals 32k hard typeless damage (instantly killing the player).
-.
 ⬥ **How to deal with it:**
     • **Run away from it.** It will die/despawn after the bar on its head fills up.
     • **Barricade <:cade:535541306353778689> will prevent taking damage from this attack.**
@@ -180,7 +174,6 @@ __**Darkness / Light Spots**__
 ⬥ **How it works**:
     • Araxxor turns the entire arena dark for a short time, except one lit up spot. Standing in the darkness deals increasing damage over time.
     • Standing in the light prevents taking damage and resets the DoT damage amount.
-.
 ⬥ **How to deal with it:**
     • **Stand in the light.** Use Bladed Dive <:bd:535532854281764884> and Surge <:surge:535533810004262912> to get into it faster.
     • Double Surge <:surgecodex:602561894414417944> and Mobile perk <:mob:689501908628799488> perk are useful here.
@@ -192,7 +185,6 @@ __**Putrid Wave**__
     • When Araxxi drops below 25k HP in P4, it spawns a **black blob that bounces around and lands on the player, dealing heavy damage over time.**
     • The player's adrenaline is also drained by 50% when it spawns.
     • **Mechanic is exclusive to P4.**
-.
 ⬥ **How to deal with it:**
     • **Option 1**: Stand still and let it hit you *one time*, then move. **This is the preferred way.**
     • **Option 2**: Keep running around and don't let it hit you.
@@ -203,13 +195,12 @@ __**Acid Absorb**__
 ⬥ **How it works**:
     • When middle path is open, Araxxi's first special attack on phase 4 will *always* be to absorb any leftover acid from phases 2 and 3.
     • **Mechanic is exclusive to P4, when middle path is open.**
-.
 ⬥ **How to deal with it:**
     • You cannot prevent it from happening.
     • Use this time to quickly bring Araxxi's health to below 50k, preventing any other special attacks from being used.
 
 .
-> __**Fight Phases**__
+__**Fight Phases**__
 In this section we go over the fight phase-by-phase, covering how the phase works, what mechanics (described earlier in the __**Mechanics**__ section) may be encountered, and basic ability rotations to help you get through the phases easier.
 
 .
@@ -256,7 +247,7 @@ __**Top Path Strategy**__
     • **With Melee** <:melee:1096130867279171706>: Use Berserk <:zerk:535532854004678657> as the web burns and build adrenaline, then use <:assault:535532855191928842> → <:cane:535532878969438210> → <:slaughter:535532879237873666> and follow up with strong basics. Alternatively, if Igneous Kal Ket <:igneouskalket:902209626404192316> is owned, you can skip <:zerk:535532854004678657> and just use <:overpowerigneous:959089455640215633> instead.
     • **With Magic**: Use Sunshine <:sunshine:994921119381463070> before the web burns and build adrenaline, then use <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gstaff:513203008608141314> <:eofspec:746403211908481184> etc. and follow up with strong basics. If Igneous Kal-Mej <:igneouskalmej:1153772938252787793> is owned, you can use <:omnipowerigneous:959089455560540200> as well.
     • **With Necromancy**: Use Living Death before the web burns and build adrenaline and necrosis stacks, then use <:bloat:1137809185753550929> → <:fingerofdeath:1137809115066937414> with <:necroauto:1137809137401602109> as needed. If Igneous Kal-Mor <:igneouskalmor:1139200072438005851> is owned, you can use <:deathskulls:1137809106640572583> as well.
-.
+.    
 ⬥ **Possible special attacks this phase:**
     • Cleave
     • Cocoon
@@ -360,7 +351,6 @@ __**Strategy**__
 ⬥ **If the Acid Core spawns, do not panic** - panicking is a quick way to die.
     • Eat up and and focus on your prayer flicks.
     • If it hits you, simply move a tile afterwards, and continue to do damage.
-.
 ⬥ If you did not use your damage-boosting ultimates <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:zerk:535532854004678657> / <:livingdeath:1137809132485890108> + <:adrenrenewal:736298121704767538> in phase 3 (or not on cooldown at the start of phase 4) you can use them during phase 4 to help make it go quicker.
     • If using range, Ful arrows <:fularrow:971025696958853180> are great for P4.
 
