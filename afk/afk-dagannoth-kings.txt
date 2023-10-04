@@ -1,4 +1,5 @@
-**__Dagannoth Kings__**
+**__AFK Dagannoth Kings guide__**
+.img:https://img.pvme.io/images/BSyv21CFTT.png
 *Note: a **Table of Contents** can be found in the pins.*
 
 .
@@ -8,7 +9,14 @@
     • It is **more than likely __user error__ or __cutting corners__**, use <#656898197561802760> if you cannot get it to work
 
 .
-> **__Melee AFK Method__ (~110-120 kph)**
+> **__Positioning__**
+.tag:positioning
+.img:https://img.pvme.io/images/MT0UmJKE8s.png
+⬥ upon entering: Dive east then 1 step north. Place <:kineticcyclone:798285651405438997> and stand underneath it.
+⬥ For both  <:melee:1096130867279171706> and <:necromancy:1148995625896120460>
+
+.
+> **__Melee AFK Method <:melee:1096130867279171706> (~115 kph)__**
 .tag:method1
 **__Overview__**
 .
@@ -20,42 +28,108 @@
   }
 }
 .embed:json
-⬥ It’s possible to AFK the Dagannoth Kings using <:melee:1096130867279171706> by taking advantage of the synergy between <:weppoison:689525476158472288> and <:reaverpouch:839903693837959228>.
-⬥ Healing from various sources such as <:IceAsylum:553050196817215491>, <:VampScrim:513201294262009874> and <:soulsplit:615613924506599497> trigger the <:reaverpouch:839903693837959228> passive damage which together with <:weppoison:689525476158472288> can take down Dagannoth Supreme and Dagannoth Prime despite them being immune to <:melee:1096130867279171706>
-⬥ Poison damage from <:weppoison:689525476158472288> is augmented:
+⬥ It’s possible to AFK the Dagannoth Kings using <:melee:1096130867279171706> by taking advantage of the synergy between <:poisonicon:944649693500154006> and <:reaverpouch:839903693837959228>.
+⬥ Healing from various sources such as <:IceAsylum:553050196817215491>, <:VampScrim:513201294262009874> and <:soulsplit:615613924506599497> trigger the <:reaverpouch:839903693837959228> passive damage which together with <:poisonicon:944649693500154006> can take down Dagannoth Supreme and Dagannoth Prime despite them being immune to <:melee:1096130867279171706>
+⬥ <:poisonicon:944649693500154006> damage from <:weppoison:689525476158472288> is further augmented by:
     • Laniakea's spear <:lanispear:839903893177106454> passive effect.
     • Cinderbane gloves <:Cinderbanes:513190158355660812>
     • Kwuarm incense sticks <:KwuarmSticks:565726489341984779>
-⬥ <:kineticcyclone:798285651405438997> is used over <:oldakcoil:798285651387613194> as it triggers <:VampScrim:513201294262009874> healing thus granting greater sustain and more <:weppoison:689525476158472288> hits.
+⬥ <:kineticcyclone:798285651405438997> is used over <:oldakcoil:798285651387613194> as it triggers <:VampScrim:513201294262009874> healing thus granting greater sustain and more <:poisonicon:944649693500154006> hits.
 
 .
-**__Preset and Relics__**
-.img:https://img.pvme.io/images/x1l515B.png
+**__Melee Preset <:melee:1096130867279171706>__**
+.tag:preset1
 .
-__**Relic Setup**__
-.tag:relics
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ <:deathward:697808774068699286> Death's Ward
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-
-⬥ Other combinations can work and may be better. Some other viable relics include **Font of Life** <:fontoflife:698225967679930408> or **Berserker's Fury** <:berserkersfury:697808774106185768>
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/44J1HZSY9q.png"
+        },
+    "fields": [
+      {
+        "name": "__Melee Preset Suggestion & Breakdown__",
+        "value": "⬥ [Melee preset](https://pvme.github.io/preset-maker/#/xLoZHxZMol2F9mjrLxNh)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-**__Action Bars__**
+**__Action Bar <:melee:1096130867279171706>__**
 .img:https://img.pvme.io/images/IuB8d18.png
-⬥ Notes if needed
 
 .
-**__Example Kills__**
+**__Example Kills <:melee:1096130867279171706>__**
 .
-⬥ [AFK Dagannoth Kings](https://youtu.be/d1DmEQMkW0I)
+⬥ [AFK Dagannoth Kings Melee](https://youtu.be/d1DmEQMkW0I)
+
 .
+​
+> **__Necromancy AFK Method <:necromancy:1148995625896120460> (~115 kph)__**
+.tag:method2
+**__Overview__**
+.
+{
+  "embed": {
+    "title": "",
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**\n\u00a0\u00a0\u00a0\u00a0• A more extensive list can be found in <#1130180182544744551>\n\n⬥ Having a hit chance of 25% or higher is **required**\n⬥ 4-piece T95 power set effect is recommended for extended conjure uptime.\n\u00a0\u00a0\u00a0\u00a0• Other armour will reduce kph by 15%\n⬥ <:commandghost:1137809196864262154> and <:conjurezombie:1137809200219684924> unlocked\n⬥ Scripture of Wen <:scriptureofwen:883134307902816297> OR (Superior) Vampyrism Scrimshaw <:VampScrim:513201294262009874>\n⬥ Soul Split <:soulsplit:615613924506599497>\n\u00a0\u00a0\u00a0\u00a0• other curses are unnecessary, unless hit chance is an issue\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Kwuarm incense sticks <:KwuarmSticks:565726489341984779>\n⬥ Upgraded Kinetic Cyclone <:kineticcyclone:798285651405438997> if using <:vampscrim:513201294262009874>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Blood Reaver <:reaverpouch:839903693837959228>\n\u00a0\u00a0\u00a0\u00a0• Make sure familiar combat mode is **NOT** passive\n⬥ Vampyrism Aura <:vampaura:643505653079343144>\n⬥ Auto-retaliate is on\n⬥ blood amulet of fury <:bloodfury:1015698981118038117> \n\u00a0\u00a0\u00a0\u00a0• alternatively, for hitchance: reaper necklace <:reaper:513190159412494367>  or  essence of finality <:eof:787526151978614824>",
+    "color": 39423
+  }
+}
+.embed:json
+.
+⬥ It’s possible to AFK the Dagannoth Kings using <:necromancy:1148995625896120460> by taking advantage of the synergy between <:poisonicon:944649693500154006> and <:reaverpouch:839903693837959228>.
+⬥ Healing from various sources such as <:vampaura:643505653079343144> , <:VampScrim:513201294262009874> and <:soulsplit:615613924506599497> trigger the <:reaverpouch:839903693837959228> passive damage which together with <:poisonicon:944649693500154006> can take down the Dagannoth Kings, despite them being immune to <:necromancy:1148995625896120460>
+⬥ As healing indirectly triggers <:poisonicon:944649693500154006>, it is beneficial to not be full lp constantly. Use Black crystal (reduced healing) <:blackcrystal:1000328247441104917> if HP is high.
+⬥ <:poisonicon:944649693500154006> damage from <:weppoison:689525476158472288> is further augmented by:
+    • Putrid zombie <:conjurezombie:1137809200219684924>
+    • Cinderbane gloves <:Cinderbanes:513190158355660812>
+    • Kwuarm incense sticks <:KwuarmSticks:565726489341984779>
+    • Haunted <:haunted:1143642262165790911> from Command Vengeful Ghost <:commandghost:1137809196864262154>
+⬥ <:kineticcyclone:798285651405438997> is used over <:oldakcoil:798285651387613194> as it triggers <:VampScrim:513201294262009874> healing thus granting greater sustain and more <:weppoison:689525476158472288> hits. Optional if using <:scriptureofwen:883134307902816297>
+
+.
+> **__Necromancy Preset <:necromancy:1148995625896120460>__**
+.tag:preset2
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/aSwNf1iPSr.png"
+        },
+    "fields": [
+      {
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/7lm2LpDsDVlwMCS3WUv9)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+**__Action Bar <:necromancy:1148995625896120460>__**
+.img:https://img.pvme.io/images/rJnjAIiyTe.png
+⬥ The bar aims to have <:conjurezombie:1137809200219684924> spirit active without using  <:commandzombie:1137809191231295549> shortly after. <:conjurezombie:1137809200219684924> uptime should approach 55%.
+⬥ If hit chance drops below 25% the ability bar will malfunction.
+
+.
+**__Example Kills <:necromancy:1148995625896120460>__**
+.
+⬥ [Dagannoth Kings AFK necromancy](https://www.youtube.com/watch?v=rkKa3i74jek)
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Melee AFK]($linkmsg_method1$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Melee AFK]($linkmsg_method1$)\n⬥ [Melee preset]($linkmsg_preset1$)\n⬥ [Necromancy AFK]($linkmsg_method2$)\n⬥ [Necromancy preset]($linkmsg_preset2$)",
     "color": 39423
     }
 }
