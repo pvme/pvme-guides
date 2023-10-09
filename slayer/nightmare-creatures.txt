@@ -4,7 +4,7 @@
 .
 > **__Introduction__**
 .tag:intro
-Unlockable for 50 slayer points after the completion of the Children of Mah quest, Nightmare Creatures are powerful slayer creatures, requiring 80 <:slayer:797896049548066857> to kill. They offer good XP rates, good GP rates, AFK-ability and a high valued unique.
+The ability to be assigned Nightmares as a slayer task can be purchased for 50 slayer points, this requires completion of the [Children of Mah](<https://runescape.wiki/w/Children_of_Mah>) quest. They offer good XP rates, good GP rates, AFK-ability, and a high value unique.
 
 ⬥ Nightmares have two forms of attacks, a weaker melee auto-attack, and a 2-hit ranged special attack which deals a lot of damage (~4000 total).
     • It is generally encouraged to use <:deflectrange:544195488317046812> unless stated otherwise, as the ranged attack has a higher KO potential.
@@ -13,31 +13,32 @@ Unlockable for 50 slayer points after the completion of the Children of Mah ques
 **__Stats__**
 ⬥ <:slayer:797896049548066857> level: 80
 ⬥ <:slayer:797896049548066857> XP per kill: 1540
-⬥ Optimal kills per hour: ~700 <:magic:689504724159823906> (revolution), ~580 <:magic:689504724159823906> (legacy), ~720 <:necromancy:1148995625896120460> (All AFK)
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.08m <:magic:689504724159823906> (revolution), ~893k <:magic:689504724159823906> (legacy), ~1.1m <:necromancy:1148995625896120460> (All AFK)
+⬥ Optimal kills per hour: ~700 <:magic:689504724159823906> (Revolution), ~580 <:magic:689504724159823906> (Legacy), ~720 <:necromancy:1148995625896120460> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.08m <:magic:689504724159823906> (Revolution), ~893k <:magic:689504724159823906> (Legacy), ~1.1m <:necromancy:1148995625896120460> (All AFK)
 
 .
 > **__Desirable Drops__**
 .tag:desirabledrops
 ⬥ Nightmares have a strong common drop table, offering a large amount of alchables, fletching supplies, and <:coins:698816156961603654>, alongside being a very good source of <:soulrune:536252660333019136> <:bloodrune:536252658970001409>
+⬥ Nightmare gauntlets <:nightmaregauntlets:513190159441723392>
+    • These are dropped at a rate of 1/2,000 on-task and 1/10,000 off-task.
+    • Required for the Slayer collection log
+⬥ Nightmare Creatures worth <:coins:698816156961603654> $data_pvme:Slayer!D18$ per kill.
+    • Assumes you're on-task.
 
-⬥ For the slayer log, Nightmares also drop the Nightmare Gauntlets <:NMG:513190159441723392>, a set of powerful range gloves that are best-in-slot in some scenarios. These are dropped at a rate of 1/2,000 on-task and 1/10,000 off-task.
-
-If you change the monetary value for custom loot to 5k this will allow you to loot everything relevant (No sharks or Muspah spines). This is achieved by going to Settings > Gameplay > Item Drops > Loot System > Monetary Value 5,000.
-
-This makes Nightmare Creatures worth <:coins:698816156961603654> $data_pvme:Slayer!D18$ per kill.
+*Note: If you change the monetary value for custom loot to 5k this will allow you to loot everything relevant (No sharks or Muspah spines). This is achieved by going to Settings > Gameplay > Item Drops > Loot System > Monetary Value 5,000.*
 
 .
 **__Useful Items__**
 .tag:usefulitems
 {
   "embed": {
-    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory",
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory.",
     "color": 39423,
     "fields": [
       {
         "name": "__Items__",
-        "value": "⬥ [Sixth-Age circuit](https://runescape.wiki/w/Sixth-Age_circuit) <:sixthagecircuit:937093290245894154>\n\u00a0\u00a0\u00a0\u00a0• Allows for an easy teleport to the World Gate.\n⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer\n⬥ [Grace of the Elves](https://runescape.wiki/w/Grace_of_the_elves) <:gote:900765150678749204>\n\u00a0\u00a0\u00a0\u00a0• Can be used as a swap when looting to automatically bank Muspah spines."
+        "value": "⬥ [Sixth-Age circuit](https://runescape.wiki/w/Sixth-Age_circuit) <:sixthagecircuit:937093290245894154>\n\u00a0\u00a0\u00a0\u00a0• Allows for an easy teleport to the World Gate.\n⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer.\n⬥ [Grace of the Elves](https://runescape.wiki/w/Grace_of_the_elves) <:gote:900765150678749204>\n\u00a0\u00a0\u00a0\u00a0• Can be used as a swap when looting to automatically bank Muspah spines."
       },
       {
         "name": "__Other__",
@@ -111,7 +112,6 @@ If using <:inquisitorstaff:694566917553520680>, the spell Blood Burst <:bloodbur
 .embed:json
 ⬥ You may use a <:demonhornnecklace:975765831248130079> to sustain your prayer instead.
     • This may make the method less safe.
-⬥ <:aggressionpotion:925794592199147581> may help improve kph.
 
 .
 **__Ability Bar__**
@@ -128,8 +128,9 @@ If using <:inquisitorstaff:694566917553520680>, the spell Blood Burst <:bloodbur
 .tag:afknecro
 Thanks to Necromancies sustain with <:conjureghost:1137809206423060632> and <:bloodsiphon:1159434279311380532>, as well as its strong aoe damage potential with <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>, it can effectively AFK Nightmare Creatures. Around 660-720kph can be achieved on task with this method while being safe and AFK with low input costs.
 
-⬥ Pray <:deflectrange:544195488317046812> and <:sorrow:1137941003895046284>/<:ruination:1137940996391452772>
-⬥ Upkeep <:darkness:1137809209782698024>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times
+⬥ Pray <:sorrow:1137941003895046284> or <:ruination:1137940996391452772> and <:deflectrange:544195488317046812>
+⬥ Upkeep <:elderovl:841419289831800882>, <:superprayerrenewal:547603714681339915>, and <:weppoison:689525476158472288>
+⬥ Make sure <:darkness:1137809209782698024> is active.
 ⬥ Use <:cannon:869283142350041098> to help aggroing the Nightmare Creatures
 
 .
@@ -140,12 +141,12 @@ Thanks to Necromancies sustain with <:conjureghost:1137809206423060632> and <:bl
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/FfwOPeo5UL.png"
+            "url": "https://img.pvme.io/images/nmuPY6yKEO.png"
         },
     "fields": [
       {
         "name": "__AFK Necro__",
-        "value": "⬥ [Preset breakdown](https://pvme.io/preset-maker/#/B5rQLp7mhpPmUkyp9DV6)",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/bVIw5mnQo3UdoERaA0pi)",
         "inline": true
       }
     ]
