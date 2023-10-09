@@ -76,7 +76,7 @@ Components obtained from scav farming are not only useful for making perks, but 
       },
       {
         "name": "__Other__",
-        "value": "⬥ [Totem of Summoning](https://runescape.wiki/w/Totem_of_Summoning) <:summtotem:643507594811539499>\n⬥ [Luck of the Dwarves (relic power)](https://runescape.wiki/w/Luck_of_the_Dwarves_(relic_power)) <:lotdrelic:987267727980912701>\n\u00a0\u00a0\u00a0\u00a0• Allows you to increase your kph by wearing a better ring\n⬥ [Death Note (relic power)](https://runescape.wiki/w/Death_Note) <:deathnote:1023150755093426216>\n\u00a0\u00a0\u00a0\u00a0• Allows for automatic looting of noted bones in conjunction with the <:bonecrusher:975284344526602240>\n⬥ [Smoke devil](https://runescape.wiki/w/Smoke_devil) <:smokedevil:1109432590865281126> with [Dust Cloud scrolls](https://runescape.wiki/w/Smoke_Devil_scroll_(Dust_Cloud)) <:dustcloud:1109432587086200953>\n\u00a0\u00a0\u00a0\u00a0• <:spiritcape:697405301623619624> allows your familiar to use its special move more often\n\u00a0\u00a0\u00a0\u00a0• Ensure familiar combat mode is default, and the autofire rate is set to 1\n⬥ Ensure <:autoretaliate:1084799717726228530> and revo++ are on"
+        "value": "⬥ [Totem of Summoning](https://runescape.wiki/w/Totem_of_Summoning) <:summtotem:643507594811539499>\n⬥ [Luck of the Dwarves (relic power)](https://runescape.wiki/w/Luck_of_the_Dwarves_(relic_power)) <:lotdrelic:987267727980912701>\n\u00a0\u00a0\u00a0\u00a0• Allows you to increase your kph by wearing a better ring\n⬥ [Death Note (relic power)](https://runescape.wiki/w/Death_Note) <:deathnote:1023150755093426216>\n\u00a0\u00a0\u00a0\u00a0• Allows for automatic looting of noted bones in conjunction with the <:bonecrusher:975284344526602240>\n⬥ [Smoke devil](https://runescape.wiki/w/Smoke_devil) <:smokedevil:1109432590865281126> with [Dust Cloud scrolls](https://runescape.wiki/w/Smoke_Devil_scroll_(Dust_Cloud)) <:dustcloud:1109432587086200953>\n\u00a0\u00a0\u00a0\u00a0• <:spiritcape:697405301623619624> allows your familiar to use its special move more often\n\u00a0\u00a0\u00a0\u00a0• Ensure familiar combat mode is default, and the autofire rate is set to 1"
       }
     ]
    }
@@ -99,36 +99,70 @@ Besides dedicated farming via <:scavenging:1109429520995463288> (method below), 
 ⬥ Killing chickens - Lossless to kill with <:oldakcoil:798285651387613194> when doing some skilling activities.
 
 .
-> **__Method - Lumbridge Catacombs__**
-.tag:corpsespiders
-The most effective method to farm scavenging procs is to AoE corpse spiders in the Lumbridge Catacombs. There aren't any noteworthy drops besides the occasional spider egg, which could be ignored.
+> **__Lumbridge Catacombs__**
+.tag:LumbridgeCatacombs
+The most effective method to farm scavenging procs is to AoE mobs in the Lumbridge Catacombs. There aren't any noteworthy drops besides the occasional [spider egg](<https://runescape.wiki/w/Spider_egg_(unchecked)>), and the [Skeleton Champion's scroll](<https://runescape.wiki/w/Skeleton_Champion's_scroll>).
+
+⬥ The catacombs are southeast of the Lumbridge lodestone <:lumbridgelode:1032552337035767839>
 
 .
-__**Location and positioning**__
-The catacombs are southeast of the Lumbridge lodestone <:lumbridgelode:1032552337035767839>. Go to the bottom floor and walk south-east, to reach the third room.
-
-⬥ Stand on the on red 'X' shown below, 3 north of the middle torch on the southern wall.
-.img:https://img.pvme.io/images/6STOzO25ii.png
+**__Method: Skeletons__**
+.img:https://img.pvme.io/images/kuoEe5c2YL.png
+⬥ Go to the bottom floor and walk south-east then south, to where you will find the Topaz statuette.
+    • Stand on the on tile shown above, 2 north and 1 west of the pillar in the center of the room.
 
 .
 **__Preset__**
 .
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/tj4DhZTE01.png"
+        },
+    "fields":[
+    	{
+    		"name":"__Magic__",
+    		"value":"⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/WhC7BwirRtHnLlFxk8qw)\n\u00a0\u00a0\u00a0\u00a0• Runes for <:exsanguinate:856635090745950258>",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+⬥ Seasinger's equipment <:seasingershood:556583076050763776> and Scripture of Bik <:scriptureofbik:892342109791735848> are optional.
+    • Pocket slot may be <:scriptureofful:902209626412560395>
+⬥ May use a <:staffoflimitlessair:864235608237801473> with <:airsurge:543465115870035999> instead.
+
+.
+**__Ability Bar__**
+.img:https://img.pvme.io/images/L5bwik3cPF.png
+
+.
+**__Example Kills__**
+.
+⬥ [Skeleton Magic ~4030 kph](https://www.youtube.com/watch?v=YuR7gDGkfWg)
+.
+
+.
+**__Method: Corpse Spiders__**
+.img:https://img.pvme.io/images/1faEFIx6IK.png
+⬥ Go to the bottom floor and walk south-east, to reach the third room.
+    • Stand on the on tile shown above, 3 north of the middle torch on the southern wall.
+
+.
+**__Preset__**
+.
+{
+  "embed": {
     "color": 39423,
         "image": {
             "url": "https://img.pvme.io/images/RlFW2GcCug.png"
         },
     "fields": [
       {
-        "name": "__Low effort__",
-        "value": "⬥ [Anima core of Seren](https://pvme.github.io/preset-maker/#/tG0VgPqBVhtI5ezH6R8s)",
-        "inline": true
-      },
-      {
-        "name": "__Clues__",
-        "value": "⬥ [Bik and Superior seasinger's](https://pvme.github.io/preset-maker/#/A0oYABKwCdCZEjhKdOKK)",
+        "name": "__Magic__",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/tG0VgPqBVhtI5ezH6R8s)\n\u00a0\u00a0\u00a0\u00a0• Staff provides runes for <:airsurge:543465115870035999>",
         "inline": true
       }
     ]
@@ -137,45 +171,44 @@ The catacombs are southeast of the Lumbridge lodestone <:lumbridgelode:103255233
 .embed:json
 
 .
-**__Action Bar__**
+**__Ability Bar__**
 .img:https://img.pvme.io/images/i47dTJ8N7N.png
 
 .
-__**Video Example**__
+**__Example Kills__**
 .
-⬥ [Low end ~3.5k kph](https://youtu.be/ESRsEedb-tk)
+⬥ [Corpse Spider Magic ~3500 kph](https://youtu.be/ESRsEedb-tk)
 .
 
 .
-> **__Method - Chaos Dwarf Battlefield__**
-.tag:dwogres
+> **__Chaos Dwarf Battlefield__**
+.tag:ChaosDwarfBattlefield
 After completing [Forgiveness of a Chaos Dwarf](<https://runescape.wiki/w/Forgiveness_of_a_Chaos_Dwarf>), the Chaos Dwarf Battlefield is unlocked.
 
 ⬥ This location hosts an abundance of mobs which are profitable to kill.
     • Chaos dwogres, chaos dwarves and hand cannoneers can all drop the dragon pickaxe <:dragonpick:1145061199118086215>
         ⬩ Chaos dwarf hand cannoneers can drop the hand cannon <:handcannon:860891495037272094>
+⬥ The Chaos Dwarf Battlefield can be easily accessed by using a <:lotd:566453486913323042> to teleport to Keldagrim, and running south past the Giant Dwarf statue, then following the southwestern path to the cave entrace.
 
 .
-**__Location and positioning__**
-The Chaos Dwarf Battlefield can be easily accessed by using a <:lotd:566453486913323042> to teleport to Keldagrim, and running south past the Giant Dwarf statue, then following the southwestern path to the cave entrace.
-
-⬥ With your camera facing north, place your Oldak coil on the red X and stand on the yellow X.
-.img:https://img.pvme.io/images/H3BGRVjIFX.png
+**__Method: Dwogres__**
+.img:https://img.pvme.io/images/Q02oPqHM9s.png
+⬥ Stand on the left tile, and place your <:oldakcoil:798285651387613194> or <:cannon:869283142350041098> on the right tile.
+    • <:cannon:869283142350041098> yields a higher kph but is more expensive.
 
 .
 **__Preset__**
 .
 {
   "embed": {
-    "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/CkgtyOpEFR.png"
+            "url": "https://img.pvme.io/images/i5ukz1Mrq8.png"
         },
     "fields": [
       {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Magic](https://pvme.github.io/preset-maker/#/c7w8rckczkiN1xj48NSH)",
+        "name": "__Magic__",
+        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/c7w8rckczkiN1xj48NSH)\n\u00a0\u00a0\u00a0\u00a0• Staff provides runes for <:airsurge:543465115870035999>",
         "inline": true
       }
     ]
@@ -184,13 +217,13 @@ The Chaos Dwarf Battlefield can be easily accessed by using a <:lotd:56645348691
 .embed:json
 
 .
-**__Action Bar__**
+**__Ability Bar__**
 .img:https://img.pvme.io/images/mtd2ahThEN.png
 
 .
-**__Video Example__**
+**__Example Kills__**
 .
-⬥ [Magic ~2400 kph](https://youtu.be/OUB0btsLK1I)
+⬥ [Dwogre Magic ~2400 kph](https://youtu.be/OUB0btsLK1I)
 .
 
 .
@@ -207,7 +240,7 @@ The Chaos Dwarf Battlefield can be easily accessed by using a <:lotd:56645348691
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Corpse Spiders]($linkmsg_corpsespiders$)\n⬥ [Dwogres]($linkmsg_dwogres$)",
+        "value": "⬥ [Lumbridge Catacombs]($linkmsg_LumbridgeCatacombs$)\n⬥ [Chaos Dwarf Battlefield]($linkmsg_ChaosDwarfBattlefield$)",
         "inline": true
       }
     ]
