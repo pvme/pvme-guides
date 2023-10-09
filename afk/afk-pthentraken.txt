@@ -9,104 +9,76 @@
     • It is **more than likely __user error__ or __cutting corners__**, use <#656898197561802760> if you cannot get it to work
 
 .
-__**Explanation and Notes**__
-.tag:intro
-Consistency and safety are attained via <:reaverpouch:839903693837959228> damage and healing through specs, taking advantage of <:necklaceofsalamancy:970657245312467004>, and proper positioning of <:surge:535533810004262912> on the ability bar.
-
-⬥ This is a **5 minute** AFK method due to needing to heal <:reaverpouch:839903693837959228> with <:prismofrestoration:938475261366784070>
-    • Use an [Alt1 toolkit alarm](<https://raw.githubusercontent.com/pvme/pvme-guides/master/afk/PVME-Alt1-Setup.txt>) to monitor <:reaverpouch:839903693837959228> HP.
-
-⬥ Slayer task (with Slayer Helm <:slayerhelm:798285340460449792> on your Anachronia slayer lodge stand) is only required for lower level gear setups.
-    • A **T88+** bow is recommended for the method to take advantage of Pthen's weakness.
-    • <:bolg:994189289623662702> is the best in slot weapon for this method.
-        ⬩ This reaches **49 KPH**.
-    • Use **Splintering Arrows** <:splinteringarrows:900758234246299649>
-    • Other viable weapons (non-bow) (**These will require both <:slayerhelm:798285340460449792> and <:necklaceofsalamancy:970657245312467004> accuracy boosts**):
-        ⬩ <:ascmh:513190158468775936> <:bbc:626714879218155521> **Dual-wield Crossbows** - Ascension or better works. Use **Emerald or Onyx Bakriminel Bolts (e)** <:emeraldbakri:866551637714665484> <:OnyxBakri:565726489362956308>
-
-⬥ <:vamp:643505653079343144> is the most reliable aura as it helps with healing and deals extra poison damage through the <:reaverpouch:839903693837959228> passive.
-⬥ <:penanceaura:643505653062565907> can be used instead of <:powderofpenance:928221126360969226>, but will require increasing familiar autofire rate to 8-12 depending on gear.
-    • May not be feasible for non-BIS gear.
+> **__Ranged AFK Method (45+ kph)__**
+.tag:RangedAFK
+**__Overview__**
 .
-⬥ If using <:Desolation:513190159018098713>, you may need <:ancientshard:656426717505650708> to upkeep Prayer.
-⬥ <:prismofrestoration:938475261366784070> is used to heal your <:reaverpouch:839903693837959228>. If it dies, summon another and load it with scrolls.
-
-.
-__**Mandatory AFK Requirements**__
-.tag:mand
 {
   "embed": {
-    "description":"This setup should reliably allow you to afk Pthentraken.\nThe following are required or this method will not work:\n\n⬥ Augmented high tier ranged weapon(s) (**Read above**)\n\u00a0\u00a0\u00a0\u00a0• Caroming 4 <:caroming4:791281588792590336> MUST be on your weapon\n⬥ Greater Ricochet <:grico:787904334812807238>\n⬥ Persistent Rage <:persistentrage:739965637056659567>\n⬥ Conservation of Energy <:conservationofenergy:697808773711921195>\n⬥ Penance Aura <:penanceaura:643505653062565907> or Penance Powder <:powderofpenance:928221126360969226> to upkeep prayer\n⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786> / Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Scripture of Wen <:wengodbook:883134307902816297>\n⬥ Ring of Vigour passive effect <:rov:513201065877831680> <:warpedgem:968908526955167774>\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004>\n⬥ **Insulated Boots** <:insulatedboots:841409588876279819>\n⬥ T80+ augmented armour <:sirenicbody:643846948570267648>\n\u00a0\u00a0\u00a0\u00a0• Use Fury of the Small <:furyofthesmall:697808773917573233> if using Mobile <:mob:689501908628799488>\n⬥ Soulsplit <:soulsplit:615613924506599497>\n⬥ Anguish <:anguish:583429936665198592> / Desolation <:Desolation:513190159018098713>\n⬥ Elder Overload <:elderovlsalve:648976643687317532>\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812>\n⬥ Blood Reaver <:reaverpouch:839903693837959228> with 200+ scrolls\n\u00a0\u00a0\u00a0\u00a0• Set to autofire at 16\n⬥ Prism of restoration <:prismofrestoration:938475261366784070>\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is on\n⬥ Be in the proper standing spot with buffs and effects active.",
+  "title": "",
+    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**\n\u00a0\u00a0\u00a0\u00a0• A more extensive list can be found in <#1130180182544744551>",
     "color": 39423,
-    "footer": {
-      "text": "Cutting corners will result in failure"
-    }
-  }
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Insulated boots](https://runescape.wiki/w/Insulated_boots) <:insulatedboots:841409588876279819>\n\u00a0\u00a0\u00a0\u00a0• Reduces converging lightning damage by 85-90%.\n⬥ [Necklace of Salamancy](https://runescape.wiki/w/Necklace_of_Salamancy) <:necklaceofsalamancy:970657245312467004>\n\u00a0\u00a0\u00a0\u00a0• Could replace with <:eof:787526151978614824> or <:aos:513190158359724056>\n⬥ Weapon with [Caroming 4](https://runescape.wiki/w/Caroming) <:caroming4:791281588792590336>\n\u00a0\u00a0\u00a0\u00a0• Any tier 90 or higher bow works.\n⬥ Armour [Crystal Shield 4](https://runescape.wiki/w/Crystal_Shield_(perk)) <:crystalshield4:921410343606034443> **and** [Absorbative 4](https://runescape.wiki/w/Absorbative) <:absorbative4:890542428556230666>\n\u00a0\u00a0\u00a0\u00a0• Can be added to legs.\n⬥ [Igneous Kal-Xil](https://runescape.wiki/w/Igneous_Kal-Xil) <:igneouskalxil:902209626404171786> or [Igneous Kal-Zuk](https://runescape.wiki/w/Igneous_Kal-Zuk) <:igneouskalzuk:902209626479685734>"
+      },
+      {
+        "name": "__Abilities__",
+        "value": "⬥ [Greater Ricochet](https://runescape.wiki/w/Greater_Ricochet) <:grico:787904334812807238>"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Darkness](https://runescape.wiki/w/Darkness) <:darkness:1137809209782698024>\n\u00a0\u00a0\u00a0\u00a0• Requires 86 Necromancy <:necromancy:1148995625896120460>\n⬥ [Blood reaver ](https://runescape.wiki/w/Blood_reaver_(familiar)) <:reaverpouch:839903693837959228>\n\u00a0\u00a0\u00a0\u00a0• Doesn't require scrolls."
+      }
+    ]
+   }
 }
 .embed:json
-⬥ If the first hit is dodged, you will **not** auto-retaliate <:autoretaliate:1084799717726228530>
-    • Using Darkness <:darkness:1137809209782698024> can cause this.
+⬥ You **must** be standing on the correct tile for the method to work.
+⬥ Make sure you are **not** on a dinosaur slayer assignment if using <:bolg:994189289623662702> with <:necklaceofsalamancy:970657245312467004> and <:vampaura:643505653079343144>
+    • Tasks with high-end gear may result in kills being too fast, and subsequent death.
+⬥ Having <:relentless5:712244800920748092> or <:mob:689501908628799488> doesn't impact the method.
 
 .
-> **__Preset__**
-.tag:preset
+**__Preset and Relics__**
 .
 {
   "embed": {
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/lxFs7WkZh8.png"
+            "url": "https://img.pvme.io/images/DFFK46RaWg.png"
         },
     "fields": [
       {
-        "name": "__Ranged__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/nUWTyuYF0r3rl0BAJA9D)",
+        "name": "__AFK Ranged__",
+        "value": "⬥ [Preset Breakdown](https://pvme.github.io/preset-maker/#/5wAqFwXNPWxhPC5a7Zsg)",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-.
+⬥ <:bolg:994189289623662702> with <:eof:787526151978614824> or <:aos:513190158359724056> doesn't require <:vampaura:643505653079343144>
+⬥ If using <:hexhunterbow:581180369911414794> or <:noxbow:513190159425208342> with <:aos:513190158359724056>, then <:kwuarmsticks:565726489341984779> would help.
 
 .
-**__Action Bar__**
-.tag:bar
-.img:https://img.pvme.io/images/8A1WDSI1n8.png
-.
-⬥ If using dw weapons, replace <:mds:535541259033378827> with <:needle:535541259108876293>
+**__Action Bars__**
+.img:https://img.pvme.io/images/Vhtrm7pohe.png
 
 .
-**__Method and Setup__**
-.tag:pos
-⬥ For positioning, refer to video example below.
-⬥ Ensure all buffs/prayers <:elderovlsalve:648976643687317532> <:weppoison:689525476158472288> <:kwuarmsticks:565726489341984779> <:powderofpenance:928221126360969226> <:scriptureofwen:883134307902816297> <:desolation:513190159018098713> <:soulsplit:615613924506599497> <:vampaura:643505653079343144> are active, along with <:autoretaliate:1084799717726228530>
-⬥ Make sure <:reaverpouch:839903693837959228> is summoned, stocked with <:reaverscroll:1022562484378419284>, and set to the proper autofire rate (16).
-    • Cast <:prismofrestoration:938475261366784070> whenever familiar drops to **4000-5000** hp.
-    • If using alt1, AfkWarden has an alert that can track your familiar's hp. This can assist with keeping your familiar alive.
-
+**__Example Kills__**
 .
-> **__Video Examples__**
-.tag:example
-⬥ [Alternative action bar (outdated)](<https://youtu.be/OJjYYV_gnp8?si=2ewyzV5qfZDKM-j3>)
-.
-⬥ [Method and positioning demonstration](https://youtu.be/t6KhBw3ZblI)
+⬥ [Method and positioning demonstration](https://www.youtube.com/watch?v=nJ2tQPlW3n0)
 .
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__AFK Strategy__",
-        "value": "⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Explanation]($linkmsg_intro$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bar]($linkmsg_bar$)\n⬥ [Method and Setup]($linkmsg_pos$)\n⬥ [Video Examples]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Ranged AFK]($linkmsg_RangedAFK$)",
+    "color": 39423
   }
 }
 .embed:json
