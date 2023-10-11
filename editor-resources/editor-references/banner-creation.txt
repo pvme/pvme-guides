@@ -1,0 +1,97 @@
+.
+> __**Introduction**__
+.tag:intro
+⬥ The **PVME Banner Template** should be used atop every guide (where relevant)
+⬥ This guide provides the essentials to build you own banner and contribute to PVME!
+
+⬥ The banner itself is 1440 x 600px, and has the following components:
+    • A blurry background representing the arena/area the monster lives in
+    • The name picture of the monster
+    • The monster's size (2x2, 5x5 etc)
+    • Whether poison can be used
+    • Which weapon the monster is vulnerable to
+    • Whether familiar damage can be used
+
+.
+> __**Guide: Building your banner**__
+.tag:guide
+⬥ There are three steps listed below to follow - if something doesn't make sense then **please** ask for help in <#724129126314803230>
+⬥ This guide will work in the following editors:
+    • Photoshop
+    • Gravit.io
+    • PowerPoint
+    • Paint.net
+⬥ Unfortunately, MS Paint will __not__ work as it does not support transparency
+
+.
+__**Step 1: Create a blurry background and add the boxes**__
+.tag:step1
+1. Save [this template file](<https://img.pvme.io/images/x5oFrjy7Kx.png>) to your machine and open it in your chosen editor
+    a. *Note: If using PowerPoint, unlock aspect ratio to fix pixel dimensions, then type the pixel value into the boxes that say "cm/inch" (e.g. "1440px")*
+3. 3. In-game, visit the monster's area and use the Freecam or [Orb of oculus](https://runescape.wiki/w/Orb_of_oculus) to find a nice backdrop for your banner
+    a. *Note: A darker environment [skybox](https://runescape.wiki/w/Skyboxes_and_filters) will usually make the banner look cleaner - experiment!*
+4. Screenshot the chosen area, and copy the image into your editor
+5. Re-order your objects so the background is behind/under the template you started with
+6. Crop the background image to the same size as the template
+7. Add a strong blur effect to the background image so you can still see the general vibe of the area but not the details
+    a. *Note: If using PowerPoint, right-click image → Picture corrections → Sharpness (-70 to -90%)*
+
+**Good job! You should now have a banner that looks something like below:**
+.img:https://img.pvme.io/images/wMPYOsxghY.png
+
+.
+__**Step 2: Add the monster's name and image**__
+.tag:step2
+8. [Download the Russo One font](https://fonts.google.com/specimen/Russo+One) and install it to your machine
+9. Open and copy [this guide layer](https://img.pvme.io/images/av8OFsrGoq.png) into your editor
+10. Staying within the red lines, add a text box (start with font size 102px) and enter the boss' name
+    a. *Note: If the monster has a long name, reducing the font-size is okay as long as it stays within the red lines*
+    b. *Note: If using PowerPoint, you will need to eyeball the font-size rather than use pixel font-sizes*
+12. Centre the boss' name horizontally in the middle of the white boxes (it should be off-centre to the left)
+13. Get the image of the monster from the Runescape Wiki:
+    a. Open the Runescape Wiki, navigate to the monster's page
+    b. Click on the main image - it should maximise the image file
+    c. Right-click download this image
+    d. Import it into your editor (note: this is an important step in some editors, as copying sometimes loses the transparent background)
+14. Move the monster's image to the empty space on the right, and resize as appropriate
+15. You can now safely hide or delete the red guide layer
+
+**Good job! You should now have a banner that looks something like below:**
+.img:https://img.pvme.io/images/4DdX0AEOHn.png
+
+.
+__**Step 3: Add the summary boxes**__
+.tag:step3
+16. Now comes the fiddly part! Copy in the relevant icons from the below list to the remaining white boxes, __ensuring they are centred within their box__.
+		a. *Note: The only non-icon box is the bottom-left, where you will need to use the same font as before to type in the boss' size (start with font size 53px)*
+		b. *Note: You should be able find the boss' size in a table on the [Seren godbow Wiki page](https://runescape.wiki/w/Seren_godbow#Recommended_bosses)*
+		c. *Note: If using PowerPoint, the align tools are under "Arrange"*
+
+.
+⬥ Icons (download or copy these into the editor as required):
+    • [Box 3 - Inquisitor Staff](<https://img.pvme.io/images/XWT3opBawS.png>)
+    • [Box 3 - Hexhunter Bow](<https://img.pvme.io/images/AgiCM4irg5.png>)
+    • [Box 3 - Terrasaur Maul](<https://img.pvme.io/images/9p8Vgvlnr6.png>)
+    • [Box 3 - Omni guard](<https://img.pvme.io/images/aaZzcDbzQ1.png>)
+    • [Box 4 - Familiar](<https://img.pvme.io/images/mBlPRJIESa.png>)
+    • [Tick](<https://img.pvme.io/images/3e7tQSVVvV.png>)
+    • [Cross](<https://img.pvme.io/images/1i1nfMnNwt.png>)
+
+**Good job! You should now have a finished banner that looks something like below:**
+.img:https://img.pvme.io/images/ln64exSIhj.png
+
+.
+> __**Video Tutorial**__
+.tag:video
+If you prefer to watch a video guide, then see the following tutorial by <@839236111054143508>: https://youtu.be/2pYVji_k0DY
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Guide: Building your banner]($linkmsg_guide$)\n⬥ [Step 1: Create a blurry background and add the boxes]($linkmsg_step1$)\n⬥ [Step 2: Add the monster's name and image]($linkmsg_step2$)\n⬥ [Step 3: Add the summary boxes]($linkmsg_step3$)\n⬥ [Video Tutorial]($linkmsg_video$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
