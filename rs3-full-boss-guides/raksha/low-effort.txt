@@ -41,15 +41,25 @@ This method has high requirements regarding **equipment** and **unlocked abiliti
 (Runes for <:prismofrestoration:938475261366784070>, <:SBSLunars:565726489467682816>, <:disrupt:535614336207552523>, <:Veng:543478434953822208>)
 
 .
-> **__Presets__**
-__**Beginner (Trimmed Masterwork):**__
-.tag:presetbeginner
-*Note: This preset is safer, and is recommended to beginners learning Revo++ Raksha.*
-.img:https://img.pvme.io/images/LdhoP3f.png
-__**Advanced (Vestments of Havoc Robes):**__
-.tag:presetadvanced
-*Note: This preset results in more kph, but is more prone to dying due to lack of defence.*
-.img:https://img.pvme.io/images/hgx9IaH.png
+> **__Preset and relics__**
+.tag:presets
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/SmwsfugkZa.png"
+        },
+    "fields": [
+{
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Melee | Beginner Safer Setup](https://pvme.github.io/preset-maker/#/Du306IptXLdLZhnzBvJg)\n⬥ [Melee | Advanced Risky Setup](https://pvme.github.io/preset-maker/#/jobSkjXnyPyCqL4V9Jkk)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 > **__Revo++ Ability Bar__**
@@ -105,7 +115,7 @@ This tool reads your screen, and based on certain lines of dialogue in your chat
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Essential Items]($linkmsg_essentialitems$)\n⬥ [Presets - Beginner]($linkmsg_presetbeginner$)\n⬥ [Presets - Advanced]($linkmsg_presetadvanced$)\n⬥ [Revo++ Bar]($linkmsg_abilitybar$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Example Kill]($linkmsg_examplekill$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Essential Items]($linkmsg_essentialitems$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Revo++ Bar]($linkmsg_abilitybar$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Example Kill]($linkmsg_examplekill$)",
     "color": 39423
   }
 }
