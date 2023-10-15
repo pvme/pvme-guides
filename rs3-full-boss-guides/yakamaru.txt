@@ -38,7 +38,8 @@ This guide aims to cover the basic mechanics of Yakamaru, and cover some of stra
 .embed:json
 
 .
-> __**Presets**__
+> __**Preset and relics**__
+.tag:presets
 Given that Yakamaru is a fairly advanced boss and that its a *group boss*, it is reasonable (and ideal) to have a sufficient level of gear before attempting the boss. **This helps both make the fight easier and make it easier for you to get into teams.**
 
 A guideline set of recommendations might this include:
@@ -48,122 +49,42 @@ A guideline set of recommendations might this include:
 ⬥ Berserker auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
 
 **As always, feel free to adjust the presets according to what you have available.**
-
 .
-__**Basic Magic Preset**__ <:Magic:689504724159823906>
-.tag:basicmagic
-__**Gear Setup**__
-.img:https://img.pvme.io/images/83bP9tR.png
-***Note:** For a full breakdown of the preset, check out: <https://img.pvme.io/images/kp054r8.png>.*
-
-.
-__**Important Items**__
-⬥ <:ancientlantern:580177522503712781> with Planted Feet <:pf:689501925770919981>
-⬥ <:cywirorb:643161591210049556> with Flanking <:flankicon:841419289755385866>
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:smokecloud:856635090641879050> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523>)
-
-.
-__**Relic Setup**__
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-⬥ <:berserkersfury:697808774106185768> Berserker's Fury
-⬥ <:fontoflife:698225967679930408> Font of Life
-
-.
-__**Notes**__
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/ezgeBWJWBe.png"
+        },
+    "fields": [
+{
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Magic | Basic DPS / Free](https://pvme.github.io/preset-maker/#/CO8g0F58FcETCcS3Ps2J)\n⬥ [Melee | Basic DPS / Free](https://pvme.github.io/preset-maker/#/vmG4Jcmsb6mGLVBDM5ge)\n⬥ [Ranged | Basic DPS / Free]()\n⬥ [Magic | Tank](https://pvme.github.io/preset-maker/#/EGgG5lk2mvbNwlP6LcLX)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+__**Standard Preset Notes**__
 ⬥ **Prefer a DPS familiar** like <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203> or <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>, but if required, use a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> or Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for better survivability.
     • See `!familiar` and `!yak` for more info.
-⬥ **Maniacal aura <:mani:643505153709965322> is strongly recommended for hitchance reasons.**
-⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
 
-.
-__**Basic Range Preset**__ <:range:580168050121113623>
-.tag:basicrange
-.img:https://img.pvme.io/images/LL2fAJy.png
-***Note:** For a full breakdown of the preset, check out: <https://img.pvme.io/images/qCfjnZ6.png>.*
-
-.
-__**Important Items**__
-⬥ <:dbow:643848618553507843> with Planted Feet <:pf:689501925770919981>
-⬥ <:eofgreen:780401412727242773> with <:dbow:643848618553507843>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-(Runes for <:disrupt:535614336207552523>)
-
-.
-__**Relic Setup**__
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-⬥ <:berserkersfury:697808774106185768> Berserker's Fury
-⬥ <:fontoflife:698225967679930408> Font of Life
-
-.
-__**Notes**__
-⬥ **Prefer a DPS familiar** like <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203> or <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>, but if required, use a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> or Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for better survivability.
-    • See `!familiar` and `!yak` for more info.
-⬥ **Reckless aura <:reckless:643505179378974748> is strongly recommended for hitchance reasons.**
-⬥ An Upgraded Bone Blowpipe is a cheap and effective option for Flanking <:flankicon:841419289755385866> (recommended).
-⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
-
-.
-__**Melee Preset**__ <:melee:1096130867279171706>
-.tag:basicmelee
-.img:https://img.pvme.io/images/PSIjfCl.png
-***Note:** For a full breakdown of the preset, check out: <https://img.pvme.io/images/SRRTVQz.png>.*
-
-.
-__**Important Items**__
-⬥ <:maceoh:656785061059756032> with Flanking <:flankicon:841419289755385866>
-⬥ <:eofred:780401412839833601> with <:swh:641670143197446182> (optional)
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-(Runes for <:disrupt:535614336207552523>)
-
-.
-__**Relic Setup**__
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-⬥ <:berserkersfury:697808774106185768> Berserker's Fury
-⬥ <:fontoflife:698225967679930408> Font of Life
-
-.
-__**Notes**__
 ⬥ Melee is not very learner-friendly, and without sufficient gear will lack DPS compared to other styles - **avoid it if you are a learner, or if a low budget.**
-⬥ **Prefer a DPS familiar** like <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203> or <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>, but if required, use a Hellhound <:hellhoundpouch:921410226475925514> <:hellhoundscroll:922417969731088435> or Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> for better survivability.
-    • See `!familiar` and `!yak` for more info.
-⬥ **Berserker aura <:berserker:643505116347105290> is strongly recommended for hitchance reasons.**
-⬥ A Scrimshaw of Vampyrism <:VampScrim:513201294262009874> will significantly increase survivability.
-⬥ The Zaros Godsword spec <:zgs:626465964325601290> <:spec:537340400273195028> can be used on alternate pools when Berserk <:zerk:535532854004678657> is on cooldown to increase DPS.
+
+⬥ As Melee, The Zaros Godsword spec <:zgs:626465964325601290> <:spec:537340400273195028> can be used on alternate pools when Berserk <:zerk:535532854004678657> is on cooldown to increase DPS.
+
 ⬥ As melee, you can Hammer <:swh:641670143197446182> <:eofspec:746403211908481184> without requiring Ingenuity of the Humans <:ingen:641339234111848463> - this may be useful.
-⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
 
 .
-__**Basic Tank Preset**__ <:Magic:689504724159823906>
-.tag:basictank
-.img:https://img.pvme.io/images/kTKaZf3.png
-***Note:** For a full breakdown of the preset, check out: <https://img.pvme.io/images/ZS3yqbO.png>.*
-
-.
-__**Important Items**__
-⬥ <:ancientlantern:580177522503712781> with Planted Feet <:pf:689501925770919981>
-⬥ <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:smokecloud:856635090641879050> <:animatedead:856635090453135382> <:SBSLunars:565726489467682816> <:disrupt:535614336207552523> <:prismofrestoration:938475261366784070>)
-
-.
-__**Relic Setup**__
-⬥ <:furyofthesmall:697808773917573233> Fury of the Small
-⬥ <:deathward:697808774068699286> Death Ward
-⬥ <:fontoflife:698225967679930408> Font of Life
-
-.
-__**Notes**__
+__**Tank Preset Notes**__
 ⬥ **This preset is built around survivability** - the most important thing as a tank is to stay alive - a Reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> autofiring its scrolls with a short delay can be a signfiicant source of sustain.
     • Remember to use Prism of Restoration <:prismofrestoration:938475261366784070> to prevent it from dying.
     • If this is not sufficient, or you have difficulties using it, a BoB <:Mammoth:513195712146702337> can be an alternative.
+
 ⬥ **Raids armour <:achtoprimevaltop:641344704939819028> defensive resets can make tanking a lot easier**, alternatively Seasingers <:Seasingersrobebottom:556592058958348298>, Ganodermic <:ganolegs:1003947803673903204> etc. will also benefit from using Animate Dead <:animatedead:856635090453135382> if not owned.
-⬥ Recommended to bring <:accel:756236265472524418>, otherwise you will have to be freed by a teammate if you get stuck during Sand Pool.
+
 ⬥ Once you are more comfortable tanking, you can switch to power armour and reduce/avoid shield-camping.
 
 .
@@ -585,7 +506,7 @@ __**General Tips for Mirage Phase**__
       },
       {
         "name": "__Presets__",
-        "value": "⬥ [Basic Magic Preset]($linkmsg_basicmagic$)\n⬥ [Basic Range Preset]($linkmsg_basicrange$)\n⬥ [Melee Preset]($linkmsg_basicmelee$)\n⬥ [Basic Tank Preset]($linkmsg_basictank$)",
+        "value": "⬥ [Basic Magic Preset]($linkmsg_presets$)",
         "inline": true
       },
       {
