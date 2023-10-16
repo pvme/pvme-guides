@@ -1,32 +1,39 @@
 **__Helwyr Basic__**
 .img:https://img.pvme.io/images/ZfhwfU6.png
+*Note: a **Table of Contents** can be found in the pins.*
+
 .
 > **__Introduction__**
 .tag:intro
-Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic and 40 Seren killcount to fight.
+Helwyr is the Seren general residing in the Heart of Gielinor, and requires 80 Magic <:magic:689504724159823906> and 40 Seren kill count to fight.
+
+⬥ Each of the generals in the Heart of Gielinor have a [reputation system](<https://runescape.wiki/w/Reputation_(Heart_of_Gielinor)>) which gives various rewards for progressing it.
+    • Invention <:invention:689509250946695292> materials at 2500
+        ⬩ Cywir components <:cywircomp:583430147538026496> may now be discovered.
+    • 50% kill count reduction at 4500
+    • 100% drop increase at 5000
 
 .
-> **__Drops__**
-.tag:drops
-⬥ Refer to the Wiki: <https://runescape.wiki/w/Helwyr#Drops>
-⬥ Each Helwyr kill is worth <:coins:698816156961603654> $data_pvme:Bosses!B334$, with <:coins:698816156961603654> $data_pvme:Bosses!E334$ of that being from commons
-
+**__Preset and Relics__**
 .
-> __**Presets**__
-.tag:presets
 {
   "embed": {
     "title": "",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/NrM09xeVVE.png"
+        },
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/GU8y7tO3rJdFZmDKCkUW)"
+        "value": "⬥ [Magic](https://pvme.io/preset-maker/#/GU8y7tO3rJdFZmDKCkUW)",
+        "inline": true
       }
     ]
   }
 }
 .embed:json
+⬥ You may upgrade your gear where available.
 
 .
 > **__Mechanics__**
@@ -42,71 +49,74 @@ Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic a
       },
       {
         "name": "__Mushroom Gas__",
-        "value": "⬥ Deals 250 damage per tick; binds you if you stand in too long ([Example](https://img.pvme.io/images/KHMLekU.mp4))"
+        "value": "⬥ Deals 250 damage per tick; binds you if you stand in too long. ([Example](https://img.pvme.io/images/KHMLekU.mp4))"
       },
       {
         "name": "__Cleave__",
-        "value": "⬥ Jumps to you and hits in a frontal cone for up to 3k ([Example](https://img.pvme.io/images/OKDS0F5.mp4))"
+        "value": "⬥ Jumps to you and hits in a frontal cone for up to 3k. ([Example](https://img.pvme.io/images/OKDS0F5.mp4))"
       },
       {
         "name": "__Frenzy__",
-        "value": "⬥ Deals rapid melee hits, each applying a bleed stack ([Example](https://img.pvme.io/images/G5CPPoC.mp4))\n\u00a0\u00a0\u00a0\u00a0• When Helwyr finishes, use Freedom <:freedom:535541258240786434> to clear the bleed entirely"
+        "value": "⬥ Deals rapid melee hits, each applying a bleed stack. ([Example](https://img.pvme.io/images/G5CPPoC.mp4))\n\u00a0\u00a0\u00a0\u00a0• When Helwyr finishes, use Freedom <:freedom:535541258240786434> to clear the bleed entirely."
       },
       {
         "name": "__Minion Spawn__",
-        "value": "⬥ Summons two 3k HP Cywir Alphas. Easily taken out with AoEs ([Example](https://img.pvme.io/images/EB1ss4g.mp4))"
+        "value": "⬥ Summons two 3k HP Cywir Alphas. Easily taken out with AoEs. ([Example](https://img.pvme.io/images/EB1ss4g.mp4))"
       }
     ]
   }
 }
 .embed:json
-.
-> **__Guide__**
-.tag:guide
-1) Drink an Extreme Magic Potion (or better) before going in with prayers on
-    • Prayers should be Protect from Melee + Augury
-2) Spam Target Cycle + <:Vuln:537349530551582720> + <:sonicwave:1087373972443775056> (or <:dbreath:535533833391702017>) while going into spot displayed in image below
-    • The spot is 1 tile Southwest of the middle mushshroom
-.
-.img:https://img.pvme.io/images/jlN3dUY.png
-.
-3) Cast Sunshine <:sunshine:994921119381463070> after you have targeted Helwyr <:Helwyr:513213019635843100>, then fellow the **General approach**
-	a) If he Mushroom gases your <:sunshine:994921119381463070> area at the start, teleport out and restart
 
-**__General Approach__**
+.
+> **__The Fight__**
+.tag:fight
+1) Drink an Extreme Magic Potion (or better) before going in, with prayers on.
+    a) Pray Protect from Melee <:protectfrommelee:1052551452788269127> and Augury <:augury:1084799720926478437>
+2) Spam Target Cycle + <:Vuln:537349530551582720> + <:sonicwave:1087373972443775056> (or <:dbreath:535533833391702017>) while going into spot displayed in image below.
+    a) The spot is 1 tile southwest of the middle mushshroom.
+.
+.img:https://img.pvme.io/images/56qcTQy6BO.png
+.
+3) Cast Sunshine <:sunshine:994921119381463070> after you have targeted Helwyr <:Helwyr:513213019635843100>, then follow the general approach to rotations outlined below.
+    a) If Helwyr mushroom gases your <:sunshine:994921119381463070> area at the start, teleport out and restart.
+
+*Note: when trying to time Target Cycle, it is **important** to run while you spam it, otherwise you cannot spam Target Cycle. If you Target Cycle properly, <:Helwyr:513213019635843100>'s HP box will not show.*
+
+.
+> **__Rotations__**
+.tag:rotations
 ⬥ While in <:sunshine:994921119381463070> aim to do 1 <:wm:535533809978966037>, 1 <:asphyx:535533833072672778>, and 1 <:gstaff:513203008608141314> <:spec:537340400273195028>
-⬥ Use Resonance <:res:535541258844635148> to heal when <:Helwyr:513213019635843100> Cleaves (ideally without Protect melee on)
-⬥ Use Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729> when <:Helwyr:513213019635843100> does his Frenzy
-    • Alternatively, run away if <:devo:513190158728953857> is on cooldown
-    • Use Freedom <:freedom:535541258240786434> after the Frenzy
-⬥ Use <:gstaff:513203008608141314> <:spec:537340400273195028> whenever possible (costs ~23 adrenaline with <:rov:513201065877831680>)
-    • Ensure you still have adrenaline for <:devo:513190158728953857> etc. when you need it (needs >50% adrenaline)
-⬥ Avoid moving <:Helwyr:513213019635843100> unless absolutely necessary as he skips autos when he moves
+⬥ Use Resonance <:res:535541258844635148> to heal when <:Helwyr:513213019635843100> cleaves (ideally **without** Protect from Melee <:protectfrommelee:1052551452788269127> on).
+⬥ Use Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729> when <:Helwyr:513213019635843100> does his frenzy.
+    • Alternatively, run away if <:devo:513190158728953857> is on cooldown.
+    • Use Freedom <:freedom:535541258240786434> after the frenzy.
+    • You can only Devotion <:devo:513190158728953857> every other frenzy.
+⬥ Use <:gstaff:513203008608141314> <:spec:537340400273195028> whenever possible (costs ~23 adrenaline with <:rov:513201065877831680>).
+    • Ensure you still have adrenaline for <:devo:513190158728953857> etc. when you need it (needs >50% adrenaline).
+⬥ Avoid moving <:Helwyr:513213019635843100> unless absolutely necessary as he skips autos when he moves.
     • Only scenarios you should move <:Helwyr:513213019635843100> are:
         ⬩ Walking <:comb:535533833098100745>
-        ⬩ To avoid the Frenzy when <:devo:513190158728953857> is on cooldown
+        ⬩ To avoid the frenzy when <:devo:513190158728953857> is on cooldown
         ⬩ To avoid the mushroom
-
-.
-**__Tips__**
-⬥ When trying to time Target Cycle, it is *important* to run while you spam it, otherwise you cannot spam Target Cycle
-    • If you Target Cycle properly, <:Helwyr:513213019635843100>'s HP box will not show
-⬥ You can only Devotion <:devo:513190158728953857> every other Frenzy
-⬥ Whenever you cast <:devo:513190158728953857> / <:freedom:535541258240786434>, try to weave in an <:AirSurge:543465115870035999> or <:Vuln:537349530551582720> with it
+⬥ Optionally, whenever you cast <:devo:513190158728953857> / <:freedom:535541258240786434>, you may try to weave in an <:AirSurge:543465115870035999> or <:Vuln:537349530551582720> with it.
     • Be aware, this will not work after <:gconc:869285393223254107> / <:conc:1087373968731811880> / <:asphyx:535533833072672778>
-    • If using 2H, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as your next ability
+    • If using 2H, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as your next ability.
     • If using DW, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as <:devo:513190158728953857> / <:freedom:535541258240786434>
 
 .
-**__Example Video:__**
+> **__Example Kills__**
+.tag:example
 .
-https://youtu.be/1udjVlDsYBY
+⬥ [Basic Magic](https://youtu.be/1udjVlDsYBY)
+.
+
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "color": 39423,
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Guide]($linkmsg_guide$)"
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example]($linkmsg_example$)",
+    "color": 39423
   }
 }
 .embed:json
