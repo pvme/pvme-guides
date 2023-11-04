@@ -58,8 +58,8 @@ Note: a **Table of Contents** can be found in the pins.
 **__Stats__**
 ⬥ <:slayer:797896049548066857> level: 85
 ⬥ <:slayer:797896049548066857> XP per kill: 278
-⬥ Optimal kills per hour - ~2600 <:magic:689504724159823906>, ~2350 <:necromancy:1148995625896120460>, ~2100 <:melee:1096130867279171706> <:range:580168050121113623> (All AFK)
-⬥ Optimal <:slayer:797896049548066857> XP per hour - ~723k <:magic:689504724159823906>, ~653k <:necromancy:1148995625896120460>, ~584k <:melee:1096130867279171706> <:range:580168050121113623> (All AFK)
+⬥ Optimal kills per hour - ~2600 <:magic:689504724159823906>, ~2400 <:necromancy:1148995625896120460>, ~2100 <:melee:1096130867279171706> <:range:580168050121113623> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour - ~723k <:magic:689504724159823906>, ~670k <:necromancy:1148995625896120460>, ~584k <:melee:1096130867279171706> <:range:580168050121113623> (All AFK)
 
 .
 **__Location and how to get there__**
@@ -67,22 +67,35 @@ The best spot for abyssal demons is located at the level 18 Wilderness obelisk (
 
 .
 **__Where to stand__**
-⬥ Place cannon <:cannon:869283142350041098> on red X as shown below (2E of stump NE of obelisk) and stand on yellow X (2N and 2W of stump SE of obelisk).
+⬥ Place cannon <:cannon:869283142350041098> on yellow tile as shown below (2E of stump NE of obelisk) and stand on yellow X (2N and 2W of stump SE of obelisk).
 
 ⬥ If your character gets walked off the marked tile, step back on it, and click the nearest demon.
 .
-.img:https://img.pvme.io/images/aUm1f6G5JI.png
+.img:https://img.pvme.io/images/MtWr7YkgwP.png
 
 .
 **__Method - AFK (All styles)__**
 Due to their relatively low HP and defences, abyssal demons can be AFK'd with all styles. Demon slayer circlet and boots <:demonslayercirclet:1004325697503907910> <:demonslayerboots:1004325691510231041> can be taken on all styles if owned for a 8% damage boost (4% each piece).
 
 Before loading your cannon and starting the session, check that:
-⬥ You are using leech strength/leech magic strength/leech range strength prayers if using Amulet of Zealots <:zealots:926021352626982942>
-    • Also pray leech ranged if using <:range:580168050121113623>
-⬥ You are using soulsplit <:soulsplit:615613924506599497>
 ⬥ Elder overload <:elderovl:841419289831800882> and weapon poison +++ <:weppoison:689525476158472288> are active.
-⬥ You are autocasting <:incitefear:856635090783567902> if using <:magic:689504724159823906>
+
+**__Prayers <:prayer:1005450651347730533>__**
+
+Ranged <:range:580168050121113623>
+⬥Pray leech ranged strength, leech ranged attack and <:soulsplit:615613924506599497>
+    •<:pernixsquiver:902209626450296892> - <:blightbolt:1146866649505468597>
+Melee <:melee:1096130867279171706>
+⬥Pray leech melee strength and <:soulsplit:615613924506599497>
+Magic <:magic:689504724159823906>
+⬥Pray leech magic strength and <:soulsplit:615613924506599497>
+    •Autocast <:incitefear:856635090783567902>
+    •<:graspingpouchblack:892816436974735361> - <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>
+    •<:graspingpouchblue:892816437406728252> - <:chaosrune:536252659422855188> <:airrune:536252658986647589> <:waterrune:536252660165115905> <:firerune:536252659850674186>
+Necromancy <:necromancy:1148995625896120460>
+⬥Pray leech necromancy strength
+    •Do *not* use <:soulsplit:615613924506599497> with necromancy, <:conjureghost:1137809206423060632> is enough to sustain
+
 
 .
 **__Presets__**
@@ -91,29 +104,14 @@ Before loading your cannon and starting the session, check that:
   "embed": {
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/pTOs0s8HXG.png"
+            "url": "https://img.pvme.io/images/Q8ptfC3UYc.png"
         },
     "fields": [
       {
-        "name": "__AFK Melee__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/h6hOcQqHXPtzlrzuMx8z)",
-        "inline": true
-      },
-      {
-        "name": "__AFK Magic__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/5xX3blOrgRYwhIqtngIw)\n\u200B <:graspingpouchblack:892816436974735361> - <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>\n\u200B <:graspingpouchblue:892816437406728252> - <:chaosrune:536252659422855188> <:airrune:536252658986647589> <:waterrune:536252660165115905> <:firerune:536252659850674186>",
-        "inline": true
-      },
-      {
-        "name": "__AFK Ranged__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/Ow2WLuUhzxiXyEs5xVcd)\n\u200B <:pernixsquiver:902209626450296892> - <:blightbolt:1146866649505468597>",
-        "inline": true
-      },
-       {
-        "name": "__AFK Necromancy__",
-        "value": "⬥ [Preset breakdown](https://pvme.io/preset-maker/#/RsOapO3r7DGRPTp23k5j)",
-        "inline": true
-      }
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [AFK Melee<:melee:1096130867279171706>](https://pvme.github.io/preset-maker/#/h6hOcQqHXPtzlrzuMx8z)\n⬥ [AFK Magic <:magic:689504724159823906>](https://pvme.github.io/preset-maker/#/5xX3blOrgRYwhIqtngIw)\n⬥ [AFK Ranged<:range:580168050121113623>](https://pvme.github.io/preset-maker/#/Ow2WLuUhzxiXyEs5xVcd)\n⬥ [AFK Necromancy<:necromancy:1148995625896120460>](https://pvme.io/preset-maker/#/DDvpK929fz3lD8wwle2W)",
+    		"inline":true
+    	}
     ]
   }
 }
@@ -131,7 +129,7 @@ Before loading your cannon and starting the session, check that:
 ⬥ Ranged
 .img:https://img.pvme.io/images/6283as0FIX.png
 ⬥ Necromancy
-.img:https://img.pvme.io/images/Sgp0oOzMaY.png
+.img:https://img.pvme.io/images/Uq7rtEBLlo.png
 
 .
 **__Video Examples__**
