@@ -1,7 +1,7 @@
 > ## **__Necromancy Base__**
 
 ## ⬥ **__Preset and relics__**
-.tag:presets
+.tag:preset
 {
   "embed": {
     "title": "",
@@ -25,42 +25,36 @@
 .
 __**Prebuild**__
 .tag:pre
-<:reprisal:513190159462694912> → <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1159434516658651147> → <:splitsoul:1137809168368148490> (start)  →  <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:commandskeleton:1137809194423160883>
+<:invokedeath:1137809121983336548> → <:conjurearmy:1166094935066423348> + start fight → <:splitsoul:1137809168368148490> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> / <:commandskeleton:1137809194423160883>
 
-_Note: You should be using <:commandskeleton:1137809194423160883> at 4.8s on the timer._
+_Note: Use <:commandghost:1159434409913634816> if Hammer does not use it in the prebuild. You should be using <:commandghost:1159434409913634816> / <:commandskeleton:1137809194423160883> at 4.8s on the timer._
 
 .
 ### __**Phase 1**__
 .tag:p1
-<:vulnbomb:655341074235129858><:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109>
+<:vulnbomb:655341074235129858><:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282><:spec:537340400273195028> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:necroauto:1137809137401602109>
 
 .
 ### __**Phase 2**__
 .tag:p2
-<:soulsap:1137809140476031057> → <:stormshards:536256663641128971> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380>
+<:soulsap:1137809140476031057> → <:res:535541258844635148> → <:stormshards:536256663641128971> → <:soulsap:1137809140476031057> ( → <:commandskeleton:1137809194423160883> ) → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057>
+
+_Note: Use <:commandskeleton:1137809194423160883> only if it does not put you behind for <:threadsoffate:1137809172335951933>._
 
 .
 ### __**Phase 3**__
 .tag:p3
-<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380>
-
-
-_Note: It will generally phase on the <:necroauto:1137809137401602109>, however, if not phased improvise while prioritising <:necrosis:1139452791878856805> and <:residualsoul:1139453152169558046> stack building_
+<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:shatter:536256673904328704> → <:touchofdeath:1137809175980810380> + <:dive:1049378668197195808> + <:surge:535533810004262912> to lure <:aod:580167371365548042>
 
 .
 ### __**Lure**__
 .tag:lure
-<:surge:535533810004262912> + <:anti:535541306475151390> → <:surge:535533810004262912> → <:divert:787904334377648130> → <:lifetransfer:1137809128136388819> → <:soulsap:1137809140476031057> → <:ingen:641339234111848463> <:swh:641670143197446182> <:spec:537340400273195028> → <:vulnbomb:655341074235129858><:stormshards:536256663641128971> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:splitsoul:1137809168368148490> → <:soulsap:1137809140476031057> → <:invokedeath:1137809121983336548> (if you have time)
-
-
-_Note: Be aware of pools during the period of the fight where you use <:lifetransfer:1137809128136388819>_
+<:anti:535541306475151390> + <:surge:535533810004262912> → <:divert:787904334377648130> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:ingen:641339234111848463> + <:swh:641670143197446182> <:eofspec:746403211908481184> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:touchofdeath:1137809175980810380> ( → <:invokedeath:1137809121983336548> )
 
 .
 ### __**Last Pillar and Zaros**__
 .tag:zaros
-<:fingerofdeath:1159434801938432010> → <:omniguard:1138809234922934282><:eofspec:746403211908481184>  → <:necroauto:1137809137401602109>/<:soulsap:1137809140476031057> (if not dead)→ <:aod:580167371365548042> <:deathskulls:1159434663903899728> → <:volleyofsouls:1159435029592686642> → <:shatter:536256673904328704> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → improvise
-
-_Note: Soul sap on pillar instead of necro auto only if you weren't able to get 5 stacks during the lure. Otherwise, use the enhanced auto._
+<:omniguard:1138809234922934282><:spec:537340400273195028>  → <:volleyofsouls:1159435029592686642> ( → <:necroauto:1137809137401602109> ) → <:aod:580167371365548042> <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:necroauto:1137809137401602109>
 
 .
 .tag:eg
@@ -88,7 +82,7 @@ _Note: Soul sap on pillar instead of necro auto only if you weren't able to get 
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Prefight]($linkmsg_pre$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase3]($linkmsg_p3$)\n⬥ [Lure]($linkmsg_lure$)\n⬥ [Last Pillar and Zaros]($linkmsg_zaros$)\n⬥ [Example Kills]($linkmsg_eg$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Prefight]($linkmsg_pre$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase3]($linkmsg_p3$)\n⬥ [Lure]($linkmsg_lure$)\n⬥ [Last Pillar and Zaros]($linkmsg_zaros$)\n⬥ [Example Kills]($linkmsg_eg$)",
     "color": 39423
   }
 }
