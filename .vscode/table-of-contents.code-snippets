@@ -1,0 +1,37 @@
+{
+    "Insert Table of Contents (Categorized)": {
+		"scope": "plaintext",
+		"prefix": ["toclong", "tableofcontents (long)"],
+		"body": [
+			".",
+			"{",
+			"  \"embed\": {",
+			"    \"title\": \"__Table of Contents__\",",
+			"    \"description\": \"*To edit this guide, visit <id:customize> and select Entry Editor*\\n\",",
+			"    \"color\": 39423",
+			"  }",
+			"}",
+			".embed:json",
+			".pin:delete",
+			""
+		],
+		"description": "Insert a template Table of Contents (Categorized) snippet",
+	},
+    "Insert Table of Contents (Compact)": {
+		"scope": "plaintext",
+		"prefix": ["tocshort", "tableofcontents (short)"],
+		"body": [
+			"{",
+			"  \"embed\": {",
+			"    \"title\": \"__Table of Contents__\",",
+			"    \"description\": \"*To edit this guide, visit <id:customize> and select Entry Editor*\\n\",",
+			"    \"color\": 39423",
+			"  }",
+			"}",
+			".embed:json",
+			".pin:delete".
+            ""
+		],
+		"description": "Insert a template Table of Contents (Compact) snippet",
+	}
+}
