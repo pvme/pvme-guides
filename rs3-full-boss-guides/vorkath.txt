@@ -1,12 +1,127 @@
-> **__Vorkath__**
-.img:https://img.pvme.io/images/izcMwPMBrj.png
+**__Zemouregal & Vorkath__**
+.img:https://img.pvme.io/images/nGxXst3swa.png
 
 .
-> **__Intro__**
+> **__Introduction__**
 .tag:intro
-TODO: detailed description.
-# THIS IS FOR NORMAL MODE
-### Hardmode preset and rotations coming soon
+Zemouregal & Vorkath is a boss encounter consisting of two bosses; Zemouregal and Vorkath. To access this encounter, the players must progress through the [Battle of Forinthry](https://runescape.wiki/w/Battle_of_Forinthry). Completion of the quest unlocks the normal mode and hardmode encounters.
+
+.
+**__Applicable Damage boosts for Vorkath__**
+⬥ <:undeadslayer:641339922019516416> and <:undeadslayerperk:689502804720615441> work (<:dragonslayer:641339921814126594> and <:dragonslayerperk:689502927731163170> do **not** at time of writing)
+⬥ <:slayerhelm:798285340460449792>boost and <:genocidal:689503091539705870> work while on a dragons cluster, blue dragons or undead cluster slayer task.
+⬥  <:salveamulet:797899945730244648> works
+⬥ Jas dragonbane arrows <:jasdragonbanearrow:971025697042755584> work
+
+.
+**Lifepoint scaling**
+⬥ Vorkath: 750k <:constitution:689509250887712902> per player (double in Hardmode)
+⬥ Zemouregal: 250k <:constitution:689509250887712902> per player (double in Hardmode)
+
+**__Normal Mode specifics__**
+⬥ Every place of power is protected by an undead giant, kill it to disrupt the beam.
+⬥ Disrupting the places of power disables some of Zemouregal's abilities during the encounter, or starts the encounter.
+    • Northern location: minion spawns.
+    • Northwestern location: Zemouregal's Spikes.
+    • Western location: Starts the encounter.
+
+.
+> **__Mechanics (Hardmode)__**
+.tag:mechanics
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Power meter__",
+        "value": "⬥ Displays the connection between Zemouregal and Vorkath, affecting damage absorption and damage dealt by Vorkath.\n\u00a0\u00a0\u00a0\u00a0• Each next phase increases it by net 25%.\n\u00a0\u00a0\u00a0\u00a0• Empowered zombies can increase it by 50%. \n\u00a0\u00a0\u00a0\u00a0• Power meter disappears when vorkath leaves at zero lifepoints.\n\u200B"
+      },
+      {
+        "name": "__Dragonfire Breath__",
+        "value": "⬥ Vorkath charges up and deals a big magic hit. \n\u00a0\u00a0\u00a0\u00a0• Damage is reduced by <:superantifire:864492695997513748> or <:elderovlsalve:648976643687317532>\n\u200B"
+      },
+      {
+        "name": "__Zonal Ice Breath__",
+        "value": "⬥ Vorkath takes to the air and spews ice on his location that spreads outward, after which he comes back down. \n\u00a0\u00a0\u00a0\u00a0• Can deal three <:magic:689504724159823906> hits and one MD <:melee:1096130867279171706> slam. \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Can be avoided by moving away from Vorkath, also protecting <:summoning:583430259064569856> familiars.\n\u00a0\u00a0\u00a0\u00a0• The <:magic:689504724159823906> hits damage Zemouregal and all minions caught within it.\n\u200B"
+      },
+      {
+        "name": "__Poison pools__",
+        "value": "⬥ Vorkath will stand on his hind legs and spew into the air, causing pools that hit hard typeless damage to appear. \n\u00a0\u00a0\u00a0\u00a0• Phase 2: Green poison pools, hitting up to 3k.\n\u00a0\u00a0\u00a0\u00a0• Phase 3: Purple poison pools, hitting up to 5k.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0•  Every hit taken increases Zemouregal's Empowerment debuff by 5%, increasing damage taken.\n\u00a0\u00a0\u00a0\u00a0• Can be accompanied by the voiceline: **`Spew your venom, my malformed pet!`**\n\u200B"
+      },
+      {
+        "name": "__Fly__",
+        "value": "⬥ Vorkath flies up high to freeze the whole arena by air strike. If not stopped, all in the arena will be hit ~15k <:magic:689504724159823906> damage, killing <:summoning:583430259064569856> familiars.\n\u00a0\u00a0\u00a0\u00a0• Using the <:balista:1176968204883603497> (extra action button) while Vorkath is up will shoot Vorkath down, preventing the attack and dealing a 10k hit to Vorkath.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Can fail if done right before Vorkath returns!\n\u00a0\u00a0\u00a0\u00a0• <:cade:535541306353778689> <:devo:513190158728953857> <:reflect:535541258786177064> can be used alternatively.\n\u00a0\u00a0\u00a0\u00a0• Can be accompanied by the voiceline: **`Cast my glorious vegeance down upon them!`** or **`Cut them down without mercy!`**\n\u200B"
+      },
+      {
+        "name": "__Power Meter and Damage Reduction__",
+        "value": "⬥ The power meter increases Vorkath's damage dealt by auto attacks as well as mechanics.\n⬥ While Vorkath is around, Zemouregal takes no or reduced damage.\n\u00a0\u00a0\u00a0\u00a0• Every phase transition Zemouregal gets hit 10k by Vorkath, reducing his damage reduction by 10% (100%→90%→80%).\n⬥ If Zemouregal gets hit while shielded, a green orb is sent to Vorkath, giving him damage absorption based on the damage dealt on Zemouregal.\n\u00a0\u00a0\u00a0\u00a0• Vorkath's damage absorption is multiplied by the power meter % and <:vuln:537349530551582720>.\n\u200B"
+      },
+      {
+        "name": "__Minions__",
+        "value": "⬥ Zemouregal summons two minions, one of each type.\n\u00a0\u00a0\u00a0\u00a0• This is a time-based mechanic which resets on phasing.\n\u00a0\u00a0\u00a0\u00a0• Combat minions (36k <:constitution:689509250887712902> per player) \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Skeleton ranger\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Zombie warrior\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Skeleton knight\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Phantom Spellcaster\n\u00a0\u00a0\u00a0\u00a0• Support minions (6k <:constitution:689509250887712902> per player) \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Ghost Healer, heals Vorkath 1000 lifepoints.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Zombie Shielder, gives Vorkath a shield, reducing incoming damage.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Empowering Zombie, adds +50% to the power meter temporarily.\n\u200B"
+      },
+      {
+        "name": "__Bone Spikes__",
+        "value": "⬥ Zemouregal makes a dust cloud appear on  every player's location, where 4.2s later spikes shoot out of the ground.\n\u00a0\u00a0\u00a0\u00a0• This is a time-based mechanic which resets on phasing.\n\u00a0\u00a0\u00a0\u00a0• Can deal up to 8k soft typeless damage to every player in the 7x7 area.\n\u00a0\u00a0\u00a0\u00a0• Can be avoided by moving away from your location.\n\u200B"
+      },
+      {
+        "name": "__Soul sap__",
+        "value": "⬥ Zemouregal uses soul sap <:soulsap:1137809140476031057>, gaining one <:residualsoul:1139453152169558046>.\n\u200B"
+      },
+      {
+        "name": "__Soul Strike__",
+        "value": "⬥ Zemouregal uses soul strike <:soulstrike:1137809142376058910>, using up one <:residualsoul:1139453152169558046> and stunning <:stunicon:841419289428492369> his target for 3 seconds.\n\u200B"
+      },
+      {
+        "name": "__Finger of Death__",
+        "value": "⬥ Zemouregal uses <:fingerofdeath:1159434801938432010>, hitting up to 10k through <:protectfromnecro:1137941136397324448>.\n\u00a0\u00a0\u00a0\u00a0• Can be accompanied by the voiceline: **`Die!`**\n\u200B"
+      },
+      {
+        "name": "__Death Skulls__",
+        "value": "⬥ Zemouregal uses <:deathskulls:1159434663903899728>, hitting up to 7k through <:protectfromnecro:1137941136397324448>\n\u00a0\u00a0\u00a0\u00a0• Can bounce between players, and also be cancelled by moving more than 6 tiles away.\n\u200B"
+      },
+      {
+        "name": "__Blood Siphon__",
+        "value": "⬥ Zemouregal uses <:bloodsiphon:1159434279311380532>\n\u00a0\u00a0\u00a0\u00a0• Any of his combat minions will run to his side, healing him and increasing the damage dealt on Zemouregal's target.\n\u00a0\u00a0\u00a0\u00a0• Can be accompanied by the voiceline: **`I'll make a feast of your blood, and be strengthened`**\n\u200B"
+      },
+      {
+        "name": "__Volley of Souls__",
+        "value": "⬥ Zemouregal uses Volley of souls <:volleyofsouls:1159435029592686642> hitting up to 3k three times.\n\u00a0\u00a0\u00a0\u00a0• Is only used in Phase 3.\n\u00a0\u00a0\u00a0\u00a0• Can only be used when Zemouregal is at 3 <:residualsoul:1139453152169558046> stacks.\n\u00a0\u00a0\u00a0\u00a0• Can be accompanied by the voiceline: **`Your life is payment for this folley!`**\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+> **__The Fight__**
+.tag:fight
+**Phase 1 (Vorkath):**
+4 autos → Dragonfire Breath → 4 autos → Zonal ice Breath (+ Bone Spikes and <:soulstrike:1137809142376058910>) *Repeat*
+
+**Phase 1 (Zemouregal):**
+7 autos (+ minions) → <:soulsap:1137809140476031057> → 1 auto (+ Bone Spikes) → <:soulstrike:1137809142376058910> *repeat*
+
+**Phase 2 (Vorkath):
+**4 autos → Dragonfire Breath → 4 autos → Zonal ice Breath (+ Bone Spikes and <:soulstrike:1137809142376058910>) → 4 autos → green poison pools *Repeat*
+
+**Phase 2 (Zemouregal):**
+7 autos (+ minions) → <:soulsap:1137809140476031057> → 1 auto (+ Bone Spikes) → <:soulstrike:1137809142376058910> *repeat*
+
+**Phase 3 (Vorkath):**
+2 autos (**not** repeated) →
+Fly → 1 auto (+ Bone Spikes) → Dragonfire Breath → 4 autos → Zonal Ice Breath (+ Bone Spikes) → 4 autos → purple poison pools → 4 autos → Dragonfire Breath (+ Bone Spikes) → 4 autos → Zonal Ice Breath → 4 autos → purple poison pools (+ Bone Spikes) → 4 autos *Repeat*
+
+**Phase 3 (Zemouregal):**
+
+8 autos (+ minions) → <:soulsap:1137809140476031057> #1 (+ Bone Spikes) → 6 autos (+ minions) → <:fingerofdeath:1159434801938432010> → 1 auto → <:soulsap:1137809140476031057> #2 → 1 auto (+ Bone Spikes) → <:bloodsiphon:1159434279311380532> (+ minions) → 4 autos → auto + <:deathskulls:1159434663903899728> → 1 auto (+ Bone Spikes) → <:soulsap:1137809140476031057> #3 → 2 autos (+minions) → <:volleyofsouls:1159435029592686642> *Repeat*
+
+.
+*Notes:
+⬥ If Zemouregal kept a soul from P2: <:soulsap:1137809140476031057> #3 is skipped, going <:deathskulls:1159434663903899728> → 3 autos → <:volleyofsouls:1159435029592686642> instead.
+⬥ Minions and Bone Spikes are time-based and **will** desync with repeats, hence the brackets!*
+
 .
 **__Preset and Relics__**
 .
@@ -15,58 +130,87 @@ TODO: detailed description.
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/48ISh02SXO.png"
+            "url": "https://img.pvme.io/images/OGPK482tY3.png"
         },
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/01F38EVcpQ4b90P5DUP0)",
+        "value": "⬥ [Normal mode Vorkath Skip preset](https://pvme.github.io/preset-maker/#/01F38EVcpQ4b90P5DUP0)\n⬥ [Hardmode Vorkath Preset](https://pvme.github.io/preset-maker/#/glhjDmKm4LFZ0hUzwgNJ)",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-
-.
-> **__Mechanics - Coming Soon:tm:__**
-.tag:mechanics
-⬥ first mechanic
-    • describe the mechanic
-        ⬩ [describe how to handle mechanic]
-.img:https://img.pvme.io/images/Ig3eyaJ8gN.png
-⬥ [Repeat for the rest of the mechanics]
-
-.
-> **__The Fight - Coming Soon:tm:__**
-.tag:fight
-⬥ [Explain the fight, break it down into phases if applicable]
-
-.
 > **__Rotations__**
 .tag:rotations
-## NM Solo (Vorkath Skip)
-.tag:nmsoloskip
+**__NM Solo (Vorkath Skip)__**
 ⬥ Pre-fight:
 Enter gate <:conjurearmy:1166094935066423348> → <:splitsoul:1137809168368148490> → <:invokedeath:1137809121983336548> <:dive:1049378668197195808> <:surge:535533810004262912> → <:commandghost:1159434409913634816> → tc giant <:commandskeleton:1137809194423160883> <:vulnbomb:655341074235129858> → <:bloat:1159433682403201044> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:necroauto:1137809137401602109> → <:lifetransfer:1137809128136388819> as you dispel the power
 ⬥ Enter instance:
-<:commandskeleton:1137809194423160883> <:dive:1049378668197195808> → (tc) Vorkath + <:deathskulls:1159434663903899728> +<:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> →<:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072>+<:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> →  <:commandskeleton:1137809194423160883> <:undeadslayer:641339922019516416> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> + Ballista → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → Vorkath should be reaching 50% HP here.
+<:commandskeleton:1137809194423160883> <:dive:1049378668197195808> → (tc) Vorkath + <:deathskulls:1159434663903899728> +<:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> →<:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072>+<:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> →  <:commandskeleton:1137809194423160883> <:undeadslayer:641339922019516416> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> + <:balista:1176968204883603497> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → Vorkath should be reaching 50% HP here.
 .
 ⬥ When Vorkath hits 50% HP:
-Target Zemouregal → <:necroauto:1137809137401602109> <:vulnbomb:655341074235129858> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:bloat:1159433682403201044> → <:invokedeath:1137809121983336548> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + Ballista → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> →<:omniguard:1138809234922934282><:spec:537340400273195028> → <:deathguard70:1138809262194294864><:spec:537340400273195028>
-*Note: the <:deathskulls:1159434663903899728> on Zemouregal should line up with Vorkath's flight. Adjust as needed for your phase timing.
+Target Zemouregal → <:necroauto:1137809137401602109> <:vulnbomb:655341074235129858> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:bloat:1159433682403201044> → <:invokedeath:1137809121983336548> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + <:balista:1176968204883603497> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> →<:omniguard:1138809234922934282><:spec:537340400273195028> → <:deathguard70:1138809262194294864><:eof:787526151978614824>
+*Note: the <:deathskulls:1159434663903899728> on Zemouregal should line up with Vorkath's flight. Adjust as needed for your phase timing.*
+
+.
+**__Hardmode Solo (Advanced) 2:45 Rotation__**
+
+**__Pre-fight__**
+.
+Start with 5 <:residualsoul:1139453152169558046> stacks and 4 <:necrosis:1139452791878856805> stacks
+
+**__Pre-kill__**
+.
+<:invokedeath:1137809121983336548> → <:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:commandskeleton:1137809194423160883> (enter instance) → <:splitsoul:1137809168368148490>+<:surge:535533810004262912>
+
+**__Phase 1__**
+.
+(tc) + <:ingen:641339234111848463> + <:smokecloud:856635090641879050> + <:vulnbomb:655341074235129858> + <:undeadslayer:641339922019516416> + <:bloat:1159433682403201044> → <:deathskulls:1159434663903899728> → <:volleyofsouls:1159435029592686642> → <:prismofrestoration:938475261366784070> + <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> + <:balista:1176968204883603497> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010>
+
+**__Phase 2__**
+.
+*Notes:
+⬥ Replace 2nd <:soulsap:1137809140476031057> with <:anti:535541306475151390> if no Zonal ice skip
+⬥ If Vorkath is below 800k hp, do not use <:balista:1176968204883603497>*
+.
+<:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:prismofrestoration:938475261366784070> + <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:volleyofsouls:1159435029592686642> → <:bloat:1159433682403201044> + <:balista:1176968204883603497> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883>
+
+**__Phase 3__**
+.
+<:vulnbomb:655341074235129858> + <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> + <:undeadslayer:641339922019516416> → <:omniguard:1138809234922934282><:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883>
+
+**__Zemouregal__**
+.
+(tc) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:splitsoul:1137809168368148490> + <:balista:1176968204883603497> → <:soulsap:1137809140476031057> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:deathguard90:1138809243143766118><:eof:787526151978614824> → <:conjurearmy:1166094935066423348>
+
+**__Vorkath__**
+.
+*Note:
+⬥ The 1st <:volleyofsouls:1159435029592686642> assumes that 3 <:residualsoul:1139453152169558046> stacks were obtained from the <:threadsoffate:1137809172335951933> against Zemo. If more or less were obtained then adjust accordingly*
+.
+(tc) + <:vulnbomb:655341074235129858> + <:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:commandghost:1159434409913634816> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> → <:livingdeath:1159434908486357072> + <:balista:1176968204883603497> → <:divert:787904334377648130> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:undeadslayer:641339922019516416> + <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:prismofrestoration:938475261366784070> + <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282><:spec:537340400273195028> → <:necroauto:1137809137401602109>
+
+**__Zemouregal__**
+.
+(tc) + <:vulnbomb:655341074235129858> + <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:splitsoul:1137809168368148490> → <:reflect:535541258786177064> + <:balista:1176968204883603497> → <:invokedeath:1137809121983336548> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118><:eof:787526151978614824>
+
 .
 > **__Example Kills__**
 .tag:example
-## Normal mode solo - Vorkath skip
-https://www.youtube.com/watch?v=GbPC9ECNT3E
-## Hardmode solo
-https://youtu.be/k10gCJkR5mY?si=lTNWcaOIVpIPlcGV
+⬥ [Normal mode solo - Vorkath skip talkthrough](<https://www.youtube.com/watch?v=GbPC9ECNT3E>)
+.
+⬥ [Hardmode solo - talkthrough](<https://youtu.be/k10gCJkR5mY?si=lTNWcaOIVpIPlcGV>)
+.
+⬥ [Hardmode solo Vorkath - advanced](<https://www.youtube.com/watch?v=JIzYw10Lu9k>)
+.
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Fight]($linkmsg_fight$)\n⬥ [Rotations]($linkmsg_rotations$)\n\u00a0\u00a0\u00a0\u00a0•  [NM Solo - Vorkath Skip]($linkmsg_nmsoloskip$)\n⬥ [Example]($linkmsg_example$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example kills]($linkmsg_example$)",
     "color": 39423
   }
 }
