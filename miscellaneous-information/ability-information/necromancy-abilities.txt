@@ -272,6 +272,15 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .tag:lifetransfer
 {
   "embed": {
+    "title": "__Invoke Lord of Bones__ <:invokelordofbones:1176968330582700174> <:selftarget:1137770968736079957>",
+    "description": "⬥ No Cooldown\n⬥ Gain a 60-second buff making your Skeleton Warrior apply a stack of the **Shattering bones** debuff per attack\n⬥ **Shattering bones**: Reduces armour rating by 0.2% per stack\n\u00a0\u00a0\u00a0\u00a0• Up to 200 stacks can be applied (-40% armour rating)\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 8 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 6 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 2 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:invokebones
+{
+  "embed": {
     "title": "__Invoke Death__ <:invokedeath:1137809121983336548> <:selftarget:1137770968736079957>",
     "description": "⬥ Cooldown: 6t (3.6s)\n⬥ 10t (6s) duration\n⬥ Your next necromancy attack during the 10t duration applies Death Mark\n\u00a0\u00a0\u00a0\u00a0• If your target drops below 20% hp, the next necromancy attack to hit it will execute it. Damage caps at 30,000\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 5 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 2 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 2 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
     "color": 5510844
@@ -331,7 +340,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
       },
       {
         "name": "__Incantations__",
-        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
+        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Lord of Bones]($linkmsg_invokebones$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
         "inline": true
       }
     ]
