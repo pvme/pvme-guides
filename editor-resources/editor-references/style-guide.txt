@@ -1,8 +1,8 @@
-> **__Style Guide for PvME__**
+## Style Guide for PvME__**
 .img:https://img.pvme.io/images/hLk8oJr.png
 
 .
-> __**Introduction**__
+## Introduction**__
 .tag:intro
 This channel covers stylistic aspects that PvME guides tend to follow for consistency and ease of reading.
 ⬥ Try to stick to these guidelines when submitting writeups/improvements to guides.
@@ -13,7 +13,7 @@ This channel covers stylistic aspects that PvME guides tend to follow for consis
 *Note: If you ever require **any** assistance with styling, feel free to tag an editor!*
 
 .
-> __**Basic Guide Structure**__
+## Basic Guide Structure**__
 .tag:basic
 This is the basic structure that PvME guides begin with. By using similar structures across all guides, it is easier for readers to find the section that pertains to information they are looking for, as sections will tend to remain in the same order (e.g. **Presets** will always be near the top of a guide, **Table of Contents** at the bottom).
 
@@ -45,7 +45,7 @@ __**Basic Structure**__
 ⬥ Follow this basic format and incorporate the other guidelines for embedding, rotations, etc. and you should be well on your way to having a stylized guide.
 
 .
-> __**General Style Choices**__
+## General Style Choices**__
 .tag:general
 These are some some general rules to follow with regard to grammar, punctuation and other PvME-specific practices, applicable to all guides.
 
@@ -62,7 +62,6 @@ __**Language and Formatting**__
 ⬥ Text may be emphasized through the use of **bold**, *italicised* and __underlined__ text.
     • **Bold** text is typically reserved for main items from a list for discussion, or for emphasis of certain points.
     • *Italicised* text is usually for small notes that accompany sections and is usually not preceeded by a bullet.
-    • __**Bold, underlined**__ text is reserved for Section and Subsection headings.
 .
 ⬥ When using emojis, the order is: **word, then emoji** - e.g. Spellbook Swap <:SBS:543875425055670275>
     • The exception to this rule is in presets where **obscure items go emoji, then word** - e.g. <:conservationofenergy:697808773711921195> Conservation of Energy
@@ -81,14 +80,14 @@ __**PvME Specific**__
 ⬥ Do not end a line with a blank space (**no trailing whitespace on a line**).
 
 .
-> __**Sections and Subsections**__
+## Sections and Subsections**__
 .tag:sections
 Guides are broken down into sections to separate different parts of the guide, with subsections used for further breakdowns within a secion.
 
 .
 __**Formatting Sections**__
-⬥ Format sections like this: `> __**Sections**__`.
-⬥ Format subsections like this: `__**Subsection**__`.
+⬥ Format sections like this: `## Sections**__`.
+⬥ Format subsections like this: `### Subsection**__`.
 ⬥ Every section title should be followed by a `.tag:word` command in the next line after the section title.
     • This is used to create links to sections in the Table of Contents.
 ⬥ **Every section should have a subsection** (the only exception is a `Drops` section).
@@ -113,7 +112,7 @@ __**Formatting Sections**__
     • Emoji used with one blank space between it and the preceding word (line 184).
 
 .
-> __**Formatting Lists**__
+## Formatting Lists**__
 .tag:lists
 Lists are the primary informational structure within a subsection.
 
@@ -145,7 +144,7 @@ __**Alphanumerical Lists**__
 ⬥ **Use subpoints and sub-subpoints as required to avoid illegible walls of text**. Ideally, keep text as consise as it can be without losing meaning or readability.
 
 .
-> **__Embedded Content__**
+## Embedded Content__**
 .tag:embed
 Embedded content here refers to **two** kinds of messages.
 
@@ -173,7 +172,7 @@ __**Discord Embed Messages**__
     • This comes at the expense of font size, line spacing and horizontal screen width capability, so use them only when required.
 
 .
-> __**Gear Presets**__
+## Gear Presets**__
 .tag:presets
 Gear presets are used at the start of guides to concisely inform users of all items required to effectively tackle the content, including **equipment**, **inventory setups**, **relics** and **notes on important items**.
 
@@ -202,7 +201,7 @@ __**Styling Explanation**__
         ⬩ The first variation can be used when there are multiple presets to be displayed.
         ⬩ The second variation can be used when there is only a single preset to be displayed.
 
-> **__Presets__**
+## Presets__**
 .
 {
   "embed": {
@@ -231,7 +230,7 @@ __**Styling Explanation**__
 
 .
 ```
-> **__Presets__**
+## Presets__**
 ..
 {
   "embed": {
@@ -259,7 +258,7 @@ __**Styling Explanation**__
 ..embed:json
 ```
 .
-> **__Preset__**
+## Preset__**
 .
 {
   "embed": {
@@ -278,7 +277,7 @@ __**Styling Explanation**__
 
 .
 ```
-> **__Preset__**
+## Preset__**
 ..
 {
   "embed": {
@@ -296,7 +295,7 @@ __**Styling Explanation**__
 ..embed:json
 ```
 .
-> __**Writing Rotations**__
+## Writing Rotations**__
 .tag:rotations
 It is important that rotations are written in a consistent manner throughout PvME to ensure readability and accuracy. Here are some rules to follow when writing rotations for guides.
 __**Rotation/Ability Formatting**__
@@ -344,7 +343,7 @@ __**Rotation/Ability Formatting**__
     • If special attacks are used off-style, it is unnecessary to specify prayer flicks.
 
 .
-> __**Commands and Formatting Syntax**__
+## Commands and Formatting Syntax**__
 .tag:commands
 This section contains general syntax for formatting text in guides, some helpful commands in GitHub syntax, and PvME Bot instructions in case automatic channel updates fail.
 __**Formatting Syntax**__
@@ -352,8 +351,10 @@ __**Formatting Syntax**__
 ⬥ `*Italicised Text*` - this creates *Italicised text*
 ⬥ `__Underlined text__` - this creates __Underlined text__
 ⬥ `` `Code block text` `` - this creates `Code block text`
-⬥ `> __**Major Section**__` - this creates | __**Major Section**__
-⬥ `__**Subsection**__` - this creates __**Subsection**__
+⬥ `## Major Section` - this creates a
+## Major section
+⬥ `### Subsection` - this creates a
+### Subsection
 *Note: multiple formatting syntax may be combined together.*
 
 .
@@ -384,7 +385,7 @@ The following commands are used for instructing the bot to perform certain actio
     • Deletes a command (can be a source command, or an alias).
 
 .
-> __**Table of Contents (formatting)**__
+## Table of Contents (formatting)**__
 .tag:toc
 The Table of Contents (ToC) is present in every guide, and used for quick navigation. It is important that this is accurate, to ensure users are directed to the correct information within guides, especially as guides get longer in length.
 
