@@ -1,4 +1,4 @@
-## Style Guide for PvME__**
+## Style Guide for PvME
 .img:https://img.pvme.io/images/hLk8oJr.png
 
 .
@@ -144,7 +144,7 @@ Lists are the primary informational structure within a subsection.
 ⬥ **Use subpoints and sub-subpoints as required to avoid illegible walls of text**. Ideally, keep text as consise as it can be without losing meaning or readability.
 
 .
-## Embedded Content__**
+## Embedded Content
 .tag:embed
 Embedded content here refers to **two** kinds of messages.
 
@@ -201,7 +201,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
         ⬩ The first variation can be used when there are multiple presets to be displayed.
         ⬩ The second variation can be used when there is only a single preset to be displayed.
 
-## Presets__**
+## Presets
 .
 {
   "embed": {
@@ -230,7 +230,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 
 .
 ```
-## Presets__**
+## Presets
 ..
 {
   "embed": {
@@ -258,7 +258,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 ..embed:json
 ```
 .
-## Preset__**
+## Preset
 .
 {
   "embed": {
@@ -277,7 +277,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 
 .
 ```
-## Preset__**
+## Preset
 ..
 {
   "embed": {
@@ -390,7 +390,7 @@ The following commands are used for instructing the bot to perform certain actio
 The Table of Contents (ToC) is present in every guide, and used for quick navigation. It is important that this is accurate, to ensure users are directed to the correct information within guides, especially as guides get longer in length.
 
 .
-### ToC Formatting__**
+### ToC Formatting
 ⬥ ToC is a Discord embed, and should be in at the end of every guide in a section called "Table of Contents".
 ⬥ The **ToC should be pinned** in the channel.
     • To do this just add a new line with the command `.pin:delete` after the message.
