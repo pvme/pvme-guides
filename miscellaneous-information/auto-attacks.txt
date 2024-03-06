@@ -5,7 +5,7 @@ Autos for <:range:580168050121113623> <:melee:1096130867279171706> <:Magic:68950
 Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:1137809137401602109>.
 
 .
-## Cooldown
+## __Cooldown__
 .tag:cooldown
 ### When Cooldowns are Incurred
 ⬥ Casting an ability or auto incurs an auto cooldown
@@ -112,7 +112,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .tag:nonToCdefensive
 
 .
-## In-depth Look at these Unexpected Abilities
+## __In-depth Look at these Unexpected Abilities__
 .tag:Unexpected
 .
 {
@@ -231,13 +231,13 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-## Adrenaline
+## __Adrenaline__
 .tag:Adren
 The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorating>) (rank column is Invigorate rank):
 *Note: Unlike abilities, autos **do not** give adrenaline when you splash*
 
 .
-## Damage
+## __Damage__
 .tag:Damage
 ### Rough Idea
 ⬥ There are three factors to auto damage: weapon tier, weapon type, and weapon speed
@@ -246,7 +246,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ⬥ **Use `!abilitydamage` to calculate damage**
 
 .
-## Offing
+## __Offing__
 .tag:Offing
 ### What it is
 ⬥ It is important to mention that autos can be forced to not automatically try and fire when their cooldown ends by "offing", this is done as follows:
@@ -256,7 +256,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
     • Using Cease <:cease:864235458464186418>
 
 .
-## Clicking vs Auto Bind
+## __Clicking vs Auto Bind__
 *Note: i.e. clicking target vs using a bind (or clicking from bar) to auto*
 1) If offed, cannot use auto bind mid-GCD to try recast the auto
     a) Would need to recast after GCD ends
@@ -272,7 +272,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
         ⬩ So, <:Attack:689509250472476758> / <:range:580168050121113623> autos can't be 4TAA'd, ability is on t5 where auto is t4
 
 .tag:ClickVsBind
-## Application: Defensive Autos
+## __Application: Defensive Autos__
 .tag:DefAutos
 .
 {
@@ -376,7 +376,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
         ⬩ Only use a spell if you want to fire a non-autocast auto mid GCD
 
 .
-## Application: 4TAA
+## __Application: 4TAA__
 .tag:4TAA
 ### Summary
 ⬥ Use `!4taa` for a brief summary of everything mentioned
@@ -445,7 +445,7 @@ DW Asphyx | Auto Asphyx → DW Abil → Auto Abil
 ```
 
 .
-## Application: 5TAA:
+## __Application: 5TAA:__
 .tag:5TAA
 ### What is 5TAA
 ⬥ Like 4TAA, but for <:range:580168050121113623> / <:melee:1096130867279171706> as no auto binds; must wait 1t more for ability
@@ -501,7 +501,7 @@ T33: Ability + Zerk ends
     • In Demo 2: last decimate shows no 5TAA ≠ extra <:zerk:535532854004678657> ability
 
 .
-## Dark Bow Autos
+## __Dark Bow Autos__
 .tag:Dbow
 {
   "embed": {
@@ -526,7 +526,7 @@ T33: Ability + Zerk ends
 .
 
 .
-## Application: Stalling
+## __Application: Stalling__
 .tag:Stalling
 ### Click vs Auto Bind Release
 ⬥ There are 2 ways to release a stall: the first is clicking, the second is using an auto (spell) bind

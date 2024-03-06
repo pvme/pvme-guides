@@ -1,10 +1,10 @@
-## Introduction
+## __Introduction__
 .tag:intro
 This guide will go over an assortment of common issues you may encounter while working with Github, as well as a few helpful things you can do to streamline your workflow.
 *Note: You can always ask any editor or staff for help with GitHub at any time.*
 
 .
-## Frequently Used Terminology
+## __Frequently Used Terminology__
 .tag:keywords
 ⬥ **Repository**
     • A collection of all the files and folders for a single project, that is tracked and version controlled.
@@ -16,7 +16,7 @@ This guide will go over an assortment of common issues you may encounter while w
     • A request to merge *your changes* into the *main repository*, to be accepted by someone with appropriate permissions.
 
 .
-## Common Problems
+## __Common Problems__
 .tag:trouble
 ### Failed Checks
 .tag:failedchecks
@@ -59,7 +59,7 @@ This guide will go over an assortment of common issues you may encounter while w
 
 ***For more experienced users**: PvME squashes and merges all pull requests. This causes a difference in commit hashes, which is why your branch will be both ahead AND behind in commits after a pull request is accepted. You can clean this up by discarding commits from accepted PRs and syncing your branch to pvme:master. Or by resetting your branch to pvme:master. Or just delete and start over.|*
 
-## Pull Requests
+## __Pull Requests__
 .tag:pr
 .
 ### Multiple Changes & Updating an Existing Pull Request
@@ -99,7 +99,7 @@ To edit a different file, and include it in the same pull request, do as follows
 .img:https://img.pvme.io/images/UKnKrfs.png
 
 .
-## Helpful Tips
+## __Helpful Tips__
 .tag:tips
 ### File Split View
 .tag:diffview

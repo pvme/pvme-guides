@@ -1,8 +1,8 @@
-## Style Guide for PvME
+## __Style Guide for PvME__
 .img:https://img.pvme.io/images/hLk8oJr.png
 
 .
-## Introduction
+## __Introduction__
 .tag:intro
 This channel covers stylistic aspects that PvME guides tend to follow for consistency and ease of reading.
 ⬥ Try to stick to these guidelines when submitting writeups/improvements to guides.
@@ -13,7 +13,7 @@ This channel covers stylistic aspects that PvME guides tend to follow for consis
 *Note: If you ever require **any** assistance with styling, feel free to tag an editor!*
 
 .
-## Basic Guide Structure
+## __Basic Guide Structure__
 .tag:basic
 This is the basic structure that PvME guides begin with. By using similar structures across all guides, it is easier for readers to find the section that pertains to information they are looking for, as sections will tend to remain in the same order (e.g. **Presets** will always be near the top of a guide, **Table of Contents** at the bottom).
 
@@ -45,7 +45,7 @@ There may naturally be some variation in guides for different bosses, but the ba
 ⬥ Follow this basic format and incorporate the other guidelines for embedding, rotations, etc. and you should be well on your way to having a stylized guide.
 
 .
-## General Style Choices
+## __General Style Choices__
 .tag:general
 These are some some general rules to follow with regard to grammar, punctuation and other PvME-specific practices, applicable to all guides.
 
@@ -80,7 +80,7 @@ These are some some general rules to follow with regard to grammar, punctuation 
 ⬥ Do not end a line with a blank space (**no trailing whitespace on a line**).
 
 .
-## Sections and Subsections
+## __Sections and Subsections__
 .tag:sections
 Guides are broken down into sections to separate different parts of the guide, with subsections used for further breakdowns within a secion.
 
@@ -112,7 +112,7 @@ Guides are broken down into sections to separate different parts of the guide, w
     • Emoji used with one blank space between it and the preceding word (line 184).
 
 .
-## Formatting Lists
+## __Formatting Lists__
 .tag:lists
 Lists are the primary informational structure within a subsection.
 
@@ -144,7 +144,7 @@ Lists are the primary informational structure within a subsection.
 ⬥ **Use subpoints and sub-subpoints as required to avoid illegible walls of text**. Ideally, keep text as consise as it can be without losing meaning or readability.
 
 .
-## Embedded Content
+## __Embedded Content__
 .tag:embed
 Embedded content here refers to **two** kinds of messages.
 
@@ -172,7 +172,7 @@ Embedded content here refers to **two** kinds of messages.
     • This comes at the expense of font size, line spacing and horizontal screen width capability, so use them only when required.
 
 .
-## Gear Presets
+## __Gear Presets__
 .tag:presets
 Gear presets are used at the start of guides to concisely inform users of all items required to effectively tackle the content, including **equipment**, **inventory setups**, **relics** and **notes on important items**.
 
@@ -201,7 +201,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
         ⬩ The first variation can be used when there are multiple presets to be displayed.
         ⬩ The second variation can be used when there is only a single preset to be displayed.
 
-## Presets
+## __Presets__
 .
 {
   "embed": {
@@ -230,7 +230,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 
 .
 ```
-## Presets
+## __Presets__
 ..
 {
   "embed": {
@@ -258,7 +258,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 ..embed:json
 ```
 .
-## Preset
+## __Preset__
 .
 {
   "embed": {
@@ -277,7 +277,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 
 .
 ```
-## Preset
+## __Preset__
 ..
 {
   "embed": {
@@ -295,7 +295,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 ..embed:json
 ```
 .
-## Writing Rotations
+## __Writing Rotations__
 .tag:rotations
 It is important that rotations are written in a consistent manner throughout PvME to ensure readability and accuracy. Here are some rules to follow when writing rotations for guides.
 ### Rotation/Ability Formatting
@@ -343,7 +343,7 @@ It is important that rotations are written in a consistent manner throughout PvM
     • If special attacks are used off-style, it is unnecessary to specify prayer flicks.
 
 .
-## Commands and Formatting Syntax
+## __Commands and Formatting Syntax__
 .tag:commands
 This section contains general syntax for formatting text in guides, some helpful commands in GitHub syntax, and PvME Bot instructions in case automatic channel updates fail.
 ### Formatting Syntax
@@ -352,7 +352,7 @@ This section contains general syntax for formatting text in guides, some helpful
 ⬥ `__Underlined text__` - this creates __Underlined text__
 ⬥ `` `Code block text` `` - this creates `Code block text`
 ⬥ `## Major Section` - this creates a
-## Major section
+## __Major section__
 ⬥ `### Subsection` - this creates a
 ### Subsection
 *Note: multiple formatting syntax may be combined together.*
@@ -385,7 +385,7 @@ The following commands are used for instructing the bot to perform certain actio
     • Deletes a command (can be a source command, or an alias).
 
 .
-## Table of Contents (formatting)
+## __Table of Contents (formatting)__
 .tag:toc
 The Table of Contents (ToC) is present in every guide, and used for quick navigation. It is important that this is accurate, to ensure users are directed to the correct information within guides, especially as guides get longer in length.
 
