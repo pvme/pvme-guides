@@ -2,7 +2,7 @@
 .img:https://img.pvme.io/images/hLk8oJr.png
 
 .
-## Introduction**__
+## Introduction
 .tag:intro
 This channel covers stylistic aspects that PvME guides tend to follow for consistency and ease of reading.
 ⬥ Try to stick to these guidelines when submitting writeups/improvements to guides.
@@ -13,14 +13,14 @@ This channel covers stylistic aspects that PvME guides tend to follow for consis
 *Note: If you ever require **any** assistance with styling, feel free to tag an editor!*
 
 .
-## Basic Guide Structure**__
+## Basic Guide Structure
 .tag:basic
 This is the basic structure that PvME guides begin with. By using similar structures across all guides, it is easier for readers to find the section that pertains to information they are looking for, as sections will tend to remain in the same order (e.g. **Presets** will always be near the top of a guide, **Table of Contents** at the bottom).
 
 There may naturally be some variation in guides for different bosses, but the basic layout will remain the same.
 
 .
-### Basic Structure**__
+### Basic Structure
 *Note: Each of the **bold** bullets is a major section in a guide, and contains sub-sections within it.*
 .
 ⬥ **Introduction**
@@ -45,12 +45,12 @@ There may naturally be some variation in guides for different bosses, but the ba
 ⬥ Follow this basic format and incorporate the other guidelines for embedding, rotations, etc. and you should be well on your way to having a stylized guide.
 
 .
-## General Style Choices**__
+## General Style Choices
 .tag:general
 These are some some general rules to follow with regard to grammar, punctuation and other PvME-specific practices, applicable to all guides.
 
 .
-### Language and Formatting**__
+### Language and Formatting
 ⬥ Prefer **UK spelling and style**.
     • e.g. armour over armor.
 ⬥ Prefer the **date format YYYY/MM/DD**.
@@ -68,7 +68,7 @@ These are some some general rules to follow with regard to grammar, punctuation 
 ⬥ Always **surround emojis by one space** on either side.
 
 .
-### PvME Specific**__
+### PvME Specific
 ⬥ Every channel should have its channel topic with the correct title (e.g. channel for "aod" would have "Nex: Angel of Death" as it's topic).
 ⬥ Where possible, the first message of a guide should be an image that best represents the guide.
 ⬥ If crediting a user for contributing them to a guide, give them a shoutout in <#1152993406344249475>.
@@ -80,12 +80,12 @@ These are some some general rules to follow with regard to grammar, punctuation 
 ⬥ Do not end a line with a blank space (**no trailing whitespace on a line**).
 
 .
-## Sections and Subsections**__
+## Sections and Subsections
 .tag:sections
 Guides are broken down into sections to separate different parts of the guide, with subsections used for further breakdowns within a secion.
 
 .
-### Formatting Sections**__
+### Formatting Sections
 ⬥ Format sections like this: `## Sections**__`.
 ⬥ Format subsections like this: `### Subsection**__`.
 ⬥ Every section title should be followed by a `.tag:word` command in the next line after the section title.
@@ -112,19 +112,19 @@ Guides are broken down into sections to separate different parts of the guide, w
     • Emoji used with one blank space between it and the preceding word (line 184).
 
 .
-## Formatting Lists**__
+## Formatting Lists
 .tag:lists
 Lists are the primary informational structure within a subsection.
 
 .
-### Bulleted Lists**__
+### Bulleted Lists
 ⬥ All bullet points contain 1 space between the bullet and the first word.
 ⬥ Format main points with the `⬥` bullet with no indentation.
     • Format all subpoints using the `•` bullet indented by 4 spaces.
         ⬩ Format sub-subpoints using the `⬩` bullet indented by 8 spaces.
 
 .
-### Alphanumerical Lists**__
+### Alphanumerical Lists
 1) Format main points like this: `appropriate # followed by a closing parenthesis` with no indentation.
     a) Format subpoints like this: `appropriate letter followed by a closing parenthesis` indented by 4 spaces.
         ⬩ Format subsubpoints like this: `⬩` indented by 8 spaces.
@@ -153,7 +153,7 @@ Embedded content here refers to **two** kinds of messages.
     • e.g. every `!command` in PvME Discord is a Discord embed message.
 
 .
-### In-line Embedded Media Content**__
+### In-line Embedded Media Content
 ⬥ The preferred hosting platforms are **YouTube** for videos, and **Imgur** for screenshots and short gifs/clips. **Streamable is absolutely forbidden**.
 ⬥ Images and video embeds should be their own message, avoid direct links to images in guides as far as possible.
     • Example: the highlighted section below shows an embedded image.
@@ -165,19 +165,19 @@ Embedded content here refers to **two** kinds of messages.
     • Example: **RuneScape Wiki** - <https://runescape.wiki/>
 
 .
-### Discord Embed Messages**__
+### Discord Embed Messages
 ⬥ These are created using a JSON-formatted message according to Discord's specifications.
 ⬥ Numerous examples can be found in the form of PvME `!commands`, and the __**Table of Contents**__ section in each channel.
 ⬥ If you have many videos or examples consecutively (e.g. for the __**Example Kills**__ section), prefer to use embeds to reduce channel length.
     • This comes at the expense of font size, line spacing and horizontal screen width capability, so use them only when required.
 
 .
-## Gear Presets**__
+## Gear Presets
 .tag:presets
 Gear presets are used at the start of guides to concisely inform users of all items required to effectively tackle the content, including **equipment**, **inventory setups**, **relics** and **notes on important items**.
 
 .
-### Styling Explanation**__
+### Styling Explanation
 ⬥ The basic preset layout is as follows.
 ```
 → Preset embed (contains sample image and breakdown with notes)
@@ -295,10 +295,10 @@ Gear presets are used at the start of guides to concisely inform users of all it
 ..embed:json
 ```
 .
-## Writing Rotations**__
+## Writing Rotations
 .tag:rotations
 It is important that rotations are written in a consistent manner throughout PvME to ensure readability and accuracy. Here are some rules to follow when writing rotations for guides.
-### Rotation/Ability Formatting**__
+### Rotation/Ability Formatting
 ⬥ **Use the full code for PvME emojis** pinned in <#724129126314803230>, or from <#1020845621227307110> to add emojis to a guide.
     • For example, use `<:bloodbarrage:537338981747261446>` instead of `:bloodbarrage:`
 .
@@ -343,10 +343,10 @@ It is important that rotations are written in a consistent manner throughout PvM
     • If special attacks are used off-style, it is unnecessary to specify prayer flicks.
 
 .
-## Commands and Formatting Syntax**__
+## Commands and Formatting Syntax
 .tag:commands
 This section contains general syntax for formatting text in guides, some helpful commands in GitHub syntax, and PvME Bot instructions in case automatic channel updates fail.
-### Formatting Syntax**__
+### Formatting Syntax
 ⬥ `**Bold text**` - this creates **Bold text**
 ⬥ `*Italicised Text*` - this creates *Italicised text*
 ⬥ `__Underlined text__` - this creates __Underlined text__
@@ -358,7 +358,7 @@ This section contains general syntax for formatting text in guides, some helpful
 *Note: multiple formatting syntax may be combined together.*
 
 .
-### Github Syntax/Commands**__
+### Github Syntax/Commands
 ⬥ `.img:[imgurlinkhere]` - used for embedding images
 ⬥ `.tag:[word]` - used as a target message for table of contents to link
 ⬥ `$linkmsg_[tagword]$` - creates a link to the `[word]` used in the `.tag:[word]` command
@@ -385,7 +385,7 @@ The following commands are used for instructing the bot to perform certain actio
     • Deletes a command (can be a source command, or an alias).
 
 .
-## Table of Contents (formatting)**__
+## Table of Contents (formatting)
 .tag:toc
 The Table of Contents (ToC) is present in every guide, and used for quick navigation. It is important that this is accurate, to ensure users are directed to the correct information within guides, especially as guides get longer in length.
 

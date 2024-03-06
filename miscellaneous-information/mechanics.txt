@@ -1,4 +1,4 @@
-## Introduction**__
+## Introduction
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
@@ -7,9 +7,9 @@ This channel will cover a number of game mechanics, uncommon ability interaction
 Mechanics are split into two categories: **basic** and **advanced**. Basic mechanics are game interactions that are more important to the casual player and may be relatively easily learned, whereas advanced mechanics may be learnt slowly with time as you play the game.
 
 .
-## Ability Queueing**__
+## Ability Queueing
 .tag:queueing
-### How It Works**__
+### How It Works
 ⬥ **Ability queueing ('queueing') is a toggleable setting that allows you to 'queue' abilities to trigger them when possible.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat & Action Bar > Action Bar**.
 .img:https://img.pvme.io/images/0Xh92hO.png
@@ -19,13 +19,13 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 ⬥ There are a number of interactions with ability queueing that are worth mentioning.
 
 .
-### Movement Stalling**__
+### Movement Stalling
 ⬥ Queued abilities will interrupt movement when they are are activated by the game.
 ⬥ This may cause issues if you are trying to 'kite' monsters (like at Nex or Barrows: Rise of the Six) while also trying to use ability queueing.
 ⬥ The solution is to disable queueing, or simply press the ability slightly later so that it triggers normally (without queueing).
 
 .
-### On-tick Defensives**__
+### On-tick Defensives
 ⬥ Some abilities will have their effects affected depending on whether or not they're queued.
 ⬥ **Defensive abilities that are queued will have different 'on-tick' behaviour under different scenarios**.
     • 'On-tick' refers to a defensive ability that is cast on the same tick as getting hit by an attack.
@@ -35,7 +35,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
     • **1 tick** before cast: __does not work__ with on-tick damage.
 
 .
-### Last-Tick Interactions**__
+### Last-Tick Interactions
 ⬥ Certain 'last tick' interactions (with ultimates and other timed abilities) are affected by queueing.
 ⬥ **Greater Barge** <:gbarge:535532879250456578>
     • The buff from <:gbarge:535532879250456578> lasts 10t/6s, but trying to convert a channel into a DoT barge bleed on the last tick, will not work if the ability is queued.
@@ -58,14 +58,14 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 .embed:json
 
 .
-### Other Ability Interactions**__
+### Other Ability Interactions
 ⬥ **Detonate** <:deto:535533833358016512>
     • Can be released mid-GCD if queueing is enabled - this is not possible with it disabled.
 ⬥ **Stalled Abilities**
     • Stalled abilities can be released mid-GCD (using spells on an action bar) if queueing is enabled - this is not possible with it disabled.
 
 .
-### Losing Target**__
+### Losing Target
 ⬥ When ability queueing is enabled, you can lose a target with the following options:
     • **Right-click a shield and use the 'Provoke' option** - requires a T80 or higher shield (from Dungeoneering or Barrows: Rise of the Six).
     • **Use a special attack without having a target selected**. This does *not* work with special attacks of the following weapons, as they do not require any target to activate.
@@ -76,7 +76,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
         ⬩ Eldritch Crossbow <:ecb:615618531937222657>
 
 .
-## Ability Stalling**__
+## Ability Stalling
 .tag:stalling
 ***Note**: See `!stalling` for a summary instead on how to stall and release abilities.*
 .
@@ -90,18 +90,18 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 .embed:json
 
 .
-### How It Works**__
+### How It Works
 ⬥ It is possible to 'stall' an ability by activating it but not actually using it, instead holding it 'in reserve' to release it at a later time.
 ⬥ This is primarily used to delay the activation of an ability to stack it together with another ability, to deal extra damage without losing any ticks.
 
 .
-### How to Stall Abilities**__
+### How to Stall Abilities
 ⬥ Casting a non-channeled ability outside your maximum attack range will normally try to run your character back into range to use it on a target.
 ⬥ If you interrupt this action by clicking away (e.g. on the floor), it will 'hold' the ability in reserve to be released (**this is the stalled ability**).
 ⬥ The ability can then be 'released' later to use the ability without consuming a global cooldown.
 
 .
-### How to Release Stalled Abilities**__
+### How to Release Stalled Abilities
 ⬥ **Method 1: Run-in Release**
     • Casting an ability outside your attack range and not interrupting the action, your character will run in and release it automatically.
 ⬥ **Method 2: Click Release**
@@ -113,7 +113,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 *Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack. See the differences between **Click and Spell Release** below.*
 
 .
-### Differences between Click and Spell Release**__
+### Differences between Click and Spell Release
 ⬥ Click release is limited to the target you stall on - spell release does not have this restriction.
 ⬥ Click release can be done mid-GCD at any time - spell release can only do this if using an auto *with ability queueing on.*
 ⬥ After a click release, the next ability must be at least 1 tick afterwards. With spell release, the next ability can be on the same tick as the spell release of the stalled ability.
@@ -122,7 +122,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
     • Not an issue when using Magic <:Magic:689504724159823906> - you can just hit a different spell keybind for your intended auto.
 
 .
-## Adrenaline Management**__
+## Adrenaline Management
 .tag:adren
 Adrenaline is generated when players use auto attacks and basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannont use at any given point.
 
@@ -133,7 +133,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 ⬥ Adrenaline gained from certain actions may feel 'delayed' (covered below).
 
 .
-### Stalling Adrenaline**__
+### Stalling Adrenaline
 ⬥ There are multiple ways to stall adrenaline.
 ⬥ **Method 1: Simply remain in combat**.
     • This is done by **using abilities that do not require a target within every 10 seconds** to make the game think the player is still 'in combat'.
@@ -146,7 +146,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • Infernal Puzzle Box <:infernalpuzzlebox:994189299681607800> (unlocked up to the 3rd tier).
 
 .
-### Gaining Adrenaline Without Target**__
+### Gaining Adrenaline Without Target
 ⬥ For 10 seconds after your last damaging ability on a target, you can use any abilities to gain adrenaline.
 ⬥ After 10 seconds, you can continue to gain adrenaline using defensive basics, at most once per 10 seconds.
 ⬥ The following abilities do not affect or reset this 'cooldown':
@@ -164,7 +164,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 .embed:json
 
 .
-### Late Adrenaline**__
+### Late Adrenaline
 ⬥ **Adrenaline Renewals** <:adrenrenewal:736298121704767538>
     • When used, gives 4% adrenaline per tick for 10 ticks (40% total).
     • Except the first tick, when drinking a <:adrenrenewal:736298121704767538> the adrenaline gained cannot be used until the next game tick.
@@ -178,7 +178,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • This may impact certain actions (like back-to-back <:dbow:643848618553507843> <:eofspec:746403211908481184> with <:mechchin:641669268722810881>) that rely on adrenaline gained from previous abilities.
 
 .
-### How To Lose Target**__
+### How To Lose Target
 ⬥ It is possible to lose your target to enable the using threshold abilities like Devotion <:devo:513190158728953857> to be used without consuming adrenaline, in a couple ways.
 ⬥ **Method 1: Simply drop out of combat**.
     • This is accomplished by not attacking/being attacked for 10 seconds.
@@ -192,7 +192,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 .
 ## Berserker Auras**__ <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
 .tag:zerkaura
-### How It Works**__
+### How It Works
 ⬥ Berserker-variant auras exist for each style:
     • Berserker <:berserker:643505116347105290> for <:melee:1096130867279171706>
     • Reckless <:reckless:643505179378974748> for <:range:580168050121113623>
@@ -204,7 +204,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • Increases all damage taken (except hard typless) by 15%.
     • Reduces defence level by 15%.
 .
-### Interactions with Damage-Boosting Ultimates**__
+### Interactions with Damage-Boosting Ultimates
 ⬥ The invisible +10% damage boost from berserker-variant auras **does not stack** with damage-boosting ultimates. These are:
     • Berserk <:zerk:535532854004678657>
     • Death's Swiftness <:deathsswift:994921434633744455>
@@ -216,9 +216,9 @@ There are a couple different mechanics to note with regard to adrenaline.
 ***Note**: this interaction does **not** work if you queue an ability on the last tick of an ultimate*.
 
 .
-## Camera Shaking**__
+## Camera Shaking
 .tag:shake
-### How It Works**__
+### How It Works
 ⬥ During some mechanics and cutscenes, the game has the ability to 'shake' the camera view.
     • An easy example is when you use the ability Quake <:quake:535532879506309150> with the setting enabled.
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Camera > System**.
@@ -232,10 +232,10 @@ There are a couple different mechanics to note with regard to adrenaline.
     • ED2 (during the 'spikes' special attack of Black Stone Dragon and any other Gemstone Dragon).
 
 .
-## Critical Hits**__
+## Critical Hits
 .tag:crit
 *Note: For a summary, see the `!crit` and `!critbuff` commands.*
-### How It Works**__
+### How It Works
 ⬥ Critical hits (crits) occur when you hit for >95% of your ability damage range. They are indicated by larger, stylized damage numbers.
 ⬥ Crits have an increased hitcap: 10k → 12k. This hitcap can be increased by some items (see __**Items That Affect Critical Hits**__ below).
 .
@@ -245,7 +245,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 ⬥ **Your total critical hit chance is the sum of your forced crit chance + natural crit chance.**
 
 .
-### Ability Interactions**__
+### Ability Interactions
 ⬥ **Fury** <:fury:535532879510372352>
     • Each hit of <:fury:535532879510372352> increases the next hit's forced crit chance by 5%.
     • This caps at 15% after the 3rd hit.
@@ -274,7 +274,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • Deadshot <:deadshot:535541307666595870> (bleed hits)
 
 .
-### Items That Affect Critical Hits**__
+### Items That Affect Critical Hits
 *Note: In the following section, all critial hit chance increases apply to **forced** critical hit chance. These methods **can** stack together.*
 ⬥ **Biting Perk** <:biting4:712073087809617931>
     • **+2%** critical hit chance per rank, up to 8% at Biting 4 <:biting4:712073087809617931> (up to 8.8% with level 20 equipment)
@@ -314,18 +314,18 @@ There are a couple different mechanics to note with regard to adrenaline.
 .embed:json
 
 .
-## Grimoire/Scrimshaw Switching ('Grimshaw')**__
+## Grimoire/Scrimshaw Switching ('Grimshaw')
 .tag:grimshaw
 *Note: This is very rarely done due to the extreme intensity of inputs required, and due to how some weapons like the FSOA <:fsoa:869284271595069451> can actually be hindered by doing it.*.
 .
-### How It Works**__
+### How It Works
 ⬥ **It is possible to obtain the boosts of Erethdor's Grimoire <:grim:568262896375824385> and a Scrimshaw <:elementsscrim:841409588959510539> <:Cruelty:513190159546712074> at the same time**.
     • This can result in ~6% damage increase *across the course of an entire rotation*, but will drastically increase the amount of inputs.
 ⬥ This is due to how critical hits work:
     • Critical hits are rolled **on cast**.
     • Modifiers like scrimshaws are calculated **on hit**.
 .
-### Sample Rotation**__
+### Sample Rotation
 ⬥ The grimoire must be on when the ability is cast, and the scrimshaw must be on when it hits.
 .
 ⬥ A single input sequence using Dragon Breath <:dbreath:535533833391702017> might look like:
@@ -349,7 +349,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 .
 ## Hex Weapons**__ <:terramaul:602561894829522954> <:hexhunterbow:581180369911414794> <:inquisitorstaff:694566917553520680>
 .tag:hex
-### How It Works**__
+### How It Works
 ⬥ This refers to the following three weapons:
     • **Hexhunter bow** <:hexhunterbow:581180369911414794>
     • **Terrasaur maul** <:terramaul:602561894829522954>
@@ -375,7 +375,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • Enchantment of Savagery <:enchantmentofsavagery:1006481307443937310> boosts damage of <:terramaul:602561894829522954> by +5%.
 
 .
-### Notes**__
+### Notes
 ⬥ It is common to see people refer to them as 'T97' or 'T105' weapons, etc. - this is a common misconception, and is only a theoretical effective tier possible with sufficient level boosts and equipment bonuses.
 .
 {
@@ -388,9 +388,9 @@ There are a couple different mechanics to note with regard to adrenaline.
 .embed:json
 
 .
-## Instance Hopping**__
+## Instance Hopping
 .tag:instance
-### How It Works**__
+### How It Works
 ⬥ This is a minor mechanic, but can be used to get more kills per hour at some places (most notably, at GWD2 bosses).
 ⬥ To do it: kill boss → pick up loot → **quickly** exit instance → **quickly** re-enter instance → repeat.
 ⬥ This works because it is faster to spawn a boss for the first time in an instance, compared to the duration between subsequent spawns.
@@ -406,10 +406,10 @@ There are a couple different mechanics to note with regard to adrenaline.
 .embed:json
 
 .
-## Manual Spellcasting**__
+## Manual Spellcasting
 .tag:manualsc
 *Note: For a summary, see the `!manualspellcasting` and `!spellswap` commands.*
-### How It Works**__
+### How It Works
 ⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
 .img:https://img.pvme.io/images/xiuCIqX.png
@@ -437,7 +437,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 .embed:json
 
 .
-### Why It's Good**__
+### Why It's Good
 ⬥ **Saving rune costs with manual spellcasting on.**
     • You can autocast Air Surge <:AirSurge:543465115870035999> but have your keybound spell on your ability bar as Air Strike <:airstrike:895600427930910730>
     • When you press your auto keybind, it will cast <:airstrike:895600427930910730> and consume only 1 Air Rune <:Airrune:536252658986647589> but do the damage of <:AirSurge:543465115870035999>
@@ -451,11 +451,11 @@ There are a couple different mechanics to note with regard to adrenaline.
     • **Telos**: Selectively using Ice spells at correct times with Blood spells autocast, to get better control of freeze timings.
 
 .
-## NPC Centre vs. Coordinate**__
+## NPC Centre vs. Coordinate
 .tag:npccentre
 This section covers the difference between an NPC's **centre** and **coordinate** and how it impacts certain abilities when it comes to targeting and hitboxes.
 .
-### NPC Centre vs. Coordinate**__
+### NPC Centre vs. Coordinate
 ⬥ An NPC's **centre** and **coordinate** are both attributes of its position. They are *not* the same, and are both used in different scenarios to decide where exactly the 'centre' of an NPC is.
 ⬥ **The NPC centre depends on the size of the NPC**:
     • For odd-sized NPCs (1x1, 3x3, 5x5, etc.): it is always the **centre tile**.
@@ -465,7 +465,7 @@ This section covers the difference between an NPC's **centre** and **coordinate*
 .img:https://img.pvme.io/images/53FBsUZ.png
 
 .
-### Abilities and NPC Coordinate**__
+### Abilities and NPC Coordinate
 ⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
     • **Note that this is not their *hitbox*, which is the entirety of the tiles they occupy. It is simply the point from which these abilities begin to propagate.**
 ⬥ **Ranged abilities:**
@@ -486,19 +486,19 @@ This section covers the difference between an NPC's **centre** and **coordinate*
 *Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
 
 .
-## NPC Facing and Flanking**__
+## NPC Facing and Flanking
 .tag:npcfacing
 *Note: For more information on boss sizes and how to calculate their NPC centre and coordinate tiles, see __**NPC Centre vs. Coordinate**__.*
 This section covers how NPCs face, how it affects their movement and targeting, and its impact on Flanking Angles.
 .
-### Facing Direction: Movement**__
+### Facing Direction: Movement
 ⬥ **NPC's in RuneScape can only face in one of 8 drections**: the four cardinal directions N/W/S/E and the four diagonal directions in-between, NW/SW/SE/NE.
 ⬥ NPCs can also only **move** in one of these 8 directions.
     • The same behaviour applies to players as well.
 ⬥ Each direction therefore corresponds to a 45° angle.
 
 .
-### Facing Direction: Targeting**__
+### Facing Direction: Targeting
 ⬥ **Bosses in Runescape will always face the direction their target is in**. Again, this can only be one of the 8 directions mentioned earlier.
     • When without a target, NPCs will face in the direction they are moving.
 ⬥ **Players can face any direction, but they will be re-oriented to face their target when**:
@@ -523,7 +523,7 @@ etc.
 ```
 ⬥ This is important as it can affect flanking angles.
 .
-### NPC Directions and Flanking**__
+### NPC Directions and Flanking
 ⬥ Flanking <:flankicon:841419289755385866> requires the following conditions to be met:
     • Target is facing a particular direction.
     • Your distance past the target's centre tile *in that direction* is zero - i.e. relative to the centre tile you are not further ahead than the target *in that direction*.
@@ -546,7 +546,7 @@ etc.
 .img:https://img.pvme.io/images/G3bGkKk.png
 
 .
-### Solo Flanking**__
+### Solo Flanking
 ⬥ It is possible to use <:flankicon:841419289755385866> on some bosses even in a solo scenario.
 ⬥ **Method 1: Move Behind Target**
     • By moving behind the target, you can use cast an ability and get the <:flankicon:841419289755385866> effect.
@@ -578,9 +578,9 @@ etc.
 .embed:json
 
 .
-## Player Character Movement**__
+## Player Character Movement
 .tag:playermove
-### Bladed Dive**__
+### Bladed Dive
 ⬥ **Bladed Dive <:bd:535532854281764884> is a melee movement ability** that can be unlocked from Shattered Worlds for 63M anima.
 ⬥ It is unique, in that **it allows you to specify a tile to move to** after casting the ability.
 ⬥ **The maximum range is 10 tiles.**
@@ -599,7 +599,7 @@ etc.
     • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
     • *This AoE is centreed on around the player where they land*.
 
-### Walking Abilities**__
+### Walking Abilities
 ⬥ Players can move while casting abilities, with some exceptions:
     • Generally cannot move while channeling an ability (with some exceptions, see below).
     • Queued abilities interrupt movement (see __**Ability Queueing**__ for a video example).
@@ -619,20 +619,20 @@ etc.
 .tag:sgb
 *Note: For a summary of where/when/how to use SGB, and a list of boss sizes use the `!sgb` command.*
 .
-### How It Works**__
+### How It Works
 ⬥ The Seren Godbow <:sgb:626466665848242186> is a T92 chargebow that has a strong special attack, *Crystal Rain*.
 ⬥ The special attack fires 5 arrows that land in a certain area around the target. There are two aspects to this:
     • Whether Arrow 1 hits, and how it affects the special attack.
     • How the game decides whether Arrows 2-5 hit the target, and how much damage they do.
 
 .
-### Arrow 1**__
+### Arrow 1
 ⬥ Arrow 1 lands 1 tick before the other arrows, dealing **80-200% ability damage.**
 ⬥ **If Arrow 1 hits**: damage from the remaining arrows is calculated, and <:sgb:626466665848242186> <:spec:537340400273195028> goes on cooldown for 30s.
 ⬥ **If Arrow 1 splashes**: all other arrows splash, and <:sgb:626466665848242186> <:spec:537340400273195028> can be re-used immediately (no cooldown).
 
 .
-### Arrows 2-5+**__
+### Arrows 2-5+
 ***Note**: In most cases, only the first 5 arrows are considered. For exceptions, see __**Notes**__ below.*
 .
 ⬥ All subsequent arrows scale their maximum damage range based on Arrow 1's **minimum** hit - see the following table.
@@ -676,13 +676,13 @@ etc.
 .embed:json
 
 .
-### Blocked Targets**__
+### Blocked Targets
 ⬥ A target is considered 'blocked' when the player is unable to reach it's centre tile.
     • e.g. P4 Araxxi
 ⬥ Any NPC whose size is ≥5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
 
 .
-### Notes**__
+### Notes
 ⬥ **Multi-SGB Hits**
     • It is possible for multiple <:sgb:626466665848242186> <:spec:537340400273195028> to hit a target 'at once'.
     • This can happen with **chin-sgb** (<:mechchin:641669268722810881> + <:sgb:626466665848242186> <:eofspec:746403211908481184>) or if multiple people use <:sgb:626466665848242186> <:spec:537340400273195028> at the same time.
@@ -694,9 +694,9 @@ etc.
     • This forces Arrows 2-5 to roll for damage, and on a blocked target >5x5 in size, means all 5 arrows will hit.
 
 .
-## Target Cycling (TC)**__
+## Target Cycling (TC)
 .tag:tc
-### How It Works**__
+### How It Works
 ⬥ **Target cycling is the ability to select a new combat target using a keybind, instead of clicking it.**
     • This is similar to 'tab-targeting', found in other MOBAs and MMOs.
 ⬥ Target cycle settings can be found by pressing **Esc > Settings > Gameplay > Combat > Targeting**.
@@ -714,7 +714,7 @@ etc.
 ⬥ The **maximum target distance** limits the range of available targets to the set value.
 
 .
-### Why it is Useful**__
+### Why it is Useful
 ⬥ Allows for **easy target selection** with just the press of a keybind.
 ⬥ Can **target some encounters earlier than normal** by using target cycling instead of clicking.
     • This happens at places like Helwyr or Vindicta, where the boss has spawned but cannot be clicked for a few ticks. Target cycling bypasses this delay.
@@ -756,7 +756,7 @@ etc.
 .embed:json
 
 .
-## Tick System**__
+## Tick System
 .tag:ticksystem
 ⬥ RuneScape runs on an internal clock, otherwise known as the 'tick system'.
 ⬥ This is how often the game updates information. All actions and updates are registered on a tick.
@@ -776,9 +776,9 @@ etc.
 .embed:json
 
 .
-## Typeless Damage**__
+## Typeless Damage
 .tag:typeless
-### How It Works**__
+### How It Works
 ⬥ **Typeless damage is a generic damage that appears as a red hitsplat with no symbol next to it.** There are two kinds of typeless damage: **hard typeless** and **soft typeless**.
 ⬥ **Hard Typeless**
     • This damage is immune to being affected by almost all damage modifiers.
@@ -790,9 +790,9 @@ etc.
     • Examples include Telos' rockfall damage, and Nex: AoD's 'Elements' special attack.
 
 .
-## Lossless Heal Other**__
+## Lossless Heal Other
 .tag:healother
-### How It Works**__
+### How It Works
 ⬥ Heal Other <:HealOther:567727985851891715> transfers up to **75%** of the caster's current life points to the targeted player as long as the caster has at least **11%** of their health.
 ⬥ To losslessly cast Heal Other <:HealOther:567727985851891715> (as to not take damage), you need to be in an immune state. Examples of being in an immune state are:
 .
@@ -808,9 +808,9 @@ etc.
 ⬥ This should be utilized when possible to maintain HP without using food/losing adrenaline.
 
 .
-## Vengeance**__
+## Vengeance
 .tag:veng
-### How It Works**__
+### How It Works
 ⬥ Vengeance <:Veng:543478434953822208> is a Lunar Spell that gives a player the 'Vengeance' buff - **the next incoming hit will be rebounded for 75% of its damage**.
     • **It does not prevent damage taken.**
     • It can be cast every 30 seconds.
@@ -818,7 +818,7 @@ etc.
 ⬥ Group Vengeance <:venggroup:1009570755836641331> is a variant that applies the effect to the caster **and** up to 50 players in a 7x7 region centered on the caster.
 ⬥ Similarly, Vengeance Other <:vengother:1015698983034826794> applies the effects of <:Veng:543478434953822208> to **one** other player with accept aid turned on.
 
-### Vengeance Interactions**__
+### Vengeance Interactions
 ⬥ It cannot damage reflect-immune targets.
 ⬥ It does **not** get consumed by typeless damage.
 ⬥ The following spells/abilities will take priority - Vengeance <:Veng:543478434953822208> will not be consumed if they are active:
@@ -835,10 +835,10 @@ etc.
         ⬩ e.g. Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> / Berserk <:zerk:535532854004678657>
 
 .
-## Walking Monsters**__
+## Walking Monsters
 .tag:walking
 *Note: Not all targets can be walked (e.g. Ambassador) - this section specifically refers to targets that **can** be walked.*
-### How It Works**__
+### How It Works
 ⬥ 'Walking' refers to moving a target from its original position.
 ⬥ There are **two ways to walk targets**:
     • Move outside its attack range, and it will move to try and attack you.
@@ -847,7 +847,7 @@ etc.
 ⬥ **NPCs can only move in 3 directions when walked under: east, west and south**. Never north.
 ⬥ Bosses will move at 2 squares per tick, just like players running.
 
-### Determining Walk Direction**__
+### Determining Walk Direction
 ⬥ When walking a target by moving under them, they will first move in a random direction.
 ⬥ After hitting a wall, monsters will walk in the next cardinal direction counter-clockwise to the direction they are current walking, **skipping north**. For example:
     • Targets moving **east** will move **west** after hitting a wall.
@@ -857,7 +857,7 @@ etc.
     • A target walked into the **south** wall will move **west** if unable to move **east**, skipping **north**.
 
 .
-### Why Its Good**__
+### Why Its Good
 ⬥ You can walk bosses to **position them better for mechanics** or to save time.
     • e.g. moving Telos out of a beam, or walking Vorago on the waterfall phase to skip mechanics and save time.
 ⬥ Being able to **walk your own bleeds for increased damage** is a *strong* DPS increase.
@@ -876,14 +876,14 @@ etc.
 .
 ## Weapon Poison**__ <:weppoison:689525476158472288>
 .tag:poison
-### How It Works**__
+### How It Works
 ⬥ **Weapon Poison provides provides a buff that allows players to have a 12.5% chance of poisoning a non-immune target every attack.**
     • Duration of this buff depends on the grade of poison (normal, +, ++, +++) being used.
     • After being poisoned <:poisonicon:944649693500154006> targets will take damage every 16t/9.6s, for 3 minutes.
     • Poison damage hits 2t after the damage that applied it.
 
 .
-### Calculating Poison Damage**__
+### Calculating Poison Damage
 ⬥ **Base poison damage <:poisonicon:944649693500154006> is 20% of ability damage**.
     • Each tier of weapon poison (+, ++, +++) increases this value by 25% of its **base** value. Cinderbane gloves <:cinderbanes:513190158355660812> also give an additional 25%.
     • The final damage is 65-130% of the total value.
@@ -899,7 +899,7 @@ etc.
 ⬥ Poison damage **is **affected by a number of items, covered in the following section.
 
 .
-### Poison Interactions**__
+### Poison Interactions
 ⬥ **Cinderbane gloves** <:cinderbanes:513190158355660812>
     • Ignores the 16t poison damage cooldown.
     • Gives *1/8 (12.5%) chance per hit to apply poison*, doing an extra hit of damage and resetting the 16t damage timer.
@@ -953,13 +953,13 @@ etc.
     • Poison damage dealt by the player will not heal them through any means.
 
 .
-### Poison in Group Encounters**__
+### Poison in Group Encounters
 ⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are are target-based will affect all poison damage (i.e. sourced from any player).
 ⬥ **Local** modifiers (that are player-specific) like Cinderbanes <:cinderbanes:513190158355660812> / Wyvern Crossbow <:wyverncrossbow:580177522587729940> / etc. will only affect the hitsplats as a result of that player.
 ⬥ The single recurring poison hit that occurs on a poisoned target every 9.6s will take its damage based on the last player who applied poison on the target.
 
 .
-### Poison Build**__
+### Poison Build
 ⬥ Use `!poison` to see components of a poison build.
 
 .
