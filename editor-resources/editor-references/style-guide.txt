@@ -99,17 +99,17 @@ Guides are broken down into sections to separate different parts of the guide, w
     • See the __**Lists**__ section below for more.
 
 ⬥ See the following image for an example.
-.img:https://img.pvme.io/images/c7DP8rS.png
+.img:https://img.pvme.io/images/T9HOEZjKin.png
 .
 ⬥ The above image shows a part of a guide written following the guidelines, shown as it would appear within a properly formatted file:
-    • Proper __**Section heading**__ heading (line 171).
-    • Proper __**Subsection**__ headings (lines 173, 183).
-    • Valid `.tag:word` tag command (line 172).
-    • New message indicator period `.` character (lines 170, 182).
-    • Blank lines prior to section/subsection messages (lines 169, 181).
-    • *Italicised* note on line 180, and emphasized **bold** point on line 184.
+    • Proper __**Section heading**__ heading (lines 11, 22).
+    • Proper __**Subsection**__ headings (lines 16, 24).
+    • Valid `.tag:word` tag command (line 12).
+    • New message indicator period `.` character (line 23).
+    • Blank lines prior to section/subsection messages (lines 10, 21).
+    • *Italicised* note on line 20, and emphasized **bold** point on line 18.
     • Properly used bulleted points within the subsection.
-    • Emoji used with one blank space between it and the preceding word (line 184).
+    • Emoji used with one blank space between it and the preceding word (lines 17, 22).
 
 .
 ## __Formatting Lists__
@@ -163,6 +163,8 @@ Embedded content here refers to **two** kinds of messages.
 ⬥ If plain website links are used, then they should be formatted similar: `**Link text** - <https://...>`
     • Surround open links with `<>` brackets prevent embeds from appearing.
     • Example: **RuneScape Wiki** - <https://runescape.wiki/>
+⬥ If masked links are used, then they should be formatted like so: `[Link Text](<https://...>)`
+    • Example: [Runescape Wiki](<https://runescape.wiki/>)
 
 .
 ### Discord Embed Messages
@@ -365,7 +367,7 @@ This section contains general syntax for formatting text in guides, some helpful
     • Example of a Table of Contents entry: `**Section Title** - $linkmsg_SectionTagWord$`
 
 .
-### Discord Commands**__ **(to be used in <#689575078698287152>)**
+### Discord Commands (to be used in <#689575078698287152>)
 The following commands are used for instructing the bot to perform certain actions, which may be required at times.
 ⬥ `pvme$txtpost (attach a .txt file here)`
     • Posts the text file in Discord.
