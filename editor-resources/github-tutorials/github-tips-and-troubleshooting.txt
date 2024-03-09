@@ -1,10 +1,10 @@
-> **__Introduction__**
+## __Introduction__
 .tag:intro
 This guide will go over an assortment of common issues you may encounter while working with Github, as well as a few helpful things you can do to streamline your workflow.
 *Note: You can always ask any editor or staff for help with GitHub at any time.*
 
 .
-> __**Frequently Used Terminology**__
+## __Frequently Used Terminology__
 .tag:keywords
 ⬥ **Repository**
     • A collection of all the files and folders for a single project, that is tracked and version controlled.
@@ -16,9 +16,9 @@ This guide will go over an assortment of common issues you may encounter while w
     • A request to merge *your changes* into the *main repository*, to be accepted by someone with appropriate permissions.
 
 .
-> **__Common Problems__**
+## __Common Problems__
 .tag:trouble
-**__Failed Checks__**
+### Failed Checks
 .tag:failedchecks
 ⬥ PvME GitHub is set up to automatically check for valid formatting and styling. There are a number of checks, such as:
     • Trailing whitespace - extra space at the end of a line
@@ -40,14 +40,14 @@ This guide will go over an assortment of common issues you may encounter while w
 ⬥ Your Pull Request should now be error-free once the checks complete again.
 
 .
-**__Checks Are Stuck__**
+### Checks Are Stuck
 .tag:stuckchecks
 ⬥ Rarely, the style and syntax checks may get stuck, neither succeeding nor failing. In such an event, usually merging a different minor pull request tends to resolve the issue.
 ⬥ Checks can take some time to complete at times, so wait for at least 20-30 minutes before it is considered an issue.
 ⬥ In case this occurs, you can contact an editor or staff for assistance.
 
 .
-**__Your Branch Is 'X' Commits Behind Master__**
+### Your Branch Is 'X' Commits Behind Master
 .tag:commitdiff
 ⬥ When you make a new fork, your fork will look like this:
 .img:https://img.pvme.io/images/j3kEy55.png
@@ -59,10 +59,10 @@ This guide will go over an assortment of common issues you may encounter while w
 
 ***For more experienced users**: PvME squashes and merges all pull requests. This causes a difference in commit hashes, which is why your branch will be both ahead AND behind in commits after a pull request is accepted. You can clean this up by discarding commits from accepted PRs and syncing your branch to pvme:master. Or by resetting your branch to pvme:master. Or just delete and start over.|*
 
-> __**Pull Requests**__
+## __Pull Requests__
 .tag:pr
 .
-**__Multiple Changes & Updating an Existing Pull Request__**
+### Multiple Changes & Updating an Existing Pull Request
 ⬥ It is possible to include changes to multiple files within the same Pull Request, and to amend files you have already modified as part of that Pull Request.
 ⬥ This can be helpful to reduce the number of PRs being opened, and remove the need of closing a PR and reopening it if a mistake has been made.
 
@@ -72,7 +72,7 @@ This guide will go over an assortment of common issues you may encounter while w
 .img:https://img.pvme.io/images/kxvu0O2.png
 
 .
-**__Modify an Existing File in the Pull Request__**
+### Modify an Existing File in the Pull Request
 .tag:modifypr
 To make an a change to a file that already contains a change, *in the same pull request*, do the following.
 ⬥ Navigate to your Pull Request, and go to the *Files Changed* tab.
@@ -84,7 +84,7 @@ To make an a change to a file that already contains a change, *in the same pull 
 .img:https://img.pvme.io/images/OxtPQXE.png
 
 .
-**__Add a New File to the Pull Request__**
+### Add a New File to the Pull Request
 .tag:addpr
 To edit a different file, and include it in the same pull request, do as follows,
 ⬥ Navigate to your Pull Request and click on the name of your branch, here:
@@ -99,9 +99,9 @@ To edit a different file, and include it in the same pull request, do as follows
 .img:https://img.pvme.io/images/UKnKrfs.png
 
 .
-> **__Helpful Tips__**
+## __Helpful Tips__
 .tag:tips
-**__File Split View__**
+### File Split View
 .tag:diffview
 ⬥ When opening a Pull Request, it is good practice to look at your changes and see if any mistakes have been made.
 ⬥ By default, you will see differences between your changes and the original file in *Unified View*.
@@ -116,7 +116,7 @@ To edit a different file, and include it in the same pull request, do as follows
 .img:https://img.pvme.io/images/IAz8bya.png
 
 .
-__**Bulk Replacing**__
+### Bulk Replacing
 ⬥ To bulk replace, either navigate to the **Edit** menu then select **Replace in Files** or use the Ctrl+Shift+H keybind to do the same.
 .img:https://img.pvme.io/images/avBqR0i.png
 ⬥ Doing this will open the **Search/Replace** side menu.

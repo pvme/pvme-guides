@@ -1,4 +1,4 @@
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 The PVMe Spreadsheet is a Google Sheet document that is used to store dynamic information for use in guides. This includes things like prices of items, values of invention components, calculating boss revenue, etc. which can change over time. This guide is a brief overview of the sheet, and how you can use data from it in your guides.
 
@@ -15,7 +15,7 @@ The spreadsheet can be found at the following link.
 *Note: Data in guides is only pulled from the **master** copy of the sheet. To modify existing data, or add new data, use <#771436827214086154>.*
 
 .
-> __**PvME Spreadsheet Layout**__
+## __PvME Spreadsheet Layout__
 .tag:layout
 ⬥ When you open the spreadsheet, you will see the following sheets at the bottom:
 .img:https://img.pvme.io/images/u0WjDXv.png
@@ -31,7 +31,7 @@ The spreadsheet can be found at the following link.
 ⬥ To access a specific piece of information, only two things are required: the **sheet name** and **cell number**.
 
 .
-> __**Using Spreadsheet Data In Guides**__
+## __Using Spreadsheet Data In Guides__
 .tag:howto
 ⬥ Using data from the spreadsheet in a guide is very straightforward.
 ⬥ Values from the sheet can be accessed using the following command: `data_pvme:<sheet>!<cell>`, replacing the contents of `<sheet>` and `<cell>` with the **sheet name** and **cell number** respectively.
@@ -46,7 +46,7 @@ Greater Chain <:gchain:787904334495088672> is a very powerful ability, but is al
 *Note: The command syntax can also be found in the **Commands** dropdown menu in the web guide editor tool*.
 
 .
-> __**Requesting Changes/Additions**__
+## __Requesting Changes/Additions__
 .tag:requests
 ⬥ Anyone can make a copy of the sheet for personal use, but only data from the master sheet will be referenced by the bot.
 ⬥ To request any changes or additions to the sheet, use the <#771436827214086154> channel.

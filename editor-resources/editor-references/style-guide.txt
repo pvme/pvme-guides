@@ -1,8 +1,8 @@
-> **__Style Guide for PvME__**
+# Style Guide for PvME
 .img:https://img.pvme.io/images/hLk8oJr.png
 
 .
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 This channel covers stylistic aspects that PvME guides tend to follow for consistency and ease of reading.
 ⬥ Try to stick to these guidelines when submitting writeups/improvements to guides.
@@ -13,14 +13,14 @@ This channel covers stylistic aspects that PvME guides tend to follow for consis
 *Note: If you ever require **any** assistance with styling, feel free to tag an editor!*
 
 .
-> __**Basic Guide Structure**__
+## __Basic Guide Structure__
 .tag:basic
 This is the basic structure that PvME guides begin with. By using similar structures across all guides, it is easier for readers to find the section that pertains to information they are looking for, as sections will tend to remain in the same order (e.g. **Presets** will always be near the top of a guide, **Table of Contents** at the bottom).
 
 There may naturally be some variation in guides for different bosses, but the basic layout will remain the same.
 
 .
-__**Basic Structure**__
+### Basic Structure
 *Note: Each of the **bold** bullets is a major section in a guide, and contains sub-sections within it.*
 .
 ⬥ **Introduction**
@@ -45,12 +45,12 @@ __**Basic Structure**__
 ⬥ Follow this basic format and incorporate the other guidelines for embedding, rotations, etc. and you should be well on your way to having a stylized guide.
 
 .
-> __**General Style Choices**__
+## __General Style Choices__
 .tag:general
 These are some some general rules to follow with regard to grammar, punctuation and other PvME-specific practices, applicable to all guides.
 
 .
-__**Language and Formatting**__
+### Language and Formatting
 ⬥ Prefer **UK spelling and style**.
     • e.g. armour over armor.
 ⬥ Prefer the **date format YYYY/MM/DD**.
@@ -62,14 +62,13 @@ __**Language and Formatting**__
 ⬥ Text may be emphasized through the use of **bold**, *italicised* and __underlined__ text.
     • **Bold** text is typically reserved for main items from a list for discussion, or for emphasis of certain points.
     • *Italicised* text is usually for small notes that accompany sections and is usually not preceeded by a bullet.
-    • __**Bold, underlined**__ text is reserved for Section and Subsection headings.
 .
 ⬥ When using emojis, the order is: **word, then emoji** - e.g. Spellbook Swap <:SBS:543875425055670275>
     • The exception to this rule is in presets where **obscure items go emoji, then word** - e.g. <:conservationofenergy:697808773711921195> Conservation of Energy
 ⬥ Always **surround emojis by one space** on either side.
 
 .
-__**PvME Specific**__
+### PvME Specific
 ⬥ Every channel should have its channel topic with the correct title (e.g. channel for "aod" would have "Nex: Angel of Death" as it's topic).
 ⬥ Where possible, the first message of a guide should be an image that best represents the guide.
 ⬥ If crediting a user for contributing them to a guide, give them a shoutout in <#1152993406344249475>.
@@ -81,14 +80,14 @@ __**PvME Specific**__
 ⬥ Do not end a line with a blank space (**no trailing whitespace on a line**).
 
 .
-> __**Sections and Subsections**__
+## __Sections and Subsections__
 .tag:sections
 Guides are broken down into sections to separate different parts of the guide, with subsections used for further breakdowns within a secion.
 
 .
-__**Formatting Sections**__
-⬥ Format sections like this: `> __**Sections**__`.
-⬥ Format subsections like this: `__**Subsection**__`.
+### Formatting Sections
+⬥ Format sections like this: `## __Sections__`.
+⬥ Format subsections like this: `### Subsection`.
 ⬥ Every section title should be followed by a `.tag:word` command in the next line after the section title.
     • This is used to create links to sections in the Table of Contents.
 ⬥ **Every section should have a subsection** (the only exception is a `Drops` section).
@@ -100,32 +99,32 @@ __**Formatting Sections**__
     • See the __**Lists**__ section below for more.
 
 ⬥ See the following image for an example.
-.img:https://img.pvme.io/images/c7DP8rS.png
+.img:https://img.pvme.io/images/T9HOEZjKin.png
 .
 ⬥ The above image shows a part of a guide written following the guidelines, shown as it would appear within a properly formatted file:
-    • Proper __**Section heading**__ heading (line 171).
-    • Proper __**Subsection**__ headings (lines 173, 183).
-    • Valid `.tag:word` tag command (line 172).
-    • New message indicator period `.` character (lines 170, 182).
-    • Blank lines prior to section/subsection messages (lines 169, 181).
-    • *Italicised* note on line 180, and emphasized **bold** point on line 184.
+    • Proper __**Section heading**__ heading (lines 11, 22).
+    • Proper __**Subsection**__ headings (lines 16, 24).
+    • Valid `.tag:word` tag command (line 12).
+    • New message indicator period `.` character (line 23).
+    • Blank lines prior to section/subsection messages (lines 10, 21).
+    • *Italicised* note on line 20, and emphasized **bold** point on line 18.
     • Properly used bulleted points within the subsection.
-    • Emoji used with one blank space between it and the preceding word (line 184).
+    • Emoji used with one blank space between it and the preceding word (lines 17, 22).
 
 .
-> __**Formatting Lists**__
+## __Formatting Lists__
 .tag:lists
 Lists are the primary informational structure within a subsection.
 
 .
-__**Bulleted Lists**__
+### Bulleted Lists
 ⬥ All bullet points contain 1 space between the bullet and the first word.
 ⬥ Format main points with the `⬥` bullet with no indentation.
     • Format all subpoints using the `•` bullet indented by 4 spaces.
         ⬩ Format sub-subpoints using the `⬩` bullet indented by 8 spaces.
 
 .
-__**Alphanumerical Lists**__
+### Alphanumerical Lists
 1) Format main points like this: `appropriate # followed by a closing parenthesis` with no indentation.
     a) Format subpoints like this: `appropriate letter followed by a closing parenthesis` indented by 4 spaces.
         ⬩ Format subsubpoints like this: `⬩` indented by 8 spaces.
@@ -145,7 +144,7 @@ __**Alphanumerical Lists**__
 ⬥ **Use subpoints and sub-subpoints as required to avoid illegible walls of text**. Ideally, keep text as consise as it can be without losing meaning or readability.
 
 .
-> **__Embedded Content__**
+## __Embedded Content__
 .tag:embed
 Embedded content here refers to **two** kinds of messages.
 
@@ -154,7 +153,7 @@ Embedded content here refers to **two** kinds of messages.
     • e.g. every `!command` in PvME Discord is a Discord embed message.
 
 .
-__**In-line Embedded Media Content**__
+### In-line Embedded Media Content
 ⬥ The preferred hosting platforms are **YouTube** for videos, and **Imgur** for screenshots and short gifs/clips. **Streamable is absolutely forbidden**.
 ⬥ Images and video embeds should be their own message, avoid direct links to images in guides as far as possible.
     • Example: the highlighted section below shows an embedded image.
@@ -164,21 +163,23 @@ __**In-line Embedded Media Content**__
 ⬥ If plain website links are used, then they should be formatted similar: `**Link text** - <https://...>`
     • Surround open links with `<>` brackets prevent embeds from appearing.
     • Example: **RuneScape Wiki** - <https://runescape.wiki/>
+⬥ If masked links are used, then they should be formatted like so: `[Link Text](<https://...>)`
+    • Example: [Runescape Wiki](<https://runescape.wiki/>)
 
 .
-__**Discord Embed Messages**__
+### Discord Embed Messages
 ⬥ These are created using a JSON-formatted message according to Discord's specifications.
 ⬥ Numerous examples can be found in the form of PvME `!commands`, and the __**Table of Contents**__ section in each channel.
 ⬥ If you have many videos or examples consecutively (e.g. for the __**Example Kills**__ section), prefer to use embeds to reduce channel length.
     • This comes at the expense of font size, line spacing and horizontal screen width capability, so use them only when required.
 
 .
-> __**Gear Presets**__
+## __Gear Presets__
 .tag:presets
 Gear presets are used at the start of guides to concisely inform users of all items required to effectively tackle the content, including **equipment**, **inventory setups**, **relics** and **notes on important items**.
 
 .
-__**Styling Explanation**__
+### Styling Explanation
 ⬥ The basic preset layout is as follows.
 ```
 → Preset embed (contains sample image and breakdown with notes)
@@ -202,7 +203,7 @@ __**Styling Explanation**__
         ⬩ The first variation can be used when there are multiple presets to be displayed.
         ⬩ The second variation can be used when there is only a single preset to be displayed.
 
-> **__Presets__**
+## __Presets__
 .
 {
   "embed": {
@@ -231,7 +232,7 @@ __**Styling Explanation**__
 
 .
 ```
-> **__Presets__**
+## __Presets__
 ..
 {
   "embed": {
@@ -259,7 +260,7 @@ __**Styling Explanation**__
 ..embed:json
 ```
 .
-> **__Preset__**
+## __Preset__
 .
 {
   "embed": {
@@ -278,7 +279,7 @@ __**Styling Explanation**__
 
 .
 ```
-> **__Preset__**
+## __Preset__
 ..
 {
   "embed": {
@@ -296,10 +297,10 @@ __**Styling Explanation**__
 ..embed:json
 ```
 .
-> __**Writing Rotations**__
+## __Writing Rotations__
 .tag:rotations
 It is important that rotations are written in a consistent manner throughout PvME to ensure readability and accuracy. Here are some rules to follow when writing rotations for guides.
-__**Rotation/Ability Formatting**__
+### Rotation/Ability Formatting
 ⬥ **Use the full code for PvME emojis** pinned in <#724129126314803230>, or from <#1020845621227307110> to add emojis to a guide.
     • For example, use `<:bloodbarrage:537338981747261446>` instead of `:bloodbarrage:`
 .
@@ -344,27 +345,29 @@ __**Rotation/Ability Formatting**__
     • If special attacks are used off-style, it is unnecessary to specify prayer flicks.
 
 .
-> __**Commands and Formatting Syntax**__
+## __Commands and Formatting Syntax__
 .tag:commands
 This section contains general syntax for formatting text in guides, some helpful commands in GitHub syntax, and PvME Bot instructions in case automatic channel updates fail.
-__**Formatting Syntax**__
+### Formatting Syntax
 ⬥ `**Bold text**` - this creates **Bold text**
 ⬥ `*Italicised Text*` - this creates *Italicised text*
 ⬥ `__Underlined text__` - this creates __Underlined text__
 ⬥ `` `Code block text` `` - this creates `Code block text`
-⬥ `> __**Major Section**__` - this creates | __**Major Section**__
-⬥ `__**Subsection**__` - this creates __**Subsection**__
+⬥ `## __Major Section__` - this creates a
+## __Major section__
+⬥ `### Subsection` - this creates a
+### Subsection
 *Note: multiple formatting syntax may be combined together.*
 
 .
-__**Github Syntax/Commands**__
+### Github Syntax/Commands
 ⬥ `.img:[imgurlinkhere]` - used for embedding images
 ⬥ `.tag:[word]` - used as a target message for table of contents to link
 ⬥ `$linkmsg_[tagword]$` - creates a link to the `[word]` used in the `.tag:[word]` command
     • Example of a Table of Contents entry: `**Section Title** - $linkmsg_SectionTagWord$`
 
 .
-__**Discord Commands**__ **(to be used in <#689575078698287152>)**
+### Discord Commands (to be used in <#689575078698287152>)
 The following commands are used for instructing the bot to perform certain actions, which may be required at times.
 ⬥ `pvme$txtpost (attach a .txt file here)`
     • Posts the text file in Discord.
@@ -384,12 +387,12 @@ The following commands are used for instructing the bot to perform certain actio
     • Deletes a command (can be a source command, or an alias).
 
 .
-> __**Table of Contents (formatting)**__
+## __Table of Contents (formatting)__
 .tag:toc
 The Table of Contents (ToC) is present in every guide, and used for quick navigation. It is important that this is accurate, to ensure users are directed to the correct information within guides, especially as guides get longer in length.
 
 .
-**__ToC Formatting__**
+### ToC Formatting
 ⬥ ToC is a Discord embed, and should be in at the end of every guide in a section called "Table of Contents".
 ⬥ The **ToC should be pinned** in the channel.
     • To do this just add a new line with the command `.pin:delete` after the message.

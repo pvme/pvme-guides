@@ -1,19 +1,19 @@
-**__Auto Attacks__**
+# Auto Attacks
 .tag:intro
 Autos for <:range:580168050121113623> <:melee:1096130867279171706> <:Magic:689504724159823906> are separate from abilities and also have their own cooldown system separate from the GCD system abilities are typically bound to.
 
 Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:1137809137401602109>.
 
 .
-> **__Cooldown__**
+## __Cooldown__
 .tag:cooldown
-**__When Cooldowns are Incurred__**
+### When Cooldowns are Incurred
 ⬥ Casting an ability or auto incurs an auto cooldown
     • Channels are cast multiple times, each cast incurs a cooldown as expected
     • Discussed later are exceptions to if/when/how auto cooldown is incurred
 
 .
-**__Cooldown Duration__**
+### Cooldown Duration
 ⬥ Every weapon has a weapon speed, this determines the cooldown incurred
 .
 
@@ -29,12 +29,12 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__How to Think about the Cooldown System__**
+### How to Think about the Cooldown System
 ⬥ Cooldowns incurred overlap, they must all end before an auto can be cast
     • Examples will follow visualizing this
 
 .
-**__Example 1 - Will NOT Work__**
+### Example 1 - Will NOT Work
 .
 {
   "embed": {
@@ -46,12 +46,12 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .embed:json
 
 .
-**__The Scenario__**
+### The Scenario
 .
 ```Average Auto + Fastest Ability → (4t) Auto + Ability```
 
 .
-**__Why Does This NOT Work?__**
+### Why Does This NOT Work?
 .
 ⬥ Average auto applies 6t cooldown, fastest ability applies a 4t one
 ⬥ GCD end: 3t of cooldown left from the auto and 1t from the ability
@@ -62,7 +62,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__Example 2 - Will Work__**
+### Example 2 - Will Work
 .
 {
   "embed": {
@@ -74,12 +74,12 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .embed:json
 
 .
-**__The Scenario__**
+### The Scenario
 .
 ```Average Auto + Ability → Fastest Ability → (4t) Auto + Ability```
 
 .
-**__Why Does This Work?__**
+### Why Does This Work?
 ⬥ Average auto and ability both apply an overlapping 6t auto coolown
 ⬥ GCD 1 End: 3t left of both cooldowns, fastest ability applies a 4t cooldown
 ⬥ GCD 2 End: auto cooldown of avg auto + ability end
@@ -90,7 +90,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__Exceptions__**
+### Exceptions
 .
 ⬥ Abilities that incur auto cooldown are referred to as "damaging" abilities
 ⬥ This section will cover the abilities that do not, and ones that incur it oddly
@@ -112,7 +112,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .tag:nonToCdefensive
 
 .
-> **__In-depth Look at these Unexpected Abilities__**
+## __In-depth Look at these Unexpected Abilities__
 .tag:Unexpected
 .
 {
@@ -125,7 +125,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .embed:json
 
 .
-**__Tsunami, Omnipower, and Overpower__** <:tsunami:535533809995874304> <:omni:535533809664262179> <:overpower:535532879334080517>
+### Tsunami, Omnipower, and Overpower <:tsunami:535533809995874304> <:omni:535533809664262179> <:overpower:535532879334080517>
 .
 {
   "embed": {
@@ -142,7 +142,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__Shadow Tendrils__** <:shadowtend:642713547142332416>
+### Shadow Tendrils <:shadowtend:642713547142332416>
 .
 {
   "embed": {
@@ -159,7 +159,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__ECB (EoF) Special__** <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184>
+### ECB (EoF) Special <:ecb:615618531937222657> <:spec:537340400273195028> / <:eofspec:746403211908481184>
 .
 {
   "embed": {
@@ -176,7 +176,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__Decimation (EoF) Special__** <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184>
+### Decimation (EoF) Special <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184>
 .
 {
   "embed": {
@@ -197,7 +197,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__Detonate__** <:deto:535533833358016512>
+### Detonate <:deto:535533833358016512>
 .
 {
   "embed": {
@@ -214,7 +214,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-**__Snipe__** <:snipe:535541258425204770>
+### Snipe <:snipe:535541258425204770>
 .
 {
   "embed": {
@@ -231,24 +231,24 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .
 
 .
-> **__Adrenaline__**
+## __Adrenaline__
 .tag:Adren
 The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorating>) (rank column is Invigorate rank):
 *Note: Unlike abilities, autos **do not** give adrenaline when you splash*
 
 .
-> **__Damage__**
+## __Damage__
 .tag:Damage
-**__Rough Idea__**
+### Rough Idea
 ⬥ There are three factors to auto damage: weapon tier, weapon type, and weapon speed
     • Slower things hit harder, similarly 2H weapons hit harder than mainhand weapons and mainhand weapons harder than offhand, hence why you preferably will auto with the slowest 2H weapon you have
         ⬩ This is not to say you should default to the slowest weapon of course, because weapon tier is also a factor, but if the tiers are close then odds are the slower weapon will hit harder assuming all other things are equal.
 ⬥ **Use `!abilitydamage` to calculate damage**
 
 .
-> **__Offing__**
+## __Offing__
 .tag:Offing
-**__What it is__**
+### What it is
 ⬥ It is important to mention that autos can be forced to not automatically try and fire when their cooldown ends by "offing", this is done as follows:
     • Clicking under yourself
     • Using a spell you cannot cast (e.g., trying to cast <:disrupt:535614336207552523> when on the Ancient Spellbook)
@@ -256,7 +256,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
     • Using Cease <:cease:864235458464186418>
 
 .
-> **__Clicking vs Auto Bind__**
+## __Clicking vs Auto Bind__
 *Note: i.e. clicking target vs using a bind (or clicking from bar) to auto*
 1) If offed, cannot use auto bind mid-GCD to try recast the auto
     a) Would need to recast after GCD ends
@@ -272,7 +272,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
         ⬩ So, <:Attack:689509250472476758> / <:range:580168050121113623> autos can't be 4TAA'd, ability is on t5 where auto is t4
 
 .tag:ClickVsBind
-> **__Application: Defensive Autos__**
+## __Application: Defensive Autos__
 .tag:DefAutos
 .
 {
@@ -285,20 +285,20 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 .embed:json
 
 .
-**__What is a Defensive Auto__**
+### What is a Defensive Auto
 ⬥ Defensive autos are when you use a "defensive" and get an auto as a result
 
 .
-**__Why Defensive Autos Exist__**
+### Why Defensive Autos Exist
 ⬥ "Non-damaging" abilities, <:deto:535533833358016512>, and <:shadowtend:642713547142332416> do not incur cooldown on cast
 
 .
-**__When are Defensive Autos Used__**
+### When are Defensive Autos Used
 ⬥ Usually only when it is lossless, like using <:sunshine:994921119381463070> / <:zgs:626465964325601290> <:spec:537340400273195028>
 ⬥ When maximizing adren gain during a build by spamming defensive autos
 
 .
-**__First Implication of Defensive Autos__**
+### First Implication of Defensive Autos
 ⬥ Non-channeled fast/fastest ability into a defensive causes a mid-GCD auto
     • For <:Magic:689504724159823906>: this will be your autocasted spell, but can be altered using a spell
         ⬩ To change: do the spell (e.g. <:icebarrage:537340400185245701> / <:ent:567727987274022924>) *then* defensive on same tick
@@ -316,7 +316,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 .embed:json
 
 .
-**__Second Implication of Defensive Autos__**
+### Second Implication of Defensive Autos
 ⬥ <:Magic:689504724159823906>, due to having auto binds, can cast an auto + ability on the same tick
     • This lets <:Magic:689504724159823906> do an average ability into a defensive auto
         ⬩ Ticks: `T0: Average Ability → T3: Defensive → T6: Auto + Ability`
@@ -332,7 +332,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 .embed:json
 
 .
-**__How Freedom is Different__** <:freedom:535541258240786434>
+### How Freedom is Different <:freedom:535541258240786434>
 ⬥ If cast with DW, <:freedom:535541258240786434> gives both a MH/2H and an OH auto
     • Always get the OH auto, to change what is cast do auto → <:freedom:535541258240786434> same tick
         ⬩ To change the 2H auto: do auto + ability input at GCD end
@@ -341,7 +341,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ⬥ Feel free to use the `!freedom` command
 
 .
-**__Delaying Defensive Autos__**
+### Delaying Defensive Autos
 ⬥ You can delay autos by "offing", for "offing" prevents autos firing, as discussed at $linkmsg_Offing$
     • Useful for <:freedom:535541258240786434> to change the 2H and OH auto after a fast/fastest ability
         ⬩ This since you can only change 2H auto at end of GCD (unless queueing it)
@@ -367,35 +367,35 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ⬥ Non-<:freedom:535541258240786434> defensives: works, but doing spell → defensive changes auto too
 
 .
-**__Summary__**
-⬥ **__After an Average-speed ability or after offing__**
+### Summary
+⬥ **__After an Average-speed ability or after offing
     • Non-channeled Ability → Defensive → (end of GCD) Spell + Ability
         ⬩ If you offed after a fast/fastest ability, can also click the target to auto
-⬥ **__After a Fast/Fastest-speed ability__**
+⬥ **__After a Fast/Fastest-speed ability
     • Non-channeled Ability → Spell + Defensive → Ability
         ⬩ Only use a spell if you want to fire a non-autocast auto mid GCD
 
 .
-> **__Application: 4TAA__**
+## __Application: 4TAA__
 .tag:4TAA
-**__Summary__**
+### Summary
 ⬥ Use `!4taa` for a brief summary of everything mentioned
 
 .
-**__What is 4TAA__**
+### What is 4TAA
 ⬥ 4TAA stands 4-tick auto-attack
     • It is the act of delaying casting your next ability an extra tick when the GCD ends to weave in an auto and ability on the 4th tick
 ⬥ It is largely applicable to <:Magic:689504724159823906>, but <:range:580168050121113623> / <:melee:1096130867279171706> can use it to weave in debuff spells
 
 .
-**__How Does 4TAA Work__**
+### How Does 4TAA Work
 ⬥ Damaging abilities incur auto cooldown, as mentioned at $linkmsg_cooldown$
     • 4t cooldown after a fastest (wand) ability; 6t after an average (staff) one
         ⬩ 4TAA makes use of this and the fact <:Magic:689504724159823906> can auto + ability same tick
         ⬩ Use this by delaying next ability 1t to force auto + ability on 4th tick
 
 .
-**__4TAA Guide__**
+### 4TAA Guide
 ⬥ Video guide <https://youtu.be/HmZR1BBwsK0>
 ⬥ When 4TAAing you will generally use Method A or B
 ⬥ In the following, DW = Wand + Orb, 2H = Staff:
@@ -428,7 +428,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 .embed:json
 
 .
-**__Things to Notice in the 4TAA Guide__**
+### Things to Notice in the 4TAA Guide
 ⬥ Without <:gconc:869285393223254107>, auto is every 2nd ability as 2H auto causes a 6t cooldown
     • With <:gconc:869285393223254107> it is every 3rd due to <:gconc:869285393223254107> cooldown
 ⬥ The ability before repeat **must** be non-channeled, since channels cast and incur auto cooldown multiple times, as discussed at $linkmsg_cooldown$
@@ -445,9 +445,9 @@ DW Asphyx | Auto Asphyx → DW Abil → Auto Abil
 ```
 
 .
-> **__Application: 5TAA:__**
+## __Application: 5TAA:__
 .tag:5TAA
-**__What is 5TAA__**
+### What is 5TAA
 ⬥ Like 4TAA, but for <:range:580168050121113623> / <:melee:1096130867279171706> as no auto binds; must wait 1t more for ability
     • 4TAA: `T0: Fastest non-channel → T4: Auto + Ability`
     • 5TAA: `T0: Fastest non-channel → T4: Auto → T5: Ability`
@@ -462,13 +462,13 @@ DW Asphyx | Auto Asphyx → DW Abil → Auto Abil
 .embed:json
 
 .
-**__Use Cases__**
+### Use Cases
 ⬥ Far more limited than 4TAA, primarily for aligning ticks
     • E.g. <:zerk:535532854004678657> rotations with a 7t channel (e.g. 4-hit <:destroy:535532879330148352>) but unable to do a 5t channel (e.g. <:gflurry:535532879283879977>)
         ⬩ This is niche post <:abyssalscourge:947871842469834832> + <:jawsoftheabyss:947871842595639306>
 
 .
-**__Example__**
+### Example
 ```
 Visualization of 5TAA to align ticks
 T0: Zerk
@@ -486,7 +486,7 @@ T33: Ability + Zerk ends
     • Further, using a non-fastest channel prior to that non-channel cannot be used either for similar reasons to why 2H channels can cause issues for 4TAA
 
 .
-**__5TAA Zerk vs Non-5TAA Zerk Example__**
+### 5TAA Zerk vs Non-5TAA Zerk Example
 .
 {
   "embed": {
@@ -501,7 +501,7 @@ T33: Ability + Zerk ends
     • In Demo 2: last decimate shows no 5TAA ≠ extra <:zerk:535532854004678657> ability
 
 .
-> **__Dark Bow Autos__**
+## __Dark Bow Autos__
 .tag:Dbow
 {
   "embed": {
@@ -526,14 +526,14 @@ T33: Ability + Zerk ends
 .
 
 .
-> **__Application: Stalling__**
+## __Application: Stalling__
 .tag:Stalling
-**__Click vs Auto Bind Release__**
+### Click vs Auto Bind Release
 ⬥ There are 2 ways to release a stall: the first is clicking, the second is using an auto (spell) bind
     • Use `!stalling` for more info on stalling
 
 .
-**__Click Release__**
+### Click Release
 ⬥ Limited to stalling and releasing on the same target
 ⬥ Next ability must be 1t after you click to release, similar to 5TAA — $linkmsg_5TAA$
     • Can release mid-GCD making this a non-issue
@@ -547,7 +547,7 @@ T33: Ability + Zerk ends
 .embed:json
 
 .
-**__Auto (Spell) Bind Release__**
+### Auto (Spell) Bind Release
 ⬥ Can stall on one target and release on another
 ⬥ Release and next ability can be same tick, similar to 4TAA — $linkmsg_4TAA$
     • Cannot release mid-GCD (unless the auto bind was queued)
@@ -563,7 +563,7 @@ T33: Ability + Zerk ends
 .embed:json
 
 .
-**__Necromancy Auto <:necroauto:1137809137401602109>__**
+### Necromancy Auto <:necroauto:1137809137401602109>
 .tag:necro
 ⬥ This guide does not apply to the Necromancy Auto <:necroauto:1137809137401602109>, which is a different type of auto entirely
 ⬥ This auto acts as an ability
@@ -572,7 +572,7 @@ T33: Ability + Zerk ends
 ⬥ As it is not a basic ability, Fury of the Small does not affect the adrenaline it generates
 
 .
-**__Mechanics of <:necroauto:1137809137401602109>__**
+### Mechanics of <:necroauto:1137809137401602109>
 ⬥ While Living Death is active, each use of this ability generates two stacks of Necrosis <:necrosis:1139452791878856805>
 ⬥ While the Omni guard is equipped, each use of the ability generates 1 Death Spark <:deathspark2:1143642268193009724> stack. Upon reaching 5 stacks <:deathspark:1143642264850141205>, the next basic attack is empowered and deals double damage
 ⬥ By default, <:necroauto:1137809137401602109> is used whenever other abilities are not being cast, replacing the traditional auto-attacks from other combat styles

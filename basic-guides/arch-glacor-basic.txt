@@ -1,10 +1,10 @@
-> **__Arch-Glacor Basic Guide__**
+# Arch-Glacor Basic Guide
 .
 .img:https://img.pvme.io/images/fs1qnYD.png
 .
 
 .
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
@@ -15,9 +15,9 @@ The Arch-Glacor is **not** affected by the Glacor slayer task on hard mode. It *
 In normal mode, the player may turn mechanics on or off in order to learn them at their own pace. Once comfortable with a few mechanics, the player can turn many mechanics on at once to test themselves. In hard mode, all mechanics are enabled, with a few changes, and survivability becomes more of a challenge. In general, it is recommended to start on normal mode, progress through the mechanics, and work up to unlocking & successfully completing hard mode kills.
 
 .
-> __**Drops**__
+## __Drops__
 .tag:drops
-__**Normal Mode**__
+### Normal Mode
 In normal mode, Arch-Glacor will drop 3 piles of loot. Many of the uniques are shared with hard mode, however they are much more rare and some have additional restrictions. For example, <:wengodbook:883134307902816297> can only be obtained if all 5 mechanics are enabled.
 
 ⬥ **Scripture of Wen** <:wengodbook:883134307902816297>
@@ -27,7 +27,7 @@ In normal mode, Arch-Glacor will drop 3 piles of loot. Many of the uniques are s
 ⬥ **Glacor Core** (pet) <:glacorclaw:884739993229230092>
 
 .
-__**Hard Mode**__
+### Hard Mode
 Each kill gives a roll of loot in the Frozen Vault. Players can choose to risk the drops in the Vault for an increased chance of better loot, at the cost of a more difficult fight known as streaking, much like Telos. For each kill that a player continues in the streak, enrage increases between 5-20%. 0-42 Dark Nilas <:darknilas:884739993527013426> can be obtained in a single roll.
 
 In general, the recommended strategy for GP/hour is to streak from 0% until core, or death. Use `!glacor` command for more details.
@@ -36,7 +36,7 @@ In general, the recommended strategy for GP/hour is to streak from 0% until core
 ⬥ All unique drops from normal mode.
 
 .
-> **__Preset and Relics__**
+## __Preset and Relics__
 .tag:presets
 {
   "embed": {
@@ -57,14 +57,14 @@ In general, the recommended strategy for GP/hour is to streak from 0% until core
 .embed:json
 
 .
-> __**Mechanics**__
+## __Mechanics__
 .tag:mechanics
 The Arch-Glacor will cycle through sets of 5 different mechanics (Glacyte Minions, Flurry, Pillars of Ice, Frost Cannon and Exposed Core) in random order. Once a set of 5 mechanics is completed, the next randomized set will begin. This repeats until the fight ends. Please note that mechanics cannot occur twice in the same cycle of 5. However, it is possible to get the same mechanic back-to-back if it is the last of the previous cycle, and first of the next.
 
 *Note: in normal mode, all mechanics except for Creeping Ice can be toggled off, which decreases the Arch-Glacor's HP but lowers the quality of drops.*
 
 .
-__**Creeping Ice**__
+### Creeping Ice
 ⬥ Normal mode and hard mode: Ice Shards approach from either side of the arena and may force the player to move to safety.
 
 ⬥ If players are hit by the ice, they will take some damage and be pushed. If a player attempts to <:surge:535533810004262912> / <:bd:535532854281764884> / <:gbarge:535532879250456578> / <:escape:535541258832052231> when they are pushed, they will be pulled back to the spot they were standing and then pushed.
@@ -73,7 +73,7 @@ __**Creeping Ice**__
 .
 
 .
-__**Glacyte Minions**__
+### Glacyte Minions
 ⬥ Normal mode: the Arch-Glacor spawns minions. Arch-Glacor will be immune to damage until all minions are killed.
 
 ⬥ Hard mode: starting from 250% enrage, a tougher fifth minion will spawn: a Bolstered Glacyte.
@@ -90,7 +90,7 @@ __**Glacyte Minions**__
 .
 
 .
-__**Flurry**__
+### Flurry
 ⬥ Normal mode: Arch-Glacor will deal high damage with either <:Magic:689504724159823906> or <:range:580168050121113623>. Ranged attacks are signified with a puff of green smoke.
 
 ⬥ Hard mode: Arch-Glacor gains an additional melee attack where it swipes one of its arms across the arena. The damage from all attacks scales with enrage.
@@ -105,7 +105,7 @@ __**Flurry**__
 .
 
 .
-__**Pillars of Ice**__
+### Pillars of Ice
 ⬥ Normal mode: Arch-Glacor forces the player to the west side of the arena, and spawns elemental beams. The first beam appears shortly after the Arch-Glacor raises its arms, with the second beam appearing later. Touching beams deals high damage and drains prayer.
 
 ⬥ Hard mode: an additional third beam will appear shortly after second, and touching beams will also drain adrenaline.
@@ -133,7 +133,7 @@ __**Pillars of Ice**__
 .embed:json
 
 .
-__**Frost Cannon**__
+### Frost Cannon
 ⬥ Normal mode: Arch-Glacor traps the player in a small area and launches a huge surge of energy at them, dealing a single hard hit of magic damage.
 
 ⬥ Hard mode: the beam now deals 3 hits, and the first hit applies a 6 second stun <:stunicon:841419289428492369> and bind. Damage does not scale with enrage.
@@ -160,7 +160,7 @@ __**Frost Cannon**__
 .embed:json
 
 .
-__**Exposed Core**__
+### Exposed Core
 ⬥ Normal mode: Arch-Glacor releases its frozen core into the centre of the arena, and traps players with its arms. The core deals increasing damage over time (buff bar stacks signify this). Killing any arm will stop the damage.
 
 ⬥ Hard mode: arms now have higher HP.
@@ -175,7 +175,7 @@ __**Exposed Core**__
 .
 
 .
-__**Enrage**__
+### Enrage
 ⬥ Hard mode exclusive: Arch-Glacor's HP and auto attack damage increases with enrage, in addition to some mechanic changes.
 
 ⬥ Enrage milestones:
@@ -187,7 +187,7 @@ __**Enrage**__
     • **4000%** - gold "The Iceborn" title unlocked.
 
 .
-__**Example Kills**__
+### Example Kills
 .tag:EK
 <https://youtu.be/GwvDvSY3xm0> - 30 minutes of 5 mechanic normal mode (ranged, revo basics)
 <https://youtu.be/jfFi1YM6Q-M> - 30 minutes of 5 mechanic normal mode (magic, revo basics)
