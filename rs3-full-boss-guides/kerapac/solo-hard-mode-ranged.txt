@@ -1,1 +1,106 @@
+# Kerapac, the Bound - Solo Ranged
+.
+.img:https://img.pvme.io/images/LuuRiDd.jpg
+.
+## __Introduction__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
 
+This guide assumes you are already familiar with the basic mechanics of Kerapac which can be seen here <#1020559705204076614> and own BIS gear in Ranged.
+
+It is highly recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the helmet boost does work. You may also use the Premier Artefact <:premierartefact:918517285176623104> to have a 10% chance to not decrease the slayer task count with each kill.
+
+This strategy aims to keep HP below max from P1 to P3 to continually heal with <:soulsplit:615613924506599497> and <:vampaura:643505653079343144>, thus maximising hitsplats with <:reaverpouch:839903693837959228> passive to maximise <:poisonicon:944649693500154006> damage which has excellent synergy with <:bikarrow:971025697235689513>
+
+.
+## __Preset and Relics__
+.tag:preset
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/gr1ObJSHnT.png"
+        },
+    "fields": [
+{
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Ranged](https://pvme.github.io/preset-maker/#/8nCsUw9em4DLLlDqyhg1)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+### Overview
+⬥ Use <:KwuarmSticks:565726489341984779> + <:reaverpouch:839903693837959228> with <:reaverscroll:1022562484378419284> + autofire set to 0
+⬥ Rotations assume slayer task and <:slayerhelm:798285340460449792> on anachronia stand.
+⬥ P1 rotation assumes stalled <:incend:535541258429661215> on War's dummy.
+    • For more information see !preincend
+⬥ Do not <:timewarp:870328868815396914> and <:gdeathsswift:994644354536837121> on the same tick.
+    • Only <:gdeathsswift:994644354536837121> after seeing the <:timewarp:870328868815396914> icon on buff bar (at least 1t apart).
+⬥ Manually spam <:reaverscroll:1022562484378419284> whenever you need health.
+⬥ Have <:darkness:1137809209782698024> active for a smoother P4.
+⬥ For <:fleetingboots:789813993480388640> <:rapid:535541270521708566> you can equip <:edracoboots:1179717602151514123> back immediately after casting <:rapid:535541270521708566>.
+⬥ Use <:zamorakbrew:841409588632092694> to lower your hp at the start and whenever you reach max HP P1-3.
+⬥ Tank Kerapac slams if <70k HP left.
+
+.
+## __Phase 1__
+.tag:p1
+⬥ Use <:gdeathsswift:994644354536837121> 1 tick after yellow text appears above Kerapac.
+⬥ If <50% for <:shadowtend:642713547142332416> improvise and try to end the phase at 2 <:perfectequilibrium:1006119102814887957> stacks.
+
+<:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → (<:frag:535541273755385885> if <50% adren) → <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:grico:787904334812807238> + walk under → <:snap:535534127131394088> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:shadowtend:642713547142332416> → <:frag:535541273755385885> → <:corruptshot:535541306294796299> → <:grico:787904334812807238> → <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercing:535541258538450944> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:corruptshot:535541306294796299> → <:frag:535541273755385885>
+
+.
+## __Phase 2__
+.tag:p2
+<:timewarp:870328868815396914> + <:dismember:535532879376023572> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:deadshot:535541307666595870> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:limitless:641339233638023179> + <:fleetingboots:789813993480388640> <:rapid:535541270521708566> → walk under after <:timewarp:870328868815396914> ends → <:deadshot:535541307666595870> → <:grico:787904334812807238> → <:dismember:535532879376023572> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:rapid:535541270521708566> → <:snap:535534127131394088> → <:grico:787904334812807238> → <:mds:535541259033378827> → <:piercing:535541258538450944> + <:dive:1049378668197195808> to south clone spot → <:Tuskas:513201065513058306> → <:mds:535541259033378827> → <:corruptshot:535541306294796299> → <:frag:535541273755385885>
+
+.
+## __Phase 3__
+.tag:p3
+<:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> → <:dismember:535532879376023572> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → <:grico:787904334812807238> → <:limitless:641339233638023179> + <:rapid:535541270521708566> → walk under after <:timewarp:870328868815396914> ends  → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:deadshot:535541307666595870> → <:dismember:535532879376023572> → <:rapid:535541270521708566> → <:grico:787904334812807238> → finish with <:snap:535534127131394088>/basics if needed
+
+.
+## __Phase 4__
+.tag:p4
+⬥ Keep high hp by spamming food and <:reaverscroll:1022562484378419284> throughout P4.
+⬥ After killing south echo Kerapac is tagged with <:bikarrow:971025697235689513> basic to extend the bik arrow duration.
+⬥ Camp <:soulsplit:615613924506599497> for the 1st clone. Afterwards swap to <:DeflectMage:544195487926845462> and only <:soulsplit:615613924506599497> flick if you're careful.
+⬥ Equip <:rod:513190159462825984> if getting to dangerously low HP.
+
+.
+⬥ **South echo**
+
+<:divert:787904334377648130> → <:ecb:615618531937222657> <:eofspec:746403211908481184> + enter clone → basics until 3 <:perfectequilibrium:1006119102814887957> stacks → <:shadowtend:642713547142332416> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:bikarrow:971025697235689513> <:bolg:994189289623662702> <:spec:537340400273195028> → basics until echo is dead → tag <:kerapac:875443920673337344> with a basic + <:surge:535533810004262912> towards NE between remaining echoes
+
+.
+⬥ **North and west echoes**
+
+<:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> + equip <:wenarrow:971025697046925362> → <:grico:787904334812807238> → <:piercing:535541258538450944> / <:mds:535541259033378827> → <:deadshot:535541307666595870> → <:limitless:641339233638023179> + <:snap:535534127131394088> → target north echo + <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → <:grico:787904334812807238> → finish off north and east echoes with <:bolg:994189289623662702> <:spec:537340400273195028> and basics → <:dive:1049378668197195808> east and target <:kerapac:875443920673337344>
+
+⬥ **Kerapac**
+
+<:bikarrow:971025697235689513> basic → <:wenarrow:971025697046925362> <:deadshot:535541307666595870> →  <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → finish with <:snap:535534127131394088>/<:bolg:994189289623662702> <:spec:537340400273195028>/basics
+
+.
+## __Example Kills__
+.tag:example
+<https://youtu.be/ebuANMI5RuU> 2:42
+
+.
+Content Provided by: <@159663440011460609>
+Formatting Maintained by: <@159663440011460609>
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
