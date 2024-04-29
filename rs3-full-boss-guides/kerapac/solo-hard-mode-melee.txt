@@ -1,1 +1,115 @@
+# Kerapac, the Bound - Solo Melee
+.
+.img:https://img.pvme.io/images/LuuRiDd.jpg
+.
+## __Introduction__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
 
+This guide assumes you are already familiar with the basic mechanics of Kerapac which can be seen here <#1020559705204076614> and own BIS gear in Melee.
+
+It is highly recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the helmet boost does work. You may also use the Premier Artefact <:premierartefact:918517285176623104> to have a 10% chance to not decrease the slayer task count with each kill.
+.
+## __Preset and relics__
+.tag:preset
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/CQXZEhrpFL.png"
+        },
+    "fields": [
+{
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Melee](https://pvme.io/preset-maker/#/eeQrQb6eoY2gKTiw1vOw)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### Additional Info
+⬥ You have to be on a slayer task <:slayer:797896049548066857>
+
+⬥ Challenging parts:
+    • Learning to walk under <:kerapac:875443920673337344> to avoid rift without cancelling <:destroy:535532879330148352> takes precision.
+    • Players' damage taken in Phase 4 can snowball if clones are not killed fast.
+        ⬩ Learners may find it hard to use <:zerk:535532854004678657> in the last phase.
+        ⬩ Learners can consider using <:supersara:642708771344482314> instead of <:supergrest:690140078407680059> to heal more.
+        ⬩ However, brewing down too fast can lead to slower echo kills and thus taking much more damage.
+        ⬩ Improvising rotations with <:debil:535541278264393729> or <:reflect:535541258786177064> (with a <:kalphitedefender:643151141382651907>) might be better than following the rotation below and brewing if the kill is not going well.
+
+⬥ The rotations listed below assume the following:
+    • All <:timewarp:870328868815396914> are used 1 tick before ability they are listed with.
+        ⬩ Using both on the same tick will cause players to warp to their state **post ability cast**.
+    • Players swap to <:glovesofpassage:556588694862037012> for <:havocgop:994920849117282365> and back to <:cinderbanes:513190158355660812> immediately after.
+    • All bleeds (<:zekkil:903244090953588787> <:eofspec:746403211908481184>, <:dismember:535532879376023572>, <:bloodtendrils:535532854327640064>, <:slaughter:535532879237873666>) are cast with <:mwspear:694566917456789554> unless specified otherwise.
+    • All channelled abilities (<:assault:535532855191928842>, <:destroy:535532879330148352>, <:gflurry:535532879283879977>) are 4-hit unless specified otherwise.
+    • Players run under <:kerapac:875443920673337344> before using <:backhandflank:867678153854025779>
+
+.
+## __Prefight__
+.tag:prebuild
+<:DBA:603979368850653216> <:spec:537340400273195028> and then <:lengmh:883134308146098227> <:spec:537340400273195028> at War's Retreat.
+
+## __Phase 1__
+.tag:p1
+<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:gbarge:535532879250456578> → <:ingen:641339234111848463> + <:smokecloud:856635090641879050> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:assault:535532855191928842>
+→ <:gfury:535532879334080527> + walk under to avoid Rift → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> → <:havocgop:994920849117282365> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:cane:535532878969438210> → equip <:jawsoftheabyss:947871842595639306> + <:dismember:535532879376023572> → <:bloodtendrils:535532854327640064> → <:havocgop:994920849117282365> → <:backhandflank:867678153854025779> + <:escape:535541258832052231> → <:slaughter:535532879237873666> → <:deci:535532879325822986> + 2t <:escape:535541258832052231> → <:gflurry:535532879283879977> → switch to <:havocgop:994920849117282365> → (basics until phased) → <:dismember:535532879376023572> → equip <:vestmentsofhavochood:994189297659940904> + <:anti:535541306475151390>
+
+.
+### Phase 1 notes
+⬥ Optimally release bled <:lengmh:883134308146098227> <:destroy:535532879330148352> with <:abyssalscourge:947871842469834832>
+⬥ <:bloodtendrils:535532854327640064> before <:dismember:535532879376023572> if >50% adren.
+⬥ If you phase immediately on <:havocgop:994920849117282365>, wait 2 ticks after the <:anti:535541306475151390> GCD and immediately <:gbarge:535532879250456578> for phase 2 (8-tick <:gbarge:535532879250456578> method).
+
+## __Phase 2__
+.tag:p2
+<:gbarge:535532879250456578> → <:timewarp:870328868815396914> <:zerk:535532854004678657> → <:havocgop:994920849117282365> → <:assault:535532855191928842> → <:lengmh:883134308146098227> <:spec:537340400273195028> + 2h auto → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:cane:535532878969438210>→ 3-hit <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> (walk under on tick 2 to avoid Rift) → <:assault:535532855191928842> → <:havocgop:994920849117282365> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> → 2-hit <:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → <:havocgop:994920849117282365> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> (+ <:escape:535541258832052231> → continue with basics if not phased immediately after first jump) → <:dismember:535532879376023572> → equip <:jawsoftheabyss:947871842595639306> + <:anti:535541306475151390>
+
+.
+### Phase 2 notes
+⬥ Optimally stall and release the second <:lengmh:883134308146098227> <:cane:535532878969438210> along with <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> using <:smokecloud:856635090641879050> to have <:havocgop:994920849117282365> boost also apply to the first hit of <:destroy:535532879330148352>
+⬥ If you phased immediately on the last <:backhandflank:867678153854025779>, wait 2 ticks after <:anti:535541306475151390> GCD and immediately <:gbarge:535532879250456578> for P3 (8-tick <:gbarge:535532879250456578> method).
+
+.
+## __Phase 3__
+.tag:p3
+<:gbarge:535532879250456578> → <:timewarp:870328868815396914> <:zerk:535532854004678657> → <:havocgop:994920849117282365> → <:assault:535532855191928842> → s <:chaosroar:994644356671737966> → r <:chaosroar:994644356671737966> + <:zekkil:903244090953588787> <:eofspec:746403211908481184> → <:limitless:641339233638023179> + 3-hit <:destroy:535532879330148352> (walk under on tick 2 to avoid Rift) → <:assault:535532855191928842> → <:havocgop:994920849117282365> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> → 2-hit <:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → <:havocgop:994920849117282365> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> + <:escape:535541258832052231> → <:deci:535532879325822986> → <:sever:535532879577612298> → equip <:vestmentsofhavochood:994189297659940904> + <:anti:535541306475151390> → wait 1 tick
+
+### Phase 3 notes
+⬥ Optimally stall and release the <:lengmh:883134308146098227> <:cane:535532878969438210> (using <:smokecloud:856635090641879050> with <:abyssalscourge:947871842469834832>) and then cast <:destroy:535532879330148352> on the same tick to have <:havocgop:994920849117282365> boost also apply to the first hit of <:destroy:535532879330148352>
+⬥ There is little benefit to skipping 2 jumps on P3.
+⬥ Optimally you can pre-<:gbarge:535532879250456578> → <:timewarp:870328868815396914> <:zerk:535532854004678657> going into P4 if you do skip 2 jumps the same way you close out P1 and P2.
+
+.
+## __Phase 4__
+.tag:p4
+Echo 1: <:timewarp:870328868815396914> <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> 3-hit <:destroy:535532879330148352> → <:cane:535532878969438210>
+Echo 2: <:lengmh:883134308146098227> 3-hit <:destroy:535532879330148352> → <:assault:535532855191928842> → <:cane:535532878969438210>
+Echo 3: <:deci:535532879325822986> → <:sever:535532879577612298> → <:gfury:535532879334080527> → <:res:535541258844635148> → <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:devo:513190158728953857> + 2h-auto → <:backhandflank:867678153854025779>
+<:kerapac:875443920673337344> : <:sever:535532879577612298> → <:ingen:641339234111848463> + <:smokecloud:856635090641879050> + <:chaosroar:994644356671737966> → <:timewarp:870328868815396914> <:lengmh:883134308146098227> <:spec:537340400273195028> + 2h auto → <:cane:535532878969438210> → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → <:cane:535532878969438210>
+
+.
+### Phase 4 notes
+⬥ <:smokecloud:856635090641879050> on <:kerapac:875443920673337344> is only used if echoes are cleared perfectly as <:timewarp:870328868815396914> won't be up 1 tick before <:lengmh:883134308146098227> <:spec:537340400273195028> otherwise.
+
+## __Example Kills__
+.tag:example
+<https://youtu.be/ZBS_sdANqAI> 15 KPH (Melee)
+<https://www.youtube.com/watch?v=T_74UQhwH_w> 3:15
+<https://www.youtube.com/watch?v=BkbUKcGQL-8> 2:58
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Prefight]($linkmsg_prebuild$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
