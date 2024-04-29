@@ -12,7 +12,7 @@
 ⬥ Wearing off-style armour slots (excluding cape slot) provides an accuracy penalty based on armour bonus
     • "Off-style" is any style that does not match your equipped mainhand / 2H weapon
     • Hybrid gear incurs no penalty
-    • This penanlty is near-doubled (0.8->1.5) when using the Necromancy combat style.
+    • This penanlty is near-doubled (0.8→1.5) when using the Necromancy combat style.
 ⬥ Some armour sets have **set effects** which may be useful
 .
 {
@@ -43,7 +43,7 @@
 ### Notable Armour
 ⬥ <:vestmentsofhavoctop:994189295592161291> (Vestments of Havoc) has effects that greatly benefit melee. Should be used over <:tmwbody:643847118196441088>. Does T100 damage and has armour equal to T75 power armour
 ⬥ <:sirenicbody:643846948570267648> (Sirenic) is solid cheap ranged power armour
-⬥ <:edracobody:1179717430436704306> (Dracolich) is very strong ranged power armour when used with a bow
+⬥ <:edracobody:1179717430436704306> (Elite Dracolich) is very strong ranged power armour when used with a bow
 ⬥ <:ganobody:1003947805611655208> (Ganodermic) is very cheap magic tank gear to use with Animate Dead <:animatedead:856635090453135382>
 ⬥ <:cryptbloombody:892819107253194762> (Cryptbloom) is the best overall tank armour in game, but not always needed - see `!crypt`
 ⬥ <:firstnecrorobetop:1206664820682657822> (First Necromancer's equipment) is the best overall Necromancy armour in the game
@@ -53,12 +53,16 @@
 {
   "embed": {
     "title": "__Gloves__",
-    "description": "⬥ Use `!gloves` to see where to use which gloves\n⬥ <:lengartefact:884739993543782420> upgrades <:nightmaregauntlets:513190159441723392> / <:Glovesofpassage:556588694862037012> / <:kerapacswristwraps:869286640722513940> to T90 and allows enchantments to work\n\u00a0\u00a0\u00a0\u00a0• The T90 gloves can also be bought directly from the G.E.\n⬥ Gloves covered: <:kerapacswristwraps:869286640722513940> | <:NMG:513190159441723392> | <:glovesofpassage:556588694862037012> | <:Cinderbanes:513190158355660812> | <:DTB:513190159429271562> | <:spellcaster:643214402169864213>",
+    "description": "⬥ Use `!gloves` to see where to use which gloves\n⬥ <:lengartefact:884739993543782420> upgrades <:nightmaregauntlets:513190159441723392> / <:Glovesofpassage:556588694862037012> / <:kerapacswristwraps:869286640722513940> to T90 and allows enchantments to work\n\u00a0\u00a0\u00a0\u00a0• The T90 gloves can also be bought directly from the G.E.\n⬥ Gloves covered: <:kerapacswristwraps:869286640722513940> | <:NMG:513190159441723392> | <:edracogloves:1179717613769728100> | <:glovesofpassage:556588694862037012> | <:Cinderbanes:513190158355660812> | <:DTB:513190159429271562> | <:spellcaster:643214402169864213>",
     "color": 39423,
     "fields": [
       {
         "name": "__Kerapac's Wrist Wraps__ <:kerapacswristwraps:869286640722513940>",
         "value": "⬥ When <:dbreath:535533833391702017> is cast, the next <:comb:535533833098100745> to hit within 6s has all its remaining hits applied at once for 25% (40% with **enchantment of flame**) more damage"
+      },
+      {
+        "name": "__Elite Dracolich Gloves__ <:edracogloves:1179717613769728100>",
+        "value": "⬥ Adds to the passive effects from the armour set\n\u00a0\u00a0\u00a0\u00a0• *Elite Dracolich Remnant* per piece gain 0.5% extra adrenaline for each hit of Rapid fire <:rapid:535541270521708566>\n\u00a0\u00a0\u00a0\u00a0• *Dracolich infusion* at 3 pieces, after a full <:rapid:535541270521708566> gain +40% critical strike chance with <:range:580168050121113623> for 3 seconds, +1.8 seconds for every additional piece"
       },
       {
         "name": "__Nightmare Gauntlets__ <:NMG:513190159441723392>",
@@ -174,7 +178,7 @@
     "fields": [
       {
         "name": "__Tier 90__",
-        "value": "⬥ Drygores <:augdrygoremacemh:697485495684431902> <:drygorelongoh:852939843767369783>\n⬥ Seismics <:seiswand:583429704837758997> <:sing:513190159261630467>\n⬥ Ascensions <:ascmh:513190158468775936> <:ascoh:513190159362031631>\n⬥ **Noxious Scythe** <:noxscythe:513190159341322240>\n⬥ **Noxious Bow** <:noxbow:513190159425208342>\n⬥ Noxious Staff <:noxstaff:513190159294922753>",
+        "value": "⬥ Drygores <:augdrygoremacemh:697485495684431902> <:drygorelongoh:852939843767369783>\n⬥ Seismics <:seiswand:583429704837758997> <:sing:513190159261630467>\n⬥ Ascensions <:ascmh:513190158468775936> <:ascoh:513190159362031631>\n⬥ **Noxious Scythe** <:noxscythe:513190159341322240>\n⬥ **Noxious Bow** <:noxbow:513190159425208342>\n⬥ Noxious Staff <:noxstaff:513190159294922753>\n⬥ **Death guard** <:deathguard90:1138809243143766118>",
         "inline" : true
       },
       {
@@ -184,7 +188,7 @@
       },
       {
         "name": "__Tier 95__",
-        "value": "⬥ **F. Staff of Arma.** <:soa:869284271595069451>\n⬥ Leng <:lengmh:883134308146098227> <:lengoh:883134308070604870>\n⬥ **Ek-Zekkil** <:zekkil:903244090953588787>\n⬥ **BoLG** <:bolg:994189289623662702>\n⬥ **Omni Guard** <:omniguard:1138809234922934282>\n⬥ **Soulbound Lantern** <:soulboundlantern:1138809230573441064>",
+        "value": "⬥ **F. Staff of Arma.** <:soa:869284271595069451>\n⬥ **Leng** <:lengmh:883134308146098227> <:lengoh:883134308070604870>\n⬥ **Ek-Zekkil** <:zekkil:903244090953588787>\n⬥ **BoLG** <:bolg:994189289623662702>\n⬥ **Omni Guard** <:omniguard:1138809234922934282>\n⬥ **Soulbound Lantern** <:soulboundlantern:1138809230573441064>",
         "inline": true
       }
     ]
@@ -201,8 +205,10 @@
 ⬥ <:soa:869284271595069451> has one of the strongest special attacks, see `!fsoa` for some more info
 ⬥ <:bolg:994189289623662702> best 2H, has a strong spec, and is very consistent, see `!bolg` for more info
 ⬥ <:zekkil:903244090953588787> strong but long spec, good synergy with <:chaosroar:994644356671737966>. Put in <:eofor:745279787471470713>, see `!ezkeof` for more info
+⬥ <:deathguard70:1138809262194294864> has a great special attack (can use t70 for <:eof:787526151978614824>!)
 ⬥ <:omniguard:1138809234922934282> best necromancy mainhand
 ⬥ <:soulboundlantern:1138809230573441064> best necromancy offhand
+⬥ <:lengmh:883134308146098227><:lengoh:883134308070604870> have passive effects and a special attack on the mainhand
 
 .
 ## __Defenders and Shields__
@@ -210,7 +216,7 @@
 {
   "embed": {
     "title": "__Defenders and Shields__",
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Use `!defender` for info on obtaining defenders\n⬥ Defender weapon and shield tier is half its tier (e.g. T90 defender is T45)\n⬥ Defenders provide 3% accuracy and 1/15 chance to reduce hit by 50-100%\n⬥ T90 shields' right-click voke option drops target when using queueing\n⬥ Spirit shields reduce damage by 30%, 20% of it is removed from prayer\n⬥ Shieldbows count as a MH + shield of its tier (e.g. <:dbow:643848618553507843> is a T70 MH + shield)",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Use `!defender` for info on obtaining defenders\n⬥ Defender weapon and shield tier is half its tier (e.g. T90 defender is T45)\n⬥ Defenders provide 3% accuracy and 1/15 chance to reduce hit by 50-100%\n⬥ T90 shields' right-click voke option drops target when using queueing\n⬥ Spirit shields reduce damage by 30%, 20% of it is removed from prayer\n⬥ Shieldbows count as a MH + shield of its tier (e.g. <:dbow:643848618553507843> is a T70 MH + shield)\n⬥ **Bone shield** <:lesserboneshield:1137809125590450276> / <:greaterboneshield:1137809118283976814> is unlocked via <:necromancy:1148995625896120460> and allows the use of defensive shield abilities without a physical shield, costing necrotic runes.\n\u00a0\u00a0\u00a0\u00a0• With lvl120 <:necromancy:1148995625896120460>, <:zemouregalsnexus:1179716261681307728> and <:greaterboneshield:1137809118283976814> you can reach up to bone shield tier 75.",
     "color": 39423,
     "fields": [
       {
@@ -235,7 +241,7 @@
       },
       {
         "name": "__Generally When to use What__",
-        "value": "⬥ Defenders when needing to do damage under a shield defensive (e.g. <:cade:535541306353778689>)\n⬥ Spirit Shields when needing to use effect to tank large hits\n⬥ Shieldbows when using a bow\n⬥ T90 shields otherwise (e.g. for bigger <:divert:787904334377648130> or longer <:cade:535541306353778689>)"
+        "value": "⬥ Bone shield <:lesserboneshield:1137809125590450276> and <:greaterboneshield:1137809118283976814> work for most scenarios where a very high shield tier is unimportant \n\u00a0\u00a0\u00a0\u00a0• Defenders when needing to do offensive shield abilities (e.g. <:revenge:535541259645878302>), but are effectively superseded by <:lesserboneshield:1137809125590450276>\n⬥ Spirit Shields when needing to use effect to tank large hits\n⬥ Shieldbows when using a bow\n⬥ T90 shields otherwise (e.g. for bigger <:divert:787904334377648130> or very long <:cade:535541306353778689>)"
       }
     ]
   }
@@ -331,15 +337,16 @@
     "fields": [
       {
         "name": "__Pocket Slots __",
-        "value": "⬥ (Superior) Scrimshaw of the Elements <:elementsscrim:841409588959510539> (<:Magic:689504724159823906>)\n⬥ (Superior) Scrimshaw of Cruelty <:Cruelty:513190159546712074> (<:range:580168050121113623>)\n⬥ (Superior) Scrimshaw of Vampyrism <:VampScrim:513201294262009874> (<:Attack:689509250472476758>)\n⬥ Book of Law <:armabook:513190159051915264>\n⬥ Ancient Book <:ZarosBook:574290439461404682>\n⬥ Book of Wisdom <:SaraBook:574290439482638346>\n⬥ Book of War <:BandosBook:574290439473987628>\n⬥ Book of Chaos <:ZamBook:574290439461404672>\n⬥ Book of Balance <:GuthixBook:574290439356809216>\n⬥ **Scripture of Jas** <:jasgodbook:869284342839513108>\n⬥ Scripture of Wen <:wengodbook:883134307902816297>\n⬥ Scripture of Ful <:scriptureofful:902209626412560395>\n⬥ **Erethdor's Grimoire** <:grim:568262896375824385>"
+        "value": "⬥ (Superior) Scrimshaw of the Elements <:elementsscrim:841409588959510539> (<:Magic:689504724159823906>)\n⬥ (Superior) Scrimshaw of Cruelty <:Cruelty:513190159546712074> (<:range:580168050121113623>)\n⬥ (Superior) Scrimshaw of Vampyrism <:VampScrim:513201294262009874> (<:Attack:689509250472476758>)\n⬥ Book of Law <:armabook:513190159051915264>\n⬥ Ancient Book <:ZarosBook:574290439461404682>\n⬥ Book of Wisdom <:SaraBook:574290439482638346>\n⬥ Book of War <:BandosBook:574290439473987628>\n⬥ Book of Chaos <:ZamBook:574290439461404672>\n⬥ Book of Balance <:GuthixBook:574290439356809216>\n⬥ **Scripture of Jas** <:jasgodbook:869284342839513108>\n⬥ Scripture of Wen <:wengodbook:883134307902816297>\n⬥ **Scripture of Ful ** <:scriptureofful:902209626412560395>\n⬥ **Erethdor's Grimoire** <:grim:568262896375824385>"
       }
     ]
   }
 }
 .embed:json
 ### Notable Pocket Slots
-⬥ <:jasgodbook:869284342839513108> is a very cheap pocket slot to buy and maintain, and relatively good to use
-⬥ <:grim:568262896375824385> a pivotal pocket slot for every style, but costly to use, see `!grim` for more info
+⬥ <:jasgodbook:869284342839513108> is a very cheap pocket slot to buy and average to maintain, and relatively good to use (<:coins:698816156961603654> $data_pvme:Miscellaneous!E15$ per hour)
+⬥ <:scriptureofful:902209626412560395> is an expensive pocket slot to buy, but is strong and very cheap to use (<:coins:698816156961603654> $data_pvme:Miscellaneous!E13$ per hour)
+⬥ <:grim:568262896375824385> a pivotal pocket slot for every style, but costly to use (<:coins:698816156961603654> $data_pvme:Miscellaneous!E12$ per hour), see `!grim` for more info
 .
 ## __Ammo Slot__
 .tag:ammo
@@ -351,7 +358,7 @@
     "fields": [
       {
         "name": "__Ammo Slots__",
-        "value": "⬥ **Armour Spikes** <:armourspike:1004090524669587517> - deal typeless damage equal to player's smithing level\n\u00a0\u00a0\u00a0\u00a0• When **alloyed** <:armourspikealloy:756235792053174332> - 10% chance to deal 10x damage\n\u00a0\u00a0\u00a0\u00a0• When **abyssal** <:abyssalarmourspikesalloy:947871842541129768> - 25% chance to apply a parasite stack\n\u00a0\u00a0\u00a0\u00a0• Must also wear melee gear and take melee damage / damage from MD\n⬥ **Large Rune Pouches** <:runepouch:583430011868938283> - holds 16k of 3 types of runes\n⬥ **Grasping Rune Pouches** <:graspingpouch:892816437478051900> - holds 16k of 4 types of runes\n⬥ **Pernix's Quivers** <:pernixsquiver:902209626450296892> - holds 2 types of ammo, able to swap between at will\n⬥ **Nexuses** <:deathwardennexus:1179716442816532540> <:zemouregalsnexus:1179716261681307728> can be used to store ectoplasm and necrotic runes\n\u00a0\u00a0\u00a0\u00a0• **Zemouregal's Nexus** <:zemouregalsnexus:1179716261681307728> provides a passive effect **when equipped** which increases the Bone Shield buff by 15 levels"
+        "value": "⬥ **Armour Spikes** <:armourspike:1004090524669587517> - deal typeless damage equal to player's smithing level\n\u00a0\u00a0\u00a0\u00a0• When **alloyed** <:armourspikealloy:756235792053174332> - 10% chance to deal 10x damage\n\u00a0\u00a0\u00a0\u00a0• When **abyssal** <:abyssalarmourspikesalloy:947871842541129768> - 25% chance to apply a parasite stack\n\u00a0\u00a0\u00a0\u00a0• Must also wear melee gear and take melee damage / damage from MD\n⬥ **Large Rune Pouches** <:runepouch:583430011868938283> - holds 16k of 3 types of runes\n⬥ **Grasping Rune Pouches** <:graspingpouch:892816437478051900> - holds 16k of 4 types of runes\n⬥ **Pernix's Quivers** <:pernixsquiver:902209626450296892> - holds 2 types of ammo, able to swap between at will\n⬥ **Nexuses** <:deathwardennexus:1179716442816532540> <:zemouregalsnexus:1179716261681307728> can be used to store ectoplasm and necrotic runes\n\u00a0\u00a0\u00a0\u00a0• **Zemouregal's Nexus** <:zemouregalsnexus:1179716261681307728> provides a passive effect **when equipped** which increases the Bone Shield tier by 15 levels"
       }
     ]
   }
