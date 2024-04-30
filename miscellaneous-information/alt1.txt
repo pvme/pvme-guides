@@ -1,4 +1,4 @@
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
@@ -18,9 +18,9 @@ Unlike OSRS which has the RuneLite client, RS3 only has its NXT client. In order
 **If you have any issues with regard to Alt1, *please* use the dedicated RuneApps discord server that has a section for player support.**
 
 .
-> __**Alt1 Overview**__
+## __Alt1 Overview__
 .tag:alt1
-__**What Is Alt1**__
+### What Is Alt1
 .
 Alt1 is a 3rd-party program that consists of several application overlays on your screen. They get information by reading your screen, and provide a bunch of QoL/useful features.
 
@@ -35,22 +35,22 @@ A detailed explanation of Alt1's features can be found on the Alt1 website, but 
 ⬥ **Droplogger** - an alternative to using the endgame RuneMetrics drop log
 
 .
-__**How It Works**__
+### How It Works
 ⬥ Alt1 is designed to capture images of the NXT Client and parse them with an OCR (Optical Character Recognition) Library.
 ⬥ The captured data is then transformed into pixel data that can be used in Alt1 apps.
 ⬥ More information can be found on the forums and in the Alt1 Toolkit discord.
 
 .
-__**Is It Safe?**__
+### Is It Safe?
 ⬥ Alt1 is essentially a glorified Chromium browser that creates overlays over your game. Every Alt1 app is essentially a webpage.
 ⬥ Alt1 does not send any inputs or otherwise directly interact with your client beyond reading the pixels on the screen.
 ⬥ **It is not a client, therefore you won't get banned for using it.**
 
 .
-> __**AFK Warden**__
+## __AFK Warden__
 .tag:afkwarden
 .img:https://img.pvme.io/images/UG5psi4.png
-__**What Is AFK Warden**__
+### What Is AFK Warden
 ⬥ This is one of the most commonly used Alt1 apps, so will be covered in some detail here.
 ⬥ This reads the pixels on your screen to recognize your character, buff bars, chatbox and more in order to provide AFK alert notifications.
 ⬥ It tracks a number of things, including:
@@ -64,21 +64,21 @@ __**What Is AFK Warden**__
     • XP drops, and more.
 
 .
-> __**Clue Solver**__
+## __Clue Solver__
 .tag:cluesolver
 .img:https://img.pvme.io/images/EhTPOsI.png
-__**What Is Clue Solver**__
+### What Is Clue Solver
 ⬥ This is a very useful app that looks at your currently open clue on screen, and tells you how to solve it.
 ⬥ It handles all clue steps, including puzzle boxes, scans, compass clues, etc. With the exception of scan clues.
 ⬥ Have your clue visible on-screen clearly and click the 'Unlock Any' button to find a solution to your clue that will be displayed on the overlay.
 
 .
-> __**Useful 3rd-Party Alt1 Apps**__
+## __Useful 3rd-Party Alt1 Apps__
 .tag:3rdparty
 In addition to the default apps that come with Alt1, there are a number of other useful third-party apps that can be installed, which will briefly be covered here.
 
 .
-__**How to Install Alt1 Apps**__
+### How to Install Alt1 Apps
 .tag:installapps
 ⬥ **Alt1 Addons can be installed by going to the correct URL in either your normal browser or the Alt1 in-built browser**.
     • This will bring up a prompt to add the application to Alt1.
@@ -86,7 +86,7 @@ __**How to Install Alt1 Apps**__
     • Note that none of these links will work on mobile, as they require Alt1 to be installed.
 
 .
-__**Combat Apps**__
+### Combat Apps
 .tag:combat
 ⬥ **Better Buffs Bar** - displays buffs in the order *you* decide on
 ```alt1://addapp/https://nadyanayme.github.io/BetterBuffsBar/dist/appconfig.json```
@@ -116,7 +116,7 @@ __**Combat Apps**__
 ```alt1://addapp/https://holycoil.nl/alt1/zamorak/appconfig.json```
 
 .
-__**Skilling Apps**__
+### Skilling Apps
 .tag:skilling
 ⬥ **Archaeology Mats** - tracks excavated Archaeology <:archaeology:941211288665739274> mats and calculate artefact restore costs
 ```alt1://addapp/https://zerogwafa.github.io/ArchMatCounter/appconfig.json```
@@ -134,7 +134,7 @@ __**Skilling Apps**__
 ```alt1://addapp/https://zerogwafa.github.io/SerenTracker/appconfig.json```
 
 .
-__**Clue Apps**__
+### Clue Apps
 .tag:clues
 ⬥ **Scan Trainer** - guides players through efficiently solving scan steps in elite <:eliteclue:1123586941057769552> and master clues <:masterclue:1123586937245151303>
 ```alt1://addapp/https://leridon.github.io/cluetrainer-live/appconfig.json```
@@ -152,7 +152,7 @@ __**Clue Apps**__
 ```alt1://addapp/https://yongyi781.github.io/clue-split/appconfig.json```
 
 .
-__**Misc. Apps**__
+### Misc. Apps
 *Note: Price Check & Trade Alt1 App currently not working; in the process of being updated.*
 .tag:misc
 ⬥ **Screen Markers** - customizeable on-screen markers to make clicking easier
@@ -165,7 +165,7 @@ __**Misc. Apps**__
 ```alt1://addapp/http://www.runeguide.info/alt1/viswax/appconfig.json```
 
 .
-> __**Troubleshooting**__
+## __Troubleshooting__
 .tag:troubleshooting
 For any issues it is preferred to search if someone else has had the same issue or see the FAQ section on the forums, or use the official discord for support.
 

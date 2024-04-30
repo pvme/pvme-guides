@@ -1,8 +1,8 @@
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 This channel contains templates for some of the more commonly used structures in PvME guides. You can use them as they are, or modify them as required.
 
-> __**Formatting Embeds**__
+## __Formatting Embeds__
 .tag:howtoembed
 This refers to Discord embed messages that are JSON-formatted to produce good looking output. The basic template is shared below, as well as ways to see the output in real-time for faster and easier writing.
 
@@ -17,7 +17,7 @@ This refers to Discord embed messages that are JSON-formatted to produce good lo
 .embed:json
 
 .
-__**Embed Commands**__
+### Embed Commands
 ⬥ **`\n`** = add a new line
 ⬥ **`\u00a0\u00a0\u00a0\u00a0`** = add 4 spaces after a new line
 ⬥ **`\n\u00a0\u00a0\u00a0\u00a0•`** = add a new line and 4 spaces (to add subsubpoints)
@@ -96,25 +96,25 @@ When rendered, this looks like the following:
 *Note: Links will only resolve if they are valid and exist.*
 
 .
-> __**Basic Guide Writing Template**__
+## __Basic Guide Writing Template__
 .tag:guidebasic
 The following template covers the basic structure of a guide for reference. Copy this into the Guide Editor tool and use it as a starting point for the guide layout.
 
-```> __**Title**__
+```# Title
 ..img:https://img.pvme.io/images/gIzPFEV.png
 
 ..
-> __**Intro**__
+## __Intro__
 ..tag:intro
 [Brief overview of the boss]
 
 ..
-> __**Drops**__
+## __Drops__
 ..tag:drops
 ⬥ [Unique drops from killing the boss (including droprates and prices if known)]
 
 ..
-> __**Presets**__
+## __Presets__
 ..tag:presets
 ⬥ [Required/used relics]
 ⬥ [Preset picture + link to preset breakdown]
@@ -122,7 +122,7 @@ The following template covers the basic structure of a guide for reference. Copy
 ⬥ [Any other important notes]
 ..
 ..img:https://img.pvme.io/images/oVjpPka.png
-> __**Mechanics**__
+## __Mechanics__
 ..tag:mechanics
 ⬥ [First mechanic]
     • [Describe the mechanic]
@@ -131,24 +131,24 @@ The following template covers the basic structure of a guide for reference. Copy
 ⬥ [Repeat for the rest of the mechanics]
 
 ..
-> __**The Fight**__
+## __The Fight__
 ..tag:fight
 ⬥ [Explain the fight, break it down into phases if applicable]
 
 ..
-> __**Rotations__ (optional section)**__
+## __Rotations __(optional section)____
 ..tag:rotations
 ⬥ [Phase 1 rotations]
 ⬥ [Phase 2 rotations]
 ⬥ [etc]
 
 ..
-> __**Example Kills**__
+## __Example Kills__
 ..tag:example```
 .
 
 .
-> __**Table of Contents (Basic)**__
+## __Table of Contents (Basic)__
 .tag:tocbasic
 This is a basic ToC embed structure, typically paired with the previous basic guide layout. All guides must contain a ToC at the end (and in the pinned messages).
 
@@ -203,7 +203,7 @@ This is a basic ToC embed structure, typically paired with the previous basic gu
 *Note: Links will only resolve if they are valid and exist.*
 
 .
-> __**Table of Contents (v2)**__
+## __Table of Contents (v2)__
 .tag:tocv2
 This is an alternate approach to the Table of Contents embed, and may be useful in cases where the channels are longer, or to make it easier for users to identify relevant sections and links.
 
@@ -264,7 +264,7 @@ When rendered, it looks like the following:
 *Note: Links will only resolve if they are valid and exist.*
 
 .
-> __**Example Kills**__
+## __Example Kills__
 .tag:examplekill
 An embed format to add example kills to a guide.
 
@@ -321,7 +321,7 @@ When rendered, it looks like the following:
 *Note: Links will only resolve if they are valid and exist.*
 
 .
-> __**Minimal Embed 1**__
+## __Minimal Embed 1__
 .tag:minimal1
 A regular embed with some optional tags removed, to make it smaller and more compact.
 
@@ -362,7 +362,7 @@ When rendered, it looks like the following;
 *Note: Links will only resolve if they are valid and exist.*
 
 .
-> __**Minimal Embed 2**__
+## __Minimal Embed 2__
 .tag:minimal2
 Another version of a minimal embed, even even compact.
 

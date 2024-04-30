@@ -1,4 +1,4 @@
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 This channel will cover creating and editing:
 1. Emojis used in PvME's guides - <#1020845621227307110>
@@ -32,7 +32,7 @@ This channel will cover creating and editing:
 }
 .embed:json
 .
-> __**Icon formatting**__
+## __Icon formatting__
 .tag:format
 Every icon consists of 4 parts:
 1. The **main item** - Colour varies, never contains the same shade as the **outline** and **shadow**.
@@ -53,7 +53,7 @@ Image showing different regions selected:
 .
 .img:https://img.pvme.io/images/ZlC9E1hWBh.png
 .
-> __**RSWiki icons**__
+## __RSWiki icons__
 .tag:wikiicon
 ⬥ **All preset icons should be manually made, and not based on RSWiki icons.**
     • Emojis can be made from RSWiki icons based on conditions below.
@@ -63,7 +63,7 @@ Image showing different regions selected:
     • If the icon is prepared by a bot. It is most likely a **Java icon** which do not reflect how the icon looks like in the live game.
 .img:https://img.pvme.io/images/TgSLjZRTq9.png
 .
-> __**Icon creation (script)**__
+## __Icon creation (script)__
 .tag:script
 Currently, the script only works for screen grabs **of the inventory section when banking**.
 
@@ -88,7 +88,7 @@ https://youtu.be/PG19o3AzfCc
 .
 https://youtu.be/81FjnkxgNoQ
 .
-> __**Icon creation (manual)**__
+## __Icon creation (manual)__
 .tag:fullmanual
 ⬥ Take a screen grab of an item from an **opaque bank interface (for emojis)** or **opaque inventory slot (for preset icons)**
     • Your bank background should be uniformly coloured to facilitate background removal.
@@ -114,7 +114,7 @@ https://youtu.be/ZjdWPbp4YUo
 .
 https://youtu.be/9oiHOuCO89U
 .
-> **Image stacking**
+## __Image stacking__
 .tag:stack
 If you're trying to emoji-fy a **stackable** item (check if icon is available on wiki first) and cannot get a whole icon due to the number partially covering it, you can stack multiple incomplete images (made by removing different numbers) to form a complete image.
 
@@ -139,7 +139,7 @@ https://youtu.be/MCmgf2WiOeY
 .
 https://youtu.be/yM61GooZZco
 .
-> **Known issues**
+## __Known issues__
 .tag:issues
 ⬥ Currently, there is not a standardised method for auras and other icons (e.g. buffs, debuffs).
 ⬥ If your inventory slots (from the banking interface) are not completely uniform, the script will not be able to recognise them as inventory slots.
@@ -149,7 +149,7 @@ Examples:
 .
 .img:https://img.pvme.io/images/MmKQxc25gA.png
 .
-> **Submitting completed icons**
+## __Submitting completed icons__
 .tag:submit
 **Preset icons** - Upload the icon to Imgur, click "Copy Link" to get the item link, and fill in this template for each item to submit via pasting it to <#1096801858535833602>:
 ```

@@ -1,4 +1,4 @@
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 *Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
 
@@ -6,7 +6,7 @@ Some general notes:
 ⬥ The game runs on an internal tick system: **1t (tick) = 0.6s (seconds)**.
 ⬥ The minimum time between abilities is called the global cooldown: **1 gcd = 3t = 1.8s**.
 ⬥ Auto attacks will only give adrenaline if they hit (splash = no adrenaline gain).
-    • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not given adrenaline.
+    • Debuff spells like Vuln <:Vuln:537349530551582720> or Enfeeble <:Enfeeble:567727986409734145> or Smoke Cloud <:smokecloud:856635090641879050> do not give adrenaline.
 ⬥ Some useful sheets and resources are given below.
 
 .
@@ -33,11 +33,11 @@ Some general notes:
 *Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
 
 .
-> **__Melee__** <:melee:1096130867279171706>
+## __Melee <:melee:1096130867279171706>__
 This section covers auto attacks, basics, thresholds, ultimate abilities and special attacks for Melee.
 
 .
-**__Autos__**
+### Autos
 .tag:meleeAutos
 {
   "embed": {
@@ -50,7 +50,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .tag:defaultmelee
 
 .
-**__Basics__**
+### Basics
 .tag:meleeBasics
 {
   "embed": {
@@ -66,7 +66,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Dismember__ <:dismember:535532879376023572>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Can be extended:\n\u00a0\u00a0\u00a0\u00a0• Strength skillcape <:strcape:689503815296352308> passive adds 3 hits\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits\n⬥ It is affected by <:lunging:1009423860875153559>\n\u00a0\u00a0\u00a0\u00a0• Max hit increases by 20% per <:lunging:1009423860875153559> rank",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Can be extended:\n\u00a0\u00a0\u00a0\u00a0• Strength skillcape <:strcape:689503815296352308> passive adds 3 hits\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits\n⬥ It is affected by <:lunging:1009423860875153559>\n\u00a0\u00a0\u00a0\u00a0• Max hit increases by 20% per <:lunging:1009423860875153559> rank",
     "color": 15158332
   }
 }
@@ -110,7 +110,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Greater Barge__ <:gbarge:535532879250456578>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ All normal <:barge:535532853916860437> things apply\n⬥ It has additional effects:\n\u00a0\u00a0\u00a0\u00a0• Every tick (0.6s) since the player stopped attacking their target, <:gbarge:535532879250456578> gains +10% to its max range and +2% to its min, capping at 10t (6s) for a total of 100% and 20%. Damage range go from 25%-125% to 45%-225%\n\u00a0\u00a0\u00a0\u00a0• After 8t (4.8s) pass since you stopped attacking, when you <:gbarge:535532879250456578>, if you cast <:fury:535532879510372352> / <:flurry:864492981763702834> / <:gflurry:535532879283879977> / <:destroy:535532879330148352> / <:assault:535532855191928842> / <:frenzy:535532879279554581> within 10t (6s), it will covert the first one done into a damage over time\n⬥ For details on how to use it, use `!gbarge`",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ All normal <:barge:535532853916860437> things apply\n⬥ It has additional effects:\n\u00a0\u00a0\u00a0\u00a0• Every tick (0.6s) since the player stopped attacking their target, <:gbarge:535532879250456578> gains +10% to its max range and +2% to its min, capping at 10t (6s) for a total of 100% and 20%. Damage range go from 25%-125% to 45%-225%\n\u00a0\u00a0\u00a0\u00a0• After 8t (4.8s) pass since you stopped attacking, when you <:gbarge:535532879250456578>, if you cast <:flurry:864492981763702834> / <:gflurry:535532879283879977> / <:destroy:535532879330148352> / <:assault:535532855191928842> / <:frenzy:535532879279554581> within 10t (6s), it will convert the first one done into a damage over time\n⬥ For details on how to use it, use `!gbarge`",
     "color": 15158332
   }
 }
@@ -143,7 +143,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Decimate__ <:deci:535532879325822986>",
-    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It does more damage against Shielded targets:\n\u00a0\u00a0\u00a0\u00a0• It goes from a 37.6%-188% to 48.8%-244% ability",
+    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It does more damage against Shielded targets:\n\u00a0\u00a0\u00a0\u00a0• It goes from a 110%-130% to 140%-160% ability",
     "color": 15158332
   }
 }
@@ -165,7 +165,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Fury__ <:fury:535532879510372352>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ It provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 5% increased crit chance for each hit it does\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ Channelled ability",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Next melee attack has +25% increased crit chance",
     "color": 15158332
   }
 }
@@ -176,7 +176,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Greater Fury__ <:gfury:535532879334080527>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ It provides a passive critical hit buff:\n\u00a0\u00a0\u00a0\u00a0• 10% increased crit chance\n\u00a0\u00a0\u00a0\u00a0• Lost when swapping mainhands\n⬥ When <:gfury:535532879334080527> crits it guarantees your next hit will crit too:\n\u00a0\u00a0\u00a0\u00a0• Does not affect autos",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Next non-bleed melee hit within 15s is guaranteed to crit\n\u00a0\u00a0\u00a0\u00a0• Only affects first hit of a combo ability\n\u00a0\u00a0\u00a0\u00a0• Is applied only to 1 target in AoE\n\u00a0\u00a0\u00a0\u00a0• Bleeds do not consume buff",
     "color": 15158332
   }
 }
@@ -209,7 +209,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Slice__ <:slice:535532879594258432>",
-    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 105%-161% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
+    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 133%-161% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
     "color": 15158332
   }
 }
@@ -220,7 +220,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Punish__ <:punish:535532879439069184>",
-    "description": "⬥ Cooldown: 40t (24s)\n⬥ Damage boosted when target is <50% health\n\u00a0\u00a0\u00a0\u00a0• Becomes a 125%-250% basic",
+    "description": "⬥ Cooldown: 40t (24s)\n⬥ Damage boosted when target is <50% health\n\u00a0\u00a0\u00a0\u00a0• Becomes a 187.5%-237.5% basic",
     "color": 15158332
   }
 }
@@ -228,12 +228,12 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .tag:punish
 
 .
-**__Thresholds__**
+### Thresholds
 .tag:meleeThresholds
 {
   "embed": {
     "title": "__Slaughter__ <:slaughter:535532879237873666>",
-    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Triples damage when walked\n⬥ Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Triples damage when walked\n⬥ Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits",
     "color": 15158332
   }
 }
@@ -244,7 +244,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Blood Tendrils__ <:bloodtendrils:535532854327640064>",
-    "description": "⬥ Cooldown: 75t (45s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits",
+    "description": "⬥ Cooldown: 75t (45s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Masterwork Spear of Annilihation <:mwspear:694566917456789554> adds 2 hits",
     "color": 15158332
   }
 }
@@ -266,7 +266,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Destroy__ <:destroy:535532879330148352>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Hurricane <:cane:535532878969438210>\n\u00a0\u00a0\u00a0\u00a0• Cooldowns split when cast with MH and OH Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870> / <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>\n⬥ Stuns for 6t (3.6s)\n⬥ Channelled ability",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Hurricane <:cane:535532878969438210>\n⬥ Stuns for 6t (3.6s)\n⬥ Channelled ability",
     "color": 15158332
   }
 }
@@ -277,7 +277,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Hurricane__ <:cane:535532878969438210>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Destroy <:destroy:535532879330148352>\n\u00a0\u00a0\u00a0\u00a0• Cooldowns split when cast with MH and OH Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870> / <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Destroy <:destroy:535532879330148352>\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon",
     "color": 15158332
   }
 }
@@ -340,7 +340,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .tag:quake
 
 .
-**__Special Attacks__**
+### Special Attacks
 .tag:meleeSpecials
 {
   "embed": {
@@ -441,7 +441,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .tag:gmaul
 
 .
-**__Ultimates__**
+### Ultimates
 .tag:meleeUltimates
 {
   "embed": {
@@ -490,7 +490,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Massacre__ <:massacre:535532879384543253>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is mostly a Bleed:\n\u00a0\u00a0\u00a0\u00a0• It does 6 hits, 5 of which are a bleed which means:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:equilibrium:1005205003893485638>\n\u00a0\u00a0\u00a0\u00a0• Hits 5 times total, once every 2t (1.2s)\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is mostly a Bleed:\n\u00a0\u00a0\u00a0\u00a0• It does 6 hits, 5 of which are a bleed which means:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits 5 times total, once every 2t (1.2s)\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits",
     "color": 15158332
   }
 }

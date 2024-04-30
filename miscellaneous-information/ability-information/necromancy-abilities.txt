@@ -1,4 +1,4 @@
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 *Note: Use the __**Table of Contents**__ present at the bottom of the channel, or in the pinned comments, to quickly navigate through this channel and find the information you are looking for.*
 
@@ -31,11 +31,11 @@ Some general notes:
 *Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
 
 .
-> **__Necromancy__** <:necromancy:1148995625896120460>
+## __Necromancy <:necromancy:1148995625896120460>__
 This section covers the basic abilities, threshold-like abilities, ultimate abilities, conjures and commands, special attacks, and incantations for Necromancy.
 
 .
-**__Basics__**
+### Basics
 .tag:necromancyBasics
 {
   "embed": {
@@ -65,7 +65,7 @@ This section covers the basic abilities, threshold-like abilities, ultimate abil
 .embed:json
 .tag:soulsap
 .
-**__Thresholds__**
+### Thresholds
 .tag:necromancyThresholds
 Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do not require an adrenaline amount more than the ability's requirement, and drain adrenaline by the shown amount on the tooltip. Some Necromancy Thresholds do not require adrenaline at all but instead will consume stacks of varying types.
 .
@@ -108,7 +108,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 {
   "embed": {
     "title": "__Spectral Scythe__ <:spectralscythe:1137809145706319892> <:areatarget:1137770972703883354>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Base adrenaline cost of 10%\n⬥ AoE damage in a cone (max 9 targets)\n⬥ On-hit: 25% chance to generate 1 <:residualsoul:1139453152169558046> stack\n⬥ Able to be re-cast upon unlock from the Necromancy skill tree:\n\u00a0\u00a0\u00a0\u00a0• <:spectralscythe2:1137809149690916945> 2nd cast costs 20% and does AoE within 2 tiles of you (max 9 targets)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Also has a 25% chance to generate a <:residualsoul:1139453152169558046> stack\n\u00a0\u00a0\u00a0\u00a0• <:spectralscythe3:1137809152043925505> 3rd cast costs 30% and does AoE within 2 tiles of you (max 9 targets)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Damage is increased 1% for per 1% mission life points on target",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Base adrenaline cost of 10%\n⬥ AoE damage in a cone (max 9 targets)\n⬥ On-hit: 25% chance to generate 1 <:residualsoul:1139453152169558046> stack\n⬥ Able to be re-cast upon unlock from the Necromancy skill tree:\n\u00a0\u00a0\u00a0\u00a0• <:spectralscythe2:1137809149690916945> 2nd cast costs 20% and does AoE within 2 tiles of you (max 9 targets)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Also has a 25% chance to generate a <:residualsoul:1139453152169558046> stack\n\u00a0\u00a0\u00a0\u00a0• <:spectralscythe3:1137809152043925505> 3rd cast costs 30% and does AoE within 2 tiles of you (max 9 targets)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Damage is increased by 1% per 1% missing life points on target",
     "color": 5510844
   }
 }
@@ -124,7 +124,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .embed:json
 .tag:bloodsiphon
 .
-**__Ultimates__**
+### Ultimates
 .tag:necromancyUltimates
 {
   "embed": {
@@ -145,7 +145,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .embed:json
 .tag:livingdeath
 .
-**__Conjures and Commands__**
+### Conjures and Commands
 .tag:necromancyConjures
 {
   "embed": {
@@ -211,7 +211,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .embed:json
 .tag:conjureundeadarmy
 .
-**__Special Attacks__**
+### Special Attacks
 .tag:necromancySpecials
 {
   "embed": {
@@ -232,7 +232,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .embed:json
 .tag:deathessence
 .
-**__Incantations__**
+### Incantations
 .tag:necromancyIncantations
 {
   "embed": {
@@ -270,6 +270,15 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 }
 .embed:json
 .tag:lifetransfer
+{
+  "embed": {
+    "title": "__Invoke Lord of Bones__ <:invokelordofbones:1176968330582700174> <:selftarget:1137770968736079957>",
+    "description": "⬥ No Cooldown\n⬥ Gain a 60-second buff making your Skeleton Warrior apply a stack of the **Shattering bones** debuff per attack\n⬥ **Shattering bones**: Reduces armour rating by 0.2% per stack\n\u00a0\u00a0\u00a0\u00a0• Up to 200 stacks can be applied (-40% armour rating)\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 8 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 6 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 2 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:invokebones
 {
   "embed": {
     "title": "__Invoke Death__ <:invokedeath:1137809121983336548> <:selftarget:1137770968736079957>",
@@ -331,7 +340,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
       },
       {
         "name": "__Incantations__",
-        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
+        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Lord of Bones]($linkmsg_invokebones$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
         "inline": true
       }
     ]

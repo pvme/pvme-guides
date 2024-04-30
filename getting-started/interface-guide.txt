@@ -1,16 +1,16 @@
-**__Interface Guide__**
+# Interface Guide
 .
-> __**Introduction**__
+## __Introduction__
 .tag:intro
 Having a proper interface setup is important as it allows you to organize your game view and have quick, convenient access to game windows that you frequently interact with such as inventory, gear, familiars, ability bars and so on. A good interface can make the game easier to play and more enjoyable.
 
 .
-> __**What is the User Interface**__
+## __What is the User Interface__
 .tag:ui
 Creating a good interface is all about displaying the interface elements in a way where everything you need to access is open and important elements are appropriately close to one another, to minimize the distance your eyes and mouse need to travel around your screen. The game comes with a few pre-made layouts, but they all suffer from similar issues.
 
 .
-**__RS3 New Player Interface__**
+### RS3 New Player Interface
 ⬥ Consider the *New Player* interface that players are given when first playing the game.
 .
 .img:https://img.pvme.io/images/tDs3spx.jpg
@@ -24,7 +24,7 @@ There are several issues with this interface, such as:
 ⬥ Missing elements - including the summoning/familiar tab, the magic spellbook or the defensives tab, and additional action bars.
 
 .
-__**Useful Interface Elements**__
+### Useful Interface Elements
 .
 ⬥ We can observe that some UI elements are more important than others for PvM, including:
     • **Additional action bars** - gives access to a wider range of keybinds by increasing the number of action bar slots visible on-screen at any given time.
@@ -46,13 +46,13 @@ __**Useful Interface Elements**__
     • Runemetrics tab to track statistics/damage
 
 .
-> __**Creating A Good Interface**__
+## __Creating A Good Interface__
 .tag:creatingui
 Keeping in mind the important elements of a good interface, we can use the earlier one as a reference and modify it into a layout more suitable for PvM and general gameplay. We'll do this in two broad steps - **bringing into view and arranging important menus**, and then using the **advanced layout options** to customize the interface further. Any minor tweaks or changes can be made afterwards with ease.
 *Note: This is only an example to demonstrate how to create an interface, but it is ultimately up to personal preference.*
 
 .
-__**Step 1: Interface Layout**__
+### Step 1: Interface Layout
 The first step is to set up the main menus and layout of the interface.
 ⬥ **Unlock the interface** by clicking the lock icon on the Options ribbon, or using the default keybind **`L`**.
 ⬥ The bottom centre to the lower right is chosen as the focus for the main PvM menus.
@@ -71,7 +71,7 @@ The first step is to set up the main menus and layout of the interface.
 *Note: A portion of the game window is now covered by interface menus - this will be adjusted in the next step.*
 
 .
-__**Step 2: Edit Layout Mode > Advanced Options**__
+### Step 2: Edit Layout Mode > Advanced Options
 After finalizing the basic layout, the **advanced options** can be used to customize how some detailed and important aspects of the interface, such as the buff/debuff bars, split private chat, the game view etc.
 ⬥ To access the menu, press **Escape > Edit Layout Mode > Advanced Options** and you'll be greeted with a menu that looks similar to the following image. Click the tickboxes to add or remove overlays from the view to customize.
 .
@@ -94,7 +94,7 @@ After finalizing the basic layout, the **advanced options** can be used to custo
     • It affects where the player character is centred in your field of view.
 
 .
-__**Saving Interface Layout**__
+### Saving Interface Layout
 .
 To **save** a layout, open the **Edit Layout Mode** menu and click on a preset name in the **Save Layout** dropdown menu, and confirm the changes.
 .
@@ -105,7 +105,7 @@ To **load** a layout, click on one of the created/saved load-outs accessed by pr
 .img:https://img.pvme.io/images/TpVjzIi.png
 
 .
-__**Miscellaneous settings**__
+### Miscellaneous settings
 .
 ⬥ Some options that can improve the UI are listed under the **Gameplay > Interfaces > Appearance** settings. Consider enabling the following options:
     • Slim headers
@@ -118,7 +118,7 @@ __**Miscellaneous settings**__
 .img:https://img.pvme.io/images/my8L2iK.jpg
 
 .
-> __**Example Interfaces**__
+## __Example Interfaces__
 .tag:exampleui
 At the end of the day, a good interface is the one that works for you. Look for common patterns in the interfaces of good PvMers to see how they structure them and why it helps them PvM.
 .
@@ -164,13 +164,13 @@ At the end of the day, a good interface is the one that works for you. Look for 
 .embed:json
 
 .
-> __**Settings Menu**__
+## __Settings Menu__
 .tag:settings
 The **Settings** menu is accessed through the **Options** menu in-game, reachable at any time by pressing **escape**, and contains in-game settings that can be modified. Here, we cover several useful/important options that can be customized.
 .img:https://img.pvme.io/images/nOIbsLE.png
 
 .
-__**Gameplay Settings > Interfaces**__
+### Gameplay Settings > Interfaces
 .tag:setui
 These settings affect your screen area, visible interfaces and information, and general QoL.
 ⬥ **Game Interaction > Mouseover text**
@@ -199,7 +199,7 @@ These settings affect your screen area, visible interfaces and information, and 
     • Turn on everything to ensure you have all necessary buffs, and know if you are ever debuffed.
 
 .
-__**Gameplay Settings > Combat & Action Bar**__
+### Gameplay Settings > Combat & Action Bar
 .tag:setcombat
 These settings affect your combat and gameplay experience concerning PvM.
 .
@@ -227,7 +227,7 @@ These settings affect your combat and gameplay experience concerning PvM.
     • Customize hitsplat colors to distinguish between different hits in combat more effectively.
 
 .
-__**Gameplay Settings > Targeting**__
+### Gameplay Settings > Targeting
 .tag:settargeting
 These settings affect the way your character chooses and changes combat targets.
 
@@ -242,7 +242,7 @@ These settings affect the way your character chooses and changes combat targets.
     • Customize hitsplat colours to distinguish between different hits in combat more effectively.
 
 .
-__**Gameplay Settings > Camera**__
+### Gameplay Settings > Camera
 .tag:setcamera
 Settings to do with camera and camera movement.
 ⬥ **System > Camera mode**
@@ -252,7 +252,7 @@ Settings to do with camera and camera movement.
     • Situationally useful - e.g. enable for ED2 (to see dragon special attacks easier), but disable for RotS (easier to escape tunnels without the shaking effect).
 
 .
-__**Gameplay Settings > Item Drops**__
+### Gameplay Settings > Item Drops
 .tag:setdrops
 These settings impact the loot system and the visual appearance of drops.
 ⬥ **Loot System > Use area loot**
@@ -263,7 +263,7 @@ These settings impact the loot system and the visual appearance of drops.
     • Highlights items above a player-defined threshold with a customizable beam to avoid accidentally not picking them up.
 
 .
-__**Gameplay Settings > Chat & Social**__
+### Gameplay Settings > Chat & Social
 .tag:setsocial
 These settings affect the chatbox and MMO aspects of the game.
 ⬥ **Chat Customisation**
@@ -278,7 +278,7 @@ These settings affect the chatbox and MMO aspects of the game.
         ⬩ **Other assists** - *everybody*
 
 .
-__**Controls**__
+### Controls
 .tag:setcontrols
 These settings are used to set all keybinds used within the game, affecting everything from action bar bindings to UI elements to hidden hotkeys. It is recommended to go through the controls set to ensure they are to your preference, but some of the less well-known keybinds that can be set are mentioned for convenience.
 ⬥ **Quick prayer** - this keybind toggles on/off all prayers set to quick prayer simultaneously.
@@ -290,7 +290,7 @@ These settings are used to set all keybinds used within the game, affecting ever
 *Note: Special attack and familiar action keybinds cannot be queued with ability queueing if set through the Controls tab. Use the action bar if queueing is required.*
 
 .
-__**Graphics**__
+### Graphics
 .tag:setgraphics
 These settings affect the visual appearance of the game. Depending on your computer's specs, you can adjust these to improve the game's performance or increase the graphical fidelity of the game. Some useful ones are covered here, but more detailed explanations of all the options can be found on the RuneScape Wiki page about Graphics Settings.
 ⬥ **Draw distance** - the higher this setting, the more of the world is visible, but it can impact FPS on slower machines.
@@ -303,12 +303,12 @@ These settings affect the visual appearance of the game. Depending on your compu
 .img:https://img.pvme.io/images/1PlF7IY.jpg
 
 .
-> __**Action Bars**__
+## __Action Bars__
 .tag:actionbars
 Action bars are part of every player's interface containing slots that you can drag different actions to keybind. This section covers basic information about action bars, extra action bars, and action bar binding.
 
 .
-__**Action Bar Basics**__
+### Action Bar Basics
 ⬥ Action bars have 14 slots that can be filled with a variety of actions, including but not limited to abilities, prayers, spells, and gear switches. To populate the bar, simply drag an action onto a slot on the bar.
 *Note: If this does not work, then your bar is **locked.** To unlock your action bar, click the golden lock icon on the primary bar (shown in the following picture).*
 .img:https://img.pvme.io/images/nd8js0o.png
@@ -327,7 +327,7 @@ __**Action Bar Basics**__
 ⬥ Right-clicking the cog will bring up access to combat settings and quickly change combat mode.
 
 .
-__**Action Bar Presets**__
+### Action Bar Presets
 ⬥ The number on any action bar indicates what **preset** for that bar is currently loaded. There are a total of 15 presets (10 in free-to-play).
 ⬥ Adding an action to the action bar is sufficient to update the preset. The preset can then be loaded to any action bar by changing the number on that bar.
     • *Right-clicking the number icon* of the action bar will bring up a list of presets that can be loaded.
@@ -337,7 +337,7 @@ __**Action Bar Presets**__
 ⬥ Action bar presets can be named in the settings found at **Settings > Gameplay > Action Bar > Change Action Bar Preset Names**
 
 .
-__**Additional Action Bars**__
+### Additional Action Bars
 ⬥ Additional action bars can be displayed by enabling them in the settings.
     • **Settings > Gameplay > Action Bar > Display Additional Action Bars**
 ⬥ You can have up to **four additional bars** for a total of five on-screen at any given time.
@@ -347,7 +347,7 @@ __**Additional Action Bars**__
 ⬥ Additional bars provide more slots to place actions for keybinding, reducing the number of things you need to manually click. They also facilitate easier switching of gear during combat and can overall improve your gameplay experience as you take time and familiarize yourself with your keybinds while playing.
 
 .
-__**Action Bar Binding**__
+### Action Bar Binding
 ⬥ **Action bars can be configured to switch automatically depending on the weapons equipped by the player**.
     • The settings can be found in **Settings > Gameplay > Action Bar Binding**
 ⬥ Bindings can be made for when the following types of weapons are equipped:
@@ -373,12 +373,12 @@ __**Action Bar Binding**__
 .img:https://img.pvme.io/images/mjAyjqV.mp4
 
 .
-> __**Keybinds**__
+## __Keybinds__
 .tag:keybinds
 When it comes to setting up keybinds, some important points can help structure your keybinds and make them easier to incorporate into PvM. The goal is to make learning your keybinds less frustrating, and feel more natural to use. This is done by making a few decisions.
 
 .
-__**Keybind Tips**__
+### Keybind Tips
 ⬥ Keybinds should be **easy to reach** - moving your hands too far can make it difficult to find and press keys.
     • Consider placing your more **frequently used binds closer** at hand, and rarely-used ones further away.
 ⬥ **Bind similar items near each other**.
@@ -397,7 +397,7 @@ __**Keybind Tips**__
     • It can also be easier to move the camera during PvM using the mouse.
 
 .
-__**Modifier Keys**__.
+### Modifier Keys.
 *Note: If you release the modifier before the key first, it will trigger the underlying key press. Keep this in mind when setting up modifier keys.*
 ⬥ The **Shift**, **Alt**, and **Ctrl** keys can be used to modify keybinds.
     • `A`, `Shift+A`, `Ctrl+A` and `Alt+A` would be four separate keybinds.
@@ -411,7 +411,7 @@ __**Modifier Keys**__.
 ***Disclaimer**: Any unofficial third-party tools are as always recommended to be installed and used at your own risk.*
 
 .
-__**Utilizing Additional Action Bars**__
+### Utilizing Additional Action Bars
 ⬥ Additional on-screen action bars can be used to **split your abilities/keybinds in a logical manner** to make them easier to learn and remember.
 ⬥ You can have up to **4 additional bars on-screen.**
 ⬥ **One example layout could be the following (see the picture below as well)**:
@@ -422,16 +422,16 @@ __**Utilizing Additional Action Bars**__
 .img:https://img.pvme.io/images/Om3MYyU.png
 
 .
-__**Keybinds Guide**__
+### Keybinds Guide
 ⬥ As a reference, check out this very well-thought-out guide to setting up the keybinds that can help you plan your keybinds.
 https://www.youtube.com/watch?v=zn_y-_2giZg
 
 .
-> __**Banking & Presets**__
+## __Banking & Presets__
 .tag:banking
 Bank organization is very much a subjective choice, and entirely up to your preference. There are some items that you may want to consider when sorting and placing in your tabs.
 
-__**Bank Tabs**__
+### Bank Tabs
 ⬥ Having well-sorted bank tabs can make it easier to keep track of gear upgrades, and ensure you have enough supplies to last your bossing trips, which is especially relevant for group PvM, so you do not have to interrupt gameplay and slow your teammates by having to buy supplies during an aura.
     • PvM gear - armour, weapons, switches, jewellery, pouches, quivers, and other related items.
     • Supplies for PvM - all kinds of food, potions, runes, ammunition, summoning pouches + scrolls, and more.
@@ -455,7 +455,7 @@ __**Bank Tabs**__
 .embed:json
 
 .
-__**Bank Presets**__
+### Bank Presets
 ⬥ Bank presets make it easy to equip entire loadouts with a single click.
 ⬥ There are 15 presets available, accessible by clicking the **cog icon** at the bottom right of your bank interface. We can cover a few important points about presets here.
 .
@@ -480,7 +480,7 @@ __**Bank Presets**__
 .img:https://img.pvme.io/images/gVodqX7.mp4
 
 .
-__**Quick Banking Preset**__
+### Quick Banking Preset
 ⬥ It is generally a useful idea to dedicate one of your preset slots to a 'quick banking' preset that you can use to apply buffs before a bossing trip or between kills, such as bonfire boosts, incense sticks, potion effects, familiar timers, etc.
 ⬥ Some items that people may include in their banking preset include:
     • HP-boosting gear/items <:wardentop90:1142770709530161192> > <:cryptbloombody:892819107253194762> <:merciless:1102553021457645579> <:Atrociousroguegloves:556588709634375701>

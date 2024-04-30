@@ -1,0 +1,100 @@
+# Telos: P5 Movement & Timing Reference
+.tag:intro
+.img:https://img.pvme.io/images/jtVMJ7sHgv.png
+.
+## __Introduction__
+***Note**: a **Table of Contents** can be found in the pins.*
+
+This quick reference aims to address two common pain points for aspiring Telosers in P5:
+⬥ Understanding the timing for targeting Telos and starting your rotation
+⬥ Learning how to efficiently move into, and switch between beams
+
+.
+## __Start Timing__
+.tag:timing
+### Visual Cue
+During the P5 cutscene, fonts will execute a brief "shifting" animation. The tick **after** this animation is the first tick that Telos can be target-cycled ("tc"). This animation + 1t delay will serve as the starting point for the opening rotation, for example:
+
+⬥ (font shift) → (wait 1t) → (tc) + <:smokecloud:856635090641879050> <:soa:869284271595069451> <:spec:537340400273195028>
+⬥ (font shift) → (wait 1t) → (tc) + <:invokedeath:1137809121983336548> → (wait 2t) → <:surge:535533810004262912> → <:splitsoul:1137809168368148490>
+⬥ (font shift) → (wait 1t) → (tc) + <:smokecloud:856635090641879050> <:grico:787904334812807238>
+⬥ (font shift) → (wait 1t) → (tc) + <:divert:787904334377648130> → (wait 2t) → <:surge:535533810004262912> → <:reflect:535541258786177064>
+
+***Note**: these example starting rotations may be out of date - check the respective guide*
+
+.
+### Sample Clip with Input Tracking
+***Note**: the icon immediately preceding <:spec:537340400273195028> in this clip represents target cycle.*
+.
+.img:https://img.pvme.io/images/RsWkHMC5kF.gif
+.
+
+.
+## __Movement & Positioning__
+.tag:movement
+### Overview
+There is no "one right way" to move efficiently in P5. The player can experiment with each method and find what works best for them. The primary goals are to:
+
+⬥ Move into the initial green beam spawn efficiently so as to maximize adrenaline gain
+⬥ Switch beams efficiently, either as part of moving into the green beam, or at a later time in order to acquire a buff or clear a virus <:redvirus:853191856350560266> <:greenvirus:853191856182657064> <:blackvirus:853191855856287746>
+
+.
+### Positioning & Movement Inputs
+In order to move well throughout P5, it's important to first have a basic understanding of positioning, and how it affects what movement abilities you can use. To keep it simple, **always aim to be 1 to 3 tiles away from <:telos:513212949033123840>**.
+
+.
+.img:https://img.pvme.io/images/CQ3FacXvjQ.png
+.
+
+.
+__**Side Beam Switching**__
+If you are in a **side** beam, and you are **1 to 3 tiles away**, you can:
+
+⬥ <:surge:535533810004262912> + <:dive:1049378668197195808> directly into the opposing side beam ([demo](<https://youtu.be/z3_azrtzXm0>))
+⬥ <:surge:535533810004262912> + walk or <:dive:1049378668197195808> into back beam ([demo](<https://youtu.be/mJXEZznIBUw>))
+
+.
+***Note**: if you are using <:surge:535533810004262912> diagonally though <:telos:513212949033123840> from a side beam as part of your movement strategy, it is important to click <:telos:513212949033123840> first while in the beam. This will force your character to face him and ensure you <:surge:535533810004262912> the right way.*
+
+.
+__**Back Beam Switching**__
+If you are in **back** beam, and you are **1 to 2 tiles away**, you can:
+
+⬥ <:dive:1049378668197195808> directly into either side beam ([demo](<https://youtu.be/MP4z0bUPPK0?si=4BfaWB3AwrEaooKH>))
+
+If you are in **back** beam, and you are **3 tiles away**, you can:
+
+⬥ Take 1 step diagonally → <:surge:535533810004262912> directly into either side beam ([demo](<https://youtu.be/f11Jjp_TYKk>))
+
+
+### General Approach to Beam Entry
+Entering the initial green beam spawn efficiently is key. The beam's position is random, so the player has to adapt accordingly. As mentioned earlier, there is no "one right way"; however, most players follow one of these two approaches - experiment with what feels best.
+
+**__Option A: Run Towards Left Beam__**
+⬥ On first actionable tick, **start running towards the left beam** spawn while casting abilities
+⬥ As beams spawn, note which one is green, and adapt accordingly:
+    • If **left** beam, simply **continue to run** into position
+    • If **back** beam, **enter left beam position**, then use the above strategies to **switch beams** from left → back ([demo](<https://youtu.be/hEDHrJ3sLrU>))
+    • If **right** beam, either:
+        ⬩ **Click above & right** of <:telos:513212949033123840>, **wait** until character rounds the corner, then <:surge:535533810004262912> + **walk** north → click <:telos:513212949033123840> next tick to stop perfectly in beam ([demo](<https://youtu.be/nFjiKdA_guQ>))
+        ⬩ Or, **enter left beam position**, then use the above strategies to **switch beams** from left → right
+
+https://youtu.be/ec3LEQIVa1s
+
+.
+**__Option B: Surge to Centre__**
+⬥ Cast opening ability and wait specified time as per rotation (e.g. 2 ticks), then <:surge:535533810004262912> directly towards the centre of <:telos:513212949033123840>
+⬥ As beams spawn, note which one is green, and adapt accordingly:
+    • If **left or right** beam, simply <:dive:1049378668197195808> into position ([demo](<https://youtu.be/ReXIiJVFpNM?si=ZJRmX2cyrCwa_cF2&t=361>))
+    • If **back** beam, <:dive:1049378668197195808> **into side beam position**, then use the above strategies to **switch beams** from side → back
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Timing]($linkmsg_timing$)\n⬥ [Movement]($linkmsg_movement$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
