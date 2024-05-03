@@ -13,7 +13,7 @@
     "fields": [
       {
         "name": "__Preset Suggestion & Breakdown__",
-        "value": " ⬥ [Ranged Minion Tank](https://pvme.github.io/preset-maker/#/3fqHI2QqfUnwk9rfInuL)\n ⬥ <:eofpink:780401412865523722> <:ecb:615618531937222657> Eldritch crossbow \n ⬥ <:eofblue:780401412906680330> <:sgb:626466665848242186> Seren godbow \n ⬥ <:eofgreen:780401412727242773> <:dbow:643848618553507843> Dark bow \n ⬥ <:eof:787526151978614824> <:decimation:643848618477879328> Decimation\n ⬥ <:pernixsquiver:902209626450296892> <:fularrow:971025696958853180>&<:deathsporearrows:900758234527301642> Ful and Deathspore arrows\n ⬥ <:pernixsquiverpurple:923269338885148714> <:wenarrow:971025697046925362>&<:deathsporearrows:900758234527301642> Wen and Deathspore arrows",
+        "value": " ⬥ [Ranged Minion Tank](https://pvme.github.io/preset-maker/#/3fqHI2QqfUnwk9rfInuL)\n ⬥ <:eofpink:780401412865523722> <:ecb:615618531937222657> Eldritch crossbow \n ⬥ <:eofblue:780401412906680330> <:sgb:626466665848242186> Seren godbow \n ⬥ <:eofgreen:780401412727242773> <:dbow:643848618553507843> Dark bow \n ⬥ <:eof:787526151978614824> <:decimation:643848618477879328> Decimation\n ⬥ <:eofred:780401412839833601> <:zammybow:1215929540908679208> Zamorak Bow\n ⬥ <:pernixsquiver:902209626450296892> <:fularrow:971025696958853180>&<:deathsporearrows:900758234527301642> Ful and Deathspore arrows\n ⬥ <:pernixsquiverpurple:923269338885148714> <:wenarrow:971025697046925362>&<:deathsporearrows:900758234527301642> Wen and Deathspore arrows",
         "inline": true
       }
     ]
@@ -23,6 +23,10 @@
 
 .
 ## __Rotation__
+
+__Arrow swaps note:__
+⬥ Arrows shown before an ability are used on cast, and arrows shown after an ability are equipped same tick as cast.  This allows in getting both arrow effects on the same ability
+
 .
 ### Prefight
 .tag:pre
@@ -31,7 +35,6 @@ Touch crystal → click <:dummy:656844963522281473> + s <:meteorstrike:535532879
 
 After entering the instance:
 tc <:dummy:656844963522281473> r <:meteorstrike:535532879359377439> + <:nat:535541258131865633> → <:wenarrow:971025697046925362> <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944>
-
 _Notes:
 ⬥ You will need to use the east crystal and stall meteor on the closest dummy
 ⬥ If you are not last inside the instance, wait until everyone is in to release your stall. Otherwise, drop your dummy and release your stall as soon as possible
@@ -40,48 +43,44 @@ _Notes:
 ⬥ Start with 3 to 7 <:perfectequilibrium:1006119102814887957> stacks_
 
 .
-### Phase 1
+### __Phase 1__
 .tag:p1
-(3.0) <:ecb:615618531937222657> <:eofspec:746403211908481184> → s <:bolg:994189289623662702> <:spec:537340400273195028> → r <:bolg:994189289623662702><:spec:537340400273195028> + <:rapid:535541270521708566> (8t) → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:deathsporearrows:900758234527301642> <:zammybow:1215929540908679208> <:eofspec:746403211908481184> + equip <:nightmaregauntlets:513190159441723392> <:deathsporearrows:900758234527301642> <:gricocaroming:867678153966878740> → <:gdeathsswift:994644354536837121>
+(3.0) <:ecb:615618531937222657> <:eofspec:746403211908481184> → s <:bolg:994189289623662702><:spec:537340400273195028> → r <:bolg:994189289623662702><:spec:537340400273195028> + <:rapid:535541270521708566> (8t) → <:dbow:643848618553507843><:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:zammybow:1215929540908679208><:eofspec:746403211908481184> + equip <:nightmaregauntlets:513190159441723392>
 
-_Notes:
-⬥ Can change the <:dbow:643848618553507843> <:eofspec:746403211908481184>/<:zammybow:1215929540908679208> <:eofspec:746403211908481184> order depending on adren
-⬥ Use <:deathsporearrows:900758234527301642> <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> after second <:dbow:643848618553507843> <:eofspec:746403211908481184> if low adren
-⬥ You should have at least 11 or more <:wenarrow:971025697046925362> stacks when starting P1, equip <:deathsporearrows:900758234527301642> when <:wenarrow:971025697046925362> stacks run out
-⬥ Setup to have 1 <:perfectequilibrium:1006119102814887957> stack before <:snipe:535541258425204770>in P2_
+_Note:
+⬥ Change <:dbow:643848618553507843><:eofspec:746403211908481184>/<:zammybow:1215929540908679208><:eofspec:746403211908481184> order depending on adren_
 
 .
-### Phase 2
+### __Phase 2__
 .tag:p2
-<:deathsporearrows:900758234527301642> <:gricocaroming:867678153966878740> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:stormshards:536256663641128971> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → wait 1 tick + <:fularrow:971025696958853180> <:snipe:535541258425204770> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:wenarrow:971025697046925362><:piercing:535541258538450944> → <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304>
+<:wenarrow:971025697046925362><:gricocaroming:867678153966878740><:deathsporearrows:900758234527301642> → <:deathsporearrows:900758234527301642><:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:stormshards:536256663641128971> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → wait 1 tick + <:fularrow:971025696958853180> <:snipe:535541258425204770> → <:bolg:994189289623662702><:spec:537340400273195028> + equip <:edracogloves:1179717613769728100> → <:wenarrow:971025697046925362><:piercing:535541258538450944> → <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304>
 
-_Note: Adjust <:snipe:535541258425204770> accordingly to phase timing.  This rotation assumes <:aod:580167371365548042> P1 phased 2 ticks after <:zammybow:1215929540908679208> <:eofspec:746403211908481184>_
+_Note:
+⬥ Adjust <:snipe:535541258425204770> accordingly to phase timing.  This rotation assumes <:aod:580167371365548042> P1 phased 2 ticks after <:zammybow:1215929540908679208><:eofspec:746403211908481184>_
 
 .
-### Phase 3
+### __Phase 3__
 .tag:p3
-<:ecb:615618531937222657> <:eofspec:746403211908481184> → <:wenarrow:971025697046925362> <:gricocaroming:867678153966878740> (swap to deathsporearrows on cast) → <:decimation:643848618477879328> <:eofspec:746403211908481184> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> (8t) → <:sgb:626466665848242186> <:eofspec:746403211908481184> (swap to <:deathsporearrows:900758234527301642> after cast) → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:surge:535533810004262912> to pillar
+<:ecb:615618531937222657> <:eofspec:746403211908481184> → <:wenarrow:971025697046925362><:gricocaroming:867678153966878740><:deathsporearrows:900758234527301642> → <:decimation:643848618477879328> <:eofspec:746403211908481184> → <:wenarrow:971025697046925362><:rapid:535541270521708566> (8t) → <:sgb:626466665848242186><:eofspec:746403211908481184> → <:dbow:643848618553507843><:eofspec:746403211908481184><:deathsporearrows:900758234527301642> → <:dbow:643848618553507843><:eofspec:746403211908481184>/<:piercing:535541258538450944> if phased + <:surge:535533810004262912> to pillar
 
 _Notes:
-⬥ You should have at least 9 <:wenarrow:971025697046925362> stacks before <:rapid:535541270521708566> so <:sgb:626466665848242186><:eofspec:746403211908481184> gets buffed
-⬥ To lure minions:
+⬥ Aim to have 15 <:wenarrow:971025697046925362> stacks before <:rapid:535541270521708566> (possible by tick switching arrows)
+⬥ Flick between <:wenarrow:971025697046925362> and <:deathsporearrows:900758234527301642> during <:rapid:535541270521708566> to lower <:deathsporearrows:900758234527301642> cooldown to <20s, then camp <:wenarrow:971025697046925362>
+⬥ Minion lures:
     • Umbra minion tank should <:surge:535533810004262912> on <:ecb:615618531937222657><:eofspec:746403211908481184>
     • Glacies minion tank should <:surge:535533810004262912> on <:decimation:643848618477879328><:eofspec:746403211908481184>_
 
 .
-### Pillars
+### __Pillars__
 .tag:pillars
 **Pillar 1**
-<:deathsporearrows:900758234527301642> <:gricocaroming:867678153966878740> → <:incend:535541258429661215> → <:fularrow:971025696958853180> <:dbow:643848618553507843> <:eofspec:746403211908481184> → <:ecb:615618531937222657> <:eofspec:746403211908481184>/<:snap:535534127131394088>
-
+<:deathsporearrows:900758234527301642><:gricocaroming:867678153966878740> → <:incend:535541258429661215> → <:fularrow:971025696958853180><:dbow:643848618553507843><:eofspec:746403211908481184> → <:ecb:615618531937222657><:eofspec:746403211908481184>/<:snap:535534127131394088>
 .
 **Pillar 2**
-<:bolg:994189289623662702> <:spec:537340400273195028>/<:ecb:615618531937222657> <:eofspec:746403211908481184> → <:wenarrow:971025697046925362> <:piercing:535541258538450944> → <:gricocaroming:867678153966878740>
-
+<:bolg:994189289623662702> <:spec:537340400273195028>/<:ecb:615618531937222657> <:eofspec:746403211908481184> → <:wenarrow:971025697046925362><:piercing:535541258538450944> → <:gricocaroming:867678153966878740>
 .
 **Pillar 3**
-<:shadowtend:642713547142332416> → <:dbow:643848618553507843><:eofspec:746403211908481184> → <:piercing:535541258538450944>
-
+<:shadowtend:642713547142332416> → <:dbow:643848618553507843><:eofspec:746403211908481184>/<:zammybow:1215929540908679208><:eofspec:746403211908481184> → <:piercing:535541258538450944>
 .
 **Pillar 4**
 <:ecb:615618531937222657><:eofspec:746403211908481184> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → improvise as needed
@@ -92,13 +91,13 @@ _Notes:
     • G → C <:dive:1049378668197195808> + <:surge:535533810004262912>
     • C → F <:surge:535533810004262912>
     • Save <:accel:756236265472524418> for bombs
-⬥ These pillars assume you have a full necro team.  Use better abilities on Glacies and Fumus pillars if more rangers on team (such as <:zammybow:1215929540908679208> <:eofspec:746403211908481184> instead of <:piercing:535541258538450944>)
-⬥ Use <:enhreplen:634350450887622656> when needed_
+⬥ These pillars assume you have a full necro team.  Use better abilities on Glacies and Fumus pillars if more rangers on team (such as <:zammybow:1215929540908679208><:eofspec:746403211908481184> instead of <:piercing:535541258538450944>)
+⬥ Use <:enhreplen:634350450887622656> when needed, generally on Pillar 2_
 
 .
-### Zaros
+### __Zaros__
 .tag:zaros
-<:rapid:535541270521708566> (until 1-2 <:perfectequilibrium:1006119102814887957> stacks) → <:sgb:626466665848242186> <:eofspec:746403211908481184> → <:dbow:643848618553507843> → improvise with <:zammybow:1215929540908679208> <:eofspec:746403211908481184>/<:snap:535534127131394088>/<:gricocaroming:867678153966878740>/<:piercing:535541258538450944> based on adrenaline and cooldowns
+<:rapid:535541270521708566> (until 1-2 <:perfectequilibrium:1006119102814887957> stacks) → <:sgb:626466665848242186><:eofspec:746403211908481184> → <:dbow:643848618553507843> → improvise with <:zammybow:1215929540908679208><:eofspec:746403211908481184>/<:snap:535534127131394088>/<:gricocaroming:867678153966878740>/<:piercing:535541258538450944> based on adrenaline and cooldowns
 
 .
 .tag:eg
