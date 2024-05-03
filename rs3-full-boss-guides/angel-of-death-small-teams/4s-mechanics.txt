@@ -1,0 +1,125 @@
+# 4-Man AoD Mechanics
+.tag:intro
+## __Introduction__
+This is a mechanics guide for 4-man Nex: Angel of Death. It is assumed that you know how to deal with mechanics in 7-man AoD, described in <#1020818825840689262>.
+
+Due to the meta heavily favouring ranged at the time of writing, this guide will assume that the team consists of **Ranged Minion Tanks**. The base can either Necro or Range.
+
+The current rotations can **consistently reaver skip** if executed correctly.
+
+.
+## __Mechanics__
+.tag:mechanics
+Dealing with mechanics in 4-man AoD is slightly different to how they are dealt with in 7-mans. The following summarizes the major mechanics of the fight and how to deal with them.
+### Phase 1 (3,000,000 - 2,100,000 HP)
+⬥ Elements
+    • Quadrant with elements:
+        ⬩ Tank it as you would in larger teams.
+    • Quadrant with reavers:
+        ⬩ Throw sticky bombs <:stickybomb:655341074306301964> at the reavers until AoD hits her phase hp.
+        ⬩ Sticky bombs last 6s / 10t.
+        ⬩ Before getting bound by consecutive sticky bombs, the reaver will always walk at least 1 tile.
+
+*Note: Fast teams should not need to tank elements and do not require sticky bombs as you should consistently reaver skip.*
+
+.
+### Phase 2 (2,100,000 - 1,800,000 HP)
+Handle mechanics exactly the same as in Phase 1.
+
+.
+### Phase 3 (1,800,000 - 600,000 HP)
+⬥ Smoke Pool
+    • All tanked pools taken deal 14k damage spread evenly among the people inside.
+    • Base is to tank the first pool making use of a vitality potion <:vitality:654618235097972737>. If the base is using range, the Fumus Minion Tank may instead handle the first pool with a vitality potion <:vitality:654618235097972737>.
+    • If there are any other pools, they have to be tanked by at least 2 people both with >7k hp.
+⬥ Ice
+    • Assist the team member who is trapped ice by doing damage on the ice to free them.
+⬥ All other mechanics work the same as in 7s.
+
+.
+## __Dummy Placement__
+.tag:dummy
+.
+⬥ Important Notes
+    • Dummies <:dummy:656844963522281473> **CANNOT** be placed during Nex's *elements* special attack since squares are blocked for placement
+    • Familiars <:ripperpouch:703581275453128714> block dummies, they are 2x2
+    • Conjures <:conjurearmy:1166094935066423348> block dummies, they are 1x1
+    • Prisms <:prismofrestoration:938475261366784070> <:prismofloyalty:1016651066684756070> block dummies
+    • Make sure before placing a dummy that nothing blocks it
+        ⬩ Call your familiars
+        ⬩ Move your conjures (Target the Glacies Amalgamation)
+        ⬩ Don't place prisms near where dummies are supposed to be placed
+.
+{
+	"embed": {
+  	"title": "Dummy Placement",
+    "description": "A total of 4 dummies can be placed with the following distribution:",
+    "color": 32768,
+    "image": {
+    	"url": "https://img.pvme.io/images/tsGtkCpi5E.png"
+    },
+    "fields": [
+      {
+      	"name": "White Frog -  Fumus MT - Under Dummy",
+        "value": "Place on the arena's central tile at any point before p3 (p2/3 is preferrable if p1 damage is an issue)",
+        "inline": false
+      },
+      {
+      	"name": "Red Frog - Cruor MT - West Dummy",
+        "value": "Stand 2 squares out of md on the west midline and place before incend p3",
+        "inline": false
+      },
+      {
+      	"name": "Purple Frog - Umbra / Glacies MT - South-West Dummy",
+        "value": "Place p1 from the tile shown, make sure no pets are blocking, can place after rapid p2 if blocked",
+        "inline": true
+      },
+      {
+      	"name": "Frog with Disrupt -  Base - South Dummy",
+        "value": "Place during p3 after the <:commandskeleton:1137809194423160883>, walk from southeast→south (blue rectangle) and place",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+.
+## __Minion Lure__
+.tag:lure
+To lure the minions using 3 minion tanks (UG Tank, C Tank and F Tank) players need to do the movement correctly.
+⬥ UG Tank will do the following:
+    • <:gdeathsswift:994644354536837121> at the Fumus detonation spot and move to the center line to avoid elements
+    • Move behind the umbra amalgamation (1) while targeting the amalgamation
+    • Pre vuln umbra, and surge north after umbra spawns (to 2).
+    • Vuln glacies, and surge through nex to lure (to 3).
+    • After luring, you may move to the center line to be closer to first pillar (4).
+⬥ C Tank will do the following:
+    • <:gdeathsswift:994644354536837121> at the Umbra detonation spot and move to the center line to avoid elements
+    • Surge the minion through nex as you would in a 7-man team at the timing listed in rotations
+⬥ F Tank will do the following:
+    • <:gdeathsswift:994644354536837121> at the Umbra detonation spot and move to the center line to avoid elements
+    • Surge the minion through nex as you would in a 7-man team at the timing listed in rotations
+    • Move back into after minion is fully lured
+.img:https://img.pvme.io/images/JUSNhrd8hm.png
+.
+{
+  "embed": {
+    "title": "__AoD: 7-10 Man__",
+    "description": "This guide is made and upkept in collaboration with the [AoD: 7-10 Man discord](https://discord.gg/2rd8Vqe).\n\nFor those interested in a non-toxic and friendly environment for ‘Small’ team AoD, with team sizes varying from 4 to 7. We accept all experience levels, from Learners to Experts and Teachers. We offer teams running throughout the day.",
+    "color": 14335185,
+    "thumbnail": {
+    "url": "https://img.pvme.io/images/52ArNgViKL.png"
+    }
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Dummy Placements]($linkmsg_dummy$)\n⬥ [Minion Lure]($linkmsg_lure$)\n",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
