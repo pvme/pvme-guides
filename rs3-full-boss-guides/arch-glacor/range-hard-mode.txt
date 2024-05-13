@@ -19,92 +19,122 @@ The Arch-Glacor is **not** affected by Slayer tasks in hard mode.
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/RaIvN7PjqA.png"
+            "url": "https://img.pvme.io/images/82WZby7qfo.png"
         },
     "fields": [
-{
+			{
         "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Ranged | Beginner / Basic](https://pvme.io/preset-maker/#/XswNDbMPFyCP2Z0ExMLW)\n⬥ [Ranged | Advanced w/ Ful Arrows](https://pvme.github.io/preset-maker/#/VIn21FB2hbUAX9wq5Ejs)\n⬥ [Ranged | Advanced Poison Build](https://pvme.github.io/preset-maker/#/TGS6ucPuqzLmQDa98WNI)",
+        "value": "⬥ [Ranged | Low Enrage (Ful Build)](https://pvme.github.io/preset-maker/#/AIhj3fh8a7uvUSpcz23s)\n⬥ [Ranged | Medium Enrage (Poison Build)](https://pvme.github.io/preset-maker/#/LnZmwjyWxy8pG2afTfEC)\n⬥ [Ranged | High Enrage (Poison/Crit Build)](https://pvme.io/preset-maker/#/409seFq31GNPet3eD5Db)",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-### Preset Notes
-
-⬥ It is recommended to switch to a poison build once your killtimes exceed ~3:30 on average (-30s if <:bolg:994189289623662702>)
-
-⬥ When using a poison build, ensure Prism of Restoration <:prismofrestoration:938475261366784070> is used to keep your Blood Reaver alive.
-
+## __General strategy__
+.tag:general_strategy
+⬥ Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. For more information on general ranged rotations see <#1020729671127662643>.
+⬥ In general, aim to <:deathsswift:994921434633744455> as often as possible, while avoiding wasting it due to mechanic interruptions.
+⬥ During <:deathsswift:994921434633744455>, aim to use 2x <:sgb:626466665848242186> <:eofspec:746403211908481184> and 2x <:rapid:535541270521708566>. Line up strong abilities with <:perfectequilibrium:1006119102814887957>.
+⬥ If bringing <:deathsporearrows:900758234527301642>, gain 5 stacks with <:rapid:535541270521708566>/<:grico:787904334812807238>/basics and use <:deathsporearrows:900758234527301642> <:incend:535541258429661215> before every <:deathsswift:994921434633744455>.
+⬥ Optionally pre<:incend:535541258429661215>. For more information see !preincend.
+⬥ Always have <:darkness:1137809209782698024> active (especially for higher enrages)
+⬥ Penance Powder <:powderofpenance:928221126360969226>, Kwuarm Incense Sticks <:kwuarmsticks:565726489341984779>, Lantadyme Incense Sticks <:lantasticks:565726489404899368>, and Spirit Weed Incense Sticks <:spiritsticks:565726489136463894> should be used before the fight.
+⬥ Sections below detail enrage specific strategies and ways to deal with mechanics.
+⬥ Enrage brackets suggested in this guide are **recommendations**. Feel free to use different strategies earlier/later.
 .
-## __Strategy__
-.tag:strategy
-### General Rotations
-⬥ Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. In general, aim to <:deathsswift:994921434633744455> as often as possible, while avoiding wasting it due to mechanic interruptions.
-
-⬥ When pushing enrage, it may be desirable to start the fight with <:nat:535541258131865633> instead of <:deathsswift:994921434633744455>
-
-⬥ Up until ~1000% enrage, it is feasible to use <:ecb:615618531937222657> <:spec:537340400273195028> constantly
-    • Generally, <:ecb:615618531937222657> <:spec:537340400273195028> is **not used** for poison builds
-
+## __Low Enrage (0% - 1500%)__
+.tag:low_enrage
+### Strategy
+⬥ For low enrage (0% - 1500%) use ful arrow build.
+⬥ Use <:ecb:615618531937222657><:eofspec:746403211908481184> if you have excess adrenaline without sacrificing your rotation.
+### Dealing with mechanics
+⬥ Frost Cannon - <:anti:535541306475151390> → <:deflectmage:544195487926845462> <:reflect:535541258786177064>/<:vitality:654618235097972737> (if b2b) → <:soulsplit:615613924506599497> <:divert:787904334377648130>.
+⬥ Exposed Core (Arms) - use strong abilities like <:grico:787904334812807238>/<:snap:535534127131394088>/<:shadowtend:642713547142332416>/<:bolg:994189289623662702> <:spec:537340400273195028>/<:zammybow:1215929540908679208> <:eofspec:746403211908481184> while alligning <:perfectequilibrium:1006119102814887957> stacks. Use (<:limitless:641339233638023179>) <:deflectmage:544195487926845462> <:devo:513190158728953857> if arms take too long.
+⬥ Glacyte Minions (with <:omniguard:1138809234922934282> + <:soulboundlantern:1138809230573441064> switch) - <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642>.
+⬥ Glacyte Minions (with <:range:580168050121113623>) - <:corruptshot:535541306294796299>/<:frag:535541273755385885> bolstering → equip <:mechchin:641669268722810881> + <:snipe:535541258425204770> → <:snap:535534127131394088> → <:zammybow:1215929540908679208> <:eofspec:746403211908481184> → finish off bolstering.
 .
-### Poison Build
-⬥ If using a poison build, prioritise abilities that can build <:bikarrow:971025697235689513> stacks quickly, until 400 are reached (<:grico:787904334812807238> / <:rapid:535541270521708566> / <:snap:535534127131394088>)
-⬥ Once your first <:deathsswift:994921434633744455> rotation is complete, try also to prioritize bleeds, as each hit from a bleed can proc poison
-    • Swap to <:fularrow:971025696958853180> after full stacks are reached, ensuring to swap back to <:bikarrow:971025697235689513> every <30s to maintain stacks
-
+## __Medium Enrage (1500% - 3000%)__
+.tag:medium_enrage
+### Strategy
+⬥ For medium enrage (1500% - 3000%) use poison build. For more information see !bik and !poison.
+⬥ Use <:ecb:615618531937222657> <:eofspec:746403211908481184> if you have adrenaline and health to spare.
+⬥ Set <:reaverscroll:1022562484378419284> autofire to 1-5 and ensure Prism of Restoration <:prismofrestoration:938475261366784070> is used to keep your Blood Reaver alive.
+⬥ Prioritize <:grico:787904334812807238>/<:rapid:535541270521708566>/<:snap:535534127131394088> using them off cd to build <:bikarrow:971025697235689513> stacks and proccing posion.
+⬥ Once your first <:deathsswift:994921434633744455> rotation is complete, proritize bleeds (<:corruptshot:535541306294796299>/<:frag:535541273755385885>/<:abyssalscourge:947871842469834832> <:dismember:535532879376023572>) even during <:deathsswift:994921434633744455>.
+⬥ Swap to <:fularrow:971025696958853180> after full stacks are reached, ensuring to swap back to <:bikarrow:971025697235689513> every <30s to maintain stacks.
 .
-### Clearing Exposed Core (Arms)
-<:HydrixBakri:550834403136503822> <:grico:787904334812807238> + <:vulnbomb:655341074235129858> → <:bolg:994189289623662702> auto + <:shadowtend:642713547142332416> → <:snap:535534127131394088> / <:dbow:643848618553507843> <:eofspec:746403211908481184>
-
-Or,
-
-<:fularrow:971025696958853180> <:grico:787904334812807238> + <:vulnbomb:655341074235129858> → <:snap:535534127131394088> → <:rapid:535541270521708566> → strong abilities
-
-*Note: for either rotation, ensure that adrenaline is available for <:devo:513190158728953857> if needed.*
-
+### Dealing with mechanics
+⬥ Frost Cannon - <:anti:535541306475151390> → <:deflectmage:544195487926845462> <:reflect:535541258786177064>/<:vitality:654618235097972737> (if b2b) → <:soulsplit:615613924506599497> <:divert:787904334377648130>/<:res:535541258844635148>.
+⬥ Flurry - use <:divert:787904334377648130>/<:res:535541258844635148>/<:reflect:535541258786177064>/<:debil:535541278264393729>/<:vitality:654618235097972737> if needed.
+⬥ Exposed Core (Arms) **>2500%** - <:ecb:615618531937222657> <:eofspec:746403211908481184> → (tc) <:grico:787904334812807238> → <:rapid:535541270521708566> → finish with <:snap:535534127131394088>/<:shadowtend:642713547142332416>/<:bolg:994189289623662702> <:spec:537340400273195028>/<:snipe:535541258425204770>/<:grico:787904334812807238>/basics while aligning <:perfectequilibrium:1006119102814887957>. Use (<:limitless:641339233638023179>) <:deflectmage:544195487926845462> <:devo:513190158728953857> if needed.
+⬥ Glacyte Minions **>2500%** - <:adrenrenewal:736298121704767538> + build to 100% → <:meteorstrike:535532879359377439> → <:grico:787904334812807238> → <:decimation:643848618477879328> <:eofspec:746403211908481184> → <:piercing:535541258538450944>/<:zammybow:1215929540908679208> <:eofspec:746403211908481184> until <:decimation:643848618477879328> <:eofspec:746403211908481184> runs out → kill bolstering.
 .
-### Clearing Glacyte Minions
-⬥ **< 2500%**
-<:mechchin:641669268722810881> <:frag:535541273755385885> → <:rapid:535541270521708566> → <:snap:535534127131394088> or <:mechchin:641669268722810881> <:frag:535541273755385885> → <:dbow:643848618553507843> <:eofspec:746403211908481184>
-
-⬥ **> 2500%**
-see <#1039698472217100328>
-
+## __High Enrage (3000% - 4000%)__
+.tag:high_enrage
+### Strategy
+⬥ For high enrage (3000% - 4000%) use poison build with crit buffs. Follow strategies listed in Medium Enrage section.
+⬥ Only use <:ecb:615618531937222657> <:eofspec:746403211908481184> during arms mechanic.
+⬥ <:tsunami:535533809995874304>/<:devo:513190158728953857>/<:cade:535541306353778689> are reserved for arms mechanic. Do not use these if there is a possibility they won't be available during arms.
+⬥ <:meteorstrike:535532879359377439>/<:deadshot:535541307666595870> are reserved for minions mechanic. Do not use these if there is a possibility they won't be available during minions.
+⬥ <:adrenrenewal:736298121704767538> should be used as an emergency if you enter arms/minions special with low adrenaline.
 .
-### Defensive Usage
-⬥ At higher enrage, you will want to prioritize defensives as follows,
-    • **Frost Cannon**: <:anti:535541306475151390> → <:DeflectMage:544195487926845462> <:reflect:535541258786177064> → <:soulsplit:615613924506599497> <:res:535541258844635148>
-    • **Exposed Core** (arms): <:devo:513190158728953857> → <:cade:535541306353778689> as needed
-    • **Glacyte Minions**: <:debil:535541278264393729> (and, rarely, <:freedom:535541258240786434>)
-    • **Flurry**: <:vitality:654618235097972737> / <:disrupt:535614336207552523> / <:res:535541258844635148> (unless cannon imminent)
-    • **Pillars of Ice**: <:prep:535541258546970624> / <:voke:535541259465392143> for adrenaline
+### Dealing with mechanics
+⬥ Frost Cannon - <:anti:535541306475151390> → <:deflectmage:544195487926845462> <:reflect:535541258786177064>/<:debil:535541278264393729>/<:vitality:654618235097972737> → <:soulsplit:615613924506599497> <:divert:787904334377648130>/<:res:535541258844635148>.
+⬥ Flurry - use <:divert:787904334377648130>/<:res:535541258844635148>/<:reflect:535541258786177064>/<:debil:535541278264393729>/<:vitality:654618235097972737> if needed.
+.
+### Exposed Core (Arms)
+⬥ Use <:adrenrenewal:736298121704767538> if entering with low adren.
+⬥ Use safe ending if you were late to the rotation, didn't do enough damage or have minions active that may stun you.
+⬥ If <:rapid:535541270521708566> is on long cooldown you'll have to improvise and use safe ending.
+⬥ Use <:bikarrow:971025697235689513> with <:grico:787904334812807238> since it will refresh stacks on AG.
+⬥ Replace one of <:zammybow:1215929540908679208> <:eofspec:746403211908481184> with <:bolg:994189289623662702> <:spec:537340400273195028> if <:bolg:994189289623662702> passive is not active.
+⬥ After clearing arms build to <:deathsporearrows:900758234527301642> <:incend:535541258429661215> → <:deathsswift:994921434633744455>.
+⬥ For B2B arms follow safe ending with <:cade:535541306353778689>. During <:incend:535541258429661215> + <:deathsswift:994921434633744455> it's possible to clear B2B arms without <:devo:513190158728953857>/<:cade:535541306353778689> (see example vod).
+.
+<:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:ecb:615618531937222657> <:eofspec:746403211908481184> → (tc) + <:bikarrow:971025697235689513> <:grico:787904334812807238> → (<:limitless:641339233638023179> if needed) <:fularrow:971025696958853180> <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:746403211908481184> → <:zammybow:1215929540908679208> <:eofspec:746403211908481184> → <:bikarrow:971025697235689513> <:grico:787904334812807238>
 
+Fast ending:
+<:deflectmage:544195487926845462> <:fularrow:971025696958853180> <:zammybow:1215929540908679208> <:eofspec:746403211908481184> → <:devo:513190158728953857> → improvise with <:snap:535534127131394088>/<:zammybow:1215929540908679208> <:eofspec:746403211908481184>/<:bolg:994189289623662702> <:spec:537340400273195028>/<:snipe:535541258425204770> whilst ligning up <:perfectequilibrium:1006119102814887957> until 30k → <:invokedeath:1137809121983336548> → <:touchofdeath:1137809175980810380>/<:fingerofdeath:1159434801938432010>
+
+Safe ending:
+<:fularrow:971025696958853180> <:cade:535541306353778689> → improvise with <:snap:535534127131394088>/<:zammybow:1215929540908679208> <:eofspec:746403211908481184>/<:bolg:994189289623662702> <:spec:537340400273195028>/<:snipe:535541258425204770> whilst ligning up <:perfectequilibrium:1006119102814887957> → <:bikarrow:971025697235689513> <:grico:787904334812807238> → improvise until <:cade:535541306353778689> is about to end → <:deflectmage:544195487926845462> <:devo:513190158728953857> → improvise until 30k → <:invokedeath:1137809121983336548> → <:touchofdeath:1137809175980810380>/<:fingerofdeath:1159434801938432010>
+.
+### Glacyte Minions
+⬥ Use <:adrenrenewal:736298121704767538> if entering with low adren.
+⬥ Don't forget to attack AG with <:bikarrow:971025697235689513> to refresh stacks as many times as needed during the spec.
+⬥ Equip <:fularrow:971025696958853180> for minions.
+⬥ If you have <:deathsswift:994921434633744455> active replace first <:piercing:535541258538450944> with <:bindingshot:535541306563231790> and run inside <:deathsswift:994921434633744455>.
+
+<:debil:535541278264393729>/<:reflect:535541258786177064> → build to 100% while luring bolstering → <:meteorstrike:535532879359377439> → <:grico:787904334812807238> → <:decimation:643848618477879328> <:eofspec:746403211908481184> → <:piercing:535541258538450944> → <:deadshot:535541307666595870> → spam <:zammybow:1215929540908679208> <:eofspec:746403211908481184> or <:piercing:535541258538450944> (if <36%) until <:decimation:643848618477879328> <:eofspec:746403211908481184> runs out
+
+(if minions have high hp):
+<:bikarrow:971025697235689513> <:mds:535541259033378827> AG to refresh stacks → <:decimation:643848618477879328> <:eofspec:746403211908481184> → <:piercing:535541258538450944> → spam <:zammybow:1215929540908679208> <:eofspec:746403211908481184> or <:piercing:535541258538450944> (if <36%) until <:decimation:643848618477879328> <:eofspec:746403211908481184> runs out
+
+(if minions have low hp):
+<:bikarrow:971025697235689513> <:mds:535541259033378827> AG to refresh stacks → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:bloat:1159433682403201044>
+
+Finish off bolstering with <:tuskas:513201065513058306> + <:perfectequilibrium:1006119102814887957> and strong abilities. When bolstering is <30k finish off with <:invokedeath:1137809121983336548>
 .
 ## __Example Kills__
 .tag:examples
+⬥ [500%](<https://youtu.be/LLfh-xehpRM>)
 .
-{
-  "embed": {
-"title": "",
-    "description": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Example Kills__",
-        "value": "⬥ [500%](https://youtu.be/LLfh-xehpRM)\n⬥ [1500%](https://youtu.be/3FOy7Oc_2og)\n⬥ [2000% - no ECB/BOLG](https://youtu.be/gS9OijjLSWQ)\n⬥ [3000% - no ECB/BOLG](https://youtu.be/akqNaStOj9Q)"
-      }
-    ]
-  }
-}
-.embed:json
-
+⬥ [1500%](<https://youtu.be/3FOy7Oc_2og>)
+.
+⬥ [2000%](<https://youtu.be/gXrzcdcRfms>)
+.
+⬥ [3000%](<https://youtu.be/28wd6jJ2FBM>)
+.
+⬥ [4000%](<https://youtu.be/Q5xt6nZj0qw>)
+.
+Content Provided by: <@159663440011460609>
+Formatting Maintained by: <@159663440011460609>
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Strategy]($linkmsg_strategy$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [General strategy]($linkmsg_general_strategy$)\n⬥ [Low Enrage]($linkmsg_low_enrage$)\n⬥ [Medium Enrage]($linkmsg_medium_enrage$)\n⬥ [High Enrage]($linkmsg_high_enrage$)\n⬥ [Example Kills]($linkmsg_examples$)",
     "color": 39423
   }
 }
