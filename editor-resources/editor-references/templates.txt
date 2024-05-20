@@ -18,12 +18,12 @@ This refers to Discord embed messages that are JSON-formatted to produce good lo
 
 .
 ### Embed Commands
-⬥ **`\n`** = add a new line
-⬥ **`\u00a0\u00a0\u00a0\u00a0`** = add 4 spaces after a new line
-⬥ **`\n\u00a0\u00a0\u00a0\u00a0•`** = add a new line and 4 spaces (to add subsubpoints)
-⬥ **`\n\u200B`** = add a blank line at the end of string
-⬥ **`[text](website link)`** = add hyperlink (links will only resolve if they are valid and exist)
-⬥ **`[text]($linkmsg_tagword$)`** = add link to previous discord message in the channel that has been tagged using `.tag:tagword` (links will only resolve if they are valid and exist)
+⬥ **`\n`** = add a new line.
+⬥ **`\u00a0\u00a0\u00a0\u00a0`** = add 4 spaces after a new line.
+⬥ **`\n\u00a0\u00a0\u00a0\u00a0•`** = add a new line and 4 spaces (to add subsubpoints).
+⬥ **`\n\u200B`** = add a blank line at the end of string.
+⬥ **`[text](website link)`** = add hyperlink (links will only resolve if they are valid and exist).
+⬥ **`[text]($linkmsg_tagword$)`** = add link to previous discord message in the channel that has been tagged using `.tag:tagword` (links will only resolve if they are valid and exist).
 
 .
 A example embed structure is given below, as a starting point to create your own embeds.
@@ -98,10 +98,11 @@ When rendered, this looks like the following:
 .
 ## __Basic Guide Writing Template__
 .tag:guidebasic
-The following template covers the basic structure of a guide for reference. Copy this into the Guide Editor tool and use it as a starting point for the guide layout.
+The following template covers the basic structure of a guide for reference. Copy this into the [Guide Editor tool](<https://pvme.github.io/guide-editor/>) and use it as a starting point for the guide layout.
 
 ```# Title
 ..img:https://img.pvme.io/images/gIzPFEV.png
+Note: a **Table of Contents** can be found in the pins.
 
 ..
 ## __Intro__
@@ -109,44 +110,58 @@ The following template covers the basic structure of a guide for reference. Copy
 [Brief overview of the boss]
 
 ..
-## __Drops__
-..tag:drops
-⬥ [Unique drops from killing the boss (including droprates and prices if known)]
-
-..
 ## __Presets__
 ..tag:presets
-⬥ [Required/used relics]
-⬥ [Preset picture + link to preset breakdown]
-⬥ [Describe important items in the preset]
-⬥ [Any other important notes]
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "[Link to preset image]"
+        },
+    "fields": [
+      {
+        "name": "__[Preset name] Suggestion__",
+        "value": "⬥ [[Preset breakdown]]([Link to preset breakdown])\n\u200B\n\u200B Describe ammo/EoFs",
+        "inline": true
+      }
+    ]
+  }
+}
+..embed:json
 ..
 ..img:https://img.pvme.io/images/oVjpPka.png
 ## __Mechanics__
 ..tag:mechanics
-⬥ [First mechanic]
-    • [Describe the mechanic]
-        ⬩ [Describe how to handle mechanic]
-..img:https://img.pvme.io/images/oB20Btb.png
-⬥ [Repeat for the rest of the mechanics]
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Mechanic 1__",
+        "value": "⬥ [[Description of mechanic]]([Link to gif of mechanic])\n\u00a0\u00a0\u00a0\u00a0• [Describe how to handle mechanic]\n\u200B"
+      },
+      {
+        "name": "__Mechanic 2__",
+        "value": "⬥ [Description of mechanic]([Link to gif of mechanic])\n\u00a0\u00a0\u00a0\u00a0• [Describe how to handle mechanic]"
+      }
+    ]
+  }
+}
 
-..
-## __The Fight__
+..embed:json
+> __**Strategy (Delete if not applicable)**__
 ..tag:fight
 ⬥ [Explain the fight, break it down into phases if applicable]
 
 ..
-## __Rotations __(optional section)____
+> __**Rotations__ (Delete if not applicable)**__
 ..tag:rotations
 ⬥ [Phase 1 rotations]
 ⬥ [Phase 2 rotations]
-⬥ [etc]
-
 ..
 ## __Example Kills__
 ..tag:example```
-.
-
 .
 ## __Table of Contents (Basic)__
 .tag:tocbasic
@@ -273,20 +288,20 @@ An embed format to add example kills to a guide.
 {
   "embed": {
     "title": "__Example Kills__",
-    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough) by <@userid>.",
+    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough)",
     "color": 39423,
     "fields": [
       {
         "name": "__Magic__ <:Magic:689504724159823906>",
-        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+        "value": "⬥ [Kill Description](link_to_kill)"
       },
       {
         "name": "__Melee__ <:melee:1096130867279171706>",
-        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+        "value": "⬥ [Kill Description](link_to_kill)"
       },
       {
         "name": "__Ranged__ <:range:580168050121113623>",
-        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+        "value": "⬥ [Kill Description](link_to_kill)"
       }
     ]
   }
@@ -299,20 +314,20 @@ When rendered, it looks like the following:
 {
   "embed": {
     "title": "__Example Kills__",
-    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough) by <@userid>.",
+    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough)",
     "color": 39423,
     "fields": [
       {
         "name": "__Magic__ <:Magic:689504724159823906>",
-        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+        "value": "⬥ [Kill Description](link_to_kill)"
       },
       {
         "name": "__Melee__ <:melee:1096130867279171706>",
-        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+        "value": "⬥ [Kill Description](link_to_kill)"
       },
       {
         "name": "__Ranged__ <:range:580168050121113623>",
-        "value": "⬥ [Kill Description](link_to_kill) by <@userid>."
+        "value": "⬥ [Kill Description](link_to_kill)"
       }
     ]
   }
