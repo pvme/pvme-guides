@@ -1,0 +1,74 @@
+## __Introduction__
+.tag:intro
+This channel will cover creating tile-based maps for our guides, such as the below examples:
+.img:https://img.pvme.io/images/8tY6vB0VH7.png
+
+.
+## __Instructions__
+.tag:instructions
+
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Link to the tool__",
+        "value": "⬥ [Map Generator on Google Colab](https://colab.research.google.com/drive/1OfiHQwIhKCfCJxgHCjXNiteoMJqVX6Yr?usp=sharing)"
+      },
+      {
+        "name": "__Finding problems?__",
+        "value": "⬥ If you have any issues, contact Crash (<@502132499271385098>)\n⬥ Do not sit struggling alone!"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## Step 1
+1.1 Run the first code section by clicking the first play button
+.img:https://img.pvme.io/images/iSHbmxoSrX.png
+
+.
+## Step 2
+2.1. Scroll down to the second code section and edit the variables between the two lines of `#########`
+.img:https://img.pvme.io/images/fCvNMZwNGs.png
+.
+*Notes:*
+    a. Check <#1162558489533612063> first for already created maps and variables sets to save you time
+    b. You can find map chunks here: <https://mejrs.github.io/>
+    d. If struggling to find a specific area check here <https://runescape.wiki/w/User:Mejrs/map_zones>, search for the area you want with ctrl+f, then change the -1 on the mej web address to the corresponding map ID
+    e. After the map takes you to the area, set the number BACK to -1, this should take you to the correct area on the main map
+
+2.2. If unsure about the coloured tile markings, enter a number around where you think for player/cannon etc, then tweak and re-run the code
+
+2.3. Choose how many tiles to trim off each side of the image (left,upper,right,bottom)
+
+2.4. Select which legend to use from the listed options
+
+2.5. Remove the `#` from any lines you have set (any lines with a `#` will not be executed)
+.img:https://img.pvme.io/images/88RSQ8Bnvb.png
+
+.
+## Step 3
+3.1. Run the main code
+.img:https://img.pvme.io/images/hN8YQKzJWk.png
+3.2. Wait for the code to execute - you can track its progress at the bottom of your browser
+.img:https://img.pvme.io/images/JOBeROCphO.png
+
+.
+## Step 4
+4.1. Scroll to the very bottom of the page to view your created map and `right click > save` when happy, or scroll back up and tweak the variables if it's not right
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Instructions]($linkmsg_instructions$)",
+    "color": 39423
+  }
+}
+.embed:json
+
+.pin:delete
