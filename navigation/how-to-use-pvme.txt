@@ -19,17 +19,17 @@ Text channels - Interact with other PvME users in these channels.
           {
         "name": "**__Social Channels__**",
         "value": "<#1082182941762924595>\n<#1141048675620102154>\n<#1141139913610362940>\n⬥ Including: Other Games, Fitness, Coding and many more!",
-	"inline": true
+        "inline": true
       },
       {
         "name": "**__RS3 Channels__**",
         "value": "<#935213935999737916>\n<#557699151291351060>\n<#536062588090318850>\n<#538137911292329986>\n<#1113160175881310238>",
-	"inline": true
+        "inline": true
       },
       {
         "name": "**__Request Channels__**",
         "value": "<#656898197561802760>\n<#1021152606455873686>\n<#1019648841965916220>\n<#827692629197324348>\n<#1020853673317908500>",
-	"inline": true
+        "inline": true
       }
     ]
   }
@@ -90,15 +90,21 @@ The PvME Mastery System is a great way to gauge your PvM progress. It provides m
 The focus of our community is providing the best text guides possible for every encounter and players of all skill levels. Described below is the general composition of our guides. Each guide contains a table of contents at the bottom, with links to help you navigate the guide quickly.
 
 .
-### Header
+### Header/Banner
 .tag:header
-Each guide contains a header image, containing a few key pieces of information for each encounter:
-⬥ The <:sgb:626466665848242186> icon indicates boss size, for example 3x3 tiles.
-⬥ The <:venomblood:841419289714229258> icon indicates whether boss is poisonable with a tick (poisonable) or a cross (non-poisonable).
-⬥ The hex weapon indicator (<:hexhunterbow:581180369911414794> / <:inquisitorstaff:694566917553520680> / <:terramaul:602561894829522954>) shows which hex weapon the boss is susceptible to.
-⬥ The summoning icon <:Summoning:583430259064569856> indicates whether the boss can be damaged directly by a summoning familiar.
+Each guide contains a header or "banner" image, containing a few key pieces of information for each encounter. An example is show below for Osseous, the Rex Matriarch:
 .
-.img:https://img.pvme.io/images/jSMag5g.png
+.img:https://img.pvme.io/images/EVLnU655gq.png
+.
+In order of circles shown in the above example:
+
+1.  Numbers represent the boss' size (for example 5x5 tiles)
+2.  <:sgb:626466665848242186> indicates whether the SGB special attack can be used
+    • *Note: it is recommended to __not__ use <:sgb:626466665848242186><:spec:537340400273195028> on a boss with size 1x1 or 2x2*
+3.  <:venomblood:841419289714229258> indicates whether the boss is poisonable or not
+4.  <:Summoning:583430259064569856> indicates whether a familiar will be able to do damage to the boss
+5.  Slayer perks (<:undeadslayerperk:689502804720615441> undead, <:demonslayerperk:689502842653900818> demon and <:dragonslayerperk:689502927731163170> dragon) indicate a boss' weakness
+    • *Note: when added as Invention perks to your gear, these will increase damage dealt to the boss by 7% and generally do not stack*
 
 .
 ### Suggested Presets
