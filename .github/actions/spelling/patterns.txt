@@ -1,8 +1,6 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
 # Questionably acceptable forms of `in to`
-# Personally, I prefer `log into`, but people object
-# https://www.tprteaching.com/log-into-log-in-to-login/
 \b(?:[Ll]og|[Ss]ign) in to\b
 
 # to opt in
@@ -64,5 +62,5 @@ https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0
 # ToCs
 $**$
 
-# emojis
-<:**>
+# emojis & links
+<**>
