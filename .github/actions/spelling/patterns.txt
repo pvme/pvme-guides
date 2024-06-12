@@ -71,3 +71,6 @@ https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0
 
 # codeblocks
 ^([A-Za-z \t]*)```([A-Za-z]*)?\n*([\s\S]*?)```([A-Za-z \t]*)*$
+
+# inline codeblocks
+`[A-Za-z]*[\S]*?`
