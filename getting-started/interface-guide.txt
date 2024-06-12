@@ -18,7 +18,7 @@ Creating a good interface is all about displaying the interface elements in a wa
 There are several issues with this interface, such as:
 ⬥ UI elements are spread out and not easily accessible.
     • e.g. the primary action bar is too far away from the inventory, and the buff bar (with the buff icons) is not near either of them.
-⬥ The existing space is not well utilized.
+⬥ The existing space is not well utilised.
 ⬥ The tabs are not appropriately sized and hide the game world underneath them.
 ⬥ The buff/debuff bars that indicate status effects are not placed in ideal locations.
 ⬥ Missing elements - including the summoning/familiar tab, the magic spellbook or the defensives tab, and additional action bars.
@@ -48,7 +48,7 @@ There are several issues with this interface, such as:
 .
 ## __Creating A Good Interface__
 .tag:creatingui
-Keeping in mind the important elements of a good interface, we can use the earlier one as a reference and modify it into a layout more suitable for PvM and general gameplay. We'll do this in two broad steps - **bringing into view and arranging important menus**, and then using the **advanced layout options** to customize the interface further. Any minor tweaks or changes can be made afterwards with ease.
+Keeping in mind the important elements of a good interface, we can use the earlier one as a reference and modify it into a layout more suitable for PvM and general gameplay. We'll do this in two broad steps - **bringing into view and arranging important menus**, and then using the **advanced layout options** to customise the interface further. Any minor tweaks or changes can be made afterwards with ease.
 *Note: This is only an example to demonstrate how to create an interface, but it is ultimately up to personal preference.*
 
 .
@@ -72,18 +72,18 @@ The first step is to set up the main menus and layout of the interface.
 
 .
 ### Step 2: Edit Layout Mode > Advanced Options
-After finalizing the basic layout, the **advanced options** can be used to customize how some detailed and important aspects of the interface, such as the buff/debuff bars, split private chat, the game view etc.
-⬥ To access the menu, press **Escape > Edit Layout Mode > Advanced Options** and you'll be greeted with a menu that looks similar to the following image. Click the tickboxes to add or remove overlays from the view to customize.
+After finalizing the basic layout, the **advanced options** can be used to customise how some detailed and important aspects of the interface, such as the buff/debuff bars, split private chat, the game view etc.
+⬥ To access the menu, press **Escape > Edit Layout Mode > Advanced Options** and you'll be greeted with a menu that looks similar to the following image. Click the tickboxes to add or remove overlays from the view to customise.
 .
 .img:https://img.pvme.io/images/mIHOKe2.jpg
 .
-⬥ Click the tickboxes to add or remove overlays from the view to customize.
+⬥ Click the tickboxes to add or remove overlays from the view to customise.
 ⬥ The **buff/debuff** bars are placed close to the focus of the interface, near where the character stands in the centre of the screen, to make them easier to see.
 ⬥ The **private chat** is split and placed to one side to prevent it from cluttering up the chatbox.
 ⬥ The **extra action button** is kept in an easy-to-click location.
 ⬥ The **boss instance/kill timers**, **slayer counter**, and **game clock** are visible and don't cover other menus.
 ⬥ **Group invitation** popups are placed off to one side to prevent them from being misclicked, say during a boss fight.
-⬥ The **game view** can be customized in the same way. The following screenshots compare two game view sizes, indicated by the red outline.
+⬥ The **game view** can be customised in the same way. The following screenshots compare two game view sizes, indicated by the red outline.
 .
 .img:https://img.pvme.io/images/1mSDoFy.jpg
 .
@@ -125,7 +125,7 @@ At the end of the day, a good interface is the one that works for you. Look for 
 {
   "embed": {
     "title": "__Example Interfaces__",
-    "description": "These are example RS3 interface layouts, categorized by screen resolution.\nPercent % values in brackets indicate interface scaling - e.g. (150%).\n**Miscellanous** has some random examples for things like AFK/etc.\n**Ultrawide** refers to both 2560x1080 and 3440x1440 ultrawide screens.",
+    "description": "These are example RS3 interface layouts, categorised by screen resolution.\nPercent % values in brackets indicate interface scaling - e.g. (150%).\n**Miscellanous** has some random examples for things like AFK/etc.\n**Ultrawide** refers to both 2560x1080 and 3440x1440 ultrawides.",
     "color": 39423,
     "fields": [
       {
@@ -166,7 +166,7 @@ At the end of the day, a good interface is the one that works for you. Look for 
 .
 ## __Settings Menu__
 .tag:settings
-The **Settings** menu is accessed through the **Options** menu in-game, reachable at any time by pressing **escape**, and contains in-game settings that can be modified. Here, we cover several useful/important options that can be customized.
+The **Settings** menu is accessed through the **Options** menu in-game, reachable at any time by pressing **escape**, and contains in-game settings that can be modified. Here, we cover several useful/important options that can be customised.
 .img:https://img.pvme.io/images/nOIbsLE.png
 
 .
@@ -224,7 +224,7 @@ These settings affect your combat and gameplay experience concerning PvM.
 ⬥ **Choose Option Menu > Hide familiar options**
     • Prevent accidentally misclicking familiars during combat with things like bladed dive or intercept.
 ⬥ **Hitsplats**
-    • Customize hitsplat colors to distinguish between different hits in combat more effectively.
+    • Customise hitsplat colors to distinguish between different hits in combat more effectively.
 
 .
 ### Gameplay Settings > Targeting
@@ -239,7 +239,7 @@ These settings affect the way your character chooses and changes combat targets.
     • Set up Target Cycle to target monsters with keybinds.
     • Target cycling can target monsters at precise times, switch between multiple targets rapidly in multi-target scenarios, and in some cases target monsters earlier than they normally would be attackable (e.g. any of the GWD2 bosses like Vindicta or Helwyr).
 ⬥ **Hitsplats**
-    • Customize hitsplat colours to distinguish between different hits in combat more effectively.
+    • Customise hitsplat colours to distinguish between different hits in combat more effectively.
 
 .
 ### Gameplay Settings > Camera
@@ -257,7 +257,7 @@ Settings to do with camera and camera movement.
 These settings impact the loot system and the visual appearance of drops.
 ⬥ **Loot System > Use area loot**
     • *Area loot* opens up a menu to loot items. Both opening the interface and looting items can be keybound.
-    • Can be customized based on item quantities, types and values to determine what gets looted.
+    • Can be customised based on item quantities, types and values to determine what gets looted.
     • Useful to avoid accidentally missing loot on the floor.
 ⬥ **Loot Beams > Show loot beams**
     • Highlights items above a player-defined threshold with a customizable beam to avoid accidentally not picking them up.
@@ -267,7 +267,7 @@ These settings impact the loot system and the visual appearance of drops.
 .tag:setsocial
 These settings affect the chatbox and MMO aspects of the game.
 ⬥ **Chat Customisation**
-    • Customize how your chatbox appears, decide what messages are shown and in what colours, and re-size text, amongst other options.
+    • Customise how your chatbox appears, decide what messages are shown and in what colours, and re-size text, amongst other options.
     • Enabling *Split private chat* will make it easier to keep track of private messages.
 ⬥ **Accept Aid**
     • These settings affect what 'aid' spells other players can cast on you. It is recommended to use the following specific settings to ensure you can receive buffs from other players during group PvM:
@@ -411,7 +411,7 @@ When it comes to setting up keybinds, some important points can help structure y
 ***Disclaimer**: Any unofficial third-party tools are as always recommended to be installed and used at your own risk.*
 
 .
-### Utilizing Additional Action Bars
+### Utilising Additional Action Bars
 ⬥ Additional on-screen action bars can be used to **split your abilities/keybinds in a logical manner** to make them easier to learn and remember.
 ⬥ You can have up to **4 additional bars on-screen.**
 ⬥ **One example layout could be the following (see the picture below as well)**:
