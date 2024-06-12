@@ -22,12 +22,12 @@ Melee abilities vary in their themes. Some are strong individually, some comboed
 
 ### Damage Types:
 ⬥ **Instant**: Deal damage immediately
-    • *Examples:* <:cleave:535532878616985610> <:cane:535532878969438210> <:deci:535532879325822986> <:sever:535532879577612298> <:havoc:535532879300526080> <:gbarge:535532879250456578> <:punish:535532879439069184> <:slice:535532879594258432>
+    • *Examples:* <:cleave:535532878616985610> <:cane:535532878969438210> <:deci:535532879325822986> <:sever:535532879577612298> <:havoc:535532879300526080> <:gbarge:535532879250456578> <:punish:535532879439069184> <:slice:535532879594258432> <:fury:535532879510372352>
 
 ⬥ **Channelled**: Deal channelled damage.
     • Channels lock the player into using the ability.
     • After 1.8s or 3t, it can be **freely cancelled** by casting another ability.
-    • *Examples:* <:fury:535532879510372352> <:gflurry:535532879283879977> <:flurry:864492981763702834> <:destroy:535532879330148352> <:assault:535532855191928842>
+    • *Examples:* <:gflurry:535532879283879977> <:flurry:864492981763702834> <:destroy:535532879330148352> <:assault:535532855191928842>
 
 ⬥ **Bleed/Burn**: Deal damage that is spread over time.
     • This is isn't boostable in <:zerk:535532854004678657> <:zgs:626465964325601290> <:spec:537340400273195028>
@@ -43,13 +43,14 @@ Melee basics are common use abilities with 2 purposes:
 Here are some examples:
 .
 ⬥ __**Power:**__
-    • <:punish:535532879439069184> <:backhandflank:867678153854025779> <:deci:535532879325822986> <:sever:535532879577612298> <:cleave:535532878616985610> <:dismemberlunge:867678153899769876> <:dismember:535532879376023572> <:havoc:535532879300526080>
+    • <:punish:535532879439069184> <:backhandflank:867678153854025779> <:deci:535532879325822986> <:sever:535532879577612298> <:cleave:535532878616985610> <:dismemberlunge:867678153899769876> <:dismember:535532879376023572> <:havoc:535532879300526080> <:gfury:535532879334080527> <:slice:535532879594258432>
         - <:backhandflank:867678153854025779> denotes <:backhand:535532854302605333> (flanking)
         - <:dismemberlunge:867678153899769876> denotes <:dismember:535532879376023572> (lunging)
         - <:punish:535532879439069184> deals 150% damage when target is below 50% health.
+        - <:slice:535532879594258432> deals 140% damage when target is bound/stunned.
 
 ⬥ __**Auxiliary:**__
-    • <:chaosroar:994644356671737966> <:gbarge:535532879250456578> <:gfury:535532879334080527> <:fury:535532879510372352>
+    • <:chaosroar:994644356671737966> <:gbarge:535532879250456578> <:gfury:535532879334080527> <:havocgop:994920849117282365> <:fury:535532879510372352>
 
 ⬥ **__Utility:__**
     • <:bd:535532854281764884> <:dive:1049378668197195808> <:kick:535532879132885025> <:backhand:535532854302605333>
@@ -145,10 +146,16 @@ Melee Ultimates deal maximum damage and or elevate other abilities. They typical
     • **__Tier__**: Requirement to wield.
         - Both Require 85 Attack.
 
-    • **__Passive(s)__**:
-        - Can cast <:cane:535532878969438210> with <:darkicesliver:915232153787334677>
-        - Unlinks cooldown of <:destroy:535532879330148352> and <:cane:535532878969438210> when using both <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677>
-        - <:dragonriderlance:643161541931171872> is a Halberd class 2H weapon.
+.
+    • **__Passive__: <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677> **
+        - <:darkiceshard:915232154160594974> and <:darkicesliver:915232153787334677> have a 5% and 1% respective chance to apply <:primordialice:1219291285358120990> **Primordial ice.**
+        - With <:darkicesliver:915232153787334677>, gaining stacks of <:primordialice:1219291285358120990> triggers <:frostblades:1219291286578794627> Frostblades for 9s.
+        - <:frostblades:1219291286578794627> adds bonus ability damage to your abilities during the duration.
+        - **Icy Tempest :** Deals 100-120% and 150-180% aoe damage comsuming <:primordialice:1219291285358120990> stacks.
+        	- Damage is increased per <:primordialice:1219291285358120990> stack.
+
+    • **__Passive__: <:dragonriderlance:643161541931171872>**
+        - Halberd class 2H weapon.
         - Halberds gain +1 attack range.
         - *Example: <:cane:535532878969438210> normally strikes in a 3x3 aoe; strikes in a 5x5 with*<:dragonriderlance:643161541931171872>
 
