@@ -20,7 +20,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 
 .
 ### Movement Stalling
-⬥ Queued abilities will interrupt movement when they are are activated by the game.
+⬥ Queued abilities will interrupt movement when they are activated by the game.
 ⬥ This may cause issues if you are trying to 'kite' monsters (like at Nex or Barrows: Rise of the Six) while also trying to use ability queueing.
 ⬥ The solution is to disable queueing, or simply press the ability slightly later so that it triggers normally (without queueing).
 
@@ -31,7 +31,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
     • 'On-tick' refers to a defensive ability that is cast on the same tick as getting hit by an attack.
 ⬥ They can be queued on 3 different ticks (since each global cooldown is 3t long), and they work as follows:
     • **3 ticks** before cast: works with on-tick damage if player is between 1 to 5 tiles from the enemy.
-    • **2 ticks** before cast: works with with on-tick damage if player is 1 or 2 tiles from the enemy.
+    • **2 ticks** before cast: works with on-tick damage if player is 1 or 2 tiles from the enemy.
     • **1 tick** before cast: __does not work__ with on-tick damage.
 
 .
@@ -870,7 +870,7 @@ etc.
 ## __Weapon Poison <:weppoison:689525476158472288>__
 .tag:poison
 ### How It Works
-⬥ **Weapon Poison provides provides a buff that allows players to have a 12.5% chance of poisoning a non-immune target every attack.**
+⬥ **Weapon Poison provides a buff that allows players to have a 12.5% chance of poisoning a non-immune target every attack.**
     • Duration of this buff depends on the grade of poison (normal, +, ++, +++) being used.
     • After being poisoned <:poisonicon:944649693500154006> targets will take damage every 16t/9.6s, for 3 minutes.
     • Poison damage hits 2t after the damage that applied it.
@@ -947,7 +947,7 @@ etc.
 
 .
 ### Poison in Group Encounters
-⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are are target-based will affect all poison damage (i.e. sourced from any player).
+⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are target-based will affect all poison damage (i.e. sourced from any player).
 ⬥ **Local** modifiers (that are player-specific) like Cinderbanes <:cinderbanes:513190158355660812> / Wyvern Crossbow <:wyverncrossbow:580177522587729940> / etc. will only affect the hitsplats as a result of that player.
 ⬥ The single recurring poison hit that occurs on a poisoned target every 9.6s will take its damage based on the last player who applied poison on the target.
 
