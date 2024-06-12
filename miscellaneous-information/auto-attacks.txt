@@ -80,7 +80,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 
 .
 ### Why Does This Work?
-⬥ Average auto and ability both apply an overlapping 6t auto coolown
+⬥ Average auto and ability both apply an overlapping 6t auto cooldown
 ⬥ GCD 1 End: 3t left of both cooldowns, fastest ability applies a 4t cooldown
 ⬥ GCD 2 End: auto cooldown of avg auto + ability end
     • Wait 1t more: cooldown from fastest ability ended (4t total elapsed)
@@ -146,7 +146,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
     "color": 39423,
     "fields": [
       {
-        "name": "__Unexpected Behavior 1: Auto Cooldown Extention__",
+        "name": "__Unexpected Behavior 1: Auto Cooldown Extension__",
         "value": "⬥ <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> adds 2t to auto cooldown when used in combat"
       },
       {
@@ -228,7 +228,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 2) Auto bind can alter what auto will be when fired (mostly applicable to <:Magic:689504724159823906>)
 
 3) If offed, can can click to recast auto mid-GCD
-    a) If doing so, next ability must be 1t+ after, else auto overriden
+    a) If doing so, next ability must be 1t+ after, else auto overridden
 
 4) Auto bind gives the ability to cast an auto and ability on the same tick
     a) Autos normally executed after ability in a tick, so abilities override it
@@ -444,7 +444,7 @@ T27-30: 2x Ability
 T33: Ability + Zerk ends
 ```
 ⬥ By using 5TAA it was possible to get an ability on last tick of <:zerk:535532854004678657>
-    • Results in <:zerk:535532854004678657> and <:berserker:643505116347105290> damage modifers stacking, discussed in `!lasttick`
+    • Results in <:zerk:535532854004678657> and <:berserker:643505116347105290> damage modifiers stacking, discussed in `!lasttick`
 ⬥ Notice: like 4TAA, the ability before auto must be a fastest non-channel
     • Further, using a non-fastest channel prior to that non-channel cannot be used either for similar reasons to why 2H channels can cause issues for 4TAA
 
