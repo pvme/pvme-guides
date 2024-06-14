@@ -82,8 +82,6 @@ ignore$
 \.zip$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
-# Ignore all blame files
-(?:^|/)blame/
 
 # Ignore directories named `archive`
 (?:^|/)archive/
