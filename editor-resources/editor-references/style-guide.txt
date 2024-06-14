@@ -8,7 +8,7 @@ This channel covers stylistic aspects that PvME guides tend to follow for consis
 ⬥ Try to stick to these guidelines when submitting writeups/improvements to guides.
 ⬥ **These guidelines may not cover every situation**, and will be updated as required. Feel free to raise concerns about any scenarios not covered for discussion.
     • Please bring up any concerns that are not covered by these guidelines.
-⬥ **Some commonly used templates for ease of writing may be found in <#1020845254548656178>.**
+⬥ **Some commonly used templates for ease of writing may be found in <#1250465568255901787>.**
 
 *Note: If you ever require **any** assistance with styling, feel free to tag an editor!*
 
@@ -186,7 +186,7 @@ Gear presets are used at the start of guides to concisely inform users of all it
 → Relic Setup
 
 ```
-⬥ **Preset/breakdown link should be generated using Preset Generator** (link in <#1153053318172655667>).
+⬥ **Preset/breakdown link should be generated using Preset Generator** (link in <#1250465587813945440>).
 ⬥ **Preset breakdowns should be sufficiently detailed as to be useful to the reader**.
     • See the one in the example preset below for an example.
 ⬥ **Keep presets consistent**:
@@ -198,33 +198,22 @@ Gear presets are used at the start of guides to concisely inform users of all it
     • For example, avoid spiked boots, Elite Sirenic, etc. Use your best judgement.
 
 .
-⬥ Combining all of these, we can put together an example preset like the following.
-    • Note: there are two variations provided here.
-        ⬩ The first variation can be used when there are multiple presets to be displayed.
-        ⬩ The second variation can be used when there is only a single preset to be displayed.
+⬥ Combining all of these, we can put together an example preset like the following:
 
-## __Presets__
+.
+## __Presets and Relics__
 .
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/ULpvc5dTZC.png"
+        },
     "fields":[
-    	{
-    		"name":"__Magic__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-    		"inline":true
-    	},
-    	{
-    		"name":"__Melee__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-    		"inline":true
-    	},
-    	{
-    		"name":"__Ranged__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-    		"inline":true
-    	}
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/LINKHERE) <:necromancy:1148995625896120460>\n⬥ [Magic preset](https://pvme.github.io/preset-maker/#/LINKHERE) <:magic:689504724159823906>\n⬥ [Hybrid preset](https://pvme.github.io/preset-maker/#/LINKHERE) <:range:580168050121113623> <:melee:1096130867279171706> "
+        }
     ]
   }
 }
@@ -232,65 +221,21 @@ Gear presets are used at the start of guides to concisely inform users of all it
 
 .
 ```
-## __Presets__
+..
+## __Presets and Relics__
+..tag:presets
 ..
 {
   "embed": {
-    "title": "__Preset Suggestions & Breakdowns__",
     "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/ULpvc5dTZC.png"
+        },
     "fields":[
-    	{
-    		"name":"__Magic__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-    		"inline":true
-    	},
-    	{
-    		"name":"__Melee__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-    		"inline":true
-    	},
-    	{
-    		"name":"__Ranged__",
-    		"value":"⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-    		"inline":true
-    	}
-    ]
-  }
-}
-..embed:json
-```
-.
-## __Preset__
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-```
-## __Preset__
-..
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/ebOZGA41kIgWOomMdNnu)",
-        "inline": true
-      }
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [first_style_name preset](first_preset_link) first_style_emoji\n⬥ [second_style_name preset](second_preset_link) second_style_emoji"
+        }
     ]
   }
 }
