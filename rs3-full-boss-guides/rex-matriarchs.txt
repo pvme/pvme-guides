@@ -7,175 +7,295 @@ An example of this process can be seen in [this video](<https://youtu.be/cPWgpRL
 .
 # Rex Matriarchs
 .tag:intro
-.img:https://img.pvme.io/images/EOiz6ud.jpg
-.
-.img:https://img.pvme.io/images/eLxawjh.jpg
-.
-.img:https://img.pvme.io/images/7xVlZZa.jpg
+.img:https://img.pvme.io/images/k1pBa3wBhP.png
+
 .
 ## __Introduction__
-The Rex Matriarchs are a trio of dinosaur bosses found on Anachronia. They drop components required to make the <:reaverring:839903943018283050>, <:stalkerring:839903943601029120>, <:championring:839903943630520350> and <:channellerring:839903943404027914> rings. Additionally, they also drop the 4 spear parts used to craft <:lanispear:839903893177106454>, a halberd-range stab weapon with T90 damage, T75 accuracy and a passive that increases <:weppoison:689525476158472288> frequency and damage by 5%.
+The Rex Matriarchs are a group of 4 dinosaur bosses found on Anachronia, representing one for each combat style. Their rare drops include:
 
-.
-### General Information
-The Rex Matriarchs have high <:Defence:689509250979987525> levels of 96, and are generally not worthwhile for mid-level players. Thus, this guide will be focused on high level strategies for end game players farming logs.
-
-⬥ Mid-level players trying out matriarchs for Reaper tasks are encouraged to come up with their own strategies after going through mechanics or refer to beginner friendly YouTube guides.
-    • Rex Matriarchs with mid-level weapons and T70 armour - <https://youtu.be/FqLB0iwkUYk>
-⬥ While <:slayerhelm:798285340460449792> bonuses are applicable to them, enhanced <:Tuskas:513201065513058306> is not.
-⬥ It is recommended getting <:necklaceofsalamancy:970657245312467004> before going for the matriarch logs for a huge accuracy and damage boost of 15%.
-
-.
-## __Drops__
-.tag:drops
-### Orikalka
-⬥ <:warriorheart:855865894081527838> **Heart of the Warrior**
-⬥ <:pristinebagradaegg:855865893895536661> **Pristine Bagrada Rex Egg**
-
-.
-### Rathis
-⬥ <:archerheart:855865893715705857> **Heart of the Archer**
-⬥ <:pristinecorbiculaegg:855865893808504873> **Pristine Corbicula Rex Egg**
-
-.
-### Pthentraken
-⬥ <:seerheart:855865894043254804> **Heart of the Seer**
-⬥ <:pristinepavoegg:855865893849137182> **Pristine Pavosaurus Rex Egg**
-
-.
-### All
-⬥ **Savage Spear parts (Tip <:speartip:855865894114164736> / Cap <:spearcap:855865894146932766> / Shaft <:spearshaft:855865893714919465> / Plume <:spearplume:855865894033817610>)**
-    • 1/500 each
-⬥ <:berserkerheart:855865893899468810> **Heart of the Berserker**
-⬥ Hearts <:berserkerheart:855865893899468810> <:seerheart:855865894043254804> <:archerheart:855865893715705857> <:warriorheart:855865894081527838> are 1/200 each.
-⬥ Pets <:pristinebagradaegg:855865893895536661> <:pristinecorbiculaegg:855865893808504873> <:pristinepavoegg:855865893849137182> are all 1/2000 base (1000 thresh).
+⬥ Components for best-in-slot rings <:reaverring:839903943018283050> <:stalkerring:839903943601029120> <:championring:839903943630520350> <:channellerring:839903943404027914> <:occulistring:1245442140318863490>
+⬥ Spear parts to craft [Laniakea's Spear](<https://runescape.wiki/w/Laniakea%27s_spear>) <:lanispear:839903893177106454>
+⬥ [Jail cell key](<https://runescape.wiki/w/Jail_cell_key>) used to unlock one of three baby dinosaur pets
 
 .
 ## __Mechanics__
 .tag:mechanics
 .
-These are generally not important if you are a high-level player.
-.
 {
   "embed": {
-    "title": "__Mechanics__",
+    "title": "<:orikalka:982264010873376868> Orikalka",
     "color": 39423,
+    "image": {
+      	"url": "https://img.pvme.io/images/0YusEMt.png"
+    },
+    "description": "**Orikalka** attacks with <:melee:1096130867279171706> and is weak to <:magic:689504724159823906> (specifically fire spells)",
     "fields": [
       {
-        "name": "__Orikalka__",
-        "value": "Orikalka has 2 possible attack patterns [Details](https://img.pvme.io/images/0YusEMt.png)\n\u00a0\u00a0\u00a0\u00a0• She always starts 3 autos → **Frost Storm** → auto → **Magic Attack** → **Pyroclastic Shock**.\n\u00a0\u00a0\u00a0\u00a0• **Frost Storm** - Orikalka spins, hitting for up to 4500 <:Magic:689504724159823906> damage and induces Frostbite.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Frostbite - Debuff doubling global cooldown for 30 seconds.\n\u00a0\u00a0\u00a0\u00a0• **Pyroclastic Shock** - Orikalka does a tail sweep, creating 3 fissures.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ If stood on, fissures deal rapid <:melee:1096130867279171706> damage up to 3000 per hit with the final hit dealing 5000-6000 damage (if unprotected).\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ If Frostbite is active, all hits after the first deal 1 damage if <:DeflectMelee:544195488447201300> is used, removing frostbite and providing an **Adrenaline Rush**.\n\u00a0\u00a0\u00a0\u00a0• **Adrenaline Rush** - 10% adrenaline is gained every tick for 10 ticks.\n\u200B"
+        "name": "__Frost Storm / Frostbite (Buff)__",
+        "value": "⬥ [Video example](https://youtu.be/zx-JstVzl0k)\n⬥ Orikalka spins and hits up to 4500 <:Magic:689504724159823906> damage\n⬥ Induces the *Frostbite* debuff, which doubles the global cooldown for 30 seconds"
       },
       {
-        "name": "__Rathis__",
-        "value": "Rathis uses a relatively simple attack rotation with low KO potential. [Details](https://img.pvme.io/images/lUzGG4U.png)\n\u00a0\u00a0\u00a0\u00a0• **Poison Bombardment** - After 3 autos Rathis launches 2 poison orbs (one targeted onto the player), each dealing up to 3500 <:range:580168050121113623> damage.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Each orb leaves behind a Poison Pit.\n\u00a0\u00a0\u00a0\u00a0• **Poison Pits** - 5x5, persists until **Poison Absorption**.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Standing on them deals 300-500 poison damage per tick (50-100 with <:venomblood:841419289714229258> / <:superantipoison:841409588884406272>).\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Corrosion debuff applied periodically, causing players to take 20% more damage per stack, up to 100%. This lasts 10 seconds form the last poison absorbed.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Patches shrink when stood on, turning to 3x3, then a 1x1 with an AoE of 2x2, and finally a normal 1x1.\n\u00a0\u00a0\u00a0\u00a0• **Poison Absorption** - Rathis absorbs leftover pools, healing based on their size.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Each patch heals up to 35000 health at maximum size.\n\u200B"
+        "name": "__Pyroclastic Shock / Adrenaline Rush (Buff)__",
+        "value": "⬥ Orikalka slams its tail, creating 3 fissures which rapidly deal up to 3000 <:melee:1096130867279171706> when stood on\n⬥ The final hit from standing on a fissure deals up to 6000 <:melee:1096130867279171706> damage\n⬥ If *Frostbite* is active, all hits after the first deal 1 damage if <:DeflectMelee:544195488447201300> is used, removing frostbite and providing an *Adrenaline Rush*\n⬥ *Adrenaline Rush* grants +10% adrenaline every tick for 10 ticks"
       },
       {
-        "name": "__Pthentraken__",
-        "value": "Pthentraken is the most damaging matriarch, having mechanics that can easily KO if not properly handled. [Details](https://img.pvme.io/images/ZWzezJ5.png)\n\u00a0\u00a0\u00a0\u00a0• **Converging Lightning** - Pthentraken summons 3-5 lightning bolts, their paths shown by floor markings (one will target the player location). Getting hit will deal 5000-5500 <:Magic:689504724159823906> damage every 2 ticks.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ This damage is reduced by 90% when wearing <:insulatedboots:841409588876279819>\n\u00a0\u00a0\u00a0\u00a0• **Overcharge** - An overhead bar appears. Upon depletion a 3x3 torrent will appear at the player's tile.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ The torrent applies the **Overcharged** buff.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ It deals increasing hard typeless damage capping at 3600 every 2 ticks.\n\u00a0\u00a0\u00a0\u00a0• **Overcharged** - For 30 seconds an additional magic damage hit is caused by players' attacks (except poison) dealing 5% of the original damage.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ <:surge:535533810004262912> cooldown is reduced to 1 tick.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Getting hit by the torrent refreshes **Overcharged**.\n\u200B"
+        "name": "__Attack Rotations__",
+        "value": "Orikalka has 2 possible attack rotations:"
       }
     ]
   }
 }
-
 .embed:json
+
 .
-⬥ If doing matriarchs actively, use <:ent:567727987274022924> to bind Orikalka and kill her from a distance, as Frostbite slows down kills greatly.
-    • This also allows you to use <:wrack:856662355952795658> for great damage.
-⬥ If you get Frostbite, use <:DeflectMelee:544195488447201300> and do not finish off Orikalka. Wait until fissures spawn, and then run or <:bd:535532854281764884> to one to clear Frostbite.
-    • Dealing with Frostbite - <https://youtu.be/zx-JstVzl0k>
-⬥ Stand in melee distance of Rathis else her melee attack turns to a charge that causes <:stunicon:841419289428492369>
+{
+  "embed": {
+    "title": "<:rathis:982264011049566238> Rathis",
+    "color": 39423,
+    "image": {
+      	"url": "https://img.pvme.io/images/lUzGG4U.png"
+    },
+    "description": "Rathis attacks with <:range:580168050121113623> / <:poisonicon:944649693500154006> and is weak to <:melee:1096130867279171706> (specifically stab)",
+    "fields": [
+      {
+        "name": "__Poison Bombardment__",
+        "value": "⬥ Rathis launches 2 poison orbs (one targeted onto the player), each dealing up to 3500 <:range:580168050121113623> damage.\n⬥ Each orb leaves behind a *Poison Pit*"
+      },
+      {
+        "name": "__Poison Pits__",
+        "value": "⬥ 5x5 blobs on the ground which persist until *Poison Absorption*\n⬥ Standing on them deals 300-500 <:poisonicon:944649693500154006> damage per tick (reduced to 50-100 with Venomblood <:venomblood:841419289714229258> or Super Antipoison <:superantipoison:841409588884406272>)\n⬥ *Corrosion* debuff applied periodically, causing players to take +20% more damage per stack, up to 100%. This lasts 10 seconds form the last poison absorbed\n⬥ Poison pits shrink when stood on, turning from 5x5 > 3x3 > 2x2 > 1x1"
+      },
+      {
+        "name": "__Poison Absorption__",
+        "value": "⬥ Rathis absorbs leftover pools, healing based on their size\n⬥ Each poison pit heals up to 35000 health at maximum size"
+      },
+      {
+        "name": "__Attack Rotations__",
+        "value": "Rathis has a single attack rotation:"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "<:pthentraken:982264010839842916> Pthentraken",
+    "color": 39423,
+    "image": {
+      	"url": "https://img.pvme.io/images/ZWzezJ5.png"
+    },
+    "description": "Pthentraken attacks with <:magic:689504724159823906> and is weak to <:range:580168050121113623> (specifically arrows)",
+    "fields": [
+      {
+        "name": "__Converging Lightning__",
+        "value": "⬥ Pthentraken summons 3-5 lightning beams which converge on the boss and will deal 5000-5500 <:Magic:689504724159823906> damage every 2 ticks whilst stood in the beam.\n⬥ This damage is reduced by -90% when wearing <:insulatedboots:841409588876279819>"
+      },
+      {
+        "name": "__Overcharge__",
+        "value": "⬥ An overhead bar appears. Upon depletion a 3x3 torrent will appear at the player's tile\n⬥ The torrent applies the *Overcharged* buff\n⬥ When stood in the torrent you will be hit with rapid, increasing typeless damage (capping at 3600 every 2 ticks)"
+      },
+      {
+        "name": "__Overcharged (buff)__",
+        "value": "⬥ *Overcharged* lasts 30 seconds\n⬥ Each hit the player lands on Pthentraken will also deal an additional magic hit with 5% of the original damage\n⬥ Surge <:surge:535533810004262912> cooldown is reduced to 1 tick\n⬥ Getting hit by the torrent refreshes *Overcharged*"
+      },
+      {
+        "name": "__Attack Rotations__",
+        "value": "Pthentraken has a single attack rotation:"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "<:necromancy:1148995625896120460> Osseous",
+    "color": 39423,
+    "image": {
+    	"url": "https://img.pvme.io/images/Oapi37c1Ph.png"
+    },
+    "description": "Osseous both attacks and is weak to <:necromancy:1148995625896120460>\nNote: In order to access Osseous, you must first complete the quest [Osseous Rex](https://runescape.wiki/w/Osseous_Rex)",
+    "fields": [
+      {
+        "name": "__Minion Summon__ / __Minion Launch__",
+        "value": "⬥ [Video example (Minion Summon)](https://img.pvme.io/images/4dnO6GXrS5.mp4)\n⬥ [Video example (Minion Launch)](https://img.pvme.io/images/stC9aAkec1.mp4)\n⬥ Osseous slams its tail which does up to 7000 <:melee:1096130867279171706> damage\n⬥ Osseous summons 6 mini dinos that heal her for 5-10% of their current lifepoints when they reach her\n⬥ Osseous spins around, sending the mini dinos back to the edge of the arena and causes them to attack you with <:melee:1096130867279171706> which can stun you <:stunicon:841419289428492369>"
+      },
+      {
+        "name": "__Osseous' Roar__",
+        "value": "⬥ [Video example](https://img.pvme.io/images/L6K9vKLC8p.mp4)\n⬥ Osseous causes any remaining mini dinos to explode, each dealing 50% of their current lifepoints"
+      },
+      {
+        "name": "__Munch__",
+        "value": "⬥ [Video example](https://img.pvme.io/images/2a4ud6iYuJ.mp4)\n⬥ Osseous drags you close to her, rooting you on the spot\n⬥ You must deal 5000 damage to break the root or take ~6000 typeless damage"
+      },
+      {
+        "name": "__Attack Rotations__",
+        "value": "Osseous has a single attack rotation:"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 ## __Active Strategies__
-.tag:active
-Gear used for the methods below will mostly be BIS, you can generally substitute them for T90+ equivalents.
+.tag:methods
+There are two ways to take down the Matriarchs:
 
+1. Repeatedly killing a single Matriarch
+2. Killing 3 one-after-another with a hybrid gear setup (Orikalka, Rathis and Pthentraken)
+
+.
+### __Method 1: Killing a single matriarch__
 .
 {
   "embed": {
-    "title": "__Solo killing__",
-    "description": "Killing 1 matriarch at a time is straight forward. Bring your best gear of any style and perform a <:gsunshine:994644352871714836> <:gdeathsswift:994644354536837121> <:zerk:535532854004678657> rotation.",
+    "title": "",
+    "description": "Killing 1 matriarch at a time is straight forward - bring your best gear of any style and perform an ultimate rotation <:gsunshine:994644352871714836> <:zerk:535532854004678657> <:gdeathsswift:994644354536837121> <:livingdeath:1159434908486357072>",
     "color": 39423,
     "fields": [
       {
-        "name": "__Solo Pthentraken__",
-        "value": "⬥ Kill Pthentraken using a <:gdeathsswift:994644354536837121> and bank ASAP. This method should be replicable for the other 2 matriarchs giving similar kph.\n\u00a0\u00a0\u00a0\u00a0• While waiting for death animation, build adrenaline on a nearby matriarch.\n\u00a0\u00a0\u00a0\u00a0• At War's Retreat, <:surge:535533810004262912> to use Altar of War, <:bd:535532854281764884> to bank and <:surge:535533810004262912> to Adrenaline Crystals.\n\u00a0\u00a0\u00a0\u00a0• Example setup for actively killing Pthentraken (outdated): [Preset](https://img.pvme.io/images/P2L7dOr.png) [Rotation](https://img.pvme.io/images/MSrN9Pe.png) [Example - 60kph](https://www.twitch.tv/videos/1033769908)\n\u200B"
+        "name": "General tips",
+        "value": "⬥ While waiting for death animation, build adrenaline by either:\n\u00a0\u00a0\u00a0\u00a0• Targeting a nearby matriarch and using a defensive ability such as <:freedom:535541258240786434>\n\u00a0\u00a0\u00a0\u00a0• Using the Persistent Rage <:persistentrage:739965637056659567> relic"
+      },
+      {
+        "name": "Tips for killing Orikalka",
+        "value": "⬥ Utilise binds and channeled abilities when possible to prevent *Frostbite* from slowing down your kills <:ent:567727987274022924> <:asphyx:535533833072672778> <:smoketendrils:536257336130404372> <:gconc:869285393223254107> \n⬥ If you get *Frostbite*, use <:DeflectMelee:544195488447201300> and do not finish off Orikalka. Instead, wait until fissures spawn then stand near one to clear *Frostbite*"
+      },
+      {
+        "name": "Tips for killing Rathis",
+        "value": "⬥ Stand in melee distance of Rathis, else her melee attack turns to a charge that will stun you <:stunicon:841419289428492369>"
+      },
+      {
+        "name": "Tips for killing Pthentraken",
+        "value": "⬥ Walk along tiles closest to East wall while travelling to avoid Orikalka aggro\n⬥ Avoid the lightning or wear <:insulatedboots:841409588876279819> to heavily reduce damage taken"
+      },
+      {
+        "name": "Tips for killing Osseous",
+        "value": "⬥ Stand in melee distance"
+      },
+      {
+        "name": "__Example kills__",
+        "value": "⬥ [Example Pthentraken kills (60kph)](https://www.twitch.tv/videos/1033769908)\n⬥ [Example Osseous kills](https://www.youtube.com/watch?v=MLmiWlKeM1Q)"
       }
     ]
   }
 }
 .embed:json
+
+.
+### __Method 2: Killing multiple matriarchs (Hybrid)__
 .
 {
   "embed": {
     "title": "__Hybridding__",
-    "description": "Hybridding has a much higher gear and effort requirement than solo killing, but gives a significantly higher kph.",
+    "description": "Killing multiple matriarchs in parallel require much higher gear and effort over killing a single one, but gives a significantly higher KPH",
     "color": 39423,
     "fields": [
       {
-        "name": "__Notes__",
-        "value": "⬥ Alternate between a pair of matriarchs with minimal banking, doing no food kills for the entire hour.\n\u00a0\u00a0\u00a0\u00a0• If <:blessedflask:659122178704408598> is not owned, presets should be made for 30 minute combat instead of camping the entire instance.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Use 4 <:restore:642708657825644554> for such a preset.\n\u00a0\u00a0\u00a0\u00a0• Perked hybrid armour such as <:SliskeBody:513204700980576266> <:AnimalegsSliske:556592073042821122> can be taken instead, although this will reduce kph.\n\u00a0\u00a0\u00a0\u00a0• You can target Rathis from far and use defensives to get 100% for <:zerk:535532854004678657> [Example](<https://youtu.be/PfhJG00n61s>)\n\u200B"
+        "name": "General tips",
+        "value": "⬥ Alternate between a pair of matriarchs with minimal banking, doing no food kills for the entire hour.\n\u00a0\u00a0\u00a0\u00a0• If <:blessedflask:659122178704408598> is not owned, presets should be made for 30 minute combat instead of camping the entire instance.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Use 4 <:restore:642708657825644554> for such a preset.\n\u00a0\u00a0\u00a0\u00a0• Perked hybrid armour such as <:SliskeBody:513204700980576266> <:AnimalegsSliske:556592073042821122> can be taken instead, although this will reduce kph.\n\u00a0\u00a0\u00a0\u00a0• You can target Rathis from far and use defensives to get 100% for <:zerk:535532854004678657> [Example](<https://youtu.be/PfhJG00n61s>)\n⬥ Feel free to come up with your own rotations based on your gear if lacking BIS.\n\u00a0\u00a0\u00a0\u00a0• You will likely still be able to get **~85 KPH or more** even if not bridding optimally.\n⬥ Use <:adrenrenewal:736298121704767538> on <:gdeathsswift:994644354536837121> so you can use the <:deathsporearrows:900758234527301642> proc on your desired ability when killing Pthentraken.\n\u200B"
       },
       {
-        "name": "__Setups for different combinations__",
-        "value": "⬥ You can brid Ori/Pthen, Rathis/Pthen or Rathis/Ori\n\u00a0\u00a0\u00a0\u00a0• [Ori/Pthen preset](https://pvme.github.io/preset-maker/#/Ds9Zp1afM49yfQFBVbNH) and [example - 99 kill hour](https://youtu.be/pFboaKTyg-k)\n\u00a0\u00a0\u00a0\u00a0• [Rathis/Pthen preset](https://pvme.github.io/preset-maker/#/yd4YYWliZ7Il6EexJZT7) and [example - 101 kill hour](https://youtu.be/tZwoqfdctmA)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Walk along tiles closest to East wall while travelling to avoid Orikalka aggro.\n\u00a0\u00a0\u00a0\u00a0• [Ori/Pthen preset](https://pvme.github.io/preset-maker/#/Wym2rmwUxua90X1Nck8Z) and [example - 98 kill hour](https://youtu.be/Y_vDeD9diMM)\n\u200B"
+        "name": "__Example kills__",
+        "value": "⬥ [Orikalka/Pthentraken example kills (99kph)](https://youtu.be/pFboaKTyg-k)\n⬥ [Orikalka/Rathis (98kph)](https://youtu.be/Y_vDeD9diMM)\n⬥ [Rathis/Pthentraken kills (101kph)](https://youtu.be/tZwoqfdctmA)\n\u200B"
       }
     ]
   }
 }
 .embed:json
-.
-### Hybrid Rotations
-The suggested rotations below are based on the example videos. Basics are mostly omitted.
-
-⬥ Feel free to come up with your own rotations based on your gear if lacking BIS.
-    • You will likely still be able to get **~85 KPH or more** even if not bridding optimally.
-⬥ For <:magic:689504724159823906>, you can either do a <:fsoa:869284271595069451> <:tsunamiincite:958989794757730307> rotation or <:gsunshine:994644352871714836> <:tsunamiincite:958989794757730307> rotation if <:fsoa:869284271595069451> is unowned.
-⬥ Use <:adrenrenewal:736298121704767538> on <:gdeathsswift:994644354536837121> so you can use the <:deathsporearrows:900758234527301642> proc on your desired ability when killing Pthentraken.
-    • For Rathis/Ori, use it to reach 100% for <:zerk:535532854004678657> if ending Orikalka on low adren.
 
 .
-### Orikalka
-⬥ Use <:praeswand:643166769518739477> <:impercore:643166751067996160> and <:inquisitorstaff:694566917553520680> or <:fsoa:869284271595069451> with <:incitefear:856635090783567902>
-    • Switch to <:exsanguinate:856635090745950258> after <:tsunamiincite:958989794757730307>
+### __Presets and Relics__
+.tag:presets
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Single matriarch presets__",
+        "value": "⬥ [Orikalka](https://pvme.github.io/preset-maker/#/qhBiUaM4XYwtCTOgntLZ)\n⬥ [Rathis](https://pvme.github.io/preset-maker/#/oKb85ESpLpQl1gno4OJD)\n⬥ [Pthentraken](https://pvme.github.io/preset-maker/#/O067jI2g4XQ5T8ii10cF)\n⬥ [Osseous](https://pvme.github.io/preset-maker/#/WS5UtLwXHASIqJIb1xQU)\n\u200B",
+        "inline": true
+      },
+      {
+        "name": "__Hybrid presets__",
+        "value": "⬥ [Orikalka/Pthentraken](https://pvme.github.io/preset-maker/#/j9LSOzS9FecS0eY1hoCh)\n⬥ [Orikalka/Rathis](https://pvme.github.io/preset-maker/#/ZkjU34SQqrS98xoJbvDr)\n⬥ [Rathis/Pthentraken](https://pvme.github.io/preset-maker/#/GNdGZ7K1XMXRgrpMrBkU)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Rotations__
+.tag:rotations
+
+.
+__**Orikalka**__
+
+⬥ Camp <:incitefear:856635090783567902> until <:tsunami:535533809995874304> then switch to <:exsanguinate:856635090745950258>
     • Remember to swap back to autocasting <:incitefear:856635090783567902> before starting the next Orikalka kill.
-    • Start <:smokecloud:856635090641879050> <:comb:535533833098100745> → <:SBSStandards:565726489526534154> <:ent:567727987274022924>
-        ⁃ Non-<:fsoa:869284271595069451> rotation - <:gsunshine:994644352871714836> → <:tsunamiincite:958989794757730307> → <:wm:535533809978966037> → <:omnipowerigneous:1179505745654448208> → <:asphyx:535533833072672778>
-        ⁃ <:fsoa:869284271595069451> rotation - <:tsunamiincite:958989794757730307> → <:soa:869284271595069451> <:spec:537340400273195028> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> → <:omnipowerigneous:1179505745654448208> → <:asphyx:535533833072672778> if adren
-        ⁃ Build with basics in between, remember to use <:wrack:856662355952795658>
+    • Use basics to build when low adren
+    • Use <:wrackandruin:856662355912032256> whenever available
+
+Without <:fsoa:869284271595069451>: <:smokecloud:856635090641879050> + <:comb:535533833098100745> → <:SBSStandards:565726489526534154> <:ent:567727987274022924> → <:gsunshine:994644352871714836> → <:tsunamiincite:958989794757730307> → <:wm:535533809978966037> → <:omnipowerigneous:1179505745654448208> → <:asphyx:535533833072672778>
+
+With <:fsoa:869284271595069451>: <:smokecloud:856635090641879050> + <:comb:535533833098100745> → <:SBSStandards:565726489526534154> <:ent:567727987274022924> → <:tsunamiincite:958989794757730307> → <:soa:869284271595069451> <:spec:537340400273195028> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> → <:omnipowerigneous:1179505745654448208> → <:asphyx:535533833072672778>
 
 .
-### Pthentraken
-⬥ Use <:bolg:994189289623662702> with <:deathsporearrows:900758234527301642> <:fularrow:971025696958853180>
-    • Use <:fularrow:971025696958853180> when <:deathsporearrows:900758234527301642> on cooldown.
-    • Build to use <:gdeathsswift:994644354536837121>
-    • Use <:deathsporearrows:900758234527301642> proc on any of these: <:gdeathsswift:994644354536837121> <:incend:535541258429661215> <:deadshotigneous:959089455283728386>
-        ⁃ This rotation will vary based on <:deathsporearrows:900758234527301642> stacks.
-        ⁃ Swap to <:fularrow:971025696958853180> after using your <:deathsporearrows:900758234527301642> ability.
-    • Incorporate <:sgb:626466665848242186> <:eofspec:746403211908481184> and <:snap:535534127131394088> <:rapid:535541270521708566> into your rotation.
-        ⁃ Remember to re-equip <:necklaceofsalamancy:970657245312467004> after <:sgb:626466665848242186> <:eofspec:746403211908481184>
+__**Pthentraken**__
+
+⬥ Use <:fularrow:971025696958853180> when <:deathsporearrows:900758234527301642> on cooldown.
+⬥ Use <:deathsporearrows:900758234527301642> proc on any of these: <:gdeathsswift:994644354536837121> <:incend:535541258429661215> <:deadshotigneous:959089455283728386>
+    • Rotations will vary based on <:deathsporearrows:900758234527301642> stacks
+    • Swap to <:fularrow:971025696958853180> after consuming <:deathsporearrows:900758234527301642> stacks
+⬥ Remember to incorporate <:sgb:626466665848242186> <:eofspec:746403211908481184> and <:snap:535534127131394088> <:rapid:535541270521708566> into your rotation
+⬥ Remember to re-equip <:necklaceofsalamancy:970657245312467004> after <:sgb:626466665848242186> <:eofspec:746403211908481184>
 
 .
-### Rathis
-⬥ Use <:lengmh:883134308146098227> <:lengoh:883134308070604870> <:abyssalscourge:947871842469834832> <:mwspear:694566917456789554> (can just use <:mwspear:694566917456789554> if cba)
-    • <:zekkil:903244090953588787> <:eofspec:746403211908481184> rotation - <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:746403211908481184> → (<:limitless:641339233638023179>) bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:assault:535532855191928842> → <:cane:535532878969438210>
-        ⁃ Fit in bleeds <:dismember:535532879376023572> <:bloodtendrils:535532854327640064> <:slaughter:535532879237873666> with <:mwspear:694566917456789554> throughout kill.
+__**Rathis**__
+
+⬥ Alternate kills between EZK <:zekkil:903244090953588787> and Berserk <:zerk:535532854004678657> rotations:
+    • Kill 1 rotation:  <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:746403211908481184> → (<:limitless:641339233638023179>) bleed <:destroy:535532879330148352> → <:assault:535532855191928842> → <:cane:535532878969438210>
+        ⁃ Use bleeds whenever possible with <:mwspear:694566917456789554> ( <:dismember:535532879376023572> <:bloodtendrils:535532854327640064> <:slaughter:535532879237873666>)
         ⁃ Remember to re-equip <:necklaceofsalamancy:970657245312467004> after <:zekkil:903244090953588787> <:eofspec:746403211908481184>
-    • <:zerk:535532854004678657> rotation - <:zerk:535532854004678657> → <:gbarge:535532879250456578> → bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:quake:535532879506309150> + walk to dodge bombardment → <:cane:535532878969438210> → <:assault:535532855191928842> → 4-hit <:gflurry:535532879283879977>
+    • Kill 2: <:zerk:535532854004678657> → <:gbarge:535532879250456578> → bleed <:destroy:535532879330148352> → <:quake:535532879506309150> + walk to dodge bombardment → <:cane:535532878969438210> → <:assault:535532855191928842> → 4-hit <:gflurry:535532879283879977>
 
 .
-## __AFK Stratgies__
-.tag:afk
-Full guides on how to AFK the Rex matriarchs can be found here:
-⬥ <#1108592750238126154>
-⬥ <#1023077451326296175>
-⬥ <#1149393565986852914>
+__**Osseous**__
 
+⬥ Teleport to Wars Retreat <:warsretreatteleport:1032540079589163049> after each kill to reset cooldowns
+⬥ Stand in melee distance
+⬥ Pre-cast <:conjurearmy:1166094935066423348> → <:commandghost:1159434409913634816> → <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883>
+⬥ Optionally start the fight with <:smokecloud:856635090641879050>
+⬥ (tc) <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> + <:undeadslayer:641339922019516416> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> (+ <:disrupt:535614336207552523> *Minion Summon*) → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:eof:787526151978614824>
+
+
+.
+## __AFK/Low Effort Strategies__
+.tag:afk
+Links to AFK/Low Effort guides can be found below.
+
+⬥ <#1023077451326296175>
+⬥ <#1108592750238126154>
+⬥ <#1245370187016831118>
+⬥ <#1248007832800989304>
+    • *Note: AFK Pthentraken no longer works after changes to <:surge:535533810004262912>*
+
+.
+Content Provided by: *Various*
+Formatting Maintained by: <@839236111054143508>
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Active Strategies]($linkmsg_active$)\n⬥ [AFK Strategies]($linkmsg_afk$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Active Strategies]($linkmsg_methods$)\n⬥ [Presets and Relics]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [AFK/Low Effort Strategies]($linkmsg_afk$)",
     "color": 39423
   }
 }

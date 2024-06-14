@@ -1,5 +1,7 @@
 # Necromancy Minion Tank / Free
+.img:https://img.pvme.io/images/JChZfA1i4S.png
 
+.
 ## __Preset and relics__
 .tag:presets
 {
@@ -24,7 +26,7 @@
 ## __Rotation__
 .
 ### Prebuild
-.tag:pre
+.tag:prebuild
 <:conjurearmy:1166094935066423348> → <:splitsoul:1137809168368148490> → <:lifetransfer:1137809128136388819> → <:commandskeleton:1137809194423160883>
 
 _Note: This rotation starts on base's <:invokedeath:1137809121983336548>. You should be using <:commandskeleton:1137809194423160883> at 4.8s on the timer_
@@ -32,16 +34,16 @@ _Note: This rotation starts on base's <:invokedeath:1137809121983336548>. You sh
 .
 ### Phase 1
 .tag:p1mt
-(Free: <:ingen:641339234111848463> + <:praeswand:643166769518739477><:smokecloud:856635090641879050> + ) <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:soulstrikeflank:1156683164593430579> → <:omniguard:1138809234922934282><:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
+(Free: <:ingen:641339234111848463> + <:praeswand:643166769518739477> <:smokecloud:856635090641879050> + ) <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:soulstrikeflank:1156683164593430579> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
 
 _Note: Free usually applies <:smokecloud:856635090641879050>, but it can also be done by any minion tank_
 
 .
 ### Phase 2
 .tag:p2mt
-<:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:stormshards:536256663641128971> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057>  → <:deathguard90:1138809243143766118><:eofspec:746403211908481184> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
+<:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:stormshards:536256663641128971> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057>  → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
 
-_Note: Time <:deathguard90:1138809243143766118><:eofspec:746403211908481184>  so that it hits <:aod:580167371365548042> as she becomes damageable again_
+_Note: Time <:deathguard90:1138809243143766118> <:eofspec:746403211908481184>  so that it hits <:aod:580167371365548042> as she becomes damageable again_
 
 .
 ### Phase 3
@@ -65,15 +67,15 @@ _Notes:
 .
 ### Zaros
 .tag:zaros
-<:volleyofsouls:1159435029592686642> → <:omniguard:1138809234922934282><:spec:537340400273195028> → <:fingerofdeath:1159434801938432010> →  <:necroauto:1137809137401602109>
+<:volleyofsouls:1159435029592686642> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:fingerofdeath:1159434801938432010> →  <:necroauto:1137809137401602109>
 
 .
 .tag:eg
 {
   "embed": {
     "title": "__Example Kills__",
-    "description": "09-2023 - Au tumn - [Umbra](https://youtu.be/RqZUY6hXCZU)\n\u200B09-2023 - Beta Fox - [Glacies](https://www.youtube.com/watch?v=0XzxGmh60aM)\n\u200B09-2023 - DanMakesItRain - [Cruor](https://www.twitch.tv/videos/1922438041)\n\u200B09-2023 - Beta Fox- [Fumus](https://www.youtube.com/watch?v=YXQF1KU_bvk)",
-    "color": 39423
+    "color": 39423,
+    "description": "25.05.2024 - Stuu - [Fumus](https://youtu.be/6oje2pej5sw?list=PLuucDgZUQCMeYXQ9MXK2al3aQraBYrezH)\n\u200B25.05.2024 - Stuu - [Cruor](https://youtu.be/aKXSyhc_HZI?list=PLuucDgZUQCMeYXQ9MXK2al3aQraBYrezH)\n\u200B26.05.2024 - Stuu - [Glacies](https://youtu.be/yz-tjQhVLBQ?list=PLuucDgZUQCMeYXQ9MXK2al3aQraBYrezH)\n\u200B26.05.2024 - Stuu - [Umbra](https://youtu.be/d3Ig8VBwAvU?list=PLuucDgZUQCMeYXQ9MXK2al3aQraBYrezH)"
   }
 }
 .embed:json
@@ -94,7 +96,7 @@ Formatting Maintained by: <@240563415808999424>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Prefight]($linkmsg_pre$)\n⬥ [Phase 1]($linkmsg_p1mt$)\n⬥ [Phase 2]($linkmsg_p2mt$)\n⬥ [Phase 3]($linkmsg_p3mt$)\n⬥ [Pillars]($linkmsg_pillars$)\n⬥ [Zaros]($linkmsg_zaros$)\n⬥ [Example Kills]($linkmsg_eg$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Prefight]($linkmsg_prebuild$)\n⬥ [Phase 1]($linkmsg_p1mt$)\n⬥ [Phase 2]($linkmsg_p2mt$)\n⬥ [Phase 3]($linkmsg_p3mt$)\n⬥ [Pillars]($linkmsg_pillars$)\n⬥ [Zaros]($linkmsg_zaros$)\n⬥ [Example Kills]($linkmsg_eg$)",
     "color": 39423
   }
 }

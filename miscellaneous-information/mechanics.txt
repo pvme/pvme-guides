@@ -27,7 +27,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 
 .
 ### Movement Stalling
-⬥ Queued abilities will interrupt movement when they are are activated by the game.
+⬥ Queued abilities will interrupt movement when they are activated by the game.
 ⬥ This may cause issues if you are trying to 'kite' monsters (like at Nex or Barrows: Rise of the Six) while also trying to use ability queueing.
 ⬥ The solution is to disable queueing, or simply press the ability slightly later so that it triggers normally (without queueing).
 
@@ -38,7 +38,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
     • 'On-tick' refers to a defensive ability that is cast on the same tick as getting hit by an attack.
 ⬥ They can be queued on 3 different ticks (since each global cooldown is 3t long), and they work as follows:
     • **3 ticks** before cast: works with on-tick damage if player is between 1 to 5 tiles from the enemy.
-    • **2 ticks** before cast: works with with on-tick damage if player is 1 or 2 tiles from the enemy.
+    • **2 ticks** before cast: works with on-tick damage if player is 1 or 2 tiles from the enemy.
     • **1 tick** before cast: __does not work__ with on-tick damage.
 
 .
@@ -131,7 +131,7 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 .
 ## __Adrenaline Management__
 .tag:adren
-Adrenaline is generated when players use auto attacks and basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannont use at any given point.
+Adrenaline is generated when players use auto attacks and basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannot use at any given point.
 
 There are a couple different mechanics to note with regard to adrenaline.
 ⬥ Stalling adrenaline to not lose it out of combat.
@@ -208,7 +208,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • **Invisible** +10% to damage.
     • **Invisible** +10% to accuracy.
     • Boosts the corresponding attack stats (Attack + Strength, Ranged, or Magic) by 10%.
-    • Increases all damage taken (except hard typless) by 15%.
+    • Increases all damage taken (except hard typeless) by 15%.
     • Reduces defence level by 15%.
 .
 ### Interactions with Damage-Boosting Ultimates
@@ -239,27 +239,24 @@ There are a couple different mechanics to note with regard to adrenaline.
     • ED2 (during the 'spikes' special attack of Black Stone Dragon and any other Gemstone Dragon).
 
 .
-## __Critical Hits__
+## __Critical Strike__
 .tag:crit
 *Note: For a summary, see the `!crit` and `!critbuff` commands.*
 ### How It Works
-⬥ Critical hits (crits) occur when you hit for >95% of your ability damage range. They are indicated by larger, stylized damage numbers.
-⬥ Crits have an increased hitcap: 10k → 12k. This hitcap can be increased by some items (see __**Items That Affect Critical Hits**__ below).
-.
-⬥ There are two types of crits:
-    • **Forced crit**: When your critical hit chance *forces* your attack to hit >95% of your damage range. All attacks first get checked to see if they will be a forced crit.
-    • **Natural crit**: When you don't get a forced crit, *but you hit >95% of your damage range anyway*.
-⬥ **Your total critical hit chance is the sum of your forced crit chance + natural crit chance.**
+⬥ Players have a base 10% chance to critical strike. They are indicated by larger, stylized damage numbers.
+⬥ A critical strike deals a fixed percentage of bonus damage based on combat stats (up to 50% at 90)
+⬥ **Your total critical hit chance is your base 10% plus any added effect you may be using as seen below.**
+⬥ (see __**Items That Affect Critical Hits**__ below).
 
 .
 ### Ability Interactions
 ⬥ **Fury** <:fury:535532879510372352>
-    • Each hit of <:fury:535532879510372352> increases the next hit's forced crit chance by 5%.
-    • This caps at 15% after the 3rd hit.
+    • Increases the next melee hit's forced crit chance by 25%.
 ⬥ **Greater Fury** <:gfury:535532879334080527>
     • Adds a fixed +10% forced crit chance to the next hit.
 ⬥ **(Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:1087373968731811880>**
-    • Same as Fury <:fury:535532879510372352>.
+    • Each hit increases the next magic abilities forced crit chance by 5%.
+    • This caps at 15% after the 3rd hit.
 ⬥ **Meteor Strike <:meteorstrike:535532879359377439>, Tsunami <:tsunami:535533809995874304> and Incendiary Shot <:incend:535541258429661215>**
     • All three abilities provide a 30s buff that grants 10% adrenaline for every critical hit.
     • The buff starts from when the abilities hit the target (on-cast for <:tsunami:535533809995874304> / <:meteorstrike:535532879359377439>, and when it detonates for <:incend:535541258429661215>).
@@ -282,19 +279,17 @@ There are a couple different mechanics to note with regard to adrenaline.
 
 .
 ### Items That Affect Critical Hits
-*Note: In the following section, all critial hit chance increases apply to **forced** critical hit chance. These methods **can** stack together.*
+*Note: In the following section, all critical hit chance increases apply to **forced** critical hit chance. These methods **can** stack together.*
 ⬥ **Biting Perk** <:biting4:712073087809617931>
     • **+2%** critical hit chance per rank, up to 8% at Biting 4 <:biting4:712073087809617931> (up to 8.8% with level 20 equipment)
 ⬥ **Tuska's Might**
     • **+1%** critical hit chance **per** equipped piece of Warpriest Armour of Tuska.
-    • This effect is not strong enough to justify using this armour.
+    • This effect is only viable in certain scenarios for example under <:fsoa:869284271595069451> <:spec:537340400273195028>.
 ⬥ **Kal'gerion Demon familiar** <:kalgpouch:921410226484301925> <:kalgscroll:841409588954923049>
     • Its special move, *Crit-i-kal* <:kalgscroll:841409588954923049> gives **+5%** critical hitchance for 60 seconds.
     • This applies to everyone near the familiar when it is cast, and you can move away from the familiar without losing the effect after it is cast.
-    • The scrolls cannot be autofired.
-    • Ironmen can only benefit from their own familiar.
-⬥ **Erethedor's Grimoire** <:grim:568262896375824385>
-    • **+12%** critical hit chance while active, and increases hit cap for **crits** from **12k → 15k.**
+⬥ **Erethdor's Grimoire** <:grim:568262896375824385>
+    • **+12%** critical hit chance while active.**
     • Outside of Solak, <:grim:568262896375824385> is extremely expensive to use.
 ⬥ **Reaver's Ring** <:reaverring:839903943018283050>
     • **+5%** critical hit chance at the expense of -5% accuracy.
@@ -306,9 +301,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • This affects (Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:1087373968731811880> , Asphyxiate <:asphyx:535533833072672778> , and Onslaught <:onsl:513190159085207555>
 .
 ⬥ **Smoke Cloud** <:smokecloud:856635090641879050>
-    • Increase hitcap for **crits** by **15%** for <:Magic:689504724159823906>, and by **6%** for <:range:580168050121113623> / <:melee:1096130867279171706>
-⬥ **Dark Shard of Leng (T95 Leng mainhand) special attack** <:lengmh:883134308146098227> <:spec:537340400273195028>
-    • Increases damage cap by **30%** for Melee <:melee:1096130867279171706>, Reflect <:reflect:535541258786177064> and Dominion mine <:dommine:662249620579155968> damage.
+    • Increase hitcap for **crits** by **15%** for <:Magic:689504724159823906>, and by **6%** for <:range:580168050121113623> / <:melee:1096130867279171706> / <:necromancy:1148995625896120460>
 
 .
 {
@@ -499,7 +492,7 @@ This section covers the difference between an NPC's **centre** and **coordinate*
 This section covers how NPCs face, how it affects their movement and targeting, and its impact on Flanking Angles.
 .
 ### Facing Direction: Movement
-⬥ **NPC's in RuneScape can only face in one of 8 drections**: the four cardinal directions N/W/S/E and the four diagonal directions in-between, NW/SW/SE/NE.
+⬥ **NPC's in RuneScape can only face in one of 8 directions**: the four cardinal directions N/W/S/E and the four diagonal directions in-between, NW/SW/SE/NE.
 ⬥ NPCs can also only **move** in one of these 8 directions.
     • The same behaviour applies to players as well.
 ⬥ Each direction therefore corresponds to a 45° angle.
@@ -547,7 +540,7 @@ etc.
 ⬥ **Case 2: Target Facing North-West (Diagonal Direction)**
     • Player can use <:flankicon:841419289755385866> anywhere in the green region because:
         ⬩ The target is facing both north and west.
-        ⬩ Player is *only* futher north, *not* also further west, than the target's centre.
+        ⬩ Player is *only* further north, *not* also further west, than the target's centre.
     • i.e. **Flanking angle is the 270° region not including the quadrant the boss is facing**.
 ⬥ See the following image for an example of this behaviour with a 2x2 monster:
 .img:https://img.pvme.io/images/G3bGkKk.png
@@ -604,7 +597,7 @@ etc.
 ⬥ Additionally, Bladed Dive also does damage.
     • Bladed Diving onto a target will attempt to do damage in a 3x3 AoE.
     • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
-    • *This AoE is centreed on around the player where they land*.
+    • *This AoE is centred on around the player where they land*.
 
 ### Walking Abilities
 ⬥ Players can move while casting abilities, with some exceptions:
@@ -739,7 +732,7 @@ etc.
     "fields": [
       {
         "name": "__Vorago__",
-        "value": "⬥ [Targetting a Scopulus on P3 earlier than usual to lure it properly](https://www.youtube.com/watch?v=KmYgKcfLeRc)\n⬥ [Tagging Vorago early on phase dropdowns to aggro or get in an extra hit](https://www.youtube.com/watch?v=9YejOAvquQk)"
+        "value": "⬥ [Targeting a Scopulus on P3 earlier than usual to lure it properly](https://www.youtube.com/watch?v=KmYgKcfLeRc)\n⬥ [Tagging Vorago early on phase dropdowns to aggro or get in an extra hit](https://www.youtube.com/watch?v=9YejOAvquQk)"
       },
       {
         "name": "__Ambassador__",
@@ -769,7 +762,7 @@ etc.
 ⬥ This is how often the game updates information. All actions and updates are registered on a tick.
 ⬥ Each game tick (often just written as 't') is 0.6 seconds long - i.e. 1t = 0.6s.
     • For reference, the global cooldown (the time between pressing abilities one after another) is 3t/1.8s long.
-⬥ This has enormous impact on virtually all aspects of the game, from movement to abilities used in combat to skilling and everything inbetween.
+⬥ This has enormous impact on virtually all aspects of the game, from movement to abilities used in combat to skilling and everything in between.
 ⬥ One big advantage of the tick system is that **even if you have relatively high latency, its impact on the gameplay is not as noticable as in other games like FPS shooters**, due to the lengthy in-built tick duration.
 
 .
@@ -884,7 +877,7 @@ etc.
 ## __Weapon Poison <:weppoison:689525476158472288>__
 .tag:poison
 ### How It Works
-⬥ **Weapon Poison provides provides a buff that allows players to have a 12.5% chance of poisoning a non-immune target every attack.**
+⬥ **Weapon Poison provides a buff that allows players to have a 12.5% chance of poisoning a non-immune target every attack.**
     • Duration of this buff depends on the grade of poison (normal, +, ++, +++) being used.
     • After being poisoned <:poisonicon:944649693500154006> targets will take damage every 16t/9.6s, for 3 minutes.
     • Poison damage hits 2t after the damage that applied it.
@@ -961,7 +954,7 @@ etc.
 
 .
 ### Poison in Group Encounters
-⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are are target-based will affect all poison damage (i.e. sourced from any player).
+⬥ **Global** modifiers like Bik arrows <:bikarrow:971025697235689513> or Vuln <:Vuln:537349530551582720> that are target-based will affect all poison damage (i.e. sourced from any player).
 ⬥ **Local** modifiers (that are player-specific) like Cinderbanes <:cinderbanes:513190158355660812> / Wyvern Crossbow <:wyverncrossbow:580177522587729940> / etc. will only affect the hitsplats as a result of that player.
 ⬥ The single recurring poison hit that occurs on a poisoned target every 9.6s will take its damage based on the last player who applied poison on the target.
 

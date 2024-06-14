@@ -6,42 +6,17 @@ You can then attach the updated file with your post in <#1020853673317908500>, o
 An example of this process can be seen in [this video](<https://youtu.be/cPWgpRLsqGU>)
 .
 # Helwyr Basic
-.img:https://img.pvme.io/images/epMlGdS2aB.png
+.img:https://img.pvme.io/images/F2iSmgl0OR.png
 *Note: a **Table of Contents** can be found in the pins.*
 
 .
 ## __Introduction__
 .tag:intro
-Helwyr is the Seren general residing in the Heart of Gielinor, and requires 80 Magic <:magic:689504724159823906> and 40 Seren kill count to fight.
+Helwyr, Seren's general residing in the Heart of Gielinor, requires 80 Magic <:magic:689504724159823906> (boostable) and 40 Seren killcount to fight. His drops include the t85 Wand of the Cywir elders <:cywirwand:643161591571021824> and Orb of the Cywir elders <:cywirorb:643161591210049556> which are strong midgame magic weapons when used with Greater Concentrated Blast <:gconc:869285393223254107>. Helwyr also drops the Crest of Seren <:crestseren:643161511937966122> which is used to make the t80 Anima Core of Seren set <:animahelmseren:643120081764745279>.
 
-⬥ Each of the generals in the Heart of Gielinor have a [reputation system](<https://runescape.wiki/w/Reputation_(Heart_of_Gielinor)>) which gives various rewards for progressing it.
-    • Invention <:invention:689509250946695292> materials at 2500
-        ⬩ Cywir components <:cywircomp:583430147538026496> may now be discovered.
-    • 50% kill count reduction at 4500
-    • 100% drop increase at 5000
+The fight itself is one phase. The aim of this guide is to familiarise you with how to handle mechanics in order to successfully get your first solo kills.
 
-.
-### Preset and Relics
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/NrM09xeVVE.png"
-        },
-    "fields": [
-      {
-        "name": "__Preset Suggestion & Breakdown__",
-        "value": "⬥ [Magic](https://pvme.io/preset-maker/#/GU8y7tO3rJdFZmDKCkUW)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-⬥ You may upgrade your gear where available.
-
+Throughout this fight, Helwyr's auto attacks hit the player with melee <:melee:1096130867279171706> damage. The player will pray Protect from Melee <:protectfrommelee:1052551452788269127> or Deflect Melee <:deflectmelee:544195488447201300>.
 .
 ## __Mechanics__
 .tag:mechanics
@@ -51,24 +26,24 @@ Helwyr is the Seren general residing in the Heart of Gielinor, and requires 80 M
     "color": 39423,
     "fields": [
       {
-        "name": "__Attack Rotations__",
-        "value": "Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat"
+        "name": "__Attack Rotation__",
+        "value": "Make sure to start the fight in the centre of the arena to avoid Helwyr skipping attacks \n\nMushroom gas → 2 auto attacks → Cleave → 2 auto attacks → Frenzy → 2 auto attacks → Minion Spawn → 2 auto attacks → Repeat"
       },
       {
         "name": "__Mushroom Gas__",
-        "value": "⬥ Deals 250 damage per tick; binds you if you stand in too long. ([Example](https://img.pvme.io/images/KHMLekU.mp4))"
+        "value": "⬥ A large cloud of gas dealing 250 damage per tick; it will bind you if you stand in it too long. The player should:\n\n\u00a0\u00a0\u00a0\u00a0• Move out of the gas cloud as quickly as possible. If you find yourself stunned by the gas, you should **__NOT__** Freedom <:freedom:535541258240786434> as you will need to save this for later. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Mushroom Gas](https://img.pvme.io/images/KHMLekU.mp4)"
       },
       {
         "name": "__Cleave__",
-        "value": "⬥ Jumps to you and hits in a frontal cone for up to 3k. ([Example](https://img.pvme.io/images/OKDS0F5.mp4))"
+        "value": "⬥ Helwyr stands on his hind legs and hits in a frontal cone for up to 3k. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Use Resonance <:res:535541258844635148> to heal from this attack. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Cleave](https://img.pvme.io/images/OKDS0F5.mp4)"
       },
       {
         "name": "__Frenzy__",
-        "value": "⬥ Deals rapid melee hits, each applying a bleed stack. ([Example](https://img.pvme.io/images/G5CPPoC.mp4))\n\u00a0\u00a0\u00a0\u00a0• When Helwyr finishes, use Freedom <:freedom:535541258240786434> to clear the bleed entirely."
+        "value": "⬥ Helwyr spins around dealing rapid melee hits, each applying a bleed stack on your debuff bar that looks like this: <:dismember:535532879376023572>. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Use Devotion <:devo:513190158728953857> to mitigate all the melee damage from the Frenzy. \n\u00a0\u00a0\u00a0\u00a0• If Devotion is on cooldown, the player can use Debilitate <:debil:535541278264393729> or Reflect <:reflect:535541258786177064> to mitigate 50% of incoming damage.\n\u00a0\u00a0\u00a0\u00a0• When Helwyr finishes, use Freedom <:freedom:535541258240786434> to clear the bleed entirely. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Frenzy](https://img.pvme.io/images/G5CPPoC.mp4)"
       },
       {
         "name": "__Minion Spawn__",
-        "value": "⬥ Summons two 3k HP Cywir Alphas. Easily taken out with AoEs. ([Example](https://img.pvme.io/images/EB1ss4g.mp4))"
+        "value": "⬥ Helwyr will summon two 3k HP Cywir Alphas. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Use Area-of-Effect (AoE) abilities to defeat them whilst continuing to attack Helwyr. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Minion Spawn](https://img.pvme.io/images/EB1ss4g.mp4)"
       }
     ]
   }
@@ -76,53 +51,49 @@ Helwyr is the Seren general residing in the Heart of Gielinor, and requires 80 M
 .embed:json
 
 .
-## __The Fight__
-.tag:fight
-1) Drink an Extreme Magic Potion (or better) before going in, with prayers on.
-    a) Pray Protect from Melee <:protectfrommelee:1052551452788269127> and Augury <:augury:1084799720926478437>
-2) Spam Target Cycle + <:Vuln:537349530551582720> + <:sonicwave:1087373972443775056> (or <:dbreath:535533833391702017>) while going into spot displayed in image below.
-    a) The spot is 1 tile southwest of the middle mushshroom.
-.
-.img:https://img.pvme.io/images/56qcTQy6BO.png
-.
-3) Cast Sunshine <:sunshine:994921119381463070> after you have targeted Helwyr <:Helwyr:513213019635843100>, then follow the general approach to rotations outlined below.
-    a) If Helwyr mushroom gases your <:sunshine:994921119381463070> area at the start, teleport out and restart.
+## __Presets__
+.tag:presets
+Below are some presets we believe will lead to a great learning experience. Magic assumes the user is on the normal spellbook.
 
-*Note: when trying to time Target Cycle, it is **important** to run while you spam it, otherwise you cannot spam Target Cycle. If you Target Cycle properly, <:Helwyr:513213019635843100>'s HP box will not show.*
-
+Necromancy and Magic will be the easiest to learn with however Melee and Ranged presets can be provided in <#656898197561802760>. These are all not set in stone so if you are missing a couple of items, you will still be able to complete kills. Try not to downgrade too heavily though as these have been prepared with your learning experience in mind.
 .
-## __Rotations__
-.tag:rotations
-⬥ While in <:sunshine:994921119381463070> aim to do 1 <:wm:535533809978966037>, 1 <:asphyx:535533833072672778>, and 1 <:gstaff:513203008608141314> <:spec:537340400273195028>
-⬥ Use Resonance <:res:535541258844635148> to heal when <:Helwyr:513213019635843100> cleaves (ideally **without** Protect from Melee <:protectfrommelee:1052551452788269127> on).
-⬥ Use Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729> when <:Helwyr:513213019635843100> does his frenzy.
-    • Alternatively, run away if <:devo:513190158728953857> is on cooldown.
-    • Use Freedom <:freedom:535541258240786434> after the frenzy.
-    • You can only Devotion <:devo:513190158728953857> every other frenzy.
-⬥ Use <:gstaff:513203008608141314> <:spec:537340400273195028> whenever possible (costs ~23 adrenaline with <:rov:513201065877831680>).
-    • Ensure you still have adrenaline for <:devo:513190158728953857> etc. when you need it (needs >50% adrenaline).
-⬥ Avoid moving <:Helwyr:513213019635843100> unless absolutely necessary as he skips autos when he moves.
-    • Only scenarios you should move <:Helwyr:513213019635843100> are:
-        ⬩ Walking <:comb:535533833098100745>
-        ⬩ To avoid the frenzy when <:devo:513190158728953857> is on cooldown
-        ⬩ To avoid the mushroom
-⬥ Optionally, whenever you cast <:devo:513190158728953857> / <:freedom:535541258240786434>, you may try to weave in an <:AirSurge:543465115870035999> or <:Vuln:537349530551582720> with it.
-    • Be aware, this will not work after <:gconc:869285393223254107> / <:conc:1087373968731811880> / <:asphyx:535533833072672778>
-    • If using 2H, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as your next ability.
-    • If using DW, input <:AirSurge:543465115870035999> / <:Vuln:537349530551582720> at the same time as <:devo:513190158728953857> / <:freedom:535541258240786434>
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/q0S7OpcPJb.png"
+        },
+    "fields":[
+        {
+            "name":"__Example presets__",
+            "value":"⬥ [<:necromancy:1148995625896120460> Click to view Necromancy preset](https://pvme.github.io/preset-maker/#/t1EyGrUw10j2zgaf54Db)\n⬥ [<:magic:689504724159823906> Click to view Magic preset](https://pvme.github.io/preset-maker/#/FpJAcluNA4k2VAS6rn2z)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-## __Example Kills__
-.tag:example
-.
-⬥ [Basic Magic](https://youtu.be/1udjVlDsYBY)
-.
+## __Tips and Tricks__
+.tag:tips
+This is a great boss to learn how to use a few of your Defensive abilities effectively as well as familiarise yourself with movement during an encounter. Primarily in this fight, you will use Resonance <:res:535541258844635148>, Devotion <:devo:513190158728953857>, Debilitate <:debil:535541278264393729> or Reflect <:reflect:535541258786177064> to reduce incoming damage and Freedom <:freedom:535541258240786434> to clear bleeds. If you have Lesser Bone Shield <:lesserboneshield:1137809125590450276> unlocked and active, you do not need to bring a shield with you to access Resonance <:res:535541258844635148> or Reflect <:reflect:535541258786177064> otherwise you will need to bring a shield.
 
+Helwyr is also a great boss to practice some fundamentals when thinking about your abilities. Below is a basic structure to think about and practice:
+
+1) Damage boosting ultimate ability <:sunshine:994921119381463070> / <:zerk:535532854004678657> / <:deathsswift:994921434633744455> / <:livingdeath:1159434908486357072>
+2) Build adrenaline, souls or necrosis stacks using appropriate basic abilities
+3) Stronger threshold abilities e.g. <:wm:535533809978966037> <:asphyx:535533833072672778> ,  <:assault:535532855191928842> <:destroy:535532879330148352> / <:cane:535532878969438210> , <:snap:535534127131394088> <:rapid:535541270521708566> / <:fingerofdeath:1159434801938432010>, <:volleyofsouls:1159435029592686642>
+4) Repeat steps 2 and 3 until your damage boosting ultimate ability runs out and build to 100% adrenaline again
+5) Repeat from step 1
+.
+Content Provided by: <@788941461952397332>
+Formatting Maintained by: <@788941461952397332>
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example]($linkmsg_example$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips & Tricks]($linkmsg_tips$)",
     "color": 39423
   }
 }
