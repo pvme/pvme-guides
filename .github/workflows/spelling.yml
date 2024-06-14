@@ -88,7 +88,7 @@ jobs:
     concurrency:
       group: spelling-${{ github.event.pull_request.number || github.ref }}
       # note: If you use only_check_changed_files, you do not want cancel-in-progress
-      cancel-in-progress: false
+      cancel-in-progress: true
     steps:
     - name: check-spelling
       id: spelling
@@ -97,13 +97,13 @@ jobs:
         suppress_push_for_open_pull_request: ${{ github.actor != 'dependabot[bot]' && 1 }}
         checkout: true
         check_file_names: 1
-        only_check_changed_files: 1
+        only_check_changed_files: 0
         spell_check_this: check-spelling/spell-check-this@prerelease
         post_comment: 0
         use_magic_file: 1
         report-timing: 1
         warnings: bad-regex,binary-file,deprecated-feature,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check
-        experimental_apply_changes_via_bot: 1
+        experimental_apply_changes_via_bot: 0
         use_sarif: ${{ (!github.event.pull_request || (github.event.pull_request.head.repo.full_name == github.repository)) && 1 }}
         extra_dictionary_limit: 20
         extra_dictionaries:
@@ -141,7 +141,7 @@ jobs:
         checkout: true
         spell_check_this: check-spelling/spell-check-this@prerelease
         task: ${{ needs.spelling.outputs.followup }}
-        experimental_apply_changes_via_bot: 1
+        experimental_apply_changes_via_bot: 0
 
   update:
     name: Update PR
@@ -162,6 +162,6 @@ jobs:
     - name: apply spelling updates
       uses: check-spelling/check-spelling@main
       with:
-        experimental_apply_changes_via_bot: 1
+        experimental_apply_changes_via_bot: 0
         checkout: true
         ssh_key: "${{ secrets.CHECK_SPELLING }}"
