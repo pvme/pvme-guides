@@ -1,6 +1,6 @@
 # Auto Attacks
 .tag:intro
-Autos for <:ranged:580168050121113623> <:melee:1096130867279171706> <:Magic:689504724159823906> are separate from abilities and also have their own cooldown system separate from the GCD system abilities are typically bound to.
+Autos for <:range:580168050121113623> <:melee:1096130867279171706> <:Magic:689504724159823906> are separate from abilities and also have their own cooldown system separate from the GCD system abilities are typically bound to.
 
 Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:1137809137401602109>.
 
@@ -232,7 +232,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 
 4) Auto bind gives the ability to cast an auto and ability on the same tick
     a) Autos normally executed after ability in a tick, so abilities override it
-        ⬩ So, <:Attack:689509250472476758> / <:ranged:580168050121113623> autos can't be 4TAA'd, ability is on t5 where auto is t4
+        ⬩ So, <:Attack:689509250472476758> / <:range:580168050121113623> autos can't be 4TAA'd, ability is on t5 where auto is t4
 
 .tag:ClickVsBind
 ## __Application: Defensive Autos__
@@ -265,7 +265,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ⬥ Non-channeled fast/fastest ability into a defensive causes a mid-GCD auto
     • For <:Magic:689504724159823906>: this will be your autocasted spell, but can be altered using a spell
         ⬩ To change: do the spell (e.g. <:icebarrage:537340400185245701> / <:ent:567727987274022924>) *then* defensive on same tick
-    • For <:ranged:580168050121113623> / <:Attack:689509250472476758>: this will be your default auto, can be altered with a spell
+    • For <:range:580168050121113623> / <:Attack:689509250472476758>: this will be your default auto, can be altered with a spell
         ⬩ To change: do the spell (e.g. <:ent:567727987274022924>) *then* defensive on same tick
     • Ticks: `T0: Fast/Fastest Ability → T3 Defensive → T4/5 Auto → T6 Ability`
     • As auto's cooldown ends, can swap to a 2H for a stronger auto
@@ -283,7 +283,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ⬥ <:Magic:689504724159823906>, due to having auto binds, can cast an auto + ability on the same tick
     • This lets <:Magic:689504724159823906> do an average ability into a defensive auto
         ⬩ Ticks: `T0: Average Ability → T3: Defensive → T6: Auto + Ability`
-        ⬩ For <:ranged:580168050121113623> / <:melee:1096130867279171706>: the ability would have to be on T7 to not lose the T6 auto
+        ⬩ For <:range:580168050121113623> / <:melee:1096130867279171706>: the ability would have to be on T7 to not lose the T6 auto
     • Useful if staff camping, to avoid using weaker abilities like <:Sacrifice:513201065907322880> / <:Tuskas:513201065513058306>
 .
 {
@@ -299,7 +299,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ⬥ If cast with DW, <:freedom:535541258240786434> gives both a MH/2H and an OH auto
     • Always get the OH auto, to change what is cast do auto → <:freedom:535541258240786434> same tick
         ⬩ To change the 2H auto: do auto + ability input at GCD end
-    • To change OH to a spell for <:ranged:580168050121113623> / <:melee:1096130867279171706>, must use OH <:Magic:689504724159823906> weapon (e.g. <:ancientlantern:580177522503712781>)
+    • To change OH to a spell for <:range:580168050121113623> / <:melee:1096130867279171706>, must use OH <:Magic:689504724159823906> weapon (e.g. <:ancientlantern:580177522503712781>)
         ⬩ Must also have an OH autocast set (ideally <:polyporestrike:859483781487394826> as it is on all books)
 ⬥ Feel free to use the `!freedom` command
 
@@ -348,7 +348,7 @@ The adrenaline per auto works as seen [here](<https://runescape.wiki/w/Invigorat
 ### What is 4TAA
 ⬥ 4TAA stands 4-tick auto-attack
     • It is the act of delaying casting your next ability an extra tick when the GCD ends to weave in an auto and ability on the 4th tick
-⬥ It is largely applicable to <:Magic:689504724159823906>, but <:ranged:580168050121113623> / <:melee:1096130867279171706> can use it to weave in debuff spells
+⬥ It is largely applicable to <:Magic:689504724159823906>, but <:range:580168050121113623> / <:melee:1096130867279171706> can use it to weave in debuff spells
 
 .
 ### How Does 4TAA Work
@@ -411,14 +411,14 @@ DW Asphyx | Auto Asphyx → DW Abil → Auto Abil
 ## __Application: 5TAA:__
 .tag:5TAA
 ### What is 5TAA
-⬥ Like 4TAA, but for <:ranged:580168050121113623> / <:melee:1096130867279171706> as no auto binds; must wait 1t more for ability
+⬥ Like 4TAA, but for <:range:580168050121113623> / <:melee:1096130867279171706> as no auto binds; must wait 1t more for ability
     • 4TAA: `T0: Fastest non-channel → T4: Auto + Ability`
     • 5TAA: `T0: Fastest non-channel → T4: Auto → T5: Ability`
     • This is the case as autos by default are after abilities in a tick, so casting a T4 ability will incur cooldown before the auto casts, hence need for T5 ability
 .
 {
   "embed": {
-    "description": "⬥ [Demo](https://img.pvme.io/images/tWAuKfP.mp4):\n\u00a0\u00a0\u00a0\u00a0• <:melee:1096130867279171706>: <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>\n\u00a0\u00a0\u00a0\u00a0• <:ranged:580168050121113623>: <:piercing:535541258538450944> → (wait 4t) auto fires → (wait 1t) <:mds:535541259033378827>",
+    "description": "⬥ [Demo](https://img.pvme.io/images/tWAuKfP.mp4):\n\u00a0\u00a0\u00a0\u00a0• <:melee:1096130867279171706>: <:sever:535532879577612298> → (wait 4t) auto fires → (wait 1t) <:cleave:535532878616985610>\n\u00a0\u00a0\u00a0\u00a0• <:range:580168050121113623>: <:piercing:535541258538450944> → (wait 4t) auto fires → (wait 1t) <:mds:535541259033378827>",
     "color": 39423
   }
 }
