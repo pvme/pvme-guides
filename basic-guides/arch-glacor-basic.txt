@@ -13,27 +13,6 @@ The Arch-Glacor is **not** affected by the Glacor slayer task on hard mode. It *
 In normal mode, the player may turn mechanics on or off in order to learn them at their own pace. Once comfortable with a few mechanics, the player can turn many mechanics on at once to test themselves. In hard mode, all mechanics are enabled, with a few changes, and survivability becomes more of a challenge. In general, it is recommended to start on normal mode, progress through the mechanics, and work up to unlocking & successfully completing hard mode kills.
 
 .
-## __Drops__
-.tag:drops
-### Normal Mode
-In normal mode, Arch-Glacor will drop 3 piles of loot. Many of the uniques are shared with hard mode, however they are much more rare and some have additional restrictions. For example, <:wengodbook:883134307902816297> can only be obtained if all 5 mechanics are enabled.
-
-⬥ **Scripture of Wen** <:wengodbook:883134307902816297>
-⬥ **Leng Artefact** <:lengartefact:884739993543782420>
-⬥ **Dark Nilas** <:darknilas:884739993527013426>
-⬥ **Glacor remnants** <:glacorremnants:884739993527013376>
-⬥ **Glacor Core** (pet) <:glacorclaw:884739993229230092>
-
-.
-### Hard Mode
-Each kill gives a roll of loot in the Frozen Vault. Players can choose to risk the drops in the Vault for an increased chance of better loot, at the cost of a more difficult fight known as streaking, much like Telos. For each kill that a player continues in the streak, enrage increases between 5-20%. 0-42 Dark Nilas <:darknilas:884739993527013426> can be obtained in a single roll.
-
-In general, the recommended strategy for GP/hour is to streak from 0% until core, or death. Use `!glacor` command for more details.
-
-⬥ **Frozen Core of Leng** <:frozencoreofleng:884739993527025704>
-⬥ All unique drops from normal mode.
-
-.
 ## __Presets and Relics__
 .tag:presets
 {
@@ -193,7 +172,7 @@ The Arch-Glacor will cycle through sets of 5 different mechanics (Glacyte Minion
     "fields": [
     	{
       	"name": "__Introduction__",
-        "value": "⬥ [General Info]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Presets]($linkmsg_presets$)",
+        "value": "⬥ [General Info]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)",
         "inline": true
       },
       {
