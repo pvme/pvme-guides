@@ -18,7 +18,7 @@ Choices for aura which affects how afk kills can be. They are listed in order of
 {
   "embed": {
     "title": "__Mandatory AFK Requirements__",
-    "description":"This setup should reliably allow you to reliably afk Rathis.\nThe following are required or this method will not work:\n\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004>\n⬥ Abyssal Scourge and Dark Sliver of Leng <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870>\n⬥ Full Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> **OR** Persistent Rage <:persistentrage:739965637056659567>\n⬥ Conservation of Energy <:conservationofenergy:697808773711921195>\n⬥ Penance Powder <:powderofpenance:928221126360969226> to upkeep prayer\n⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316> / Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Ring of Vigour passive effect <:rov:513201065877831680> <:warpedgem:968908526955167774>\n⬥ Elder Overload Salve <:elderovlsalve:648976643687317532> is active\n\u00a0\u00a0\u00a0\u00a0• A Salve is **required** for the <:superantipoison:841409588884406272> effect.\n\u00a0\u00a0\u00a0\u00a0• Normal Elder Overloads <:elderovl:841419289831800882> can be used with Super Prayer Renewals <:SuperPrayerRenewal:547603714681339915> if the Venomblood <:venomblood:841419289714229258> perk is owned.\n\u00a0\u00a0\u00a0\u00a0• Irit incense sticks <:IritSticks:690987265371144202> **DO NOT** mitigate Rathis' poison damage.\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Soulsplit <:soulsplit:615613924506599497> is active\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573> is active\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is active",
+    "description":"This setup should reliably allow you to reliably afk Rathis.\nThe following are required or this method will not work:\n\n⬥ Necklace of Salamancy <:necklaceofsalamancy:970657245312467004>\n⬥ Abyssal Scourge and Dark Sliver of Leng <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> **OR** <:mwspear:694566917456789554>\n⬥ Full Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>\n⬥ Adrenaline retention <:infernalpuzzlebox:994189299681607800> **OR** Persistent Rage <:persistentrage:739965637056659567>\n⬥ Conservation of Energy <:conservationofenergy:697808773711921195>\n⬥ Penance Powder <:powderofpenance:928221126360969226> to upkeep prayer\n⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316> / Kal-Zuk <:igneouskalzuk:902209626479685734>\n⬥ Ring of Vigour passive effect <:rov:513201065877831680> <:warpedgem:968908526955167774>\n⬥ Elder Overload Salve <:elderovlsalve:648976643687317532> is active\n\u00a0\u00a0\u00a0\u00a0• A Salve is **required** for the <:superantipoison:841409588884406272> effect.\n\u00a0\u00a0\u00a0\u00a0• Normal Elder Overloads <:elderovl:841419289831800882> can be used with Super Prayer Renewals <:SuperPrayerRenewal:547603714681339915> if the Venomblood <:venomblood:841419289714229258> perk is owned.\n\u00a0\u00a0\u00a0\u00a0• Irit incense sticks <:IritSticks:690987265371144202> **DO NOT** mitigate Rathis' poison damage.\n⬥ Weapon poison +++ <:weppoison:689525476158472288>\n⬥ Soulsplit <:soulsplit:615613924506599497> is active\n⬥ Turmoil <:turmoil:583429936606347280> or Malevolence <:Malevolence:513190159416557573> is active\n⬥ Auto-retaliate <:autoretaliate:1084799717726228530> is active",
     "color": 39423,
     "footer": {
       "text": "Cutting corners will result in failure"
@@ -38,19 +38,38 @@ Choices for aura which affects how afk kills can be. They are listed in order of
     "fields":[
         {
             "name":"__Preset Suggestions__",
-            "value":"⬥ [Melee preset](https://pvme.github.io/preset-maker/#/duS2oQxT6WVfpIou1NOF) <:melee:1096130867279171706>"
+            "value":"⬥ [DW Melee preset](https://pvme.github.io/preset-maker/#/duS2oQxT6WVfpIou1NOF) <:melee:1096130867279171706>"
         }
     ]
   }
 }
 .embed:json
 ⬥ Use Death Note <:deathnote:1023150755093426216> instead of Death Ward <:deathward:697808774068699286> for more profit with enhanced <:bonecrusher:975284344526602240>
+.
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/y1Votn6cv4.png"
+        },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [2H Melee preset](https://pvme.github.io/preset-maker/#/FusaF3S1hJc7sNZQn3v2) <:melee:1096130867279171706>"
+        }
+    ]
+  }
+}
+.embed:json
 
 .
 ### Action Bar
 .tag:bar
 ⬥ **Revo Bar** for <:abyssalscourge:947871842469834832> <:lengoh:883134308070604870> 54-57 KPH
 .img:https://img.pvme.io/images/nSzKFTp2BH.png
+.
+⬥ **Revo Bar** for <:mwspear:694566917456789554> 57+ KPH
+.img:https://img.pvme.io/images/Fd5YMNfMH2.png
 
 .
 ### Positioning
@@ -60,8 +79,11 @@ Choices for aura which affects how afk kills can be. They are listed in order of
 .
 ## __Video Example__
 .tag:example
-⬥ Video showing how the method works and how to position.
+⬥ Video showing how the DW method works and how to position.
     • <https://youtu.be/OQUNF21oBCs>
+
+⬥ Video showing how the 2H method works and how to position.
+    • <https://youtu.be/RRf5LSCCjTg>
 
 .
 {
