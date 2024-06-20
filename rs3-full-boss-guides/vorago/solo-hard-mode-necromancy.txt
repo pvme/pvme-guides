@@ -1,0 +1,748 @@
+# Vorago - Solo Hardmode w/ Necromancy
+.img:https://img.pvme.io/images/vJZUBiGFCF.png
+.
+## __Introduction__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+⬥ Solo Hardmode Vorago is one of the hardest PvM challenges in the game and will require good improvisation skills. Therefore, a strong understanding of the combat system is required.
+⬥ A basic understanding of the boss and P10/11 pushback is assumed and strong knowledge of solo normal mode P5 will translate well to hardmode and save time learning
+    • It is recommended to read <#1237150284317200524> first to make sure you have a base knowledge of solo Vorago
+    • It is assumed you have 6/6 solo NM Vorago before attempting this
+        ⬩ A good goal before starting is to solo all normal mode weeks before 2nd spec
+
+.
+## __Preset and Relics__
+.tag:preset
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "image": {
+            "url": "https://img.pvme.io/images/SEdqin9aBn.png"
+        },
+    "fields": [
+{
+        "name": "__Preset Suggestion & Breakdown__",
+        "value": "⬥ [Solo HM Necromancy](https://pvme.io/preset-maker/#/1s6mxzNPmzdoUB4EonBU)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530	,
+    "fields": [
+{
+        "name": "__Checklist and Unlocks__",
+        "value": "⬥ <:ingen:641339234111848463> Ingenuity of the Humans - Hit chance boost on <:deathskulls:1159434663903899728>\n⬥ <:surgecodex:602561894414417944> Double Surge - Essential for clearing bleeds <:dismember:535532879376023572>\n⬥ <:invokelordofbones:1176968330582700174> Invoke Lord of Bones - Very beneficial for P10/P11\n⬥ <:dommine:662249620579155968> Dominion Mines - Clearing Vitalis P9/10/11 on non-TS weeks\n⬥ <:zemouregalsnexus:1179716261681307728> Zemouregal's Nexus - For <:cade:535541306353778689> duration with <:greaterboneshield:1137809118283976814>",
+        "inline": true
+      },
+      {
+        "name": "__Pre-Fight Buffs__",
+        "value": "⬥ <:thermalflask:689530593796423724> **Ogre flask (thermal)** & <:firemaking:1011705727041163396> **Bonfire Boost**\n⬥ <:powderofpenance:928221126360969226> **Penance powder** / <:blessedflask:659122178704408598> **Blessed Flask**\n\u00a0\u00a0\u00a0\u00a0• Your first kill can be extremely long, especially if aiming to Vit Cap\n⬥ <:greaterboneshield:1137809118283976814> **Greater Bone Shield**\n⬥ <:malletops:690136117374484508> **2x Elder Malletops pens in PoF**\n\u00a0\u00a0\u00a0\u00a0• Increased Barricade <:cade:535541306353778689> duration for P10/P11\n⬥ <:darkness:1137809209782698024> **Darkness** is very useful for melee smacks\n⬥ **Optional**: \n\u00a0\u00a0\u00a0\u00a0• <:spiritsticks:565726489136463894> <:lantasticks:565726489404899368> Spirit Weed/Lantadyme incense sticks\n\u00a0\u00a0\u00a0\u00a0• <:saltwaterflask:974503666402873464> **Ogre flask (salt water)** for P1 run energy",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Preset Notes__
+.
+⬥ <:vitality:654618235097972737> Powerburst of Vitality is used on Phases 1, 6, and 8
+    • The rest of the doses are for tanking Teamsplits or Green Bombs P10/11
+
+⬥ <:dummy:656844963522281473> Invention dummy is for P11 if you <:shielddome:537341954392850442> <:maul:736524968174682132> P10
+    • Not needed on Vit week (or GB week if you are not Vit capping)
+    • Should be replaced with <:icenihil:854475442164334592> switch for Vit week
+    • Switch to persistent rage <:persistentrage:739965637056659567> on these weeks due to this
+
+⬥ <:wardentop90:1142770709530161192> <:wardenlegs90:1142770705688174652> for hitpoints <:constitution:689509250887712902> while tanking green bombs + Turtling <:turtling4:712073737377284146> switch
+
+⬥ <:dommine:662249620579155968> For dealing with Vitalis
+    • Not needed on TS week
+
+⬥ <:graspingpouchblack:892816436974735361> <:graspingpouchblue:892816437406728252> <:graspingpouchpink:892816437503221830> Runes for: <:sbslunars:565726489467682816> <:disrupt:535614336207552523> <:shielddome:537341954392850442> <:prismofrestoration:938475261366784070> <:smokecloud:856635090641879050>
+    • <:spiritualhealing:1091050892142325780> can also be used on extremely long encounters
+
+.
+### Other Notes
+.
+⬥ When using Blood Reaver <:reaverpouch:839903693837959228> you will need to set the familiar to passive
+    • This way it will always follow you and you won't need to recall it every time you move away from it.
+    • You will also need to **set its auto-scroll rate every phase** because it can bug (except P11)
+
+.
+## __Fight Overview__
+.
+### __Phase 1__
+.tag:p1
+.
+⬥ Vitality pot <:vitality:654618235097972737> last tick of dropdown message. The damage taken will be calculated off of your pre-<:vitality:654618235097972737> HP
+⬥ Place a Prism of Restoration <:prismofrestoration:938475261366784070> at the gap before starting the climb and after jumping
+⬥ **Do not pre-cast** <:conjurearmy:1166094935066423348> as they will aggro Vorago and cause him to throw blues at you
+    • You can cast it while climbing before you click on Vorago
+⬥ <:invokelordofbones:1176968330582700174> <:commandghost:1159434409913634816> are used before grabbing aggro / jumping
+⬥ <:invokedeath:1137809121983336548> can be used same tick you jump
+    • If done properly <:invokedeath:1137809121983336548> will be applied to Vorago on the first ability after jump
+⬥ <:livingdeath:1159434908486357072> After the climb
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 1 Example Videos__",
+        "value": "⬥ [Powerburst Timing](https://img.pvme.io/images/mqcrUBFaKz.mp4)\n⬥ [Example P1](<https://youtu.be/ff_dOKO7LZo>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Phase 2__
+.tag:p2
+.
+⬥ Same as normal mode
+⬥ BHD can be accomplished via a 5 stack <:volleyofsouls:1159435029592686642>, <:fingerofdeath:1159434801938432010>, <:deathguard90:1138809243143766118> <:eofspec:746403211908481184>, <:touchofdeath:1137809175980810380>
+    • If having issues, <:conjurearmy:1166094935066423348> right before clicking the gravity orb
+    • <:commandskeleton:1137809194423160883> after clicks but before he is attackable
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 2 Example Videos__",
+        "value": "⬥ [Solo Bleed Clearing Guide](<https://youtu.be/Czwoui4hH0o>)\n⬥ [Example Hardmode BHD Video](<https://youtu.be/FAUO2K20oBQ>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Phase 3 - Phase 8 Overview__
+.tag:p38
+.
+⬥ The P3-P8 written below **focuses on surviving even if substantial time is lost**
+    • There are instances where a phase is elongated to add ease to the follow phase by waiting on cooldowns
+        ⬩ Turn away if looking for speed
+
+⬥ **The start of most phases starts the exact same** (will refer to this as the pre-phase)
+    • <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883>
+        ⬩ If done without tick loss, the next ability can be target cycled on the first tick Vorago is attackable
+    • Aim to also re-set <:reaverpouch:839903693837959228> autofire to 1 during each pre-phase
+⬥ Besides these starting abilities, most of the phases rely on improvisation and only general rotation guidelines will be provided
+
+.
+### __P3: Ceiling Collapse__
+.tag:p3
+.
+⬥ Target cycle + <:ingen:641339234111848463> + <:deathskulls:1159434663903899728>
+    • If you miss a tick you will hit yourself on reflect
+⬥ <:livingdeath:1159434908486357072> during reflect
+    • <:divert:787904334377648130> 2nd bomb
+    • You can <:deathskulls:1159434663903899728> before reflect ends due to its travel time
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 3 Example Video__",
+        "value": "⬥ [Example P3](<https://youtu.be/qUaGOzSrz5U>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __P4: Scopulus__
+.tag:p4
+.
+⬥ Can omit <:invokedeath:1137809121983336548> from the pre-phase since it will be applied later in the phase
+⬥ Start south so that you can tc + <:deathskulls:1159434663903899728> and have it bounce between the south two Scopulus
+⬥ <:touchofdeath:1137809175980810380> second ability to be able to quickly build <:necrosis:1139452791878856805>
+⬥ Run up either east / west wall while building <:necrosis:1139452791878856805> + <:residualsoul:1139453152169558046>
+    • You will run in a giant circle during this entire phase, **direction does not matter**
+
+⬥ At 8 <:necrosis:1139452791878856805> and 2 <:residualsoul:1139453152169558046>: target cycle + <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184>
+    • Target cycle to a different scop since you are likely to kill the one you have been focusing on with volley
+⬥ Scops are low health so <:devo:513190158728953857> can be used to get +10s from killing 2 of them
+⬥ <:bloat:1159433682403201044> is also recommended since it will spread to the other scops when one dies with <:bloat:1159433682403201044> on it
+⬥ End on high adrenaline for the next phase
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 4 Example Video__",
+        "value": "⬥ [Example P4](<https://youtu.be/_SKPbCj7puY>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __P5: Vitalis__
+.tag:p5
+.
+⬥ Can omit <:invokedeath:1137809121983336548> from the pre-phase since it will be applied later in the phase
+⬥ Very important to set reaver to 1 + <:prismofrestoration:938475261366784070> as part of the pre-phase
+⬥ Stand MD to Vorago to keep LoS
+⬥ Target cycle + <:ingen:641339234111848463> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:omniguard:1138809234922934282> <:spec:537340400273195028> before reflect
+⬥ During reflect target a vitalis + <:soulsap:1137809140476031057> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> then <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> on Vorago
+        ⬩ This will kill all the Vitalis around you and let you run to clear bleeds
+
+⬥ Pre-run away from Vorago and the next Vit orb to clear bleeds
+    • Save <:freedom:535541258240786434> for emergencies
+    • <:surge:535533810004262912> <:dive:1049378668197195808> to clear bleeds but always keep running
+        ⬩ Aim to stay away from the Vitalis
+    • <:vitality:654618235097972737> can be used to tank bleeds in a pinch
+        ⬩ If you do this, remember it next phase since you wont have it for green bomb
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 5 Example Video__",
+        "value": "⬥ [Example P5](<https://youtu.be/9ek5FiXXIWA>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __P6: Green Bomb__
+.tag:p6
+.
+⬥ Target cycle + <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109>
+⬥ <:vitality:654618235097972737> first Green bomb
+⬥ <:livingdeath:1159434908486357072> during reflect
+⬥ Use <:wardentop90:1142770709530161192> <:wardenlegs90:1142770705688174652> to tank the second Green bomb
+    • Can <:res:535541258844635148> the blue right before the GB
+⬥ Should be phased before 3rd GB lands
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 6 Example Video__",
+        "value": "⬥ [Example P6](<https://youtu.be/yF96GZhweSE>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __P7: Teamsplit__
+.tag:p7
+.
+⬥ Omit <:commandskeleton:1137809194423160883> from the pre-phase
+    • Use during first TS instead
+⬥ This phase is used to reset all cooldowns in preparation for P8
+⬥ <:deathskulls:1159434663903899728> after second teamsplit
+⬥ <:omniguard:1138809234922934282> <:spec:537340400273195028> T95 rotation works great
+⬥ Make sure to have <:livingdeath:1159434908486357072> <:cade:535541306353778689> <:splitsoul:1137809168368148490> off cooldown for the next phase
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 7 Example Video__",
+        "value": "⬥ [Example P7](<https://youtu.be/_cdfJXfFk8o>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __P8: Purple Bomb__
+.tag:p8
+.
+⬥ Omit <:commandskeleton:1137809194423160883> the from pre-phase
+⬥ Target cycle + <:touchofdeath:1137809175980810380>
+⬥ First rotation
+    • <:livingdeath:1159434908486357072> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> while heading to quadrant
+    • <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> first quadrant
+    • <:bloat:1159433682403201044> ASAP
+    • <:vitality:654618235097972737> and click the red bombs
+    • <:cade:535541306353778689> on stand
+    • <:fingerofdeath:1159434801938432010> <:fingerofdeath:1159434801938432010> <:spec:537340400273195028> before reflect
+        ⬩ Since <:fingerofdeath:1159434801938432010> is delayed damage, you can cast it before stand slightly
+⬥ Second rotation
+    • <:splitsoul:1137809168368148490> ASAP
+    • Should be phased before second stand so don't click reds
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Phase 8 Example Video__",
+        "value": "⬥ [Example P8](<https://youtu.be/R1GgN-ofLjQ>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __P9: Waterfall__
+.tag:p9
+.
+⬥ Same as normal mode
+⬥ Set up in preparation for P10/11
+    • Make sure <:darkness:1137809209782698024> <:elderovlsalve:648976643687317532> are applied
+    • <:grim:568262896375824385> is turned on
+    • If Vit week, summon <:icenihil:854475442164334592>
+    • Cast <:disrupt:535614336207552523> in the last waterfall except on Ceilings/Teamsplit since they start with Teamsplit P10
+    • <:maul:736524968174682132> Build the maul
+
+.
+## __P10/11 Overview__
+.tag:p10
+.
+### __Stalling Vorago__
+.
+⬥ One of the most important thing for this phase is extending the amount of time you have to do damage
+⬥ Keep Vorago moving (Push/Pushback) because this stalls out his next attack
+    • String together lots of damage at the same time
+        ⬩ <:omniguard:1138809234922934282> <:spec:537340400273195028> used during <:livingdeath:1159434908486357072> to keep the push going
+    • Do not waste <:disrupt:535614336207552523>, instead use it only when about to maul or if the blue would not extend your DPS window
+        ⬩ For example, the blue right before you bomb stack usually lands after reflect starts. This is the optimal bomb to <:disrupt:535614336207552523>
+⬥ When you <:cade:535541306353778689> since there is minimal push and no push-back Vorago will quickly throw out autos
+
+.
+### __Applying Debuffs__
+.
+⬥ Aim to apply <:invokedeath:1137809121983336548> <:invokelordofbones:1176968330582700174> <:commandghost:1159434409913634816> <:darkness:1137809209782698024> when in a TeamSplit or when running out to bomb stack
+    • <:commandskeleton:1137809194423160883> <:livingdeath:1159434908486357072> can also be used at the end of these to maximise the damage window from them
+    • This is VERY important on P10 TeamSplit week due to the minimal damage windows
+
+### __Defence Scaling__
+.
+⬥ Upkeeping <:invokelordofbones:1176968330582700174> is of utmost importance to raise your hitchance from ~87% to 100%
+    • Stacks applied P10 carry over into P11
+        ⬩ On Ceilings / Scopulus / Purple Bomb it is important to end P10 at 100% hitchance <:invokelordofbones:1176968330582700174>
+
+.
+.img:https://img.pvme.io/images/0Q3BRGz.png
+.
+⬥ Vorago will increase its defence based on how close it is from maul spot, starting at 90 defence and scaling up to 97.
+    • If you get pushed back from the starting point it won't decrease below 90.
+    • For P11 this means he starts with the higher defense, and loses it as you push him
+
+### __Stacking Bombs__
+.
+⬥ Anytime you are melee distance to Vorago, you run a chance of either getting a blue or a melee hit + blue, so stacks are not perfectly consistent
+
+⬥ **3 auto stack:**
+    • Consists of a 9-11 tile blue → 2-3 tile blue → md auto to potentially negate 2 autos worth of pushback
+    • So, stand 9-11 tiles away, wait for the first blue to release, <:dive:1049378668197195808> into 2-3 tile range, wait for the second blue to release, then walk md
+    • This requires the player to not attack the boss in order to prepare for a 9-11 square auto. Also, pushing the boss during a triple stack will ruin it
+    • For solo hm in particular, this is useful for P10/P11 reflects that are not barricaded <:cade:535541306353778689>
+.
+.img:https://img.pvme.io/images/VFBW3xK.mp4
+
+.
+⬥ **2 auto stack:**
+    • Consists of a 2-3 tile blue → md auto to potentially negate 1 auto worth of pushback
+    • If done outside of a reflect, take this time to use weaker abilities to build adrenaline. Pushing the boss while trying to stack will stagger the auto timings
+    • For solo hm in particular, this is useful for P10/P11 to stack 1st and 2nd autos of reflect if close to instakill ledge
+.
+.img:https://img.pvme.io/images/PNOiPlW.mp4
+
+.
+⬥ **PB stack:**
+    • Consists of a PB landing + blue to potentially negate 1 auto worth of pushback
+    • Can go a step further and combine this with other stack methods to negate even more pushback
+
+.
+### __Broken TeamSplit__
+.
+⬥ A broken TS <:brokents:975012160675647538> will occur for every teamsplit immediately after a reflect
+    • **TeamSplit Week**: Even-numbered TeamSplits during P10
+    • **Scopulus Week**: TeamSplits during P10
+    • **Green Bomb Week**: TeamSplits during P11
+
+⬥ Vorago will be able to attack much sooner than normal during a <:brokents:975012160675647538>
+    • If Vorago pushes you due to receiving damage after the <:brokents:975012160675647538> spawns the teamsplit will be more broken than usual
+        ⬩ It will throw 2 blue bombs <:bluebomb:923249600276615200> one a tick next to each other during or before the explosion
+    • If Vorago doesn't push you back it will result in a usual broken teamsplit, throwing the first blue bomb during or shortly after its explosion
+
+⬥ Use one of the following to un-break TS: <:deathspark:1143642264850141205> <:necroauto:1137809137401602109> / <:volleyofsouls:1159435029592686642> / <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> / <:omniguard:1138809234922934282> <:spec:537340400273195028>
+    • Using <:commandskeleton:1137809194423160883> / <:commandzombie:1137809191231295549> during the TS can help immensely as well
+
+    • Example of an extremely broken teamsplit, where you get pushed back after the teamsplit spawns:
+.
+.img:https://img.pvme.io/images/P70FQse.mp4
+
+.
+    • Example of a usual broken teamsplit, where you **don’t** get pushed back after the teamsplit spawns:
+.
+.img:https://img.pvme.io/images/SOJZVNC.mp4
+
+.
+### __Vitalis Orbs and Red Bombs__
+.
+⬥ **2-4 Vitalis spawn every orb in hardmode**
+    • Often you will not have line of sight of all of them
+    • Multiple can spawn on the same tile
+⬥ **The goal should be to instantly deal with vits**, and often you will want to be under <:cade:535541306353778689>
+⬥ Necromancy alleviates most of the issues of vits once you get used to the timing
+    • <:dommine:662249620579155968> + <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> / <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> should deal with them
+        ⬩ Make sure to have 5 <:residualsoul:1139453152169558046> or at least 8 <:necrosis:1139452791878856805>
+
+⬥ Target cycle before you can see them physically spawn (usually on vit orb explosion)
+    • It is worth it to lose ticks while vit orb is coming out to get the target cycle timing correct
+    • In this example, watch for when the EoF keybind (on the bottom action bar) lights up for the target cycle timing
+.
+.img:https://img.pvme.io/images/62f4JyxcH3.mp4
+
+.
+⬥ Stay roughly in the center of where vits spawn to have the highest likelihood of no LoS issues
+⬥ If you miss the target cycle or do not have LoS of some of the vits, focus on maintaining LoS with Vorago above all
+    • Otherwise he will free walk forwards and you will lose a lot of squares of push
+⬥ This clip misses target cycle but manages to keep LoS of Vorago and then maneuver to a position to get LoS to kill the vit which ran away
+.
+.img:https://img.pvme.io/images/dRmPHHeLmN.mp4
+
+.
+⬥ Vitalis will **still block LoS even during death animation**. Make sure to get back into LoS of Vorago by running MD
+.
+.img:https://img.pvme.io/images/QDZAkc4xQ2.mp4
+
+.
+⬥ After 24 Vitalis have spawned, no more can spawn
+    • The vit orb explosion will still deal 1 square of pushback, but just dont get hit by it
+    • If only 1 Vitalis spawned on a Vit orb, the cap has been reached (since at minimum 2 will spawn in other scenarios)
+        ⬩ This does NOT happen on Vitalis week
+⬥ If Vorago is within 3 tiles of pushing you off P10 or 6 tiles P11, he will throw out a red bomb instead of a vit orb
+    • This comes with the standard non-homing blue
+.
+.img:https://img.pvme.io/images/tquHWoDjTP.mp4
+
+.
+⬥ This can be utilised to slowly work towards vit cap by greatly staggering when vits come out
+    • <:cade:535541306353778689> will always be up when dealing with vits this way
+⬥ This can lead to "Red Bomb Hell"
+    • Since you are close to the edge, you are no longer able to do a 3-stack during reflect
+    • It takes a lot of push to get away from the edge and get back to spawning vit orbs
+    • Having <:livingdeath:1159434908486357072> ready for the push immediately after the red bomb spawns can help alleviate this
+
+.
+### __Mauling__
+.
+⬥ Learning how to <:shielddome:537341954392850442> <:maul:736524968174682132> is extremely important
+    • Drop dummy (while in the middle of MD)
+    • <:shielddome:537341954392850442> and wait until you see it is active, then <:maul:736524968174682132>
+    • Does not work if Vitalis are attacking you
+.
+.img:https://img.pvme.io/images/9ESbI6Hq7J.mp4
+
+.
+⬥ After you maul, target cycle the dummy and then build back up
+⬥ Example rotation for resummoning conjures:
+    • <:conjurearmy:1166094935066423348> → <:touchofdeath:1137809175980810380> → <:commandghost:1159434409913634816> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883>
+⬥ If you do not need to resummon conjures:
+    • <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883>
+
+⬥ **Also it is very important to maul at a specific time rather than whenever Vorago is in maul spot**
+.
+.img:https://img.pvme.io/images/9tJk0aI.png
+
+.
+⬥ The goal for maul-timing is **to avoid Vitalis for the longest period of time**. There are two options for this:
+    • First option is to maul whenever it would take the longest for the Vit orb spec to happen
+    • Second option is to maul whenever Vit orb is next, but you force the red bomb special instead
+
+⬥ **There are a few main exceptions to this rule**
+    • Teamsplit does not have Vitalis either phase
+        ⬩ Maul on Reflect
+    • Green bomb does not have Vitalis on P11
+        ⬩ If you do not vit-cap, maul whenever as long as you believe you can consistently do the P11
+        ⬩ If you do vit-cap, maul on Reflect
+    • Vitalis has Vitalis on P10 and P11
+        ⬩ Maul on reflect to be able to deal with bleeds effectively P11
+
+.
+## __Ceilings P10/11 Overview__
+.tag:p10ceilings
+.
+⬥ **P10 is TeamSplit/Green Bomb:**
+    • Stall out this phase to be able to reach 100% hitchance <:invokelordofbones:1176968330582700174> before going into P11 to be able to deal with vits
+    • <:cade:535541306353778689> after TeamSplit
+    • <:livingdeath:1159434908486357072> the end of reflect
+    • <:vitality:654618235097972737> / <:wardentop90:1142770709530161192> <:wardenlegs90:1142770705688174652> to tank the Green Bombs
+⬥ Maul either on GB release or on Reflect
+    • If mauling on reflect you will want to bait out the red bomb start of P10
+
+⬥ **P11 is TeamSplit/Vitalis:**
+    • When learning, <:threadsoffate:1137809172335951933> may not be off cooldown every vit orb for target cycle
+        ⬩ Just <:threadsoffate:1137809172335951933> when possible and potentially you will have to kill vits during TeamSplit
+    • <:cade:535541306353778689> either after TeamSplit or before Vit orb
+    • <:livingdeath:1159434908486357072> during reflects
+        ⬩ <:adrenrenewalflask:736298313980182541> is **needed** to maximise <:livingdeath:1159434908486357072> due to tight damage windows this week
+        ⬩ Do not rely on <:livingdeath:1159434908486357072> + <:divert:787904334377648130> without <:adrenrenewalflask:736298313980182541>
+
+.
+### __In-Depth Rotation Example__
+.
+*Note: P10/11 have high variability so one rotation won't always work. This rotation is transcribed from __**example kills**__ at the bottom.*
+
+.
+⬥ **Drop-down:** <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokelordofbones:1176968330582700174> → wait 1 gcd → (tc) + <:touchofdeath:1137809175980810380> → go to <:teamsplitredblue:956854185591197776> + wait 1 gcd → <:commandskeleton:1137809194423160883> + <:disrupt:535614336207552523> → <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> + run a few tiles in to not cancel <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:cadeturtling:867678153883516958> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + run MD → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> + <:vitality:654618235097972737> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> + go to <:teamsplitredblue:956854185591197776> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → improvise until 100% hitchance <:invokelordofbones:1176968330582700174> at maul spot
+
+.
+⬥ Get Vorago into maul spot and <:cadeturtling:867678153883516958> such that it lasts through reflect. Place <:dummy:656844963522281473> during reflect and cast <:conjurearmy:1166094935066423348> → <:smokecloud:856635090641879050> → <:commandghost:1159434409913634816> in preparation for P11. <:shielddome:537341954392850442> + <:maul:736524968174682132> on GB release.
+
+.
+⬥ **P11:** (tc) + <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> →  go to <:teamsplitredblue:956854185591197776> + wait 1 gcd → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:conjurearmy:1166094935066423348> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandghost:1159434409913634816> → <:cadeturtling:867678153883516958> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> + run MD → <:soulsap:1137809140476031057> *red bomb comes out* → <:volleyofsouls:1159435029592686642> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> + <:vulnbomb:655341074235129858> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010>
+.
+Go to <:teamsplitredblue:956854185591197776> + wait 1 gcd → <:invokedeath:1137809121983336548> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:conjurearmy:1166094935066423348> then run away to bomb stack → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:dive:1049378668197195808> to bomb stack + <:commandskeleton:1137809194423160883> → <:divert:787904334377648130> → <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> →  (tc) + <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> on vits → improvise
+
+.
+## __Scopulus P10/11 Overview__
+.tag:p10scop
+.
+⬥ **P10 is PB/Broken TS:**
+    • Stall out this phase to be able to reach 100% hitchance <:invokelordofbones:1176968330582700174> before going into P11 to be able to deal with vits
+    • Very large damage window after broken teamsplit to do a full <:livingdeath:1159434908486357072> rotation
+    • <:cade:535541306353778689> during PB such that it lasts through reflect
+⬥ Mauling on reflect and baiting out the red bomb the start of P11 is the easiest
+    • It is hard to maul on TS
+
+⬥ **P11 is PB/Vitalis:**
+    • <:cade:535541306353778689> end of reflect to be able to deal with vitalis
+    • <:livingdeath:1159434908486357072> end of reflects when you dont have <:cade:535541306353778689>
+    • <:bloat:1159433682403201044> isn't cleared by either mechanic and will always run the full duration, making it very strong
+
+.
+### __In-Depth Rotation Example__
+.
+*Note: P10/11 have high variability so one rotation won't always work. This rotation is transcribed from __**example kills**__ at the bottom.*
+
+.
+⬥ Drop down: <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883> → <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:bloat:1159433682403201044> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:divert:787904334377648130> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> → <:cade:535541306353778689> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> + walk MD → <:prep:535541258546970624> + go to <:teamsplitredblue:956854185591197776> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> + <:vulnbomb:655341074235129858> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → improvise until 100% hitchance <:invokelordofbones:1176968330582700174> at maul spot
+
+.
+⬥ Get Vorago in maul spot sometime towards the start of the PB special. <:cadeturtling:867678153883516958> and then <:conjurearmy:1166094935066423348> → <:smokecloud:856635090641879050> → <:commandghost:1159434409913634816>. Maul when reflect starts.
+
+.
+⬥ **P11:** (tc) + <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> →  → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> run away for bomb stack → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> + <:dive:1049378668197195808> to bomb stack → <:cade:535541306353778689> the stack → <:touchofdeath:1137809175980810380> + <:vulnbomb:655341074235129858> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → wait to (tc) + <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> on vits → improvise
+
+.
+## __Vitalis P10/11 Overview__
+.tag:p10vit
+.
+⬥ **P10 is Vit/PB:**
+    • Use <:cade:535541306353778689> solely for dealing with Vitalis
+    • <:livingdeath:1159434908486357072> at the end of reflect or during purple bomb
+    • <:bloat:1159433682403201044> isn't cleared by either mechanic and will always run the full duration, making it very strong
+    • Resummon <:reaverpouch:839903693837959228> once you are at 100% hitchance <:invokelordofbones:1176968330582700174>
+⬥ Maul on reflect
+    • To do so, get Vorago into maul position before vit orb spawns
+    • <:cadeturtling:867678153883516958> and run melee distance
+    • <:shielddome:537341954392850442> <:maul:736524968174682132> will not work since vitalis will hit you during the animation
+
+⬥ **P11 is Vit/Bleeds:**
+    • **The beginning of this phase is where you are most likely to fail**
+    • Save <:disrupt:535614336207552523> for start of P11
+        ⬩ Vorago will throw 3 blue bombs before bleeds start
+        ⬩ If using <:escape:535541258832052231> to clear bleeds, you need to stand melee distance + have not lost any tiles
+        ⬩ <:omniguard:1138809234922934282> <:spec:537340400273195028> rotation works well to get the 2 tiles you need
+    • <:cade:535541306353778689> is for dealing with vitalis
+    • <:livingdeath:1159434908486357072> end of reflects
+    • <:bloat:1159433682403201044> isn't cleared by either mechanic and will always run the full duration, making it very strong
+
+### __In-Depth Rotation Example__
+.
+*Note: P10/11 have high variability so one rotation won't always work. This rotation is transcribed from __**example kills**__ at the bottom.*
+
+.
+⬥ **Drop down:** <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883> → <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:cade:535541306353778689> → <:invokedeath:1137809121983336548> + run MD → <:threadsoffate:1137809172335951933> + (tc) → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> → <:bloat:1159433682403201044> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:divert:787904334377648130> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> + <:vulnbomb:655341074235129858> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → wait to (tc) + <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → improvise (bomb stack during the next reflect)
+
+.
+⬥ Get Vorago into maul spot before vit orb comes out, and when vit orb is about to explode, run towards Vorago to avoid the push back of being in the explosion. At the same time <:cade:535541306353778689> to make sure auto / vit hits do not push you back. While waiting on reflect cast <:conjurearmy:1166094935066423348> → <:smokecloud:856635090641879050> → <:commandghost:1159434409913634816>. Maul on reflect.
+
+.
+⬥ **P11:** Persistent rage <:persistentrage:739965637056659567> brings you to 50% adren → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> + <:vulnbomb:655341074235129858> → <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> + run into MD → <:omniguard:1138809234922934282> <:spec:537340400273195028> + <:disrupt:535614336207552523> → <:necroauto:1137809137401602109> + **stay in MD** → <:escape:535541258832052231> (first bleed) → <:necroauto:1137809137401602109> → <:freedom:535541258240786434> (second bleed) → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> + <:escape:535541258832052231> + <:dive:1049378668197195808> (third bleed) → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → improvise into a <:cade:535541306353778689> for vits, bomb stack, and then <:livingdeath:1159434908486357072> bleeds
+
+.
+## __Green Bomb P10/11 Overview__
+.tag:p10gb
+.
+⬥ **P10 is GB/Vit:**
+    • This is the hardest phase to aim to vit cap
+    • <:vitality:654618235097972737> / <:wardentop90:1142770709530161192> <:wardenlegs90:1142770705688174652> to tank the Green Bombs
+    • Red Bomb Hell is even harder to deal with since to trigger a red bomb you must be even closer to the edge on P10 than in P11
+    • <:cade:535541306353778689> to deal with vits
+    • <:livingdeath:1159434908486357072> end of reflects
+    • <:bloat:1159433682403201044> isn't cleared by either mechanic and will always run the full duration, making it very strong
+⬥ Maul on reflect if you have vit-capped
+    • If not, maul at any point if you believe you can salvage the P11
+
+⬥ **P11 is Broken TS / GB:**
+    • <:livingdeath:1159434908486357072> in broken TS
+        ⬩ Aim to always have <:adrenrenewalflask:736298313980182541>, do not rely on <:livingdeath:1159434908486357072> + <:divert:787904334377648130>
+    • <:cade:535541306353778689> once you un-break the TS
+
+### __In-Depth Rotation Example__
+.
+*Note: P10/11 have high variability so one rotation won't always work. This rotation is transcribed from __**example kills**__ at the bottom.*
+
+.
+⬥ **Drop-down:** <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883> → <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + <:vitality:654618235097972737> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + run back to bomb stack → <:invokelordofbones:1176968330582700174> → wait 1 gcd → <:livingdeath:1159434908486357072> + <:dive:1049378668197195808> to bomb stack → <:divert:787904334377648130> → <:deathskulls:1159434663903899728> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → (tc) + <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> → improvise
+
+.
+⬥ If Vit Capping, get Vorago to maul spot during the vit orb special, run into MD when the orb comes out to avoid the explosion and <:cade:535541306353778689>. While waiting drop <:dummy:656844963522281473> + <:conjurearmy:1166094935066423348> → <:smokecloud:856635090641879050> → <:commandghost:1159434409913634816>. Maul on GB release.
+
+⬥ If not Vit Capping, maul whenever you feel you can salvage the P11. If you are managing to not vit cap, most P11s are salvageable.
+
+.
+⬥ **P11:** If mauling on GB release (tc) + <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> + <:vulnbomb:655341074235129858> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + set up to 2-bomb stack → walk into md + <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> go to TS + <:anti:535541306475151390> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> + <:vitality:654618235097972737> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:conjurearmy:1166094935066423348> + run out to bomb stack → improvise
+
+.
+## __TeamSplit P10/11 Overview__
+.tag:p10ts
+.
+⬥ **P10 is TS/Broken TS:**
+    • <:livingdeath:1159434908486357072> during the broken TS
+    • <:cade:535541306353778689> after the normal TS
+⬥ Maul on Reflect
+    • <:disrupt:535614336207552523> the 3rd bomb after TS while Vorago is in maul spot to do so
+
+⬥ **P11 is TS/PB:**
+    • <:cade:535541306353778689> after TeamSplit
+    • <:livingdeath:1159434908486357072> end of reflects
+
+### __In-Depth Rotation Example__
+.
+*Note: P10/11 have high variability so one rotation won't always work. This rotation is transcribed from __**example kills**__ at the bottom.*
+
+.
+⬥ **Drop-down:** <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokedeath:1137809121983336548> → wait 1 gcd → (tc) + <:touchofdeath:1137809175980810380> → go to <:teamsplitredblue:956854185591197776> + wait 1 gcd → <:commandskeleton:1137809194423160883> + <:disrupt:535614336207552523> → <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> + run a few tiles in to not cancel <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:cadeturtling:867678153883516958> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> + run MD → <:anti:535541306475151390> → <:prep:535541258546970624> + go to <:teamsplitredblue:956854185591197776> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> + go to <:teamsplitredblue:956854185591197776> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109>
+
+.
+⬥ <:disrupt:535614336207552523> last bomb before reflect + <:volleyofsouls:1159435029592686642> + <:surge:535533810004262912> + <:dummy:656844963522281473> → <:shielddome:537341954392850442> + <:maul:736524968174682132> start of reflect
+
+.
+⬥ **P11:** (tc) + <:dummy:656844963522281473> + <:conjurearmy:1166094935066423348> → <:touchofdeath:1137809175980810380> → <:commandghost:1159434409913634816> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> + <:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:bloat:1159433682403201044> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:divert:787904334377648130> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → go to <:teamsplitredblue:956854185591197776> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> + <:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:cadeturtling:867678153883516958> + <:vulnbomb:655341074235129858> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
+.
+Walk MD + <:conjurearmy:1166094935066423348> → <:touchofdeath:1137809175980810380> → <:commandghost:1159434409913634816> → <:volleyofsouls:1159435029592686642> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:touchofdeath:1137809175980810380> → <:ingen:641339234111848463> → <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> + go to <:teamsplitredblue:956854185591197776> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:disrupt:535614336207552523> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> + <:surge:535533810004262912> + <:maul:736524968174682132>
+
+.
+## __Purple Bomb P10/11 Overview__
+.tag:p10pb
+.
+⬥ **P10 is PB/Bleeds:**
+    • Same as normal mode P5 but the PB causes one square of pushback
+    • Stall out this phase to be able to reach 100% hitchance <:invokelordofbones:1176968330582700174> before going into P11 to be able to deal with vits
+⬥ Maul **after the third bleed** or on Reflect if you aim to get a red bomb start of P11
+
+⬥ **P11 is PB/Vitalis:**
+    • <:cade:535541306353778689> end of reflect to be able to deal with vitalis
+    • <:livingdeath:1159434908486357072> end of reflects when you dont have <:cade:535541306353778689>
+    • <:bloat:1159433682403201044> isn't cleared by either mechanic and will always run the full duration, making it very strong
+
+### __In-Depth Rotation Example__
+.
+*Note: P10/11 have high variability so one rotation won't always work. This rotation is transcribed from __**example kills**__ at the bottom.*
+
+.
+⬥ **Drop down:** <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:invokelordofbones:1176968330582700174> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> + <:vulnbomb:655341074235129858> → <:ingen:641339234111848463> + <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:cadeturtling:867678153883516958> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> + run MD → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:escape:535541258832052231> (first bleed) → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> + run into melee distance → <:freedom:535541258240786434> (second bleed) → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> + <:escape:535541258832052231> + <:dive:1049378668197195808> (third bleed) → <:necroauto:1137809137401602109> make sure you are not still MD → <:volleyofsouls:1159435029592686642> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → improvise until 100% hitchance <:invokelordofbones:1176968330582700174> at maul spot
+
+.
+⬥ Get Vorago into maul spot and <:cadeturtling:867678153883516958> such that it lasts through reflect. Place <:dummy:656844963522281473> + <:smokecloud:856635090641879050> during reflect. <:conjurearmy:1166094935066423348> + <:commandghost:1159434409913634816> during bleeds in preparation for P11. <:shielddome:537341954392850442> + <:maul:736524968174682132> after 3rd bleed.
+
+.
+⬥ **P11:** (tc) + <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:adrenrenewalflask:736298313980182541> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> + run away for bomb stack → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> + <:dive:1049378668197195808> to bomb stack → <:cade:535541306353778689> the stack → <:touchofdeath:1137809175980810380> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> + <:vulnbomb:655341074235129858> → wait to (tc) + <:deathguard90:1138809243143766118> <:eofspec:746403211908481184> the vits → improvise
+
+.
+## __Example Kills__
+.tag:example
+.
+{
+  "embed": {
+    "title": "",
+    "color": 7419530,
+    "fields": [
+{
+        "name": "__Example Kills__",
+        "value": "⬥ [Ceilings Kill w/ Vit Cap](<https://youtu.be/2dVAGj57uuo?si=C_XHKZM0uDm2uQLi>)\n⬥ [Ceilings Kill w/o Vit Cap](<https://youtu.be/Xa7mOBiEvtc?si=dqL1nZntVsBEkj3C&t=162>)\n⬥ [Scopulus Kill w/ Vit Cap](<https://youtu.be/wuJO5Xal5q8?si=pIGLTVMBpzkEZXi6>)\n⬥ [Scopulus Kill w/o Vit Cap](<https://youtu.be/gSoqfuPbedI>)\n⬥ [Vitalis Kill](<https://youtu.be/yOwVuXB9SuI?si=v3qr5C10cFj0NZgU>)\n⬥ [GB Kill w/o Vit Cap](<https://youtu.be/2dVAGj57uuo?si=BdLZvrOQVmA0cDz_>)\n⬥ [GB P10 w/ Vit Cap](<https://youtu.be/FZrN0EeGRq8>)\n⬥ [TS P10/11](<https://youtu.be/lHwJ3qoltYk>)\n⬥ [PB Kill w/o Vit Cap](<https://youtu.be/oxGxJDea8eQ?si=_OpwIKj4tiBQvcXg>)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Vorago Achievements Sheet__
+.tag:sheet
+.
+Once you have gotten a Solo Hardmode kill, feel free to submit your kill to the sheet!
+[Vorago Achievements Sheet](<https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vSHpx1ihuBT0DesULKLrcR2TOOISjmoaW5gleprnpWGY49N1MRG2a3Y2P_Ddq2g2kmaxK0h8NgEiXE_/pubhtml#>)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+    "color": 7419530,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Example Kills]($linkmsg_example$)\n⬥ [Vorago Sheet]($linkmsg_sheet$)",
+        "inline": true
+      },
+      {
+        "name": "__Fight Overview__",
+        "value": "⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [P3: Ceiling Collapse]($linkmsg_p3$)\n⬥ [P4: Scopulus]($linkmsg_p4$)\n⬥ [P5: Vitalis]($linkmsg_p5$)\n⬥ [P6: Green Bomb]($linkmsg_p6$)\n⬥ [P7: Teamsplit]($linkmsg_p7$)\n⬥ [P8: Purple Bomb]($linkmsg_p8$)\n⬥ [P9: Waterfall]($linkmsg_p9$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 10/11__",
+        "value": "⬥ [P10/11 Overview]($linkmsg_p10$)\n⬥ [Ceilings]($linkmsg_p10ceilings$)\n⬥ [Scopulus]($linkmsg_p10scop$)\n⬥ [Vitalis]($linkmsg_p10vit$)\n⬥ [Green Bomb]($linkmsg_p10gb$)\n⬥ [Teamsplit]($linkmsg_p10ts$)\n⬥ [Purple Bomb]($linkmsg_p10pb$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
