@@ -25,8 +25,6 @@ There may naturally be some variation in guides for different bosses, but the ba
 .
 ⬥ **Introduction**
     • Brief overview of the boss.
-⬥ **Drops**
-    • Unique drops from killing the boss (including droprates and prices if known).
 ⬥ **Presets**
     • Examples of loadouts for killing the boss.
     • See the section on __**Preset Layouts**__ for information on this.
@@ -93,7 +91,7 @@ Guides are broken down into sections to separate different parts of the guide, w
 ⬥ Format subsections like this: `### Subsection`.
 ⬥ Every section title should be followed by a `.tag:word` command in the next line after the section title.
     • This is used to create links to sections in the Table of Contents.
-⬥ **Every section should have a subsection** (the only exception is a `Drops` section).
+⬥ **Every section should have a subsection**.
     • If you can't think of a good Subsection title, you can say __**General x for y**__.
     • Words in subsections should follow the same capitalisation guidelines as Sections.
 ⬥ Each subsection should be a new Discord message.
@@ -210,40 +208,17 @@ Gear presets are used at the start of guides to concisely inform users of all it
   "embed": {
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/ULpvc5dTZC.png"
-        },
-    "fields":[
-        {
-            "name":"__Preset Suggestions__",
-            "value":"⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/LINKHERE) <:necromancy:1148995625896120460>\n⬥ [Magic preset](https://pvme.github.io/preset-maker/#/LINKHERE) <:magic:689504724159823906>\n⬥ [Hybrid preset](https://pvme.github.io/preset-maker/#/LINKHERE) <:range:580168050121113623> <:melee:1096130867279171706> "
-        }
+      "url": "https://img.pvme.io/images/ULpvc5dTZC.png"
+    },
+    "fields": [
+      {
+        "name": "__Preset Suggestions__",
+        "value":"⬥ [first_style_name preset](first_preset_link) first_style_emoji\n⬥ [second_style_name preset](second_preset_link) second_style_emoji"
+      }
     ]
   }
 }
 .embed:json
-
-.
-```
-..
-## __Presets and Relics__
-..tag:presets
-..
-{
-  "embed": {
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/ULpvc5dTZC.png"
-        },
-    "fields":[
-        {
-            "name":"__Preset Suggestions__",
-            "value":"⬥ [first_style_name preset](first_preset_link) first_style_emoji\n⬥ [second_style_name preset](second_preset_link) second_style_emoji"
-        }
-    ]
-  }
-}
-..embed:json
-```
 .
 ## __Writing Rotations__
 .tag:rotations
