@@ -1,91 +1,91 @@
 {
-  "alerters": [
+  "alerters":[
     {
-      "name": "HP Alert",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "bell",
-        "repeat": false
+      "name":"HP Alert",
+      "globalalarm":false,
+      "alarm":{
+        "sound":"bell",
+        "repeat":false
       },
-      "voice": null,
-      "tooltip": "You're taking damage",
-      "exportbar": true,
-      "stat": "hp",
-      "higherlower": "lower",
-      "threshold": 25,
-      "type": "actionbar"
+      "voice":null,
+      "tooltip":"You're taking damage",
+      "exportbar":true,
+      "stat":"hp",
+      "higherlower":"lower",
+      "treshold":20,
+      "type":"actionbar"
     },
     {
-      "name": "Prayer Alert",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Your prayer is low",
-      "exportbar": true,
-      "stat": "pray",
-      "higherlower": "lower",
-      "threshold": 10,
-      "type": "actionbar"
+      "name":"Prayer Alert",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Your prayer is low",
+      "exportbar":true,
+      "stat":"pray",
+      "higherlower":"lower",
+      "treshold":20,
+      "type":"actionbar"
     },
     {
-      "name": "Loot beam",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Loot beam",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Loot beam",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Loot beam",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "A golden beam shines over one of your items",
-          "percent": 100
+          "text":"A golden beam shines over one of your items",
+          "percent":100
         },
         {
-          "text": "The power of Hazelmere blesses your",
-          "percent": 100
+          "text":"The power of Hazelmere blesses your",
+          "percent":100
         },
         {
-          "text": "You feel the effects of your Enhanced Luck",
-          "percent": 100
+          "text":"You feel the effects of your Enhanced Luck",
+          "percent":100
         },
         {
-          "text": "golden beam shines over",
-          "percent": 100
+          "text":"golden beam shines over",
+          "percent":100
         },
         {
-          "text": "rainbow shines over",
-          "percent": 100
+          "text":"rainbow shines over",
+          "percent":100
         },
         {
-          "text": "festive beam shines over",
-          "percent": 100
+          "text":"festive beam shines over",
+          "percent":100
         },
         {
-          "text": "sandcastle scene shines over",
-          "percent": 100
+          "text":"sandcastle scene shines over",
+          "percent":100
         },
         {
-          "text": "water spout sprays over",
-          "percent": 100
+          "text":"water spout sprays over",
+          "percent":100
         },
         {
-          "text": "Hearts twirl over",
-          "percent": 100
+          "text":"Hearts twirl over",
+          "percent":100
         },
         {
-          "text": "A gravestone falls over",
-          "percent": 100
+          "text":"A gravestone falls over",
+          "percent":100
         },
         {
-          "text": "A parcel falls over",
-          "percent": 100
+          "text":"A parcel falls over",
+          "percent":100
         },
         {
-          "text": "A flower blooms over",
-          "percent": 100
+          "text":"A flower blooms over",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           245,
           151,
@@ -112,73 +112,73 @@
           255
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Blessing of the Gods",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Blessing",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Blessing of the Gods",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Blessing",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "A blessing from the gods appears",
-          "percent": 100
+          "text":"A blessing from the gods appears",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           255,
           255,
           0
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Seren spirit",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Seren spirit",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Seren spirit",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Seren spirit",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "A Seren spirit appears",
-          "percent": 100
+          "text":"A Seren spirit appears",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           0,
           255,
           255
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Inventory Full",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Inv Full/Pet Cannot Reach",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Inventory Full",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Inv Full/Pet Cannot Reach",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "Inventory full. To make more room, sell, drop",
-          "percent": 100
+          "text":"Inventory full. To make more room, sell, drop",
+          "percent":100
         },
         {
-          "text": "Your pet cannot reach that",
-          "percent": 100
+          "text":"Your pet cannot reach that",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           255,
           255,
@@ -190,27 +190,27 @@
           255
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Animate Dead",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Animate Dead",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Animate Dead",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Animate Dead",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "Your control of the dead is wavering",
-          "percent": 100
+          "text":"Your control of the dead is wavering",
+          "percent":100
         },
         {
-          "text": "Your control of the dead fades, the spirits",
-          "percent": 100
+          "text":"Your control of the dead fades, the spirits",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           255,
           255,
@@ -222,56 +222,27 @@
           255
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Overload",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Overload",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Overload",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Overload",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "The effects of overload have worn off, and you",
-          "percent": 100
+          "text":"The effects of overload have worn off, and you",
+          "percent":100
+        },
+        {
+          "text":"The effects of overload are about to wear off",
+          "percent":100
         }
       ],
-      "colors": [
-        [
-          255,
-          255,
-          255
-        ],
-        [
-          127,
-          169,
-          255
-        ],
-        [
-          255,
-          0,
-          0
-        ]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Weapon Poison",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Weapon Poison",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
-        {
-          "text": "Your poison potion has expired",
-          "percent": 100
-        }
-      ],
-      "colors": [
+      "colors":[
         [
           255,
           255,
@@ -286,6 +257,39 @@
           255,
           0,
           0
+        ]
+      ],
+      "type":"chat"
+    },
+    {
+      "name":"Weapon Poison",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Weapon Poison",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
+        {
+          "text":"Your poison potion has expired",
+          "percent":100
+        }
+      ],
+      "colors":[
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          127,
+          169,
+          255
+        ],
+        [
+          255,
+          0,
+          0
         ],
         [
           255,
@@ -293,33 +297,33 @@
           0
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Lobby timer",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "About to get lobbied",
-      "exportbar": true,
-      "delay": 870,
-      "type": "inactive"
+      "name":"Lobby timer",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"About to get lobbied",
+      "exportbar":true,
+      "delay":870,
+      "type":"inactive"
     },
     {
-      "name": "Kerapac Kill",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Kerapac Kill",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"Kerapac Kill",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Kerapac Kill",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "NO! Let me die! JUST LET ME DIE",
-          "percent": 100
+          "text":"NO! Let me die! JUST LET ME DIE",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           255,
           255,
@@ -341,42 +345,136 @@
           153
         ]
       ],
-      "type": "chat"
+      "type":"chat"
     },
     {
-      "name": "Summoning",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "Familiar HP",
-      "exportbar": true,
-      "hppercent": 20,
-      "type": "summoning"
+      "name":"Summoning",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"Familiar HP",
+      "exportbar":true,
+      "hppercent":20,
+      "type":"summoning"
     },
     {
-      "name": "XP Capacitor",
-      "globalalarm": true,
-      "alarm": null,
-      "voice": null,
-      "tooltip": "XP Capacitor Full",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
+      "name":"XP Capacitor",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":"XP Capacitor Full",
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
         {
-          "text": "Your XP capacitor has reached full charge",
-          "percent": 100
+          "text":"Your XP capacitor has reached full charge",
+          "percent":100
         }
       ],
-      "colors": [
+      "colors":[
         [
           255,
           255,
           0
         ]
       ],
-      "type": "chat"
+      "type":"chat"
+    },
+    {
+      "name":"Potion reservoir",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":null,
+      "exportbar":true,
+      "resetonactive":false,
+      "lines":[
+        {
+          "text":"Upon evaporating the last of the potion",
+          "percent":100
+        }
+      ],
+      "colors":[
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          127,
+          169,
+          255
+        ]
+      ],
+      "type":"chat"
+    },
+    {
+      "name":"Enhanced luck",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":null,
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
+        {
+          "text":"The effects of your Enhanced Luck Potion",
+          "percent":100
+        }
+      ],
+      "colors":[
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          127,
+          169,
+          255
+        ],
+        [
+          128,
+          0,
+          0
+        ]
+      ],
+      "type":"chat"
+    },
+    {
+      "name":"Arena expired",
+      "globalalarm":true,
+      "alarm":null,
+      "voice":null,
+      "tooltip":null,
+      "exportbar":true,
+      "resetonactive":true,
+      "lines":[
+        {
+          "text":"This arena has now expired",
+          "percent":100
+        }
+      ],
+      "colors":[
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          127,
+          169,
+          255
+        ],
+        [
+          200,
+          50,
+          50
+        ]
+      ],
+      "type":"chat"
     }
   ],
-  "name": "AFK PvM",
-  "baseName": "slayer"
+  "name":"AFK (PVME)",
+  "baseName":"slayer"
 }
