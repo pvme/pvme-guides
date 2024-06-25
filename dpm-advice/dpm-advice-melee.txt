@@ -279,7 +279,7 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
 ## __Greater Fury__
 .tag:gfury
 ### How It Works
-⬥ Greater Fury <:fury:535532879510372352> is an upgraded version of regular Fury <:fury:535532879510372352>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:Unlocks!B12$.
+⬥ Greater Fury <:fury:535532879510372352> is an upgraded version of regular Fury <:fury:535532879510372352>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:unlock_gfury$.
 ⬥ Greater Fury <:gfury:535532879334080527> hits **once** dealing 157% ability damage, giving the next ability an added 10% critical strike chance.
     • Switching your main-hand weapon loses the buff.
     • **If <:gfury:535532879334080527> crits, the first hit of the next ability will be a guaranteed crit.**
@@ -311,7 +311,7 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
 ## __Greater Barge__
 .tag:gbarge
 ### How It Works
-⬥ Greater Barge <:gbarge:535532879250456578> is an upgraded version of regular Barge <:barge:535532853916860437>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:Unlocks!B10$.
+⬥ Greater Barge <:gbarge:535532879250456578> is an upgraded version of regular Barge <:barge:535532853916860437>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:unlock_gbarge$.
 ⬥ It has two components - its own damage, and its passive effect.
 ⬥ Normal ability effect:
     • For each tick (0.6s) since a player stopped attacking their target, <:gbarge:535532879250456578> damage range increases (+2% minimum hit, +10% maximum hit), capping at 10 ticks for a damage range of 45%-225%.
@@ -365,7 +365,7 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
 ## __Greater Flurry__
 .tag:gflurry
 ### How It Works
-⬥ Greater Flurry <:gflurry:535532879283879977> is an upgraded version of regular Flurry <:flurry:864492981763702834>, unlocked by reading a Greater Flurry ability codex <:gflurrycodex:1004453767397249144> costing <:coins:698816156961603654> $data_pvme:Unlocks!B11$.
+⬥ Greater Flurry <:gflurry:535532879283879977> is an upgraded version of regular Flurry <:flurry:864492981763702834>, unlocked by reading a Greater Flurry ability codex <:gflurrycodex:1004453767397249144> costing <:coins:698816156961603654> $data_pvme:unlock_gflurry$.
 ⬥ Each hit of <:gflurry:535532879283879977> reduces the cooldown of Berserk by 2t/1.2s, up to a maximum of 4 hits, or 8t/4.8s.
 ⬥ The damage dealt depends on the situation:
     • Against a single target, damage is increased, dealing 31-157% damage per hit.
@@ -384,7 +384,7 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
 .tag:roar
 *Note: for a quick summary, you can use the `!chaosroar` command.*
 ### How It Works
-⬥ Chaos Roar <:chaosroar:994644356671737966> is a basic ability unlocked by reading a Chaos roar Ability codex <:chaosroarcodex:994189286960287764> costing <:coins:698816156961603654> $data_pvme:Unlocks!B19$.
+⬥ Chaos Roar <:chaosroar:994644356671737966> is a basic ability unlocked by reading a Chaos roar Ability codex <:chaosroarcodex:994189286960287764> costing <:coins:698816156961603654> $data_pvme:unlock_chaosroar$.
 ⬥ It has an initial hit of 20-130%, but also **doubles the base damage of the next melee ability used with 12t/7.2s**.
     • This includes all hits of bleeds and multi-hit abilities like Hurricane <:cane:535532878969438210> and Igneous Overpower <:overpowerigneous:959089455640215633>.
     • For channelled abilities like Assault <:assault:535532855191928842> only get their first hit boosted.
@@ -424,14 +424,14 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 ⬥ Slivers can be consumed with some other items to create *enchantments*.
     • **Enchantments are one-off consumables that permanently unlock certain effects**.
 ⬥ There are 3 enchantments relevant to Melee <:melee:1096130867279171706>:
-    • **Enchantment of Agony** <:enchantmentofagony:1006481311378190456> costing <:coins:698816156961603654> $data_pvme:Unlocks!B23$.
+    • **Enchantment of Agony** <:enchantmentofagony:1006481311378190456> costing <:coins:698816156961603654> $data_pvme:unlock_enchantmentagony$.
         ⬩ Increases the non-bleed damage-boosting effect of enhanced Gloves of Passage <:Glovesofpassage:556588694862037012> by +6%.
         ⬩ Increases their bleed damage buff effect by +5%.
-    • **Enchantment of Heroism** <:enchantmentofheroism:1006481309524299786> costing <:coins:698816156961603654> $data_pvme:Unlocks!B27$.
+    • **Enchantment of Heroism** <:enchantmentofheroism:1006481309524299786> costing <:coins:698816156961603654> $data_pvme:unlock_enchantmentheroism$.
         ⬩ Champion's Ring <:championring:839903943630520350> has +1% increased critical hit chance.
         ⬩ <:championring:839903943630520350> also adds +1.5% critical hit damage per bleed on the target.
         ⬩ **If bleeds are used on the target, the upgraded <:championring:839903943630520350> is better than the Reaver's Ring <:reaverring:839903943018283050>.**
-    • **Enchantment of Savagery** <:enchantmentofsavagery:1006481307443937310> costing <:coins:698816156961603654> $data_pvme:Unlocks!B29$.
+    • **Enchantment of Savagery** <:enchantmentofsavagery:1006481307443937310> costing <:coins:698816156961603654> $data_pvme:unlock_enchantmentsavagery$.
         ⬩ Increases the damage-boosting effect of the Terrasaur Maul <:terramaul:602561894829522954> by a further 5%.
 
 .
