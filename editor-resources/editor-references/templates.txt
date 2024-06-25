@@ -96,7 +96,7 @@ When rendered, this looks like the following:
 *Note: Links will only resolve if they are valid and exist.*
 
 .
-## __Basic Guide Writing Template__
+## __General Guide Writing Template__
 .tag:guidebasic
 The following template covers the basic structure of a guide for reference. Copy this into the [Guide Editor tool](<https://pvme.github.io/guide-editor/>) and use it as a starting point for the guide layout.
 
@@ -129,8 +129,8 @@ Note: a **Table of Contents** can be found in the pins.
   }
 }
 ..embed:json
+
 ..
-..img:https://img.pvme.io/images/oVjpPka.png
 ## __Mechanics__
 ..tag:mechanics
 {
@@ -150,12 +150,12 @@ Note: a **Table of Contents** can be found in the pins.
 }
 
 ..embed:json
-> __**Strategy (Delete if not applicable)**__
+## __**Strategy (Delete if not applicable)**__
 ..tag:fight
 ⬥ [Explain the fight, break it down into phases if applicable]
 
 ..
-> __**Rotations__ (Delete if not applicable)**__
+## __**Rotations__ (Delete if not applicable)**__
 ..tag:rotations
 ⬥ [Phase 1 rotations]
 ⬥ [Phase 2 rotations]
@@ -190,7 +190,7 @@ This is a basic ToC embed structure, typically paired with the previous basic gu
 		"inline": true
       },
 	  {
-	    "name": "__The Fight__",
+	    "name": "__Fight Breakdown__",
         "value": "[Link]($linkmsg_fight$)",
 		"inline": true
       },
