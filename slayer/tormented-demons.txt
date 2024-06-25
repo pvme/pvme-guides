@@ -9,23 +9,29 @@ Tormented demons are classified as demons, and can be slain with no Slayer level
 ⬥ Besides the default Tormented demon task, you can also kill them for Demons cluster tasks
 
 .
-### Stats
+### __Stats__
+.tag:stats
 ⬥ <:slayer:797896049548066857> XP per kill: 1136
-⬥ Optimal kills per hour: ~240 <:necromancy:1148995625896120460> (AFK)
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~273k <:necromancy:1148995625896120460> (AFK)
+⬥ Optimal kills per hour <:necromancy:1148995625896120460> (AFK)
+    • Sunken Pyramid: ~240
+    • Guthixian Temple: ~180
+⬥ Optimal <:slayer:797896049548066857> XP per hour <:necromancy:1148995625896120460> (AFK)
+    • Sunken Pyramid: ~273k
+    • Guthixian Temple: ~204k
 
 .
 ## __Desirable drops__
 .tag:drops
-⬥ Dragon Claws <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485>
+⬥ **Dragon Claws** <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485>
     • Required for the Slayer collection log
-⬥ Dragon limbs <:dragonlimbs:1154851356264374292>
+⬥ **Dragon limbs** <:dragonlimbs:1154851356264374292>
     • Required for the Slayer collection log
-⬥ Ruined dragon armour slice, lump and shard <:ruinedarmourslice:1154851369837142107> <:ruinedarmourlump:1154851358294421584> <:ruinedarmourshard:1154851359514972230>
+⬥ **Ruined dragon armour pieces** (slice, lump and shard) <:ruinedarmourslice:1154851369837142107> <:ruinedarmourlump:1154851358294421584> <:ruinedarmourshard:1154851359514972230>
     • Required for the Slayer collection log
 
 .
-### Useful Items and Unlocks
+## __Useful Items and Unlocks__
+.tag:useful
 .
 {
   "embed": {
@@ -46,14 +52,7 @@ Tormented demons are classified as demons, and can be slain with no Slayer level
 .embed:json
 
 .
-## __Location and How to Get there__
-.tag:location
-⬥ Sunken Pyramid (either northern room, 4 spawns)
-    • In either large room, position yourself anywhere near the center of all the spawns
-    • You can teleport there with a teleport to house tablet, or with a Slayer Codex <:slayercodex:1097517249499254875>
-
-.
-## __Method: Necromancy__
+## __Method 1: Sunken Pyramid__
 .tag:method1
 Four Tormented Demon souls should be placed into a large room in the Sunken Pyramid, use Necromancy <:necromancy:1148995625896120460> with a blood reaver familiar and weapon poison.
 
@@ -62,7 +61,13 @@ Four Tormented Demon souls should be placed into a large room in the Sunken Pyra
 ⬥ Ensure <:elderovl:841419289831800882>, <:weppoison:689525476158472288> and <:aggressionpotion:925794592199147581> are active at all times
 
 .
-### Presets
+### __Location and How to Get there__
+⬥ Sunken Pyramid (either northern room, 4 spawns)
+    • In either large room, position yourself anywhere near the center of all the spawns
+    • You can teleport there with a teleport to house tablet, or with a Slayer Codex <:slayercodex:1097517249499254875>
+
+.
+### __Presets__
 .
 {
   "embed": {
@@ -72,7 +77,7 @@ Four Tormented Demon souls should be placed into a large room in the Sunken Pyra
         },
     "fields":[
     	{
-    		"name":"__Necromancy Tormented Demons__",
+    		"name":"__Method 1: Sunken Pyramid__",
     		"value":"⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/UhJcfyxfKTgSq77H5ZZT)",
     		"inline":true
     	}
@@ -82,13 +87,61 @@ Four Tormented Demon souls should be placed into a large room in the Sunken Pyra
 .embed:json
 
 .
-### Ability Bar
+### __Ability Bar__
 .img:https://img.pvme.io/images/hY51Y8Rlyq.png
 
 .
-### Example Kills
+### __Example Kills__
 .
-⬥ [Sunken Pyramid](https://youtu.be/u3IhSAREo1I?si=qPJ7gyy1Ojc-wzMi)
+⬥ [Sunken Pyramid example kills](https://youtu.be/u3IhSAREo1I?si=qPJ7gyy1Ojc-wzMi)
+.
+
+.
+## __Method 2: Guthixian Temple__
+.tag:method2
+Tormented Demon can also be killed in their natural habitat - the Guthixian Temple. You may wish to use this method first to capture the 4 Ushabti souls <:ushabti:1097515642749468752> required for Method 1.
+
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:demonhornnecklace:975765831248130079> + <:ectoplasmator:1023152065431744542>
+⬥ Ensure <:elderovl:841419289831800882>, <:weppoison:689525476158472288> are active at all times
+⬥ You do __not__ need <:aggressionpotion:925794592199147581> in the Guthixian Temple as the demons are naturally aggressive
+⬥ Do __not__ use Darkness <:darkness:1137809209782698024>
+
+.
+### __Location and How to Get there__
+⬥ Guthixian Temple
+    • Teleport using the <:sixthagecircuit:937093290245894154> (option 4 "Tormented Demons")
+    • Stand in the south-east room, anywhere on the steps which captures the aggression of a Tormented Demon.
+    • You will be pulled around due to spawns and limited ranged of <:necromancy:1148995625896120460> weapons.
+
+.
+### __Presets__
+.
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/GTVVgn7ukb.png"
+        },
+    "fields":[
+    	{
+    		"name":"__Method 2: Guthixian Temple__",
+    		"value":"⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/Yv7JHNIpNsulZi83FRjE)",
+    		"inline":true
+    	}
+    ]
+  }
+}
+.embed:json
+
+.
+### __Ability Bar__
+.img:https://img.pvme.io/images/co4xMGoXdB.png
+
+.
+### __Example Kills__
+.
+⬥ [Guthixian Temple example kills](https://youtu.be/aahuHIMDtec)
 .
 
 .
@@ -100,12 +153,12 @@ Four Tormented Demon souls should be placed into a large room in the Sunken Pyra
     "fields": [
      {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and How to Get There]($linkmsg_location$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Useful Items and Unlocks]($linkmsg_useful$)",
         "inline": true
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Necromancy]($linkmsg_method1$)",
+        "value": "⬥ [Sunken Pyramid]($linkmsg_method1$) <:necromancy:1148995625896120460>\n⬥ [Guthixian Temple]($linkmsg_method2$) <:necromancy:1148995625896120460>",
         "inline": true
       }
     ]
