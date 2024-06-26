@@ -4,20 +4,17 @@
 .
 ## __Introduction__
 .tag:intro
-⬥ [Crystal Shapeshifters](<https://runescape.wiki/w/Crystal_Shapeshifter>) <:crystalshapeshifter:1004107281153150986> are a slayer monster found on [Tarddiad](<https://runescape.wiki/w/Tarddiad>), accessible via the World Gate (looks like the number 1).
-⬥ <:crystalshapeshifter:1004107281153150986> can be assigned by Morvran or Laniakea after the completion of quest [The Light Within](>https://runescape.wiki/w/The_Light_Within>).
-⬥ <:crystalshapeshifter:1004107281153150986> will change their attacking style to what your armour is weakest against (if this is equal, attack styles will be random).
+[Crystal Shapeshifters](<https://runescape.wiki/w/Crystal_Shapeshifter>) <:crystalshapeshifter:1004107281153150986> are a slayer monster found on [Tarddiad](<https://runescape.wiki/w/Tarddiad>) and are accessible via the World Gate (looks like the number 1), they can be assigned by Morvran or Laniakea after the completion of [The Light Within](<https://runescape.wiki/w/The_Light_Within>) quest. Crystal Shapeshifters will change their attacking style to what your armour is **weakest** against (if this is equal, attack styles will be random).
 
 .
 ### Stats
-.tag:stats
-⬥ <:combat:797896050370281523> XP per kill: 1500 (495 <:Constitution:689509250887712902>)
-⬥ <:slayer:797896049548066857> XP per kill: 1269.8
-⬥ Optimal kills per hour: ~490 <:magic:689504724159823906>, ~450 <:melee:1096130867279171706>, ~570 <:necromancy:1148995625896120460>
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~675k <:melee:1096130867279171706>, ~735k <:magic:689504724159823906>, ~850k <:necromancy:1148995625896120460>
+⬥ <:slayer:797896049548066857> level: 80
+⬥ <:slayer:797896049548066857> XP per kill: 1,269.8
+⬥ Optimal kills per hour: ~490 <:magic:689504724159823906>, ~500 <:melee:1096130867279171706>, ~570 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~622k <:magic:689504724159823906>, ~635k <:melee:1096130867279171706>, ~724k <:necromancy:1148995625896120460>
 
 .
-## __Desirable drops__
+### __Desirable drops__
 .tag:drops
 ⬥ [Ancient elven wedding ring](<https://runescape.wiki/w/Ancient_elven_wedding_ring>)
     • Required for <:masterquestcape:1091050888828813412>
@@ -25,7 +22,7 @@
     • Used to exchange for Attuned crystal armour at [Angof's Crystal Armour Shop](<https://runescape.wiki/w/Angof%27s_Crystal_Armour_Shop>)
 
 .
-## __Useful Items and Unlocks__
+### Useful Items and Unlocks
 .tag:useful
 {
   "embed": {
@@ -34,11 +31,11 @@
     "fields": [
       {
         "name": "__Items__",
-        "value": "⬥ [Slayer Codex](<https://runescape.wiki/w/Slayer_Codex>) <:slayercodex:1097517249499254875> for teleporting to the Sunken Pyramid (Method 2)\n⬥ Each piece of Crystal Armour <:attunedcrystalhelm:1097515663490285648> worn increases the drop rate of the [Ancient elven wedding ring](<https://runescape.wiki/w/Ancient_elven_wedding_ring>)\n\u00a0\u00a0\u00a0\u00a0• __Attuned__ Crystal Armour boosts this drop rate massively"
+        "value": "⬥ [Slayer Codex](https://runescape.wiki/w/Slayer_Codex) <:slayercodex:1097517249499254875>\n\u00a0\u00a0\u00a0\u00a0• Once 50 souls are added, it can be used to teleport to the Sunken Pyramid\n⬥ [Sixth-Age circuit](https://runescape.wiki/w/Sixth-Age_circuit) <:sixthagecircuit:937093290245894154>\n\u00a0\u00a0\u00a0\u00a0• Used to teleport to the World Gate if doing the Tarddiad method\n⬥ Each piece of crystal armour <:attunedcrystalhelm:1097515663490285648> worn increases the drop rate of the [Ancient elven wedding ring](<https://runescape.wiki/w/Ancient_elven_wedding_ring>)\n\u00a0\u00a0\u00a0\u00a0• **Attuned** crystal armour boosts this drop rate massively"
       },
       {
-      	"name": "__Other__",
-        "value": "⬥ [Darkness](<https://runescape.wiki/w/Darkness>) <:darkness:1137809209782698024> can be used in all styles for increased damage reduction\n⬥ [Scrimshaw of vampyrism](<https://runescape.wiki/w/Scrimshaw_of_vampyrism>) <:vampscrim:513201294262009874> if using Melee <:melee:1096130867279171706>\n⬥ Perks mentioned in presets help achieve the optimal KPH, but are not necessary for the method to work"
+        "name": "__Other__",
+        "value": "⬥ [Darkness](<https://runescape.wiki/w/Darkness>) <:darkness:1137809209782698024>\n\u00a0\u00a0\u00a0\u00a0• Can be used with all styles to reduce how much damage you take\n⬥ [Scrimshaw of vampyrism](<https://runescape.wiki/w/Scrimshaw_of_vampyrism>) <:vampscrim:513201294262009874>\n\u00a0\u00a0\u00a0\u00a0• If using Melee <:melee:1096130867279171706>\n⬥ Perks mentioned in presets help achieve the optimal KPH, but are not necessary for the methods to work"
       }
     ]
   }
@@ -46,22 +43,33 @@
 .embed:json
 
 .
-## __Method 1: Killing on Tarddiad__
+### __Location and How to Get there__
+.tag:location
+⬥ If killing Crystal Shapeshifters in Tarddiad use option 2 on <:sixthagecircuit:937093290245894154> to select the World Gate.
+    • Make sure to attune the World Gate to Tarddiad.
+⬥ If killing Crystal Shapeshifters in the Sunken Pyramid use a <:slayercodex:1097517249499254875>
+    • Relocating your house to Menaphos and using a teleport to house tablet also works.
+
+.
+## __Method: Tarddiad__
 .tag:method1
-⬥ For Tarddiad methods, you should toggle on aggression by speaking to Angof on Tarddiad (North, near the camp fire).
-⬥ This makes <:crystalshapeshifter:1004107281153150986> permanently aggressive and eliminates the need for <:aggressionpotion:925794592199147581>
-
+⬥ Make sure you **toggle on aggression** by speaking to Angof on Tarddiad (north, near the camp fire).
+    • This makes the Crystal Shapeshifters permanently aggressive and eliminates the need for <:aggressionpotion:925794592199147581>
+.
 .img:https://img.pvme.io/images/ESHtyB6.png
+.
+
+.img:https://img.pvme.io/images/vNye6IiODf.png
+⬥ If using <:magic:689504724159823906> or <:necromancy:1148995625896120460> then go east and stand just to the east of the bridge.
+    • If you find yourself getting dragged around then simply return back to the position shown above when convenient.
+⬥ If using Melee <:melee:1096130867279171706> then go northwest and kill them [here](<https://img.pvme.io/images/TVYM0GfqAn.png>).
+
+⬥ Pray <:soulsplit:615613924506599497> and <:affliction:513190158468907008> / <:malevolence:513190159416557573> / <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaura:643505653062565907> or <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovl:841419289831800882>, <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> are active at all times
 
 .
-### __Method 1: Location__
-⬥ For the Tarddiad method, stand in the East, just to the East of the bridge.
-⬥ You may find yourself dragged around if using weapons with short range - simply return back to the position shown below when convenient.
-
-.img:https://img.pvme.io/images/J2zcidoant.png
-
-.
-### __Method 1: Presets and Relics__
+### __Presets and Relics__
 .
 {
   "embed": {
@@ -72,32 +80,44 @@
     "fields":[
         {
             "name":"__Preset Suggestions__",
-            "value":"⬥ [Magic (Legacy) preset](https://pvme.io/preset-maker/#/vzxMWiLOtOInMCj1IqKM) <:magic:689504724159823906>\n⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/kQzcD5YeK6JK1H066LHx) <:necromancy:1148995625896120460>"
+            "value":"⬥ [Magic (Legacy) preset](https://pvme.io/preset-maker/#/vzxMWiLOtOInMCj1IqKM) <:magic:689504724159823906>\n⬥ [Melee preset](https://pvme.github.io/preset-maker/#/Bcg8QfDIq9MybRO52wfC) <:melee:1096130867279171706>\n⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/kQzcD5YeK6JK1H066LHx) <:necromancy:1148995625896120460>"
       }
     ]
   }
 }
 .embed:json
-⬥ If using the Legacy Magic method:
+⬥ If using the Legacy Magic <:magic:689504724159823906> method:
     • Autocast <:bloodbarrage:537338981747261446> ( <:bloodburst:841419289714098246> is also viable if using <:inquisitorstaff:694566917553520680> )
 
 .
-### __Method 1: Ability Bar__
+### Ability Bar
+⬥ Melee
+.img:https://img.pvme.io/images/SIHXPIH.png
+⬥ Necromancy
 .img:https://img.pvme.io/images/nstEjYU6Wt.png
-.
 
 .
+### Example Kills
+⬥ [Magic (Legacy) AFK](<https://www.youtube.com/watch?v=9VSpd1vjAfE>)
+⬥ [Melee](<https://youtu.be/smBiNkUfYRU>)
+⬥ [Necromancy](<https://www.youtube.com/watch?v=n8BYDqEn1kI>)
 
 .
-## __Method 2: Sunken Pyramid__
+## __Method: Sunken Pyramid__
 .tag:method2
-### __Method 2: Location__
-⬥ Position yourself in the south-east corner of the room with 5 <:crystalshapeshifter:1004107281153150986> spawns.
+⬥ Make sure you **toggle on aggression** by speaking to Angof on Tarddiad (north, near the camp fire).
+    • This makes the Crystal Shapeshifters permanently aggressive and eliminates the need for <:aggressionpotion:925794592199147581>
+⬥ Place 5 Crystal Shapeshifters in the small room of the Sunken Pyramid.
 
-.img:https://img.pvme.io/images/L02unU6ApG.png
+.img:https://img.pvme.io/images/67qNuIGcUI.png
+⬥ Position yourself in the southeast corner of the small room.
+
+⬥ Pray <:soulsplit:615613924506599497> and <:affliction:513190158468907008> / <:malevolence:513190159416557573> / <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaura:643505653062565907> or <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovl:841419289831800882>, <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> are active at all times
 
 .
-### __Method 2: Presets and Relics__
+### __Presets and Relics__
 .
 {
   "embed": {
@@ -108,7 +128,7 @@
     "fields":[
         {
             "name":"__Preset Suggestions__",
-            "value":"⬥ [Melee preset](https://pvme.io/preset-maker/#/SeNvRa86UKhsUWG7n8iB) <:melee:1096130867279171706>\n⬥ [Magic preset](https://pvme.io/preset-maker/#/cnkYhQxobCrzq6GM9Kzy) <:magic:689504724159823906>\n⬥ [Necromancy preset](https://pvme.io/preset-maker/#/8cXlaOSjZRSj5yJk0mMo) <:necromancy:1148995625896120460>"
+            "value":"⬥ [Magic preset](https://pvme.io/preset-maker/#/cnkYhQxobCrzq6GM9Kzy) <:magic:689504724159823906>\n⬥ [Melee preset](https://pvme.io/preset-maker/#/SeNvRa86UKhsUWG7n8iB) <:melee:1096130867279171706>\n⬥ [Necromancy preset](https://pvme.io/preset-maker/#/8cXlaOSjZRSj5yJk0mMo) <:necromancy:1148995625896120460>"
       }
     ]
   }
@@ -118,39 +138,17 @@
     • Autocast <:bloodbarrage:537338981747261446> ( <:bloodburst:841419289714098246> is also viable if using <:inquisitorstaff:694566917553520680> )
 
 .
-### __Method 2: Ability Bars__
-.
-__Melee__
+### Ability Bar
+⬥ Melee
 .img:https://img.pvme.io/images/SIHXPIH.png
-.
-__Necromancy__
+⬥ Necromancy
 .img:https://img.pvme.io/images/1yxYPRIk40.png
-.
 
 .
+### Example Kills
+⬥ [Melee AFK](<https://www.youtube.com/watch?v=G1Ql-UBQ5Bc>)
+⬥ [Necro AFK](<https://www.youtube.com/watch?v=xjg7S_XRVrs>)
 
-.
-## __Example Kills__
-.tag:examplekills
-.
-{
-  "embed": {
-"title": "",
-    "description": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Method 1: Tarddiad__",
-        "value": "⬥ [Magic (Legacy) AFK](<https://www.youtube.com/watch?v=9VSpd1vjAfE>) <:magic:689504724159823906>\n⬥ [Necro AFK](<https://www.youtube.com/watch?v=n8BYDqEn1kI>) <:necromancy:1148995625896120460>"
-      },
-      {
-        "name": "__Method 2: Sunken Pyramid__",
-        "value": "⬥ [Melee AFK](<https://www.youtube.com/watch?v=G1Ql-UBQ5Bc>) <:melee:1096130867279171706>\n⬥ [Necro AFK](<https://www.youtube.com/watch?v=xjg7S_XRVrs>) <:necromancy:1148995625896120460>"
-      }
-    ]
-  }
-}
-.embed:json
 .
 {
   "embed": {
@@ -160,12 +158,12 @@ __Necromancy__
     "fields": [
      {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Useful Items & Unlocks]($linkmsg_useful$)\n⬥ [Video Examples]($linkmsg_examplekills$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Useful Items & Unlocks]($linkmsg_useful$)\n⬥ [Location & How to Get there]($linkmsg_location$)",
         "inline": true
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Method 1: Tarddiad]($linkmsg_method1$)\n⬥ [Method 2: Sunken Pyramid]($linkmsg_method2$)",
+        "value": "⬥ [Tarddiad]($linkmsg_method1$)\n⬥ [Sunken Pyramid]($linkmsg_method2$)",
         "inline": true
       }
     ]
