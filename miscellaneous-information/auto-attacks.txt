@@ -102,8 +102,8 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 ⬥ **Unexpected abilities that incur cooldown oddly:**
     • *These will be elaborated on in the next section*
     • (fastest) <:tsunami:535533809995874304> / <:omni:535533809664262179> - incur 5t instead of 4t cooldown
-    • <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> - if cast in combat, adds 2t to auto cooldown
-        ⬩ Also, while <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> is active, autos do not give adrenaline
+    • <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:1257438999794946099> - if cast in combat, adds 2t to auto cooldown
+        ⬩ Also, while <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:1257438999794946099> is active, autos do not give adrenaline
     • <:deto:535533833358016512> - incurs cooldown on release
     • <:snipe:535541258425204770> - if cast t0, incurs cooldown on t3
 
@@ -139,7 +139,7 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
 .embed:json
 
 .
-### Decimation (EoF) Special <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184>
+### Decimation (EoF) Special <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:1257438999794946099>
 .
 {
   "embed": {
@@ -147,11 +147,11 @@ Autos for <:necromancy:1148995625896120460> act as an ability <:necroauto:113780
     "fields": [
       {
         "name": "__Unexpected Behavior 1: Auto Cooldown Extension__",
-        "value": "⬥ <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> adds 2t to auto cooldown when used in combat"
+        "value": "⬥ <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:1257438999794946099> adds 2t to auto cooldown when used in combat"
       },
       {
         "name": "__Unexpected Behavior 2: Prevents Auto Adrenaline Gain__",
-        "value": "⬥ While <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:746403211908481184> is active, autos give 0 adrenaline"
+        "value": "⬥ While <:decimation:643848618477879328> <:spec:537340400273195028> / <:eofspec:1257438999794946099> is active, autos give 0 adrenaline"
       }
     ]
   }
