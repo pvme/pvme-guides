@@ -1,63 +1,701 @@
-## __Introduction__
+# Boss Profits
 .tag:intro
-The PVMe Spreadsheet is a Google Sheet document that is used to store dynamic information for use in guides. This includes things like prices of items, values of invention components, calculating boss revenue, etc. which can change over time. This guide is a brief overview of the sheet, and how you can use data from it in your guides.
+This channel displays calculated GP/kill and related values for many commonly farmed bosses. The calculations use GE list prices, and auto update as the GE does. Drop rates are sourced from the Runescape Wiki.
 
-The spreadsheet can be found at the following link.
 .
+### How To Use This Guide
+To calculate your expected hourly profits <:coins:698816156961603654> for a given boss, take the listed GP/kill total and multiply it by your kills per hour (KPH). Any listed KPH rates below are based on the current meta farming methods, to allow for comparison between bosses.
+
+To use your own KPH values, visit the PvME spreadsheet [here](https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/), make a copy, and edit KPH values in the "Boss Revenue" sheet.
+
+*Note: The numbers provided do not take into account supply costs, with the exception of Magister and Legiones where key costs have been accounted for.*
+
+.
+## __Arch-Glacor__
+.tag:ag
 {
   "embed": {
-    "title": "__PvME Spreadsheet__",
-    "description": "Check out the PvME Spreadsheet [here](https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/).\nYou *can* make a copy for own use, but it will *not* affect any PvME guides.",
-    "color": 39423
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Arch-Glacor#Drops)",
+    "color": 9175039,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/KxlQTyI.png"
+    },
+    "fields": [
+      {
+        "name": "__200 killstreak__",
+        "value": "⬥ Total (uniques) <:coins:698816156961603654> $data_pvme:gptotal_archglacor_200ks$\n"
+      },
+      {
+        "name": "__Notes__",
+        "value": "⬥ Assumes 0% start\n⬥ Core value taken as G.E. price of the Dark Shard of Leng\n⬥ Leng Artefact value based on price difference between normal and enhanced Kerapac Wristwraps\n⬥ Commons are omitted\n\nFor more info on expected drop rates see: [Wiki calculator.](https://runescape.wiki/w/Calculator:Combat/Arch-Glacor)"
+      }
+    ]
   }
 }
 .embed:json
-*Note: Data in guides is only pulled from the **master** copy of the sheet. To modify existing data, or add new data, use <#771436827214086154>.*
 
 .
-## __PvME Spreadsheet Layout__
-.tag:layout
-⬥ When you open the spreadsheet, you will see the following sheets at the bottom:
-.img:https://img.pvme.io/images/u0WjDXv.png
-⬥ These tabs correspond to different categories of items/etc. within the game for data is present/calculated for use in the guides:
-    • **Prices**: sheet that contains and periodically fetches/updates GE prices of items.
-    • **Bosses**: used to calculate earnings for <#1020550477043216424>.
-    • **Slayer**: used to calculate earnings for <#1020024227115573369>.
-    • **Perks**: used to calculate cost of Invention components and perks for <#553632787639435284>.
-    • **Unlocks**: prices of unlockable items found in <#1025569719056597042>.
-    • **Miscellaneous**: some misc. prices and calculations.
-    • **Consumables**: prices of consumable items found in <#1025569374532288622>.
-    • **Mastery**: outdated sheet, kept for historic/reference purposes.
-⬥ To access a specific piece of information, only two things are required: the **sheet name** and **cell number**.
+## __Araxxi__
+.tag:rax
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Araxxi#Drops)",
+    "color": 2281522,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/D6q9Ubj.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_araxxi_commons$\n⬥ Total (ranged spawn) <:coins:698816156961603654> $data_pvme:gpkill_araxxi_rangespawn$\n⬥ Total (magic spawn) <:coins:698816156961603654> $data_pvme:gpkill_araxxi_magicspawn$\n⬥ Total (melee spawn) <:coins:698816156961603654> $data_pvme:gpkill_araxxi_meleespawn$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Melee on ranged spawn ($data_pvme:kph_rax_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_rax_ranged$\n⬥ Ranged on magic spawn ($data_pvme:kph_rax_mage$ kph) <:coins:698816156961603654> $data_pvme:gphour_rax_mage$\n⬥ Melee on melee spawn ($data_pvme:kph_rax_melee$ kph) <:coins:698816156961603654> $data_pvme:gphour_rax_melee$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-## __Using Spreadsheet Data In Guides__
-.tag:howto
-⬥ Using data from the spreadsheet in a guide is very straightforward.
-⬥ Values from the sheet can be accessed using the following command: `data_pvme:<sheet>!<cell>`, replacing the contents of `<sheet>` and `<cell>` with the **sheet name** and **cell number** respectively.
-⬥ *When posted (by the PvME Bot), the command text will get replaced by the value present in that cell*.
-
-⬥ For example, the following sentence might be in a guide:
-```
-Greater Chain <:gchain:1257440278512537740> is a very powerful ability, but is also quite expensive, costing <:coins:698816156961603654> $data_pvmе:unlock_gchain$.
-```
-⬥ When posted by the bot, it will look like the following:
-.img:https://img.pvme.io/images/KQeL5Dq.png
-*Note: The command syntax can also be found in the **Commands** dropdown menu in the web guide editor tool*.
+## __Croesus__
+.tag:croesus
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Croesus#Drops)",
+    "color": 7972247,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/udJsgOg.png"
+    },
+    "footer": {
+      "text": "Note: Assumes 12 piles/kill | only considers uniques, NOT commons"
+    },
+    "fields": [
+      {
+        "name": "__4-man GP per kill__",
+        "value": "⬥ Total (uniques) <:coins:698816156961603654> $data_pvme:gpkill_croesus_4man$\n"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 4-man ($data_pvme:kph_croesus$ kph) <:coins:698816156961603654> $data_pvme:gphour_croesus$"
+      }
+    ]
+  }
+}
+.embed:json
+.
 
 .
-## __Requesting Changes/Additions__
-.tag:requests
-⬥ Anyone can make a copy of the sheet for personal use, but only data from the master sheet will be referenced by the bot.
-⬥ To request any changes or additions to the sheet, use the <#771436827214086154> channel.
+## __ED1: Temple of Aminishi__
+.tag:ed1
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Seiryu_the_Azure_Serpent#Drops)",
+    "color": 1514853,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/LbesfGr.png"
+    },
+    "footer": {
+      "text": "Note: ~14 scale average | all commons omitted | doubling chance | all taken into account."
+    },
+    "fields": [
+      {
+        "name": "__GP/Solo Run__",
+        "value": "⬥ Ancient scales <:coins:698816156961603654> $data_pvme:gpkill_ed1_solo$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Grandmaster ($data_pvme:kph_ed1_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_ed1_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __ED2: Dragonkin Laboratory__
+.tag:ed2
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Black_stone_dragon#Drops)",
+    "color": 5651338,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/byVZh7g.png"
+    },
+    "footer": {
+      "text": "Note: ~13 scale average | all commons omitted | doubling chance | all taken into account."
+    },
+    "fields": [
+      {
+        "name": "__GP/Solo Run__",
+        "value": "⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_ed2_solo$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Grandmaster ($data_pvme:kph_ed2_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_ed2_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __ED3: The Shadow Reef__
+.tag:ed3
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/The_Ambassador#Drops)",
+    "color": 5198952,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/qRBpfeH.png"
+    },
+    "footer": {
+      "text": "Note: All commons omitted | doubling chance | all taken into account."
+    },
+    "fields": [
+      {
+        "name": "__GP/Solo Run__",
+        "value": "⬥ Eldritch Crossbow <:coins:698816156961603654> $data_pvme:unlock_ecb$\n⬥ Total (uniques) <:coins:698816156961603654> $data_pvme:gpkill_ed3_solo$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Grandmaster ($data_pvme:kph_ed3_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_ed3_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Gregorovic__
+.tag:greg
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Gregorovic#Drops)",
+    "color": 10723966,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/RMLNFDZ.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_greg_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_greg$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Current best method: $data_pvme:method_greg_afk_max$ ($data_pvme:kph_greg_afk_max$ kph) <:coins:698816156961603654> $data_pvme:gphour_greg_afk_max$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Helwyr__
+.tag:helwyr
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Helwyr#Drops)",
+    "color": 6009511,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/gLUOt9f.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_helwyr_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_helwyr$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Current best method: $data_pvme:method_helwyr_afk_max$ ($data_pvme:kph_helwyr_afk_max$ kph) <:coins:698816156961603654> $data_pvme:gphour_helwyr_afk_max$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Kalphite King__
+.tag:kk
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Kalphite_King#Drops)",
+    "color": 16083760,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/t38nmcI.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_kk_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_kk$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:kph_kk_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_kk_solo$\n⬥ Duo ($data_pvme:kph_kk_duo$ kph) <:coins:698816156961603654> $data_pvme:gphour_kk_duo$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Kerapac (Solo)__
+.tag:kerapac
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Kerapac,_the_bound#Hard_Mode)",
+    "color": 4220571,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/8LRCGjz.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons (Normal Mode) <:coins:698816156961603654> $data_pvme:gpkill_kerapac_nm_commons$\n⬥ Total (Normal Mode) <:coins:698816156961603654> $data_pvme:gpkill_kerapac_nm$\n⬥ Commons (Hard Mode) <:coins:698816156961603654> $data_pvme:gpkill_kerapac_commons$\n⬥ Total (Hard Mode) <:coins:698816156961603654> $data_pvme:gpkill_kerapac_hm$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo AFK (Normal Mode) ($data_pvme:kph_kerapac_afk_nm$ kph) <:coins:698816156961603654> $data_pvme:gphour_kerapac_afk_nm$\n⬥ Solo (Hard Mode) ($data_pvme:kph_kerapac_gm_brid$ kph) <:coins:698816156961603654> $data_pvme:gphour_kerapac_gm_brid$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Legiones__
+.tag:legio
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Legiones#Drop_analysis)",
+    "color": 4639944,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/MTJj0eD.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_legio$\n⬥ Profit (subtracting keys) <:coins:698816156961603654> $data_pvme:gpkill_legio_keycost$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ ECB ($data_pvme:kph_legios$ kph) <:coins:698816156961603654> $data_pvme:gphour_legios$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Magister__
+.tag:magi
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/The_Magister#Drops)",
+    "color": 4672349,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/ZFO07S5.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Total (no enhancer) <:coins:698816156961603654> $data_pvme:gpkill_magister_noenhancer$\n\u00a0\u00a0\u00a0\u00a0• Subtracting key: <:coins:698816156961603654> $data_pvme:gpkill_magister_keycost$\n⬥ Total (spark enhancers) <:coins:698816156961603654> $data_pvme:gpkill_magister_enhancer$\n\u00a0\u00a0\u00a0\u00a0• Subtracting key: <:coins:698816156961603654> $data_pvme:gpkill_magister_enhancer_keycost$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Magic ($data_pvme:kph_magister_magic$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_magic$\n⬥ Melee ($data_pvme:kph_magister_melee$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_melee$\n⬥ Ranged ($data_pvme:kph_magister_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_ranged$\n⬥ Low Effort Ranged ~($data_pvme:kph_magister_ranged_loweffort$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_ranged_loweffort$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Nex__
+.tag:nex
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Nex#Drops)",
+    "color": 12788795,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/qHFUkGX.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_nex_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_nex$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:kph_nex_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_nex_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Nex: Angel of Death__
+.tag:aod
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Nex:_Angel_of_Death#Drops)",
+    "color": 12660811,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/e6HKKeK.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_aod_commons$\n⬥ Total 7-man <:coins:698816156961603654> $data_pvme:gpkill_aod_7man$\n⬥ Total 4-man <:coins:698816156961603654> $data_pvme:gpkill_aod_4man$\n⬥ Total duo <:coins:698816156961603654> $data_pvme:gpkill_aod_2man$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 7 man ($data_pvme:kph_aod_7man_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_aod_7man_gm$\n⬥ 4 man ($data_pvme:kph_aod_4man_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_aod_4man_gm$\n⬥ Duo ($data_pvme:kph_aod_2man_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_aod_2man_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Raksha__
+.tag:raksha
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Raksha,_the_Shadow_Colossus#Drops)",
+    "color": 9135043,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/8TO6d0O.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_raksha_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_raksha$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:kph_raksha_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_raksha_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Rasial__
+.tag:rasial
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Rasial#Drops)",
+    "color": 5510844,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/hTatXG4X1L.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_rasial_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_rasial$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:kph_rasial$ kph) <:coins:698816156961603654> $data_pvme:gphour_rasial$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Rex Matriarchs__
+.tag:rexmatriarchs
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Rex_Matriarchs#Rewards)",
+    "color": 5537600,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/KTWYeZk.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Orikalka <:coins:698816156961603654> $data_pvme:gpkill_orikalka$\n⬥ Pthentraken <:coins:698816156961603654> $data_pvme:gpkill_pthen$\n⬥ Rathis <:coins:698816156961603654> $data_pvme:gpkill_rathis$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Orikalka ($data_pvme:kph_orikalka$ kph) <:coins:698816156961603654> $data_pvme:gphour_orikalka$\n⬥ Pthentraken ($data_pvme:kph_pthen$ kph) <:coins:698816156961603654> $data_pvme:gphour_pthen$\n⬥ Rathis ($data_pvme:kph_rathis$ kph) <:coins:698816156961603654> $data_pvme:gphour_rathis$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Rise of the Six__
+.tag:rots
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Barrows:_Rise_of_the_Six#Rewards)",
+    "color": 9113713,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/DfYDQn8.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_rots_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_rots$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 4 man ($data_pvme:kph_rots$ kph) <:coins:698816156961603654> $data_pvme:gphour_rots$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Solak__
+.tag:tree
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Solak#Drops)",
+    "color": 14988661,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/zrchAcA.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_solak_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_solak$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 4 man ($data_pvme:kph_solak_4man_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_solak_4man_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Telos__
+.tag:telos
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Telos,_the_Warden#Drops)",
+    "color": 6141133,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/8WyYXIm.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Orb (Estimated) <:coins:698816156961603654> $data_pvme:telos_orb_estimate$\n⬥ Total (2449%, uniques) <:coins:698816156961603654> $data_pvme:gpkill_telos_2449$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Magic 2449% ($data_pvme:kph_telos_gm_mage$ kph) <:coins:698816156961603654> $data_pvme:gphour_telos_gm_mage$\n⬥ Melee 2449% ($data_pvme:kph_telos_gm_melee$ kph) <:coins:698816156961603654> $data_pvme:gphour_telos_gm_melee$\n⬥ Ranged 2449% ($data_pvme:kph_telos_gm_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_telos_gm_ranged$\n⬥ Necro 2449% ($data_pvme:kph_telos_gm_necro$ kph) <:coins:698816156961603654> $data_pvme:gphour_telos_gm_necro$"
+      },
+      {
+        "name": "__Notes__",
+        "value": "⬥ Orb value derived from cheapest complete weapon based on GE prices (currently the Staff of Sliske)\n⬥ This value is used to calculate other dormant prices\n⬥ Commons are omitted\n\nFor more info on expected drop rates see: [Wiki calculator.](https://runescape.wiki/w/Calculator:Combat/Telos)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Tzkal-Zuk__
+.tag:zuk
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/TzKal-Zuk#Drops)",
+    "color": 11286325,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/OmNkPgY.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Normal Mode <:coins:698816156961603654> $data_pvme:gpkill_zuk_nm$\n⬥ Hard Mode <:coins:698816156961603654> $data_pvme:gpkill_zuk_hm$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Normal Mode ($data_pvme:kph_zuk_nm$ kph) <:coins:698816156961603654> $data_pvme:gphour_zuk_nm$\n⬥ Hard Mode ($data_pvme:kph_zuk_gm_necro$ kph) <:coins:698816156961603654> $data_pvme:gphour_zuk_gm_necro$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Twin Furies__
+.tag:twins
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Avaryss,_the_Unceasing#Drops)",
+    "color": 4872559,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/J4iba2B.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_twinfuries_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_twinfuries$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Current best method: $data_pvme:method_twins_afk_max$ ($data_pvme:kph_twins_afk_max$ kph) <:coins:698816156961603654> $data_pvme:gphour_twins_afk_max$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Vindicta__
+.tag:vindi
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Vindicta#Drops)",
+    "color": 1923691,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/DqMdWEI.png"
+    },
+    "footer": {
+      "text": "Note: Calculations assume Max Reputation."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_vindicta_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_vindicta$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Current best method: $data_pvme:method_vindicta_afk_max$ ($data_pvme:kph_vindicta_afk_max$ kph) <:coins:698816156961603654> $data_pvme:gphour_vindicta_afk_max$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Vorago__
+.tag:vorago
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Vorago#Drops)",
+    "color": 9006658,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/m8tni0t.png"
+    },
+    "footer": {
+      "text": "Note: Values above are a total of all 5 loot piles."
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Tectonic Energies <:coins:698816156961603654> $data_pvme:gpkill_vorago_energies$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_vorago$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo ($data_pvme:kph_rago_solo_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_rago_gm_solo$\n⬥ Duo ($data_pvme:kph_rago_duo_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_rago_gm_duo$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Zamorak, Lord of Chaos__
+.tag:zamorak
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Zamorak,_Lord_of_Chaos#Drops)\n*Note: Bad luck mitigation is not included*",
+    "color": 10429986,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/KjHMFYX.png"
+    },
+    "fields": [
+      {
+        "name": "__Solo__",
+        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_solo$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_solo$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_solo$\n⬥ Master 1000% enrage ($data_pvme:kph_zammy_master_solo_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_master_solo_ranged$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_solo$"
+      },
+      {
+        "name": "__Group__",
+        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_group$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_group$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_group$\n⬥ Master 1000% enrage ($data_pvme:kph_zammy_master_group_1k$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_master_group_1k$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_group$"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 {
-  "embed": {
-    "title": "__Table of Contents__",
-    "description": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [PvME Spreadsheet Layout]($linkmsg_layout$)\n⬥ [Using Spreadsheet Data in Guides]($linkmsg_howto$)\n⬥ [Requesting Changes/Additions]($linkmsg_requests$)",
-    "color": 39423
-  }
+   "embed":{
+      "title":"Table of Contents",
+      "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+      "color":39423,
+      "fields": [
+         {
+           "name": "__Information__",
+           "value": "[Introduction]($linkmsg_intro$)",
+           "inline": false
+         },
+         {
+           "name": "__Bosses (A-H)__",
+           "value": "⬥ [Arch-Glacor]($linkmsg_ag$)\n⬥ [Araxxor]($linkmsg_rax$)\n⬥ [Croesus]($linkmsg_croesus$)\n⬥ [ED1]($linkmsg_ed1$)\n⬥ [ED2]($linkmsg_ed2$)\n⬥ [ED3]($linkmsg_ed3$)\n⬥ [Gregorovic]($linkmsg_greg$)\n⬥ [Helwyr]($linkmsg_helwyr$)",
+           "inline": true
+         },
+         {
+           "name": "__Bosses (I-R)__",
+           "value": "⬥ [Kalphite King]($linkmsg_kk$)\n⬥ [Kerapac]($linkmsg_kerapac$)\n⬥ [Legiones]($linkmsg_legio$)\n⬥ [Magister]($linkmsg_magi$)\n⬥ [Nex]($linkmsg_nex$)\n⬥ [Nex: AoD]($linkmsg_aod$)\n⬥ [Raksha]($linkmsg_raksha$)\n⬥ [Rasial]($linkmsg_rasial$)\n⬥ [Rex Matriarchs]($linkmsg_rexmatriarchs$)",
+           "inline": true
+         },
+         {
+           "name": "__Bosses (R-Z)__",
+           "value": "⬥ [Rise of the Six]($linkmsg_rots$)\n⬥ [Solak]($linkmsg_tree$)\n⬥ [Telos]($linkmsg_telos$)\n⬥ [Twin Furies]($linkmsg_twins$)\n⬥ [TzKal-Zuk]($linkmsg_zuk$)\n⬥ [Vindicta]($linkmsg_vindi$)\n⬥ [Vorago]($linkmsg_vorago$)\n⬥ [Zamorak]($linkmsg_zamorak$)",
+           "inline": true
+         }
+      ]
+   }
 }
 .embed:json
 .pin:delete
