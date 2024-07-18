@@ -1,5 +1,6 @@
 # Sanctum of Rebirth - prerelease notes
-.img:https://img.pvme.io/images/Pc0bZpxME4.png
+.img:https://img.pvme.io/images/6SFXGZ90Rz.png
+
 .
 ## __Disclaimer__
 .tag:disclaimer
@@ -13,6 +14,7 @@ This page is intended to pool all public details on the to-be released boss dung
 ⬥ [Right click Examine blog post (RCE)](<https://secure.runescape.com/m=news/a=97/right-click-examine-sanctum-of-rebirth>)
 ⬥ [Right click Re-examine blog post (RCE)](<https://secure.runescape.com/m=news/a=97/right-click-re-examine-sanctum-of-rebirth>)
 ⬥ [BTS](<https://secure.runescape.com/m=news/sanctum-of-rebirth-coming-july-22>)
+⬥ [trailer](<https://www.youtube.com/watch?v=_LKmIJtDjU0>)
 ⬥ Notable Jmod messages on Discord or Reddit are linked.
 
 ### Assigned developers
@@ -26,13 +28,13 @@ This page is intended to pool all public details on the to-be released boss dung
 ## __Known update details__
 .tag:knowndetails
 ### Ability changes for <:magic:689504724159823906>
-⬥ Expected release: 22nd of July, 2024.
+⬥ Release: 22nd of July, 2024.
 ⬥ <:conc:1087373968731811880> <:gconc:869285393223254107> and <:sonicwave:1087373972443775056><:gsonicwave:1095411826839257138> are unlinked from DW or 2H and can be used by either. They still share a cooldown.
 ⬥ <:magmatempest:902209626509025290> becomes available for DW <:magic:689504724159823906>
 
 ### Sanctum of Rebirth dungeon
 ⬥ Amount of players: 1 - 4 players.
-⬥ Dungeon requirements: [Necromancy! quest](<https://runescape.wiki/w/Necromancy!>)
+⬥ Dungeon requirements: [Necromancy! quest](<https://runescape.wiki/w/Necromancy!>) + miniquest to be completed on release.
 ⬥ Modes: Normal Mode (NM) and Hard Mode (HM).
 ⬥ Monsters: three soul devourer bosses, no mobs in between.
     • Vermyx
@@ -45,9 +47,10 @@ This page is intended to pool all public details on the to-be released boss dung
     • T95 magic orb (NM+HM)
     • Some HM-exclusive drops
     • Item that boosts weapons (new and existing) past tier 95
+⬥ Slayer tasks do [__not__](<https://discord.com/channels/534508796639182860/1082182941762924595/1263523289591189524>) give extra boosts.
 ⬥ Each slain boss gives loot. The further you progress, the better your chances for powerful rewards, with additional drop table access for a complete dungeon clear.
 .img:https://img.pvme.io/images/I14FRdf5vQ.jpg
-*Presumed images of the three bosses*
+*Images of the three bosses*
 
 .
 ⬥ NM has a safe death mechanic, but players will suffer from "Resurrection Sickness". Upon death, the player is immune to damage for a while, but will deal severely reduced damage.
@@ -57,17 +60,39 @@ This page is intended to pool all public details on the to-be released boss dung
 .img:https://img.pvme.io/images/yHPNyZIAGP.gif
 
 .
-### Dark beast-like (Devourer) boss
-The only shown arena and boss so far.
-⬥ Players enter by jumping off a bridge into an intricately coloured arena with two (soul) obelisks on opposite sides (tile visibility varies per image).
+## __Boss 1: Leviathan-like boss__
+.tag:boss1
+.img:https://img.pvme.io/images/Pc0bZpxME4.png
+⬥ Arena has five openings for its multiple heads to peek out of. Heads do not seem to share lifepoints.
+⬥ Possibly uses <:range:580168050121113623> auto-attacks.
+
+### Mechanics
+⬥ Can launch a big typeless hit from above when rearing its head up, dealing 7k typeless damage upon impact.
+.img:https://img.pvme.io/images/1b3YaUrDV1.png
 .
-.img:https://img.pvme.io/images/vN6W0TOml9.png
+⬥ Has a wide AoE (frontal) breath attack that deals rapid 3-4k typeless damage.
+.img:https://img.pvme.io/images/euXiJ1Ee5B.png
+
 .
-.img:https://img.pvme.io/images/d5XyKPQVQY.jpg
+## __Boss 2: Dark beast-like boss__
+.tag:boss2
+⬥ Arena has two soul obelisks on opposite sides, with the boss (5x5?) in the middle.
+⬥ Is poisonable <:poisonicon:944649693500154006>
+⬥ Has an adrenaline bar.
+⬥ Approx. 900k <:constitution:689509250887712902> (rough estimate).
+
+### Mechanics
+⬥ Has an AoE attack (`voiceline: Kyaaa`) that creates eight 7x7 blue squares close around it that deal up to 7k typeless damage in NM, and another typeless hit shortly after. Move out of the way.
+.img:https://img.pvme.io/images/g6zsAusV34.png
 .
-.img:https://img.pvme.io/images/F71S4YSkEP.png
+⬥ Has an AoE attack (`voiceline: Hrrrr`) that shows 16 5x5 blue squares on the outside of the arena.
+.img:https://img.pvme.io/images/p8WCI7YMwZ.png
 .
-.img:https://img.pvme.io/images/myVZ3lzYBm.jpg
+⬥ Has an ice prison-like attack where a blue ball (<:magic:689504724159823906> ?) attack descends upon you. You can likely break free by killing one of the three 7k(?) <:constitution:689509250887712902> crystals adjacent to you and moving away.
+.img:https://img.pvme.io/images/YhVX5Lo7bH.png
+.
+⬥ Has an arena-wide AoE attack that affects a third of the arena in bands, and then moving back. Hits 7k typeless damage in NM.
+.img:https://img.pvme.io/images/CNAUnABCQQ.mp4
 
 .
 ## __T95 <:magic:689504724159823906> dual wield weapons__
@@ -91,7 +116,7 @@ Mainhand and offhand have a passive effect for one and two items equipped ([pass
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Known update details]($linkmsg_knowndetails$)\n⬥ [T95 <:magic:689504724159823906> dual wield weapons]($linkmsg_t95dw$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Known update details]($linkmsg_knowndetails$)\n⬥ [Leviathan-like boss]($linkmsg_boss1$)\n⬥ [Dark beast-like boss]($linkmsg_boss2$)\n⬥ [T95 <:magic:689504724159823906> dual wield weapons]($linkmsg_t95dw$)",
     "color": 39423
   }
 }
