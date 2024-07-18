@@ -4,7 +4,9 @@ This channel displays calculated GP/kill and related values for many commonly fa
 
 .
 ### How To Use This Guide
-To calculate your expected hourly profits <:coins:698816156961603654> for a given boss, take the listed GP/kill total and multiply it by your kills per hour (KPH). Any listed KPH rates below are based on the current meta farming methods, to allow for comparison between bosses. Click [here](<https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/edit?gid=517330451#gid=517330451>) for an overview of all featured bosses with kph per mastery rank.
+To calculate your expected hourly profits <:coins:698816156961603654> for a given boss, take the listed GP/kill total and multiply it by your kills per hour (KPH). Any listed KPH rates below are based on the current meta farming methods, to allow for comparison between bosses.
+
+To use your own KPH values, visit the PvME spreadsheet [here](https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/), make a copy, and edit KPH values in the "Boss Revenue" sheet.
 
 *Note: The numbers provided do not take into account supply costs, with the exception of Magister and Legiones where key costs have been accounted for.*
 
@@ -646,7 +648,7 @@ To calculate your expected hourly profits <:coins:698816156961603654> for a give
 {
   "embed": {
     "title": "",
-    "description": "[Wiki](https://runescape.wiki/w/Zamorak,_Lord_of_Chaos#Drops)",
+    "description": "[Wiki](https://runescape.wiki/w/Zamorak,_Lord_of_Chaos#Drops)\n*Note: Bad luck mitigation is not included*",
     "color": 10429986,
 	"thumbnail": {
       "url": "https://img.pvme.io/images/KjHMFYX.png"
@@ -654,11 +656,11 @@ To calculate your expected hourly profits <:coins:698816156961603654> for a give
     "fields": [
       {
         "name": "__Solo__",
-        "value": "⬥ 0% enrage ($data_pvme:Zamorak!D3$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!U3$\n⬥ 100% enrage ($data_pvme:Zamorak!D5$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!U5$\n⬥ 500% enrage ($data_pvme:Zamorak!D8$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!U8$\n⬥ 1000% enrage ($data_pvme:Zamorak!D10$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!U10$\n⬥ 2000% enrage ($data_pvme:Zamorak!D12$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!U12$"
+        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_solo$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_solo$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_solo$\n⬥ Master 1000% enrage ($data_pvme:kph_zammy_master_solo_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_master_solo_ranged$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_solo$"
       },
       {
         "name": "__Group__",
-        "value": "⬥ 0% enrage ($data_pvme:Zamorak!E3$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!V3$\n⬥ 100% enrage ($data_pvme:Zamorak!E5$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!V5$\n⬥ 500% enrage ($data_pvme:Zamorak!E8$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!V8$\n⬥ 1000% enrage ($data_pvme:Zamorak!E10$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!V10$\n⬥ 2000% enrage ($data_pvme:Zamorak!E12$ kph) <:coins:698816156961603654> $data_pvme:Zamorak!V12$"
+        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_group$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_group$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_group$\n⬥ Master 1000% enrage ($data_pvme:kph_zammy_master_group_1k$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_master_group_1k$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_group$"
       }
     ]
   }
