@@ -4,163 +4,133 @@
 .
 ## __Introduction__
 .tag:intro
-The ability to be assigned Nightmares as a slayer task can be purchased for 50 slayer points, this requires completion of the [Children of Mah](<https://runescape.wiki/w/Children_of_Mah>) quest. They offer good XP rates, good GP rates, AFK-ability, and a high value unique.
+[Nightmare creatures](<https://runescape.wiki/w/Nightmare>) <:nightmare:1004107308516782111> can be assigned as a Slayer assignment after purchasing the toggle for 50 Slayer points, this requires completion of the [Children of Mah](<https://runescape.wiki/w/Children_of_Mah>) quest. They are mainly killed for Slayer <:slayer:797896049548066857> tasks, the [Other Worlds collection log](<https://runescape.wiki/w/Slayer_collection_log#Other_Worlds>), combat <:combat:797896050370281523> / <:invention:689509250946695292> item experience, and profit.
 
-⬥ Nightmares have two forms of attacks, a weaker melee auto-attack, and a 2-hit ranged special attack which deals a lot of damage (~4000 total).
-    • It is generally encouraged to use <:deflectrange:544195488317046812> unless stated otherwise, as the ranged attack has a higher KO potential.
+⬥ Nightmare creatures can be assigned as a Slayer <:slayer:797896049548066857> assignment by Laniakea, Morvran, and Kuradal.
 
 .
 ### Stats
 ⬥ <:slayer:797896049548066857> level: 80
 ⬥ <:slayer:797896049548066857> XP per kill: 1540
-⬥ Optimal kills per hour: ~700 <:magic:689504724159823906> (Revolution), ~580 <:magic:689504724159823906> (Legacy), ~800 <:necromancy:1148995625896120460> (All AFK)
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.08m <:magic:689504724159823906> (Revolution), ~893k <:magic:689504724159823906> (Legacy), ~1.2m <:necromancy:1148995625896120460> (All AFK)
+⬥ Optimal kills per hour: ~901 <:magic:689504724159823906>, ~800 <:necromancy:1148995625896120460> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.39m <:magic:689504724159823906>, ~1.2m <:necromancy:1148995625896120460> (All AFK)
 
 .
-## __Desirable Drops__
-.tag:desirabledrops
-⬥ Nightmares have a strong common drop table, offering a large amount of alchables, fletching supplies, and <:coins:698816156961603654>, alongside being a very good source of <:soulrune:536252660333019136> <:bloodrune:536252658970001409>
-⬥ Nightmare gauntlets <:nightmaregauntlets:513190159441723392>
-    • These are dropped at a rate of 1/2,000 on-task and 1/10,000 off-task.
-    • Required for the Slayer collection log
-⬥ Nightmare Creatures worth <:coins:698816156961603654> $data_pvme:slayer_gpkill_nightmares$ per kill.
+### __Desirable drops__
+.tag:drops
+⬥ [Nightmare gauntlets](<https://runescape.wiki/w/Nightmare_gauntlets>) <:nightmaregauntlets:513190159441723392>
+    • Required for the Slayer collection log.
+    • 1/2,000 on-task and 1/10,000 off-task.
+⬥ Nightmare Creatures are worth <:coins:698816156961603654> $data_pvme:slayer_gpkill_nightmares$ per kill.
     • Assumes you're on-task.
 
-*Note: If you change the monetary value for custom loot to 5k this will allow you to loot everything relevant (No sharks or Muspah spines). This is achieved by going to Settings > Gameplay > Item Drops > Loot System > Monetary Value 5,000.*
+*Note: if you change the monetary value for custom loot to 5k this will allow you to loot everything relevant (No sharks or Muspah spines). This is achieved by going to Settings > Gameplay > Item Drops > Loot System > Monetary Value 5,000.*
 
 .
-### Useful Items
-.tag:usefulitems
+### Useful Items and Unlocks
+.tag:useful
 {
   "embed": {
-    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory.",
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory",
     "color": 39423,
     "fields": [
       {
         "name": "__Items__",
-        "value": "⬥ [Sixth-Age circuit](https://runescape.wiki/w/Sixth-Age_circuit) <:sixthagecircuit:937093290245894154>\n\u00a0\u00a0\u00a0\u00a0• Allows for an easy teleport to the World Gate.\n⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer.\n⬥ [Grace of the Elves](https://runescape.wiki/w/Grace_of_the_elves) <:gote:900765150678749204>\n\u00a0\u00a0\u00a0\u00a0• Can be used as a swap when looting to automatically bank Muspah spines."
+        "value": "⬥ [Sixth-Age circuit](https://runescape.wiki/w/Sixth-Age_circuit) <:sixthagecircuit:937093290245894154>\n\u00a0\u00a0\u00a0\u00a0• Allows for an easy teleport to the World Gate.\n⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer.\n⬥ [Grace of the Elves](https://runescape.wiki/w/Grace_of_the_elves) <:gote:900765150678749204>\n\u00a0\u00a0\u00a0\u00a0• Can be used as a swap when looting to automatically bank Muspah spines.\n⬥ Weapon perked with Eruptive 4 <:eruptive4:1214416401561952296> Ruthless 3 <:ruthless3:712244800572883025>\n\u00a0\u00a0\u00a0\u00a0• Mainly useful if camping Nightmares."
       },
       {
         "name": "__Other__",
-        "value": "⬥ [Vampyrism aura](https://runescape.wiki/w/Vampyrism_aura) <:vampaura:643505653079343144>\n\u00a0\u00a0\u00a0\u00a0• Allows you to use <:exsanguinate:856635090745950258>\n⬥ [Penance aura](https://runescape.wiki/w/Penance_aura) <:penanceaura:643505653062565907>\n\u00a0\u00a0\u00a0\u00a0• Cheap way to sustain prayer, **not** needed if using <:powderofpenance:928221126360969226> or <:demonhornnecklace:975765831248130079>\n⬥ [Restocking Cannon Ability](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop) <:cannon:869283142350041098>\n\u00a0\u00a0\u00a0\u00a0• Allows <:cannon:869283142350041098> restocking without user input."
-      }
-    ]
-   }
-}
-.embed:json
-
-.
-## __Location and How to Get There__
-.tag:locationandhowtogetthere
-Nightmare Creatures are located at the Ritual site on Freneskae, accessible through the World Gate after completion of the quest Children of Mah. Bring a Sixth-Age circuit <:sixthagecircuit:937093290245894154> for an easy teleport.
-
-.
-### General strategy
-.tag:general
-⬥ <:magic:689504724159823906> and <:necromancy:1148995625896120460> are the recommended styles to kill Nightmares. Place your <:cannon:869283142350041098> at the spot shown in the image below, and stand next to the large pillar.
-.
-⬥ Position yourself as shown below. Place the <:cannon:869283142350041098> on the yellow square, and stand on the green square after loading it with cannonballs.
-.
-.img:https://img.pvme.io/images/9AEsPuLs2E.png
-.
-***Note:** The player may have a chance to be walked backwards one square if they attack a Nightmare that is running towards them, in this case simply click back onto the highlighted square.*
-
-.
-## __AFK Magic__ <:magic:689504724159823906>
-.tag:afkmagic
-Using revolution will allow for a higher kph, but require expensive abilities to be unlocked. Legacy doesn't use any abilities, but it will net a lower kph.
-
-.
-### Revolution
-Bring your best magic tank armour and use <:animatedead:856635090453135382> since you are lacking blood spell healing.
-
-⬥ Pray <:torment:583429936958930964> or <:affliction:513190158468907008> and <:soulsplit:615613924506599497>
-⬥ Upkeep <:elderovl:841419289831800882>, <:superprayerrenewal:547603714681339915>, and <:weppoison:689525476158472288>
-⬥ Autocast <:emeraldaurora:914077639784935424> and make sure <:animatedead:856635090453135382> is active.
-⬥ Use <:cannon:869283142350041098> to help aggroing the Nightmare Creatures
-
-.
-### Legacy
-If using <:inquisitorstaff:694566917553520680>, the spell Blood Burst <:bloodburst:841419289714098246> can be used for slightly less damage (T79 vs T80), this saves a large amount of blood runes.
-
-⬥ Pray <:torment:583429936958930964> or <:affliction:513190158468907008> and <:deflectrange:544195488317046812>
-    • It is recommended to upkeep your prayer via the use of a <:demonhornnecklace:975765831248130079>
-⬥ Upkeep <:elderovl:841419289831800882>, <:superprayerrenewal:547603714681339915>, and <:weppoison:689525476158472288>
-⬥ Autocast <:bloodburst:841419289714098246> and make sure <:animatedead:856635090453135382> is active.
-    • Do not use <:bloodburst:841419289714098246> with other staves such as <:fsoa:869284271595069451>
-⬥ Use <:cannon:869283142350041098> to help aggroing the Nightmare Creatures
-
-.
-### Preset
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/inUbforIzf.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Magic__ <:magic:689504724159823906>",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/vW3JgwGRTon67GnB3HTf)\n\u00a0\u00a0\u00a0\u00a0• Runes for <:emeraldaurora:914077639784935424> (revolution) or <:bloodburst:841419289714098246> (legacy) and <:animatedead:856635090453135382>",
-        "inline": true
+        "value": "⬥ [Dwarven siege engine](https://runescape.wiki/w/Dwarven_siege_engine) <:cannon:869283142350041098>\n\u00a0\u00a0\u00a0\u00a0• Make sure to have the [Restocking Cannon](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop#Rewards) ability unlocked.\n⬥ If taking too much damage, [Crystal Shield 1](https://runescape.wiki/w/Crystal_Shield_(perk)) and [Absorbative 1](https://runescape.wiki/w/Absorbative) can help if.\n⬥ Link to [guide](https://img.pvme.io/images/H7K9sGQJHp.png) with 14 hour Aura rotation."
       }
     ]
   }
 }
 .embed:json
-⬥ You may use a <:demonhornnecklace:975765831248130079> to sustain your prayer instead.
-    • This may make the method less safe.
+
+.
+### __Location and How to Get there__
+.tag:location
+⬥ Nightmare Creatures are located at the Ritual site on Freneskae, accessible through the [World Gate](<https://runescape.wiki/w/World_Gate>) after completion of the Children of Mah quest.
+    • Bring a Sixth-Age circuit <:sixthagecircuit:937093290245894154> for a quick teleport.
+
+.
+## __Method: AFK Magic__ <:magic:689504724159823906>
+.tag:method1
+Killing Nightmare creatures with Magic <:magic:689504724159823906> will yield the highest kph but require expensive abilities and gear for optimal results. If wanting to camp Nightmares, this is the preferred setup.
+
+.img:https://img.pvme.io/images/PuyjMXH9uG.png
+⬥ Positioning can greatly impact kph.
+
+.
+Before loading your <:cannon:869283142350041098> and starting the session, check the following:
+
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+⬥ Autocast <:exsanguinate:856635090745950258> and upkeep <:animatedead:856635090453135382>
+⬥ Sustain <:prayer:1005450651347730533> with <:demonhornnecklace:975765831248130079>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active at all times.
+⬥ Ensure that <:scriptureofwen:883134307902816297> is active.
+
+.
+### __Presets and Relics__
+.
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/XWdakgIxOg.png"
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Magic preset](https://pvme.github.io/preset-maker/#/TUNjN7Tj7Gb8K7F78JPx) <:magic:689504724159823906>"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 ### Ability Bar
-.img:https://img.pvme.io/images/gonVFGr0kt.png
+.img:https://img.pvme.io/images/me99buwdne.png
 
 .
-## __AFK Necromancy__ <:necromancy:1148995625896120460>
-.tag:afknecro
-Necromancy has good sustain with <:conjurearmy:1166094935066423348> <:conjureghost:1137809206423060632> and <:bloodsiphon:1159434279311380532>, as well as strong aoe damage potential with <:conjurezombie:1137809200219684924> poison, <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>.
+### Example Kills
+.
+⬥ [AFK Magic](https://youtu.be/pbfc3ZcBzr4) <:magic:689504724159823906>
+.
 
+.
+## __Method: AFK Necromancy__ <:necromancy:1148995625896120460>
+.tag:method2
+Necromancy <:necromancy:1148995625896120460> has good sustain with <:conjurearmy:1166094935066423348> / <:conjureghost:1137809206423060632> and <:bloodsiphon:1159434279311380532>, as well as strong aoe damage potential with <:conjurezombie:1137809200219684924> (poison), <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>. 4-piece T90 Deathdealer Robes <:dealerhood80:1142783479810117702> for chance to proc <:invokedeath:1137809121983336548>
+
+.img:https://img.pvme.io/images/9AEsPuLs2E.png
+⬥ You may be walked backwards one square if you attack a Nightmare that is running towards you.
+
+.
+Before loading your <:cannon:869283142350041098> and starting the session, check the following:
+
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Upkeep <:darkness:1137809209782698024>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaura:643505653062565907> or <:powderofpenance:928221126360969226>
+    • May alternatively use <:demonhornnecklace:975765831248130079>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active at all times.
+⬥ Ensure that <:scriptureofwen:883134307902816297> is active.
+
+.
+### __Presets and Relics__
+.tag:presets
 .
 {
   "embed": {
-  "title": "",
-    "description":"⬥ The following **ARE REQUIRED** for this method to work:\n\u00a0\u00a0\u00a0\u00a0• **Cutting corners will result in failure**\n\u00a0\u00a0\u00a0\u00a0• A more extensive list can be found in <#1130180182544744551>",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Items__",
-        "value": "⬥ Dwarven Siege Engine <:cannon:869283142350041098> to maintain aggression\n⬥ 4-piece T90 Deathdealer Robes <:dealerhood80:1142783479810117702> for chance to proc <:invokedeath:1137809121983336548>"
-      },
-      {
-        "name": "__Abilities__",
-        "value": "⬥ Conjure Undead Army <:conjurearmy:1166094935066423348> set to all conjures\n⬥ Spectral Scythe <:spectralscythe2:1137809149690916945> / <:spectralscythe3:1137809152043925505> unlocked"
-      },
-      {
-        "name": "__Other__",
-        "value": "⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>\n⬥ Powder of Penance <:powderofpenance:928221126360969226> is useful for prayer upkeep\n⬥ Upkeep Weapon Poison+++ <:weppoison:689525476158472288>\n⬥ Upkeep <:darkness:1137809209782698024>\n⬥ Aura is not essential but DPS auras will help KPH <:inspiration:643505652634746881> / <:mahj:643148943856762890> / <:vampaura:643505653079343144>"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-### Preset
-.
-{
-  "embed": {
-    "title": "",
     "color": 39423,
     "image": {
             "url": "https://img.pvme.io/images/7VaAcFIyoe.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Necromancy__ <:necromancy:1148995625896120460>",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/LZ3XnphDAFyHQqQWAy4D)",
-        "inline": true
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/LZ3XnphDAFyHQqQWAy4D) <:necromancy:1148995625896120460>"
       }
     ]
   }
@@ -172,10 +142,9 @@ Necromancy has good sustain with <:conjurearmy:1166094935066423348> <:conjuregho
 .img:https://img.pvme.io/images/YeoHR2wxc7.png
 
 .
-## Example Kills
+### Example Kills
 .
-⬥ <:necromancy:1148995625896120460> [AFK Necromancy](https://youtu.be/DxEXo7ZnVII)
-⬥ <:magic:689504724159823906> [Legacy Magic](https://youtu.be/YmH4O6SYhYw)
+⬥ [AFK Necromancy](https://youtu.be/DxEXo7ZnVII) <:necromancy:1148995625896120460>
 .
 
 .
@@ -187,12 +156,12 @@ Necromancy has good sustain with <:conjurearmy:1166094935066423348> <:conjuregho
     "fields": [
      {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_desirabledrops$)\n⬥ [Useful Items]($linkmsg_usefulitems$)\n⬥ [How to Get There]($linkmsg_locationandhowtogetthere$)\n⬥ [General Strategy]($linkmsg_general$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Useful Items & Unlocks]($linkmsg_useful$)\n⬥ [Location & How to Get there]($linkmsg_location$)",
         "inline": true
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [AFK Magic <:magic:689504724159823906>]($linkmsg_afkmagic$)\n⬥ [AFK Necromancy <:necromancy:1148995625896120460>]($linkmsg_afknecro$)",
+        "value": "⬥ [AFK Magic]($linkmsg_method1$)\n⬥ [AFK Necromancy]($linkmsg_method2$)",
         "inline": true
       }
     ]
