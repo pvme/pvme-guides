@@ -1,23 +1,22 @@
 {
   "embed": {
-    "title": "__What do Essence Corruption stacks do?__",
-    "description": "<:essencecorruption:1266418936820404295> stacks are obtained from every Damage-Over-Time hitsplat when using at least one of the two <:magic:689504724159823906> T95 dual-wield weapons <:roarofawakening:1266417538045317121> <:odetodeceit:1266417683058917517>",
+    "title": "__What do Essence Corruption Stacks do?__",
+    "description": "⬥ 1 <:essencecorruption:1266418936820404295> stack is gain per DoT hitsplat of an ability cast with <:roarofawakening:1266417538045317121> or <:odetodeceit:1266417683058917517> on\n\u00a0\u00a0\u00a0\u00a0• E.g., <:corruptblast:513190159194259467> gives 5 <:essencecorruption:1266418936820404295> total, but <:gchain:1257440278512537740> onto 2 targets → <:corruptblast:513190159194259467> gives 10 <:essencecorruption:1266418936820404295> total\n\u00a0\u00a0\u00a0\u00a0• Note that <:magmatempest:902209626509025290> is *not* considered a DoT ability",
     "color": 39423,
     "fields": [
       {
         "name": "__One Stack__",
-        "value": "⬥ With 1 <:essencecorruption:1266418936820404295> stack, all of the affected DOT abilities have a 30% chance to apply all of their damage instantly and reset their cooldown. Unlike most cooldown resets, this does work on <:roarofawakening:1266417538045317121> <:spec:537340400273195028> and is very strong when it does.\n\u00a0\u00a0\u00a0\u00a0• <:gchain:1257440278512537740> causes <:comb:535533833098100745> <:corruptblast:513190159194259467> and <:roarofawakening:1266417538045317121> <:spec:537340400273195028> to roll reset chance separately for each target (92% reset chance with 7 targets)"
+        "value": "⬥ 30% chance for DoTs to instantly deal all damage and reset their cooldown\n\u00a0\u00a0\u00a0\u00a0• <:gchain:1257440278512537740> causes them to roll reset chance per target (92% chance at 7 targets)"
       },
       {
         "name": "__25 Stacks__",
-        "value": "⬥ With 25 <:essencecorruption:1266418936820404295> stacks, **all** <:magic:689504724159823906>-typed hits gain a flat +X damage, where X is your boosted <:magic:689504724159823906> level plus the number of <:essencecorruption:1266418936820404295> stacks you have.\n\u00a0\u00a0\u00a0\u00a0• The maximum extra damage per hit is 230, with 100 <:essencecorruption:1266418936820404295>, 99 <:magic:689504724159823906>, <:elderovl:841419289831800882> and <:mani:643505153709965322>.\n\u00a0\u00a0\u00a0\u00a0• This is very strong with <:gconc:869285393223254107> and <:magmatempest:902209626509025290>, as well as the obvious synergy with DOTs."
+        "value": "⬥ **All** <:magic:689504724159823906>-typed hits deal +X damage *(X = your boosted <:magic:689504724159823906> level + <:essencecorruption:1266418936820404295> stacks)*\n\u00a0\u00a0\u00a0\u00a0• Max extra damage per hit is 230 with 100 <:essencecorruption:1266418936820404295> + 99 <:magic:689504724159823906> + <:elderovl:841419289831800882> + <:mani:643505153709965322>"
       },
       {
         "name": "__50 Stacks__",
-        "value": "⬥ With 50 <:essencecorruption:1266418936820404295> stacks, each basic ability will cause you to gain 0.5% adrenaline per tick for the next 6 ticks."
+        "value": "⬥ Each basic makes you gain 0.5% adrenaline per tick for the next 6 ticks"
       }
     ]
   }
 }
 .embed:json
-.
