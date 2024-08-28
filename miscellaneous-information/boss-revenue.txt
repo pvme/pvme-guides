@@ -318,11 +318,15 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
     "fields": [
       {
         "name": "__GP/Kill__",
-        "value": "⬥ Total (no enhancer) <:coins:698816156961603654> $data_pvme:gpkill_magister_noenhancer$\n\u00a0\u00a0\u00a0\u00a0• Subtracting key: <:coins:698816156961603654> $data_pvme:gpkill_magister_keycost$\n⬥ Total (spark enhancers) <:coins:698816156961603654> $data_pvme:gpkill_magister_enhancer$\n\u00a0\u00a0\u00a0\u00a0• Subtracting key: <:coins:698816156961603654> $data_pvme:gpkill_magister_enhancer_keycost$"
+        "value": "⬥ Total (no enhancer) <:coins:698816156961603654> $data_pvme:gpkill_magister_noenhancer$\n\u00a0\u00a0\u00a0\u00a0• Subtracting key: <:coins:698816156961603654> $data_pvme:gpkill_magister_keycost$\n⬥ Total with [spark enhancers](https://runescape.wiki/w/Vital_spark_drop_enhancer) <:sparkenhancer:1151164471813865623> <:coins:698816156961603654> $data_pvme:gpkill_magister_enhancer$\n\u00a0\u00a0\u00a0\u00a0• Subtracting key: <:coins:698816156961603654> $data_pvme:gpkill_magister_enhancer_keycost$"
       },
       {
         "name": "__GP/Hour__",
         "value": "⬥ Magic ($data_pvme:kph_magister_magic$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_magic$\n⬥ Melee ($data_pvme:kph_magister_melee$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_melee$\n⬥ Ranged ($data_pvme:kph_magister_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_ranged$\n⬥ Low Effort Ranged ~($data_pvme:kph_magister_ranged_loweffort$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_ranged_loweffort$"
+      },
+      {
+        "name": "__GP/Hour (spark enhancers)__",
+        "value": "⬥ Magic ($data_pvme:kph_magister_magic$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_enhancer_magic$\n⬥ Melee ($data_pvme:kph_magister_melee$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_enhancer_melee$\n⬥ Ranged ($data_pvme:kph_magister_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_enhancer_ranged$\n⬥ Low Effort Ranged ~($data_pvme:kph_magister_ranged_loweffort$ kph) <:coins:698816156961603654> $data_pvme:gphour_magister_enhancer_ranged_loweffort$"
       }
     ]
   }
