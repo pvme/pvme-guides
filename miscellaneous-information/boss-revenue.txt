@@ -484,6 +484,31 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
 .embed:json
 
 .
+## __Sanctum of Rebirth__
+.tag:sanctum
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/Sanctum_of_Rebirth)",
+    "color": 5537600,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/MSI7e9yfQC.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_sanctum_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_sanctum$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ Solo Ranged ($data_pvme:kph_sanctum_gm_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_sanctum_gm_ranged$\n⬥ Solo Non-Ranged ($data_pvme:kph_sanctum_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_sanctum_gm$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
 ## __Solak__
 .tag:tree
 {
@@ -555,7 +580,7 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
       },
       {
         "name": "__GP/Hour__",
-        "value": "⬥ Normal Mode ($data_pvme:kph_zuk_nm$ kph) <:coins:698816156961603654> $data_pvme:gphour_zuk_nm$\n⬥ Hard Mode ($data_pvme:kph_zuk_gm_necro$ kph) <:coins:698816156961603654> $data_pvme:gphour_zuk_gm_necro$"
+        "value": "⬥ Normal Mode ($data_pvme:kph_zuk_nm$ kph) <:coins:698816156961603654> $data_pvme:gphour_zuk_nm$\n⬥ Hard Mode ($data_pvme:kph_zuk_gm$ kph) <:coins:698816156961603654> $data_pvme:gphour_zuk_gm$"
       }
     ]
   }
@@ -660,11 +685,11 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
     "fields": [
       {
         "name": "__Solo__",
-        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_solo$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_solo$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_solo$\n⬥ Master 1000% enrage ($data_pvme:kph_zammy_master_solo_ranged$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_master_solo_ranged$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_solo$"
+        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_solo$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_solo$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_solo$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_solo$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_solo$"
       },
       {
         "name": "__Group__",
-        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_group$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_group$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_group$\n⬥ Master 1000% enrage ($data_pvme:kph_zammy_master_group_1k$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_master_group_1k$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_group$"
+        "value": "⬥ Initiate 100% enrage ($data_pvme:kph_zammy_initiate_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_initiate_group$\n⬥ Adept 200% enrage ($data_pvme:kph_zammy_adept_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_adept_group$\n⬥ Expert 500% enrage ($data_pvme:kph_zammy_expert_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_expert_group$\n⬥ Grandmaster 2000% enrage ($data_pvme:kph_zammy_gm_group$ kph) <:coins:698816156961603654> $data_pvme:gphour_zammy_gm_group$"
       }
     ]
   }
