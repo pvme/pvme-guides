@@ -5,12 +5,12 @@
 ## __Introduction__
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
+.
+The rotations and spec order in this guide are designed to work at HP cap (1740%+), but can still function at slightly lower enrages with some adaptation. Blood reaver <:reaverpouch:839903693837959228> <:reaverscroll:1022562484378419284> is recommended for enrage pushing past 2000% with this strategy, with adaptations required due to lower crit chance.
 
-2000% Zamorak can be farmed solo with <:range:580168050121113623> while skipping most specs that would normally slow down other styles such as <:magic:689504724159823906> and <:necromancy:1148995625896120460>. The rotations and spec order in this guide are designed to work at HP cap (1740%+), but can still function at slightly lower enrages with some adaptation. Higher enrages than 2000% will run into issues with incoming damage and Channelers HP scaling resulting in higher red HP to deal with.
+⬥ Players can expect to get consistent kills below 6:20 when following the rotations in this guide, with room to optimise well below 6:05 with clean movement and good decision making.
 
-⬥ Players can expect to get consistent kills below 7:15 when following the rotations in this guide, with room to optimise well below 7:00 with clean movement and good decision making.
-
-⬥ This guide assumes pre-existing knowledge of Zamorak's mechanics, how to deal with them, and how his auto attacks work. Visit <#1251104929599455263> or <#1251104943566491710> for in-depth information on these mechanics.
+⬥ This guide assumes advanced knowledge of Zamorak's mechanics <#1251104943566491710> and ranged DPM <#1252196383159484519>
 
 .
 ## __Presets and Relics__
@@ -21,12 +21,12 @@
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/zPBrMw9eny.png"
+            "url": "https://img.pvme.io/images/4ydm5IKp4I.png"
         },
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Ranged](https://pvme.io/preset-maker/#/9uGXSr6LT6LtmQQOjGkA)",
+        "value": "⬥ [Ranged preset](https://pvme.io/preset-maker/#/PAvobsLhYKTmVrfG3UHq) <:range:580168050121113623>",
         "inline": true
       }
     ]
@@ -41,7 +41,7 @@
 		"fields": [
 {
   		"name": "__Checklist and Unlocks__",
-              "value": "⬥ <:powderofpenance:928221126360969226> Powder of Penance activated at bank\n⬥ <:darkness:1137809209782698024> Darkness activated before fight begins\n⬥ <:kalgscroll:841409588954923049> Kal'gerion spec active before fight begins, autofire set to 1\n⬥ <:limitless:641339233638023179> Limitless Sigil unlocked\n⬥ <:graspingpouch:892816437478051900> Pouches with runes for <:smokecloud:856635090641879050>, <:sbslunars:565726489467682816>, and <:disrupt:535614336207552523> (click preset link for setups)\n⬥ <:pernixsquiver:902209626450296892> Quivers with <:wenarrow:971025697046925362>, <:deathsporearrows:900758234527301642>, <:fularrow:971025696958853180>, and <:blackstonearrow:785031580149743617>\n⬥ <:eof:787526151978614824> EoFs with <:dbow:643848618553507843>, <:sgb:626466665848242186>, <:ecb:615618531937222657>, <:zekkil:903244090953588787>, and <:deathguard90:1138809243143766118>\n⬥ Bonfire + thermal spa HP boosts are active\n",
+              "value": "⬥ <:powderofpenance:928221126360969226> Powder of Penance - Optional, replaces blessed flask at increased cost\n⬥ <:elderovlsalve:648976643687317532> Replaced with food by drinking at bank chest with <:lantasticks:565726489404899368> \n⬥ <:darkness:1137809209782698024> Darkness active\n⬥ <:limitless:641339233638023179> Limitless Sigil & Demon Slayer <:demonslayer:641339921675845633> unlocked\n⬥ Bonfire + thermal spa HP boosts <:thermalflask:689530593796423724> are active",
 "inline": true
   }
   ]
@@ -52,186 +52,158 @@
 .
 ## __General Information__ ##
 .tag:info
-.
-⬥ Improvisation is required around <:deathsporearrows:900758234527301642> deathspore procs, <:perfectequilibrium:1006119102814887957> BoLG stacks, adrenaline, and incoming damage between phasing into **grey HP** and **red hp** during the next pad. However, **green hp** rotations should work consistently to phase Zamorak at the desired times.
+⬥ T100 <:bolg:994189289623662702> is **Highly** recommended for this strategy, although not necessary. It reduces the need for BSA <:blackstonearrow:785031580149743617>, as it gives you 100% hitchance with ful arrows <:fularrow:971025696958853180>, provided you don't brew down.
 
+⬥ It is highly recommended to <:rapid:535541270521708566> with either deathspore <:deathsporearrows:900758234527301642> or ful arrows <:fularrow:971025696958853180> over wen arrows<:wenarrow:971025697046925362>, up until phase 6 and 7. If using T95 <:bolg:994189289623662702>, replace ful arrows <:fularrow:971025696958853180> with BSA <:blackstonearrow:785031580149743617>, until at 15 stacks.
 
-⬥ All <:wenarrow:971025697046925362> uses are assumed to be at 15 stacks, building between pads alongside <:deathsporearrows:900758234527301642>
+⬥ Improvisation is required with <:deathsporearrows:900758234527301642> deathspore procs, ammo swaps, <:perfectequilibrium:1006119102814887957> BoLG stacks, and adrenaline. Due to the nature of crit-based strategies, next to no two kills will look the same in terms of rotations, and ammo swaps. The rotations below are **general strategies to be closely followed,** but not completely indicative of what each kill will look like.
 
-⬥ Abilities denoted by <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> represent wensporing (swapping from <:wenarrow:971025697046925362> to <:deathsporearrows:900758234527301642> after casting an ability on the same tick to receive both arrow effects)
+⬥ Knowing how to do [wensporing](<https://discord.com/channels/534508796639182860/1252196383159484519/1279384471359062026>) <:wenarrow:971025697046925362> / <:deathsporearrows:900758234527301642>. This is denoted as <:wenarrow:971025697046925362> ability <:deathsporearrows:900758234527301642> in this guide.
 
-⬥ Take note of the arrow types used during each section of the fight. Messing up ammo swaps can result in an inability to phase at the desired times.
+⬥ <:enhreplen:634350450887622656> can be used to replace <:adrenrenewal:736298121704767538>, where <:adrenrenewal:736298121704767538> has to be drank same tick as your ultimate. There is minimal difference between the two potions.
 
-.
-⬥ <:enhreplen:634350450887622656> is used in the preset to be able to <:gdeathsswift:994644354536837121> + <:enhreplen:634350450887622656> → <:bolg:994189289623662702> <:spec:537340400273195028> on phase 4 but <:adrenrenewal:736298121704767538> works fine as well with tighter input timing. There is minimal difference between the two options.
-
-⬥ <:zekkil:903244090953588787> <:eofspec:1257438999794946099> is optional but <:abyssalscourge:947871842469834832> is highly recommended to be able to quickly put up two bleeds with minimal time investment.
-
-⬥ <:animahelmsliske:643120082398085158> is used to avoid a hit chance penalty for using <:melee:1096130867279171706> and <:necromancy:1148995625896120460> abilities during the fight.
-
-⬥ <:incend:535541258429661215> on a <:perfectequilibrium:1006119102814887957> proc will deal more damage and make clearing **red HP** easier, any <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> that appears in this guide can be adjusted into <:gdeathsswift:994644354536837121> → <:incend:535541258429661215> → <:piercing:535541258538450944>/<:mds:535541259033378827> if available at 5/6 <:perfectequilibrium:1006119102814887957> stacks respectively.
-    • This is a slight optimization but you should not intentionally slow down otherwise just to get the <:perfectequilibrium:1006119102814887957> proc.
-    • The largest time saves will come from good movement between pads and good rotational improvisation to clear **red HP** as quickly as possible.
+⬥ The largest time saves will come from good movement between pads, and receiving as few **Red HP** autos as possible.
 
 .
 ## __Special Attack Order__
 .tag:specs
 .
-⬥ Pad order is assumed to be **2 → 4 → 1 → 3 → 6 → 5**
-    • (Optional) **2 → 5 → 1 → 3 → 6 → 4** may also be used for less incoming damage during p1-6 but with more required movement and having to deal with traps
+⬥ Pad order used: **2 → 1 → 4 → 3 → 6 → 5**
 
 ⬥ **Red HP** mechanics are always skipped in this guide, all listed mechanics occur in **green HP**
 
 ⬥ Order:
     • **P1:** Flames of Zamorak → Infernal Tomb + Phase (Tomb and Phase occurs at the same time)
-
     • **P2:** Adrenaline Cage → Phase
-
     • **P3:** Chaos Blast → Phase
-
     • **P4:** Rune of Destruction → Adrenaline Cage → Phase
-
     • **P5:** Chaos Blast → Phase
-
     • **P6:** Rune of Destruction → Flames of Zamorak (skippable) → Phase
 
 .
 ## __Rotations__
 .
-## __Prefight__
+### __Witch rotation__
+.tag:witchrot
+<:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:dive:1049378668197195808> → <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:wenarrow:971025697046925362> <:piercing:535541258538450944> <:deathsporearrows:900758234527301642> → <:mds:535541259033378827> / <:touchofdeath:1137809175980810380> if still alive
+
+*Notes:*
+⬥ The witch rotation is the same throughout p2-6.
+⬥ <:deathskulls:1159434663903899728> crit will greatly reduce the time taken in witch, generally killing on <:grico:787904334812807238> or <:piercing:535541258538450944>
+    • Alternatively, you can <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> , requires relentless proc on <:deathskulls:1159434663903899728> or <:divert:787904334377648130> once leaving witch. This method doesn't reliably build <:wenarrow:971025697046925362> / <:deathsporearrows:900758234527301642> for next phase, but regardless is still viable in some cases.
+⬥  Additionally, on faster kills when entering infernus with several GCDs available before <:immort:535541258538582017> activates on chaos blast's hit, you can <:invokedeath:1137809121983336548> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> / <:invokedeath:1137809121983336548> → <:bloat:1159433682403201044>
+
+.
+### __Prefight__
 .tag:prefight
-.
-⬥ At War's Retreat <:dummy:656844963522281473>: <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
-
-⬥ On witches: build 15 <:wenarrow:971025697046925362> stacks, 5 <:deathsporearrows:900758234527301642> stacks, and be at 3 <:perfectequilibrium:1006119102814887957> stacks with <:bolg:994189289623662702> <:spec:537340400273195028> active for ~13 seconds remaining as the last witch is finished
-    • Using <:bolg:994189289623662702> <:spec:537340400273195028> on the 2nd or 3rd witch will line this timer up naturally
-    • Be at 3-4 <:deathsporearrows:900758234527301642> stacks as the 5th witch is finished, then <:grico:787904334812807238> → <:corruptshot:535541306294796299>/<:mds:535541259033378827>/<:piercing:535541258538450944> the last witch to hit 5 <:deathsporearrows:900758234527301642> stacks and 3 <:perfectequilibrium:1006119102814887957> stacks
-    • Having improper prefight setup will result in less consistent phasing and adrenaline
+⬥ At War's Retreat <:dummy:656844963522281473>: <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057>
+⬥ On witches: build 15 <:wenarrow:971025697046925362> stacks, 4 <:deathsporearrows:900758234527301642> stacks, and be at 3 <:perfectequilibrium:1006119102814887957> stacks with <:bolg:994189289623662702> <:spec:537340400273195028> active.
+    • Using <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:deathsporearrows:900758234527301642> <:bolg:994189289623662702> <:spec:537340400273195028> on the 1st witch, <:wenarrow:971025697046925362> <:piercing:535541258538450944> <:deathsporearrows:900758234527301642> on the second witch.
+    • Be at 4 <:deathsporearrows:900758234527301642> stacks as the 5th witch is killed, then <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:corruptshot:535541306294796299> / <:frag:535541273755385885> the last witch to activate feasting spores <:deathsporearrows:900758234527301642>
+    • Optionally prebuild 3/4 perfect equilibrium stacks after killing the final witch, making <:incend:535541258429661215> proc <:perfectequilibrium:1006119102814887957>
 
 .
-## __Phase 1__
+### __Phase 1__
 .tag:p1
-.
-⬥ The goal of this phase is to phase Zamorak into **green hp** with no autos during **red hp**, deal with the Flames of Zamorak spec with <:disrupt:535614336207552523> + <:res:535541258844635148>, then receive the Infernal Tomb spec as you phase him by stacking bleeds with <:zekkil:903244090953588787> <:eof:787526151978614824>
-⬥ The first few abilities in <:gdeathsswift:994644354536837121> are done with <:blackstonearrow:785031580149743617> to stack the defence debuff for future <:fularrow:971025696958853180> and <:supersara:642708771344482314> use.
+⬥ The goal of this phase is to phase Zamorak into **green hp** with no autos during **red hp**.
+⬥ Use <:disrupt:535614336207552523> for Flames of Zamorak.
+⬥ Receive the Infernal Tomb spec with <:bloat:1159433682403201044> active.
+
 .
 ### Phase 1 Rotation:
-.
-⬥ <:divert:787904334377648130>/<:res:535541258844635148> → (tc)+<:deathsporearrows:900758234527301642> <:incend:535541258429661215> → <:surge:535533810004262912> to pad + <:gdeathsswift:994644354536837121> → <:smokecloud:856635090641879050> + <:limitless:641339233638023179> <:blackstonearrow:785031580149743617> <:snap:535534127131394088> → <:grico:787904334812807238> → <:rapid:535541270521708566> → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> + <:disrupt:535614336207552523> → <:piercing:535541258538450944> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:piercing:535541258538450944> → <:snap:535534127131394088>* → <:grico:787904334812807238> → <:chaosroar:994644356671737966> → <:res:535541258844635148> → <:zekkil:903244090953588787> <:eofspec:1257438999794946099> → <:dismember:535532879376023572> → <:bloodtendrils:535532854327640064> + <:enhreplen:634350450887622656> → <:bloat:1159433682403201044> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:anti:535541306475151390> → <:bindingshot:535541306563231790>
-.
-    • If done correctly, Zamorak should phase into **green hp** on the 2nd <:dbow:643848618553507843> <:eofspec:1257438999794946099>
-    • Replace <:snap:535534127131394088>* with filler global if Zamorak is already around 1400k-1415k
-    • Delaying an ability by one tick will line up <:bindingshot:535541306563231790> perfectly with the Infernal Tomb stun timing, preferably on one of the <:zekkil:903244090953588787> <:eofspec:1257438999794946099> bleeds.
+<:divert:787904334377648130> → <:smokecloud:856635090641879050> + <:deathsporearrows:900758234527301642> <:incend:535541258429661215>+<:dive:1049378668197195808> → <:gdeathsswift:994644354536837121> → (<:limitless:641339233638023179>) + <:vulnbomb:655341074235129858> + <:rapid:535541270521708566> → <:wenarrow:971025697046925362> + <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> →<:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → <:zammybow:1215929540908679208> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:wenarrow:971025697046925362> <:bolg:994189289623662702> <:spec:537340400273195028> / <:mds:535541259033378827> → <:piercing:535541258538450944> → <:mds:535541259033378827> /  <:tuskas:513201065513058306> → <:deathsporearrows:900758234527301642> <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> / <:mds:535541259033378827> (depends on <:zamorak:994914159969976440> HP) → <:piercing:535541258538450944> / <:snap:535534127131394088> until 2-3 <:deathsporearrows:900758234527301642> stacks
+
+Move to pad + <:invokedeath:1137809121983336548> → <:bloat:1159433682403201044> → <:anti:535541306475151390> (swap <:bloat:1159433682403201044> / <:anti:535541306475151390> depending on hp) → <:wenarrow:971025697046925362> <:grico:787904334812807238> + <:deathsporearrows:900758234527301642> 1t later for <:perfectequilibrium:1006119102814887957> crit → <:bindingshot:535541306563231790>
+
+*Note:*
+This rotation aims to use dracolich infusion to build to 2-3 deathspore stacks, while refreshing it to 3-4 before phasing into infernus.
 
 .
-### Witch + Demon
-.
-⬥ <:surge:535533810004262912> + <:touchofdeath:1137809175980810380> → <:surge:535533810004262912>+<:deathskulls:1159434663903899728> + <:demonslayer:641339921675845633> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> + <:bd:535532854281764884>/<:surge:535533810004262912> to rune to exit
+### Witch + Demon:
+<:surge:535533810004262912> + <:dive:1049378668197195808> → (tc) + <:deathskulls:1159434663903899728> → <:invokedeath:1137809121983336548> + <:demonslayer:641339921675845633> + <:vulnbomb:655341074235129858> witch → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> + (<:surge:535533810004262912>+) <:dive:1049378668197195808> to exit
 
 .
-## __Phase 2__
+### __Phase 2__
 .tag:p2
-.
-⬥ From here on, improvisation is required between pads to build 5 <:deathsporearrows:900758234527301642> stacks, then getting off <:incend:535541258429661215> + <:gdeathsswift:994644354536837121> before each pad refund.
-    • Move to the next pad and charge it as soon as possible that will allow for an efficient adrenaline refund after <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:bolg:994189289623662702> <:spec:537340400273195028>/<:dbow:643848618553507843> <:eofspec:1257438999794946099>.
-    • <:divert:787904334377648130>/<:res:535541258844635148> as needed for adrenaline and/or safety
-    • All <:bolg:994189289623662702> <:spec:537340400273195028> are assumed to be done between 3-7 <:perfectequilibrium:1006119102814887957> stacks
-⬥ **Red HP** is cleared with <:fularrow:971025696958853180> and getting efficient <:perfectequilibrium:1006119102814887957> procs with <:snap:535534127131394088>/<:dbow:643848618553507843> <:eofspec:1257438999794946099>/<:bolg:994189289623662702> <:spec:537340400273195028>
-    • Example: <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercing:535541258538450944> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:piercing:535541258538450944> (pad refund) → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:piercing:535541258538450944> → <:snap:535534127131394088> (red HP cleared)
+⬥ From here on, improvisation is required between pads to build 5 <:deathsporearrows:900758234527301642> stacks, then casting <:incend:535541258429661215> + <:gdeathsswift:994644354536837121> before each pad refund.
+⬥ Whenever <:sgb:626466665848242186> <:eofspec:1257438999794946099> / <:bolg:994189289623662702> <:spec:537340400273195028> is the first ability in a <:gdeathsswift:994644354536837121> rotation, it relies on <:incend:535541258429661215> critting, or <:adrenrenewal:736298121704767538> being used. If <:adrenrenewal:736298121704767538> isn't used, use <:sgb:626466665848242186> <:eofspec:1257438999794946099> / <:bolg:994189289623662702> <:spec:537340400273195028> + <:grico:787904334812807238> / <:piercing:535541258538450944> to have <:sgb:626466665848242186> <:eofspec:1257438999794946099> / <:bolg:994189289623662702> <:spec:537340400273195028> activate over <:grico:787904334812807238> / <:piercing:535541258538450944> in the event <:incend:535541258429661215> does crit.
+⬥ <:vitality:654618235097972737> is used to tank adrenaline cage.
 
 .
 ### Phase 2 Rotation:
-⬥ <:divert:787904334377648130> → <:smokecloud:856635090641879050> + <:deathsporearrows:900758234527301642> <:grico:787904334812807238> until 5 stacks + walk to pad → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028> →  <:piercing:535541258538450944> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> until pad refund → <:dbow:643848618553507843> <:eofspec:1257438999794946099> + adjust for <:perfectequilibrium:1006119102814887957> procs until phased into green → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:fularrow:971025696958853180> <:rapid:535541270521708566> <:wenarrow:971025697046925362> <:vitality:654618235097972737>(swap to <:wenarrow:971025697046925362> after 3 ticks) → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099> <:deathsporearrows:900758234527301642> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099>/<:snap:535534127131394088> until phased → <:dismember:535532879376023572> + <:realmmovement:1073955377537876089>
-    • Wensporing on a few abilities is needed for <:deathsporearrows:900758234527301642> cooldown refund for next phase, ~15 seconds
+<:smokecloud:856635090641879050> + <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:divert:787904334377648130> → <:incend:535541258429661215> <:wenarrow:971025697046925362> → <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:sgb:626466665848242186> <:eofspec:1257438999794946099>  → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:fularrow:971025696958853180> / <:blackstonearrow:785031580149743617> <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> until 0 adren/phased, <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> to renew adren if needed → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:realmmovement:1073955377537876089>
 
 .
-### Witch
-⬥ <:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:bloat:1159433682403201044> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> (12 stack) → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:limitless:641339233638023179> <:devo:513190158728953857> + <:realmmovement:1073955377537876089>
-
-.
-## __Phase 3__
+### __Phase 3__
 .tag:p3
-.
-⬥ On fast entries, <:incend:535541258429661215> and <:gdeathsswift:994644354536837121> may still be on cooldown (>10s) upon exiting infernus, be careful of using <:grico:787904334812807238> immediately as getting 5 <:deathsporearrows:900758234527301642> stacks that can't be used by the time <:incend:535541258429661215>/<:gdeathsswift:994644354536837121> comes up will result in inability to execute the given rotation.
-    • You may opt to stay out longer in phase 2 to deal more damage to **grey HP** before entering infernus as opposed to waiting out <:incend:535541258429661215>/<:gdeathsswift:994644354536837121> cooldown afterwards. This can result in more damage taken from auto attacks in **grey HP**.
+⬥ Exit red HP before any red HP autos.
+⬥ Prioritise spending pad adren refund on <:immort:535541258538582017>
+⬥ Can <:shadowtend:642713547142332416> after <:sgb:626466665848242186> <:eofspec:1257438999794946099> if 3/4 <:perfectequilibrium:1006119102814887957> stacks.
+⬥ Can skip second <:rapid:535541270521708566> if phased into grey hp while <:rapid:535541270521708566> is still on CD, instead <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:shadowtend:642713547142332416> 3/4 <:perfectequilibrium:1006119102814887957> ~50k grey hp will remain.
 
 .
 ### Phase 3 Rotation:
-⬥ <:divert:787904334377648130> → <:smokecloud:856635090641879050> + <:deathsporearrows:900758234527301642> <:grico:787904334812807238> until 5 stacks + walk to pad → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercing:535541258538450944> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> until pad refund → <:dbow:643848618553507843> <:eofspec:1257438999794946099> + adjust for <:perfectequilibrium:1006119102814887957> procs until phased into green → <:grico:787904334812807238>/<:piercing:535541258538450944> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:snap:535534127131394088> → <:grico:787904334812807238> → <:immort:535541258538582017> → <:dismember:535532879376023572> + <:realmmovement:1073955377537876089>
-    • <:ecb:615618531937222657> <:eofspec:1257438999794946099> is used during Chaos Blast spec while Zamorak is not attacking
+<:smokecloud:856635090641879050> + <:piercing:535541258538450944> / <:mds:535541259033378827> → <:devo:513190158728953857> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:divert:787904334377648130> → <:incend:535541258429661215> <:wenarrow:971025697046925362> → <:gdeathsswift:994644354536837121> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercing:535541258538450944> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:immort:535541258538582017> → <:grico:787904334812807238> → <:fularrow:971025696958853180> <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> / <:snap:535534127131394088> adren dump until phased, renew adren with <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> + <:realmmovement:1073955377537876089>
 
 .
-### Witch
-⬥ <:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:divert:787904334377648130> either bomb or omni → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:grico:787904334812807238> + <:realmmovement:1073955377537876089>
-    • <:immort:535541258538582017> proccing will clear <:invokedeath:1137809121983336548>, <:necrosis:1139452791878856805> stacks, and <:deathskulls:1159434663903899728>
-    • You may opt to stay out slightly longer dealing damage to **grey HP** to adjust the timing of <:immort:535541258538582017> proccing around these effects. Losing <:necrosis:1139452791878856805> is generally acceptable to put up <:invokedeath:1137809121983336548> before <:immort:535541258538582017> procs.
-
-.
-## __Phase 4__
+### __Phase 4__
 .tag:p4
-.
-⬥ The goal of this phase is to kill the protector with <:enhreplen:634350450887622656> + <:bolg:994189289623662702> <:spec:537340400273195028>(adren refund) → <:dbow:643848618553507843> <:eofspec:1257438999794946099>, then phase Zamorak while getting the Adrenaline Cage spec during Rune of Destruction.
-⬥ In order to avoid placing <:gdeathsswift:994644354536837121> inside the upcoming Rune of Destruction unsafe zone, walk forward before <:surge:535533810004262912> towards the protector after charging the pad.
+⬥ Kill protector with <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088>, save <:adrenrenewal:736298121704767538> for p5.  This strategy relies on <:incend:535541258429661215> critting on <:zamorak:994914159969976440> to <:bolg:994189289623662702> <:spec:537340400273195028> the protector on 28% adren. Pad adrenaline renewal provides adren for <:snap:535534127131394088>. If early to protector and <:incend:535541258429661215> doesn't crit, use <:piercing:535541258538450944> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088>
+⬥ <:deathsporearrows:900758234527301642> cooldown should be reset before bleeding for adrenaline cage. You can build to 2-3 <:deathsporearrows:900758234527301642> stacks before entering witch for more consistent <:deathsporearrows:900758234527301642> activation on witch exit.
+⬥ You can <:devo:513190158728953857> after <:wenarrow:971025697046925362> <:grico:787904334812807238> in witch to have the kill extend <:devo:513190158728953857> timer by 5s, requiring p5 to only need <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:incend:535541258429661215> on witch exit.
 
 .
 ### Phase 4 Rotation:
-<:smokecloud:856635090641879050>+<:deathsporearrows:900758234527301642> <:grico:787904334812807238> until 5 stacks + walk to pad → <:incend:535541258429661215> + <:surge:535533810004262912> → <:gdeathsswift:994644354536837121> + <:enhreplen:634350450887622656> → target protector + <:smokecloud:856635090641879050> + <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → target<:zamorak:994914159969976440> + <:mds:535541259033378827> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:snap:535534127131394088> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028> → <:rapid:535541270521708566> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → until ~620k hp <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:1257438999794946099> → <:dismember:535532879376023572> → <:bloodtendrils:535532854327640064> → <:frag:535541273755385885>/<:bloat:1159433682403201044> → <:reflect:535541258786177064> <:vitality:654618235097972737> → <:wenarrow:971025697046925362> <:grico:787904334812807238>/filler until rune ends + <:realmmovement:1073955377537876089> (spam to enter infernus as quickly as possible during cage)
-    • Stop ranged dps around 620k to begin bleeding with <:zekkil:903244090953588787> <:eofspec:1257438999794946099>
+<:smokecloud:856635090641879050> + <:deathsporearrows:900758234527301642> <:piercing:535541258538450944> → <:devo:513190158728953857> → <:divert:787904334377648130> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:bolg:994189289623662702> <:spec:537340400273195028> protector → <:snap:535534127131394088> → <:zamorak:994914159969976440> <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:deathsporearrows:900758234527301642> <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> / <:snap:535534127131394088> dump →  <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028>
+
+⬥ Lower green HP to 595K with basics, <:reflect:535541258786177064> 1-2 autos before adrenaline cage.
+
+⬥ Adrenaline cage: <:bloat:1159433682403201044> → <:corruptshot:535541306294796299> → <:frag:535541273755385885> → <:invokedeath:1137809121983336548> +<:realmmovement:1073955377537876089>
 
 .
-### Witch
-⬥ <:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:limitless:641339233638023179> <:devo:513190158728953857> + <:realmmovement:1073955377537876089>
-
-.
-## __Phase 5__
-.
-⬥ This phase is essentially the same as phase 3 except now <:rapid:535541270521708566> can be used twice. The same <:ecb:615618531937222657> <:eofspec:1257438999794946099> rotation from phase 3 will take care of **green HP** as Zamorak charges Chaos Blast.
-⬥ Incoming damage from Zamorak's autos from this point on can be extremely high with unlucky <:darkness:1137809209782698024>/<:enhdev4:712073087507628035> procs. It's important to charge each pad and start <:rapid:535541270521708566> as soon as possible to clear **red HP** and stop Zamorak's buffed autos quickly. Sip <:supersara:642708771344482314> proactively and <:elderovlsalve:648976643687317532> re-overload if stats become too drained.
+### __Phase 5__
 .tag:p5
+⬥ Exit red HP before <:ecb:615618531937222657> <:eofspec:1257438999794946099> & <:immort:535541258538582017>, use <:immort:535541258538582017> on pad adren refund.
+⬥ Can choose to adren dump with <:fularrow:971025696958853180> instead and save 15 wen stacks for <:sgb:626466665848242186> <:eofspec:1257438999794946099>, depending on HP left.
+⬥ Prioritise getting 0 green HP autos after chaos blast.
+⬥ Being below 60% HP for pad 6 damage buff is helpful. Can use <:shadowtend:642713547142332416> to lower HP, at risk of self-execution. Make sure you have enough HP to stay alive, but also be < 60% HP after <:shadowtend:642713547142332416>.
 
 .
 ### Phase 5 Rotation:
-⬥ <:divert:787904334377648130> → <:smokecloud:856635090641879050> + <:deathsporearrows:900758234527301642> <:grico:787904334812807238> until 5 stacks + walk to pad→<:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:fularrow:971025696958853180> <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> + adjust for <:perfectequilibrium:1006119102814887957> procs until phased into green → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:snap:535534127131394088> → <:grico:787904334812807238> → <:immort:535541258538582017> → <:dismember:535532879376023572> + <:realmmovement:1073955377537876089>
+<:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:incend:535541258429661215> <:wenarrow:971025697046925362> → <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:snap:535534127131394088> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:immort:535541258538582017> → <:limitless:641339233638023179> + <:fularrow:971025696958853180> <:rapid:535541270521708566> → <:wenarrow:971025697046925362> <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> / <:snap:535534127131394088> adren dump → <:grico:787904334812807238> → <:fularrow:971025696958853180> <:rapid:535541270521708566> → <:wenarrow:971025697046925362> <:sgb:626466665848242186> <:eofspec:1257438999794946099> + <:realmmovement:1073955377537876089>
 
 .
-### Witch
-⬥ <:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:divert:787904334377648130> either bomb or omni → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:limitless:641339233638023179> <:devo:513190158728953857> + <:realmmovement:1073955377537876089>
-    • You may again opt to stay out for longer to deal damage to **grey HP** and adjust the timing of <:immort:535541258538582017> proc around <:invokedeath:1137809121983336548>,<:touchofdeath:1137809175980810380>, and <:deathskulls:1159434663903899728>.
-
-.
-## __Phase 6__
+### __Phase 6__
 .tag:p6
-⬥ At this point, you gain enough adrenaline on basics from pad 1 that you should immediately begin charging the next pad regardless of adrenaline as you exit. <:enhreplen:634350450887622656> can also be used if you exit with extremely low adrenaline.
+⬥ Stand southwest of <:zamorak:994914159969976440>, on the pad, to ensure rune of destruction smoke cannot stun you regardless of its spawn location. <:anti:535541306475151390> is used to prevent chaos trap's stun, and can be used to build adren if at ~98% adren after <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642>. Improvise with <:deathsporearrows:900758234527301642> <:piercing:535541258538450944> if not at 5/5 <:deathsporearrows:900758234527301642>
+⬥ Prioritise casting <:incend:535541258429661215> & <:gdeathsswift:994644354536837121> before pad adren refund, if at 4/5 <:deathsporearrows:900758234527301642> after <:piercing:535541258538450944>, <:incend:535541258429661215> → <:deathsporearrows:900758234527301642> <:grico:787904334812807238> → wait for pad adren → <:gdeathsswift:994644354536837121>. In this case you may need to <:sgb:626466665848242186> <:eofspec:1257438999794946099> to exit red HP faster, as the autos at this point aren't tankable, even if spamming food.
 ⬥ <:rod:513190159462825984> can be equipped later into the phase for safety since the proc effect resets upon phasing into p7.
 .
 ### Phase 6 Rotation
-.
-⬥ <:smokecloud:856635090641879050> + <:res:535541258844635148> → <:deathsporearrows:900758234527301642> <:grico:787904334812807238> until 5 stacks + walk to pad → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:fularrow:971025696958853180> <:rapid:535541270521708566> <:wenarrow:971025697046925362> (swap to <:wenarrow:971025697046925362> after 3 ticks) → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snap:535534127131394088> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028>/<:reflect:535541258786177064>/<:res:535541258844635148> → <:wenarrow:971025697046925362> <:mds:535541259033378827>/<:piercing:535541258538450944> → <:grico:787904334812807238> → <:rapid:535541270521708566> → <:snap:535534127131394088> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> + adjust for <:perfectequilibrium:1006119102814887957> procs until phased
-.
-    • If the Flames of Zamorak spec is received, use <:devo:513190158728953857> on the melee slam, <:disrupt:535614336207552523> + <:res:535541258844635148> the bomb, and leave any additional black smoke on the ground to pick up as you phase. Alternatively, <:rod:513190159462825984> proc this mechanic if very close to phasing.
-    • Can swap to <:necromancy:1148995625896120460> and <:invokedeath:1137809121983336548> to finish Zamorak if you are out of ways to deal damage with <:range:580168050121113623> by the end of the phase
-.
-## __Phase 7__
-.tag:p7
-.
-⬥ <:vitality:654618235097972737> may be used on the two autos from Zamorak + possible auto from the demon if HP is low entering the phase.
-⬥ Make sure to maintain <=60% HP as the cycle begins to make full use of the pad 6 buff.
-⬥ <:perfectequilibrium:1006119102814887957> stacks clear upon phase transition so stacks should always be consistent when following any given rotation.
+<:smokecloud:856635090641879050> + <:deathsporearrows:900758234527301642> <:piercing:535541258538450944> → <:devo:513190158728953857> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:anti:535541306475151390> → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:fularrow:971025696958853180> <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snap:535534127131394088> / <:touchofdeath:1137809175980810380> (<:invokedeath:1137809121983336548> executes 30k HP) to phase into p7.
 
+.
+### __Phase 7__
+.tag:p7
+⬥ <:vitality:654618235097972737> may be used on the two autos from Zamorak + possible auto from the demon if HP is low entering p7, or to keep <:splitsoul:1137809168368148490> up during cycle over swapping to <:deflectmelee:544195488447201300>
+⬥ Make sure to maintain <60% HP as the cycle begins to make full use of the pad 6 buff.
+⬥ <:perfectequilibrium:1006119102814887957> stacks clear upon phase transition so stacks should always be consistent when following any given rotation.
+⬥ <:adrenrenewal:736298121704767538> can be used at any point needed during cycle. It may be on cooldown on entry depending on kill speed, but generally is available after <:gdeathsswift:994644354536837121>
+⬥ <:wenarrow:971025697046925362> stacks persist through phase transition, meaning its possible to only need one <:grico:787904334812807238> to reach 15/15 <:wenarrow:971025697046925362> stacks. In such cases, you can alternatively <:wenarrow:971025697046925362> <:snap:535534127131394088> rune 2, and <:limitless:641339233638023179> + <:rapid:535541270521708566> (if adren is needed). <:wenarrow:971025697046925362> stacks will last until <:sgb:626466665848242186> <:eofspec:1257438999794946099>, swap to <:fularrow:971025696958853180> for <:dbow:643848618553507843> <:eofspec:1257438999794946099>
 .
 ### Phase 7 Rotation
-**Phase transition**
-<:anti:535541306475151390>+<:enhreplen:634350450887622656>
+⬥ **Phase transition**
+<:anti:535541306475151390>
 
-**Demon**
-⬥ <:vulnbomb:655341074235129858> <:demonslayer:641339921675845633> <:deathsporearrows:900758234527301642> <:rapid:535541270521708566> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> + <:surge:535533810004262912> towards <:zamorak:994914159969976440> → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:piercing:535541258538450944>
+⬥ **Demon**
+<:vulnbomb:655341074235129858> + <:demonslayer:641339921675845633> + <:deathsporearrows:900758234527301642> <:rapid:535541270521708566> → <:wenarrow:971025697046925362> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> + <:surge:535533810004262912> towards and target <:zamorak:994914159969976440> → <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → <:wenarrow:971025697046925362> <:piercing:535541258538450944>
 
-**Runes**
-⬥ <:surge:535533810004262912> to first rune→<:mds:535541259033378827> → <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028> → <:surge:535533810004262912>/<:bd:535532854281764884> to second rune → <:piercing:535541258538450944> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:mds:535541259033378827> if not dead
+⬥ **Runes**
+<:surge:535533810004262912> to first rune → <:mds:535541259033378827> → <:fularrow:971025696958853180> / <:deathsporearrows:900758234527301642> <:bolg:994189289623662702> <:spec:537340400273195028> → <:surge:535533810004262912> / <:dive:1049378668197195808> to second rune → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:piercing:535541258538450944> → <:corruptshot:535541306294796299> + <:surge:535533810004262912> / <:dive:1049378668197195808> to <:gdeathsswift:994644354536837121>
 
-**Cycle**
-⬥ <:disrupt:535614336207552523> + target <:zamorak:994914159969976440> + <:vulnbomb:655341074235129858> + equip <:rod:513190159462825984> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:limitless:641339233638023179> <:snap:535534127131394088>
-    • Expect the melee slam to deal ~1500-3000 damage through <:disrupt:535614336207552523>+<:deflectmelee:544195488447201300>.
+⬥ **Zamorak**
+<:disrupt:535614336207552523> + <:veng:543478434953822208> + target <:zamorak:994914159969976440> + <:vulnbomb:655341074235129858> + equip <:rod:513190159462825984> → <:wenarrow:971025697046925362> <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:limitless:641339233638023179> + <:snap:535534127131394088> / <:zammybow:1215929540908679208> <:eofspec:1257438999794946099>
+    • Expect the melee slam to deal ~1500-3000 damage through <:disrupt:535614336207552523>+<:deflectmelee:544195488447201300>,  5000 with <:splitsoul:1137809168368148490> + <:vitality:654618235097972737>
     • <:rod:513190159462825984> should proc on the smoke bomb.
 
 .
@@ -242,11 +214,11 @@
   "embed": {
     "fields": [
       {
-        "name": "__6:51__ <:range:580168050121113623>",
-        "value": "[Link](https://youtu.be/poUvMIIveqg)"
+        "name": "__6:04 2000%__ <:range:580168050121113623>",
+        "value": "[Link](https://www.youtube.com/watch?v=opu8SBIjcWo)"
       },
       {
-      "name": "__7:07__ <:range:580168050121113623>",
+      "name": "__6:56 4000%__ <:range:580168050121113623>",
       "value": "[Link](https://youtu.be/X66H0gJDdPI)"
       }
     ]
@@ -254,8 +226,8 @@
 }
 .embed:json
 .
-Content Provided by: <@1153325239116243004>
-Formatting Maintained by: <@1153325239116243004>
+Content Provided by: <@185850969030918147>
+Formatting Maintained by: <@185850969030918147>
 .
 {
   "embed": {
@@ -270,7 +242,7 @@ Formatting Maintained by: <@1153325239116243004>
       },
       {
       "name": "__Rotations__",
-      "value": "⬥ [Prefight]($linkmsg_prefight$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Phase 5]($linkmsg_p5$)\n⬥ [Phase 6]($linkmsg_p6$)\n⬥ [Phase 7]($linkmsg_p7$)",
+      "value": "⬥ [Witch Rotation]($linkmsg_witchrot$)\n⬥ [Prefight]($linkmsg_prefight$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Phase 5]($linkmsg_p5$)\n⬥ [Phase 6]($linkmsg_p6$)\n⬥ [Phase 7]($linkmsg_p7$)",
       "inline": true
       },
       {
