@@ -5,7 +5,7 @@
 .
 ## __Introduction__
 .tag:intro
-In order to fight Rasial you must complete the [Alpha vs Omega](<https://runescape.wiki/w/Alpha_vs_Omega>) quest. Rasial deals Necromancy and typeless damage, and can currently only be killed using Necromancy.
+In order to fight Rasial you must complete the [Alpha vs Omega](<https://runescape.wiki/w/Alpha_vs_Omega>) quest. Rasial deals Necromancy and typeless damage, and can only be killed using Necromancy.
 
 .
 ## __Positioning__
@@ -62,10 +62,12 @@ In order to fight Rasial you must complete the [Alpha vs Omega](<https://runesca
 ## __Requirements__
 .tag:reqs
 The rotations may not work as well as intended if any of the following are missing:
-⬥ Undead damage boosts <:salveamulet:797899945730244648> <:undeadslayer:641339922019516416> <:undeadslayerperk:689502804720615441>
-⬥ <:igneouskalzuk:902209626479685734> / <:igneouskalmor:1139200072438005851> for <:deathskulls:1159434663903899728>
-⬥ <:conservationofenergy:697808773711921195> Conservation of Energy + <:furyofthesmall:697808773917573233> Fury of the Small (Equilibrium Aura) **or** <:berserkersfury:697808774106185768> Berserker's Fury (Invigorate Aura).
-⬥ <:invig4:712073087859949570> perk.
+⬥ Undead damage boosts <:salveamulet:797899945730244648> / <:undeadslayer:641339922019516416> / <:undeadslayerperk:689502804720615441>
+⬥ <:igneouskalmor:1139200072438005851> / <:igneouskalzuk:902209626479685734> for <:deathskulls:1159434663903899728>
+⬥ Conservation of Energy <:conservationofenergy:697808773711921195>
+    • Fury of the Small <:furyofthesmall:697808773917573233> (Equilibrium aura <:equilibriumaura:1233722649834684416>)
+    • Berserker's Fury <:berserkersfury:697808774106185768> (Invigorate aura <:invigaura:643505652865695767>)
+⬥ Invigorating 4 <:invig4:712073087859949570>
 ⬥ <:reaverpouch:839903693837959228> auto fire rate set to 3-7.
     • Spam eat <:blueblubber:689530593742291033> under <:splitsoul:1137809168368148490> if not using <:reaverscroll:1022562484378419284>
 ⬥ The Lunar spellbook is used for <:veng:543478434953822208>
@@ -85,7 +87,7 @@ The rotations may not work as well as intended if any of the following are missi
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [T90 Rotation](https://pvme.github.io/preset-maker/#/0WRvxnzmh4LAcJH8tfpd)\n⬥ [T95 Equilibrium Aura](https://pvme.github.io/preset-maker/#/OGTWIBsykuXVBC0RdxYb)\n⬥ [T95 Invigorate Aura](https://pvme.github.io/preset-maker/#/gWe9tlRPYrs8ZPjY2gAD)",
+        "value": "⬥ [T90 Equilibrium Aura](https://pvme.github.io/preset-maker/#/uGuVox76eJvxf1QwqlbR)\n⬥ [T95 Equilibrium Aura](https://pvme.github.io/preset-maker/#/OGTWIBsykuXVBC0RdxYb)\n⬥ [T95 Invigorate Aura](https://pvme.github.io/preset-maker/#/gWe9tlRPYrs8ZPjY2gAD)",
         "inline": true
       }
     ]
@@ -94,31 +96,40 @@ The rotations may not work as well as intended if any of the following are missi
 .embed:json
 
 .
-## __T90 Rotation__ **Rotation is outdated and will not function as intended.**
-.tag:rot_t90
+## __T90 Equilibrium Rotation__ <:equilibriumaura:1233722649834684416>
+.tag:rot_t90_equi
+⬥ This rotation seeks to consistently hit around ~1:25-1:35 kill times.
+⬥ <:undeadslayer:641339922019516416> and <:nip:537336877900890135> help but are **not** required.
 ⬥ Skip <:invokedeath:1137809121983336548> if using <:dealertop80:1142783476169441401> armour.
 ⬥ **NOTE:** Using <:deathskulls:1159434663903899728> too early will result in the first bounce becoming immune.
     • The correct timing of <:deathskulls:1159434663903899728> is the **same tick** as the "Ha! No more games!" message.
 
 .
-### Pre-Build
-<:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> + enter instance → <:lifetransfer:1137809128136388819> + <:surge:535533810004262912> → <:commandghost:1159434409913634816> + <:enhancedexcalibur:513200949016264727> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:vulnbomb:655341074235129858> + *(walk to tile shown above)*
+### Pre-build
+<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> + *enter instance* → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:enhancedexcalibur:513200949016264727> → <:commandghost:1159434409913634816> → <:commandskeleton:1137809194423160883> → <:reflect:535541258786177064> + <:nip:537336877900890135>
 
 .
 ### Phase 1-3
-⬥ **NOTE:** <:livingdeath:1159434908486357072> and <:adrenrenewal:736298121704767538> are used on the same tick.
-
 Pre Living Death
-(tc) → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>
+(tc) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380>
+
+<:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883>
 
 Living Death
-<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:commandskeleton:1137809194423160883> → <:divert:787904334377648130> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:fingerofdeath:1159434801938432010> + <:undeadslayer:641339922019516416> → <:volleyofsouls:1159435029592686642>
-<:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
-<:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:commandskeleton:1137809194423160883> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → *Improvise as needed*
+<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:divert:787904334377648130> → <:splitsoul:1137809168368148490> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:fingerofdeath:1159434801938432010> → <:commandskeleton:1137809194423160883>
+
+<:deathskulls:1159434663903899728> + *2t* <:undeadslayer:641339922019516416> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:necroauto:1137809137401602109> / <:fingerofdeath:1159434801938432010> (*if stacks*) → <:deathskulls:1159434663903899728>
+
+*Note: <:livingdeath:1159434908486357072> and <:adrenrenewal:736298121704767538> are used on the same tick.*
+
+Post Living Death
+<:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:soulstrike:1137809142376058910> → <:necroauto:1137809137401602109> / <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:soulstrike:1137809142376058910> → <:necroauto:1137809137401602109> / <:fingerofdeath:1159434801938432010>
 
 .
 ### Phase 4
-<:deathskulls:1159434663903899728> → <:limitless:641339233638023179> + <:reflect:535541258786177064> + <:vitality:654618235097972737> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → *Filler*
+<:lifetransfer:1137809128136388819> + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> → <:limitless:641339233638023179> + <:vitality:654618235097972737> + <:reflect:535541258786177064> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:commandzombie:1137809191231295549> → <:fingerofdeath:1159434801938432010> → *improv*
+
+*Note: <:lifetransfer:1137809128136388819> is optional, but may be used during immunity or phase 3.*
 
 .
 ## __T95 Equilibrium Rotation__ <:equilibriumaura:1233722649834684416>
@@ -133,23 +144,25 @@ Living Death
 
 .
 ### Pre-build
-<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> + enter instance → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> → <:commandghost:1159434409913634816> + <:enhancedexcalibur:513200949016264727> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:vulnbomb:655341074235129858> *(walk to tile shown above)*
+<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> + *enter instance* → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> → <:commandghost:1159434409913634816> + <:enhancedexcalibur:513200949016264727> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:vulnbomb:655341074235129858> *(walk to tile shown above)*
 
 .
 ### Phase 1-3
-⬥ **NOTE:** <:livingdeath:1159434908486357072> and <:adrenrenewal:736298121704767538> are used on the same tick.
-
 Pre Living Death
 (tc) → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
 
 Living Death
 <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:divert:787904334377648130> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057>
+
 <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + *2t* <:undeadslayer:641339922019516416> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057>
-<:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → *Improvise as needed*
+
+<:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → *improv*
+
+*Note: <:livingdeath:1159434908486357072> and <:adrenrenewal:736298121704767538> are used on the same tick.*
 
 .
 ### Phase 4
-<:commandskeleton:1137809194423160883> / <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> / <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *Filler*
+<:commandskeleton:1137809194423160883> / <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> / <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *improv*
 
 .
 ## __T95 Invigorate Rotation__ <:invigaura:643505652865695767>
@@ -165,31 +178,33 @@ Living Death
 
 .
 ### Pre-build
-<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> + enter instance → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> → <:commandghost:1159434409913634816> + <:enhancedexcalibur:513200949016264727> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:vulnbomb:655341074235129858> + equip Magic MH + *(walk to tile shown above)*
+<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> + *enter instance* → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> → <:commandghost:1159434409913634816> + <:enhancedexcalibur:513200949016264727> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:vulnbomb:655341074235129858> + *equip Magic MH* + *(walk to tile shown above)*
 
 .
 ### Phase 1-3
-⬥ **NOTE:** <:touchofdeath:1137809175980810380> and <:adrenrenewal:736298121704767538> are used on the same tick.
-
 Pre Living Death
-(tc) + <:smokecloud:856635090641879050> + equip <:omniguard:1138809234922934282> + <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:adrenrenewal:736298121704767538>
+(tc) + <:smokecloud:856635090641879050> + *equip* <:omniguard:1138809234922934282> + <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:adrenrenewal:736298121704767538>
+
+*Note: <:touchofdeath:1137809175980810380> and <:adrenrenewal:736298121704767538> are used on the same tick.*
 
 Living death
 <:livingdeath:1159434908486357072> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:splitsoul:1137809168368148490> → <:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>
+
 <:deathskulls:1159434663903899728> + *2t* <:undeadslayer:641339922019516416> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> / <:necroauto:1137809137401602109>
-<:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>  → *Improvise as needed*
+
+<:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057>  → *improv*
 
 .
 ### Phase 4
-⬥ Depending on crit RNG, P4 can have improvisation with <:commandzombie:1137809191231295549> / Early <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> / <:commandskeleton:1137809194423160883>
+<:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *improv*
 
-<:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *Filler*
+*Note: depending on crit RNG, P4 can have improvisation with <:commandzombie:1137809191231295549> / early <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> / <:commandskeleton:1137809194423160883>*
 
 .
 .tag:optimisation
 {
   "embed": {
-  "title": "Optimisation Notes (Optional)",
+  "title": "Optimisation Notes",
     "description":"⬥ Rasial can be lured near to one of the soul obelisks, allowing <:deathskulls:1159434663903899728> to bounce to it and kill it, granting an additional ruthless stack and slowing his soul buildup.\n\n⬥ <:salveamulet:797899945730244648> boost is applied on cast and <:eof:787526151978614824> on hit, swapping between these amulets can boost your <:splitsoul:1137809168368148490> damage for major hits <:deathskulls:1159434663903899728> <:volleyofsouls:1159435029592686642> <:fingerofdeath:1159434801938432010>\n\u00a0\u00a0\u00a0\u00a0• Swapping to <:eof:787526151978614824> before the pre-build allows conjures to spawn with higher ability damage.\n\n⬥ <:zorgothsring:1232124265826877574> may be equipped before the pre-build to boost conjure damage.\n\u00a0\u00a0\u00a0\u00a0• May also be used as a switch for basic abilities after the 2nd <:bloat:1159433682403201044>",
     "color": 39423
    }
@@ -206,7 +221,7 @@ Living death
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [T90 Example Kill](https://youtu.be/pjBjK3rNr84)\n⬥ [T95 Equilibrium Example Kills](<https://www.youtube.com/watch?v=p7YC3jHDpu0>)\n⬥ [T95 Casual Invigorate Example Kills](https://youtu.be/6V2T0KtYaO4)\n⬥ [T95 Optimised Invigorate Example Kills](https://youtu.be/6n3KcruFsX0)"
+        "value": "⬥ [T90 Equilibrium Example Kill](https://www.youtube.com/watch?v=dmGZMGVz9X0)\n⬥ [T95 Equilibrium Example Kills](https://www.youtube.com/watch?v=p7YC3jHDpu0)\n⬥ [T95 Casual Invigorate Example Kills](https://youtu.be/6V2T0KtYaO4)\n⬥ [T95 Optimised Invigorate Example Kills](https://youtu.be/6n3KcruFsX0)"
       }
     ]
   }
@@ -221,7 +236,7 @@ Formatting Maintained by: <@1080778657917833246>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [positioning]($linkmsg_positioning$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [T90 Rotation]($linkmsg_rot_t90$)\n⬥ [T95 Equilibrium Rotation]($linkmsg_rot_t95_equi$)\n⬥ [T95 Invigorate Rotation]($linkmsg_rot_t95_invig$)\n⬥ [Optimisation Notes]($linkmsg_optimisation$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [positioning]($linkmsg_positioning$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [T90 Equilibrium Rotation]($linkmsg_rot_t90$)\n⬥ [T95 Equilibrium Rotation]($linkmsg_rot_t95_equi$)\n⬥ [T95 Invigorate Rotation]($linkmsg_rot_t95_invig$)\n⬥ [Optimisation Notes]($linkmsg_optimisation$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
     }
 }
