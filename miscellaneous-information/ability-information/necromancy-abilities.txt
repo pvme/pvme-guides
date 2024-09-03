@@ -186,7 +186,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 {
   "embed": {
     "title": "__Conjure Putrid Zombie__ <:conjurezombie:1137809200219684924> <:selftarget:1137770968736079957>",
-    "description": "⬥ Cooldown: 50t (30s)\n⬥ 75t (45s) duration\n⬥ Conjure a Putrid Zombie:\n\u00a0\u00a0\u00a0\u00a0• Zombie attacks every 6t (3.6s)\n\u00a0\u00a0\u00a0\u00a0• Zombie inflicts poison damage every 3t (1.8s) to enemies within 1 tile",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ 70t (42s) duration\n⬥ Conjure a Putrid Zombie:\n\u00a0\u00a0\u00a0\u00a0• Zombie attacks every 6t (3.6s)\n\u00a0\u00a0\u00a0\u00a0• Zombie inflicts poison damage every 3t (1.8s) to enemies within 1 tile",
     "color": 5510844
   }
 }
@@ -201,6 +201,26 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 }
 .embed:json
 .tag:commandzombie
+.
+{
+  "embed": {
+    "title": "__Conjure Phantom Guardian__ <:conjurephantom:1280109199069806604> <:selftarget:1137770968736079957>",
+    "description": "⬥ No cooldown\n⬥ 70t (42s) duration\n⬥ Conjure a Phantom Guardian:\n\u00a0\u00a0\u00a0\u00a0• Does not attack\n\u00a0\u00a0\u00a0\u00a0• Reduces damage taken by 5%, up to 10% ability damage\n\u00a0\u00a0\u00a0\u00a0• Does not affect typeless damage\n\u00a0\u00a0\u00a0\u00a0• Generates 1 stack of Valour per incoming hit, up to 25",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:conjurephantom
+{
+  "embed": {
+    "title": "__Conjure Phantom Guardian__ <:commandphantom:1280109200432959528> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 15t (9s)\n⬥ Deals damage to current target and up to 4 additional enemies within 1 tile of the target\n⬥ Consumes all Valour and increases damage dealt by 20% for each stack\n\u00a0\u00a0\u00a0\u00a0• Caps at 270%-330% damage at 25 stacks",
+    "color": 5510844
+  }
+}
+.embed:json
+.tag:commandphantom
+.
 {
   "embed": {
     "title": "__Conjure Undead Army__ <:conjurearmy:1166094935066423348> <:selftarget:1137770968736079957>",
@@ -330,7 +350,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
       },
       {
         "name": "__Conjures/Commands__",
-        "value": "⬥ Skeleton Warrior\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjureskeleton$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandskeleton$)\n⬥ Vengeful Ghost\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjureghost$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandghost$)\n⬥ Putrid Zombie\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjurezombie$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandzombie$)",
+        "value": "⬥ Skeleton Warrior\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjureskeleton$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandskeleton$)\n⬥ Vengeful Ghost\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjureghost$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandghost$)\n⬥ Putrid Zombie\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjurezombie$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandzombie$)\n⬥ Phantom Guardian\n\u00a0\u00a0\u00a0\u00a0• [Conjure]($linkmsg_conjurephantom$)\n\u00a0\u00a0\u00a0\u00a0• [Command]($linkmsg_commandphantom$)",
         "inline": true
       },
       {
