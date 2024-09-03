@@ -147,6 +147,8 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .
 ### Conjures and Commands
 .tag:necromancyConjures
+Listed conjure durations do not account for the Spirit Pact unlocks in the Necromancy talent tree nor the set effect of the First Necromancer armour
+.
 {
   "embed": {
     "title": "__Conjure Skeleton Warrior__ <:conjureskeleton:1159434516658651147> <:selftarget:1137770968736079957>",
@@ -159,7 +161,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 {
   "embed": {
     "title": "__Command Skeleton Warrior__ <:commandwarrior:1137809194423160883> <:singletarget:1137770977506369596>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Commands a conjured skeleton to perform rapid hits (every 1t (0.6s)) for 10t (6s)",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Commands a conjured skeleton to rapidly perform additional attacks (every 2t (1.2s)) for 10t (6s)",
     "color": 5510844
   }
 }
@@ -205,7 +207,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 {
   "embed": {
     "title": "__Conjure Phantom Guardian__ <:conjurephantom:1280109199069806604> <:selftarget:1137770968736079957>",
-    "description": "⬥ No cooldown\n⬥ 70t (42s) duration\n⬥ Conjure a Phantom Guardian:\n\u00a0\u00a0\u00a0\u00a0• Does not attack\n\u00a0\u00a0\u00a0\u00a0• Reduces damage taken by 5%, up to 10% ability damage\n\u00a0\u00a0\u00a0\u00a0• Does not affect typeless damage\n\u00a0\u00a0\u00a0\u00a0• Generates 1 stack of Valour per incoming hit, up to 25",
+    "description": "⬥ No Cooldown\n⬥ 70t (42s) duration\n⬥ Conjure a Phantom Guardian:\n\u00a0\u00a0\u00a0\u00a0• Does not auto attack\n\u00a0\u00a0\u00a0\u00a0• Reduces **core** damage taken by 5%, up to 10% of your ability damage\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩  Core damage refers to the 4 combat styles\n\u00a0\u00a0\u00a0\u00a0• Generates 1 stack of *Valour* per incoming hit, up to 25",
     "color": 5510844
   }
 }
@@ -213,8 +215,8 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .tag:conjurephantom
 {
   "embed": {
-    "title": "__Conjure Phantom Guardian__ <:commandphantom:1280109200432959528> <:selftarget:1137770968736079957>",
-    "description": "⬥ Cooldown: 15t (9s)\n⬥ Deals damage to current target and up to 4 additional enemies within 1 tile of the target\n⬥ Consumes all Valour and increases damage dealt by 20% for each stack\n\u00a0\u00a0\u00a0\u00a0• Caps at 270%-330% damage at 25 stacks",
+    "title": "__Command Phantom Guardian__ <:commandphantom:1280109200432959528> <:selftarget:1137770968736079957>",
+    "description": "⬥ Cooldown: 15t (9s)\n⬥ Deals 45%-55% Necromancy Spirit damage to the target and up to 4 additional enemies within 1 tile of the target\n⬥ Consumes all *Valour* and increases damage dealt by 20% for each stack\n\u00a0\u00a0\u00a0\u00a0• Caps at 270%-330% damage at 25 stacks",
     "color": 5510844
   }
 }
@@ -339,7 +341,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
         "inline": true
       },
       {
-        "name": "__\"Thresholds\"__",
+        "name": "__Thresholds__",
         "value": "⬥ [Soul Strike]($linkmsg_soulstrike$)\n⬥ [Volley of Souls]($linkmsg_volleyofsouls$)\n⬥ [Finger of Death]($linkmsg_fingerofdeath$)\n⬥ [Bloat]($linkmsg_bloat$)\n⬥ [Spectral Scythe]($linkmsg_spectralscythe$)\n⬥ [Blood Siphon]($linkmsg_bloodsiphon$)",
         "inline": true
       },
