@@ -1,0 +1,185 @@
+# Vorago: Solo NM Ranged
+.
+.img:https://img.pvme.io/images/sY7JVkg9No.png
+.
+## __Introduction__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+This guide focuses primarily on rotations for achieving solo Grandmaster timers using Decimation-SGB strategies, and assumes a strong familiarity with Vorago's mechanics and phase timings. For more detailed information on mechanics and casual strategies, read the other Solo NM guide.
+
+.
+## __Presets and Relics__
+.tag:presets
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/N47Mf2dMVY.png"
+        },
+    "fields": [
+{
+        "name": "__Preset Suggestions__",
+        "value": "⬥ [Ranged](https://pvme.github.io/preset-maker/#/48s6AG2HnEL0kUctUfEm)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### Preset Notes:
+⬥ <:eofblacku:1260022289731158146><:zammybow:1215929540908679208> Zamorak Bow, <:eofblack:780401412915855380><:dbow:643848618553507843> Dark Bow, <:eofblue:780401412906680330><:sgb:626466665848242186> SGB, <:eofgreen:780401412727242773><:ecb:615618531937222657> ECB, <:eofyellowu:1260022280046645349><:decimation:643848618477879328> Decimation
+⬥ <:eofgreen:780401412727242773><:ecb:615618531937222657> ECB EoF is only used on TS/PB, may be replaced with <:supersara:642708771344482314> food otherwise
+⬥ <:vitality:654618235097972737> Powerburst of vitality may be replaced with <:supersara:642708771344482314> food for ceilings/GB/PB, or <:numbingroot:1285852547453685781> numbing roots to clear the first bleed on Vitalis P4 losslessly
+⬥ <:glaivemh:643161561988595782> Glaive is used for excal stalling without needing bolts, may be replaced with any darts or throwing axes
+⬥ <:dbow:643848618553507843> Dark bow has <:invig4:712073087859949570> Invigorating 4 for autos
+⬥ <:crystalbow:925794592849285150> Crystal bow has <:energising4:851514466818457640> Energising 4 for <:piercingenergising:867678153979854868> (optionally has <:caroming4:791281588792590336> Caroming 4 for <:gricocaroming:867678153966878740> with fewer switches)
+
+.
+## __Phase 1__
+.tag:p1
+### Max hit dummy at War's Retreat:
+<:touchofdeath:1137809175980810380> → <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:deathsporearrows:900758234527301642><:piercing:535541258538450944> → <:wenarrow:971025697046925362><:grico:787904334812807238> → <:mds:535541259033378827> → <:deathsporearrows:900758234527301642><:piercing:535541258538450944> → stall <:bolg:994189289623662702><:spec:537340400273195028> → charge to full adren on crystal
+.
+### Face:
+release <:bolg:994189289623662702><:spec:537340400273195028> + <:grico:787904334812807238> → challenge + <:piercing:535541258538450944> → <:mds:535541259033378827> → <:incend:535541258429661215> → <:nat:535541258131865633> + auto → <:piercing:535541258538450944> → <:wenarrow:971025697046925362><:grico:787904334812807238> → <:decimation:643848618477879328><:eofspec:1257438999794946099> + <:replenpot:641337470491033600> + d/a<:dummy:656844963522281473>
+.
+### Drop:
+<:gdeathsswift:994644354536837121> +  <:dive:1049378668197195808> + drop <:dummy:656844963522281473> + <:escape:535541258832052231> → <:limitless:641339233638023179> + <:fularrow:971025696958853180><:rapid:535541270521708566> (swap to <:wenarrow:971025697046925362> at 1.2s left) → at 0.6s left step back, lose 1t stall <:snap:535534127131394088> + <:disrupt:535614336207552523> + <:vulnbomb:655341074235129858> →  release <:snap:535534127131394088> + <:sgb:626466665848242186> + <:vulnbomb:655341074235129858> → TC + <:dbow:643848618553507843><:eofspec:1257438999794946099> + click climb rock, lose 1t <:surge:535533810004262912>
+.
+### Climb:
+Equip <:deathguard90:1138809243143766118> + <:soulboundlantern:1138809230573441064> + <:ruination:1137940996391452772> during <:accel:756236265472524418> climb, on last platform <:dive:1049378668197195808> + <:invokedeath:1137809121983336548>, on land <:ingen:641339234111848463> + TC + <:deathguard90:1138809243143766118><:spec:537340400273195028>
+
+Get 15 <:wenarrow:971025697046925362> stacks after on <:dummy:656844963522281473> after killing rago
+.
+.img:https://img.pvme.io/images/80AykWlbQy.png
+
+.
+## __Phase 2__
+.tag:p2
+### Drop
+Maintaining <:wenarrow:971025697046925362> stacks, apply <:invokedeath:1137809121983336548> and 15% <:blackstonearrow:785031580149743617> with <:grico:787904334812807238> / <:piercing:535541258538450944> while clearing bleeds. Use <:devo:513190158728953857> on reflect, as it ends <:wenarrow:971025697046925362><:snipe:535541258425204770> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> + <:dive:1049378668197195808> away → <:rapid:535541270521708566> → <:sgb:626466665848242186><:eofspec:1257438999794946099> → <:snap:535534127131394088> → <:bolg:994189289623662702><:spec:537340400273195028> → <:grico:787904334812807238> → improvise to below 30k HP while clearing bleeds.
+.
+### Bring Him Down
+Drop <:dummy:656844963522281473> halfway through BHD, get 8+ <:wenarrow:971025697046925362> stacks and 1-5 <:perfectequilibrium:1006119102814887957> stacks, then spam click <:vorago:572867742613635082> when BHD ends <:fularrow:971025696958853180><:sgb:626466665848242186> → <:bolg:994189289623662702><:spec:537340400273195028> → <:wenarrow:971025697046925362><:grico:787904334812807238> → <:deathsporearrows:900758234527301642><:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> (<:corruptshot:535541306294796299> instead if 2+ <:deathsporearrows:900758234527301642>stacks) → lose 1t <:necroauto:1137809137401602109> → TC + <:wenarrow:971025697046925362><:mds:535541259033378827>→ <:piercing:535541258538450944>→ <:freedom:535541258240786434> → <:nat:535541258131865633> + <:deathsporearrows:900758234527301642><:dbow:643848618553507843> auto → <:crystalbow:925794592849285150><:piercingenergising:867678153979854868> → <:gricocaroming:867678153966878740> → <:piercingenergising:867678153979854868> → <:mds:535541259033378827>
+
+.
+## __Phase 3__
+.tag:p3
+### Ceilings/Vitalis/Green Bomb
+<:anti:535541306475151390> + <:dive:1049378668197195808> + drop <:dummy:656844963522281473> → <:deathsporearrows:900758234527301642><:incend:535541258429661215>→ <:gdeathsswift:994644354536837121> + <:replenpot:641337470491033600>→ equip <:bolg:994189289623662702> + <:decimation:643848618477879328><:eofspec:1257438999794946099> → <:limitless:641339233638023179> + <:rapid:535541270521708566> (swap to <:wenarrow:971025697046925362> after 3 hits)  → <:vulnbomb:655341074235129858> + <:sgb:626466665848242186><:eofspec:1257438999794946099> → <:dbow:643848618553507843><:eofspec:1257438999794946099> → <:dbow:643848618553507843><:eofspec:1257438999794946099> → if not dead, target <:vorago:572867742613635082> and improvise.
+.
+### Teamsplit
+<:anti:535541306475151390> + <:dive:1049378668197195808> + drop <:dummy:656844963522281473> → <:deathsporearrows:900758234527301642><:incend:535541258429661215> → <:gdeathsswift:994644354536837121> → equip <:bolg:994189289623662702> + <:grico:787904334812807238> → <:bolg:994189289623662702><:spec:537340400273195028> → <:ecb:615618531937222657><:eofspec:1257438999794946099> + <:replenpot:641337470491033600> → <:decimation:643848618477879328><:eofspec:1257438999794946099> → <:wenarrow:971025697046925362><:rapid:535541270521708566> + <:vitality:654618235097972737> → <:dbow:643848618553507843><:eofspec:1257438999794946099>→ <:dbow:643848618553507843><:eofspec:1257438999794946099> → <:sgb:626466665848242186><:eofspec:1257438999794946099>
+.
+### Scopulus
+Drop <:dummy:656844963522281473> + TC + <:deathsporearrows:900758234527301642><:incend:535541258429661215> + <:dive:1049378668197195808> east → <:gdeathsswift:994644354536837121> + <:dbow:643848618553507843>auto → <:piercing:535541258538450944>→ equip <:bolg:994189289623662702> + <:grico:787904334812807238> → <:ingen:641339234111848463> + stall <:bolg:994189289623662702><:spec:537340400273195028> + <:vulnbomb:655341074235129858> east → TC + release <:bolg:994189289623662702><:spec:537340400273195028> + <:decimation:643848618477879328><:eofspec:1257438999794946099> → TC + <:wenarrow:971025697046925362><:rapid:535541270521708566> (<:vitality:654618235097972737> just before first <:bluebomb:923249600276615200> hits) → <:vulnbomb:655341074235129858> + <:dbow:643848618553507843><:eofspec:1257438999794946099> →<:dbow:643848618553507843><:eofspec:1257438999794946099> + <:replenpot:641337470491033600> → <:dbow:643848618553507843><:eofspec:1257438999794946099> → <:res:535541258844635148>
+.
+### Purple Bomb
+Drop <:dummy:656844963522281473> + TC + <:deathsporearrows:900758234527301642><:incend:535541258429661215> + <:dive:1049378668197195808> east → <:gdeathsswift:994644354536837121> + <:dbow:643848618553507843> auto → equip <:bolg:994189289623662702> + <:wenarrow:971025697046925362><:piercing:535541258538450944> → <:ecb:615618531937222657><:eofspec:1257438999794946099> + <:ingen:641339234111848463> + <:limitless:641339233638023179> →  stall <:shadowtend:642713547142332416> → TC + release <:shadowtend:642713547142332416> + <:snap:535534127131394088> → target <:dummy:656844963522281473> <:grico:787904334812807238> → <:piercing:535541258538450944> → stall <:bolg:994189289623662702><:spec:537340400273195028> → click <:vorago:572867742613635082> release <:bolg:994189289623662702><:spec:537340400273195028> + <:sgb:626466665848242186><:eofspec:1257438999794946099> → <:dbow:643848618553507843><:eofspec:1257438999794946099> + <:replenpot:641337470491033600> → <:dbow:643848618553507843><:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:invokedeath:1137809121983336548> → <:necroauto:1137809137401602109>
+
+The image below shows positioning for ceil/vit/GB/TS.
+.img:https://img.pvme.io/images/EICLl961qG.png
+.
+The image below shows positioning for scop/PB.
+.img:https://img.pvme.io/images/rj860gOYC4.png
+
+.
+## __Phase 4__
+.tag:p4
+Apply <:invokedeath:1137809121983336548>,  handle mechanics and get <:vorago:572867742613635082> below 30k HP before last waterfall:
+
+⬥ <:devo:513190158728953857> during reflect or to help tank <:gb:646794380623085579>
+⬥ <:cade:535541306353778689> or <:reflect:535541258786177064> + <:debil:535541278264393729> + <:vitality:654618235097972737> for <:pb:646794381055229953>
+⬥ For vitalis, get 8 <:necrosis:1139452791878856805> before the orb, <:cade:535541306353778689> or <:reflect:535541258786177064> and <:dive:1049378668197195808> to the orb, then <:vulnbomb:655341074235129858> + <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:deathguard90:1138809243143766118><:spec:537340400273195028> → <:volleyofsouls:1159435029592686642> and use <:numbingroot:1285852547453685781> numbing root to clear the first bleed
+⬥ TS may be broken to save time by doing <:rapid:535541270521708566> → 2 GCDs → close <:deathskulls:1159434663903899728> out of waterfall
+
+.
+1 auto before second reflect, drop <:dummy:656844963522281473> → TC + <:deathsporearrows:900758234527301642><:piercing:535541258538450944> → <:wenarrow:971025697046925362><:mds:535541259033378827> → <:deathsporearrows:900758234527301642><:piercing:535541258538450944> → <:devo:513190158728953857> → (switch off <:deathsporearrows:900758234527301642> if 3+ stacks) <:piercing:535541258538450944> → <:mds:535541259033378827> → TC <:vorago:572867742613635082> + equip <:deathguard90:1138809243143766118>
+
+During last waterfall spam <:necroauto:1137809137401602109> on <:vorago:572867742613635082> → TC + <:wenarrow:971025697046925362><:mds:535541259033378827> → <:piercing:535541258538450944> (<:deathsporearrows:900758234527301642> if fewer than 2 stacks) → <:freedom:535541258240786434> → <:nat:535541258131865633> + <:deathsporearrows:900758234527301642><:dbow:643848618553507843> auto → <:crystalbow:925794592849285150><:piercingenergising:867678153979854868> → <:gricocaroming:867678153966878740> → <:piercingenergising:867678153979854868> → <:mds:535541259033378827>
+
+Assemble the <:maul:736524968174682132> during build, stand west of the <:dummy:656844963522281473> so that you face east for the <:surge:535533810004262912> on P5 drop.
+
+.
+## __Phase 5__
+.tag:p5
+Unlike in previous phases, <:vorago:572867742613635082> will only clear the effect of <:vulnbomb:655341074235129858> once 2t after spawn, and will remain under the effect of <:vulnbomb:655341074235129858> after the second one is thrown.
+.
+Drop <:dummy:656844963522281473> + TC + <:deathsporearrows:900758234527301642><:incend:535541258429661215> + <:surge:535533810004262912> → <:gdeathsswift:994644354536837121> + <:dbow:643848618553507843>auto → equip <:bolg:994189289623662702> + <:wenarrow:971025697046925362><:grico:787904334812807238> → <:piercing:535541258538450944> → <:ingen:641339234111848463> + stall <:shadowtend:642713547142332416> + <:vulnbomb:655341074235129858> → TC + release <:shadowtend:642713547142332416> + <:sgb:626466665848242186><:eofspec:1257438999794946099> → <:vulnbomb:655341074235129858> + <:bolg:994189289623662702><:spec:537340400273195028> + take 2 steps back → <:snap:535534127131394088> → <:zammybow:1215929540908679208><:eofspec:1257438999794946099> → <:zammybow:1215929540908679208><:eofspec:1257438999794946099> + <:replenpot:641337470491033600> → <:zammybow:1215929540908679208><:eofspec:1257438999794946099> → <:zammybow:1215929540908679208>/<:grico:787904334812807238> + <:surge:535533810004262912> + <:maul:736524968174682132>
+
+.
+## __Example Kills__
+.tag:examples
+Note that these kills do not follow the exact rotations outlined in this guide, but show general positioning and mechanic management.
+.tag:example
+.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Example Kills__",
+        "value": "⬥ [6:54 Ceilings](https://www.youtube.com/watch?v=1KzqiEljnSQ)\n⬥ [7:11 Scopulus](https://www.youtube.com/watch?v=3EHDcEF-_eE)\n⬥ [7:06 Vitalis](https://www.youtube.com/watch?v=3fpOw9_sHRM)\n⬥ [7:14 Green Bomb](https://www.youtube.com/watch?v=FqGvhqRyi4A)\n⬥ [7:13 Teamsplit](https://www.youtube.com/watch?v=M5BGFg9fXdo)\n⬥ [7:55 Purple Bomb](https://www.youtube.com/watch?v=CYfL43n7U14)\n"
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_p1$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_p2$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_p3$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_p4$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 5__",
+        "value": "[Link]($linkmsg_p5$)",
+        "inline": true
+      },
+      {
+        "name": "__Example Kills__",
+        "value": "[Link]($linkmsg_examples$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
