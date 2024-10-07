@@ -174,6 +174,31 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
 .embed:json
 
 .
+## __Gate of Elidinis__
+.tag:gate
+{
+  "embed": {
+    "title": "",
+    "description": "[Wiki](https://runescape.wiki/w/The_Gate_of_Elidinis#Drops)",
+    "color": 10723966,
+	"thumbnail": {
+      "url": "https://img.pvme.io/images/q6dg871tRo.png"
+    },
+    "fields": [
+      {
+        "name": "__GP/Kill__",
+        "value": "⬥ Commons <:coins:698816156961603654> $data_pvme:gpkill_gate_commons$\n⬥ Total <:coins:698816156961603654> $data_pvme:gpkill_gate$"
+      },
+      {
+        "name": "__GP/Hour__",
+        "value": "⬥ 2cc strategy ($data_pvme:kph_gate$ kph) <:coins:698816156961603654> $data_pvme:gphour_gate$"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
 ## __Gregorovic__
 .tag:greg
 {
@@ -734,13 +759,13 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
            "inline": false
          },
          {
-           "name": "__Bosses (A-K)__",
-           "value": "⬥ [Arch-Glacor]($linkmsg_ag$)\n⬥ [Araxxor]($linkmsg_rax$)\n⬥ [Croesus]($linkmsg_croesus$)\n⬥ [ED1]($linkmsg_ed1$)\n⬥ [ED2]($linkmsg_ed2$)\n⬥ [ED3]($linkmsg_ed3$)\n⬥ [Gregorovic]($linkmsg_greg$)\n⬥ [Helwyr]($linkmsg_helwyr$)\n⬥ [Kalphite King]($linkmsg_kk$)\n⬥ [Kerapac]($linkmsg_kerapac$)",
+           "name": "__Bosses (A-H)__",
+           "value": "⬥ [Arch-Glacor]($linkmsg_ag$)\n⬥ [Araxxor]($linkmsg_rax$)\n⬥ [Croesus]($linkmsg_croesus$)\n⬥ [ED1]($linkmsg_ed1$)\n⬥ [ED2]($linkmsg_ed2$)\n⬥ [ED3]($linkmsg_ed3$)\n⬥ [Gate of Elidinis]($linkmsg_gate)\n⬥ [Gregorovic]($linkmsg_greg$)\n⬥ [Helwyr]($linkmsg_helwyr$)",
            "inline": true
          },
          {
-           "name": "__Bosses (L-R)__",
-           "value": "⬥ [Legiones]($linkmsg_legio$)\n⬥ [Magister]($linkmsg_magi$)\n⬥ [Nex]($linkmsg_nex$)\n⬥ [Nex: AoD]($linkmsg_aod$)\n⬥ [Raksha]($linkmsg_raksha$)\n⬥ [Rasial]($linkmsg_rasial$)\n⬥ [Rex Matriarchs]($linkmsg_rexmatriarchs$)\n⬥ [Rise of the Six]($linkmsg_rots$)",
+           "name": "__Bosses (K-R)__",
+           "value": "⬥ [Kalphite King]($linkmsg_kk$)\n⬥ [Kerapac]($linkmsg_kerapac$)\n⬥ [Legiones]($linkmsg_legio$)\n⬥ [Magister]($linkmsg_magi$)\n⬥ [Nex]($linkmsg_nex$)\n⬥ [Nex: AoD]($linkmsg_aod$)\n⬥ [Raksha]($linkmsg_raksha$)\n⬥ [Rasial]($linkmsg_rasial$)\n⬥ [Rex Matriarchs]($linkmsg_rexmatriarchs$)\n⬥ [Rise of the Six]($linkmsg_rots$)",
            "inline": true
          },
          {
