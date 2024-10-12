@@ -6,9 +6,9 @@
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
-This guide is aimed at players looking to kill Arch-Glacor at **3500%-4000%** Enrage and assumes strong underlying knowledge of all information presented in <#1251054659750330518>.
+This guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%** Enrage and assumes strong underlying knowledge of all information presented in <#1251054659750330518>.
 
-This guide will also work at **0%-3500%**, however should be adjusted as required.
+This guide will also work from **0%**, however should be adjusted as required.
 
 The Arch-Glacor is **not** affected by Slayer tasks in hard mode.
 
@@ -19,61 +19,76 @@ The Arch-Glacor is **not** affected by Slayer tasks in hard mode.
   "embed": {
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/guEiijrGmM.png"
+            "url": "https://img.pvme.io/images/3QDpD4OQzY.png"
       },
     "fields":[
         {
             "name":"__Preset Suggestions__",
-            "value":"⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/3sFXyzpMNFU9u7rUtThk) <:necromancy:1148995625896120460>"
+            "value":"⬥ [Necromancy preset](https://pvme.io/preset-maker/#/kiiC3WdXl6hEex7mMUFZ) <:necromancy:1148995625896120460>"
       }
     ]
   }
 }
 .embed:json
-### Preset Notes
-
-⬥ Depending on the enrage and personal preference, the following Auras can be used:
-    • Aegis Aura <:aegis:1204128299241177148> (Blocks 10% of all incoming damage)
-    • Vampyrism Aura <:vampaura:643505653079343144> (Gain life points equal to 5% damage dealt, capping at 50 life points per hit. This provides increased damage through Blood Reaver <:reaverpouch:839903693837959228> attacks applying poison)
-    • Mahjarrat Aura <:mahj:643148943856762890> (Increases damage dealt by 5%)
-    • Supreme Invigorate Aura <:invigaura:643505652865695767> (10% additional adrenaline will be maintained after using an ultimate)
-
-⬥ If using power armour, you can spirit shield flick to help manage auto attack damage, although this is not required.
-
-⬥ <:reaverpouch:839903693837959228> is generally considered the best familiar for all high-enrage strategies due to the strong healing over an extended fight.
-    • Ensure <:prismofrestoration:938475261366784070> is used to keep Reaver alive.
-
 .
-⬥ Darkness <:darkness:1137809209782698024> should be active at all times, but please note that this can result in dodging attacks during <:res:535541258844635148>.
-
-⬥ Penance Powder <:powderofpenance:928221126360969226>, Kwuarm Incense Sticks <:kwuarmsticks:565726489341984779>, Lantadyme Incense Sticks <:lantasticks:565726489404899368>, and Spirit Weed Incense Sticks <:spiritsticks:565726489136463894> should be used before the fight.
+{
+	"embed": {
+		"title": "",
+    "color": 39423,
+		"fields": [
+{
+  		"name": "__Buffs & checklist;__",
+              "value": "⬥ <:powderofpenance:928221126360969226> Powder of Penance - Optional, replaces blessed flask at increased cost\n⬥ <:weppoison:689525476158472288> Weapon poison used at bank \n⬥ <:darkness:1137809209782698024> Darkness active\n⬥ <:limitless:641339233638023179> Limitless Sigil unlocked\n⬥ Bonfire + thermal spa HP boosts <:thermalflask:689530593796423724> are active\n⬥ <:kwuarmsticks:565726489341984779> Kwuarm & <:spiritsticks:565726489136463894> Spirit weed incense at 4 stacks",
+"inline": true
+  }
+  ]
+}
+}
+.embed:json
 
 .
 ### General Rotations
 .tag:strategy
-⬥ Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. In general, aim to use <:bloat:1159433682403201044> and <:omniguard:1138809234922934282> <:spec:537340400273195028> as often as possible.
+⬥ Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. In general, aim to upkeep <:bloat:1159433682403201044> & <:conjurearmy:1166094935066423348> as much as possible.
 
-⬥ Living Death <:livingdeath:1159434908486357072> rotations can be used where comfortable, such as during the Flurry mechanic.
+⬥ <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> , <:touchofdeath:1137809175980810380> and <:divert:787904334377648130> , are all high value abilities with medium-length cooldowns. Aim to **put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight. This keeps their cooldown ticking down, while you're using defensives to build adren during the mechanic.
 
-⬥ Ensure that some Necrosis Stacks <:necrosis:1139452791878856805> or Residual Souls <:residualsoul:1139453152169558046> are held for the Exposed Core or Glacyte Minions special attacks.
+⬥ Living Death <:livingdeath:1159434908486357072> is best used during the flurry mechanic. This mechanic gives you a long, uninterrupted window in which you can deal damage to Arch-Glacor. It can situationally be used to reset <:deathskulls:1159434663903899728> cooldown in **anticipation of an upcoming exposed core mechanic**. <:livingdeath:1159434908486357072> shouldn't be strategically reserved for arms, as the time it takes to clear the mechanic doesn't largely change with or without the ult active.
 
-⬥ It is best to start the fight with <:nat:535541258131865633> in order to be sufficiently prepared for Exposed Core (arms) as the first mechanic.
+⬥ Ensure that some Necrosis Stacks <:necrosis:1139452791878856805> (4+) and Residual Souls <:residualsoul:1139453152169558046> (2+) are held for the Exposed Core.
+
+⬥ It is best to start the fight with <:bloat:1159433682403201044> , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attack. Therefore it is important to use a low-investment cooldown/ability before knowing what the upcoming mechanic will be.
+.
+⬥ Both tank gear and TFN should be bound for swapping.
+
+    • **TFN gear should be used in the following conditions**;
+        ⬩ Exposed core mechanic is active.
+        ⬩ Pillars of ice mechanic is active.
+        ⬩ <:disrupt:535614336207552523> / <:devo:513190158728953857> / <:cade:535541306353778689> is active.
+        ⬩ Equipped before casting <:conjurearmy:1166094935066423348> .
+        ⬩ Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).
+        ⬩ Do not spam swapping between TFN and tank gear between every ability/AG auto, as this will frequently fluctuate your max HP, causing your reaver to heal you above 11K HP, however swapping back to DPS gear will nullify the reaver's healing effect.
+
+    • In all other situations, **tank gear** should always be worn in cases when you are taking damage.
+
+⬥ It is important to note that **ranged autos during flurry**, will deal the most damage, as 3pc cryptbloom buff doesn't negate ranged damage. On average, the 3pc cryptbloom provides superior damage reduction over 4pc deathwarden.
+.
+### Exposed Core (Arms)
+⬥ Before the Exposed Core mechanic, ensure that either Necrosis Stacks <:necrosis:1139452791878856805> or Residual Souls <:residualsoul:1139453152169558046> are built.
+⬥ Have your conjures <:conjurearmy:1166094935066423348> active and Ghost commanded <:commandghost:1159434409913634816>.
+    • In some cases, it may be wise to equip <:excal:641337999170207763> excalibur to dismiss conjures, and re-conjure <:conjurearmy:1166094935066423348> to refresh their timer before the next mechanic, if you are anticipating arms coming soon in the spec order. It is essential that conjures have a long enough timer to be **active throughout the entire mechanic.**
+⬥ Use <:limitless:641339233638023179> / <:adrenrenewal:736298121704767538> where required depending on adrenaline in order to use <:devo:513190158728953857> .
+⬥ If you need to <:cade:535541306353778689> , use <:divert:787904334377648130> and flick to <:soulsplit:615613924506599497> for 1 tick to get to 100% adrenaline.
+⬥ ~20s into exposed core, you can swap to tank gear to benefit from 3pc cryptbloom's magic damage reduction% passive.
 
 .
-### Clearing Exposed Core (Arms)
-⬥ Before the Exposed Core mechanic, ensure that either Necrosis Stacks <:necrosis:1139452791878856805> or Residual Souls <:residualsoul:1139453152169558046> are held to quickly kill the arm.
-⬥ Ideally have your Conjures <:conjurearmy:1166094935066423348> alive and Ghost pre-commanded <:commandghost:1159434409913634816>.
-⬥ Use <:limitless:641339233638023179> where required depending on adrenaline in order to use <:devo:513190158728953857> if the magic damage is scaling up.
-⬥ If you need to use <:cade:535541306353778689> and your adren situation is dire (such as on back to back Exposed Core mechanics at high enrage where <:devo:513190158728953857> will be on cooldown), use <:divert:787904334377648130> and flick to <:soulsplit:615613924506599497> for 1 tick.
+**__Example Arms rotation:__**
+⬥ Closely follow the rotation below in priority of cooldowns and stacks available.
+    • If starting with low <:residualsoul:1139453152169558046> soul stacks (1-2), use <:soulstrikeflank:1156683164593430579> over <:volleyofsouls:1159435029592686642>.
+    • Use <:soulsap:1137809140476031057> & <:touchofdeath:1137809175980810380> where appropriate to build adren and stacks before dumping.
+    • <:bloat:1159433682403201044> , <:deathskulls:1159434663903899728> , and <:commandskeleton:1137809194423160883> should always be used first, as their damage is dealt over time.
 
-.
-__Example Arms rotation:__
-⬥ A general rotation would be:
-    • <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → (tc) <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> / <:omniguard:1138809234922934282> <:spec:537340400273195028> OR
-    • <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → (tc) <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:deathskulls:1159434663903899728> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> / <:omniguard:1138809234922934282> <:spec:537340400273195028> OR
-    • <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → (tc) <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:deathskulls:1159434663903899728> → <:soulstrikeflank:1156683164593430579> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:soulstrikeflank:1156683164593430579> → <:soulstrikeflank:1156683164593430579> → <:soulsap:1137809140476031057> / <:soulstrikeflank:1156683164593430579> → Fillers
-
-*Note: This rotation will need to be amended based your Necrosis Stacks <:necrosis:1139452791878856805> and Residual Souls <:residualsoul:1139453152169558046>.*
+        ⬩ <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → (tc) <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:deathskulls:1159434663903899728> → <:commandskeleton:1137809194423160883> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> (6/8 <:necrosis:1139452791878856805> , use <:fingerofdeath:1159434801938432010> →<:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> if at 12/12) → <:commandzombie:1137809191231295549> → <:commandphantom:1280109200432959528> → <:devo:513190158728953857> → <:omniguard:1138809234922934282> <:spec:537340400273195028>
 
 *Note: Use <:devo:513190158728953857> when required.*
 
@@ -81,26 +96,27 @@ __Example Arms rotation:__
 
 .
 ### Clearing Glacyte Minions
+⬥ Use <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> once at 5 <:residualsoul:1139453152169558046> stacks. continue casting <:spectralscythe:1137809145706319892> & <:soulsap:1137809140476031057> until at 5/5.
+    • Always cast <:spectralscythe:1137809145706319892> before <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> , as this starts its 15s cooldown which lets it be available for a second use before <:volleyofsouls:1159435029592686642> \#3
+    • Always target the bolstering glacyte. This causes perks such as crackling, and jas book damage to activate on it. With this strategy, bolstering glacyte at 4000% enrage should die shortly after the four weaker minions.
+    • Cast <:vulnbomb:655341074235129858> on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.
 
-⬥ 3+ Residual Souls <:residualsoul:1139453152169558046>
-    • <:debil:535541278264393729> Arch-Glacor → <:bloat:1159433682403201044> Bolstered Glacyte → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642>
+__Rotation;__
 
-⬥ 0-2 Residual Souls <:residualsoul:1139453152169558046>
-    • <:debil:535541278264393729> Arch-Glacor → <:bloat:1159433682403201044> Bolstered Glacyte → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+⬥ <:soulsap:1137809140476031057> → <:spectralscythe:1137809145706319892> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:spectralscythe2:1137809149690916945> →  <:spectralscythe3:1137809152043925505> → <:soulsap:1137809140476031057> → <:spectralscythe:1137809145706319892> / <:volleyofsouls:1159435029592686642>
 
-⬥ In either scenario, if the Glacyte Minions are still alive after the rotation, use:
-    • (High HP) <:anti:535541306475151390> → <:spectralscythe:1137809145706319892> → <:spectralscythe2:1137809149690916945> → <:spectralscythe3:1137809152043925505>
-    • (Low HP) <:anti:535541306475151390> → fillers to proc Death Mark
-
-*Note: <:soulsplit:615613924506599497> flick on volley as required for healing.*
+*Note; movement used in example videos on minion clears helps reduce freezing blood stack gain. 10 stacks of freezing blood will apply a 3s bind and stun.*
 .
-### Defensive Usage
+### Defensive & utility usage
 ⬥ At higher enrage, you will want to prioritise defensives as follows,
-    • **Frost Cannon**: <:anti:535541306475151390> → <:DeflectMage:544195487926845462> <:reflect:535541258786177064> → <:soulsplit:615613924506599497> <:res:535541258844635148>
+    • **Frost Cannon**: <:anti:535541306475151390> → <:veng:543478434953822208> + <:soulsplit:615613924506599497> + <:reflect:535541258786177064> → <:reprisal:513190159462694912> + <:vitality:654618235097972737> **(In TANK GEAR & max HP)**
+        ⬩ **Always wear tank gear** for this mechanic.
+        ⬩ Alternatively; <:anti:535541306475151390> → <:vitality:654618235097972737> / <:shielddome:537341954392850442> / <:disrupt:535614336207552523> / <:debil:535541278264393729> / <:reflect:535541258786177064> / <:res:535541258844635148> (hit 3, don't need to combo with defensives) / spam food + be overhealed with brew on first hit. Use of any one of these will ensure you survive the mechanic.
     • **Exposed Core** (arms): <:devo:513190158728953857> → <:divert:787904334377648130> → <:cade:535541306353778689> as needed
     • **Glacyte Minions**: <:debil:535541278264393729> (and, rarely, <:anti:535541306475151390>/<:freedom:535541258240786434> to block or clear stun)
-    • **Flurry**: <:vitality:654618235097972737> / <:disrupt:535614336207552523> / <:res:535541258844635148> (unless cannon imminent)
-    • **Pillars of Ice**: <:prep:535541258546970624> / <:voke:535541259465392143> for adrenaline
+    • **Flurry**: <:disrupt:535614336207552523> / <:reflect:535541258786177064> → <:divert:787904334377648130> (deals ~27k at 4000%) → <:debil:535541278264393729> if needed.
+    • **Pillars of Ice**: <:lifetransfer:1137809128136388819> → <:anti:535541306475151390> → <:prep:535541258546970624> → <:commandskeleton:1137809194423160883>
+        ⬩ <:commandskeleton:1137809194423160883> can deal damage even if the player doesn't have LOS, depending on the skeleton's position.
 
 .
 ## __Example Kills__
@@ -114,7 +130,7 @@ __Example Arms rotation:__
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [4000% 13:34](https://youtu.be/yGA2yRJgDpo?si=gb_QWosXjaP1jYnr)\n⬥ [4000% 15:55](https://www.youtube.com/watch?v=vcikLxQ7rnM)"
+        "value": "⬥ [4000% 10:27](https://youtu.be/Yh_RTQFzAzE?si=ibQEooxVRlyO3Ya3)\n⬥ [4000% 3 hour VOD, unedited](https://www.youtube.com/watch?v=4iVvCd8eCCM)"
       }
     ]
   }
