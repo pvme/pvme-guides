@@ -1,27 +1,22 @@
 {
   "embed": {
     "title": "__Familiar__",
-    "description": "Default to Ripper Demon <:ripperpouch:703581275453128714> or Kalg Demon <:kalgpouch:921410226484301925> if no listed category applies",
+    "description": "Default to <:ripperpouch:703581275453128714> or <:kalgpouch:921410226484301925> for damage, or <:reaverpouch:839903693837959228> for healing",
     "color": 39423,
     "fields": [
       {
-        "name": "__Kal'gerion Demon__ <:kalgpouch:921410226484301925>",
-        "value": "⬥ If using <:fsoa:869284271595069451> <:spec:537340400273195028>\n⬥ If no other <:kalgpouch:921410226484301925> present\n⬥ Or no <:ripperscroll:703581275155464203> + <:spiritualprayer:651079281882955787> w/ <:ripperpouch:703581275453128714>\n⬥ Or if doing EDs / <:tzkalzuk:931175752651653121>\n⬥ Or if <:vorago:572867742613635082> with <:dragonscimitar:1048592044731400252> <:spec:537340400273195028>",
+        "name": "__Damage__",
+        "value": "⬥ Kal'gerion Demon <:kalgpouch:921410226484301925>\n\u00a0\u00a0\u00a0\u00a0• If no other <:kalgpouch:921410226484301925> present\n⬥ Ripper Demon <:ripperpouch:703581275453128714>\n\u00a0\u00a0\u00a0\u00a0• If using <:ripperscroll:703581275155464203> + <:spiritualprayer:651079281882955787>\n⬥ Nihils <:smokenihil:854475442227642388> <:bloodnihil:854475442169053194> <:icenihil:854475442164334592> <:shadownihil:854475441946230855>\n\u00a0\u00a0\u00a0\u00a0• If hit chance is low (e.g., <:vorago:572867742613635082>)",
         "inline": true
       },
       {
-        "name": "__Nihil__ <:shadownihil:854475441946230855> <:icenihil:854475442164334592> <:smokenihil:854475442227642388> <:bloodnihil:854475442169053194>",
-        "value": "⬥ Low hitchance content:\n\u00a0\u00a0\u00a0\u00a0• <:vorago:572867742613635082> (no <:dragonscimitar:1048592044731400252> <:spec:537340400273195028>)\n\u00a0\u00a0\u00a0\u00a0• <:telos:513212949033123840> (no <:swh:641670143197446182> <:spec:537340400273195028>)\n\u00a0\u00a0\u00a0\u00a0• RoTS <:guthan:513226730002055169>\n\u00a0\u00a0\u00a0\u00a0• Nex <:nex:513213159071547395>",
+        "name": "\u200b",
+        "value": "\u200b",
         "inline": true
       },
       {
-        "name": "__Blood Reaver__ <:reaverpouch:839903693837959228>",
-        "value": "⬥ <:poisonicon:944649693500154006>-based AFK content\n⬥ If using Bik arrows <:bikarrow:971025697235689513>\n⬥ <:poisonicon:944649693500154006>-based content with many healing sources\n⬥ Want a healing familiar",
-        "inline": true
-      },
-      {
-        "name": "__Hellhound__ <:hellhoundpouch:921410226475925514>",
-        "value": "⬥ Pushing <:zamorak:994914159969976440>",
+        "name": "__Survivability__",
+        "value": "⬥ Blood reaver <:reaverpouch:839903693837959228>\n⬥ Hellhound <:hellhoundpouch:921410226475925514>\n\u00a0\u00a0\u00a0\u00a0• Absorbs damage (e.g., pushing <:zamorak:994914159969976440>)\n⬥ Unicorn stallion\n\u00a0\u00a0\u00a0\u00a0• Heals more than <:reaverpouch:839903693837959228>; does **not** auto-fire",
         "inline": true
       }
     ]
