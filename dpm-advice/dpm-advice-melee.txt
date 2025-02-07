@@ -2,286 +2,257 @@
 .tag:intro
 *Note: a **Table of Contents** can be found in the pins.*
 
-In RuneScape PvM, the meta at the time of writing is about pushing out as much damage in as little time as possible. It is important to understand that good and efficient PvM, especially at the higher tiers, is about squeezing out as much damage as possible in between mechanics.
-
-This channel will go over general damage output lessons, ability prioritisation, crafting a rotation, a learning path, common mistakes, and tips and tricks.
+This channel explores Melee <:melee:1096130867279171706> in detail, including how to increase your damage output, ability prioritisation, crafting a rotation and explanations of commonly-used abilities and gear.
 
 .
-## __Related Channels__
-.tag:related
-For further information and reading, you can refer to the following resources.
-.
-{
-  "embed": {
-    "title": "__Quick Navigation Links__",
-    "description": "Links to related channels and resources for more information about PvM and DPS.",
-    "color": 15158332,
-    "fields": [
-      {
-        "name": "__DPM-Advice Channels__",
-        "value": "⬥ <#1252196384321568893>\n⬥ <#1252196381851127870>\n⬥ <#1252196383159484519>",
-        "inline": true
-      },
-      {
-        "name": "__Misc. Info__",
-        "value": "⬥ <#1280396408008216587>\n⬥ <#1020550458231771157>\n⬥ <#1020550599248466050>\n⬥ <#1250862462442410216>",
-        "inline": true
-      },
-      {
-        "name": "__Invention__",
-        "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
-
-.
-## __Revolution Bars and General Background Knowledge__
-.tag:generalinfo
-For general PvM terminology, DPS tips, and revolution bars, check out their respective sections in <#1252196386452144249>.
-
-.
-## __Ability Information__
-.tag:info
-.
-{
-  "embed": {
-    "title": "__Ability Information Resources__",
-    "description": "The following links contain information about abilities and auto attacks.",
-    "color": 15158332,
-    "fields": [
-      {
-        "name": "__Ability Information__",
-        "value": "For accurate tooltips and information about specific spells (auto attacks) and abilities and how they work refer to <#1280396408008216587>."
-      },
-      {
-        "name": "__Ability Damage Maths__",
-        "value": "To calculate your ability hit damage in detail, [click here](https://rs-analysis.xyz/).\nThis is affected by factors such as your gear and other boosts."
-      },
-      {
-        "name": "__Ability Hit Timings__",
-        "value": "To see detailed breakdowns on ability hit timings, [click here](https://docs.google.com/spreadsheets/d/17S4WGJ5iRVxy4kyn3tzrGDQb10O6tKAkNBnl7MaSE64/).\nThis refers to when hitsplats appear on your target."
-      },
-      {
-        "name": "__Auto-attack Adren Gain__",
-        "value": "To see adrenaline gained with different auto attacks, [click here](https://img.pvme.io/images/7EINzgc.png)."
-      }
-    ]
-  }
-}
-.embed:json
-*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
-
-.
-## __Ability Prioritisation__
-.tag:priority
-⬥ Generally, high damaging abilities should be prioritised and used more often than low damaging abilities.
-⬥ To compare abilities, use [RS Analysis' Melee Page](<https://rs-analysis.xyz/melee.html>), and add your gear.
-.
-*Note: This does **not** give an ability rotation, only a damage comparison chart. It does not consider Ability Cooldowns, Adrenaline, or any specific PvM encounter.*
-
-.
-## __Dual Wield vs 2H Camp__
+## __Weapon Camping__
 .tag:camping
-*Note: This compares strictly camping dual-wield vs. camping 2H, but it is recommended to juggle, as it gives access to all the following benefits and more.*
+> *"Camping"* means to use one weapon/set for all attacks.
+> *"Juggling"* means to switch between gear to maximise damage output.
+
+Although camping has become far more common with recent powercreep, for most situations juggling is still recommended to maximise damage output.
+
+In you want to weapon camp (for example if you have accessibility considerations or you are AFKing), use the following lists to decided which is best for your situation:
 .
-### Dual-wield Camp Benefits <:abyssalscourge:947871842469834832> + <:lengmh:883134308146098227> <:lengoh:883134308070604870>
-⬥ Access to Destroy <:destroy:535532879330148352> as an ability.
-⬥ Easier & cheaper switches like Flanking <:flank4:712073088296157185> on your off-hand.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__DW Camp Benefits__",
+        "value": "E.g., <:abyssalscourge:947871842469834832> <:lengmh:883134308146098227> <:lengoh:883134308070604870>\n✓ Access to <:destroy:535532879330148352> and <:gflurry:535532879283879977>\n✓ Lengs <:lengmh:883134308146098227> special attack <:spec:537340400273195028>\n✓ Gloves of Passage <:Glovesofpassage:556588694862037012> make <:smash:535532879820619786> / <:havoc:535532879300526080> viable basics\n✓ <:abyssalscourge:947871842469834832> has a strong passive effect\n✓ More options (and often cheaper) for specialised perks like <:genocidal:689503091539705870> / <:undeadslayerperk:689502804720615441> / <:lunging:1009423860875153559>\n\u200B",
+        "inline": true
+      },
+      {
+        "name": "__2H Camp Benefits__",
+        "value": "E.g., <:noxscythe:513190159341322240> <:zgs:626465964325601290> <:mwspear:694566917456789554> <:lanispear:839903893177106454>\n✓ Access to multiple AOE abilities <:cleave:535532878616985610>, <:quake:535532879506309150>, <:cane:535532878969438210> and <:meteorstrike:535532879359377439>\n✓ Access to weapons with AOE range\n✓ 2H autos > DW autos\n✓ Ability to still use <:bd:535532854281764884> with <:Laceration:602581988599398400>\n\u200B",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
 
 .
-### 2H Camp Benefits <:noxscythe:513190159341322240> <:zgs:626465964325601290> <:mwspear:694566917456789554>
-⬥ Access to 2H autos, which are much stronger than dual-wield autos.
-⬥ Access to halberd-range weapons like Laniakea's Spear <:lanispear:839903893177106454> and Noxious Scythe <:noxscythe:513190159341322240> for bigger 5x5 AoEs.
-    • With Laceration boots <:Laceration:602581988599398400> even Bladed Dive <:bd:535532854281764884> can become a 5x5 AoE.
-    • Benefits abilities like Hurricane <:cane:535532878969438210> and Meteor Strike <:meteorstrike:535532879359377439>.
-⬥ Some AFK Methods may benefit from the bleed-extending effect of the Masterwork Spear of Annihilation <:mwspear:694566917456789554>, etc.
-⬥ Can be more revolution-friendly, such as for Slayer <:slayer:797896049548066857> tasks or AFK grinding methods.
+### *Disclaimer: From here on, this guide assumes you will be juggling weapons.*
 
 .
-## __Building a Melee Rotation__
-.tag:rotation
-Here we'll cover some of the points to keep in mind to build a successful Melee DPS rotation. **For more information on how these rotations are affected by certain items or switches, such as see the __Important Items__ section**.
+## __Basic Ability Prioritisation__
+.tag:basics
+Like other styles, effective adrenaline management is essential for maximising Melee DPS. By balancing adrenaline-building basics with high-damage thresholds and ultimates, you ensure smooth rotations, minimise downtime, and stay ready to activate Berserk or other key abilities as soon as they’re available.
 
-*Note 1: In the current meta, camping dual-wield > camping 2H, but you can juggle weapons at times. Additionally, some switches used in melee are 2H.*
-*Note 2: If Greater Fury <:gfury:535532879334080527> is unlocked, you can replace Fury <:fury:535532879510372352>, with it.*
-
-.
-### Managing Cooldowns
-⬥ **High damaging abilities often come with long cooldowns** - when building a rotation, ability prioritisation *and* cooldowns should be on your mind.
-⬥ If you use all of the high damaging abilities at once, their cooldowns will force you to use multiple weak abilities in succession while waiting to use them again.
-⬥ To avoid this problem, you want to **use filler abilities to space out your high damage abilities**, to pace yourself and manage cooldowns.
-⬥ The filler abilities that you can build your rotations around for melee can vary, based on camping a single weapon or juggling dual-wield and 2H:
-    • **If camping weapons: (Greater) Fury <:gfury:535532879334080527> / <:fury:535532879510372352> will be used as fillers.**
-        ⬩ Both have decent damage (157% maximum damage) **and** short cooldowns (9t/5.4s, or 3 GCDs).
-        ⬩ They can be used with both dual-wield and 2H.
-    • **If juggling 2H/DW: (Greater) Fury is still an option, but now Cleave <:cleave:535532878616985610> and Decimate <:deci:535532879325822986> can form the backbone of rotations.**
-        ⬩ <:cleave:535532878616985610> and <:deci:535532879325822986> are both strong (188% maximum damage) and have cooldowns of relatively short cooldowns (12t)
-    • Both have decent damage (157% maximum damage) **and** short cooldowns (12t/7.2s or 4 GCDs).
-    • *They do not share cooldowns* - if using 2H/DW switches, you can use both.
+Use the following prioritised lists (i.e. ability at the top is best) to understand which basics are best to use:
 
 .
-### Basic Pattern
-⬥ When camping either 2H or DW, Fury <:fury:535532879510372352> should form the foundation of your rotation. Aside from being a suitable filler ability, it also provides a crit chance buff that helps boost the following ability.
-    • Remember to cancel <:fury:535532879510372352> after 2 hits (3t/1.8s), by using the next ability as soon as possible. This is not required when using <:gfury:535532879334080527>
-⬥ **The basic pattern when camping 2H or DW uses <:fury:535532879510372352> often, in 'blocks' of 3 abilities**:
-    • [ <:fury:535532879510372352> → Ability → Ability ] → Repeat
-.
-⬥ When building adrenaline, fill the empty slots with strong basics like the following, prioritising those that can crit. Various updates have evolved some basics into **Elite** versions. These are stronger than core basics and further elaborated later.
-⬥ **Elite Basics:**
-    • Havoc (with Gloves of Passage) <:havocgop:994920849117282365>
-        ⬩ Ensure bleeds are active during the <:havocgop:994920849117282365> effect <:abyssalscourge:947871842469834832> <:mwspear:694566917456789554>
-    • Punish (if target has less than half health) <:punish:535532879439069184>
-    • Dismember (Lunge) <:dismemberlunge:867678153899769876>
-    • Backhand (Flanking) <:backhandflank:867678153854025779>
+### __Basics by priority (gear-modified)__
+⬥ <:dismember:535532879376023572> Dismember
+    • with <:strcape:1172654837616353320> + <:mwspear:694566917456789554> + Lunging 4 <:lunging:1009423860875153559>
+    • with <:strcape:1172654837616353320> + <:mwspear:694566917456789554>
+⬥ <:punish:535532879439069184> Punish with enemy <50% health
+⬥ <:dismember:535532879376023572> Dismember
+    • with <:strcape:1172654837616353320>
+    • with <:mwspear:694566917456789554>
+⬥ <:gfury:535532879334080527> Greater Fury
+⬥ <:backhandflank:867678153854025779> Backhand with Flanking 4 <:flank4:712073088296157185>
+⬥ <:dismember:535532879376023572> Dismember with Lunging 4 <:lunging:1009423860875153559>
+⬥ <:slice:535532879594258432> Slice when enemy is stunned following <:gbarge:535532879250456578> / <:fbackhand:535532879346794516> / <:stomp:535532879552315412>
+⬥ Continue to the list below...
 
-⬥ **Core Basics: **
-    • Decimate (DW) <:deci:535532879325822986>
-    • Cleave (2H) <:cleave:535532878616985610>
-    • Sever <:sever:535532879577612298>
-    • Dismember <:dismember:535532879376023572>
-    • Havoc (DW) <:havoc:535532879300526080>
-    • Smash (2H) <:smash:535532879820619786>
-        ⬩ Anything weaker than this (157% maximum damage) should be avoided.
-.
-*Note 1: <:dismember:535532879376023572> cannot crit but is still a strong ability.*
-*Note 2: With Gloves of Passage <:Glovesofpassage:556588694862037012> worn, <:havoc:535532879300526080> can potentially be stronger than abilities like <:cleave:535532878616985610> and <:deci:535532879325822986> - see the section on __**Gloves of Passage**__ for more info.*
-
-⬥ When it comes to weapon juggling, some recent powercreep has made 2H/DW juggling *for the sake of having more abilities* to use less common.
-    • Lengs <:lengmh:883134308146098227> <:lengoh:883134308070604870> have a powerful special attack <:spec:537340400273195028>.
-    • Enhanced Gloves of Passage <:Glovesofpassage:556588694862037012> makes <:havoc:535532879300526080> strong.
-    • With Abyssal Scourge <:abyssalscourge:947871842469834832> camping DW becomes extremely strong due to its passive effect.
-    • <:cleave:535532878616985610> becomes more of a filler ability than something you aim to constantly use.
-
-⬥ Prior to getting the above upgrades, **if you juggle 2H/DW, a basic rotation using <:cleave:535532878616985610> and <:deci:535532879325822986> in 'blocks' of 4**:
-    • [ <:cleave:535532878616985610> → <:deci:535532879325822986> → Ability → Ability ] → Repeat
-.
-***Note**: This pattern becomes less important as you add the upgrades mentioned earlier, and you may prioritise more dual-wield abilities over switching to 2H for <:cleave:535532878616985610> specifically.*
-
-⬥ Once your rotation gets going, you can start using abilities like thresholds or better to fill in the blanks.
+> Note: <:dismember:535532879376023572> should not be used during <:zerk:535532854004678657>
 
 .
-### Building The Rotation
-*Note: The default Berserk <:zerk:535532854004678657> duration is 34t/20.4s seconds, but can be extended to 44t/26.4s from the 3-piece set effect of Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>. Examples of full Berserk rotations can be found at the bottom of this guide in the __**General Berserk Rotations**__ section.*
-.
-⬥ Berserk <:zerk:535532854004678657> lasts 20 seconds, but only has a 60 second cooldown. **We want to prioritise building to 100% adrenaline and using Berserk often, as it boosts damage by 100%.**
-    • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration.
-    • Ideally, enter boss fights with 100% adrenaline so you can activate it immediately at the start.
-.
-⬥ **You can think of your overall rotation as two repeating sections**:
-    • [20.4s inside <:zerk:535532854004678657>] → [39.6s outside] → Repeat
-.
-⬥ Both in and out of Berserk <:zerk:535532854004678657>, you will want to prioritise your strong thresholds, special attacks, and modified ultimates.
-    • Assault <:assault:535532855191928842>
-    • Destroy <:destroy:535532879330148352>
-    • Hurricane <:cane:535532878969438210>
-    • Greater Flurry <:gflurry:535532879283879977>
-    • Forceful Backhand (Flanking) <:fbackhandflank:867678153866870824>
-    • Igneous Overpower <:overpowerigneous:959089455640215633>
-    • EZK <:zekkil:903244090953588787> <:eofspec:1257438999794946099>
-    • etc.
-.
-⬥ Additionally, when not in <:zerk:535532854004678657> the following thresholds are also strong, *especially* with the Masterwork Spear of Annihilation <:mwspear:694566917456789554>:
-    • Slaughter (walked) <:slaughter:535532879237873666>
-    • Blood Tendrils <:bloodtendrils:535532854327640064>
-.
-⬥ The goal is to fit as many of these strong abilities within the duration of <:zerk:535532854004678657> as you can to maximise the damage potential.
-    • **While inside <:zerk:535532854004678657> you deal double damage - take full advantage of this.**
-    • As <:zerk:535532854004678657> is relatively shorter in duration compared to <:sunshine:994921119381463070> or <:deathsswift:994921434633744455>, so you will have to plan your cooldowns a little carefully.
-    • Continue to use the basic building block patterns to space out your abilities as required.
-⬥ Typically, you do not want to use bleeds inside <:zerk:535532854004678657> as it does not boost them, but you may have to at times, such as:
-    • If you need the extra adrenaline <:dismember:535532879376023572> is an option.
-    • If you run out of good abilities (possible at times).
-.
-⬥ **While waiting for <:zerk:535532854004678657> cooldown, you have time to make use of your thresholds (and stronger) adequately.**
-    • You do not want to needlessly camp 100% adrenaline.
-    • There are a few options for this depending on your gear:
-        ⬩ Ek-Zekkil special attack <:zekkil:903244090953588787> <:spec:537340400273195028> (typically used in an EoF <:zekkil:903244090953588787> <:eofor:745279787471470713>)
-        ⬩ Zaros Godsword special attack <:zgs:626465964325601290> <:spec:537340400273195028>
-        ⬩ Igneous Overpower <:overpowerigneous:959089455640215633>
-        ⬩ All the other thresholds available to Melee.
-    • You can start building to 100% adrenaline when <:zerk:535532854004678657> is nearly ready to use again.
-.
-*Note 1: For more information about these options, see the sections on the __**EZK vs. ZGS vs. Overpower**__.*
-*Note 2: To see examples of how to maximise your damage inside <:zerk:535532854004678657> see the section at the bottom called __**General Berserk Rotations**__.*
-.
-### Tips
-⬥ Any basic ability with damage lower than Fury <:fury:535532879510372352> is considered a weak ability and should be avoided when possible. Sometimes you may be forced to use them. Don't sweat it too much.
-    • Slice <:slice:535532879594258432>
-    • Sacrifice <:Sacrifice:513201065907322880>
-    • Tuska's Wrath <:Tuskas:513201065513058306>
-    • Backhand (no Flank) <:backhand:535532854302605333>
-    • Regular Barge <:barge:535532853916860437>
-⬥ You may hear people refer to abilities as '188s' - this means abilities that have a maximum damage of 188%, including Sever <:sever:535532879577612298> , Cleave <:cleave:535532878616985610> , and Decimate <:deci:535532879325822986> amongst others.
-⬥ The critical chance buff gained through <:fury:535532879510372352> is wasted if the follow-up ability cannot crit, but it may be unavoidable sometimes.
-⬥ If Greater Fury is owned <:gfury:535532879334080527>, there are scenarios where it may be better than some strong abilities like <:sever:535532879577612298> / <:deci:535532879325822986> / <:cleave:535532878616985610> etc.
+### __Basics by priority (no gear modifiers)__
+⬥ Dismember <:dismember:535532879376023572>
+⬥ Greater Fury <:gfury:535532879334080527>
+⬥ Sever <:sever:535532879577612298> / Cleave <:cleave:535532878616985610> / Decimate <:deci:535532879325822986> / Fury <:fury:535532879510372352>
+⬥ Havoc <:havoc:535532879300526080> / Smash <:smash:535532879820619786>
+⬥ Chaos Roar <:chaosroar:994644356671737966>
+    • Use purposefully for its effect due to long cooldown (60s)
+⬥ Punish <:punish:535532879439069184> / Barge <:barge:535532853916860437> / Greater Barge <:gbarge:535532879250456578>
+⬥ Backhand <:backhand:535532854302605333> / Kick <:kick:535532879132885025> / Sacrifice <:sacrifice:513201065907322880>
+    • Only use <:kick:535532879132885025> to force-walk a 1x1 target (e.g., to boost Slaughter <:slaughter:535532879237873666>)
 
 .
-## __Cancelling Channels__
-.tag:cancel
-### Why Channelled Abilities are Important
+> *Note: You can compare ability damage on [RS Analysis](<https://rs-analysis.xyz/melee.html>) website*.
+
 .
-⬥ It is important to properly cancel abilities in order to not lose any ticks, or damage potential.
-    • Animations can be unreliable, and longer than the actual hit duration of the ability.
-    • It can be higher damage-per-tick, or net you more adrenaline, to cancel long channels early.
-    • Abilities like <:fury:535532879510372352> and channels that are not cancelled, suffer significant delays with revolution.
-        ⬩ See the following example.
+## __Critical Strikes and 'Crit Builds'__
+.tag:crits
+With the exception of the Equilibrium Aura <:equilibriumaura:1233722649834684416> which prevents them, **critical strikes** (or "crits") are an important but commonly misunderstood way of improving your damage output.
+
 .
+### __What is a critical strike?__
+All attacks have a 10% chance to crit, which increases the damage of that attack based on your <:strength:689509250879324165> level (*not* <:attack:689509250472476758>).
+
+Here's a worked example:
+
+> You use an ability which would normally deal 2,000 base damage.
+> You are level 90 <:strength:689509250879324165>, therefore +50% damage on-crit.
+> You successfully land a crit, so +1,000 crit damage is added (+50% of 2,000).
+> You now deal 3,000 damage (2,000 + 1,000).
+
+.
+### __Step 1: Boosting your crits__
+To harness them properly, you will want to maximise both the frequency/chance and the damage of your crits. Several modifiers exist, ranging from perks to gear. The most common are illustrated below:
+.
+{
+  "embed": {
+  	"description": "See [the Wiki](<https://runescape.wiki/w/Critical_strike#Critical_strike_modifiers>) for a full list of Critical Strike modifiers.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Crit Chance Modifiers__",
+        "value": "⬥ Biting (Perk) <:biting4:712073087809617931>\n⬥ Grimoire <:grim:568262896375824385>\n⬥ Reaver's ring <:reaverring:839903943018283050>\n⬥ Champion's ring <:championring:839903943630520350>\n⬥ Kal'gerion Demon <:kalgpouch:921410226484301925>\n⬥ Greater Fury <:fury:535532879510372352> <:gfury:535532879334080527>\n⬥ Corbicula POF Perk <:corbicula:690136117273821280>\n⬥ Eclipsed Soul <:eclipsedsoul:1285372688457797672>\n⬥ Warpriest of Tuska Set",
+    	  "inline": true
+      },
+      {
+        "name": "__Crit Damage Modifiers__",
+        "value": "⬥ Smoke Cloud <:smokecloud:856635090641879050>",
+    	  "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Step 2: Harnessing your crits__
+We can go one step further with crits, leveraging the effects of **Meteor Strike** <:meteorstrike:535532879359377439> , **Incendiary Shot** <:incend:535541258429661215> and **Tsunami** <:tsunami:535533809995874304> to generate additional adrenaline any time you crit for 30.6 seconds after using the ability - shown on your buff bar as <:critbuff:1279516151423963166>.
+
+Below are two examples of ways we can generate a large amount of adrenaline in a short time whilst under these abilities' effects:
+⬥ Switch to a range weapon with Caroming 4 and cast **Greater Ricochet** <:gricocaroming:867678153966878740>
+⬥ Switch to a mage weapon and cast **Greater Conc** <:gconc:869285393223254107>
+
+Now we have an excess amount of adrenaline and can use it to do large amounts of damage in a short space of time. Common ways to "dump" excess adrenaline include:
+⬥ **Dragon Claws Spec** <:dragonclaw:779048041088024606>
+⬥ Early use of **Berserk** <:zerk:535532854004678657> or **EZK spec** <:zekkil:903244090953588787>
+    • Note: can mess up your rotations due to cooldowns.
+⬥ **Zaros Godsword Spec** <:zgs:626465964325601290>
+⬥ **Natural Instinct** <:nat:535541258131865633>
+    • Note: allows for even more adrenaline gain!
+
+.
+## __Cancelling Channeled Abilities__
+.tag:channels
+Some abilities known as "channels" take longer than other abilities to complete. Examples for melee include <:assault:535532855191928842> <:gflurry:535532879283879977> <:destroy:535532879330148352>.
+
+By learning to cancel these channels at the right time, you can avoid lost ticks and therefore damage potential. Reasons for needing to cancel include:
+⬥ Cancelling channelled abilities saves time.
+⬥ Animations are sometimes unsynced with the hitsplats.
+⬥ It can be higher damage-per-tick and more adrenaline friendly to cancel early.
+
+.
+See the following example with <:conc:1087373968731811880> from Magic (functionally identical to <:fury:535532879510372352>):
 .img:https://img.pvme.io/images/9C2JEZQ.mp4
 
 .
-### When to Cancel Channels
-*Reminder: 1.8s = 3t = 1 GCD*
-⬥ **Fury** <:fury:535532879510372352>
-    • Cancel after its 2nd hit as global cooldown ends (3t/1.8s).
-⬥ **Assault** <:assault:535532855191928842>
-    • Typically cancelled on the 4th hit (7t/4.2s), but other cancel timings include 3 hit (5t/3s) and 2 hit (3t/1.8s).
-⬥ **Destroy** <:destroy:535532879330148352>
-    • Timings to cancel on 2/3/4 hits are the same as Assault <:assault:535532855191928842> cancel timings.
-        ⬩ When Vestments of Havoc are worn, and Greater Barge <:gbarge:535532879250456578> is used, typically you'll end up doing a second 2 hit <:destroy:535532879330148352> in your rotation.
-⬥ **Greater Flurry** <:gflurry:535532879283879977>
-    • Timings to cancel on 2/3/4 hits are the same as Assault <:assault:535532855191928842> cancel timings.
-    • You can 4 hit <:gflurry:535532879283879977> if you need to bring <:zerk:535532854004678657> off cooldown faster.
-    • Otherwise do the number of hits you require to align your rotation, so that you can fit one ability on the last tick of <:zerk:535532854004678657> for boosted damage.
-.
-⬥ Note that Assault suffers from different hit timings based on if cast with DW or 2H, but the cancel timings will remain un-affected.
-    • <:assault:535532855191928842> hit timings will change from ticks 2/4/6/8 to ticks 3/5/7/9 (delayed by 1 tick) if cast with DW, *but the cancel timings remain the same*.
-.
-{
-  "embed": {
-    "title": "__Channelled Abilities__",
-    "description": "How to properly cancel channelled abilities.",
-    "color": 15158332,
-    "fields": [
-      {
-        "name": "__Video Guides__",
-        "value": "⬥ [How to Cancel <:Magic:689504724159823906> Abilities](https://youtu.be/DaCy60sZav4)\n⬥ [How to Cancel <:range:580168050121113623> Abilities](https://youtu.be/939znioyCMA)\n⬥ [How to Cancel <:melee:1096130867279171706> Abilities](https://youtu.be/y33z3WLM7H8)\n⬥ To see a clip of 2H vs. DW assault, [click here](https://img.pvme.io/images/sQpb7RM.mp4)."
-      }
-    ]
-  }
-}
-.embed:json
+### __How do I cancel channels?__
+Watch: [when to cancel Melee abilities](<https://youtu.be/y33z3WLM7H8>).
+
+⬥ **Assault** <:assault:535532855191928842> / **Destroy** <:destroy:535532879330148352> / **Greater Flurry** <:gflurry:535532879283879977>
+    • Cancel on 4th hit (7t/4.2s), or after 2 or 3 hits.
+    • *Note on <:assault:535532855191928842>: hit timings vary with DW vs. 2H, but cancel timings stay the same—DW shifts hits by 1 tick, but cancel times are unaffected.*
+    • *Note on <:destroy:535532879330148352>: use 4 hits to speed up <:zerk:535532854004678657> cooldown or adjust as needed for rotation alignment.*
 
 .
-## __Important Melee Abilities__
-.tag:importantabil
-Certain Melee abilities are worth noting, due to their behaviour and how they can be used. Here, we cover some of these abilities.
+## __Indirect Damage Boosts__
+.tag:indirect
+In addition to abilities and attacks, there are a few notable supporting buffs you can use to further boost your DPM:
+
+⬥ **Ruby Aurora** <:rubyaurora:574292444791963659> (Ancient Spellbook) - 5% chance (10% with Light Form) to grant players around the caster (not the caster themself) +1% damage boost for 24s, stacking up to +3%.
+⬥ **Weapon specs** <:spec:537340400273195028> are covered in later.
 
 .
-## __Greater Fury__
+## __Putting It Together (Building a Rotation)__
+.tag:rotations
+By now you should understand:
+⬥ How to build **adrenaline** and which basic abilites to use.
+⬥ Why **crits** are so important and how to harness them.
+⬥ **Indirect** ways to improve your damage output.
+⬥ How and why to cancel **channels**.
+
+While melee rotations vary by available unlocks and situation/boss, there are two duration-based types:
+1. **"Burst Damage"** - For short kills or hybrid scenarios, focus on maximising quick, high-damage abilities.
+2. **"Sustained Damage"** - For longer fights, aim to keep consistent damage output, cycling abilities efficiently.
+
+.
+### __Maximising Use of Berserk__
+.tag:rotations_berserk
+Most rotations are built around the **Berserk** <:zerk:535532854004678657> ultimate ability, used as often as possible to leverage its +100% damage boost.
+
+Whichever rotation followed, your <:zerk:535532854004678657> rotation will come in 2 phases:
+⬥ **Phase 1 - Berserk active**
+    • Use high-damage thresholds and special attacks
+    • Avoid bleeds within Berserk, as they aren’t boosted
+        ⬩ Dismember <:dismember:535532879376023572> may be used for adrenaline gain if no stronger abilities are available
+⬥ **Phase 2 - Berserk on cooldown**
+    • Build adrenaline and alternate with specials to avoid camping at 100% adrenaline
+
+> Note: 10 abilities fit within Berserk’s 20.4s duration (increased to 14 abilities over 26.4s with 3 pieces of Vestments of Havoc <:vestmentsofhavochood:994189297659940904>).
+
+.
+### __Example Rotations__
+.tag:rotations_examples
+The below rotations follow the upgrade path "Stages" listed in <#1020045708746833930> (<#1250862462442410216>). They are designed to "loop", i.e. you do Phase 1 → Phase 2 → Phase 1 → etc.
+
+__Guidance:__
+⬥ Pick the rotation closest to your current upgrade progression.
+⬥ You will likely need to adapt the rotation to your specific situation.
+⬥ They assume the sections above are followed, such as basic prioritisation and correct cancelling of abilities.
+⬥ Due to their long cooldowns, you will need to improvise where repeating rotations for <:chaosroar:994644356671737966> and <:adrenrenewal:736298121704767538> based on lessons you've learnt so far.
+⬥ Upgrades not included in the upgrade order like <:archaeology:941211288665739274> relics and <:infernalpuzzlebox:994189299681607800> __have__ been considered as they are hugely beneficial to adren management.
+
+.
+**Stage 0**
+> *Upgrades: <:strcape:1172654837616353320> <:rov:513201065877831680> <:infernalpuzzlebox:994189299681607800> (T3)*
+⬥ Phase 1: <:dismember:535532879376023572> → <:zerk:535532854004678657> → <:fury:535532879510372352> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:assault:535532855191928842> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:destroy:535532879330148352> → <:sever:535532879577612298>
+⬥ Phase 2: <:dismember:535532879376023572> → <:fury:535532879510372352> → <:deci:535532879325822986> → <:slaughter:535532879237873666> (Walk under boss to move) → <:bloodtendrils:535532854327640064> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:cane:535532878969438210> → <:dismember:535532879376023572> → <:destroy:535532879330148352> → <:fury:535532879510372352> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:cleave:535532878616985610> → <:havoc:535532879300526080> → <:deci:535532879325822986> → <:dismember:535532879376023572> → <:cleave:535532878616985610> → <:cane:535532878969438210> → <:fury:535532879510372352> → <:deci:535532879325822986>
+
+.
+**Stage 1a**
+> *Upgrades: <:gbarge:535532879250456578> <:gflurry:535532879283879977>*
+⬥ Phase 1: (tc) <:gbarge:535532879250456578> → <:assault:535532855191928842> (bled) → <:dismember:535532879376023572> → <:deci:535532879325822986> → <:zerk:535532854004678657> → <:fury:535532879510372352> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:destroy:535532879330148352> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:cane:535532878969438210>
+⬥ Phase 2: <:dismember:535532879376023572> → <:deci:535532879325822986> → <:cleave:535532878616985610> → (<:cease:864235458464186418> wait for barge to proc) <:gbarge:535532879250456578> → <:assault:535532855191928842> (bled) → <:destroy:535532879330148352> → <:dismember:535532879376023572> → <:fury:535532879510372352> → <:gflurry:535532879283879977> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:havoc:535532879300526080> → <:dismember:535532879376023572> → <:fury:535532879510372352> → <:deci:535532879325822986>
+
+.
+**Stage 1b**
+> *Upgrades: <:adrenrenewal:736298121704767538> <:furyofthesmall:697808773917573233> <:igneouskalket:902209626404192316>*
+⬥ Phase 1: <:dismember:535532879376023572> → <:zerk:535532854004678657> → <:adrenrenewal:736298121704767538> → <:deci:535532879325822986> → <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:fury:535532879510372352> → <:destroy:535532879330148352> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:overpower:535532879334080517>
+⬥ Phase 2: <:dismember:535532879376023572> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:cleave:535532878616985610> → <:fury:535532879510372352> → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> (bled) → <:dismember:535532879376023572> → <:slaughter:535532879237873666> → (Walk) → <:deci:535532879325822986> → <:bloodtendrils:535532854327640064> → <:fury:535532879510372352> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:dismember:535532879376023572> → <:deci:535532879325822986>
+
+.
+**Stage 2**
+> *Upgrades: <:conservationofenergy:697808773711921195> <:chaosroar:994644356671737966> <:gfury:535532879334080527> <:lengmh:883134308146098227> <:eof:787526151978614824> <:dragonclaw:779048041088024606> <:vestmentsofhavochood:994189297659940904> (3-piece)*
+⬥ Phase 1: <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:cane:535532878969438210> → <:assault:535532855191928842> (bled) → <:deci:535532879325822986> → <:chaosroar:994644356671737966> → <:overpower:535532879334080517> → <:gfury:535532879334080527> → <:destroy:535532879330148352> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:deci:535532879325822986> → <:eof:787526151978614824> <:dragonclaw:779048041088024606> → <:sever:535532879577612298> → <:deci:535532879325822986>
+⬥ Phase 2: <:dismember:535532879376023572> → <:sever:535532879577612298> → <:havoc:535532879300526080> → <:gfury:535532879334080527> → <:bloodtendrils:535532854327640064> → <:cease:864235458464186418> + <:freedom:535541258240786434> (wait for barge proc) → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:dismember:535532879376023572> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:gfury:535532879334080527> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:deci:535532879325822986> → <:sever:535532879577612298>
+
+.
+**Stage 3**
+> *Upgrades: <:limitless:641339233638023179> <:zekkil:903244090953588787> <:vestmentsofhavochood:994189297659940904> (4-piece)*
+⬥ Phase 1: <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (tc) <:gbarge:535532879250456578> → <:cane:535532878969438210> → <:deci:535532879325822986> → bleed <:assault:535532855191928842> → <:gfury:535532879334080527> → <:eof:787526151978614824> <:dragonclaw:779048041088024606> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:overpower:535532879334080517> → <:cleave:535532878616985610> → <:sever:535532879577612298> → <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:cane:535532878969438210> → <:deci:535532879325822986> → <:cleave:535532878616985610>
+⬥ Phase 2: <:chaosroar:994644356671737966> → <:eof:787526151978614824> <:zekkil:903244090953588787> + equip <:jawsoftheabyss:947871842595639306> → <:dismember:535532879376023572> → <:smash:535532879820619786> → <:gfury:535532879334080527> → <:sever:535532879577612298> → <:slaughter:535532879237873666> → <:bloodtendrils:535532854327640064> → <:cleave:535532878616985610> → <:havoc:535532879300526080> → <:overpower:535532879334080517> → <:sever:535532879577612298> → <:destroy:535532879330148352> → <:deci:535532879325822986> → <:sever:535532879577612298>
+
+.
+> # Disclaimer
+> Content below this point in the guide is being updated after the March 2024 Combat Update. Contributions are welcome - head to <#724129126314803230> to make suggestions.
+
+.
+## __Ability Information__
+.tag:ability_information
+The core part of this guide is now complete. We will now explore the intricacies of different Melee abilities, special attacks and gear.
+
+.
+### __Greater Fury__
 .tag:gfury
-### How It Works
-⬥ Greater Fury <:fury:535532879510372352> is an upgraded version of regular Fury <:fury:535532879510372352>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:unlock_gfury$.
+__How it works__
+⬥ Greater Fury <:gfury:535532879334080527> is an upgraded version of regular Fury <:fury:535532879510372352>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:unlock_gfury$.
 ⬥ Greater Fury <:gfury:535532879334080527> hits **once** dealing 157% ability damage, giving the next ability an added 10% critical strike chance.
     • Switching your main hand weapon loses the buff.
     • **If <:gfury:535532879334080527> crits, the first hit of the next ability will be a guaranteed crit.**
     • As it becomes a non-channelled ability, it is Revolution-friendly.
 
 .
-### Is it Worth it?
+__Is it worth it?__
 ⬥ **Generally, Greater Fury is not a recommended upgrade**.
     • Regular Fury <:fury:535532879510372352> has better synergy with the Abyssal Scourge <:abyssalscourge:947871842469834832> in a fight
 ⬥ It is *possible* for <:gfury:535532879334080527> to be stronger (on average) than some 188% damage abilities ( <:cleave:535532878616985610> / <:sever:535532879577612298> / <:deci:535532879325822986> ) under the right circumstances.
@@ -303,9 +274,9 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
 .embed:json
 
 .
-## __Greater Barge__
+### Greater Barge
 .tag:gbarge
-### How It Works
+__How it works__
 ⬥ Greater Barge <:gbarge:535532879250456578> is an upgraded version of regular Barge <:barge:535532853916860437>, unlocked by reading a Greater Fury ability codex <:gbargecodex:1004453769112735764> costing <:coins:698816156961603654> $data_pvme:unlock_gbarge$.
 ⬥ It has two components - its own damage, and its passive effect.
 ⬥ Normal ability effect:
@@ -321,7 +292,7 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
 *Note: Channelled abilities that become DoTs through the effect of <:gbarge:535532879250456578> are typically called barge "bleeds" - however, they are **not** actually bleeds.*
 
 .
-### Why It's Good
+__Is it worth it?__
 ⬥ Being able to **turn channelled abilities into DoTs** offers the following advantages:
     • It reduces the time required to cast them to 3t/1.8s, allowing you to continue using other abilities while they deal damage.
     • This is very strong when combined with something like Berserk <:zerk:535532854004678657> to fit more high-damaging abilities into its short duration.
@@ -331,7 +302,7 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
     • After any mechanic that forces you to stop attacking for a period of time (e.g. reflect at Vorago).
     • After a Berserk <:zerk:535532854004678657> mid-combat.
 
-### Using Greater Barge in Combat
+__Using Greater Barge in Combat__
 ⬥ To use <:gbarge:535532879250456578> in combat, there are two ways to do it.
 ⬥ **Method 1**:
     • Ability + click away → any Defensive → <:zerk:535532854004678657> → <:gbarge:535532879250456578>
@@ -342,24 +313,23 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
         ⬩ Doing it this way saves 1 tick (8t vs 9t) compared to the first method.
 
 .
-### Notes
-*Note: points marked with \* are likely unintended bugs*.
-⬥ **Multiple <:gbarge:535532879250456578> DoTs can stack on the same target,** so it is group-PvM-friendly.
-⬥ Bleeding <:gflurry:535532879283879977> will reduce the cooldown of <:zerk:535532854004678657> for all 4 hits.
+__Notes__
+⬥ Multiple <:gbarge:535532879250456578> DoTs can stack on the same target, so it is group-PvM-friendly.
+⬥ Bleeding <:gflurry:535532879283879977> will still reduce the cooldown of <:zerk:535532854004678657> for all 4 hits.
 ⬥ Unlike normal non-damaging abilities, ZGS special attack <:zgs:626465964325601290> <:spec:537340400273195028> will try to drag you in when using it, so remember to click away as you use it otherwise you will auto-attack and lose the <:gbarge:535532879250456578> buff.
 ⬥ **\*** Greater Barge <:gbarge:535532879250456578> does not give adrenaline if you still have a target that is dead.
 ⬥ Damage dealt from the bleed will be affected by the equipment *currently* worn.
     • e.g. if you bleed Assault <:assault:535532855191928842> with T80 weapons and change to T90, any remaining hits will be calculated with T90 damage instead of T80.
 ⬥ Each bleed hit rolls its own chance to hit.
-
-⬥ **\*** If you **stall** a barge bleed the following will occur:
+⬥ If you stall a barge bleed the following will occur:
     • Hit 1 will be stalled, and when released will hit at the time it usually would as the first hit of that ability.
     • Hits 2-4 will *not* be stalled, and will hit the target at their usual timing, *no matter how far you currently are from the target* - this allows the hits to be far-cast.
+    • This is possibly a bug.
 
 .
-## __Greater Flurry__
+### Greater Flurry
 .tag:gflurry
-### How It Works
+__How it works__
 ⬥ Greater Flurry <:gflurry:535532879283879977> is an upgraded version of regular Flurry <:flurry:864492981763702834>, unlocked by reading a Greater Flurry ability codex <:gflurrycodex:1004453767397249144> costing <:coins:698816156961603654> $data_pvme:unlock_gflurry$.
 ⬥ Each hit of <:gflurry:535532879283879977> reduces the cooldown of Berserk by 2t/1.2s, up to a maximum of 4 hits, or 8t/4.8s.
 ⬥ The damage dealt depends on the situation:
@@ -368,38 +338,38 @@ Certain Melee abilities are worth noting, due to their behaviour and how they ca
     • If bled with <:gbarge:535532879250456578> it does NOT act as an AoE.
 
 .
-### Why It's Good
+__Is it worth it?__
 ⬥ It can help reduce the cooldown time of Berserk <:zerk:535532854004678657> significantly, used almost 3 times per minute. This is important to minimize the amount of time spent outside a damage-boosting ultimate.
 ⬥ It acts as an extra strong damaging threshold for Melee <:melee:1096130867279171706> users.
 ⬥ You can cancel it on a desired hit to help line up timings for an ability on the last tick of <:zerk:535532854004678657>.
     • For more information, see `!lasttick` command.
 
 .
-## __Chaos Roar__
-.tag:roar
+### Chaos Roar
+.tag:chaos_roar
 *Note: for a quick summary, you can use the `!chaosroar` command.*
-### How It Works
+__How it works__
 ⬥ Chaos Roar <:chaosroar:994644356671737966> is a basic ability unlocked by reading a Chaos roar Ability codex <:chaosroarcodex:994189286960287764> costing <:coins:698816156961603654> $data_pvme:unlock_chaosroar$.
 ⬥ It has an initial hit of 20-130%, but also **doubles the base damage of the next melee ability used with 12t/7.2s**.
     • This includes all hits of bleeds and multi-hit abilities like Hurricane <:cane:535532878969438210> and Igneous Overpower <:overpowerigneous:959089455640215633>.
     • For channelled abilities like Assault <:assault:535532855191928842> only get their first hit boosted.
 
 .
-### Why It's Good
+__Is it worth it?__
 ⬥ It can be extremely damaging when followed-up with certain abilities:
     • Ek-Zekkil special attack <:zekkil:903244090953588787> <:eofspec:1257438999794946099> can deal massive damage used after <:chaosroar:994644356671737966>.
     • Slaughter <:slaughter:535532879237873666> and Tendrils <:bloodtendrils:535532854327640064> with <:mwspear:694566917456789554> are strong choices as well (note that <:bloodtendrils:535532854327640064> will give double recoil damage).
     • Can follow up with Hurricane <:cane:535532878969438210> or Meteor Strike <:meteorstrike:535532879359377439> for high AoE clear damage.
 
 .
-## __Important Items__
-.tag:importantitems
+## __Gear Information__
+.tag:gear_information
 This section will examine equipment that is useful for Melee <:melee:1096130867279171706>, and should be incorporated where relevant as you get comfortable with handling them. Not all items are applicable in all scenarios, so use your best judgement.
 
 .
-## __Flanking Switch <:flank4:712073088296157185>__
+### Flanking Switch <:flank4:712073088296157185>
 .tag:flanking
-### How It Works
+__How it works__
 *Note: To learn more about how flanking angles work, check out <#1020550599248466050>.*
 ⬥ This is a **simple, easy-to-get, relatively inexpensive and strongly recommended switch, especially for group-based content.**
 ⬥ Recommended to **put <:flank4:712073088296157185> on an off-hand weapon to use with dual-wield.**
@@ -412,9 +382,9 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 *Note: (Flanking) Forceful Backhand <:fbackhandflank:867678153866870824> may not heavily prioritised due to the availability of stronger thresholds, however it can help salvage a rotation in a pinch.*
 
 .
-## __Sliver Enchantments__
+### Sliver Enchantments
 .tag:sliver
-### How It Works
+__How it works__
 ⬥ With the release of Zamorak <:zamorak:994914159969976440> and ED4, *slivers* were added to the game.
 ⬥ Slivers can be consumed with some other items to create *enchantments*.
     • **Enchantments are one-off consumables that permanently unlock certain effects**.
@@ -430,9 +400,9 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
         ⬩ Increases the damage-boosting effect of the Terrasaur Maul <:terramaul:602561894829522954> by a further 5%.
 
 .
-## __Jaws of the Abyss <:jawsoftheabyss:947871842595639306>__
+### Jaws of the Abyss <:jawsoftheabyss:947871842595639306>
 .tag:jaws
-### How It Works
+__How it works__
 ⬥ It is a T85 power armour helmet that has one a strong passive: melee basics give +2% adrenaline per active bleed on a target.
 ⬥ **It is camped for this effect, and is a high priority upgrade.**
 ⬥ Bleeds that affect <:jawsoftheabyss:947871842595639306> include the following:
@@ -447,16 +417,16 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
     • Deadshot <:deadshot:535541307666595870>
 ⬥ The effect is doubled under Natural Instinct <:nat:535541258131865633> buff.
 
-### Key Considerations
+__Key Considerations__
 ⬥ Despite being T85, it is the best-in-slot where Trimmed Masterwork Armour <:tmwhelm:643847130619969562> <:tmwbody:536966366272552960> <:tmwlegs:643847107186524200> set effect is not absolutely vital to survival.
 ⬥ The **extra adrenaline** from the effect can help make stronger rotations, and is *required* for some meta rotations to work.
 ⬥ As the effect activates without any additional input required from the user, this is a revo-friendly buff.
 
 .
-## __Abyssal Scourge <:abyssalscourge:947871842469834832>__
+### Abyssal Scourge <:abyssalscourge:947871842469834832>
 .tag:scourge
 *Note: See `!lengs` and `!scourge` for a summary.*
-### How It Works
+__How it works__
 ⬥ It is a T92 main hand melee weapon, currently the **best-in-slot main hand option for long-term dual-wield damage**, and is a high-priority upgrade.
 ⬥ **It has a passive effect called *Abyssal Parasites***:
     • Every melee hit with <:abyssalscourge:947871842469834832> refreshes and adds a stack of Abyssal Parasites.
@@ -466,7 +436,7 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 ⬥ Parasite stacks can also be added by <:abyssalarmourspikesalloy:947871842541129768> at a lower rate.
 
 .
-### Key Considerations
+__Key Considerations__
 ⬥ Camping <:abyssalscourge:947871842469834832> is extremely strong, and building stacks at the start of a fight is important to quickly benefit from the full bleed damage.
 ⬥ **Stacks can be gained faster using bleeds and multi-hit abilities**, including:
     • Dismember <:dismember:535532879376023572> is typically cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> but can be cast with <:abyssalscourge:947871842469834832> at the start of a fight to build stacks quicker.
@@ -493,7 +463,7 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 .embed:json
 
 .
-## __Leng Weapons__ <:lengmh:883134308146098227> <:lengoh:883134308070604870>
+### Leng Weapons <:lengmh:883134308146098227> <:lengoh:883134308070604870>
 .tag:lengs
 *Note: See `!lengs` and `!scourge` for a summary.*
 ### How They Work
@@ -513,15 +483,15 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
         ⬩ Both hits' damage is increased by 18-22%.
 
 .
-### Key Considerations
+__Key Considerations__
 ⬥ It is better to use Leng main hand <:lengmh:883134308146098227> over <:abyssalscourge:947871842469834832> when:
     • Additional accuracy is required; or
     • Parasite stacks cannot be consistently built.
 
 .
-## __Masterwork Spear of Annihilation (MSoA)__ <:mwspear:694566917456789554>
+### Masterwork Spear of Annihilation (MSoA) <:mwspear:694566917456789554>
 .tag:msoa
-### How It Works
+__How it works__
 ⬥ The MSoA <:mwspear:694566917456789554> is the upgraded form of the regular Spear of Annihilation.
 ⬥ It increases the **base** duration of bleed abilities by 50% rounded down.
 **⬥ It is recommended to use it as a bleed switch, perked with Lunging 4 <:lunge4:736522494315593759> for <:dismember:535532879376023572>.**
@@ -535,23 +505,24 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 ⬥ The effect does *not* work with Greater Barge <:gbarge:535532879250456578> bleeds, as they are not considered actual bleeds.
 
 .
-### Key Considerations
+__Key Considerations__
 ⬥ **This weapon is typically used to switch for bleeds** but may also serve as a 2H switch in general if you do not want to bring more items.
 ⬥ It **drastically improves the damage of the abilities it affects**.
     • <:mwspear:694566917456789554> <:dismemberlunge:867678153899769876> becomes your strongest basic ability.
 ⬥ The extended bleeds pair well with the Champion's Ring <:championring:839903943630520350> and Gloves of Passage <:Glovesofpassage:556588694862037012> (as well as their respective Enchantments).
 
 .
-## __Laniakea Spear <:lanispear:839903893177106454>__
+### Laniakea Spear <:lanispear:839903893177106454>
 .tag:lanispear
-### How It Works
+__How it works__
 ⬥ It is a **halberd-range** T82 weapon with T90 damage and T75 accuracy, with the range of a halberd.
 ⬥ Its passive effect causes poison <:poisonicon:944649693500154006> to proc 5% more often, dealing 5% more damage.
 
 .
-### Key Considerations
+__Key Considerations__
 ⬥ Normally not worth using over higher tier weapons, but the following can make it worthwhile:
     • If Bik arrows <:bikarrow:971025697235689513> are used to scale <:poisonicon:944649693500154006> damage.
+    • If using a Blood Reaver <:reaverpouch:839903693837959228> along with a Scrimshaw of Vampyrism <:VampScrim:513201294262009874> and/or Vampyrism aura <:vamp:643505653079343144>.
     • It can be better than a Noxious Scythe <:noxscythe:513190159341322240> on poisonable targets with 100% hitchance.
 ⬥ **It can be used to clear pools with Bladed Dive <:Laceration:602581988599398400> <:bd:535532854281764884> at Raksha** instead of <:noxscythe:513190159341322240> if you perk it with <:p6:712073088769982475> + <:er4:1214416401561952296> for the minimum hit increase.
 .
@@ -560,10 +531,10 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
     • This is extremely click intensive and prone to mistakes.
 
 .
-## __Ek-ZekKil (EZK) <:zekkil:903244090953588787>__
+### Ek-ZekKil (EZK) <:zekkil:903244090953588787>
 .tag:ezk
-*Note: Use `!ezkeof` (or see the section on __**EZK EoF**__) for a summary on why you should EoF your EZK <:zekkil:903244090953588787> <:eofor:745279787471470713>.*
-### How It Works
+*Note: Use `!ezkeof` for a summary on why you should EoF your EZK <:zekkil:903244090953588787> <:eof:787526151978614824>.*
+__How it works__
 ⬥ The EZK's special attack, *Igneous Cleave* costs 50% adrenaline, has a 60 second cooldown, and has two components:
     • An **initial hit of 62-190% ability damage**.
     • A **follow-up 6-hit bleed** that hits every 4 ticks, with each hit dealing 5% more damage multiplicatively than the previous hit.
@@ -587,15 +558,15 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
     • Puncture from Greater Dazing Shot <:mds:535541259033378827>
     • Incendiary Shot <:incend:535541258429661215>
 
-### Key Considerations
-⬥ It is **strongly recommended to place the EZK in an EoF** <:zekkil:903244090953588787> <:eofor:745279787471470713> to be able to use the special attack with <:mwspear:694566917456789554> for the longer bleed. *See `!ezkeof` for more.*
+__Key Considerations__
+⬥ It is **strongly recommended to place the EZK in an EoF** <:zekkil:903244090953588787> <:eof:787526151978614824> to be able to use the special attack with <:mwspear:694566917456789554> for the longer bleed. *See `!ezkeof` for more.*
 ⬥ It is one of the best attacks to follow up after Chaos Roar <:chaosroar:994644356671737966> for the massively increased damage.
 ⬥ You can use <:zekkil:903244090953588787> <:eofspec:1257438999794946099> with <:abyssalscourge:947871842469834832> instead to get more stacks of Abyssal Parasites, **if** you will not benefit from the increased duration by using it with <:mwspear:694566917456789554> instead.
 
 .
-## __Gloves of Passage <:Glovesofpassage:556588694862037012>__
+### Gloves of Passage <:Glovesofpassage:556588694862037012>
 .tag:gop
-### How It Works
+__How it works__
 ⬥ The passive effect, *Enduring Ruin*, grants Smash <:smash:535532879820619786> and Havoc <:havoc:535532879300526080> two effects:
     • Next non-bleed attack within 10t/6s deals ~10% more **additive** damage.
         ⬩ This does not stack with <:zerk:535532854004678657> or other boosting effects.
@@ -607,7 +578,7 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
     • The bleed damage buff is increased by a further +5%.
 
 .
-### Key Considerations
+__Key Considerations__
 ⬥ Melee is a bleed heavy style - it has many abilities that benefit from the bleed damage-increasing effect like <:dismember:535532879376023572> / <:bloodtendrils:535532854327640064> / <:slaughter:535532879237873666> / <:zekkil:903244090953588787> <:eofspec:1257438999794946099>.
     • It also increases the parasite bleed from using <:abyssalscourge:947871842469834832> or <:abyssalarmourspikesalloy:947871842541129768>.
     • The MSoA <:mwspear:694566917456789554> only amplifies this effect.
@@ -618,7 +589,7 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
         ⬩ <:backhandflank:867678153854025779> / <:fbackhandflank:867678153866870824> / <:quake:535532879506309150>
 
 .
-### Stalling
+__Stalling__
 ⬥ **The increased next-ability damage from using <:havocgop:994920849117282365> / <:smashgop:994929821727604808> can be applied to multiple abilities using stalling.**
 ⬥ The following examples work both with <:havocgop:994920849117282365> and <:smashgop:994929821727604808> interchangeably.
 .
@@ -634,10 +605,10 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
     • Equipping <:eof:787526151978614824> on tick 3 when click-releasing an ability on tick 2 in the second method, will not break the effect, except if the abilities are: 2H / channelled / special attacks.
 
 .
-## __Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>__
+### Vestments of Havoc <:vestmentsofhavochood:994189297659940904> <:vestmentsofhavoctop:994189295592161291> <:vestmentsofhavocbottom:994189293515980902> <:vestmentsofhavocboots:994189291515285544>
 .tag:vestments
 *Note: Use `!armour` to see raw damage comparisons between different tiers of armour.*
-### How It Works
+__How it works__
 ⬥ These are a T95 set of melee power armour that are intended to be used as 'glass cannon' armour - more damage at the expense of defence.
     • **They are T95 but have T100 damage bonus, and an armour bonus equivalent to T75 power armour**.
 ⬥ The set effect, *Herald of Chaos*, depends on how many pieces are worn.
@@ -650,7 +621,7 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
         ⬩ The effect instantly ends if any piece is unequipped.
 
 .
-### Key Considerations
+__Key Considerations__
 ⬥ By sacrificing some defence, **the player gains a substantial amount of damage potential.**
 ⬥ The low armour rating usually does not matter, but some exceptions exist (such as melee Telos).
 ⬥ The 2-piece set effect can act as a replacement for Limitless <:limitless:641339233638023179>.
@@ -660,9 +631,9 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 ⬥ **The 4-piece effect can be used as a switch at the start of a fight**, but requires a helmet switch (with <:jawsoftheabyss:947871842595639306>) to use properly.
 
 .
-## __Dragon Battleaxe <:DBA:603979368850653216>__
+### Dragon Battleaxe <:DBA:603979368850653216>
 .tag:dba
-### How It Works
+__How it works__
 ⬥ The special attack <:DBA:603979368850653216> <:spec:537340400273195028> *Rampage* costs 100% adrenaline and has the following effects:
     • Drains 10% (rounded down) of <:Attack:689509250472476758> / <:range:580168050121113623> / <:Magic:689504724159823906> / <:Defence:689509250979987525> levels.
     • Boosts <:Strength:689509250879324165> level by 10 + 1 level for every 4 levels drained from other stats.
@@ -671,7 +642,7 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
         ⬩ Stacks with <:zgs:626465964325601290> <:spec:537340400273195028> going from 1.25x → 1.5x damage boost.
         ⬩ Stacks with Berserk <:zerk:535532854004678657> (2.0x → 2.2x boost) - *making <:DBA:603979368850653216> <:spec:537340400273195028> only a 10% damage boost, not 20%.*
 
-### Key Considerations
+__Key Considerations__
 ⬥ **<:DBA:603979368850653216> <:spec:537340400273195028> is mostly used when the hitchance debuff will not matter, and you have time to use it.**
 ⬥ Examples of places it can be used:
     • Where you cannot deal damage for a time (e.g. Taraket while phasing).
@@ -680,13 +651,13 @@ This section will examine equipment that is useful for Melee <:melee:10961308672
 
 .
 ## __Important EoFs__
-.tag:importanteofs
+.tag:eofs
 This section covers weapons that are worth placing into an Essence of Finality <:eof:787526151978614824> amulet for access to their special attacks.
 
 .
-## __Dragon Claws EoF <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofred:780401412839833601>__
-.tag:dclawseof
-### How It Works
+### Dragon Claws EoF <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofred:780401412839833601>
+.tag:eof_dclaws
+__How it works__
 ⬥ Dragon Claws have a special attack called *Slice and Dice* <:dragonclaw:779048041088024606> <:dragonclawoh:779048040865726485> <:eofspec:1257438999794946099> that consumes 50% adrenaline to deal 4 damaging hits on the target, dealing a total of 184-600% ability damage.
 ⬥ They are a useful way to dump excess adrenaline in scenarios such as:
     • Getting a Relentless <:relentless5:712244800920748092> proc after a Berserk <:zerk:535532854004678657>
@@ -699,9 +670,9 @@ This section covers weapons that are worth placing into an Essence of Finality <
     • Zamorak, Lord of Chaos.
 
 .
-## __Statius' Warhammer (SWH) EoF <:swh:641670143197446182> <:eofblacku:1260022289731158146>__
-.tag:swheof
-### How It Works
+### Statius' Warhammer (SWH) EoF <:swh:641670143197446182> <:eofblack:780401412915855380>
+.tag:eof_swh
+__How it works__
 ⬥ The SWH special attack, *Smash* <:swh:641670143197446182> <:eofspec:1257438999794946099> costs 35% adrenaline and has two effects:
     • Deals an initial hit of 83-208% ability damage.
     • **Lowers the target's Defence <:Defence:689509250979987525> level by 30%, and increases affinity by +5 for 1 minute.**
@@ -716,53 +687,22 @@ This section covers weapons that are worth placing into an Essence of Finality <
     • Raids
 
 .
-## __Ek-Zekkil (EZK) EoF <:zekkil:903244090953588787> <:eofor:745279787471470713>__
-.tag:ezkeof
-### How It Works
-⬥ The EZK special attack, *Igneous Cleave* <:zekkil:903244090953588787> <:eofspec:1257438999794946099> costs 50% adrenaline and has two effects:
-    • Deals an initial hit of 62-190% ability damage.
-    • Applies a 6-hit bleed on the target with an initial hit of 30-105% ability damage, increasing by 5% multiplicatively each hit.
-        ⬩ While the special attack is active, each time a bleed used on the target, <:zekkil:903244090953588787> <:eofspec:1257438999794946099> gains 1 extra hit (capped at 5 extra hits).
-⬥ **It is primarily used for its extremely strong special attack.**
-⬥ **It is strongly recommended to EoF this weapon, as this allows it to be cast with a Masterwork Spear of Annihilation <:mwspear:694566917456789554> which extends the bleed by 3 hits.**
-⬥ Strongly recommended to cast with <:chaosroar:994644356671737966> as it boosts both the initial cleave and bleed hitsplats.
-
-*Note: See the section on __**Ek-Zekkil (EZK)**__ for a list of abilities that do and don't extend <:zekkil:903244090953588787> <:eofspec:1257438999794946099> duration.*
+### Statius' Warhammer (SWH) EoF <:zekkil:903244090953588787> <:eof:787526151978614824>
+.tag:eof_ezk
+> See the earlier section [Ek-ZekKil (EZK)]($linkmsg_ezk$) for more details.
 
 .
-## __EZK vs. ZGS vs. Overpower <:zekkil:903244090953588787> <:zgs:626465964325601290> <:overpowerigneous:959089455640215633>__
-.tag:ezkzgsop
-Here we compare which of these options is recommended to use between Berserks <:zerk:535532854004678657> while waiting for the cooldown.
-**Briefly, <:zekkil:903244090953588787> <:eofspec:1257438999794946099> > <:overpowerigneous:959089455640215633> > <:zgs:626465964325601290> <:spec:537340400273195028> when wearing Vestments of Havoc.**
-.
-### When to EZK <:zekkil:903244090953588787> <:eofspec:1257438999794946099>
-⬥ **This is strongest option if all its hit can hit, and should be prioritised if possible**.
-    • If you cannot get off all the hits *after* <:zerk:535532854004678657> which may often happen, then it gets use within <:zerk:535532854004678657> instead.
-⬥ **Multiple casts will override one another** - only one person in a group encounter should use it at a time.
-    • This is even more important because the later hits deal more damage than the earlier hits.
+__Benefits of putting your EZK into an EOF:__
+⬥ You can <:zekkil:903244090953588787> <:eofspec:1257438999794946099> with <:mwspear:694566917456789554> for more hits or <:abyssalscourge:947871842469834832> to build parasite stacks.
+⬥ Typically you will <:zekkil:903244090953588787> <:eofspec:1257438999794946099> with <:mwspear:694566917456789554>
+⬥ This is a larger increase than what a t95 2H would provide.
+⬥ Melee primarily uses DW; a T90/92 2H is a negligible decrease.
 
-.
-### When to ZGS <:zgs:626465964325601290> <:spec:537340400273195028>
-⬥ Considering that Greater Flurry <:gflurry:535532879283879977> and other strong abilities exist, the duration of <:zgs:626465964325601290> <:spec:537340400273195028> is long enough that without Relentless <:relentless5:712244800920748092> it's very difficult to get off a full rotation.
-⬥ **Mostly used if you won't really be able to use <:zerk:535532854004678657> a second time *and* <:zekkil:903244090953588787> <:eofspec:1257438999794946099> is not an option.**
-⬥ Can be nice for AoE scenarios.
-
-.
-### When to Overpower <:overpowerigneous:959089455640215633>
-⬥ You will almost always use Igneous Overpower because you can it get off fully, and the adrenaline costs manageable enough to use it mostly off-cooldown.
-⬥ You can use it twice per minute (50t/30s cooldown) if you do it early enough within <:zerk:535532854004678657> but that depends more on your specific rotations.
-⬥ Will deal nearly identical damage outside of <:zerk:535532854004678657> with multiple stacking bleeds.
-⬥ Due to hit-capping issues it's recommended to <:gfury:535532879334080527> before it.
-
-.
-### Other
-⬥ Bleeds like Slaughter <:slaughter:535532879237873666> / Blood Tendrils <:bloodtendrils:535532854327640064> / Dismember <:dismember:535532879376023572> are important and will also be used in this period.
-⬥ <:gflurry:535532879283879977> is also often used to get the next <:zerk:535532854004678657> on time, but may not be needed if phases are long enough.
-    • It may also impact adrenaline remaining for other thresholds.
+> Remember you cannot sell the Ek-ZekKil (EZK) <:zekkil:903244090953588787> after EoFing it!
 
 .
 ## __Defensive Autos__
-.tag:defauto
+.tag:defensive_autos
 While colloquially referred to as 'defensive' autos, it is more accurate to call them 'non-damaging' autos, since some non-defensive abilities have similar interactions with autos. Examples include ZGS special attack <:zgs:626465964325601290> <:spec:537340400273195028> and Berserk <:zerk:535532854004678657>.
 For a thorough explanation of how defensive autos (and auto attacks in general) work, refer to <#1020550458231771157>. Here, we will simply cover some of their uses.
 .
@@ -901,93 +841,6 @@ T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Be
 .embed:json
 
 .
-## __Pocket Slots__
-.tag:pocket
-⬥ The following image describes when to use which option.
-.img:https://img.pvme.io/images/f8Sml50.png
-.
-*Note: For more information, you can check out the `!pocket` command.*
-
-.
-## __General Berserk Rotations__
-.tag:zerk
-**This section will cover usage of strong abilities (thresholds or better) within your Berserk <:zerk:535532854004678657> under different scenarios**.
-**The following unlocks are assumed:**
-⬥ Ring of Vigour <:rov:513201065877831680> or its passive effect after Extinction quest.
-⬥ Igneous Kal-Ket <:igneouskalket:902209626404192316>
-.
-**Keep in mind the following:**
-⬥ These are only *suggestions* work from, and will not necessarily be applicable at all bosses or all scenarios.
-    • For boss-specific rotations, see their respective guides.
-⬥ If Igneous Kal-Ket <:igneouskalket:902209626404192316> is not unlocked, use Forceful Backhand (Flank) <:fbackhandflank:867678153866870824> , Cleave <:cleave:535532878616985610> or other strong abilities to substitute.
-⬥ Conservation of Energy relic <:conservationofenergy:697808773711921195> is recommended for adrenaline refunds from <:zerk:535532854004678657> and <:overpowerigneous:959089455640215633> in order to execute a stronger rotation.
-⬥ Replace Fury <:fury:535532879510372352> with Greater Fury <:gfury:535532879334080527> if you have it instead.
-
-.
-### Berserk w/ Adren Renewal <:adrenrenewal:736298121704767538>
-⬥ 1x Destroy <:destroy:535532879330148352>
-⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3 hit)
-⬥ 1x Assault <:assault:535532855191928842>
-⬥ 1x Hurricane <:cane:535532878969438210>
-
-⬥ Example rotation:
-    • <:zerk:535532854004678657> <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (3 hit) → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:assault:535532855191928842> → <:cane:535532878969438210>
-
-.
-### Berserk w/ Limitless <:limitless:641339233638023179>
-⬥ 1x Destroy <:destroy:535532879330148352>
-⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3 hit)
-⬥ 1x Assault <:assault:535532855191928842>
-⬥ 1x Hurricane <:cane:535532878969438210>
-
-⬥ Example rotation:
-    • <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:Glovesofpassage:556588694862037012> <:havoc:535532879300526080> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:deci:535532879325822986> → <:limitless:641339233638023179> + <:gflurry:535532879283879977> (3 hit) → <:cane:535532878969438210> → <:assault:535532855191928842> → <:havocgop:994920849117282365>
-
-.
-### Berserk w/ Adren Renewal + Smoke Cloud Berserk <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050>
-⬥ 1x Destroy <:destroy:535532879330148352>
-⬥ 1x Greater Flurry <:gflurry:535532879283879977> (4 hit)
-⬥ 1x Assault <:assault:535532855191928842>
-⬥ 1x Hurricane <:cane:535532878969438210>
-
-⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:smokecloud:856635090641879050> + <:deci:535532879325822986> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:destroy:535532879330148352> + (equip <:abyssalscourge:947871842469834832>) → <:gflurry:535532879283879977> (4 hit) → <:havocgop:994920849117282365> → <:assault:535532855191928842> → <:cane:535532878969438210>
-
-.
-### Berserk w/ 4-piece Vestments + Adren Renewal  <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538>
-⬥ 2x Destroy <:destroy:535532879330148352> (second Destroy is 2 hit)
-⬥ 1x Igneous Overpower <:overpowerigneous:959089455640215633>
-⬥ 1x Assault <:assault:535532855191928842>
-⬥ 2x Hurricane <:cane:535532878969438210>
-⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + Slaughter <:slaughter:535532879237873666>
-
-⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:cane:535532878969438210> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:deci:535532879325822986> → <:fury:535532879510372352> (2 hit) → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:cane:535532878969438210>
-.
-### Berserk w/ 4-piece Vestments + Adren Renewal + EZK EoF <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538> + <:zekkil:903244090953588787> <:eofor:745279787471470713>
-⬥ 1x Destroy <:destroy:535532879330148352>
-⬥ 1x Assault <:assault:535532855191928842>
-⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3 hit)
-⬥ 2x Hurricane <:cane:535532878969438210>
-⬥ 1x Backhand (Flank) <:backhandflank:867678153854025779>
-⬥ 1x Chaos Roar <:chaosroar:994644356671737966> + EZK special attack <:zekkil:903244090953588787> <:eofspec:1257438999794946099>
-
-⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (DW) <:gbarge:535532879250456578> → (4t) <:smokecloud:856635090641879050> + <:cane:535532878969438210> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → (equip <:jawsoftheabyss:947871842595639306>) + <:mwspear:694566917456789554> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → (equip <:vestmentsofhavochood:994189297659940904>) + <:chaosroar:994644356671737966> → <:mwspear:694566917456789554> <:zekkil:903244090953588787> <:eofspec:1257438999794946099> → (equip <:jawsoftheabyss:947871842595639306>) + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:assault:535532855191928842> → <:cane:535532878969438210>
-
-.
-### Berserk w/ 4-piece Vestments + Adren Renewal + Limitless <:vestmentsofhavoctop:994189295592161291> + <:adrenrenewal:736298121704767538> + <:limitless:641339233638023179>
-⬥ 2x Destroy <:destroy:535532879330148352> (second Destroy is 2 hit)
-⬥ 1x Assault <:assault:535532855191928842>
-⬥ 1x Greater Flurry <:gflurry:535532879283879977> (3 hit)
-⬥ 2x Hurricane <:cane:535532878969438210>
-⬥ 1x Forceful Backhand (Flank) <:fbackhandflank:867678153866870824>
-⬥ 1x Igneous Overpower <:overpowerigneous:959089455640215633>
-
-⬥ Example rotation:
-    • <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → (equip <:jawsoftheabyss:947871842595639306>) + <:abyssalscourge:947871842469834832> <:gbarge:535532879250456578> → <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:cane:535532878969438210> → (4t) <:abyssalscourge:947871842469834832> <:smokecloud:856635090641879050> + <:gfury:535532879334080527> → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> (3 hit) → <:gfury:535532879334080527> → <:fbackhandflank:867678153866870824> → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:destroy:535532879330148352> (2 hit) → <:abyssalscourge:947871842469834832> <:cane:535532878969438210>
-
-.
 {
   "embed": {
     "title": "__Table of Contents__",
@@ -995,18 +848,18 @@ T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Be
     "color": 15158332,
     "fields": [
       {
-        "name": "__Begin__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)\n⬥ [Revo Bars/General Info]($linkmsg_generalinfo$)",
+        "name": "__Building Blocks__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Weapon Camping]($linkmsg_camping$)\n⬥ [Basic Ability Prioritisation]($linkmsg_basics$)\n⬥ [Critical Strikes]($linkmsg_crits$)\n⬥ [Cancelling Channels]($linkmsg_channels$)\n⬥ [Indirect Damage Boosts]($linkmsg_indirect$)",
         "inline": true
       },
       {
-        "name": "__Building Blocks__",
-        "value": "⬥ [Ability Information]($linkmsg_info$)\n⬥ [Ability Prioritisation]($linkmsg_priority$)\n⬥ [DW vs. 2H Camp]($linkmsg_camping$)\n⬥ [Building a Rotation!]($linkmsg_rotation$)\n⬥ [Cancelling Channels]($linkmsg_cancel$)",
+        "name": "__Putting It Together__",
+        "value": "⬥ [Building a Rotation]($linkmsg_rotations$)\n⬥ [Maximising Use of Berserk]($linkmsg_rotations_berserk$)\n⬥ [Example Rotations]($linkmsg_rotations_examples$)",
         "inline": true
       },
       {
         "name": "__Important Abilities__",
-        "value": "⬥ [Greater Fury]($linkmsg_gfury$)\n⬥ [Greater Barge]($linkmsg_gbarge$)\n⬥ [Greater Flurry]($linkmsg_gflurry$)\n⬥ [Chaos Roar]($linkmsg_roar$)",
+        "value": "⬥ [Greater Fury]($linkmsg_gfury$)\n⬥ [Greater Barge]($linkmsg_gbarge$)\n⬥ [Greater Flurry]($linkmsg_gflurry$)\n⬥ [Chaos Roar]($linkmsg_chaos_roar$)",
         "inline": true
       },
       {
@@ -1021,17 +874,12 @@ T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Be
       },
       {
         "name": "__Important EoFs__",
-        "value": "⬥ [Dragon Claws]($linkmsg_dclawseof$)\n⬥ [Statius' Warhammer]($linkmsg_swheof$)\n⬥ [Ek-Zekkil (EZK)]($linkmsg_ezkeof$)",
+        "value": "⬥ [Dragon Claws]($linkmsg_eof_dclaws$)\n⬥ [Statius' Warhammer]($linkmsg_eof_swh$)\n⬥ [Ek-Zekkil (EZK)]($linkmsg_eof_ezk$)",
         "inline": true
       },
       {
         "name": "__Advanced Mechanics__",
-        "value": "⬥ [EZK vs. ZGS vs. Overpower]($linkmsg_ezkzgsop$)\n⬥ [Defensive Autos]($linkmsg_defauto$)\n⬥ [5TAA]($linkmsg_5taa$)\n⬥ [Pocket Slots]($linkmsg_defauto$)",
-        "inline": true
-      },
-      {
-        "name": "__Berserk Rotations__",
-        "value": "⬥ [General Zerk Rotations]($linkmsg_zerk$)",
+        "value": "⬥ [Defensive Autos]($linkmsg_defensive_autos$)\n⬥ [5TAA]($linkmsg_5taa$)",
         "inline": true
       }
     ]
