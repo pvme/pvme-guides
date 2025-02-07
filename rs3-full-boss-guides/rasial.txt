@@ -68,8 +68,8 @@ The rotations may not work as well as intended if any of the following are missi
     • Fury of the Small <:furyofthesmall:697808773917573233> (Equilibrium aura <:equilibriumaura:1233722649834684416>)
     • Berserker's Fury <:berserkersfury:697808774106185768> (Invigorate aura <:invigaura:643505652865695767>)
 ⬥ Invigorating 4 <:invig4:712073087859949570>
-⬥ <:reaverpouch:839903693837959228> auto fire rate set to 3-7.
-    • Spam eat <:blueblubber:689530593742291033> under <:splitsoul:1137809168368148490> if not using <:reaverscroll:1022562484378419284>
+⬥ Use <:hellhoundpouch:921410226475925514> to mitigate damage taken or <:ripperpouch:703581275453128714> (Rasial is immune to familiar damage, so do **not** use scrolls) for it's passive, which increases damage output on lower LP targets.
+    • For <:invigaura:643505652865695767> rotation, use <:kalgpouch:921410226484301925> with <:kalgscroll:841409588954923049>
 ⬥ The Lunar spellbook is used for <:veng:543478434953822208>
 ⬥ All of the Necromancy talent tree unlocked.
     • Greater bone shield <:greaterboneshield:1137809118283976814> active.
@@ -82,12 +82,12 @@ The rotations may not work as well as intended if any of the following are missi
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/v4ddVrhVlE.png"
+            "url": "https://img.pvme.io/images/QN8VtF2RwB.png"
         },
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [T90 Equilibrium Aura](https://pvme.github.io/preset-maker/#/uGuVox76eJvxf1QwqlbR)\n⬥ [T95 Equilibrium Aura](https://pvme.github.io/preset-maker/#/OGTWIBsykuXVBC0RdxYb)\n⬥ [T95 Invigorate Aura](https://pvme.github.io/preset-maker/#/gWe9tlRPYrs8ZPjY2gAD)",
+        "value": "⬥ [T90 Equilibrium Aura](https://pvme.github.io/preset-maker/#/RNbb3ckszPMevQ1S6SrJ)\n⬥ [Equilibrium Aura](https://pvme.github.io/preset-maker/#/QIC6fzLFbmNYe5zOPOOi)\n⬥ [Invigorate Aura](https://pvme.github.io/preset-maker/#/5sM8kqTjVWUfM34jlHXh)",
         "inline": true
       }
     ]
@@ -98,7 +98,8 @@ The rotations may not work as well as intended if any of the following are missi
 .
 ## __T90 Equilibrium Rotation__ <:equilibriumaura:1233722649834684416>
 .tag:rot_t90_equi
-⬥ This rotation seeks to consistently hit around ~1:30 kill times.
+⬥ This rotation seeks to consistently hit around ~1:45 kill times.
+    • Will require more improv for lower level setups.
 ⬥ <:undeadslayer:641339922019516416> and <:nip:537336877900890135> help but are **not** required.
 ⬥ Skip <:invokedeath:1137809121983336548> if using <:dealertop80:1142783476169441401> armour.
 
@@ -130,9 +131,11 @@ Post Living Death
 *Note: <:lifetransfer:1137809128136388819> is optional, but may be used during immunity or phase 3.*
 
 .
-## __T95 Equilibrium Rotation__ <:equilibriumaura:1233722649834684416>
-.tag:rot_t95_equi
-⬥ This rotation seeks to consistently hit around ~1:03-1:04 kill times.
+## __Equilibrium Rotation__ <:equilibriumaura:1233722649834684416>
+.tag:rotequi
+⬥ This rotation seeks to consistently hit around ~1:04.8-1:15 kill times.
+    • Will be slower without Innate Mastery enhancement <:shardofgenesisessence:1266418218264694954>
+    • <:scriptureofjas:869284342839513108> has the potential for better times but is more variable due to proc timings
 ⬥ <:soulboundlantern:1138809230573441064> perked with <:p6:712073088769982475> <:ruthless1:712244800924942396> is recommended.
 ⬥ At specific points during the encounter you may <:veng:543478434953822208>
     • After the 3rd <:soulsap:1137809140476031057>
@@ -163,10 +166,13 @@ Living Death
 <:commandskeleton:1137809194423160883> / <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> / <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *improv*
 
 .
-## __T95 Invigorate Rotation__ <:invigaura:643505652865695767>
-.tag:rot_t95_invig
-⬥ This rotation seeks to consistently hit around ~1:00 kill times.
-⬥ <:reaverpouch:839903693837959228> auto fire rate set to 6.
+## __Invigorate Rotation__ <:invigaura:643505652865695767>
+.tag:rotinvig
+⬥ This rotation seeks to consistently hit around ~0:59.4-1:04.8 kill times.
+    • Will be slower without Innate Mastery enhancement <:shardofgenesisessence:1266418218264694954>
+    • Switching from <:scriptureofjas:869284342839513108> to <:grim:568262896375824385> has the potential for better times but is more variable than camping <:grim:568262896375824385>
+        ⬩ <:scriptureofjas:869284342839513108> is activated after loading preset.
+⬥ <:kalgpouch:921410226484301925> with <:kalgscroll:841409588954923049> and auto fire rate set to 1.
 ⬥ <:smokecloud:856635090641879050> start is not required.
 ⬥ At specific points during the encounter you may <:veng:543478434953822208>
     • <:veng:543478434953822208> and <:disrupt:535614336207552523> after the 3rd <:soulsap:1137809140476031057>
@@ -219,7 +225,7 @@ Living death
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [T90 Equilibrium Example Kill](https://www.youtube.com/watch?v=dmGZMGVz9X0)\n⬥ [T95 Equilibrium Example Kills](https://www.youtube.com/watch?v=p7YC3jHDpu0)\n⬥ [T95 Casual Invigorate Example Kills](https://youtu.be/6V2T0KtYaO4)\n⬥ [T95 Optimised Invigorate Example Kills](https://youtu.be/6n3KcruFsX0)"
+        "value": "⬥ [T90 Equilibrium Example Kill](https://www.youtube.com/watch?v=dmGZMGVz9X0)\n⬥ [Fast Equilibrium Example Kill](https://youtu.be/bHZHHVOdjDE)\n⬥ [Equilibrium Example Kills](https://youtu.be/UFCaTTUVnbM)\n⬥ [Fast Invigorate Example Kill](https://youtu.be/kUDxrrUOODc)\n⬥ [Invigorate Example Kills](https://youtu.be/v4W5xOh9pWE)"
       }
     ]
   }
@@ -234,7 +240,7 @@ Formatting Maintained by: <@1080778657917833246>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [positioning]($linkmsg_positioning$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [T90 Equilibrium Rotation]($linkmsg_rot_t90_equi$)\n⬥ [T95 Equilibrium Rotation]($linkmsg_rot_t95_equi$)\n⬥ [T95 Invigorate Rotation]($linkmsg_rot_t95_invig$)\n⬥ [Optimisation Notes]($linkmsg_optimisation$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [positioning]($linkmsg_positioning$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [T90 Equilibrium Rotation]($linkmsg_rot_t90_equi$)\n⬥ [Equilibrium Rotation]($linkmsg_rotequi$)\n⬥ [Invigorate Rotation]($linkmsg_rotinvig$)\n⬥ [Optimisation Notes]($linkmsg_optimisation$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
     }
 }
