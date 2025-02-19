@@ -7,13 +7,8 @@
 The Dagannoth Kings are located at the bottom of the cave in Waterbirth Island, and are generally only camped by high level players in an effort to get the pets or the collection log.
 
 .
-## __Active Strategy__
-.tag:active
-### The Fight
-Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95/T99 Curses (<:torment:583429936958930964> <:anguish:583429936665198592> <:turmoil:583429936606347280> / <:Affliction:513190158468907008> <:Desolation:513190159018098713> <:Malevolence:513190159416557573>) as you kill the Kings. Cancel the channelled threshold abilities with basic abilities to gain additional adren if the King is about to die.
-
-.
 ## __Presets and Relics__
+.tag:presets
 .
 {
   "embed": {
@@ -24,8 +19,8 @@ Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95
         },
     "fields": [
 {
-        "name": "__Preset Suggestions__",
-        "value": "⬥ [Magic / Melee / Ranged Tribrid](https://pvme.io/preset-maker/#/BaFDdRaZawclqmjb8h6c)",
+        "name": "__Tribrid Presets (Magic/Melee/Ranged)__",
+        "value": "⬥ [Low-level](https://pvme.github.io/preset-maker/#/WVderdEaRP6HcbMphACG)\n⬥ [High-level](https://pvme.io/preset-maker/#/BaFDdRaZawclqmjb8h6c)",
         "inline": true
       }
     ]
@@ -34,7 +29,14 @@ Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95
 .embed:json
 
 .
-### Rotations
+## __Active Strategy__
+.tag:active
+### __The Fight__
+Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95/T99 Curses (<:torment:583429936958930964> <:anguish:583429936665198592> <:turmoil:583429936606347280> / <:Affliction:513190158468907008> <:Desolation:513190159018098713> <:Malevolence:513190159416557573>) as you kill the Kings. Cancel the channelled threshold abilities with basic abilities to gain additional adren if the King is about to die.
+
+.
+### __Rotations__
+.tag:rotations
 ⬥ **Dagannoth Supreme**
 <:dismember:535532879376023572> → walked <:slaughter:535532879237873666> → <:bloodtendrils:535532854327640064> → <:assault:535532855191928842> (cancel with <:cleave:535532878616985610> / <:sever:535532879577612298>)
 
@@ -47,15 +49,14 @@ Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95
 walked <:comb:535533833098100745> → <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> → <:sonicwave:1087373972443775056> → <:wm:535533809978966037> → <:asphyx:535533833072672778> (cancel with <:dbreath:535533833391702017> / <:wrack:1257439366708592651>)
 
 .
-### Example Kills
+### __Example Kills__
 .
 ⬥ [Active DK's](https://youtu.be/SdFGL1LHkjk)
 .
 
 .
-## __Low Effort Strategy__
-.tag:low_effort
-### Explanation
+## __Revolution++ Strategy__
+.tag:revolution
 It’s possible to “semi-AFK” the Dagannoth Kings by switching weapons and using revolution, even without any hybrid armour. Normally, using armour that’s off-style has an accuracy penalty i.e. if using a Melee weapon, then magic/ranged armour will lower accuracy. For DKs, a combination of T90 weapons + overloads + T80 power armour of different styles will ensure 100% accuracy on all three kings. Higher armour or lower tier weapons will affect accuracy, but adding prayers/curses will get accuracy back up to 100%.
 
 The strategy here is to wear power armour of different types i.e. (melee helm, ranged body, magic legs), and swap weapons/prayer for each king. This requires two clicks/key binds every kill, but is otherwise auto-pilot.
@@ -66,35 +67,15 @@ The strategy here is to wear power armour of different types i.e. (melee helm, r
 ⬥ ~200kph with T90 weapons + a custom instance for fast re-spawns
 
 .
-### Preset and Relics
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Preset Suggestions__",
-        "value": "⬥ [Link](https://pvme.github.io/preset-maker/#/WVderdEaRP6HcbMphACG)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-### Action Bars
+### __Revolution++ Action Bars__
 ⬥ **If Using** <:masterworkspearofannihilation:694566917456789554>:
-.img:https://img.pvme.io/images/z6hzUYh.png
+.img:https://img.pvme.io/images/8HWujgR4Bw.png
 ⬥ **Generic 2H Melee**:
-.img:https://img.pvme.io/images/ot8tERN.png
+.img:https://img.pvme.io/images/vObFrxP1np.png
 ⬥ **Generic 2H Ranged**:
-.img:https://img.pvme.io/images/VpdRXA0.png
+.img:https://img.pvme.io/images/jzPUkbecuE.png
 ⬥ **Generic 2H Mage**:
-.img:https://img.pvme.io/images/tFg5Hfg.png
-⬥ **Prayer/Weapon Switches**:
-.img:https://img.pvme.io/images/ONPk2TA.png
+.img:https://img.pvme.io/images/TWjlpcC7AT.png
 
 .
 ## __AFK Strategy__
@@ -105,7 +86,7 @@ A full guide on how to AFK Dagannoth Kings with poison is available here: <#1251
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Active Strategy]($linkmsg_active$)\n⬥ [Low Effort Strategy]($linkmsg_low_effort$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets & Relics]($linkmsg_presets$)\n⬥ [Active Strategy]($linkmsg_active$)\n⬥ [Revolution++ Strategy]($linkmsg_revolution$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
     "color": 39423
   }
 }
