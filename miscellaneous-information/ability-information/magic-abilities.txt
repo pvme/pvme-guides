@@ -388,6 +388,28 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .
 {
   "embed": {
+    "title": "__Iban's Staff__ <:ibansstaff:1215929543068618752>",
+    "description": "⬥ Adrenaline Cost: 50% (45% with <:rov:513201065877831680>)",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:iban
+
+.
+{
+  "embed": {
+    "title": "__Roar of Awakening__ <:roarofawakening:1266417538045317121>",
+    "description": "⬥ Special Attack: Soulfire\n⬥ Cooldown: 75t (45s)\n⬥ Adrenaline Cost: 35% (31.5% with <:rov:513201065877831680>)\n⬥ Hits every 1.8s (3t) over 12.6s for a total of 7 hits.\n ⬥ Gain Conflagrate buff for 15s (25t).\n \u00a0\u00a0\u00a0\u00a0• Next <:comb:535533833098100745> deals 40% increased damage.\n⬥ Can get reset while having at least 1 <:essencecorruption:1266418936820404295>\n\u00a0\u00a0\u00a0\u00a0• For more information on <:essencecorruption:1266418936820404295>, use `!essencecorruption` in <#534563158304620564>",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:roa
+
+.
+{
+  "embed": {
     "title": "__Fractured Staff of Armadyl__ <:soa:869284271595069451>",
     "description": "⬥ Special Attack: Instability\n⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 50% (45% with <:rov:513201065877831680>)\n⬥ Lasts 50t (30s)\n⬥ Whenever a magic critical hit is inflicted on primary target, an additional *Time Strike* will be fired\n\u00a0\u00a0\u00a0\u00a0• *Time Strike* deals 90%-110% damage to your current target\n⬥ For more information on how to use the special attack, use `!fsoa` in <#534563158304620564>",
     "color": 39423
@@ -482,7 +504,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
       },
       {
         "name": "__Special Attacks__",
-        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)\n⬥ [F. Staff of Armadyl]($linkmsg_soa$)",
+        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)\n⬥ [Iban's Staff]($linkmsg_iban$)\n⬥ [Roar of Awakening]($linkmsg_roa$)\n⬥ [F. Staff of Armadyl]($linkmsg_soa$)",
         "inline": true
       },
       {
