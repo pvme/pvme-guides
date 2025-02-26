@@ -7,31 +7,27 @@
 .tag:intro
 Sliske's general in the Heart of Gielinor, Gregorovic is largely considered to be one of the harder GWD2 bosses for learners. He requires 80 prayer and 40 Sliske killcount to fight. In challenge mode (herein called Hard Mode) he gains additional phases.
 
-Note: This guide has high requirements and is primarily aimed at those needing 100 killcount for the Insane Final Boss title.
+This guide is primarily aimed at those needing 100 killcount for the Insane Final Boss title.
 
-.
-## __Requirements__
-.tag:Requirements
-⬥ Igneous Kal-Mor <:igneouskalmor:1139200072438005851> or Igneous Kal-Zuk <:igneouskalzuk:902209626479685734> for  <:deathskulls:1159434663903899728>
-⬥ Omni guard <:omniguard:1138809234922934282>
-⬥ Vigour passive <:rov:513201065877831680> and Conservation of Energy <:conservationofenergy:697808773711921195> are **REQUIRED** for this rotation to work.
-⬥ Kal'gerion demon <:kalgpouch:921410226484301925> with scrolls <:kalgscroll:841409588954923049>
-⬥ Erethdor's Grimoire <:grim:568262896375824385> for better consistency.
-⬥ DPS aura such as Mahjarrat <:mahj:643148943856762890> or Dark Magic <:darkmagic:643505652571963417>
 .
 ## __Presets and Relics__
 .tag:presets
+⬥ Igneous cape <:igneouskalmor:1139200072438005851> / <:igneouskalzuk:902209626479685734> for <:deathskullsigneous:1179505729367969863>
+⬥ Omni guard <:omniguard:1138809234922934282>
+⬥ T90 Death Guard <:deathguard90:1138809243143766118> switch (optionally stored in <:eofblack:780401412915855380>)
+⬥ Vigour passive <:rov:513201065877831680> strongly recommended
+.
 {
   "embed": {
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/5SOrQl2xOS.png"
+            "url": "https://img.pvme.io/images/8yySChl6sE.png"
         },
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Necromancy](https://pvme.io/preset-maker/#/pTvwqnrD42Fp0Hdw9LZl)",
+        "value": "⬥ [Necromancy](https://pvme.github.io/preset-maker/#/RYH4JaRAIP8iEgG53diw) <:necromancy:1148995625896120460>",
         "inline": true
       }
     ]
@@ -40,7 +36,6 @@ Note: This guide has high requirements and is primarily aimed at those needing 1
 .embed:json
 
 .
-​
 ## __Mechanics__
 .tag:mechanics
 {
@@ -82,47 +77,49 @@ Note: This guide has high requirements and is primarily aimed at those needing 1
 .embed:json
 
 .
-### What to Expect
-This method can achieve average kill times of 1:00 - 1:10.
+## __Rotation__
+.tag:rotation
 
 .
-## __The Fight__
-.tag:fight
-⬥ Bank between kills to reset cooldowns.
+**Outside instance**
+<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → rejoin instance
 
-### __Pre-build outside of instance:__
-<:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:conjureskeleton:1159434516658651147> → <:commandghost:1159434409913634816> → rejoin instance <:kalgscroll:841409588954923049> + <:splitsoul:1137809168368148490> → enter instance.
 .
-### Phase 1-3
-⬥ **__P1__:** <:invokedeath:1137809121983336548> → <:dive:1049378668197195808>+<:surge:535533810004262912> to opposite corner →  <:commandskeleton:1137809194423160883> → (tc) <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> + activate <:excal:641337999170207763>→ <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:bloat:1159433682403201044> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099> → filler.
-⬥ **__P2 (wight phase):__** <:surge:535533810004262912> to a corner, click wight to auto-attack.
+**Inside instance**
+Enter instance → <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → <:dive:1049378668197195808> + <:surge:535533810004262912> to opposite corner → <:commandskeleton:1137809194423160883> and walk nearer to middle
+
+.
+**Main fight**
+(tc) + (optional <:vulnbomb:655341074235129858>) + <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099> → improvise until <30k phase point
+
+.
+**Wight phase**
+<:surge:535533810004262912> to corner → click on closest Wight to auto-attack
+    • To group Wights, target + surge through a mage/ranger, then walk back into MD.
+    • Auto-attacks stop when eating/moving—click again to resume.
     • Build to at least 45% adren using <:anti:535541306475151390> , <:freedom:535541258240786434> , <:res:535541258844635148> or <:prep:535541258546970624>
-    • On sixth wight use <:invokedeath:1137809121983336548> and <:commandskeleton:1137809194423160883>
-⬥ **__P3:__** (tc) <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099> → filler
+    • On sixth wight use <:invokedeath:1137809121983336548> and <:splitsoul:1137809168368148490>
 
 .
-## __Tips and Tricks__
-.tag:tips
-⬥ <:dive:1049378668197195808> +<:surge:535533810004262912> upon entering ensure your conjures are in the arena.
-⬥ With a swift DPS rotation Greg's Phase 1 mechanics and poison damage can be ignored. <:darkness:1137809209782698024> can be used if damage taken is high, or eat <:blueblubber:689530593742291033>
-⬥ On Phase 2 conjures, familiars (at time of testing) and dreadnips do **not** work. <:poisonicon:944649693500154006> **does** work and is therefore recommended, despite HM Greg being <:poisonicon:944649693500154006> immune.
-⬥ On phase 2 <:surge:535533810004262912> into a corner helps group up the wights to bring them down quickly.
-⬥ On phase 2 wights might need to be retargeted multiple times as autoattacking halts when eating or moving.
-⬥ Adrenaline can be build while killing wights, which speeds up the final phase. Similarly, you can use <:invokedeath:1137809121983336548> and <:commandskeleton:1137809194423160883> while killing the 6th wight to save time for phase 3.
+**After Wights die**
+(tc) + <:deathskulls:1159434663903899728> → <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099> → improvise
 
-## __Video Example__
-.tag:example
-<https://www.youtube.com/watch?v=746fflFAW1M>
 .
-## __Normal mode Gregorovic__
-.tag:nm
-A full guide on how to do normal mode Gregorovic is available here: <#1251160427090542753>
+## __Example Kills__ <:necromancy:1148995625896120460>
+.tag:examples
+⬥ [5 minute example kills](https://www.youtube.com/watch?v=lAZVrjptcVo)
+
+.
+## __Other Gregorovic Guides__
+.tag:other
+⬥ Normal Mode Gregorovic: <#1251160427090542753>
+⬥ AFK Gregorovic: <#1251377265368109076>
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Tips and Tricks]($linkmsg_tips$)\n⬥ [Example kill]($linkmsg_example$)\n⬥ [Normal mode Gregorovic]($linkmsg_nm$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Rotation]($linkmsg_rotation$)\n⬥ [Example Kills]($linkmsg_examples$)\n⬥ [Other Gregorovic Guides]($linkmsg_other$)",
     "color": 39423
   }
 }
