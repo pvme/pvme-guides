@@ -121,7 +121,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Dazing Shot__ <:dazing:535541307142307860>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Target suffers a 10% accuracy decrease on their next attack",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Target suffers a 10% hit chance reduction for 4.2s",
     "color": 3066993
   }
 }
@@ -132,7 +132,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Greater Dazing Shot__ <:mds:535541259033378827>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ All normal dazing shot things apply\n⬥ Applies the Puncture effect:\n\u00a0\u00a0\u00a0\u00a0• +1 Puncture stack count (caps at 10 stacks) on successful hits\n\u00a0\u00a0\u00a0\u00a0• Deal Puncture Stack * (8-10%) bleed damage over its full duration\n\u00a0\u00a0\u00a0\u00a0• Refreshes timer before clearing Puncture stacks to 9s even on splashes\n\u00a0\u00a0\u00a0\u00a0• Bleed start from the beginning again at its current Puncture stacks",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Normal <:dazing:535541307142307860> effect applies\n⬥ Applies the Punctured effect:\n\u00a0\u00a0\u00a0\u00a0• +1 Punctured stack count (caps at 10 stacks, 13 with <:splinteringarrows:900758234246299649>) on successful hits\n\u00a0\u00a0\u00a0\u00a0• Deal Punctured Stack * (8-10%) bleed damage over its full duration\n\u00a0\u00a0\u00a0\u00a0• Refreshes timer before clearing Punctured stacks to 9s even on splashes\n\u00a0\u00a0\u00a0\u00a0• Bleed start from the beginning again at its current Punctured stacks",
     "color": 3066993
   }
 }
@@ -233,7 +233,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Salt the Wound__ <:stw:535541259109138463>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n⬥ It is affected by Puncture:\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 18% per Puncture stack\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 3.6% per Puncture rank\n\u00a0\u00a0\u00a0\u00a0• This means at 10 stacks <:stw:535541259109138463>'s damage range is 73.6%-368%\n⬥ It affects Puncture:\n\u00a0\u00a0\u00a0\u00a0• Refreshes the timer before clearing Puncture stacks to 9s\n\u00a0\u00a0\u00a0\u00a0• Bleed starts from the beginning again at its current Puncture stacks",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is affected by Punctured:\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 15% per Punctured stack\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 10% per Punctured rank\n\u00a0\u00a0\u00a0\u00a0• This means at 10 stacks <:stw:535541259109138463>'s damage range is 210%-280%\n⬥ It affects Punctured:\n\u00a0\u00a0\u00a0\u00a0• Refreshes the timer before clearing Punctured stacks to 9s\n\u00a0\u00a0\u00a0\u00a0• Bleed starts from the beginning again at its current Punctured stacks",
     "color": 3066993
   }
 }
@@ -274,6 +274,17 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 }
 .embed:json
 .tag:dbow
+
+.
+{
+  "embed": {
+    "title": "__Zamorak Bow__ <:zammybow:1215929540908679208>",
+    "description": "⬥ Adrenaline Cost: 40% (36% with <:rov:513201065877831680>)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:zbow
 
 .
 {
@@ -389,7 +400,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
       },
       {
         "name": "__Special Attacks__",
-        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
+        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Zamorak Bow]($linkmsg_zbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
         "inline": true
       },
       {
