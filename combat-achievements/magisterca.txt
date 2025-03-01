@@ -20,7 +20,7 @@ This guide will go over how to complete the Combat achievements for The Magister
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Master Speed Killer](https://pvme.github.io/preset-maker/#/zmq2RNX48cRuHeeG9X8Q)",
+        "value": "⬥ [Melee](https://pvme.github.io/preset-maker/#/zmq2RNX48cRuHeeG9X8Q)\n⬥ [Magic](https://pvme.github.io/preset-maker/#/GYJwkEpShUX0CjizQrIM)\n⬥ [Necromancy](https://pvme.github.io/preset-maker/#/G9RDLRw4odl16hEQuvgz)",
         "inline": true
       }
     ]
@@ -30,7 +30,11 @@ This guide will go over how to complete the Combat achievements for The Magister
 
 .
 ## __The Magister Master Speed Killer__
-.tag:masterspeedrot
+⬥ Defeat the Magister in less than 0:12.0
+
+.
+### __Melee rotation__
+.tag:melee
 ⬥ This rotation is **NOT** recommended for standard kills, only for the achievement.
     • The setup takes extra time, thus lowering average kills per hour.
 ⬥ With this rotation it is possible to hit ~0:10.2 kill times.
@@ -49,6 +53,38 @@ This guide will go over how to complete the Combat achievements for The Magister
 <:dive:1049378668197195808> + (tc) + <:vulnbomb:655341074235129858> + r<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538> + <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → <:chaosroar:994644356671737966> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:cane:535532878969438210>
 
 .
+### __Magic rotation__
+.tag:magic
+⬥ This rotation is **NOT** recommended for standard kills, only for the achievement.
+    • The setup takes extra time, thus lowering average kills per hour.
+⬥ With this rotation it is possible to hit ~0:09.6 kill times.
+
+.
+### Inside Instance
+⬥ Gather 25 corruption stacks in a previous kill.
+⬥ Do **NOT** use any bleeds during the previous kill or the prebuild.
+    • Having <:essencecorruption:1266418936820404295> has a chance to reset <:roarofawakening:1266417538045317121> <:spec:537340400273195028> which makes the kill more RNG.
+
+<:dummy:656844963522281473> → <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:wrack:1257439366708592651> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → build 100% → <:meta:535533811304497183> + <:adrenrenewal:736298121704767538> → <:freedom:535541258240786434> → <:divert:787904334377648130> + wait 2t start + <:dive:1049378668197195808>
+
+Magister:
+(tc) + <:vulnbomb:655341074235129858> + <:omni:535533809664262179> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → (<:limitless:641339233638023179>) <:smoketendrils:536257336130404372> → <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099> → (<:limitless:641339233638023179>) <:wm:535533809978966037> / improv
+
+.
+### __Necromancy rotation__
+.tag:necro
+⬥ Build the following during 1-2 kills before your attempt:
+    • 5 <:residualsoul:1139453152169558046>
+    • 12 <:necrosis:1139452791878856805>
+    • 25 Corruption Stacks
+
+.
+Pre-fight <:conjurearmy:1166094935066423348> → <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> + wait 2t start
+
+Magister:
+(tc) + <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:volleyofsouls:1159435029592686642> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:commandzombie:1137809191231295549>
+
+.
 .tag:example
 {
   "embed": {
@@ -58,7 +94,7 @@ This guide will go over how to complete the Combat achievements for The Magister
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [Master Speed Killer Example Kill](https://youtu.be/tYWaWeADUJQ)"
+        "value": "⬥ [Melee](https://youtu.be/tYWaWeADUJQ)\n⬥ [Magic](https://youtu.be/k66bopNAYaA)\n⬥ [Necromancy](https://www.youtube.com/watch?v=srMAvNOTgwk)"
       }
     ]
   }
@@ -69,7 +105,7 @@ This guide will go over how to complete the Combat achievements for The Magister
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Master Speed Killer Rotation]($linkmsg_masterspeedrot$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Melee Rotation]($linkmsg_melee$)\n⬥ [Magic Rotation]($linkmsg_magic$)\n⬥ [Necromancy Rotation]($linkmsg_necro$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
     }
 }
