@@ -1,13 +1,16 @@
-# Kalphite King
+# Stuns & Mechanics Overview
 .img:https://img.pvme.io/images/fb0VtpIAFc.png
+*Note: a **Table of Contents** can be found in the pins.*
+
 .
 ## __Introduction__
 .tag:intro
-The Kalphite King (KK) is a powerful kalphite found within the Exiled Kalphite Hive just north of Menaphos. KK can use all three attack styles, but he will only use one style at a time with a set attack rotation for each style. At any time throughout the fight, KK can randomly change attack style, starting a new attack rotation.
+The [Kalphite King](<https://runescape.wiki/w/Kalphite_King>) <:kalphiteking:513212971409866765> is a powerful kalphite found within the [Exiled Kalphite Hive](<https://runescape.wiki/w/Exiled_Kalphite_Hive>) just north of Menaphos. KK can use three combat styles, but he will only use one style at a time with a set attack rotation for each style. At any time throughout the fight, KK can randomly change attack style, starting a new attack rotation.
 
 KK is a significant step up in difficulty in comparison to other mid-tier bosses, requiring close tracking of auto attacks and specs, and the use of specific abilites at certain times to dodge one-hit mechanics.
 
-Being on a Kalphite slayer task is recommended while fighting Kalphite King, as you gain the benefits of the Slayer Helm <:slayerhelm:798285340460449792>, Genocidal <:genocidal:689503091539705870> perk, and TMW <:tmwbody:536966366272552960> set effect.
+Being on a Kalphite slayer task <:slayer:797896049548066857> is recommended as you gain the benefits of the Slayer Helm <:slayerhelm:798285340460449792> and Genocidal <:genocidal:689503091539705870>
+
 .
 ## __Mechanics__
 .tag:mechanics
@@ -42,13 +45,12 @@ Being on a Kalphite slayer task is recommended while fighting Kalphite King, as 
       },
       {
         "name": "__Minions__",
-        "value": "⬥ Kalphite King spawns minions when it reaches 195k (1 wave) and 65k HP (2 waves). All players within a 3 tile radius of KK will be stunned for one second before the minions appear. Minions spawning will also cause KK to skip whatever attack he would have done next, including special attacks. [Example](https://img.pvme.io/images/MU1A7WL.mp4)\n\u200B"
+        "value": "⬥ Kalphite King spawns minions when it reaches 195k (1 wave) and 65k HP (2 waves). All players within a 3 tile radius of KK will be stunned for one second before the minions appear. Minions spawning will also cause KK to skip whatever attack he would have done next, including special attacks. [Example](https://img.pvme.io/images/MU1A7WL.mp4)"
       }
     ]
   }
 }
 .embed:json
-.
 
 .
 ## __Kalphite King Attack Pattern__
@@ -59,7 +61,6 @@ Being on a Kalphite slayer task is recommended while fighting Kalphite King, as 
 .
 ## __Player Stun Timings__
 .tag:playerstun
-.
 Stunning KK at the right time is essential, allowing you skip certain mechanics that either waste time (charge & dig) or result in a death/failed kill (Green).
 
 .
@@ -154,47 +155,6 @@ Don’t <:bd:535532854281764884> during ranged phase. Always skip green with a s
 ⬥ Never use Berserk <:zerk:535532854004678657> during mage phase unless the boss spawns in form.
 
 .
-> # Solo
-.tag:solo
-### Preset and Relics
-.tag:solopresets
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/l6rs8e1DSn.png"
-        },
-    "fields": [
-{
-        "name": "__Preset Suggestions__",
-        "value": "⬥ [T95 Necromancy](https://pvme.io/preset-maker/#/7kMGCSilXcps9XB3CMdD)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-### Solo Necromancy Rotation
-.tag:solorotations
-> ### ⚠️ Disclaimer
-> **This rotation may not work after nerfs to <:necromancy:1148995625896120460> since release**
-> Know of a newer method/rotation? Share it in <#1020853673317908500> to help keep this guide up-to-date!
-
-.
-**Note**
-⬥ Your conjures are very strong especially with <:conjureghost:1137809206423060632> / <:commandghost:1159434409913634816>, making <:reaverpouch:839903693837959228> a very strong familiar choice
-⬥ If <:armabook:513190159051915264> doesn't proc then you need to end with <:necroauto:1137809137401602109>
-
-Pre-instance:
-<:threadsoffate:1137809172335951933> + <:surgemobile:867678153798975498> east → (tc) + <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> to hole
-
-In the fight:
-<:conjurearmy:1166094935066423348> → <:commandghost:1159434409913634816> → <:lifetransfer:1137809128136388819> → <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → <:anticlearheaded:867678154071998464> → <:vulnbomb:655341074235129858> + (tc) + <:deathskulls:1159434663903899728> → <:ingen:641339234111848463> + <:bloat:1159433682403201044> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
-
-.
 > # __Duo__
 .tag:duo
 ### Preset and relics
@@ -278,7 +238,7 @@ Prefight: <:gricocaroming:867678153966878740> a minion outside and join instance
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [Solo melee example](https://youtu.be/uisDoTEmFSI)\n⬥ [Solo necromancy example](https://www.youtube.com/watch?v=oKCpK0LKCY0)\n⬥ [Duo melee example](https://www.youtube.com/watch?v=3Vcifg4zswk)\n⬥ [Melee base, Necromancy DPS example](https://www.youtube.com/watch?v=nYFIeqX-JBU)\n⬥ [Melee base, Ranged DPS example](https://www.youtube.com/watch?v=poIjFYpKrsg)"
+        "value": "⬥ [Duo melee example](https://www.youtube.com/watch?v=3Vcifg4zswk)\n⬥ [Melee base, Necromancy DPS example](https://www.youtube.com/watch?v=nYFIeqX-JBU)\n⬥ [Melee base, Ranged DPS example](https://www.youtube.com/watch?v=poIjFYpKrsg)"
       }
     ]
   }
