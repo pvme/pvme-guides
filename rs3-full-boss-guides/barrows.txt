@@ -24,9 +24,6 @@ Linza → Ahrim → Verac → Akrisae → Torag → Karil → Guthan → Dharok
 
 .
 ### General Strategy
-⬥ If any brother is in the tunnels instead of their crypt you can use <:barrowsamulet:1097517253056024647> on the loot chest for the same function.
-    • This is ideal as killing a brother while doing tunnels interrupts movement.
-⬥ Tunnel doors are 2 tiles wide, click to open the door directly in front of you to avoid wasting a tick walking to the other door.
 ⬥ It is recommended to be on an Undead slayer task to benefit from the slayer helmet <:slayerhelm:798285340460449792> and Guardhouse boosts.
 ⬥ You can pre-vuln by using <:vulnbomb:655341074235129858> on the ground after clicking the sarcophagus.
 ⬥ Bringing a spade and using it to dig in order to enter the mounds is quicker.
@@ -35,9 +32,6 @@ Linza → Ahrim → Verac → Akrisae → Torag → Karil → Guthan → Dharok
     • [Akrisae last](<https://www.youtube.com/watch?v=LnnjpAuaeLE>)
     • [Karil last](<https://www.youtube.com/watch?v=vUq-P5gYWgk>)
     • [Torag last](<https://www.youtube.com/watch?v=igtJtWTDS90>)
-    • [Diagonal Surge](<https://www.youtube.com/watch?v=XXSx2wDbvcQ>) inside tunnels.
-⬥ Using High Contrast Mode lets you see which door is clickable when in the tunnels.
-    • Right-click the World Map to toggle it on.
 
 .
 ## __Necromancy__
@@ -63,77 +57,27 @@ Linza → Ahrim → Verac → Akrisae → Torag → Karil → Guthan → Dharok
 .embed:json
 
 .
-### Strategy
-⬥ Start with <:residualsoul:1139453152169558046> and <:necrosis:1139452791878856805> stacks.
-    • If <:residualsoul:1139453152169558046> stacks are needed, you can <:threadsoffate:1137809172335951933> + <:soulsap:1137809140476031057> in tunnels.
-    • <:necrosis:1139452791878856805> stacks are optional.
-        ⬩ In tunnels you can <:touchofdeath:1137809175980810380> a monster spawn after <:deathguard90:1138809243143766118> <:spec:537340400273195028> to generate stacks.
-⬥ <:invokedeath:1137809121983336548> is used when moving between brothers.
-⬥ If too quick, you may <:conjurezombie:1137809200219684924> ~1-2 rooms before the puzzle door.
+### Rotations
+
+Default to <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> for all regular brothers. Use <:barrowsamulet:1097517253056024647> to skip **Akrisae**.
+Use <:invokedeath:1137809121983336548> when moving between brothers.
 
 .
-### Rotations
-.
-{
-  "embed": {
-    "title": "",
-    "description":"",
-    "color": 39423,
-    "fields":[
-        {
-            "name":"__Linza and Ahrim__",
-            "value":"⬥ <:splitsoul:1137809168368148490> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> + <:undeadslayer:641339922019516416> → <:surge:535533810004262912> to Linza → (tc) + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:omniguard:1138809234922934282> <:spec:537340400273195028>\n\u00a0\u00a0\u00a0\u00a0• <:commandskeleton:1137809194423160883> as you click on Ahrim's tomb.\n\u00a0\u00a0\u00a0\u00a0• Run over to Ahrim whilst doing the rotation, be sure to not run out of <:deathskulls:1159434663903899728> range.",
-            "inline":false
-        },
-        {
-            "name":"__Verac__",
-            "value":"⬥ <:invokedeath:1137809121983336548> → (tc) + <:soulsap:1137809140476031057> → <:sacrifice:513201065907322880>",
-            "inline":false
-        },
-        {
-            "name":"__Akrisae__",
-            "value":"⬥ <:barrowsamulet:1097517253056024647>",
-            "inline":false
-        },
-        {
-            "name":"__Torag__",
-            "value":"⬥ <:invokedeath:1137809121983336548> → (tc) + <:necroauto:1137809137401602109>\n\u00a0\u00a0\u00a0\u00a0• <:commandskeleton:1137809194423160883> may be used early.",
-            "inline":false
-        },
-        {
-            "name":"__Karil__",
-            "value":"⬥ <:invokedeath:1137809121983336548> → (tc) + <:fingerofdeath:1159434801938432010>\n\u00a0\u00a0\u00a0\u00a0• If low adrenaline, use <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057>\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Can use <:adrenrenewal:736298121704767538> later instead if needed.",
-            "inline":false
-        },
-        {
-            "name":"__Guthan__",
-            "value":"⬥ <:invokedeath:1137809121983336548> → (tc) + <:necroauto:1137809137401602109>",
-            "inline":false
-        },
-        {
-            "name":"__Dharok__",
-            "value":"⬥ (tc) + <:commandzombie:1137809191231295549>",
-            "inline":false
-        },
-        {
-            "name":"__Tunnels__",
-            "value":"⬥ (tc) + <:deathguard90:1138809243143766118> <:spec:537340400273195028>\n\u00a0\u00a0\u00a0\u00a0• <:conjurearmy:1166094935066423348> before clicking on puzzle door.",
-            "inline":false
-        }
-    ]
-  }
-}
-.embed:json
+__**Linza and Ahrim**__
+
+<:splitsoul:1137809168368148490> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> + <:undeadslayer:641339922019516416> → <:surge:535533810004262912> to Linza → (tc) + <:deathskulls:1159434663903899728> + <:vulnbomb:655341074235129858> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:omniguard:1138809234922934282> <:spec:537340400273195028>
+⬥ <:commandskeleton:1137809194423160883> as you click on Ahrim's tomb.
+⬥ Run over to Ahrim whilst doing the rotation, be sure to not run out of <:deathskulls:1159434663903899728> range.
 
 .
 ### Example Kills
 .
-⬥ [Example Necromancy run](https://www.youtube.com/watch?v=1uFaRsE6ol8&feature=youtu.be)
+⬥ [Example Necromancy run](<https://www.youtube.com/watch?v=1uFaRsE6ol8>)
 .
 
 .
-## __Melee and Magic__
-.tag:meleeandmagic
+## __Magic__
+.tag:magic
 ### Preset and Relics
 .
 {
@@ -141,12 +85,12 @@ Linza → Ahrim → Verac → Akrisae → Torag → Karil → Guthan → Dharok
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/iXItlAWa2S.webp"
+            "url": "https://img.pvme.io/images/RQIa0nyfwb.png"
         },
     "fields": [
       {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Melee and Magic](https://pvme.github.io/preset-maker/#/gvcUsb7zyFVxIe2xbnw6)",
+        "value": "⬥ [Magic](https://pvme.github.io/preset-maker/#/81u5LQpRwu6vcqje5hb8)",
         "inline": true
       }
     ]
@@ -156,73 +100,31 @@ Linza → Ahrim → Verac → Akrisae → Torag → Karil → Guthan → Dharok
 ⬥ Can downgrade gear, but you may need to use extra abilities.
 
 .
-### Strategy
-⬥ If you're ever lacking adrenaline, you can <:inquisitorstaff:694566917553520680> <:icebarrage:537340400185245701> + <:gsonicwave:1095411826839257138> → <:wrack:1257439366708592651>
-    • If any brother is still alive, finish with <:dbreath:535533833391702017>
-⬥ If you have spare adrenaline, you can <:inquisitorstaff:694566917553520680> <:bloodbarrage:537338981747261446> + <:wm:535533809978966037>
-    • Which barrage is used with <:wm:535533809978966037> and <:tsunami:535533809995874304> doesn't matter.
-⬥ In the tunnels build to 100% adrenaline, and 5 stacks of Incite Fear <:incitefear:856635090783567902>
+### Rotations
+
+Autocast Crumble Undead.
+Default to <:gconc:869285393223254107> → <:dbreath:535533833391702017> for all regular brothers. Use <:barrowsamulet:1097517253056024647> to skip **Akrisae**.
 
 .
-### Rotations
-.
-{
-  "embed": {
-    "title": "__Linza and Ahrim__",
-    "description":"⬥ <:zerk:535532854004678657> *outside* → *click Ahrim's tomb* (tc) + <:undeadslayer:641339922019516416> + <:gbarge:535532879250456578> → <:surge:535533810004262912> *to Linza and click tomb* → (tc) + <:limitless:641339233638023179> + <:assault:535532855191928842> + <:vulnbomb:655341074235129858> → <:gfury:535532879334080527> → <:chaosroar:994644356671737966> → <:overpower:535532879334080517> → *optional* <:punish:535532879439069184> → <:surge:535533810004262912> *to exit*\n\u00a0\u00a0\u00a0\u00a0• If Ahrim is still alive kill him with a basic ability after <:surge:535533810004262912> from Linza.\n\u00a0\u00a0\u00a0\u00a0• If Ahrim is in tunnel then <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:chaosroar:994644356671737966> → <:overpower:535532879334080517> → *optional* <:punish:535532879439069184>\n\u00a0\u00a0\u00a0\u00a0• If not enough adrenaline for <:overpower:535532879334080517> then <:lengmh:883134308146098227> <:spec:537340400273195028> or <:cane:535532878969438210>\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Or may use <:adrenrenewalflask:736298313980182541>",
-    "color": 39423,
-    "fields":[
-        {
-            "name":"__Verac__",
-            "value":"⬥ <:inquisitorstaff:694566917553520680> <:bloodbarrage:537338981747261446> + <:gsonicwave:1095411826839257138> → <:wrack:1257439366708592651>\n\u00a0\u00a0\u00a0\u00a0• <:icebarrage:537340400185245701> may cause you to lose line of sight.",
-            "inline":false
-        },
-        {
-            "name":"__Akrisae__",
-            "value":"⬥ <:barrowsamulet:1097517253056024647>",
-            "inline":false
-        },
-        {
-            "name":"__Torag__",
-            "value":"⬥ <:inquisitorstaff:694566917553520680> <:bloodbarrage:537338981747261446> + <:wm:535533809978966037>",
-            "inline":false
-        },
-        {
-            "name":"__Karil__",
-            "value":"⬥ <:fsoa:869284271595069451> <:icebarrage:537340400185245701> + <:gsonicwave:1095411826839257138> → <:wrack:1257439366708592651>\n\u00a0\u00a0\u00a0\u00a0• May sometimes need to add a <:dbreath:535533833391702017>\n\u00a0\u00a0\u00a0\u00a0• Not using <:fsoa:869284271595069451> may result in needing to use extra abilities.",
-            "inline":false
-        },
-        {
-            "name":"__Guthan__",
-            "value":"⬥ <:inquisitorstaff:694566917553520680> <:icebarrage:537340400185245701> + <:gsonicwave:1095411826839257138> → <:wrack:1257439366708592651>",
-            "inline":false
-        },
-        {
-            "name":"__Dharok__",
-            "value":"⬥ <:inquisitorstaff:694566917553520680> <:bloodbarrage:537338981747261446> + <:wm:535533809978966037>\n\u00a0\u00a0\u00a0\u00a0• If fast, <:wm:535533809978966037> may be on cd; use <:inquisitorstaff:694566917553520680> <:icebarrage:537340400185245701> + <:gsonicwave:1095411826839257138> → <:wrack:1257439366708592651>",
-            "inline":false
-        },
-        {
-            "name":"__Tunnels__",
-            "value":"⬥ <:inquisitorstaff:694566917553520680> <:bloodbarrage:537338981747261446> + <:tsunami:535533809995874304>",
-            "inline":false
-        }
-    ]
-  }
-}
-.embed:json
+__**Linza**__
+
+<:adrenrenewal:736298121704767538> available:
+<:meta:535533811304497183> + <:adrenrenewal:736298121704767538> → (tc) + <:comb:535533833098100745> + <:vulnbomb:655341074235129858> → <:gconc:869285393223254107> → <:omni:535533809664262179> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:wrack:1257439366708592651>
+
+No <:adrenrenewal:736298121704767538>:
+<:meta:535533811304497183> → (tc) + <:comb:535533833098100745> + <:vulnbomb:655341074235129858> → <:corruptblast:513190159194259467> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:limitless:641339233638023179> + <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:869285393223254107>
 
 .
 ### Example Kills
 .
-⬥ [Example Melee and Magic run](https://www.youtube.com/watch?v=lPSdk6XJQ0c)
+⬥ [Example Magic run](<https://youtu.be/-S4oGKsMOU0>)
 .
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Necromancy]($linkmsg_necromancy$)\n⬥ [Melee and Magic]($linkmsg_meleeandmagic$)",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Necromancy]($linkmsg_necromancy$)\n⬥ [Magic]($linkmsg_magic$)",
     "color": 39423
   }
 }
