@@ -1,40 +1,26 @@
-.
-> ## ⚠️ Disclaimer
-> **This guide is outdated after changes to <:lengmh:883134308146098227> in March 2024**
-> Know of a newer rotation? Share it in <#1020853673317908500> to help keep this guide up-to-date!
-
-.
-# Raksha
-.tag:intro
+# Melee Raksha
 .img:https://img.pvme.io/images/84XEYnJq1T.png
-.
-## __Introduction__
 *Note: a **Table of Contents** can be found in the pins.*
 
-Raksha is a dinosaur dubbed the "Shadow Colossus" located on Anachronia. Raksha can be fought either solo or duo, with linear hp scaling for duo mode. The drop rates for duo are also the same as solo.
-
-Each Raksha kill is worth <:coins:698816156961603654> $data_pvme:gpkill_raksha$, with <:coins:698816156961603654> $data_pvme:gpkill_raksha_commons$ of that coming from commons.
-
-This guide assumes you are already familiar with Raksha's mechanics, phasing, and attack rotations. If not, please read <#1020559920669663304>.
-
 .
-## __Melee Strategy__
-This is an advanced rotation assuming best-in-slot melee gear.
+## __Introduction__
+.tag:intro
+This is an **advanced guide** which assumes a strong underlying knowledge of all mechanics and information presented in <#1020559920669663304>.
 
 .
 ## __Presets and Relics__
-.tag:melee
+.tag:presets
 {
   "embed": {
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/36xMHIerOG.png"
+            "url": "https://img.pvme.io/images/vzXqjCU3z4.png"
         },
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Melee | Most kills per hour](https://pvme.github.io/preset-maker/#/TrdPTreGJe5gfPnalyMt)\n⬥ [Melee | Fastest kill speed (Pool Skip)](https://pvme.github.io/preset-maker/#/VR77lJVBDx41yiqcZFKF)",
+        "value": "⬥ [Melee](https://pvme.github.io/preset-maker/#/XxS5ASdnd37MYO563aiu) <:melee:1096130867279171706>",
         "inline": true
       }
     ]
@@ -43,99 +29,49 @@ This is an advanced rotation assuming best-in-slot melee gear.
 .embed:json
 
 .
-### Assumptions/Details
-⬥ All bleeds are applied using <:mwspear:694566917456789554> unless stated otherwise.
-⬥ Stalling and releasing (denoted by "s" and "r", respectively) melee abilities below is done by clicking the ability and letting your character run in naturally to release it.
-⬥ <:Veng:543478434953822208> is used opportunistically in rotations although not explicitly stated.
-⬥ <:escape:535541258832052231> are mostly used to dodge swipes.
+## __Rotation__
+.tag:rotations
+Use this consistent rotation for standard farming of the boss. If done properly, expect kills around 1:40 / 27kph
+
+⬥ All bleeds are applied using <:mwspear:694566917456789554>
+⬥ <:Veng:543478434953822208> is used opportunistically, although not explicitly stated.
+⬥ Having <:zemouregalsnexus:1179716261681307728> equipped for 9 seconds increases the level of your <:greaterboneshield:1137809118283976814> which increases the adrenaline you receive from <:divert:787904334377648130>
 
 .
-## __KPH rotation (No Poolskip)__
-.tag:rotation
-Use this consistent rotation for standard farming of the boss. If done properly, expect kills around 2:10.
+### Pre-kill
+<:DBA:603979368850653216> <:spec:537340400273195028> → get 120% adrenaline.
+
+*Notes:
+⬥ After first <:surge:535533810004262912> you use both <:prep:535541258546970624> and <:surge:535533810004262912> at the same time to get target cycle on the tick from global cooldown right after <:divert:787904334377648130>
+⬥ Sometimes in P2 after <:lengmh:883134308146098227> <:spec:537340400273195028> you might be able to skip a basic or two and go straight for bleeds. This depends on how many stacks of <:primordialice:1219291285358120990> you had in order to save adrenaline.*
 
 .
-__Pre-kill__
-<:DBA:603979368850653216> <:spec:537340400273195028> → <:lengmh:883134308146098227> <:spec:537340400273195028> at War's Retreat crystal and get 120% adren.
-
-__Phase 1__
-Enter instance → <:surge:535533810004262912> → <:surge:535533810004262912> → <:prep:535541258546970624> → <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + equip <:jawsoftheabyss:947871842595639306> + <:vulnbomb:655341074235129858> → (tc) + <:gbarge:535532879250456578> → 4T <:ingen:641339234111848463> + <:smokecloud:856635090641879050> → <:lengmh:883134308146098227> <:cane:535532878969438210> → step away s<:lengmh:883134308146098227> <:destroy:535532879330148352> → r<:abyssalscourge:947871842469834832> <:destroy:535532879330148352> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:assault:535532855191928842> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:1257438999794946099> + <:escape:535541258832052231> → s<:deci:535532879325822986> → walk in r<:deci:535532879325822986> → 3-hit <:gflurry:535532879283879977> → <:havocgop:994920849117282365>
+### Phase 1
+Enter instance → <:surge:535533810004262912> → <:prep:535541258546970624> + <:surge:535533810004262912> → <:zerk:535532854004678657> → <:divert:787904334377648130> → (tc) + <:gbarge:535532879250456578> → (4t) <:smokecloud:856635090641879050> + <:assault:535532855191928842> → <:destroy:535532879330148352> → <:gfury:535532879334080527> → <:overpowerigneous:959089455640215633> → <:chaosroar:994644356671737966>
 
 .
-__Rockfall + Phase 2 + Rockfall__
-<:lengmh:883134308146098227> <:cane:535532878969438210> (last tick of <:zerk:535532854004678657>) + walk behind <:raksha:789813907706478603> → <:dismember:535532879376023572> → <:backhandflank:867678153854025779> → walked <:slaughter:535532879237873666> → <:bloodtendrils:535532854327640064> → <:havocgop:994920849117282365> → <:deci:535532879325822986> → <:sever:535532879577612298> → <:destroy:535532879330148352> → 3-hit <:gflurry:535532879283879977> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:havocgop:994920849117282365> → <:overpowerigneous:959089455640215633> + <:vulnbomb:655341074235129858> → <:deci:535532879325822986>
-
-***Note**: Rocks should be falling during the second <:cane:535532878969438210> of the kill which should be cast on the last tick of <:zerk:535532854004678657>. <:raksha:789813907706478603> should then by walkable the tick <:slaughter:535532879237873666> is cast.*
-***Note**: If P2 is fast, only do a 2-hit <:destroy:535532879330148352> to allow for 3-hit <:gflurry:535532879283879977> for <:zerk:535532854004678657> cooldown reduction.*
+### Rockfall + Phase 2 + Rockfall
+<:zekkil:903244090953588787> <:eofspec:1257438999794946099> → <:dismember:535532879376023572> → <:havoc:535532879300526080> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → (4t) <:lengmh:883134308146098227> <:spec:537340400273195028> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:cleave:535532878616985610> → <:mwspear:694566917456789554> <:slaughter:535532879237873666> → <:bloodtendrils:535532854327640064> → <:havoc:535532879300526080> → <:dismember:535532879376023572> → <:sever:535532879577612298> → <:zgs:626465964325601290> <:spec:537340400273195028> → <:cleave:535532878616985610>
 
 .
-__Phase 3__
-equip <:noxscythe:513190159341322240> <:Laceration:602581988599398400> clear pools → equip <:vestmentsofhavocboots:994189291515285544> + <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578> → bleed <:assault:535532855191928842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:deci:535532879325822986> + deal with Mind Poison → build
-
-***Note**: If you managed to maintain <:abyssalscourge:947871842469834832> stacks during P3, it is advised to <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> during Mind Poison to carry stacks over to P4.*
+### Phase 3
+<:assault:535532855191928842> (x2) + cancel → <:deci:535532879325822986> → <:overpowerigneous:959089455640215633> → <:gfury:535532879334080527> → <:lengmh:883134308146098227> <:spec:537340400273195028>
 
 .
-__Phase 4__
-<:anti:535541306475151390> → <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> → bleed <:gflurry:535532879283879977> + <:callfollower:933299003121078332> → <:havocgop:994920849117282365> → <:cane:535532878969438210> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:1257438999794946099> + <:escape:535541258832052231> → s<:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → r<:abyssalscourge:947871842469834832> <:dismember:535532879376023572> + <:deci:535532879325822986> → <:havocgop:994920849117282365> → <:bloodtendrils:535532854327640064> → <:sever:535532879577612298> → <:lengmh:883134308146098227> <:spec:537340400273195028> + <:escape:535541258832052231> → s<:gfury:535532879334080527> → r<:gfury:535532879334080527> + <:overpowerigneous:959089455640215633> → <:havocgop:994920849117282365> → <:dismember:535532879376023572> → <:deci:535532879325822986> + <:vestmentsofhavochood:994189297659940904> → <:gfury:535532879334080527> + off
+### Phase 4
+<:prep:535541258546970624> → <:gbarge:535532879250456578> → <:dismember:535532879376023572> → <:havoc:535532879300526080> → <:sever:535532879577612298> → <:deci:535532879325822986> → <:quake:535532879506309150> → <:prep:535541258546970624> → <:divert:787904334377648130> → <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:gfury:535532879334080527> + <:bd:535532854281764884> → <:overpowerigneous:959089455640215633> → <:chaosroar:994644356671737966> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:limitless:641339233638023179> + <:destroy:535532879330148352> → <:deci:535532879325822986> → <:accel:756236265472524418> + <:escape:535541258832052231> + <:bd:535532854281764884> (pick up just 2-3 anima nearby) → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> → <:gfury:535532879334080527>
 
 .
-<:zerk:535532854004678657> + quickly collect Anima → <:divert:787904334377648130> → <:bd:535532854281764884> to area with most Anima → equip <:jawsoftheabyss:947871842595639306> + <:anti:535541306475151390> → <:innerpower:1257438330698858626> + <:gbarge:535532879250456578> → bleed <:assault:535532855191928842> + <:adrenrenewal:736298121704767538> → <:lengmh:883134308146098227> <:cane:535532878969438210> + <:disrupt:535614336207552523> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:escape:535541258832052231>
-
-***Note**: Use <:adrenrenewal:736298121704767538> as soon as it's off cooldown, usually during <:assault:535532855191928842>. If boss is not dead after <:escape:535541258832052231>, follow up with s<:gfury:535532879334080527> → r<:gfury:535532879334080527> + <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099>*
-
-.
-## __Speeds rotation (Poolskip)__
-.tag:poolskip
-Use this rotation only if going for speeds. You may need to improvise and fill GCDs with good basics if unlucky on adrenaline (<:gfury:535532879334080527> is best under <:critbuff:1279516151423963166>). Replace <:gflurry:535532879283879977> with <:lengmh:883134308146098227> <:destroy:535532879330148352> when if willing to swap to <:lengmh:883134308146098227> when using <:cane:535532878969438210> and <:destroy:535532879330148352>
-
-__War's Dummy (closest to portal, max hit mode)__
-<:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → <:corruptshot:535541306294796299> for <:Reaper:513190159412494367> stacks → <:deathsporearrows:900758234527301642> <:grico:787904334812807238> → <:DBA:603979368850653216> <:spec:537340400273195028> → <:freedom:535541258240786434> → <:anti:535541306475151390> → s<:deathsporearrows:900758234527301642> <:incend:535541258429661215> and go through portal
-
-.
-__Instance Dummy__
-Enter instance and drop <:dummy:656844963522281473>, then run between <:raksha:789813907706478603> and <:dummy:656844963522281473>
-
-(tc) + r<:incend:535541258429661215> with <:ecb:615618531937222657> using <:smokecloud:856635090641879050> + <:nat:535541258131865633> → <:HydrixBakri:550834403136503822> <:snipe:535541258425204770> → <:grico:787904334812807238> → <:escape:535541258832052231> → <:lengmh:883134308146098227> <:spec:537340400273195028> + <:adrenrenewal:736298121704767538> if below 118% adren → <:zerk:535532854004678657> + <:vulnbomb:655341074235129858>
-
-***Note**: <:escape:535541258832052231> should put you in aggro range and start the fight.*
-
-.
-__Phase 1__
-(tc) + <:gbarge:535532879250456578> → <:ingen:641339234111848463> → 4T <:smokecloud:856635090641879050> + <:limitless:641339233638023179> + <:cane:535532878969438210> → <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → spam <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> (<:gfury:535532879334080527> in between if not enough adrenaline)
-
-.
-__Rockfall + Phase 2__
-<:chaosroar:994644356671737966> upon Rockfall → <:zekkil:903244090953588787> <:eofspec:1257438999794946099> → <:havocgop:994920849117282365> → <:backhandflank:867678153854025779> → <:gfury:535532879334080527> or <:gflurry:535532879283879977> or <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:cane:535532878969438210> to end <:zerk:535532854004678657>
-
-.
-<:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → walked <:slaughter:535532879237873666> → <:bloodtendrils:535532854327640064> → <:havocgop:994920849117282365> → <:zgs:626465964325601290> <:spec:537340400273195028> + 2H auto + <:adrenrenewal:736298121704767538> → build to <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:cane:535532878969438210> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> and/or basics and try to phase with <:abyssalscourge:947871842469834832> equipped on the last ability
-
-.
-__Phase 4__
-Spam click run right and <:gbarge:535532879250456578> for a chance to keep <:abyssalscourge:947871842469834832> stacks post phase transition.
-
-<:gbarge:535532879250456578> + <:callfollower:933299003121078332> → <:dismember:535532879376023572> → bleed <:gflurry:535532879283879977> if high adrenaline → build to <:meteorstrike:535532879359377439> → <:HydrixBakri:550834403136503822> <:grico:787904334812807238> → <:chaosroar:994644356671737966> → <:zekkil:903244090953588787> <:eofspec:1257438999794946099> → <:dismember:535532879376023572> → <:havocgop:994920849117282365> → more bleeds if enough time/adrenaline → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:HydrixBakri:550834403136503822> <:grico:787904334812807238> → Break shield → <:escape:535541258832052231>
-
-.
-<:zerk:535532854004678657> + <:accel:756236265472524418> + <:bd:535532854281764884> to collect anima → <:divert:787904334377648130> + <:bd:535532854281764884> → <:innerpower:1257438330698858626> + <:gbarge:535532879250456578> → bleed <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → <:limitless:641339233638023179> + <:cane:535532878969438210> → <:escape:535541258832052231> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099>
-
-.
-## __Old Melee rotation (Pre-Zamorak, no ranged pre-build)__
-.tag:old
-<https://img.pvme.io/images/w21tLho.png> - Preset, phases 1 and 2
-<https://img.pvme.io/images/TFcaDau.png> - Phases 3 and 4
-
-.
-## __Video Examples__
+## __Example Kills__
 .tag:example
-<https://youtu.be/BNrLlp5dLUY> - 2:07 + 2:09 + 2:10 Standard Kills
-<https://youtu.be/Ww3IWTvALmU> - 1:43 Speed Kill
-<https://youtu.be/hX7rrLpH2aQ> - 2:38 + 2:41 Standard Kills pre-Zamorak
+⬥ [1:38.4 (sometimes P1 doesn't phase on time)](<https://www.youtube.com/watch?v=GXokJQrrc0w>)
+⬥ [1:35.4 / 1:33.6 / 1:35.4 (standard kills)](https://www.youtube.com/watch?v=wW3iW21EOnQ)
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_melee$)\n⬥ [KPH rotation (No Poolskip)]($linkmsg_rotation$)\n⬥ [Speeds rotation (Poolskip)]($linkmsg_poolskip$)\n⬥ [Old Melee rotation]($linkmsg_old$)\n⬥ [Video Examples]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets and Relics]($linkmsg_presets$)\n⬥ [Rotation]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
   }
 }
