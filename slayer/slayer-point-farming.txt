@@ -1,22 +1,97 @@
-## __Slayer Point Farming__ <:slayer:797896049548066857>
-.tag:slayerpointsfarming
-.
-⬥ This method consists of doing 9 slayer tasks with Jacquelyn <:jacquelyn:975284345369665577> (Lumbridge Slayer Master), followed by the 10th task with Laniakea <:laniakea:975284345411600426> (highest-level Slayer Master, requiring level 90 <:slayer:797896049548066857> and 120 <:combat:797896050370281523>).
-
-⬥ **Requirements**
-    • Access to lunar spellbook: Spellbook swap (Lunar) <:SBSLunars:565726489467682816> + NPC Contact <:npccontact:975284195280695326>
-    • Your blocklist should look like as you are farming slayer points with Jacquelyn
-.
-.img:https://img.pvme.io/images/Vg7NUod.png
+## Slayer Point Farming
 
 .
-    • This is done to take advantage of the 10th and 50th task points bonus (110 and 330 respectively, from Laniakea), while doing the nine tasks in between as fast as possible.
-        ⬩ Ideally, you set up the block list above that allows you to do all of Jacquelyn tasks inside the Lumbridge Catacombs, and use the NPC Contact spell to receive a new one without leaving the catacombs, speeding this up further.
-
-⬥ This method can net you an average of 660 slayer points/hour.
+## __Introduction__
+.tag:intro
+.
+⬥ Slayer Points are a currency obtained by completing Slayer Assignments which have several uses, such as skipping Slayer Assignments, purchasing consumables such as <:ushabti:1097515642749468752>, and purchasing perminent unlocks at Slayer Masters.
+⬥ This mini-guide will outline a method of effectively farming these points without having to complete lenghty, high leveled Slayer Assignments.
 
 .
-⬥ For more optimal point farming, we suggest using the following to help boost kill times.
-    • Higher level slayer mask <:maskoftheabyss:1004325563068071936>(Black demons, Airuts, Automatons etc)
-    • A magic or ranged weapon with Caroming 4 <:caroming4:791281588792590336>
+## __Requirements__
+.tag:requirements
 .
+⬥ Access to lunar spellbook: Spellbook swap (Lunar) <:SBSLunars:565726489467682816> + NPC Contact <:npccontact:975284195280695326>
+⬥ Completion of The Blood Pact quest for access to the Lumbridge Catacombs.
+⬥ You may optionally use <:slayerintrospection:975284345365471232> Slayer Introspection to guarantee the shortest assignments possible.
+
+.
+**Blocklist**
+⬥ Copy the blocklist below to ensure that all Slayer Assignments given by Jacquelyn will be to slay monsters present in the Lumbridge Catacombs.
+.
+{
+  "embed": {
+    "fields": [
+       {
+        "name": "__Jacquelyn Blocklist__",
+        "value": "⬥ Cave Bugs\n⬥ Cows\n⬥ Cave Slimes\n⬥ Frogs\n⬥ Birds\n⬥ Ghosts\n⬥ Rats\n⬥ Spiders",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Presets and Relics__
+.tag:preset
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/Ta8u621dNA.png"
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Low-level Magic camp](https://pvme.github.io/preset-maker/#/d6whBtns6jFiz3bUW4Ct) <:magic:689504724159823906>\n⬥ [High-level Hybrid](https://pvme.github.io/preset-maker/#/cLt3Q6IWW5L8jSziWDUB) <:range:580168050121113623> <:melee:1096130867279171706> <:magic:689504724159823906>"
+      }
+    ]
+  }
+}
+.embed:json
+.
+## __The Method__
+.tag:method
+.
+⬥ This method consists of doing 9 Slayer Assignments with Jacquelyn <:jacquelyn:975284345369665577>, then doing the 10th with Laniakea <:laniakea:975284345411600426> or your current highest level Slayer Master (not including Mandrith <:mandrith:1023150757148622921>).
+    • This takes advantage of the Slayer Point bonus awarded to the player after every 10th and 50th assignment completion while also letting us speed past assignments 1-9 with Jacquelyn's short and easy tasks.
+    • The Raptor may also be used as they reward a good amount of Slayer Points while also having generally quicker assignments.
+⬥ Before starting, ensure you are not currently on a Slayer streak that ends with a 9 by clicking on the Slayer icon located on the Slayer counter.
+    • This can be enabled in Settings > Gameplay > Interfaces > Information Windows > Slayer counter.
+
+.
+1) Enter the bottom floor of the Lumbridge Catacombs and stand in the Skeleton room.
+
+2) Use Spellbook swap (Lunar) <:SBSLunars:565726489467682816> and then NPC Contact <:npccontact:975284195280695326> to recieve a Slayer Assignment from Jacquelyn <:jacquelyn:975284345369665577> (located at the bottom right of the interface).
+
+3) Slay the required monsters within the catacombs, all possible assignments can be completed in the southern half of the dungeon.
+    a) AoE Magic spells such as Corruption Blast <:corruptblast:513190159194259467>, Greater Chain <:gchain:1257440278512537740>, and Magma Tempest <:magmatempest:902209626509025290> should be prioritized for efficient slaying.
+    b) The Goblin used for this method, Skoblin, also count toward Skeleton assignments.
+
+4) Repeat steps 2 & 3 until your streak ends in 9, which can be confirmed by either having the slayer counter expanded or double checking the message in chat that's recieved by the player after completing an assignment.
+
+5) Spellbook swap (Lunar) <:SBSLunars:565726489467682816> + NPC Contact <:npccontact:975284195280695326> again, this time receiving an assignment from your highest leveled Slayer Master (or the Raptor for faster tasks). Upon completion you'll be rewarded the bulk of the Slayer Points from this method and can repeat from step 1.
+
+.
+## __Video Example__
+.tag:video
+.
+[Efficient Slaying in Lumbridge Catacombs](https://youtu.be/AIO4Knqmebw)
+
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "Table of Contents",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Requirements]($linkmsg_requirements$)\n⬥ [Presets and Relics]($linkmsg_preset$)\n⬥ [Method Breakdown]($linkmsg_method$)\n⬥ [Video Example]($linkmsg_video$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
