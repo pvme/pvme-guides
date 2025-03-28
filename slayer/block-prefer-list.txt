@@ -1,33 +1,87 @@
-# Optimal Block and Prefer Lists
-### For XP
-.
-.img:https://img.pvme.io/images/Kkz5hCf.png
-.
-### For GP
-.
-.img:https://img.pvme.io/images/d5envCm.png
-.
-### Assumptions
-⬥ In the pictures above, the optimal block and prefer lists for XP and GP focused slayer is shown. These are based off the weightings of each task, the blocked tasks are highly weighted and offer low rates in either XP, GP or both. Some high-weight but fast tasks were excluded from the block list, as those are used to build points, such as Dagannoths or Order of Ascension Members.
+# Block and Prefer Lists
+.tag:intro
+*Note: The following block/prefer lists are just examples, it’s always more efficient to make your own.*
+
+⬥ It's assumed the player will slay Moss Golems for Creatures of the Lost Grove tasks and Ripper Demons for Demon cluster tasks, as well as bringing Binding Contracts <:bindingcontract:1073883118521557052> for GP.
 
 .
-⬥ The XP-focused tasks have a few assumptions, that Ripper Demons are killed for all Demon tasks, Moss Golems are killed for Creatures of the Lost Grove, and that the player's highest level Soul Devourer is killed.
-    • If required to, the player should boost with the use of a Wilder Pie to kill higher levelled mobs, to boost their XP rates further.
+**Block/Prefer List for XP:**
+.
+{
+  "embed": {
+    "fields": [
+       {
+        "name": "__Block__",
+        "value": "⬥ Airuts\n⬥ Black Demons\n⬥ Celestial Dragons\n⬥ Crystal Shapeshifters\n⬥ Dark Beasts\n⬥ Elves\n⬥ Order of Ascension members\n⬥ Steel Dragons",
+        "inline": true
+      },
+       {
+        "name": "__Prefer__",
+        "value": "⬥ Abyssal Demons\n⬥ Creatures of the Lost Grove\n⬥ Demons\n⬥ Dragons\n⬥ Gemstone Dragons\n⬥ Nightmare Creatures\n⬥ Ripper Demons\n⬥ Shadow Creatures",
+        "inline": true
+     }
+    ]
+  }
+}
+.embed:json
 
 .
-⬥ The GP focused tasks assume that the player is using Binding Contracts for both Ripper Demon <:ripperpouch:703581275453128714> and Demon tasks. Tasks that are not preferred but are often good to do include Crystal Shapeshifters, Iorwerth Elves, Nihils and Tormented Demons, with the latter two being required to be unlocked.
+**Block/Prefer List for GP:**
+.
+{
+  "embed": {
+    "fields": [
+       {
+        "name": "__Block__",
+        "value": "⬥ Airuts\n⬥ Black Demons\n⬥ Celestial Dragons\n⬥ Aviansies\n⬥ Dark Beasts\n⬥ Gemstone Dragons\n⬥ Order of Ascension members\n⬥ Steel Dragons",
+        "inline": true
+      },
+       {
+        "name": "__Prefer__",
+        "value": "⬥ Soul Devourers\n⬥ Creatures of the Lost Grove\n⬥ Demons\n⬥ Living Wyverns\n⬥ Lava Strykewyrms\n⬥ Nightmare Creatures\n⬥ Ripper Demons\n⬥ Edimmu",
+        "inline": true
+     }
+    ]
+  }
+}
+.embed:json
 
 .
-⬥ Laniakea's special assignment is a very strong task, granting 50k slayer XP and 45 slayer points upon completion, and only requires 1 kill of each Vile Bloom. This takes a few minutes and gives large rewards, so should always be completed. On the other hand, Morvran's special assignment requires many boss kills, takes too much time and gives very little reward, so should be turned off for free, after being completed once for the completionist cape requirement.
+### Personalized Spreadsheet
+.tag:spreadsheet
+⬥ Configuring the spreadsheet below is an easy way to find the best Block/Prefer list for your personal use.
+.
+{
+  "embed": {
+  "title": "",
+    "description":"**[Customizable Block/Prefer Spreadsheet](https://docs.google.com/spreadsheets/d/1-HSin-Tqwbc1ZJHNcz9jg2xs6XMPu56dKyMFgYV-sYc/edit?gid=829497037#gid=829497037)**\n\n⬥ Click File > Make a copy top left for a personal copy.\n⬥ Toggle the Home page settings to match what you use.\n\u00a0\u00a0\u00a0\u00a0• The Misc section is for unlisted XP modifiers, e.g. enter 10 if you have an unlisted 10% XP buff.\n⬥ Enter your KPH in the column on the right of the Experience page.\n\u00a0\u00a0\u00a0\u00a0• You can select tasks to lock, force prefer/block, and that you use <:sacrificescrim:1023150750915899402> for here as well.\n⬥ Select the focus of your Slaying in the next page's dropdown menu and copy the displayed Block and Prefer list.",
+    "color": 39423
+   }
+}
+.embed:json
 
 .
-### How to Use These Lists
-⬥ In order for the player to profit or break-even on slayer points on average, their prefer list weighting must equal 19.2% of the total task weighting, as long as Slayer VIP tickets <:slayervip:975284344597934120> are used. Slayer tasks completed with Laniakea <:laniakea:975284345411600426> award 35.2 slayer points on average, and as a skip costs 30 points, the player must complete 46% of their tasks on average to profit slayer points, so don't be too afraid to skip tasks.
-    • If the player is 120 Slayer <:slayercape:975284344123953164>, the cape perk allows them to skip even more tasks, as they have a guaranteed task they will complete when they choose it, 20% of the time.
+### Additional Information
+.tag:miscinfo
+.
+⬥ The player can boost up to 6 levels with the use of a Wilder Pie, this is especially helpful for killing higher leveled Slayer mobs during cluster tasks for better XP/GP rates, such as boosting to kill Moss Golems for the Creatures of the Lost Grove assignment.
+⬥ Laniakea's special assignment is very good for Slayer XP/points and should always be completed. Morvran's special assignment is mostly a waste of time, and should be toggled off after being completed once for the completionist cape requirement.
+⬥ Don't be afraid to skip undesired or bad assignments, as you can skip around half of the tasks given by Laniakea <:laniakea:975284345411600426> without losing many Slayer points overall, and they can be farmed with relative ease, making it unnecessary to force yourself to do any tasks you dislike.
 
 .
-⬥ Bad tasks should always be blocked or skipped with quick tasks completed to upkeep slayer points, and never reset your streak via a Spria task, as the streak bonus is very important to gaining slayer points consistently. Due to the nature of some tasks, slayer points can be quite valuable.
-
-.
-⬥ Whilst these lists are optimal, many players will find that they enjoy or dislike tasks, which is perfectly fine. Take into account which tasks you personally prefer, and build your lists around that. **The most important thing is to enjoy slaying!**
-.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Table of Contents__",
+        "value": "⬥ [Example Block/Prefer Lists]($linkmsg_intro$)\n⬥ [Customizable Spreadsheet]($linkmsg_spreadsheet$)\n⬥ [Additional Information]($linkmsg_miscinfo$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
