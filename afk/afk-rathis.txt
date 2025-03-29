@@ -1,20 +1,14 @@
-## __Rathis (48 kph, 54-57 kph with <:necklaceofsalamancy:970657245312467004>)__
+## __AFK Rathis__
 .img:https://img.pvme.io/images/59QPpuU4uq.png
 ### Explanation
 *Note: a **Table of Contents** can be found in the pins.*
 .tag:intro
 
 .
-### Aura Choice
-.tag:aura
-Choices for aura which affects how afk kills can be. They are listed in order of effectiveness:
-⬥ <:equilibriumaura:1233722649834684416> Equilibrium Aura - Fastest kills.
-⬥ <:penanceaura:643505653062565907> Penance Aura - More AFK.
-⬥ <:vampaura:643505653079343144> Vampyrism Aura with <:powderofpenance:928221126360969226> - Use if having troubles with sustain.
-
+## __Melee AFK Method (54+ kph)__ <:melee:1096130867279171706>
+.tag:method1
+### Overview
 .
-### Mandatory AFK Requirements
-.tag:mand
 {
   "embed": {
     "title": "__Mandatory AFK Requirements__",
@@ -26,6 +20,8 @@ Choices for aura which affects how afk kills can be. They are listed in order of
   }
 }
 .embed:json
+
+.
 ## __Presets and Relics__
 .tag:preset
 .
@@ -61,6 +57,11 @@ Choices for aura which affects how afk kills can be. They are listed in order of
   }
 }
 .embed:json
+⬥ Choices for aura which affects how afk kills can be. They are listed in order of effectiveness:
+    • <:equilibriumaura:1233722649834684416> Equilibrium Aura - Fastest kills.
+    • <:penanceaura:643505653062565907> Penance Aura - More AFK.
+    • <:vampaura:643505653079343144> Vampyrism Aura with <:powderofpenance:928221126360969226> - Use if having troubles with sustain.
+
 .
 ### Action Bar
 .tag:bar
@@ -93,7 +94,7 @@ Choices for aura which affects how afk kills can be. They are listed in order of
     "fields": [
       {
 	    "name": "__AFK Strategy__",
-        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Mandatory Requirements]($linkmsg_mand$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Action Bars]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
+        "value": "⬥ [Explanation]($linkmsg_intro$)\n⬥ [Melee AFK Method]($linkmsg_method1$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Aura Choice]($linkmsg_aura$)\n⬥ [Action Bars]($linkmsg_bar$)\n⬥ [Example Kills]($linkmsg_example$)",
 		"inline": true
       }
     ]
