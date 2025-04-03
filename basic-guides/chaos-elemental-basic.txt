@@ -1,66 +1,88 @@
-# Chaos Elemental
+# Chaos Elemental Basic
 .img:https://img.pvme.io/images/wdEqnvjshG.png
 
 .
 ## __Introduction__
-*Note: a **Table of Contents** can be found in the pins.*
-
-Chaos Elemental is another old boss, and also one with the distinction of being located in the wilderness. There is not much to this boss, as the only interesting mechanic present is his ability to unequip your gear.
-
-More specific information is available here:
-<https://runescape.wiki/w/Chaos_elemental>
+.tag:intro
+A being of pure chaos that resides to the west of the Rogues' Castle located in deep Wilderness. The Chaos Elemental is a beginner-friendly boss with simple mechanics meant to disorient the player more than harm them.
 
 .
-## __Presets and Relics__
-.tag:presets
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/AU7nmJ0uUg.png"
-        },
-    "fields": [
-{
-        "name": "__Preset Suggestions__",
-        "value": "⬥ [Melee](https://pvme.io/preset-maker/#/a0E3znRtFy5RC0KGYZHu)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+## __How to Get There__
+.tag:location
+**WARNING: THIS BOSS IS LOCATED IN THE WILDERNESS, BE SURE TO HAVE PVP TOGGLED *OFF* BEFORE ATTEMPTING TO FIGHT IT.**
+
+⬥ The level 50 Wilderness Obelisk is located east of the Chaos Elemental, easily accessed with the Portable Obelisk <:portableobelisk:1137735861937655900>, Obelisk Shards, or any of the other Wilderness Obelisks.
+    • These options will teleport the player to a random Wilderness Obelisk unless they have the hard Wilderness area tasks completed.
+⬥ The teleport levers located in Edgeville <:edgevillelode:1032552323903402024> and Ardougne <:ardougnelode:1032552315724517507> teleport the player to the Deserted Keep, located west of the Chaos Elemental.
 
 .
 ## __Mechanics__
 .tag:mechanics
+.
 {
   "embed": {
-    "title": "__Mechanics__",
+    "title": "",
     "color": 39423,
     "fields": [
       {
         "name": "__Discord__",
-        "value": "⬥ Deals Melee, Ranged or Magic Damage.\n\u00a0\u00a0\u00a0\u00a0• Green particles."
+        "value": "The Chaos Elemental's basic attack, made up of green particles that deal either <:magic:689504724159823906> <:range:580168050121113623> or <:melee:1096130867279171706> damage to the player. His other attacks are variations of this move with different effects."
       },
-      {
+       {
         "name": "__Madness__",
-        "value": "⬥ Unequips up to four equipped items.\n\u00a0\u00a0\u00a0\u00a0• Red, green and blue particles."
+        "value": "⬥ The Chaos Elemental launches a multicoloured attack. Upon hit, the player's main hand weapon and up to 3 other pieces of equipped gear will be unequipped and placed in their inventory.\n\u00a0\u00a0\u00a0\u00a0• If the player's inventory is full, the Chaos Elemental will not use this attack\n\u00a0\u00a0\u00a0\u00a0•[Click to view an example of Madness](https://img.pvme.io/images/gNKxb57aQz.mp4)."
       },
-      {
+       {
         "name": "__Confusion__",
-        "value": "⬥ Teleports the target to a random area nearby.\n\u00a0\u00a0\u00a0\u00a0• Fire particles.\n\u00a0\u00a0\u00a0\u00a0• Will cancel your current spell/ability's damage."
+        "value": "⬥ The Chaos Elemental launches an attack made of fire. Upon hit, the player will be teleported upwards of 20 tiles away from Chaos Elemental in a random direction.\n\u00a0\u00a0\u00a0\u00a0• The player will stop attacking the boss after being teleported, be sure to click on the Chaos Elemental once this happens to resume attacking.\n\u00a0\u00a0\u00a0\u00a0•[Click to view an example of Confusion](https://img.pvme.io/images/8OQ7OtVZhR.mp4)"
       }
     ]
   }
 }
 .embed:json
+
+.
+## __Presets and Relics__
+.tag:preset
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/UfZcM9ngoK.png"
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Basic Ranged Preset](https://pvme.github.io/preset-maker/#/aYihp5v5prjLizw4mZiC) <:range:580168050121113623>\n⬥ [Basic Necromancy Preset <:necromancy:1148995625896120460>](https://pvme.github.io/preset-maker/#/vg8oUa5bKInp1QL6BNuu)"
+      }
+    ]
+  }
+}
+.embed:json
+⬥ Summer Pies are used due to them leaving a Pie Dish in the player's inventory, keeping it full to avoid the Chaos Elemental's Madness attack.
+
+.
+## __Tips and Tricks__
+.tag:tips
+⬥ The <:magic:689504724159823906> hit of Discord is the most accurate, making it best to either Protect from Magic <:protectfrommagic:1052551456835768351> or Soul Split <:soulsplit:615613924506599497> throughout the fight.
+⬥ Prioritize using powerful threshold abilities, only using basic abilities to build up to stronger ones, or when better options are on cooldown.
+    • For Ranged <:range:580168050121113623> examples of powerful abilities are Snap Shot <:snap:535534127131394088> and Rapid Fire <:rapid:535541270521708566>, with abilities like Dazing Shot <:dazing:535541307142307860> and Piercing Shot <:piercing:535541258538450944> being your weaker basics. Death's Swiftness <:deathsswift:994921434633744455> is a very powerful ability, but should only be used near the start of the fight, if you find yourself with *too much* adrenaline.
+    • For Necromancy <:necromancy:1148995625896120460> build up to abilities like Volley of Souls <:volleyofsouls:1159435029592686642> and Finger of Death <:fingerofdeath:1159434801938432010> with your weaker abilities, Soul Sap <:soulsap:1137809140476031057> and Touch of Death <:touchofdeath:1137809175980810380>, using your Basic Attack <:necroauto:1137809137401602109> when all else is on cooldown.
+⬥ If possible, keep your inventory full of items to avoid the Madness special attack, Chaos Elemental's drops can be used to fill any blank spaces.
+⬥ An NPC named Edward, located outside the Dragonkin Laboratory, south-east of the level 50 Wilderness Obelisk, can be used as a bank to store any drops the player receives and resupply for longer trips.
+⬥ Due to the Chaos Elemental being located in the Wilderness, all Wilderness based bonuses granted by the Infernal Puzzle Box <:infernalpuzzlebox:994189299681607800> work against this boss.
+
+.
+## __Video Example__
+.tag:video
+⬥ [Simple Necromancy kills w/ banking at Edward](https://youtu.be/GfiRAXoXNgU)
+.
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [How to Get There]($linkmsg_location$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets and Relics]($linkmsg_preset$)\n⬥ [Tips and Tricks]($linkmsg_tips$)\n⬥ [Video Example]($linkmsg_video$)",
     "color": 39423
   }
 }
