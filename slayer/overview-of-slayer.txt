@@ -3,302 +3,100 @@
 .
 ## __Introduction__
 .tag:intro
-Slayer is a combat-based skill, where XP is awarded for killing the mobs tasked to you by a slayer master, with harder mobs generally giving more XP.
-
-### Choosing a slayer master
-
-Generally, using the highest levelled slayer master is always advised, with the exception of Mandrith who only offers wilderness tasks. Some tasks are higher weighted than others. Use tables on the wiki to check which tasks are more likely to appear, blocking the tasks that have high weight but low XP/h.
-
-**Early Slayer** - When starting out, early slayer tasks offer poor XP rates, so the player should aim to gain slayer XP from other methods, such as:
-⬥ Squashing Scarabs in Menaphos <:menaphoslode:1032552289589796904>
-⬥ Reaper tasks <:death:641341976960172043>
-⬥ Completing quests.
-Most slayer monsters requiring less than 85 <:slayer:797896049548066857> offer low XP mobs. However, a greater demon task can be used to kill Greater Demon Berserkers for disproportionately EXP. With these methods, low-level, poor XP tasks can be avoided.
+Slayer is a combat-based skill, where XP is awarded for killing the monsters assigned to you by a Slayer Master, with harder monsters generally giving more XP. Slayer is a great way for the player to earn GP and combat XP while progressing their account, and can be trained using both low-effort and high-effort methods.
 
 .
-Due to damage mitigation such as <:animatedead:856635090453135382> and healing sources such as <:vampscrim:513201294262009874> <:vampaura:643505653079343144>, *most* slayer tasks can be AFK'd with relative ease, although generally active methods still achieve much higher KPH and thus XP rates. **All in all, gaining <:slayer:797896049548066857> XP is proportional to the effort put in.**
+## __The Basics of Slaying__
+.tag:basics
+### Overview
+⬥ Early Slayer Assignments offer low XP rates, which can be avoided with other methods, such as squashing Scarabs in Menaphos <:menaphoslode:1032552289589796904> and completing Reaper tasks <:death:641341976960172043>
+⬥ Generally, using the highest levelled Slayer Master is recommended, with the exception of Mandrith <:mandrith:1023150757148622921> who only offers Wilderness tasks.
+⬥ Cluster assignments are highly valued as they allow you to fight monsters above your level for high XP rates, e.g. fighting Greater Demon Berserkers for a "Demons" task.
+⬥ AFKing assignments sacrifices XP rates for convenience, actively Slaying will always grant the player higher XP rates.
+⬥  Most Slayer Masters have a chance of offering the player a unique assignment which they may accept or decline, these often give good reward for the effort needed to complete them.
+    • Notable special assignments are Laniakea's, which is well worth the effort, Morvran's, which should be completed *only once* for the Completionist Cape, and the Raptor's, which is also involved in a Completionist Cape requirement.
 
-Whether doing tasks actively or AFK, AOE damage is king. Most higher slayer tasks are thus generally done with melee <:melee:1096130867279171706> or magic <:magic:689504724159823906>
-⬥ Melee strategies generally utilise the large attack range of halberd weapons <:lanispear:839903893177106454> <:noxscythe:513190159341322240> and capitalise on melee's strong AoE abilities <:meteorstrike:535532879359377439> <:cane:535532878969438210> <:quake:535532879506309150> <:cleave:535532878616985610> <:bd:535532854281764884> <:dragonhalberd:841409589261238282> <:eofspec:1257438999794946099>
-⬥ Magic tasks capitalise on the style's strong damage reduction with tank armour <:ganohelm:1003947807754960896> <:seasingershood:556583076050763776> <:cryptbloomhelm:1334336169336373339> and Animate Dead <:animatedead:856635090453135382>, along with its strong AoE abilities such as <:gchain:1257440278512537740> <:corruptblast:513190159194259467> <:dbreath:535533833391702017> <:tsunami:535533809995874304> <:magmatempest:902209626509025290> or AoE blood spells which also provide small amounts of healing <:bloodbarrage:537338981747261446> <:bloodburst:841419289714098246>
+.
+### Utilizing Slayer Points
+Slayer Points are obtained by successfully completing Slayer Assignments with the amount given depending on the Slayer Master used. If you ever find yourself wanting to quickly obtain Slayer Points, you can find our guide on farming them in <#1351195363863695530>.
 
-Ranged <:range:580168050121113623> is also used for certain tasks, but is not generally preferred over the other styles are its AoE damage is mostly restricted to <:mechchin:641669268722810881> which has a relatively small AoE of 3x3.
+⬥ As for how to spend Slayer Points, our order of priority is:
+    • Building a block/prefer list and upgrading your Slayer Helmet <:slayerhelm:798285340460449792>
+    • Unlocking any desired Slayer Assignments, such as Nightmare Creatures.
+    • Quality of life unlocks such as quicker killing blows and attaching items to your Toolbelt.
+
+.
+### Managing Your Block/Prefer List
+The Block & Prefer list is a very powerful tool which can be used to focus your Slaying on monsters that grant great reward, while ignoring those which the player deems a waste of time or not fun to slay. You can find our guide on finding the best block/prefer list for you in <#1197563943997157397>.
+
 .
 ## __Presets and Relics__
 .tag:presets
-Some base presets are shown below
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/Kh83DnH2z8.png"
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Magic preset](https://pvme.github.io/preset-maker/#/G8a7S4ZjIWspR9f9ozZY) <:magic:689504724159823906>\n⬥ [Melee preset](https://pvme.github.io/preset-maker/#/uv6fuVGjCwKfxrYxrvlY) <:melee:1096130867279171706>\n⬥ [Ranged preset](https://pvme.github.io/preset-maker/#/TLGEeKPGZyfMlWd3M9T9) <:range:580168050121113623>\n⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/ZxXHhk9M4kYmYLcWlB2a) <:necromancy:1148995625896120460> "
+      }
+    ]
+  }
+}
+.embed:json
+⬥ These presets and relics are examples of what the player *may* bring on their assignment.
+    • Specific relic setups and aura usage are included in our monster guides, you can view our general recommendations with the `!relics` and `!aura` commands.
 
 .
-### Base Melee Preset
-.
-.img:https://img.pvme.io/images/DWcRyGA.png
-.
-### Base Magic Preset
-.
-.img:https://img.pvme.io/images/eF7ZupE.png
-.
-### Base Ranged Preset
-.
-.img:https://img.pvme.io/images/NGcMqy5.png
-.
-*Note: The gear shown above isn't indicative of what one should wear on every slayer task, as many tasks require specific gear or items, the presets are just a general idea of what to remember to take with you.*
+## __Ability Usage__
+.tag:abilities
+We have several guides on specific Slayer Assignments with their own methods and action bar layouts, you can find them in <#1020024227115573369>.
+
+⬥  Generally, AoE abilities will be prioritized when training Slayer, below are examples of AoE abilities for each combat style.
+    • For Magic <:magic:689504724159823906>: Chain <:chain:1257440203401068566> or Greater Chain <:gchain:1257440278512537740>, Corruption Blast <:corruptblast:513190159194259467>, Dragon Breath <:dbreath:535533833391702017>, Tsunami <:tsunami:535533809995874304>,  and Magma Tempest <:magmatempest:902209626509025290>
+    • For Melee <:melee:1096130867279171706>: Cleave <:cleave:535532878616985610>, Bladed Dive <:bd:535532854281764884>, Quake <:quake:535532879506309150>, Hurricane <:cane:535532878969438210>, and Meteor Strike <:meteorstrike:535532879359377439>
+    • For Ranged <:range:580168050121113623>: Ricochet <:ricochet:535541259566186521> or Greater Ricochet <:grico:787904334812807238>, Corruption Shot <:corruptshot:535541306294796299>, and Bombardment <:bombard:535541306391265284>
+        ⬩ Mechanised Chinchompa <:mechchin:641669268722810881> can be used to make many single target abilities hit in a 3x3 AoE.
+    • For Necromancy <:necromancy:1148995625896120460>: Soul Strike <:soulstrike:1137809142376058910>, Blood Siphon <:bloodsiphon:1159434279311380532>, Spectral Scythe <:spectralscythe:1137809145706319892>, Death Skulls <:deathskulls:1159434663903899728> and Threads of Fate <:threadsoffate:1137809172335951933> + any single target ability.
+⬥  Tuska's Wrath <:tuskas:513201065513058306> deals extra damage against your current Slayer Assignment at an increased cooldown.
 
 .
-## __Action Bars__
-.tag:bars
-Some base action bars are shown below. Specific tasks may require their own action bars, due to requiring certain abilities like Devotion <:devo:513190158728953857> or Anticipate <:anti:535541306475151390> in a specific spot, or if AoE is not viable. These bars should be taken as a baseline and not as a one-size-fits-all bars. The ranged bar assumes 1v1 combat, as AoE ranged is usually in the form of Mechanised Chinchompas <:mechchin:641669268722810881>.
-.
-### Basic Melee Afk Bar
-.
-.img:https://img.pvme.io/images/mNHfAM3.png
-.
-### Basic Magic Afk Bar
-.
-.img:https://img.pvme.io/images/gSfERAH.png
-.
-### Basic Ranged Afk Bar
-.
-.img:https://img.pvme.io/images/FqErGwm.png
-.
-## __Slayer Tips__
-.tag:tips
-### General Tips and Tricks
-⬥ There are a lot of tasks that benefit from using aggression potions to lure mobs together, often in conjunction with the Dwarven Multicannon <:cannon:869283142350041098> or Oldak Coil <:oldakcoil:798285651387613194> to achieve a stronger effect.
-
-.
-⬥ Prayer should **ALWAYS** be used when doing slayer.
-    • Prayer restoring items, such as Super Restores <:restore:642708657825644554> or Super Prayer Renewals <:superprayerrenewal:547603714681339915> are extremely cheap, so prayers should always be used when slaying.
-    • On tasks dropping bones, the demon horn necklace <:demonhornnecklace:975765831248130079> may be taken for prayer upkeep.
-    • On tasks dropping ashes, <:demonhornnecklace:975765831248130079> can be paired with a charged <:ectoplasmator:1023152065431744542> for prayer upkeep.
-    • <:penanceaura:643505653062565907> is also a popular choice for prayer upkeep during slayer.
-
-.
-⬥ As soon as the player hits 105 <:slayer:797896049548066857>, the highest priority is to obtain the Dinosaur Tooth drop, a 1/800 drop from slayer creatures on Anachronia. The droprate is further boosted under the effect of the Osseous Roar, to 1/720. Whilst 105 <:slayer:797896049548066857> is not required, the lowest level slayer creature on anachronia is level 90 <:slayer:797896049548066857>, Venomous dinosaurs are easily afk-able and give high kph. The Dinosaur Tooth is used to build the slayer helmet stand, which allows the Slayer Helm <:slayerhelm:798285340460449792> buff to be available at all times without wearing it, making it extremely ideal for all slayer tasks.
-
-.
-⬥ Slayer points should be spent
-    • Firstly on building a good block + prefer list, unlocking good tasks such as Nightmare creatures, and upgrading the Slayer Helm <:slayerhelm:798285340460449792>
-    • After that, toolbelt upgrades for the seedicide, gold accumulator, bonecrusher and charming imp, then abilities such as broader fletching and crafting slayer rings.
-    • If the player plans to do Gargoyles early on, Finishing blows is a higher priority, however a Legendary Pet can be used for the same effect without purchasing the ability.
-
-.
-## __Armours__
-.tag:armour
-### Recommendations
-⬥ **T70 GW1 Armour** <:subjgarb:643151011199975434> / <:armaplate:643150997828403231> / <:bandoschest:643151021748518917> - Cheap but good gear, these armours are ideal for most slayer tasks, providing suitable armour, augmentable for perks, and good damage bonus.
-
-.
-⬥ **Custom-Fit Trimmed Masterwork** <:tmwbody:643847118196441088> - exceptionally powerful slayer armour due to it's non-degrade whilst on task feature, highest level armour in the game currently.
-
-.
-*Note: Never use hybrid armour, the damage gained from slayer perks does not cover damage lost by not using power armour, most slayer perks are cheap and t70 gear has a low drain rate which suffices for most tasks. If necessary, an item such as Akrisae's Robe Skirt can be used with universal perks.*
-
-.
-## __Useful Items for Slayer__
+## __Useful Items__
 .tag:items
-### Gear
-⬥ **Slayer Helm** <:slayerhelm:798285340460449792> - The single strongest piece of gear, vital for any slayer task. Highest tier provides a 14.5% damage and accuracy boost to mobs whilst on task.
+.
+{
+  "embed": {
+    "title": "",
+    "description": "⬥ **Slayer Helmet** <:slayerhelm:798285340460449792>\n\u00a0\u00a0\u00a0\u00a0• BiS helm against current assignment.\n\u00a0\u00a0\u00a0\u00a0• At 90 Slayer, prioritize building the Slayer Helmet stand on Anachronia so you don't have to wear it.\n⬥ **Slayer VIP Tickets** <:slayervip:975284344597934120>\n\u00a0\u00a0\u00a0\u00a0• Lets you choose between 2 assignments.\n⬥ **Wilder Pie**\n\u00a0\u00a0\u00a0\u00a0• Boosts your Slayer level by 6 for 6 minutes.\n⬥ **Cannons** <:dwarfmulticannon:1114767361975779379> / <:cannon:869283142350041098> / <:oldakcoil:798285651387613194> / <:kineticcyclone:798285651405438997>\n\u00a0\u00a0\u00a0\u00a0• Deals AoE damage and draws aggro, Artisans' Workshop upgrade allows for automatic reloading.\n⬥ **Demon Horn Necklace** <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Restores prayer if paired with Bonecrusher <:bonecrusher:975284344526602240> (for bones) or Attuned Ectoplasmator <:ectoplasmator:1023152065431744542> (for ashes).\n⬥ **Scrimshaw of Sacrifice** <:sacrificescrim:1023150750915899402>\n\u00a0\u00a0\u00a0\u00a0 • Destroys loot for increased XP. Uniques destroyed count towards logs.\n⬥ **Ushabti** <:ushabti:1097515642749468752>\n\u00a0\u00a0\u00a0\u00a0• Captures monster souls used in the Sunken Pyramid and the Slayer Codex <:slayercodex:1097517249499254875>\n⬥ **Slayer's Introspection** <:slayerintrospection:975284345365471232>\n\u00a0\u00a0\u00a0\u00a0• Lets you choose minimum or maximum possible size task.\n⬥ **Drop Cleaners**\n\u00a0\u00a0\u00a0\u00a0• Several items can help collect or consume drops automatically, such as Spring Cleaner <:springcleaner:1130170723130937427>, Magic Notepaper <:notepaper:1137735230908805240>, and Artificer's Measure.\n\u00a0\u00a0\u00a0\u00a0• Your toolbelt can hold several other drop cleaning items.\n⬥ **Teleports**\n\u00a0\u00a0\u00a0\u00a0• There are many useful teleports, such as the Slayer Cape <:slayercape:975284344123953164> and the Slayer Codex <:slayercodex:1097517249499254875>",
+    "color": 39423,
+    "fields": [
+    ]
+  }
+}
+.embed:json
 
 .
-⬥ **Halberd Weapon** <:noxscythe:513190159341322240> - For melee AOE, these weapons have a 2-square range, allowing AoEs to hit in a 5x5 area.
-
-.
-⬥ **Mechanised Chinchompas** <:mechchin:641669268722810881> - For ranged AOE, all non-AoE abilities now hit every target in a 3x3 area.
-
-.
-⬥ **Ring of Vigour** <:rov:513201065877831680> - Refunds 10% adrenaline on use of an ultimate ability.
-
-.
-⬥ **Kethsi Ring** - Provides a 4% damage buff against metal dragons, 8% inside Kuradal's dungeon.
-
-.
-⬥ **Darklight** - Upgraded after the Dimension of Disaster quest, BiS main hand weapon for killing demons.
-
-.
-⬥ **Tirannwn Quiver** <:quiver:656863806080811038> - Provides a 5% damage buff against Shadow Creatures, Elves and Dark Beasts, depending on the tier of achievements completed.
-
-.
-⬥ **Dragon Slayer Gloves** - Provides a 10% accuracy buff against dragons, alongside a 15% <:slayer:797896049548066857> experience boost. Can be obtained with 100 thaler, or an hour of Fist of Guthix boosting.
-
-.
-⬥ **Scrimshaw of Sacrifice** - At the cost of all primary and secondary drops, increases the <:slayer:797896049548066857> and <:combat:797896050370281523> XP gained by 50%.
-
-.
-⬥ **Enhanced Excalibur** <:EnhancedExcalibur:513200949016264727> - After completion of the Elite Seer's Village tasks, heals the player for 40% of their max hp over time when activated.
-
-.
-⬥ **Blood Amulets** - BiS amulets for low-hp AoE tasks, damages nearby targets for 200-500 damage every 15s and heals the player for the same amount, cheap to use.
-
-.
-⬥ **Annihilation** <:annihilation:796989662983094275> - When stored in an Essence of Finality amulet <:eof:787526151978614824>, the special attack becomes very strong for AoE mobs, building stacks quickly. Similar to a <:zgs:626465964325601290> for damage boost and adrenaline cost, without sharing a cooldown. Stacks are cleared upon splashing, so use for low defence mobs. This can be a much cheaper alternative for the <:zgs:626465964325601290>, however will not be nearly as useful for general pvm, just AoE slayer.
-
-.
-### Perks
-⬥ **Slayer Perks** <:demonslayerperk:689502842653900818> / <:dragonslayerperk:689502927731163170> / <:undeadslayerperk:689502804720615441> - Demon/Undead/Dragon slayer perks increase the damage taken by their respective mobs by 7%. A must have if you plan to do a large amount of these types of mobs.
-
-.
-⬥ **Scavenging** - Generates uncommon + rare Invention components upon killing mobs, 1% per rank chance of activation, with a further 1% chance for the component to be rare. A good gp generator when killing mass amounts of mobs.
-
-.
-⬥ **Enhanced Devoted** <:enhdev4:712073087507628035> - Has a 4.5% chance per rank to activate and make protection prayers 100% effective for 3s. Heavily reduces damage taken on a large amount of slayer tasks.
-
-.
-⬥ **Genocidal** <:genocidal:689503091539705870> - As the task progresses, this perk provides a damage buff to the player, up to 7%.
-
-.
-### Abilities
-⬥ **Bladed Dive** <:bd:535532854281764884> - Purchaseable from Shattered Worlds, this ability deals 127% ability damage in a 5x5 area if using <:Laceration:602581988599398400>, and resets it's cooldown if the target dies. Extremely powerful for slayer, must be manually activated.
-
-.
-⬥ **Corruption** <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> - AoE abilities for magic/ranged, very strong for AoE damage.
-
-.
-⬥ **Death's Swiftness/Sunshine** <:deathsswift:994921434633744455> / <:sunshine:994921119381463070> - Damage boosting ultimate abilities, unlockable upon completing The World Wakes quest, boosts damage by 50% for 30s.
-
-.
-⬥ **Slayer's Insight** - Purchaseable from Shattered Worlds, this ability increases the slayer XP gained by 10% for 30 seconds, with a 120s cooldown.
-
-.
-⬥ **Aggression** - Purchaseable from Shattered Worlds, this ability draws the aggression of all nearby mobs, with a 90s cooldown.
-
-.
-⬥ **Kuradal's Favour** - Purchaseable from Shattered Worlds, this ability instantly respawns all dead mobs inside Kuradal's dungeon, with a 60s cooldown.
-
-.
-⬥ **Sacrifice** <:Sacrifice:513201065907322880> - This ability heals the player for 25% of the damage it deals, or 100% if it kills the target. Useful for healing off low HP mobs.
-
-.
-⬥ **Devotion** <:devo:513190158728953857> - When activated, this ability makes protection prayers 100% effective for 10s, and is extended by 5s for every mob killed up to 10s.
-
-.
-⬥ **Tuskas Wrath** <:Tuskas:513201065513058306> - This ability, when used on a slayer task, hits the target for 100x the player's slayer level, capping at 15000 damage. Has a 2 minute cooldown when used on task.
-
-.
-### Relics
-⬥ **Slayer's Introspection** <:slayerintrospection:975284345365471232> - Unlockable at 118 Archaeology, this relic allows the player to choose either the minimum or maximum for a task, helpful for drop hunting, xp and gp.
-
-.
-⬥ **Berserker's Fury** <:berserkersfury:697808774106185768> - Unlockable at 56 Archaeology, this relic provides a damage buff of up to 5.5% as the player's lifepoints decreases.
-
-.
-⬥ **Luck of the Dwarves** - Unlockable at 83 Archaeology, this relic provides the luck enhancing effect of the Luck of the Dwarves ring <:LotD:566453486913323042>, whilst allowing the player to use another ring.
-
-.
-⬥ **Death Note** - Unlockable at 108 Archaeology, this relic makes all bone and ash drops noted by default.
-
-.
-### Auras
-⬥ **Penance** <:penance:643505653062565907> - Gain prayer points equal to 5% of the damage you receive.
-
-.
-⬥ **Vampyrism** <:vamp:643505653079343144> - Gain lifepoints equal to 5% of the damage you deal, capped at 50 lifepoints per hit.
-
-.
-⬥ **Inspiration** <:inspiration:643505652634746881> - Gain 0.5% adrenaline for each successful hit, useful on large aoe tasks.
-
-.
-⬥ **Berserker** <:berserker:643505116347105290> / <:mani:643505153709965322> / <:reckless:643505179378974748> - Provides a 10% damage buff, boosts the combat levels by 10%, increases accuracy by 10% at the cost of reducing the player's defence by 15%.
-
-.
-### Other
-⬥ **Slayer Helmet Stand** - Available after upgrading the Slayer lodge at Anachronia Base camp to T3. Allows the player to receive the effect of the <:slayerhelm:798285340460449792> at all times, without having to wear it.
-
-.
-⬥ **Slayer VIP Tickets** <:slayervip:975284344597934120> - An absolute must for all slayer tasks, provides the ability to pick between two tasks when receiving a new task. Obtainable through various means, via the Travelling merchant or Cabbage Facepunch Bonanza minigame.
-
-.
-⬥ **Cannon Upgrades** - Purchaseable with Artisan's Workshop Respect, the Dwarven Multicannon <:cannon:869283142350041098> , and it's melee and magic variants, the Kinetic Cyclone <:kineticcyclone:798285651405438997> and Oldak Coil <:oldakcoil:798285651387613194>, can be upgraded in their capacity and with an auto-reloading perk. A total of 250% respect is required to fully upgrade the cannon.
-
-.
-⬥ **Slayer Codex** - Contains information on the souls collected by the player, and provides bonuses at certain numbers of souls collected. Every 10 souls provides a 1% slayer experience increase, up to a maximum of 5%. At 50 souls collected, the Codex unlocks the ability to teleport the player directly to the Player-Owned Slayer dungeon.
-
-.
-⬥ **Corbicula Perk** <:corbicula:690136117273821280> - Grants a 20% additive critical hit chance increase to meteor strike <:meteorstrike:535532879359377439> per tier, up to 40%. Granted by having an elder Corbicula Rex in each large pen in the Ranch out of time.
-
-.
-⬥ **Armour/Alloy Spikes** <:armourspike:756235792053174332> - Smithable at 90/99 smithing respectively, these deal damage to a target equal to the player's Smithing level, Alloy spikes have a 10% chance to do 10x normal spike damage. Only useable with melee, these are useful when dealing with poisonable mobs, and they aid healing with vampyrism aura/scrimshaw.
-
-.
-⬥ **Permanent Gold Accumulator** - Purchaseable for 1.5m Dungeoneering tokens, this picks up all gold drops at 90% value, able to be placed in the toolbelt for 500 slayer points.
-
-.
-⬥ **Spring Cleaner** - Craftable at 43 Invention, the Spring Cleaner provides the ability to alch salvage drops, dissassemble salvage, and break down common slayer creature drops. Extremely useful for passive gp gain and drop cleaning.
-
-.
-⬥ **Bonecrusher/Ectoplasmator** <:bonecrusher:975284344526602240> - Another drop cleaner, destroys bones/ashes respectively, used in conjunction with the Demon Horn Necklace to regain prayer points.
-
-.
-⬥ **Gem Bag** - Stores gems, up to 30/60 of each type, purchaseable and upgradeable with 2000/20,000 dungeoneering tokens.
-
-.
-⬥ **Dominion Mines** <:dommine:662249620579155968> - Deployable twice every minute, deals up to 10,000 damage each to a target below 138 combat level, useful on high hp creatures such as Rune Dragons, Living Wyverns, Acheron Mammoths, and Soulgazers.
-
-.
-⬥ **Wilder Pie** - Provides a +6 static slayer level boost for 6 minutes, useful for killing higher levelled mobs for more XP.
-
-.
-⬥ **Premier Artefact** <:premierartefact:918517285176623104> - Usable once per day, the Premier Artefact has a function that has a 10% chance of not decreasing your slayer task counter for each mob killed, lasts 1 hour.
-
-.
-*Note: This category is ordered loosely in priority of unlock.*
-
-.
-### Recommended Unlocks/Items
-⬥ The Blood Pact quest completed (**mandatory**)
-    • Required to access the Lumbridge Catacombs
-⬥ Gchain <:gchain:1257440278512537740> with Caroming 4 <:caroming4:791281588792590336> (**highly recommended**)
-    • If using Melee, Bladed Dive <:bd:535532854281764884> with halberd-style weapon (<:noxscythe:513190159341322240> <:lanispear:839903893177106454> <:dragonriderlance:643161541931171872> <:masutaspear:643166903220699137>) and Laceration boots <:Laceration:602581988599398400>
-⬥ Slayer VIP Tickets <:slayervip:975284344597934120> (**highly recommended**)
-⬥ Lunar Diplomacy quest completed
-    • Gives access to SBS <:SBS:543875425055670275> and NPC Contact <:npccontact:975284195280695326> spells
-⬥ Slayer Introspection relic <:slayerintrospection:975284345365471232>
-⬥ Slayer (master) cape <:slayercape:975284344123953164>
-⬥ Slayer Masks (Abyss, Dagannoth, Ganodermic)
-
-.
-### Presets
-⬥ <:inquisitorstaff:694566917553520680> with Caroming 4 <:caroming4:791281588792590336> (any staff works, can use <:staffoflimitlessair:864235608237801473> to save runes)
-⬥ <:GownofSubjugation:556592058824130589> with Scavenging 4
-⬥ <:demonhornnecklace:975765831248130079> alongside <:bonecrusher:975284344526602240> to upkeep <:torment:583429936958930964> <:soulsplit:615613924506599497>
-⬥ <:scriptureofful:902209626412560395> inactive for passive stats (optional)
-⬥ <:graspingpouchblack:892816436974735361> <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280> <:Soulrune:536252660333019136>
-⬥ <:graspingpouchpink:892816437503221830> <:Deathrune:536252659586433024> <:Earthrune:536252659808731137> <:Lawrune:536252661406760970> <:Cosmicrune:536252659615924258>
-⬥ <:graspingpouchblue:892816437406728252> <:Chaosrune:536252659422855188> <:Airrune:536252658986647589> <:Waterrune:536252660165115905> <:Firerune:536252659850674186>
-(Runes for <:exsanguinate:856635090745950258> <:SBS:543875425055670275> <:npccontact:975284195280695326>)
-.
-.img:https://img.pvme.io/images/QxXK6oU.png
-.
-### Action Bar
-.
-.img:https://img.pvme.io/images/vPIU1zO.png
-.
-### Block List
-.
-.img:https://img.pvme.io/images/zCcmrib.png
-.
-### Method
-⬥ **Jacquelyn <:jacquelyn:975284345369665577> (1-9th tasks)**
-    • Start by going to the Lumbridge Catacombs by teleporting to the Lumbridge Lodestone and walking south to the cemetery.
-    • Once inside, climb down stairs twice to reach the lower catacombs.
-    • There, <:SBS:543875425055670275> + <:npccontact:975284195280695326> to get assigned your first task.
-        ⬩ If you do not have <:npccontact:975284195280695326> unlocked, get your tasks directly from Jacquelyn, who is located at the Lumbridge's castle entrance, by teleporting via the <:slayercape:975284344123953164> or Lumbridge Lodestone.
-    • This method can be done efficiently in two ways.
-        ⬩ It can be done with Magic <:Magic:689504724159823906> using the preset and action bar above
-        ⬩ Alternatively, it can be done with Melee <:melee:1096130867279171706> by killing the mobs with Bladed Dive <:bd:535532854281764884> while using an halberd-style weapon (e.g. <:noxscythe:513190159341322240>) and Laceration boots <:Laceration:602581988599398400> for the increased AoE (5x5)
-
-.
-⬥ **Laniakea <:laniakea:975284345411600426> (10th task)**
-    • After completing your 9 tasks with Jacquelyn, you must go to Laniakea to get assigned your 10th task.
-    • To get there, teleport using the <:slayercape:975284344123953164> or the Anachronia lodestone and walk NE to the slayer lodge inside your base camp.
-        ⬩ It is highly advised that you use either slayer masks (namely Abyss, Dagannoth or Ganodermic) or Slayer VIP Tickets <:slayervip:975284344597934120> to get assigned quick tasks, maximizing your slayer points/hour.
-        ⬩ Using the Slayer Introspection relic <:slayerintrospection:975284345365471232> in order to select the minimum amount of kills for each assignment will further speed up this method.
-        ⬩ If owned, <:slayercape:975284344123953164> can be useful aswell due to its 20% chance to choose what your next task will be.
+## __Perks__
+.tag:perks
+{
+  "embed": {
+    "title": "",
+    "description": "⬥ **Genocidal** <:genocidal:689503091539705870>\n\u00a0\u00a0\u00a0\u00a0• Grants a damage boost against the current Slayer target, increasing as the task progresses.\n⬥ **X-Slayer Perks** <:demonslayerperk:689502842653900818> / <:dragonslayerperk:689502927731163170> / <:undeadslayerperk:689502804720615441>\n\u00a0\u00a0\u00a0\u00a0• Grants a damage bonus to the perk's respective monster type.\n⬥ **Scavenging** <:scavenging:1109429520995463288>\n\u00a0\u00a0\u00a0\u00a0• Grants Invention components when killing monsters. These stack up quickly.\n⬥ **Caroming** <:caroming4:791281588792590336>\n\u00a0\u00a0\u00a0\u00a0• Allows Chain <:chain:1257440203401068566>, Ricochet <:ricochet:535541259566186521>, and their greater variants to hit more targets.",
+    "color": 39423,
+    "fields": [
+    ]
+  }
+}
+.embed:json
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Action Bars]($linkmsg_bars$)\n⬥ [Slayer Tips]($linkmsg_tips$)\n⬥ [Armours]($linkmsg_armour$)\n⬥ [Useful Items]($linkmsg_items$)\n⬥ [Slayer Points Farming]($linkmsg_slayerpointsfarming$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [The Basics of Slaying]($linkmsg_basics$)\n⬥ [Presets and Relics]($linkmsg_presets$)\n⬥ [Ability Usage]($linkmsg_abilities$)\n⬥ [Useful Items]($linkmsg_items$)\n⬥ [Perks]($linkmsg_perks$)",
     "color": 39423
   }
 }
