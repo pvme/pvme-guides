@@ -132,17 +132,27 @@ Beastmaster Durzag (BM) is the first of two raids bosses. Because of the straigh
 
 .
 ## __Learning Raids__
-.tag:bossschool
-If you're interested in learning raids, join one of the these teaching servers listed in <#944775418844688464>!
-.
-Boss School
-Mazcab Academy
-Raids School
+.tag:learn
+{
+  "embed": {
+    "title": "__Learning Raids__",
+    "description": "If you're interested in learning raids, join one of the teaching servers listed in <#944775418844688464>!",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Discord Servers__",
+        "value": "⬥ [Boss School](https://discord.gg/88ru2vd)\n⬥ [Mazcab Academy](https://discord.gg/egQBwuM)\n⬥ [Raids School](https://discord.gg/vfXXTBE)"
+      }
+    ]
+  }
+}
+.embed:json
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Overview]($linkmsg_overview$)\n⬥ [Pet Tank]($linkmsg_pettank$)\n⬥ [North Chargers]($linkmsg_nc$)\n⬥ [Back-up (South Chargers)]($linkmsg_busc$)\n⬥ [Base Tank]($linkmsg_base$)\n⬥ [Learning Raids]($linkmsg_bossschool$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Overview]($linkmsg_overview$)\n⬥ [Pet Tank]($linkmsg_pettank$)\n⬥ [North Chargers]($linkmsg_nc$)\n⬥ [Back-up (South Chargers)]($linkmsg_busc$)\n⬥ [Base Tank]($linkmsg_base$)\n⬥ [Learning Raids]($linkmsg_learn$)",
     "color": 39423
   }
 }
