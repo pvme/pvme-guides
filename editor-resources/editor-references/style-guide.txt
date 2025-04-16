@@ -1,341 +1,222 @@
-# Style Guide for PvME
-.img:https://img.pvme.io/images/hLk8oJr.png
+# PvME Style Guide
+Consistency makes guides easier to read and maintain. This guide covers formatting, structure, and PvME-specific conventions.
 
 .
-## __Introduction__
-.tag:intro
-This channel covers stylistic aspects that PvME guides tend to follow for consistency and ease of reading.
-⬥ Try to stick to these guidelines when submitting writeups/improvements to guides.
-⬥ **These guidelines may not cover every situation**, and will be updated as required. Feel free to raise concerns about any scenarios not covered for discussion.
-    • Please bring up any concerns that are not covered by these guidelines.
-⬥ **Some commonly used templates for ease of writing may be found in <#1250465568255901787>.**
-
-*Note: If you ever require **any** assistance with styling, feel free to tag an editor!*
+## __Sections & Templates__
+.tag:sections
+⬥ We have various types of guides, each of which has a unique structure and sections within
+⬥ Most templates you will require can be found on the [Guide Editor](<https://pvme.io/guide-editor/>):
+.img:https://img.pvme.io/images/By04eu9tkH.png
 
 .
-## __Basic Guide Structure__
-.tag:basic
-This is the basic structure that PvME guides begin with. By using similar structures across all guides, it is easier for readers to find the section that pertains to information they are looking for, as sections will tend to remain in the same order (e.g. **Presets** will always be near the top of a guide, **Table of Contents** at the bottom).
-
-There may naturally be some variation in guides for different bosses, but the basic layout will remain the same.
-
-.
-### Basic Structure
-*Note: Each of the **bold** bullets is a major section in a guide, and contains sub-sections within it.*
-.
-⬥ **Introduction**
-    • Brief overview of the boss.
-⬥ **Presets**
-    • Examples of loadouts for killing the boss.
-    • See the section on __**Preset Layouts**__ for information on this.
-⬥ **Mechanics**
-    • Describe the mechanics that the boss uses across the encounter.
-    • You can skip this section for advanced/higher-level guides if required.
-⬥ **The Fight**
-    • Explain the fight, and how to approach it.
-    • Structure it into multiple subsections if the fight involves multiple phases (e.g. Vorago, Araxxor, Telos, Tz-Kal-Zuk), etc.
-⬥ **Rotations**
-    • This section is typically excluded because rotations are covered in a phase-by-phase manner in the previous section.
-    • It may have merit in some guides.
-⬥ **Example Kills**
-    • Embedded links to any example kills for the reader's reference.
-
-⬥ Follow this basic format and incorporate the other guidelines for embedding, rotations, etc. and you should be well on your way to having a stylised guide.
+## __Language & Formatting__
+.tag:language
+⬥ Use UK English (e.g. armour, not armor; defence, not defense)
+⬥ Date format: YYYY/MM/DD
+⬥ Do not end lines with blank space (this is referred to as "trailing whitespace")
 
 .
-## __General Style Choices__
-.tag:general
-These are some general rules to follow with regard to grammar, punctuation and other PvME-specific practices, applicable to all guides.
+### __Styling & Punctuation__
+.tag:styling
+⬥ End full sentences with full stops.
+    • Exceptions: bullet points or if a paragraph ends in an emoji 🚀
+
+⬥ Text styles:
+    • `**Bold**` – Key items or emphases
+    • `*Italic*` – Inline notes or footnotes
+    • `__Underline__` – Optional emphasis
 
 .
-### Language and Formatting
-⬥ Prefer **UK spelling and style**.
-    • e.g. armour over armor.
-⬥ Prefer the **date format YYYY/MM/DD**.
-⬥ Ensure proper punctuation.
-    • Capitalise the first letter of every line.
-    • Section and subsection names have important words capitalised.
-    • Add periods at the end of complete sentences.
-    • Utilise the Oxford comma.
-⬥ Text may be emphasised through the use of **bold**, *italicised* and __underlined__ text.
-    • **Bold** text is typically reserved for main items from a list for discussion, or for emphasis of certain points.
-    • *Italicised* text is usually for small notes that accompany sections and is usually not preceded by a bullet.
-⬥ When writing titles, do **not** capitalise the following:
-    • conjunctions e.g. but / and / or
-    • articles e.g. the / a / an
-    • prepositions e.g. to / on / for
+### __Emojis__
+.tag:emojis
+⬥ Use name followed by emoji: Spellbook Swap <:SBS:543875425055670275>
+⬥ Make sure a blank space separates the emoji from words next to it
+    • ❌ `Spellbook Swap<:SBS:543875425055670275>`
+    • ✅ `Spellbook Swap <:SBS:543875425055670275>`
 
 .
-### PvME-Specific
-⬥ When using emojis, the order is: **word, then emoji** - e.g. Spellbook Swap <:SBS:543875425055670275>
-    • The exception to this rule is in presets where **obscure items go emoji, then word** - e.g. <:conservationofenergy:697808773711921195> Conservation of Energy
-⬥ Always **surround emojis by one space** on either side.
-⬥ Every channel should have its channel topic with the correct title (e.g. channel for "aod" would have "Nex: Angel of Death" as it's topic).
-⬥ Where possible, the first message of a guide should be an image that best represents the guide.
-⬥ If crediting a user for contributing them to a guide, give them a shoutout in <#1152993406344249475>.
-    • To tag a user `@user` use the following syntax: `<@userid>` with the correct `userid`.
-    • You can find a Discord User ID by right-clicking a person's name and selecting 'Copy ID'.
-    • You will need Developer Mode enabled for this: **Discord Settings > Advanced > Developer Mode (ON)**
-⬥ Prefer to avoid plain links in the text if possible.
-    • *Where feasible without loss of readability and good appearance*, use embeds to contain specific links.
-⬥ Do not end a line with a blank space (**no trailing whitespace on a line**).
-
-.
-### Formatting Notes
-⬥ Only use notes to emphasise important information.
-⬥ Format notes like this: `*Note: text describing main point.*`.
-    • Notes should be *italicised*, and **not** preceded by a bullet.
-    • Language and formatting rules still apply, notice `text` is **not** capitalised.
-⬥ If needing to include more than one note for the same section, then format it like this:
-    • In this instance each note should be preceded by a bullet.
+### __Notes__
+.tag:notes
+⬥ Use sparingly to highlight key info
+⬥ Put notes *below* their related content
+⬥ For a single note, show it in-line and italic:
+```
+*Note: This is a note.*
+```
+⬥ For multiple notes, show as bullets and italic:
 ```
 *Notes:
-⬥ Text describing main point of note 1.
-⬥ Text describing main point of note 2.*
+⬥ This is a note
+⬥ This is another note*
 ```
 
 .
-## __Sections and Subsections__
-.tag:sections
-Guides are broken down into sections to separate different parts of the guide, with subsections used for further breakdowns within a section.
+### __Headings__
+.tag:headings
+⬥ Headings represent sections and sub-sections
 
-.
-### Formatting Sections
-⬥ Format sections like this: `## __Sections__`.
-⬥ Format subsections like this: `### Subsection`.
-⬥ Every section title should be followed by a `.tag:word` command in the next line after the section title.
-    • This is used to create links to sections in the Table of Contents.
-⬥ **Every section should have a subsection**.
-    • If you can't think of a good Subsection title, you can say __**General x for y**__.
-    • Words in subsections should follow the same capitalisation guidelines as Sections.
-⬥ Each subsection should be a new Discord message.
-    • This is done by placing a line with just one period character (`.`) before it (see below).
-⬥ Content within sections/subsections should be in the form of bulleted lists with nesting for more granularity.
-    • See the __**Lists**__ section below for more.
-
-⬥ See the following image for an example.
-.img:https://img.pvme.io/images/T9HOEZjKin.png
-.
-⬥ The above image shows a part of a guide written following the guidelines, shown as it would appear within a properly formatted file:
-    • Proper __**Section heading**__ heading (lines 11, 22).
-    • Proper __**Subsection**__ headings (lines 16, 24).
-    • Valid `.tag:word` tag command (line 12).
-    • New message indicator period `.` character (line 23).
-    • Blank lines prior to section/subsection messages (lines 10, 21).
-    • *Italicised* note on line 20, and emphasised **bold** point on line 18.
-    • Properly used bulleted points within the subsection.
-    • Emoji used with one blank space between it and the preceding word (lines 17, 22).
-
-.
-## __Formatting Lists__
-.tag:lists
-Lists are the primary informational structure within a subsection.
-
-.
-### Bulleted Lists
-⬥ All bullet points contain 1 space between the bullet and the first word.
-⬥ Format main points with the `⬥` bullet with no indentation.
-    • Format all subpoints using the `•` bullet indented by 4 spaces.
-        ⬩ Format sub-subpoints using the `⬩` bullet indented by 8 spaces.
-
-.
-### Alphanumerical Lists
-1) Format main points like this: `appropriate # followed by a closing parenthesis` with no indentation.
-    a) Format subpoints like this: `appropriate letter followed by a closing parenthesis` indented by 4 spaces.
-        ⬩ Format sub-subpoints like this: `⬩` indented by 8 spaces.
-    b) __**Bold and underline lists if they ever act as titles**__.
-.
+⬥ Always put a `.` on the line before any heading (ignore the backslash `\` in the below example)
 ```
-⬥ Main point
-    • Subpoint describing main point
-        ⬩ Sub-subpoint describing subpoint in further detail
+<End of previous section>
 
-1) Main point
-    a) Subpoint describing main point
-        ⬩ Sub-subpoint describing subpoint in further detail
+\.
+## __Section 2__
+This is the new section
 ```
-.
-⬥ The above example shows examples of formatted lists within a file.
-⬥ **Use subpoints and sub-subpoints as required to avoid illegible walls of text**. Ideally, keep text as concise as it can be without losing meaning or readability.
 
 .
-## __Embedded Content__
-.tag:embed
-Embedded content here refers to **two** kinds of messages.
-
-⬥ The first is embedding media content (images/gifs/videos/etc.) directly into the body of a guide to be able to view it and click on it whilst scrolling through the guide. To do this, the `.img:<url>` command can be used.
-⬥ The second is Discord embeds, which are self-contained message structures that are primarily used to tightly group together chunks of related info, usually accompanied by links to external resources (like spreadsheets, video clips, large screenshots, etc). Use these when appropriate.
-    • e.g. every `!command` in PvME Discord is a Discord embed message.
-
+⬥ Use `#` and underline the title
+⬥ Use `##` / `###` and underline level 1 and 2 headings
+⬥ Level 3 headings:
+    • Discord doesn't allow `####` for level 3 headings
+    • Therefore remove the underline to distinguish
 .
-### In-line Embedded Media Content
-⬥ The preferred hosting platforms are **YouTube** for videos, and **Imgur** for screenshots and short gifs/clips. **Streamable is absolutely forbidden**.
-⬥ Images and video embeds should be their own message, avoid direct links to images in guides as far as possible.
-    • Example: the highlighted section below shows an embedded image.
-.
-.img:https://img.pvme.io/images/ngEN8D1.png
-.
-⬥ If plain website links are used, then they should be formatted similar: `**Link text** - <https://...>`
-    • Surround open links with `<>` brackets prevent embeds from appearing.
-    • Example: **RuneScape Wiki** - <https://runescape.wiki/>
-⬥ If masked links are used, then they should be formatted like so: `[Link Text](<https://...>)`
-    • Example: [Runescape Wiki](<https://runescape.wiki/>)
+```# __Title__
 
-.
-### Discord Embed Messages
-⬥ These are created using a JSON-formatted message according to Discord's specifications.
-⬥ Numerous examples can be found in the form of PvME `!commands`, and the __**Table of Contents**__ section in each channel.
-⬥ If you have many videos or examples consecutively (e.g. for the __**Example Kills**__ section), prefer to use embeds to reduce channel length.
-    • This comes at the expense of font size, line spacing and horizontal screen width capability, so use them only when required.
+## __Section 1__
+### __Sub-section 1.1__
+### Sub-sub-section 1.1.1
 
-.
-## __Gear Presets__
-.tag:presets
-Gear presets are used at the start of guides to concisely inform users of all items required to effectively tackle the content, including **equipment**, **inventory setups**, **relics** and **notes on important items**.
+## __Section 2__
 
-.
-### Styling Explanation
-⬥ The basic preset layout is as follows.
-```
-→ Preset embed (contains sample image and breakdown with notes)
-→ Relic Setup
+## __Section 3__
+### __Sub-section 3.1__```
 
-```
-⬥ **Preset/breakdown link should be generated using Preset Generator** (link in <#1250465587813945440>).
-⬥ **Preset breakdowns should be sufficiently detailed as to be useful to the reader**.
-    • See the one in the example preset below for an example.
-⬥ **Keep presets consistent**:
-    • Rune pouches should match pouch colours in <#1025569571710718093>.
-    • EoF emojis (when possible) should match colours in <#1020550560551813131>.
-    • Weapon switches be chosen to match their perked equivalents in <#553632787639435284>.
-⬥ **Avoid using dyed gear in presets**.
-⬥ **Avoid using unreasonably expensive gear in presets**.
-    • For example, avoid spiked boots, Elite Sirenic, etc. Use your best judgement.
-
-.
-⬥ Combining all of these, we can put together an example preset like the following:
-
-.
-## __Presets and Relics__
+⬥ Headings should be capitalised following the Oxford style:
 .
 {
   "embed": {
     "color": 39423,
-    "image": {
-      "url": "https://img.pvme.io/images/ULpvc5dTZC.png"
-    },
     "fields": [
       {
-        "name": "__Preset Suggestions__",
-        "value":"⬥ [first_style_name preset](first_preset_link) first_style_emoji\n⬥ [second_style_name preset](second_preset_link) second_style_emoji"
+        "name": "✅ Capitalise",
+        "inline": true,
+        "value": "⬥ First and last word\n⬥ Nouns\n⬥ Pronouns\n⬥ Verbs\n⬥ Adjectives\n⬥ Adverbs\n⬥ Any word over four letters"
+      },
+      {
+        "name": "❌ Don’t capitalise",
+        "inline": true,
+        "value": "⬥ Articles (a, an, the)\n⬥ Prepositions (to, on, in, for, with, etc.)\n⬥ Conjunctions (and, but, or, nor, etc.)"
       }
     ]
   }
 }
 .embed:json
+
 .
-## __Writing Rotations__
+### __Lists__
+.tag:lists
+⬥ Bulleted lists use different characters depending on the level
+    • Level 2 bullets should be indented 4 spaces
+        ⬩ Level 3 bullets should be indented 8 spaces
+
+1) Numbered Lists follow the same rules with indentation
+    a) Level 2 should use letters
+        ⬩ Level 3 should be bullets
+
+⬥ Where visually dense, you may add line breaks between list items (like above this bullet)
+
+.
+### __Links and Embedded Content__
+.tag:embeds
+.
+⬥ Only use content from `YouTube` or `img.pvme.io` (via <#771436827214086154>)
+⬥ Add angled brackets `<>` around links to prevent them showing inline
+    • For example, `[Greater Fury](<https://runescape.wiki/w/Greater_Fury>)`
+
+.
+### __Useful Markdown & GitHub Syntax__
+.tag:markdown
+⬥ `` `code` `` for inline code
+⬥ `.img:<url>` for images
+⬥ `.tag:sectionName` for ToC section targets
+    • `$linkmsg_sectionName$` for linking to that section
+
+.
+## __Filenames__
+.tag:filenames
+⬥ Filenames should follow these naming patterns:
+    • Basic guides: `{bossName}-basic.txt`
+    • Combat Achievements: `{bossName}-ca.txt`
+    • Commands: `{commandName}.txt`
+    • DPM Advice: `dpm-advice-{style}.txt`
+    • One-tick guides: `{bossName}-one-tick.txt`
+    • Full Boss guides: `{bossName}-{difficulty}-{style}.txt`
+        ⬩ `{difficulty}` is optional; either HM or NM
+        ⬩ `{style}` is optional; either Ranged, Mage, Melee or Necromancy
+    • Slayer: `{monsterName}.txt`
+
+⬥ If not listed above, hyphenate the title:
+    • e.g., `interface-guide.txt`
+
+⬥ These naming patterns should also apply if the file is inside the boss folder, e.g. `/sanctum/sanctum-hm-ranged.txt`
+
+.
+## __Presets__
+.tag:presets
+.
+⬥ Use the Preset Generator (<#1250465587813945440>)
+⬥ Links to presets should be in the following pattern:
+    • `{Combat style} - {Basic/Advanced} {Combat style emoji}`
+        ⬩ e.g., [Necromancy - Basic](#) <:necromancy:1148995625896120460>
+⬥ Avoid dyed gear or overpriced items which do not feature in <#1020045708746833930>
+⬥ Be consistent with:
+    • Rune pouch colours (<#1025569571710718093>)
+    • EoF emojis (<#1020550560551813131>)
+
+### __Using Notes in Presets__
+⬥ Notes relating to specific preset gear/items should be added to the Preset Generator
+    • Do not add notes to the guide, for example below the Preset image
+
+⬥ Add a note for any non-standard gear or niche items
+⬥ Add a note on any gear where perks differ from standard ones listed in <#553632787639435284>
+
+⬥ For AFK guides, notes may be added to the `Mandatory AFK Requirements` embed for:
+    • Required ability unlocks (including <:necromancy:1148995625896120460> Talent Tree)
+    • Mandatory gear/items differing from those listed in <#1251377307315077151>
+
+.
+## __Rotations__
 .tag:rotations
-It is important that rotations are written in a consistent manner throughout PvME to ensure readability and accuracy. Here are some rules to follow when writing rotations for guides.
-### Rotation/Ability Formatting
-⬥ **Use the full code for PvME emojis** from <https://pvme.io/pvme-settings/#emojis> to add emojis to a guide.
-    • For example, use `<:bloodbarrage:537338981747261446>` instead of `:bloodbarrage:`
 .
-⬥ **Use + to combine extra non-ability actions that occur on the same tick**.
-    • This includes GCD surges/bladed dives, apot, vuln bombs, non-mage auto attacks, target cycle, etc.
-        ⬩ Example: <:deci:535532879325822986> + <:vulnbomb:655341074235129858> → (5taa) + <:cleave:535532878616985610>
-        ⬩ Example: <:deci:535532879325822986> + <:accel:756236265472524418> + <:surge:535533810004262912> + <:bd:535532854281764884> → <:surge:535533810004262912>
-.
-⬥ **Use → to separate groups of actions that occur on the same tick**.
-    • Example: <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:impact:535533809655873556> → <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778>
-.
-⬥ **Denote non-ability actions in parentheses** (this does not include adrenaline potions or sigils).
-.
-    • Detonate duration
-        ⬩ <:sonicwave:1087373972443775056> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
-.
-    • Target cycle
-        ⬩ <:deto:535533833358016512> (3t) → (tc) + <:bloodbarrage:537338981747261446> <:deto:535533833358016512> <:dbreath:535533833391702017>.
-.
-    • Channeling for unconventional durations
-        ⬩ <:bloodbarrage:537338981747261446> <:asphyx:535533833072672778> (3 hit) → <:dbreath:535533833391702017>.
-.
-    • Explicitly specifying weapon
-        ⬩ (DW) <:bloodbarrage:537338981747261446> <:corruptblast:513190159194259467> → (2H) <:bloodbarrage:537338981747261446> <:dbreath:535533833391702017>.
-.
-    • 5 tick auto attacks
-        ⬩ <:deci:535532879325822986> → (5taa) + <:cleave:535532878616985610>
-.
-    • Waiting in rotations
-        ⬩ <:devo:513190158728953857> → (wait 2t) + <:surge:535533810004262912> → <:sunshine:994921119381463070>
-⬥ If the next action is delayed, **specify the ticks starting from the cast of the previous action**.
-    • For example, the last example above casts Surge <:surge:535533810004262912> 2 ticks after <:devo:513190158728953857> - i.e. one tick before the global cooldown ends.
-.
-⬥ Stalled abilities will be denoted as `s<ability>`, and releasing stalled abilities will be denoted as `r<ability> + <next ability>`.
-    • Example: s<:sonicwave:1087373972443775056> → r<:sonicwave:1087373972443775056> + <:dbreath:535533833391702017>
-.
-⬥ Auto attacks are implied when using defensives (defensives imply 2H auto, freedom implies oh/2H auto).
-⬥ Include adrenaline potions and sigils where they are used.
-⬥ **Special attacks** should be denoted with both the weapon and the corresponding attack emoji in order:
-    • From the physical weapon: <:sgb:626466665848242186> <:spec:537340400273195028>
-    • From an EoF: <:sgb:626466665848242186> <:eofspec:1257438999794946099>
-    • If special attacks are used off-style, it is unnecessary to specify prayer flicks.
+⬥ Use [full emoji codes](<https://raw.githubusercontent.com/pvme/pvme-settings/master/emojis/emojis.json>), e.g., `<:emoji:ID>`
+
+⬥ Use `+` to combine same-tick actions, e.g., <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728>
+
+⬥ Use `→` to separate ticks and GCDs, e.g., <:rapid:535541270521708566> → <:snap:535534127131394088>
+
+⬥ Use `()` for:
+    • Target cycle (tc)
+    • Auto attacks (auto)
+    • Waiting (2t) - ticks are from previous action
+    • Channel durations (3 hit)
+    • Weapon types (DW) / (2H)
+
+⬥ Include non-ability actions, e.g., <:vulnbomb:655341074235129858> <:adrenrenewal:736298121704767538> <:undeadslayer:641339922019516416> <:dragonslayer:641339921814126594> <:demonslayer:641339921675845633> <:nip:537336877900890135>
+
+⬥ Use `s` and `r` to represent stall & release, e.g.:
+    • `s<ability> → r<ability> + <nextability>`
+
+⬥ Use <:spec:537340400273195028> and <:eofspec:1257438999794946099> properly, e.g.:
+    • Weapon specs: `<:sgb> <:spec>` <:sgb:626466665848242186> <:spec:537340400273195028>
+    • EOF specs: `<:sgb> <:eofspec>` <:sgb:626466665848242186> <:eofspec:1257438999794946099>
+
+⬥ List <:wenarrow:971025697046925362> before every "wenspored" ability, e.g.:
+    • <:wenarrow:971025697046925362> <:gricocaroming:867678153966878740> → <:rapid:535541270521708566>  → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099> <:deathsporearrows:900758234527301642>
+        ⬩ (note the <:wenarrow:971025697046925362> before <:dbow:643848618553507843>)
 
 .
-## __Commands and Formatting Syntax__
-.tag:commands
-This section contains general syntax for formatting text in guides, some helpful commands in GitHub syntax, and PvME Bot instructions in case automatic channel updates fail.
-### Formatting Syntax
-⬥ `**Bold text**` - this creates **Bold text**
-⬥ `*Italicised Text*` - this creates *Italicised text*
-⬥ `__Underlined text__` - this creates __Underlined text__
-⬥ `` `Code block text` `` - this creates `Code block text`
-⬥ `## __Major Section__` - this creates a
-## __Major section__
-⬥ `### Subsection` - this creates a
-### Subsection
-*Note: multiple formatting syntax may be combined together.*
-
-.
-### GitHub Syntax/Commands
-⬥ `.img:[imgurlinkhere]` - used for embedding images
-⬥ `.tag:[word]` - used as a target message for table of contents to link
-⬥ `$linkmsg_[tagword]$` - creates a link to the `[word]` used in the `.tag:[word]` command
-    • Example of a Table of Contents entry: `**Section Title** - $linkmsg_SectionTagWord$`
-
-.
-### Discord Commands (to be used in <#689575078698287152>)
-The following commands are used for instructing the bot to perform certain actions, which may be required at times.
-⬥ `pvme$txtpost (attach a .txt file here)`
-    • Posts the text file in Discord.
-    • Useful for proofreading to make sure it doesn't fail any automated style checks.
-⬥ `pvme$txtsync post CHANNEL_NAME`
-    • Purge/reposts the channel with the copy of the file the bot currently has downloaded.
-⬥ `pvme$txtsync link CHANNEL_NAME CATEGORY/FILENAME.txt`
-    • Tells PvME Bot to link `CHANNEL_NAME` to the contents of `CATEGORY/FILENAME.txt`
-⬥ `pvme$txtsync txtpost pull/PULL_REQUEST_#/head CATEGORY_NAME/CHANNEL_NAME.txt`
-    • Posts that pull request with most recent edits/commits to the channel it is linked to.
-    • Example: *pvme$txtsync txtpost pull/381/head mid-tier-pvm/dragonkin-laboratory.txt*
-⬥ `pvme$commands add COMMANDNAME txtsync commands/COMMANDFILENAME.txt`
-    • Adds a command accessible with `!COMMANDNAME` based on contents of file `COMMANDFILENAME.txt`.
-⬥ `pvme$commands add ALIASNAME alias COMMANDNAME`
-    • Adds an alias <alias_name> as an alternate command to view <command_name>.
-⬥ `pvme$commands delete COMMAND_NAME`
-    • Deletes a command (can be a source command, or an alias).
-
-.
-## __Table of Contents (formatting)__
+## __Table of Contents (ToC)__
 .tag:toc
-The Table of Contents (ToC) is present in every guide, and used for quick navigation. It is important that this is accurate, to ensure users are directed to the correct information within guides, especially as guides get longer in length.
+⬥ Each guide ends with a pinnged ToC section
+⬥ ToC is always within a Discord embed
+⬥ Must be pinned – add `.pin:delete` under it
+⬥ The easiest way to create a ToC is to add `.tag:sectionName` at the start of all sections, then auto-generate your ToC using the `Table of Contents` feature on the [Guide Editor](<https://pvme.io/guide-editor/>):
+.img:https://img.pvme.io/images/mhO3jajZIa.png
 
 .
-### ToC Formatting
-⬥ ToC is a Discord embed, and should be in at the end of every guide in a section called "Table of Contents".
-⬥ The **ToC should be pinned** in the channel.
-    • To do this just add a new line with the command `.pin:delete` after the message.
-⬥ The Basic ToC structure has section names along with links to those sections, for each section of the guide. See the code example below.
+Example:
 .
-```
 {
   "embed": {
     "title": "__Table of Contents__",
@@ -343,51 +224,13 @@ The Table of Contents (ToC) is present in every guide, and used for quick naviga
     "color": 39423,
     "fields": [
       {
-        "name": "__Section 1__",
-        "value": "[Link]($linkmsg_tagword1$)",
+        "name": "__Sections__",
+        "value": "⬥ [Sections & Templates]($linkmsg_sections$)\n⬥ [Filenames]($linkmsg_filenames$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Table of Contents]($linkmsg_toc$)",
         "inline": true
       },
       {
-        "name": "__Section 2__",
-        "value": "[Link]($linkmsg_tagword2$)",
-        "inline": true
-      }
-    ]
-  }
-}
-..embed:json
-..pin:delete```
-.
-⬥ The `tagword1/tagword2` as mentioned above are how the bot knows to make a message link to the appropriate message.
-    • These match to sections based on the `.tag:[word]` present with the section.
-⬥ Refer to the Table of Contents at the bottom of this style guide as an example.
-
-*Note: In some cases where it is appropriate, links may be grouped up based on the editor's decision to effectively guide users to related pieces of content. For an example of this, see the Table of Contents for **this** channel.*
-
-.
-{
-  "embed": {
-    "title": "__Table of Contents__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Basic Structure]($linkmsg_basic$)",
-        "inline": true
-      },
-      {
-        "name": "__Basic Styling__",
-        "value": "⬥ [General Style Choices]($linkmsg_general$)\n⬥ [Sections/Subsections]($linkmsg_sections$)\n⬥ [Formatting Lists]($linkmsg_lists$)\n⬥ [Embedded Content]($linkmsg_embed$)",
-        "inline": true
-      },
-      {
-        "name": "__Advanced Styling__",
-        "value": "⬥ [Preset Sections]($linkmsg_presets$)\n⬥ [Writing Rotations]($linkmsg_rotations$)\n⬥ [Table of Contents]($linkmsg_toc$)",
-        "inline": true
-      },
-      {
-        "name": "__Misc.__",
-        "value": "⬥ [Commands/Syntax]($linkmsg_commands$)",
+        "name": "__Language & Formatting__",
+        "value": "⬥ [Intro]($linkmsg_language$)\n⬥ [Styling & Punctuation]($linkmsg_styling$)\n⬥ [Emojis]($linkmsg_emojis$)\n⬥ [Notes]($linkmsg_notes$)\n⬥ [Headings]($linkmsg_headings$)\n⬥ [Lists]($linkmsg_lists$)\n⬥ [Embeds]($linkmsg_embeds$)\n⬥ [Markdown]($linkmsg_markdown$)",
         "inline": true
       }
     ]
