@@ -205,13 +205,18 @@ This is the new section
     • <:wenarrow:971025697046925362> <:gricocaroming:867678153966878740> → <:rapid:535541270521708566>  → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099> <:deathsporearrows:900758234527301642>
         ⬩ (note the <:wenarrow:971025697046925362> before <:dbow:643848618553507843>)
 
+⬥ 0-tick abilities should follow this pattern:
+    • <:roarofawakening:1266417538045317121> <:spec:537340400273195028> (0tick)
+    • Add a note pointing to the `!0tick` command
+
 .
 ## __Table of Contents (ToC)__
 .tag:toc
 ⬥ Each guide ends with a pinned ToC section
 ⬥ ToC is always within a Discord embed
 ⬥ Must be pinned – add `.pin:delete` under it
-⬥ The easiest way to create a ToC is to add `.tag:sectionName` at the start of all sections, then auto-generate your ToC using the `Table of Contents` feature on the [Guide Editor](<https://pvme.io/guide-editor/>):
+⬥ The easiest way to create a ToC is to add a `.tag:` after all relevant headings, then auto-generate your ToC using the `Table of Contents` feature on the [Guide Editor](<https://pvme.io/guide-editor/>) (see image below)
+    • If using this method, you should check the words displayed as they may be abbreviated
 .img:https://img.pvme.io/images/mhO3jajZIa.png
 
 .
