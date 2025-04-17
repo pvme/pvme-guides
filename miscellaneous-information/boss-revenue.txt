@@ -469,14 +469,17 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
 	"thumbnail": {
       "url": "https://img.pvme.io/images/KTWYeZk.png"
     },
+    "footer": {
+      "text": "Note: Osseous calculation currently only for unique drops."
+    },
     "fields": [
       {
         "name": "__GP/Kill__",
-        "value": "⬥ Orikalka <:coins:698816156961603654> $data_pvme:gpkill_orikalka$\n⬥ Pthentraken <:coins:698816156961603654> $data_pvme:gpkill_pthen$\n⬥ Rathis <:coins:698816156961603654> $data_pvme:gpkill_rathis$"
+        "value": "⬥ Orikalka <:coins:698816156961603654> $data_pvme:gpkill_orikalka$\n⬥ Osseous <:coins:698816156961603654> $data_pvme:gpkill_osseous$\n⬥ Pthentraken <:coins:698816156961603654> $data_pvme:gpkill_pthen$\n⬥ Rathis <:coins:698816156961603654> $data_pvme:gpkill_rathis$"
       },
       {
         "name": "__GP/Hour__",
-        "value": "⬥ Orikalka ($data_pvme:kph_orikalka$ kph) <:coins:698816156961603654> $data_pvme:gphour_orikalka$\n⬥ Pthentraken ($data_pvme:kph_pthen$ kph) <:coins:698816156961603654> $data_pvme:gphour_pthen$\n⬥ Rathis ($data_pvme:kph_rathis$ kph) <:coins:698816156961603654> $data_pvme:gphour_rathis$"
+        "value": "⬥ Orikalka ($data_pvme:kph_orikalka$ kph) <:coins:698816156961603654> $data_pvme:gphour_orikalka$\n⬥ Osseous ($data_pvme:kph_osseous$ kph) <:coins:698816156961603654> $data_pvme:gphour_osseous$\n⬥ Pthentraken ($data_pvme:kph_pthen$ kph) <:coins:698816156961603654> $data_pvme:gphour_pthen$\n⬥ Rathis ($data_pvme:kph_rathis$ kph) <:coins:698816156961603654> $data_pvme:gphour_rathis$"
       }
     ]
   }
@@ -514,10 +517,13 @@ To use your own KPH values, visit the PvME spreadsheet [here](https://docs.googl
 {
   "embed": {
     "title": "",
-    "description": "[Wiki](https://runescape.wiki/w/Sanctum_of_Rebirth)",
+    "description": "[Wiki](https://runescape.wiki/w/Sanctum_of_Rebirth#Rewards)",
     "color": 5537600,
 	"thumbnail": {
       "url": "https://img.pvme.io/images/MSI7e9yfQC.png"
+    },
+    "footer": {
+      "text": "Note: Calculation currently only for unique drops."
     },
     "fields": [
       {
