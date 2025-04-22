@@ -3,44 +3,6 @@
 *Note: a **Table of Contents** can be found in the pins.*
 
 .
-## __Introduction__
-.tag:intro
-Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic and 40 Seren killcount to fight. The notable drops for this boss are the Cywir Wand <:cywirwand:643161591571021824>, Cywir Orb, <:cywirorb:643161591210049556> and Crest of Seren <:crestseren:643161511937966122>. These items can be augmented and disassembled for Cywir components <:cywircomp:583430147538026496> which are required for Planted Feet <:pf:689501925770919981>.
-
-.
-## __Mechanics__
-.tag:mechanics
-{
-  "embed": {
-    "title": "__Mechanics__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Attack Rotations__",
-        "value": "Mushroom gas → 2 Autos → Cleave → 2 Autos → Frenzy → 2 Autos → Minion Spawn → 2 Autos → Repeat\n\u200B"
-      },
-      {
-        "name": "__Mushroom Gas__",
-        "value": "⬥ Avoided by just running out of it. Stand near the edges of mushrooms to decrease the distance needed to move out of the gas. Standing in the gas will give you a 250 damage bleed every tick, and if standing in the gas for a prolonged time will bind you. [Example](https://img.pvme.io/images/KHMLekU.mp4)\n\u200B"
-      },
-      {
-        "name": "__Cleave__",
-        "value": "⬥ Hits in a frontal cone for up to 3k and apply a bleed. Do not freedom this bleed. If you are standing a distance away from Helwyr, he will first lunge towards you before the attack. There are a few methods to handle this attack. [Example](https://img.pvme.io/images/OKDS0F5.mp4)\n\u00a0\u00a0\u00a0\u00a0• <:Magic:689504724159823906> or <:Range:580168050121113623>: move out of the damage cone.\n\u00a0\u00a0\u00a0\u00a0• Can also be done with <:melee:1096130867279171706> but is DPS waste.\n\u00a0\u00a0\u00a0\u00a0• Resonance <:res:535541258844635148> (You will still acquire the bleed)\n\u00a0\u00a0\u00a0\u00a0• <:disrupt:535614336207552523> / <:Veng:543478434953822208>\n\u200B"
-      },
-      {
-        "name": "__Frenzy__",
-        "value": "⬥ Helwyr’s leaps around doing rapid melee damage while applying a bleed stack with each attack. While using Ranged or Magic, you can just run away, but with Melee it is better to stay put and continue doing damage. [Example](https://img.pvme.io/images/G5CPPoC.mp4)\n\u00a0\u00a0\u00a0\u00a0• You can pray melee <:DeflectMelee:544195488447201300> and Devotion <:devo:513190158728953857> or Debilitate <:debil:535541278264393729>.\n\u00a0\u00a0\u00a0\u00a0• Freedom <:freedom:535541258240786434> the bleed after the attack.\n\u200B"
-      },
-      {
-        "name": "__Minion Spawn__",
-        "value": "⬥ Helwyr’s minion spawn attack has him howl and summon two 3k HP Cywir Alphas. Easily taken out with AoEs. [Example](https://img.pvme.io/images/EB1ss4g.mp4)\n\u200B"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
 ## <:melee:1096130867279171706> __Melee Strategy__
 .tag:melee
 .
@@ -73,27 +35,22 @@ Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic a
 <:vulnbomb:655341074235129858> + (tc) <:gbarge:535532879250456578> → <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:assault:535532855191928842> → <:chaosroar:994644356671737966> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:havoc:535532879300526080> → <:destroy:535532879330148352> → <:deci:535532879325822986> → <:lengmh:883134308146098227> <:spec:537340400273195028>
 
 .
-## __<:necromancy:1148995625896120460> Necromancy Helwyr Guide__
+## <:necromancy:1148995625896120460> __Necromancy Strategy__
 .tag:necromancy
-### Overview
-⬥ To save a few ticks, you may wish to summon your conjures on the move, any time after getting 100% adren at Wars Retreat.
-⬥ You may wish to equip <:excal:641337999170207763> to dismiss and renew your conjures.
-⬥ Darkness <:darkness:1137809209782698024> is optional to reduce damage taken.
-
 .
-## __Presets and Relics__
+### __Presets and Relics__
 .
 {
   "embed": {
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/RMLf4N6plE.png"
+            "url": "https://img.pvme.io/images/LCugNSiQpv.png"
         },
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [T90 Necromancy](https://pvme.github.io/preset-maker/#/oYBUoIvES9L2q3jVniEA)",
+        "value": "⬥ [Necromancy <:necromancy:1148995625896120460>](https://pvme.github.io/preset-maker/#/ir5qh5mOzqGlniaPL55m)",
         "inline": true
       }
     ]
@@ -102,132 +59,27 @@ Helwyr, the Seren general residing in the Heart of Gielinor, requires 80 magic a
 .embed:json
 
 .
-### Rotation
-⬥ This rotation requires <:igneouskalmor:1139200072438005851>. If you don't have one, remove <:deathskulls:1159434663903899728> from the rotation and use <:touchofdeath:1137809175980810380> and <:fingerofdeath:1159434801938432010> where possible.
-⬥ This rotation consistently hits sub-20-second kills and seeks to hit sub-15-seconds. It requires teleporting to Wars Retreat between kills for adren.
+### <:necromancy:1148995625896120460> __Rotation__
+⬥ You may <:lifetransfer:1137809128136388819> twice per set of conjures.
+⬥ Darkness <:darkness:1137809209782698024> is optional to reduce damage taken.
+⬥ This rotation consistently hits 12-13 second kills. It requires teleporting to Wars Retreat between kills for adrenaline.
 
-**Outside instance**
-<:conjureskeleton:1159434516658651147> → <:conjurezombie:1137809200219684924> → <:conjureghost:1137809206423060632> → <:kalgscroll:841409588954923049> → <:commandskeleton:1137809194423160883> + right-click 'rejoin'
+.
+**Wars**
+<:conjurearmy:1166094935066423348> + enter portal
 
 **Inside instance**
-<:commandghost:1159434409913634816> + right-click 'quick enter' → <:bd:535532854281764884>+<:surge:535533810004262912> to opposite corner (this will bring your conjures inside) → <:invokedeath:1137809121983336548>
+<:commandghost:1159434409913634816> + right-click 'rejoin' → <:invokedeath:1137809121983336548> + right-click 'quick enter' → <:dive:1049378668197195808> south east (this will bring your conjures inside)
 
 **Main fight**
-<:vulnbomb:655341074235129858> + (tc) + <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:deathguard70:1138809262194294864> <:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> (repeat auto if not dead) → switch <:lotd:566453486913323042> → loot → <:warsretreatteleport:1032540079589163049>
-
-
-.
-## __<:magic:689504724159823906> Magic Helwyr Guides__
-.tag:magic
-### Overview
-.
-{
-  "embed": {
-    "title": "__Tips & Tricks__",
-    "description": "⬥ **Timing Target Cycle**: To time Target Cycle you want to use 3 ability from rejoining instance, this is what the Anticipate <:anti:535541306475151390> → Bladed Dive <:bd:535532854281764884> → Sunshine <:sunshine:994921119381463070> in the below rotations accomplish.\n⬥ **Sun Positioning:** You want to <:sunshine:994921119381463070> in the following spot to ensure you start the fight in Melee Distance and also remain in <:sunshine:994921119381463070> when you bladed dive out of shrooms as in [this image](https://img.pvme.io/images/jlN3dUY.png).\n⬥ **Bladed Dive Locations**: You want to <:bd:535532854281764884> to the following spots to ensure you remain in <:sunshine:994921119381463070> and out of shrooms while also not walking Helwyr, as in [this image](https://img.pvme.io/images/O6o5zQn.png).",
-    "color": 39423
-  }
-}
-.embed:json
+<:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> → (tc) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:deathskulls:1159434663903899728> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → Improvise
 
 .
-### Method 1: Altar-reset Method (High Effort)
-⬥ This method can achieve ~65kph with average kill times of 30s
-
-.
-## __Presets and Relics__
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/dsG308znNM.png"
-        },
-    "fields": [
-{
-        "name": "__Preset Suggestions__",
-        "value": "⬥ [Mage | Altar-reset](https://pvme.github.io/preset-maker/#/C47Ugkbu4DP3lzPr1ZSs)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-### Preset Notes
-
-⬥ Make sure your <:ripperpouch:703581275453128714> is filled with <:ripperscroll:703581275155464203> (and auto-casting them, if desired).
-
-.
-### Rotation
-Join Instance → <:anti:535541306475151390> → <:bdmobile:867678153668820992> → non-<:pf:689501925770919981> <:sunshine:994921119381463070> + <:enhreplen:634350450887622656> / <:adrenrenewal:736298121704767538> → (tc) <:Vuln:537349530551582720> <:gconc:869285393223254107> → <:limitless:641339233638023179> <:wm:535533809978966037> → <:deto:535533833358016512> (4t) → <:exsanguinate:856635090745950258> <:deto:535533833358016512> <:gconc:869285393223254107> → <:asphyx:535533833072672778> (4-hit) → <:wrackandruin:1257439387474722836> (swap to <:bloodbarrage:537338981747261446> autocast) → (<:kerapacswristwraps:869286640722513940>) <:dbreath:535533833391702017> → <:exsanguinate:856635090745950258> <:gconc:869285393223254107> → <:comb:535533833098100745> → <:sonicwave:1087373972443775056> → <:wm:535533809978966037> → <:gconc:869285393223254107> → (<:igneouskalmej:1153772938252787793>) <:omni:535533809664262179> → <:dbreath:535533833391702017>
-
-Loot → <:bdmobile:867678153668820992> to altar to reset cooldowns → <:surge:535533810004262912> <:bdmobile:867678153668820992> to crystal to build adrenaline (use Excalibur <:excal:641337999170207763> while building) then repeat.
-
-*Note 1: Walk 2 tiles back after <:wm:535533809978966037> (similar to walking <:comb:535533833098100745>)*
-*Note 2: If you get shroomed, either tank it, or <:bdmobile:867678153668820992> in such a way that you stay in <:sunshine:994921119381463070> but do not walk Helwyr*
-
-.
-### Other Notes
-⬥ Refer to the linked video to see how the BDs and Surges between kills look like - <https://youtu.be/12qTzSHLTTs>
-⬥ If you walk Helwyr any more than stated in the above rotation, then your Combust <:comb:535533833098100745> will **not** be walked
-⬥ The Blood Barrage <:bloodbarrage:537338981747261446> autocast change is solely for reducing cost/hr, feel free to ignore it if is not of concern
-⬥ To make looting more efficient, you can bind the open area loot interface in control settings, and then just hit that bind and the loot bind as soon as Helwyr dies
-⬥ If you wish to use Vulnerability Bombs <:vulnbomb:655341074235129858>, throw it after Sunshine <:sunshine:994921119381463070>
-    • Replace the Vuln <:Vuln:537349530551582720> in the rotation to Smoke Cloud <:smokecloud:856635090641879050> to compensate
-⬥ Ideally Vengeance <:Veng:543478434953822208> the Cleave through Deflect Melee <:DeflectMelee:544195488447201300>
-    • The rotation does not assume it so it should not matter outside improving consistency
-
-.
-### Method 2: AFK for Sunshine Cooldown (Low Effort)
-⬥ This method can achieve ~55kph with average kill times of at least 35s
-
-.
-## __Presets and Relics__
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/z2DXU0ARHk.png"
-        },
-    "fields": [
-{
-        "name": "__Preset Suggestions__",
-        "value": "⬥ [Magic | AFK Sunshine](https://pvme.github.io/preset-maker/#/6YanR18pfe3tqixDBPj1)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-### Preset Notes
-
-⬥ Make sure your <:ripperpouch:703581275453128714> is filled with <:ripperscroll:703581275155464203> (and auto-casting them, if desired).
-
-⬥ You can swap Super Restores <:restore:642708657825644554> for Spiritual Prayers <:spiritualprayer:651079281882955787>, but extra ripper specs do not aid much as you are already gated by Sunshine's <:sunshine:994921119381463070> cooldown in this guide, likewise with using a Scrimshaw over Zamorak Book <:ZamBook:574290439461404672>.
-
-.
-### Rotation
-Join Instance → <:anti:535541306475151390> → <:bdmobile:867678153668820992> → <:sunshinepf:994921595489488927> → (tc) <:Vuln:537349530551582720> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:comb:535533833098100745> (Walk 2 tiles back) → <:AirSurge:543465115870035999> <:gconc:869285393223254107> → <:limitless:641339233638023179> / <:enhreplen:634350450887622656> <:wm:535533809978966037> → (3t) <:deto:535533833358016512> → <:AirSurge:543465115870035999> <:deto:535533833358016512> <:gconc:869285393223254107> → <:asphyx:535533833072672778> (2-hit) → <:dbreath:535533833391702017> → <:AirSurge:543465115870035999> <:gconc:869285393223254107> → <:comb:535533833098100745> → <:corruptblast:513190159194259467> → <:AirSurge:543465115870035999> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → <:gstaff:513203008608141314> <:eofspec:1257438999794946099> → <:gconc:869285393223254107> → <:sonicwave:1087373972443775056> → <:freedom:535541258240786434> + OH Auto → (3t) <:AirSurge:543465115870035999> <:gconc:869285393223254107> → <:dbreath:535533833391702017> → Improv with basics
-
-*Note 1 If you get shroom, either tank it or <:bdmobile:867678153668820992> in such a way that you stay in <:sunshine:994921119381463070> but do not walk Helwyr*
-*Note 2 Rejoin instance when <:sunshine:994921119381463070> is at ~4s or so cooldown remaining*
-
-.
-### Other Notes
-⬥ If you end a kill at <100 adrenaline, teleport out and use Adrenaline Crystal to build.
-    • If you end at 91-99 adren, use an ability on a wolf instead if they spawned.
-⬥ If you are consistently ending <100 adrenaline, replace some better abilities for Wrack <:wrack:1257439366708592651>
-⬥ If you wish to use Vulnerability Bombs <:vulnbomb:655341074235129858>, throw it after Sunshine <:sunshine:994921119381463070>
-
 .
 ## __Example Kills__
 .tag:example
-<:melee:1096130867279171706> Melee example (5 mins) - https://youtu.be/Ru9FSHEvXPo
-<:necromancy:1148995625896120460> Necromancy examples - send in your videos!
-<:magic:689504724159823906> Magic examples - send in your videos!
+<:melee:1096130867279171706> Melee example (5 mins) - <https://youtu.be/Ru9FSHEvXPo>
+<:necromancy:1148995625896120460> Necromancy examples - <https://youtu.be/2A3DpKLhiN8>
 
 .
 ## __AFK Strategy__
@@ -235,14 +87,14 @@ Join Instance → <:anti:535541306475151390> → <:bdmobile:867678153668820992> 
 A full guide on how to AFK Helwyr is available here: <#1251377318882971708>
 
 .
-Content Provided by: <@839236111054143508> (<:melee:1096130867279171706> <:necromancy:1148995625896120460>)
+Content Provided by: <@839236111054143508> and <@435481585379180554>
 Formatting Maintained by: <@839236111054143508>
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Melee Helwyr Guide]($linkmsg_melee$)\n⬥ [Necromancy Helwyr Guide]($linkmsg_necromancy$)\n⬥ [Magic Helwyr Guides]($linkmsg_magic$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Melee Helwyr Guide]($linkmsg_melee$)\n⬥ [Necromancy Helwyr Guide]($linkmsg_necromancy$)\n⬥ [Example Kills]($linkmsg_example$)\n⬥ [AFK Strategy]($linkmsg_afk$)",
     "color": 39423
   }
 }
