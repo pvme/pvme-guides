@@ -1,1 +1,91 @@
+# Twin Furies Basic
+.img:https://img.pvme.io/images/gaIHwzHbTa.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+The Twin Furies are located in the Heart of Gielinor, the duo consists of Nymora (left) and Avaryss (right). Entering the encounter requires 40 (or 20, with enough reputation) kill count, and 80 (boostable) Ranged <:range:580168050121113623>. This encounter is unique in that both NPC’s share the same health pool of 200k. This means that an AoE attack will essentially do double damage if it hits both twins.
+
+.
+## __Mechanics__
+.tag:mechanics
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Jumps__",
+        "value": "⬥ Avaryss jumps towards the northern wall and charges down to the southern wall. She will repeat this attack a total of 4 times and will always travel in the cardinal directions (north to south, west to east, etc.).\n\u00a0\u00a0\u00a0\u00a0• You may simply move out of the way after Avaryss jumps to a new wall. [Example](https://img.pvme.io/images/NWTHSDg.mp4)"
+      },
+      {
+        "name": "__Ceiling Collapse__",
+        "value": "⬥ Nymora will jump to a random square and cause a ceiling collapse.\n\u00a0\u00a0\u00a0\u00a0• Stand in the 3x3 area around her to negate this. [Example](https://img.pvme.io/images/QIMa9WS.mp4)"
+      },
+      {
+        "name": "__Channeled Bomb__",
+        "value": "⬥ The twins move to the center of the arena and channel an attack. [Example](https://img.pvme.io/images/N7ceSRh.mp4)\n⬥ If the channel finishes, it will deal 4,500 damage. [Example](https://img.pvme.io/images/CJkO32O.mp4)\n⬥ During this phase, the twins take 2x damage\n\u00a0\u00a0\u00a0\u00a0• They stand close enough that Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210>, and Quake <:quake:535532879506309150> will hit both of them.\n\u00a0\u00a0\u00a0\u00a0• You will take typeless damage during this (negated by Soul Split <:soulsplit:615613924506599497>).\n\u00a0\u00a0\u00a0\u00a0• Can be avoided by surging to the edges of the arena, (or blocking it with defensives)."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __The Fight__
+.tag:thefight
+⬥ You must continually move out of Avaryss' path (≥2 steps perpendicular).
+⬥ It is possible to wrongly Target Cycle onto Avaryss. Manually click on Nymora if this happens.
+⬥ While <:poisonicon:944649693500154006> hits show, they don't deal damage. Therefore, <:poisonicon:944649693500154006> is not used.
+
+.
+## __Presets and Relics__
+.tag:presets
+Below are some presets we believe will lead to a great learning experience.
+
+Melee and Necromancy will be the easiest to learn with. These are all not set in stone so if you are missing a couple of items, you will still be able to complete kills. Try not to downgrade too heavily though as these have been prepared with your learning experience in mind.
+.
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/ag3WDWf22S.png"
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Melee preset](https://pvme.io/preset-maker/#/h0hi2uWVjdpGIvsP2GAm) <:melee:1096130867279171706>\n⬥ [Necromancy preset](https://pvme.github.io/preset-maker/#/ntsTFQeK0CwW6eL82AYB) <:necromancy:1148995625896120460>"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Tips and Tricks__
+.tag:tips
+The Twin Furies are very unique in that they share a health pool, which means whenever they are close together, AoE abilities will hit them both and deplete their HP twice. This means using <:cane:535532878969438210>, <:quake:535532879506309150> and <:cleave:535532878616985610> or <:deathskulls:1159434663903899728>, <:threadsoffate:1137809172335951933> + <:volleyofsouls:1159435029592686642>, or <:spectralscythe:1137809145706319892>, will be doubly effective versus single target abilities.
+
+This is a great boss to learn how to use a few of your Defensive abilities effectively as well as familiarise yourself with movement during an encounter. Primarily in this fight, you can use Resonance <:res:535541258844635148>, Devotion <:devo:513190158728953857>, or Reflect <:reflect:535541258786177064> to reduce incoming damage, especially during the Ceiling Collapse and Jumps. If you have Lesser Bone Shield <:lesserboneshield:1137809125590450276> unlocked and active, you do not need to bring a shield with you to access Resonance <:res:535541258844635148> or Reflect <:reflect:535541258786177064>, otherwise you will need to bring a shield.
+
+Twin Furies is also a great boss to practice some fundamentals when thinking about your abilities. Below is a basic structure to think about and practice:
+
+1) Damage boosting ultimate ability  <:zerk:535532854004678657> / <:livingdeath:1159434908486357072>
+2) Build adrenaline, souls or necrosis stacks using appropriate basic abilities
+3) Stronger threshold abilities, e.g., <:cane:535532878969438210> / <:destroy:535532879330148352>, <:assault:535532855191928842> / <:volleyofsouls:1159435029592686642>, <:fingerofdeath:1159434801938432010>
+4) Repeat steps 2 and 3 until your damage boosting ultimate ability runs out and build to 100% adrenaline again
+5) Repeat from step 1
+
+.
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips & Tricks]($linkmsg_tips$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
 
