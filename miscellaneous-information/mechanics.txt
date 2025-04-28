@@ -190,7 +190,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 *Note: For more information, see the section on __**Ability Queueing**__ (linked in the pinned message).*
 
 .
-## __Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>__
+## __Berserker Auras__ <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
 .tag:zerkaura
 ### How It Works
 ⬥ Berserker-variant auras exist for each style:
@@ -244,16 +244,16 @@ There are a couple different mechanics to note with regard to adrenaline.
 .
 ### Ability Interactions
 ⬥ **Fury** <:fury:535532879510372352>
-    • Increases the next melee hit's forced crit chance by 25%.
+    • Increases the next melee attack critical strike chance by +25%.
 ⬥ **Greater Fury** <:gfury:535532879334080527>
-    • Adds a fixed +10% forced crit chance to the next hit.
+    • Makes the next non-bleed melee attack within 15s have a 100% critical strike chance.
 ⬥ **(Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:1087373968731811880>**
-    • Each hit increases the next magic abilities forced crit chance by 5%.
+    • Each hit increases the next magic abilities critical strike chance by 5%.
     • This caps at 15% after the 3rd hit.
 ⬥ **Meteor Strike <:meteorstrike:535532879359377439>, Tsunami <:tsunami:535533809995874304> and Incendiary Shot <:incend:535541258429661215>**
     • All three abilities provide a 30s buff that grants 10% adrenaline for every critical hit.
     • The buff starts from when the abilities hit the target (on-cast for <:tsunami:535533809995874304> / <:meteorstrike:535532879359377439>, and when it detonates for <:incend:535541258429661215>).
-    • If the Corbicula Rex perk **No Fear** is owned, it increases the forced crit chance of <:meteorstrike:535532879359377439> by 20% (tier 1) / 40% (tier 2).
+    • If the Corbicula Rex perk **No Fear** is owned, it increases the critical strike chance of <:meteorstrike:535532879359377439> by 20% (tier 1) / 40% (tier 2).
 ⬥ **Smoke Tendrils** <:smoketendrils:536257336130404372>
     • All hits of <:smoketendrils:536257336130404372> will always crit.
 .
@@ -272,7 +272,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 
 .
 ### Items That Affect Critical Hits
-*Note: In the following section, all critical hit chance increases apply to **forced** critical hit chance. These methods **can** stack together.*
+*Note: These methods **can** stack together.*
 ⬥ **Biting Perk** <:biting4:712073087809617931>
     • **+2%** critical hit chance per rank, up to 8% at Biting 4 <:biting4:712073087809617931> (up to 8.8% with level 20 equipment)
 ⬥ **Tuska's Might**
@@ -282,7 +282,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • Its special move, *Crit-i-kal* <:kalgscroll:841409588954923049> gives **+5%** critical hitchance for 60 seconds.
     • This applies to everyone near the familiar when it is cast, and you can move away from the familiar without losing the effect after it is cast.
 ⬥ **Erethdor's Grimoire** <:grim:568262896375824385>
-    • **+12%** critical hit chance while active.**
+    • **+12%** critical hit chance while active.
     • Outside of Solak, <:grim:568262896375824385> is extremely expensive to use.
 ⬥ **Reaver's Ring** <:reaverring:839903943018283050>
     • **+5%** critical hit chance at the expense of -5% accuracy.
@@ -340,7 +340,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 .embed:json
 
 .
-## __Hex Weapons <:terramaul:602561894829522954> <:hexhunterbow:581180369911414794> <:inquisitorstaff:694566917553520680>__
+## __Hex Weapons__ <:terramaul:602561894829522954> <:hexhunterbow:581180369911414794> <:inquisitorstaff:694566917553520680>
 .tag:hex
 ### How It Works
 ⬥ This refers to the following three weapons:
@@ -927,7 +927,7 @@ etc.
 .
 ⬥ **Poison can be applied/refreshed by any player-sourced damage, including**:
     • All auto-attacks and abilities - including bleeds and DoTs from abilities like <:comb:535533833098100745> / <:corruptshot:535541306294796299> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / etc.
-    • Abyssal Parasites
+    • Abyssal Parasites <:primalabyssalarmourspikes:1276946271424479234>
     • Bakriminel Bolts (extra hits from Emerald <:emeraldbakri:866551637714665484> and Dragonstone <:DragonstoneBakri:565726489144852511> bolts)
     • Blood Necklaces <:bloodfury:1015698981118038117>
     • Dwarf Multicannon (+upgrades) <:cannon:869283142350041098>
@@ -935,7 +935,7 @@ etc.
     • Eldritch Crossbow <:ecb:615618531937222657> <:spec:537340400273195028>
     • God books and Scriptures <:armabook:513190159051915264> <:scriptureofjas:869284342839513108> <:scriptureofful:902209626412560395> <:scriptureofwen:883134307902816297>
     • Poison Damage <:poisonicon:944649693500154006> (can re-apply itself)
-    • Puncture bleeds
+    • Puncture bleeds <:punctureddebuff:1025020525770178661>
     • Reflect damage
     • Wyvern Crossbow <:wyverncrossbow:580177522587729940> (passive effect)
 .

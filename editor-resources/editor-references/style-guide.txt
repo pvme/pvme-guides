@@ -201,9 +201,9 @@ This is the new section
     • Weapon specs: `<:sgb> <:spec>` <:sgb:626466665848242186> <:spec:537340400273195028>
     • EOF specs: `<:sgb> <:eofspec>` <:sgb:626466665848242186> <:eofspec:1257438999794946099>
 
-⬥ List <:wenarrow:971025697046925362> before every "wenspored" ability, e.g.:
-    • <:wenarrow:971025697046925362> <:gricocaroming:867678153966878740> → <:rapid:535541270521708566>  → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099> <:deathsporearrows:900758234527301642>
-        ⬩ (note the <:wenarrow:971025697046925362> before <:dbow:643848618553507843>)
+⬥ Show ammo swaps before and after abilities, e.g.:
+    • Single ammo switch: <:gricocaroming:867678153966878740> → <:fularrow:971025696958853180> <:sgb:626466665848242186> <:eofspec:1257438999794946099> → etc.
+    • Multiple ammo switch (like "wensporing"): <:gricocaroming:867678153966878740> → <:wenarrow:971025697046925362> <:dbow:643848618553507843> <:eofspec:1257438999794946099> <:deathsporearrows:900758234527301642> → etc.
 
 ⬥ 0-tick abilities should follow this pattern:
     • <:roarofawakening:1266417538045317121> <:spec:537340400273195028> (0tick)
