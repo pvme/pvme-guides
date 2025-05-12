@@ -114,8 +114,5 @@
 ^#{1,6}\s+.*\*\*.*\*\*.*
 
 # Ensure emojis have whitespace around them
-\S<:?\w+:\d+>
-<:?\w+:\d+>\S
-
-# reject TESTMATCH
-TESTMATCH
+[^ \t\n]<:?\w+:\d+>
+<:?\w+:\d+>[^ \t\n.,!?]
