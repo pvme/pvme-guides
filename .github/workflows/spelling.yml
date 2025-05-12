@@ -106,7 +106,7 @@ jobs:
         experimental_apply_changes_via_bot: 0
         extra_dictionary_limit: 20
         extra_dictionaries:
-          line_forbidden.patterns
+          patterns:line_forbidden.patterns
           cspell:software-terms/dict/softwareTerms.txt
 
   comment-push:
