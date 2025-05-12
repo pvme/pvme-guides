@@ -114,8 +114,4 @@
 ^#{1,6}\s+.*\*\*.*\*\*.*
 
 # Ensure emojis have whitespace around them
-[^ \n]<a?:[^: >]+:\d+>
-<a?:[^: >]+:\d+>[^ \n.,!?)"]
-
-thiswilltriggeremojitest
-
+<:[^: >]+:[0-9]+>
