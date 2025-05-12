@@ -113,5 +113,6 @@
 # Do not bold text in headings (i.e. ## **Heading** or ### This *is* the heading)
 ^#{1,6}\s+.*\*\*.*\*\*.*
 
-# emoji spacing
-\S(?:<a?:\w+:\d+>)|(?:<a?:\w+:\d+>)\S
+# Ensure emojis have whitespace around them
+\S<:?\w+:\d+>
+<:?\w+:\d+>\S
