@@ -6,7 +6,7 @@ All changes made to guides will live here, and everyone is free to use this info
 ![PvME Logo](https://img.pvme.io/images/NYqV8et.png)
 
 ## __Contributing__
-PvME is open-source, and everyone is welcome to help maintain our resources. If you're interested in contributing, contact **chrash.** on discord, or submit a pull request after reading the [Style Guide](/editor-resources/editor-references/style-guide/)
+PvME is open-source, and everyone is welcome to help maintain our resources. If you're interested in contributing, contact **chrash.** on discord, or submit a pull request after reading the [Style Guide](https://pvme.io/pvme-guides/editor-resources/editor-references/style-guide/)
 
 ## __Navigation__
 The layout of the repository mirrors the layout of the server, so if you're looking to edit a guide, simply navigate as if you were in the discord server.
