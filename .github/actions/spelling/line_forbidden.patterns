@@ -111,10 +111,10 @@
 ^####\s?.*
 
 # Missing space before emoji
-.*\S<:?[a-zA-Z0-9_]+:\d+>.*
+.*\S<:?[a-zA-Z0-9_]+:[0-9]+>.*
 
 # Missing space after emoji
-.*<:?[a-zA-Z0-9_]+:\d+>\S.*
+.*<:?[a-zA-Z0-9_]+:[0-9]+>\S.*
 
 # Do not bold text in headings (i.e. ## **Heading** or ### This *is* the heading)
 ^#{1,6}\s+.*\*\*.*\*\*.*
