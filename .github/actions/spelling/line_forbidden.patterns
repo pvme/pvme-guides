@@ -110,11 +110,5 @@
 # Do not use level 4 headings (i.e. #### Heading)
 ^####\s?.*
 
-# Missing space before emoji
-(?<!\s)<:?[a-zA-Z0-9_]+:[0-9]+>|<:?[a-zA-Z0-9_]+:[0-9]+>(?!\s)
-
-# Missing space after emoji
-.*<:?[a-zA-Z0-9_]+:[0-9]+>\S.*
-
 # Do not bold text in headings (i.e. ## **Heading** or ### This *is* the heading)
 ^#{1,6}\s+.*\*\*.*\*\*.*
