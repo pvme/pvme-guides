@@ -111,7 +111,7 @@
 ^####\s?.*
 
 # Missing space before emoji
-.*\S<:?[a-zA-Z0-9_]+:[0-9]+>.*
+(?<!\s)<:?[a-zA-Z0-9_]+:[0-9]+>|<:?[a-zA-Z0-9_]+:[0-9]+>(?!\s)
 
 # Missing space after emoji
 .*<:?[a-zA-Z0-9_]+:[0-9]+>\S.*
