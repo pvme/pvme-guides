@@ -110,10 +110,9 @@
 # Do not use level 4 headings (i.e. #### Heading)
 ^####\s?.*
 
+# Ensure emojis have whitespace around them
+\S<a?:[^: >]+:[0-9]+>
+<a?:[^: >]+:[0-9]+>\S
+
 # Do not bold text in headings (i.e. ## **Heading** or ### This *is* the heading)
 ^#{1,6}\s+.*\*\*.*\*\*.*
-
-# Ensure emojis have whitespace around them
-\S<:[^: >]+:[0-9]+>
-<:[^: >]+:[0-9]+>\S
-
