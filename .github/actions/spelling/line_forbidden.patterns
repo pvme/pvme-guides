@@ -111,8 +111,8 @@
 ^####\s?.*
 
 # Ensure emojis have whitespace around them
-\S<:?[a-zA-Z0-9_]+:\d+>
-<:?[a-zA-Z0-9_]+:\d+>\S
+(?<![\s])<:?[a-zA-Z0-9_]+:\d+>
+<:?[a-zA-Z0-9_]+:\d+>(?![\s])
 
 # Do not bold text in headings (i.e. ## **Heading** or ### This *is* the heading)
 ^#{1,6}\s+.*\*\*.*\*\*.*
