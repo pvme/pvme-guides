@@ -114,5 +114,4 @@
 ^#{1,6}\s+.*\*\*.*\*\*.*
 
 # Ensure emojis have whitespace around them
-\S<:?\w+:\d+>
-<:?\w+:\d+>\S
+\S<:?[a-zA-Z0-9_]+:[0-9]+>|<:?[a-zA-Z0-9_]+:[0-9]+>\S
