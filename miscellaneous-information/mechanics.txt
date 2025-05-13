@@ -615,45 +615,37 @@ etc.
 ### How It Works
 ⬥ The Seren Godbow <:sgb:626466665848242186> is a T92 chargebow that has a strong special attack, *Crystal Rain*.
 ⬥ The special attack fires 5 arrows that land in a certain area around the target. There are two aspects to this:
-    • Whether Arrow 1 hits, and how it affects the special attack.
-    • How the game decides whether Arrows 2-5 hit the target, and how much damage they do.
+    • Where Arrow 1 hits, and if it misses.
+    • How the game decides where Arrows 2-5 hit, and which enemy is damaged by them.
 
 .
 ### Arrow 1
-⬥ Arrow 1 lands 1 tick before the other arrows, dealing **80-200% ability damage.**
-⬥ **If Arrow 1 hits**: damage from the remaining arrows is calculated, and <:sgb:626466665848242186> <:spec:537340400273195028> goes on cooldown for 30s.
-⬥ **If Arrow 1 splashes**: all other arrows splash, and <:sgb:626466665848242186> <:spec:537340400273195028> can be re-used immediately (no cooldown).
+⬥ Arrow 1 will be aimed at the center of the target, and will only hit the target.
+⬥ **If Arrow 1 hits**: The special attack succeeds, and <:sgb:626466665848242186> <:spec:537340400273195028> goes on cooldown for 30s.
+⬥ **If Arrow 1 misses** (only possible if damage potential is <1%): all other arrows miss, the arrow landing animation does not appear, and <:sgb:626466665848242186> <:spec:537340400273195028> can be re-used immediately (no cooldown).
 
 .
 ### Arrows 2-5+
-***Note**: In most cases, only the first 5 arrows are considered. For exceptions, see __**Notes**__ below.*
-.
-⬥ All subsequent arrows scale their maximum damage range based on Arrow 1's **minimum** hit - see the following table.
-.img:https://img.pvme.io/images/HQBDkMa.png
-⬥ Some perks can impact this range:
-    • **Precise <:p6:712073088769982475> applies its effect to Arrow 1 first**, then subsequent damages are calculated using the new minimum.
-    • **Eruptive <:er4:1214416401561952296> applies its effects on the final damage range**.
-.
-⬥ To decide whether Arrows 2-5 hit the target, the game does the following:
+⬥ To decide where and what Arrows 2-5 hit, the game does the following:
     • **Step 1: Find NPC centre**
         ⬩ This is the actual NPC centre (middle tile).
         ⬩ For even-sized NPCs (2x2, 4x4, etc.) this is the SW tile of their middle 2x2 region.
-    • **Step 2: Find starting tile for spec**
-        ⬩ Choose a tile that is `Floor(NPC Size/2)` away from its centre.
-        ⬩ Player must be able to walk to this tile - if no options are acceptable, then use the NPC centre instead.
-    • **Step 3: Choose 4 tiles in a 5x5 square centred at the chosen tile**
+        ⬩ This is also the location of Arrow 1.
+    • **Step 2: Choose 4 tiles in a 5x5 square centred at the chosen tile**
         ⬩ Arrows 2-5 will land on these tiles.
-        ⬩ If a tile is already used by a previous arrow, reroll the choice up to 10 times.
-    • **Step 4: Any arrows that overlap with NPC hitbox will do damage.**
+        ⬩ If a tile is already used by a previous arrow (including Arrow 1), reroll the choice up to 10 times.
+    • **Step 3: Each of arrows 2-5 will damage one enemy with a hitbox that overlaps the tile it lands on.**
+        ⬩ If there are multiple enemies that overlap the arrow's tile, one will be selected.
 
 ⬥ **This means that the chances that Arrows 2-5 hit the target increase with the size of the target.**
     • **i.e.** on bigger targets, the minimum expected damage of <:sgb:626466665848242186> <:spec:537340400273195028> increases.
-⬥ The following diagram visualizes this process for two example targets, 4x4 and 5x5 in size.
-.img:https://img.pvme.io/images/bbQ1nyf3Pu.png
+
+The following diagram visualizes this process for two example targets, 3x3 and 4x4 in size.
+.img:https://img.pvme.io/images/2VsDDTr00Q.png
 *Note: The image is just an __example__, actual results may vary due to randomness.*
 
 ⬥ The average number of targets that will hit a given NPC, based on its size is given in the following table:
-.img:https://img.pvme.io/images/LeTp1JH.png
+.img:https://img.pvme.io/images/ZdUWuRE9Xs.png
 .
 ⬥ **A general rule of thumb for <:sgb:626466665848242186> <:spec:537340400273195028>**:
     • When Ranging → use on 3⨯3 or bigger targets.
@@ -669,20 +661,12 @@ etc.
 .embed:json
 
 .
-### Blocked Targets
-⬥ A target is considered 'blocked' when the player is unable to reach it's centre tile.
-    • e.g. P4 Araxxi
-⬥ Any NPC whose size is ≥5x5 **and** also blocked will **always** have all arrows from <:sgb:626466665848242186> <:spec:537340400273195028> hit, if the first arrow hits.
-
-.
 ### Notes
 ⬥ **Multi-SGB Hits**
     • It is possible for multiple <:sgb:626466665848242186> <:spec:537340400273195028> to hit a target 'at once'.
     • This can happen with **chin-sgb** (<:mechchin:641669268722810881> + <:sgb:626466665848242186> <:eofspec:1257438999794946099>) or if multiple people use <:sgb:626466665848242186> <:spec:537340400273195028> at the same time.
-    • **All arrows that land on a target within 2t of Arrow 1 are considered part of the same 'spec'**, and so will scale down in damage based on the table earlier.
+    • **Each <:sgb:626466665848242186> <:spec:537340400273195028> is treated independently**; each special attack's Arrow 1 will hit its target, and then its Arrows 2-5 will hit one emeny on their selected tile. The locations of Arrows 2-5 for one cast do not affect the locations of Arrows 2-5 for any other cast.
 .
-⬥ Arrows 2-5+ roll for critical hits when they are 'cast'.
-    • i.e. after Arrow 1 lands, or 3t after using <:sgb:626466665848242186> <:spec:537340400273195028>.
 
 .
 ## __Target Cycling (TC)__
