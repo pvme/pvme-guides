@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 2  # Ensure HEAD~1 exists
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -27,8 +27,8 @@ jobs:
 
           bad=""
           for file in $changed_files; do
-            if grep -nRP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file"; then
-              matches=$(grep -nRP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file")
+            if perl -ne 'print "$ARGV:$.: $_" if /\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S/' "$file"; then
+              matches=$(perl -ne 'print "$ARGV:$.: $_" if /\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S/' "$file")
               bad="$bad$matches"$'\n'
             fi
           done
