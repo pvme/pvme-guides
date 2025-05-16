@@ -13,25 +13,22 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
 
       - name: Scan all files for improperly spaced emojis
         id: grep
         run: |
-          echo "Getting list of all relevant files..."
-          all_files=$(find . -type f \( -name '*.md' -o -name '*.txt' -o -name '*.js' -o -name '*.ts' -o -name '*.py' -o -name '*.html' -o -name '*.rb' -o -name '*.go' -o -name '*.c' -o -name '*.cpp' \) | sed 's|^\./||')
+          echo "Scanning all files for bad emoji spacing..."
 
-          echo "Files to check:"
-          echo "$all_files"
+          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
           bad=""
           for file in $all_files; do
-            echo "🔍 Checking file: $file"
-            if grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file"; then
+            clean_file="${file#./}"  # remove leading ./ for GitHub URLs
+            echo "🔍 Checking file: $clean_file"
+            if grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" > /dev/null; then
               matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
-              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref }}/$file"
-              block="**In [\`$file\`]($file_url):**"$'\n'
+              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
+              block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
                 lineno="${line%%:*}"
                 content="${line#*:}"
@@ -42,10 +39,16 @@ jobs:
           done
 
           if [[ -n "$bad" ]]; then
+            {
+              echo "## ❌ Style Guide issue: Emoji Spacing"
+              echo
+              echo "Emojis like \`<:emoji:123>\` must have a space before and after them."
+              echo
+              echo "### __Offending Lines__"
+              echo
+              echo "$bad"
+            } > comment-body.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
-            echo "result<<EOF" >> "$GITHUB_OUTPUT"
-            echo "$bad" >> "$GITHUB_OUTPUT"
-            echo "EOF" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
@@ -56,13 +59,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            ## ❌ Style Guide issue: Emoji Spacing
-
-            Emojis like `<:emoji:123>` must have a space before and after them.
-
-            ### __Offending Lines__
-            ${{ steps.grep.outputs.result }}
+          body-path: comment-body.txt
 
       - name: Fail the job if issues found
         if: steps.grep.outputs.found == 'true'
