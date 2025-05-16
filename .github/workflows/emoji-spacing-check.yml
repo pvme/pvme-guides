@@ -21,55 +21,50 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
-          regex='(?<![\s\p{P}])<:.*?:.*?>(?![\s\p{P}])'
-          chunk_size=50
-          chunk_num=0
-          line_count=0
-          chunk_file_prefix="comment-chunk-"
-          mkdir chunks
-
+          bad_json="[]"
           for file in $all_files; do
             clean_file="${file#./}"
-            if grep -nP "$regex" "$file" > /dev/null; then
-              matches=$(grep -nP "$regex" "$file" || true)
-              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
-              header="**In [\`$clean_file\`]($file_url):**"$'\n'
-              for line in $matches; do
+            if grep -nP '(?<=[^\s\p{P}])<:.*?:.*?>|<:.*?:.*?>(?=[^\s\p{P}])' "$file" > /dev/null; then
+              matches=$(grep -nP '(?<=[^\s\p{P}])<:.*?:.*?>|<:.*?:.*?>(?=[^\s\p{P}])' "$file" || true)
+              while IFS= read -r line; do
                 lineno="${line%%:*}"
                 content="${line#*:}"
-                printf '* Line %s: `%s`\n' "$lineno" "$content" >> "chunks/$chunk_file_prefix$chunk_num.txt"
-                line_count=$((line_count + 1))
-                if [[ $line_count -ge $chunk_size ]]; then
-                  chunk_num=$((chunk_num + 1))
-                  line_count=0
-                fi
-              done
-              sed -i "1i$header" "chunks/$chunk_file_prefix$chunk_num.txt"
-              echo >> "chunks/$chunk_file_prefix$chunk_num.txt"
+                bad_json=$(jq -c --arg file "$clean_file" --arg lineno "$lineno" --arg content "$content" '. += [{file: $file, lineno: $lineno, content: $content}]' <<< "$bad_json")
+              done <<< "$matches"
             fi
           done
 
-          echo "chunk_count=$((chunk_num + 1))" >> "$GITHUB_OUTPUT"
+          echo "$bad_json" > results.json
 
-      - name: Post chunked comments
-        if: steps.grep.outputs.chunk_count != '0'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const path = require('path');
-            const chunkDir = 'chunks';
-            const files = fs.readdirSync(chunkDir).filter(f => f.endsWith('.txt'));
-            for (const f of files) {
-              const body = fs.readFileSync(path.join(chunkDir, f), 'utf8');
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: `## ❌ Style Guide issue: Emoji Spacing\n\nEmojis like \`<:emoji:123>\` must have a space before and after them.\n\n${body}`
-              });
-            }
+          if [[ "$bad_json" != "[]" ]]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Post comments for each batch
+        if: steps.grep.outputs.found == 'true'
+        run: |
+          batch_size=50
+          total=$(jq length results.json)
+          batches=$(( (total + batch_size - 1) / batch_size ))
+
+          for ((i = 0; i < batches; i++)); do
+            batch=$(jq ".[$((i * batch_size)):$(((i + 1) * batch_size))]" results.json)
+            echo "## ❌ Style Guide issue: Emoji Spacing" > comment.txt
+            echo >> comment.txt
+            echo "Emojis like \\`<:emoji:123>\\` must have a space before and after them." >> comment.txt
+            echo >> comment.txt
+            jq -r 'group_by(.file)[] | "**In [`" + .[0].file + "`](https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/" + .[0].file + "):`\n" + (map("* Line " + .lineno + ": `" + .content + "`") | join("\n")) + "\n"' <<< "$batch" >> comment.txt
+
+            gh api \
+              --method POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments" \
+              -f body="$(cat comment.txt)"
+          done
 
       - name: Fail the job if issues found
-        if: steps.grep.outputs.chunk_count != '0'
+        if: steps.grep.outputs.found == 'true'
         run: exit 1
