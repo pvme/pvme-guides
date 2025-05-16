@@ -22,8 +22,8 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
-          # Allowed characters: whitespace, punctuation, quotes, brackets, arrows, underscores, etc.
-          safe_chars='[ \t\n\r\f\v.,:;!?(){}\[\]<>\-'"'"'"'"'"\\`/|+*=~_]'
+          # Allowed characters: whitespace, punctuation, quotes, brackets, math symbols, arrows, underscore, etc.
+          safe_chars="[ \t\n\r\f\v.,:;!?(){}\[\]<>\-\"'\\\`/|+*=~_]"
 
           bad=""
           for file in $all_files; do
