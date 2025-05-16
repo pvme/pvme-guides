@@ -21,15 +21,12 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
-          # Allowed characters around emojis: space, punctuation, quotes, backticks, backslashes, brackets
-          allowed='[ \t\n\r\f\v.,:;!?(){}\[\]'"'"'"'"\"\\`/]'
-
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-            if grep -nP "(?<!$allowed)<:.*?:.*?>(?!$allowed)" "$file" > /dev/null; then
-              matches=$(grep -nP "(?<!$allowed)<:.*?:.*?>(?!$allowed)" "$file" || true)
+            if grep -nP '(?<![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"'"'"'"\\`/])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"'"'"'"\\`/])' "$file" > /dev/null; then
+              matches=$(grep -nP '(?<![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"'"'"'"\\`/])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"'"'"'"\\`/])' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
@@ -48,25 +45,13 @@ jobs:
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Write comment to file
-        if: steps.grep.outputs.found == 'true'
-        run: |
-          {
-            echo "## ❌ Style Guide issue: Emoji Spacing"
-            echo
-            echo "Emojis like \`<:emoji:123>\` must have a space before and after them."
-            echo
-            echo "### __Offending Lines__"
-            cat emoji-comment.txt
-          } > comment-body.txt
-
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          body-path: comment-body.txt
+          body-path: emoji-comment.txt
 
       - name: Fail the job if issues found
         if: steps.grep.outputs.found == 'true'
