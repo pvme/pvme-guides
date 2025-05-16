@@ -22,32 +22,46 @@ jobs:
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
           bad=""
+          bad_limited=""
+          limit=50
+          count=0
+
           for file in $all_files; do
-            clean_file="${file#./}"  # remove leading ./ for GitHub URLs
-            echo "🔍 Checking file: $clean_file"
+            clean_file="${file#./}"  # strip leading ./
             if grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" > /dev/null; then
               matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
-              block="**In [\`$clean_file\`]($file_url):**"$'\n'
+              block_full="**In [\`$clean_file\`]($file_url):**"$'\n'
+              block_limited=$block_full
               while IFS= read -r line; do
                 lineno="${line%%:*}"
                 content="${line#*:}"
-                block+="* Line $lineno: \`$content\`"$'\n'
+                block_full+="* Line $lineno: \`$content\`"$'\n'
+                if [[ $count -lt $limit ]]; then
+                  block_limited+="* Line $lineno: \`$content\`"$'\n'
+                  count=$((count + 1))
+                fi
               done <<< "$matches"
-              bad+="$block"$'\n'
+              bad+="$block_full"$'\n'
+              bad_limited+="$block_limited"$'\n'
             fi
           done
 
-          if [[ -n "$bad" ]]; then
+          if [[ -n "$bad_limited" ]]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
               echo "Emojis like \`<:emoji:123>\` must have a space before and after them."
               echo
               echo "### __Offending Lines__"
-              echo
-              echo "$bad"
+              echo "$bad_limited"
+              if [[ $count -ge $limit ]]; then
+                echo
+                echo "_Showing first $limit issues. [Download full results from the artifact below]._"
+              fi
             } > comment-body.txt
+
+            echo "$bad" > emoji-spacing-full-results.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
@@ -60,6 +74,13 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body-path: comment-body.txt
+
+      - name: Upload full results
+        if: steps.grep.outputs.found == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: emoji-spacing-full-results
+          path: emoji-spacing-full-results.txt
 
       - name: Fail the job if issues found
         if: steps.grep.outputs.found == 'true'
