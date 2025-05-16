@@ -48,15 +48,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          comment-id: emoji-spacing-check
+          comment-identifier: emoji-spacing-check
           body: |
             ## ❌ Style Guide issue: Emoji Spacing
-            
+
             One or more lines contain a Discord-style emoji without spacing around it.
 
             💡 Emojis like `<:emoji:123>` must have a space **before and after** them.
 
-            **Invalid lines:**
+            **Offending lines:**
             ```
             ${{ steps.grep.outputs.result }}
             ```
@@ -69,7 +69,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          comment-id: emoji-spacing-check
+          comment-identifier: emoji-spacing-check
           delete: true
 
       - name: Fail the check if issues were found
