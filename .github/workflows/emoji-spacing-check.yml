@@ -33,7 +33,7 @@ jobs:
               while IFS= read -r line; do
                 lineno="${line%%:*}"
                 content="${line#*:}"
-                url="https://github.com/${{ github.repository }}/blame/${{ github.base_ref || 'master' }}/$file#L$lineno"
+                url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref }}/$file#L$lineno"
                 bad+="- [\`$file:$lineno\`]($url): \`$content\`"$'\n'
               done <<< "$matches"
             fi
