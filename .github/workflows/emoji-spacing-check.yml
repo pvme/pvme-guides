@@ -16,12 +16,12 @@ jobs:
         with:
           fetch-depth: 2  # Ensures HEAD~1 is available
 
-      - name: Preload delete-comment action
+      - name: Dummy delete-comment call (safe trigger)
         uses: peter-evans/delete-comment@v2
+        if: false
         with:
-          comment-id: '0'  # Dummy to trigger download
           token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
+          comment-id: '1'
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
