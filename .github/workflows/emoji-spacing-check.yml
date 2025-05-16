@@ -16,17 +16,17 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Scan changed files for improperly spaced emojis
+      - name: Scan all files for improperly spaced emojis
         id: grep
         run: |
-          echo "Getting list of changed files..."
-          changed_files=$(git diff --name-only HEAD~1 | grep -E '\.(md|txt|js|ts|py|html|rb|go|c|cpp)$' || true)
+          echo "Getting list of all relevant files..."
+          all_files=$(find . -type f \( -name '*.md' -o -name '*.txt' -o -name '*.js' -o -name '*.ts' -o -name '*.py' -o -name '*.html' -o -name '*.rb' -o -name '*.go' -o -name '*.c' -o -name '*.cpp' \) | sed 's|^\./||')
 
-          echo "Changed files:"
-          echo "$changed_files"
+          echo "Files to check:"
+          echo "$all_files"
 
           bad=""
-          for file in $changed_files; do
+          for file in $all_files; do
             echo "🔍 Checking file: $file"
             if grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file"; then
               matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
