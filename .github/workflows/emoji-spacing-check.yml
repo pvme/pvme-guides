@@ -21,15 +21,13 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
+          # Allowed characters around emojis: space, punctuation, quotes, backticks, backslashes, brackets, hyphens
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-
-            pattern='(?<![ \t\n\r\f\v.,:;!?(){}\[\]"\047\\`/])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]"\047\\`/])'
-
-            if grep -nP "$pattern" "$file" > /dev/null; then
-              matches=$(grep -nP "$pattern" "$file" || true)
+            if grep -nP '(?<![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"\\`/\-])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"\\`/\-])' "$file" > /dev/null; then
+              matches=$(grep -nP '(?<![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"\\`/\-])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]"'"'"\\`/\-])' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
