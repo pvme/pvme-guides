@@ -1,0 +1,57 @@
+name: Check Emoji Spacing
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-spacing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Scan changed files for improperly spaced emojis
+        id: grep
+        run: |
+          echo "Getting list of changed files..."
+          changed_files=$(git diff --name-only origin/main...HEAD | grep -E '\.(md|txt|js|ts|py|html|rb|go|c|cpp)$' || true)
+
+          echo "Changed files:"
+          echo "$changed_files"
+
+          bad=""
+          for file in $changed_files; do
+            if grep -nRP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file"; then
+              matches=$(grep -nRP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file")
+              bad="$bad$matches"$'\n'
+            fi
+          done
+
+          if [[ -n "$bad" ]]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "result<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$bad" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Comment on PR if issues found
+        if: steps.grep.outputs.found == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ❌ Styleguide error: The following line contains an emoji without spacing around it.
+
+            Please ensure all Discord-style emojis like `<:emoji:123>` have a space **before and after** them.
+
+            ```
+            ${{ steps.grep.outputs.result }}
+            ```
