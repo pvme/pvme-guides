@@ -22,13 +22,15 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
-          # Allowed characters: whitespace, punctuation, quotes, brackets, math symbols, arrows, etc.
+          # Allowed characters: whitespace, punctuation, quotes, brackets, arrows, underscores, etc.
+          safe_chars='[ \t\n\r\f\v.,:;!?(){}\[\]<>\-'"'"'"'"'"\\`/|+*=~_]'
+
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-            if grep -nP '(?<![ \t\n\r\f\v.,:;!?(){}\[\]<>\-'"'"'\\`/|+*=~])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]<>\-'"'"'\\`/|+*=~])' "$file" > /dev/null; then
-              matches=$(grep -nP '(?<![ \t\n\r\f\v.,:;!?(){}\[\]<>\-'"'"'\\`/|+*=~])<:.*?:.*?>(?![ \t\n\r\f\v.,:;!?(){}\[\]<>\-'"'"'\\`/|+*=~])' "$file" || true)
+            if grep -nP "(?<!$safe_chars)<:.*?:.*?>(?!$safe_chars)" "$file" > /dev/null; then
+              matches=$(grep -nP "(?<!$safe_chars)<:.*?:.*?>(?!$safe_chars)" "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
