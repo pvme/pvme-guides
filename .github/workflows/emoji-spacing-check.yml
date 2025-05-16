@@ -21,49 +21,47 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
-          bad_json="[]"
+          bad_lines=""
+          count=0
+          limit=50
+
           for file in $all_files; do
             clean_file="${file#./}"
-            if grep -nP '(?<=[^\s\p{P}])<:.*?:.*?>|<:.*?:.*?>(?=[^\s\p{P}])' "$file" > /dev/null; then
-              matches=$(grep -nP '(?<=[^\s\p{P}])<:.*?:.*?>|<:.*?:.*?>(?=[^\s\p{P}])' "$file" || true)
-              while IFS= read -r line; do
-                lineno="${line%%:*}"
-                content="${line#*:}"
-                bad_json=$(jq -c --arg file "$clean_file" --arg lineno "$lineno" --arg content "$content" '. += [{file: $file, lineno: $lineno, content: $content}]' <<< "$bad_json")
-              done <<< "$matches"
-            fi
+            matches=$(grep -nP '\S<:.*?:.*?>|<:.*?:.*?>\S' "$file" || true)
+            while IFS= read -r line; do
+              lineno="${line%%:*}"
+              content="${line#*:}"
+              # Allow punctuation and markdown symbols before/after
+              if [[ "$content" =~ [^[:space:][:punct:]]<:.*?:.*?>|<:.*?:.*?>[^[:space:][:punct:]] ]]; then
+                if [[ $count -lt $limit ]]; then
+                  file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
+                  bad_lines+="**In [\`$clean_file\`]($file_url):**\n* Line $lineno: \`$content\`\n"
+                  count=$((count + 1))
+                fi
+              fi
+            done <<< "$matches"
           done
 
-          echo "$bad_json" > results.json
-
-          if [[ "$bad_json" != "[]" ]]; then
+          if [[ -n "$bad_lines" ]]; then
             echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "$bad_lines" > comment-body.txt
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Post comments for each batch
+      - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
-        run: |
-          batch_size=50
-          total=$(jq length results.json)
-          batches=$(( (total + batch_size - 1) / batch_size ))
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## ❌ Style Guide issue: Emoji Spacing
 
-          for ((i = 0; i < batches; i++)); do
-            batch=$(jq ".[$((i * batch_size)):$(((i + 1) * batch_size))]" results.json)
-            echo "## ❌ Style Guide issue: Emoji Spacing" > comment.txt
-            echo >> comment.txt
-            echo "Emojis like \\`<:emoji:123>\\` must have a space before and after them." >> comment.txt
-            echo >> comment.txt
-            jq -r 'group_by(.file)[] | "**In [`" + .[0].file + "`](https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/" + .[0].file + "):`\n" + (map("* Line " + .lineno + ": `" + .content + "`") | join("\n")) + "\n"' <<< "$batch" >> comment.txt
+            Emojis like `<:emoji:123>` must have a space before and after them.
 
-            gh api \
-              --method POST \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Accept: application/vnd.github.v3+json" \
-              "/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments" \
-              -f body="$(cat comment.txt)"
-          done
+            ### __Offending Lines (first 50)__
+            ${{ steps.grep.outputs.result }}
 
       - name: Fail the job if issues found
         if: steps.grep.outputs.found == 'true'
