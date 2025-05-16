@@ -1,4 +1,4 @@
-name: Check Emoji Spacing
+,./,.name: Check Emoji Spacing
 
 on:
   pull_request:
@@ -50,7 +50,7 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           comment-id: emoji-spacing-check
           body: |
-            ❌ ## Style Guide issue: Emoji Spacing
+            ## ❌ Style Guide issue: Emoji Spacing
             
             Make sure a blank space separates emojis `<:emoji:123>` from words either side.
             
