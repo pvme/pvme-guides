@@ -114,4 +114,5 @@
 ^#{1,6}\s+.*\*\*.*\*\*.*
 
 # Ensure emojis have whitespace around them
-^bad<:emoji:123>spacing is not ok$
+^.*<:emoji:123>.*$
+
