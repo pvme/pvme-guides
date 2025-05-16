@@ -27,9 +27,6 @@ jobs:
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-            if grep -nP '(?<![^\s\p{P}\p{S}])<:.*?:.*?>(?![^\s\p{P}\p{S}])' "$file" > /dev/null; then
-              continue
-            fi
             if grep -nP '(?<![\s\p{P}\p{S}])<:.*?:.*?>|<:.*?:.*?>(?![\s\p{P}\p{S}])' "$file" > /dev/null; then
               matches=$(grep -nP '(?<![\s\p{P}\p{S}])<:.*?:.*?>|<:.*?:.*?>(?![\s\p{P}\p{S}])' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
