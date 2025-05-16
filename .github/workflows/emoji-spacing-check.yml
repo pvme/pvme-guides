@@ -30,12 +30,12 @@ jobs:
             echo "🔍 Checking file: $file"
             if grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file"; then
               matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
-              block="**In \`$file\`:**"$'\n'
+              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref }}/$file"
+              block="**In [\`$file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
                 lineno="${line%%:*}"
                 content="${line#*:}"
-                url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref }}/$file#L$lineno"
-                block+="- [\`$file:$lineno\`]($url): \`$content\`"$'\n'
+                block+="* Line $lineno: \`$content\`"$'\n'
               done <<< "$matches"
               bad+="$block"$'\n'
             fi
