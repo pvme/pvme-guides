@@ -19,9 +19,9 @@ jobs:
         run: |
           echo "Scanning all files for bad emoji spacing..."
 
-          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
+          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
-          # Allowed characters around emojis: space, punctuation, quotes, backticks, backslashes, brackets, hyphens
+          # Allowed characters before/after emojis: whitespace, punctuation, quotes, brackets, slashes, hyphens, etc.
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
@@ -52,7 +52,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          body-path: emoji-comment.txt
+          body: |
+            ## ❌ Style Guide issue: Emoji Spacing
+
+            Emojis like `<:emoji:123>` must have a space before and after them.
+
+            ### __Offending Lines__
+            ```text
+            ${{ steps.grep.outputs.result }}
+            ```
 
       - name: Fail the job if issues found
         if: steps.grep.outputs.found == 'true'
