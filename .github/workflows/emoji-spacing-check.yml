@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 2  # Ensures HEAD~1 is available
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -27,10 +27,9 @@ jobs:
 
           bad=""
           for file in $changed_files; do
-            if perl -ne 'print "$ARGV:$.: $_" if /\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S/' "$file"; then
-              matches=$(perl -ne 'print "$ARGV:$.: $_" if /\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S/' "$file")
-              bad="$bad$matches"$'\n'
-            fi
+            while IFS= read -r line; do
+              bad+="$file:$line"$'\n'
+            done < <(grep -nRP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file" || true)
           done
 
           if [[ -n "$bad" ]]; then
@@ -47,7 +46,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            **[emoji-spacing-check]**
             ## ❌ Style Guide issue: Emoji Spacing
 
             One or more lines contain a Discord-style emoji without spacing around it.
