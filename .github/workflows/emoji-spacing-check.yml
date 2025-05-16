@@ -48,7 +48,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            ❌ Styleguide error: The following line contains an emoji without spacing around it.
+            ❌ Style Guide error: The following line contains an emoji without spacing around it.
 
             Please ensure all Discord-style emojis like `<:emoji:123>` have a space **before and after** them.
 
