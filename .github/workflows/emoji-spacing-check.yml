@@ -49,10 +49,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            ❌ Style Guide error: The following line contains an emoji without spacing around it.
-
-            Please ensure all Discord-style emojis like `<:emoji:123>` have a space **before and after** them.
-
+            ❌ ## Style Guide issue: Emoji Spacing
+            
+            Make sure a blank space separates emojis `<:emoji:123>` from words either side.
+            
             ```
             ${{ steps.grep.outputs.result }}
             ```
