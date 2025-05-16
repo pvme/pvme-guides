@@ -26,10 +26,19 @@ jobs:
           echo "$changed_files"
 
           bad=""
+
           for file in $changed_files; do
-            while IFS= read -r line; do
-              bad+="$file:$line"$'\n'
-            done < <(grep -nRP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file" || true)
+            echo "🔍 Checking file: $file"
+            echo "--- File content ---"
+            cat "$file" || echo "⚠️ File not found or empty"
+
+            echo "--- Grep output ---"
+            matches=$(grep -nP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file" || true)
+            echo "$matches"
+
+            if [[ -n "$matches" ]]; then
+              bad+="$matches"$'\n'
+            fi
           done
 
           if [[ -n "$bad" ]]; then
@@ -39,7 +48,7 @@ jobs:
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Post new comment if issues found
+      - name: Post comment if issues found
         if: steps.grep.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
