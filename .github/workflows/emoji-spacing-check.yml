@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # So HEAD~1 is available
+          fetch-depth: 2
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -44,7 +44,6 @@ jobs:
             echo "result<<EOF" >> "$GITHUB_OUTPUT"
             echo "$bad" >> "$GITHUB_OUTPUT"
             echo "EOF" >> "$GITHUB_OUTPUT"
-            exit 1
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
@@ -66,3 +65,7 @@ jobs:
             ${{ steps.grep.outputs.result }}
 
             ✅ Please fix the spacing before continuing.
+
+      - name: Fail the job if issues found
+        if: steps.grep.outputs.found == 'true'
+        run: exit 1
