@@ -33,7 +33,7 @@ jobs:
             cat "$file" || echo "⚠️ File not found or empty"
 
             echo "--- Grep output ---"
-            matches=$(grep -nP '\S<:[a-zA-Z0-9_]+:[0-9]+>|<:[a-zA-Z0-9_]+:[0-9]+>\S' "$file" || true)
+            matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
             echo "$matches"
 
             if [[ -n "$matches" ]]; then
