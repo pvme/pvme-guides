@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Ensure HEAD~1 is available
+          fetch-depth: 2
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -35,28 +35,34 @@ jobs:
 
           if [[ -n "$bad" ]]; then
             echo "found=true" >> "$GITHUB_OUTPUT"
-            echo "result<<EOF" >> "$GITHUB_OUTPUT"
-            echo "$bad" >> "$GITHUB_OUTPUT"
-            echo "EOF" >> "$GITHUB_OUTPUT"
+            printf "result<<EOF\n%s\nEOF\n" "$bad" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Find existing comment
+      - name: Find previous comment (to hide)
         id: find-comment
         uses: peter-evans/find-comment@v3
         with:
           issue-number: ${{ github.event.pull_request.number }}
           comment-author: 'github-actions[bot]'
           body-includes: 'emoji-spacing-check'
+          direction: last
 
-      - name: Create or update comment
+      - name: Hide previous comment
+        if: steps.find-comment.outputs.comment-id != ''
+        uses: peter-evans/hide-comment@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          reason: outdated
+
+      - name: Post new comment with issues
         if: steps.grep.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
           body: |
             **[emoji-spacing-check]**
             ## ❌ Style Guide issue: Emoji Spacing
@@ -72,17 +78,6 @@ jobs:
 
             ✅ Please fix the spacing before continuing.
 
-      - name: Delete comment if no issues
-        if: steps.grep.outputs.found == 'false' && steps.find-comment.outputs.comment-id != ''
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
-          delete: true
-
-      - name: Fail the check if issues were found
+      - name: Fail check if issues found
         if: steps.grep.outputs.found == 'true'
-        run: |
-          echo "Emoji spacing issues found — failing the job."
-          exit 1
+        run: exit 1
