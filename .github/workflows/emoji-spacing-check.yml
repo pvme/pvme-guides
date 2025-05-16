@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Ensure HEAD~1 exists
+          fetch-depth: 2  # Ensure HEAD~1 is available
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -58,7 +58,7 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
           body: |
-            <!-- emoji-spacing-check -->
+            **[emoji-spacing-check]**
             ## ❌ Style Guide issue: Emoji Spacing
 
             One or more lines contain a Discord-style emoji without spacing around it.
