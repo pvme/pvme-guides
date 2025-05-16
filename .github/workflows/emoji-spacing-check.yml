@@ -13,12 +13,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # ensures HEAD~1 is available
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
         run: |
           echo "Getting list of changed files..."
-          changed_files=$(git diff --name-only HEAD^ | grep -E '\.(md|txt|js|ts|py|html|rb|go|c|cpp)$' || true)
+          changed_files=$(git diff --name-only HEAD~1 | grep -E '\.(md|txt|js|ts|py|html|rb|go|c|cpp)$' || true)
 
           echo "Changed files:"
           echo "$changed_files"
