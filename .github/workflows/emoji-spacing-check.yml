@@ -65,4 +65,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           comment-id: emoji-spacing-check
-          delete: tru
+          delete: true
