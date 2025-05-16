@@ -40,24 +40,7 @@ jobs:
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Find previous comment (to hide)
-        id: find-comment
-        uses: peter-evans/find-comment@v3
-        with:
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-author: 'github-actions[bot]'
-          body-includes: 'emoji-spacing-check'
-          direction: last
-
-      - name: Hide previous comment
-        if: steps.find-comment.outputs.comment-id != ''
-        uses: peter-evans/hide-comment@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
-          reason: outdated
-
-      - name: Post new comment with issues
+      - name: Post new comment if issues found
         if: steps.grep.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
