@@ -14,14 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Ensures HEAD~1 is available
-
-      - name: Dummy delete-comment call (safe trigger)
-        uses: peter-evans/delete-comment@v2
-        if: false
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          comment-id: '1'
+          fetch-depth: 2
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -49,23 +42,14 @@ jobs:
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Find existing comment
-        id: find-comment
-        uses: peter-evans/find-comment@v3
-        with:
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-author: 'github-actions[bot]'
-          body-includes: 'emoji-spacing-check'
-
-      - name: Create or update comment
+      - name: Comment or update if issues found
         if: steps.grep.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          comment-identifier: emoji-spacing-check
           body: |
-            <!-- emoji-spacing-check -->
             ## ❌ Style Guide issue: Emoji Spacing
 
             One or more lines contain a Discord-style emoji without spacing around it.
@@ -80,11 +64,13 @@ jobs:
             ✅ Please fix the spacing before continuing.
 
       - name: Delete comment if no issues
-        if: steps.grep.outputs.found == 'false' && steps.find-comment.outputs.comment-id != ''
-        uses: peter-evans/delete-comment@v2
+        if: steps.grep.outputs.found == 'false'
+        uses: peter-evans/create-or-update-comment@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-identifier: emoji-spacing-check
+          delete: true
 
       - name: Fail the check if issues were found
         if: steps.grep.outputs.found == 'true'
