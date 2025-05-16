@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Scan all files for improperly spaced emojis
+      - name: Scan all files for emoji spacing violations
         id: grep
         shell: bash
         run: |
@@ -22,13 +22,12 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
-          # Use Unicode character classes for spacing, punctuation, and symbols
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-            if grep -nP '(?<![\s\p{P}\p{S}])<:.*?:.*?>(?![\s\p{P}\p{S}])' "$file" > /dev/null; then
-              matches=$(grep -nP '(?<![\s\p{P}\p{S}])<:.*?:.*?>(?![\s\p{P}\p{S}])' "$file" || true)
+            if grep -nP '\w<|<\w|>\w|\w>' "$file" > /dev/null; then
+              matches=$(grep -nP '\w<|<\w|>\w|\w>' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
@@ -44,7 +43,7 @@ jobs:
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
-              echo "Emojis like \`<:emoji:123>\` must have a space before and after them."
+              echo "Emojis must have a space before and after them."
               echo
               echo "### __Offending Lines__"
               echo "$bad"
