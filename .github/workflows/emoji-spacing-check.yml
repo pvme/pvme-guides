@@ -21,8 +21,8 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
-          # Acceptable punctuation around emojis
-          allowed='[ \t\n\r\f\v.,:;!?(){}\[\]\'\"`\\/]'  # includes space, punctuation, quotes, backslash
+          # Allowed characters around emojis: space, punctuation, quotes, backticks, backslashes, brackets
+          allowed='[ \t\n\r\f\v.,:;!?(){}\[\]'"'"'"'"\"\\`/]'
 
           bad=""
           for file in $all_files; do
