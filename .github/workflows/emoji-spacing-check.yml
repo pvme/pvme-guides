@@ -13,38 +13,37 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Scan all files for improperly spaced emojis
         id: grep
         run: |
           echo "Scanning all files for bad emoji spacing..."
-
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
-          bad_lines=""
-          count=0
-          limit=50
-
+          bad=""
           for file in $all_files; do
-            clean_file="${file#./}"
-            matches=$(grep -nP '\S<:.*?:.*?>|<:.*?:.*?>\S' "$file" || true)
-            while IFS= read -r line; do
-              lineno="${line%%:*}"
-              content="${line#*:}"
-              # Allow punctuation and markdown symbols before/after
-              if [[ "$content" =~ [^[:space:][:punct:]]<:.*?:.*?>|<:.*?:.*?>[^[:space:][:punct:]] ]]; then
-                if [[ $count -lt $limit ]]; then
-                  file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
-                  bad_lines+="**In [\`$clean_file\`]($file_url):**\n* Line $lineno: \`$content\`\n"
-                  count=$((count + 1))
-                fi
-              fi
-            done <<< "$matches"
+            clean_file="${file#./}"  # strip leading ./
+            echo "🔍 Checking file: $clean_file"
+            if grep -nP '(?<![\s\p{P}])<:.*?:.*?>(?![\s\p{P}])' "$file"; then
+              matches=$(grep -nP '(?<![\s\p{P}])<:.*?:.*?>(?![\s\p{P}])' "$file" || true)
+              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
+              block="**In [\`$clean_file\`]($file_url):**"$'\n'
+              while IFS= read -r line; do
+                lineno="${line%%:*}"
+                content="${line#*:}"
+                block+="* Line $lineno: \`$content\`"$'\n'
+              done <<< "$matches"
+              bad+="$block"$'\n'
+            fi
           done
 
-          if [[ -n "$bad_lines" ]]; then
+          if [[ -n "$bad" ]]; then
             echo "found=true" >> "$GITHUB_OUTPUT"
-            echo "$bad_lines" > comment-body.txt
+            echo "result<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$bad" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
@@ -60,7 +59,7 @@ jobs:
 
             Emojis like `<:emoji:123>` must have a space before and after them.
 
-            ### __Offending Lines (first 50)__
+            ### __Offending Lines__
             ${{ steps.grep.outputs.result }}
 
       - name: Fail the job if issues found
