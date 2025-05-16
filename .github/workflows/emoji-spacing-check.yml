@@ -28,8 +28,8 @@ jobs:
 
           for file in $all_files; do
             clean_file="${file#./}"  # strip leading ./
-            if grep -nP '\S<:.*?:.*?>|<:.*?:.*?>[^\s.,:;!?)]' "$file" > /dev/null; then
-            matches=$(grep -nP '\S<:.*?:.*?>|<:.*?:.*?>[^\s.,:;!?)]' "$file" || true)
+            if grep -nP '(?<![\s_])<:.*?:.*?>(?![\s_.,:;!?)\]\n\r\f\v])' "$file" > /dev/null; then
+              matches=$(grep -nP '(?<![\s_])<:.*?:.*?>(?![\s_.,:;!?)\]\n\r\f\v])' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block_full="**In [\`$clean_file\`]($file_url):**"$'\n'
               block_limited=$block_full
