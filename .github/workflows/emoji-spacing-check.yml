@@ -38,7 +38,6 @@ jobs:
             echo "result<<EOF" >> "$GITHUB_OUTPUT"
             echo "$bad" >> "$GITHUB_OUTPUT"
             echo "EOF" >> "$GITHUB_OUTPUT"
-            exit 1
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
@@ -53,11 +52,16 @@ jobs:
           body: |
             ## ❌ Style Guide issue: Emoji Spacing
             
-            Make sure a blank space separates emojis `<:emoji:123>` from words either side.
-            
+            One or more lines contain a Discord-style emoji without spacing around it.
+
+            💡 Emojis like `<:emoji:123>` must have a space **before and after** them.
+
+            **Invalid lines:**
             ```
             ${{ steps.grep.outputs.result }}
             ```
+
+            ✅ Please fix the spacing before continuing.
 
       - name: Delete comment if no issues
         if: steps.grep.outputs.found == 'false'
@@ -67,3 +71,9 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           comment-id: emoji-spacing-check
           delete: true
+
+      - name: Fail the check if issues were found
+        if: steps.grep.outputs.found == 'true'
+        run: |
+          echo "Emoji spacing issues found — failing the job."
+          exit 1
