@@ -27,8 +27,8 @@ jobs:
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-            if grep -nP '[A-Za-z0-9]<:.*?:.*?>|<:.*?:.*?>[A-Za-z0-9]' "$file" > /dev/null; then
-              matches=$(grep -nP '[A-Za-z0-9]<:.*?:.*?>|<:.*?:.*?>[A-Za-z0-9]' "$file" || true)
+            if grep -nP '[^\W_]<:.*?:.*?>|<:.*?:.*?>[^\W_]' "$file" > /dev/null; then
+              matches=$(grep -nP '[^\W_]<:.*?:.*?>|<:.*?:.*?>[^\W_]' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
