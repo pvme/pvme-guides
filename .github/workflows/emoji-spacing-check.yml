@@ -16,6 +16,13 @@ jobs:
         with:
           fetch-depth: 2  # Ensures HEAD~1 is available
 
+      - name: Preload delete-comment action
+        uses: peter-evans/delete-comment@v2
+        with:
+          comment-id: '0'  # Dummy to trigger download
+          token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
       - name: Scan changed files for improperly spaced emojis
         id: grep
         run: |
