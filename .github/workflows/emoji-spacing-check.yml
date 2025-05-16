@@ -22,13 +22,13 @@ jobs:
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
-          # Match emojis only if touching alphanumerics (not punctuation/symbols)
+          # Match emoji tags only if directly touching letters or digits (excluding punctuation, quotes, slashes, underscores)
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
-            if grep -nP '(?<![\s\p{P}\p{S}])<:.*?:.*?>|<:.*?:.*?>(?![\s\p{P}\p{S}])' "$file" > /dev/null; then
-              matches=$(grep -nP '(?<![\s\p{P}\p{S}])<:.*?:.*?>|<:.*?:.*?>(?![\s\p{P}\p{S}])' "$file" || true)
+            if grep -nP '[A-Za-z0-9]<:.*?:.*?>|<:.*?:.*?>[A-Za-z0-9]' "$file" > /dev/null; then
+              matches=$(grep -nP '[A-Za-z0-9]<:.*?:.*?>|<:.*?:.*?>[A-Za-z0-9]' "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
