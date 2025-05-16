@@ -14,8 +14,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Fetch base branch
-        run: git fetch origin master --depth=1
+      - name: Fetch base and current branches
+        run: |
+          git fetch --no-tags --prune --depth=50 origin +refs/heads/*:refs/remotes/origin/*
       
       - name: Scan changed files for improperly spaced emojis
         id: grep
