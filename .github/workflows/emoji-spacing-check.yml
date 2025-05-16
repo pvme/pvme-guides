@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Ensures HEAD~1 is available
+          fetch-depth: 2  # So HEAD~1 is available
 
       - name: Scan changed files for improperly spaced emojis
         id: grep
@@ -26,29 +26,30 @@ jobs:
           echo "$changed_files"
 
           bad=""
-
           for file in $changed_files; do
             echo "🔍 Checking file: $file"
-            echo "--- File content ---"
-            cat "$file" || echo "⚠️ File not found or empty"
-
-            echo "--- Grep output ---"
-            matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
-            echo "$matches"
-
-            if [[ -n "$matches" ]]; then
-              bad+="$matches"$'\n'
+            if grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file"; then
+              matches=$(grep -nP '<:.*?:.*?>\S|\S<:.*?:.*?>' "$file" || true)
+              while IFS= read -r line; do
+                lineno="${line%%:*}"
+                content="${line#*:}"
+                url="https://github.com/${{ github.repository }}/blame/${{ github.base_ref || 'master' }}/$file#L$lineno"
+                bad+="- [\`$file:$lineno\`]($url): \`$content\`"$'\n'
+              done <<< "$matches"
             fi
           done
 
           if [[ -n "$bad" ]]; then
             echo "found=true" >> "$GITHUB_OUTPUT"
-            printf "result<<EOF\n%s\nEOF\n" "$bad" >> "$GITHUB_OUTPUT"
+            echo "result<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$bad" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+            exit 1
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Post comment if issues found
+      - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
@@ -59,15 +60,9 @@ jobs:
 
             One or more lines contain a Discord-style emoji without spacing around it.
 
-            💡 Emojis like `<:emoji:123>` must have a space **before and after** them.
+            💡 Emojis like `<:emoji:123>` must have a space before and after them.
 
-            **Offending lines:**
-            ```
+            Offending lines:
             ${{ steps.grep.outputs.result }}
-            ```
 
             ✅ Please fix the spacing before continuing.
-
-      - name: Fail check if issues found
-        if: steps.grep.outputs.found == 'true'
-        run: exit 1
