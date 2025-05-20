@@ -38,6 +38,9 @@ jobs:
             while IFS= read -r line; do
               lineno="${line%%:*}"
               match="${line#*:}"
+            
+              # Skip empty match lines
+              [ -z "$match" ] && continue
 
               echo "$match" | grep -Pq "^[rs_\"'(\[{\-*]?<:.*?:\d+>$" && continue
 
