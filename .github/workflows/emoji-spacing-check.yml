@@ -19,34 +19,35 @@ jobs:
         shell: bash
         run: |
           echo "Scanning all files for bad emoji spacing..."
-        
+
           ZWS=$'\u200B'
+
           suggest_fix() {
             echo "$1" | perl -pe '
               s/(?<![rs\u{200B}]|\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
-        
+
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
-        
-          regex="(?<![rs ${ZWS}])(?<!\\\\u200B)(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]"
-        
+
+          regex="(?<![rs ${ZWS}])(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]"
+
           bad=""
           has_fixes=0
-        
+
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
             
             matches=$(grep -nP "$regex" "$file" || true)
-        
+
             block=""
             while IFS= read -r line; do
               lineno="${line%%:*}"
               content="${line#*:}"
               segments=$(echo "$content" | grep -oP "$regex" || true)
-        
+
               segment_block=""
               while IFS= read -r match; do
                 fixed=$(suggest_fix "$match")
@@ -56,18 +57,18 @@ jobs:
                   has_fixes=1
                 fi
               done <<< "$segments"
-        
+
               if [[ -n "$segment_block" ]]; then
                 block+="* Line $lineno:"$'\n'"$segment_block"
               fi
             done <<< "$matches"
-        
+
             if [[ -n "$block" ]]; then
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               bad+="**In [\`$clean_file\`]($file_url):**"$'\n'"$block"$'\n'
             fi
           done
-        
+
           if [[ "$has_fixes" -eq 1 ]]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
