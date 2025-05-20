@@ -22,13 +22,13 @@ jobs:
 
           ZWS=$'\u200B'
 
-          # Fix suggestion function using strict filters
+          # Suggest fix function that only applies spacing if NOT preceded by known exceptions
           suggest_fix() {
             echo "$1" | perl -CS -pe '
-              # Only insert space before emoji if not preceded by r, s, _, or ZWS
-              s/(?<![rs_])(?<!\x{200B})(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
+              # Insert space before emoji if NOT preceded by allowed chars
+              s/(?<![rs_])(?<!\x{200B})(?<!\\u200B)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
 
-              # Always insert space after emoji if followed by an alphanumeric character
+              # Always insert space after emoji if alphanumeric follows
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
@@ -50,23 +50,23 @@ jobs:
                 lineno="${line%%:*}"
                 content="${line#*:}"
 
-                # Pull out only the matched segments
                 segments=$(echo "$content" | grep -oP "$regex" || true)
 
+                added_any=false
                 while IFS= read -r match; do
                   fixed=$(suggest_fix "$match")
                   if [[ "$match" != "$fixed" ]]; then
                     block+="* Line $lineno:"$'\n'
                     block+="  ❌ Offending segment: \`$match\`"$'\n'
                     block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
+                    added_any=true
                   fi
                 done <<< "$segments"
-              done <<< "$matches"
 
-              # Only add file block if it contains at least one fixable match
-              if [[ "$block" != "**In \`$clean_file\`"* && "$block" != "**In [\`$clean_file\`"* ]]; then
-                bad+="$block"$'\n'
-              fi
+                if [ "$added_any" = true ]; then
+                  bad+="$block"$'\n'
+                fi
+              done <<< "$matches"
             fi
           done
 
