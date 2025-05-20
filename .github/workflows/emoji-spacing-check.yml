@@ -45,9 +45,9 @@ jobs:
               match="${line#*:}"
 
               # Skip valid cases
-              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]]; then continue; fi
-              if [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]]; then continue; fi
-              if [[ "$match" =~ "^${ZWS}<:.*?:[0-9]+>$" ]]; then continue; fi
+              [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]] && continue
+              [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]] && continue
+              echo "$match" | grep -Pq "^${ZWS}<:.*?:[0-9]+>$" && continue
 
               fixed=$(suggest_fix "$match")
               [[ "$match" == "$fixed" ]] && continue
