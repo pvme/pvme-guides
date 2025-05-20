@@ -46,12 +46,8 @@ jobs:
               match=$(echo "$line" | cut -d: -f2-)
 
               # Filter false positives
-              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]]; then
-                continue
-              fi
-              if [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]]; then
-                continue
-              fi
+              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]]; then continue; fi
+              if [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]{0,1}$ ]]; then continue; fi
 
               fixed=$(suggest_fix "$match")
               if [[ "$match" != "$fixed" ]]; then
@@ -61,7 +57,7 @@ jobs:
               fi
             done <<< "$matches"
 
-            if [[ $(grep -c '^* Line ' <<< "$file_block") -gt 0 ]]; then
+            if [[ -n "$file_block" ]]; then
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'
               bad+="$file_block"
@@ -69,12 +65,14 @@ jobs:
           done
 
           if [[ -n "$bad" ]]; then
-            printf "%s\n" "## ❌ Style Guide issue: Emoji Spacing" > emoji-comment.txt
-            printf "%s\n" >> emoji-comment.txt
-            printf "%s\n" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space." >> emoji-comment.txt
-            printf "%s\n" >> emoji-comment.txt
-            printf "%s\n" "### __Offending Lines & Suggested Fixes__" >> emoji-comment.txt
-            printf "%s\n" "$bad" >> emoji-comment.txt
+            {
+              echo "## ❌ Style Guide issue: Emoji Spacing"
+              echo
+              echo "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space."
+              echo
+              echo "### __Offending Lines & Suggested Fixes__"
+              echo "$bad"
+            } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
