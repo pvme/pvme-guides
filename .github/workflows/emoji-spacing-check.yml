@@ -23,7 +23,10 @@ jobs:
           ZWS=$'\u200B'
 
           suggest_fix() {
-            perl -CS -pe 's/([^\s])(<:.*?:\d+>)/$1 $2/g; s/(<:.*?:\d+>)([^\s])/$1 $2/g;'
+            perl -CS -pe '
+              s/([^\s])(<:.*?:\d+>)/$1 $2/g;
+              s/(<:.*?:\d+>)([^\s])/$1 $2/g;
+            '
           }
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
@@ -41,12 +44,12 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Allow leading: r s _ ZWS quotes brackets dash
+              # Allow leading: r, s, _, ZWS, quotes, brackets, dash
               echo "$match" | grep -Pq "^[rs_\"'(\[{-]?<:.*?:\d+>$" && continue
               echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+>$" && continue
 
-              # Allow trailing: punctuation, backslash, brackets, quotes, dash
-              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\)\\]}\_\"'-]?$" && continue
+              # Allow trailing: punctuation, \, brackets, quotes, dash, underscore
+              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\)\\]}'\"_-]?$" && continue
 
               fixed=$(echo "$match" | suggest_fix)
               if [ "$match" != "$fixed" ]; then
