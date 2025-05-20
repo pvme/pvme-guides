@@ -22,44 +22,49 @@ jobs:
 
           ZWS=$'\u200B'
 
+          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
+
+          # Broad match regex
+          regex='[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]'
+
+          # Fixer function
           suggest_fix() {
             echo "$1" | perl -pe '
-              # Add space before emoji if alphanum (except r/s/ZWS) directly precedes
-              s/(?<![rs\u{200B}]|\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
-              # Add space after emoji if alphanum follows
+              s/(?<!r)(?<!s)(?<!\x{200B})(?<!\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
 
-          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
-
-          regex='[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]'
-
           bad=""
+          seen_segments=""
+
           for file in $all_files; do
             clean_file="${file#./}"
-            file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
-            block="**In [\`$clean_file\`]($file_url):**"$'\n'
-            has_issue=false
+            matches=$(grep -nPo "$regex" "$file" || true)
 
-            while IFS= read -r line; do
-              lineno="${line%%:*}"
-              content="${line#*:}"
+            if [[ -n "$matches" ]]; then
+              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
+              block="**In [\`$clean_file\`]($file_url):**"$'\n'
 
-              matches=$(echo "$content" | grep -oP "$regex" | sort -u || true)
-              for match in $matches; do
+              while IFS= read -r line; do
+                lineno="${line%%:*}"
+                match="${line#*:}"
+
+                # Filter and fix
                 fixed=$(suggest_fix "$match")
-                if [[ "$match" != "$fixed" ]]; then
-                  block+="* Line $lineno:"$'\n'
-                  block+="  ❌ Offending segment: \`$match\`"$'\n'
-                  block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
-                  has_issue=true
-                fi
-              done
-            done <<< "$(grep -nP "$regex" "$file" || true)"
 
-            if [ "$has_issue" = true ]; then
-              bad+="$block"$'\n'
+                if [[ "$fixed" != "$match" ]]; then
+                  key="$clean_file|$lineno|$match"
+                  if ! grep -Fxq "$key" <<< "$seen_segments"; then
+                    seen_segments+="$key"$'\n'
+                    block+="* Line $lineno:"$'\n'
+                    block+="  ❌ Offending segment: \`$match\`"$'\n'
+                    block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
+                  fi
+                fi
+              done <<< "$matches"
+
+              [[ "$block" != "**In"*"**" ]] && bad+="$block"$'\n'
             fi
           done
 
