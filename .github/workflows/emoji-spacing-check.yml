@@ -51,7 +51,7 @@ jobs:
                 content="${line#*:}"
 
                 segments=$(echo "$content" | grep -oP "$regex" || true)
-
+                
                 added_any=false
                 while IFS= read -r match; do
                   fixed=$(suggest_fix "$match")
@@ -62,10 +62,11 @@ jobs:
                     added_any=true
                   fi
                 done <<< "$segments"
-
+                
                 if [ "$added_any" = true ]; then
                   bad+="$block"$'\n'
                 fi
+
               done <<< "$matches"
             fi
           done
