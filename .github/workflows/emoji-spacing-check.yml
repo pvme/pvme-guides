@@ -66,14 +66,12 @@ jobs:
           done
 
           if [[ -n "$bad" ]]; then
-            cat <<EOF > emoji-comment.txt
-## ❌ Style Guide issue: Emoji Spacing
-
-Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space.
-
-### __Offending Lines & Suggested Fixes__
-$bad
-EOF
+            printf "%s\n" "## ❌ Style Guide issue: Emoji Spacing" > emoji-comment.txt
+            printf "%s\n" >> emoji-comment.txt
+            printf "%s\n" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space." >> emoji-comment.txt
+            printf "%s\n" >> emoji-comment.txt
+            printf "%s\n" "### __Offending Lines & Suggested Fixes__" >> emoji-comment.txt
+            printf "%s\n" "$bad" >> emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
