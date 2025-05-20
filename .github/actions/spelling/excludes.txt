@@ -80,13 +80,14 @@ ignore$
 \.xpm$
 \.xz$
 \.zip$
-^\.github/actions/spelling/
-^\Q.github/workflows/spelling.yml\E$
 
-# Ignore directories named `archive`
+# Ignore directory named `.github`
+(?:^|/).github/
+
+# Ignore directory named `archive`
 (?:^|/)archive/
 
-# Ignore directories named `ca-bingo-lists`
+# Ignore directory named `ca-bingo-lists`
 (?:^|/)ca-bingo-lists/
 
 # Ignore directory named `.vscode`
