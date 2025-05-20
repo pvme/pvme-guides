@@ -64,12 +64,9 @@ jobs:
 
           if [[ -n "$bad" ]]; then
             {
-              echo "## ❌ Style Guide issue: Emoji Spacing"
-              echo
-              echo "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space."
-              echo
-              echo "### __Offending Lines & Suggested Fixes__"
-              echo "$bad"
+              printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n" > emoji-comment.txt
+              printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space.\n\n" >> emoji-comment.txt
+              printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n" >> emoji-comment.txt
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
