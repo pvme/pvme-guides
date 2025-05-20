@@ -39,25 +39,24 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Allow leading characters (r s _ quotes brackets dash asterisk)
               echo "$match" | grep -Pq "^[rs_\"'(\[{\-*]?<:.*?:\d+>$" && continue
-              
-              # Allow leading ZWS (check for real character, not literal \u200B)
+
               zws_char=$(echo -e '\u200B')
               if echo "$match" | grep -Pq "^$zws_char<:.*?:\d+>$"; then
                 continue
               fi
 
-              # Allow trailing characters (punctuation, brackets, quotes, dash, asterisk, backslash)
               echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" && continue
 
               fixed=$(echo "$match" | suggest_fix)
               if [ "$match" != "$fixed" ]; then
-                file_block+="* Line $lineno:\n"
-                escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
-                escaped_fixed=$(printf "%s" "$fixed" | sed 's/`/\\`/g')
-                file_block+="  ❌ Offending segment: \`$escaped_match\`\n"
-                file_block+="  ✅ Suggestion:        \`$escaped_fixed\`\n"
+                if [[ "$match" == *"\`"* ]]; then
+                  file_block+="* Line $lineno:\n"
+                  file_block+="  \`\`\`text\n$match\n\`\`\`\n"
+                else
+                  escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
+                  file_block+="* Line $lineno: \`$escaped_match\`\n"
+                fi
               fi
             done <<< "$matches"
 
@@ -71,7 +70,7 @@ jobs:
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
               printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space.\n\n"
-              printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
+              printf "%b" "### __Offending Lines__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
