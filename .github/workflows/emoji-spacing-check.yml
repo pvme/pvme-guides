@@ -21,11 +21,11 @@ jobs:
           echo "Scanning all files for bad emoji spacing..."
 
           ZWS=$'\u200B'
-
+          
           suggest_fix() {
-            echo "$1" | perl -pe '
-              s/([^[:space:]])(<:.*?:\d+>)/$1 $2/g;
-              s/(<:.*?:\d+>)([^[:space:]])/$1 $2/g;
+            echo "$1" | perl -CS -pe '
+              s/([^\s])(<:.*?:\d+>)/$1 $2/g;
+              s/(<:.*?:\d+>)([^\s])/$1 $2/g;
             '
           }
 
