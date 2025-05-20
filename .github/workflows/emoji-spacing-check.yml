@@ -21,12 +21,10 @@ jobs:
           echo "Scanning all files for bad emoji spacing..."
 
           ZWS=$'\u200B'
-          
+
           suggest_fix() {
             echo "$1" | perl -pe '
-              # Fix alphanumeric before emoji
               s/([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
-              # Fix emoji followed by alphanumeric
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
@@ -46,11 +44,14 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Skip valid exceptions
+              # Skip if the match is surrounded by valid exceptions
               echo "$match" | grep -Pq '(^[rs_]?<:.*?:\d+>$|^<:.*?:\d+>[rs_]?$)' && continue
 
-              # Skip if the literal string \u200B precedes it in the file
-              grep -q "\\u200B$match" "$file" && continue
+              # Skip if line contains literal \u200B before the emoji
+              grep -q "\\\\u200B$match" "$file" && continue
+
+              # Skip if line contains ](...)<:emoji>
+              grep -qE '\]\([^)]+\)<:' "$file" && grep -q "$match" "$file" && continue
 
               fixed=$(suggest_fix "$match")
               [[ "$match" == "$fixed" ]] && continue
