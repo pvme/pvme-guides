@@ -36,7 +36,7 @@ jobs:
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
-            regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
+            regex="[^[:space:]]<:.*?:\d+>|<:.*?:\d+>[^[:space:]]"
             matches=$(grep -nPo "$regex" "$file" || true)
             file_block=""
 
@@ -44,10 +44,12 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Skip valid cases
+              # Skip safe leading patterns
               if echo "$match" | grep -Pq '^[rs_]<:.*?:\d+$'; then continue; fi
               if echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+$"; then continue; fi
-              if echo "$match" | grep -Pq '^<:.*?:\d+[.,\\]?$'; then continue; fi
+
+              # Skip safe trailing characters: punctuation, underscore, backslash, closing brackets
+              if echo "$match" | grep -Pq '^<:.*?:\d+>[.,!?;:\\)\]\}_]*$'; then continue; fi
 
               fixed=$(suggest_fix "$match")
               if [ "$match" != "$fixed" ]; then
@@ -66,7 +68,7 @@ jobs:
           if [ -n "$bad" ]; then
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
-              printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or end in a comma, full stop, or backslash.\n\n"
+              printf "%b" "Emojis must have a space before and after them unless preceded by \`r\`, \`s\`, \`_\`, a zero-width space, or followed by punctuation, underscore, or closing characters.\n\n"
               printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
