@@ -24,8 +24,10 @@ jobs:
 
           suggest_fix() {
             echo "$1" | perl -CS -pe '
-              s/([^\s])(<:.*?:\d+>)/$1 $2/g;
-              s/(<:.*?:\d+>)([^\s])/$1 $2/g;
+              # Insert space before emoji if not preceded by space or punctuation
+              s/([^\s[:punct:]])(<:.*?:\d+>)/$1 $2/g;
+              # Insert space after emoji if not followed by space or punctuation
+              s/(<:.*?:\d+>)([^\s[:punct:]])/$1 $2/g;
             '
           }
 
@@ -44,7 +46,7 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Skip known safe cases
+              # Skip known valid cases
               if echo "$match" | grep -Pq '^[rs_]?<:.*?:\d+>$'; then continue; fi
               if echo "$match" | grep -Pq '^<:.*?:\d+>[rs_]?$'; then continue; fi
               if echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+>$"; then continue; fi
