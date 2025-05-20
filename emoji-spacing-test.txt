@@ -1,36 +1,20 @@
-# ✅ Valid spacing - space before and after
+# Test: Correctly spaced emojis — should NOT be flagged
 Spellbook Swap <:SBS:543875425055670275> used for banking.
-
-# ✅ Valid - r or s directly before
 r<:spellbook:543875425055670275> or s<:grasp:543875425055670275> macros set.
-
-# ✅ Valid - zero-width space before
 \u200B<:graspingpouch:892816437478051900> ready.
 
-# ❌ Missing space before emoji
-Spellbook Swap<:SBS:543875425055670275> was cast.
+# Test: Violations — SHOULD be flagged
+Spellbook Swap<:SBS:543875425055670275> was cast.                     # ❌ No space before
+We used <:SBS:543875425055670275>as the default.                     # ❌ No space after
+Swap<:SBS:543875425055670275>default                                 # ❌ No space before/after
+This triggers<:emoji:123>                                            # ❌ No space before
+<:emoji:123>1                                                        # ❌ No space after
+<:emoji:123>a                                                        # ❌ No space after
+default<:emoji:123>                                                  # ❌ No space before
 
-# ❌ Missing space after emoji
-We used <:SBS:543875425055670275>as the default.
-
-# ❌ Alphanumeric on both sides
-Swap<:SBS:543875425055670275>default
-
-# ✅ Underscores are allowed
-Swap_this_ <:SBS:543875425055670275> safely.
-
-# ❌ Punctuation is allowed; digits aren't
-This triggers<:emoji:123>
-<:emoji:123>1
-
-# ✅ Punctuation is OK
-Use this: <:emoji:123>, and that too.
-
-# ⚠️ Literal string version of \u200B (should be allowed in source code)
-"\\u200B<:emoji:123>"
-
-# ✅ Inside markdown link (valid)
-Check out [this loadout](https://example.com) <:loadout:123456789012345678>.
-
-# ❌ Inside markdown but incorrectly spaced
-[example](url)<:emoji:123>
+# Test: Valid special cases — should NOT be flagged
+Swap_this_ <:SBS:543875425055670275> safely.                         # ✅ underscore allowed
+Use this: <:emoji:123>, and that too.                                # ✅ punctuation OK
+"\\u200B<:emoji:123>"                                                # ✅ literal string, not real emoji touch
+Check out [this loadout](https://example.com) <:loadout:123456789012345678>. # ✅ valid
+[example](url)<:emoji:123>                                           # ❌ No space before
