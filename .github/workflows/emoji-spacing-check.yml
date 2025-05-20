@@ -41,12 +41,16 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Allow leading chars: r, s, _, ", ', (, [, {, -
-              echo "$match" | grep -Pq "^[rs_\"'(\[{-]?<:.*?:\d+>$" && continue
-              echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+>$" && continue
+              # Allow leading r, s, _, quotes, brackets, dash, asterisk
+              echo "$match" | grep -Pq "^[rs_\"'(\[{-\*]?<:.*?:\d+>$" && continue
 
-              # Allow trailing chars: ., ,, !, ?, ;, \, ), ], }, ', ", _, -
-              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\\]}'\"_-]?$" && continue
+              # Allow leading ZWS
+              if [ "$(echo "$match" | sed 's/^'"$ZWS"'\(<:.*?:[0-9]\+>\)$/ZWS\1/')" = "ZWS$match" ]; then
+                continue
+              fi
+
+              # Allow trailing punctuation, brackets, underscore, quotes, dash, backslash, asterisk
+              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\)\\]}\_\"'-\*]?$" && continue
 
               fixed=$(echo "$match" | suggest_fix)
               if [ "$match" != "$fixed" ]; then
@@ -65,7 +69,7 @@ jobs:
           if [ -n "$bad" ]; then
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
-              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, or a zero-width space.\n\n"
+              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space.\n\n"
               printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
