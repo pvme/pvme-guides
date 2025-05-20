@@ -49,7 +49,7 @@ jobs:
               if echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+$"; then continue; fi
 
               # Allow trailing: punctuation, underscore, backslash, closing symbols, quotes
-              if [[ "$match" =~ ^<:.*?:[0-9]+>[.,!?;:\\\)\]\}_\"']*$ ]]; then continue; fi
+              if echo "$match" | grep -Pq '^<:.*?:\d+>[.,!?;:\\)\]\}_'"'"'"]?$'; then continue; fi
 
               fixed=$(suggest_fix "$match")
               if [ "$match" != "$fixed" ]; then
