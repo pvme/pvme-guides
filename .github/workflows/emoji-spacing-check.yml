@@ -22,13 +22,11 @@ jobs:
 
           ZWS=$'\u200B'
 
-          # Suggest fix function that only applies spacing if NOT preceded by known exceptions
           suggest_fix() {
-            echo "$1" | perl -CS -pe '
-              # Insert space before emoji if NOT preceded by allowed chars
-              s/(?<![rs_])(?<!\x{200B})(?<!\\u200B)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
-
-              # Always insert space after emoji if alphanumeric follows
+            echo "$1" | perl -pe '
+              # Add space before emoji if alphanum (except r/s/ZWS) directly precedes
+              s/(?<![rs\u{200B}]|\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
+              # Add space after emoji if alphanum follows
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
@@ -36,38 +34,32 @@ jobs:
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
           regex='[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]'
+
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
-            echo "🔍 Checking file: $clean_file"
+            file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
+            block="**In [\`$clean_file\`]($file_url):**"$'\n'
+            has_issue=false
 
-            if grep -nP "$regex" "$file" > /dev/null; then
-              matches=$(grep -nP "$regex" "$file" || true)
-              file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
-              block="**In [\`$clean_file\`]($file_url):**"$'\n'
+            while IFS= read -r line; do
+              lineno="${line%%:*}"
+              content="${line#*:}"
 
-              while IFS= read -r line; do
-                lineno="${line%%:*}"
-                content="${line#*:}"
-
-                segments=$(echo "$content" | grep -oP "$regex" || true)
-                
-                added_any=false
-                while IFS= read -r match; do
-                  fixed=$(suggest_fix "$match")
-                  if [[ "$match" != "$fixed" ]]; then
-                    block+="* Line $lineno:"$'\n'
-                    block+="  ❌ Offending segment: \`$match\`"$'\n'
-                    block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
-                    added_any=true
-                  fi
-                done <<< "$segments"
-                
-                if [ "$added_any" = true ]; then
-                  bad+="$block"$'\n'
+              matches=$(echo "$content" | grep -oP "$regex" | sort -u || true)
+              for match in $matches; do
+                fixed=$(suggest_fix "$match")
+                if [[ "$match" != "$fixed" ]]; then
+                  block+="* Line $lineno:"$'\n'
+                  block+="  ❌ Offending segment: \`$match\`"$'\n'
+                  block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
+                  has_issue=true
                 fi
+              done
+            done <<< "$(grep -nP "$regex" "$file" || true)"
 
-              done <<< "$matches"
+            if [ "$has_issue" = true ]; then
+              bad+="$block"$'\n'
             fi
           done
 
@@ -75,7 +67,7 @@ jobs:
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
-              echo "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space."
+              echo "Emojis must have a space before and after them unless preceded by 'r', 's', '\\u200B', or a zero-width space."
               echo
               echo "### __Offending Lines & Suggested Fixes__"
               echo "$bad"
