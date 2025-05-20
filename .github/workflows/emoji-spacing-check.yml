@@ -45,12 +45,18 @@ jobs:
               while IFS= read -r line; do
                 lineno="${line%%:*}"
                 content="${line#*:}"
-                fixed=$(suggest_fix "$content")
-                if [[ "$content" != "$fixed" ]]; then
-                  block+="* Line $lineno:"$'\n'
-                  block+="  ❌ \`$content\`"$'\n'
-                  block+="  ✅ \`$fixed\`"$'\n'
-                fi
+              
+                # Pull out only the matched segments using the same regex
+                segments=$(echo "$content" | grep -oP "$regex" || true)
+              
+                while IFS= read -r match; do
+                  fixed=$(suggest_fix "$match")
+                  if [[ "$match" != "$fixed" ]]; then
+                    block+="* Line $lineno:"$'\n'
+                    block+="  ❌ Offending segment: \`$match\`"$'\n'
+                    block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
+                  fi
+                done <<< "$segments"
               done <<< "$matches"
               bad+="$block"$'\n'
             fi
