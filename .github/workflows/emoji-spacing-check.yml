@@ -21,11 +21,13 @@ jobs:
           echo "Scanning all files for bad emoji spacing..."
 
           ZWS=$'\u200B'
-
+          
           suggest_fix() {
             echo "$1" | perl -pe '
-              s/(?<![rs_[:punct:]\x{200B}])(?<!\\u200B)(?<!^)(.)<:.*?:\d+>/$1 <$2/g;
-              s/(<:.*?:\d+>)(?![[:space:][:punct:]])([^\s])/$1 $2/g;
+              # Fix alphanumeric before emoji (except valid cases handled in filter)
+              s/([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
+              # Fix emoji followed by alphanumeric
+              s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
 
