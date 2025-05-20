@@ -46,7 +46,10 @@ jobs:
               match=$(echo "$line" | cut -d: -f2-)
 
               # Filter false positives
-              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ || "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]]; then
+              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]]; then
+                continue
+              fi
+              if [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]]; then
                 continue
               fi
 
