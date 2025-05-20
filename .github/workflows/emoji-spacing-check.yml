@@ -18,53 +18,52 @@ jobs:
         id: grep
         shell: bash
         run: |
-          echo "Scanning all files for bad emoji spacing..."
+          echo "🔍 Scanning all files for bad emoji spacing..."
 
           ZWS=$'\u200B'
 
-          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
-
-          # Broad match regex
-          regex='[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]'
-
-          # Fixer function
           suggest_fix() {
             echo "$1" | perl -pe '
-              s/(?<!r)(?<!s)(?<!\x{200B})(?<!\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
+              s/(?<![rs\u{200B}]|\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
             '
           }
 
-          bad=""
-          seen_segments=""
+          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
+          bad=""
           for file in $all_files; do
             clean_file="${file#./}"
-            matches=$(grep -nPo "$regex" "$file" || true)
+            echo "📝 Checking file: $clean_file"
 
-            if [[ -n "$matches" ]]; then
+            regex="(?<![rs ${ZWS}])(?<!\\\\u200B)(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]"
+
+            if grep -nP "$regex" "$file" > /dev/null; then
+              matches=$(grep -nP "$regex" "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
+              found_any=false
 
               while IFS= read -r line; do
                 lineno="${line%%:*}"
-                match="${line#*:}"
+                content="${line#*:}"
+                segments=$(echo "$content" | grep -oP "$regex" || true)
 
-                # Filter and fix
-                fixed=$(suggest_fix "$match")
-
-                if [[ "$fixed" != "$match" ]]; then
-                  key="$clean_file|$lineno|$match"
-                  if ! grep -Fxq "$key" <<< "$seen_segments"; then
-                    seen_segments+="$key"$'\n'
+                while IFS= read -r match; do
+                  [[ -z "$match" ]] && continue
+                  fixed=$(suggest_fix "$match")
+                  if [[ "$match" != "$fixed" ]]; then
                     block+="* Line $lineno:"$'\n'
                     block+="  ❌ Offending segment: \`$match\`"$'\n'
                     block+="  ✅ Suggestion:        \`$fixed\`"$'\n'
+                    found_any=true
                   fi
-                fi
+                done <<< "$segments"
               done <<< "$matches"
 
-              [[ "$block" != "**In"*"**" ]] && bad+="$block"$'\n'
+              if [[ "$found_any" == true ]]; then
+                bad+="$block"$'\n'
+              fi
             fi
           done
 
