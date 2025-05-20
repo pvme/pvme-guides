@@ -46,9 +46,11 @@ jobs:
                 lineno="${line%%:*}"
                 content="${line#*:}"
                 fixed=$(suggest_fix "$content")
-                block+="* Line $lineno:"$'\n'
-                block+="  ❌ \`$content\`"$'\n'
-                block+="  ✅ \`$fixed\`"$'\n'
+                if [[ "$content" != "$fixed" ]]; then
+                  block+="* Line $lineno:"$'\n'
+                  block+="  ❌ \`$content\`"$'\n'
+                  block+="  ✅ \`$fixed\`"$'\n'
+                fi
               done <<< "$matches"
               bad+="$block"$'\n'
             fi
