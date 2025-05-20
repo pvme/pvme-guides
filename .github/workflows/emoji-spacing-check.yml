@@ -44,11 +44,10 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Skip known valid cases
-              if echo "$match" | grep -Pq '^[rs_]?<:.*?:\d+>$'; then continue; fi
-              if echo "$match" | grep -Pq '^<:.*?:\d+>[rs_]?$'; then continue; fi
-              if echo "$match" | grep -Fq '\u200B<:'; then continue; fi
-              if printf "%s" "$match" | grep -Pq "^${ZWS}<:.*?:\d+>$"; then continue; fi
+              # Skip valid cases
+              if echo "$match" | grep -Pq '^[rs_]<:.*?:\d+$'; then continue; fi
+              if echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+$"; then continue; fi
+              if echo "$match" | grep -Pq '^<:.*?:\d+[.,\\]?$'; then continue; fi
 
               fixed=$(suggest_fix "$match")
               if [ "$match" != "$fixed" ]; then
@@ -67,7 +66,7 @@ jobs:
           if [ -n "$bad" ]; then
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
-              printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space.\n\n"
+              printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or end in a comma, full stop, or backslash.\n\n"
               printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
