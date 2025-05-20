@@ -20,19 +20,20 @@ jobs:
         run: |
           echo "Scanning all files for bad emoji spacing..."
 
-          # This is a literal zero-width space character
+          # Zero-width space character
           ZWS=$'\u200B'
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
 
-          # Match alphanumeric before emoji (except 'r', 's', ZWS), or alphanumeric after emoji
+          # Match if an alphanumeric character (not r/s/ZWS/\u200B) is directly before an emoji
+          # OR if an alphanumeric character is directly after an emoji
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
-            if grep -nP "(?<![rs ${ZWS}])(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]" "$file" > /dev/null; then
-              matches=$(grep -nP "(?<![rs ${ZWS}])(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]" "$file" || true)
+            if grep -nP "(?<![rs ${ZWS}])(?<!\\u200B)(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]" "$file" > /dev/null; then
+              matches=$(grep -nP "(?<![rs ${ZWS}])(?<!\\u200B)(?<!^)[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]" "$file" || true)
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               block="**In [\`$clean_file\`]($file_url):**"$'\n'
               while IFS= read -r line; do
@@ -48,7 +49,7 @@ jobs:
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
-              echo "Emojis must have a space before and after them."
+              echo "Emojis must have a space before and after them unless preceded by 'r', 's', '\\u200B', or a zero-width space."
               echo
               echo "### __Offending Lines__"
               echo "$bad"
