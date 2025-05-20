@@ -24,8 +24,8 @@ jobs:
 
           suggest_fix() {
             echo "$1" | perl -pe '
-              s/([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
-              s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
+              s/([^[:space:]])(<:.*?:\d+>)/$1 $2/g;
+              s/(<:.*?:\d+>)([^[:space:]])/$1 $2/g;
             '
           }
 
@@ -44,14 +44,10 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Skip if the match is surrounded by valid exceptions
-              echo "$match" | grep -Pq '(^[rs_]?<:.*?:\d+>$|^<:.*?:\d+>[rs_]?$)' && continue
-
-              # Skip if line contains literal \u200B before the emoji
-              grep -q "\\\\u200B$match" "$file" && continue
-
-              # Skip if line contains ](...)<:emoji>
-              grep -qE '\]\([^)]+\)<:' "$file" && grep -q "$match" "$file" && continue
+              # Skip valid patterns
+              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]]; then continue; fi
+              if [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]]; then continue; fi
+              if [[ "$match" =~ ^$ZWS<:.*?:[0-9]+>$ ]]; then continue; fi
 
               fixed=$(suggest_fix "$match")
               [[ "$match" == "$fixed" ]] && continue
