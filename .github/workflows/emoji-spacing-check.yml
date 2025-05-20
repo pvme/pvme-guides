@@ -36,7 +36,7 @@ jobs:
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
-            regex="[^[:space:]]<:.*?:\d+>|<:.*?:\d+>[^[:space:]]"
+            regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
             matches=$(grep -nPo "$regex" "$file" || true)
             file_block=""
 
@@ -44,12 +44,12 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Allow leading: r s _ ZWS ' "
-              if echo "$match" | grep -Pq "^[rs_'\"]?<:.*?:\d+$"; then continue; fi
-              if echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+$"; then continue; fi
+              # Allow leading safe characters
+              if [[ "$match" =~ ^[rs_\'\"\-\(\[\{]?<:.*?:[0-9]+>$ ]]; then continue; fi
+              if [[ "$match" == "${ZWS}"<:*> ]]; then continue; fi
 
-              # Allow trailing: punctuation, underscore, backslash, closing symbols, quotes
-              if echo "$match" | grep -Pq '^<:.*?:\d+>[.,!?;:\\)\]\}_'"'"'"]?$'; then continue; fi
+              # Allow trailing safe characters
+              if [[ "$match" =~ ^<:.*?:[0-9]+>[.,!?;:\\\)\]\}_\'\"\-]?$ ]]; then continue; fi
 
               fixed=$(suggest_fix "$match")
               if [ "$match" != "$fixed" ]; then
@@ -68,7 +68,7 @@ jobs:
           if [ -n "$bad" ]; then
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
-              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, quotes (\`'\"\`), zero-width space, punctuation, or closing characters.\n\n"
+              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, quotes (\`'\"\`), zero-width space, punctuation, or brackets.\n\n"
               printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
