@@ -24,43 +24,41 @@ jobs:
 
           suggest_fix() {
             echo "$1" | perl -pe '
-              s/(?<![rs_\x{200B}])(?<!\\u200B)(?<!^)([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
-              s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
+              s/(?<![rs_[:punct:]\x{200B}])(?<!\\u200B)(?<!^)(.)<:.*?:\d+>/$1 <$2/g;
+              s/(<:.*?:\d+>)(?![[:space:][:punct:]])([^\s])/$1 $2/g;
             '
           }
 
-          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) )
+          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
 
           bad=""
           for file in $all_files; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
-            regex="[a-zA-Z0-9]<:.*?:\d+>|<:.*?:\d+>[a-zA-Z0-9]"
+            regex="[^[:space:]]<:.*?:\d+>|<:.*?:\d+>[^[:space:]]"
 
             matches=$(grep -nPo "$regex" "$file" || true)
-
             file_block=""
-            while IFS= read -r line; do
-              lineno=$(echo "$line" | cut -d: -f1)
-              match=$(echo "$line" | cut -d: -f2-)
 
-              # Filter false positives
-              if [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]]; then continue; fi
-              if [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]{0,1}$ ]]; then continue; fi
+            while IFS= read -r line; do
+              lineno="${line%%:*}"
+              match="${line#*:}"
+
+              # Filter known safe patterns (r/s/_/ZWS before or after)
+              echo "$match" | grep -Pq '(^[rs_]?<:.*?:\d+>$|^<:.*?:\d+>[rs_]?$)' && continue
 
               fixed=$(suggest_fix "$match")
-              if [[ "$match" != "$fixed" ]]; then
-                file_block+="* Line $lineno:\n"
-                file_block+="  ❌ Offending segment: \`$match\`\n"
-                file_block+="  ✅ Suggestion: \`$fixed\`\n"
-              fi
+              [[ "$match" == "$fixed" ]] && continue
+
+              file_block+="* Line $lineno:\n"
+              file_block+="  ❌ Offending segment: \`$match\`\n"
+              file_block+="  ✅ Suggestion:        \`$fixed\`\n"
             done <<< "$matches"
 
             if [[ -n "$file_block" ]]; then
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
-              bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'
-              bad+="$file_block"
+              bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
             fi
           done
 
