@@ -23,11 +23,7 @@ jobs:
           ZWS=$'\u200B'
 
           suggest_fix() {
-            perl -CS -pe "$(cat <<'EOF'
-              s/([^\s])(<:.*?:\d+>)/$1 $2/g;
-              s/(<:.*?:\d+>)([^\s])/$1 $2/g;
-EOF
-            )"
+            perl -CS -pe 's/([^\s])(<:.*?:\d+>)/$1 $2/g; s/(<:.*?:\d+>)([^\s])/$1 $2/g;'
           }
 
           all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
@@ -37,7 +33,7 @@ EOF
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
-            regex="[^[:space:]]<:.*?:\d+>|<:.*?:\d+>[^[:space:]]"
+            regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
             matches=$(grep -nPo "$regex" "$file" || true)
             file_block=""
 
@@ -45,12 +41,12 @@ EOF
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Allow leading: r s _ ZWS ' " ( [ { - 
-              echo "$match" | grep -Pq "^[rs_'\\"(\[{-]?<:.*?:\d+>$" && continue
+              # Allow leading: r s _ ZWS quotes brackets dash
+              echo "$match" | grep -Pq "^[rs_\"'(\[{-]?<:.*?:\d+>$" && continue
               echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+>$" && continue
 
-              # Allow trailing: . , ! ? ; : \ ) ] } _ ' " -
-              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\)\\]\}_'\\"\"-]?$" && continue
+              # Allow trailing: punctuation, backslash, brackets, quotes, dash
+              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\)\\]}\_\"'-]?$" && continue
 
               fixed=$(echo "$match" | suggest_fix)
               if [ "$match" != "$fixed" ]; then
@@ -69,7 +65,7 @@ EOF
           if [ -n "$bad" ]; then
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
-              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes (\`'\"\`), brackets, dashes, or a zero-width space.\n\n"
+              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, or a zero-width space.\n\n"
               printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
