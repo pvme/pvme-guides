@@ -49,15 +49,15 @@ jobs:
               echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" && continue
 
               fixed=$(echo "$match" | suggest_fix)
-              if [ "$match" != "$fixed" ]; then
-                if [[ "$match" == *"\`"* ]]; then
-                  file_block+="* Line $lineno:\n"
-                  file_block+="  \`\`\`text\n$match\n\`\`\`\n"
-                else
-                  escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
-                  file_block+="* Line $lineno: \`$escaped_match\`\n"
-                fi
+              if [[ "$match" == *"\`"* ]]; then
+                escaped_block=$(printf "%s" "$match" | sed 's/`/\\`/g')
+                file_block+="* Line $lineno:\n"
+                file_block+="  \`\`\`text\n$escaped_block\n\`\`\`\n"
+              else
+                escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
+                file_block+="* Line $lineno: \`$escaped_match\`\n"
               fi
+
             done <<< "$matches"
 
             if [ -n "$file_block" ]; then
