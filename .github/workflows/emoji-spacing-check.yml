@@ -61,7 +61,7 @@ jobs:
               fi
             done <<< "$matches"
 
-            if [[ -n "$file_block" ]]; then
+            if [[ $(grep -c '^* Line ' <<< "$file_block") -gt 0 ]]; then
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'
               bad+="$file_block"
