@@ -21,7 +21,7 @@ jobs:
           echo "Scanning all files for bad emoji spacing..."
 
           ZWS=$'\u200B'
-          
+
           suggest_fix() {
             echo "$1" | perl -CS -pe '
               s/([^\s])(<:.*?:\d+>)/$1 $2/g;
@@ -36,7 +36,7 @@ jobs:
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
-            regex="[^[:space:]]<:.*?:\d+>|<:.*?:\d+>[^[:space:]]"
+            regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
             matches=$(grep -nPo "$regex" "$file" || true)
             file_block=""
 
@@ -44,26 +44,26 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Skip valid cases
-              [[ "$match" =~ ^[rs_]?<:.*?:[0-9]+>$ ]] && continue
-              [[ "$match" =~ ^<:.*?:[0-9]+>[rs_]?$ ]] && continue
-              echo "$match" | grep -Pq "^${ZWS}<:.*?:[0-9]+>$" && continue
+              # Skip known safe cases
+              if echo "$match" | grep -Pq '^[rs_]?<:.*?:\d+>$'; then continue; fi
+              if echo "$match" | grep -Pq '^<:.*?:\d+>[rs_]?$'; then continue; fi
+              if echo "$match" | grep -Pq "^${ZWS}<:.*?:\d+>$"; then continue; fi
 
               fixed=$(suggest_fix "$match")
-              [[ "$match" == "$fixed" ]] && continue
-
-              file_block+="* Line $lineno:\n"
-              file_block+="  ❌ Offending segment: \`$match\`\n"
-              file_block+="  ✅ Suggestion:        \`$fixed\`\n"
+              if [ "$match" != "$fixed" ]; then
+                file_block+="* Line $lineno:\n"
+                file_block+="  ❌ Offending segment: \`$match\`\n"
+                file_block+="  ✅ Suggestion:        \`$fixed\`\n"
+              fi
             done <<< "$matches"
 
-            if [[ -n "$file_block" ]]; then
+            if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blame/${{ github.head_ref || github.ref_name }}/$clean_file"
               bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
             fi
           done
 
-          if [[ -n "$bad" ]]; then
+          if [ -n "$bad" ]; then
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
               printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space.\n\n"
