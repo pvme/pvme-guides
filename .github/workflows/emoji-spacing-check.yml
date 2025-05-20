@@ -24,7 +24,7 @@ jobs:
           
           suggest_fix() {
             echo "$1" | perl -pe '
-              # Fix alphanumeric before emoji (except valid cases handled in filter)
+              # Fix alphanumeric before emoji
               s/([a-zA-Z0-9])(<:.*?:\d+>)/$1 $2/g;
               # Fix emoji followed by alphanumeric
               s/(<:.*?:\d+>)([a-zA-Z0-9])/$1 $2/g;
@@ -39,7 +39,6 @@ jobs:
             echo "🔍 Checking file: $clean_file"
 
             regex="[^[:space:]]<:.*?:\d+>|<:.*?:\d+>[^[:space:]]"
-
             matches=$(grep -nPo "$regex" "$file" || true)
             file_block=""
 
@@ -47,8 +46,11 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # Filter known safe patterns (r/s/_/ZWS before or after)
+              # Skip valid exceptions
               echo "$match" | grep -Pq '(^[rs_]?<:.*?:\d+>$|^<:.*?:\d+>[rs_]?$)' && continue
+
+              # Skip if the literal string \u200B precedes it in the file
+              grep -q "\\u200B$match" "$file" && continue
 
               fixed=$(suggest_fix "$match")
               [[ "$match" == "$fixed" ]] && continue
@@ -66,9 +68,9 @@ jobs:
 
           if [[ -n "$bad" ]]; then
             {
-              printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n" > emoji-comment.txt
-              printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space.\n\n" >> emoji-comment.txt
-              printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n" >> emoji-comment.txt
+              printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
+              printf "%b" "Emojis must have a space before and after them unless preceded by 'r', 's', '_', '\\u200B', or a zero-width space.\n\n"
+              printf "%b" "### __Offending Lines & Suggested Fixes__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
