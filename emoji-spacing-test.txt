@@ -1,0 +1,36 @@
+# ✅ Valid spacing - space before and after
+Spellbook Swap <:SBS:543875425055670275> used for banking.
+
+# ✅ Valid - r or s directly before
+r<:spellbook:543875425055670275> or s<:grasp:543875425055670275> macros set.
+
+# ✅ Valid - zero-width space before
+\u200B<:graspingpouch:892816437478051900> ready.
+
+# ❌ Missing space before emoji
+Spellbook Swap<:SBS:543875425055670275> was cast.
+
+# ❌ Missing space after emoji
+We used <:SBS:543875425055670275>as the default.
+
+# ❌ Alphanumeric on both sides
+Swap<:SBS:543875425055670275>default
+
+# ✅ Underscores are allowed
+Swap_this_ <:SBS:543875425055670275> safely.
+
+# ❌ Punctuation is allowed; digits aren't
+This triggers<:emoji:123>
+<:emoji:123>1
+
+# ✅ Punctuation is OK
+Use this: <:emoji:123>, and that too.
+
+# ⚠️ Literal string version of \u200B (should be allowed in source code)
+"\\u200B<:emoji:123>"
+
+# ✅ Inside markdown link (valid)
+Check out [this loadout](https://example.com) <:loadout:123456789012345678>.
+
+# ❌ Inside markdown but incorrectly spaced
+[example](url)<:emoji:123>
