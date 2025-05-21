@@ -96,17 +96,22 @@ jobs:
           echo "💡 Final bad block content:"
           echo "$bad"
 
-          if [ -n "$bad" ]; then
+          if [ -n "$(echo "$bad" | tr -d '\n')" ]; then
             {
-              printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
-              printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space.\n\n"
-              printf "%b" "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._\n\n"
-              printf "%b" "### __Offending Lines__\n$bad\n"
+              echo "## ❌ Style Guide issue: Emoji Spacing"
+              echo
+              echo "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space."
+              echo
+              echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
+              echo
+              echo "### __Offending Lines__"
+              echo -e "$bad"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
+
 
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
