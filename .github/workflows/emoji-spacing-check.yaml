@@ -74,7 +74,7 @@ jobs:
 
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
-              bad+=$(printf "\n**In [\`%s\`](%s):**\n%s\n" "$clean_file" "$file_url" "$file_block")
+              bad="${bad}"$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
             fi
           done
 
