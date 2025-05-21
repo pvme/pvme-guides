@@ -43,8 +43,7 @@ jobs:
             files=$(git ls-files -z)
           else
             echo "✅ Standard mode — scanning changed files only..."
-            base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
-            files=$(git diff --name-only "$base_commit"...HEAD -z)
+            files=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -z)
           fi
 
           while IFS= read -r -d '' file; do
