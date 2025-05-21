@@ -61,26 +61,26 @@ jobs:
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")  # Extract the emoji token (e.g. <:emoji:123>)
               [ -z "$emoji" ] && continue
             
-              # Escape for safe use in Perl/grep
-              escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
+              escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')  # Escape regex special chars
             
-              # ✅ Skip if preceded by allowed leading characters (r, s, _, brackets, quotes, dash, asterisk, etc.)
+              # ✅ Allow leading character exceptions (r, s, _, punctuation, quotes, brackets, dash, asterisk)
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
             
-              # ✅ Skip if preceded by real zero-width space (U+200B)
-              echo "$match" | perl -CS -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
+              # ✅ Allow zero-width space before emoji
+              echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
             
-              # ✅ Skip if the *full line* contains this emoji *anywhere* inside backtick spans
+              # ✅ Skip matches that appear inside any backtick-enclosed content on the same line
               full_line=$(sed "${lineno}q;d" "$file")
-              echo "$full_line" | perl -CS -ne '
-                my $emoji = $ARGV[0];
+              export EMOJI="$emoji"
+              if echo "$full_line" | perl -CS -ne '
+                my $emoji = $ENV{"EMOJI"};
                 while (m/`([^`]*)`/g) {
                   exit 0 if index($1, $emoji) != -1;
                 }
                 exit 1;
-              ' "$emoji" && continue
+              ' <<< "" ; then continue; fi
             
-              # ✅ Skip if the emoji is followed by allowed trailing characters
+              # ✅ Allow trailing character exceptions (punctuation, brackets, quotes, dash, asterisk)
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
             
               # 🚫 If all filters fail, mark the match as bad
