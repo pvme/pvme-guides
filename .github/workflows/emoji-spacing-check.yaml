@@ -63,7 +63,7 @@ jobs:
 
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
-              escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[]\/$*.^|[]/\\&/g')
+              escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
 
               # Allowed leading characters
               echo "$match" | grep -Pq "[rs_\"'(\[{\-*]$escaped_emoji" && continue
