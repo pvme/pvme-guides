@@ -6,7 +6,7 @@ on:
       dev:
         description: 'Enable dev mode (scan all files)'
         required: false
-        default: 'false'
+        default: 'true'
   pull_request:
     types: [opened, synchronize, reopened]
 
