@@ -54,12 +54,12 @@ jobs:
                 $match = $1 // $2;
                 print "$.:$match\n";
               }
-            ' "$file" || true)
-            
-            [ -z "$matches" ] && echo "✅ No issues in $file" && continue
-            
-            file_block=""
-            while IFS= read -r line; do
+              ' "$file" || true)
+              
+              [ -z "$matches" ] && echo "✅ No issues in $file" && continue
+              
+              file_block=""
+              while IFS= read -r line; do
               lineno="${line%%:*}"                # Extract line number
               match="${line#*:}"                  # Extract matched content
               [ -z "$match" ] && continue
@@ -69,13 +69,13 @@ jobs:
 
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
 
-              # ✅ Skip if preceded by allowed leading chars (r, s, _, brackets, quotes, dash, asterisk)
+              # ✅ Skip match if preceded by allowed leading characters (r, s, _, punctuation, brackets, etc.)
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
 
-              # ✅ Skip if preceded by a real zero-width space
+              # ✅ Skip match if preceded by a real zero-width space (U+200B)
               echo "$match" | perl -CS -ne "exit 0 if /\x{200B}$escaped_emoji/; exit 1" && continue
 
-              # ✅ Skip if emoji appears inside any backtick-wrapped content on the same line
+              # ✅ Skip match if emoji appears inside any backtick-enclosed content on the full line
               full_line=$(sed "${lineno}q;d" "$file")
               echo "$full_line" | perl -CS -ne '
                 while (m/`([^`]*)`/g) {
@@ -84,7 +84,7 @@ jobs:
                 exit 1;
               ' && continue
 
-              # ✅ Skip if followed by allowed trailing characters
+              # ✅ Skip match if followed by allowed trailing characters
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
 
               # 🚫 Violation confirmed
