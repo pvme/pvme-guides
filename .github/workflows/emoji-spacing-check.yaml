@@ -80,8 +80,8 @@ jobs:
 
           echo "💡 Final bad block content:"
           printf "%s\n" "$bad"
-
-          if [[ -n "$bad" && "$bad" =~ [^[:space:]] ]]; then
+          
+          if [ -n "$(echo "$bad" | tr -d '\n[:space:]')" ]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
