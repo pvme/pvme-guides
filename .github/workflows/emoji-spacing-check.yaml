@@ -6,7 +6,7 @@ on:
       dev:
         description: 'Enable dev mode (scan all files)'
         required: false
-        default: 'true' # Toggle true to scan entire repo, not just changed files
+        default: 'false' # Toggle true to scan entire repo, not just changed files
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -34,13 +34,19 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           echo "🔎 Scanning files for bad emoji spacing..."
-
+          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
-          DEV_MODE="${{ github.event.inputs.dev }}"
 
-          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && "$DEV_MODE" == "true" ]]; then
+          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && "${{ github.event.inputs.dev }}" == "true" ]]; then
+            dev_mode=true
+          else
+            dev_mode=false
+          fi
+
+          echo "Event: $GITHUB_EVENT_NAME | Dev mode: $dev_mode"
+
+          if [ "$dev_mode" = true ]; then
             echo "🚧 Dev mode ON — scanning entire repo..."
             mapfile -t files < <(git ls-files)
           else
