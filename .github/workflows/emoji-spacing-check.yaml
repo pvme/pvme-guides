@@ -44,7 +44,7 @@ jobs:
             files=$(git ls-files -z)
           else
             echo "✅ Standard mode — scanning all PR-changed files..."
-            files=$(gh pr view ${{ github.event.pull_request.number }} --json files -q '.files[].path' | tr '\n' '\0')
+            files=$(gh pr diff ${{ github.event.pull_request.number }} --name-only | tr '\n' '\0')
           fi
 
           while IFS= read -r -d '' file; do
