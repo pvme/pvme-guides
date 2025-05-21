@@ -27,12 +27,11 @@ jobs:
       - name: Fetch base branch
         run: git fetch origin ${{ github.base_ref }}
       
-      - name: Install GitHub CLI
-        run: sudo apt-get install gh -y
-      
       - name: Scan files for emoji spacing violations
         id: grep
         shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           echo "Scanning files for bad emoji spacing..."
