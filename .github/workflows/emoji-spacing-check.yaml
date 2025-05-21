@@ -76,7 +76,7 @@ jobs:
               echo "$full_line" | grep -Pq '\`[^`]*<:.*?:\d+>[^`]*\`' && continue
 
               # Allowed trailing characters
-              echo "$match" | grep -Pq "^$escaped_emoji[][,!?;:\\\\(){}_\"'\\-*]" && continue
+              echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]}\_\"'\\-*]/; exit 1" && continue
 
               # Add escaped match as a bullet line
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
