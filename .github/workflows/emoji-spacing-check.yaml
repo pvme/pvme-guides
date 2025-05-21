@@ -26,27 +26,26 @@ jobs:
 
       - name: Fetch base branch
         run: git fetch origin ${{ github.base_ref }}
-
+      
+      - name: Install GitHub CLI
+        run: sudo apt-get install gh -y
+      
       - name: Scan files for emoji spacing violations
         id: grep
         shell: bash
         run: |
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           echo "Scanning files for bad emoji spacing..."
-
+      
           bad=""
-
-          # Toggle for full-repo scan
+      
           dev_mode="${{ github.event.inputs.dev == 'true' }}"
           if [ "$dev_mode" = true ]; then
             echo "🚧 Dev mode ON — scanning entire repo..."
             files=$(git ls-files -z)
           else
             echo "✅ Standard mode — scanning all PR-changed files..."
-            git fetch origin ${{ github.base_ref }}
-            base="${{ github.event.pull_request.base.sha }}"
-            head="${{ github.event.pull_request.head.sha }}"
-            files=$(git diff --diff-filter=AM --name-only "$base" "$head" -z)
+            files=$(gh pr view ${{ github.event.pull_request.number }} --json files -q '.files[].path' | tr '\n' '\0')
           fi
 
           while IFS= read -r -d '' file; do
