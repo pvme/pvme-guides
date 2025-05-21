@@ -42,8 +42,8 @@ jobs:
             echo "🚧 Dev mode ON — scanning entire repo..."
             files=$(git ls-files -z)
           else
-            echo "✅ Standard mode — scanning changed files only..."
-            files=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -z)
+            echo "✅ Standard mode — scanning all PR-changed files..."
+            files=$(git diff --diff-filter=AM --name-only origin/${{ github.base_ref }}...HEAD -z)
           fi
 
           while IFS= read -r -d '' file; do
