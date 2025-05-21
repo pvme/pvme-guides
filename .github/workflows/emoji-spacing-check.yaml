@@ -97,7 +97,7 @@ jobs:
           echo "$bad"
 
           trimmed=$(echo "$bad" | tr -d '\n[:space:]')
-          if [ -n "$trimmed" ]; then
+          if printf '%s' "$bad" | grep -q '[^[:space:]]'; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
@@ -112,6 +112,7 @@ jobs:
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
+
 
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
