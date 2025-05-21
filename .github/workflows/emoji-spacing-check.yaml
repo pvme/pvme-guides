@@ -32,7 +32,7 @@ jobs:
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
 
-          dev_mode="true"  # Toggle true to scan entire branch, false for PR-changed files only
+          dev_mode="false"  # Toggle true to scan entire branch, false for PR-changed files only
 
           echo "Dev mode: $dev_mode"
 
