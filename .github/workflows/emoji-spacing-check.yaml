@@ -63,19 +63,19 @@ jobs:
               lineno="${line%%:*}"                # Extract line number
               match="${line#*:}"                  # Extract matched content
               [ -z "$match" ] && continue
-            
+
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
-            
+
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
-            
-              # ✅ Skip if preceded by allowed characters (r, s, _, punctuation, quotes, brackets, dash, asterisk)
+
+              # ✅ Skip if preceded by allowed leading chars (r, s, _, brackets, quotes, dash, asterisk)
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
-            
-              # ✅ Skip if preceded by a real zero-width space (U+200B)
+
+              # ✅ Skip if preceded by a real zero-width space
               echo "$match" | perl -CS -ne "exit 0 if /\x{200B}$escaped_emoji/; exit 1" && continue
-            
-              # ✅ Skip if emoji is inside backticks on the full line
+
+              # ✅ Skip if emoji appears inside any backtick-wrapped content on the same line
               full_line=$(sed "${lineno}q;d" "$file")
               echo "$full_line" | perl -CS -ne '
                 while (m/`([^`]*)`/g) {
@@ -83,11 +83,11 @@ jobs:
                 }
                 exit 1;
               ' && continue
-            
-              # ✅ Skip if followed by allowed trailing characters (punctuation, brackets, quotes, etc.)
+
+              # ✅ Skip if followed by allowed trailing characters
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
-            
-              # 🚫 Violation
+
+              # 🚫 Violation confirmed
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
             done <<< "$matches"
