@@ -76,8 +76,13 @@ jobs:
             echo "$file_block"
 
             if echo "$file_block" | grep -q '[^[:space:]]'; then
+              echo "📄 Adding file_block to bad"
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
               bad="${bad}"$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
+              echo "✅ Updated bad block content:"
+              echo "$bad"
+            else
+              echo "🚫 file_block had no valid content"
             fi
           done
 
