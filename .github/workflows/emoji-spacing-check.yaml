@@ -84,7 +84,7 @@ jobs:
               # 🚫 If all filters fail, mark the match as bad
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
-            done <<< "$matches
+            done <<< "$matches"
             
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
