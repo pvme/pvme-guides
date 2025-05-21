@@ -1,127 +1,86 @@
-name: Check Emoji Spacing
+- name: Scan files for emoji spacing violations
+  id: grep
+  env:
+    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: |
+    echo "🔎 Scanning files for bad emoji spacing..."
+    branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
+    bad=""
 
-on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+    dev_mode="false"  # Toggle true to scan entire branch, false for PR-changed files only
 
-jobs:
-  check-spacing:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
+    echo "Dev mode: $dev_mode"
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: ${{ github.head_ref }}
+    if [ "$dev_mode" = true ]; then
+      echo "🚧 Dev mode ON — scanning all files in the branch..."
+      mapfile -t files < <(git ls-tree -r --name-only HEAD)
+    else
+      echo "✅ Standard mode — scanning changed files in PR..."
+      pr_number="${{ github.event.pull_request.number }}"
+      mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
+    fi
 
-      - name: Install GitHub CLI + jq
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
+    for file in "${files[@]}"; do
+      echo "📂 Checking: $file"
+      regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
+      matches=$(grep -nPo "$regex" "$file" || true)
 
-      - name: Scan files for emoji spacing violations
-        id: grep
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "🔎 Scanning files for bad emoji spacing..."
-          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
-          bad=""
+      [ -z "$matches" ] && echo "✅ No issues in $file" && continue
 
-          dev_mode="false"  # Toggle true to scan entire branch, false for PR-changed files only
+      file_block=""
+      while IFS= read -r line; do
+        lineno="${line%%:*}"                
+        match="${line#*:}"                  
+        [ -z "$match" ] && continue
 
-          echo "Dev mode: $dev_mode"
+        emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
+        [ -z "$emoji" ] && continue
 
-          if [ "$dev_mode" = true ]; then
-            echo "🚧 Dev mode ON — scanning all files in the branch..."
-            mapfile -t files < <(git ls-tree -r --name-only HEAD)
-          else
-            echo "✅ Standard mode — scanning changed files in PR..."
-            pr_number="${{ github.event.pull_request.number }}"
-            mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
-          fi
+        escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
 
-          for file in "${files[@]}"; do
-            echo "📂 Checking: $file"
-            regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
-            # ⚠️ Use Perl to match multiple spacing violations per line
-            matches=$(perl -ne '
-              while (m/[^[:space:]](<:.*?:\d+>)|(<:.*?:\d+>)[^[:space:]]/g) {
-                $match = $1 // $2;
-                print "$.:$match\n";
-              }
-              ' "$file" || true)
-              
-              [ -z "$matches" ] && echo "✅ No issues in $file" && continue
-              
-              file_block=""
-              while IFS= read -r line; do
-              lineno="${line%%:*}"                # Extract line number
-              match="${line#*:}"                  # Extract matched content
-              [ -z "$match" ] && continue
+        # ✅ Skip match if preceded by allowed leading characters
+        echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
 
-              emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
-              [ -z "$emoji" ] && continue
+        # ✅ Skip match if preceded by zero-width space
+        echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
 
-              escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
+        # ✅ Skip match if inside backtick content
+        full_line=$(sed "${lineno}q;d" "$file")
+        export EMOJI="$emoji"
+        if echo "$full_line" | perl -CS -ne '
+          my $emoji = $ENV{"EMOJI"};
+          while (m/`([^`]*)`/g) {
+            exit 0 if index($1, $emoji) != -1;
+          }
+          exit 1;
+        ' <<< ""; then continue; fi
 
-              # ✅ Skip match if preceded by allowed leading characters (r, s, _, punctuation, brackets, etc.)
-              echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
+        # ✅ Skip match if followed by allowed trailing characters
+        echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
 
-              # ✅ Skip match if preceded by a real zero-width space (U+200B)
-              echo "$match" | perl -CS -ne "exit 0 if /\x{200B}$escaped_emoji/; exit 1" && continue
+        # 🚫 Violation confirmed
+        escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
+        file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
+      done <<< "$matches"
+      
+      if [ -n "$file_block" ]; then
+        file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
+        bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
+      fi
+    done
 
-              # ✅ Skip match if emoji appears inside any backtick-enclosed content on the full line
-              full_line=$(sed "${lineno}q;d" "$file")
-              echo "$full_line" | perl -CS -ne '
-                while (m/`([^`]*)`/g) {
-                  exit 0 if $1 =~ /<:.*?:\d+>/;
-                }
-                exit 1;
-              ' && continue
-
-              # ✅ Skip match if followed by allowed trailing characters
-              echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
-
-              # 🚫 Violation confirmed
-              escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
-              file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
-            done <<< "$matches"
-         
-            if [ -n "$file_block" ]; then
-              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
-              bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
-            fi
-          done
-
-          if [ -n "$bad" ]; then
-            {
-              echo "## ❌ Style Guide issue: Emoji Spacing"
-              echo
-              echo "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space."
-              echo
-              echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
-              echo
-              echo "### __Offending Lines__"
-              echo "$bad"
-            } > emoji-comment.txt
-            echo "found=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "found=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Comment on PR if issues found
-        if: steps.grep.outputs.found == 'true'
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body-path: emoji-comment.txt
-
-      - name: Fail the job if issues found
-        if: steps.grep.outputs.found == 'true'
-        run: exit 1
+    if [ -n "$bad" ]; then
+      {
+        echo "## ❌ Style Guide issue: Emoji Spacing"
+        echo
+        echo "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space."
+        echo
+        echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
+        echo
+        echo "### __Offending Lines__"
+        echo "$bad"
+      } > emoji-comment.txt
+      echo "found=true" >> "$GITHUB_OUTPUT"
+    else
+      echo "found=false" >> "$GITHUB_OUTPUT"
+    fi
