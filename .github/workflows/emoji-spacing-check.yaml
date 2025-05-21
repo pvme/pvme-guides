@@ -43,7 +43,17 @@ jobs:
             echo "🔍 Checking file: $clean_file"
 
             regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
+            export LC_ALL=C.UTF-8
             matches=$(grep -nPo "$regex" "$file" || true)
+
+            echo "MATCHES FOUND:"
+            echo "$matches"
+
+            if [ -z "$matches" ]; then
+              echo "⚠️  No matches found in: $file"
+              continue
+            fi
+
             file_block=""
 
             while IFS= read -r line; do
