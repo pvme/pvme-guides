@@ -57,18 +57,37 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
               [ -z "$match" ] && continue
-
+            
+              # Extract the emoji from the matched portion (e.g., <:emoji:123>)
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
+            
+              # Escape regex-special characters in the emoji string
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
-
+            
+              # ─────────────── FILTERS ───────────────
+            
+              # 1. Ignore if preceded by allowed characters (e.g., r<:x>, _<:x>, -<:x>)
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
+            
+              # 2. Ignore if preceded by a zero-width space (\u200B)
               echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
+            
+              # 3. Ignore if the emoji is within a backtick block (e.g., `...<:x>...`)
               full_line=$(sed "${lineno}q;d" "$file")
-              echo "$full_line" | grep -Pq '\`[^`]*<:.*?:\d+>[^`]*\`' && continue
+              if echo "$full_line" | grep -q '\`' && echo "$full_line" | grep -Pq "\`[^`]*$escaped_emoji[^`]*\`"; then
+                continue
+              fi
+            
+              # 4. Ignore if followed by allowed punctuation or symbols (e.g., <:x>! or <:x>.)
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
-
+            
+              # ─────────────── REPORT ───────────────
+            
+              # Escape backticks in the match to avoid markdown issues
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
+            
+              # Append the offending line to the file block
               file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
             done <<< "$matches"
 
