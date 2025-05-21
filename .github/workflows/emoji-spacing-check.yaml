@@ -37,8 +37,10 @@ jobs:
           echo "Dev mode: $dev_mode"
 
           if [ "$dev_mode" = true ]; then
+            echo "🚧 Dev mode ON — scanning entire branch"
             mapfile -t files < <(git ls-tree -r --name-only HEAD)
           else
+            echo "✅ Standard mode — scanning PR-changed files"
             pr_number="${{ github.event.pull_request.number }}"
             mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
           fi
@@ -46,10 +48,11 @@ jobs:
           for file in "${files[@]}"; do
             echo "📂 Checking: $file"
 
-            # 1) Use Perl lookarounds to find emojis with no space on one side
+            # 1) Find every emoji touching a non-space (no space before OR after),
+            #    using Perl look-arounds to capture the token itself.
             matches=$(perl -nle '
               while (/(?<![\srs_"'"'"'\(\[\{\-\*])(<:[^:]+:\d+>)(?![\s,\.!?;:\)\]\}\_"'"'"'\-\*])/g) {
-                print "$.:$1"
+                print "$.:$1";
               }
             ' "$file" || true)
 
@@ -60,40 +63,38 @@ jobs:
               lineno="${line%%:*}"
               match="${line#*:}"
 
-              # 2) Skip if allowed leading char
+              # 2) Skip if allowed leading char (r, s, _, punctuation, quotes, brackets, dash, asterisk)
               echo "$match" \
                 | grep -Pq "^[rs_\"'(\[{\-*]?<:.*?:\d+>$" \
                 && continue
 
-              # 3) Skip if preceded by real ZWS
+              # 3) Skip if preceded by a real zero-width space (U+200B)
               echo "$match" \
                 | grep -Pq "^$(printf '\u200B')<:.*?:\d+>$" \
                 && continue
 
-              # 4) Skip if inside backticks
+              # 4) Skip if inside backtick-wrapped content
               full_line=$(sed "${lineno}q;d" "$file")
               echo "$full_line" \
                 | grep -Pq '`[^`]*<:.*?:\d+>[^`]*`' \
                 && continue
 
-              # 5) Skip if allowed trailing char
+              # 5) Skip if allowed trailing char (punctuation, quotes, brackets, dash, asterisk)
               echo "$match" \
                 | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" \
                 && continue
 
-              # 🚫 Real violation!
+              # 🚫 Violation confirmed
               escaped=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped}\`"
             done <<< "$matches"
 
-            # Append this file's offenses
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
-              bad+=$'\n'"**In [\`'$file'\`]($file_url):**"$'\n'"$file_block"
+              bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
             fi
           done
 
-          # Now post or fail if any violations found
           if [ -n "$bad" ]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
