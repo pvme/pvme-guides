@@ -6,7 +6,7 @@ on:
       dev:
         description: 'Enable dev mode (scan all files)'
         required: false
-        default: 'false' # Toggle true to scan entire repo, not just changed files
+        default: 'true' # Toggle true to scan entire repo, not just changed files
   pull_request:
     types: [opened, synchronize, reopened]
 
