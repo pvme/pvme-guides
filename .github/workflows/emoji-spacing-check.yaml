@@ -96,7 +96,6 @@ jobs:
           echo "💡 Final bad block content:"
           echo "$bad"
 
-          trimmed=$(echo "$bad" | tr -d '\n[:space:]')
           if printf '%s' "$bad" | grep -q '[^[:space:]]'; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
@@ -108,11 +107,12 @@ jobs:
               echo "### __Offending Lines__"
               echo -e "$bad"
             } > emoji-comment.txt
+            echo "found=true"
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
+            echo "found=false"
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
-
 
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
