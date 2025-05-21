@@ -37,72 +37,63 @@ jobs:
           echo "Dev mode: $dev_mode"
 
           if [ "$dev_mode" = true ]; then
-            echo "🚧 Dev mode ON — scanning entire branch"
             mapfile -t files < <(git ls-tree -r --name-only HEAD)
           else
-            echo "✅ Standard mode — scanning PR-changed files"
             pr_number="${{ github.event.pull_request.number }}"
             mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
           fi
 
           for file in "${files[@]}"; do
             echo "📂 Checking: $file"
-            # ————————————————————————————————————————————
-            # Match <:emoji:123…> only when it is NOT:
-            #  • preceded by whitespace OR [r s _ " ' ( [ { - *]
-            #  • followed by whitespace OR [ , . ! ? ; : ) ] } " ' - *]
-            # ————————————————————————————————————————————
+
+            # 1) Use Perl lookarounds to find emojis with no space on one side
             matches=$(perl -nle '
               while (/(?<![\srs_"'"'"'\(\[\{\-\*])(<:[^:]+:\d+>)(?![\s,\.!?;:\)\]\}\_"'"'"'\-\*])/g) {
-                print "$.:$1";
+                print "$.:$1"
               }
             ' "$file" || true)
-            
-            # 1) Find every emoji touching a non-space (either no space before or no space after)
-            regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
-            matches=$(grep -nPo "$regex" "$file" || true)
-            
+
             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
-            
+
             file_block=""
             while IFS= read -r line; do
-              lineno="${line%%:*}"      # line number
-              match="${line#*:}"        # the exact substring, e.g. "d<:emoji:123...>" or "<:emoji:123...>."
-            
-              # ———————————————————————————————————————————————
-              # 2) ALLOWED LEADING CHARACTERS
-              #    Skip if the match *is exactly* optional [r s _ " ' ( [ { - *]
-              #    THEN the emoji with no extra context.
+              lineno="${line%%:*}"
+              match="${line#*:}"
+
+              # 2) Skip if allowed leading char
               echo "$match" \
                 | grep -Pq "^[rs_\"'(\[{\-*]?<:.*?:\d+>$" \
                 && continue
-            
-              # ———————————————————————————————————————————————
-              # 3) ALLOW ZERO-WIDTH SPACE BEFORE
-              #    (real U+200B, not literal “\u200B”)
+
+              # 3) Skip if preceded by real ZWS
               echo "$match" \
                 | grep -Pq "^$(printf '\u200B')<:.*?:\d+>$" \
                 && continue
-            
-              # ———————————————————————————————————————————————
-              # 4) ALLOW INSIDE BACKTICKS
+
+              # 4) Skip if inside backticks
               full_line=$(sed "${lineno}q;d" "$file")
               echo "$full_line" \
                 | grep -Pq '`[^`]*<:.*?:\d+>[^`]*`' \
                 && continue
-            
-              # ———————————————————————————————————————————————
-              # 5) ALLOWED TRAILING CHARACTERS
+
+              # 5) Skip if allowed trailing char
               echo "$match" \
                 | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" \
                 && continue
-            
-              # ———————————————————————————————————————————————
-              # 🚫 If we get here, none of the exceptions applied → violation
-              escaped_match=$(printf '%s' "$match" | sed 's/`/\\`/g')
-              file_block+=$'\n'"* Line $lineno: \`${escaped_match}\`"
+
+              # 🚫 Real violation!
+              escaped=$(printf '%s' "$match" | sed 's/`/\\`/g')
+              file_block+=$'\n'"* Line $lineno: \`${escaped}\`"
             done <<< "$matches"
 
+            # Append this file's offenses
+            if [ -n "$file_block" ]; then
+              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
+              bad+=$'\n'"**In [\`'$file'\`]($file_url):**"$'\n'"$file_block"
+            fi
+          done
+
+          # Now post or fail if any violations found
           if [ -n "$bad" ]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
