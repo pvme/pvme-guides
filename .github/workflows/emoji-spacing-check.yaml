@@ -2,6 +2,11 @@ name: Check Emoji Spacing
 
 on:
   pull_request:
+    inputs:
+      dev:
+        description: 'Enable dev mode (scan all files)'
+        required: false
+        default: 'false'
 
 jobs:
   check-spacing:
@@ -29,7 +34,16 @@ jobs:
 
           bad=""
 
-          base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
+          # Toggle for full-repo scan
+          dev_mode="${{ github.event.inputs.dev == 'true' }}"
+          if [ "$dev_mode" = true ]; then
+            echo "🚧 Dev mode ON — scanning entire repo..."
+            files=$(git ls-files -z)
+          else
+            echo "✅ Standard mode — scanning changed files only..."
+            base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
+            files=$(git diff --name-only "$base_commit"...HEAD -z)
+          fi
 
           while IFS= read -r -d '' file; do
             clean_file="${file#./}"
@@ -83,7 +97,7 @@ jobs:
             else
               echo "🚫 file_block had no valid content"
             fi
-          done < <(git diff --name-only "$base_commit"...HEAD -z)
+          done <<< "$files"
 
           echo "💡 Final bad block content:"
           echo "$bad"
