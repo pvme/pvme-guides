@@ -63,9 +63,10 @@ jobs:
 
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
+              escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[]\/$*.^|[]/\\&/g')
 
               # Allowed leading characters
-              echo "$match" | grep -Pq "[rs_\"'(\[{\-*]$emoji" && continue
+              echo "$match" | grep -Pq "[rs_\"'(\[{\-*]$escaped_emoji" && continue
 
               # Allow leading zero-width space using Perl
               echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
@@ -75,7 +76,7 @@ jobs:
               echo "$full_line" | grep -Pq '\`[^`]*<:.*?:\d+>[^`]*\`' && continue
 
               # Allowed trailing characters
-              echo "$match" | grep -Pq "^$emoji[.,!?;:\\\\)\]}\_\"'\-\*]" && continue
+              echo "$match" | grep -Pq "^$escaped_emoji[.,!?;:\\\\)\]}\_\"'\-\*]" && continue
 
               # Add escaped match as a bullet line
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
