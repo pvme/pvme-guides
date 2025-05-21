@@ -58,30 +58,28 @@ jobs:
               match="${line#*:}"
               [ -z "$match" ] && continue
             
-              # Extract the emoji from the match (e.g. <:emoji:123>)
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
-            
-              # Escape the emoji for safe use in regex
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
             
-              # ✅ Allow if preceded by r/s/_/"/'/(, [, {, -, *
+              # ✅ Skip match if preceded by allowed leading characters: r, s, _, punctuation, brackets, dash, etc.
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
             
-              # ✅ Allow if preceded by a zero-width space (U+200B)
-              echo "$match" | perl -ne "exit 0 if /\x{200B}$escaped_emoji/; exit 1" && continue
+              # ✅ Skip match if preceded by a zero-width space character (REAL \u200B, not literal text)
+              echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
             
-              # ✅ Allow if emoji is inside backticks
+              # ✅ Skip match if full line contains the emoji inside backticks (supports multiple emojis)
               full_line=$(sed "${lineno}q;d" "$file")
-              echo "$full_line" | perl -ne "exit 0 if /\`[^\`]*$escaped_emoji[^\`]*\`/; exit 1" && continue
+              echo "$full_line" | perl -ne "exit 0 if /\`[^\`]*$escaped_emoji([^\`]*$escaped_emoji)*[^\`]*\`/; exit 1" && continue
             
-              # ✅ Allow if followed by punctuation or brackets
+              # ✅ Skip match if followed by allowed trailing characters (punctuation, brackets, etc.)
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
             
-              # 🚫 If none of the above apply, it's a spacing issue — add to block
+              # ⚠️ If it passes all checks, add to file_block
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
             done <<< "$matches"
+
 
 
             if [ -n "$file_block" ]; then
