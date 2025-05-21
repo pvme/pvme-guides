@@ -1,12 +1,6 @@
 name: Check Emoji Spacing
 
 on:
-  workflow_dispatch:
-    inputs:
-      dev:
-        description: 'Enable dev mode (scan all files)'
-        required: false
-        default: 'true' # Toggle true to scan entire repo, not just changed files
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -38,19 +32,15 @@ jobs:
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
 
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            dev_mode="${{ github.event.inputs.dev }}"
-          else
-            dev_mode="false"
-          fi
+          dev_mode="false"  # Toggle true to scan entire branch, false for PR-changed files only
 
-          echo "Event: $GITHUB_EVENT_NAME | Dev mode: $dev_mode"
+          echo "Dev mode: $dev_mode"
 
-          if [ "$dev_mode" = "true" ]; then
-            echo "🚧 Dev mode ON — scanning entire repo..."
-            mapfile -t files < <(git ls-files)
+          if [ "$dev_mode" = true ]; then
+            echo "🚧 Dev mode ON — scanning all files in the branch..."
+            mapfile -t files < <(git ls-tree -r --name-only HEAD)
           else
-            echo "✅ Standard mode — scanning all PR-changed files..."
+            echo "✅ Standard mode — scanning changed files in PR..."
             pr_number="${{ github.event.pull_request.number }}"
             mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
           fi
