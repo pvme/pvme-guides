@@ -79,9 +79,6 @@ jobs:
               echo "📄 Adding file_block to bad"
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
               bad="${bad}"$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
-              echo "found=true" >> "$GITHUB_OUTPUT"
-              echo "✅ Updated bad block content:"
-              echo "$bad"
             else
               echo "🚫 file_block had no valid content"
             fi
@@ -90,7 +87,7 @@ jobs:
           echo "💡 Final bad block content:"
           echo "$bad"
 
-          if grep -q '[^[:space:]]' <<< "$bad"; then
+          if echo "$bad" | grep -q '[^[:space:]]'; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
@@ -101,6 +98,9 @@ jobs:
               echo "### __Offending Lines__"
               echo "$bad"
             } > emoji-comment.txt
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Comment on PR if issues found
