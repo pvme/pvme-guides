@@ -44,8 +44,9 @@ jobs:
           else
             echo "✅ Standard mode — scanning all PR-changed files..."
             git fetch origin ${{ github.base_ref }}
-            merge_base=$(git merge-base FETCH_HEAD HEAD)
-            files=$(git diff --diff-filter=AM --name-only "$merge_base"...HEAD -z)
+            base="${{ github.event.pull_request.base.sha }}"
+            head="${{ github.event.pull_request.head.sha }}"
+            files=$(git diff --diff-filter=AM --name-only "$base" "$head" -z)
           fi
 
           while IFS= read -r -d '' file; do
