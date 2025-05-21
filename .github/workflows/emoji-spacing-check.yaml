@@ -88,7 +88,7 @@ jobs:
             
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
-              bad+=$'\n'"**In [$file]($file_url):**"$'\n'"$file_block"
+              bad="${bad}"$'\n'"**In [${file}](${file_url}):**"$'\n'"${file_block}"
             fi
           done
 
