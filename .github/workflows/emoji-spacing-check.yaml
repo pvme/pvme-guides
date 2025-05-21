@@ -24,53 +24,43 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
 
-      - name: Fetch base branch
-        run: git fetch origin ${{ github.base_ref }}
-      
+      - name: Install GitHub CLI + jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
       - name: Scan files for emoji spacing violations
         id: grep
-        shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
-          echo "Scanning files for bad emoji spacing..."
-      
+          echo "🔎 Scanning files for bad emoji spacing..."
+
           bad=""
-      
           dev_mode="${{ github.event.inputs.dev == 'true' }}"
+
           if [ "$dev_mode" = true ]; then
             echo "🚧 Dev mode ON — scanning entire repo..."
-            files=$(git ls-files -z)
+            mapfile -t files < <(git ls-files)
           else
             echo "✅ Standard mode — scanning all PR-changed files..."
-            files=$(gh pr diff ${{ github.event.pull_request.number }} --name-only | tr '\n' '\0')
+            pr_number="${{ github.event.pull_request.number }}"
+            mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
           fi
 
-          while IFS= read -r -d '' file; do
-            clean_file="${file#./}"
-            echo "🔍 Checking file: $clean_file"
-
+          for file in "${files[@]}"; do
+            echo "📂 Checking: $file"
             regex="[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]"
-            export LC_ALL=C.UTF-8
             matches=$(grep -nPo "$regex" "$file" || true)
 
-            echo "MATCHES FOUND:"
-            echo "$matches"
-
-            if [ -z "$matches" ]; then
-              echo "⚠️  No matches found in: $file"
-              continue
-            fi
+            [ -z "$matches" ] && echo "✅ No issues in $file" && continue
 
             file_block=""
-
             while IFS= read -r line; do
               lineno="${line%%:*}"
               match="${line#*:}"
               [ -z "$match" ] && continue
-
-              echo "🔎 Checking match on line $lineno: $match"
 
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
@@ -83,28 +73,16 @@ jobs:
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
 
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
-              echo "⚠️  Adding to file_block: $escaped_match"
-              file_block="${file_block}"$'\n'"* Line ${lineno}: \`${escaped_match}\`"
+              file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
             done <<< "$matches"
 
-            echo "📄 Current file_block:"
-            echo "$file_block"
-
-            if echo "$file_block" | grep -q '[^[:space:]]'; then
-              echo "📄 Adding file_block to bad"
-              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
-              bad="${bad}"$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
-              echo "✅ Updated bad block content:"
-              echo "$bad"
-            else
-              echo "🚫 file_block had no valid content"
+            if [ -n "$file_block" ]; then
+              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
+              bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
             fi
-          done <<< "$files"
+          done
 
-          echo "💡 Final bad block content:"
-          echo "$bad"
-
-          if grep -q '[^[:space:]]' <<< "$bad"; then
+          if [ -n "$bad" ]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
