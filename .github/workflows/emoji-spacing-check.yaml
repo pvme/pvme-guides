@@ -61,6 +61,8 @@ jobs:
               match="${line#*:}"
               [ -z "$match" ] && continue
 
+              echo "🔎 Checking match on line $lineno: $match"
+
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
@@ -68,10 +70,10 @@ jobs:
               # Allowed leading characters
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
 
-              # Allow leading zero-width space using Perl
+              # Allow leading ZWS
               echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
 
-              # Skip if the full line contains the emoji inside backticks
+              # Skip if emoji appears inside backticks on the full line
               full_line=$(sed "${lineno}q;d" "$file")
               echo "$full_line" | grep -Pq '\`[^`]*<:.*?:\d+>[^`]*\`' && continue
 
@@ -80,15 +82,19 @@ jobs:
 
               # Add escaped match as a bullet line
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
+              echo "⚠️  Adding to file_block: $escaped_match"
               file_block+="* Line $lineno: \`$escaped_match\`\n"
 
             done <<< "$matches"
 
             if [ -n "$file_block" ]; then
-              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file#L$lineno"
+              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
               bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
             fi
           done
+
+          echo "💡 Final bad block content:"
+          echo "$bad"
 
           if [ -n "$bad" ]; then
             {
