@@ -1,0 +1,26 @@
+# Emoji Spacing Test
+
+## ❌ Incorrect spacing examples (should be flagged)
+
+- This is bad<:emoji:1234567890>spacing.
+- Another<:test:9876543210>example.
+- No space before<:fail:123> or after<:fail:456>text.
+
+## ✅ Allowed leading/trailing characters (should NOT be flagged)
+
+- r<:emoji:1> s<:emoji:2> _<:emoji:3>
+- "<:emoji:4>" -<:emoji:5>- (*<:emoji:6>*)
+- <:emoji:7>! <:emoji:8>, <:emoji:9>) <:emoji:10>.
+
+## ✅ Inside backticks (should NOT be flagged)
+
+- `This block contains <:emoji:11> safely.`
+- Here’s a whole line: `<:emoji:12> <:emoji:13> <:emoji:14>` inside \`backticks\`
+
+## ❌ Mixed line: some good, some bad (should flag only bad)
+
+- One good <:emoji:15>,onebad<:emoji:16>.
+
+## ✅ Zero-width space before emoji (should NOT be flagged)
+
+- Before\u200B<:emoji:17>
