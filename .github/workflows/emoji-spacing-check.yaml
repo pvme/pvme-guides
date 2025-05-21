@@ -83,13 +83,13 @@ jobs:
               # Add escaped match as a bullet line
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
               echo "⚠️  Adding to file_block: $escaped_match"
-              file_block+="* Line $lineno: \`$escaped_match\`\n"
+              file_block+=$(printf "* Line %s: \`%s\`\n" "$lineno" "$escaped_match")
 
             done <<< "$matches"
 
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
-              bad+=$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
+              bad+=$(printf "\n**In [\`%s\`](%s):**\n%s\n" "$clean_file" "$file_url" "$file_block")
             fi
           done
 
