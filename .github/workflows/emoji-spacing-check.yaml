@@ -46,8 +46,9 @@ jobs:
               zws_char=$(echo -e '\u200B')
               echo "$match" | grep -Pq "^$zws_char<:.*?:\d+>$" && continue
 
-              # Skip if match is entirely inside backticks (allow surrounding whitespace)
-              echo "$match" | grep -Pq '^\s*\`.*<:.*?:\d+>.*\`\s*$' && continue
+              # Skip if the full line contains the emoji inside backticks
+              full_line=$(sed "${lineno}q;d" "$file")
+              echo "$full_line" | grep -Pq '\`[^`]*<:.*?:\d+>[^`]*\`' && continue
 
               # Allowed trailing characters
               echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" && continue
