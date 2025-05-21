@@ -69,6 +69,7 @@ jobs:
             {
               printf "%b" "## ❌ Style Guide issue: Emoji Spacing\n\n"
               printf "%b" "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space.\n\n"
+              printf "%b" "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._\n\n"
               printf "%b" "### __Offending Lines__\n$bad\n"
             } > emoji-comment.txt
             echo "found=true" >> "$GITHUB_OUTPUT"
