@@ -58,38 +58,31 @@ jobs:
               match="${line#*:}"
               [ -z "$match" ] && continue
             
-              # Extract the emoji from the matched portion (e.g., <:emoji:123>)
+              # Extract the emoji from the match (e.g. <:emoji:123>)
               emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
               [ -z "$emoji" ] && continue
             
-              # Escape regex-special characters in the emoji string
+              # Escape the emoji for safe use in regex
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
             
-              # ─────────────── FILTERS ───────────────
-            
-              # 1. Ignore if preceded by allowed characters (e.g., r<:x>, _<:x>, -<:x>)
+              # ✅ Allow if preceded by r/s/_/"/'/(, [, {, -, *
               echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
             
-              # 2. Ignore if preceded by a zero-width space (\u200B)
-              echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
+              # ✅ Allow if preceded by a zero-width space (U+200B)
+              echo "$match" | perl -ne "exit 0 if /\x{200B}$escaped_emoji/; exit 1" && continue
             
-              # 3. Ignore if the emoji is within a backtick block (e.g., `...<:x>...`)
+              # ✅ Allow if emoji is inside backticks
               full_line=$(sed "${lineno}q;d" "$file")
-              if echo "$full_line" | grep -q '\`' && echo "$full_line" | grep -Pq "\`[^`]*$escaped_emoji[^`]*\`"; then
-                continue
-              fi
+              echo "$full_line" | perl -ne "exit 0 if /\`[^\`]*$escaped_emoji[^\`]*\`/; exit 1" && continue
             
-              # 4. Ignore if followed by allowed punctuation or symbols (e.g., <:x>! or <:x>.)
+              # ✅ Allow if followed by punctuation or brackets
               echo "$match" | perl -ne "exit 0 if /^$escaped_emoji[.,!?;:\\\\)\\]{}_\"'\\-*]/; exit 1" && continue
             
-              # ─────────────── REPORT ───────────────
-            
-              # Escape backticks in the match to avoid markdown issues
+              # 🚫 If none of the above apply, it's a spacing issue — add to block
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
-            
-              # Append the offending line to the file block
               file_block+=$'\n'"* Line ${lineno}: \`${escaped_match}\`"
             done <<< "$matches"
+
 
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
