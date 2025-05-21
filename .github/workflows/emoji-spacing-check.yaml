@@ -102,8 +102,12 @@ jobs:
               echo "### __Offending Lines__"
               echo "$bad"
             } > emoji-comment.txt
+
+            echo "found=true"
             echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Wrote output to GITHUB_OUTPUT: found=true"
           else
+            echo "found=false"
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
