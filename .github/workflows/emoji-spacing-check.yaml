@@ -92,14 +92,13 @@ jobs:
               echo "### __Offending Lines__"
               echo "$bad"
             } > emoji-comment.txt
-            echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "found=true" >> "$GITHUB_ENV"
           else
-            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "found=false" >> "$GITHUB_ENV"
           fi
 
-
       - name: Comment on PR if issues found
-        if: steps.grep.outputs.found == 'true'
+        if: env.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -107,5 +106,5 @@ jobs:
           body-path: emoji-comment.txt
 
       - name: Fail the job if issues found
-        if: steps.grep.outputs.found == 'true'
+        if: env.found == 'true'
         run: exit 1
