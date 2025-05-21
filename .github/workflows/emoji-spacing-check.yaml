@@ -106,8 +106,6 @@ jobs:
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
-        outputs:
-          found: ${{ steps.grep.outputs.found }}
 
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
