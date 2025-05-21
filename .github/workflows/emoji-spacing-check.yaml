@@ -94,9 +94,9 @@ jobs:
           done
 
           echo "💡 Final bad block content:"
-          echo "$bad"
-
-          if printf '%s' "$bad" | grep -q '[^[:space:]]'; then
+          printf "%s\n" "$bad"
+          
+          if [[ -n "$bad" ]]; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
               echo
@@ -105,12 +105,10 @@ jobs:
               echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
               echo
               echo "### __Offending Lines__"
-              echo -e "$bad"
+              printf "%s\n" "$bad"
             } > emoji-comment.txt
-            echo "found=true"
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
-            echo "found=false"
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
