@@ -6,7 +6,7 @@ on:
       dev:
         description: 'Enable dev mode (scan all files)'
         required: false
-        default: 'true'
+        default: 'true' # Toggle true to scan entire repo, not just changed files
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -28,20 +28,19 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
-      
+
       - name: Scan files for emoji spacing violations
         id: grep
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEV_MODE: ${{ github.event.inputs.dev }}
-        shell: bash
         run: |
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           echo "🔎 Scanning files for bad emoji spacing..."
-      
+
           bad=""
-      
-          if [ "$DEV_MODE" = "true" ]; then
+          DEV_MODE="${{ github.event.inputs.dev }}"
+
+          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && "$DEV_MODE" == "true" ]]; then
             echo "🚧 Dev mode ON — scanning entire repo..."
             mapfile -t files < <(git ls-files)
           else
