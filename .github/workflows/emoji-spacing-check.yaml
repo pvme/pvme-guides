@@ -69,8 +69,11 @@ jobs:
 
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
               echo "⚠️  Adding to file_block: $escaped_match"
-              file_block+=$(printf "* Line %s: \`%s\`\n" "$lineno" "$escaped_match")
+              file_block="${file_block}"$'\n'"* Line ${lineno}: \`${escaped_match}\`"
             done <<< "$matches"
+
+            echo "📄 Current file_block:"
+            echo "$file_block"
 
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
@@ -80,7 +83,7 @@ jobs:
 
           echo "💡 Final bad block content:"
           echo "$bad"
-          
+
           if echo "$bad" | grep -q '[^[:space:]]'; then
             {
               echo "## ❌ Style Guide issue: Emoji Spacing"
