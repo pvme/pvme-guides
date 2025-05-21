@@ -43,7 +43,8 @@ jobs:
             files=$(git ls-files -z)
           else
             echo "✅ Standard mode — scanning all PR-changed files..."
-            merge_base=$(git merge-base origin/${{ github.base_ref }} HEAD)
+            git fetch origin ${{ github.base_ref }}
+            merge_base=$(git merge-base FETCH_HEAD HEAD)
             files=$(git diff --diff-filter=AM --name-only "$merge_base"...HEAD -z)
           fi
 
