@@ -92,7 +92,7 @@ jobs:
               bad+=$(printf "\n**In [\`%s\`](%s):**\n%s\n" "$clean_file" "$file_url" "$file_block")
             fi
           done
-
+          
           echo "💡 Final bad block content:"
           printf "%s\n" "$bad"
           
@@ -107,10 +107,12 @@ jobs:
               echo "### __Offending Lines__"
               printf "%s\n" "$bad"
             } > emoji-comment.txt
+          
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
+
 
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
