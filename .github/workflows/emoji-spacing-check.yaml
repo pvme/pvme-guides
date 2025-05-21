@@ -20,20 +20,25 @@ jobs:
       - name: Fetch base branch
         run: git fetch origin ${{ github.base_ref }}
 
-      - name: Scan all files for emoji spacing violations
+      - name: Scan files for emoji spacing violations
         id: grep
         shell: bash
         run: |
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
-          echo "Scanning changed files..."
-          
-          # Toggle between scanning all files (1st line) vs. changed files only (2nd and 3rd line)
-          # all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
-          base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
-          all_files=$(git diff --name-only "$base_commit"...HEAD)
+          echo "Scanning files for bad emoji spacing..."
 
           bad=""
-          for file in $all_files; do
+
+          ### TOGGLE MODE BELOW ###
+
+          # 🔁 DEV MODE: Scan all files in repo
+          # find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \) -print0 |
+
+          # ✅ PROD MODE: Scan only changed files in PR (space-safe)
+          base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
+          git diff --name-only "$base_commit"...HEAD -z |
+
+          while IFS= read -r -d '' file; do
             clean_file="${file#./}"
             echo "🔍 Checking file: $clean_file"
 
