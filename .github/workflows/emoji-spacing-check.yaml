@@ -1,12 +1,14 @@
 name: Check Emoji Spacing
 
 on:
-  pull_request:
+  workflow_dispatch:
     inputs:
       dev:
         description: 'Enable dev mode (scan all files)'
         required: false
         default: 'false'
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   check-spacing:
