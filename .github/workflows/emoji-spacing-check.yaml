@@ -61,19 +61,22 @@ jobs:
               match="${line#*:}"
               [ -z "$match" ] && continue
 
+              emoji=$(echo "$match" | grep -oP "<:.*?:\d+>")
+              [ -z "$emoji" ] && continue
+
               # Allowed leading characters
-              echo "$match" | grep -Pq "^[rs_\"'(\[{\-*]?<:.*?:\d+>$" && continue
+              echo "$match" | grep -Pq "[rs_\"'(\[{\-*]$emoji" && continue
 
               # Allow leading ZWS (true char, not literal)
               zws_char=$(echo -e '\u200B')
-              echo "$match" | grep -Pq "^$zws_char<:.*?:\d+>$" && continue
+              echo "$match" | grep -Pq "$zws_char$emoji" && continue
 
               # Skip if the full line contains the emoji inside backticks
               full_line=$(sed "${lineno}q;d" "$file")
               echo "$full_line" | grep -Pq '\`[^`]*<:.*?:\d+>[^`]*\`' && continue
 
               # Allowed trailing characters
-              echo "$match" | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" && continue
+              echo "$match" | grep -Pq "^$emoji[.,!?;:\\\\)\]}\_\"'\-\*]" && continue
 
               # Add escaped match as a bullet line
               escaped_match=$(printf "%s" "$match" | sed 's/`/\\`/g')
