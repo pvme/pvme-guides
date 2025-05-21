@@ -75,7 +75,7 @@ jobs:
             echo "📄 Current file_block:"
             echo "$file_block"
 
-            if [ -n "$file_block" ]; then
+            if echo "$file_block" | grep -q '[^[:space:]]'; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$clean_file"
               bad="${bad}"$'\n'"**In [\`$clean_file\`]($file_url):**"$'\n'"$file_block"
             fi
