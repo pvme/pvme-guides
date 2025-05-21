@@ -67,9 +67,8 @@ jobs:
               # Allowed leading characters
               echo "$match" | grep -Pq "[rs_\"'(\[{\-*]$emoji" && continue
 
-              # Allow leading ZWS (true char, not literal)
-              zws_char=$(echo -e '\u200B')
-              echo "$match" | grep -Pq "$zws_char$emoji" && continue
+              # Allow leading zero-width space using Perl
+              echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
 
               # Skip if the full line contains the emoji inside backticks
               full_line=$(sed "${lineno}q;d" "$file")
