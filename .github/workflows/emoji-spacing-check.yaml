@@ -28,9 +28,9 @@ jobs:
           echo "Scanning changed files..."
           
           # Toggle between scanning all files (1st line) vs. changed files only (2nd and 3rd line)
-          all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
-          # base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
-          # all_files=$(git diff --name-only "$base_commit"...HEAD)
+          # all_files=$(find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.js" -o -name "*.ts" -o -name "*.py" -o -name "*.html" -o -name "*.rb" -o -name "*.go" -o -name "*.c" -o -name "*.cpp" \))
+          base_commit=$(git merge-base HEAD origin/${{ github.base_ref }})
+          all_files=$(git diff --name-only "$base_commit"...HEAD)
 
           bad=""
           for file in $all_files; do
