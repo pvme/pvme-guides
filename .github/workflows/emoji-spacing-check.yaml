@@ -66,7 +66,7 @@ jobs:
               escaped_emoji=$(printf '%s' "$emoji" | sed -e 's/[][(){}.^$*+?|\\]/\\&/g')
 
               # Allowed leading characters
-              echo "$match" | grep -Pq "[rs_\"'(\[{\-*]$escaped_emoji" && continue
+              echo "$match" | perl -ne "exit 0 if /[rs_\"'\\(\\[{\-*]$escaped_emoji/; exit 1" && continue
 
               # Allow leading zero-width space using Perl
               echo "$match" | perl -ne "exit 0 if /\x{200B}$emoji/; exit 1" && continue
