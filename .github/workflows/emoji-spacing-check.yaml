@@ -38,15 +38,15 @@ jobs:
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
 
-          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && "${{ github.event.inputs.dev }}" == "true" ]]; then
-            dev_mode=true
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            dev_mode="${{ github.event.inputs.dev }}"
           else
-            dev_mode=false
+            dev_mode="false"
           fi
 
           echo "Event: $GITHUB_EVENT_NAME | Dev mode: $dev_mode"
 
-          if [ "$dev_mode" = true ]; then
+          if [ "$dev_mode" = "true" ]; then
             echo "🚧 Dev mode ON — scanning entire repo..."
             mapfile -t files < <(git ls-files)
           else
