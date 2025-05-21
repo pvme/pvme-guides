@@ -79,7 +79,7 @@ jobs:
           done
 
           echo "💡 Final bad block content:"
-          printf "%s\n" "$bad"
+          echo "$bad"
           
           if [ -n "$(echo "$bad" | tr -d '\n[:space:]')" ]; then
             {
@@ -90,13 +90,13 @@ jobs:
               echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
               echo
               echo "### __Offending Lines__"
-              printf "%s\n" "$bad"
+              echo "$bad"
             } > emoji-comment.txt
-
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
+
 
       - name: Comment on PR if issues found
         if: steps.grep.outputs.found == 'true'
