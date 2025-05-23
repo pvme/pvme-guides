@@ -54,6 +54,7 @@ jobs:
             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
 
             file_block=""
+            
             while IFS= read -r line; do
               lineno="${line%%:*}"
               match="${line#*:}"
@@ -89,7 +90,6 @@ jobs:
               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
             done <<< "$matches"
-
 
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
