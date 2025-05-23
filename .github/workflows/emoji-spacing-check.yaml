@@ -60,27 +60,25 @@ jobs:
               full_line=$(sed "${lineno}q;d" "$file")
             
               # 1) allowed leading char?
-              prefix="${match:0:1}"
-              case "$prefix" in
-                r|s|_ )
-                  # letter prefixes only if preceded by BOF or space
-                  if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
-                    continue
-                  fi
-                  ;;
-                [\"\'\(\)\[\]\{\}\-\*\\] )
-                  # punctuation (quotes, brackets, dash, asterisk, backslash) always OK
+              #   - if it’s r, s or _, only skip when preceded by BOF or space
+              #   - otherwise (any non-alnum prefix), skip unconditionally
+              if [[ $match =~ ^[rs_]<: ]]; then
+                # only skip r|s|_ when at BOF or after whitespace
+                if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
                   continue
-                  ;;
-              esac
+                fi
+              elif [[ $match =~ ^[^[:alnum:][:space:]]<: ]]; then
+                # any punctuation (including backslash or backtick) is always OK
+                continue
+              fi
             
               # 2) zero-width space before? skip
               if echo "$match" | grep -Pq "^$(printf '\u200B')<:.*?:[0-9]+>$"; then
                 continue
               fi
             
-              # 3) inside backticks? skip this specific match if it lives in a `…` span
-              if echo "$full_line" | grep -Pq '`[^`]*\Q'"$match"'\E[^`]*`'; then
+              # 3) inside backticks? skip
+              if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
                 continue
               fi
             
