@@ -59,13 +59,20 @@ jobs:
               match="${line#*:}"
               full_line=$(sed "${lineno}q;d" "$file")
             
-              # 1) allowed leading char? (r, s, _, punctuation) AND actually preceded by space or BOF
-              if echo "$match" | grep -Pq '^[rs_"'\''\(\[\{\-\*]?<:.*?:[0-9]+>$'; then
-                # use \Q…\E to escape $match literally in the PCRE
-                if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
+              # 1) allowed leading char?
+              #    - if letter prefix (r, s, _), only skip when preceded by BOF or space
+              #    - if punctuation prefix, skip unconditionally
+              prefix="${match:0:1}"
+              case "$prefix" in
+                r|s|_ )
+                  if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
+                    continue
+                  fi
+                  ;;
+                "("|")"|"["|"]"|"{"|"}"|"-"|"*"|"\""|"'"|\\" )
                   continue
-                fi
-              fi
+                  ;;
+              esac
             
               # 2) zero-width space before? skip
               if echo "$match" | grep -Pq "^$(printf '\u200B')<:.*?:[0-9]+>$"; then
