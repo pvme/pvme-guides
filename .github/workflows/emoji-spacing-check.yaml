@@ -57,29 +57,32 @@ jobs:
             while IFS= read -r line; do
               lineno="${line%%:*}"
               match="${line#*:}"
-
-              # 2) allowed leading char? skip
-              echo "$match" \
-                | grep -Pq "^[rs_\"'(\[{\-*]?<:.*?:\d+>$" \
-                && continue
-
-              # 3) zero-width space before? skip
-              echo "$match" \
-                | grep -Pq "^$(printf '\u200B')<:.*?:\d+>$" \
-                && continue
-
-              # 4) inside backticks? skip
               full_line=$(sed "${lineno}q;d" "$file")
-              echo "$full_line" \
-                | grep -Pq '`[^`]*<:.*?:\d+>[^`]*`' \
-                && continue
-
-              # 5) allowed trailing char? skip
-              echo "$match" \
-                | grep -Pq "^<:.*?:\d+>[.,!?;:\\\\)\]}\_\"'\-\*]?$" \
-                && continue
-
-              # 🚫 violation!
+            
+              # 1) allowed leading char? (r, s, _, punctuation) AND actually preceded by space or BOF
+              if echo "$match" | grep -Pq '^[rs_"'\''\(\[\{\-\*]?<:.*?:[0-9]+>$'; then
+                escaped=$(printf '%s' "$match" | sed -e 's/[][.*^$+?{|()\\]/\\&/g')
+                if echo "$full_line" | grep -Pq "(^|[[:space:]])$escaped"; then
+                  continue
+                fi
+              fi
+            
+              # 2) zero-width space before? skip
+              if echo "$match" | grep -Pq "^$(printf '\u200B')<:.*?:[0-9]+>$"; then
+                continue
+              fi
+            
+              # 3) inside backticks? skip
+              if echo "$full_line" | grep -Pq '`[^`]*<:.*?:[0-9]+>[^`]*`'; then
+                continue
+              fi
+            
+              # 4) allowed trailing char? skip
+              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
+                continue
+              fi
+            
+              # 5) 🚫 violation!
               escaped=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped}\`"
             done <<< "$matches"
