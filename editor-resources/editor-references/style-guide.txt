@@ -29,10 +29,23 @@ Consistency makes guides easier to read and maintain. This guide covers formatti
 .
 ### __Emojis__
 .tag:emojis
-⬥ Use name followed by emoji: Spellbook Swap <:SBS:543875425055670275>
-⬥ Make sure a blank space separates the emoji from words next to it
-    • ❌ `Spellbook Swap<:SBS:543875425055670275>`
-    • ✅ `Spellbook Swap <:SBS:543875425055670275>`
+⬥ **Spacing**: Emojis require a space before **and** after:
+```
+❌ Detonate<:deto:123> is a spell.
+❌ Spellbook Swap <:SBS:543875425055670275>is a spell.
+✅ Spellbook Swap <:SBS:543875425055670275> is a spell.
+```
+
+⬥ There are a few **exceptions** where spaces are not needed:
+    • Letter prefixes (`r`, `s`, `_`)
+    • Punctuation/backslash/backtick prefixes
+    • Trailing punctuation or underscore
+    • Inside backticks (embeds)
+    • Invisible characers
+    • Allowed examples:
+```
+r<:emoji:1>  <:emoji:7>.  "…<:emoji:4>…"  <:emoji:7>!  `…<:emoji:11>…`  <emoji:73>\n\u00a0
+```
 
 .
 ### __Notes__
