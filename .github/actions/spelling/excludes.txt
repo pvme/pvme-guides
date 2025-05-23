@@ -80,8 +80,9 @@ ignore$
 \.xpm$
 \.xz$
 \.zip$
-^\.github/actions/spelling/
-^\Q.github/workflows/spelling.yml\E$
+
+# Ignore directories named `.github`
+(?:^|/).github/
 
 # Ignore directories named `archive`
 (?:^|/)archive/
