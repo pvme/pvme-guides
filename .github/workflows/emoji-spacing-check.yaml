@@ -60,15 +60,13 @@ jobs:
               full_line=$(sed "${lineno}q;d" "$file")
             
               # 1) allowed leading char?
-              #   - if it’s r, s or _, only skip when preceded by BOF or space
-              #   - otherwise (any non-alnum prefix), skip unconditionally
-              if [[ $match =~ ^[rs_]<: ]]; then
-                # only skip r|s|_ when at BOF or after whitespace
+              #    - letter prefixes (r, s, _) only if preceded by BOF or space
+              #    - any punctuation prefix (including backslash or backtick) always OK
+              if echo "$match" | grep -Pq '^[rs_]<:'; then
                 if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
                   continue
                 fi
-              elif [[ $match =~ ^[^[:alnum:][:space:]]<: ]]; then
-                # any punctuation (including backslash or backtick) is always OK
+              elif echo "$match" | grep -Pq '^[^[:alnum:][:space:]]<:'; then
                 continue
               fi
             
@@ -91,6 +89,7 @@ jobs:
               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
             done <<< "$matches"
+
 
             if [ -n "$file_block" ]; then
               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
