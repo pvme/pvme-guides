@@ -60,16 +60,16 @@ jobs:
               full_line=$(sed "${lineno}q;d" "$file")
             
               # 1) allowed leading char?
-              #    - if letter prefix (r, s, _), only skip when preceded by BOF or space
-              #    - if punctuation prefix, skip unconditionally
               prefix="${match:0:1}"
               case "$prefix" in
                 r|s|_ )
+                  # letter prefixes only if preceded by BOF or space
                   if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
                     continue
                   fi
                   ;;
-                "("|")"|"["|"]"|"{"|"}"|"-"|"*"|"\""|"'"|\\" )
+                "\""|"'"|"("|"["|"{"|"-"|"*" )
+                  # punctuation prefixes always OK
                   continue
                   ;;
               esac
@@ -80,7 +80,7 @@ jobs:
               fi
             
               # 3) inside backticks? skip
-              if echo "$full_line" | grep -Pq '`[^`]*<:.*?:[0-9]+>[^`]*`'; then
+              if echo "$full_line" | grep -Pq "\`[^`]*<:.*?:[0-9]+>[^`]*\`"; then
                 continue
               fi
             
