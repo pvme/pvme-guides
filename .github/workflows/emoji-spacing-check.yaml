@@ -61,8 +61,8 @@ jobs:
             
               # 1) allowed leading char? (r, s, _, punctuation) AND actually preceded by space or BOF
               if echo "$match" | grep -Pq '^[rs_"'\''\(\[\{\-\*]?<:.*?:[0-9]+>$'; then
-                escaped=$(printf '%s' "$match" | sed -e 's/[][.*^$+?{|()\\]/\\&/g')
-                if echo "$full_line" | grep -Pq "(^|[[:space:]])$escaped"; then
+                # use \Q…\E to escape $match literally in the PCRE
+                if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
                   continue
                 fi
               fi
@@ -83,8 +83,8 @@ jobs:
               fi
             
               # 5) 🚫 violation!
-              escaped=$(printf '%s' "$match" | sed 's/`/\\`/g')
-              file_block+=$'\n'"* Line $lineno: \`${escaped}\`"
+              escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
+              file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
             done <<< "$matches"
 
             if [ -n "$file_block" ]; then
