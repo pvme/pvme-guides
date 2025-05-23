@@ -1,0 +1,126 @@
+name: Check Emoji Spacing
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-spacing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+
+      - name: Install GitHub CLI + jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Scan files for emoji spacing violations
+        id: grep
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔎 Scanning files for bad emoji spacing…"
+          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
+          bad=""
+
+          dev_mode="false"   # Toggle true → full-branch scan; false → PR-changed files only
+          echo "Dev mode: $dev_mode"
+
+          if [ "$dev_mode" = true ]; then
+            echo "🚧 Dev mode ON — scanning entire branch"
+            mapfile -t files < <(git ls-tree -r --name-only HEAD)
+          else
+            echo "✅ Standard mode — scanning PR-changed files"
+            pr_number="${{ github.event.pull_request.number }}"
+            mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
+          fi
+
+          for file in "${files[@]}"; do
+            echo "📂 Checking: $file"
+
+            # 1) grab any emoji touching a non-space on one side
+            matches=$(grep -nPo "[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]" "$file" || true)
+
+            [ -z "$matches" ] && echo "✅ No issues in $file" && continue
+
+            file_block=""
+            
+            while IFS= read -r line; do
+              lineno="${line%%:*}"
+              match="${line#*:}"
+              full_line=$(sed "${lineno}q;d" "$file")
+            
+              # 1) allowed leading char?
+              #    - letter prefixes (r, s, _) only if preceded by BOF or space
+              #    - any punctuation prefix (including backslash or backtick) always OK
+              if echo "$match" | grep -Pq '^[rs_]<:'; then
+                if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
+                  continue
+                fi
+              elif echo "$match" | grep -Pq '^[^[:alnum:][:space:]]<:'; then
+                continue
+              fi
+            
+              # 2) zero-width space before? skip
+              if echo "$match" | grep -Pq "^$(printf '\u200B')<:.*?:[0-9]+>$"; then
+                continue
+              fi
+            
+              # 3) inside backticks? skip
+              if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
+                continue
+              fi
+            
+              # 4) allowed trailing char? skip
+              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
+                continue
+              fi
+            
+              # 5) 🚫 violation!
+              escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
+              file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
+            done <<< "$matches"
+
+            if [ -n "$file_block" ]; then
+              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
+              bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
+            fi
+          done
+
+          if [ -n "$bad" ]; then
+            {
+              echo "## ❌ Style Guide issue: Emoji Spacing"
+              echo
+              echo "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space."
+              echo
+              echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
+              echo
+              echo "### __Offending Lines__"
+              echo "$bad"
+            } > emoji-comment.txt
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Comment on PR if issues found
+        if: steps.grep.outputs.found == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: emoji-comment.txt
+
+      - name: Fail the job if issues found
+        if: steps.grep.outputs.found == 'true'
+        run: exit 1
