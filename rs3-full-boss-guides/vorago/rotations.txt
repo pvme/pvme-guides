@@ -1,183 +1,494 @@
-# Vorago Rotations
-.tag:intro
-### Important Note
-*Note: a **Table of Contents** can be found in the pins.*
+# **Rago Rotations**
 
-The listed rotations will hit Vorago Master times (or Duo T4 in Vorago discords).
+*Note: a Table of Contents can be found in the pins.*
 
-For an assortment of other rotations (e.g. beginner rotations) or to see rotations in spreadsheet format, check out the Rago Hub spreadsheet: https://docs.google.com/spreadsheets/d/1q7zscYcfJ9qXeIptQmXJiWUloalwDNtmxIOX7bqgkJg/edit#gid=575210987.
+__**Important Note**__
+
+The following rotations are intended to achieve NM Grandmaster CA timers assuming a melee base. Non-melee P1 rotations are provided as examples but may be slower. With a non-melee base, you may need to improvise with other abilities on P3/P5.
 
 .
 ## __Phase 1__
 .tag:p1
+### __Melee__
+
+**Relics:** Berserker's Fury <:berserkersfury:697808774106185768>, Conservation of Energy <:conservationofenergy:697808773711921195>
+**Perks** (<:dbow:643848618553507843>): Energising 4 <:energising4:851514466818457640>, Invigorating 4 <:invig4:712073087859949570>
+.
 ### Base Tank
-
-Non-crit rotation:
-.img:https://img.pvme.io/images/kFzxScX.png
 .
-Crit rotation (build 4 deathspore stacks on max-hit dummy before going to borehole):
-.img:https://img.pvme.io/images/ZhzhwDd.png
-.
-
-.
-## __Phase 2: Bring Him Down__
-.tag:bhd
-*Note: These are just some sample BHD rotations for on-tick <:Shatter:536256673904328704>*
-
-.
-### Mage
-<:wm:535533809978966037> → <:gconc:869285393223254107> → <:asphyx:535533833072672778> (2-hit) → <:corruptblast:513190159194259467> → <:gconc:869285393223254107> → <:dbreath:535533833391702017> / <:StormShards:536256663641128971> → (slow/far) <:Shatter:536256673904328704>
-
-*Note: Far shatter is using shatter when 5 or more tiles away from Vorago.*
-
-.
-### Ranged
-<:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:mds:535541259033378827> / <:StormShards:536256663641128971> → <:corruptshot:535541306294796299> → <:gricocaroming:867678153966878740> → <:mds:535541259033378827> → <:needle:535541259108876293> → (slow/far) <:Shatter:536256673904328704>
-
-*Note: Far shatter is using shatter when 5 or more tiles away from Vorago.*
-
-.
-### Melee
-<:gbarge:535532879250456578> → <:assault:535532855191928842> → <:deci:535532879325822986> → <:dragonscimitar:1048592044731400252> (<:eof:787526151978614824> optional) → <:stormshards:536256663641128971> → <:havoc:535532879300526080> → far <:Shatter:536256673904328704>
-
-*Note: assuming you are not using <:Shatter:536256673904328704>, end BHD with <:gfury:535532879334080527> before he stands so you get a boosted 188 / <:cane:535532878969438210> on stand.*
-
-*Note 2: Far shatter is using shatter when 3 or 4 tiles away from Vorago.*
-
-.
-## __Phase 3: Ceilings__
-.tag:p3ceil
-### Melee
-.img:https://img.pvme.io/images/BgKXq9a.png
-.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**Challenge**__:",
+        "value": "Get 4 <:deathsporearrows:900758234527301642> stacks → <:dragonscimitar:1048592044731400252> <:spec:537340400273195028> → <:gricocaroming:867678153966878740> → challenge + <:piercing:535541258538450944> → <:mds:535541259033378827> → <:incend:535541258429661215> → <:nat:535541258131865633> → <:piercing:535541258538450944> → <:gricocaroming:867678153966878740> → <:slice:535532879594258432> → <:zerk:535532854004678657>\n\u200b"
+      },
+      {
+        "name": "__**Entry Hit**__:",
+        "value": "<:anti:535541306475151390> → <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → s<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538>\n\u200b"
+      },
+      {
+        "name": "**__TC__**:",
+        "value": "(tc) + r<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:assault:535532855191928842> → <:overpower:535532879334080517> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:lengmh:883134308146098227> <:spec:537340400273195028> → improvise until jump → <:dummy:656844963522281473> + <:dragonscimitar:1048592044731400252> <:spec:537340400273195028> → <:gfury:535532879334080527> → s<:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099>\n\u200b"
+      },
+            {
+        "name": "__**Post-Jump**__:",
+        "value": "(tc) + r<:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> + <:cane:535532878969438210>"
+      }
+    ]
+  }
+}
+.embed:json
+### Bomb Tank
+on drop: <:dragonscimitar:1048592044731400252> <:spec:537340400273195028> → <:slice:535532879594258432> → <:sever:535532879577612298> → <:freedom:535541258240786434> + walk to rock
+climb
+last platform: <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:bd:535532854281764884>
+after climb: (tc) + <:gbarge:535532879250456578> + <:gmaul:796989663051120640> <:eofspec:1257438999794946099> + <:gmaul:796989663051120640> <:eofspec:1257438999794946099>
 
 .
-### Ranged
-.img:https://img.pvme.io/images/O8RENLZ.png
+### **__Ranged__**
+
+**Relics:** Berserker's Fury <:berserkersfury:697808774106185768>, Heightened Senses <:heightenedsenses:697808773573771344>
+**Perks** (<:dbow:643848618553507843>): Energising 4 <:energising4:851514466818457640>, Invigorating 4 <:invig4:712073087859949570>
 .
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**Challenge**__:",
+        "value": "Get 4 <:deathsporearrows:900758234527301642> stacks → challenge + <:gricocaroming:867678153966878740> → <:anti:535541306475151390> → <:incend:535541258429661215> → <:nat:535541258131865633> → <:wenarrow:971025697046925362> <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → <:bindingshot:535541306563231790>\n\u200b"
+      },
+      {
+        "name": "__**Entry Hit**__:",
+        "value": "<:anti:535541306475151390> + <:dive:1049378668197195808> → <:gdeathsswift:994644354536837121> → <:piercing:535541258538450944> → s<:grico:787904334812807238>\n\u200b"
+      },
+      {
+        "name": "**__TC__**:",
+        "value": "(tc) + r<:grico:787904334812807238> + <:bolg:994189289623662702> <:spec:537340400273195028> → <:rapid:535541270521708566> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:snap:535534127131394088> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → improvise until jump → <:dummy:656844963522281473> + <:grico:787904334812807238> → s<:zammybow:1215929540908679208> <:eofspec:1257438999794946099> \n\u200b"
+      },
+            {
+        "name": "__**Post-Jump**__:",
+        "value": "(tc) + r<:zammybow:1215929540908679208> <:eofspec:1257438999794946099> + <:zammybow:1215929540908679208> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+.
+### Bomb Tank
+on drop: <:dive:1049378668197195808> + <:deathsswift:994921434633744455> → <:wenarrow:971025697046925362> <:grico:787904334812807238>
+climb
+last platform: <:dive:1049378668197195808> + (tc) + <:grico:787904334812807238> + jump
+after climb: (tc) + <:ingen:641339234111848463> + <:shadowtend:642713547142332416>
 
 .
-### Magic
+### __Necromancy__
 
-.img:https://img.pvme.io/images/lgDnfRE.png
+**Relics:** Berserker's Fury <:berserkersfury:697808774106185768>, Conservation of Energy <:conservationofenergy:697808773711921195>
+**Perks** (<:dbow:643848618553507843>): Energising 4 <:energising4:851514466818457640>, Invigorating 4 <:invig4:712073087859949570>
 .
-
+### Base Tank
 .
-## __Phase 3: Scopulus__
-.tag:p3scop
-.
-
-.
-### Melee
-.img:https://img.pvme.io/images/cDQ4d3a.png
-.
-
-.
-### Ranged
-.img:https://img.pvme.io/images/emKmPMF.png
-.
-
-.
-### Magic
-.img:https://img.pvme.io/images/Xsz3W15.png
-.
-
-.
-## __Phase 3: Vitalis__
-.tag:p3vit
-### Melee
-.img:https://img.pvme.io/images/BgKXq9a.png
-.
-
-.
-### Ranged
-.img:https://img.pvme.io/images/O8RENLZ.png
-.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**Entry Hit**__:",
+        "value": "On drop <:invokelordofbones:1176968330582700174> → <:conjurearmy:1166094935066423348> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:commandghost:1159434409913634816> → <:commandskeleton:1137809194423160883>\n\u200b"
+      },
+      {
+        "name": "**__TC__**:",
+        "value": "(tc) + <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → improvise until jump\n\u200b"
+      },
+            {
+        "name": "__**Post-Jump**__:",
+        "value": "<:invokedeath:1137809121983336548> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+### Bomb Tank
+on drop: <:touchofdeath:1137809175980810380> → <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>
+climb
+last platform: <:invokedeath:1137809121983336548> + <:dive:1049378668197195808>
+on drop: (tc) + <:ingen:641339234111848463> + <:deathguard90:1138809243143766118> <:spec:537340400273195028>
 
 .
-### Magic
+### __Magic__
 
-.img:https://img.pvme.io/images/lgDnfRE.png
+**Relics:** Berserker's Fury <:berserkersfury:697808774106185768>, Conservation of Energy <:conservationofenergy:697808773711921195>
+**Perks** (<:dbow:643848618553507843>): Energising 4 <:energising4:851514466818457640>, Invigorating 4 <:invig4:712073087859949570>
 .
-
+### Base Tank
 .
-## __Phase 3: Green Bomb__
-.tag:p3gb
-### Melee
-.img:https://img.pvme.io/images/BgKXq9a.png
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**Challenge**__:",
+        "value": "Autocast <:incitefear:856635090783567902> + challenge + <:wrack:1257439366708592651> → <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:corruptblast:513190159194259467> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:comb:535533833098100745> → <:freedom:535541258240786434>\n\u200b"
+      },
+      {
+        "name": "__**Entry Hit**__:",
+        "value": "<:anti:535541306475151390> + <:dive:1049378668197195808> → <:gsunshine:994644352871714836> + <:adrenrenewal:736298121704767538> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → s<:gstaff:513203008608141314> <:eofspec:1257438999794946099> \n\u200b"
+      },
+      {
+        "name": "**__TC__**:",
+        "value": "(tc) + r<:gstaff:513203008608141314> <:eofspec:1257438999794946099> + <:tsunami:535533809995874304> → autocast <:exsanguinate:856635090745950258> + <:gconc:869285393223254107> → <:wm:535533809978966037> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:smoketendrils:536257336130404372> → <:omni:535533809664262179> → <:gconc:869285393223254107> → <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099> → improvise until jump → <:dummy:656844963522281473> + <:gsonicwave:1095411826839257138> → s<:wrackandruin:1257439387474722836>\n\u200b"
+      },
+            {
+        "name": "__**Post-Jump**__:",
+        "value": "(tc) + r<:wrackandruin:1257439387474722836> + <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+### Bomb Tank
+on drop: target <:dummy:656844963522281473> with basic
+during climb (after red bomb hits) <:anti:535541306475151390>
+last platform: <:meta:535533811304497183> + <:adrenrenewal:736298121704767538> + <:dive:1049378668197195808>
+on drop: (tc) + <:bloodbarrage:537338981747261446> + <:ingen:641339234111848463> + <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099>
 .
-
+## __Phase 3__
+.tag:p3
+### __Melee__
 .
-### Ranged
-.img:https://img.pvme.io/images/O8RENLZ.png
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "<:gbarge:535532879250456578> → <:assault:535532855191928842> → <:deci:535532879325822986> → <:dragonscimitar:1048592044731400252> <:spec:537340400273195028> → <:stormshards:536256663641128971> → <:gfury:535532879334080527> → <:lengmh:883134308146098227> <:spec:537340400273195028> / far <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:deci:535532879325822986> → <:slice:535532879594258432> → (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:slice:535532879594258432> → <:deci:535532879325822986> → <:slice:535532879594258432> → <:gfury:535532879334080527>\n\u200b"
+      },
+      {
+        "name": "__**Ceil/Vit/GB**__:",
+        "value": "<:zerk:535532854004678657> → <:anti:535541306475151390> → <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → s<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538> → (tc) + r<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:assault:535532855191928842> → <:overpower:535532879334080517> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:limitless:641339233638023179> + <:cane:535532878969438210>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "<:gbarge:535532879250456578> → <:assault:535532855191928842> → <:deci:535532879325822986> → <:dragonscimitar:1048592044731400252> <:spec:537340400273195028> → <:stormshards:536256663641128971> → <:gfury:535532879334080527> → <:lengmh:883134308146098227> <:spec:537340400273195028> / far <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:deci:535532879325822986> → <:slice:535532879594258432> → (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:slice:535532879594258432> → <:deci:535532879325822986> → <:slice:535532879594258432> → <:gfury:535532879334080527>\n\u200b"
+      },
+      {
+        "name": "__**Scop**__:",
+        "value": "<:zerk:535532854004678657> → <:anti:535541306475151390> → <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → s<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099>  + <:adrenrenewal:736298121704767538> → (tc) + <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:assault:535532855191928842> → <:overpower:535532879334080517> → <:cane:535532878969438210>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "<:gbarge:535532879250456578> → <:assault:535532855191928842> → <:deci:535532879325822986> → <:dragonscimitar:1048592044731400252> <:spec:537340400273195028> → <:stormshards:536256663641128971> → <:gfury:535532879334080527> → <:lengmh:883134308146098227> <:spec:537340400273195028> / far <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:deci:535532879325822986> → <:slice:535532879594258432> → (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:slice:535532879594258432> → <:deci:535532879325822986> → <:slice:535532879594258432> → <:gfury:535532879334080527>\n\u200b"
+      },
+      {
+        "name": "__**TS/PB**__:",
+        "value": "<:zerk:535532854004678657> → <:anti:535541306475151390> → <:freedom:535541258240786434> → <:gfury:535532879334080527> → s<:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099>  + <:adrenrenewal:736298121704767538> → (tc) + r<:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> + <:cane:535532878969438210> → <:dummy:656844963522281473> + <:barge:535532853916860437> → <:chaosroar:994644356671737966> → s<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> (lose 2t if TS) → (tc) + r<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:overpower:535532879334080517> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:punish:535532879439069184>"
+      }
+    ]
+  }
+}
+.embed:json
+### __Ranged__
 .
-
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "<:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → (-30) <:nat:535541258131865633> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944>\n\u200b"
+      },
+      {
+        "name": "__**Ceil/Vit/GB**__:",
+        "value": "<:anti:535541306475151390> + <:dive:1049378668197195808> → <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> + <:bolg:994189289623662702> auto → <:piercing:535541258538450944> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:ingen:641339234111848463> + s<:bolg:994189289623662702> <:spec:537340400273195028> → (tc) + r<:bolg:994189289623662702> <:spec:537340400273195028> + <:gricocaroming:867678153966878740> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:limitless:641339233638023179> + <:snap:535534127131394088>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "<:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → (-30) <:nat:535541258131865633> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944>\n\u200b"
+      },
+      {
+        "name": "__**Scop**__:",
+        "value": "<:anti:535541306475151390> + <:dive:1049378668197195808> → <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> + <:bolg:994189289623662702> auto → <:piercing:535541258538450944> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:ingen:641339234111848463> + s<:bolg:994189289623662702> <:spec:537340400273195028> → (tc) east scop + r<:bolg:994189289623662702> <:spec:537340400273195028> + <:gricocaroming:867678153966878740> → <:shadowtend:642713547142332416> → <:limitless:641339233638023179> + 6-hit <:rapid:535541270521708566> → <:snap:535534127131394088>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "<:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944> → (-30) <:nat:535541258131865633> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944>\n\u200b"
+      },
+      {
+        "name": "__**TS/PB**__:",
+        "value": "<:anti:535541306475151390> + <:dive:1049378668197195808> → <:deathsswift:994921434633744455> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:frag:535541273755385885> → <:ingen:641339234111848463> + s<:snap:535534127131394088> + <:adrenrenewal:736298121704767538> → (tc) +  r<:snap:535534127131394088> + <:mds:535541259033378827> → <:dummy:656844963522281473> + <:piercing:535541258538450944> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → s<:bolg:994189289623662702> <:spec:537340400273195028> (lose 2t if TS) → (tc) + r<:bolg:994189289623662702> <:spec:537340400273195028> + <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+### __Necromancy__
 .
-### Magic
-
-.img:https://img.pvme.io/images/lgDnfRE.png
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "Have 5 <:residualsoul:1139453152169558046> and 12 <:necrosis:1139452791878856805> stacks before last orb → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:stormshards:536256663641128971> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → (-30) <:nat:535541258131865633> →  <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>\n\u200b"
+      },
+      {
+        "name": "__**Ceil/Vit/GB**__:",
+        "value": "<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:splitsoul:1137809168368148490> → <:invokedeath:1137809121983336548> → s<:omniguard:1138809234922934282> <:spec:537340400273195028> → (tc) + r<:omniguard:1138809234922934282> <:spec:537340400273195028> + <:deathskulls:1159434663903899728> → <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>"
+        }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "Have 5 <:residualsoul:1139453152169558046> and 12 <:necrosis:1139452791878856805> stacks before last orb → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:stormshards:536256663641128971> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → (-30) <:nat:535541258131865633> →  <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>\n\u200b"
+      },
+      {
+        "name": "__**Scop**__:",
+        "value": "<:splitsoul:1137809168368148490> → <:touchofdeath:1137809175980810380> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → (tc) + <:deathskulls:1159434663903899728> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "Have 5 <:residualsoul:1139453152169558046> and 12 <:necrosis:1139452791878856805> stacks before last orb → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:stormshards:536256663641128971> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → (-30) <:nat:535541258131865633> →  <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>\n\u200b"
+      },
+      {
+        "name": "__**TS/PB**__:",
+        "value": "<:livingdeath:1159434908486357072> → <:conjurearmy:1166094935066423348> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → (tc) + <:necroauto:1137809137401602109> → <:commandghost:1159434409913634816> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> + <:adrenrenewal:736298121704767538> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+### __Mage__
 .
-
-.
-## __Phase 3: Teamsplit__
-.tag:p3ts
-### Melee
-.img:https://img.pvme.io/images/1EmOw5q.png
-.
-
-.
-### Ranged
-.img:https://img.pvme.io/images/dTKjGBk.png
-.
-
-.
-### Magic
-
-.img:https://img.pvme.io/images/jvQ8ohi.png
-.
-
-.
-## __Phase 3: The End__
-.tag:p3pb
-### Melee
-.img:https://img.pvme.io/images/tdosbVw.png
-.
-
-.
-### Ranged
-.img:https://img.pvme.io/images/T98pjhI.png
-.
-
-.
-### Magic
-
-.img:https://img.pvme.io/images/dpA9gf7.png
-.
-
-.
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "Autocast <:incitefear:856635090783567902> + <:wm:535533809978966037> → <:corruptblast:513190159194259467> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:wrack:1257439366708592651> → <:comb:535533833098100745> → (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:gconc:869285393223254107> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:wrack:1257439366708592651> → <:gconc:869285393223254107>\n\u200b"
+      },
+      {
+        "name": "__**Ceil/Vit/GB**__:",
+        "value": "<:anti:535541306475151390> → <:meta:535533811304497183> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> + <:adrenrenewal:736298121704767538> → <:gsonicwave:1095411826839257138> → s<:roarofawakening:1266417538045317121> <:spec:537340400273195028> → (tc) + r<:roarofawakening:1266417538045317121> <:spec:537340400273195028> + <:omni:535533809664262179> → <:gconc:869285393223254107> → <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "Autocast <:incitefear:856635090783567902> + <:wm:535533809978966037> → <:corruptblast:513190159194259467> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:wrack:1257439366708592651> → <:comb:535533833098100745> → (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:gconc:869285393223254107> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:wrack:1257439366708592651> → <:gconc:869285393223254107>\n\u200b"
+      },
+      {
+        "name": "__**Scop**__:",
+        "value": "<:anti:535541306475151390> → <:freedom:535541258240786434> → <:meta:535533811304497183> + <:adrenrenewal:736298121704767538> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → s<:tsunami:535533809995874304> → (tc) + r<:tsunami:535533809995874304> + <:gchain:1257440278512537740> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:gconc:869285393223254107> → <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**BHD**__:",
+        "value": "Autocast <:incitefear:856635090783567902> + <:wm:535533809978966037> → <:corruptblast:513190159194259467> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:dbreath:535533833391702017> → <:gconc:869285393223254107> → <:shatter:536256673904328704> (vorago dies) → <:dummy:656844963522281473> + <:wrack:1257439366708592651> → <:comb:535533833098100745> → (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:gconc:869285393223254107> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:wrack:1257439366708592651> → <:gconc:869285393223254107>\n\u200b"
+      },
+      {
+        "name": "__**TS/PB**__:",
+        "value": "<:anti:535541306475151390> + <:dive:1049378668197195808> → <:sunshine:994921119381463070> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:gsonicwave:1095411826839257138> → s<:gstaff:513203008608141314> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538> → (tc) + r<:gstaff:513203008608141314> <:eofspec:1257438999794946099> + <:tsunami:535533809995874304> → <:magmatempesttarget:924741973858996284> → <:dummy:656844963522281473> + <:gsonicwave:1095411826839257138> → s<:wm:535533809978966037> (lose 2t if TS) → (tc) + r<:wm:535533809978966037> + <:omni:535533809664262179> → <:gconc:869285393223254107> → <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
 ## __Phase 5__
 .tag:p5
-### Melee
-.img:https://img.pvme.io/images/HmD7jAZ.png
+### __Melee__
 .
-
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**P4**__:",
+        "value": "During last waterfall: <:dummy:656844963522281473> + <:dragonscimitar:1048592044731400252> <:eofspec:1257438999794946099> → <:deci:535532879325822986> → <:gfury:535532879334080527> → MD <:shatter:536256673904328704> → (tc) + <:slice:535532879594258432>\nFirst land (-33) <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:slice:535532879594258432> → <:deci:535532879325822986> → <:slice:535532879594258432> → <:gfury:535532879334080527>\n\u200b"
+      },
+      {
+        "name": "__**Base**__:",
+        "value": "<:zerk:535532854004678657> → <:anti:535541306475151390> → <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → s<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538> → r<:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:assault:535532855191928842> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:lengmh:883134308146098227> <:spec:537340400273195028>\n\u200b"
+      },
+      {
+        "name": "__**BT**__:",
+        "value": "<:zerk:535532854004678657> → <:anti:535541306475151390> → <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> → s<:lengmh:883134308146098227> <:spec:537340400273195028> → r<:lengmh:883134308146098227> <:spec:537340400273195028> + <:assault:535532855191928842> → <:overpower:535532879334080517> + (1t) <:gmaul:796989663051120640> <:eofspec:1257438999794946099>  → <:limitless:641339233638023179> + <:cane:535532878969438210>"
+      }
+    ]
+  }
+}
+.embed:json
+### __Ranged__
 .
-### Ranged
-.img:https://img.pvme.io/images/q15Qpc7.png
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**P4**__:",
+        "value": "Second jump (-30) <:nat:535541258131865633> → <:gricocaroming:867678153966878740> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944>\n<:anti:535541306475151390> + <:surge:535533810004262912> → <:deathsswift:994921434633744455> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:frag:535541273755385885> → s<:gricocaroming:867678153966878740>\n\u200b"
+      },
+      {
+        "name": "__**TC**__:",
+        "value": "(tc) + r<:gricocaroming:867678153966878740> + <:sgb:626466665848242186> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538> → <:snap:535534127131394088> → <:dbow:643848618553507843> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+### __Necromancy__
 .
-
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**P5**__:",
+        "value": "Second jump (-30) <:nat:535541258131865633> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → s<:omniguard:1138809234922934282> <:spec:537340400273195028>\n\u200b"
+      },
+      {
+        "name": "__**TC**__:",
+        "value": "(tc) + r<:omniguard:1138809234922934282> <:spec:537340400273195028> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>"
+      }
+    ]
+  }
+}
+.embed:json
+### __Magic__
 .
-### Magic
-
-.img:https://img.pvme.io/images/YCykRB3.png
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__**P4**__:",
+        "value": "First jump (-36)  <:nat:535541258131865633> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:wrack:1257439366708592651> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:wrack:1257439366708592651> → <:gconc:869285393223254107> → <:wrack:1257439366708592651> → <:anti:535541306475151390> → <:meta:535533811304497183> + <:dbow:643848618553507843> auto → <:piercingenergising:867678153979854868> → <:gsonicwave:1095411826839257138> → s<:gstaff:513203008608141314> <:eofspec:1257438999794946099> + <:adrenrenewal:736298121704767538>\n\u200b"
+      },
+      {
+        "name": "__**TC**__:",
+        "value": "(tc) + r<:gstaff:513203008608141314> <:eofspec:1257438999794946099> + <:omni:535533809664262179> → <:gconc:869285393223254107> →  <:wm:535533809978966037> → <:ibansstaff:1215929543068618752> <:eofspec:1257438999794946099> "
+      }
+    ]
+  }
+}
+.embed:json
 .
-
+.
+## __Example Kills__
+.tag:examples
+[Melee base](<https://youtu.be/gPHGzo2syIA>) <:melee:1096130867279171706>
+[Range BT](<https://youtu.be/akSzS4vQIN0>) <:range:580168050121113623>
+[Mage BT](<https://youtu.be/-ot25723w-4>) <:magic:689504724159823906>
+[Necro BT](<https://youtu.be/eVhI3cg4G9M>) <:necromancy:1148995625896120460>
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "color": 39423,
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2: BHD]($linkmsg_bhd$)\n⬥ [Phase 3: Ceilings]($linkmsg_p3ceil$)\n⬥ [Phase 3: Scopulus]($linkmsg_p3scop$)\n⬥ [Phase 3: Vitalis]($linkmsg_p3vit$)\n⬥ [Phase 3: Green Bomb]($linkmsg_p3gb$)\n⬥ [Phase 3: Teamsplit]($linkmsg_p3ts$)\n⬥ [Phase 3: The End]($linkmsg_p3pb$)\n⬥ [Phase 5]($linkmsg_p5$)"
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [P1]($linkmsg_p1$)\n⬥ [P3]($linkmsg_p3$)\n⬥ [P5]($linkmsg_p5$)\n⬥ [Examples]($linkmsg_examples$)",
+    "color": 39423
   }
 }
 .embed:json
