@@ -74,7 +74,7 @@ jobs:
               # 2) Skip if either:
               #  a real zero-width‐space (U+200B) appears before
               #  OR the two-character sequence "\n" (backslash + 'n') appears before
-              if echo "$full_line" | grep -Pq '(?:\x{200B}|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
+              if echo "$full_line" | grep -Pq '(?:\\u200B|\\u200b|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
                 continue
               fi
             
