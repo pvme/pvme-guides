@@ -48,7 +48,7 @@ jobs:
           for file in "${files[@]}"; do
             echo "📂 Checking: $file"
 
-            # 1) grab any emoji touching a non-space on one side
+            # start by grabbing any emoji touching a non-space on one side
             matches=$(grep -nPo "[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]" "$file" || true)
 
             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
@@ -71,8 +71,10 @@ jobs:
                 continue
               fi
             
-              # 2) zero-width space before? skip
-              if echo "$match" | grep -Pq "^$(printf '\u200B')<:.*?:[0-9]+>$"; then
+              # 2) Skip if either:
+              #  a real zero-width‐space (U+200B) appears before
+              #  OR the two-character sequence "\n" (backslash + 'n') appears before
+              if echo "$full_line" | grep -Pq '(?:\\u200B|\\u200b|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
                 continue
               fi
             
