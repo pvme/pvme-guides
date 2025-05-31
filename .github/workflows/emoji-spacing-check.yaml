@@ -48,7 +48,7 @@ jobs:
           for file in "${files[@]}"; do
             echo "📂 Checking: $file"
 
-            # 1) grab any emoji touching a non-space on one side
+            # start by grabbing any emoji touching a non-space on one side
             matches=$(grep -nPo "[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]" "$file" || true)
 
             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
@@ -71,22 +71,27 @@ jobs:
                 continue
               fi
             
-              # 2) zero-width space (backslash-200B) OR newline (backslash-n) immediately before emoji?  skip
-              if echo "$full_line" | grep -Pq '(?:\x{200B}|\\\\n)<:[^:<>]+:[0-9]+>'; then
+              # 2) zero-width space before? skip
+              if echo "$match" | grep -Pq "^$(printf '\u200B')<:[^:<>]+:[0-9]+>$"; then
                 continue
               fi
             
-              # 3) inside backticks? skip
+              # 3) newline before? skip
+              if echo "$match" | grep -Pq "^$(printf '\n')<:[^:<>]+:[0-9]+>$"; then
+                continue
+              fi
+            
+              # 4) inside backticks? skip
               if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
                 continue
               fi
             
-              # 4) allowed trailing char? skip
+              # 5) allowed trailing char? skip
               if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
                 continue
               fi
             
-              # 5) 🚫 violation!
+              # 6) 🚫 violation!
               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
             done <<< "$matches"
