@@ -76,8 +76,8 @@ jobs:
                 continue
               fi
             
-              # 3) literal "\n" (backslash + n) before "<:…>"? skip
-              if echo "$match" | grep -Pq '^\\n<:[^:<>]+:[0-9]+>$'; then
+              # 3) literal "\n" before? skip
+              if echo "$full_line" | grep -Pq '\\\\n<:[^:<>]+:[0-9]+>'; then
                 continue
               fi
             
