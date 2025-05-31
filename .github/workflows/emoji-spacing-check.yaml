@@ -71,27 +71,24 @@ jobs:
                 continue
               fi
             
-              # 2) zero-width space before? skip
-              if echo "$match" | grep -Pq "^$(printf '\u200B')<:[^:<>]+:[0-9]+>$"; then
+              # 2) skip if either:
+              #    - a real zero-width‐space (U200B) appears before
+              #    - OR a literal "\n" (backslash  n) appears before
+              if echo "$full_line" | grep -Pq '(?:\x{200B}|\\n)<:[^:<>]:[0-9]>'; then
                 continue
               fi
             
-              # 3) literal "\n" before? skip
-              if echo "$full_line" | grep -Pq '\\\\n<:[^:<>]+:[0-9]+>'; then
-                continue
-              fi
-            
-              # 4) inside backticks? skip
+              # 3) inside backticks? skip
               if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
                 continue
               fi
             
-              # 5) allowed trailing char? skip
+              # 4) allowed trailing char? skip
               if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
                 continue
               fi
             
-              # 6) 🚫 violation!
+              # 5) 🚫 violation!
               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
             done <<< "$matches"
