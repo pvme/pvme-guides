@@ -33,7 +33,7 @@ jobs:
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
 
-          dev_mode="false"   # Toggle true → full-branch scan; false → PR-changed files only
+          dev_mode="true"   # Toggle true → full-branch scan; false → PR-changed files only
           echo "Dev mode: $dev_mode"
 
           if [ "$dev_mode" = true ]; then
@@ -71,8 +71,8 @@ jobs:
                 continue
               fi
             
-              # 2) zero-width space before? skip
-              if echo "$match" | grep -Pq "^$(printf '\u200B')<:.*?:[0-9]+>$"; then
+              # 2) zero-width space (backslash-200B) OR newline (backslash-n) immediately before emoji?  skip
+              if echo "$full_line" | grep -Pq '(?:\x{200B}|\\\\n)<:[^:<>]+:[0-9]+>'; then
                 continue
               fi
             
