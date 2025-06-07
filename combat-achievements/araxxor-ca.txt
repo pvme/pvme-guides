@@ -7,7 +7,7 @@
 This guide will go over how to complete the Master speed kill Combat achievement for Araxxor.
 
 ## __General Information__ ##
-⬥ As <:magic:689504724159823906> Araxxor is desired, wearing a ranged weapon until Araxxor has spawned is required.
+⬥ As <:magic:689504724159823906> Araxxor is desired for the Necromancy rotation, wearing a ranged weapon until Araxxor has spawned is required.
 .
 ## __Presets and Relics__
 .tag:preset
@@ -21,16 +21,32 @@ This guide will go over how to complete the Master speed kill Combat achievement
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Necromancy](https://pvme.io/preset-maker/#/FbwshAMQoKLB7tVrlbv8)",
+        "value": "⬥ [Melee](https://pvme.io/preset-maker/#/3Q9gzFIWieSjE3qgfTSI) <:melee:1096130867279171706>\n⬥ [Necromancy](https://pvme.io/preset-maker/#/FbwshAMQoKLB7tVrlbv8) <:necromancy:1148995625896120460>",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-### Phase 1
-.tag:rot
 .
+### Melee Rotation <:melee:1096130867279171706>
+.tag:meleerot
+### Phase 1
+Burn web → <:zekkil:903244090953588787> <:spec:537340400273195028> → ~20s <:dba:603979368850653216> <:spec:537340400273195028> → ~35s <:dragonscimitar:1048592044731400252> <:spec:537340400273195028>
+.
+### Phase 2
+~59s <:accel:756236265472524418> + <:dive:1049378668197195808> → <:surge:535533810004262912> → <:dive:1049378668197195808> → <:surge:535533810004262912> → <:surge:535533810004262912> → <:dive:1049378668197195808> → <:surge:535533810004262912> → <:surge:535533810004262912> → <:dive:1049378668197195808>
+### Phase 3
+<:chaosroar:994644356671737966> + <:vulnbomb:655341074235129858> → <:zekkil:903244090953588787> <:spec:537340400273195028> → <:cane:535532878969438210> if not dead
+### Phase 4
+<:dummy:656844963522281473> → <:slice:535532879594258432> → <:deci:535532879325822986> → <:slice:535532879594258432> → <:zerk:535532854004678657> → <:anti:535541306475151390> → <:freedom:535541258240786434> → <:gbarge:535532879250456578> → <:gfury:535532879334080527> → target <:araxxi:513213019543699466> + <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:punish:535532879439069184>
+⬥ *Notes:*
+    • *Can stall <:overpowerigneous:959089455640215633> to improve kill speed*
+    • *If using tc and not clicking <:araxxi:513213019543699466> 2t will need to be lost*
+### Necromancy Rotation <:necromancy:1148995625896120460>
+.tag:necrorot
+.
+### Phase 1
 After Araxxor has spawned, equip <:omniguard:1138809234922934282> + <:soulboundlantern:1138809230573441064>.
 Apply <:invokedeath:1137809121983336548> + <:haunted:1143642262165790911> and build to 5 <:residualsoul:1139453152169558046> and 12 <:necrosis:1139452791878856805> stacks. Do not attack the boss other than to apply the debuffs and obtain stacks.
 .
@@ -42,6 +58,7 @@ At 59 seconds use <:accel:756236265472524418> + <:surge:535533810004262912> + <:
 .
 ### Phase 4
 <:dummy:656844963522281473> + <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109> → <:splitsoul:1137809168368148490> → <:invokedeath:1137809121983336548> → Target <:araxxi:513213019543699466> + <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+.
 .tag:example
 {
   "embed": {
@@ -50,8 +67,8 @@ At 59 seconds use <:accel:756236265472524418> + <:surge:535533810004262912> + <:
     "color": 39423,
     "fields": [
       {
-        "name": "__Example Kill__",
-        "value": "⬥ [Necromancy](https://www.youtube.com/watch?v=KOWGZk0xbWo)"
+        "name": "__Example Kills__",
+        "value": "⬥ [1:37.8 Melee <:melee:1096130867279171706>](https://youtu.be/CB7tGY5sDZg)\n⬥ [1:39.6 Necromancy <:necromancy:1148995625896120460>](https://www.youtube.com/watch?v=KOWGZk0xbWo)"
       }
     ]
   }
@@ -61,7 +78,7 @@ At 59 seconds use <:accel:756236265472524418> + <:surge:535533810004262912> + <:
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Necromancy Rotation]($linkmsg_rot$)\n⬥ [Example Kill]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Melee Rotation <:melee:1096130867279171706>]($linkmsg_meleerot$)\n⬥ [Necromancy Rotation <:necromancy:1148995625896120460>]($linkmsg_necrorot$)\n⬥ [Example Kill]($linkmsg_example$)",
     "color": 39423
     }
 }
