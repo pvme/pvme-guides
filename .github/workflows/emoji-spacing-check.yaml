@@ -47,40 +47,43 @@ jobs:
             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
 
             file_block=""
-            
+
             while IFS= read -r line; do
               lineno="${line%%:*}"
               match="${line#*:}"
               full_line=$(sed "${lineno}q;d" "$file")
-            
+
+              ALLOWED_PUNCT='[\`\\"'"'"'\.,!?;:\-\*]'
+
               # 1) allowed leading char?
-              #    - letter prefixes (r, s, _) only if preceded by BOF or space
-              #    - any punctuation prefix (including backslash or backtick) always OK
+              # letter prefixes (r, s, _) only if preceded by BOF or space
               if echo "$match" | grep -Pq '^[rs_]<:'; then
                 if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
                   continue
                 fi
-              elif echo "$match" | grep -Pq '^[^[:alnum:][:space:]]<:'; then
+
+              # any punctuation prefix (including backslash or backtick) always OK
+              elif echo "$match" | grep -Pq "^$ALLOWED_PUNCT<:"; then
                 continue
               fi
-            
+
               # 2) Skip if either:
               #  a real zero-width‐space (U+200B) appears before
               #  OR the two-character sequence "\n" (backslash + 'n') appears before
               if echo "$full_line" | grep -Pq '(?:\\u200B|\\u200b|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
                 continue
               fi
-            
+
               # 3) inside backticks? skip
               if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
                 continue
               fi
-            
+
               # 4) allowed trailing char? skip
-              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
+              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>$ALLOWED_PUNCT?$"; then
                 continue
               fi
-            
+
               # 5) 🚫 violation!
               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
               file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
