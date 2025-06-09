@@ -16,7 +16,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.head_ref }}
+          # Ensure proper checkout of forked PRs
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install GitHub CLI + jq
         run: |
@@ -30,6 +32,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "🔎 Scanning files for bad emoji spacing…"
+          # Determine which files to scan
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
 
@@ -54,15 +57,12 @@ jobs:
             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
 
             file_block=""
-            
             while IFS= read -r line; do
               lineno="${line%%:*}"
               match="${line#*:}"
               full_line=$(sed "${lineno}q;d" "$file")
-            
+
               # 1) allowed leading char?
-              #    - letter prefixes (r, s, _) only if preceded by BOF or space
-              #    - any punctuation prefix (including backslash or backtick) always OK
               if echo "$match" | grep -Pq '^[rs_]<:'; then
                 if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
                   continue
@@ -70,27 +70,25 @@ jobs:
               elif echo "$match" | grep -Pq '^[^[:alnum:][:space:]]<:'; then
                 continue
               fi
-            
-              # 2) Skip if either:
-              #  a real zero-width‐space (U+200B) appears before
-              #  OR the two-character sequence "\n" (backslash + 'n') appears before
+
+              # 2) Skip common zero-width markers before emoji
               if echo "$full_line" | grep -Pq '(?:\\u200B|\\u200b|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
                 continue
               fi
-            
+
               # 3) inside backticks? skip
-              if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
+              if echo "$full_line" | grep -Pq '\`[^`]*\\Q"$match"\\E[^`]*\`'; then
                 continue
               fi
-            
+
               # 4) allowed trailing char? skip
-              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
+              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\)\]\}\_"'""'-\*]?$"; then
                 continue
               fi
-            
+
               # 5) 🚫 violation!
               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
-              file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
+              file_block+=$'\n'* Line $lineno: \`$escaped_bt\`
             done <<< "$matches"
 
             if [ -n "$file_block" ]; then
