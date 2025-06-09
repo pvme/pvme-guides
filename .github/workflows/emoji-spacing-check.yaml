@@ -41,7 +41,7 @@
              mapfile -t files < <(git diff --name-only "$base_sha" "$head_sha")
            fi
 
-           ALLOWED_PUNCT='[\`\\"'"'"'\.,!?;:\-\*]\_\(\)'
+           ALLOWED_PUNCT='\\`"\'[](){}.,!?;:_*-'
 
            for file in "${files[@]}"; do
              echo "📂 Checking: $file"
@@ -67,7 +67,7 @@
                  continue
 
                # 3) skip if prefixed by any of the allowed punctuation chars
-               elif echo "$match" | grep -Pq "^$ALLOWED_PUNCT<:"; then
+               elif echo "$match" | grep -Pq "^[$ALLOWED_PUNCT]<:"; then
                  continue
                fi
 
@@ -82,7 +82,7 @@
                fi
 
                # 6) skip if followed by any of the allowed punctuation chars
-               if echo "$match" | grep -Pq "^<:.*?:[0-9]+>$ALLOWED_PUNCT?$"; then
+               if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[$ALLOWED_PUNCT]?$"; then
                  continue
                fi
 
