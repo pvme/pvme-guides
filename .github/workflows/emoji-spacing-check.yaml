@@ -4,46 +4,38 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   check-spacing:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
 
     steps:
-      - name: Checkout code
+      - name: Checkout PR
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
-
-      - name: Install GitHub CLI + jq
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
 
       - name: Scan files for emoji spacing violations
         id: grep
         shell: bash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "🔎 Scanning files for bad emoji spacing…"
-          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
           bad=""
 
-          dev_mode="false"   # Toggle true → full-branch scan; false → PR-changed files only
+          # toggle to true if you want to scan the *entire* branch
+          dev_mode="false"
           echo "Dev mode: $dev_mode"
 
           if [ "$dev_mode" = true ]; then
-            echo "🚧 Dev mode ON — scanning entire branch"
-            mapfile -t files < <(git ls-tree -r --name-only HEAD)
+            mapfile -t files < <(git ls-files)
           else
-            echo "✅ Standard mode — scanning PR-changed files"
-            pr_number="${{ github.event.pull_request.number }}"
-            mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
+            # list only the files changed in this PR
+            base_sha="${{ github.event.pull_request.base.sha }}"
+            head_sha="${{ github.event.pull_request.head.sha }}"
+            mapfile -t files < <(git diff --name-only "$base_sha" "$head_sha")
           fi
 
           for file in "${files[@]}"; do
