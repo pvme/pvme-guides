@@ -29,7 +29,7 @@
            branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
 
            # toggle to true if you want to scan the *entire* branch
-           dev_mode="false"
+           dev_mode="true"
            echo "Dev mode: $dev_mode"
 
            if [ "$dev_mode" = true ]; then
