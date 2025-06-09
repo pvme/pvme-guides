@@ -41,7 +41,7 @@
              mapfile -t files < <(git diff --name-only "$base_sha" "$head_sha")
            fi
 
-           ALLOWED_PUNCT='[\`\\"'"'"'\.,!?;:\-\*]_'
+           ALLOWED_PUNCT='[\`\\"'"'"'\.,!?;:\-\*]\_\(\)'
 
            for file in "${files[@]}"; do
              echo "📂 Checking: $file"
