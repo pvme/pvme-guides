@@ -1,129 +1,126 @@
-name: Check Emoji Spacing
+ name: Check Emoji Spacing
 
-on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+ on:
+   pull_request:
+     types: [opened, synchronize, reopened]
 
-jobs:
-  check-spacing:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
+ permissions:
+   contents: read
+   pull-requests: write
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
+ jobs:
+   check-spacing:
+     runs-on: ubuntu-latest
 
-      - name: Install GitHub CLI + jq
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
+     steps:
+       - name: Checkout PR
+         uses: actions/checkout@v4
+         with:
+           fetch-depth: 0
 
-      - name: Scan files for emoji spacing violations
-        id: grep
-        shell: bash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "🔎 Scanning files for bad emoji spacing…"
-          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
-          bad=""
+       - name: Scan files for emoji spacing violations
+         id: grep
+         shell: bash
+         run: |
+           echo "🔎 Scanning files for bad emoji spacing…"
+           bad=""
 
-          dev_mode="false"   # Toggle true → full-branch scan; false → PR-changed files only
-          echo "Dev mode: $dev_mode"
+           # so we can build proper file links later
+           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF##*/}}"
 
-          if [ "$dev_mode" = true ]; then
-            echo "🚧 Dev mode ON — scanning entire branch"
-            mapfile -t files < <(git ls-tree -r --name-only HEAD)
-          else
-            echo "✅ Standard mode — scanning PR-changed files"
-            pr_number="${{ github.event.pull_request.number }}"
-            mapfile -t files < <(gh pr view "$pr_number" --json files -q '.files[].path')
-          fi
+           # toggle to true if you want to scan the *entire* branch
+           dev_mode="false"
+           echo "Dev mode: $dev_mode"
 
-          for file in "${files[@]}"; do
-            echo "📂 Checking: $file"
+           if [ "$dev_mode" = true ]; then
+             mapfile -t files < <(git ls-files)
+           else
+             # list only the files changed in this PR
+             base_sha="${{ github.event.pull_request.base.sha }}"
+             head_sha="${{ github.event.pull_request.head.sha }}"
+             mapfile -t files < <(git diff --name-only "$base_sha" "$head_sha")
+           fi
 
-            # start by grabbing any emoji touching a non-space on one side
-            matches=$(grep -nPo "[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]" "$file" || true)
+           ALLOWED_CHARS='\\`"'\''\[\]\(\)\{\}\.,!?;:_*-'
 
-            [ -z "$matches" ] && echo "✅ No issues in $file" && continue
+           for file in "${files[@]}"; do
+             echo "📂 Checking: $file"
 
-            file_block=""
-            
-            while IFS= read -r line; do
-              lineno="${line%%:*}"
-              match="${line#*:}"
-              full_line=$(sed "${lineno}q;d" "$file")
-            
-              # 1) allowed leading char?
-              #    - letter prefixes (r, s, _) only if preceded by BOF or space
-              #    - any punctuation prefix (including backslash or backtick) always OK
-              if echo "$match" | grep -Pq '^[rs_]<:'; then
-                if echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
-                  continue
-                fi
-              elif echo "$match" | grep -Pq '^[^[:alnum:][:space:]]<:'; then
-                continue
-              fi
-            
-              # 2) Skip if either:
-              #  a real zero-width‐space (U+200B) appears before
-              #  OR the two-character sequence "\n" (backslash + 'n') appears before
-              if echo "$full_line" | grep -Pq '(?:\\u200B|\\u200b|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
-                continue
-              fi
-            
-              # 3) inside backticks? skip
-              if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
-                continue
-              fi
-            
-              # 4) allowed trailing char? skip
-              if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[.,!?;:\\\\)\]}\_\"'\-\*]?$"; then
-                continue
-              fi
-            
-              # 5) 🚫 violation!
-              escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
-              file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
-            done <<< "$matches"
+             matches=$(grep -nPo "[^[:space:]]<:.*?:[0-9]+>|<:.*?:[0-9]+>[^[:space:]]" "$file" || true)
+             [ -z "$matches" ] && echo "✅ No issues in $file" && continue
 
-            if [ -n "$file_block" ]; then
-              file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
-              bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
-            fi
-          done
+             file_block=""
 
-          if [ -n "$bad" ]; then
-            {
-              echo "## ❌ Style Guide issue: Emoji Spacing"
-              echo
-              echo "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, brackets, dashes, asterisks, backslashes, or a zero-width space."
-              echo
-              echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
-              echo
-              echo "### __Offending Lines__"
-              echo "$bad"
-            } > emoji-comment.txt
-            echo "found=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "found=false" >> "$GITHUB_OUTPUT"
-          fi
+             while IFS= read -r line; do
+               lineno="${line%%:*}"
+               match="${line#*:}"
+               full_line=$(sed "${lineno}q;d" "$file")
 
-      - name: Comment on PR if issues found
-        if: steps.grep.outputs.found == 'true'
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body-path: emoji-comment.txt
+               # 1) skip if the emoji is inside markdown link: [text <:e:123>](url)
+               if echo "$full_line" | grep -Pq '\[[^\]]*<:.*?:[0-9]+>[^\]]*\]\([^)]*\)'; then
+                 continue
+               fi
 
-      - name: Fail the job if issues found
-        if: steps.grep.outputs.found == 'true'
-        run: exit 1
+               # 2) skip if the emoji is prefixed by r, s or _ at BOF or after space
+               if echo "$match" | grep -Pq '^[rs_]<:' \
+                  && echo "$full_line" | grep -Pq "(^|[[:space:]])\\Q$match\\E"; then
+                 continue
+
+               # 3) skip if prefixed by any of the allowed punctuation chars
+               elif echo "$match" | grep -Pq "^[$ALLOWED_CHARS]<:"; then
+                 continue
+               fi
+
+               # 4) skip if prefixed by a real zero-width-space or literal "\n"
+               if echo "$full_line" | grep -Pq '(?:\\u200B|\\u200b|\\n)(?=<:[^:<>]+:[0-9]+>)'; then
+                 continue
+               fi
+
+               # 5) skip if inside backticks
+               if echo "$full_line" | grep -Pq '\`[^`]*\Q'"$match"'\E[^`]*\`'; then
+                 continue
+               fi
+
+               # 6) skip if followed by any of the allowed punctuation chars
+               if echo "$match" | grep -Pq "^<:.*?:[0-9]+>[$ALLOWED_CHARS]?$"; then
+                 continue
+               fi
+
+               # 🚫 violation!
+               escaped_bt=$(printf '%s' "$match" | sed 's/`/\\`/g')
+               file_block+=$'\n'"* Line $lineno: \`${escaped_bt}\`"
+             done <<< "$matches"
+
+             if [ -n "$file_block" ]; then
+               file_url="https://github.com/${{ github.repository }}/blob/$branch_name/$file"
+               bad+=$'\n'"**In [\`$file\`]($file_url):**"$'\n'"$file_block"
+             fi
+           done
+
+           if [ -n "$bad" ]; then
+             {
+               echo "## ❌ Style Guide issue: Emoji Spacing"
+               echo
+               echo "Emojis must have a space before and after them unless surrounded by: \`r\`, \`s\`, \`_\`, punctuation, quotes, dashes, asterisks, backslashes, or a zero-width space."
+               echo
+               echo "_Tip: Cmd/Ctrl+Click file links to open them in a new tab._"
+               echo
+               echo "### __Offending Lines__"
+               echo "$bad"
+             } > emoji-comment.txt
+             echo "found=true" >> "$GITHUB_OUTPUT"
+           else
+             echo "found=false" >> "$GITHUB_OUTPUT"
+           fi
+
+       - name: Comment on PR if issues found
+         if: steps.grep.outputs.found == 'true'
+         uses: peter-evans/create-or-update-comment@v4
+         with:
+           token: ${{ secrets.GITHUB_TOKEN }}
+           issue-number: ${{ github.event.pull_request.number }}
+           body-path: emoji-comment.txt
+
+       - name: Fail the job if issues found
+         if: steps.grep.outputs.found == 'true'
+         run: exit 1
