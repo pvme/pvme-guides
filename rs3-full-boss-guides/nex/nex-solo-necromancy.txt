@@ -1,132 +1,94 @@
-# Solo Nex: Necromancy
+# Necromancy Nex
 .img:https://img.pvme.io/images/EHBFVhLaE2.png
 *Note: a **Table of Contents** can be found in the pins.*
-
 .
 ## __Introduction__
 .tag:intro
-It is strongly advised to complete the [Ritual of the Mahjarrat](<https://runescape.wiki/w/Ritual_of_the_Mahjarrat>) quest in order to get access to the [Stone of Jas boost](<https://runescape.wiki/w/Stone_of_Jas_(status)>) which gives a 5% damage boost in GWD1 (including Nex). This can be done via Fairy ring code D.K.Q. or Master Quest Cape (option 5).
-
+This guide is meant to hit the in-game master Combat Achievement for speed at solo Nex. Boss mechanics can be found in the Nex basic guide.
 .
-### Preset and Relics
+## __Preset and Relics__
+.tag:preset
 .
 {
   "embed": {
     "title": "",
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/iFaKOGxtI3.png"
+            "url": "https://img.pvme.io/images/Jm8DS7rDaG.png"
         },
     "fields": [
       {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Necromancy](https://pvme.github.io/preset-maker/#/0KAHcCEumzfGpPqxaotz)",
+        "value": "⬥ [Necromancy <:necromancy:1148995625896120460>](https://pvme.github.io/preset-maker/#/CCLGb0GsoU7oEaTO7VvJ)",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-
-.
-## __Mechanics__
-.tag:mechanics
-### Nex Overview
-⬥ Nex has 5 phases; Smoke, Shadow, Blood, Ice, and Zaros. Each phase has 2 special attacks, with the exception of Zaros.
-⬥ Nex is a 1x1 NPC and has very strict softcaps, which means that any damage over a certain amount is reduced by X% depending on the phase.
-    • During the first four phases, Nex has a soft cap that reduces excess damage above **5,000 by 50%**.
-        ⬩ For example, a 6,000 damage hit would be reduced to 5,500 damage.
-    • On the Zaros phase, the soft cap is changed to reduce excess damage above **2,000 by 75%**.
-        ⬩ This means a 6,000-damage hit would be reduced to 3,000.
-
-.
-### Mages Overview
-⬥ The mages have a soft cap that reduces excess damage above 1,000 by a random amount between approximately 80% and 100%.
-⬥ Each mage has 10,000 health and possesses a max hit of around 850. The mages are static and can only be attacked whenever Nex calls their name.
-
-.
-### Special Attacks
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Smoke Phase__",
-        "value": "⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.\n\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://img.pvme.io/images/BgsPoty.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://img.pvme.io/images/0tauAFe.mp4)"
-      },
-      {
-        "name": "__Shadow Phase__",
-        "value": "⬥ Shadow traps (if phased before virus) → Darkness → Shadow traps → 4 auto-attacks → Repeats from second shadow traps.\n⬥ Move from Shadows and don’t stand MD.\n\u00a0\u00a0\u00a0\u00a0• A shadow trap is avoided. [Example](https://img.pvme.io/images/FZJq76Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• A player escapes the shadows engulfing them. [Example](https://img.pvme.io/images/4cZwRUJ.mp4)"
-      },
-      {
-        "name": "__Blood Phase__",
-        "value": "⬥ Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat.\n⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range.\n\u00a0\u00a0\u00a0\u00a0• Nex summoning her Blood Reavers. [Example](https://img.pvme.io/images/480GewR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex sacrifices a player. [Example](https://img.pvme.io/images/qnjrQdC.mp4)\n⬥ Any bleeds used during this phase will heal Nex rather than damage her (e.g., <:bloat:1159433682403201044> <:bloodsiphon:1159434279311380532>)."
-      },
-      {
-        "name": "__Ice Phase__",
-        "value": "⬥ First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat.\n⬥ If Blood phase ended with Sacrifice, Ice will start with Contain. [Example](https://img.pvme.io/images/zFmdn67.mp4)\n⬥ If Blood phase ended with Siphon, Ice will start with Prison. [Example](https://img.pvme.io/images/YGkCP6F.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:vitality:654618235097972737>\n\u00a0\u00a0\u00a0\u00a0• Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating."
-      },
-      {
-        "name": "__Zaros Phase__",
-        "value": "⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280> and heals herself for 33,333 (1/6) of her health to boost it up to 73,333. [Example](https://img.pvme.io/images/lPTF0V0.mp4)\n⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks."
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __The Fight__
-.tag:fight
 ⬥ <:bbc:626714879218155521> is perked with Caroming 4 <:caroming4:791281588792590336> and is used for Greater Ricochet <:grico:787904334812807238>
 ⬥ Deathdealer robe bottom is perked with Clear Headed 4 <:ch4:712073087864012840>
-⬥ It is recommended to unlock the full [Talent Tree](<https://runescape.wiki/w/Talents>) for <:conjureghost:1137809206423060632>, <:conjurezombie:1137809200219684924>, <:conjureskeleton:1159434516658651147>, <:invokedeath:1137809121983336548> and <:splitsoul:1137809168368148490>
-⬥ Use the [Stone of Jas boost](<https://runescape.wiki/w/Stone_of_Jas_(status)>) <:jasboost:1006121672790773770>
-    • After visiting the Glacor Cave you get a 5% damage bonus for 4 hours, it only works in certain areas.
+⬥ <:jasboost:1006121672790773770> from Glacor Cave is required.
+⬥ Has only been tested with the T100 upgrade from <:shardofgenesisessence:1266418218264694954> for <:omniguard:1138809234922934282> and may be inconsistent without.
+    • Fill with <:necroauto:1137809137401602109> as needed
+.
 
 .
-## __Rotations__
+## __Rotation__
 .tag:rotations
-**Pre-fight**
-<:surge:535533810004262912> + Banish Ward
+### Pre-fight
+<:conjurearmy:1166094935066423348> + <:veng:543478434953822208> + walk to middle-south → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:invokedeath:1137809121983336548> → (at around 4s) <:dealerlegs80:1142783488257429504> + <:anti:535541306475151390> → <:firstnecrorobebottom:1206664822654115911> + <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883>
+### Smoke Phase
+(tc) + <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> + walk 1 tile north-east of Nex → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:dive:1049378668197195808> to Fumus
+*Note: stalling crackling between kills can help make this phase more consistent.*
 
-<:surge:535533810004262912> + <:conjurezombie:1137809200219684924> + walk to middle-south → <:conjureghost:1137809206423060632> → <:conjureskeleton:1159434516658651147> → <:commandghost:1159434409913634816> → <:lifetransfer:1137809128136388819> → <:invokedeath:1137809121983336548> (at around 4s) <:anti:535541306475151390> → <:splitsoul:1137809168368148490>
+**Fumus**
+(tc) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:bbc:626714879218155521> + <:grico:787904334812807238> → <:omniguard:1138809234922934282> + <:soulsap:1137809140476031057> → walk towards nex for skull bounce
+*Note: you are aiming to have skulls bounce onto Fumus and then back to Nex.*
+.
+### Shadow Phase
+<:omniguard:1138809234922934282> <:spec:537340400273195028> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:deathspark:1143642264850141205> <:necroauto:1137809137401602109> if not 120k + <:surge:535533810004262912> + <:dive:1049378668197195808> to Umbra
+*Note: The (tc) timing is when <:bloat:1159433682403201044> kills Fumus as this will then tag Nex with a hit of <:splitsoul:1137809168368148490> . This allows the <:omniguard:1138809234922934282> <:spec:537340400273195028> to not be nulled.*
 
-.
-**Phase 1 (Smoke & Fumus)**
-(tc) + <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> + walk 1 tile north-east of Nex → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> + <:surge:535533810004262912> to Fumus + (tc) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:ecb:615618531937222657> <:grico:787904334812807238> (0 tick) → walk towards nex for skull bounce
-*Note: you are aiming to have skulls bounce onto Fumus*
+**Umbra**
 
+(tc) Umbra + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:bbc:626714879218155521> + <:grico:787904334812807238> → <:omniguard:1138809234922934282> + <:soulsap:1137809140476031057>
 .
-**Phase 2 (Shadow & Umbra)**
-(Prephase with) <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> (can <:soulsap:1137809140476031057> if not 120k) → (tc umbra) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:deathspark:1143642264850141205> <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → (tc) + <:vulnbomb:655341074235129858> + <:necroauto:1137809137401602109>
+### Blood Phase
+<:vulnbomb:655341074235129858> + <:necroauto:1137809137401602109> → <:divert:787904334377648130> → <:prep:535541258546970624> → <:commandskeleton:1137809194423160883> → <:bloat:1159433682403201044> → <:fingerofdeath:1159434801938432010> + <:adrenrenewal:736298121704767538> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
 
-.
-**Phase 3 (Blood & Cruor)**
-(defensives to build adren) → (tc) + <:bloat:1159433682403201044> → <:fingerofdeath:1159434801938432010> + <:adrenrenewal:736298121704767538> → <:deathspark:1143642264850141205> <:necroauto:1137809137401602109> → basic if nex is not phased → (tc) cruor + <:bloat:1159433682403201044> → 1h <:grico:787904334812807238> (to not lose souls)
-*Note: If you do not get a darkness skip, ensure you are attacked 3 times to start the Ice phase on Nex's 'Contain this!' special attack*
+*Note: Move towards Cruor during this phase.*
 
+**Cruor**
+
+(tc) Cruor + <:bloat:1159433682403201044> → <:bbc:626714879218155521> + <:grico:787904334812807238> → <:omniguard:1138809234922934282> + <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> if not dead
+
+*Notes:*
+⬥ *If you do not get a darkness skip, ensure you are attacked 3 times to start the Ice phase on Nex's 'Contain this!' special attack.*
+⬥ *Position Nex near Cruor if possible so that <:bloat:1159433682403201044> spreads to her when Cruor dies.*
 .
-**Phase 4 (Ice & Glacies)**
-(Prephase on nex with) <:volleyofsouls:1159435029592686642> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → (tc on glacies) <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:ecb:615618531937222657> <:grico:787904334812807238> (0 tick) → <:soulsap:1137809140476031057>
+### Ice Phase
+<:anti:535541306475151390> → <:volleyofsouls:1159435029592686642> → <:bloat:1159433682403201044> + <:surge:535533810004262912> + <:dive:1049378668197195808> to Glacies
+
+**Glacies**
+
+(tc) Glacies + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:ingen:641339234111848463> + <:bbc:626714879218155521> + <:grico:787904334812807238> → <:omniguard:1138809234922934282> + <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> if not dead
 .
-**Phase 5 (Zaros)**
-<:commandskeleton:1137809194423160883> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642>
+### Zaros Phase
+<:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:volleyofsouls:1159435029592686642> → improv
 
 .
 ## __Example Kills__
 .tag:example
 .
-⬥ [Necromancy Nex](https://youtu.be/b-uZtDDY1YY?si=BAoDDt6rsEwfpECL)
+⬥ [Necromancy Nex](https://youtu.be/ZUmDpKtjjsg)
 .
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
   }
 }
