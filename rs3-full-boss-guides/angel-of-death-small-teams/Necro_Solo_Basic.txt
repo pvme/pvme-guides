@@ -4,7 +4,7 @@
 .
 ## __Introduction__
 .tag:intro
-Nex, Angel of Death can be done solo using Necromancy <:necromancy:1148995625896120460> with relatively low requirements due to the strong multi-target damage and sustain tools available to the combat style. This guide will cover strategies applicable to solo players that will work both for getting your first kill and for consistent farming of the boss.
+Nex: Angel of Death can be done solo using Necromancy <:necromancy:1148995625896120460> with relatively low requirements due to the strong multi-target damage and sustain tools available to the combat style. This guide will cover strategies applicable to solo players that will work both for getting your first kill and for consistent farming of the boss.
 
 .
 ## __Presets and Relics__
@@ -13,12 +13,12 @@ Nex, Angel of Death can be done solo using Necromancy <:necromancy:1148995625896
   "embed": {
     "color": 39423,
     "image": {
-            "url": "https://img.pvme.io/images/eaK641Tgiw.png"
+            "url": "https://img.pvme.io/images/53NhTelNmC.png"
       },
     "fields":[
         {
             "name":"__Preset Suggestions__",
-            "value":"⬥ [Advanced Preset](https://pvme.io/preset-maker/#/TLPyeGf92F6qx5dZx3lr) <:necromancy:1148995625896120460>\n⬥ [Basic Preset](https://pvme.io/preset-maker/#/o3NJwk3h0ESMMfuV2iFj) <:necromancy:1148995625896120460>"
+            "value":"⬥ [Preset](https://pvme.io/preset-maker/#/BElSnBIrbqfv1Z6WSVgk) <:necromancy:1148995625896120460>"
       }
     ]
   }
@@ -32,7 +32,7 @@ Nex, Angel of Death can be done solo using Necromancy <:necromancy:1148995625896
 		"fields": [
 {
   		"name": "__Checklist and Unlocks__",
-              "value": "⬥ <:eofblacku:1260022289731158146> EoF with Statius Warhammer <:swh:641670143197446182> and/or <:invokelordofbones:1176968330582700174>\n⬥ <:eofblack:780401412915855380> EoF with Deathguard <:deathguard90:1138809243143766118>\n⬥ <:rov:513201065877831680> Passive Ring of Vigour unlocked \n⬥ <:darkness:1137809209782698024> with basic preset, <:animatedead:856635090453135382> with advanced preset\n⬥ <:mob:689501908628799488> Mobile perk or <:shadowsgrace:895999229737185280> Shadows Grace relic\n⬥ <:equilibriumaura:1233722649834684416> Equilibrium aura or best dps-boosting aura\n⬥ <:restore:642708657825644554> <:powderofpenance:928221126360969226> <:blessedflask:659122178704408598> Available ways to restore prayer points\n⬥ Bonfire + thermal spa HP boosts are active\n⬥ (Optional) <:firstnecrorobetop:1206664820682657822> Power armour swap between mechanics\n⬥ (Optional) <:hellhoundpouch:921410226475925514> Second hellhound pouch in case familiar dies",
+              "value": "⬥ <:eofblacku:1260022289731158146> EoF with Statius Warhammer <:swh:641670143197446182>\n⬥ (optional) <:invokelordofbones:1176968330582700174> Invoke lord of bones\n⬥ <:eofblack:780401412915855380> EoF with Deathguard <:deathguard90:1138809243143766118>\n⬥ <:rov:513201065877831680> Passive Ring of Vigour unlocked \n⬥ <:animatedead:856635090453135382> Animate dead active\n⬥ <:mob:689501908628799488> Mobile perk or <:shadowsgrace:895999229737185280> Shadows Grace relic\n⬥ <:equilibriumaura:1233722649834684416> Equilibrium aura or best dps-boosting aura\n⬥ <:restore:642708657825644554> <:powderofpenance:928221126360969226> <:blessedflask:659122178704408598> Available ways to restore prayer points\n⬥ Might of het <:pantheonaura:982264010126819380> or Bonfire + thermal spa HP boosts are active\n⬥ (Optional) <:firstnecrorobetop:1206664820682657822> Power armour swap between mechanics",
 "inline": true
   }
   ]
@@ -43,39 +43,19 @@ Nex, Angel of Death can be done solo using Necromancy <:necromancy:1148995625896
 .
 ## __Rotation and Strategies__
 .tag:rotation
-Nex builds stacks throughout the fight, which are shown under her boss health bar. Each stack increases the damage of her auto attacks by 1%.
-Stacks are gained when Nex does any of the following:
-⬥ Attacking the player while they have remained in the same quadrant for too long.
-⬥ During the elements special attack, **not** standing in the quadrant Nex is facing adds 20 stacks.
-⬥ Every <:bloodreaver:929773044296216666> Nex absorbs will add 3 stacks.
-At the start of Phase 4, stacks are set to 30 and remain fixed for the rest of the fight.
-
 .
 ### Phase 1
 .tag:p1
-⬥ Use Statius's Warhammer <:swh:641670143197446182> <:eofspec:1257438999794946099> to apply its defence reduction which will last until pillars begins
-    • If using Cryptbloom <:cryptbloomtop:1334336168363561041> with Animate Dead <:animatedead:856635090453135382>, apply <:swh:641670143197446182> <:eofspec:1257438999794946099> three times to have good hit chance.
-    • Invoke Lord of Bones <:invokelordofbones:1176968330582700174> may also be used for a slower-ramping defence reduction
+⬥ Start the fight by using Statius's Warhammer <:swh:641670143197446182> <:eofspec:1257438999794946099> three times to drain AoD's defence level
+    • This will last till pillars start
+    • Additionally apply <:invokelordofbones:1176968330582700174> Lord of Bones to keep 100% hit chance when drinking brews
 ⬥ Use Invoke Death <:invokedeath:1137809121983336548> and Threads of Fate <:threadsoffate:1137809172335951933> to clear out the reavers <:bloodreaver:929773044296216666>, utilising the stun from Death Guard special attack <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> to keep them from reaching Nex
     • Note that the **reavers must be close enough** for threads <:threadsoffate:1137809172335951933> to reach them all, this can be timed as the reavers reach the set of green-rune tiles surrounding the center of the arena
         ⬩ *Refer to __Example Kills__ to see this in action*
+    • If the reavers <:bloodreaver:929773044296216666> are 1 tile away from AoD after you stun them, you can walk diagonally 2 tiles to move aod but still have the reavers be in range for threads <:threadsoffate:1137809172335951933>
 ⬥ When using defensives, keep in mind that Nex's melee autoattacks will reset defensive cooldowns at 5, 10, and 15 enrage stacks, visible on your debuff bar
 ⬥ During the elements special attack, use defensives such as <:disrupt:535614336207552523> / <:res:535541258844635148> to absorb the incoming damage from the quadrant Nex is facing
-    • Not standing in the quadrant Nex faces will add 20 stacks.
-
 .
-**Example P1 Rotation**
-<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → (3.0) <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> → (tc) + <:smokecloud:856635090641879050> + <:swh:641670143197446182> <:eofspec:1257438999794946099> → <:touchofdeath:1137809175980810380> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> + <:demonslayer:641339921675845633> → <:bloodreaver:929773044296216666> on green tiles → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → continue until phased
-
-*Note: Replace <:omniguard:1138809234922934282> <:spec:537340400273195028>  with <:soulsap:1137809140476031057> / <:necroauto:1137809137401602109> if not owned*
-
-.
-⬥ Stay within 1 tile away from Nex (2 tiles away from the center tile) to ensure <:threadsoffate:1137809172335951933> hits every reaver.
-⬥ If the reavers <:bloodreaver:929773044296216666> are 1 tile away from Nex after you stun them due to late threads <:threadsoffate:1137809172335951933> timing, then walk 2 tiles away from Nex diagonally and continue the rotation. Relure after reavers die.
-    • To relure you <:dive:1049378668197195808> to the center and walk 2 tiles diagonal away from Nex <:aod:580167371365548042>
-⬥ Note that the reaver-killing rotation will require 12 <:necrosis:1139452791878856805> stacks when using tier 90 weapons:
-    • <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642>
-
 ⬥ To prepare to phase Nex into phase 2, hold damage slightly before hitting 2.1 million health <:constitution:689509250887712902> and **wait for her to start her elements special attack**, using a high damaging ability such as <:fingerofdeath:1159434801938432010> / <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> / <:omniguard:1138809234922934282> <:spec:537340400273195028> to guarantee the phase **as she jumps**
     • Make sure to phase before ice walls and reavers can spawn
     • This is to ensure as much time as possible during phase 2 before she uses another elements special attack, which will spawn additional reavers <:bloodreaver:929773044296216666> that** will be very difficult to deal with during that phase**
@@ -133,7 +113,6 @@ Phase 3 involves using Necromancy's <:necromancy:1148995625896120460> strong mul
 ⬥ Start with <:deflectmage:544195487926845462> and use defensives <:devo:513190158728953857> / <:reflect:535541258786177064> / <:res:535541258844635148> as necessary to deal with incoming damage
 ⬥ Once minions are dead, <:splitsoul:1137809168368148490> can be used as long as Nex's attacks are still flicked properly
 ⬥ Upkeep <:bloat:1159433682403201044> and use <:livingdeath:1159434908486357072> / <:omniguard:1138809234922934282> <:spec:537340400273195028> as they come up to finish phasing Nex to 600k health <:constitution:689509250887712902>
-⬥ Occasionally move to different quadrants to prevent Nex from building up too many stacks.
 
 .
 ### Phase 3 Mechanics
@@ -145,7 +124,7 @@ Mechanics in phase 3 will happen in a semi-random order, with the primary restri
 ⬥ **Ice**: You go into a 'stasis' mode where <:deathskulls:1159434663903899728> will get cancelled if it returns to you and conjures don't attack anymore
     • Use <:freedom:535541258240786434> to use a few more damaging abilities before you are imprisoned
     • Disables defensives such as <:reflect:535541258786177064> / <:res:535541258844635148> but not <:shielddome:537341954392850442>
-    • Use <:shielddome:537341954392850442> + <:prismofrestoration:938475261366784070> (if using <:hellhoundpouch:921410226475925514>) and make sure to keep prayer flicking
+    • Use <:shielddome:537341954392850442> + <:prismofrestoration:938475261366784070> (if using <:reaverpouch:839903693837959228>) and make sure to keep prayer flicking
     • Preparation <:prep:535541258546970624> isn't put on cooldown so <:res:535541258844635148> can be used before ice and <:prep:535541258546970624> once you are imprisoned
     • Can still use conjure abilities during ice but as said before conjures won't attack
     • Other abilities such as <:splitsoul:1137809168368148490> / <:commandskeleton:1137809194423160883> can be used as ice is ending to 'save' some global cooldowns
@@ -154,10 +133,10 @@ Mechanics in phase 3 will happen in a semi-random order, with the primary restri
 ⬥ **Pool**: Must have >14k health <:constitution:689509250887712902> to take the pool
     • Tier 90 Deathwarden gear <:wardenhood90:1142770718468223027> and boosts from bonfire / desert pantheon aura <:pantheonaura:982264010126819380> + thermal spa <:thermalflask:689530593796423724> will put you >15k maximum health <:constitution:689509250887712902>
     • Fortitude <:fortitude:537341748180025365> may be flicked on for up to 1000 additional maximum health <:constitution:689509250887712902>
-    • Use <:powerburstofvitality:654618235097972737> to boost life points or heal up with food <:brew:565726489400573962> if unavailable
+    • Use <:vitality:654618235097972737> to boost life points or heal up with food <:brew:565726489400573962> if unavailable
     • Be wary of an invisible autoattack as Nex finishes her initial animation of spawning the pool
 
-⬥ <:conjureghost:1137809206423060632> / <:soulsplit:615613924506599497> can take care of much of the healing between mechanics once minions are dead
+⬥ <:conjureghost:1137809206423060632> / <:reaverpouch:839903693837959228> / <:soulsplit:615613924506599497> can take care of much of the healing between mechanics once minions are dead
 
 .
 ### Phase 4
@@ -166,7 +145,7 @@ Mechanics in phase 3 will happen in a semi-random order, with the primary restri
 ⬥ <:swh:641670143197446182> <:eofspec:1257438999794946099> can be optionally reapplied at any time after pillars begins
 ⬥ Bombs can be placed at max range on a wall next to a pillar or as close to the pillar as possible to leave as much open space as possible
 ⬥ Conjures will continue attacking when you go middle <:commandskeleton:1137809194423160883> / <:commandzombie:1137809191231295549>
-⬥ Remember to upkeep <:prismofrestoration:938475261366784070> on each pillar if using <:hellhoundpouch:921410226475925514>
+⬥ Remember to upkeep <:prismofrestoration:938475261366784070> on each pillar if using <:reaverpouch:839903693837959228>
 ⬥ <:res:535541258844635148> / <:devo:513190158728953857> can be used to deal with the constant autoattacks from Nex
 ⬥ After all pillars have been defeated, you can reposition middle, only surging out to place bombs
     • Make sure to keep track of which bar is the instakill / bomb if doing this to prevent accidentally bombing mid
@@ -189,11 +168,11 @@ Mechanics in phase 3 will happen in a semi-random order, with the primary restri
     "color": 39423,
     "fields": [
       {
-        "name": "__Solo: Tier 90__",
-        "value": "⬥ [Link](https://youtu.be/WMz8lIPUXbI)"
+        "name": "__1 hour with cryptbloom__",
+        "value": "⬥ [Link](https://youtu.be/Frt7gT0i2ww)"
       },
       {
-      	"name": "__Solo: Tier 95__",
+      	"name": "__1 hour with power armour and ripper demon__",
         "value": "⬥ [Link](https://www.youtube.com/watch?v=Yujsp75ZxA4)"
       }
     ]
@@ -204,7 +183,7 @@ Mechanics in phase 3 will happen in a semi-random order, with the primary restri
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
     "color": 39423,
     "fields": [
       {
