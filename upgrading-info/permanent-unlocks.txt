@@ -310,7 +310,7 @@ Refer to to the **Starter Perks** or **Advanced PvM Perks** section of <#5536327
 {
   "embed": {
     "title": "__Index of Potions__",
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Pulse cores <:pulsecore:1005450653390360626> may be used to boost your Herblore <:herblore:689554435583508558> level\n\u00a0\u00a0\u00a0\u00a0• See ``!pulsecoreboost``\n⬥ [Botanist's Workbench](https://runescape.wiki/w/Botanist%27s_Workbench) lets you prepare overloads in larger quantities\n\u00a0\u00a0\u00a0\u00a0• Certain bonuses don't apply, e.g., scroll of cleansing",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/w/Herblore)\n⬥ Pulse cores <:pulsecore:1005450653390360626> may be used to boost your Herblore <:herblore:689554435583508558> level\n\u00a0\u00a0\u00a0\u00a0• See ``!pulsecoreboost``\n⬥ [Botanist's Workbench](https://runescape.wiki/w/Botanist%27s_Workbench) lets you prepare overloads in larger quantities\n\u00a0\u00a0\u00a0\u00a0• Certain bonuses don't apply, e.g., scroll of cleansing",
     "color": 39423,
     "fields": [
       {
@@ -328,21 +328,24 @@ Refer to to the **Starter Perks** or **Advanced PvM Perks** section of <#5536327
 .tag:prayers
 {
   "embed": {
-    "title": "__Prayers__",
-    "description": "⬥ T99 prayers are low priority, each requires a <:pcodex:643166740833894400> (<:coins:698816156961603654> $data_pvme:unlock_pdex$ each)",
+    "title": "__Index of Prayers__",
+    "description": "⬥ Further information on prayers and curses may be found on the [Wiki](https://runescape.wiki/w/Prayer)\n⬥ Assumes damage increase over nothing\n\u00a0\u00a0\u00a0\u00a0• Does **NOT** take [hit chance](https://runescape.wiki/w/Hit_chance#Level_99_stats) into account\n⬥ T99 prayers are low priority, each requires a <:pcodex:643166740833894400> (<:coins:698816156961603654> $data_pvme:unlock_pdex$ each)",
     "color": 39423,
     "fields": [
       {
+        "name": "__Curses__",
+        "value": "⬥ **Soul Split** <:soulsplit:615613924506599497>\n\u00a0\u00a0\u00a0\u00a0• Requires 92 <:prayer:1005450651347730533>\n⬥ **T95** <:torment:583429936958930964> <:turmoil:583429936606347280> <:sorrow:1137941003895046284> <:anguish:583429936665198592>\n\u00a0\u00a0\u00a0\u00a0• Requires 95 <:prayer:1005450651347730533>\n\u00a0\u00a0\u00a0\u00a0• Boosts damage by 10%\n⬥ **T99** <:affliction:513190158468907008> <:malevolence:513190159416557573> <:ruination:1137940996391452772> <:desolation:513190159018098713>\n\u00a0\u00a0\u00a0\u00a0• Requires 99 <:prayer:1005450651347730533>\n\u00a0\u00a0\u00a0\u00a0• Boosts damage by 12%",
+        "inline": true
+      },
+      {
         "name": "__Prayers__",
-        "value": "⬥ **Soul Split** <:soulsplit:615613924506599497> - 92 <:prayer:1005450651347730533>\n⬥ **T95 Curses** <:turmoil:583429936606347280> <:torment:583429936958930964> <:anguish:583429936665198592> <:sorrow:1137941003895046284> - 95 <:prayer:1005450651347730533>\n⬥ **T99 Curses** <:Malevolence:513190159416557573> <:Affliction:513190158468907008> <:Desolation:513190159018098713> <:ruination:1137940996391452772> - 99 <:prayer:1005450651347730533>",
+        "value": "⬥ **Leeches (zealots)**\n⬥ **Eclipsed +divine rage**",
         "inline": true
       }
     ]
   }
 }
 .embed:json
-
-.
 ## __Archaeology Relics__
 .tag:ArchaeologyRelics
 {
