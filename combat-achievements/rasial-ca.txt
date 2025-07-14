@@ -31,7 +31,7 @@ This guide will go over how to complete the Combat achievements for Rasial, and 
     "fields": [
 {
         "name": "__Preset Suggestions__",
-        "value": "⬥ [Connection Lost](https://pvme.github.io/preset-maker/#/IdcNE9rzLNb07bjRkls5)\n⬥ [Master Speed Killer](https://pvme.github.io/preset-maker/#/iR99yvedb6th6sHjgjCx)",
+        "value": "⬥ [Connection Lost](https://pvme.github.io/preset-maker/#/IdcNE9rzLNb07bjRkls5)\n⬥ [Mahjarrat Master Speed Killer](https://pvme.io/preset-maker/#/sMl8X9lVmX8drv3SUDsS)\n⬥ [Supreme Invigorate Master Speed Killer](https://pvme.github.io/preset-maker/#/iR99yvedb6th6sHjgjCx)",
         "inline": true
       }
     ]
@@ -40,8 +40,8 @@ This guide will go over how to complete the Combat achievements for Rasial, and 
 .embed:json
 
 .
-## __Rasial Master Speed Killer__
-.tag:masterspeedrot
+## __Supreme Invigorate Rasial Master Speed Killer__
+.tag:invigmasterspeedrot
 ⬥ This rotation is **NOT** recommended for standard kills, only for the achievement.
     • The setup takes extra time, thus lowering average kills per hour.
 
@@ -70,9 +70,7 @@ Pre Living Death
 *Note: <:volleyofsouls:1159435029592686642> and <:adrenrenewal:736298121704767538> are used on the same tick.*
 
 Living death
-<:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:divert:787904334377648130> → <:soulsap:1137809140476031057>
-
-<:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109>
+<:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:divert:787904334377648130> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109>
 
 .
 **Over 300k**:
@@ -90,7 +88,6 @@ Living death
 <:commandskeleton:1137809194423160883> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *improv*
 
 .
-.tag:optimisation
 {
   "embed": {
   "title": "Optimisation Notes",
@@ -100,6 +97,39 @@ Living death
 }
 .embed:json
 
+.
+## __Mahjarrat Rasial Master Speed Killer__
+.tag:mahjmasterspeedrot
+⬥ This rotation is more consistent than the <:invigaura:643505652865695767> rot, however it requires tier 4 CA Blessing for the adrenaline crystal to give +100% adren.
+
+⬥ This rotation seeks to consistently hit under 1 minute kill times.
+    • Will be slower without Innate Mastery enhancement <:shardofgenesisessence:1266418218264694954>
+    • Switch from <:scriptureofjas:869284342839513108> to <:grim:568262896375824385> after either the 1st Jas proc or before the last <:deathskulls:1159434663903899728> in <:livingdeath:1159434908486357072>.
+        ⬩ <:scriptureofjas:869284342839513108> is activated after loading preset.
+⬥ Have Rasial as your left portal in wars retreat for easier movement.
+⬥ At specific points during the encounter you may <:veng:543478434953822208>
+⬥ **NOTE:** Using <:deathskulls:1159434663903899728> too early will result in the first bounce becoming immune.
+    • The correct timing of <:deathskulls:1159434663903899728> is the **same tick** as the "Ha! No more games!" message.
+.
+### Pre-build
+<:conjurearmy:1166094935066423348> → target <:war:1005552206302416986> <:dummy:656844963522281473> → Adren crystal to 100% → <:nat:535541258131865633> → Adren crystal to 100% → <:dive:1049378668197195808> to <:war:1005552206302416986> portal → <:lifetransfer:1137809128136388819> → rejoin instace → <:invokedeath:1137809121983336548> → <:commandghost:1159434409913634816> → <:commandskeleton:1137809194423160883> + <:surge:535533810004262912> + walk to starting position → equip <:salveamulet:797899945730244648> + non necro main hand
+
+.
+###Phase 1-3
+(tc) + <:smokecloud:856635090641879050> + *equip* <:omniguard:1138809234922934282> + <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380> → <:splitsoul:1137809168368148490> → <:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:necroauto:1137809137401602109> / <:divert:787904334377648130> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> + 2t <:undeadslayer:641339922019516416> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → improvise
+
+*Note: If you are <100% adrenaline you should <:adrenrenewal:736298121704767538> + <:livingdeath:1159434908486357072> instead of <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538>*
+###Phase 4
+<:commandskeleton:1137809194423160883> / <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:touchofdeath:1137809175980810380> / <:deathguard90:1138809243143766118> <:spec:537340400273195028>
+.
+{
+  "embed": {
+  "title": "Optimisation Notes",
+    "description":"⬥ Swapping to <:eof:787526151978614824> before the pre-build allows conjures to spawn with higher ability damage\n\n⬥ The <:necroauto:1137809137401602109> after the first <:bloat:1159433682403201044> should be replaced with <:divert:787904334377648130> if you are not tick perfect as any delay will mean the <:necroauto:1137809137401602109> does not get boosted adrenaline from <:nat:535541258131865633>\n\n⬥ <:ringofretri:1387866560210931722> can be equipped in p4 however it is optional and not required for the rotation to work",
+    "color": 39423
+   }
+}
+.embed:json
 .
 ## __Connection Lost. Please Wait - Attempting to Reestablish__
 .tag:connlost
@@ -125,7 +155,7 @@ basic + <:prismofrestoration:938475261366784070> → <:anti:535541306475151390> 
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [Example Speed Kills (Slightly different prebuild)](https://youtu.be/mgjFJqoU0tw)\n⬥ [52.8 Example Kill](https://youtu.be/uucefSVdm9I)\n⬥ [55.8 b2b Kills](https://youtu.be/8FBWRWzTbSM)\n⬥ [57.6 No Jas proc Kill](https://youtu.be/ZEYVYqGot3c)\n⬥ [Connection Lost](https://youtu.be/YjfM8ER6i9o)"
+        "value": "⬥ [Example Speed Kills (Slightly different prebuild)](https://youtu.be/mgjFJqoU0tw)\n⬥ [52.8 Example Kill](https://youtu.be/uucefSVdm9I)\n⬥ [55.8 b2b Kills](https://youtu.be/8FBWRWzTbSM)\n⬥ [57.6 No Jas proc Kill](https://youtu.be/ZEYVYqGot3c)\n⬥ [Mahjarrat aura examples](https://www.youtube.com/watch?v=Sw7ILn845G4)\n⬥ [Connection Lost](https://youtu.be/YjfM8ER6i9o)"
       }
     ]
   }
@@ -140,7 +170,7 @@ Formatting Maintained by: <@168029243781939200>
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Master Speed Killer Rotation]($linkmsg_masterspeedrot$)\n⬥ [Optimisation Notes]($linkmsg_optimisation$)\n⬥ [Connection Lost]($linkmsg_connlost$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Supreme Invigorate Master Speed Killer Rotation]($linkmsg_invigmasterspeedrot$)\n⬥ [Mahjarrat Master Speed Killer Rotation]($linkmsg_mahjmasterspeedrot$)\n⬥ [Connection Lost]($linkmsg_connlost$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
     }
 }
