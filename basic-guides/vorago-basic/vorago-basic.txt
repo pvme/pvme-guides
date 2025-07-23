@@ -1,17 +1,17 @@
-# Vorago Duo Basic - The End (Purple Bomb/PB)
+# Vorago Duo Basic Guide - Ceilings Collapse (CC)
 .tag:Intro
 .img:https://img.pvme.io/images/sY7JVkg9No.png
 .
 ### Introduction
 
-This basic guide is designed to streamline players who are starting Vorago duos, and contains some information for Trio, such as the TL5 responsibilities. The strategies in this guide are safe and easy relative to Vorago. With good execution, players following this guide can reach up to 5 kills per hour.
+This basic guide is designed to streamline players who are starting Vorago duos, and contains some information for Trio, such as the TL5 responsibilities. The strategies in this guide are safe and easy relative to Vorago. Note though, that Vorago is not an easy boss in general, and will likely take multiple attempts before you get a kill.
 
 Each weekly rotation can be found as its own thread in the channel. The channel itself contains information related to the current weekly rotation.
 
 .
 ## __Cheat Sheet__
 .tag:CheatSheet
-.img:https://img.pvme.io/images/XEX4fur.png
+.img:https://img.pvme.io/images/NdvoAzn.png
 .
 ## __Preset and Relics__
 .tag:presets
@@ -155,12 +155,16 @@ Each weekly rotation can be found as its own thread in the channel. The channel 
 .tag:P3
 {
   "embed": {
-    "title": "Weekly Special - The End",
+    "title": "Weekly Special - Ceiling Collapse",
     "color": 16777215,
     "fields": [
       {
         "name": "Mechanic",
-        "value": "⬥ Vorago sections off a quarter of the arena with his arms.\n\u00a0\u00a0\u00a0\u00a0• Stand in the arms or take rapidly increasing typeless damage.\n⬥ Vorago rotates his arms anticlockwise. Follow the arms or be smacked for 2.5k.\n⬥ Quadrants 2-4 contain bombs, with heavy damage reduction depending on the bomb:\n\u00a0\u00a0\u00a0\u00a0• In the Blue Bomb quadrant, Vorago takes 1/2 damage.\n\u00a0\u00a0\u00a0\u00a0• In the Red Bomb Quadrant, Vorago takes 1/3 damage.\n\u00a0\u00a0\u00a0\u00a0• In the Purple Bomb Quadrant, Vorago takes 1/4 damage.\n⬥ After the last quadrant, Vorago stands up and releases all untagged bombs, in addition to Vorago's normal auto attacks."
+        "value": "⬥ Vorago drops a rock randomly on 1/9th of the arena.\n⬥ Deals 8k damage divided by the number of players hit by the rock (e.g. 2 players are hit for 4k each).\n⬥ Vorago jumps randomly to a _different_ 1/9th of the arena.\n\u00a0\u00a0\u00a0\u00a0• Vorago cannot jump on existing rocks."
+      },
+      {
+      "name": "General Notes",
+      "value": "⬥ **Turn shadows and lighting detail up. Shadows should be at least MEDIUM.** If you do not, you may not be able to see where the ceiling is falling.\n⬥ Middle rocks can heavily hinder DPS in Phase 3. Clear middle rocks with <:powerburstofvitality:654618235097972737>."
       }
     ]
   }
@@ -168,78 +172,67 @@ Each weekly rotation can be found as its own thread in the channel. The channel 
 .embed:json
 ### For Both Players
 ⬥ Vorago's attack rotation:
-.img:https://img.pvme.io/images/thsFIBw.png
-⬥ The End
-⬥ One person tags all Blue Bombs, while the other person uses <:devo:513190158728953857> + <:Cept:543478434509357098>
-    • Tagging Blue Bombs resets <:devo:513190158728953857> + puts it on cooldown. This is a two person job.
-    • Bomb tag and <:devo:513190158728953857> + <:Cept:543478434509357098> can be done by either player. Sort this out in advance.
-    • Using <:Cept:543478434509357098> slightly early is advised. Intercept will sometimes fail while your character is moving and can cause you to pk your partner.
-⬥ <:powerburstofvitality:654618235097972737> when bombs are released after Vorago stands up.
-⬥ Stop attacking after the purple bomb explodes (for the reflect mechanic).
-
-.
-### Base Tank
-⬥ When Vorago stands up, <:voke:535541259465392143> + stand melee distance to reduce damage taken by the BT.
-    • Note that this is done if you <:devo:513190158728953857> + <:Cept:543478434509357098> for the blue bombs during the mechanic.
-        ⬩ If you do not, the Base will take blue bombs + melee swipes and it can be painful.
-
-.
-### Bomb Tank
-⬥ When Vorago stands up, make sure to be far away from Vorago.
-
+.img:https://img.pvme.io/images/YSSxmPI.png
+⬥ Often free-for-all BT. Distance from Vorago cannot be guaranteed due to Vorago's random jump positions. <:deflectmage:544195487926845462> as needed.
+⬥ Vorago can jump near the person with aggro. If this happens, he has a chance to melee swipe you. Aim to deflect melee
+    • Either player can volunteer to <:voke:535541259465392143> so that the other player doesn't have to deal with this. Otherwise free-for-all.
 .
 ### Suggested Rotations (Both Players)
-⬥ If using necro, <:livingdeath:1159434908486357072> while going to first quadrant and <:splitsoul:1137809168368148490> before he puts his arms down
-⬥ Thresh and apply affinity debuffs in the first quadrant (no damage reduction)
-⬥ Use basics to prepare for bomb tag during the second or third quadrant.
-⬥ <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> at the end of the third quadrant
-    • Move back into ultimate after the fourth quadrant and prepare to do damage when Vorago stands.
-⬥ Ditch ultimates for second set of arms if necessary. Try to finish the phase with thresholds.
-⬥ If a second stand is expected, players should switch roles for the tag + cepting of blue bombs if needed.
+⬥ <:livingdeath:1159434908486357072> after the reflect or <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> after second jump.
+    • This ensures players don't lose their ultimates due to a bad jump position
+    • Do not <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> on top of each other, so that only one of you has to tank blue bombs.
+⬥ If taking a lot of damage, consider using <:devo:513190158728953857> and <:res:535541258844635148>
+⬥ Rocks that remain at the end of Phase 3 carry over into Phase 4.
+    • If high HP at the end of Phase 3, players should clear rocks to clear the arena for Phase 4
+    • Note: if the rock is in the centre of the arena, it will be auto-cleared by Vorago once he spawns into the next phase
 
 .
 ## __Phase 4__
 .tag:P4
 ### For Both Players
 ⬥ Vorago's attack rotation:
-.
-.img:https://img.pvme.io/images/REPpAAF.png
-.
+.img:https://img.pvme.io/images/KklN0Ua.png
 ⬥ Phase 4 is time gated. Focus on mechanics.
     • 3 Waterfalls are required to progress the phase. Lower Vorago's HP to under 30k before the last Waterfall.
 ⬥ Waterfall
     • Spawns in one of the four corners. Run behind it quickly, or take up to 10k damage.
     • Some tiles look safe but are not. If unsure, run all the way into the corner.
     • Clears active defensives and puts them on cooldown.
+⬥ Leftover rocks from Phase 3 carry over into Phase 4, landing in the same positions
+    • Deal 4k damage
+    • These rocks may block Waterfalls. Clear them ASAP.
+⬥ Use defensives to avoid food usage.
 ⬥ Clone skip
     • Massive time save if done both times
     • See role sections below for each player's responsibilities
-⬥ The End
-    • Same mechanic as Phase 3, except:
-        ⬩ After Vorago stands up, there are 3 auto attacks then his Red Bomb.
-        ⬩ After the Red bomb, Vorago will use 4 auto attacks before reflect.
-        ⬩ <:cade:535541306353778689> + <:Cept:543478434509357098> strategies are used to handle the bombs instead of Vitality <:powerburstofvitality:654618235097972737> potion
-        ⬩ Do not use <:cadeturtling:867678153883516958> as it extends the cooldown for too long to be used twice on this phase
+⬥ If clone skip is not done, a clone will appear on the player who does not have aggro of Vorago.
+    • Several blue bombs follow before the weekly special occurs (skipping this is the main time save).
+⬥ Ceilings Collapse mechanic is the same as Phase Three
 .
 ### Base Tank
+.
 ⬥ Clone skip
     • Base Tank walks Vorago to the wall
         ⬩ Turn run off, spam click Vorago + surge out of the Waterfall, <:voke:535541259465392143>, walk under Vorago, click near the wall in the direction that Vorago walks
     • The BT may be out of bomb range, which means any potential bombs go to the Base Tank instead.
         ⬩ Eat to high HP in the Waterfall, prayer flick <:deflectmage:544195487926845462> for Blue Bombs, and use <:res:535541258844635148> / <:reflect:535541258786177064> as needed.
-        ⬩ ⬥ After the skip, Vorago goes straight into The End (Purple Bomb) special.
-⬥ Build adrenaline throughout the arms animation
-⬥ Tag red bombs in their quadrant. The Bomb Tank should use <:cade:535541306353778689> + <:Cept:543478434509357098> on you for this.
-⬥ Red bombs drain adrenaline, ensure that you have 100% by Vorago's stand.
-⬥ When Vorago stands up, use <:cade:535541306353778689> + <:Cept:543478434509357098> on the Bomb Tank. Re-cept when cade timer has 10s left.
+⬥ After the skip, Vorago goes straight into the Ceiling Collapse special.
+    • Rocks can fall underneath Vorago, on top of the Base. Make sure to turn run on after the clone skip to be able to avoid the rock if this happens.
+⬥ Clear bleeds as you would do in phase 2.
+
 .
 ### Bomb Tank
 ⬥ Clone skip
     • Surge to the wall opposite of Vorago
         ⬩ Move in when Vorago does the clone animation (fake melee swipe)
 ⬥ If Clone Skip fails, BT should use <:devo:513190158728953857> against the Blue Bombs.
-⬥ After the skip, Vorago goes straight into The End (Purple Bomb) special.
-⬥ In the quadrant with Red Bombs, use <:cade:535541306353778689> + <:Cept:543478434509357098> on the Base Tank while they tag Red Bombs.
+⬥ After the skip, Vorago goes straight into the Ceiling Collapse special.
+⬥ <:cade:535541306353778689> + <:cept:543478434509357098> the Base when Vorago begins the CC animation.
+    • Both players should work to clear rocks.
+⬥ <:cade:535541306353778689> cooldown is relevant
+    • Do not use the turtling switch for cades this phase.
+⬥ Clear bleeds as you would do in phase 2.
+⬥ Pick up the third piece after the last Waterfall, and click on any piece to assemble the Maul of Omens.
 .
 ### TL5 (if trio+)
 ⬥ Clone skip
@@ -255,45 +248,47 @@ Each weekly rotation can be found as its own thread in the channel. The channel 
 ### For Both Players
 ⬥ Vorago's attack rotation:
 .
-.img:https://img.pvme.io/images/gg1VugJ.png
+.img:https://img.pvme.io/images/Wm9e8eu.png
 .
+⬥ Ceilings Collapse week shares the same Phase 5 as Teamsplit
 ⬥ Reverse tug-of-war mechanic
     • 20k damage against Vorago pushes him east 1 square
     • Each tick of damage received from Vorago he pushes west 1 square
     • Any damage mitigated from <:cadeturtling:867678153883516958> negates any pushback
     • Push Vorago all the way to the east, move melee distance, and click the Maul of Omens
+    • Teamsplit damage does not cause him to push west at all.
+    • Teamsplit cancels all active defensives.
+⬥ Base Tank hugs south wall, while BT hugs north wall. Players should only move away from their respective walls to clear Vorago's bleeds.
 .
-⬥ PB
-    • Vorago turns all players into explosive Vitali, with a timer above their head.
-    • When timer hits 0, a purple bomb explodes on the player. This is AoE, so avoid standing near your partner.
-    • Vorago will do 5 auto attacks before reflect.
-    • Standing on opposite walls largely allows you to ignore this special.
-.
-⬥ Base Tank hugs the South wall, while Bomb Tank hugs the North wall. Players should only move away from their respective walls to clear Vorago's bleeds.
-
 ⬥ Bleeds
     • 3 bleeds with that are randomly assigned
     • Vorago does not throw blue bombs during bleeds.
     • Taking damage from bleeds results in Vorago pushing further west. Prioritise clearing them over DPS.
     • Bleeds are cleared by distance from the tile the bleed was received, not distance from Vorago in this phase.
     • Move melee distance + go to the center of the arena. That way you can properly <:escape:535541258832052231> to remove bleeds
-    • The safest way to clear bleeds in case you get all 3 is to <:escape:535541258832052231>  the first bleed and then run back melee distance, <:freedom:535541258240786434> second bleed. <:escape:535541258832052231> the third bleed.
+    • The safest way to clear bleeds in case you get all 3 is to <:escape:535541258832052231> the first bleed and then run back melee distance, <:freedom:535541258240786434> second bleed. <:escape:535541258832052231> the third bleed.
+.
+⬥ If the phase lasts longer than one Teamsplit, the Base Tank and BT swap roles after every set of Vorago's Bleeds.
+    • The player who is stood furthest out should build adrenaline to use <:cadeturtling:867678153883516958> for the first Blue after the teamsplit explodes.
 .
 ### Suggested Rotations (Base Tank)
-⬥ Use <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> in melee distance
-⬥ If you do not get the kill before the bleeds end, you will swap into the bomb tanking role
-    • Use <:cadeturtling:867678153883516958> to tank the blue bombs during the purple bomb special.
+⬥ Use <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> in melee distance shortly after the Teamsplit spawns
+⬥ After the 2nd/4th/6th/etc TeamSplit you switch to the BT role. Use <:cadeturtling:867678153883516958> to tank the blue bombs.
+⬥ After <:cadeturtling:867678153883516958>, build to 100% and <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> during Reflect.
 .
 ### Suggested Rotations (Bomb Tank)
 ⬥ Use a threshold → basics to 100% → <:cadeturtling:867678153883516958> when the first Blue Bomb lands.
-⬥ If you do not get the kill before the bleeds end, you will swap into the base tanking role
-    • Build to 100% and <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> in melee distance ASAP
+⬥ Build to 100% and <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> in melee distance ASAP (and do damage after reflect ends/ bleeds begin).
+⬥ You will be the BT role after the 1st/3rd/5th/etc TeamSplit
+.
+### Phase End Notes
+⬥ Lengthy phases can get hectic. Focus on proper <:cadeturtling:867678153883516958> and <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> timings.
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "description": "*To edit this guide, visit <id:customize> and select Entry Editor*",
     "color": 39423,
     "fields": [
       {
