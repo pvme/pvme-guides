@@ -1,4 +1,4 @@
-spec; # Amascut, God of Destruction, 2000%
+# Amascut, The Devourer 2000%
 .
 .img:https://img.pvme.io/images/S9miXZBbl7.png
 *Note: a **Table of Contents** can be found in the pins.*
@@ -34,6 +34,7 @@ Amascut the Devourer is an endgame group boss encounter, available after complet
 ⬥ Volatile Scarab Akhs (2k LP).
     • They need to be stunned <:stunicon:841419289428492369> to take damage, and will explode if left alone.
     • Their spawn can be prevented by standing within one tile of their burrowing spots.
+        ⬩ Doing this successfully resets mobility cooldowns.
 ⬥ Modest Crocodile Demons (50k LP).
     • When its adrenaline bar is full, <:magic:689504724159823906> attack applying a -50% adrenaline gain debuff on the target.
     • Have Modesty buff.
@@ -45,40 +46,53 @@ Amascut the Devourer is an endgame group boss encounter, available after complet
 
 .
 ### Buffs and Debuffs
-**Lone Soul**
+**Lone Soul** <:shadowlink:1403076345084379337>
 ⬥ Heal Other <:healother:567727985851891715>, Heal Group, and Intercept <:cept:543478434509357098> are disabled in Hard Mode.
+    • Same icon as Shadow Link.
 .
-**Corruption**
-⬥ The tank gains one stack of Corruption for every hit received, increasing damage taken. Getting hit by Soulfire waves and Shockwaves also gives Corruption stacks. Max 15 stacks, and stacks expire ~15s after the last one has been given.
-    • In phase 7 every player gets Corruption stacks from Amascut's auto-attacks.
+**Corruption** <:corruption:1402610315480535050>
+⬥ The base gains one stack of Corruption <:corruption:1402610315480535050> for every auto-attack received, increasing damage taken. Getting hit by Soulfire waves and Shockwaves also gives <:corruption:1402610315480535050> stacks. Max 15 stacks, and stacks expire ~15s after the last one has been given.
+    • In phase 7 every player gets <:corruption:1402610315480535050> stacks from Amascut's auto-attacks.
 .
-**Apmeken's Burden**
+**Apmeken's Burden** <:apmekensburden:1402579857648390224>
 ⬥ Is applied by Amascut early in phase 2. Deals damage every 1.8s and adds a stack. Can be transferred to teammates. Damage increases every hit, instakilling the player at 8 stacks.
+    • Damage can be halved by <:cade:535541306353778689> (not by <:reflect:535541258786177064>)
     • Amascut will apply this debuff in phase 7 when Apmeken is invoked.
 .
-**Modesty**
+**Modesty** <:modesty:1402583151322071091>
 ⬥ Reflects non-basic attacks such as threshold and ultimate abilities, adren-costing <:necromancy:1148995625896120460> abilities, <:spec:537340400273195028> , <:volleyofsouls:1159435029592686642> , plus extra hits from <:bolg:994189289623662702> and <:fsoa:869284271595069451>
     • Does **not** reflect basic abilities, auto-attacks, conjure damage, <:as4:712074245202772009> , <:crack4:712073087662686249> , and <:poisonicon:944649693500154006>
 .
-**Healing through Strength**
+**Healing in Strength** <:healinginstrength:1402585055297273896>
 ⬥ Mobs can have this effect during Phase 4, where any damage they deal heals Amascut for ~30%.
     • Amascut gains this effect in phase 7 when Het is invoked.
 .
-**Carapace**
+**Carapace** <:carapace:1402585081624924210>
 ⬥ Multiple mobs can have this effect during Phase 4, where they are immune to damage until an explosive scarab is thrown at them.
     • Amascut gains this effect in phase 7 when Scabaras is invoked. Requires 3-5(?) Scarabs to break.
 .
-**Interceptor**
+**Interceptor** <:interceptor:1402585098527965275>
 ⬥ Gained upon blocking Amascut's Altar strike once in phase 5. Taking another strike will be an instakill <:instakill:1104794644497309809>.
 .
-**Shadow Link**
-⬥ Shadows of Amascut have a buff when within 15 squares of each other called Shadow Link. This increases their attack speed, damage dealt, and they can hit through <:devo:513190158728953857>.
+**Enlightened** <:interceptor:1402585098527965275>
+⬥ Gained after Jumping and taken Tumeken's Light in phase 6. Appears as a 5x5 light area around you.
+    • Any green bar blasts exploding in the area are nullled.
+    • Same icon as Interceptor.
 .
-**Inner Darkness**
+**Shadow Tear** <:comb:535533833098100745>
+⬥ Debuff from absorbing Engulfed Shadow Tears in phase 6. Explode after a short period of time, Dealing <:magic:689504724159823906> damage for each tear absorbed. Says it pierces through shielding, but <:devo:513190158728953857> blocks it fully.
+    • Same icon as combust.
+.
+**Shadow Link** <:shadowlink:1403076345084379337>
+⬥ Shadows of Amascut have a buff when within 15 squares of each other called Shadow Link. This increases their attack speed and damage dealt per stack, and they can hit through <:devo:513190158728953857>.
+.
+**Inner Darkness** <:shadowlink:1403076345084379337>
 ⬥ Amascut will take reduced damage from all sources that do not have the Light Within buff in phase 7.
+    • Same icon as Shadow Link.
 .
-**Light Within**
+**Light Within** <:interceptor:1402585098527965275>
 ⬥ Granted to all players when successfully passing Tumeken's Strike to the called altar in phase 7, ricocheting it back to Amascut. Allows them to deal full damage to Amascut for 30s.
+    • Same icon as Interceptor.
 
 .
 ### Phase 1 (12000k)
@@ -92,6 +106,7 @@ Amascut the Devourer is an endgame group boss encounter, available after complet
 .
 **Summon Scarabs**
 ⬥ Amascut says `Tear them apart` and summons Volatile Scarab Akhs. They need to be stunned <:stunicon:841419289428492369> to take damage. Will explode if left alone, dealing typeless damage.
+    • Damage can be blocked by <:cade:535541306353778689> and spawn prevented by being near their burrow location.
 .
 **Crushing Soul**
 ⬥ Amascut says `Bend the knee` and deals big typeless damage on the tank. Has defensive penetration. Damage can be shared with nearby teammates (3x3?).
@@ -113,10 +128,10 @@ Amascut the Devourer is an endgame group boss encounter, available after complet
 ### Phase 2
 **Devourer's Destruction**
 Amascut says `ENOUGH! Bring forth Crondis and Apmeken` and a destruction timer of 100.2s starts. When the timer ends, every player is instakilled.
-⬥ Two Gatekeeper gorilla akhs on the sides. They can stun and be stunned/bound. One random player gets marked with the Burden of Amascut. This debuff is a ramping bleed and can be passed to others by standing next to them, resetting the damage. Modest Crocodile Demons spawn at both northern entrances, deal heavy <:range:580168050121113623> and <:magic:689504724159823906> damage, and reflect non-basic ability damage. When their adrenaline bar is full, the target's adrenaline gain is reduced by 50%. Feline Guard Akhs and Lightstealer Salawa Akhs spawn as time progresses.
+⬥ Two Gatekeeper gorilla akhs on the sides. They can stun and be stunned/bound. One random player gets marked with Apmeken's Burden <:apmekensburden:1402579857648390224>. This debuff is a ramping bleed and can be passed to others by standing next to them, resetting the damage. Modest Crocodile Demons spawn at both northern entrances, deal heavy <:range:580168050121113623> and <:magic:689504724159823906> damage, and reflect non-basic ability damage. When their adrenaline bar is full, the target's adrenaline gain is reduced by 50%. Feline Guard Akhs and Lightstealer Salawa Akhs spawn as time progresses.
 
 .
-⬥ After the gatekeeper gorillas are dead, players can go into gateways west and east to free the Echoes of Apmeken and Crondis. Within they will find a Chainwarden Akh and three chains.
+⬥ After the Gatekeeper Gorilla Akhs are dead, players can go into gateways west and east to free the Echoes of Apmeken and Crondis. Within they will find a Chainwarden Akh and three chains.
 ⬥ Every killed chain turns the respective statue yellow instead of green. A player in the main arena cleanses the corrupted statue every time, permanently killing the chain. Clicking the statue early deals damage. Chains respawn over time if the statue is not cleansed within ~12s.
 ⬥ After all three chains are broken and cleansed, the player inside the respective room can liberate the god and receive their fragment of Tumeken (30s buff timer).
     • After Crondis' blessing, two more Modest Crocodile Demons spawn.
@@ -124,14 +139,14 @@ Amascut says `ENOUGH! Bring forth Crondis and Apmeken` and a destruction timer o
 
 
 **Empowered Soulfire**
-⬥ During phase 2 the main arena gets waves of corruption passing over it, south to north. Along the Chains, Empowered Soulfire will also appear. These deal magic damage. <:devo:513190158728953857> blocks damage, but duration is reduced by 3s for each hit. Each hit taken gives one Corruption stack.
+⬥ During phase 2 the main arena has waves of Empowered Soulfire passing over it, south to north. Along the Chains, Empowered Soulfire will also appear. These deal magic damage. <:devo:513190158728953857> blocks damage, but duration is reduced by 3s for each hit. Each hit taken gives one <:corruption:1402610315480535050> stack.
 ⬥ Amascut's health caps at 7200k <:constitution:689509250887712902>
 
 .
 ### Phase 3 (`Ugh... No!`)
 ⬥ Similar to phase 1, but includes Devourer's Shockwave with every mechanic.
 ⬥ Rotation:
-33% adren no auto → swipes → auto → Triple Tap → 2 autos → swipes → Summon Scarabs → 3 same auto → Triple Tap → swipes → 2 autos → Empowered Eruption → auto → swipes → auto → Triple Tap → 2 autos → swipes → phase 4.
+33% adren no auto → swipes → auto → Triple Tap → 2 autos → swipes → Summon Scarabs → 3x same auto → Crushing Soul → swipes → 2 autos → Empowered Eruption → auto → swipes → auto → Triple Tap → 2 autos → swipes → phase 4.
 
 **Devourer's Shockwave**
 Amascut concentric shockwaves spread from under her outward.
@@ -141,7 +156,7 @@ Amascut concentric shockwaves spread from under her outward.
         ⬩ Inner (9x9 including under Amascut)
         ⬩ Middle (ring of 3 tiles wide)
         ⬩ Outer (ring of 6 tiles wide).
-⬥ Deals typeless damage, resets defensives, and puts them on a 6s cooldown. When hit, adds 1 corruption stack.
+⬥ Deals typeless damage, resets defensives, and puts them on a 6s cooldown. When hit, adds 1 <:corruption:1402610315480535050> stack.
 ⬥ Amascut's health caps at 4800k <:constitution:689509250887712902>
 
 .
@@ -190,20 +205,23 @@ Amascut says Amascut says `I will not be denied!` and `Mwuahahaha` and an Engulf
 .
 **Platform Collapse**
 ⬥ A Collapse countdown of 24s starts, when the timer runs out, the jumper is instakilled.<:instakill:1104794644497309809>. Tumeken names one player (referred to as Jumper), and that player can take the path of Tumeken to a platform on the west or east and kill the Devourer minions, moving to the next platform every time.
-⬥ The Countdown can get paused temporarily by having another player stand on the same symbol as the jumper is on. This symbol will light up when stood upon. After killing all Devourers, the Jumper gains Tumeken's Light (Enlightened, 5x5 area surrounding them). The Jumper reenters the arena, and the Engulfed Shadow will stop. Amascut says `I WILL NOT BE SUBJUGATED BY A MORTAL!`.
-    • Note: If the Jumper with Tumeken's light (Enlightened) dies, Amascut will start emptying her black health bar! this can wipe the party if unprepared.
+⬥ The Countdown can get paused temporarily by having another player stand on the same symbol as the jumper is on. This symbol will light up when stood upon. After killing all Devourers, the Jumper takes Tumeken's Light and gets the Enlightened buff <:interceptor:1402585098527965275>, and a 5x5 light area surrounds them. The Jumper reenters the arena, and the Engulfed Shadow will stop. Amascut says `I WILL NOT BE SUBJUGATED BY A MORTAL!`.
+    • Note: If the Jumper with Enlightened dies in phase 6, Amascut will start emptying her black health bar immediately! This can easily wipe the party if unprepared.
 
 **Shadows of Amascut**
-⬥ Amascut says `Fall to the shadow` and Shadows of Amascut appear that need to be killed, one for each player not tanking Amascut. The Shadows deal <:melee:1096130867279171706> damage and have the Shadow Link buff.
-    • Green bars also fill on the Shadows after the first one dies. These reset when another Shadow is killed.
+⬥ Amascut says `Fall to the shadow` and Shadows of Amascut appear that need to be killed, one for each player not tanking Amascut.
+    • The Shadows deal <:magic:689504724159823906> damage when dashing towards you, otherwise attack with <:melee:1096130867279171706> , and have the Shadow Link buff <:shadowlink:1403076345084379337>. Can be stunned <:stunicon:841419289428492369>.
+    • Green bars fill on the Shadows after the first one dies, and they respawn when full. These bars reset when another Shadow is killed.
 ⬥ Amascut will use auto-attacks as before, but only gain 20% adrenaline per auto-attack.
     • Amascut Rotation: 20% start → swipes → 3 autos → Soul Prison → swipes → 4 autos → Soul Prison
 .
 **Soul Prison**
 When Amascut says `Your companions will betray you, as they always do.`
-⬥ A green bar starts on one player and gradually appears on all players with a Shadow attacking them.
-    • When the green bar on the player is full, you get <:defence:689509250979987525> penetration typeless damage (12k). Standing in the Tumeken's Light area of the Jumper greatly reduces this damage.
-    • When a second Soul Flare happens, all players will get the green bar at the same time.
+⬥ A green bar starts on one player and gradually appears on all players with a Shadow of Amascut attacking them.
+    • When the green bar on the player is full, you get 7x7 <:defence:689509250979987525> penetration typeless damage (12k). Standing in the Tumeken's Light 5x5 area of the Jumper greatly reduces this damage.
+    • Note: Blasts outside the area still hurt those inside!
+    • When a second Soul Prison happens (same voiceline), __all__ players will get the green bar at the same time.
+
 ⬥ Killing all shadows stuns Amascut for 25s, allowing you to DPS down the black health bar. Any damage dealt here is also done to her true health.
 ⬥ After the stun all remaining black bar health will be dealt as damage to the team in rapid succession.
 ⬥ Amascut's true health caps at 600k <:constitution:689509250887712902>
@@ -211,12 +229,12 @@ When Amascut says `Your companions will betray you, as they always do.`
 .
 ### Phase 7
 Amascut says `YOU ARE NOTHING` and teleports everyone to the throne room (27x27 tiles, or 9 "9x9" sections).
-⬥ Tumeken is directly north, Apmeken's altar northwest, Scabaras' northeast, Crondis' southeast, and Het's southwest. She gains the Inner Darkness buff, meaning she will take reduced damage from all sources not blessed by the Light Within buff.
+⬥ Tumeken is directly north, Apmeken's altar northwest, Scabaras' northeast, Crondis' southeast, and Het's southwest. She gains the Inner Darkness buff <:shadowlink:1403076345084379337>, meaning she will take reduced damage from all sources not blessed by the Light Within buff <:interceptor:1402585098527965275>.
 
 *Notes: Amascut stands one tile north of centre.
-⬥ Every <:magic:689504724159823906> auto-attack gives every player 1 corruption stack.
+⬥ Every <:magic:689504724159823906> auto-attack gives every player 1 <:corruption:1402610315480535050> stack.
 ⬥ Tumeken has 400k health. When he dies, everyone gets instakilled.
-⬥ EZK's Flamebound Rival <:ezk:903244090953588787> <:spec:537340400273195028> and storm shards <:stormshards:536256663641128971> remain during phase transition to P7.
+⬥ EZK's Flamebound Rival <:ezk:903244090953588787> <:spec:537340400273195028> and storm shards <:stormshards:536256663641128971> remain during phase transition to phase 7.
 ⬥ Taking a typeless Hieroglyph or Shockwave hit deals 4k <:range:580168050121113623> damage to Tumeken per player hit.
 ⬥ You can share the Tumeken Strike damage with players in the same quadrant*
 
@@ -239,13 +257,13 @@ Amascut says `Heh Heergh` or `Hmmmwuahaha`, Tumeken takes 200k damage, and the p
 
 .
 __When done right__
-⬥ Tumeken takes a small hit (12.5k), Amascut says `This cannot be the end...`, all players get the Light Within buff for 30s and Amascut gets stunned for ~7s. After this, Amascut will use Empowered Eruptions alongside Empowered Shockwaves or Empowered Hieroglyphs. After Light Within has expired, Amascut will repeat Tumeken Strike.
+⬥ Tumeken takes a small hit (12.5k), Amascut says `This cannot be the end...`, all players get the Light Within buff <:interceptor:1402585098527965275> for 30s and Amascut gets stunned for ~7s. After this, Amascut will use Empowered Eruptions alongside Empowered Shockwaves or Empowered Hieroglyphs. After Light Within has expired, Amascut will repeat Tumeken Strike.
 ⬥ An effect dependent on the god is applied.
-    • Apmeken: A random player gets Apmeken's Burden debuff.
-    • Scabaras: Explosive scarabs spawn. kill, grab and throw multiple to break Amascut's Carapace.
-        ⬩ Requires 3+ scarabs. Click on her centre tile, not (through) her model!
-    • Crondis: Two Modest crocodiles spawn in; one southwest and one northeast.
-    • Het: Healing through Strength. Heals Amascut for ~30% based on damage dealt.
+    • Apmeken: A random player gets Apmeken's Burden debuff <:apmekensburden:1402579857648390224>
+    • Scabaras: Explosive scarabs spawn. kill, grab and throw multiple to break Amascut's Carapace <:carapace:1402585081624924210>.
+        ⬩ Requires 3 scarabs.
+    • Crondis: Two Modest crocodile Demons (with <:modesty:1402583151322071091> ) spawn in; one southwest and one northeast.
+    • Het: Amascut gains Healing in Strength <:healinginstrength:1402585055297273896>. Heals herself for ~30% of damage dealt.
 
 **Empowered Shockwaves**
 ⬥ Four versions have been observed:
@@ -260,8 +278,10 @@ __When done right__
 .
 ## __Example kills__
 .tag:example
-⬥ [Evil Lucario's World's First POV](https://www.youtube.com/watch?v=1fntOvpGlc8)
-⬥ [Evil Lucario's Amascut 2000% Enrage Commentary](https://www.youtube.com/watch?v=kLQeCEG4WBA)
+⬥ [Evil Lucario's World's First POV](<https://youtu.be/1fntOvpGlc8>)
+⬥ [Evil Lucario's Amascut 2000% Enrage Commentary](<https://youtu.be/kLQeCEG4WBA>)
+⬥ [<:necromancy:1148995625896120460> base POV talkthrough](<https://youtu.be/0cYZujUSA40>)
+⬥ [<:magic:689504724159823906> DPS POV](<https://youtu.be/JCdHm_iMWgc>)
 
 .
 {
