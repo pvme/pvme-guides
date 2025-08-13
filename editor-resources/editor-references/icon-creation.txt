@@ -151,7 +151,7 @@ Examples:
 .
 ## __Submitting completed icons__
 .tag:submit
-**Preset icons** - Upload the icon to Imgur, click "Copy Link" to get the item link, and fill in this template for each item to submit via pasting it to <#1096801858535833602>:
+**Preset icons** - Upload the icon to `https://img.pvme.io/` (via <#771436827214086154>), copy the item link, and fill in this template for each item to submit via pasting it to <#1096801858535833602>:
 ```
 name:
 image:
@@ -163,7 +163,7 @@ wikiLink:
 ```
 Fields explanations:
 ⬥ `name:` The item name as displayed **on the RSWiki**.
-⬥ `image:` The raw Imgur link.
+⬥ `image:` The raw `https://img.pvme.io/` link.
 ⬥ `slot:` Numbers 0 to 13 which decides where the item can be equipped.
 INVENTORY = 0
 HELM = 1
@@ -188,7 +188,7 @@ POCKET = 13
 Examples:
 ```
 name: Abyssal scourge
-image: https://imgur.com/Moh9yya
+image: https://img.pvme.io/images/Moh9yya.png
 slot: 4
 label: abyssalscourge
 breakdownNotes:
@@ -196,7 +196,7 @@ wikiLink: https://runescape.wiki/w/Abyssal_scourge
 ```
 ```
 name: Black stone arrows
-image: https://imgur.com/uBbMQoy
+image: https://img.pvme.io/images/uBbMQoy.png
 slot: 9
 label: bsa100
 breakdownNotes:
