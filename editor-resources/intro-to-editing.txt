@@ -1,32 +1,62 @@
-# Welcome to the World of Editing for PvME!
+# Intro to Editing Continued
+Now that you are more familiar with the most basic and essential tools used for editing, this channel will outline the other tools commonly used in creating new guides from start to finish.
 .img:https://img.pvme.io/images/WlrWVGRvQC.png
 
 .
-## __Contributing in its Simplest Form__
-.tag:intro
-Making a post in <#1020853673317908500>. Someone else can see that post and turn it into the edit you want to see added to PvME. For example:
-⬥ Pointing out typos/rotation changes in guides
-⬥ Writing down strategies for a guide that doesn't exist yet
+## __Essential Tools__
+.tag:Essential
+These are tools that are used in almost every guide:
+*Note: Tutorials for all tools can be found in their respective forums in <#1020841129064812646>*
+⬥ [Guide Editor](<https://pvme.io/guide-editor/>) - Has all text formatting tools built in, as well as the style guide rule set integrated.
+⬥ [Style Guide](<https://discord.com/channels/534508796639182860/1250465564082704456>) - Has all of our formatting rules explained in great detail. This is built into the Guide Editor and will display any broken styling rules in the bottom-left window of the Guide Editor website.
+.
+    • Example: https://img.pvme.io/images/hKXqQoi3fs.png
+.
+        ⬩ There was an empty space after the last word on line 12, so the Guide Editor informed me to delete it.
+⬥ [Templates](<https://discord.com/channels/534508796639182860/1250465568255901787>) - Has the skeleton structure for various guides/embeds pre-made so you can just copy paste and fill in blanks as needed to give you a head start on guide creation. This channel also has information on how to format text within embeds.
+    • *Note: There are tools built into the Guide Editor that offer the same functionality*
+⬥ [Preset Generator](<https://pvme.io/preset-maker/>) - Used to provide a standardized UI so the layout looks the same across all guides.
+    • Click an inventory slot and type the name of an item to see it populate the slot.
+⬥ [Ability Bar Builder](<https://pvme.io/ability-bar-builder/>) - Used for creating Revolution bars for AFK and Slayer guides.
+    • Click a slot on the bar and select an ability from the popup.
+⬥ [Rotation Builder](<https://pvme.io/rotation-builder/>) - Has built-in autoformatting tools to turn common ability names into emoji code output which you can copy/paste into the guide editor.
+    • Example: gbarge automatically becomes <:gbarge:535532879250456578> when typed into the rotation builder.
 
 .
-## __The First Steps of Using PvME's Editor Tools__
-.tag:EditingTools
-These are the most commonly used tools that are used by editors who want to be a bit more involved in making their edits happen:
-⬥ <https://pvme.io/guide-editor/>:
-    • This is the most important tool editors use. It lets them visualise what the text would look like in discord.
-    • Check out <#1250465591085760564> for a tutorial on how to use it, or [a youtube video showing off how easy it is to use](<https://youtu.be/cPWgpRLsqGU>)
-    • You can load the guide's text content into the guide editor by using the `/files` command in discord and searching for the guide you want to edit, and clicking on the guide editor link the bot responds with.
-⬥ <#771436827214086154>:
-    • A simple command `/upload` is all it takes to turn your picture into a usable link.
+## __Niche Tools__
+.tag:Niche
+These are the extra tools that editors can use to make their guides more pretty and refined:
+*Note: Tutorials for all tools can be found in their respective forums in <#1020841129064812646>. If you are not comfortable using these tools, do your best to explain what is needed in <#724129126314803230> and ask someone else to make them for you to add to the guide later.*
+⬥ [Tile Map Generator](<https://discord.com/channels/534508796639182860/1246040043542417450>) - Used for making map pictures with gridlines on them to mark exact tiles to place cannons/player standing spots/boss spawn locations.
+⬥ [Banner Builder](<https://pvme.io/banner-builder/>) - Used for creating banners for every boss guide that describes their size and susceptibilities to things like poison or familiar damage.
+.
+⬥ [Hyperlinked Emojis](<https://raw.githubusercontent.com/pvme/pvme-guides/master/editor-resources/editor-references/hyperlinked-emojis.txt>) - A raw document of emoji codes that link the emoji item to the appropriate wiki page for the item.
+    • Example: Opening the website and using `ctrl + F` to search for `Ascension Crossbow` will show you a line that has this text: `[Ascension crossbow](<https://runescape.wiki/w/Ascension_crossbow>) <:ascmh:513190158468775936>`. If you copy paste that whole line and post it into the Guide Editor, it will display as [Ascension crossbow](<https://runescape.wiki/w/Ascension_crossbow>) <:ascmh:513190158468775936>.
+⬥ [Emoji Combinations](<https://discord.com/channels/534508796639182860/1250465610903585000>) - A channel with content similar to Hyperlinked Emojis. It has quick access copy paste text for common combinations of emojis such as `<:graspingpouchblack:1390439136875253810> <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>`, which will display in the Guide Editor as <:graspingpouchblack:1390439136875253810> <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>.
+⬥ [Forum Icon Builder](<https://pvme.io/forum-icon-builder/>) - Used for creating icons for our Discord forums.
 
 .
-## __What to Edit__
-.tag:WhattoEdit
-Unsure of how you can contribute? Here's some ideas:
-⬥ Check out <#1152990486714388622> and click the `Easy` tag at the top of the page as shown here: https://img.pvme.io/images/Fyfjxwn5W3.png
+## __Making a Guide From Start to Finish__
+.tag:guide
+Here's a quick overview of the steps taken to make guides from scratch:
+1. Open the Guide Editor.
+2. Click `Templates`.
+3. Select the guide you want to make. For this, I'll choose a standard guide.
+4. Create a banner for the boss using the [Banner Builder](<https://pvme.io/banner-builder/>), or ask someone in <#724129126314803230> to create one for you.
+    a. These are archived in the [PvME Spreadsheet](<https://docs.google.com/spreadsheets/d/1OGM9MBUG2bQVbHxlm86Xfs60soFcjINSOrPv1WL3Vgw/edit?gid=1657882095#gid=1657882095>) in the `Art Resources` tab.
+6. Intro: Describe the boss where the template requests the info.
+7. Presets and Relics: Use the [Preset Generator](<https://pvme.io/preset-maker/>), or post your preset from in-game, describe the relics/niche items used, and ask someone in <#724129126314803230> to create the preset for you.
+8. Mechanics: Describe the mechanics where the template requests the info.
+9. The Fight: Describe an overview of the fight where the template requests the info.
+10. Rotations: Utilise the [Rotation Builder](<https://pvme.io/rotation-builder/>) to get your rotations written down quickly, then hit the `copy discord` button. Then paste that copied output into this section of the guide editor.
+11. Example Kills: Put a couple youtube video links showcasing quality kills here
+12. Table of Contents: Click the `Table of Contents` dropdown button and select `Categorized`. Click `Copy`, then paste that copied output at the bottom of the guide.
+13. Click `Export to .txt file` and paste the copied output into <#1020853673317908500> which will upload as a file. Describe your guide in the suggestion and ask that someone uploads it to GitHub for you.
+
 .
-    • That should filter the channel to only show jobs that are deemed as easy and open to everyone who wants to help out.
-⬥ Finding mistakes in guides as you are reading them to learn a new pvm information for yourself
+## __GitHub__
+.tag:GitHub
+If you want to learn about github to edit or upload guides directly on the source code, check out <#1020841226414604308>
 
 .
 ## __Asking for Help__
@@ -45,11 +75,7 @@ Asking your editing questions in <#724129126314803230> is never a bad idea, but 
     • <@839236111054143508>
     • <@1080778657917833246>
     • <@333634752341082112>
-
-.
-## __Next Steps__
-.tag:NextSteps
-Once you feel comfortable with this caliber of editing, feel free to dive into <#1250968125436858488> to see some more advanced editing methods and tools.
+    • <@377246482463588354>
 
 .
 {
@@ -60,7 +86,7 @@ Once you feel comfortable with this caliber of editing, feel free to dive into <
     "fields": [
       {
         "name": "__Category__",
-        "value": "⬥ [Contributing in its Simplest Form]($linkmsg_intro$)\n⬥ [Editing Tools]($linkmsg_EditingTools$)\n⬥ [What to Edit]($linkmsg_WhattoEdit$)\n⬥ [Ask for Help]($linkmsg_AskforHelp$)\n⬥ [Next Steps]($linkmsg_NextSteps$)",
+        "value": "⬥ [Essential Tools]($linkmsg_Essential$)\n⬥ [Niche Tools]($linkmsg_Niche$)\n⬥ [Making a Guide]($linkmsg_guide$)\n⬥ [GitHub]($linkmsg_GitHub$)\n⬥ [Ask for Help]($linkmsg_AskforHelp$)",
         "inline": true
       }
     ]
