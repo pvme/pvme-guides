@@ -363,7 +363,8 @@ __How it works__
 .
 __Is it worth it?__
 ⬥ It can be extremely damaging when followed-up with certain abilities:
-    • Ek-Zekkil special attack <:ezk:903244090953588787> <:eofspec:1257438999794946099> can deal massive damage used after <:chaosroar:994644356671737966>.
+    • Ek-Zekkil special attack <:ezk:903244090953588787> <:eofspec:1257438999794946099> can deal massive damage used after <:chaosroar:994644356671737966>, but is likely to hit the 30,000 damage hitcap when comboed with <:zerk:535532854004678657>, resulting in some buff wastage unless the burst damage is immediately needed
+    • Dragon Claws special attack <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> is a more typical use as it also hits hard under <:chaosroar:994644356671737966> and is less likely to waste damage due to hitcaps
     • Slaughter <:slaughter:535532879237873666> and Tendrils <:bloodtendrils:535532854327640064> with <:mwspear:694566917456789554> are strong choices as well (note that <:bloodtendrils:535532854327640064> will give double recoil damage).
     • Can follow up with Hurricane <:cane:535532878969438210> or Meteor Strike <:meteorstrike:535532879359377439> for high AoE clear damage.
 
@@ -495,7 +496,6 @@ __How it works__
         ⬩ With Strength Cape <:strcape:689503815296352308> <:dismember:535532879376023572> (8 → 10 hits)
     • Blood Tendrils <:bloodtendrils:535532854327640064> (5 → 7 hits)
     • Slaughter <:slaughter:535532879237873666> (5 → 7 hits)
-    • Ek-ZekKil special attack (with EoF) <:ezk:903244090953588787> <:eofspec:1257438999794946099> (6 → 9 hits)
     • Massacre <:massacre:535532879384543253> (5 → 7 hits)
 ⬥ The effect does *not* work with Greater Barge <:gbarge:535532879250456578> bleeds, as they are not considered actual bleeds.
 
@@ -527,37 +527,24 @@ __Key Considerations__
 
 .
 ### Ek-ZekKil (EZK) <:ezk:903244090953588787>
-> ## ⚠️ Disclaimer
-> **This guide is outdated with the reworked <:ezk:903244090953588787> special attack and passive**
 .
 .tag:ezk
-*Note: Use `!ezkeof` for a summary on why you should EoF your EZK <:ezk:903244090953588787> <:eof:787526151978614824>.*
+*Note: Use `!ezkeof` for a summary on why you shouldn't EoF your EZK <:ezk:903244090953588787> <:eof:787526151978614824>*
 __How it works__
-⬥ The EZK's special attack, *Igneous Cleave* costs 50% adrenaline, has a 60 second cooldown, and has two components:
-    • An **initial hit of 62-190% ability damage**.
-    • A **follow-up 6-hit bleed** that hits every 4 ticks, with each hit dealing 5% more damage multiplicatively than the previous hit.
-⬥ **The follow-up bleed can be increased up to 9 hits using the Masterwork Spear of Annihilation** <:mwspear:694566917456789554> if using an EZK EoF special attack <:ezk:903244090953588787> <:eofspec:1257438999794946099>.
-⬥ While the special attack is active, each time a bleed used on the target, <:ezk:903244090953588787> <:spec:537340400273195028> gains 1 extra hit (capped at 5 extra hits).
+⬥ The EZK's special attack, *Igneous Showdown* costs 50% adrenaline, has a 60 second cooldown, and has two components:
+    • Applies **Flamebound Rival** to the target, increasing your damage dealt to the target by 12% while reducing your damage taken from the target by 12%
+    • A hit of **230-270% ability damage**, with **3 additional hits of 215-235% ability damage each** if cast on a target that already has your Flamebound Rival debuff
+        ⬩ This totals **875-975% ability damage** for subsequent casts against the same target
 .
-⬥ **The following abilities extend <:ezk:903244090953588787> <:spec:537340400273195028> duration**:
-    • Dismember <:dismember:535532879376023572>
-    • Slaughter <:slaughter:535532879237873666>
-    • Blood Tendrils <:bloodtendrils:535532854327640064>
-    • Massacre <:massacre:535532879384543253>
-    • Combust <:comb:535533833098100745>
-    • Frag Shot <:frag:535541273755385885>
-    • Deadshot <:deadshot:535541307666595870>
-    • Abyssal Parasites from Abyssal Scourge <:abyssalscourge:947871842469834832>
-    • Morrigan's Javelin spec <:superiormorriganjav:860891495033077810> <:spec:537340400273195028> - **PvP only.**
-    • Combust effect from Dragon Rider amulet <:drider:656785090994503700> <:dbreath:535533833391702017> - 10% proc chance.
-⬥ **The following abilities do *not* extend <:ezk:903244090953588787> <:spec:537340400273195028> duration**:
-    • Corruption Shot <:corruptshot:535541306294796299>
-    • Corruption Blast <:corruptblast:513190159194259467>
-    • Puncture from Greater Dazing Shot <:mds:535541259033378827>
-    • Incendiary Shot <:incend:535541258429661215>
+⬥ It also has the passive effect of modifying the following abilities:
+    • <:pulverise:535532879053062146> now costs 60% adrenaline, down from 100%
+    • <:quake:535532879506309150> has its affinity debuff increased from 2 to 4
+    • <:smash:535532879820619786> has its damage increased to 160%-180%, making it an excellent basic even before factoring in <:glovesofpassage:556588694862037012>
+    • These effects require <:ezk:903244090953588787> to be equipped upon use, but does not require Flamebound Rival to be applied
 
 __Key Considerations__
-⬥ It is one of the best attacks to follow up after Chaos Roar <:chaosroar:994644356671737966> for the massively increased damage.
+⬥ During <:zerk:535532854004678657> the special attack will regularly hit the 30,000 damage hitcap if paired with <:chaosroar:994644356671737966>, resulting in an inefficient use of the buff
+    • It is usually better to use it after <:smash:535532879820619786> with <:glovesofpassage:556588694862037012> equipped, while using <:chaosroar:994644356671737966> on an ability such as <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> that is less likely to waste damage due to hitcaps
 
 .
 ### Gloves of Passage <:Glovesofpassage:556588694862037012>
@@ -855,7 +842,7 @@ T33   : Ability + Berserk ends (this ability gets boosted by both Berserk and Be
       },
       {
         "name": "__Important EoFs__",
-        "value": "⬥ [Dragon Claws]($linkmsg_eof_dclaws$)\n⬥ [Statius' Warhammer]($linkmsg_eof_swh$)\n⬥ [Ek-Zekkil (EZK)]($linkmsg_eof_ezk$)",
+        "value": "⬥ [Dragon Claws]($linkmsg_eof_dclaws$)\n⬥ [Statius' Warhammer]($linkmsg_eof_swh$)",
         "inline": true
       },
       {
