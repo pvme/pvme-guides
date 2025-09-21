@@ -28,13 +28,13 @@ The spreadsheet can be found at the following link.
     • **Miscellaneous**: some misc. prices and calculations.
     • **Consumables**: prices of consumable items found in <#1025569374532288622>.
     • **Mastery**: outdated sheet, kept for historic/reference purposes.
-⬥ To access a specific piece of information, only two things are required: the **sheet name** and **cell number**.
+⬥ To access a specific piece of information, only two things are required: the **sheet name** and **named range**.
 
 .
 ## __Using Spreadsheet Data In Guides__
 .tag:howto
 ⬥ Using data from the spreadsheet in a guide is very straightforward.
-⬥ Values from the sheet can be accessed using the following command: `data_pvme:<sheet>!<cell>`, replacing the contents of `<sheet>` and `<cell>` with the **sheet name** and **cell number** respectively.
+⬥ Values from the sheet can be accessed using the following command: `data_pvme:<sheet>_<namedrange>`, replacing the contents of `<sheet>` and `<namedrange>` with the **sheet name** and **named range** respectively.
 ⬥ *When posted (by the PvME Bot), the command text will get replaced by the value present in that cell*.
 
 ⬥ For example, the following sentence might be in a guide:
