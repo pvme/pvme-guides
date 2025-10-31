@@ -1,0 +1,160 @@
+# Telos Basic
+.img:https://img.pvme.io/images/X0pACbKpyT.png
+## __Disclaimer__
+.tag:disclaimer
+This guide is made with the idea of getting started at Telos, and does not cover meta strategies, for that refer to <#1252206367645896715> or <#1252206377393455175>, or if using other styles visit <#1252206370657271878> and <#1252206382267240469> / <#1252206380241125427>.
+
+.
+## __Presets and Relics__
+.tag:presets
+{
+  "embed": {
+    "color": 39423,
+    "image": {
+            "url": "https://img.pvme.io/images/WqLIvQYbqs.png"
+      },
+    "fields":[
+        {
+            "name":"__Preset Suggestions__",
+            "value":"⬥ [Magic - Statius's Warhammer](https://pvme.github.io/preset-maker/#/uCYUF3PdRTGiEaTRnXMF) <:magic:689504724159823906>\n⬥ [Magic - No Statius's Warhammer](https://pvme.github.io/preset-maker/#/pi3Mt9McC4EVfYjOGCNZ) <:magic:689504724159823906>"
+      }
+    ]
+  }
+}
+.embed:json
+.
+## __Enrage Mechanics__
+.tag:enrage
+⬥ **50%**: Virus is added on P2 and P3
+⬥ **100%**: Phase 5
+⬥ **150%**: Telos will freedom stuns and binds with a 50 tick cooldown
+⬥ **200%**: Telos HP caps at 600,000 on P1-4
+⬥ **250%**: Telos will freedom stuns and binds with a 31 tick cooldown, and P5 will be stun-immunes after freedom for 10 ticks
+⬥ **300%**: Telos HP caps at 200,000 on P5
+⬥ **500%**: P4 font HP caps at 10,000
+⬥ **1000%**: P4 a rock will fall, P5 multiple rocks will fall, immortality no longer works P5, and Telos will freedom stuns and binds with a 16 tick cooldown
+⬥ The higher the enrage the stronger the damage Telos and golems deal.
+
+.
+## __Attack Pattern__
+.tag:attackorder
+***This image shows the order of special attacks for each phase.***
+.img:https://img.pvme.io/images/K44ZbrL43J.png
+.
+
+.
+## __Mechanics and how to handle them__
+
+### __[Auto attacks]($data_link:1433899667430576189:auto$)__
+
+Telos auto attacks will be melee when he is in melee distance, and magic when he is out of melee distance (or always magic on phase 3 and 5). After using a magic auto attack telos will try to walk back into melee distance.
+
+### __[Beams]($data_link:1433899667430576189:$beams)__
+
+Throughout the fight beams spawn in the arenas giving different effects if you or telos are stood in them. All beams will make telos charge the bar below his hp in Phase 1 - 3.
+Green beam regenerates adrenaline for you, or makes telos attack faster
+Black beam decreases your damage taken and dealt, or makes telos take less damage.
+Red beam increases your damage taken and dealt, it increases telos' damage dealt if he is in it.
+
+### __[Charge Meter]($data_link:1433899667430576189:meter$)__
+
+Each phase telos has a charge meter that has different effects.
+P1 and P4 when the bar fills, Telos will replace his next special attack with a 'So much power', which is a large soft typeless hit.
+P2 the bar is consumed per hit of the magic onslaught.
+P3 the bar has a central yellow section. If filled above this section Telos will do rapid hard hitting soft-typeless shockwaves. If it is below this section he will drain your adrenaline and prayer.
+.
+### __[Tendrils]($data_link:1433899667430576189:$tendrils)__
+
+Telos holds you in place, dealing ramping damage
+Solution: Deal damage to break free, damage needed scales with enrage, common options are <:volleyofsouls:1159435029592686642> , <:omni:535533809664262179>
+
+### __[Uppercut]($data_link:1433899667430576189:uppercut$)__
+
+Telos charges towards you, dealing soft-typeless damage
+Solution: <:surge:535533810004262912> <:dive:1049378668197195808> <:escape:535541258832052231> just after the text disappears above his head. Can <:disrupt:535614336207552523> or <:res:535541258844635148> if needed.
+
+### __[Hold Still]($data_link:1433899667430576189:holdstill$)__
+
+Telos hits you with an auto attack, followed by a large melee hit that stuns. He then jumps on to the spot you were standing on.
+Solution: <:freedom:535541258240786434> or <:anti:535541306475151390> beforehand to avoid being stunned, then <:res:535541258844635148> or <:disrupt:535614336207552523> the large hit.
+
+### __[Magic Onslaught]($data_link:1433899667430576189:onslaught$)__ (P2)
+
+Telos stops moving and fires magic attacks that ramp in damage until the meter below his health drains completely
+Solution: Move telos out of the black beam asap, or block it if you are unable to. Use <:deflectmage:544195487926845462>, and <:devo:513190158728953857> if damage ramps up.
+
+### __[Golems]($data_link:1433899667430576189:p3golem$)__ (P3)
+
+P3 Golems affect how the bar below Telos' hp charges.
+The bar naturally decreases.
+⬥ Meter increases when Telos is standing in the beam.
+⬥ With 1 golem alive, the meter slowly decreases.
+⬥ With 2 golems alive, the meter remains stationary (increases and decreases back and fourth).
+⬥ With 3 golems alive, the meter increases.
+Solution: If the bar is a concern you can kill one or two golems using aoe's like <:chain:1257440203401068566>
+.
+### __[Fonts]($data_link:1433899667430576189:fonts$)__ (P4)
+
+Each quarter of Telos' P4 hp you deal, he will walk over to siphon a font to charge the bar below his HP. To block the instakill that is coming you need to stand on the font to charge it with your HP. It does 5 typeless hits, and after the instakill all your defensives are put on a 6s cooldown.
+Solution: Use <:reflect:535541258786177064> and <:res:535541258844635148> to reduce the typeless damage. Phasing into the font a few auto attacks before the next mechanic helps in avoiding the large typeless So much power hits.
+
+### __Golems__ (P4)
+
+When each font starts charging Telos spawns 3 golems. Red golems can stun after their first 3 auto attacks, Green and Black golems have a 2 tile attack range.
+Solution: At low enrages golems can be killed with AOE abilities. At higher enrages they can be dealt with using stuns and snares, such as <:stickybomb:655341074306301964>, <:icebarrage:537340400185245701>, <:soulstrike:1137809142376058910>
+
+### __[Charge Meter]($data_link:1433899667430576189:chargemeter$)__ (P5)
+
+The phase meter fills up every time telos auto attacks. Once filled he starts charging an instakill attack and takes reduced damage.
+Solution: Ideally kill before this becomes an issue, can <:immort:535541258538582017> below 1k enrage, and <:signoflife:1005552211847295076> to survive at any enrage.
+
+### __Golems__ (P5)
+
+At the start of the phase telos spawns several golems. They will all be of the same type, auto attacking with melee.
+Solution: The only concerning golem at low enrage is red golems, to deal with these anticipate before their 3rd attack, and try to get them stuck using <:ent:567727987274022924> / <:stickybomb:655341074306301964> to avoid being stunned.
+
+### __[Rockfall]($data_link:1433899667430576189:rock$)__ (P5)
+
+A single 5x5 rock falls from the sky dealing soft typeless damage.
+Solution: Dodge it or use <:powerburstofvitality:654618235097972737> / <:reflect:535541258786177064>
+
+.
+## __Basic Rotations__
+.tag:rots
+{
+  "embed": {
+    "title": "__Rotation Structure__",
+    "description": "This will contain general rotation structures generally used, but it is encouraged to experiment to figure out what works for you",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ Start P1 with <:sunshine:994921119381463070>, clear the tendril with <:omni:535533809664262179>\n⬥ <:fsoa:869284271595069451> <:spec:537340400273195028> P2\n⬥ <:meta:535533811304497183> P3\n⬥ <:meta:535533811304497183> + <:fsoa:869284271595069451> P5"
+      },
+      {
+        "name": "__Necromancy__",
+        "value": "⬥ <:omniguard:1138809234922934282> P1, clear tendril with <:volleyofsouls:1159435029592686642> / <:deathskulls:1159434663903899728>\n⬥ <:livingdeath:1159434908486357072> P1\n⬥ <:deathskulls:1159434663903899728> P3\n⬥ <:livingdeath:1159434908486357072> + <:cade:535541306353778689> P5"
+      },
+      {
+      "name": "__Other Tips__",
+      "value": "⬥ Telos can be stunned, meaning stuns can reduce damage taken and slow down mechanics when used well, see <stunningguide> for more information\n⬥ Standing in beams on P1 and P3 is very worth it\n⬥ Stand in the Green beam on P5 for lots of adrenaline, this lets you get lots of strong abilities off fast.\n\u00a0\u00a0\u00a0\u00a0• You can also use this extra adren to <:cade:535541306353778689> if you are struggling."
+      }
+    ]
+  }
+}
+.embed:json
+.
+## __Example Kills__
+.tag:example
+⬥ [Full kill](https://youtu.be/jeZnAP4kNb8)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Enrage Mechanics]($linkmsg_enrage$)\n⬥ [Attack Pattern]($linkmsg_attackorder$)\n⬥ [Mechanics Summary]($linkmsg_mechanics$)\n⬥ [Basic Rotations]($linkmsg_rots$)\n⬥ [Example Kill]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
