@@ -17,7 +17,6 @@
 .tag:attackorder
 ***This image shows the order of special attacks for each phase. The summary section below only explains newly-encountered ones.***
 .img:https://img.pvme.io/images/K44ZbrL43J.png
-.
 
 .
 ## __Mechanics Summary__
@@ -26,6 +25,7 @@
 Telos attacks with [melee](<https://img.pvme.io/images/e6LpKti.mp4>) when the player is in melee distance, otherwise [magic](<https://img.pvme.io/images/wMhIhgf.mp4>). If you leave MD, Telos will do one mage auto before walking up to you again."
 ⬥ In phase 3 and 5 Telos only attacks with magic.
 ⬥  In phase 4 Telos will **not** re-enter MD if you move away from him on P4 after his first attack.
+
 .
 ### __Beams__
 .tag:beams
@@ -35,6 +35,8 @@ Telos attacks with [melee](<https://img.pvme.io/images/e6LpKti.mp4>) when the pl
 ⬥ When the player is standing in the beam, they gain rapid adrenaline.
 ⬥ When Telos is standing in the beam, he attacks 1 tick faster.
 ⬥ Phase boss before beam comes out.
+
+.
 ### Phase 2
 .
 ** Black Beam**
@@ -52,6 +54,7 @@ Telos attacks with [melee](<https://img.pvme.io/images/e6LpKti.mp4>) when the pl
 ### Phase 5
 ⬥ All 3 beams spawn, aiming at Telos.
 ⬥ The effects on the player and Telos from previous phases still apply.
+
 .
 ### __Charge Meter__
 .tag:meter
@@ -69,42 +72,50 @@ The charge meter increases while Telos is siphoning the font, standing in the fo
 .
 ### Phase 5
 The charge meter increases each time telos auto attacks you.
+
 .
 ### __Tendrils__,
 .tag:tendrils
 ⬥ Telos binds you in place, drains both your health and adrenaline, and heals himself for every hit the player takes.
 .img:https://img.pvme.io/images/n92IQzM.mp4
 ⬥ This requires (3,000 + 10 x Enrage) damage to break free.
+
 .
 ### __Uppercut__
 .tag:uppercut
 ⬥ Telos charges at the player after a short delay, dealing soft-typeless damage.
 .img:https://img.pvme.io/images/iUIAuba.mp4
 ⬥ Use <:surge:535533810004262912> / <:escape:535541258832052231> / <:dive:1049378668197195808> 1 tick after the text above Telos disappears to avoid.
+
 .
 ### __Hold Still__
 .tag:holdstill
 ⬥ Telos hits the player with a normal attack followed by a large melee hit that stuns, then jumps to the spot the player was standing on.
 ⬥  The normal attack can be either a melee or a magic hit, depending on how far the player is.
 .img:https://img.pvme.io/images/fKhoh6P.mp4
+
+.
 ###  __Magic Onslaught__
 .
 .tag:onslaught
 ⬥ Telos stops moving and fires gradually stronger magic attacks until the phase meter is depleted.
 ⬥ Move Telos out of the beam before this attack starts so the bar doesn't fill too much.
 ⬥ If Telos starts this attack while in the beam, block it by standing in it.
+
 .
 ### __Virus__
 .tag:virus
 ⬥ The player receives a coloured virus that deals constant damage.
 ⬥ Stand in the beam to cleanse the virus.
-### __Shockwaves and Drain__ (P3)
+
 .
+### __Shockwaves and Drain__ (P3)
 .tag:shockwaves
 ⬥ If meter is on the left side → **__Drain:__** Telos drains the player's adrenaline and prayer points.
 .img:https://img.pvme.io/images/IrOrcBM.mp4
 ⬥ If meter is on the right side → **__Shockwaves:__** Rapid, hard hitting soft-typeless attacks.
 .img:https://img.pvme.io/images/GNj9g8i.mp4
+
 .
 ### __Golems__ (P3)
 .tag:p3golem
@@ -114,6 +125,7 @@ The charge meter increases each time telos auto attacks you.
 ⬥ Red golems have normal attack range.
 ⬥ Green and black golems have halberd attack range.
 .img:https://img.pvme.io/images/Pqb71gY.mp4
+
 .
 ### __Fonts__ (P4)
 .tag:fonts
@@ -121,6 +133,7 @@ The charge meter increases each time telos auto attacks you.
 ⬥ Relevant defensives do NOT work on the last hit of fonts.
 ⬥ Once the instakill is negated, all of your defensive abilities get placed on a 6s cooldown.
 .img:https://img.pvme.io/images/mBqSukd.mp4
+
 .
 ### __Weak Anima Bomb__
 .tag:animabomb
@@ -128,21 +141,25 @@ The charge meter increases each time telos auto attacks you.
 ⬥ The player's overload timer is constantly drained after getting hit until cleansed.
 ⬥ Cleanse the overload debuff by stepping into one of the fonts.
 .img:https://img.pvme.io/images/rOCPDcD.mp4
+
 .
 ### __So Much Power (SMP)__ (P1/4)
 .tag:smp
 ⬥ Once phase meter is filled, the next special attack is replaced by an SMP.
 ⬥ Telos fires a deadly soft-typeless attack paired with a normal attack (much like Hold Still).
 .img:https://img.pvme.io/images/Ft9mmv4.mp4
+
 .
 ### __Rockfall__
 .tag:rock
 ⬥ A single 5x5 rock falls at certain times during the phase.
+
 .
 ### __Instakill__ (P5)
 .tag:instap5
 ⬥ Once the charge meter is filled, Telos begins charging an instakill attack and receives heavily reduced damage.
 .img:https://img.pvme.io/images/7vfE0Da.mp4
+
 .
 {
   "embed": {
@@ -168,5 +185,4 @@ The charge meter increases each time telos auto attacks you.
   }
 }
 .embed:json
-
 .pin:delete
