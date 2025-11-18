@@ -12,77 +12,12 @@ When Nex spawns for the first time in a custom instance, she will be praying Def
 .
 ## __Presets and Relics__
 .tag:presets
-### Banking Preset
-⬥ The most important thing is to have a Frozen key + Ancient Ceremonial set for use with your boss portal.
-    • You can speak to Ashuelot Reis in the Nex bank and pay a one time cost of the Frozen key + Ancient Ceremonial along with 10M GP to be able to access Nex bank without these items.
-⬥ An Enhanced Luck Potion <:luckpotion:656426717295935500> works and can be used here
-⬥ A T70+ Defender is required for Ancient Emblem <:ancientemblem:643506778453049355> drops
-    • This is used to make the T80 Defenders (<:ancientdefender:643846874498990120> / <:ancientlantern:580177522503712781> / <:ancientrepriser:643150658891153428>)
 
-.
-### Advanced Preset
-⬥ <:malevlegs:643846985513828400> **Malevolent Greaves** - Contain Mobile <:mob:689501908628799488> and the Clear Headed 4 <:ch4:712073087864012840> perk, which lengthens Anticipation's <:anti:535541306475151390> stun immunity by 4.8s (8 ticks).
-⬥ <:vulnbomb:655341074235129858> **Vulnerability Bombs** - Used at the start and during Blood phase
-⬥ <:dommine:662249620579155968> **Dominion Mines** - Two mines are used on Glacies (the last minion)
-⬥ <:ecb:615618531937222657> **Eldritch Crossbow** - Used to clear minions more effectively
-⬥ <:HydrixBakri:550834403136503822> **Hydrix Bakriminel Bolts(e)** - Used to gain more adrenaline when killing minions
-⬥ <:eofred:780401412839833601> with Dragon Claws <:dragonclaw:779048041088024606>
-⬥ <:eofblacku:1260022289731158146> with Statius Warhammer <:swh:641670143197446182>
-⬥ <:yellowpouch:690848914949144616> **Rune Pouch** <:Bloodrune:536252658970001409> <:Astralrune:536252658961481769> <:Bodyrune:536252659301089280>
-(Runes for <:disrupt:535614336207552523>)
-.
-.img:https://img.pvme.io/images/gWu3B2L.png
-.
-*Note: If you do not own an Eldritch Crossbow <:ecb:615618531937222657>, you can substitute with a Wyvern Crossbow <:WyvernCrossbow:580177522587729940> for slightly slower kills*
+⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.
+\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://img.pvme.io/images/BgsPoty.mp4)
+\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://img.pvme.io/images/0tauAFe.mp4)
+\u200B
 
-.
-## __Mechanics__
-.tag:mechanics
-### Nex overview
-⬥ Nex is a 1x1 NPC and has very strict softcaps, which means that any damage over a certain amount is reduced by X% depending on the phase.
-    • During the first four phases, Nex has a soft cap that reduces excess damage above **5,000 by 50%**.
-        ⬩ For example, a 6,000 damage hit would be reduced to 5,500 damage.
-    • On the Zaros phase, the soft cap is changed to reduce excess damage above **2,000 by 75%**.
-        ⬩ This means a 6,000-damage hit would be reduced to 3,000.
-
-### Mages overview
-⬥ Mages have a soft cap that reduces excess damage above 1,000 by a random amount between approximately 80% and 100%.
-⬥ Each mage has 10,000 health and possesses a max hit of around 850. The mages are static and can only be attacked whenever Nex calls their name.
-
-Nex has 5 phases; Smoke, Shadow, Blood, Ice, and Zaros. Each phase has 2 special attacks, with the exception of Zaros
-
-.
-## __Special Attacks__
-.tag:specs
-{
-  "embed": {
-    "title": "__Special Attacks__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Smoke Phase__",
-        "value": "⬥ Virus → 5 auto-attacks → No escape → Five auto-attacks → Repeat.\n\u00a0\u00a0\u00a0\u00a0• Don't stand in middle crossways. [Example](https://img.pvme.io/images/BgsPoty.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex may drag you to MD of her at random times, nulling all damage. [Example](https://img.pvme.io/images/0tauAFe.mp4)\n\u200B"
-      },
-      {
-        "name": "__Shadow Phase__",
-        "value": "⬥ Shadow traps (if phased before virus) → Darkness → Shadow traps → 4 auto-attacks → Repeats from second shadow traps.\n⬥ Move from Shadows and don’t stand MD.\n\u00a0\u00a0\u00a0\u00a0• A shadow trap is avoided. [Example](https://img.pvme.io/images/FZJq76Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• A player escapes the shadows engulfing them. [Example](https://img.pvme.io/images/4cZwRUJ.mp4)\n\u200B"
-      },
-      {
-        "name": "__Blood Phase__",
-        "value": "⬥ Siphon summon → 3 auto-attacks → Blood sacrifice → 3 auto-attacks → Repeat.\n⬥ Attacks during Siphon will heal Nex and sacrifice will heal Nex if not phased and in range.\n\u00a0\u00a0\u00a0\u00a0• Nex summoning her Blood Reavers. [Example](https://img.pvme.io/images/480GewR.mp4)\n\u00a0\u00a0\u00a0\u00a0• Nex sacrifices a player. [Example](https://img.pvme.io/images/qnjrQdC.mp4)\n⬥ Any bleeds used during this phase will heal Nex rather than damage her (<:frag:535541273755385885> <:corruptshot:535541306294796299> <:deadshot:535541307666595870>)\n\u200B"
-      },
-      {
-        "name": "__Ice Phase__",
-        "value": "⬥ First special attack (based on phase start) → 3 auto-attacks → Second special attack (based on phase start) → 3 auto-attacks → Repeat.\n⬥ If Blood phase ended with Sacrifice, Ice will start with Contain. [Example](https://img.pvme.io/images/zFmdn67.mp4)\n⬥ If Blood phase ended with Siphon, Ice will start with Prison. [Example](https://img.pvme.io/images/YGkCP6F.mp4)\n\u00a0\u00a0\u00a0\u00a0• Run from Contain and Freedom <:freedom:535541258240786434> into eating up then <:powerburstofvitality:654618235097972737>\n\u00a0\u00a0\u00a0\u00a0• Glacies' attacks can freeze players if they aren't using Protect/Deflect Magic; keeping the prayer active will result in all of her attacks missing regardless of the player's armour rating.\n\u200B"
-      },
-      {
-        "name": "__Zaros Phase__",
-        "value": "⬥ Upon the start of this phase, Nex activates Turmoil <:turmoil:583429936606347280> and heals herself for 33,333 (1/6) of her health to boost it up to 73,333. [Example](https://img.pvme.io/images/lPTF0V0.mp4)\n⬥ Nex does not have any unique special attacks in this phase and uses only her melee and magic autoattacks\n\u200B"
-      }
-    ]
-  }
-}
-.embed:json
 .
 ## __Rotations__
 .tag:rotations
