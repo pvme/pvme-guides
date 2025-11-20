@@ -30,45 +30,55 @@ Creatures of the Lost Grove can be accessed through the monolith west of the inc
 Moss Golems have hard hitting melee auto-attacks, and can hit from halberd range. When they lose HP, their heads pop off and spawn a Mossy Rock that also deals damage. To prevent taking too much damage, the Enhanced Devoted <:enhdev4:712073087507628035> or cryptbloom <:cryptbloomhelm:1334336169336373339> are extremely important for survivability, as you will be praying <:DeflectMelee:544195488447201300> regardless of which method you are using.
 
 .
-### Stats
+### __Stats__
 ⬥ <:slayer:797896049548066857> XP per kill : 2408.8
-⬥ Optimal kills per hour: 990 <:magic:689504724159823906>, 700 <:necromancy:1148995625896120460>
-⬥ Optimal <:slayer:797896049548066857> XP per hour : 2.38m <:magic:689504724159823906>, 1.68m <:necromancy:1148995625896120460>
+⬥ Optimal kills per hour: 1200 <:melee:1096130867279171706>, 990 <:magic:689504724159823906>, 890 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour : 2.89m <:melee:1096130867279171706>, 2.38m <:magic:689504724159823906>, 2.14m <:necromancy:1148995625896120460>
 
 .
-### Strategy
-⬥ Stand on top of a hill near the entrance next to a pile of Moss Golem bodies (yellow square shown below), and place the cannon <:cannon:869283142350041098> on the red square.
-    • Standing one tile south of the tile shown can increase kph with the <:magic:689504724159823906> method.
-.img:https://img.pvme.io/images/sYQWYkH.png
+### __Positioning__
+.img:https://img.pvme.io/images/X5nGfR5x95.png
+⬥Melee <:melee:1096130867279171706> (Red square)
+⬥Magic/Necro <:magic:689504724159823906> / <:necromancy:1148995625896120460> (Purple square)
+⬥Dwarven Siege Engine <:cannon:869283142350041098> (Yellow square)
+
+.
+## __Method - AFK Melee__ <:melee:1096130867279171706>
+.tag:mossgolemmelee
+⬥ Pray <:DeflectMelee:544195488447201300> and <:turmoil:583429936606347280> / <:malevolence:513190159416557573>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:darkness:1137809209782698024>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915>, <:weppoison:689525476158472288>, <:vampscrim:513201294262009874>, <:vampaura:643505653079343144>, and <:kwuarmsticks:565726489341984779> at all times.
+⬥ Use Bonfire <:firemaking:1011705727041163396>, Ogre flask (thermal) <:thermalflask:689530593796423724>, and Boon of Het HP boosts.
+    • Desert <:pantheonaura:982264010126819380> HP boost preferred over Bonfire <:firemaking:1011705727041163396>.
+⬥ <:enhdev4:712073087507628035> and <:dev4:712073087713280033> required.
+⬥ Tier 2 Corbicula Rex Perk <:corbicula:690136117273821280>
+⬥ Use <:cannon:869283142350041098> with Meteorite cannonballs to help aggro the Moss Golems.
+
+.
+### Preset Suggestions
+.
+⬥ [Moss Golems - AFK Melee](https://presets.pvme.io?id=4bd7de79-40d0-4557-b30b-8c79e33ce586) <:melee:1096130867279171706>
+
+.
+### Action Bar
+.
+.img:https://img.pvme.io/images/TiW79woTgH.png
+
+.
+### Example Kills
+⬥ [AFK Melee](<https://www.youtube.com/watch?v=m5oOgr6uuSI>)
 
 .
 ## __Method - AFK Magic__
 .tag:mossgolemmagic
 ⬥ Pray <:DeflectMelee:544195488447201300> and <:torment:583429936958930964> / <:affliction:513190158468907008>
-⬥ Upkeep <:animatedead:856635090453135382> <:elderovl:841419289831800882> <:aggressionpotion:925794592199147581> <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times.
+⬥ Upkeep <:animatedead:856635090453135382>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915>, and <:weppoison:689525476158472288> at all times.
 ⬥ Autocast <:exsanguinate:856635090745950258>
 ⬥ Use <:cannon:869283142350041098> to help aggro the Moss Golems.
 
 .
 ### Preset
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/ud0QVnIPGd.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Magic__",
-        "value": "⬥ [Preset breakdown](https://pvme.io/preset-maker/#/3VQduLg5mvn7wGoiXOZC)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+⬥ [AFK Magic](https://presets.pvme.io/?id=3VQduLg5mvn7wGoiXOZC)
 *Notes:*
 ⬥ <:penanceaura:643505653062565907> is not required but eliminates any need for prayer upkeep, may need to use <:ancientshard:656426717505650708> if praying <:affliction:513190158468907008> without penance aura.
 .
@@ -77,49 +87,33 @@ Moss Golems have hard hitting melee auto-attacks, and can hit from halberd range
 .img:https://img.pvme.io/images/1ycd3MQvV4.png
 
 .
-## __Method - AFK Necro__
+## __Method - AFK Necro__ <:necromancy:1148995625896120460>
 .tag:mossgolemnecro
 ⬥ Thanks to Necromancy's sustain with <:conjureghost:1137809206423060632> and <:bloodsiphon:1159434279311380532>, as well as its strong aoe damage potential with <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>, it can effectively AFK Moss Golems. Around 630-650kph can be achieved on task with this method while being safe and AFK with low input costs.
 
 ⬥ Pray <:DeflectMelee:544195488447201300> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
-⬥ Upkeep <:darkness:1137809209782698024> <:elderovl:841419289831800882> <:aggressionpotion:925794592199147581> <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times.
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:darkness:1137809209782698024>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915>, <:weppoison:689525476158472288>, <:scriptureofwen:883134307902816297>, and <:vampaura:643505653079343144> at all times.
+⬥ <:enhdev4:712073087507628035> and <:dev4:712073087713280033> required.
 ⬥ Use <:cannon:869283142350041098> to help aggro the Moss Golems.
 
 .
-### Preset
+### Preset Suggestions
 .
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/pCb68USZ7D.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Necro__",
-        "value": "⬥ [Preset breakdown](https://pvme.io/preset-maker/#/6Rxngxac03gsK9EwDt57)\n\u200B",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+⬥ [Moss Golems - AFK Necro](https://presets.pvme.io?id=0hDZbp5Yuts47IT3eFVf) <:necromancy:1148995625896120460>
 
 .
 ### Action Bar
 .
-.img:https://img.pvme.io/images/4IDRVXEESB.png
-.
+.img:https://img.pvme.io/images/RHYmqnSbEI.png
 
 .
-### Video Examples
+### Example Kills
+⬥ [AFK Necro](<https://www.youtube.com/watch?v=m3OpT48Iyfg>)
+
 .
-⬥ [AFK Magic](<https://www.youtube.com/watch?v=CScjchJPScg>)
-⬥ [AFK Necro](<https://www.youtube.com/watch?v=Rds7EhT0vlA>)
-.
-.img:https://img.pvme.io/images/1JXBJr0Wvj.png
 ## __Vinecrawlers__
+.img:https://img.pvme.io/images/1JXBJr0Wvj.png
 .tag:vinecrawlers
 These monsters are generally not killed for any purpose other than their soul <:ushabti:1097515642749468752>
 
@@ -157,25 +151,10 @@ These monsters are generally not killed for any purpose other than their soul <:
 ⬥ It doesn't matter where you stand, just activate your Scrimshaw of aggression <:aggressionscrim:1022562486588821555> and sip a Super restore <:restore:642708657825644554> if your prayer runs low.
 
 .
-### Preset
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/vL51cJisi8.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Ranged__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/vWM57OX1InxJuBbIKFkE)\n\u200B <:graspingpouchblack:1390439136875253810> - <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>\n\u200B <:graspingpouchpink:1390439126519644271> - <:deathrune:536252659586433024> <:earthrune:536252659808731137> <:lawrune:536252661406760970> <:cosmicrune:536252659615924258>",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+### Preset Suggestions
+⬥ [AFK Ranged](https://presets.pvme.io/?id=vWM57OX1InxJuBbIKFkE)
+<:graspingpouchblack:1390439136875253810> - <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>
+<:graspingpouchpink:1390439126519644271> - <:deathrune:536252659586433024> <:earthrune:536252659808731137> <:lawrune:536252661406760970> <:cosmicrune:536252659615924258>
 
 .
 ### Action Bar
@@ -184,9 +163,10 @@ These monsters are generally not killed for any purpose other than their soul <:
 .
 ### Video Guide
 ⬥ [AFk Ranged](<https://youtu.be/6_bL7GtzxTw>)
+
 .
-.img:https://img.pvme.io/images/U7HTQAmq7b.png
 ## __Bulbous crawlers__
+.img:https://img.pvme.io/images/U7HTQAmq7b.png
 .tag:bulbouscrawlers
 These monsters are generally not killed for any purpose other than their soul <:ushabti:1097515642749468752>
 
@@ -225,26 +205,9 @@ These monsters are generally not killed for any purpose other than their soul <:
 ⬥ It doesn't matter where you stand.
 
 .
-### Preset
+### Preset Suggestions
 .tag:bulbouscrawlersmelee
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/v4wTOynPOh.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Melee__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/HoNORwBeCegjNLuutFQJ)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+⬥ [AFK Melee](https://presets.pvme.io/?id=HoNORwBeCegjNLuutFQJ)
 .
 ### Action Bar
 .img:https://img.pvme.io/images/m5kg304.png
@@ -273,25 +236,8 @@ Before loading your <:oldakcoil:798285651387613194> and starting the session, ch
 ⬥ Optimal <:slayer:797896049548066857> XP per hour : ~885K
 
 .
-### Preset
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "image": {
-            "url": "https://img.pvme.io/images/1RshQipJyL.png"
-        },
-    "fields": [
-      {
-        "name": "__AFK Necromancy__",
-        "value": "⬥ [Preset breakdown](https://pvme.github.io/preset-maker/#/Zv3INjzacSvTIshqzvg2)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+### Preset Suggestions
+⬥ [AFK Necromancy](https://presets.pvme.io/?id=Zv3INjzacSvTIshqzvg2)
 
 .
 ### Action Bar
