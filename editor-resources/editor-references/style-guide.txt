@@ -168,10 +168,13 @@ This is the new section
 ## __Presets__
 .tag:presets
 .
-⬥ Use the Preset Maker (<#1250465587813945440>)
+⬥ Create and link to presets in our Preset Maker tool (<#1250465587813945440>)
+⬥ Multiple presets may be created for different situations
 ⬥ Links to presets should be in the following pattern:
-    • `{Combat style} - {Basic/Advanced} {Combat style emoji}`
-        ⬩ e.g., [Necromancy - Basic](#) <:necromancy:1148995625896120460>
+    • `{Combat style} - {Basic/Advanced/Tier}`
+        ⬩ e.g., [Necromancy - Basic](#) / [Necromancy - T95/100](#)
+    • Only the last link should be shown - the rest should be hidden by wrapping the link in `<>`:
+        ⬩ e.g., <https://presets.pvme.io?id=presetID>
 ⬥ Avoid dyed gear or overpriced items which do not feature in <#1020045708746833930>
 ⬥ Be consistent with:
     • Rune pouch colours (<#1025569571710718093>)
