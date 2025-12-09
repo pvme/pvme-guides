@@ -1,0 +1,80 @@
+# Flesh-hatcher Mhekarnahz
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Flesh-hatcher Mhekarnahz is a stalker boss located in the Wilderness and requires 40 <:dungeoneering:1003947795541143632> to fight. Unlike other [stalker creatures](<https://runescape.wiki/w/Stalker_creatures_(Slayer_assignment)>), 71 <:slayer:797896049548066857> is **not** required. This encounter is aimed at lower levels and introduces movement as a mechanic which players must react to and avoid.
+
+.
+## __Attack Rotation__
+3 <:magic:689504724159823906> auto → 3x3 <:range:580168050121113623> square → 4 <:magic:689504724159823906> auto → 3x waves → 4 <:magic:689504724159823906> auto
+
+3x3 <:range:580168050121113623> square → 4 <:magic:689504724159823906> auto -> 3x waves -> 4 <:magic:689504724159823906> auto -> minions -> repeat
+
+*Notes:*
+⬥ *Bar fills up per each auto, Mhekarnahz does a mechanic when bar is full*
+⬥ *After minions it will be 4 <:magic:689504724159823906> autos*
+
+.
+## __Mechanics__
+.tag:mechanics
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Auto-attack__",
+        "value": "⬥ Does 4 <:magic:689504724159823906> auto-attacks between mechanics\n\u00a0\u00a0\u00a0\u00a0• The start of the encounter only has 3\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the auto-attack](https://img.pvme.io/images/gptIeL96KN.mp4)"
+      },      
+      {
+        "name": "__Targeted 3x3 Square__",
+        "value": "⬥ Shoots a 3x3 attack towards the player that inflicts <:range:580168050121113623> damage\n\u00a0\u00a0\u00a0\u00a0• Getting hit will cause a short <:bindicon:1102897815073603685> and <:stunicon:841419289428492369>\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the targeted 3x3 square](https://img.pvme.io/images/7AkOQn7ylg.mp4)"
+      },
+      {
+        "name": "__Waves__",
+        "value": "⬥ Unleashes 3 consecutive waves which cover specific parts of the arena\n\u00a0\u00a0\u00a0\u00a0• They occur back-to-back in a random order and deal typeless damage\n\u00a0\u00a0\u00a0\u00a0• They cover the outer, middle, and inner sections of the arena respectively\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the 3 waves](https://img.pvme.io/images/CHLqUALsSc.mp4)"
+      },
+      {
+        "name": "__Minions__",
+        "value": "⬥ Spawns 3 warped flesh sacs with bars above their heads\n\u00a0\u00a0\u00a0\u00a0• If a bar fills, spawns a warped seeker\n\u00a0\u00a0\u00a0\u00a0• Boss is immune while minions are alive\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the minions](https://img.pvme.io/images/EkfOuHcVyS.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Melee Strategy__ <:melee:1096130867279171706>
+.tag:melee
+### __Preset Suggestions__
+.tag:preset
+⬥ [Melee - Advanced](https://presets.pvme.io?id=f4ac2925-6760-42e7-850f-dd93326142ce) <:melee:1096130867279171706>
+.
+
+.
+### __Rotations__
+This rotation aims for sub-10s kill times.
+
+<:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:chaosroar:994644356671737966> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:havoc:535532879300526080> / <:smash:535532879820619786>
+
+*Notes:*
+⬥ *Reset at <:war:1005552206302416986> after every kill*
+⬥ *<:punish:535532879439069184> is currently not working as intended on Mhekarnahz*
+
+.
+## __Example Kills__
+.tag:examples
+⬥ Melee example kills <:melee:1096130867279171706>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Melee Strategy]($linkmsg_melee$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
