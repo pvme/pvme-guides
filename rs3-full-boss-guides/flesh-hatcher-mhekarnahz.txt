@@ -46,18 +46,19 @@ Flesh-hatcher Mhekarnahz is a stalker boss located in the Wilderness and require
 }
 .embed:json
 
-.
-## __Melee Strategy__ <:melee:1096130867279171706>
-.tag:melee
-### __Preset Suggestions__
+## __Presets__
 .tag:preset
 ⬥ [Melee - Resetting](<https://presets.pvme.io?id=f4ac2925-6760-42e7-850f-dd93326142ce>) <:melee:1096130867279171706>
+⬥ [Ranged - Instance Camp](<https://presets.pvme.io?id=2ef43c03-f77f-4f85-a540-35c645e1a28d>) <:range:580168050121113623>
+⬥ [Magic - Instance Camp](<https://presets.pvme.io?id=b75930d4-76fd-4282-aae4-6ac34dbe162f>) <:magic:689504724159823906>
 ⬥ [Melee - Instance Camp](https://presets.pvme.io?id=84b49ef8-1cdd-42f1-ba72-eec54ff0f8c1) <:melee:1096130867279171706>
+
+All listed strategies use <:eclipsedsoul:1285372688457797672> + <:divinerage:1285372247665803264> + the style's respective stat-boosting prayer. May replace with <:soulsplit:615613924506599497> curses but could result in slightly less consistent kills per hour.
 
 .
 ## __Rotations__
-
-### __Melee Resetting__ <:melee:1096130867279171706>
+.tag:rotations
+### __Melee Wars Reset (120 KPH)__ <:melee:1096130867279171706>
 
 This rotation aims for sub-10s kill times, resetting at <:war:1005552206302416986> every kill
 
@@ -68,7 +69,7 @@ This rotation aims for sub-10s kill times, resetting at <:war:100555220630241698
 
 .
 
-### __Melee Instance Camp__ <:melee:1096130867279171706>
+### __Melee Instance Camp (140 KPH)__ <:melee:1096130867279171706>
 
 Alternates rotations and aims for 10s-18s kill times, camping inside the instance
 
@@ -80,15 +81,34 @@ Alternates rotations and aims for 10s-18s kill times, camping inside the instanc
 ⬥ End kills with <:ezk:903244090953588787> <:pulverise:535532879053062146> for adrenaline if needed
 
 .
+### __Ranged Instance Camp (120 KPH)__ <:range:580168050121113623>
+
+Start hour with 7x <:icychill:1240756221024403526> with <:wenarrow:971025697046925362>
+
+⬥ <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → filler until dead
+*Notes:*
+⬥ Click to jump over the ledge when <:sgb:626466665848242186> <:spec:537340400273195028> cooldown hits 17s
+
+.
+### __Magic Instance Camp (120 KPH)__ <:magic:689504724159823906>
+
+Autocast <:exsanguinate:856635090745950258>
+
+⬥ <:gconc:869285393223254107> → <:asphyx:535533833072672778> → <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:1257438999794946099> → <:wm:535533809978966037> → <:gconc:869285393223254107> → <:wrackandruin:1257439387474722836> → filler until dead
+
+.
 ## __Example Kills__
 .tag:examples
+⬥ [Melee wars reset examples](<https://www.youtube.com/watch?v=rOhsysnC5dI>) <:melee:1096130867279171706> <:war:1005552206302416986>
 ⬥ [Melee instance camp examples](<https://youtu.be/cI1T4WyovBc>) <:melee:1096130867279171706>
+⬥ [Ranged instance camp examples](<https://www.youtube.com/watch?v=iIVunSJ_Znw>) <:range:580168050121113623>
+⬥ [Magic instance camp examples](<https://www.youtube.com/watch?v=M2Cp1ZEA9OA>) <:magic:689504724159823906>
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Melee Strategy]($linkmsg_melee$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_preset$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_examples$)",
     "color": 39423
   }
 }
