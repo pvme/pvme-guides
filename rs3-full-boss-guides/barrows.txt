@@ -130,8 +130,15 @@ Make sure to pray <:eclipsedsoul:1285372688457797672> + <:divinerage:12853722476
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide…*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Fight]($linkmsg_fight$)\n⬥ [Necromancy]($linkmsg_necromancy$)\n⬥ [Magic]($linkmsg_magic$)\n⬥ [Melee]($linkmsg_melee$)",
-    "color": 39423
+    "description": "*To edit this guide…*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Category__",
+        "value": "⬥ [Intro]($linkmsg_intro$)\n⬥ [Fight]($linkmsg_fight$)\n⬥ [Necromancy]($linkmsg_necromancy$)\n⬥ [Magic]($linkmsg_magic$)\n⬥ [Melee]($linkmsg_melee$)",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
