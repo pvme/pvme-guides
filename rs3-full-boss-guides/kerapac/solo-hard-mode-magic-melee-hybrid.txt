@@ -1,20 +1,18 @@
-# Kerapac, the Bound Hard Mode - Solo Mage Melee Hybrid
+# Magic-Melee Hybrid Kerapac Guide
 .img:https://img.pvme.io/images/1fZdXd5U3v.png
 *Note: a **Table of Contents** can be found in the pins.*
 
 .
 ## __Introduction__
 .tag:intro
-This guide assumes you are already familiar with the basic mechanics of Hard Mode Kerapac which can be seen here <#1020559705204076614> and own BIS gear in both Magic and Melee.
+This is an **advanced guide** which assumes a strong underlying knowledge of all mechanics and information presented in <#1020559705204076614>.
 
-It is required to have a Nodon dragonkin slayer task for this method to work <:slayer:797896049548066857> as the <:slayerhelm:798285340460449792> helmet boost does work.
-> This method aims to consistently hit sub 1:40 kill times. This is possible from the start of your Nodon dragonkin slayer task.
-
+It is highly recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the <:slayerhelm:798285340460449792> helmet boost does work.
 
 .
 ## __Presets and Relics__
-.tag:preset
-⬥ [Mage / Melee Hybrid](https://presets.pvme.io/?id=2a7ae87c-f91d-45b3-9cff-7ba10728a6b2) <:magic:689504724159823906> <:melee:1096130867279171706>
+.tag:presets
+⬥ [Magic-Melee Hybrid](https://presets.pvme.io/?id=2a7ae87c-f91d-45b3-9cff-7ba10728a6b2) <:magic:689504724159823906> <:melee:1096130867279171706>
 
 .
 {
@@ -33,9 +31,9 @@ It is required to have a Nodon dragonkin slayer task for this method to work <:s
 .embed:json
 
 .
-## __The Fight__
-.tag:fight
-### __Wars__
+## __Rotations__
+.tag:rotations
+### __War's Retreat__
 <:dba:603979368850653216> → s<:meteorstrike:1478070401702821938>
 
 ### __Prior to Start__
@@ -64,22 +62,16 @@ If not phased, improv with <:gconc:1478063111104757760> / <:legatusemberstaff:14
 *Note: <:vulnbomb:655341074235129858> each clone.*
 ### Clone 1
 Click Clone + TC + <:gbarge:535532879250456578> → <:overpower:535532879334080517> → <:gflurry:535532879283879977>
-
-.
 ### Clone 2
 <:bd:535532854281764884> / <:surge:535533810004262912> to Middle Clone → <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
-
-.
 ### Clone 3
 <:bd:535532854281764884> / <:surge:535533810004262912> to Final Clone → <:overpower:535532879334080517> → <:lengoh:883134308070604870> <:spec:537340400273195028> → <:pulverise:535532879053062146> → (<:devo:513190158728953857>)
-
-.
 ### Kerapac
 <:bd:535532854281764884> / <:surge:535533810004262912> to Kerapac → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:overpower:535532879334080517> (+ <:gmaul:796989663051120640> <:eofspec:1257438999794946099> or → <:punish:535532879439069184>)
-.
+
 .
 ## __Example Kills__
-.tag:eg
+.tag:example
 {
   "embed": {
     "title": "__Example Kills__",
@@ -88,10 +80,12 @@ Click Clone + TC + <:gbarge:535532879250456578> → <:overpower:5355328793340805
   }
 }
 .embed:json
+
+.
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
   }
 }
