@@ -4,20 +4,45 @@
 
 .
 ## __Introduction__
-This guide will go over how to complete the Grandmaster speed kill Combat achievement for Black Stone Dragon.
+This guide will go over how to complete the Black Stone Dragon Grandmaster Speed Killer combat achievement, and assumes you are already familiar with the basic mechanics of the encounter which can be found in <#1020559575126126623>.
+​
+.
 ## __Presets and Relics__
 .tag:preset
 ⬥ [Necromancy](<https://presets.pvme.io/?id=87efYB8PIuEQE29aDFt9>)
-⬥ [Range Melee Hybrid](https://presets.pvme.io/?id=YRTHHium4p1S5luvOYsb)
-
+⬥ [Range Melee Hybrid](<https://presets.pvme.io/?id=YRTHHium4p1S5luvOYsb>)
+⬥ [Melee](https://presets.pvme.io/?id=4f53138f-d23b-4683-ba5b-5748c1b1ae69)
+.
 
 .
-## __Black Stone Dragon Grandmaster Speed Killer__
+## __Melee__
+.tag:melee
+⬥ Having a <:slayer:797896049548066857> task is highly recommended, as well as <:dragonslayerperk:689502927731163170> and <:dragonslayer:641339921814126594>
 
-### __Necromancy__
+### __War's Retreat__
+<:dba:603979368850653216> <:spec:537340400273195028> → s<:ezk:903244090953588787> <:spec:537340400273195028> → <:darkness:1137809209782698024> / <:invokelordofbones:1176968330582700174> (to stall)
 
+.
+### __Black Stone Dragon__
+<:dive:1049378668197195808> + r<:ezk:903244090953588787> <:spec:537340400273195028> + <:meteorstrike:1478070401702821938> + <:vulnbomb:655341074235129858> → <:divert:787904334377648130> → <:berserk:535532854004678657> + (equip <:lengmh:883134308146098227> <:lengoh:883134308070604870>) → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → (equip 2h) <:cane:535532878969438210> → <:anti:535541306475151390> → <:prep:535541258546970624>
+### First Hand
+<:gbarge:535532879250456578> → <:assault:535532855191928842> → <:overpower:535532879334080517> + <:dive:1049378668197195808>
+### Second Hand
+<:adaptivestrike:1478062906057949417> + <:vulnbomb:655341074235129858> → <:gflurry:535532879283879977> → <:adaptivestrike:1478062906057949417> (if not dead) + <:surge:535533810004262912>
+### Third Hand
+<:overpower:535532879334080517> → <:adaptivestrike:1478062906057949417> → <:rend:1478166426190741584> → <:gfury:535532879334080527> → <:meleebasic:1478062907295010906> (if not dead) + <:surge:535533810004262912>
+### Fourth Hand
+(equip <:mwspear:694566917456789554> + <:jawsoftheabyss:947871842595639306>) <:dismember:1478062910113714297> + <:vulnbomb:655341074235129858> → <:slaughter:1478062904732418159> → (equip <:lengmh:883134308146098227> <:lengoh:883134308070604870>) <:adaptivestrike:1478062906057949417> → <:meleebasic:1478062907295010906> → <:rend:1478166426190741584> → <:adaptivestrike:1478062906057949417> → <:meleebasic:1478062907295010906> → <:gfury:535532879334080527> → (equip <:vestmentsofhavochood:994189297659940904>) <:meteorstrike:1478070401702821938>
+
+*Note: try to kill the fourth hand with <:meteorstrike:1478070401702821938>*
+
+.
+### __Black Stone Dragon__
+<:adaptivestrike:1478062906057949417> + <:vulnbomb:655341074235129858> → <:berserk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:divert:787904334377648130> → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:dragonslayer:641339921814126594> + <:overpower:535532879334080517> → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:assault:535532855191928842> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:punish:535532879439069184>
+
+.
+## __Necromancy__
 .tag:necromancy
-.
 {
   "embed": {
   "title": "",
@@ -41,34 +66,36 @@ This guide will go over how to complete the Grandmaster speed kill Combat achiev
 .embed:json
 
 .
-### Pre-build at Wars
-
+### __War's Retreat__
 <:warsretreatteleport:1032540079589163049> <:dummy:656844963522281473>: Get 5 <:residualsoul:1139453152169558046> stacks and 8 <:necrosis:1139452791878856805> stacks at wars.
 ### Outside BSD Room
 <:conjurearmy:1166094935066423348> + equip <:cinderbanes:513190158355660812> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883>
-### Black Stone Dragon
+
+.
+### __Black Stone Dragon__
 <:surge:535533810004262912> + <:dive:1049378668197195808> + tc + <:bloat:1159433682403201044> + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> + <:dragonslayer:641339921814126594> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
 ### First Hand
 <:invokedeath:1137809121983336548> + <:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> + Place 2 <:dommine:662249620579155968> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
 ### Second Hand
 <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:invokedeath:1137809121983336548> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
-.
 ### Third Hand
 <:invokedeath:1137809121983336548> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> → <:soulsap:1137809140476031057> → <:necroauto:1137809137401602109>
 ### Fourth Hand
 <:invokedeath:1137809121983336548> → <:fingerofdeath:1159434801938432010> → <:necroauto:1137809137401602109> → <:necroauto:1137809137401602109>  → <:nat:535541258131865633> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:necroauto:1137809137401602109> to full adren
-### Flight Skip
+
+.
+### __Flight Skip__
 <:lifetransfer:1137809128136388819> + <:vulnbomb:655341074235129858> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:divert:787904334377648130> → <:splitsoul:1137809168368148490> → <:dragonslayer:641339921814126594> + <:bloat:1159433682403201044> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:commandskeleton:1137809194423160883> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → kill with basics
 
 .
-### __Range Melee Hybrid__
-
+## __Ranged-Melee Hybrid__
 .tag:rangemeleehybrid
 ⬥ Rotation strives for 1:10-1:14.
 ⬥ This rotation is NOT recommended for standard kills, only for the grandmaster achievement with a kill timer significantly faster than using Necromancy if desired.
     • Strongly recommended to only spend time building 10 leng stacks <:primordialice:1219291285358120990> at wars AFTER practicing rotations on each of the four hands individually.
 ⬥ Dragons slayer task. Kill dragons until about 5-10 left on task to maximize genocidal <:genocidal:689503091539705870> perk.
 ⬥ For combat dummy placement, click exact spot shown in the example video.
+
 .
 {
   "embed": {
@@ -87,23 +114,27 @@ This guide will go over how to complete the Grandmaster speed kill Combat achiev
   }
 }
 .embed:json
+
 .
-### Pre-build at Wars
+### __War's Retreat__
 <:warsretreatteleport:1032540079589163049> <:dummy:656844963522281473>: Auto with <:lengmh:883134308146098227> <:lengoh:883134308070604870> to build 10 <:primordialice:1219291285358120990> stacks → Set dummy to max hit mode <:bolg:994189289623662702> <:deathsporearrows:900758234527301642> build 4 deathspore stacks → <:dba:603979368850653216> <:spec:537340400273195028> → s<:incend:535541258429661215>
 ### Outside BSD Room
 <:dummy:656844963522281473> + r<:incend:535541258429661215> + <:deathsporearrows:900758234527301642> <:gricocaroming:867678153966878740> → <:nat:535541258131865633> → <:zerk:535532854004678657> + <:dive:1049378668197195808> → <:anti:535541306475151390> + <:surge:535533810004262912> → <:freedom:535541258240786434>
-### Black Stone Dragon
+
+.
+### __Black Stone Dragon__
 <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> → <:assault:535532855191928842> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:overpower:535532879334080517> → <:havoc:535532879300526080> → <:chaosroar:994644356671737966>
 ### First Hand
 1x <:dommine:662249620579155968> + <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> + <:vulnbomb:655341074235129858> → <:masterwork2hsword:1274330676061278334> <:cane:535532878969438210> + <:dive:1049378668197195808>
 ### Second Hand
 <:lengmh:883134308146098227> <:lengoh:883134308070604870> <:spec:537340400273195028> + <:vulnbomb:655341074235129858> → <:gfury:535532879334080527> → <:meteorstrike:535532879359377439> → <:punish:535532879439069184> (if not dead) + <:surge:535533810004262912>
-.
 ### Third Hand
 <:gbarge:535532879250456578> + equip <:bolg:994189289623662702> <:edracobody:1179717430436704306> <:deathsporearrows:900758234527301642> → <:bolg:994189289623662702> <:spec:537340400273195028> + <:vulnbomb:655341074235129858> + 1x <:dommine:662249620579155968> → <:gricocaroming:867678153966878740> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:rapid:535541270521708566> → <:mds:535541259033378827>
 ### Fourth Hand
 <:divert:787904334377648130> → <:gricocaroming:867678153966878740> + <:vulnbomb:655341074235129858> → <:deathsporearrows:900758234527301642> <:incend:535541258429661215> → <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> + <:jasdragonbanearrow:971025697042755584> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercing:535541258538450944>
-### Flight Skip
+
+.
+### __Flight Skip__
 <:mds:535541259033378827> + <:vulnbomb:655341074235129858> (you want to be at 3 bolg <:bolg:994189289623662702> stacks after greater dazing for optimal remainder of this rotation) → <:ecb:615618531937222657> <:eofspec:1257438999794946099> + (4t) <:smokecloud:856635090641879050> → <:shadowtend:642713547142332416> → <:gricocaroming:867678153966878740> → <:rapid:535541270521708566> → <:dragonslayer:641339921814126594> + <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:gricocaroming:867678153966878740> → if not dead, finish with another <:dbow:643848618553507843> <:eofspec:1257438999794946099>
 
 .
@@ -116,7 +147,7 @@ This guide will go over how to complete the Grandmaster speed kill Combat achiev
     "fields": [
       {
         "name": "__Example Kills__",
-        "value": "⬥ [Necromancy Example 1:37.8](https://www.youtube.com/watch?v=fxwyJ1zHb24)\n⬥ [Range Melee Hybrid Example 1:12.0](https://www.youtube.com/watch?v=IJbCp8yrzTw)"
+        "value": "⬥ [Melee Example](https://www.youtube.com/watch?v=pwZ9I_YCP78)\n⬥ [Necromancy Example](https://www.youtube.com/watch?v=fxwyJ1zHb24)\n⬥ [Ranged-Melee Hybrid Example](https://www.youtube.com/watch?v=IJbCp8yrzTw)"
       }
     ]
   }
@@ -127,7 +158,7 @@ This guide will go over how to complete the Grandmaster speed kill Combat achiev
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Presets and Relics]($linkmsg_preset$)\n⬥ [Necromancy]($linkmsg_necromancy$)\n⬥ [Range Melee Hybrid]($linkmsg_rangemeleehybrid$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Presets and Relics]($linkmsg_preset$)\n⬥ [Melee]($linkmsg_melee$)\n⬥ [Necromancy]($linkmsg_necromancy$)\n⬥ [Ranged-Melee Hybrid]($linkmsg_rangemeleehybrid$)\n⬥ [Example Kills]($linkmsg_examples$)",
     "color": 39423
     }
 }
