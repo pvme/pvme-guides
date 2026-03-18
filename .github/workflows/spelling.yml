@@ -15,8 +15,8 @@ jobs:
   spelling:
     runs-on: ubuntu-latest
 
-    # prevent duplicate runs when a PR exists
-    if: github.event_name != 'push' || github.event.pull_request == null
+    # run on push OR when PR is first opened (avoid duplicate runs)
+    if: github.event_name == 'push' || github.event.action == 'opened'
 
     steps:
       - name: Checkout
