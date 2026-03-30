@@ -5,7 +5,8 @@ This channel showcases many of the ways you can be more efficient when writing g
 **It assumes you are using the [PvME Guide Editor](<https://pvme.github.io/guide-editor/>) to write & live preview your guides.**
 
 .
-## __Findings and using Templates__
+## __Finding and using Templates__
+.tag:findingandusingtemplates
 In the Guide Editor toolbar you will see a "Template" dropdown, containing starting points for our main guide types:
 ⬥ Boss Guide
 ⬥ AFK Guide
@@ -24,7 +25,7 @@ There are two ways to find an emoji:
 
 .
 ## __Linking items to the Wiki__
-.tag:wikilinks
+.tag:linkingitemstothewiki
 Many of our guides link items and gear to the [RS Wiki](<https://runescape.wiki/>). Follow these steps:
 ⬥ Use the pattern: `[Item name](<http://runescape.wiki/w/Item_name>) <:emoji:>`
     • Wrap the URL in `<>` to prevent it showing a preview
@@ -38,7 +39,7 @@ See the following example:
 
 .
 ## __Using Embeds__
-.tag:embeds
+.tag:usingembeds
 Sometimes we use a special Discord "embed" to format messages in a pretty way - these are written in JSON. When inside a JSON, common punctuation like bullets or new lines will not work as normal; use the following to achieve what you are looking for:
 
 ⬥ **`\n`** → adds a new line
@@ -98,7 +99,7 @@ When rendered, the above code looks like the following;
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Finding emojis]($linkmsg_findingemojis$)\n⬥ [Linking items to the Wiki]($linkmsg_wikilinks$)\n⬥ [Using Embeds]($linkmsg_embeds$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Finding and using templates]($linkmsg_findingandusingtemplates$)\n⬥ [Finding emojis]($linkmsg_findingemojis$)\n⬥ [Linking items to the wiki]($linkmsg_linkingitemstothewiki$)\n⬥ [Using embeds]($linkmsg_usingembeds$)",
     "color": 39423
   }
 }
