@@ -1,411 +1,105 @@
-## __Introduction__
+# __Templates & Tips for Writing Guides__
 .tag:intro
-This channel contains templates for some of the more commonly used structures in PvME guides. You can use them as they are, or modify them as required.
+This channel showcases many of the ways you can be more efficient when writing guides, whether that be through copy-able templates, code snippets or other tips.
 
-## __Formatting Embeds__
-.tag:howtoembed
-This refers to Discord embed messages that are JSON-formatted to produce good looking output. The basic template is shared below, as well as ways to see the output in real-time for faster and easier writing.
+**It assumes you are using the [PvME Guide Editor](<https://pvme.github.io/guide-editor/>) to write & live preview your guides.**
+
+.
+## __Findings and using Templates__
+In the Guide Editor toolbar you will see a "Template" dropdown, containing starting points for our main guide types:
+⬥ Boss Guide
+⬥ AFK Guide
+⬥ Slayer Guide
+⬥ Command Embed
+
+Simply click "copy" and paste these into the editor to get started on your guide, as in the screenshot below:
+.img:https://img.pvme.io/images/ArqoW60TuE.png
+
+.
+## __Finding emojis__
+.tag:findingemojis
+There are two ways to find an emoji:
+1. In the Guide Editor, simply start typing `:emojiname` and it will bring up a list - select the one you want
+2. Search the full repository of emojis at <https://pvme.io/pvme-settings/#emojis>
+
+.
+## __Linking items to the Wiki__
+.tag:wikilinks
+Many of our guides link items and gear to the [RS Wiki](<https://runescape.wiki/>). Follow these steps:
+⬥ Use the pattern: `[Item name](<http://runescape.wiki/w/Item_name>) <:emoji:>`
+    • Wrap the URL in `<>` to prevent it showing a preview
+    • Most items only capitalise the first word
+    • Replace spaces with underscores
+⬥ Test your URL in the guide editor by clicking on it
+
+See the following example:
+`[Channeller's ring](<http://runescape.wiki/w/Channeller's_ring>) <:channellersring:839903943404027914>`
+→ [Channeller's ring](<http://runescape.wiki/w/Channeller's_ring>) <:channellersring:839903943404027914>
+
+.
+## __Using Embeds__
+.tag:embeds
+Sometimes we use a special Discord "embed" to format messages in a pretty way - these are written in JSON. When inside a JSON, common punctuation like bullets or new lines will not work as normal; use the following to achieve what you are looking for:
+
+⬥ **`\n`** → adds a new line
+⬥ **`\u00a0\u00a0\u00a0\u00a0`** = adds a new line + 4 spaces
+⬥ **`\n⬥ `** → adds a new line + a bullet
+⬥ **`\n\u00a0\u00a0\u00a0\u00a0•`** → adds a new line + 4 spaces + a sub-bullet
+⬥ **`\n\u200B`** → adds a blank line
+
+.
+A example embed can be seen below:
+
+```
+.
+{
+  "embed": {
+    "title": "__[embed title]__",
+    "description": "[embed description]\n\u200B",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__[field 1 name]__",
+        "value": "[field 1 contents]"
+      },
+      {
+        "name": "__[field 2 name]__",
+        "value": "⬥ Field 2 contents\n⬥ Field 2 contentz"
+      }
+    ]
+  }
+}
+.embed:json
+```
+
+.
+When rendered, the above code looks like the following;
+.
+{
+  "embed": {
+    "title": "__[embed title]__",
+    "description": "[embed description]\n\u200B",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__[field 1 name]__",
+        "value": "[field 1 contents]"
+      },
+      {
+        "name": "__[field 2 name]__",
+        "value": "⬥ Field 2 contents\n⬥ Field 2 contentz"
+      }
+    ]
+  }
+}
+.embed:json
 
 .
 {
   "embed": {
-    "title": "__Embed Visualisers__",
-    "description": "⬥ [Leovoel's Embed Visualiser](https://leovoel.github.io/embed-visualizer/) - preview embed outputs in real time while writing.\n⬥ [PvME Guide Editor](https://pvme.github.io/guide-editor/) - preview embeds *and* all PvME markdown syntax in real time while writing.",
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Finding emojis]($linkmsg_findingemojis$)\n⬥ [Linking items to the Wiki]($linkmsg_wikilinks$)\n⬥ [Using Embeds]($linkmsg_embeds$)",
     "color": 39423
-  }
-}
-.embed:json
-
-.
-### Embed Commands
-⬥ **`\n`** = add a new line.
-⬥ **`\u00a0\u00a0\u00a0\u00a0`** = add 4 spaces after a new line.
-⬥ **`\n\u00a0\u00a0\u00a0\u00a0•`** = add a new line and 4 spaces (to add sub-subpoints).
-⬥ **`\n\u200B`** = add a blank line at the end of string.
-⬥ **`[text](website link)`** = add hyperlink (links will only resolve if they are valid and exist).
-⬥ **`[text]($linkmsg_tagword$)`** = add link to previous discord message in the channel that has been tagged using `.tag:tagword` (links will only resolve if they are valid and exist).
-
-.
-A example embed structure is given below, as a starting point to create your own embeds.
-
-```
-..
-{
-  "embed": {
-  "title": "__Embed Template Example__",
-  "description": "This is the embed description. Ask for help if you have any questions!",
-  "color": 39423,
-  "thumbnail": {
-    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-  },
-  "footer": {
-    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
-    "text": "Some embed footer text."
-  },
-  "fields": [
-    {
-      "name": "__Field 1__",
-      "value": "⬥ Field 1 point\n\u00a0\u00a0\u00a0\u00a0• Field 1 subpoint\n⬥ Field 1 point"
-    },
-	  {
-      "name": "__Field 2__",
-      "value": "⬥ Field 2 point\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint"
-    },
-	  {
-      "name": "__Field 3__",
-      "value": "⬥ Field 3 point\n⬥ Field 3 point with embedded hyperlink to [Google Search](https://www.google.com/)."
-      }
-    ]
-  }
-}
-..embed:json
-```
-When rendered, this looks like the following:
-
-.
-{
-  "embed": {
-  "title": "__Embed Template Example__",
-  "description": "This is the embed description. Ask for help if you have any questions!",
-  "color": 39423,
-  "thumbnail": {
-    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-  },
-  "footer": {
-    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
-    "text": "Some embed footer text."
-  },
-  "fields": [
-    {
-      "name": "__Field 1__",
-      "value": "⬥ Field 1 point\n\u00a0\u00a0\u00a0\u00a0• Field 1 subpoint\n⬥ Field 1 point"
-    },
-	  {
-      "name": "__Field 2__",
-      "value": "⬥ Field 2 point\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint\n\u00a0\u00a0\u00a0\u00a0• Field 2 subpoint"
-    },
-	  {
-      "name": "__Field 3__",
-      "value": "⬥ Field 3 point\n⬥ Field 3 point with embedded hyperlink to [Google Search](https://www.google.com/)."
-      }
-    ]
-  }
-}
-.embed:json
-*Note: Not all fields are mandatory, adjust it as required. Other template examples are given below as well*.
-*Note: Links will only resolve if they are valid and exist.*
-
-.
-## __General Guide Writing Template__
-.tag:guidebasic
-The following template covers the basic structure of a guide for reference. Copy this into the [Guide Editor tool](<https://pvme.github.io/guide-editor/>) and use it as a starting point for the guide layout.
-
-```# Title
-..img:https://img.pvme.io/images/gIzPFEV.png
-Note: a **Table of Contents** can be found in the pins.
-
-..
-## __Intro__
-..tag:intro
-[Brief overview of the boss]
-
-..
-## __Presets__
-..tag:presets
-⬥ [[Preset breakdown]]([Link to preset breakdown])\n\u200B\n\u200B Describe ammo/EoFs
-
-..
-## __Mechanics__
-..tag:mechanics
-{
-  "embed": {
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Mechanic 1__",
-        "value": "⬥ [[Description of mechanic]]([Link to gif of mechanic])\n\u00a0\u00a0\u00a0\u00a0• [Describe how to handle mechanic]\n\u200B"
-      },
-      {
-        "name": "__Mechanic 2__",
-        "value": "⬥ [Description of mechanic]([Link to gif of mechanic])\n\u00a0\u00a0\u00a0\u00a0• [Describe how to handle mechanic]"
-      }
-    ]
-  }
-}
-
-..embed:json
-## __Strategy (Delete if not applicable)__
-..tag:strategy
-⬥ [Explain the fight and how to generally handle it, break it down into phases if applicable]
-
-..
-## __Rotations__ (Delete if not applicable)__
-..tag:rotations
-⬥ [Phase 1 rotations]
-⬥ [Phase 2 rotations]
-..
-## __Example Kills__
-..tag:example```
-.
-## __Table of Contents (Basic)__
-.tag:tocbasic
-This is a basic ToC embed structure, typically paired with the previous basic guide layout. All guides must contain a ToC at the end (and in the pinned messages).
-
-```
-..
-{
-  "embed": {
-    "title": "__Table of Contents__",
-    "color": 39423,
-    "fields": [
-      {
-	    "name": "__Introduction__",
-        "value": "[Link]($linkmsg_intro$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Presets__",
-        "value": "[Link]($linkmsg_presets$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Mechanics__",
-        "value": "[Link]($linkmsg_mechanics$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Strategy__",
-        "value": "[Link]($linkmsg_strategy$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Rotations__",
-        "value": "[Link]($linkmsg_rotations$)",
-		"inline": true
-      },
-	  {
-	    "name": "__Example Kills__",
-        "value": "[Link]($linkmsg_example$)",
-		"inline": true
-      }
-    ]
-  }
-}
-..embed:json
-..pin:delete
-```
-*Note: Links will only resolve if they are valid and exist.*
-
-.
-## __Table of Contents (v2)__
-.tag:tocv2
-This is an alternate approach to the Table of Contents embed, and may be useful in cases where the channels are longer, or to make it easier for users to identify relevant sections and links.
-
-```
-..
-{
-  "embed": {
-    "title": "__Table of Contents__",
-    "color": 39423,
-    "fields": [
-      {
-	      "name": "__Group 1__",
-        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)",
-		    "inline": true
-      },
-	    {
-	      "name": "__Group 2__",
-        "value": "⬥ [Section 1]($linkmsg_basicguide$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
-		    "inline": true
-      },
-      {
-        "name": "__Group 3__",
-        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
-        "inline": true
-      }
-    ]
-  }
-}
-..embed:json
-```
-When rendered, it looks like the following:
-
-.
-{
-  "embed": {
-    "title": "__Table of Contents__",
-    "color": 39423,
-    "fields": [
-      {
-	      "name": "__Group 1__",
-        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)",
-		    "inline": true
-      },
-	    {
-	      "name": "__Group 2__",
-        "value": "⬥ [Section 1]($linkmsg_basicguide$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
-		    "inline": true
-      },
-      {
-        "name": "__Group 3__",
-        "value": "⬥ [Section 1]($linkmsg_section1$)\n⬥ [Section 2]($linkmsg_section2$)\n⬥ [Section 3]($linkmsg_section3$)\n⬥ [Section 4]($linkmsg_section4$)",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-*Note: Links will only resolve if they are valid and exist.*
-
-.
-## __Example Kills__
-.tag:examplekill
-An embed format to add example kills to a guide.
-
-```
-..
-{
-  "embed": {
-    "title": "__Example Kills__",
-    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough)",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Magic__ <:Magic:689504724159823906>",
-        "value": "⬥ [Kill Description](link_to_kill)"
-      },
-      {
-        "name": "__Melee__ <:melee:1096130867279171706>",
-        "value": "⬥ [Kill Description](link_to_kill)"
-      },
-      {
-        "name": "__Ranged__ <:range:580168050121113623>",
-        "value": "⬥ [Kill Description](link_to_kill)"
-      }
-    ]
-  }
-}
-..embed:json
-```
-When rendered, it looks like the following:
-
-.
-{
-  "embed": {
-    "title": "__Example Kills__",
-    "description": "Some example kills to compare and improve your own kills with.\nSuggested [Video Walkthrough](link_to_walkthrough)",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Magic__ <:Magic:689504724159823906>",
-        "value": "⬥ [Kill Description](link_to_kill)"
-      },
-      {
-        "name": "__Melee__ <:melee:1096130867279171706>",
-        "value": "⬥ [Kill Description](link_to_kill)"
-      },
-      {
-        "name": "__Ranged__ <:range:580168050121113623>",
-        "value": "⬥ [Kill Description](link_to_kill)"
-      }
-    ]
-  }
-}
-.embed:json
-*Note: Links will only resolve if they are valid and exist.*
-
-.
-## __Minimal Embed 1__
-.tag:minimal1
-A regular embed with some optional tags removed, to make it smaller and more compact.
-
-```
-..
-{
-  "embed": {
-    "title": "__[embed title]__",
-    "description": "[embed description]",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__[field name]__",
-        "value": "[field contents]"
-      }
-    ]
-  }
-}
-..embed:json
-```
-When rendered, it looks like the following;
-
-.
-{
-  "embed": {
-    "title": "__[embed title]__",
-    "description": "[embed description]",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__[field name]__",
-        "value": "[field contents]"
-      }
-    ]
-  }
-}
-.embed:json
-*Note: Links will only resolve if they are valid and exist.*
-
-.
-## __Minimal Embed 2__
-.tag:minimal2
-Another version of a minimal embed, even compact.
-
-```
-..
-{
-  "embed": {
-    "title": "__[embed title]__",
-    "description": "[embed description]",
-    "color": 39423
-  }
-}
-..embed:json
-```
-When rendered, it gives the following output:
-
-.
-{
-  "embed": {
-    "title": "__[embed title]__",
-    "description": "[embed description]",
-    "color": 39423
-  }
-}
-.embed:json
-*Note: Links will only resolve if they are valid and exist.*
-
-.
-{
-  "embed": {
-    "title": "__Table of Contents__",
-    "color": 39423,
-    "fields": [
-      {
-	      "name": "__Information__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Formatting Embeds]($linkmsg_howtoembed$)",
-		    "inline": true
-      },
-	    {
-	      "name": "__Basic Templates__",
-        "value": "⬥ [Basic Guide Layout]($linkmsg_guidebasic$)\n⬥ [Basic ToC]($linkmsg_tocbasic$)",
-		    "inline": true
-      },
-      {
-        "name": "__Other Templates__",
-        "value": "⬥ [ToC v2]($linkmsg_tocv2$)\n⬥ [Example Kills]($linkmsg_examplekill$)\n⬥ [Minimal Embed 1]($linkmsg_minimal1$)\n⬥ [Minimal Embed 2]($linkmsg_minimal2$)",
-        "inline": true
-      }
-    ]
   }
 }
 .embed:json
