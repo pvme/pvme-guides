@@ -1,0 +1,66 @@
+.
+# __Creating AFK Methods__
+.tag:intro
+*Note: This editor guide applies to AFK bossing, **not** slayer or low-effort methods.*
+
+.
+## __Get your priorities straight__
+AFK methods must:
+1. Be safe (rare chance of death)
+2. Be consistent (every hour is similar)
+3. Be easy to follow (no questions needed in <#656898197561802760>)
+
+AFK methods may:
+4. Encourage maximum KPH
+5. Require minimum gear
+6. Have low upkeep costs
+
+.
+## __Building an AFK setup__
+*Note: This section only applies to AFK bossing - not AFK slayer.*
+
+There are a couple of things to note:
+⬥ Abilities should ideally be fired in the exact same order every kill
+⬥ Some bosses take longer than others to start a fight
+
+You can improve **consistency** by reducing RNG:
+⬥ Removing critical strike boosters, e.g., <:biting4:712073087809617931> / <:kalgpouch:921410226484301925> / <:reaverring:839903943018283050>
+⬥ Disable pocket slot books <:scriptureofful:902209626412560395> / <:scriptureofamascut:1266417822188437569>
+
+.
+You can make kill times **slower** by:
+⬥ downgrading prayers, e.g., <:malevolence:513190159416557573> → <:turmoil:583429936606347280> → nothing
+⬥ removing extra-DPS gear/items, e.g., <:nodonspikeharness:1449363594495135776> / <:primalabyssalarmourspikes:1276946271424479234>
+⬥ downgrading gear, e.g., <:vestmentsofhavochood:994189297659940904> → <:masterworkhelm:643847068103737354> → <:bandoshelm:1073883114797010974>
+⬥ downgrading spells / ammo
+
+You can make kill times **faster** by doing the opposite, plus:
+⬥ adding poison, e.g., <:cinderbanes:513190158355660812> / <:weppoison:689525476158472288>
+⬥ adding a DPS familiar, e.g., <:ripperpouch:703581275453128714>
+
+.
+Sometimes during testing, two people have different results. Try this first to identify the differences (tag **@Editing Staff** if you can't figure it out or get into a disagreement and need support):
+⬥ Share screenshots of your buff bar, worn equipment, perks and familiar window
+
+.
+## __Breaking the bar: an example of AFK method writing__
+Sometimes, our bar "breaks" during testing and we need to adjust - let's walk through an example together and how we might solve it:
+⬥ The first ability is <:berserk:535532854004678657> (which has a 1-minute cooldown)
+⬥ You kill the boss at 28s, then wait another 27s for the next boss to respawn ("fastest" instance)
+⬥ The arena spawns the 2nd boss at 55s... and your <:berserk:535532854004678657> is still on cooldown... oops!
+
+At this point we should note - some bosses take longer than others to start the fight, so this might not be an issue. But let's assume for this example that the boss would have started attacking you immediately at the start of the fight.
+
+You have two options: remove <:berserk:535532854004678657> or try to slow down the kill by a few seconds. Let's do the latter!
+
+.
+There are several ways to slow down a fight, and you can try any combination of these to find the sweet spot:
+⬥ If you are far off the mark, adjust the ability bar
+
+In our above <:berserk:535532854004678657> example:
+⬥ We're pretty close, so won't update the ability bar yet
+⬥ We will downgrade prayer from <:malevolence:513190159416557573> → <:turmoil:583429936606347280>
+⬥ We will remove the <:nodonspikeharness:1449363594495135776>
+⬥ We will switch from <:championring:839903943630520350> to <:rod:513190159462825984>
+
+Et voila! We are now up to consistent 30s kill times.
