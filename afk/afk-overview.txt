@@ -35,18 +35,6 @@ In general, guides in this category will have the same layout. Some sections may
 ⬥ Video examples
 
 .
-## __Aura Choices__
-.tag:AuraChoices
-{
-  "embed": {
-    "title": "__Aura Choices__",
-    "color": 39423,
-    "description": "There are a variety of auras used for AFKing for several reasons. Ensure to follow the guides recommendations however here is some reasoning:\n\n⬥ [Dark Magic](https://runescape.wiki/w/Dark_magic_aura) <:darkmagic:643505652571963417> is the general dps aura for afking. It provides extra hitsplats which synergise with [Soul Split](https://runescape.wiki/w/Soul_Split) <:soulsplit:615613924506599497>, and is usually the go to choice.\n⬥ [Mahjarrat](https://runescape.wiki/w/Mahjarrat_aura) <:mahj:643148943856762890> is usually a secondary dps aura choice. It doesnt synergise as well with [Soul Split](https://runescape.wiki/w/Soul_Split) <:soulsplit:615613924506599497> however is still a decent dps option.\n⬥ Zerk auras <:mani:643505153709965322> <:reckless:643505179378974748> <:berserker:643505116347105290> are generally to be avoided unless stated otherwise due to increased damage taken.\n⬥ [Penance](https://runescape.wiki/w/Penance_aura) <:penanceaura:643505653062565907> If a method can survive with penance, it will reduce supply usage by 2 [Penance powder](https://runescape.wiki/w/Powder_of_penance) <:powderofpenance:928221126360969226>, with slightly lower kph. This can often result in higher profit.\n\u00a0\u00a0\u00a0\u00a0• Use at your own discretion.\n⬥ [Equilibrium](https://runescape.wiki/w/Equilibrium_aura) <:eqaura:1233722649834684416> boosts ability damage by 12% but prevents you dealing critical strikes.\n\u00a0\u00a0\u00a0\u00a0• Used in situations where consistency is key over RNG-based crits.\n\u00a0\u00a0\u00a0\u00a0• Also used due to its long duration (2 hours) and inexpensive cost to extend/reset as a Tier 2 aura."
-  }
-}
-.embed:json
-
-.
 ## __Relic Choices__
 .tag:RelicChoices
 ⬥ It will be **assumed** that all AFK setups use Persistent Rage <:persistentrage:739965637056659567> unless stated otherwise. __**THIS IS OFTEN ESSENTIAL!**__
@@ -89,8 +77,9 @@ To set up alt1 AFK Warden you can include several useful warnings.
 ⬥ Summoning Familiar HP Alert
 ⬥ Kerapac Kill
 ⬥ Lobby timer
+
 Depending on the boss you are doing, you can activate different ones of these, and set the HP threshold to a suitable level for the risk of your setup. Doing this will allow you to eat / excal to stop a death.
-.
+
 You can add all of these by clicking the save icon on alt1, and then importing the following text:
 <https://raw.githubusercontent.com/pvme/pvme-guides/master/afk/PVME-Alt1-Setup.txt>
 
@@ -98,7 +87,7 @@ You can add all of these by clicking the save icon on alt1, and then importing t
 {
   "embed": {
     "title": "Table of Contents",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Definitions]($linkmsg_definitions$)\n⬥ [Guide Layouts]($linkmsg_Layout$)\n⬥ [Aura Choices]($linkmsg_AuraChoices$)\n⬥ [Relic Choices]($linkmsg_RelicChoices$)\n⬥ [Universal Setup]($linkmsg_Setup$)\n⬥ [AFK Warden]($linkmsg_alt1$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Definitions]($linkmsg_definitions$)\n⬥ [Guide Layouts]($linkmsg_Layout$)\n⬥ [Relic Choices]($linkmsg_RelicChoices$)\n⬥ [Universal Setup]($linkmsg_Setup$)\n⬥ [AFK Warden]($linkmsg_alt1$)",
     "color": 39423
   }
 }
