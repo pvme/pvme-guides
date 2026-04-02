@@ -4,19 +4,18 @@ on:
   push:
     branches:
       - "**"
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
 
 permissions:
   contents: read
+  pull-requests: read
   pull-requests: write
+  statuses: write
 
 jobs:
   spelling:
     runs-on: ubuntu-latest
-
-    # run on push (before PR exists) OR always on PR (source of truth)
-    if: github.event_name == 'pull_request' || github.event.pull_request == null
 
     steps:
       - name: Checkout
@@ -30,9 +29,11 @@ jobs:
           only_check_changed_files: 1
           spell_check_this: check-spelling/spell-check-this@main
           use_magic_file: 1
-          # comment on PR, not commits
-          post_comment: ${{ github.event_name == 'pull_request' && '1' || '0' }}
+
+          post_comment: ${{ github.event_name == 'pull_request_target' && '1' || '0' }}
+
           warnings: bad-regex,binary-file,deprecated-feature,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check
+
           extra_dictionary_limit: 20
           extra_dictionaries:
             cspell:software-terms/dict/softwareTerms.txt
