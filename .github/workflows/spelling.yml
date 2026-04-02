@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
   statuses: write
 
 jobs:
@@ -32,7 +31,7 @@ jobs:
           spell_check_this: check-spelling/spell-check-this@main
           use_magic_file: 1
           # comment on PR, not commits
-          post_comment: ${{ github.event_name == 'pull_request' && '1' || '0' }}
+          post_comment: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false && '1' || '0' }}
           warnings: bad-regex,binary-file,deprecated-feature,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check
           extra_dictionary_limit: 20
           extra_dictionaries:
