@@ -24,6 +24,8 @@ jobs:
 
       - name: Run spelling check
         uses: check-spelling/check-spelling@main
+        env:
+          CHECK_SPELLING_ALLOW_UNSAFE: 1
         with:
           checkout: true
           check_file_names: 1
