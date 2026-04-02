@@ -15,6 +15,8 @@ jobs:
     permissions:
       contents: read
       pull-requests: read
+      actions: read
+      security-events: write
 
     outputs:
       followup: ${{ steps.spelling.outputs.followup }}
@@ -34,7 +36,7 @@ jobs:
           checkout: true
           check_file_names: 1
           only_check_changed_files: 1
-          spell_check_this: check-spelling/spell-check-this@main
+          spell_check_this: check-spelling/spell-check-this@prerelease
           use_magic_file: 1
           post_comment: 0
           warnings: bad-regex,binary-file,deprecated-feature,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check
@@ -58,5 +60,5 @@ jobs:
         uses: check-spelling/check-spelling@main
         with:
           checkout: true
-          spell_check_this: check-spelling/spell-check-this@main
+          spell_check_this: check-spelling/spell-check-this@prerelease
           task: ${{ needs.spelling.outputs.followup }}
