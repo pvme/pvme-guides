@@ -4,28 +4,36 @@ on:
   pull_request_target:
     types: [opened, synchronize, reopened]
 
-permissions:
-  contents: read
-  pull-requests: write
-  statuses: write
-
 jobs:
-  spelling:
+  check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
 
     steps:
-      - name: Run spelling check
-        uses: check-spelling/check-spelling@main
+      - uses: check-spelling/check-spelling@main
         with:
           checkout: true
           check_file_names: 1
           only_check_changed_files: 1
           spell_check_this: check-spelling/spell-check-this@main
           use_magic_file: 1
-          post_comment: 1
 
           warnings: bad-regex,binary-file,deprecated-feature,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check
 
           extra_dictionary_limit: 20
           extra_dictionaries:
             cspell:software-terms/dict/softwareTerms.txt
+
+  comment:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      statuses: write
+
+    steps:
+      - uses: check-spelling/check-spelling@main
+        with:
+          post_comment: 1
