@@ -14,14 +14,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: check-spelling/check-spelling@main
+      - name: Checkout PR code safely
+        uses: actions/checkout@v4
         with:
-          checkout: true
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Run spelling check
+        uses: check-spelling/check-spelling@main
+        with:
+          checkout: false
           check_file_names: 1
           only_check_changed_files: 1
           spell_check_this: check-spelling/spell-check-this@main
           use_magic_file: 1
-
           post_comment: 1
 
           warnings: bad-regex,binary-file,deprecated-feature,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check
