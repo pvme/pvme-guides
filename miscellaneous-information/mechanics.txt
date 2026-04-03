@@ -502,7 +502,7 @@ This section covers how NPCs face, how it affects their movement and targeting, 
 ⬥ In the above image:
     • The centre 2x2 region represents the monster's hitbox.
     • The monster's centre tile is marked by **C** (in this case, the SW tile of the middle 2x2 region since the monster is even-sized).
-    • The dark-colored tiles represent cardinal directions, and the lighter tiles are diagonal directions.
+    • The dark-coloured tiles represent cardinal directions, and the lighter tiles are diagonal directions.
 .
 ⬥ Here is a small table of player positions vs. where the monster would face:
 ```
@@ -735,7 +735,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
 ⬥ Each game tick (often just written as 't') is 0.6 seconds long - i.e. 1t = 0.6s.
     • For reference, the global cooldown (the time between pressing abilities one after another) is 3t/1.8s long.
 ⬥ This has enormous impact on virtually all aspects of the game, from movement to abilities used in combat to skilling and everything in between.
-⬥ One big advantage of the tick system is that **even if you have relatively high latency, its impact on the gameplay is not as noticable as in other games like FPS shooters**, due to the lengthy in-built tick duration.
+⬥ One big advantage of the tick system is that **even if you have relatively high latency, its impact on the gameplay is not as noticeable as in other games like FPS shooters**, due to the lengthy in-built tick duration.
 
 .
 {
@@ -787,7 +787,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • **It does not prevent damage taken.**
     • It can be cast every 30 seconds.
 ⬥ It can reflect up to 8000 damage.
-⬥ Group Vengeance <:venggroup:1009570755836641331> is a variant that applies the effect to the caster **and** up to 50 players in a 7x7 region centered on the caster.
+⬥ Group Vengeance <:venggroup:1009570755836641331> is a variant that applies the effect to the caster **and** up to 50 players in a 7x7 region centred on the caster.
 ⬥ Similarly, Vengeance Other <:vengother:1015698983034826794> applies the effects of <:Veng:543478434953822208> to **one** other player with accept aid turned on.
 
 ### Vengeance Interactions
