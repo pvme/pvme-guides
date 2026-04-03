@@ -1,0 +1,134 @@
+name: Spellcheck
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install cspell + dictionaries
+        run: |
+          npm install -g \
+            cspell@latest \
+            @cspell/dict-software-terms \
+            @cspell/dict-gaming-terms
+
+      - name: Run spellcheck on changed txt files
+        id: spell
+        shell: bash
+        run: |
+          REPORT=/tmp/spellcheck.txt
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git diff --name-only --diff-filter=ACMRT \
+              "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" \
+              | grep -E '\.txt$' \
+              | cspell \
+                  --config .github/cspell/cspell.json \
+                  --file-list stdin \
+                  --no-progress \
+                  --no-summary \
+                  --relative \
+                  | tee "$REPORT" || true
+          else
+            BEFORE="${{ github.event.before }}"
+            AFTER="${{ github.sha }}"
+
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              git diff-tree --no-commit-id --name-only -r --diff-filter=ACMRT "$AFTER" \
+                | grep -E '\.txt$' \
+                | cspell \
+                    --config .github/cspell/cspell.json \
+                    --file-list stdin \
+                    --no-progress \
+                    --no-summary \
+                    --relative \
+                    | tee "$REPORT" || true
+            else
+              git diff --name-only --diff-filter=ACMRT "$BEFORE" "$AFTER" \
+                | grep -E '\.txt$' \
+                | cspell \
+                    --config .github/cspell/cspell.json \
+                    --file-list stdin \
+                    --no-progress \
+                    --no-summary \
+                    --relative \
+                    | tee "$REPORT" || true
+            fi
+          fi
+
+          if grep -q "Unknown word" "$REPORT"; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            cp "$REPORT" spellcheck.txt
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build PR comment
+        if: github.event_name == 'pull_request' && steps.spell.outputs.found == 'true'
+        shell: bash
+        env:
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          {
+            echo "## Spelling issues found"
+            echo
+            echo "Some words were not recognised by the spellchecker:"
+            echo
+          } > spellcheck-comment.txt
+      
+          while IFS= read -r line; do
+            file=$(printf '%s\n' "$line" | sed -n 's/^\([^:]*\):\([0-9][0-9]*\):\([0-9][0-9]*\) - Unknown word (\([^)]*\)).*$/\1/p')
+            lineno=$(printf '%s\n' "$line" | sed -n 's/^\([^:]*\):\([0-9][0-9]*\):\([0-9][0-9]*\) - Unknown word (\([^)]*\)).*$/\2/p')
+            word=$(printf '%s\n' "$line" | sed -n 's/^\([^:]*\):\([0-9][0-9]*\):\([0-9][0-9]*\) - Unknown word (\([^)]*\)).*$/\4/p')
+      
+            if [ -n "$file" ] && [ -n "$lineno" ] && [ -n "$word" ]; then
+              url="https://github.com/${HEAD_REPO}/blob/${HEAD_REF}/${file}#L${lineno}"
+              echo "- [\`${file}:${lineno}\`](${url}) — Unknown word \`${word}\`" >> spellcheck-comment.txt
+            fi
+          done < spellcheck.txt
+      
+          {
+            echo
+            echo "Do one of the following by making another commit to the same branch as this Pull Request:"
+            echo "- If it is a typo, simply correct it in the file"
+            echo "- If the word is valid for this project, add it to \`.github/cspell/allow.txt\`"
+            echo
+            echo "<hr>"
+            echo
+            echo "<details>"
+            echo "<summary><small>Raw spellcheck output:</small></summary>"
+            echo
+            echo '```'
+            cat spellcheck.txt
+            echo '```'
+            echo "</details>"
+          } >> spellcheck-comment.txt
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && steps.spell.outputs.found == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: spellcheck-comment.txt
+          edit-mode: replace
+
+      - name: Fail if issues found
+        if: steps.spell.outputs.found == 'true'
+        run: exit 1
