@@ -1,7 +1,0 @@
-# NEED TO MOVE THE BELOW INTO STYLE CHECKER (can go in with emoji-spacing-check)
-
-# Do not use level 4 headings (i.e. #### Heading)
-^####\s?.*
-
-# Do not bold text in headings (i.e. ## **Heading** or ### This *is* the heading)
-^#{1,6}\s+.*\*\*.*\*\*.*
