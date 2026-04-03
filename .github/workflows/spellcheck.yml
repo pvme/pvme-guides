@@ -4,16 +4,30 @@ on:
   push:
     branches:
       - "**"
-  pull_request:
+  pull_request_target:
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
 
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout (push)
+        if: github.event_name == 'push'
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
+
+      - name: Checkout (PR head)
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
       - name: Setup Node
@@ -34,7 +48,7 @@ jobs:
         run: |
           REPORT=/tmp/spellcheck.txt
 
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
+          if [ "${{ github.event_name }}" = "pull_request_target" ]; then
             git diff --name-only --diff-filter=ACMRT \
               "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" \
               | grep -E '\.txt$' \
@@ -80,7 +94,7 @@ jobs:
           fi
 
       - name: Build PR comment
-        if: github.event_name == 'pull_request' && steps.spell.outputs.found == 'true'
+        if: github.event_name == 'pull_request_target' && steps.spell.outputs.found == 'true'
         shell: bash
         env:
           HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
@@ -92,18 +106,18 @@ jobs:
             echo "Some words were not recognised by the spellchecker:"
             echo
           } > spellcheck-comment.txt
-      
+
           while IFS= read -r line; do
             file=$(printf '%s\n' "$line" | sed -n 's/^\([^:]*\):\([0-9][0-9]*\):\([0-9][0-9]*\) - Unknown word (\([^)]*\)).*$/\1/p')
             lineno=$(printf '%s\n' "$line" | sed -n 's/^\([^:]*\):\([0-9][0-9]*\):\([0-9][0-9]*\) - Unknown word (\([^)]*\)).*$/\2/p')
             word=$(printf '%s\n' "$line" | sed -n 's/^\([^:]*\):\([0-9][0-9]*\):\([0-9][0-9]*\) - Unknown word (\([^)]*\)).*$/\4/p')
-      
+
             if [ -n "$file" ] && [ -n "$lineno" ] && [ -n "$word" ]; then
               url="https://github.com/${HEAD_REPO}/blob/${HEAD_REF}/${file}#L${lineno}"
               echo "- [\`${file}:${lineno}\`](${url}) — Unknown word \`${word}\`" >> spellcheck-comment.txt
             fi
           done < spellcheck.txt
-      
+
           {
             echo
             echo "Do one of the following by making another commit to the same branch as this Pull Request:"
@@ -122,7 +136,7 @@ jobs:
           } >> spellcheck-comment.txt
 
       - name: Comment on PR
-        if: github.event_name == 'pull_request' && steps.spell.outputs.found == 'true'
+        if: github.event_name == 'pull_request_target' && steps.spell.outputs.found == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
