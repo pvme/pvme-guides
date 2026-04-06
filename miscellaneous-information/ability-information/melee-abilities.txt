@@ -34,138 +34,48 @@ Some general notes:
 
 .
 ## __Melee <:melee:1096130867279171706>__
-This section covers auto attacks, basics, thresholds, ultimate abilities and special attacks for Melee.
-
-.
-### Autos
-.tag:meleeAutos
-{
-  "embed": {
-    "title": "__Default Melee Auto__ <:melee:1096130867279171706>",
-    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest: 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Fast: 5t (3.0s)\n\u00a0\u00a0\u00a0\u00a0• Average: 6t (3.6s)",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:defaultmelee
+This section covers basics, enhanced, ultimate abilities and special attacks for Melee.
 
 .
 ### Basics
 .tag:meleeBasics
 {
   "embed": {
-    "title": "__Chaos Roar__ <:chaosroar:994644356671737966>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ Unlocked using a Chaos Roar ability codex <:chaosroarcodex:994189286960287764>\n⬥ Doubles the base damage of the next melee ability cast within 7.2s\n\u00a0\u00a0\u00a0\u00a0• So, it doubles all hits of bleeds (e.g. <:slaughter:535532879237873666>) and multi-hit attacks (e.g. <:cane:535532878969438210>)\n\u00a0\u00a0\u00a0\u00a0• Channels have multiple casts, so only doubles the first cast (e.g <:assault:535532855191928842> hit 1)",
+    "title": "__Attack__ <:meleebasic:1478062907295010906>",
+    "description": "⬥ Cooldown: 0t (0s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack",
     "color": 15158332
   }
 }
 .embed:json
-.tag:chaosroar
+.tag:meleeauto
 
 .
 {
   "embed": {
-    "title": "__Dismember__ <:dismember:535532879376023572>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Can be extended:\n\u00a0\u00a0\u00a0\u00a0• Strength skillcape <:strcape:689503815296352308> passive adds 3 hits\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits\n⬥ It is affected by <:lunging:1009423860875153559>\n\u00a0\u00a0\u00a0\u00a0• Max hit increases by 20% per <:lunging:1009423860875153559> rank",
+    "title": "__Adaptive Strike__ <:adaptivestrike:1478062906057949417>",
+    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ Generates 12 Adrenaline\n⬥ Depends on weapon used:\n    • 2H: AoE in a cone of attack direction, hitting up to 9 targets, inclusive of main\n    • DW: 2 hits on target",
     "color": 15158332
   }
 }
 .embed:json
-.tag:dismember
+.tag:adaptive
 
 .
 {
   "embed": {
-    "title": "__Backhand__ <:backhand:535532854302605333>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Kick <:kick:535532879132885025>\n⬥ Stuns for 2t (1.2s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> Rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "title": "__Rend__ <:rend:1478166426190741584>",
+    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ Generates 2 <:bloodlust:1478080383554945044> Bloodlust stacks\n⬥ Affected by Gloves of Passage <:Glovesofpassage:556588694862037012>, details in <#1025569571710718093>",
     "color": 15158332
   }
 }
 .embed:json
-.tag:backhand
-
-.
-{
-  "embed": {
-    "title": "__Kick__ <:kick:535532879132885025>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Backhand <:backhand:535532854302605333>\n⬥ Stuns for 2t (1.2s)\n⬥ Causes Knockback:\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:kick
-
-.
-{
-  "embed": {
-    "title": "__Barge__ <:barge:535532853916860437>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• Will move you to Melee Distance\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ Binds for 11t (6.6s)\n⬥ It clears Binds",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:barge
-
-.
-{
-  "embed": {
-    "title": "__Greater Barge__ <:gbarge:535532879250456578>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ All normal <:barge:535532853916860437> things apply\n⬥ It has additional effects:\n\u00a0\u00a0\u00a0\u00a0• Every tick (0.6s) since the player stopped attacking their target, <:gbarge:535532879250456578> gains +7% to its max range and +5% to its min, capping at 10t (6s) for a total of 100% and 20%. Damage range go from 75%-95% to 125%-165%\n\u00a0\u00a0\u00a0\u00a0• After 8t (4.8s) pass since you stopped attacking, when you <:gbarge:535532879250456578>, if you cast <:flurry:864492981763702834> / <:gflurry:535532879283879977> / <:destroy:535532879330148352> / <:assault:535532855191928842> / <:frenzy:535532879279554581> within 10t (6s), it will convert the first one done into a damage over time\n⬥ For details on how to use it, use `!gbarge`",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:gbarge
-
-.
-{
-  "embed": {
-    "title": "__Bladed Dive__ <:bd:535532854281764884>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• If you use it on a tile, it will <:bd:535532854281764884> you to that tile\n\u00a0\u00a0\u00a0\u00a0• If you use it on a target it will <:bd:535532854281764884> you some point at Melee Distance of the target (the movement is accounted 1t later than had you clicked a tile)\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n\u00a0\u00a0\u00a0\u00a0• Removes adrenaline gain\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Hits 3x3 around where you land if used on a target\n\u00a0\u00a0\u00a0\u00a0• This becomes 5x5 with <:Laceration:602581988599398400> Halberd <:bd:535532854281764884>\n⬥ If you use it on a target and it dies within 10t (6s), the cooldown ends",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:bd
-
-.
-{
-  "embed": {
-    "title": "__Cleave__ <:cleave:535532878616985610>",
-    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It is an AoE",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:cleave
-
-.
-{
-  "embed": {
-    "title": "__Decimate__ <:deci:535532879325822986>",
-    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It does more damage against Shielded targets:\n\u00a0\u00a0\u00a0\u00a0• It goes from a 110%-130% to 140%-160% ability",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:deci
-
-.
-{
-  "embed": {
-    "title": "__Sever__ <:sever:535532879577612298>",
-    "description": "⬥ Cooldown: 9t (5.4s)\n⬥ It reduces target's damage by 10% for 8t (4.8s)",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:sever
+.tag:rend
 
 .
 {
   "embed": {
     "title": "__Fury__ <:fury:535532879510372352>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Next melee attack has +25% increased crit chance",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ Next melee attack has +25% increased crit chance",
     "color": 15158332
   }
 }
@@ -176,7 +86,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Greater Fury__ <:gfury:535532879334080527>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Next non-bleed melee hit within 15s is guaranteed to crit\n\u00a0\u00a0\u00a0\u00a0• Only affects first hit of a combo ability\n\u00a0\u00a0\u00a0\u00a0• Is applied only to 1 target in AoE\n\u00a0\u00a0\u00a0\u00a0• Bleeds do not consume buff",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ Next non-bleed melee hit within 15s is guaranteed to crit\n\u00a0\u00a0\u00a0\u00a0• Only affects first hit of a combo ability\n\u00a0\u00a0\u00a0\u00a0• Is applied only to 1 target in AoE\n\u00a0\u00a0\u00a0\u00a0• Bleeds do not consume buff",
     "color": 15158332
   }
 }
@@ -186,41 +96,19 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .
 {
   "embed": {
-    "title": "__Havoc__ <:havoc:535532879300526080>",
-    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ Affected by Gloves of Passage <:Glovesofpassage:556588694862037012>, details in <#1025569571710718093>",
+    "title": "__Backhand__ <:backhand:535532854302605333>",
+    "description": "⬥ Cooldown: 25t (15s)\n    • Charges: 2\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ Stuns for 3t (1.8s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
     "color": 15158332
   }
 }
 .embed:json
-.tag:havoc
-
-.
-{
-  "embed": {
-    "title": "__Smash__ <:smash:535532879820619786>",
-    "description": "⬥ Cooldown: 17t (10.2s)\n⬥ Affected by Gloves of Passage <:Glovesofpassage:556588694862037012>, details in <#1025569571710718093>",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:smash
-
-.
-{
-  "embed": {
-    "title": "__Slice__ <:slice:535532879594258432>",
-    "description": "⬥ Cooldown: 5t (3s)\n⬥ Damage boosted on stun/bound targets:\n\u00a0\u00a0\u00a0\u00a0• Becomes a 133%-161% basic\n⬥ Affected by <:energising:1009423839341576294>:\n\u00a0\u00a0\u00a0\u00a0• Gain (<:energising:1009423839341576294> Rank * 0.6) more adrenaline\n\u00a0\u00a0\u00a0\u00a0• Damage range is now 0.8 * original damage range",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:slice
+.tag:backhand
 
 .
 {
   "embed": {
     "title": "__Punish__ <:punish:535532879439069184>",
-    "description": "⬥ Cooldown: 40t (24s)\n⬥ Damage boosted when target is <50% health\n\u00a0\u00a0\u00a0\u00a0• Becomes a 187.5%-237.5% basic",
+    "description": "⬥ Cooldown: 40t (24s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ Damage boosted by 2.5x when target is <50% health",
     "color": 15158332
   }
 }
@@ -228,34 +116,45 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .tag:punish
 
 .
+{
+  "embed": {
+    "title": "__Barge__ <:barge:535532853916860437>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• Will move you to Melee Distance\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n⬥ Binds for 11t (6.6s)\n⬥ Clears Bound debuff",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:barge
+
+.
+{
+  "embed": {
+    "title": "__Greater Barge__ <:gbarge:535532879250456578>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Generates 1 <:bloodlust:1478080383554945044> Bloodlust stack\n⬥ All normal <:barge:535532853916860437> things apply\n⬥ It has additional effects:\n\u00a0\u00a0\u00a0\u00a0• Every tick (0.6s) since the player stopped attacking their target, <:gbarge:535532879250456578> gains +7% to its max range and +5% to its min, capping at 10t (6s) for a total of 100% and 20%. Damage range go from 75%-95% to 125%-165%\n\u00a0\u00a0\u00a0\u00a0• After 8t (4.8s) pass since you stopped attacking, when you <:gbarge:535532879250456578>, if you cast <:flurry:864492981763702834> / <:gflurry:535532879283879977> / <:assault:535532855191928842> within 10t (6s), it will convert the first one done into a damage over time\n⬥ For details on how to use it, use `!gbarge`",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:gbarge
+
+.
+{
+  "embed": {
+    "title": "__Chaos Roar__ <:chaosroar:1478062908767211640>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Unlocked using a Chaos Roar ability codex <:chaosroarcodex:994189286960287764>\n⬥ Next Melee ability within 7.2s does 1.75x damage\n\u00a0\u00a0\u00a0\u00a0• So, it doubles all hits of bleeds (e.g. <:dismember:1478062910113714297>) and multi-hit attacks (e.g. <:cane:535532878969438210>)\n\u00a0\u00a0\u00a0\u00a0• Channels have multiple casts, so only doubles the first cast (e.g <:assault:535532855191928842> hit 1)",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:chaosroar
+
+.
 ### Thresholds
 .tag:meleeThresholds
 {
   "embed": {
-    "title": "__Slaughter__ <:slaughter:535532879237873666>",
-    "description": "⬥ Cooldown: 50t (30s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Triples damage when walked\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:slaughter
-
-.
-{
-  "embed": {
-    "title": "__Blood Tendrils__ <:bloodtendrils:535532854327640064>",
-    "description": "⬥ Cooldown: 75t (45s)\n⬥ It is a Bleed:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:bloodtendrils
-
-.
-{
-  "embed": {
     "title": "__Assault__ <:assault:535532855191928842>",
-    "description": "⬥ Cooldown: 50t (30s)\n⬥ Channelled ability",
+    "description": "⬥ Cooldown: 10t (6s)\n⬥ Adrenaline Cost: 25%\n⬥ Channelled ability, can move while channelling\n⬥ Bloodlust Assault (consumes 4 <:bloodlust:1478080383554945044> Bloodlust)\n    • Increases damage from 140% AVG/hit to 180% AVG/hit",
     "color": 15158332
   }
 }
@@ -265,19 +164,8 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .
 {
   "embed": {
-    "title": "__Destroy__ <:destroy:535532879330148352>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Hurricane <:cane:535532878969438210>\n⬥ Stuns for 6t (3.6s)\n⬥ Channelled ability",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:destroy
-
-.
-{
-  "embed": {
     "title": "__Hurricane__ <:cane:535532878969438210>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Shares cooldown with Destroy <:destroy:535532879330148352>\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Adrenaline Cost: 25%\n⬥ It is an AoE hitting up to 10 targets, inclusive of main:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon\n⬥ Reduces the cooldown of Hurricane <:cane:535532878969438210> by 3s for each enemy hit\n⬥ Bloodlust Hurricane (consumes 4 <:bloodlust:1478080383554945044> Bloodlust)\n    • Third AoE hitting up to 10 targets, inclusive of main",
     "color": 15158332
   }
 }
@@ -288,7 +176,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Flurry__ <:flurry:864492981763702834>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n⬥ Channelled Ability",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Adrenaline Cost: 25%\n⬥ Channelled Ability, can move while channelling\n⬥ Stuns and Binds the target for 6t (3.6s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n⬥ Bloodlust Flurry (consumes 4 <:bloodlust:1478080383554945044> Bloodlust)\n    • Deals 1% increased damage per % hp target is missing up to 65%",
     "color": 15158332
   }
 }
@@ -299,7 +187,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 {
   "embed": {
     "title": "__Greater Flurry__ <:gflurry:535532879283879977>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ All normal <:flurry:864492981763702834> things apply\n⬥ Hits reduce <:zerk:535532854004678657> cooldown by 2t/hit (1.2s/hit) for up to an 8t (4.8s)",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Adrenaline Cost: 25%\n⬥ All normal <:flurry:864492981763702834> things apply\n⬥ Each hit extends <:zerk:535532854004678657> by 1t/hit (0.6s/hit) for up to 8t (4.8s)",
     "color": 15158332
   }
 }
@@ -309,35 +197,13 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .
 {
   "embed": {
-    "title": "__Forceful Backhand__ <:fbackhand:535532879346794516>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Stomp <:stomp:535532879552315412>\n⬥ Stuns for 6t (3.6s)\n⬥ It is affected by <:flankicon:841419289755385866>\n\u00a0\u00a0\u00a0\u00a0• Increases Max by 40% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• Increases Minimum by 8% per <:flankicon:841419289755385866> rank\n\u00a0\u00a0\u00a0\u00a0• No longer stuns or binds",
+    "title": "__Dismember__ <:dismember:1478062910113714297>",
+    "description": "⬥ Cooldown: 40t (24s)\n⬥ Adrenaline Cost: 0%\n⬥ It is a damage over time:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> \n⬥ Can be extended:\n\u00a0\u00a0\u00a0\u00a0• Strength skillcape <:strcape:1172654837616353320> passive adds 3 hits\n\u00a0\u00a0\u00a0\u00a0• Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 50% more hits\n⬥ It is affected by <:lunging:1009423860875153559>\n\u00a0\u00a0\u00a0\u00a0• Max hit increases by 10% + 3% per <:lunging:1009423860875153559> rank\n⬥ Can be recast 2 additional times within 24s of previous cast:\n    • 1st cast: Hits every 2t (1.2s) for 8 (11 <:strcape:1172654837616353320> , 15 <:strcape:1172654837616353320> + <:mwspear:694566917456789554> ) times, heals for 4% of damage\n    • 2nd cast: Hits every 3t (1.8s) for 6 (9 <:strcape:1172654837616353320> , 12 <:strcape:1172654837616353320> + <:mwspear:694566917456789554> ) times, heals for 6% of damage\n    • 3rd cast: Hits every 3t (1.8s) for 7 (10 <:strcape:1172654837616353320> , 13 <:strcape:1172654837616353320> + <:mwspear:694566917456789554> ) times, heals for 12% of damage",
     "color": 15158332
   }
 }
 .embed:json
-.tag:forcebackhand
-
-.
-{
-  "embed": {
-    "title": "__Stomp__ <:stomp:535532879552315412>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Shares cooldown with Forceful Backhand <:fbackhand:535532879346794516>\n⬥ Stuns for 6t (3.6s)\n⬥ It causes Knockback\n\u00a0\u00a0\u00a0\u00a0• Pushes 1x1 targets back 1 tile",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:stomp
-
-.
-{
-  "embed": {
-    "title": "__Quake__ <:quake:535532879506309150>",
-    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ Applies a defence and affinity debuff:\n\u00a0\u00a0\u00a0\u00a0• +2 affinity\n\u00a0\u00a0\u00a0\u00a0• Reduces <:Defence:689509250979987525> level by 5% of base if level is >90% of base\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:quake
+.tag:dismember
 
 .
 ### Special Attacks
@@ -377,24 +243,13 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .
 {
   "embed": {
-    "title": "__Dragon Dagger__ <:dragondagger:779048040644083733>",
-    "description": "⬥ Adrenaline Cost: 25% (22.5% with <:rov:513201065877831680>)",
+    "title": "__Varanus's Mercy__ <:varanussmercy:1448697873603498045>",
+    "description": "⬥ Adrenaline Cost: 50% (45% with <:rov:513201065877831680>)",
     "color": 15158332
   }
 }
 .embed:json
-.tag:dds
-
-.
-{
-  "embed": {
-    "title": "__Dragon Halberd__ <:dragonhalberd:841409589261238282>",
-    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ Adrenaline Cost: 30% (27% with <:rov:513201065877831680>)\n⬥ It is an AoE",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:dhally
+.tag:vmercy
 
 .
 {
@@ -421,13 +276,13 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .
 {
   "embed": {
-    "title": "__Vesta Longsword__ <:vls:841409238717956125>",
-    "description": "⬥ Adrenaline Cost: 25% (22.5% with <:rov:513201065877831680>)",
+    "title": "__Dragon Scimitar__ <:dragonscimitar:1048592044731400252>",
+    "description": "⬥ Adrenaline Cost: 25% (22.5% with <:rov:513201065877831680>)\n⬥ Increases accuracy with slash weapons by 25% for 100t (60s)",
     "color": 15158332
   }
 }
 .embed:json
-.tag:vls
+.tag:dscim
 
 .
 {
@@ -456,41 +311,8 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .tag:meleeUltimates
 {
   "embed": {
-    "title": "__Berserk__ <:zerk:535532854004678657>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an on cast buff\n⬥ It increases damage by 100% from t0→t33 (34t/20.4s duration)\n⬥ Wearing 3+ pieces of Vestments <:vestmentsofhavoctop:994189295592161291> extends the duration from t0→t33 (34t/20.4s) to t0→t43 (44t/26.6s)\n⬥ It increases damage taken by 50%\n⬥ Does not incur the auto cooldown",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:zerk
-
-.
-{
-  "embed": {
-    "title": "__Meteor Strike__ <:meteorstrike:535532879359377439>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon\n⬥ Provides a Critical Adrenaline buff:\n\u00a0\u00a0\u00a0\u00a0• For the next 30s, <:melee:1096130867279171706> critical hits give 8% adrenaline\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on release of the ability",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:meteor
-
-.
-{
-  "embed": {
-    "title": "__Pulverise__ <:pulverise:535532879053062146>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ Reduces damage dealt by target by 25%\n⬥ If target dies to <:pulverise:535532879053062146> you gain 50% adrenaline",
-    "color": 15158332
-  }
-}
-.embed:json
-.tag:pulverize
-
-.
-{
-  "embed": {
     "title": "__Overpower__ <:overpower:535532879334080517>",
-    "description": "⬥ Cooldown: 50t (30s)\n⬥ Affected by the Igneous Kal-Ket <:igneouskalket:902209626404192316> and the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>:\n\u00a0\u00a0\u00a0\u00a0• Adrenaline cost reduced to 60%\n\u00a0\u00a0\u00a0\u00a0• The ability has two hits.",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Adrenaline Cost: 60%\n⬥ Affected by the Igneous Kal-Ket <:igneouskalket:902209626404192316> and the Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>:\n\u00a0\u00a0\u00a0\u00a0• The ability has two hits.",
     "color": 15158332
   }
 }
@@ -500,35 +322,48 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
 .
 {
   "embed": {
-    "title": "__Massacre__ <:massacre:535532879384543253>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ It is mostly a Bleed:\n\u00a0\u00a0\u00a0\u00a0• It does 6 hits, 5 of which are a bleed which means:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits 5 times total, once every 2t (1.2s)\n⬥ Masterwork Spear of Annihilation <:mwspear:694566917456789554> adds 2 hits",
+    "title": "__Pulverise__ <:pulverise:535532879053062146>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 60%\n⬥ Applies Pulverised debuff to target\n    • Reduces damage dealt by target by 25%\n    • If target dies with debuff, you gain 50% adrenaline",
     "color": 15158332
   }
 }
 .embed:json
-.tag:massacre
+.tag:pulverize
 
 .
 {
   "embed": {
-    "title": "__Frenzy__ <:frenzy:535532879279554581>",
-    "description": "⬥ Cooldown: 100t (60s)\n⬥ Channelled ability",
+    "title": "__Berserk__ <:zerk:535532854004678657>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 100%\n⬥ It is an on cast buff\n⬥ It increases damage by 75% from t0→t33 (34t/20.4s duration)\n⬥ Wearing 3+ pieces of Vestments <:vestmentsofhavoctop:994189295592161291> extends the duration from t0→t33 (34t/20.4s) to t0→t43 (44t/26.6s)\n⬥ It increases damage taken by 25%\n⬥ Maximum Bloodlust <:bloodlust:1478080383554945044> increased by 4\n⬥ Basic attacks and basic abilities generate 2x Bloodlust <:bloodlust:1478080383554945044>\n⬥ Overpower <:overpower:535532879334080517> cooldown reduced to 15t (9s)",
     "color": 15158332
   }
 }
 .embed:json
-.tag:frenzy
+.tag:zerk
 
 .
 {
   "embed": {
-    "title": "__Balanced Strike__ <:balancedstrike:535532854336290826>",
-    "description": "⬥ Cooldown: 200t (120s)\n⬥ Compares player and targets current HP percentage; Higher of the two takes damage based on that difference, and lower is healed for half of that. For details read [wiki](https://runescape.wiki/w/Balanced_Strike)",
+    "title": "__Meteor Strike__ <:meteorstrike:1478070401702821938>",
+    "description": "⬥ Cooldown: 100t (60s)\n⬥ Adrenaline Cost: 60%\n⬥ It is an AoE hitting up to 9 targets, inclusive of main:\n\u00a0\u00a0\u00a0\u00a0• 3x3 with player as centre\n\u00a0\u00a0\u00a0\u00a0• 5x5 with player as centre with Halberd-type weapon\n⬥ Provides an Adrenaline buff for the next 30s:\n\u00a0\u00a0\u00a0\u00a0• Melee basic abilities generate 1.5x Adrenaline\n    • Generate 4.5% every 1t you have a Melee weapon equipped\n\u00a0\u00a0\u00a0\u00a0• This buff is applied on release of the ability",
     "color": 15158332
   }
 }
 .embed:json
-.tag:balancedstrike
+.tag:meteor
+
+.
+### Utility
+.tag:meleeUtility
+{
+  "embed": {
+    "title": "__Bladed Dive__ <:bd:535532854281764884>",
+    "description": "⬥ Cooldown: 34t (20.4s)\n⬥ It is a Mobility ability:\n\u00a0\u00a0\u00a0\u00a0• If you use it on a tile, it will <:bd:535532854281764884> you to that tile\n\u00a0\u00a0\u00a0\u00a0• If you use it on a target it will <:bd:535532854281764884> you some point at Melee Distance of the target (the movement is accounted 1t later than had you clicked a tile)\n⬥ It is affected by Mobile <:mob:689501908628799488>\n\u00a0\u00a0\u00a0\u00a0• Reduces cooldown to 17t (10.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Hits 3x3 around where you land if used on a target\n\u00a0\u00a0\u00a0\u00a0• This becomes 5x5 with <:Laceration:602581988599398400> Halberd <:bd:535532854281764884>\n⬥ If you use it on a target and it dies within 10t (6s), the cooldown ends",
+    "color": 15158332
+  }
+}
+.embed:json
+.tag:bd
 
 .
 {
@@ -539,32 +374,37 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
     "fields": [
       {
         "name": "__Auto and Basics__ (1/2)",
-        "value": "⬥ [Default Auto]($linkmsg_defaultmelee$)\n⬥ [Chaos Roar]($linkmsg_chaosroar$)\n⬥ [Dismember]($linkmsg_dismember$)\n⬥ [Backhand]($linkmsg_backhand$)\n⬥ [Kick]($linkmsg_kick$)\n⬥ [Barge]($linkmsg_barge$)\n⬥ [G. Barge]($linkmsg_gbarge$)\n⬥ [Bladed Dive]($linkmsg_bd$)\n⬥ [Cleave]($linkmsg_cleave$)",
+        "value": "⬥ [Attack]($linkmsg_meleeauto$)\n⬥ [Adaptive Strike]($linkmsg_adaptive$)\n⬥ [Rend]($linkmsg_rend$)\n⬥ [Fury]($linkmsg_fury$)\n⬥ [G. Fury]($linkmsg_gfury$)\n",
         "inline": true
       },
       {
         "name": "__Auto and Basics__ (2/2)",
-        "value": "⬥ [Decimate]($linkmsg_deci$)\n⬥ [Sever]($linkmsg_sever$)\n⬥ [Fury]($linkmsg_fury$)\n⬥ [G. Fury]($linkmsg_gfury$)\n⬥ [Havoc]($linkmsg_havoc$)\n⬥ [Smash]($linkmsg_smash$)\n⬥ [Slice]($linkmsg_slice$)\n⬥ [Punish]($linkmsg_punish$)",
+        "value": "⬥ [Backhand]($linkmsg_backhand$)\n⬥ [Punish]($linkmsg_punish$)\n⬥ [Barge]($linkmsg_barge$)\n⬥ [G. Barge]($linkmsg_gbarge$)\n⬥ [Chaos Roar]($linkmsg_chaosroar$)",
         "inline": true
       },
       {
-        "name": "__Thresholds__",
-        "value": "⬥ [Slaughter]($linkmsg_slaughter$)\n⬥ [Blood Tendrils]($linkmsg_bloodtendrils$)\n⬥ [Assault]($linkmsg_assault$)\n⬥ [Destroy]($linkmsg_destroy$)\n⬥ [Hurricane]($linkmsg_hurricane$)\n⬥ [Flurry]($linkmsg_flurry$)\n⬥ [G. Flurry]($linkmsg_gflurry$)\n⬥ [F. Backhand]($linkmsg_forcebackhand$)\n⬥ [Stomp]($linkmsg_stomp$)\n⬥ [Quake]($linkmsg_quake$)",
+        "name": "__Enhanced__",
+        "value": "⬥ [Assault]($linkmsg_assault$)\n⬥ [Hurricane]($linkmsg_hurricane$)\n⬥ [Flurry]($linkmsg_flurry$)\n⬥ [G. Flurry]($linkmsg_gflurry$)\n⬥ [Dismember]($linkmsg_dismember$)\n",
         "inline": true
       },
       {
         "name": "__Special Attacks__ (1/2)",
-        "value": "⬥ [Ek-Zekkil]($linkmsg_ezk$)\n⬥ [Zaros Godsword]($linkmsg_zgs$)\n⬥ [D. Battleaxe]($linkmsg_dba$)\n⬥ [D. Dagger]($linkmsg_dds$)\n⬥ [D. Halberd]($linkmsg_dhally$)\n⬥ [D. Claws]($linkmsg_dclaws$)",
+        "value": "⬥ [Ek-Zekkil]($linkmsg_ezk$)\n⬥ [Zaros Godsword]($linkmsg_zgs$)\n⬥ [D. Battleaxe]($linkmsg_dba$)\n⬥ [Varanus's Mercy]($linkmsg_vmercy$)\n⬥ [D. Scimitar]($linkmsg_dscim$)",
         "inline": true
       },
       {
         "name": "__Special Attacks (2/2)__",
-        "value": "⬥ [Stat. Warhammer]($linkmsg_swh$)\n⬥ [Vesta Longsword]($linkmsg_vls$)\n⬥ [Granite Maul]($linkmsg_gmaul$)\n⬥ [Dark Shard of Leng]($linkmsg_leng$)",
+        "value": "⬥ [D. Claws]($linkmsg_dclaws$)\n⬥ [Stat. Warhammer]($linkmsg_swh$)\n⬥ [Granite Maul]($linkmsg_gmaul$)\n⬥ [Dark Shard of Leng]($linkmsg_leng$)",
         "inline": true
       },
       {
         "name": "__Ultimates__",
-        "value": "⬥ [Berserk]($linkmsg_zerk$)\n⬥ [Meteor Strike]($linkmsg_meteor$)\n⬥ [Pulverize]($linkmsg_pulverize$)\n⬥ [Overpower]($linkmsg_overpower$)\n⬥ [Massacre]($linkmsg_massacre$)\n⬥ [Frenzy]($linkmsg_frenzy$)\n⬥ [Balanced Strike]($linkmsg_balancedstrike$)",
+        "value": "⬥ [Overpower]($linkmsg_overpower$)\n⬥ [Pulverize]($linkmsg_pulverize$)\n⬥ [Berserk]($linkmsg_zerk$)\n⬥ [Meteor Strike]($linkmsg_meteor$)",
+        "inline": true
+      },
+      {
+        "name": "__Utilities__",
+        "value": "⬥ [Bladed Dive]($linkmsg_bd$)",
         "inline": true
       }
     ]
@@ -582,7 +422,7 @@ This section covers auto attacks, basics, thresholds, ultimate abilities and spe
     "fields": [
       {
       	"name": "__Melee Abilities__ <:melee:1096130867279171706>",
-        "value": "⬥ [Auto Attacks]($linkmsg_meleeAutos$)\n⬥ [Basics]($linkmsg_meleeBasics$)\n⬥ [Thresholds]($linkmsg_meleeThresholds$)\n⬥ [Special Attacks]($linkmsg_meleeSpecials$)\n⬥ [Ultimates]($linkmsg_meleeUltimates$)",
+        "value": "⬥ [Basics]($linkmsg_meleeBasics$)\n⬥ [Thresholds]($linkmsg_meleeThresholds$)\n⬥ [Special Attacks]($linkmsg_meleeSpecials$)\n⬥ [Ultimates]($linkmsg_meleeUltimates$)",
         "inline": true
       }
     ]
