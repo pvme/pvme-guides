@@ -1,10 +1,5 @@
 .
-> ## ⚠️ Disclaimer
-> **Some methods in this guide may not work after the combat beta changes in March 2026**
-> Know of a newer method/rotation? Got a video? Share it in <#1480551217057759444>!
-
-.
-# Magic-Melee Hybrid Kerapac Guide
+# __Kerapac — Hybrid Magic-Melee__
 .img:https://img.pvme.io/images/1fZdXd5U3v.png
 *Note: a **Table of Contents** can be found in the pins.*
 
@@ -12,86 +7,77 @@
 ## __Introduction__
 .tag:intro
 This is an **advanced guide** which assumes a strong underlying knowledge of all mechanics and information presented in <#1020559705204076614>.
-This method aims to consistently hit sub 1:50 kill times. This is possible from the start of your Nodon dragonkin slayer task.
 
-⬥It is required to have a Nodon dragonkin slayer task for this method to work <:slayer:797896049548066857> as the <:slayerhelm:798285340460449792> helmet boost does work.
+This method aims to consistently hit sub-1:40 kill times.
+
+It is **not** required to have a [Nodon dragonkin](<https://runescape.wiki/w/Nodon_dragonkin_slayer_assignment>) slayer assignment for this method to work, but it will improve your consistency with the [Slayer helmet stand](<https://runescape.wiki/w/Slayer_helmet_stand>) boost <:slayerhelm:798285340460449792>
 
 .
-## __Presets and Relics__
+## __Gear, Relics and Familiars__
 .tag:presets
-⬥ [Magic-Melee Hybrid](https://presets.pvme.io/?id=2a7ae87c-f91d-45b3-9cff-7ba10728a6b2) <:magic:689504724159823906> <:melee:1096130867279171706>
+⬥ [Magic-Melee Hybrid](https://presets.pvme.io?id=43ecd334-cee0-436f-af4b-5588ff47381f)<:magic:689504724159823906> <:melee:1096130867279171706>
+
+__Notes:__
+⬥ At the bank, activate/apply:
+    • [Weapon poison +++](<https://runescape.wiki/w/Weapon_poison_%2B%2B%2B>) <:weppoison:689525476158472288>
+    • [Kwuarm sticks](<https://runescape.wiki/w/Kwuarm_incense_sticks>) <:kwuarmsticks:565726489341984779>
+    • [Lantadyme sticks](<https://runescape.wiki/w/Lantadyme_incense_sticks>) <:lantasticks:565726489404899368>
+    • [Darkness](<https://runescape.wiki/w/Darkness>) <:darkness:1137809209782698024>
+⬥ Perks on both Magic and Melee gear:
+    • [Genocidal](<https://runescape.wiki/w/Genocidal>) <:genocidal:689503091539705870> if on slayer assignment
+    • [Ultimatums 4](<https://runescape.wiki/w/Ultimatums_4>) <:ultimatums4:1478090603026710648>
+⬥ Necklace:
+    • [Am-hej](<https://runescape.wiki/w/Am-hej>) <:amhej:1448070604937891921> for the Melee portion (unless using an <:eofspec:1257438999794946099>)
+    • [Amulet of zealots](<https://runescape.wiki/w/Amulet_of_zealots>) <:zealots:926021352626982942> for the Magic portion alongside [Mystic Might](<https://runescape.wiki/w/Mystic_Might>) and [Overcharge](<https://runescape.wiki/w/Overcharge>) <:overcharge:1344313901189431296>
 
 .
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-{
-        "name": "__Preset Notes__",
-        "value": "⬥ Apply <:weppoison:689525476158472288> at the bank, and use <:kwuarmsticks:565726489341984779> , <:lantasticks:565726489404899368>\n⬥ <:darkness:1137809209782698024> active\n⬥ Slayer task + <:genocidal:689503091539705870> on both Magic and Melee gear\n⬥ Some <:ultimatums4:1478090603026710648> combination perk on both Magic and Melee gear\n⬥ All melee abilities are done on <:amhej:1448070604937891921> unless using an <:eofspec:1257438999794946099> spec\n⬥ Must be on Normal Prayers + <:zealots:926021352626982942> for <:magic:689504724159823906> part for this method to work",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Rotations__
+## __Rotation__
 .tag:rotations
 ### __War's Retreat__
 <:dba:603979368850653216> → s<:meteorstrike:1478070401702821938>
 
 ### __Prior to Start__
-<:dummy:656844963522281473> → r<:meteorstrike:1478070401702821938> + <:rend:1478166426190741584> → <:berserk:535532854004678657> → <:freedom:535541258240786434> + wait 1 tick → <:surge:535533810004262912> → <:gbarge:535532879250456578> on <:dummy:656844963522281473> → <:chaosroar:1478062908767211640> + <:bd:535532854281764884> / walk to tile in front of Kerapac → <:vulnbomb:655341074235129858> + s<:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
+r<:meteorstrike:1478070401702821938> + <:naturalinstinct:535541258131865633> → <:adaptivestrike:1478062906057949417> → <:freedom:535541258240786434> → <:berserk:535532854004678657> + (1t) <:surge:535533810004262912> → <:gbarge:535532879250456578> → <:chaosroar:1478062908767211640> + <:bd:535532854281764884> to <:kerapac:875443920673337344> → s<:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
 
 .
 ### __Phase 1__
-r<:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:rend:1478166426190741584> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:punish:535532879439069184> + Switch to <:magic:689504724159823906>
+r<:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> + <:gflurry:535532879283879977> → <:overpower:535532879334080517> → <:rend:1478166426190741584> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:smokecloud:856635090641879050>
 
 .
 ### __Phase 2__
-*Note: start on <:incitefear:856635090783567902>*
-<:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:smokecloud:856635090641879050> → <:combust:1478063107908702482> + click <:exsanguinate:856635090745950258> → <:divert:787904334377648130> → click <:timewarp:870328868815396914> 1 tick before <:gsunshine:994644352871714836> + <:adrenrenewal:736298121704767538> → <:gconc:1478063111104757760> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> + activate <:runic_charge:1478063122345361562> as soon as you are under timewarp → <:wm:535533809978966037> + walk under → <:gconc:1478063111104757760> click <:incitefear:856635090783567902> on second bar of the channel → <:omni:535533809664262179> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:legatusemberstaff:1451134746280329357> <:eofspec:1257438999794946099> → improvise if not phased
+<:anti:535541306475151390> → <:divert:787904334377648130> → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:overpower:535532879334080517> → <:rend:1478166426190741584> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:gsonic:1478063117211668584> → <:timewarp:870328868815396914> + <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304> → <:combust:1478063107908702482>
 
-*note: Once genocidal starts kicking in <:kerapac:875443920673337344> can phase on gconc, if so skip the <:legatusemberstaff:1451134746280329357> <:eofspec:1257438999794946099> .*
+
 
 .
 ### __Phase 3__
-*Note: upkeep <:exsanguinate:856635090745950258> + Make sure you proc more <:incitefear:856635090783567902>*
-<:gsonic:1478063117211668584> → <:magmatemptest:1478063454173532242> → <:roarofawakening:1266417538045317121> + <:vulnbomb:655341074235129858> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:tsunami:535533809995874304> → <:wm:535533809978966037> → <:gsonic:1478063117211668584> + walk under → <:legatusemberstaff:1451134746280329357> <:eofspec:1257438999794946099> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → ( <:wm:535533809978966037> if still above 100k health) → Switch to <:melee:1096130867279171706> →  <:meteorstrike:1478070401702821938> → <:gfury:535532879334080527> → <:punish:535532879439069184> → Improvise if not phased → Click <:timewarp:870328868815396914> when 100% Adren + <:berserk:535532854004678657>
-
-*Note: If P2 phased on <:gconc:1478063111104757760>, add <:dbreath:535533833391702017> after <:gsonic:1478063117211668584> in order to have <:omni:535533809664262179> up right after <:gconc:1478063111104757760>*
+<:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:meteorstrike:1478070401702821938> → <:punish:535532879439069184> → <:anti:535541306475151390> → <:timewarp:870328868815396914> + <:berserk:535532854004678657>
 
 .
 ### __Phase 4__
-*Note: <:vulnbomb:655341074235129858> each clone.*
+*Note: <:vulnbomb:655341074235129858> each clone*
 ### Clone 1
-Click Clone + TC + <:gbarge:535532879250456578> → <:overpower:535532879334080517> → <:gflurry:535532879283879977>
+Click Clone + (tc) + <:gbarge:535532879250456578> → <:overpower:535532879334080517> → <:gflurry:535532879283879977>
 ### Clone 2
 <:bd:535532854281764884> / <:surge:535533810004262912> to Middle Clone → <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
 ### Clone 3
-<:bd:535532854281764884> / <:surge:535533810004262912> to Final Clone → <:overpower:535532879334080517> → <:lengoh:883134308070604870> <:spec:537340400273195028> → <:pulverise:535532879053062146> → (<:devo:513190158728953857>)
+<:bd:535532854281764884> / <:surge:535533810004262912> to Final Clone → <:overpower:535532879334080517> → <:lengoh:883134308070604870> <:spec:537340400273195028> → <:pulverise:535532879053062146> + equip <:rod:513190159462825984>
+
+
 ### Kerapac
 <:bd:535532854281764884> / <:surge:535533810004262912> to Kerapac → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:overpower:535532879334080517> (+ <:gmaul:796989663051120640> <:eofspec:1257438999794946099> or → <:cane:535532878969438210>)
 .
 .
 ## __Example Kills__
 .tag:example
-{
-  "embed": {
-    "title": "__Example Kills__",
-    "description": "[Kill Times: 1:40.2 | 1:46.2 | 1:44.4](https://youtu.be/fiiqRPo_1ys)",
-    "color": 39423
-  }
-}
-.embed:json
+⬥ https://www.youtube.com/watch?v=1ERsczoh7_w
+.
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Gear, Relics and Familiars]($linkmsg_presets$)\n⬥ [Rotation]($linkmsg_rotation$)\n⬥ [Example]($linkmsg_example$)",
     "color": 39423
   }
 }
