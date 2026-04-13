@@ -1,104 +1,84 @@
-.
-> ## ⚠️ Disclaimer
-> **Some methods in this guide may not work after the combat beta changes in March 2026**
-> Know of a newer method/rotation? Got a video? Share it in <#1480551217057759444>!
-
-.
-# Kerapac, the Bound - Solo Melee
-.
+# Melee Kerapac Guide
 .img:https://img.pvme.io/images/1fZdXd5U3v.png
+*Note: a **Table of Contents** can be found in the pins.*
+
 .
 ## __Introduction__
 .tag:intro
-*Note: a **Table of Contents** can be found in the pins.*
+This is an **advanced guide** which assumes a strong underlying knowledge of all mechanics and information presented in <#1020559705204076614>.
 
-This guide assumes you are already familiar with the basic mechanics of Kerapac which can be seen here <#1020559705204076614> and own BIS gear in Melee.
+It is highly recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the <:slayerhelm:798285340460449792> helmet boost does work.
 
-It is highly recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the helmet boost does work. You may also use the Premier Artefact <:premierartefact:918517285176623104> to have a 10% chance to not decrease the slayer task count with each kill.
 .
 ## __Presets and Relics__
-.tag:preset
-⬥ [Melee](https://presets.pvme.io/?id=eeQrQb6eoY2gKTiw1vOw)
-
+.tag:presets
+⬥ [Melee](https://presets.pvme.io?id=041d38d5-1566-4f4e-9fa1-35db24ba99ac) <:melee:1096130867279171706>
+.
 
 .
-### Additional Info
-⬥ You have to be on a slayer task <:slayer:797896049548066857>
+## __Rotations__
+.tag:rotations
+⬥ Rotation requires <:eq4:712073088589627505>
+⬥ Rotation works off-task **and** on-task, but requires minor changes
+⬥ Expected kills times between 1:40s to 1:50s, 1:40s to 1:43s on-task
 
-⬥ Challenging parts:
-    • Learning to walk under <:kerapac:875443920673337344> to avoid rift without cancelling <:destroy:535532879330148352> takes precision.
-    • Players' damage taken in Phase 4 can snowball if clones are not killed fast.
-        ⬩ Learners may find it hard to use <:zerk:535532854004678657> in the last phase.
-        ⬩ Learners can consider using <:supersara:642708771344482314> instead of <:supergrest:690140078407680059> to heal more.
-        ⬩ However, brewing down too fast can lead to slower echo kills and thus taking much more damage.
-        ⬩ Improvising rotations with <:debil:535541278264393729> or <:reflect:535541258786177064> (with a <:kalphitedefender:643151141382651907>) might be better than following the rotation below and brewing if the kill is not going well.
+*Note: if on-task, P1-3 is typical but P4 on Kerapac is very RNG, it's easier to just <:cane:535532878969438210> at the end instead of trying to <:gmaul:796989663051120640> <:eofspec:1257438999794946099> to save 2 ticks.*
 
-⬥ The rotations listed below assume the following:
-    • All <:timewarp:870328868815396914> are used 1 tick before ability they are listed with.
-        ⬩ Using both on the same tick will cause players to warp to their state **post ability cast**.
-    • Players swap to <:glovesofpassage:556588694862037012> for <:havocgop:994920849117282365> and back to <:cinderbanes:513190158355660812> immediately after.
-    • All bleeds (<:ezk:903244090953588787> <:eofspec:1257438999794946099>, <:dismember:535532879376023572>, <:bloodtendrils:535532854327640064>, <:slaughter:535532879237873666>) are cast with <:mwspear:694566917456789554> unless specified otherwise.
-    • All channelled abilities (<:assault:535532855191928842>, <:destroy:535532879330148352>, <:gflurry:535532879283879977>) are 4-hit unless specified otherwise.
-    • Players run under <:kerapac:875443920673337344> before using <:backhandflank:867678153854025779>
+### __Pre-fight__
+### War's Retreat
+<:dba:603979368850653216> <:spec:537340400273195028>
 
 .
-## __Pre-fight__
-.tag:prebuild
-<:DBA:603979368850653216> <:spec:537340400273195028> and then <:lengmh:883134308146098227> <:spec:537340400273195028> at War's Retreat.
+### __Phase 1__
+Start fight with <:lengmh:883134308146098227> <:berserk:535532854004678657> → <:divert:787904334377648130> → (tc) <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> → <:meteorstrike:1478070401702821938> → <:gflurry:535532879283879977> → <:overpower:535532879334080517> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:chaosroar:1478062908767211640> → walk under <:cane:535532878969438210> → <:punish:535532879439069184> → 2 or 3 hit <:assault:535532855191928842> to hit 110k → <:overpower:535532879334080517>
+### Prephase
+Defensive → <:naturalinstinct:535541258131865633> → <:lengmh:883134308146098227> <:gbarge:535532879250456578> → <:gflurry:535532879283879977> (if 2 hit <:assault:535532855191928842> you wait for <:gflurry:535532879283879977>)
 
-## __Phase 1__
-.tag:p1
-<:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> + <:gbarge:535532879250456578> → <:smokecloud:856635090641879050> → <:abyssalscourge:947871842469834832> <:dismember:535532879376023572> → bleed <:lengmh:883134308146098227> <:destroy:535532879330148352> → <:assault:535532855191928842>
-→ <:gfury:535532879334080527> + walk under to avoid Rift → <:backhandflank:867678153854025779> → <:gflurry:535532879283879977> → <:havocgop:994920849117282365> → <:chaosroar:994644356671737966> → <:ezk:903244090953588787> <:eofspec:1257438999794946099> → <:cane:535532878969438210> → equip <:jawsoftheabyss:947871842595639306> + <:dismember:535532879376023572> → <:bloodtendrils:535532854327640064> → <:havocgop:994920849117282365> → <:backhandflank:867678153854025779> + <:escape:535541258832052231> → <:slaughter:535532879237873666> → <:deci:535532879325822986> + 2t <:escape:535541258832052231> → <:gflurry:535532879283879977> → switch to <:havocgop:994920849117282365> → (basics until phased) → <:dismember:535532879376023572> → equip <:vestmentsofhavochood:994189297659940904> + <:anti:535541306475151390>
+*Note: can swap <:divert:787904334377648130> and <:berserk:535532854004678657> around, minimal difference, on-task you want to <:berserk:535532854004678657> first.*
 
 .
-### Phase 1 notes
-⬥ Optimally release bled <:lengmh:883134308146098227> <:destroy:535532879330148352> with <:abyssalscourge:947871842469834832>
-⬥ <:bloodtendrils:535532854327640064> before <:dismember:535532879376023572> if >50% adren.
-⬥ If you phase immediately on <:havocgop:994920849117282365>, wait 2 ticks after the <:anti:535541306475151390> GCD and immediately <:gbarge:535532879250456578> for phase 2 (8-tick <:gbarge:535532879250456578> method).
-
-## __Phase 2__
-.tag:p2
-<:gbarge:535532879250456578> → <:timewarp:870328868815396914> <:zerk:535532854004678657> → <:havocgop:994920849117282365> → <:assault:535532855191928842> → <:lengmh:883134308146098227> <:spec:537340400273195028> + 2h auto → <:limitless:641339233638023179> + <:lengmh:883134308146098227> <:cane:535532878969438210> → 3-hit <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> (walk under on tick 2 to avoid Rift) → <:assault:535532855191928842> → <:havocgop:994920849117282365> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> → 2-hit <:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → <:havocgop:994920849117282365> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> (+ <:escape:535541258832052231> → continue with basics if not phased immediately after first jump) → <:dismember:535532879376023572> → equip <:jawsoftheabyss:947871842595639306> + <:anti:535541306475151390>
+### __Phase 2__
+<:overpower:535532879334080517> → <:rendgop:1488133579614588948> → <:cinderbanes:513190158355660812> <:lengmh:883134308146098227> <:spec:537340400273195028> → <:ezk:903244090953588787> <:cane:535532878969438210> → <:mwspear:694566917456789554> <:dismember:1478062910113714297> → <:slaughter:1478062904732418159> → walk under <:massacre:1478062911619469495> → <:jawsoftheabyss:947871842595639306> <:ezk:903244090953588787> <:rendgop:1488133579614588948> → <:cinderbanes:513190158355660812> <:overpower:535532879334080517> → <:adaptivestrike:1478062906057949417> → <:dba:603979368850653216> <:spec:537340400273195028> → <:punish:535532879439069184> → <:adaptivestrike:1478062906057949417> → <:rend:1478166426190741584> → <:gfury:535532879334080527> → improvise
 
 .
-### Phase 2 notes
-⬥ Optimally stall and release the second <:lengmh:883134308146098227> <:cane:535532878969438210> along with <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> using <:smokecloud:856635090641879050> to have <:havocgop:994920849117282365> boost also apply to the first hit of <:destroy:535532879330148352>
-⬥ If you phased immediately on the last <:backhandflank:867678153854025779>, wait 2 ticks after <:anti:535541306475151390> GCD and immediately <:gbarge:535532879250456578> for P3 (8-tick <:gbarge:535532879250456578> method).
+### __Phase 3__
+Rotation not as set in stone here because <:relentless5:712244800920748092> / <:imp4:712073088204013640> / adrenaline before <:timewarp:870328868815396914> can all change which abilities you use
+
+<:vulnbomb:655341074235129858> <:timewarp:870328868815396914> (1t) → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:adaptivestrike:1478062906057949417> → <:meteorstrike:1478070401702821938> → <:assault:535532855191928842> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> / <:cane:535532878969438210> → <:amhej:1448070604937891921> <:overpower:535532879334080517> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:amhej:1448070604937891921> <:assault:535532855191928842> → <:rend:1478166426190741584> → <:overpower:535532879334080517> → <:cane:535532878969438210>
+
+*Note: <:vestmentsofhavochood:994189297659940904> ideally 115+ adrenaline and off one ability before <:timewarp:870328868815396914>*
 
 .
-## __Phase 3__
-.tag:p3
-<:gbarge:535532879250456578> → <:timewarp:870328868815396914> <:zerk:535532854004678657> → <:havocgop:994920849117282365> → <:assault:535532855191928842> → s <:chaosroar:994644356671737966> → r <:chaosroar:994644356671737966> + <:ezk:903244090953588787> <:eofspec:1257438999794946099> → <:limitless:641339233638023179> + 3-hit <:destroy:535532879330148352> (walk under on tick 2 to avoid Rift) → <:assault:535532855191928842> → <:havocgop:994920849117282365> → <:lengmh:883134308146098227> <:cane:535532878969438210> → <:abyssalscourge:947871842469834832> <:destroy:535532879330148352> → 2-hit <:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → <:havocgop:994920849117282365> → <:gfury:535532879334080527> → <:backhandflank:867678153854025779> + <:escape:535541258832052231> → <:deci:535532879325822986> → <:sever:535532879577612298> → equip <:vestmentsofhavochood:994189297659940904> + <:anti:535541306475151390> → wait 1 tick
+### __Phase 4__
+### Clone 1
+<:lengmh:883134308146098227> <:berserk:535532854004678657> click clone → <:vulnbomb:655341074235129858> + <:gbarge:535532879250456578> → <:meteorstrike:1478070401702821938> → <:gflurry:535532879283879977> → <:dive:1049378668197195808> to 2nd clone
+### Clone 2
+<:vulnbomb:655341074235129858> + <:overpower:535532879334080517> → <:assault:535532855191928842> (3t) → <:punish:535532879439069184> → <:surge:535533810004262912> click 3rd clone and <:surge:535533810004262912> again
+### Clone 3
+<:vulnbomb:655341074235129858> + <:chaosroar:1478062908767211640> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:amhej:1448070604937891921> <:lengmh:883134308146098227> <:spec:537340400273195028> → <:dive:1049378668197195808> to Kerapac
 
-### Phase 3 notes
-⬥ Optimally stall and release the <:lengmh:883134308146098227> <:cane:535532878969438210> (using <:smokecloud:856635090641879050> with <:abyssalscourge:947871842469834832>) and then cast <:destroy:535532879330148352> on the same tick to have <:havocgop:994920849117282365> boost also apply to the first hit of <:destroy:535532879330148352>
-⬥ There is little benefit to skipping 2 jumps on P3.
-⬥ Optimally you can pre-<:gbarge:535532879250456578> → <:timewarp:870328868815396914> <:zerk:535532854004678657> going into P4 if you do skip 2 jumps the same way you close out P1 and P2.
+*Note: if <:dba:603979368850653216> <:spec:537340400273195028> runs out here you might need one extra ability, but it shouldn't run out here.*
+### Kerapac
+<:overpower:535532879334080517> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:cane:535532878969438210> if not dead use one more ability (will happen if <:dba:603979368850653216> <:spec:537340400273195028> runs out)
+
+*Notes:*
+⬥ *To save 1 GCD on clone 2 you need 3 <:primordialice:1219291285358120990> + <:scriptureofful:902209626412560395> proc **or** 5+ <:primordialice:1219291285358120990> and replace the <:assault:535532855191928842> → <:punish:535532879439069184> with <:lengmh:883134308146098227> <:spec:537340400273195028>*
+⬥ *On clone 3 you instead use <:pulverise:535532879053062146> / <:punish:535532879439069184> as the 3rd ability.*
+⬥ *This means you need to <:powerburstofacceleration:756236265472524418> on clone 3 as <:dive:1049378668197195808> won't be off CD to <:dive:1049378668197195808> to Kerapac, or s<:overpower:535532879334080517> then <:dive:1049378668197195808> and release with <:ezk:903244090953588787> <:spec:537340400273195028>*
 
 .
-## __Phase 4__
-.tag:p4
-Echo 1: <:timewarp:870328868815396914> <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:limitless:641339233638023179> + <:lengmh:883134308146098227> 3-hit <:destroy:535532879330148352> → <:cane:535532878969438210>
-Echo 2: <:lengmh:883134308146098227> 3-hit <:destroy:535532879330148352> → <:assault:535532855191928842> → <:cane:535532878969438210>
-Echo 3: <:deci:535532879325822986> → <:sever:535532879577612298> → <:gfury:535532879334080527> → <:res:535541258844635148> → <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:devo:513190158728953857> + 2h-auto → <:backhandflank:867678153854025779>
-<:kerapac:875443920673337344> : <:sever:535532879577612298> → <:smokecloud:856635090641879050> + <:chaosroar:994644356671737966> → <:timewarp:870328868815396914> <:lengmh:883134308146098227> <:spec:537340400273195028> + 2h auto → <:cane:535532878969438210> → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → <:cane:535532878969438210>
-
-.
-### Phase 4 notes
-⬥ <:smokecloud:856635090641879050> on <:kerapac:875443920673337344> is only used if echoes are cleared perfectly as <:timewarp:870328868815396914> won't be up 1 tick before <:lengmh:883134308146098227> <:spec:537340400273195028> otherwise.
-
 ## __Example Kills__
 .tag:example
-<https://youtu.be/ZBS_sdANqAI> 15 KPH (Melee)
-<https://www.youtube.com/watch?v=T_74UQhwH_w> 3:15
-<https://www.youtube.com/watch?v=BkbUKcGQL-8> 2:58
+⬥ [Off-task](https://www.youtube.com/watch?v=i6lX00K8IR0) <:melee:1096130867279171706>
+⬥ [Off-task (fast clones)](<https://youtu.be/HwQnUq_U3Oc>) <:melee:1096130867279171706>
+⬥ [On-task](<https://youtu.be/Dt3neHFfkEM>) <:melee:1096130867279171706>
+.
 
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Pre-fight]($linkmsg_prebuild$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
   }
 }
