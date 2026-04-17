@@ -1,9 +1,3 @@
-.
-> ## ⚠️ Disclaimer
-> **Some methods in this guide may not work after the combat beta changes in March 2026**
-> Know of a newer method/rotation? Got a video? Share it in <#1480551217057759444>!
-
-.
 # Kerapac, the Bound - Solo Ranged
 .
 .img:https://img.pvme.io/images/1fZdXd5U3v.png
@@ -14,79 +8,65 @@
 
 This guide assumes you are already familiar with the basic mechanics of Kerapac which can be seen here <#1020559705204076614> and own BIS gear in Ranged.
 
-It is highly recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the helmet boost does work. You may also use the Premier Artefact <:premierartefact:918517285176623104> to have a 10% chance to not decrease the slayer task count with each kill.
-
-This strategy aims to keep HP below max from P1 to P3 to continually heal with <:soulsplit:615613924506599497> and <:vampaura:643505653079343144>, thus maximising hitsplats with <:reaverpouch:839903693837959228> passive to maximise <:poisonicon:944649693500154006> damage which has excellent synergy with <:bikarrow:971025697235689513>
-
 .
 ## __Presets and Relics__
 .tag:preset
-⬥ [Ranged](https://presets.pvme.io/?id=IFpNvXQio73YKPaZ1RNb)
-
+⬥ [Ranged](https://presets.pvme.io?id=a7fe1641-aa2c-46ee-879b-c248b550cc5d)
+.
+### Requirements
+.tag:reqs
+The rotations may not work as well as intended if any of the following are missing:
+⬥ Nodon Dragonkin slayer task
+⬥ <:kwuarmsticks:565726489341984779> and <:spiritsticks:565726489136463894>
+⬥ <:slayerhelm:798285340460449792> on anachronia stand.
 .
 ### Overview
-⬥ Use <:KwuarmSticks:565726489341984779> + <:reaverpouch:839903693837959228> with <:reaverscroll:1022562484378419284> + autofire set to 0.
-⬥ Rotations assume slayer task and <:slayerhelm:798285340460449792> on anachronia stand.
-⬥ Do not <:timewarp:870328868815396914> and <:gdeathsswift:994644354536837121> on the same tick.
-    • Only <:gdeathsswift:994644354536837121> after seeing the <:timewarp:870328868815396914> icon on buff bar (at least 1t apart).
-⬥ Manually spam <:reaverscroll:1022562484378419284> whenever you need health.
+⬥ This rotation is capable of getting the grandmaster time of <2:15.0
+⬥ Do not <:timewarp:870328868815396914> and <:deathsswiftness:1478061862405931120> on the same tick.
 ⬥ Have <:darkness:1137809209782698024> active for a smoother P4.
-⬥ For <:fleetingboots:789813993480388640> <:rapid:535541270521708566> equip <:edracoboots:1179717602151514123> back immediately after casting <:rapid:535541270521708566>.
-⬥ <:edracogloves:1179717613769728100> / <:cinderbanes:513190158355660812> means equip <:edracogloves:1179717613769728100> for a tick and switch back to  <:cinderbanes:513190158355660812> immediately.
-    • Flicking <:edracogloves:1179717613769728100> / <:cinderbanes:513190158355660812> manipulates charging timer to benefit from <:cinderbanes:513190158355660812> and <:fleetingboots:789813993480388640> whilst still getting increased <:dracolichinfusion:1285348459876057138> duration.
-⬥ Drink 1 <:zamorakbrew:841409588632092694> before the fight and sip throughout to keep your hp below max.
-⬥ If you get jumps <:dive:1049378668197195808> SW for <:gdeathsswift:994644354536837121> placement during P3. If you jump skip lure Kerapac SW before <:gdeathsswift:994644354536837121> P3.
-⬥ stall <:incend:535541258429661215> at <:warsretreatteleport:1032540079589163049> and bring the stall into instance whilst using <:dive:1049378668197195808> / <:invokelordofbones:1176968330582700174> / <:darkness:1137809209782698024>.
 .
-## __Phase 1__
-.tag:p1
-(tc) + r<:incend:535541258429661215> + <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:grico:787904334812807238> → <:shadowtend:642713547142332416> → <:piercing:535541258538450944> → <:bolg:994189289623662702> <:spec:537340400273195028> → (if ≥63% <:snap:535534127131394088> / <:piercing:535541258538450944> otherwise) → (wait 1t) + <:edracogloves:1179717613769728100> / <:cinderbanes:513190158355660812> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:smokecloud:856635090641879050> + <:grico:787904334812807238> (→ <:frag:535541273755385885> / <:corruptshot:535541306294796299> if <50%) → <:rapid:535541270521708566> (<:edracogloves:1179717613769728100> / <:cinderbanes:513190158355660812> 1t before end) → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:piercing:535541258538450944>
-
-If not phased: <:mds:535541259033378827> → <:piercing:535541258538450944> → <:tuskas:513201065513058306> → improvise if you got 2+ jumps
-
-Prephase: <:dismember:535532879376023572> → <:frag:535541273755385885> → <:corruptshot:535541306294796299>
+## __Rotation__
+.tag:rot
+### __War's Retreat__
+s<:deadshot:1478061860371828929>
+.
+### __Phase 1__
+(tc) + <:deathsporearrows:900758234527301642> r <:deadshot:1478061860371828929> + <:grico:787904334812807238> → <:deathsswiftness:1478061862405931120> → <:imbueshadows:1478061866193518744> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:fularrow:971025696958853180> <:bolg:994189289623662702> <:spec:537340400273195028> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:snapshot:1478061855732666439> → <:snapshot:1478061855732666439> → <:piercingshot:1478061863723073636> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → s<:grico:787904334812807238>
 
 .
-## __Phase 2__
-.tag:p2
-<:timewarp:870328868815396914> → <:ingen:641339234111848463> + <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:deadshot:535541307666595870> → (wait 1t) + <:edracogloves:1179717613769728100> / <:cinderbanes:513190158355660812> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:limitless:641339233638023179> + <:fleetingboots:789813993480388640> <:rapid:535541270521708566> → <:deadshot:535541307666595870> → <:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:rapid:535541270521708566> → <:grico:787904334812807238> → <:shadowtend:642713547142332416> → <:dismember:535532879376023572> → <:frag:535541273755385885> → <:corruptblast:513190159194259467> → <:tsunami:535533809995874304> → <:grico:787904334812807238> → <:piercing:535541258538450944> → <:mds:535541259033378827> → <:piercing:535541258538450944>
+### __Phase 2__
+r<:grico:787904334812807238> + <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:shadowtend:642713547142332416> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snipe:1478061857486143498> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> → <:piercingshot:1478061863723073636> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:deathsporearrows:900758234527301642> <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:grico:787904334812807238>
 
 .
 ## __Phase 3__
-.tag:p3
-<:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> → <:dismember:535532879376023572> → (wait 1t) + <:edracogloves:1179717613769728100>  / <:cinderbanes:513190158355660812> → <:wenarrow:971025697046925362>  <:grico:787904334812807238> → <:ingen:641339234111848463> + <:roarofawakening:1266417538045317121> <:spec:537340400273195028> (→ <:frag:535541273755385885> if <15%) → <:limitless:641339233638023179> + <:bikarrow:971025697235689513> <:rapid:535541270521708566> (<:edracogloves:1179717613769728100> / <:cinderbanes:513190158355660812> 1t before end) → <:bolg:994189289623662702> <:spec:537340400273195028> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:bikarrow:971025697235689513> <:grico:787904334812807238> <:deathsporearrows:900758234527301642> → <:incend:535541258429661215> → <:bikarrow:971025697235689513> <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → improvise
+<:fularrow:971025696958853180> <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> + 2t <:timewarp:870328868815396914> → <:deathsporearrows:900758234527301642> <:deathsswiftness:1478061862405931120> → <:imbueshadows:1478061866193518744> → <:fularrow:971025696958853180> <:deadshot:1478061860371828929> → <:rapid:535541270521708566> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:snapshot:1478061855732666439> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> → <:ecb:615618531937222657> <:eofspec:1257438999794946099>
 
 .
 ## __Phase 4__
-.tag:p4
-⬥ Keep high hp by spamming food and <:reaverscroll:1022562484378419284> throughout P4.
-⬥ After 2 clones are dead swap to <:DeflectMage:544195487926845462> and only <:soulsplit:615613924506599497> flick if you're careful.
-⬥ Equip <:rod:513190159462825984> if getting to dangerously low HP.
+⬥ <:vulnbomb:655341074235129858> each clone.
+⬥ Have <:soulsplit:615613924506599497> active for the first 2 clones, then pray <:deflectmage:544195487926845462>
 
-.
-⬥ **South and west echoes**
-
-<:ecb:615618531937222657> <:eofspec:1257438999794946099> → (tc) + <:wenarrow:971025697046925362> <:corruptshot:535541306294796299> → <:grico:787904334812807238> → (tc) + <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → (tc) + <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:bikarrow:971025697235689513> improvise with <:shadowtend:642713547142332416> / <:snap:535534127131394088> / basics → <:dive:1049378668197195808> NE when both echoes are dead
-
-.
-⬥ **North echo and Kerapac**
-
-target <:kerapac:875443920673337344> + <:piercing:535541258538450944> → (tc) + build to 100% → <:timewarp:870328868815396914> → <:gdeathsswift:994644354536837121> → <:limitless:641339233638023179> + improvise with <:snap:535534127131394088> / <:shadowtend:642713547142332416> / <:bolg:994189289623662702> <:spec:537340400273195028> / basics until <:grico:787904334812807238> cd → <:wenarrow:971025697046925362> <:grico:787904334812807238> → <:rapid:535541270521708566> (→ <:bolg:994189289623662702> <:spec:537340400273195028>) → (tc) + <:deadshot:535541307666595870> + <:adrenrenewal:736298121704767538> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:ingen:641339234111848463> + <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:grico:787904334812807238> → <:limitless:641339233638023179> + <:rapid:535541270521708566> → <:zammybow:1215929540908679208> <:eofspec:1257438999794946099> → improvise
-
+### Clone 1
+<:snapshot:1478061855732666439> → <:piercingshot:1478061863723073636> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snapshot:1478061855732666439>
+### Clone 2
+<:deathsporearrows:900758234527301642> <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> + 2t <:timewarp:870328868815396914> → <:deathsswiftness:1478061862405931120> → <:imbueshadows:1478061866193518744> → <:fularrow:971025696958853180> <:deadshot:1478061860371828929> → <:snapshot:1478061855732666439>
+### Clone 3
+<:grico:787904334812807238> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:snapshot:1478061855732666439> → <:devo:513190158728953857> → <:snapshot:1478061855732666439>
+### Kerapac
+<:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099>
 .
 ## __Example Kills__
 .tag:example
-⬥ [2:33 + 2:30 + 2:26](<https://youtu.be/LgeDgQhMq3E>)
-⬥ [2:18 (slightly different rotations)](<https://youtu.be/r5_25ee4XK8L>)
-
+⬥ [2:07.8](<https://youtu.be/Hd0iSafMfnk>)
+⬥ [2:10.8 (Different rotation)](<https://youtu.be/T_I0hhNRKJg>)
 .
-Content Provided by: <@159663440011460609>
-Formatting Maintained by: <@159663440011460609>
+Content Provided by: <@168029243781939200>
+Formatting Maintained by: <@168029243781939200>
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Rotation]($linkmsg_rot$)\n⬥ [Example Kills]($linkmsg_example$)",
     "color": 39423
   }
 }

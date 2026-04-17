@@ -1,0 +1,43 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+
+  "globRoot": "../../",
+
+  "files": ["**/*.txt"],
+
+  "ignorePaths": [
+    "archive/**",
+    "ca-bingo-lists/**",
+    ".github/**",
+    ".vscode/**",
+    "node_modules/**",
+    ".git/**",
+    "**/mental-health.txt",
+    "**/contributors.txt"
+  ],
+
+  "import": [
+    "@cspell/dict-software-terms/cspell-ext.json",
+    "@cspell/dict-gaming-terms/cspell-ext.json"
+  ],
+
+  "dictionaryDefinitions": [
+    {
+      "name": "pvme-words",
+      "path": "./allow.txt"
+    }
+  ],
+
+  "dictionaries": ["pvme-words", "en-gb"],
+
+  "ignoreRegExpList": [
+    "<:.*?:.*?>",
+    "\\`([^\\`].*?)\\`",
+    "https?:\\/\\/[^\\s]+",
+    "\\.tag:\\w*",
+    "\\!\\.\\w*",
+    "\\$.*\\$",
+    "```[\\s\\S]*?```"
+  ]
+}
