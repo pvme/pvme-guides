@@ -1,103 +1,84 @@
 ## __Introduction__
 .tag:Introduction
-The goal of the PvME Mastery System is to allow players to set goals and track progress towards mastering specific boss encounters. Roles that are granted are kept permanently, no matter the meta that they were achieved under.
+Welcome to our Feats System channel, the purpose of these challenges is to give you fun objectives to aim for at various encounters, aiming to provide a challenge disregarding any meta whatsoever of farming kills. Happy hunting!
 
-.
-### Mastery Roles Explained
-The PvME mastery system is formed around four distinct ranks. Each rank is meant to be representative of a particular 'snapshot' in a player's journey.
-
-⬥ **Initiate**
-    • Making the transition from a learner to the start of mastery; the primary goal would be to keep building familiarity with the encounter so as to continue climbing through the ranks.
-
-⬥ **Adept**
-    • Once fully familiar with a boss at surface level, starts taking larger steps to understand its nuances and explores methods of optimization.
-
-⬥ **Master**
-    • Displays an extensive understanding of the encounter; utilising efficient tactics with a high degree of proficiency in the relevant style(s).
-
-⬥ **Grandmaster**
-    • A true expert achieving peak performance; the most rapid, precise, and difficult tactics are leveraged with near-perfect execution with a focus on high consistency. Grandmasters can take advantage of any form of good luck they encounter to push for a faster time. A player at this skill level would be content to achieve these timers **once per hour** (applies more literally in some places than others).
+All submissions require supporting evidence to be reviewed by staff.
 
 .
 ## __Submitting for a Role__
 .tag:Submissions
 A submission should be provided as follows, with your in-game name visible:
 
-⬥ **Initiate** / **Adept**
-    • **Screenshots or videos** are both accepted unless otherwise stated.
+### Feat name
 
-⬥ **Master** / **Grandmaster**
-    • **Only videos** are accepted unless otherwise stated.
+### Supporting video evidence
 
-Please post your submissions in <#827692629197324348> so that they can be reviewed by staff and/or role reviewers. Submissions will be evaluated according to our rules, as follows,
-
+⬥ **Only videos** are accepted unless otherwise stated.
 .
+.tag:Rules
 {
   "embed": {
     "title": "",
     "color": 39423,
     "fields": [
       {
-        "name": "**__Mastery System Rules__**",
-        "value": "⬥ All roles requiring multiple kills will use average times.\n\n⬥ Any timer denoted with ≤ (\"sub\"), e.g. \"≤ 1:00\", signifies that anything up until *and including* that time will be accepted.\n\n⬥ Decimals are ignored entirely for all timers, including averages.\n\u00a0\u00a0\u00a0\u00a0• E.g. 1:00.6 and 1:01.8 would be considered 1:00 and 1:01 = 1:00 average.\n\n⬥ All rules used by the [PvM Records](https://discord.gg/AR5qErBGDs) community apply\n\u00a0\u00a0\u00a0\u00a0• Full list is available [here](https://www.pvm-records.com/rules).\n\u00a0\u00a0\u00a0\u00a0• Any new bugs/exploits added to the [list](https://www.pvm-records.com/rules) that are used prior to being disallowed *may result in submission denial*\n\n⬥ Power creep may place submissions on hold.\n\n⬥ Practice mode is not allowed. "
-      }
+        "name": "**__Feats System Rules__**",
+        "value": "⬥ All rules used by the [PvM Records](https://discord.gg/AR5qErBGDs) community apply\n\u00a0\u00a0\u00a0\u00a0• Full list is available [here](https://www.pvm-records.com/rules).\n\u00a0\u00a0\u00a0\u00a0• Any new bugs/exploits added to the [list](https://www.pvm-records.com/rules) that are used prior to being disallowed *may result in submission denial.*\n⬥ Power creep may place submissions on hold.\n⬥ Practice mode is ***allowed*** by default but ***disallowed*** for feats featuring enrage percentages as climbing to that enrage is considered in the placement of the feat.\n⬥ [Deathtouched darts](https://runescape.wiki/w/Deathtouched_dart) are not allowed for any feat."
+        }
     ]
   }
 }
 .embed:json
-## __Special Roles__
-.tag:Special
-In addition to all of the listed mastery objectives, we provide special roles for those who go above and beyond in mastering multiple different encounters.
 
 .
+## __One Ticks__
+.tag:OneTicks
+{
+  "embed": {
+    "title": "__**One Ticks**__",
+    "color": 39423,
+    "description": "⬥ Our one tick roles are in collaboration with **[PvM Records](https://discord.gg/AR5qErBGDs)**\n⬥ They are based off a points system that can be found [here](https://www.pvm-records.com/onetickinfo)\n⬥ *Note: Point values, and one tick tiers are subject to change.*"
+  }
+
+}
+
+.embed:json
+
+.
+## __PvME Special Roles__
+.tag:SpecialRoles
 {
   "embed": {
     "color": 16711683,
     "thumbnail": { "url": "https://img.pvme.io/images/EPzzJe2xy6.gif" },
-    "description": "**\"Roles\" = Mastery only.**",
+    "description": "**\"Roles\" = Feats only.**\n\n These do not require the [PvM Records](https://discord.gg/AR5qErBGDs) roles ",
     "fields": [
       {
         "name": "**__Available Roles__**",
-        "value": "<@&976237003869933618>\n\u00a0\u00a0\u00a0\u00a0• Obtain 16 **Initiate** (or higher) roles\n\n<@&976237036858138664>\n\u00a0\u00a0\u00a0\u00a0• Obtain 16 **Adept** (or higher) roles\n\n<@&976237079115747369>\n\u00a0\u00a0\u00a0\u00a0• Obtain 16 **Master** (or higher) roles\n\n<@&976237108937244674>\n\u00a0\u00a0\u00a0\u00a0• Obtain 16 **Grandmaster** roles"
+        "value": "<@&1239733563822444665>\n\u00a0\u00a0\u00a0\u00a0• Obtain all feats up to and including **Adept** tier\n\n<@&1239733755762053272>\n\u00a0\u00a0\u00a0\u00a0• Obtain all feats up to and including **Master** tier\n\n<@&1239733887022792857>\n\u00a0\u00a0\u00a0\u00a0• Obtain all feats up to and including **Challenger** tier\n\n<@&1239734018606366722>\n\u00a0\u00a0\u00a0\u00a0• Obtain all feat roles"
       }
     ]
   }
 }
 .embed:json
-.
-## __Amascut, the Devourer__
-.tag:amascut
+Please post your submissions in <#827692629197324348> so that they can be reviewed by staff and/or role reviewers. Submissions will be evaluated according to our rules, as follows:
+
+## __Initiate Feats__
+These feats are for those who mastered the basics of a boss and want to start pushing themselves further.
+
+.tag:Initiate
 {
   "embed": {
-    "color": 1357157,
-    "thumbnail": {
-      "url": "https://runescape.wiki/images/Amascut_%28Eclipse_of_the_Heart%29_chathead.png?41ecb"
-    },
+    "title": "",
+    "color": 16623446,
     "fields": [
       {
         "name": "** **",
-        "value": "<@&1455641911267295285>\n\u00a0\u00a0\u00a0\u00a0• ≤ 9:00 at 500% enrage\n<@&1455642098442436618>\n\u00a0\u00a0\u00a0\u00a0• ≤ 8:30 at 1000% enrage\n<@&1455642256525758464>\n\u00a0\u00a0\u00a0\u00a0• ≤ 7:00 at 1000% enrage\n<@&1455642363455209574>\n\u00a0\u00a0\u00a0\u00a0• ≤ 7:00 at 2000% enrage"
-      }
-    ]
-  }
-}
-.embed:json
-.
-## __Arch-Glacor__
-.tag:Arch-Glacor
-{
-  "embed": {
-    "color": 9175039,
-    "thumbnail": {
-      "url": "https://runescape.wiki/images/Arch-Glacor.png?ac3e5"
-    },
-    "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills"
-    },
-    "fields": [
+        "value": "<@&958424174496481340>\n⬥ **Kill 1 boss in the least ticks possible as recognised by [PvM Records](https://www.pvm-records.com/)\n\n<@&1217991179996627036>\n**⬥ **Complete a solo Araxxor kill while executing a top path heal skip\n\n<@&1217987425977237664>\n**⬥ **Defeat Solak using a hatchet as your only main hand weapon**\n\u00a0\u00a0\u00a0\u00a0• This restriction applies to the whole team if doing it in a group\n\n<@&1217987575441129482>\n**⬥ Defeat Solak with the Wrath curse dealing the final blow**\n\u00a0\u00a0\u00a0\u00a0• For this you must die to the instakill attack caused by Solak's mind dying\n\n<@&1217996436168380525>\n**⬥ Defeat Vorkath in a hardmode encounter using only melee **\n\u00a0\u00a0\u00a0\u00a0• The Soul Link curse and Blood Reaver Familiar are not permitted\n\u00a0\u00a0\u00a0\u00a0• Restrictions apply to the whole team if doing it in a group"
+      },
       {
-        "name": "** **",
-        "value": "<@&1016477438986961028>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:00 at 1000%+ enrage\n<@&955542375952949318>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:30 at 2000%+ enrage\n<@&955542397515874304>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:00 at 2000%+ enrage\n<@&1016491214209556532>\n\u00a0\u00a0\u00a0\u00a0• ≤ 5:30 at 4000% enrage"
+      "name": "** **",
+      "value": "<@&860649063330611231>\n⬥ **Duo Yakamaru (Mirage phase)**\n\n<@&1217988276431098008>\n⬥ **Complete a hardmode Tzkal-Zuk run after clearing the triple jad wave with only your fists**\n\n<@&1239725420182769664>\n⬥ **Kill Seiryu in a single cycle, skip the BSD flight phase, and skip the Ambassador spinner phase in solo instances.**\n\u00a0\u00a0\u00a0\u00a0• In a row not required"
       }
     ]
   }
@@ -105,18 +86,22 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .embed:json
 
 .
-## __ED1: Temple of Aminishi (Solo)__
-.tag:ED1
+## __Adept Feats__
+A stuntman rises from the ashes. The encounters in this bracket will test your game knowledge and combat improvisation.
+
+.tag:Adept
 {
   "embed": {
-    "color": 1514853,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/LbesfGr.png"
-    },
+    "title": "",
+    "color": 10023406,
     "fields": [
       {
         "name": "** **",
-        "value": "<@&1016477762015469659>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:10 Sanctum Guardian, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:00 Masuta, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:30 Seiryu \n<@&793544353443741706>\n\u00a0\u00a0\u00a0\u00a0• ≤ 9:30 full run\n<@&793544647804059668>\n\u00a0\u00a0\u00a0\u00a0• ≤ 8:00 full run\n<@&951571855301562379>\n\u00a0\u00a0\u00a0\u00a0• ≤ 6:00 full run "
+        "value": "<@&1352284202497871952>\n**Achieve [Golden Daredevil](https://img.pvme.io/images/vJcULD6YNr.png)**\n\u00a0\u00a0\u00a0\u00a0• A list of the daredevil feats can be found [here](https://runescape.wiki/w/Hero_of_the_Goebies)\n\u00a0\u00a0\u00a0\u00a0• A screenshot of the achievement in the CA interface can be used in place of\n       a video\n\n<@&860648712493072435>\n**⬥ Kill Telos at 4000% enrage**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n<@&931940905752096859>\n⬥ **200ks at Arch-Glacor**\n\u00a0\u00a0\u00a0\u00a0• *Screenshot is acceptable*"
+      },
+      {
+        "name": "** **",
+        "value": "<@&1217987859034804245>\n⬥ **Complete the Lumbridge strikes back [achievement](https://runescape.wiki/w/Lumbridge_Strikes_Back) at 300% enrage on the top path of Araxxor**\n\u00a0\u00a0\u00a0\u00a0• Must use a [Spirit Spider](https://runescape.wiki/w/Spirit_spider) familiar\n\n<@&958424996135436368>\n⬥ **Solo Vorago NM on all 6 weeks**\n\n<@&576608533630681099>\n⬥ **Duo Vorago HM on all 6 weeks**\n\n<@&1014579309110898718>\n⬥ **Kill Zamorak at 4000% in a group**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n<@&1131195894046392462>\n⬥ **Achieve 14 points from One Tick submissions on the [PvM Records](https://www.pvm-records.com/onetickinfo) leaderboard**\n\u00a0\u00a0\u00a0\u00a0• More information can be found [here]($linkmsg_OneTicks$)"
       }
     ]
   }
@@ -124,18 +109,22 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .embed:json
 
 .
-## __ED2: Dragonkin Laboratory (Solo)__
-.tag:ED2
+## __Master Feats__
+The Daredevil rises. Your consistency is unparalleled and your guts immeasurable.
+
+.tag:Master
 {
   "embed": {
-    "color": 5651338,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/byVZh7g.png"
-    },
+    "title": "",
+    "color": 10415269,
     "fields": [
       {
         "name": "** **",
-        "value": "<@&1016477483018768414>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:00 Astellarn, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:00 Verak Lith, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:40 Blackstone Dragon\n<@&793544795707801640>\n\u00a0\u00a0\u00a0\u00a0• ≤ 10:00 full run\n<@&793544828251275315>\n\u00a0\u00a0\u00a0\u00a0• ≤ 9:00 full run\n<@&951571799752183809>\n\u00a0\u00a0\u00a0\u00a0• ≤ 7:00 full run"
+        "value": "@Last Man Standing\n⬥ **Defeat 4000% enrage Telos after killing __all__ minions that spawn on phases 4 and 5**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n@Ice Cold\n⬥ **Kill Arch-Glacor at 4000% enrage**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n@Wrath of Chaos\n⬥ **Kill Zamorak at 4000% in solo**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n@Hypothermic\n**⬥ Defeat Arch-Glacor at 2500% enrage with no overhead prayers or food**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted* [demo](https://youtu.be/I6R_otlp27o?si=0Rc6armrrp6fLMm7)**"
+      },
+      {
+        "name": "** **",
+        "value": "\n\n@Animaster\n⬥ **200ks at Telos**\n\u00a0\u00a0\u00a0\u00a0• *Screenshot is acceptable*\n\n@Zarosian Prodigy\n⬥ **Solo AoD**\n\n@Solo Mirage\n⬥ **Solo Yakamaru (Mirage phase)**\n\n@Master of Omens\n⬥ **Solo Hard Mode Vorago**\n\n@Tick Tactician  (PvM Records)\n⬥ **Achieve 36 points from One Tick submissions on the [PvM Records](https://www.pvm-records.com/onetickinfo) leaderboard**\n\u00a0\u00a0\u00a0\u00a0• More information can be found [here]($linkmsg_OneTicks$)\n\n@Record Holder (PvM Records)\n⬥ **Hold a current world record on [PvM Records](https://www.pvm-records.com/)**"
       }
     ]
   }
@@ -143,21 +132,18 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .embed:json
 
 .
-## __ED3: Shadow Reef (Solo)__
-.tag:ED3
+## __Grandmaster Feats__
+Some would call you crazy, others a madman. We prefer to call you a Feats Fiend.
+
+.tag:GM
 {
   "embed": {
-    "color": 5198952,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/qRBpfeH.png"
-    },
-  "footer": {
-      "text": "Note: -40 seconds for Ambassador skip"
-    },
+    "title": "",
+    "color": 9806836,
     "fields": [
       {
         "name": "** **",
-        "value": "<@&1016477644486885437>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:00 Crassian Leviathan, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:00 Taraket. and\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:30 Ambassador\n<@&793545248587644938>\n\u00a0\u00a0\u00a0\u00a0• ≤ 11:00 full run\n<@&793545272068014111>\n\u00a0\u00a0\u00a0\u00a0• ≤ 9:30 full run \n<@&915703338727792713>\n\u00a0\u00a0\u00a0\u00a0• ≤ 8:00 full run"
+        "value": "<@&1217988454059868210>\n⬥ **Defeat 4000% enrage Telos after killing __all__ minions that spawn on phases 4 and 5**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n<@&891176803245363200>\n⬥ **Kill Arch-Glacor at 4000% enrage**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n<@&1014579276093325323>\n⬥ **Kill Zamorak at 4000% in solo**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*\n\n<@&1129824908130668697>\n⬥ **Solo Hard Mode Vorago on all 6 weeks**"
       }
     ]
   }
@@ -165,21 +151,18 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .embed:json
 
 .
-## __Kerapac, the Bound (Solo HM)__
-.tag:Kerapac
+## __Challenger Feats__
+These ones are... challenging.
+
+.tag:Challenger
 {
   "embed": {
-    "color": 4220571,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/8LRCGjz.png"
-    },
-    "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills | HM = hard mode"
-    },
+    "title": "",
+    "color": 11218248,
     "fields": [
       {
         "name": "** **",
-        "value": "<@&1016477572965609552>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:30\n<@&930880180635979796>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:00\n<@&915705556600225833>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 2:30\n<@&932293281444945970>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:40"
+        "value": "<@&576608632565792786>\n⬥ **200ks at Telos with 4000% start**\n\u00a0\u00a0\u00a0\u00a0• No darts allowed\n\u00a0\u00a0\u00a0\u00a0• Must provide VODs + chests + quick chat KC\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Provide this for any kill between 2nd-10th AND final kill\n\n<@&1131381055220355172>\n⬥ **Defeat all Enrage bosses at 4000% in 1 inventory without banking**\n\u00a0\u00a0\u00a0\u00a0• *Reminder: practice mode is not permitted*"
       }
     ]
   }
@@ -187,214 +170,18 @@ In addition to all of the listed mastery objectives, we provide special roles fo
 .embed:json
 
 .
-## __Nex (Solo)__
-.tag:Nex
-{
-  "embed": {
-    "color": 12788795,
-    "thumbnail": {
-      "url": "https://runescape.wiki/images/Nex.png?67c8a"
-    },
-    "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1016477537838309436>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:50\n<@&566770740335083543>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:30 \n<@&536754824830517268>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:15\n<@&1014575136952832162>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:05\n\u00a0\u00a0\u00a0\u00a0• Dummy not allowed"
-      }
-    ]
-  }
-}
-.embed:json
+## __Insane Feats__
+Only the most reckless fighters would attempt such encounters, consistency and extreme skill are in display for the most gruelling challenges in this bracket.
 
-.
-## __Nex, Angel of Death__
-.tag:NexAoD
+.tag:Insane
 {
   "embed": {
-    "color": 12660811,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/rMbx4mo2H2.png"
-    },
-    "description": "**Nex, Angel of Death or FC trial kills are not allowed.**",
-    "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills"
-    },
+    "title": "",
+    "color": 16711683,
     "fields": [
       {
         "name": "** **",
-        "value": "<@&1016477365880238170>\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:00 7-man, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:30 4-man or\n\u00a0\u00a0\u00a0\u00a0• 7-man tag in Nex, Angel of Death Discord\n<@&566767711884017686>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:40 7-man, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:30 4-man, or\n\u00a0\u00a0\u00a0\u00a0• Member of Nex AoD FC\n<@&536406816980992032>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:20 7-man, or\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:50 4-man\n<@&1016508733712515143>\n\u00a0\u00a0\u00a0\u00a0• extreme tag in Nex Aod FC, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:20 4-man"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Raksha__
-.tag:Raksha
-{
-  "embed": {
-    "color": 9135043,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/8TO6d0O.png"
-    },
-    "footer": {
-      "text": "Note: solo or duo | B2B = back-to-back consecutive kills"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1016477619929219113>\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:10\n<@&789261196960071700>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:40\n<@&785434303353454593>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:20\n<@&1016513589319843850>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:05"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Sanctum of Rebirth (HM)__
-.tag:Sanctum
-{
-  "embed": {
-    "color": 3705488,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/Rs5fBEO7xu.png"
-    },
-    "footer": {
-      "text": "Notes:\n\u00a0\u00a0\u00a0\u00a0• Note 1: HM = hard mode\n\u00a0\u00a0\u00a0\u00a0• Note 2: Does not need to be the same run\n\u00a0\u00a0\u00a0\u00a0• Note 3: Timers are farming timers and therefore submissions including excessive prebuilds will be rejected"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1274898395206651904>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:40 Vermyx, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:30 Kezalam, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:00 Nakatra\n<@&1274898520188391505> \n\u00a0\u00a0\u00a0\u00a0• ≤ 1:30 Vermyx, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:00 Kezalam, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:00 Nakatra\n<@&1274898553789222922>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:21 Vermyx, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:45 Kezalam, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:24 Nakatra\n<@&1274898577876848701>\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:04 Vermyx, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:20 Kezalam, and\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:40 Nakatra"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Solak__
-.tag:Solak
-{
-  "embed": {
-    "color": 14988661,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/zrchAcA.png"
-    },
-  "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1016477666481803305>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:45 group, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 6:30 solo\n<@&860646298868383744>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:30 group, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:30 solo\n<@&566770753601536010>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 3:30 solo, or\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 2:30 duo, or\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 2:20 4s\n<@&536406300653912064>\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:45 solo, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:10 duo, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 1:55 4s"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Telos, the Warden__
-.tag:Telos
-{
-  "embed": {
-    "color": 6141133,
-    "thumbnail": {
-      "url": "https://runescape.wiki/images/thumb/Telos%2C_the_Warden.png/200px-Telos%2C_the_Warden.png?99e18"
-    },
-    "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1014585042237931530>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:00 at 1000%+\n<@&860646088934293554>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:20 at 1000%\n<@&566770756227170305>\n\u00a0\u00a0\u00a0\u00a0• B2B Style camp ≤ 2:50 at 2449%+\n<@&983855784288981072>\n\u00a0\u00a0\u00a0\u00a0• Style camp ≤ 2:20 at 2449%+"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __TzKal-Zuk__ (HM)
-.tag:TzKal-Zuk
-{
-  "embed": {
-    "color": 11286325,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/OmNkPgY.png"
-    },
-    "footer": {
-      "text": "Notes:\n\u00a0\u00a0\u00a0\u00a0• Note 1: HM = hard mode \n\u00a0\u00a0\u00a0\u00a0• Note 2: -10 seconds from timer per Death Mark bug on pillars"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1016477831552848012>\n\u00a0\u00a0\u00a0\u00a0• ≤ 20:00\n<@&931064546788012043>\n\u00a0\u00a0\u00a0\u00a0• ≤ 15:00 \n<@&931064588655525909>\n\u00a0\u00a0\u00a0\u00a0• ≤ 13:00\n<@&931064626370715718>\n\u00a0\u00a0\u00a0\u00a0• ≤ 9:30"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Vorago__
-.tag:Vorago
-{
-  "embed": {
-    "color": 9006658,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/m8tni0t.png"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "[View timers](https://img.pvme.io/images/XWfcWMmiDj.png)\n\n\u00a0\u00a0<@&1016477798585602079>\n\u00a0\u00a0<@&566770742986014721>\n\u00a0\u00a0<@&536399965728014336>\n\u00a0\u00a0<@&957378628197433365>"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Zamorak: Lord of Chaos__
-.tag:Zamorak
-{
-  "embed": {
-    "color": 10429986,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/MxjjyFAZqK.png"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1039714497956421702>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:30 at 200%+ enrage group, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 5:00 at 200%+ enrage solo\n<@&1039714566118047765>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:30 at 500%+ enrage group, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 5:00 at 500%+ enrage solo or\n\u00a0\u00a0\u00a0\u00a0• ≤ 7:00 at 1000%+ enrage solo\n<@&1039714604730818581>\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:50 at 2000%+ enrage group, or\n\u00a0\u00a0\u00a0\u00a0• ≤ 5:30 at 2000%+ enrage solo \n<@&1039714654215213147>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:40 at 2000%+ enrage group or\n\u00a0\u00a0\u00a0\u00a0• ≤ 4:40 at 2000%+ enrage solo"
-      }
-    ]
-  }
-}
-.embed:json
-
-.
-## __Zemouregal & Vorkath__ (HM)
-.tag:Vorkath
-{
-  "embed": {
-    "color": 6397364,
-    "thumbnail": {
-      "url": "https://img.pvme.io/images/5EVPyccjtb.png"
-    },
-    "footer": {
-      "text": "Note: B2B = back-to-back consecutive kills | HM = hard mode"
-    },
-    "fields": [
-      {
-        "name": "** **",
-        "value": "<@&1187948020923367505>\n\u00a0\u00a0\u00a0\u00a0• ≤ 3:45\n<@&1187948551133732864>\n\u00a0\u00a0\u00a0\u00a0• ≤ 2:45\n<@&1187948833322324008>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:30\n<@&1187948984308875324>\n\u00a0\u00a0\u00a0\u00a0• B2B ≤ 1:00"
+        "value": "<@&1217988592849256468>\n⬥ **200ks at Arch-glacor with 4000% start**\n\u00a0\u00a0\u00a0\u00a0• No darts allowed\n\u00a0\u00a0\u00a0\u00a0• Must provide VODs + chests + quick chat KC\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Provide this for any kill between 2nd-10th AND final kill\n\n<@&1131261731046428753>\n⬥ **Achieve [Golden Daredevil](https://img.pvme.io/images/vJcULD6YNr.png) in duo**\n\u00a0\u00a0\u00a0\u00a0• A list of the daredevil feats can be found [here](https://runescape.wiki/w/Hero_of_the_Goebies)\n\u00a0\u00a0\u00a0\u00a0•This includes puzzle completion; another account may be used to avoid lockout\n\n<@&1131195978578395187>\n⬥ **Kill all bosses in the least ticks possible as recognised by [PvM Records](https://www.pvm-records.com)**"
       }
     ]
   }
@@ -409,17 +196,12 @@ In addition to all of the listed mastery objectives, we provide special roles fo
     "fields": [
       {
         "name": "__Information__",
-        "value": "⬥ [Introduction]($linkmsg_Introduction$)\n⬥ [Submissions]($linkmsg_Submissions$)\n⬥ [Special Roles]($linkmsg_Special$)",
+        "value": "⬥ [Introduction]($linkmsg_Introduction$)\n⬥ [Submissions]($linkmsg_Submissions$)\n⬥ [Rules]($linkmsg_Rules$)\n⬥ [One Ticks]($linkmsg_OneTicks$)\n⬥ [Special Roles]($linkmsg_SpecialRoles$)",
         "inline": true
       },
       {
-        "name": "__Bosses [A-R]__",
-        "value": "⬥ [Amascut]($linkmsg_amascut$)\n⬥ [Arch-Glacor]($linkmsg_Arch-Glacor$)\n⬥ [ED1]($linkmsg_ED1$)\n⬥ [ED2]($linkmsg_ED2$)\n⬥ [ED3]($linkmsg_ED3$)\n⬥ [Kerapac]($linkmsg_Kerapac$)\n⬥ [Nex]($linkmsg_Nex$)\n⬥ [Nex, AoD]($linkmsg_NexAoD$)\n⬥ [Raksha]($linkmsg_Raksha$)",
-        "inline": true
-      },
-      {
-        "name": "__Bosses [S-Z]__",
-        "value": "⬥ [Sanctum of Rebirth]($linkmsg_Sanctum$)\n⬥ [Solak]($linkmsg_Solak$)\n⬥ [Telos]($linkmsg_Telos$)\n⬥ [TzKal-Zuk]($linkmsg_TzKal-Zuk$)\n⬥ [Vorago]($linkmsg_Vorago$)\n⬥ [Zamorak]($linkmsg_Zamorak$)\n⬥ [Zemouregal & Vorkath]($linkmsg_Vorkath$)",
+        "name": "__Feats__",
+        "value": "⬥ [Initiate]($linkmsg_Initiate$)\n⬥ [Adept]($linkmsg_Adept$)\n⬥ [Master]($linkmsg_Master$)\n⬥ [Grandmaster]($linkmsg_GM$)\n⬥ [Challenger]($linkmsg_Challenger$)\n⬥ [Insane]($linkmsg_Insane$)",
         "inline": true
       }
     ]
