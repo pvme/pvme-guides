@@ -158,8 +158,19 @@ Only the most reckless fighters would attempt such encounters, consistency and e
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_Introduction$)\n⬥ [Submissions]($linkmsg_Submissions$)\n⬥ [Rules]($linkmsg_Rules$)\n⬥ [SpecialRoles]($linkmsg_SpecialRoles$)\n⬥ [Initiate]($linkmsg_Initiate$)\n⬥ [Adept]($linkmsg_Adept$)\n⬥ [Master]($linkmsg_Master$)\n⬥ [GM]($linkmsg_GM$)\n⬥ [Insane]($linkmsg_Insane$)",
-    "color": 39423
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Information__",
+        "value": "⬥ [Introduction]($linkmsg_Introduction$)\n⬥ [Submissions]($linkmsg_Submissions$)\n⬥ [Rules]($linkmsg_Rules$)\n⬥ [Special Roles]($linkmsg_SpecialRoles$)",
+        "inline": true
+      },
+      {
+        "name": "__Feats__",
+        "value": "⬥ [Initiate]($linkmsg_Initiate$)\n⬥ [Adept]($linkmsg_Adept$)\n⬥ [Master]($linkmsg_Master$)\n⬥ [Grandmaster]($linkmsg_GM$)\n⬥ [Insane]($linkmsg_Insane$)",
+        "inline": true
+      }
+    ]
   }
 }
 .embed:json
