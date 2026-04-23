@@ -59,8 +59,6 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 
 .
 ### Other Ability Interactions
-⬥ **Detonate** <:deto:535533833358016512>
-    • Can be released mid-GCD if queueing is enabled - this is not possible with it disabled.
 ⬥ **Stalled Abilities**
     • Stalled abilities can be released mid-GCD (using spells on an action bar) if queueing is enabled - this is not possible with it disabled.
 
@@ -106,30 +104,18 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
     • Casting an ability outside your attack range and not interrupting the action, your character will run in and release it automatically.
 ⬥ **Method 2: Click Release**
     • After stalling an ability, click your target to release the stalled ability.
-⬥ **Method 3: Spell Release**
-    • After stalling an ability, use a debuff spell like <:smokecloud:856635090641879050> <:ent:567727987274022924> <:Vuln:537349530551582720> from your ability bar to release the stalled ability.
-    • *You must have the runes required to cast the spell*, but a weapon is not required.
-
-*Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack. See the differences between **Click and Spell Release** below.*
-
-.
-### Differences between Click and Spell Release
-⬥ Click release is limited to the target you stall on - spell release does not have this restriction.
-⬥ Click release can be done mid-GCD at any time - spell release can only do this if using an auto *with ability queueing on.*
-⬥ After a click release, the next ability must be at least 1 tick afterwards. With spell release, the next ability can be on the same tick as the spell release of the stalled ability.
-⬥ Spell release replaces your next auto with the spell used to release.
-    • Use Cease <:cease:864235458464186418> + click target to clear this.
-    • Not an issue when using Magic <:Magic:689504724159823906> - you can just hit a different spell keybind for your intended auto.
+⬥ **Method 3: Target Cycle Release**
+    • After stalling an ability, target cycle to an enemy within attack range to release the stalled ability.
 
 .
 ## __Adrenaline Management__
 .tag:adren
-Adrenaline is generated when players use auto attacks and basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannot use at any given point.
+Adrenaline is generated when players use basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannot use at any given point.
 
 There are a couple different mechanics to note with regard to adrenaline.
 ⬥ Stalling adrenaline to not lose it out of combat.
 ⬥ Gaining adrenaline even without a target under some circumstances.
-⬥ Deliberately losing your target to use some abilities (like Reflect <:reflect:535541258786177064> or Detonate <:deto:535533833358016512>) without costing adrenaline.
+⬥ Deliberately losing your target to use some abilities (like Reflect <:reflect:535541258786177064> ) without costing adrenaline.
 ⬥ Adrenaline gained from certain actions may feel 'delayed' (covered below).
 
 .
@@ -190,32 +176,6 @@ There are a couple different mechanics to note with regard to adrenaline.
 *Note: For more information, see the section on __**Ability Queueing**__ (linked in the pinned message).*
 
 .
-## __Berserker Auras__ <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
-.tag:zerkaura
-### How It Works
-⬥ Berserker-variant auras exist for each style:
-    • Berserker <:berserker:643505116347105290> for <:melee:1096130867279171706>
-    • Reckless <:reckless:643505179378974748> for <:range:580168050121113623>
-    • Maniacal <:mani:643505153709965322> for <:Magic:689504724159823906>
-⬥ They provide the following boosts:
-    • **Invisible** +10% to damage.
-    • **Invisible** +10% to accuracy.
-    • Boosts the corresponding attack stats (Attack + Strength, Ranged, or Magic) by 10%.
-    • Increases all damage taken (except hard typeless) by 15%.
-    • Reduces defence level by 15%.
-.
-### Interactions with Damage-Boosting Ultimates
-⬥ The invisible +10% damage boost from berserker-variant auras **does not stack** with damage-boosting ultimates. These are:
-    • Berserk <:zerk:535532854004678657>
-    • Death's Swiftness <:deathsswift:994921434633744455>
-    • Sunshine <:sunshine:994921119381463070>
-⬥ However, the damage boost from ultimates is **on-cast**, while the aura damage boost is **on-hit**.
-⬥ This interaction makes it so that if you cast an ability on *during* an ultimate, but it lands/hits *after* the ultimate ends, it stacks both the ult and the aura buff.
-⬥ In the following image, the same ability is cast twice: on** the left it casts and hits during <:zerk:535532854004678657>,** and **on the right it's cast on during <:zerk:535532854004678657> but hits after <:zerk:535532854004678657> ends** - see the damage difference.
-.img:https://img.pvme.io/images/7p6v2bc.png
-***Note**: this interaction does **not** work if you queue an ability on the last tick of an ultimate*.
-
-.
 ## __Camera Shaking__
 .tag:shake
 ### How It Works
@@ -250,24 +210,18 @@ There are a couple different mechanics to note with regard to adrenaline.
 ⬥ **(Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:1087373968731811880>**
     • Each hit increases the next magic abilities critical strike chance by 5%.
     • This caps at 15% after the 3rd hit.
-⬥ **Meteor Strike <:meteorstrike:535532879359377439>, Tsunami <:tsunami:535533809995874304> and Incendiary Shot <:incend:535541258429661215>**
-    • All three abilities provide a 30s buff that grants 10% adrenaline for every critical hit.
-    • The buff starts from when the abilities hit the target (on-cast for <:tsunami:535533809995874304> / <:meteorstrike:535532879359377439>, and when it detonates for <:incend:535541258429661215>).
-    • If the Corbicula Rex perk **No Fear** is owned, it increases the critical strike chance of <:meteorstrike:535532879359377439> by 20% (tier 1) / 40% (tier 2).
 ⬥ **Smoke Tendrils** <:smoketendrils:536257336130404372>
     • All hits of <:smoketendrils:536257336130404372> will always crit.
 .
 ⬥ The following abilities cannot do critical hits, **regardless** of what they actually hit.
-    • Dismember <:dismember:535532879376023572>
-    • Slaughter <:slaughter:535532879237873666>
-    • Blood Tendrils <:bloodtendrils:535532854327640064>
-    • Massacre <:massacre:535532879384543253> (bleed hits)
-    • Combust <:comb:535533833098100745>
-    • Corruption Blast <:corruptblast:513190159194259467>
+    • Dismember <:dismember:1478062910113714297>
+    • Slaughter <:slaughter:1478062904732418159>
+    • Massacre <:massacre:1478062911619469495> (bleed hits)
+    • Combust <:combust:1478063107908702482>
+    • Corruption Blast <:corruptionblast:1478063113659093075>
     • Magma Tempest <:magmatempest:902209626509025290>
-    • Frag Shot <:frag:535541273755385885>
     • Corruption Shot <:corruptshot:535541306294796299>
-    • Deadshot <:deadshot:535541307666595870> (bleed hits)
+    • Deadshot <:deadshot:1478061860371828929> (bleed hits)
 
 .
 ### Items That Affect Critical Hits
@@ -463,18 +417,16 @@ This section covers the difference between an NPC's **centre** and **coordinate*
     • Corruption Shot <:corruptshot:535541306294796299>
     • (Greater) Ricochet <:grico:787904334812807238> / <:ricochet:535541259566186521>
     • Bombardment <:bombard:535541306391265284>
-    • Incendiary Shot <:incend:535541258429661215>
     • All attacks with Mechanical Chinchompas <:mechchin:641669268722810881>
 ⬥ **Magic abilities:**
-    • Corruption Blast <:corruptblast:513190159194259467>
+    • Corruption Blast <:corruptionblast:1478063113659093075>
     • (Greater) Chain <:gchain:1257440278512537740> / <:chain:1257440203401068566>
-    • Detonate <:deto:535533833358016512>
     • All burst/barrage auto attacks <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>
 ⬥ We can use this information to predict where our AoEs will begin from and what targets they will hit, as show in the following illustration.
 .img:https://img.pvme.io/images/kr61SvG.png
 ⬥ See the picture below for an example of this behaviour - Detonate <:deto:535533833358016512> will only hit the south dragon in A, but it will hit both dragons in Scenario B (both dragons are **3x3** in size).
 .img:https://img.pvme.io/images/NhmICrb.png
-*Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
+*Note: For <:corruptshot:535541306294796299> / <:corruptionblast:1478063113659093075> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
 
 .
 ## __NPC Facing and Flanking__
@@ -600,7 +552,7 @@ etc.
     • This works because the auto attack attempts to stop your character, even if it's on cooldown.
 .
 ⬥ The following channeled abilities are exceptions:
-    • Players can walk during <:melee:1096130867279171706> Melee channels (<:assault:535532855191928842> / <:destroy:535532879330148352> / <:flurry:864492981763702834>) on any *non-cast tick*.
+    • Players can walk during <:melee:1096130867279171706> Melee channels (<:assault:535532855191928842> / <:flurry:864492981763702834>) on any *non-cast tick*.
         ⬩ Cast ticks are ticks 1/3/5/7, so players can move on ticks on ticks 2/4/6/8 and not cancel the channel.
     • Players can walk during Rapid Fire <:rapid:535541270521708566> if wearing Fleeting Boots <:fleetingboots:789813993480388640>
     • Players can walk during Snipe <:snipe:535541258425204770> if wearing <:nightmaregauntlets:513190159441723392>
@@ -758,7 +710,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • Examples include Araxxor's Egg Bomb special attack, Vorago's damage on drop-down or his Red Bomb attacks.
 ⬥ **Soft Typeless**
     • This damage is affected by most damage modifiers.
-    • It is also increased by effects like Berserk <:zerk:535532854004678657> and Berserker aura variants <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>.
+    • It is also increased by effects like Berserk <:zerk:535532854004678657> .
     • Examples include Telos' rockfall damage, and Nex, AoD's 'Elements' special attack.
 
 .
@@ -804,7 +756,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • Modifiers that reduce incoming damage will reduce <:Veng:543478434953822208> damage since you will take a smaller hit.
         ⬩ e.g. Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> / Intercept <:Cept:543478434509357098>
     • Modifiers that increase incoming damage will also increase <:Veng:543478434953822208> damage as you take a bigger hit
-        ⬩ e.g. Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> / Berserk <:zerk:535532854004678657>
+        ⬩ e.g. Berserk <:zerk:535532854004678657>
 
 .
 ## __Walking Monsters__
@@ -938,7 +890,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     "fields": [
       {
         "name": "__Mechanics (1/3)__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)\n⬥ [Grimshaw]($linkmsg_grimshaw$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)\n⬥ [Grimshaw]($linkmsg_grimshaw$)",
         "inline": true
       },
       {
