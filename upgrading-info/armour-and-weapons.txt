@@ -18,12 +18,22 @@
     • Hybrid gear incurs no penalty
     • This penalty is near-doubled (0.8 → 1.5) when using the Necromancy combat style.
 ⬥ Some armour sets have **set effects** which may be useful
-
 .
 {
   "embed": {
     "title": "__Index of Armour__",
     "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/w/Armoury)\n⬥ Armour in **bold** is worth being aware of, they will be elaborated on after or are recommended in the respective upgrade order\n⬥ Use `!armour` to see DPS difference between the armour\n⬥ Generally speaking, use **power armour**",
+    "color": 39423
+  }
+}
+.embed:json
+.
+### Melee Armour
+.tag:meleearmour
+{
+  "embed": {
+    "title": "",
+    "description": "",
     "color": 39423,
     "fields": [
       {
@@ -33,14 +43,27 @@
       },
             {
               "name": "__Tank Armour__ <:melee:1096130867279171706>",
-        "value": "⬥ Barrows Armour <:veracbody:854475442190549042> (T70)\n⬥ Tetsu <:TetsuBody:556586038911565824> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtoteralithbody:583428622136901633> (T90)",
+        "value": "⬥ Barrows Armour <:veracbody:854475442190549042> (T70)\n⬥ Tetsu <:TetsuBody:556586038911565824> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto Teralith <:achtoteralithbody:583428622136901633> (T90)",
         "inline": true
       },
             {
               "name": "__Notable Armour__ <:melee:1096130867279171706>",
         "value": "⬥ <:vestmentsofhavoctop:994189295592161291> (Vestments of Havoc) has effects that greatly benefit melee\n\u00a0\u00a0\u00a0\u00a0• Does T100 damage and has armour equal to T75 power armour",
         "inline": false
-      },
+      }
+    ]
+  }
+}
+.embed:json
+.
+### Ranged Armour
+.tag:rangedarmour
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
       {
         "name": "__Power Armour__ <:range:580168050121113623>",
         "value": "⬥ Armadyl Armour <:armaplate:643150997828403231> (T70)\n⬥ Ancient Warrior <:superiormorrigansbody:556586036885717012> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:superiormorrigansbody:556586036885717012> is T88\n⬥ Pernix Armour <:pernixbody:641672159051120651> (T80)\n⬥ Anima Armour <:animabodyzamorak:1037460753692770384> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ Elite Robinhood <:EliteRobinHoodTop:556585903489810454> (T82)\n⬥ **Sirenic** <:sirenicbody:643846948570267648> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitesirenicbody:643846908305211413> is T92\n⬥ **Dracolich** <:dracolichbody:1179717045412180019> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:edracobody:1179717430436704306>  is T92\n⬥ Masterwork <:mwrbody:1487224497391276082> (T99)",
@@ -48,29 +71,55 @@
       },
             {
               "name": "__Tank Armour__ <:range:580168050121113623>",
-        "value": "⬥ Karil's Armour (T70)\n⬥ Death Lotus <:deathlotus:513204675948838922> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtotempestbody:583428622094958612> (T90)",
+        "value": "⬥ Karil's Armour (T70)\n⬥ Death Lotus <:deathlotus:513204675948838922> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto Tempest <:achtotempestbody:583428622094958612> (T90)",
         "inline": true
       },
             {
               "name": "__Notable Armour__ <:range:580168050121113623>",
         "value": "⬥ <:sirenicbody:643846948570267648> (Sirenic) is solid cheap ranged power armour\n⬥ <:edracobody:1179717430436704306> (Elite Dracolich) is very strong ranged power armour when used with a bow",
         "inline": false
-      },
+      }
+    ]
+  }
+}
+.embed:json
+.
+### Magic Armour
+.tag:magicarmour
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
       {
         "name": "__Power Armour__ <:magic:689504724159823906>",
-        "value": "⬥ Subjugation Armour <:subjgarb:643151011199975434> (T70)\n⬥ Ancient Warrior <:zurieltop:1004090526250827867> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:SuperiorZurielstop:556586037216804864> is T88\n⬥ Nex Armour <:VirtusTop:556586038936600603> (T80)\n⬥ Anima Armour <:animabodyseren:923248695846273054> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ **Tectonic** <:tectbody:643849268804714506> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitetectbody:552955120707698699> is T92\n⬥ **Tumeken's resplendence** <:tumekenrobetop:1400500746377625790> (T95)\n⬥ Masterwork <:mwmrobetop:1388314908638183514> (T99)",
+        "value": "⬥ Subjugation Armour <:subjgarb:643151011199975434> (T70)\n⬥ Ancient Warrior <:zurieltop:1004090526250827867> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:SuperiorZurielstop:556586037216804864> is T88\n⬥ Virtus Armour <:VirtusTop:556586038936600603> (T80)\n⬥ Anima Armour <:animabodyseren:923248695846273054> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ **Tectonic** <:tectbody:643849268804714506> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitetectbody:552955120707698699> is T92\n⬥ **Tumeken's resplendence** <:tumekenrobetop:1400500746377625790> (T95)\n⬥ Masterwork <:mwmrobetop:1388314908638183514> (T99)",
         "inline": true
       },
             {
               "name": "__Tank Armour__ <:magic:689504724159823906>",
-        "value": "⬥ Ahrim's Armour (T70)\n⬥ Ganodermic <:ganobody:1003947805611655208> (T75)\n⬥ Seasinger <:seasingershood:556583076050763776> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtoprimevaltop:641344704939819028> (T90)\n⬥ **Cryptbloom** <:cryptbloomtop:1334336168363561041>  (T90)",
+        "value": "⬥ Ahrim's Armour (T70)\n⬥ Ganodermic <:ganobody:1003947805611655208> (T75)\n⬥ Seasinger <:seasingershood:556583076050763776> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto Primeval <:achtoprimevaltop:641344704939819028> (T90)\n⬥ **Cryptbloom** <:cryptbloomtop:1334336168363561041>  (T90)",
         "inline": true
       },
             {
               "name": "__Notable Armour__ <:magic:689504724159823906>",
         "value": "⬥ <:tumekenrobetop:1400500746377625790> (Tumeken's resplendence) is very strong magic power armour\n⬥ <:cryptbloomtop:1334336168363561041> (Cryptbloom) is often the best tank armour in game - see `!crypt`",
         "inline": false
-      },
+      }
+    ]
+  }
+}
+.embed:json
+.
+### Necromancy Armour
+.tag:necromancyarmour
+{
+  "embed": {
+    "title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
       {
         "name": "__Power Armour__ <:necromancy:1148995625896120460>",
         "value": "⬥ Deathdealer <:dealertop80:1142783476169441401> (T70, T80, T90)\n⬥ **The First Necromancer's** <:firstnecrorobetop:1206664820682657822> (T95)",
@@ -209,12 +258,12 @@
 ⬥ <:cywirwand:643161591571021824> <:cywirorb:643161591210049556> with <:gconc:869285393223254107> are your primary magic DW until purchasing <:roarofawakening:1266417538045317121> <:odetodeceit:1266417683058917517>. They do T80 damage but have T90 accuracy
 
 .
-### T90-95 Weapons
+### T90-100 Weapons
 .
 {
   "embed": {
     "title": "__Index of Weapons__",
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/w/Armoury)\n⬥ Weapons in **bold** are worth being aware of, they will be elaborated on after",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/w/Armoury)\n⬥ Weapons in **bold** are worth being aware of, they will be elaborated on after\n⬥ T95 weapons can be sharded <:shardofgenesisessence:1266418218264694954> to T100",
     "color": 39423,
     "fields": [
       {
@@ -233,7 +282,7 @@
         "inline": true
       },
       {
-        "name": "__Tier 99__",
+        "name": "__Tier 100__",
         "value": "⬥ Masterwork staff <:masterworkstaff:1359114222398603365>\n⬥ Masterwork bow <:masterworkbow:1359114183186321575>\n⬥ Masterwork 2h <:masterwork2hsword:1274330676061278334>",
         "inline": true
       }
@@ -466,7 +515,7 @@
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Armour Overview]($linkmsg_armour$)\n⬥ [Gloves]($linkmsg_gloves$)\n⬥ [Boots & Capes]($linkmsg_bootsandcapes$)\n⬥ [Weapons]($linkmsg_weapons$)\n⬥ [Shields & Defenders]($linkmsg_shields$)\n⬥ [Rings]($linkmsg_rings$)\n⬥ [Necklaces]($linkmsg_necklaces$)\n⬥ [Skillcape Perks]($linkmsg_capeperks$)\n⬥ [Pocket Slots]($linkmsg_pocket$)\n⬥ [Ammo Slots]($linkmsg_ammo$)\n⬥ [Banking Preset]($linkmsg_bank$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Armour Overview]($linkmsg_armour$)\n\u00a0\u00a0\u00a0\u00a0• [Melee Armour]($linkmsg_meleearmour$)\n\u00a0\u00a0\u00a0\u00a0• [Ranged Armour]($linkmsg_rangedarmour$)\n\u00a0\u00a0\u00a0\u00a0• [Magic Armour]($linkmsg_magicarmour$)\n\u00a0\u00a0\u00a0\u00a0• [Necromancy Armour]($linkmsg_necromancyarmour$)\n⬥ [Gloves]($linkmsg_gloves$)\n⬥ [Boots & Capes]($linkmsg_bootsandcapes$)\n⬥ [Weapons]($linkmsg_weapons$)\n⬥ [Shields & Defenders]($linkmsg_shields$)\n⬥ [Rings]($linkmsg_rings$)\n⬥ [Necklaces]($linkmsg_necklaces$)\n⬥ [Skillcape Perks]($linkmsg_capeperks$)\n⬥ [Pocket Slots]($linkmsg_pocket$)\n⬥ [Ammo Slots]($linkmsg_ammo$)\n⬥ [Banking Preset]($linkmsg_bank$)",
     "color": 39423
   }
 }
