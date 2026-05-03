@@ -16,7 +16,7 @@
 ⬥ Wearing off-style armour slots (excluding cape slot) provides an accuracy penalty based on armour bonus
     • "Off-style" is any style that does not match your equipped main hand / 2H weapon
     • Hybrid gear incurs no penalty
-    • This penalty is near-doubled (0.8→1.5) when using the Necromancy combat style.
+    • This penalty is near-doubled (0.8 → 1.5) when using the Necromancy combat style.
 ⬥ Some armour sets have **set effects** which may be useful
 
 .
@@ -27,44 +27,81 @@
     "color": 39423,
     "fields": [
       {
-        "name": "__Power Armour__ <:melee:1096130867279171706> <:magic:689504724159823906> <:range:580168050121113623>",
-        "value": "⬥ GWD1 Armour <:subjgarb:643151011199975434> (T70)\n⬥ Ancient Warrior <:zurieltop:1004090526250827867> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:SuperiorZurielstop:556586037216804864> is T88\n⬥ **Nex Armour** <:VirtusTop:556586038936600603> (T80)\n⬥ **Anima Armour** <:animabodyseren:923248695846273054> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ Elite Robinhood <:EliteRobinHoodTop:556585903489810454> (T82)\n⬥ Tectonic <:tectbody:643849268804714506> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitetectbody:552955120707698699> is T92\n⬥ Sirenic <:sirenicbody:643846948570267648> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitesirenicbody:643846908305211413> is T92\n⬥ **Dracolich** <:dracolichbody:1179717045412180019> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:edracobody:1179717430436704306>  is T92\n⬥ Masterwork <:masterworkbody:643847056527458324> (T90)\n\u00a0\u00a0\u00a0\u00a0• Trimmed <:tmwbody:643847118196441088> is T92\n⬥ Malevolent <:malevbody:643846996842512405> (T90)\n⬥ **Vestments of Havoc** <:vestmentsofhavoctop:994189295592161291> (T95)",
+        "name": "__Power Armour__ <:melee:1096130867279171706>",
+        "value": "⬥ Bandos Armour <:bandoschest:643151021748518917> (T70)\n⬥ Ancient Warrior <:superiorvestasbody:556586037149958175> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:superiorvestasbody:556586037149958175> is T88\n⬥ Torva Armour <:torvaplatebody:556586038974480424> (T80)\n⬥ Anima Armour <:animabodyzaros:1037460747648778250> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ **Masterwork** <:masterworkbody:643847056527458324> (T90)\n\u00a0\u00a0\u00a0\u00a0• Trimmed <:tmwbody:643847118196441088> is T92\n⬥ Malevolent <:malevbody:643846996842512405> (T90)\n⬥ **Vestments of Havoc** <:vestmentsofhavoctop:994189295592161291> (T95)",
         "inline": true
       },
             {
-              "name": "__Tank Armour__ <:melee:1096130867279171706> <:magic:689504724159823906> <:range:580168050121113623> <:necromancy:1148995625896120460>",
-        "value": "⬥ Barrows Armour <:veracbody:854475442190549042> (T70)\n⬥ Deathwarden <:wardentop80:1142784247543894056> (T70, T80, T90)\n⬥ **Ganodermic** <:ganobody:1003947805611655208> (T75)\n⬥ Ports <:TetsuBody:556586038911565824> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtoprimevaltop:641344704939819028> (T90)\n⬥ **Cryptbloom** <:cryptbloomtop:1334336168363561041>  (T90)",
+              "name": "__Tank Armour__ <:melee:1096130867279171706>",
+        "value": "⬥ Barrows Armour <:veracbody:854475442190549042> (T70)\n⬥ Tetsu <:TetsuBody:556586038911565824> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtoteralithbody:583428622136901633> (T90)",
         "inline": true
+      },
+            {
+              "name": "__Notable Armour__ <:melee:1096130867279171706>",
+        "value": "⬥ <:vestmentsofhavoctop:994189295592161291> (Vestments of Havoc) has effects that greatly benefit melee\n\u00a0\u00a0\u00a0\u00a0• Does T100 damage and has armour equal to T75 power armour",
+        "inline": false
+      },
+      {
+        "name": "__Power Armour__ <:range:580168050121113623>",
+        "value": "⬥ Armadyl Armour <:armaplate:643150997828403231> (T70)\n⬥ Ancient Warrior <:superiormorrigansbody:556586036885717012> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:superiormorrigansbody:556586036885717012> is T88\n⬥ Pernix Armour <:pernixbody:641672159051120651> (T80)\n⬥ Anima Armour <:animabodyzamorak:1037460753692770384> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ Elite Robinhood <:EliteRobinHoodTop:556585903489810454> (T82)\n⬥ **Sirenic** <:sirenicbody:643846948570267648> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitesirenicbody:643846908305211413> is T92\n⬥ **Dracolich** <:dracolichbody:1179717045412180019> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:edracobody:1179717430436704306>  is T92\n⬥ Masterwork <:mwrbody:1487224497391276082> (T99)",
+        "inline": true
+      },
+            {
+              "name": "__Tank Armour__ <:range:580168050121113623>",
+        "value": "⬥ Karil's Armour (T70)\n⬥ Death Lotus <:deathlotus:513204675948838922> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtotempestbody:583428622094958612> (T90)",
+        "inline": true
+      },
+            {
+              "name": "__Notable Armour__ <:range:580168050121113623>",
+        "value": "⬥ <:sirenicbody:643846948570267648> (Sirenic) is solid cheap ranged power armour\n⬥ <:edracobody:1179717430436704306> (Elite Dracolich) is very strong ranged power armour when used with a bow",
+        "inline": false
+      },
+      {
+        "name": "__Power Armour__ <:magic:689504724159823906>",
+        "value": "⬥ Subjugation Armour <:subjgarb:643151011199975434> (T70)\n⬥ Ancient Warrior <:zurieltop:1004090526250827867> (T78)\n\u00a0\u00a0\u00a0\u00a0• Superior <:SuperiorZurielstop:556586037216804864> is T88\n⬥ Nex Armour <:VirtusTop:556586038936600603> (T80)\n⬥ Anima Armour <:animabodyseren:923248695846273054> (T80)\n\u00a0\u00a0\u00a0\u00a0• Refined is T85\n⬥ **Tectonic** <:tectbody:643849268804714506> (T90)\n\u00a0\u00a0\u00a0\u00a0• Elite <:elitetectbody:552955120707698699> is T92\n⬥ **Tumeken's resplendence** <:tumekenrobetop:1400500746377625790> (T95)\n⬥ Masterwork <:mwmrobetop:1388314908638183514> (T99)",
+        "inline": true
+      },
+            {
+              "name": "__Tank Armour__ <:magic:689504724159823906>",
+        "value": "⬥ Ahrim's Armour (T70)\n⬥ Ganodermic <:ganobody:1003947805611655208> (T75)\n⬥ Seasinger <:seasingershood:556583076050763776> (T85)\n\u00a0\u00a0\u00a0\u00a0• Superior is augmentable\n⬥ Achto <:achtoprimevaltop:641344704939819028> (T90)\n⬥ **Cryptbloom** <:cryptbloomtop:1334336168363561041>  (T90)",
+        "inline": true
+      },
+            {
+              "name": "__Notable Armour__ <:magic:689504724159823906>",
+        "value": "⬥ <:tumekenrobetop:1400500746377625790> (Tumeken's resplendence) is very strong magic power armour\n⬥ <:cryptbloomtop:1334336168363561041> (Cryptbloom) is often the best tank armour in game - see `!crypt`",
+        "inline": false
       },
       {
         "name": "__Power Armour__ <:necromancy:1148995625896120460>",
-        "value": "⬥ Deathdealer <:dealertop80:1142783476169441401> (T70, T80, T90)\n⬥ **The First Necromancer's equipment** <:firstnecrorobetop:1206664820682657822> (T95)",
+        "value": "⬥ Deathdealer <:dealertop80:1142783476169441401> (T70, T80, T90)\n⬥ **The First Necromancer's** <:firstnecrorobetop:1206664820682657822> (T95)",
+        "inline": true
+      },
+            {
+              "name": "__Tank Armour__ <:necromancy:1148995625896120460>",
+        "value": "⬥ Deathwarden <:wardentop80:1142784247543894056> (T70, T80, T90)",
+        "inline": true
+      },
+            {
+              "name": "__Notable Armour__ <:necromancy:1148995625896120460>",
+        "value": "⬥ <:firstnecrorobetop:1206664820682657822> (The First Necromancer's) is the best Necromancy armour in the game",
         "inline": false
       }
     ]
   }
 }
 .embed:json
-### Notable Armour
-⬥ <:vestmentsofhavoctop:994189295592161291> (Vestments of Havoc) has effects that greatly benefit melee. Should be used over <:tmwbody:643847118196441088>. Does T100 damage and has armour equal to T75 power armour
-⬥ <:sirenicbody:643846948570267648> (Sirenic) is solid cheap ranged power armour
-⬥ <:edracobody:1179717430436704306> (Elite Dracolich) is very strong ranged power armour when used with a bow
-⬥ <:ganobody:1003947805611655208> (Ganodermic) is very cheap magic tank gear to use with Animate Dead <:animatedead:856635090453135382>
-⬥ <:cryptbloomtop:1334336168363561041>  (Cryptbloom) is the best overall tank armour in game, but not always needed - see `!crypt`
-⬥ <:firstnecrorobetop:1206664820682657822> (The First Necromancer's equipment) is the best overall Necromancy armour in the game
-
 .
 ## __Gloves__
 .tag:gloves
 {
   "embed": {
     "title": "__Gloves__",
-    "description": "⬥ Use `!gloves` to see where to use which gloves\n⬥ <:lengartefact:884739993543782420> upgrades <:nightmaregauntlets:513190159441723392> / <:Glovesofpassage:556588694862037012> / <:kerapacswristwraps:869286640722513940> to T90 and allows enchantments to work\n\u00a0\u00a0\u00a0\u00a0• The T90 gloves can also be bought directly from the G.E.\n⬥ Gloves covered: <:kerapacswristwraps:869286640722513940> | <:NMG:513190159441723392> | <:edracogloves:1179717613769728100> | <:glovesofpassage:556588694862037012> | <:Cinderbanes:513190158355660812> | <:DTB:513190159429271562> | <:spellcaster:643214402169864213>",
+    "description": "⬥ Use `!gloves` to see where to use which gloves\n⬥ <:lengartefact:884739993543782420> upgrades <:nightmaregauntlets:513190159441723392> / <:Glovesofpassage:556588694862037012> / <:kerapacswristwraps:869286640722513940> to T90 and allows enchantments to work\n\u00a0\u00a0\u00a0\u00a0• The T90 gloves can also be bought directly from the G.E.\n⬥ Gloves covered: <:kerapacswristwraps:869286640722513940> | <:NMG:513190159441723392> | <:edracogloves:1179717613769728100> | <:glovesofpassage:556588694862037012> | <:Cinderbanes:513190158355660812> | <:DTB:513190159429271562> | <:spellcaster:643214402169864213> | <:vampyrismgloves:1487224784428335255>",
     "color": 39423,
     "fields": [
       {
         "name": "__Kerapac's Wrist Wraps__ <:kerapacswristwraps:869286640722513940>",
-        "value": "⬥ When <:dbreath:535533833391702017> is cast, the next <:comb:535533833098100745> to hit within 6s has all its remaining hits applied at once for 25% (40% with **enchantment of flame**) more damage"
+        "value": "⬥ When <:dbreath:535533833391702017> is cast, the next <:combust:1478063107908702482> to hit within 6s has all its remaining hits applied at once for 25% (40% with **enchantment of flame**) more damage"
       },
       {
         "name": "__Elite Dracolich Gloves__ <:edracogloves:1179717613769728100>",
@@ -72,15 +109,15 @@
       },
       {
         "name": "__Nightmare Gauntlets__ <:NMG:513190159441723392>",
-        "value": "⬥ <:snipe:535541258425204770> has +25% hitchance and can be walked\n⬥ **Enchantment of dread** makes <:snipe:535541258425204770> to do a 2nd weaker hit when flanking"
+        "value": "⬥ <:snipe:1478061857486143498> has +25% hitchance and can move while channelling\n⬥ **Enchantment of dread** makes <:snipe:1478061857486143498> to do a 2nd weaker hit when flanking"
       },
       {
         "name": "__Gloves of Passage__ <:glovesofpassage:556588694862037012>",
-        "value": "⬥ After <:havoc:535532879300526080> / <:smash:535532879820619786> are cast the following occurs (same target):\n\u00a0\u00a0\u00a0\u00a0• The next attack deals 10% (16% using **agony enchantment**) more damage\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Affects non-bleed attacks cast that tick, bleeds snipe it for no benefit\n\u00a0\u00a0\u00a0\u00a0• Bleeds deal 20% (25% using **agony enchantment**) more damage for 10s\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Does not affect <:comb:535533833098100745> / <:corruptblast:513190159194259467> / <:corruptshot:535541306294796299> / <:gbarge:535532879250456578> \"bleeds\" as they are **not** bleeds"
+        "value": "⬥ After <:rend:1478166426190741584> is cast the following occurs (same target):\n\u00a0\u00a0\u00a0\u00a0• The next attack deals 10% (16% using **agony enchantment**) more damage\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Affects non-bleed attacks cast that tick, bleeds snipe it for no benefit\n\u00a0\u00a0\u00a0\u00a0• Bleeds deal 20% (25% using **agony enchantment**) more damage for 10s\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Does not affect <:combust:1478063107908702482> / <:corruptionblast:1478063113659093075> / <:corruptshot:535541306294796299> / <:gbarge:535532879250456578> \"bleeds\" as they are **not** bleeds"
       },
       {
         "name": "__Misc. Gloves__",
-        "value": "⬥ **Cinderbanes** <:Cinderbanes:513190158355660812> - increases poison damage, and can proc own poison hits\n⬥ **Deathtouched Bracelet** <:DTB:513190159429271562> - 20% chance to reflect 25-50% damage (7.5% average reflect) back to the attacker (does not reduce damage you take)\n⬥ **Spellcaster's Gloves** <:spellcaster:643214402169864213> - autos / basics have 5% chance to do 25% more damage, bind target, lower their combat stats by 7 levels and hit 1t after cast\n\u00a0\u00a0\u00a0\u00a0• Does not work during <:sunshine:994921119381463070> / <:gsunshine:994644352871714836>"
+        "value": "⬥ **Cinderbanes** <:Cinderbanes:513190158355660812> - increases poison damage, and can proc own poison hits\n⬥ **Deathtouched Bracelet** <:DTB:513190159429271562> - 20% chance to reflect 25-50% damage (7.5% average reflect) back to the attacker (does not reduce damage you take)\n⬥ **Spellcaster's Gloves** <:spellcaster:643214402169864213> - autos / basics have 5% chance to do 25% more damage, bind target, lower their combat stats by 7 levels and hit 1t after cast\n\u00a0\u00a0\u00a0\u00a0• Does not work during <:sunshine:994921119381463070> / <:gsunshine:994644352871714836>\n⬥ **Vampyrism Gloves** <:vampyrismgloves:1487224784428335255> - heals the player for 2% of the damage they deal, up to a maximum of 20 life points restored per hit\n\u00a0\u00a0\u00a0\u00a0• Only works on hits dealing at least 1,000 damage"
       }
     ]
   }
@@ -98,11 +135,11 @@
     "fields": [
       {
         "name": "__Boots__",
-        "value": "⬥ **Blast Diffusion Boots** <:blastdiffusion:602581956072439828> - <:deto:535533833358016512> charges 40%/tick instead of 20%/tick\n⬥ **Laceration Boots** <:Laceration:602581988599398400> - Can use <:bd:535532854281764884> with only a MH or 2H melee weapon\n⬥ **Fleeting Boots** <:fleetingboots:789813993480388640> - <:rapid:535541270521708566> has +10% hitchance and can be walked"
+        "value": "⬥ **Blast Diffusion Boots** <:blastdiffusion:602581956072439828> - gain 8% base dmg on basics after casting <:wm:535533809978966037> (6s)\n⬥ **Laceration Boots** <:Laceration:602581988599398400> - Can use <:bd:535532854281764884> with only a MH or 2H melee weapon\n⬥ **Fleeting Boots** <:fleetingboots:789813993480388640> - <:piercingshot:1478061863723073636> reduces <:snipe:1478061857486143498> by an additional 1.2s with each hit and <:rangedbasic:1478061858622537809> applies the cooldown reduction effect of <:piercingshot:1478061863723073636>"
       },
       {
         "name": "__Capes__",
-        "value": "⬥ **TokHaar Capes** <:KilnMelee:602582045553590274> <:kilnmage:1153768065427853354> <:KilnRanged:602582045541269567> <:kilnnecro:1153772314215858247> - used to make the respective Zuk cape\n⬥ **Igneous Kal-Mej** <:igneouskalmej:1153772938252787793> - <:omni:535533809664262179> is 60% adren and hits 4x at 90-180% ability dmg\n⬥ **Igneous Kal-Ket** <:igneouskalket:902209626404192316> - <:overpower:535532879334080517> is 60% adren and hits 2x\n⬥ **Igneous Kal-Xil** <:igneouskalxil:902209626404171786> - <:deadshot:535541307666595870> is 60% adren, more damage, and +2 bleed hits\n⬥ **Igneous Kal-Mor** <:igneouskalmor:1139200072438005851> - <:deathskulls:1159434663903899728> is 60% adren, and bounces 2 more times\n⬥ **Igneous Kal-Zuk** <:igneouskalzuk:902209626479685734> - All Igneous capes in one"
+        "value": "⬥ **TokHaar Capes** <:KilnMelee:602582045553590274> <:kilnmage:1153768065427853354> <:KilnRanged:602582045541269567> <:kilnnecro:1153772314215858247> - used to make the respective Zuk cape\n⬥ **Igneous Kal-Mej** <:igneouskalmej:1153772938252787793> - <:omni:535533809664262179> hits four times for 120%–150% ability damage\n⬥ **Igneous Kal-Ket** <:igneouskalket:902209626404192316> - <:overpower:535532879334080517> hits twice for 280-340% ability damage\n⬥ **Igneous Kal-Xil** <:igneouskalxil:902209626404171786> - <:deadshot:1478061860371828929> hits eight times for 55-75% ability damage\n⬥ **Igneous Kal-Mor** <:igneouskalmor:1139200072438005851> - <:deathskulls:1159434663903899728> bounces 2 more times\n⬥ **Igneous Kal-Zuk** <:igneouskalzuk:902209626479685734> - All Igneous capes in one"
       }
     ]
   }
@@ -138,17 +175,17 @@
       },
       {
         "name": "__Tier 75__",
-        "value": "⬥ Godswords <:armagodsword:860891314379554846>\n⬥ Sara. Sword <:saradominsword:864235728228974592>\n⬥ Abyss. Mage <:abyssawand:841409588590805043> <:abyssalorb:860891495041073152>\n⬥ Staff of Light <:staffoflight:841419289319964763>\n⬥ Arma. Cbows <:acbmh:643162838466035712> <:acboh:643162838709305384>\n⬥ Handcannon <:handcannon:860891495037272094>\n⬥ **Mech. Chin** <:mechchin:641669268722810881>",
+        "value": "⬥ Godswords <:armagodsword:860891314379554846>\n⬥ Sara. Sword <:saradominsword:864235728228974592>\n⬥ Abyss. Mage <:abyssawand:841409588590805043> <:abyssalorb:860891495041073152>\n⬥ Staff of Light <:staffoflight:841419289319964763>\n⬥ Arma. Cbows <:acbmh:643162838466035712> <:acboh:643162838709305384>\n⬥ Handcannon <:handcannon:860891495037272094>\n⬥ Mech. Chin <:mechchin:641669268722810881>",
         "inline": true
       },
       {
         "name": "__Tiers 77-79__",
-        "value": "⬥ Arma. Battlestaff <:armadylbattlestaff:881962727705280512>\n⬥ Sunspear <:sunspear:860891494977765446>\n⬥ **Statius Hammer <:swh:641670143197446182>**\n⬥ Bane Weapons <:bane2h:859483155210567741>",
+        "value": "⬥ Arma. Battlestaff <:armadylbattlestaff:881962727705280512>\n⬥ Sunspear <:sunspear:860891494977765446>\n⬥ Statius Hammer <:swh:641670143197446182>\n⬥ Bane Weapons <:bane2h:859483155210567741>",
         "inline": true
       },
       {
         "name": "__Tier 80-82__",
-        "value": "⬥ Hex <:terramaul:602561894829522954> <:inquisitorstaff:694566917553520680> <:hexhunterbow:581180369911414794>\n\u00a0\u00a0\u00a0\u00a0• Refer to `!hex`\n⬥ Linza's Hammer <:linzahammer:860891494952861706>\n⬥ Virtus <:virtuswand:860891495007780874> <:vbook:656785078160195615>\n⬥ Zaryte Bow <:zarytebow:791280228377952276>\n⬥ Royal Crossbow <:royalcrossbow:798285340439871558>\n⬥ Attuned Crystal <:attunedcrystalbow:864235911914455040>\n⬥ Chaotics <:chaoticstaff:925794592643743815>\n⬥ Masuta's Warspear <:masutaspear:643166903220699137>\n⬥ **Laniakea's Spear** <:lanispear:839903893177106454>\n⬥ Limitless Staff <:staffoflimitlessair:864235608237801473>\n⬥ Death Guard <:deathguard80:1138809249061929082>\n⬥ Skull Lantern <:skulllantern80:1138809247308709988>",
+        "value": "⬥ Hex <:terramaul:602561894829522954> <:inquisitorstaff:694566917553520680> <:hexhunterbow:581180369911414794>\n\u00a0\u00a0\u00a0\u00a0• Refer to `!hex`\n⬥ Linza's Hammer <:linzahammer:860891494952861706>\n⬥ Virtus <:virtuswand:860891495007780874> <:vbook:656785078160195615>\n⬥ Zaryte Bow <:zarytebow:791280228377952276>\n⬥ Royal Crossbow <:royalcrossbow:798285340439871558>\n⬥ Attuned Crystal <:attunedcrystalbow:864235911914455040>\n⬥ Chaotics <:chaoticstaff:925794592643743815>\n⬥ Masuta's Warspear <:masutaspear:643166903220699137>\n⬥ Laniakea's Spear <:lanispear:839903893177106454>\n⬥ Limitless Staff <:staffoflimitlessair:864235608237801473>\n⬥ Death Guard <:deathguard80:1138809249061929082>\n⬥ Skull Lantern <:skulllantern80:1138809247308709988>",
         "inline": true
       },
       {
@@ -158,20 +195,18 @@
       },
       {
         "name": "__Tiers 87-89__",
-        "value": "⬥ **Bone Blowpipe** <:upgradedboneblowpipe:925794591830056961>\n⬥ Annihilation <:annihilation:796989662983094275>\n⬥ Decimiation <:decimation:643848618477879328>\n⬥ Obliteration <:obliteration:860891361641365515>\n⬥ Elite Tetsu <:elitetetsumh:581180369580326923> <:elitetetsuoh:581180369924128788>\n⬥ Sup. Vesta <:vls:841409238717956125> <:vestaspear:852661743682846720>\n⬥ **Elite Seasinger** <:eliteseasingerwand:581180345978716170> <:eliteseasingerorb:581180345345638423>\n⬥ Sup. Zuriel Staff <:zstaff:797895640154636328>\n⬥ Sup. Morrigan <:superiormorriganaxe:860891494969376798> <:superiormorriganjav:860891495033077810>",
+        "value": "⬥ **Bone Blowpipe** <:upgradedboneblowpipe:925794591830056961>\n⬥ Annihilation <:annihilation:796989662983094275>\n⬥ Decimiation <:decimation:643848618477879328>\n⬥ Obliteration <:obliteration:860891361641365515>\n⬥ Elite Tetsu <:elitetetsumh:581180369580326923> <:elitetetsuoh:581180369924128788>\n⬥ Sup. Vesta <:vls:841409238717956125> <:vestaspear:852661743682846720>\n⬥ Elite Seasinger <:eliteseasingerwand:581180345978716170> <:eliteseasingerorb:581180345345638423>\n⬥ Sup. Zuriel Staff <:zstaff:797895640154636328>\n⬥ Sup. Morrigan <:superiormorriganaxe:860891494969376798> <:superiormorriganjav:860891495033077810>",
         "inline": true
       }
     ]
   }
 }
 .embed:json
+.
 ### Notable Weapons
 ⬥ <:gstaff:513203008608141314> is a solid spec weapon for mage, deals decent damage and improves accuracy
 ⬥ <:darkiceshard:915232154160594974> <:darkicesliver:915232153787334677> are solid melee DW. They do T88 damage but have T85 accuracy. Use `!leng` for effect info
-⬥ <:cywirwand:643161591571021824> <:cywirorb:643161591210049556> with <:gconc:869285393223254107> are your primary magic DW until purchasing <:seiswand:583429704837758997> <:sing:513190159261630467>. They do T80 damage but have T90 accuracy
-⬥ <:eliteseasingerwand:581180345978716170> <:eliteseasingerorb:581180345345638423> if unlocked can serve as your permanent magic DW, as the cost for <:seiswand:583429704837758997> <:sing:513190159261630467> or <:praeswand:643166769518739477> <:impercore:643166751067996160> is no longer worthwhile
-⬥ <:lanispear:839903893177106454> is BiS halberd weapon where applicable. It does T90 damage but has T75 accuracy
-⬥ <:mechchin:641669268722810881> is the primary way to deal AoE damage with ranged
+⬥ <:cywirwand:643161591571021824> <:cywirorb:643161591210049556> with <:gconc:869285393223254107> are your primary magic DW until purchasing <:roarofawakening:1266417538045317121> <:odetodeceit:1266417683058917517>. They do T80 damage but have T90 accuracy
 
 .
 ### T90-95 Weapons
@@ -194,23 +229,29 @@
       },
       {
         "name": "__Tier 95__",
-        "value": "⬥ **F. Staff of Arma.** <:soa:869284271595069451>\n⬥ **Roar of Awakening** <:roarofawakening:1266417538045317121>\n⬥ **Ode to Deceit** <:odetodeceit:1266417683058917517>\n⬥ **Leng** <:lengmh:883134308146098227> <:lengoh:883134308070604870>\n⬥ **Ek-Zekkil** <:ezk:903244090953588787>\n⬥ **BoLG** <:bolg:994189289623662702>\n⬥ **Omni Guard** <:omniguard:1138809234922934282>\n⬥ **Soulbound Lantern** <:soulboundlantern:1138809230573441064>",
+        "value": "⬥ **F. Staff of Arma.** <:soa:869284271595069451>\n⬥ **Roar of Awakening** <:roarofawakening:1266417538045317121>\n⬥ **Ode to Deceit** <:odetodeceit:1266417683058917517>\n⬥ **Leng** <:lengmh:883134308146098227> <:lengoh:883134308070604870>\n⬥ **Ek-Zekkil** <:ezk:903244090953588787>\n⬥ **BoLG** <:bolg:994189289623662702>\n⬥ **Omni Guard** <:omniguard:1138809234922934282>\n⬥ **Soulbound Lantern** <:soulboundlantern:1138809230573441064>\n⬥ **Tumeken's Light** <:tumekenslight:1400511651014250596>",
+        "inline": true
+      },
+      {
+        "name": "__Tier 99__",
+        "value": "⬥ Masterwork staff <:masterworkstaff:1359114222398603365>\n⬥ Masterwork bow <:masterworkbow:1359114183186321575>\n⬥ Masterwork 2h <:masterwork2hsword:1274330676061278334>",
         "inline": true
       }
     ]
   }
 }
 .embed:json
+.
 ### Notable Weapons
-⬥ <:noxscythe:513190159341322240> is BiS halberd where <:lanispear:839903893177106454> splashes
+⬥ <:tumekenslight:1400511651014250596> is BiS halberd with a strong AoE passive and spec
 ⬥ <:noxbow:513190159425208342> is a solid 2H to use until <:sgb:626466665848242186> / <:bolg:994189289623662702>
-⬥ <:masterworkspearofannihilation:694566917456789554> adds 2 hits to <:dismember:535532879376023572>, <:slaughter:535532879237873666>, and <:bloodtendrils:535532854327640064> and 3 hits to <:ezk:903244090953588787> <:eofspec:1257438999794946099>
+⬥ <:masterworkspearofannihilation:694566917456789554> increases <:dismember:1478062910113714297>, <:slaughter:1478062904732418159>, and <:massacre:1478062911619469495> duration by 50%, rounded down
 ⬥ <:sgb:626466665848242186> best 2H until <:bolg:994189289623662702>. Has a strong special attack, see `!sgb` for some more info
 ⬥ <:ecb:615618531937222657> has a very strong special attack, but is relatively hard to use well
 ⬥ <:roarofawakening:1266417538045317121> <:odetodeceit:1266417683058917517> have passive effects and a special attack on the mainhand, see `!sanctumdw` for more info
 ⬥ <:soa:869284271595069451> has one of the strongest special attacks, and passive effects. See `!fsoa` for some more info
 ⬥ <:bolg:994189289623662702> best 2H, has a strong spec, and is very consistent, see `!bolg` for more info
-⬥ <:ezk:903244090953588787> strong passive, deals high damage if spec is used on Flamebound Rival
+⬥ <:ezk:903244090953588787> strong passive, deals high damage if spec is used on <:flameboundrival:1404885709034229922>
 ⬥ <:deathguard70:1138809262194294864> has a great special attack (can use t70 for <:eofblack:780401412915855380>!)
 ⬥ <:omniguard:1138809234922934282> best necromancy main hand
 ⬥ <:soulboundlantern:1138809230573441064> best necromancy off-hand
@@ -302,7 +343,7 @@
 {
   "embed": {
     "title": "__Necklaces__",
-    "description": "⬥ Necklaces covered: <:aos:513190158359724056> | <:Reaper:513190159412494367> | <:eof:787526151978614824>\n⬥ Ornament kits provide +2 style bonus to <:aos:513190158359724056> + <:Reaper:513190159412494367> and +3 to <:eof:787526151978614824>",
+    "description": "⬥ Necklaces covered: <:aos:513190158359724056> | <:Reaper:513190159412494367> | <:eof:787526151978614824> | <:amhej:1448070604937891921> | <:zealots:926021352626982942>\n⬥ Ornament kits provide +2 style bonus to <:aos:513190158359724056> + <:Reaper:513190159412494367> and +3 to <:eof:787526151978614824>",
     "color": 39423,
     "fields": [
       {
@@ -316,6 +357,14 @@
       {
         "name": "__Essence of Finality__ <:eof:787526151978614824>",
         "value": "⬥ Effects of both <:aos:513190158359724056> and <:Reaper:513190159412494367>\n⬥ Can store a special attack to cast with another weapon of same style\n\u00a0\u00a0\u00a0\u00a0• Stored specs cannot be reobtained, it is **permanently** consumed\n⬥ Use `!eofspec` to see EoF setups, read <#1020550560551813131> for further info on specs"
+      },
+      {
+        "name": "__Am-hej__ <:amhej:1448070604937891921>",
+        "value": "⬥ Deals 5% of your Strength level as additional damage"
+      },
+      {
+        "name": "__Amulet of zealots__ <:zealots:926021352626982942>",
+        "value": "⬥ Increases the effects of single-stat boosting prayers and leech curses by 10%"
       }
     ]
   }
@@ -333,7 +382,7 @@
     "fields": [
       {
         "name": "__PvM-related Cape Perks__",
-        "value": "⬥ **Defence** <:Defence:689509250979987525> - Acts as a sign of life\n⬥ **Strength** <:Strength:689509250879324165> - <:dismember:535532879376023572> hits 3 more times\n⬥ **HP** <:Constitution:689509250887712902> - Doubles base health regen and allows healing at banks in combat\n⬥ **Ranged** <:range:580168050121113623> - Increases ammo proc chance by 20% of the base chance"
+        "value": "⬥ **Attack** <:attack:689509250472476758>\n\u00a0\u00a0\u00a0\u00a0• 120 - 2% increased hit chance for melee attacks\n⬥ **Defence** <:Defence:689509250979987525>\n\u00a0\u00a0\u00a0\u00a0• 99 - Acts as a sign of life\n⬥ **Strength** <:Strength:689509250879324165>\n\u00a0\u00a0\u00a0\u00a0• 99 - <:dismember:1478062910113714297> deals an additional 3 hits\n\u00a0\u00a0\u00a0\u00a0• 120 - <:dismember:1478062910113714297>, <:slaughter:1478062904732418159> and <:massacre:1478062911619469495> heal an additional 3% life points\n⬥ **HP** <:Constitution:689509250887712902>\n\u00a0\u00a0\u00a0\u00a0• 99 - Doubles base health regen and allows healing at banks in combat\n⬥ **Ranged** <:range:580168050121113623>\n\u00a0\u00a0\u00a0\u00a0• 99 - Increases ammo proc chance by 20% of the base chance\n⬥ **Magic** <:magic:689504724159823906>\n\u00a0\u00a0\u00a0\u00a0• 120 - Doubles the duration of hex spells"
       }
     ]
   }
@@ -346,7 +395,7 @@
 {
   "embed": {
     "title": "__Index of Pocket Slots__",
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/w/Armoury)\n⬥ Items in **bold** is worth being aware of, they will be elaborated on after\n⬥ Use `!pocket` for a breakdown of what pocket slot to use where\n⬥ God books / Scriptures have a 15s cd between procs, starting on activation\n⬥ God books / Scriptures have a 6.6% proc chance per non-bleed/burn hit\n\u00a0\u00a0\u00a0\u00a0• Other DoT hits may (e.g. <:gbarge:535532879250456578> \"bleeds\") or may not (e.g. <:corruptblast:513190159194259467>) proc them",
+    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/w/Armoury)\n⬥ Items in **bold** is worth being aware of, they will be elaborated on after\n⬥ Use `!pocket` for a breakdown of what pocket slot to use where\n⬥ God books / Scriptures have a 15s cd between procs, starting on activation\n⬥ God books / Scriptures have a 6.6% proc chance per non-bleed/burn hit\n\u00a0\u00a0\u00a0\u00a0• Other DoT hits may (e.g. <:gbarge:535532879250456578> \"bleeds\") or may not (e.g. <:corruptionblast:1478063113659093075>) proc them",
     "color": 39423,
     "fields": [
       {
@@ -357,6 +406,7 @@
   }
 }
 .embed:json
+.
 ### Notable Pocket Slots
 ⬥ <:jasgodbook:869284342839513108> is a very cheap pocket slot to buy and average to maintain, and relatively good to use (<:coins:698816156961603654> $data_pvme:consumable_jasph$ per hour)
 ⬥ <:scriptureofful:902209626412560395> is an expensive pocket slot to buy, but is strong and very cheap to use (<:coins:698816156961603654> $data_pvme:consumable_fulph$ per hour)
@@ -374,12 +424,13 @@
     "fields": [
       {
         "name": "__Ammo Slots__",
-        "value": "⬥ **Armour Spikes:** <:abyssalarmourspikesalloy:947871842541129768> **abyssal (alloy)** / <:primalabyssalarmourspikes:1276946271424479234> **primal abyssal** - Deal damage equal to 100% / 125% of Smithing level, 10% chance to deal +900% / +1000% damage\n\u00a0\u00a0\u00a0\u00a0• 100% chance to apply a parasite stack\n\u00a0\u00a0\u00a0\u00a0• Must also wear melee gear and take damage / be MD\n⬥ **Large Rune Pouches** <:runepouch:583430011868938283> - holds 16k of 3 types of runes\n⬥ **Grasping Rune Pouches** <:graspingpouch:1390439139400224849> - holds 16k of 4 types of runes\n⬥ **Pernix's Quivers** <:pernixsquiver:902209626450296892> - holds 2 types of ammo, able to swap between at will\n⬥ **Nexuses** <:deathwardennexus:1179716442816532540> <:zemouregalsnexus:1179716261681307728> can be used to store ectoplasm and necrotic runes\n\u00a0\u00a0\u00a0\u00a0• **Zemouregal's Nexus** <:zemouregalsnexus:1179716261681307728> provides a passive effect **when equipped** which increases the Bone Shield tier by 15 levels"
+        "value": "⬥ **Armour Spikes:** <:abyssalarmourspikesalloy:947871842541129768> **abyssal (alloy)** / <:primalabyssalarmourspikes:1276946271424479234> **primal abyssal** - Deal damage equal to 100% / 125% of Smithing level, 10% chance to deal +900% / +1000% damage\n\u00a0\u00a0\u00a0\u00a0• 100% chance to apply a parasite stack\n\u00a0\u00a0\u00a0\u00a0• Must also wear melee gear and take damage / be MD\n⬥ **Nodon Spike Harness** <:nodonspikeharness:1449363594495135776> - Holds armour spikes and boosts their damage\n⬥ **Large Rune Pouches** <:runepouch:583430011868938283> - holds 3 types of runes\n⬥ **Grasping Rune Pouches** <:graspingpouch:1390439139400224849> - holds 4 types of runes\n⬥ **Pernix's Quivers** <:pernixsquiver:902209626450296892> - holds 2 types of ammo, able to swap between at will\n⬥ **Nexuses** <:deathwardennexus:1179716442816532540> <:zemouregalsnexus:1179716261681307728> can be used to store ectoplasm and necrotic runes\n\u00a0\u00a0\u00a0\u00a0• <:zemouregalsnexus:1179716261681307728> increases the Bone Shield tier by 15 levels **when equipped**"
       }
     ]
   }
 }
 .embed:json
+.
 ### Rune Pouch Setup
 **⬥ General Magic** <:graspingpouchblack:1390439136875253810> <:graspingpouchpink:1390439126519644271> <:graspingpouchblue:1390439129275306164> - <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:animatedead:856635090453135382> <:sbs:543875425055670275> <:shielddome:537341954392850442> <:cept:543478434509357098> <:venggroup:1009570755836641331> <:healother:567727985851891715> <:disrupt:535614336207552523> <:prismofrestoration:938475261366784070> <:spiritualhealing:1091050892142325780> (<:borrowedpower:657248051190300682> <:ent:567727987274022924>)
 **⬥ General Magic 2** <:graspingpouchblack:1390439136875253810> <:graspingpouchpink:1390439126519644271> <:graspingpouchblue:1390439129275306164> <:graspingpouchgreen:1390439138401980446> - <:bloodbarrage:537338981747261446> <:icebarrage:537340400185245701> <:exsanguinate:856635090745950258> <:incitefear:856635090783567902> <:smokecloud:856635090641879050> <:animatedead:856635090453135382> <:sbs:543875425055670275> <:shielddome:537341954392850442> <:cept:543478434509357098> <:venggroup:1009570755836641331> <:healother:567727985851891715> <:disrupt:535614336207552523> <:prismofrestoration:938475261366784070> <:spiritualhealing:1091050892142325780> <:temporalanomaly:1357545000577011782> <:ent:567727987274022924>
@@ -395,20 +446,22 @@
 .tag:bank
 {
   "embed": {
-    "title": "__Preset Contents__",
+    "title": "__Banking Preset__",
+    "description": "For an exhaustive list of everything you might want in a banking preset, see **Quick Banking Preset** in <#1020546905865986068>.",
     "color": 39423,
-    "description": "⬥ It is recommended to look up further information on the [Wiki](https://runescape.wiki/)\n⬥ Tank armour, shield, and other HP-boosting gear for bonfire\n⬥ Preferred Summoning familiars & scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Potions to use pre-fight\n\u00a0\u00a0\u00a0\u00a0• Overload <:elderovlsalve:648976643687317532>, Weapon Poison+++ <:weppoison:689525476158472288>, Thermal Flask <:thermalflask:689530593796423724>\n⬥ Runes to restock pouches, and Magic cape to change spellbooks\n⬥ Incense sticks - Spirit Weed <:SpiritSticks:565726489136463894>, Kwuarm <:KwuarmSticks:565726489341984779>, Lantadyme <:LantaSticks:565726489404899368>\n⬥ Preferred book <:grim:568262896375824385> and pages <:grimpage:643168594493964298>\n⬥ Divine Charges <:divinecharge:1010485547598356530> and assorted utility items",
     "fields": [
       {
+        "name": "__Preset Contents__",
+        "value": "⬥ Summoning familiars & scrolls <:ripperpouch:703581275453128714> <:ripperscroll:703581275155464203>\n⬥ Potions to use pre-fight <:elderovlsalve:648976643687317532> <:weppoison:689525476158472288> <:summoningrenewal:854475161809190913>\n⬥ Incense sticks <:SpiritSticks:565726489136463894> <:KwuarmSticks:565726489341984779> <:LantaSticks:565726489404899368>\n⬥ Preferred book and pages  <:grim:568262896375824385> <:grimpage:643168594493964298>\n⬥ Penance powder <:powderofpenance:928221126360969226>\n⬥ Divine Charges <:divinecharge:1010485547598356530>\n⬥ Rune pouches <:graspingpouchgreen:1390439138401980446> to cast aspects <:temporalanomaly:1357545000577011782>\n⬥ HP-boosting euipment for bonfire <:wardentop90:1142770709530161192> <:merciless:1102553021457645579> <:reefcape:839906296290476033>\n\u00a0\u00a0\u00a0\u00a0• Only necessary if you do not have the [Totem of Vitality](https://runescape.wiki/w/Totem_of_Vitality) unlocked\n\u00a0\u00a0\u00a0\u00a0• Reach 13400 HP for the maximum boost"
+      },
+      {
         "name": "__Example Banking Presets__",
-        "value": "Some players' banking presets for reference.\n[Rcm37](https://presets.pvme.io/?id=TUsQaOomjuwzBWvaUhqU), [Dyanne](https://presets.pvme.io/?id=mWmi4hw64iWfSknapvrE), [Just Eswar](https://presets.pvme.io/?id=U59caIsOkRmRiiBgd71m), [Die Alive](https://presets.pvme.io/?id=gXrrfrE2xp4LiGdcSlgJ)"
+        "value": "Some players' banking presets for reference.\n[Dyanne](https://presets.pvme.io/?id=7a3eaf08-a1ce-4a89-b3ec-ee94efcffa29), [hikaru nara](https://presets.pvme.io/?id=2a258b96-3929-47f3-adc6-92a8d6f8a95a), [basic preset](https://presets.pvme.io/?id=ad56e52f-0cd0-4173-9caf-a4cf1e04170e)"
       }
     ]
   }
 }
 .embed:json
-.img:https://img.pvme.io/images/oJyCNjvar8.png
-
 .
 {
   "embed": {
