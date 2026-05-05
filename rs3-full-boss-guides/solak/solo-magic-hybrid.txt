@@ -1,122 +1,87 @@
-# Magic-Melee Hybrid Solo
-.
+# Solak - Magic-Melee Hybrid Solo
 .img:https://img.pvme.io/images/gmrKIcfK2P.png
 .
-
-.
 ## __Introduction__
-.tag:Introduction
-This guide will cover a solo magic-hybrid strategy, with the aim of approximately 3:00 - 3:15 kill times.
-This guide assumes you are already familiar with the basic mechanics of Solak which can be seen here <#1020559954400247859> and assumes that you own BIS gear in both Magic and Melee.
-
+.tag:intro
 .
-## __Important Notes__
-⬥ Due to the nature of <:critbuff:1279516151423963166> from <:tsunami:535533809995874304> a little improvisation might be needed.
-⬥ This rotation makes use of switching to <:fsoa:869284271595069451> activating <:runic_charge:1478063122345361562> and switching back to <:ezk:903244090953588787> in a single tick during the melee parts of the rotation. This is NOT required. This means that your arm+legs and core phase might be slightly slower, and that phase 2 will be marginally slower.
-⬥ This rotation makes NO use of <:temporalanomaly:1357545000577011782>. Feel free to use it and improvise with it.
-
+⬥ This strategy successfully rootskips 75-80% of the time if executed properly.
+    • A successful rootskip is done by getting Solak's HP down to ~1510K or lower at **~45s**.
+    • If you don't meet this threshold it's advised to ignore the rootskip attempt entirely.
 .
 ## __Presets and Relics__
 .tag:presets
-⬥ [Magic / Melee Hybrid](https://presets.pvme.io/?id=28833ff1-e11a-4db3-8359-dbb3fa543b9d)
-.
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-{
-        "name": "__Preset Notes__",
-        "value": "⬥ Apply <:weppoison:689525476158472288> at the bank, and use <:kwuarmsticks:565726489341984779> , <:lantasticks:565726489404899368>\n⬥ Use <:veng:543478434953822208> off cd\n⬥Some <:ultimatums4:1478090603026710648> combination on both Magic and Melee gear",
-        "inline": true
-      }
-    ]
-  }
-}
-.embed:json
+⬥ [Melee/Mage](https://presets.pvme.io/?id=25a476eb-10a4-4706-b6d7-93b0b140f77e)
 
 .
-## __Rotations__
+## __Rotation__
 .tag:rot
-## __Wars__
-<:dba:603979368850653216> → s<:meteorstrike:1478070401702821938>
+.
+## __Prefight__
+<:dba:603979368850653216> <:spec:537340400273195028> → <:naturalinstinct:535541258131865633> → s <:meteorstrike:1478070401702821938>
+
+On <:dummy:656844963522281473>
+r <:meteorstrike:1478070401702821938> + <:annihilation:796989662983094275> <:eofspec:1257438999794946099> → s<:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:gfury:535532879334080527> → s<:overpower:535532879334080517>
 
 .
 ## __Phase 1__
-### Solak
 
-Prebuild: <:dummy:656844963522281473> → tc r<:meteorstrike:1478070401702821938> + <:rend:1478166426190741584> → wait 2 ticks + <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:chaosroar:1478062908767211640> → <:bd:535532854281764884> /walk in front of Solak + s <:overpower:535532879334080517>
+r <:overpower:535532879334080517> + <:assault:535532855191928842> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:rend:1478166426190741584> → <:cane:535532878969438210> → <:overpower:535532879334080517> → <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eof:745279787471470713> → <:gfury:535532879334080527> → 8t <:assault:535532855191928842> → <:overpower:535532879334080517> → <:adaptivestrike:1478062906057949417> → <:gsonic:1478063117211668584> → <:smokecloud:856635090641879050>
 
-start encounter + tc r<:overpower:535532879334080517> + <:gflurry:535532879283879977> → equip and <:ezk:903244090953588787> <:spec:537340400273195028> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:rend:1478166426190741584>  → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:assault:535532855191928842> → <:overpower:535532879334080517>  → <:adaptivestrike:1478062906057949417> + switch to <:magic:689504724159823906> → <:smokecloud:856635090641879050> + <:disrupt:535614336207552523> + <:runic_charge:1478063122345361562> → <:gsonic:1478063117211668584>
-
-*notes:*
-⬥ *aim to get two <:veng:543478434953822208> of by using <:veng:543478434953822208> early in wars*
-⬥ *keep soulsplit off until after your <:assault:535532855191928842> to juice <:berserkersfury:697808774106185768> relic*
-
-.
-### Arms, Legs & Core
-
-⬥ **Arms**
-<:gsunshine:994644352871714836> → click far arm <:dbreath:535533833391702017> →  <:gconc:1478063111104757760> → switch to <:exsanguinate:856635090745950258> + <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → click close arm <:gconc:1478063111104757760> → <:dbreath:535533833391702017> (on far arm if it did not die)
-.
-⬥ **Legs**
-preplace <:magmatemptest:1478063454173532242> and <:vulnbomb:655341074235129858> → <:gchaincaroming:1478668630265958471> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → improv if not dead
-.
-⬥ **Core**
-<:gconc:1478063111104757760> → <:omni:535533809664262179> → <:asphyx:535533833072672778> → switch to <:melee:1096130867279171706> → do two defensives to built adrenaline
-
-*note: make sure you don't press any offensive abilities after asphyx/as the core dies, as you will not be able to gain adrenaline from the defensives if you do*
+Stand adjacent to arms. Arm 1 is the furthest arm from the player
+Arm 1:
+<:sunshine:1478063258555650159> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → (<:dbreath:535533833391702017>)
+Arm 2:
+<:gconc:1478063111104757760> → <:magicbasic:1478063104146411713> → (<:wm:535533809978966037>)
+Legs:
+(tc) + <:dummy:656844963522281473> + <:magmatemptest:1478063454173532242> → <:caroming4:791281588792590336> <:gchain:1478063106914779166> → 8t <:asphyx:535533833072672778>
+Core:
+<:dba:603979368850653216> <:spec:537340400273195028> → 8t <:smoketendrils:536257336130404372> → <:runic_charge:1478063122345361562> <:gconc:1478063111104757760> → <:omni:535533809664262179> → (<:dbreath:535533833391702017>)
 
 .
 ## __Phase 2__
-### Eruptions
-⬥ **Southwest & Northwest**
-Walk to west tile of SE eruption spawnpoint <:berserk:535532854004678657> + <:adrenrenewal:736298121704767538> → tc+ <:gbarge:535532879250456578> → <:meteorstrike:1478070401702821938> → <:surge:535533810004262912> + <:powerburstofacceleration:756236265472524418> + click NW eruption and apply <:gflurry:535532879283879977> on it while keep moving towards SE eruption
 
-⬥ **Southeast**
-<:surge:535533810004262912> / <:bd:535532854281764884> to SE eruption → <:cane:535532878969438210>
+Eruption 1:
+<:gbarge:535532879250456578> → farcast <:assault:535532855191928842> on Eruption 2 → (tc) + <:rend:1478166426190741584>
+Eruption 3:
+4t <:gfury:535532879334080527> → <:pulverise:535532879053062146>
+Eruption 4:
+<:meteorstrike:1478070401702821938> → <:punish:535532879439069184>
 
-⬥ **Northeast**
-<:surge:535533810004262912> / <:bd:535532854281764884> to NE eruption → <:lengmh:883134308146098227> <:spec:537340400273195028>
+Solak:
+<:divert:787904334377648130> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:overpower:535532879334080517> → <:gflurry:535532879283879977> → <:rend:1478166426190741584> → <:cane:535532878969438210> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:overpower:535532879334080517> → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:gfury:535532879334080527> → 3t <:assault:535532855191928842> → <:overpower:535532879334080517> → <:rend:1478166426190741584> → <:cane:535532878969438210> → 8t <:gflurry:535532879283879977> + <:adrenrenewal:736298121704767538> → <:overpower:535532879334080517> → <:gfury:535532879334080527> → <:punish:535532879439069184>
 
-### Solak
-<:bd:535532854281764884> to <:solak:580167371310891029> + <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:assault:535532855191928842> → <:chaosroar:1478062908767211640> (+ <:fsoa:869284271595069451> + <:runic_charge:1478063122345361562> + <:ezk:903244090953588787>) → <:ezk:903244090953588787> <:spec:537340400273195028> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:rend:1478166426190741584> + switch to <:magic:689504724159823906> → <:gsonic:1478063117211668584> + <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> →  <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → 3tick <:smoketendrils:536257336130404372> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → improv until phased → switch to <:melee:1096130867279171706> → build adren with 2/3 defensives
+On <:dummy:656844963522281473>:
+<:gsonic:1478063117211668584> → <:sunshine:1478063258555650159> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304>
 
 .
 ## __Phase 3__
-Post hp cap & blight bar drained
-<:meteorstrike:1478070401702821938> → <:divert:787904334377648130> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:overpower:535532879334080517> → <:gflurry:535532879283879977> → <:assault:535532855191928842> → <:rend:1478166426190741584> → <:overpower:535532879334080517> → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028>(+ <:fsoa:869284271595069451> + <:runic_charge:1478063122345361562> + <:ezk:903244090953588787>) → <:assault:535532855191928842> → <:gfury:535532879334080527>  + enter elf
 
-⬥ **elf**
-<:bd:535532854281764884> to elf + <:vulnbomb:655341074235129858> → <:overpower:535532879334080517> → <:cane:535532878969438210> → <:punish:535532879439069184>
+Solak:
+<:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:1478063111104757760> → 8t <:asphyx:535533833072672778> → <:wm:535533809978966037> → <:runic_charge:1478063122345361562> <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:legatusemberstaff:1451134746280329357> <:eofspec:1257438999794946099> → <:gconc:1478063111104757760> → <:wm:535533809978966037>
+
+Realm:
+<:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:1478063111104757760> → 8t <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → (<:punish:535532879439069184>)
+
 .
 ## __Phase 4__
-<:surge:535533810004262912> towards <:solak:580167371310891029> → place <:dummy:656844963522281473> + tc + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:magicbasic:1478063104146411713> + click <:solak:580167371310891029> → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:magicbasic:1478063104146411713> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → improvise until dead
+
+On <:dummy:656844963522281473>:
+<:meteorstrike:1478070401702821938> → <:adaptivestrike:1478062906057949417> → <:annihilation:796989662983094275> <:eofspec:1257438999794946099>
+
+Solak:
+<:dismember:1478062910113714297> → s <:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:chaosroar:1478062908767211640> → s<:ezk:903244090953588787> <:spec:537340400273195028> → r<:ezk:903244090953588787> <:spec:537340400273195028> + <:assault:535532855191928842> → <:overpower:535532879334080517> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:punish:535532879439069184> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:cane:535532878969438210>
+
 
 .
-## __Example Kills__
-.tag:Example_Kills
+### Video Example
+.tag:example
+https://www.youtube.com/watch?v=21ohUla1OMM
 .
-{
-  "embed": {
-		"title": "",
-    "description": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Example Kills__",
-        "value": "⬥ [Kill time 3:01.4](https://www.youtube.com/watch?v=7GvPvIFJYt0)\n⬥ [Kill time 2:58.4](https://www.youtube.com/watch?v=ox8tlGVQzuE)"
-      }
-    ]
-  }
-}
-.embed:json
 
-.
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_Introduction$)\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rot$)\n⬥ [Example Kills]($linkmsg_Example_Kills$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Rot]($linkmsg_rot$)\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Example]($linkmsg_example$)",
     "color": 39423
   }
 }
