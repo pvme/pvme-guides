@@ -33,10 +33,10 @@ Some general notes:
 
 .
 ## __Ranged <:range:580168050121113623>__
-This section covers auto attacks and spells, basics, thresholds, ultimate abilities and special attacks for Ranged.
+This section covers basic abilities, enhanced abilities, ultimate abilities, utility abilities and special attacks for Ranged.
 
 .
-### Basics
+### Basic Abilities
 .tag:rangedBasics
 {
   "embed": {
@@ -104,7 +104,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:grico
 
 .
-### Enhanced
+### Enhanced Abilities
 .tag:rangedEnhanced
 {
   "embed": {
@@ -209,6 +209,17 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .
 {
   "embed": {
+    "title": "__Gloomfire Bow__ <:gloomfirebow:1446178203608809472>",
+    "description": "⬥ Adrenaline Cost: 65% (58.5% with <:rov:513201065877831680>)",
+    "color": 3066993
+  }
+}
+.embed:json
+.tag:gloomfire
+
+.
+{
+  "embed": {
     "title": "__Seren Godbow__ <:sgb:626466665848242186>",
     "description": "⬥ Cooldown: 50t (30s)\n⬥ Adrenaline Cost: 30% (27% with <:rov:513201065877831680>)\n⬥ To see how use the special attack, use `!sgb` in <#534563158304620564>",
     "color": 3066993
@@ -240,7 +251,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:bolg
 
 .
-### Ultimates
+### Ultimate Abilities
 .tag:rangedUltimates
 
 .
@@ -277,7 +288,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:greaterds
 
 .
-### Utilities
+### Utility Abilities
 .tag:rangedUtility
 .
 {
@@ -298,7 +309,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
     "color": 3066993,
     "fields": [
       {
-        "name": "__Auto and Basics__",
+        "name": "__Basic__",
         "value": "⬥ [Ranged]($linkmsg_rangeauto$)\n⬥ [Piercing Shot]($linkmsg_piercing$)\n⬥ [Binding Shot]($linkmsg_binding$)\n⬥ [Galeshot]($linkmsg_galeshot$)\n⬥ [Ricochet]($linkmsg_ricochet$)\n⬥ [G. Ricochet]($linkmsg_grico$)",
         "inline": true
       },
@@ -309,11 +320,11 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
       },
       {
         "name": "__Special Attacks__",
-        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Zamorak Bow]($linkmsg_zbow$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
+        "value": "⬥ [Dark Bow]($linkmsg_dbow$)\n⬥ [Zamorak Bow]($linkmsg_zbow$)\n⬥ [Gloomfire Bow]($linkmsg_gloomfire$)\n⬥ [Seren Godbow]($linkmsg_sgb$)\n⬥ [Eldritch Crossbow]($linkmsg_ecb$)\n⬥ [Bow of the Last Guardian]($linkmsg_bolg$)",
         "inline": true
       },
       {
-        "name": "__Ultimates__",
+        "name": "__Ultimate__",
         "value": "⬥ [Deadshot]($linkmsg_deadshot$)\n⬥ [Death's Swiftness]($linkmsg_ds$)\n⬥ [G. Death's Swiftness]($linkmsg_greaterds$)",
         "inline": true
       },
@@ -337,7 +348,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
     "fields": [
 			{
       	"name": "__Ranged Abilities__ <:range:580168050121113623>",
-        "value": "⬥ [Basics]($linkmsg_rangedBasics$)\n⬥ [Thresholds]($linkmsg_rangedEnhanced$)\n⬥ [Special Attacks]($linkmsg_rangedSpecials$)\n⬥ [Ultimates]($linkmsg_rangedUltimates$)\n⬥ [Utility]($linkmsg_rangedUtility$)",
+        "value": "⬥ [Basic Abilities]($linkmsg_rangedBasics$)\n⬥ [Enhanced Abilities]($linkmsg_rangedEnhanced$)\n⬥ [Special Attacks]($linkmsg_rangedSpecials$)\n⬥ [Ultimate Abilities]($linkmsg_rangedUltimates$)\n⬥ [Utility Abilities]($linkmsg_rangedUtility$)",
         "inline": true
       }
     ]
