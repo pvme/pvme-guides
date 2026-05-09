@@ -32,10 +32,10 @@ Some general notes:
 
 .
 ## __Necromancy <:necromancy:1148995625896120460>__
-This section covers the basic abilities, threshold-like abilities, ultimate abilities, conjures and commands, special attacks, and incantations for Necromancy.
+This section covers the basic abilities, enhanced abilities, ultimate abilities, conjures and commands, special attacks, and incantations for Necromancy.
 
 .
-### Basics
+### Basic Abilities
 .tag:necromancyBasics
 {
   "embed": {
@@ -65,9 +65,8 @@ This section covers the basic abilities, threshold-like abilities, ultimate abil
 .embed:json
 .tag:soulsap
 .
-### Thresholds
+### Enhanced Abilities
 .tag:necromancyThresholds
-Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do not require an adrenaline amount more than the ability's requirement, and drain adrenaline by the shown amount on the tooltip. Some Necromancy Thresholds do not require adrenaline at all but instead will consume stacks of varying types.
 .
 {
   "embed": {
@@ -124,7 +123,7 @@ Thresholds in Necromancy are not like other styles'. Thresholds in Necromancy do
 .embed:json
 .tag:bloodsiphon
 .
-### Ultimates
+### Ultimate Abilities
 .tag:necromancyUltimates
 {
   "embed": {
@@ -336,17 +335,17 @@ Listed conjure durations do not account for the Spirit Pact unlocks in the Necro
     "color": 5510844,
     "fields": [
       {
-        "name": "__Basic Abilities__",
+        "name": "__Basic__",
         "value": "⬥ [Necromancy (Auto)]($linkmsg_necroauto$)\n⬥ [Touch of Death]($linkmsg_touchofdeath$)\n⬥ [Soul Sap]($linkmsg_soulsap$)",
         "inline": true
       },
       {
-        "name": "__Thresholds__",
+        "name": "__Enhanced__",
         "value": "⬥ [Soul Strike]($linkmsg_soulstrike$)\n⬥ [Volley of Souls]($linkmsg_volleyofsouls$)\n⬥ [Finger of Death]($linkmsg_fingerofdeath$)\n⬥ [Bloat]($linkmsg_bloat$)\n⬥ [Spectral Scythe]($linkmsg_spectralscythe$)\n⬥ [Blood Siphon]($linkmsg_bloodsiphon$)",
         "inline": true
       },
       {
-        "name": "__Ultimates__",
+        "name": "__Ultimate__",
         "value": "⬥ [Living Death]($linkmsg_livingdeath$)\n⬥ [Death Skulls]($linkmsg_deathskulls$)",
         "inline": true
       },
@@ -379,7 +378,7 @@ Listed conjure durations do not account for the Spirit Pact unlocks in the Necro
     "fields": [
       {
       	"name": "__Necromancy Abilities__ <:necromancy:1148995625896120460>",
-        "value": "⬥ [Basic Abilities]($linkmsg_necromancyBasics$)\n⬥ [\"Thresholds\"]($linkmsg_necromancyThresholds$)\n⬥ [Ultimates]($linkmsg_necromancyUltimates$)\n⬥ [Conjures/Commands]($linkmsg_necromancyConjures$)\n⬥ [Special Attacks]($linkmsg_necromancySpecials$)\n⬥ [Incantations]($linkmsg_necromancyIncantations$)",
+        "value": "⬥ [Basic Abilities]($linkmsg_necromancyBasics$)\n⬥ [Enhanced Abilities]($linkmsg_necromancyThresholds$)\n⬥ [Ultimate Abilities]($linkmsg_necromancyUltimates$)\n⬥ [Conjures/Commands]($linkmsg_necromancyConjures$)\n⬥ [Special Attacks]($linkmsg_necromancySpecials$)\n⬥ [Incantations]($linkmsg_necromancyIncantations$)",
         "inline": true
       }
     ]
