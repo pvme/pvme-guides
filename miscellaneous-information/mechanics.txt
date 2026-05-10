@@ -332,24 +332,19 @@ This section covers the difference between an NPC's **centre** and **coordinate*
 ⬥ **The NPC coordinate is always the south-west tile.**
 ⬥ The follow image visualizes these changes.
 .img:https://img.pvme.io/images/53FBsUZ.png
-
 .
-### Abilities and NPC Coordinate
-⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
-    • **Note that this is not their *hitbox*, which is the entirety of the tiles they occupy. It is simply the point from which these abilities begin to propagate.**
-⬥ **Ranged abilities:**
-    • Corruption Shot <:corruptshot:535541306294796299>
-    • (Greater) Ricochet <:grico:787904334812807238> / <:ricochet:535541259566186521>
-    • Bombardment <:bombard:535541306391265284>
-    • All attacks with Mechanical Chinchompas <:mechchin:641669268722810881>
-⬥ **Magic abilities:**
-    • Corruption Blast <:corruptionblast:1478063113659093075>
-    • (Greater) Chain <:gchain:1257440278512537740> / <:chain:1257440203401068566>
-    • All burst/barrage auto attacks <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>
-⬥ We can use this information to predict where our AoEs will begin from and what targets they will hit, as show in the following illustration.
+### Area of Effect Search Range
+⬥ Targeted AoE effects search their respective range from the edge of the original target to determine additional targets, as seen in the following illustration.
+    • In this example, target C is within 3 tiles of target B, resulting in target C being hit by <:decimation:643848618477879328> <:spec:537340400273195028> as the special attack is a 3x3.
+.img:https://img.pvme.io/images/WffxVA9FLq.png
+.
+### Non-Abilities and NPC Coordinate
+⬥ Some non-ability AoEs use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
+    • Scripture of Wen <:scriptureofwen:883134307902816297>
+    • Scripture of Amascut <:scriptureofamascut:1266417822188437569>
+    • Aftershock <:as4:712074245202772009>
+⬥ To predict where these AoEs will begin from and what targets they will hit, we can use the following illustration.
 .img:https://img.pvme.io/images/kr61SvG.png
-*Note: For <:corruptshot:535541306294796299> / <:corruptionblast:1478063113659093075> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
-
 .
 ## __NPC Facing and Flanking__
 .tag:npcfacing
