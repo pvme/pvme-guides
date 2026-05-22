@@ -1,96 +1,148 @@
-# Vindicta & Gorvek Basic
+# Vindicta & Gorvek – Boss Guide
 .img:https://img.pvme.io/images/sHIVTBZvZU.png
-*Note: a **Table of Contents** can be found in the pins.*
 
 .
-## __Introduction__
-.tag:intro
-Vindicta, the Zarosian general residing in the Heart of Gielinor, requires 80 attack <:attack:689509250472476758> (boostable) and 40 Zaros killcount to fight. Her drops include the t85 Dragon Rider Lance <:dragonriderlance:643161541931171872> which disassembles for Ilujankan components <:Ilujankancomp:513190158674427906> needed for the Aftershock <:as4:712074245202772009> perk, and the Crest of Zaros <:crestzaros:643161512177041428> which is used to make the t80 Anima Core of Zaros set <:animahelmzaros:643120081790042163>
+## __General Information__
+.tag:generalInfo
+⬥ Vindicta & Gorvek is a multi-phase fight in the Heart of Gielinor.
+⬥ In Normal Mode, Vindicta starts at 200,000 LP and mounts Gorvek at 100,000 LP.
+⬥ In Hard Mode, Vindicta starts at 300,000 LP and mounts Gorvek at 150,000 LP.
+⬥ After Vindicta is defeated in Hard Mode, Gorvek continues the fight alone with 300,000 LP.
+⬥ Level 80 Attack <:attack:689509250472476758> is required to create an instance, which you can boost with any attack potion.
 
-The fight itself is split into two distinct phases. The aim of this guide is to familiarise you with how to handle mechanics in order to successfully get your first solo kills.
-
-Throughout this fight, Vindicta's auto attacks hit the player with melee <:melee:1096130867279171706> damage. The player will pray Protect from Melee <:protectfrommelee:1052551452788269127> or Deflect Melee <:deflectmelee:544195488447201300>.
-.
-
-.tag:mechanics
-{
-  "embed": {
-    "title": "__Phase 1 (200k - 100k hp):__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Attack Rotation__",
-        "value": "Make sure to start the fight in the centre of the arena to avoid Vindicta skipping attacks \n\n2 auto attacks → Hurricane **OR** Ranged special attack → 3 auto attacks → Dragonfire → 3 auto attacks → Hurricane → Repeat"
-      },
-      {
-        "name": "__Hurricane__",
-        "value": "⬥ A 5x5 melee <:melee:1096130867279171706> Area-of-Effect (AoE) attack is used when the player is __within melee distance__ of Vindicta. The player should:\n\n\u00a0\u00a0\u00a0\u00a0• Pray Protect from Melee <:protectfrommelee:1052551452788269127> or Deflect Melee <:deflectmelee:544195488447201300> to mitigate 50% of its damage.\n\u00a0\u00a0\u00a0\u00a0• (Optional) use Resonance <:res:535541258844635148> to heal from this attack **OR** use Devotion <:devo:513190158728953857> to mitigate all the damage. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Hurricane](https://img.pvme.io/images/1tatA2X.mp4)\n\u200B"
-      },
-      {
-        "name": "__Ranged special attack__",
-        "value": "⬥ A ranged attack is used when the player is __not in melee distance__ of Vindicta. \n⬥ This is a single ranged hit for moderate damage. The player should:\n\n\u00a0\u00a0\u00a0\u00a0• Pray Protect from Missiles <:protectfrommissiles:1052551455078367313> or Deflect Missiles <:deflectrange:544195488317046812> to mitigate 50% of its damage. Then the player should return back to Protect from Melee <:protectfrommelee:1052551452788269127> or Deflect Melee <:deflectmelee:544195488447201300>.\n\u00a0\u00a0\u00a0\u00a0• (Optional) Use Resonance <:res:535541258844635148> to heal from this attack **OR** use Devotion <:devo:513190158728953857> to mitigate all the damage."
-      },
-      {
-        "name": "__Dragonfire__",
-        "value": "⬥ Vindicta raises her arms to signal Gorvek, her dragon. Gorvek then engulfs a straight line in flames targeted at the player from a random direction.\n⬥ This attack deals small, rapid magic hits if stood in. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Move out of the dragonfire as quickly as they can.\n\n\u00a0\u00a0\u00a0\u00a0• If you find yourself standing in the fire, pray Protect from Magic <:protectfrommagic:1052551456835768351> or Deflect Magic <:DeflectMage:544195487926845462> and move out of the fire. Make sure to swap back to Protect from Melee <:protectfrommelee:1052551452788269127> or Deflect Melee <:deflectmelee:544195488447201300> after exiting the dragonfire. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Dragonfire attack](https://img.pvme.io/images/TG1pugT.mp4)\n\u200B"
-      }
-    ]
-  }
-}
-.embed:json
-.
-{
-  "embed": {
-    "title": "__Phase 2 (100k - 0k hp):__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Attack Rotation__",
-        "value": "⬥ Melee auto attack → Ranged special attack → Melee auto attack → Dragonfire Wall → Repeat\n\u200B"
-      },
-      {
-        "name": "__Ranged special attack__",
-        "value": "⬥ This is a single ranged hit dealing high damage. The timing of this attack is dependent on how far away Gorvek lands after the dragonfire. If too far away, the first melee auto attack will be skipped and the Ranged special attack is immediate. You can surge/dive closer to Gorvek to help close the distance.\n\nThe player should:\n\n\u00a0\u00a0\u00a0\u00a0• Use Resonance <:res:535541258844635148> to heal from this attack. \n\u00a0\u00a0\u00a0\u00a0• If Resonance is on cooldown, the player can perform one of the following options:\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Use Debilitate <:debil:535541278264393729> or Reflect <:reflect:535541258786177064> to reduce incoming damage by 50%.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0• Pray Protect from Missiles <:protectfrommissiles:1052551455078367313> or Deflect Missiles <:deflectrange:544195488317046812> to mitigate 50% of its damage and additionally use Devotion <:devo:513190158728953857> to mitigate all the damage. Remember to swap back afterwards! \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Ranged special attack](https://img.pvme.io/images/h5uwYYH.mp4)\n\u200B"
-      },
-      {
-        "name": "__Dragonfire Wall__",
-        "value": "⬥ Vindicta commands Gorvek to engulf a straight line in flames targeted at the player.\n⬥ Other than Vindicta riding Gorvek and flying away, this is identical to the dragonfire during phase 1 and can be dealt with the same way - pray Protect from Magic <:protectfrommagic:1052551456835768351> or Deflect Magic <:DeflectMage:544195487926845462> and move out of the fire. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Dragonfire attack](https://img.pvme.io/images/TG1pugT.mp4)\n\u200B"
-      }
-    ]
-  }
-}
-.embed:json
+Other guides: <#1154899710495166574> <#1251377312730058833> <#1487858611253284945>
 
 .
-## __Presets and Relics__
-.tag:presets
-Below are some presets we believe will lead to a great learning experience. Magic assumes the user is on the normal spellbook.
-
-Necromancy and Magic will be the easiest to learn with however Melee and Ranged presets can be provided in <#656898197561802760>. These are all not set in stone so if you are missing a couple of items, you will still be able to complete kills. Try not to downgrade too heavily though as these have been prepared with your learning experience in mind.
-
-⬥ [Magic preset](<https://presets.pvme.io/?id=37wGtZi2tg93T6xAFahj>) <:magic:689504724159823906>
-⬥ [Necromancy preset](https://presets.pvme.io/?id=ntsTFQeK0CwW6eL82AYB) <:necromancy:1148995625896120460>
+## __Gear, Relics and Familiars__
+.tag:GearRelicsFamiliars
+The following presets are based on Stage 1 <#1020045708746833930>:
+⬥ <:magic:689504724159823906> [Magic](<https://presets.pvme.io/?id=36ec3ebe-379d-4350-a3ff-ce7a88f7525a>)
+⬥ <:range:580168050121113623> [Ranged](<https://presets.pvme.io/?id=50e03e24-37ad-4be8-abf5-a4bb22c0aa09>)
+⬥ <:melee:1096130867279171706> [Melee](<https://presets.pvme.io/?id=de7d0a00-3300-4607-ad6f-0c98f839c560>)
+⬥ <:necromancy:1148995625896120460> [Necromancy](https://presets.pvme.io/?id=0d30907b-8f74-4b10-9335-335d98008918)
 
 .
-## __Tips and Tricks__
-.tag:tips
-This is a great boss to learn how to use a few of your Defensive abilities effectively as well as familiarise yourself with movement during an encounter. Primarily in this fight, you will use Resonance <:res:535541258844635148>, Devotion <:devo:513190158728953857>, Debilitate <:debil:535541278264393729> or Reflect <:reflect:535541258786177064> to reduce incoming damage. If you have Lesser Bone Shield <:lesserboneshield:1137809125590450276> unlocked and active, you do not need to bring a shield with you to access Resonance <:res:535541258844635148> or Reflect <:reflect:535541258786177064> otherwise you will need to bring a shield.
+## __Fight Mechanics__
+.tag:fightMechanics
 
-Vindicta is also a great boss to practice some fundamentals when thinking about your abilities. Below is a basic structure to think about and practice:
-
-1) Damage boosting ultimate ability <:sunshine:994921119381463070> / <:zerk:535532854004678657> / <:deathsswift:994921434633744455> / <:livingdeath:1159434908486357072>
-2) Build adrenaline, souls or necrosis stacks using appropriate basic abilities
-3) Stronger threshold abilities, e.g., <:wm:535533809978966037> / <:asphyx:535533833072672778> , <:assault:535532855191928842> / <:destroy:535532879330148352> / <:cane:535532878969438210> , <:snap:535534127131394088> / <:rapid:535541270521708566> , <:fingerofdeath:1159434801938432010> / <:volleyofsouls:1159435029592686642>
-4) Repeat steps 2 and 3 until your damage boosting ultimate ability runs out and build to 100% adrenaline again
-5) Repeat from step 1
 .
-Content Provided by: <@788941461952397332>
-Formatting Maintained by: <@788941461952397332>
+### __Attack Rotation__
+**Normal Mode:**
+⬥ P1: 2 auto attacks → *Hurricane* → 2 auto attacks / *Ranged Attack* → *Dragonfire* → 3 auto attacks → *Hurricane* → Repeat
+⬥ P2: 1 auto attack → *Ranged Attack* → 1 auto attack → *Dragonfire Wall* → Repeat
+
+**Hard Mode:**
+⬥ P1: 2 auto attacks → *Hurricane* → 3 auto attacks → *Dragonfire* → 3 auto attacks → *Hurricane* → Repeat
+⬥ P2: 1 Melee auto attack → *Ranged Attack* → 1 Melee auto attack → *Fly + Dragonfire Wall* → Repeat
+⬥ P3: 10 rapid Melee auto attacks → *Fly + Dragonfire Wall* → Fly back to the middle → Repeat
+
+.
+### __Auto Attacks__
+**Mechanic:**
+⬥ Vindicta's auto attacks deal Melee <:melee:1096130867279171706> damage
+⬥ In Hard Mode Phase 3, Gorvek attacks rapidly with Melee auto attacks, hitting up to around 4,500 damage per hit
+
+**Solution:**
+⬥ Pray against Melee <:deflectmelee:544195488447201300> **or**
+⬥ Pray <:soulsplit:615613924506599497> once you are comfortable surviving mechanics
+⬥ In Hard Mode Phase 3, use defensive abilities if you are taking too much damage from Gorvek's rapid attacks
+
+.
+### __Phase 1 - Hurricane__ [(Example)](<https://img.pvme.io/images/1tatA2X.mp4>)
+**Mechanic:**
+⬥ Vindicta uses a 5x5 Melee AoE when you are within melee distance
+⬥ If you are outside melee distance, *Hurricane* is replaced by a Ranged attack instead
+
+**Solution:**
+⬥ Use Devotion <:devo:513190158728953857> to mitigate the damage **or**
+⬥ Tank the attack
+⬥ Stay outside melee distance if you want to force the Ranged attack instead
+
+.
+### __Phase 1 - Ranged Attack__ [(Example)](<https://img.pvme.io/images/Y43i9Dnwrr.mp4>)
+**Mechanic:**
+⬥ Vindicta fires a single Ranged hit if you are outside melee distance
+⬥ In Hard Mode, this deals moderate Ranged damage to a random target
+
+**Solution:**
+⬥ Briefly switch to pray against Ranged <:deflectrange:544195488317046812>
+
+.
+### __Phase 1 - Dragonfire__ [(Example)](<https://img.pvme.io/images/TG1pugT.mp4>)
+**Mechanic:**
+⬥ Vindicta raises her arms to signal Gorvek
+⬥ Gorvek fires a straight line of flames across the arena
+⬥ This deals rapid Magic damage if stood in
+
+**Solution:**
+⬥ Move out of the fire
+⬥ Avoid standing directly on the dragonfire line, as the damage hits rapidly
+
+.
+### __Phase 2 - Mounted Gorvek__
+**Mechanic:**
+⬥ Vindicta mounts Gorvek once she reaches the phase transition threshold
+⬥ In Normal Mode, this happens at 100,000 LP
+⬥ In Hard Mode, this happens at 150,000 LP
+⬥ Once mounted, Vindicta and Gorvek gain a new attack pattern
+
+**Solution:**
+⬥ Prepare for *Ranged Attack* and *Dragonfire Wall*
+⬥ Keep moving out of dragonfire lines while continuing to damage the boss
+
+.
+### __Phase 2 - Dragonfire Wall__ [(Example)](<https://img.pvme.io/images/flnK9zh.mp4>)
+**Mechanic:**
+⬥ Gorvek flies to a random corner and breathes a straight line of flames across the arena
+⬥ This works the same as *Phase 1 - Dragonfire*
+
+**Solution:**
+⬥ Move out of the fire **or**
+⬥ Surge <:surge:535533810004262912> towards Gorvek and past the fire
+
+.
+### __Phase 2 - Ranged Attack__ [(Example)](<https://img.pvme.io/images/h5uwYYH.mp4>)
+**Mechanic:**
+⬥ Gorvek fires a high-damage Ranged hit
+
+**Solution:**
+⬥ Use Resonance <:res:535541258844635148> to heal from the hit **or**
+⬥ Pray against Ranged <:deflectrange:544195488317046812> and use Devotion <:devo:513190158728953857>
+
+.
+### __Phase 3 - Gorvek (HM Only)__
+**Mechanic:**
+⬥ After Vindicta is defeated, Gorvek continues the fight alone with 300,000 LP
+⬥ Gorvek uses rapid Melee auto attacks, then flies away to create a dragonfire wall before returning to the middle
+
+**Solution:**
+⬥ Pray against Melee <:deflectmelee:544195488447201300> during Gorvek's rapid auto attacks
+⬥ Use defensive abilities if needed, as the Melee hits can deal heavy damage
+⬥ Be ready to move when Gorvek flies away for *Dragonfire Wall*
+
+.
+### __Phase 3 - Dragonfire Wall (HM Only)__
+**Mechanic:**
+⬥ Gorvek flies away and breathes a straight line of flames across the arena
+⬥ This works the same as *Phase 1 - Dragonfire*
+⬥ In Hard Mode Phase 3, dragonfire lines stay active until three are present
+⬥ When the next dragonfire wall is used, the oldest line despawns
+
+**Solution:**
+⬥ Move out of the fire
+⬥ Track active dragonfire lines and avoid boxing yourself in
+⬥ Use Surge <:surge:535533810004262912> or Dive <:dive:1049378668197195808> to reposition safely
+
+.
+## __Videos__
+.tag:videos
+⬥ [Example kill](https://youtu.be/Eo5sWwnuaPk)
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips & Tricks]($linkmsg_tips$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Info]($linkmsg_generalInfo$)\n⬥ [Gear, Relics & Familiars]($linkmsg_GearRelicsFamiliars$)\n⬥ [Fight Mechanics]($linkmsg_fightMechanics$)\n⬥ [Videos]($linkmsg_videos$)",
     "color": 39423
   }
 }
