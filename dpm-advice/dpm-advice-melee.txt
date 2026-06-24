@@ -10,6 +10,7 @@ This channel will go over general damage output lessons, ability prioritisation,
 ⬥ For recommended upgrade order, see <#1250862462442410216>
 ⬥ For invention perks, see <#553632787639435284>
 ⬥ If you need tailored advice for a specific boss or gear setup, ask in <#656898197561802760>
+⬥ To compare abilities, use [RS Analysis' Melee Page](<https://tools.runescape.wiki/rs-rot/melee>), and add your gear
 
 .
 ## __Abilities, Attacks and Weapons__
@@ -264,8 +265,18 @@ The examples below are not fixed boss rotations. They show how to start with a s
     "color": 39423,
     "fields": [
       {
-        "name": "\u200B",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Prioritising Basic Abilities]($linkmsg_basics$)\n⬥ [Prioritising Stronger Abilities]($linkmsg_prioritisingstronger$)\n⬥ [Utility Abilities]($linkmsg_utility$)\n⬥ [Building Adrenaline]($linkmsg_buildingadren$)\n⬥ [Maximising Berserk]($linkmsg_zerk$)\n⬥ [Maximising Chaos Roar]($linkmsg_chaosroar$)\n⬥ [Managing Bloodlust stacks]($linkmsg_bloodlust$)\n⬥ [Switching Weapons]($linkmsg_switchingweapons$)\n⬥ [Building a Rotation]($linkmsg_buildingarotation$)",
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Core DPM Advice__",
+        "value": "⬥ [Prioritising Basic Abilities]($linkmsg_basics$)\n⬥ [Prioritising Stronger Abilities]($linkmsg_prioritisingstronger$)\n⬥ [Utility Abilities]($linkmsg_utility$)\n⬥ [Building Adrenaline]($linkmsg_buildingadren$)",
+        "inline": true
+      },
+      {
+        "name": "__Advanced DPM Advice__",
+        "value": "⬥ [Maximising Berserk]($linkmsg_zerk$)\n⬥ [Maximising Chaos Roar]($linkmsg_chaosroar$)\n⬥ [Managing Bloodlust stacks]($linkmsg_bloodlust$)\n⬥ [Switching Weapons]($linkmsg_switchingweapons$)\n⬥ [Building a Rotation]($linkmsg_buildingarotation$)",
         "inline": true
       }
     ]
