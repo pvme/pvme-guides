@@ -1,78 +1,104 @@
-# Helwyr Basic
+# Helwyr – Boss Guide
 .img:https://img.pvme.io/images/F2iSmgl0OR.png
-*Note: a **Table of Contents** can be found in the pins.*
 
 .
-## __Introduction__
-.tag:intro
-Helwyr, Seren's general residing in the Heart of Gielinor, requires 80 Magic <:magic:689504724159823906> (boostable) and 40 Seren killcount to fight. His drops include the t85 Wand of the Cywir elders <:cywirwand:643161591571021824> and Orb of the Cywir elders <:cywirorb:643161591210049556> which are strong midgame magic weapons when used with Greater Concentrated Blast <:gconc:869285393223254107>. Helwyr also drops the Crest of Seren <:crestseren:643161511937966122> which is used to make the t80 Anima Core of Seren set <:animahelmseren:643120081764745279>.
+## __General Information__
+.tag:generalInfo
+⬥ Helwyr is a 1-phase fight in the Heart of Gielinor.
+⬥ Helwyr has 200,000 LP in Normal Mode and 300,000 LP in Hard Mode.
+⬥ Level 80 Magic <:magic:689504724159823906> is required to create an instance, which you can boost with any magic potion.
+⬥ In Hard Mode, Helwyr gains stronger versions of his standard mechanics and an additional *Mushroom Barrage* mechanic.
 
-The fight itself is one phase. The aim of this guide is to familiarise you with how to handle mechanics in order to successfully get your first solo kills.
-
-Throughout this fight, Helwyr's auto attacks hit the player with melee <:melee:1096130867279171706> damage. The player will pray Protect from Melee <:protectfrommelee:1052551452788269127> or Deflect Melee <:deflectmelee:544195488447201300>.
-.
-## __Mechanics__
-.tag:mechanics
-{
-  "embed": {
-    "title": "__Mechanics__",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Attack Rotation__",
-        "value": "Make sure to start the fight in the centre of the arena to avoid Helwyr skipping attacks \n\nMushroom gas → 2 auto attacks → Cleave → 2 auto attacks → Frenzy → 2 auto attacks → Minion Spawn → 2 auto attacks → Repeat"
-      },
-      {
-        "name": "__Mushroom Gas__",
-        "value": "⬥ A large cloud of gas dealing 250 damage per tick; it will bind you if you stand in it too long. The player should:\n\n\u00a0\u00a0\u00a0\u00a0• Move out of the gas cloud as quickly as possible. If you find yourself stunned by the gas, you should **__NOT__** Freedom <:freedom:535541258240786434> as you will need to save this for later. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Mushroom Gas](https://img.pvme.io/images/KHMLekU.mp4)"
-      },
-      {
-        "name": "__Cleave__",
-        "value": "⬥ Helwyr stands on his hind legs and hits in a frontal cone for up to 3k. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Use Resonance <:res:535541258844635148> to heal from this attack. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Cleave](https://img.pvme.io/images/OKDS0F5.mp4)"
-      },
-      {
-        "name": "__Frenzy__",
-        "value": "⬥ Helwyr spins around dealing rapid melee hits, each applying a bleed stack on your debuff bar that looks like this: <:dismember:535532879376023572>. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Use Devotion <:devo:513190158728953857> to mitigate all the melee damage from the Frenzy. \n\u00a0\u00a0\u00a0\u00a0• If Devotion is on cooldown, the player can use Debilitate <:debil:535541278264393729> or Reflect <:reflect:535541258786177064> to mitigate 50% of incoming damage.\n\u00a0\u00a0\u00a0\u00a0• When Helwyr finishes, use Freedom <:freedom:535541258240786434> to clear the bleed entirely. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Frenzy](https://img.pvme.io/images/G5CPPoC.mp4)"
-      },
-      {
-        "name": "__Minion Spawn__",
-        "value": "⬥ Helwyr will summon two 3k HP Cywir Alphas. The player should: \n\n\u00a0\u00a0\u00a0\u00a0• Use Area-of-Effect (AoE) abilities to defeat them whilst continuing to attack Helwyr. \n\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example Minion Spawn](https://img.pvme.io/images/EB1ss4g.mp4)"
-      }
-    ]
-  }
-}
-.embed:json
+Other guides: <#1507118031627747358> <#1251377318882971708> <#1251209157575577682>
 
 .
-## __Presets and Relics__
-.tag:presets
-Below are some presets we believe will lead to a great learning experience. Magic assumes the user is on the normal spellbook.
-
-Necromancy and Magic will be the easiest to learn with however Melee and Ranged presets can be provided in <#656898197561802760>. These are all not set in stone so if you are missing a couple of items, you will still be able to complete kills. Try not to downgrade too heavily though as these have been prepared with your learning experience in mind.
-
-⬥ [Magic preset](<https://presets.pvme.io/?id=FpJAcluNA4k2VAS6rn2z>) <:magic:689504724159823906>
-⬥ [Necromancy preset](https://presets.pvme.io/?id=t1EyGrUw10j2zgaf54Db) <:necromancy:1148995625896120460>
+## __Gear, Relics and Familiars__
+.tag:GearRelicsFamiliars
+The following presets are based on Stage 1 <#1020045708746833930>:
+⬥ <:magic:689504724159823906> [Magic](<https://presets.pvme.io/?id=36ec3ebe-379d-4350-a3ff-ce7a88f7525a>)
+⬥ <:range:580168050121113623> [Ranged](<https://presets.pvme.io/?id=50e03e24-37ad-4be8-abf5-a4bb22c0aa09>)
+⬥ <:melee:1096130867279171706> [Melee](<https://presets.pvme.io/?id=de7d0a00-3300-4607-ad6f-0c98f839c560>)
+⬥ <:necromancy:1148995625896120460> [Necromancy](https://presets.pvme.io/?id=0d30907b-8f74-4b10-9335-335d98008918)
 
 .
-## __Tips and Tricks__
-.tag:tips
-This is a great boss to learn how to use a few of your Defensive abilities effectively as well as familiarise yourself with movement during an encounter. Primarily in this fight, you will use Resonance <:res:535541258844635148>, Devotion <:devo:513190158728953857>, Debilitate <:debil:535541278264393729> or Reflect <:reflect:535541258786177064> to reduce incoming damage and Freedom <:freedom:535541258240786434> to clear bleeds. If you have Lesser Bone Shield <:lesserboneshield:1137809125590450276> unlocked and active, you do not need to bring a shield with you to access Resonance <:res:535541258844635148> or Reflect <:reflect:535541258786177064> otherwise you will need to bring a shield.
+## __Fight Mechanics__
+.tag:fightMechanics
 
-Helwyr is also a great boss to practice some fundamentals when thinking about your abilities. Below is a basic structure to think about and practice:
-
-1) Damage boosting ultimate ability <:sunshine:994921119381463070> / <:zerk:535532854004678657> / <:deathsswift:994921434633744455> / <:livingdeath:1159434908486357072>
-2) Build adrenaline, souls or necrosis stacks using appropriate basic abilities
-3) Stronger threshold abilities, e.g., <:wm:535533809978966037> / <:asphyx:535533833072672778> , <:assault:535532855191928842> / <:destroy:535532879330148352> / <:cane:535532878969438210> , <:snap:535534127131394088> / <:rapid:535541270521708566> , <:fingerofdeath:1159434801938432010> / <:volleyofsouls:1159435029592686642>
-4) Repeat steps 2 and 3 until your damage boosting ultimate ability runs out and build to 100% adrenaline again
-5) Repeat from step 1
 .
-Content Provided by: <@788941461952397332>
-Formatting Maintained by: <@788941461952397332>
+### __Attack Rotation__
+⬥ Normal Mode: *Mushroom Gas* → 2 auto attacks → *Cleave* → 2 auto attacks → *Frenzy* → 2 auto attacks → *Minions* → 2 auto attacks → Repeat
+⬥ Hard Mode: *Mushroom Gas* → 2 auto attacks → *Cleave* → 2 auto attacks → *Frenzy* → 2 auto attacks → *Minions* → 2 auto attacks → *Mushroom Barrage* → 2 auto attacks → Repeat
+
+.
+### __Mushroom Gas__ [(Example)](<https://img.pvme.io/images/KHMLekU.mp4>)
+**Mechanic:**
+⬥ A large gas cloud spawns, dealing rapid typeless damage and binding you if stood in for too long
+⬥ In Hard Mode, 6 mushrooms release gas clouds at once, making the safe movement area smaller
+
+**Solution:**
+⬥ Move out of the gas
+⬥ Stand near the edge of mushrooms to reduce the distance needed to move
+⬥ If bound, do **not** use Freedom <:freedom:535541258240786434>, as you want this saved for *Frenzy*
+
+.
+### __Cleave__ [(Example)](<https://img.pvme.io/images/OKDS0F5.mp4>)
+**Mechanic:**
+⬥ Helwyr stands up, dealing a large Melee attack in a frontal cone and applying a bleed <:dismember:535532879376023572> on you
+⬥ In Hard Mode, this can hit up to around 7,000 damage, disables protection prayers, and applies a typeless bleed
+
+**Solution:**
+⬥ Step out of the damage cone **or**
+⬥ Use Disruption Shield <:disrupt:535614336207552523> to block the hit **or**
+⬥ Use Resonance <:res:535541258844635148> to heal from the hit
+⬥ Vengeance <:Veng:543478434953822208> can also be used
+⬥ Do **not** use Freedom <:freedom:535541258240786434> to clear the bleed, as you want this saved for *Frenzy*
+
+.
+### __Frenzy__ [(Example)](<https://img.pvme.io/images/G5CPPoC.mp4>)
+**Mechanic:**
+⬥ Helwyr spins and leaps around, dealing rapid Melee hits, with each hit reapplying a bleed <:dismember:535532879376023572> on you
+⬥ In Hard Mode, this damage is more punishing, especially if several bleed stacks are left active
+
+**Solution:**
+⬥ Use Devotion <:devo:513190158728953857> + pray against Melee <:deflectmelee:544195488447201300> to fully negate the damage
+⬥ Debilitate <:debil:535541278264393729> can be used if Devotion is unavailable
+⬥ With Magic <:magic:689504724159823906>, Ranged <:range:580168050121113623> or Necromancy <:necromancy:1148995625896120460>, you can run away during the attack
+⬥ With Melee <:melee:1096130867279171706>, it is usually better to stay in range and continue attacking
+⬥ Use Freedom <:freedom:535541258240786434> after Frenzy ends to clear the bleed
+
+.
+### __Minion Spawn__ [(Example)](<https://img.pvme.io/images/EB1ss4g.mp4>)
+**Mechanic:**
+⬥ Two Cywir Alphas are summoned to fight alongside Helwyr
+⬥ In Normal Mode, they have around 3,000 LP each
+⬥ In Hard Mode, they have around 5,000 LP each
+
+**Solution:**
+⬥ Kill them using AoE abilities **or**
+⬥ Ignore them if you are comfortable with the extra damage
+
+.
+### __Mushroom Barrage (HM Only)__
+**Mechanic:**
+⬥ Helwyr blows up rows of mushrooms, dealing heavy typeless AoE damage per mushroom. One row is safe at a time, starting from the north and moving south after each explosion
+⬥ This mechanic has no text or animation cue, but starts at around 00:50 kill time
+
+**Solution:**
+⬥ Move from north to south with the safe row
+⬥ Avoid active mushroom gas clouds while moving
+⬥ Use Dive <:dive:1049378668197195808> and Surge <:surge:535533810004262912> to reposition safely
+⬥ Avoid standing near exploding mushrooms, as each explosion can deal around 5,500-6,000 typeless damage
+
+.
+## __Videos__
+.tag:videos
+⬥ [Example kill](https://youtu.be/YXT-U2_XR-E)
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips & Tricks]($linkmsg_tips$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Info]($linkmsg_generalInfo$)\n⬥ [Gear, Relics & Familiars]($linkmsg_GearRelicsFamiliars$)\n⬥ [Fight Mechanics]($linkmsg_fightMechanics$)\n⬥ [Videos]($linkmsg_videos$)",
     "color": 39423
   }
 }

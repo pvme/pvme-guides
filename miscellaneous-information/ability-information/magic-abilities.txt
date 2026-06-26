@@ -33,7 +33,7 @@ Some general notes:
 
 .
 ## __Magic <:Magic:689504724159823906>__
-This section covers auto attacks and spells, basics, thresholds, ultimate abilities and special attacks for Magic.
+This section covers auto attacks and spells, basic abilities, enhanced abilities, ultimate abilities, utility abilities and special attacks for Magic.
 
 .
 ### Autos and Spells
@@ -74,7 +74,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Incite Fear__ <:incitefear:856635090783567902>",
-    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Every ability cast applies a stack:\n\u00a0\u00a0\u00a0\u00a0• Caps at 5 stacks, and at max stacks uses no runes on ability casts\n\u00a0\u00a0\u00a0\u00a0• Stacks are lost every 20s, refreshed upon trying to apply another stack\n\u00a0\u00a0\u00a0\u00a0• Each stack reduces Tsunami's <:tsunami:535533809995874304> cast cost by -12% adrenaline\n⬥ Frost Surge:\n\u00a0\u00a0\u00a0\u00a0• At 5 stacks, ability casts trigger Frost Surge; deals 10-50% ability damage\n\u00a0\u00a0\u00a0\u00a0• Triggering it costs runes even at max stacks\n\u00a0\u00a0\u00a0\u00a0• Frost Surge is a 5x5 AoE around your primary target which hits up to 8 extra targets in range for 10-50% ability damage each\n\u00a0\u00a0\u00a0\u00a0• Frost Surge has a 12s cooldown, after an ability cast can trigger it again",
+    "description": "⬥ Every ability cast applies a stack:\n\u00a0\u00a0\u00a0\u00a0• Caps at 5 stacks, and at max stacks uses no runes on ability casts\n\u00a0\u00a0\u00a0\u00a0• Stacks are lost after 20s, refreshed upon applying another stack\n\u00a0\u00a0\u00a0\u00a0• Each stack reduces Tsunami's <:tsunami:535533809995874304> cast cost by -12% adrenaline\n⬥ Frost Surge:\n\u00a0\u00a0\u00a0\u00a0• At 5 stacks, ability casts trigger Frost Surge; deals 10-50% ability damage\n\u00a0\u00a0\u00a0\u00a0• Triggering it costs runes even at max stacks\n\u00a0\u00a0\u00a0\u00a0• Frost Surge is a 5x5 AoE around your primary target which hits up to 8 extra targets in range for 10-50% ability damage each\n\u00a0\u00a0\u00a0\u00a0• Frost Surge has a 12s cooldown, after an ability cast can trigger it again",
     "color": 39423
   }
 }
@@ -85,7 +85,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Exsanguinate__ <:exsanguinate:856635090745950258>",
-    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Every ability cast applies a stack:\n\u00a0\u00a0\u00a0\u00a0• Caps at 12 stacks, and at max stacks uses no runes on ability casts\n\u00a0\u00a0\u00a0\u00a0• Stacks are lost every 20s, refreshed upon trying to apply another stack\n\u00a0\u00a0\u00a0\u00a0• Each stack increases basic ability damage by +1% (excludes: <:comb:535533833098100745> and <:corruptblast:513190159194259467>)\n⬥ Wrack and Ruin <:wrackandruin:1257439387474722836>:\n\u00a0\u00a0\u00a0\u00a0• At 12 stacks <:wrack:1257439366708592651> becomes <:wrackandruin:1257439387474722836>\n\u00a0\u00a0\u00a0\u00a0• It deals 180-220% ability damage (288-352% on stun/bound)\n\u00a0\u00a0\u00a0\u00a0• Resets all stacks and grants a stack of *Blood Tithe* per target hit (<:gchain:1257440278512537740>)\n\u00a0\u00a0\u00a0\u00a0• *Blood Tithe* makes your next <:comb:535533833098100745> within 10s do 2 additional hits per stack",
+    "description": "⬥ Every ability cast applies a stack:\n\u00a0\u00a0\u00a0\u00a0• Caps at 12 stacks, and at max stacks uses no runes on ability casts\n\u00a0\u00a0\u00a0\u00a0• Stacks are lost after 20s, refreshed upon applying another stack\n\u00a0\u00a0\u00a0\u00a0• Each stack increases basic ability damage by +1%",
     "color": 39423
   }
 }
@@ -96,7 +96,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Smoke Cloud__ <:smokecloud:856635090641879050>",
-    "description": "⬥ Cooldown: Based on Weapon Speed\n\u00a0\u00a0\u00a0\u00a0• Fastest (Wand): 4t (2.4s)\n\u00a0\u00a0\u00a0\u00a0• Average (Staff): 6t (3.6s)\n⬥ Increases damage dealt with critical hits by 15% for Magic, 6% otherwise\n⬥ Lasts 120s",
+    "description": "⬥ Increases damage dealt with critical hits by 15% for Magic, 6% otherwise\n⬥ Lasts 120s",
     "color": 39423
   }
 }
@@ -115,7 +115,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:animatedead
 
 .
-### Basics
+### Basic Abilities
 .tag:magicBasics
 {
   "embed": {
@@ -153,7 +153,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Dragon Breath__ <:dbreath:535533833391702017>",
-    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• AoE is straight line to target + 3x3 around it\n\u00a0\u00a0\u00a0\u00a0• Hits 5 targets, inclusive of main\n⬥ It is affected by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>:\n\u00a0\u00a0\u00a0\u00a0• Next <:comb:535533833098100745> to hit within 10t of the <:dbreath:535533833391702017> cast will have remaining hits instantly hit at 25% more damage\n\u00a0\u00a0\u00a0\u00a0• Within 10t means: if <:dbreath:535533833391702017> is cast t0, <:comb:535533833098100745> has to hit within t0-9\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Latest you can cast <:comb:535533833098100745> is t7\n⬥ It is affected by the Dragonrider Amulet <:drider:656785090994503700>\n\u00a0\u00a0\u00a0\u00a0• Boosts damage by 10%\n\u00a0\u00a0\u00a0\u00a0• Has a 10% chance of applying a 3-hit DoT, each for 10% of <:dbreath:535533833391702017> max hit, rounded down (excludes boosts that do not normally boost bleeds)",
+    "description": "⬥ Cooldown: 12t (7.2s)\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• AoE is straight line to target + 3x3 around it\n\u00a0\u00a0\u00a0\u00a0• Hits 5 targets, inclusive of main\n⬥ It is affected by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>:\n\u00a0\u00a0\u00a0\u00a0• Next <:combust:1478063107908702482> to hit within 10t of the <:dbreath:535533833391702017> cast will have remaining hits instantly hit at 25% more damage\n\u00a0\u00a0\u00a0\u00a0• Within 10t means: if <:dbreath:535533833391702017> is cast t0, <:combust:1478063107908702482> has to hit within t0-9\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Latest you can cast <:combust:1478063107908702482> is t7\n⬥ It is affected by the Dragonrider Amulet <:drider:656785090994503700>\n\u00a0\u00a0\u00a0\u00a0• Boosts damage by 10%\n\u00a0\u00a0\u00a0\u00a0• Has a 10% chance of applying a 3-hit DoT, each for 10% of <:dbreath:535533833391702017> max hit, rounded down (excludes boosts that do not normally boost bleeds)",
     "color": 39423
   }
 }
@@ -175,7 +175,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Combust__ <:combust:1478063107908702482>",
-    "description": "⬥ Cooldown: 30t (18s)\n⬥ It is a Burn:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 3t (1.8s), for a total of 10 times\n⬥ Affected by <:lunging:1009423860875153559>:\n\u00a0\u00a0\u00a0\u00a0• Increases damage by 10% + 3% per <:lunging:1009423860875153559> rank\n⬥ Affected by <:dbreath:535533833391702017> modified by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>\n\u00a0\u00a0\u00a0\u00a0• Next <:comb:535533833098100745> to hit within 10t of the <:dbreath:535533833391702017> cast will have remaining hits instantly hit at 25% more damage\n\u00a0\u00a0\u00a0\u00a0• Within 10t means: if <:dbreath:535533833391702017> is cast t0, <:comb:535533833098100745> has to hit within t0-9\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Latest you can cast <:comb:535533833098100745> is t7\n⬥ Deals 40% increased damage if used within 15 seconds of <:roarofawakening:1266417538045317121> <:spec:537340400273195028>",
+    "description": "⬥ Cooldown: 30t (18s)\n⬥ It is a Burn:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572>\n\u00a0\u00a0\u00a0\u00a0• Hits every 3t (1.8s), for a total of 10 times\n⬥ Affected by <:lunging:1009423860875153559>:\n\u00a0\u00a0\u00a0\u00a0• Increases damage by 10% + 3% per <:lunging:1009423860875153559> rank\n⬥ Affected by <:dbreath:535533833391702017> modified by Kerapac's wrist wraps <:kerapacswristwraps:869286640722513940>\n\u00a0\u00a0\u00a0\u00a0• Next <:combust:1478063107908702482> to hit within 10t of the <:dbreath:535533833391702017> cast will have remaining hits instantly hit at 25% more damage\n\u00a0\u00a0\u00a0\u00a0• Within 10t means: if <:dbreath:535533833391702017> is cast t0, <:combust:1478063107908702482> has to hit within t0-9\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Latest you can cast <:combust:1478063107908702482> is t7\n⬥ Deals 40% increased damage if used within 15 seconds of <:roarofawakening:1266417538045317121> <:spec:537340400273195028>",
     "color": 39423
   }
 }
@@ -227,7 +227,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:gconc
 
 .
-### Enhanced
+### Enhanced Abilities
 .tag:magicEnhanced
 {
   "embed": {
@@ -276,7 +276,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 {
   "embed": {
     "title": "__Corruption Blast__ <:corruption_blast:1478063113659093075>",
-    "description": "⬥ Cooldown: 25t (15s)\n⬥ Adrenaline Cost: 20%\n⬥ It is a DoT:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572> or <:eruptive:1214364892895907941>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Spreads to targets within 2 tiles each hit",
+    "description": "⬥ Cooldown: 25t (15s)\n⬥ Adrenaline Cost: 20%\n⬥ It is a DoT:\n\u00a0\u00a0\u00a0\u00a0• Not affected by <:precise:1005204971886743572>\n\u00a0\u00a0\u00a0\u00a0• Hits every 2t (1.2s), for a total of 5 times\n⬥ It is an AoE:\n\u00a0\u00a0\u00a0\u00a0• Spreads to targets within 2 tiles each hit",
     "color": 39423
   }
 }
@@ -317,12 +317,21 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 }
 .embed:json
 .tag:iban
-
+.
+{
+  "embed": {
+    "title": "__Legatus's Emberstaff__ <:legatusemberstaff:1451134746280329357>",
+    "description": "⬥ Adrenaline Cost: 35% (31.5% with <:rov:513201065877831680>)\n⬥  Deals 1% increased damage for each 1% life points the target is missing\n\u00a0\u00a0\u00a0\u00a0• Up to a maximum of 75%",
+    "color": 39423
+  }
+}
+.embed:json
+.tag:ember
 .
 {
   "embed": {
     "title": "__Roar of Awakening__ <:roarofawakening:1266417538045317121>",
-    "description": "⬥ Special Attack: Soulfire\n⬥ Cooldown: 75t (45s)\n⬥ Adrenaline Cost: 35% (31.5% with <:rov:513201065877831680>)\n⬥ Hits every 1.8s (3t) over 12.6s for a total of 7 hits.\n ⬥ Gain Conflagrate buff for 15s (25t).\n \u00a0\u00a0\u00a0\u00a0• Next <:comb:535533833098100745> deals 40% increased damage.\n⬥ Can get reset while having at least 1 <:essencecorruption:1266418936820404295>\n\u00a0\u00a0\u00a0\u00a0• For more information on <:essencecorruption:1266418936820404295>, use `!essencecorruption` in <#534563158304620564>",
+    "description": "⬥ Special Attack: Soulfire\n⬥ Cooldown: 75t (45s)\n⬥ Adrenaline Cost: 35% (31.5% with <:rov:513201065877831680>)\n⬥ Hits every 1.8s (3t) over 12.6s for a total of 7 hits.\n ⬥ Gain Conflagrate buff for 15s (25t).\n \u00a0\u00a0\u00a0\u00a0• Next <:combust:1478063107908702482> deals 40% increased damage.\n⬥ Can get reset while having at least 1 <:essencecorruption:1266418936820404295>\n\u00a0\u00a0\u00a0\u00a0• For more information on <:essencecorruption:1266418936820404295>, use `!essencecorruption` in <#534563158304620564>",
     "color": 39423
   }
 }
@@ -341,12 +350,12 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:soa
 
 .
-### Ultimates
+### Ultimate Abilities
 .tag:mageUltimates
 {
   "embed": {
     "title": "__Omnipower__ <:omni:535533809664262179>",
-    "description": "⬥ Cooldown: 50t (30s)\n⬥ Adrenaline Cost: 60%\n⬥ Affected by the Igneous Kal-Mej <:igneouskalmej:1153772938252787793> and Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n\u00a0\u00a0\u00a0\u00a0• Adrenaline cost becomes 60%\n\u00a0\u00a0\u00a0\u00a0• Fires 4 hits\n\u00a0\u00a0\u00a0\u00a0• Increases average ability damage from 300% to 540%",
+    "description": "⬥ Cooldown: 50t (30s)\n⬥ Adrenaline Cost: 60%\n⬥ Affected by the Igneous Kal-Mej <:igneouskalmej:1153772938252787793> and Igneous Kal-Zuk <:igneouskalzuk:902209626479685734>\n\u00a0\u00a0\u00a0\u00a0• Fires 4 hits\n\u00a0\u00a0\u00a0\u00a0• Increases average ability damage from 460% to 540%",
     "color": 39423
   }
 }
@@ -387,7 +396,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .tag:nami
 
 .
-### Utilities
+### Utility Abilities
 .tag:mageUtility
 {
   "embed": {
@@ -402,7 +411,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
 .
 {
   "embed": {
-    "title": "__RunicCharge__ <:runic_charge:1478063122345361562>",
+    "title": "__Runic Charge__ <:runic_charge:1478063122345361562>",
     "description": "⬥ Cooldown: 50t (30s)\n⬥ Applies Anima Charged to self for 25t (15s), consumed once used\n⬥ Anima Charged\n\u00a0\u00a0\u00a0\u00a0• <:sonic:1478063115709972651> / <:gsonic:1478063117211668584> Next Magic Ability costs 35%/45% less adrenaline\n\u00a0\u00a0\u00a0\u00a0• <:dbreath:535533833391702017> Increased damaged\n\u00a0\u00a0\u00a0\u00a0• <:conc:1478063109712121856> / <:gconc:1478063111104757760> Each channel grants an additional 10% crit chance",
     "color": 39423
   }
@@ -418,17 +427,17 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
     "color": 39423,
     "fields": [
       {
-        "name": "__Spells and Basics__ (1/3)",
+        "name": "__Spells and Basic__ (1/3)",
         "value": "⬥ [Barrage Spells]($linkmsg_barrage$)\n⬥ [Blitz Spells]($linkmsg_blitz$)\n⬥ [Vulnerability]($linkmsg_vuln$)\n⬥ [Incite Fear]($linkmsg_incitefear$)\n⬥ [Exsanguinate]($linkmsg_exsang$)\n⬥ [Smoke Cloud]($linkmsg_smokecloud$)",
         "inline": true
       },
       {
-        "name": "__Spells and Basics__ (2/3)",
+        "name": "__Spells and Basic__ (2/3)",
         "value": "⬥ [Animate Dead]($linkmsg_animatedead$)\n⬥ [Magic]($linkmsg_magicauto$)\n⬥ [Sonic Wave]($linkmsg_sonic$)\n⬥ [G. Sonic Wave]($linkmsg_gsonic$)\n⬥ [Dragon Breath]($linkmsg_dbreath$)\n⬥ [Impact]($linkmsg_impact$)",
         "inline": true
       },
       {
-        "name": "__Spells and Basics__ (3/3)",
+        "name": "__Spells and Basic__ (3/3)",
         "value": "⬥ [Combust]($linkmsg_combust$)\n⬥ [Chain]($linkmsg_chain$)\n⬥ [G. Chain]($linkmsg_gchain$)\n⬥ [Conc. Blast]($linkmsg_conc$)\n⬥ [G. Conc. Blast]($linkmsg_gconc$)",
         "inline": true
       },
@@ -439,16 +448,16 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
       },
       {
         "name": "__Special Attacks__",
-        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)\n⬥ [Iban's Staff]($linkmsg_iban$)\n⬥ [Roar of Awakening]($linkmsg_roa$)\n⬥ [F. Staff of Armadyl]($linkmsg_soa$)",
+        "value": "⬥ [Guthix Staff]($linkmsg_gstaff$)\n⬥ [Arma. Battlestaff]($linkmsg_abs$)\n⬥ [Iban's Staff]($linkmsg_iban$)\n⬥ [Legatus's Emberstaff]($linkmsg_ember$)\n⬥ [Roar of Awakening]($linkmsg_roa$)\n⬥ [F. Staff of Armadyl]($linkmsg_soa$)",
         "inline": true
       },
       {
-        "name": "__Ultimates__",
+        "name": "__Ultimate__",
         "value": "⬥ [Omnipower]($linkmsg_omni$)\n⬥ [Sunshine]($linkmsg_sunshine$)\n⬥ [G. Sunshine]($linkmsg_gsun$)\n⬥ [Tsunami]($linkmsg_nami$)",
         "inline": true
       },
       {
-        "name": "__Utilities__",
+        "name": "__Utility__",
         "value": "⬥ [Surge]($linkmsg_surge$)\n⬥ [Runic Charge]($linkmsg_runicCharge$)",
         "inline": true
       }
@@ -466,7 +475,7 @@ This section covers auto attacks and spells, basics, thresholds, ultimate abilit
     "fields": [
       {
       	"name": "__Magic Abilities__ <:Magic:689504724159823906>",
-        "value": "⬥ [Spells & Auto Attacks]($linkmsg_MagicAutos$)\n⬥ [Basics]($linkmsg_magicBasics$)\n⬥ [Thresholds]($linkmsg_magicEnhanced$)\n⬥ [Special Attacks]($linkmsg_mageSpecial$)\n⬥ [Ultimates]($linkmsg_mageUltimates$)\n⬥ [Utilities]($linkmsg_mageUtility$)",
+        "value": "⬥ [Spells & Auto Attacks]($linkmsg_MagicAutos$)\n⬥ [Basic Abilities]($linkmsg_magicBasics$)\n⬥ [Enhanced Abilities]($linkmsg_magicEnhanced$)\n⬥ [Special Attacks]($linkmsg_mageSpecial$)\n⬥ [Ultimate Abilities]($linkmsg_mageUltimates$)\n⬥ [Utility Abilities]($linkmsg_mageUtility$)",
         "inline": true
       }
     ]

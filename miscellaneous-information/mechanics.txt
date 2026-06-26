@@ -4,15 +4,13 @@
 
 This channel will cover a number of game mechanics, uncommon ability interactions, and more nuanced game information that can be used for reference.
 
-Mechanics are split into two categories: **basic** and **advanced**. Basic mechanics are game interactions that are more important to the casual player and may be relatively easily learned, whereas advanced mechanics may be learnt slowly with time as you play the game.
-
 .
 ## __Ability Queueing__
 .tag:queueing
 ### How It Works
 ⬥ **Ability queueing ('queueing') is a toggleable setting that allows you to 'queue' abilities to trigger them when possible.**
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat & Action Bar > Action Bar**.
-.img:https://img.pvme.io/images/0Xh92hO.png
+.img:https://img.pvme.io/images/jrJ2XoSlss.png
 .
 ⬥ When you enable ability queueing, pressing an ability that cannot immediately be activated queues it, with the following icon appearing on top of it <:queueing:898660152025161778>.
 ⬥ The ability will then get used as soon as it becomes possible to do so (after constraints like adrenaline, 2H/DW weapon requirements, global/ability cooldowns, etc.)
@@ -42,8 +40,6 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
 ⬥ **Limitless / Ingenuity of the Humans** <:limitless:641339233638023179> / <:ingen:641339234111848463>
     • <:limitless:641339233638023179> lasts 10t/6s, but trying to use a **queued** threshold with <50% adrenaline on the last tick will not work.
     • <:ingen:641339234111848463> lasts 10t/6s, but trying to use an ability on the last tick will not give it the guaranteed 100% hitchance.
-⬥ **Berserk** <:zerk:535532854004678657>
-    • Queued abilities will **not** on the last tick of <:zerk:535532854004678657> will not get the damage boost, but this does not affect other damage-boosting special attacks and ultimates.
 
 *Note: For more information on damage boosts from the last ticks of damage-boosting buffs, see the section on __**Berserker Auras**__ (linked in the pinned message).*
 
@@ -56,14 +52,6 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
   }
 }
 .embed:json
-
-.
-### Other Ability Interactions
-⬥ **Detonate** <:deto:535533833358016512>
-    • Can be released mid-GCD if queueing is enabled - this is not possible with it disabled.
-⬥ **Stalled Abilities**
-    • Stalled abilities can be released mid-GCD (using spells on an action bar) if queueing is enabled - this is not possible with it disabled.
-
 .
 ### Losing Target
 ⬥ When ability queueing is enabled, you can lose a target with the following options:
@@ -88,7 +76,6 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
   }
 }
 .embed:json
-
 .
 ### How It Works
 ⬥ It is possible to 'stall' an ability by activating it but not actually using it, instead holding it 'in reserve' to release it at a later time.
@@ -106,30 +93,18 @@ Mechanics are split into two categories: **basic** and **advanced**. Basic mecha
     • Casting an ability outside your attack range and not interrupting the action, your character will run in and release it automatically.
 ⬥ **Method 2: Click Release**
     • After stalling an ability, click your target to release the stalled ability.
-⬥ **Method 3: Spell Release**
-    • After stalling an ability, use a debuff spell like <:smokecloud:856635090641879050> <:ent:567727987274022924> <:Vuln:537349530551582720> from your ability bar to release the stalled ability.
-    • *You must have the runes required to cast the spell*, but a weapon is not required.
-
-*Note: In Method 3, the spell used to release the stalled ability replaces your next auto-attack. See the differences between **Click and Spell Release** below.*
-
-.
-### Differences between Click and Spell Release
-⬥ Click release is limited to the target you stall on - spell release does not have this restriction.
-⬥ Click release can be done mid-GCD at any time - spell release can only do this if using an auto *with ability queueing on.*
-⬥ After a click release, the next ability must be at least 1 tick afterwards. With spell release, the next ability can be on the same tick as the spell release of the stalled ability.
-⬥ Spell release replaces your next auto with the spell used to release.
-    • Use Cease <:cease:864235458464186418> + click target to clear this.
-    • Not an issue when using Magic <:Magic:689504724159823906> - you can just hit a different spell keybind for your intended auto.
+⬥ **Method 3: Target Cycle Release**
+    • After stalling an ability, target cycle to an enemy within attack range to release the stalled ability.
 
 .
 ## __Adrenaline Management__
 .tag:adren
-Adrenaline is generated when players use auto attacks and basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannot use at any given point.
+Adrenaline is generated when players use basic abilities, and by default, naturally drains after the player falls out of combat (10 seconds of no combat). Your adrenaline determines what abilities you can and cannot use at any given point.
 
 There are a couple different mechanics to note with regard to adrenaline.
 ⬥ Stalling adrenaline to not lose it out of combat.
 ⬥ Gaining adrenaline even without a target under some circumstances.
-⬥ Deliberately losing your target to use some abilities (like Reflect <:reflect:535541258786177064> or Detonate <:deto:535533833358016512>) without costing adrenaline.
+⬥ Deliberately losing your target to use some abilities (like Reflect <:reflect:535541258786177064> ) without costing adrenaline.
 ⬥ Adrenaline gained from certain actions may feel 'delayed' (covered below).
 
 .
@@ -173,9 +148,6 @@ There are a couple different mechanics to note with regard to adrenaline.
     • Barrage crits check for crit buffs that give adrenaline later in the tick than normal.
     • Essentially, this means that if you crit a barrage auto attack and in the same tick gain a buff that generates adrenaline from crits, the barrage will give adrenaline.
     • For example: <:bloodbarrage:537338981747261446> <:tsunami:535533809995874304> → will give adrenaline if <:bloodbarrage:537338981747261446> crits.
-⬥ **Mech Chins** <:mechchin:641669268722810881>
-    • Similar to barrages, adrenaline gained from crits with attacks using <:mechchin:641669268722810881> will be calculated late.
-    • This may impact certain actions (like back-to-back <:dbow:643848618553507843> <:eofspec:1257438999794946099> with <:mechchin:641669268722810881>) that rely on adrenaline gained from previous abilities.
 
 .
 ### How To Lose Target
@@ -190,39 +162,12 @@ There are a couple different mechanics to note with regard to adrenaline.
 *Note: For more information, see the section on __**Ability Queueing**__ (linked in the pinned message).*
 
 .
-## __Berserker Auras__ <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>
-.tag:zerkaura
-### How It Works
-⬥ Berserker-variant auras exist for each style:
-    • Berserker <:berserker:643505116347105290> for <:melee:1096130867279171706>
-    • Reckless <:reckless:643505179378974748> for <:range:580168050121113623>
-    • Maniacal <:mani:643505153709965322> for <:Magic:689504724159823906>
-⬥ They provide the following boosts:
-    • **Invisible** +10% to damage.
-    • **Invisible** +10% to accuracy.
-    • Boosts the corresponding attack stats (Attack + Strength, Ranged, or Magic) by 10%.
-    • Increases all damage taken (except hard typeless) by 15%.
-    • Reduces defence level by 15%.
-.
-### Interactions with Damage-Boosting Ultimates
-⬥ The invisible +10% damage boost from berserker-variant auras **does not stack** with damage-boosting ultimates. These are:
-    • Berserk <:zerk:535532854004678657>
-    • Death's Swiftness <:deathsswift:994921434633744455>
-    • Sunshine <:sunshine:994921119381463070>
-⬥ However, the damage boost from ultimates is **on-cast**, while the aura damage boost is **on-hit**.
-⬥ This interaction makes it so that if you cast an ability on *during* an ultimate, but it lands/hits *after* the ultimate ends, it stacks both the ult and the aura buff.
-⬥ In the following image, the same ability is cast twice: on** the left it casts and hits during <:zerk:535532854004678657>,** and **on the right it's cast on during <:zerk:535532854004678657> but hits after <:zerk:535532854004678657> ends** - see the damage difference.
-.img:https://img.pvme.io/images/7p6v2bc.png
-***Note**: this interaction does **not** work if you queue an ability on the last tick of an ultimate*.
-
-.
 ## __Camera Shaking__
 .tag:shake
 ### How It Works
 ⬥ During some mechanics and cutscenes, the game has the ability to 'shake' the camera view.
-    • An easy example is when you use the ability Quake <:quake:535532879506309150> with the setting enabled.
 ⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Camera > System**.
-.img:https://img.pvme.io/images/Qw1kFay.png
+.img:https://img.pvme.io/images/omeOGKRqgJ.png
 .
 ⬥ **This is sometimes used as an indicator for certain boss mechanics**, but you can disable this if you suffer from motion sickness.
 ⬥ Some examples of places this is found:
@@ -235,6 +180,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 ## __Critical Strike__
 .tag:crit
 *Note: For a summary, see the `!crit` and `!critbuff` commands.*
+.
 ### How It Works
 ⬥ Players have a base 10% chance to critical strike. They are indicated by larger, stylized damage numbers.
 ⬥ A critical strike deals a fixed percentage of bonus damage based on combat stats (up to 50% at 90)
@@ -250,25 +196,17 @@ There are a couple different mechanics to note with regard to adrenaline.
 ⬥ **(Greater) Concentrated Blast <:gconc:869285393223254107> / <:conc:1087373968731811880>**
     • Each hit increases the next magic abilities critical strike chance by 5%.
     • This caps at 15% after the 3rd hit.
-⬥ **Meteor Strike <:meteorstrike:535532879359377439>, Tsunami <:tsunami:535533809995874304> and Incendiary Shot <:incend:535541258429661215>**
-    • All three abilities provide a 30s buff that grants 10% adrenaline for every critical hit.
-    • The buff starts from when the abilities hit the target (on-cast for <:tsunami:535533809995874304> / <:meteorstrike:535532879359377439>, and when it detonates for <:incend:535541258429661215>).
-    • If the Corbicula Rex perk **No Fear** is owned, it increases the critical strike chance of <:meteorstrike:535532879359377439> by 20% (tier 1) / 40% (tier 2).
 ⬥ **Smoke Tendrils** <:smoketendrils:536257336130404372>
     • All hits of <:smoketendrils:536257336130404372> will always crit.
 .
 ⬥ The following abilities cannot do critical hits, **regardless** of what they actually hit.
-    • Dismember <:dismember:535532879376023572>
-    • Slaughter <:slaughter:535532879237873666>
-    • Blood Tendrils <:bloodtendrils:535532854327640064>
-    • Massacre <:massacre:535532879384543253> (bleed hits)
-    • Combust <:comb:535533833098100745>
-    • Corruption Blast <:corruptblast:513190159194259467>
+    • Dismember <:dismember:1478062910113714297>
+    • Slaughter <:slaughter:1478062904732418159>
+    • Massacre <:massacre:1478062911619469495>
+    • Combust <:combust:1478063107908702482>
+    • Corruption Blast <:corruptionblast:1478063113659093075>
     • Magma Tempest <:magmatempest:902209626509025290>
-    • Frag Shot <:frag:535541273755385885>
     • Corruption Shot <:corruptshot:535541306294796299>
-    • Deadshot <:deadshot:535541307666595870> (bleed hits)
-
 .
 ### Items That Affect Critical Hits
 *Note: These methods **can** stack together.*
@@ -281,7 +219,7 @@ There are a couple different mechanics to note with regard to adrenaline.
     • This applies to everyone near the familiar when it is cast, and you can move away from the familiar without losing the effect after it is cast.
 ⬥ **Erethdor's Grimoire** <:grim:568262896375824385>
     • **+12%** critical hit chance while active.
-    • Outside of Solak, <:grim:568262896375824385> is extremely expensive to use.
+    • Outside of Solak, <:grim:568262896375824385> is expensive to use.
 ⬥ **Reaver's Ring** <:reaverring:839903943018283050>
     • **+5%** critical hit chance at the expense of -5% accuracy.
 ⬥ **Champion's Ring** <:championring:839903943630520350>
@@ -322,21 +260,7 @@ There are a couple different mechanics to note with regard to adrenaline.
 ⬥ A single input sequence using Dragon Breath <:dbreath:535533833391702017> might look like:
     • <:grim:568262896375824385> → <:dbreath:535533833391702017> + <:elementsscrim:841409588959510539> → repeat
 .
-⬥ It is possible do this while using 4TAA, for example:
-    • <:grim:568262896375824385> <:praeswand:643166769518739477> <:impercore:643166751067996160> → <:dbreath:535533833391702017> + <:elementsscrim:841409588959510539> → (1t delay) + <:grim:568262896375824385> <:fsoa:869284271595069451> + <:AirSurge:543465115870035999> <:sonicwave:1087373972443775056> + <:elementsscrim:841409588959510539> → repeat
-.
 *Note: <:grim:568262896375824385> and <:elementsscrim:841409588959510539> take **2 inputs** to use → one input to equip, second input to activate, both in the same tick as all other actions.*
-
-.
-{
-  "embed": {
-    "title": "__Grimshaw__",
-    "description": "For a brief example on how to 'grimshaw' with an auto attack, [click here](https://www.youtube.com/watch?v=M65xdRYYxJ4).",
-    "color": 39423
-  }
-}
-.embed:json
-
 .
 ## __Hex Weapons__ <:terramaul:602561894829522954> <:hexhunterbow:581180369911414794> <:inquisitorstaff:694566917553520680>
 .tag:hex
@@ -395,52 +319,6 @@ There are a couple different mechanics to note with regard to adrenaline.
   }
 }
 .embed:json
-
-.
-## __Manual Spellcasting__
-.tag:manualsc
-*Note: For a summary, see the `!manualspellcasting` and `!spellswap` commands.*
-### How It Works
-⬥ **Manual spellcasting is a setting that affects how spells and abilities can be used in combat.**
-⬥ The setting can be found by pressing **Esc > Settings > Gameplay > Combat > Action Bar**.
-.img:https://img.pvme.io/images/xiuCIqX.png
-.
-⬥ **Behaviour with manual spellcasting *off***:
-    • Magic auto attacks deal damage based on the spell your weapon is set to.
-    • Clicking on a spell in your Magic spellbook or on your ability bar will switch your autocast spell to it.
-        ⬩ Typically, you'll press spell + next ability on the same tick, not during a global cooldown.
-    • Clicking on an ability from an ability book or on your ability bar will use that ability against your target.
-.
-⬥ **Behaviour with manual spellcasting *on***:
-    • Magic auto attacks deal damage based on the spell your weapon is set to.
-    • Clicking on a spell on your ability bar no longer switches your autocast spell - it casts the selected auto, **but** with the damage and effects of your **original** autocast spell.
-    • To change autocast spells, you must right click a spell and select 'Autocast', either from your ability bar or your Magic spellbook.
-    • Clicking on a spell in your Magic spellbook now requires you to select a target before it is used.
-    • Clicking on an ability from an ability book will now require you to select a target before it is used.
-.
-{
-  "embed": {
-    "title": "__Manual Spellcasting__",
-    "description": "If you prefer to watch a video guide, check out [this guide](https://youtu.be/iJzOHlYuULo).",
-    "color": 39423
-  }
-}
-.embed:json
-
-.
-### Why It's Good
-⬥ **Saving rune costs with manual spellcasting on.**
-    • You can autocast Air Surge <:AirSurge:543465115870035999> but have your keybound spell on your ability bar as Air Strike <:airstrike:895600427930910730>
-    • When you press your auto keybind, it will cast <:airstrike:895600427930910730> and consume only 1 Air Rune <:Airrune:536252658986647589> but do the damage of <:AirSurge:543465115870035999>
-    • Note that this works with Ancient Magicks as well, but to get AoE damage, your auto keybind **must** also be an AoE spell.
-
-⬥ **Getting the benefit of one spell while autocasting another.**
-    • For example, you can autocast Exsanguinate <:exsanguinate:856635090745950258> to build stacks, but use Blood Barrage to get healing on the autos instead.
-    • Another example would be using a Blood spell <:bloodbarrage:537338981747261446> autocast but using an Ice spell instead to freeze a monster <:icebarrage:537340400185245701> without changing your default autocast.
-
-⬥ Some example applications of manual spellcasting:
-    • **Telos**: Selectively using Ice spells at correct times with Blood spells autocast, to get better control of freeze timings.
-
 .
 ## __NPC Centre vs. Coordinate__
 .tag:npccentre
@@ -454,28 +332,19 @@ This section covers the difference between an NPC's **centre** and **coordinate*
 ⬥ **The NPC coordinate is always the south-west tile.**
 ⬥ The follow image visualizes these changes.
 .img:https://img.pvme.io/images/53FBsUZ.png
-
 .
-### Abilities and NPC Coordinate
-⬥ The following abilities *all* use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
-    • **Note that this is not their *hitbox*, which is the entirety of the tiles they occupy. It is simply the point from which these abilities begin to propagate.**
-⬥ **Ranged abilities:**
-    • Corruption Shot <:corruptshot:535541306294796299>
-    • (Greater) Ricochet <:grico:787904334812807238> / <:ricochet:535541259566186521>
-    • Bombardment <:bombard:535541306391265284>
-    • Incendiary Shot <:incend:535541258429661215>
-    • All attacks with Mechanical Chinchompas <:mechchin:641669268722810881>
-⬥ **Magic abilities:**
-    • Corruption Blast <:corruptblast:513190159194259467>
-    • (Greater) Chain <:gchain:1257440278512537740> / <:chain:1257440203401068566>
-    • Detonate <:deto:535533833358016512>
-    • All burst/barrage auto attacks <:iceburst:841419289797197824> / <:icebarrage:537340400185245701>
-⬥ We can use this information to predict where our AoEs will begin from and what targets they will hit, as show in the following illustration.
+### Area of Effect Search Range
+⬥ Targeted AoE effects search their respective range from the edge of the original target to determine additional targets, as seen in the following illustration.
+    • In this example, target C is within 3 tiles of target B, resulting in target C being hit by <:decimation:643848618477879328> <:spec:537340400273195028> as the special attack is a 3x3.
+.img:https://img.pvme.io/images/WffxVA9FLq.png
+.
+### Non-Abilities and NPC Coordinate
+⬥ Some non-ability AoEs use the **NPC coordinate** for targeting, to decide their 'point of origin', or 'centre'.
+    • Scripture of Wen <:scriptureofwen:883134307902816297>
+    • Scripture of Amascut <:scriptureofamascut:1266417822188437569>
+    • Aftershock <:as4:712074245202772009>
+⬥ To predict where these AoEs will begin from and what targets they will hit, we can use the following illustration.
 .img:https://img.pvme.io/images/kr61SvG.png
-⬥ See the picture below for an example of this behaviour - Detonate <:deto:535533833358016512> will only hit the south dragon in A, but it will hit both dragons in Scenario B (both dragons are **3x3** in size).
-.img:https://img.pvme.io/images/NhmICrb.png
-*Note: For <:corruptshot:535541306294796299> / <:corruptblast:513190159194259467> to spread, the target's coordinate must be within 2 tiles of another target's hitbox. In the previous example, using <:corruptshot:535541306294796299> on the north dragon would spread to the southern dragon, but not the other way around.*
-
 .
 ## __NPC Facing and Flanking__
 .tag:npcfacing
@@ -589,7 +458,7 @@ etc.
     • Bladed Diving onto a target will attempt to do damage in a 3x3 AoE.
     • If a halberd-range weapon is equipped, this is increased to a 5x5 AoE.
     • *This AoE is centred on around the player where they land*.
-
+.
 ### Walking Abilities
 ⬥ Players can move while casting abilities, with some exceptions:
     • Generally cannot move while channeling an ability (with some exceptions, see below).
@@ -600,9 +469,8 @@ etc.
     • This works because the auto attack attempts to stop your character, even if it's on cooldown.
 .
 ⬥ The following channeled abilities are exceptions:
-    • Players can walk during <:melee:1096130867279171706> Melee channels (<:assault:535532855191928842> / <:destroy:535532879330148352> / <:flurry:864492981763702834>) on any *non-cast tick*.
-        ⬩ Cast ticks are ticks 1/3/5/7, so players can move on ticks on ticks 2/4/6/8 and not cancel the channel.
-    • Players can walk during Rapid Fire <:rapid:535541270521708566> if wearing Fleeting Boots <:fleetingboots:789813993480388640>
+    • Players can walk during <:melee:1096130867279171706> Melee channels <:assault:535532855191928842> / <:flurry:864492981763702834>
+    • Players can walk during Rapid Fire <:rapid:535541270521708566>
     • Players can walk during Snipe <:snipe:535541258425204770> if wearing <:nightmaregauntlets:513190159441723392>
 
 .
@@ -657,14 +525,6 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
   }
 }
 .embed:json
-
-.
-### Notes
-⬥ **Multi-SGB Hits**
-    • It is possible for multiple <:sgb:626466665848242186> <:spec:537340400273195028> to hit a target 'at once'.
-    • This can happen with **chin-sgb** (<:mechchin:641669268722810881> + <:sgb:626466665848242186> <:eofspec:1257438999794946099>) or if multiple people use <:sgb:626466665848242186> <:spec:537340400273195028> at the same time.
-    • **Each <:sgb:626466665848242186> <:spec:537340400273195028> is treated independently**; each special attack's Arrow 1 will hit its target, and then its Arrows 2-5 will hit one enemy on their selected tile. The locations of Arrows 2-5 for one cast do not affect the locations of Arrows 2-5 for any other cast.
-
 .
 ## __Target Cycling (TC)__
 .tag:tc
@@ -672,7 +532,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
 ⬥ **Target cycling is the ability to select a new combat target using a keybind, instead of clicking it.**
     • This is similar to 'tab-targeting', found in other MOBAs and MMOs.
 ⬥ Target cycle settings can be found by pressing **Esc > Settings > Gameplay > Combat > Targeting**.
-.img:https://img.pvme.io/images/Apqq3Th.png
+.img:https://img.pvme.io/images/ixoeAlQiHl.png
 .
 ⬥ These settings determine how a target is found when the corresponding keybind (*forward* or *backward*) is pressed.
 ⬥ **Radial targeting:**
@@ -758,7 +618,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • Examples include Araxxor's Egg Bomb special attack, Vorago's damage on drop-down or his Red Bomb attacks.
 ⬥ **Soft Typeless**
     • This damage is affected by most damage modifiers.
-    • It is also increased by effects like Berserk <:zerk:535532854004678657> and Berserker aura variants <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322>.
+    • It is also increased by effects like Berserk <:zerk:535532854004678657> .
     • Examples include Telos' rockfall damage, and Nex, AoD's 'Elements' special attack.
 
 .
@@ -789,7 +649,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
 ⬥ It can reflect up to 8000 damage.
 ⬥ Group Vengeance <:venggroup:1009570755836641331> is a variant that applies the effect to the caster **and** up to 50 players in a 7x7 region centred on the caster.
 ⬥ Similarly, Vengeance Other <:vengother:1015698983034826794> applies the effects of <:Veng:543478434953822208> to **one** other player with accept aid turned on.
-
+.
 ### Vengeance Interactions
 ⬥ It cannot damage reflect-immune targets.
 ⬥ It does **not** get consumed by typeless damage.
@@ -804,12 +664,13 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • Modifiers that reduce incoming damage will reduce <:Veng:543478434953822208> damage since you will take a smaller hit.
         ⬩ e.g. Reflect <:reflect:535541258786177064> / Debilitate <:debil:535541278264393729> / Intercept <:Cept:543478434509357098>
     • Modifiers that increase incoming damage will also increase <:Veng:543478434953822208> damage as you take a bigger hit
-        ⬩ e.g. Berserker Auras <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> / Berserk <:zerk:535532854004678657>
+        ⬩ e.g. Berserk <:zerk:535532854004678657>
 
 .
 ## __Walking Monsters__
 .tag:walking
 *Note: Not all targets can be walked (e.g. Ambassador) - this section specifically refers to targets that **can** be walked.*
+.
 ### How It Works
 ⬥ 'Walking' refers to moving a target from its original position.
 ⬥ There are **two ways to walk targets**:
@@ -818,7 +679,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
         ⬩ For targets not in MD, movement abilities like Surge <:surge:535533810004262912> and Bladed Dive <:bd:535532854281764884> can be used to get under them losslessly during GCD.
 ⬥ **NPCs can only move in 3 directions when walked under: east, west and south**. Never north.
 ⬥ Bosses will move at 2 squares per tick, just like players running.
-
+.
 ### Determining Walk Direction
 ⬥ When walking a target by moving under them, they will first move in a random direction.
 ⬥ After hitting a wall, monsters will walk in the next cardinal direction counter-clockwise to the direction they are current walking, **skipping north**. For example:
@@ -827,19 +688,11 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • Targets moving **south** will move **east** after hitting a wall.
 ⬥ If a monster is unable to move in the new direction, it will move in the next counter-clockwise cardinal direction.
     • A target walked into the **south** wall will move **west** if unable to move **east**, skipping **north**.
-
-.
-### Why Its Good
-⬥ You can walk bosses to **position them better for mechanics** or to save time.
-    • e.g. moving Telos out of a beam, or walking Vorago on the waterfall phase to skip mechanics and save time.
-⬥ Being able to **walk your own bleeds for increased damage** is a *strong* DPS increase.
-    • Applies to Frag Shot <:frag:535541273755385885> / Combust <:comb:535533833098100745> / Slaughter <:slaughter:535532879237873666>
-
 .
 {
   "embed": {
     "title": "__Walking Bosses__",
-    "description": "⬥ To see an how walking a boss like Araxxor works, [click here](https://youtu.be/A_6ah7GF_1k)\n⬥ To see how to walk a bleed by moving under your target, [click here](https://youtu.be/0Y0JGMeLcmI)",
+    "description": "⬥ To see an how walking a boss like Araxxor works, [click here](https://youtu.be/A_6ah7GF_1k)",
     "color": 39423
   }
 }
@@ -884,7 +737,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • This therefore stacks with other buffs.
 .
 ⬥ **Bik Arrows** <:bikarrow:971025697235689513>
-    • Per stack, <:bikarrow:971025697235689513> will add a multiplicative +2% increase to the final poison damage (up to +400% at 200 stacks, or a 5x damage multiplier to poison).
+    • Per stack, <:bikarrow:971025697235689513> will add a multiplicative +3% increase to the final poison damage (up to +450% at 150 stacks).
     • One arrow is consumed per hit (except bleed hits).
     • Stacks last 30 seconds, and vanish entirely if not refreshed within the duration.
     • They are recommended to be used at fights that take 3-4 minutes or longer where poison-stacking methods can be utilised.
@@ -907,7 +760,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • *The extra hitsplats from the DoT on the target increase the chances for normal poison damage to apply*.
 .
 ⬥ **Poison can be applied/refreshed by any player-sourced damage, including**:
-    • All auto-attacks and abilities - including bleeds and DoTs from abilities like <:comb:535533833098100745> / <:corruptshot:535541306294796299> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / etc.
+    • All auto-attacks and abilities - including bleeds and DoTs from abilities like <:combust:1478063107908702482> / <:corruptshot:535541306294796299> / <:sunshine:994921119381463070> / etc.
     • Abyssal Parasites <:primalabyssalarmourspikes:1276946271424479234>
     • Bakriminel Bolts (extra hits from Emerald <:emeraldbakri:866551637714665484> and Dragonstone <:DragonstoneBakri:565726489144852511> bolts)
     • Blood Necklaces <:bloodfury:1015698981118038117>
@@ -920,7 +773,7 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     • Reflect damage
     • Wyvern Crossbow <:wyverncrossbow:580177522587729940> (passive effect)
 .
-⬥ **Self-Healing** <:vampaura:643505653079343144> <:soulsplit:615613924506599497> <:VampScrim:513201294262009874>
+⬥ **Self-Healing** <:soulsplit:615613924506599497> <:VampScrim:513201294262009874>
     • Poison damage dealt by the player will not heal them through any means.
 
 .
@@ -938,12 +791,12 @@ The following diagram visualizes this process for two example targets, 3x3 and 4
     "fields": [
       {
         "name": "__Mechanics (1/3)__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Berserker Auras]($linkmsg_zerkaura$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)\n⬥ [Grimshaw]($linkmsg_grimshaw$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Ability Queueing]($linkmsg_queueing$)\n⬥ [Ability Stalling]($linkmsg_stalling$)\n⬥ [Adren Management]($linkmsg_adren$)\n⬥ [Camera Shaking]($linkmsg_shake$)\n⬥ [Critical Hits]($linkmsg_crit$)\n⬥ [Grimshaw]($linkmsg_grimshaw$)",
         "inline": true
       },
       {
         "name": "__Mechanics (2/3)__",
-        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [Manual Spellcasting]($linkmsg_manualsc$)\n⬥ [NPC Centre vs. Coordinate]($linkmsg_npccentre$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
+        "value": "⬥ [Hex Weapons]($linkmsg_hex$)\n⬥ [Instance Hopping]($linkmsg_instance$)\n⬥ [NPC Centre vs. Coordinate]($linkmsg_npccentre$)\n⬥ [NPC Facing & Flanking]($linkmsg_npcfacing$)\n⬥ [Player Movement]($linkmsg_playermove$)\n⬥ [SGB Mechanics]($linkmsg_sgb$)",
         "inline": true
       },
       {

@@ -1,76 +1,125 @@
-# Twin Furies Basic
+# Twin Furies – Boss Guide
 .img:https://img.pvme.io/images/gaIHwzHbTa.png
-*Note: a **Table of Contents** can be found in the pins.*
 
 .
-## __Introduction__
-.tag:intro
-The Twin Furies are located in the Heart of Gielinor, the duo consists of Nymora (left) and Avaryss (right). Entering the encounter requires 40 (or 20, with enough reputation) kill count, and 80 (boostable) Ranged <:range:580168050121113623>. This encounter is unique in that both NPC’s share the same health pool of 200k. This means that an AoE attack will essentially do double damage if it hits both twins.
+## __General Information__
+.tag:generalInfo
+⬥ The Twin Furies are located in the Heart of Gielinor.
+⬥ The duo consists of **Nymora** in the East and **Avaryss** in the West.
+⬥ Entering the encounter requires 40 kill count, or 20 kill count with enough reputation.
+⬥ Level 80 Ranged <:range:580168050121113623> is required to create an instance, which you can boost with any ranged potion / overload <:overload:689554436179361864>
+⬥ The Twin Furies share one health pool of 200,000 LP.
+⬥ In Hard Mode, the fight adds lava bombs alongside the standard mechanics.
+
+Other guides: <#1157399338293670000> <#1251377267746275509> <#1251209160071319572>
 
 .
-## __Mechanics__
-.tag:mechanics
-{
-  "embed": {
-    "title": "",
-    "color": 39423,
-    "fields": [
-      {
-        "name": "__Jumps__",
-        "value": "⬥ Avaryss jumps towards the northern wall and charges down to the southern wall. She will repeat this attack a total of 4 times and will always travel in the cardinal directions (north to south, west to east, etc.).\n\u00a0\u00a0\u00a0\u00a0• You may simply move out of the way after Avaryss jumps to a new wall. [Example](https://img.pvme.io/images/NWTHSDg.mp4)"
-      },
-      {
-        "name": "__Ceiling Collapse__",
-        "value": "⬥ Nymora will jump to a random square and cause a ceiling collapse.\n\u00a0\u00a0\u00a0\u00a0• Stand in the 3x3 area around her to negate this. [Example](https://img.pvme.io/images/QIMa9WS.mp4)"
-      },
-      {
-        "name": "__Channeled Bomb__",
-        "value": "⬥ The twins move to the center of the arena and channel an attack. [Example](https://img.pvme.io/images/N7ceSRh.mp4)\n⬥ If the channel finishes, it will deal 4,500 damage. [Example](https://img.pvme.io/images/CJkO32O.mp4)\n⬥ During this phase, the twins take 2x damage\n\u00a0\u00a0\u00a0\u00a0• They stand close enough that Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210>, and Quake <:quake:535532879506309150> will hit both of them.\n\u00a0\u00a0\u00a0\u00a0• You will take typeless damage during this (negated by Soul Split <:soulsplit:615613924506599497>).\n\u00a0\u00a0\u00a0\u00a0• Can be avoided by surging to the edges of the arena, (or blocking it with defensives)."
-      }
-    ]
-  }
-}
-.embed:json
+## __Gear, Relics and Familiars__
+.tag:GearRelicsFamiliars
+The following presets are based on Stage 1 <#1020045708746833930>:
+⬥ <:magic:689504724159823906> [Magic](<https://presets.pvme.io/?id=36ec3ebe-379d-4350-a3ff-ce7a88f7525a>)
+⬥ <:range:580168050121113623> [Ranged](<https://presets.pvme.io/?id=50e03e24-37ad-4be8-abf5-a4bb22c0aa09>)
+⬥ <:melee:1096130867279171706> [Melee](<https://presets.pvme.io/?id=de7d0a00-3300-4607-ad6f-0c98f839c560>)
+⬥ <:necromancy:1148995625896120460> [Necromancy](https://presets.pvme.io/?id=0d30907b-8f74-4b10-9335-335d98008918)
 
 .
-## __The Fight__
-.tag:thefight
-⬥ You must continually move out of Avaryss' path (≥2 steps perpendicular).
-⬥ It is possible to wrongly Target Cycle onto Avaryss. Manually click on Nymora if this happens.
-⬥ While <:poisonicon:944649693500154006> hits show, they don't deal damage. Therefore, <:poisonicon:944649693500154006> is not used.
+## __Fight Mechanics__
+.tag:fightMechanics
+⬥ Poison <:poisonicon:944649693500154006> splats may appear, but they do **not** deal damage.
 
 .
-## __Presets and Relics__
-.tag:presets
-Below are some presets we believe will lead to a great learning experience.
+### __Attack Rotation__
+⬥ Normal Mode: *Avaryss' Surge* → auto attacks → *Rain Death* → auto attacks → *Burn Phase* → auto attacks → Repeat
+⬥ Hard Mode: 2 auto attacks → *Avaryss' Surge + Lava Bombs* → auto attacks → *Ceiling Collapse + Lava Bombs* → auto attacks → *Channeled Bomb + Lava Bombs* → auto attacks → *Blue Lava Bomb + Lava Bombs* → auto attacks → Repeat
+.
+### __Shared Health Pool__
+**Mechanic:**
+⬥ Avaryss and Nymora share one health pool
+⬥ When they are close together, AoE abilities can hit both twins and effectively damage the shared health pool twice
+⬥ Hit caps do **not** apply to the Twin Furies' health pool, so some high-damage hits may deal more damage than the visible hitsplats suggest
 
-Melee and Necromancy will be the easiest to learn with. These are all not set in stone so if you are missing a couple of items, you will still be able to complete kills. Try not to downgrade too heavily though as these have been prepared with your learning experience in mind.
-
-⬥ [Melee preset](<https://presets.pvme.io/?id=h0hi2uWVjdpGIvsP2GAm>) <:melee:1096130867279171706>
-⬥ [Necromancy preset](https://presets.pvme.io/?id=ntsTFQeK0CwW6eL82AYB) <:necromancy:1148995625896120460>
-
+**Solution:**
+⬥ Use AoE abilities when both twins are close together e.g., <:cane:535532878969438210> <:bombard:535541306391265284> <:spectralscythe:1137809145706319892> <:gchain:1478063106914779166>
+⬥ High-damage combinations such as Chaos Roar <:chaosroar:994644356671737966> → Overpower <:overpowerigneous:959089455640215633> will also go through the hit cap
 
 .
-## __Tips and Tricks__
-.tag:tips
-The Twin Furies are very unique in that they share a health pool, which means whenever they are close together, AoE abilities will hit them both and deplete their HP twice. This means using <:cane:535532878969438210>, <:quake:535532879506309150> and <:cleave:535532878616985610> or <:deathskulls:1159434663903899728>, <:threadsoffate:1137809172335951933> + <:volleyofsouls:1159435029592686642>, or <:spectralscythe:1137809145706319892>, will be doubly effective versus single target abilities.
+### __Avaryss' Surge__ [(Example)](<https://img.pvme.io/images/NWTHSDg.mp4>)
+**Mechanic:**
+⬥ Avaryss jumps to a wall, then charges across the arena
+⬥ This repeats 4 times
+⬥ Avaryss always travels in cardinal directions, such as north to south or west to east
+⬥ In Hard Mode, the dive can hit up to around 4,000 Melee damage, stun for 3 seconds, and disable overhead prayers
+⬥ In Hard Mode, attacking Avaryss mid-jump can reflect 90% of the damage taken
 
-This is a great boss to learn how to use a few of your Defensive abilities effectively as well as familiarise yourself with movement during an encounter. Primarily in this fight, you can use Resonance <:res:535541258844635148>, Devotion <:devo:513190158728953857>, or Reflect <:reflect:535541258786177064> to reduce incoming damage, especially during the Ceiling Collapse and Jumps. If you have Lesser Bone Shield <:lesserboneshield:1137809125590450276> unlocked and active, you do not need to bring a shield with you to access Resonance <:res:535541258844635148> or Reflect <:reflect:535541258786177064>, otherwise you will need to bring a shield.
-
-Twin Furies is also a great boss to practice some fundamentals when thinking about your abilities. Below is a basic structure to think about and practice:
-
-1) Damage boosting ultimate ability  <:zerk:535532854004678657> / <:livingdeath:1159434908486357072>
-2) Build adrenaline, souls or necrosis stacks using appropriate basic abilities
-3) Stronger threshold abilities, e.g., <:cane:535532878969438210> / <:destroy:535532879330148352>, <:assault:535532855191928842> / <:volleyofsouls:1159435029592686642>, <:fingerofdeath:1159434801938432010>
-4) Repeat steps 2 and 3 until your damage boosting ultimate ability runs out and build to 100% adrenaline again
-5) Repeat from step 1
+**Solution:**
+⬥ Move out of Avaryss' path after she jumps to a new wall
+⬥ In Hard Mode, continually move to avoid being pushed and stunned
+⬥ Avoid attacking Avaryss mid-jump in Hard Mode
 
 .
+### __Ceiling Collapse__ [(Example)](<https://img.pvme.io/images/QIMa9WS.mp4>)
+**Mechanic:**
+⬥ Nymora jumps to a random square and causes a ceiling collapse
+⬥ In Hard Mode, Nymora yells "we will purge them all!" before the collapse
+⬥ In Hard Mode, this deals rapid Ranged damage up to around 1,000 damage every 1.8 seconds
+
+**Solution:**
+⬥ Stand in the 3x3 area around Nymora to negate the mechanic
+⬥ Use defensive abilities if needed while moving into position
+
+.
+### __Channeled Bomb__ [(Examples)](<https://img.pvme.io/images/N7ceSRh.mp4>) [(Explosion)](<https://img.pvme.io/images/CJkO32O.mp4>)
+**Mechanic:**
+⬥ The twins move to the centre of the arena and channel an attack
+⬥ If the channel finishes, it deals 4,500 damage in Normal Mode
+⬥ In Hard Mode, this can deal up to around 8,000 damage
+⬥ During this mechanic, the twins take 2x damage
+⬥ You take typeless damage during the channel, which can be offset by Soul Split <:soulsplit:615613924506599497>
+
+**Solution:**
+⬥ Use AoE abilities while the twins are close together
+⬥ Melee can use Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210> and Quake <:quake:535532879506309150>
+⬥ Necromancy can use Spectral Scythe <:spectralscythe:1137809145706319892>, Spectral Scythe II <:spectralscythe2:1137809149690916945> and Spectral Scythe III <:spectralscythe3:1137809152043925505>
+⬥ Move or Surge <:surge:535533810004262912> to the edge of the arena before the explosion **or**
+⬥ Block the explosion with defensive abilities
+
+.
+### __Lava Bombs (HM Only)__
+**Mechanic:**
+⬥ A lava bomb spawns alongside each main mechanic
+⬥ Lava bombs bounce around the arena 5 times before disappearing
+⬥ Green arrows show where the lava bomb will land
+⬥ If you are within the 5x5 landing area, you take 3,000-4,000 hard typeless damage
+⬥ After 2 bounces, a second lava bomb spawns
+
+**Solution:**
+⬥ Watch the green arrows and move away from the landing area
+⬥ Keep moving while handling the main mechanic
+⬥ Avoid pathing into Avaryss' jump path while dodging lava bombs
+
+.
+### __Blue Lava Bomb (HM Only)__
+**Mechanic:**
+⬥ A blue lava bomb bounces around the arena 3 times
+⬥ Green arrows show where the blue lava bomb will land
+⬥ If avoided, it homes in on the player and deals 6,000-7,000 hard typeless damage
+⬥ If the player takes the bomb, it also hits both twins for the same damage
+
+**Solution:**
+⬥ Intentionally take the blue lava bomb to damage both twins
+⬥ Prepare defensives or healing before taking the hit
+⬥ Avoid overlapping the blue bomb with other dangerous mechanics where possible
+.
+## __Videos__
+.tag:videos
+⬥ Normal Mode examples: [Melee](<https://youtu.be/9XD2MutZKFo>) <:melee:1096130867279171706> / [Necromancy](<https://youtu.be/lag84Kr6CP8>) <:necromancy:1148995625896120460>
+⬥ Hard Mode examples: [Melee](<https://www.youtube.com/watch?v=6veyQTUV76A>) <:melee:1096130867279171706> / [Necromancy](<https://www.youtube.com/watch?v=Ri0umfL65Ms>) <:necromancy:1148995625896120460>
+
 .
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Tips & Tricks]($linkmsg_tips$)",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Info]($linkmsg_generalInfo$)\n⬥ [Gear, Relics & Familiars]($linkmsg_GearRelicsFamiliars$)\n⬥ [Fight Mechanics]($linkmsg_fightMechanics$)\n⬥ [Videos]($linkmsg_videos$)",
     "color": 39423
   }
 }

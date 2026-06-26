@@ -18,8 +18,10 @@ Consistency makes guides easier to read and maintain. This guide covers formatti
 .
 ### __Styling & Punctuation__
 .tag:styling
-⬥ End full sentences with full stops.
-    • Exceptions: bullet points or if a paragraph ends in an emoji 🚀
+Always end full sentences with a full stop / period
+⬥ Exceptions:
+    • bullet points should __not__ end in a full stop
+    • Any sentence ending in an emoji should __not__ end in a full stop 🚀
 
 ⬥ Text styles:
     • `**Bold**` – Key items or emphases
@@ -44,7 +46,7 @@ Consistency makes guides easier to read and maintain. This guide covers formatti
     • Invisible characters
     • Allowed examples:
 ```
-r<:emoji:1>  <:emoji:7>.  "…<:emoji:4>…"  <:emoji:7>!  `…<:emoji:11>…`  <emoji:73>\n\u00a0
+r<:emoji:1> <:emoji:7>. "… <:emoji:4> …" <:emoji:7>! `…<:emoji:11>…` <emoji:73>\n\u00a0
 ```
 
 .
@@ -85,7 +87,6 @@ This is the new section
     • Therefore remove the underline to distinguish
 .
 ```# __Title__
-
 ## __Section 1__
 ### __Sub-section 1.1__
 ### Sub-sub-section 1.1.1
@@ -180,6 +181,7 @@ This is the new section
     • Rune pouch colours (<#1025569571710718093>)
     • EoF emojis (<#1020550560551813131>)
 
+.
 ### __Using Notes in Presets__
 ⬥ Notes relating to specific preset gear/items should be added to the Preset Maker
     • Do not add notes to the guide, for example below the Preset image
@@ -207,14 +209,12 @@ This is the new section
     • Waiting (2t) - ticks are from previous action
     • Channel durations (3 hit)
     • Weapon types (DW) / (2H)
+    • Autocasting (<:exsanguinate:856635090745950258>)
 
 ⬥ Include non-ability actions, e.g., <:vulnbomb:655341074235129858> <:adrenrenewal:736298121704767538> <:undeadslayer:641339922019516416> <:dragonslayer:641339921814126594> <:demonslayer:641339921675845633> <:nip:537336877900890135>
 
 ⬥ Use `s` and `r` to represent stall & release, e.g.:
     • `s<ability> → r<ability> + <nextability>`
-
-⬥ Use the following example pattern for Detonate:
-    • <:sonicwave:1087373972443775056> → <:deto:535533833358016512> (3t) → <:bloodbarrage:537338981747261446> + <:deto:535533833358016512> + <:dbreath:535533833391702017> → etc.
 
 .
 ⬥ Use <:spec:537340400273195028> and <:eofspec:1257438999794946099> properly, e.g.:
