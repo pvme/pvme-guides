@@ -1,113 +1,140 @@
-# Revolution Bars
-.tag:intro
-⬥ This channel is dedicated to listing various generic Revolution, Revolution++, and Revolution AoE bars.
-    • **Revolution** assumes __manual__ enhanced ability, utility, threshold, and ultimate usage.
-    • **Revolution++** assumes little-to-no-manual input on thresholds/ultimates.
-    • **Revolution AoE** are Revolution++ bars designed with AoE in mind (e.g., Slayer <:slayer:797896049548066857>).
-⬥ To easily jump to a specific section of bars, check the Table of Contents which are found in the pins and at the end of the channel.
-⬥ If you have a bar or bar improvement to suggest, use <#1020853673317908500>.
+.
+# __Revolution Bars__
+.tag:introduction
+.
+> *PvME is open-source! If you have a suggested improvement, use <#1020853673317908500>*
+
+This channel lists the recommended Action Bars to use in Revolution combat mode (see section **Configuring Revolution+** later in this channel for more info).
+
+The different combinations of bars are:
+⬥ Single-target <:singletarget:1137770977506369596> (e.g., most bosses)
+⬥ Multi-target <:multitarget:1137770974431944835> (e.g., slayer mobs)
+⬥ 2-handed (only one weapon can be equipped)
+⬥ Dual-wield (where two weapons can be equipped, one in each hand)
+
+If a combination is not displayed, it means the bar scored poorly in tests and is not worth using.
 
 .
-## __Revolution Melee__ <:melee:1096130867279171706>
-.tag:revomelee
+## __Disclaimer__
+.tag:disclaimer
+No revolution bar is perfect for every situation - unless you have accessibility needs, we strongly recommend learning full manual to gain total control over which abilities are fired when. You can find more information in <#1020548216258834512>
+
+Variances may include:
+⬥ Single-target <:singletarget:1137770977506369596> bars performing differently based on duration of the fight
+    • Testing was conducted at both War's Retreat dummies and Vindicta
+⬥ Multi-target <:multitarget:1137770974431944835> bars performing differently based on the number of enemies surrounding you, and their life points
+    • Multi-target testing was conducted at Abyssal Beasts in the Sunken Pyramid
+
+.
+## __Melee Bars__ <:melee:1096130867279171706>
+.tag:melee
+
+.
+### Basics only
 .img:https://img.pvme.io/images/MkYI07ZGxg.png
 
 .
-## __Revolution Magic__ <:magic:689504724159823906>
-.tag:revomagic
-.img:https://img.pvme.io/images/3GjyY2BiZQ.png
-*Notes:*
-⬥ *Use <:conc:1478063109712121856> in place of <:gconc:1478063111104757760> if unowned.*
-⬥ *Include <:combust:1478063107908702482> if using <:roarofawakening:1266417538045317121> and <:odetodeceit:1266417683058917517> as primary weapons.*
-
+### <:singletarget:1137770977506369596> Single-target / 2-handed
+.img:https://img.pvme.io/images/4GRVbRCIrH.png
 
 .
-## __Revolution Ranged__ <:range:580168050121113623>
-.tag:revoranged
+### <:singletarget:1137770977506369596> Single-target / Dual-wield
+.img:https://img.pvme.io/images/j0dgYXvsJu.png
+
+.
+### <:multitarget:1137770974431944835> Multi-target / 2-handed
+⬥ *In testing <:tumekenslight:1400511651014250596> increased kph by +10% over <:noxscythe:513190159341322240>*
+.img:https://img.pvme.io/images/VkfLMUJz71.png
+
+.
+## __Ranged Bars__ <:ranged:580168050121113623>
+.tag:ranged
+
+.
+### Basics only
+⬥ *Use <:ricochet:1478061867288100885> in place of <:grico:787904334812807238> if unowned*
 .img:https://img.pvme.io/images/rOeskZlbkA.png
-⬥ *Use <:ricochet:1478061867288100885> in place of <:grico:787904334812807238> if unowned.*
 
 .
-## __Revolution Necromancy__ <:necromancy:1148995625896120460>
-.tag:revonecro
+### <:singletarget:1137770977506369596> Single-target / 2-handed and Dual-wield (<:fularrow:971025696958853180>)
+.img:https://img.pvme.io/images/KmRIXlvu9H.png
+
+.
+### <:multitarget:1137770974431944835> Multi-target / 2-handed (<:fularrow:971025696958853180>)
+⬥ *It is not worth using Mechanised Chinchompas <:mechchin:641669268722810881> if you have access to a T85+ bow*
+.img:https://img.pvme.io/images/TZBINigAz3.png
+
+.
+## __Magic Bars__ <:magic:689504724159823906>
+.tag:magic
+
+.
+### Basics only
+⬥ *Use <:conc:1478063109712121856> in place of <:gconc:1478063111104757760> if unowned*
+⬥ *Include <:combust:1478063107908702482> if using <:roarofawakening:1266417538045317121> and <:odetodeceit:1266417683058917517> as primary weapons*
+.img:https://img.pvme.io/images/3GjyY2BiZQ.png
+
+.
+### <:singletarget:1137770977506369596> Single-target / 2-handed and Dual-wield
+⬥ *Auto-cast <:exsanguinate:856635090745950258>*
+.img:https://img.pvme.io/images/bhR6hl4v5i.png
+
+.
+### <:multitarget:1137770974431944835> Multi-target / Dual-wield
+⬥ *Auto-cast <:incitefear:856635090783567902>*
+.img:https://img.pvme.io/images/yLfDRL7GCn.png
+
+.
+### <:multitarget:1137770974431944835> Multi-target / 2-handed
+⬥ *Auto-cast <:incitefear:856635090783567902>*
+⬥ *In testing <:roarofawakening:1266417538045317121> <:odetodeceit:1266417683058917517> (the above bar) increased kph by +10% over <:fsoa:869284271595069451> (this bar)*
+.img:https://img.pvme.io/images/Bbpqknebm9.png
+
+.
+## __Necromancy Bars__ <:necromancy:1148995625896120460>
+.tag:necromancy
+⬥ *Customise <:conjurearmy:1166094935066423348> to use all available conjures*
+
+.
+### Basics only
 .img:https://img.pvme.io/images/d22p6ur7lj.png
 
 .
-## __Revolution++ Melee__ <:melee:1096130867279171706>
-.tag:revo++melee
-### Dual Wield
-.img:https://img.pvme.io/images/5WNL34hKFL.png
+### <:singletarget:1137770977506369596> Single-target
+.img:https://img.pvme.io/images/W1aR6C8RKQ.png
 
 .
-### Two-handed
-.img:https://img.pvme.io/images/ud8hrH8hXW.png
+### <:multitarget:1137770974431944835> Multi-target
+.img:https://img.pvme.io/images/6EPrXFfiV0.png
 
 .
-## __Revolution++ Magic__ <:magic:689504724159823906>
-.tag:revo++magic
-.img:https://img.pvme.io/images/bqqkhdYa4w.png
 
 .
-## __Revolution++ Ranged__ <:range:580168050121113623>
-.tag:revo++ranged
-### With Greater Ricochet
-.img:https://img.pvme.io/images/ZDqf8dwuzT.png
-*Note: use this bar with <:mechchin:641669268722810881> for AoE.*
-
+## __Configuring Revolution++__
+.tag:configuration
 .
-## __Revolution++ Necromancy__ <:necromancy:1148995625896120460>
-.tag:revo++necro
-.img:https://img.pvme.io/images/IUjIDBS8x1.png
-
-.
-## __Revolution++ AoE Melee__ <:melee:1096130867279171706>
-.tag:revoaoemelee
-### Two-handed
-.img:https://img.pvme.io/images/LZohjrpk3h.png
-
-.
-## __Revolution++ AoE Magic__ <:magic:689504724159823906>
-.tag:revoaoemagic
-.img:https://img.pvme.io/images/RN004ENwKv.png
-*Note: bar is designed to autocast <:incitefear:856635090783567902> for <:tsunami:535533809995874304> but may use <:bloodbarrage:537338981747261446> instead if healing is needed.*
-
-.
-## __Revolution++ AoE Necromancy__ <:necromancy:1148995625896120460>
-.tag:revoaoenecro
-.img:https://img.pvme.io/images/3SnLchZv5o.png
-*Notes:*
-⬥ *<:deathskulls:1159434663903899728> will likely never activate without some very rare Relentless <:relentless5:712244800920748092> and Impatient <:imp4:712073088204013640> procs.*
-⬥ *<:bloodsiphon:1159434279311380532> will also likely never activate unless missing tiers of <:spectralscythe:1137809145706319892>*
-    • *Can move forward if needed for survivability.*
-⬥ *Removing <:conjurezombie:1137809200219684924> will likely improve kph at a potential cost to xp/hr.*
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "For all bars that are not marked as `Basics only`, follow the below instructions to set up properly",
+        "value": "⬥ Toggle on Auto-retaliate <:autoretaliate:1084799717726228530> next to your adrenaline bar\n⬥ Open Settings and search for `'action bar'`\n⬥ Toggle on `Revolution Combat Mode`\n⬥ Select `Automatically trigger` for all 4 ability types"
+      }
+    ],
+    "image": {
+      "url": "https://img.pvme.io/images/gZRHfnzUKt.png"
+    }
+  }
+}
+.embed:json
 
 .
 {
   "embed": {
-    "title": "Table of Contents",
-    "color": 39423,
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit ⁠<id:customize> and select Entry Editor*",
-    "fields": [
-      {
-        "name": "__General Information__",
-        "value": "[Introduction]($linkmsg_intro$)"
-      },
-      {
-        "name": "__Revolution__",
-        "value": "⬥ [Melee]($linkmsg_revomelee$) <:melee:1096130867279171706>\n⬥ [Magic]($linkmsg_revomagic$) <:magic:689504724159823906>\n⬥ [Ranged]($linkmsg_revoranged$) <:range:580168050121113623>\n⬥ [Necro]($linkmsg_revonecro$) <:necromancy:1148995625896120460>",
-        "inline": true
-      },
-      {
-        "name": "__Revolution++__",
-        "value": "⬥ [Melee]($linkmsg_revo++melee$) <:melee:1096130867279171706>\n⬥ [Magic]($linkmsg_revo++magic$) <:magic:689504724159823906>\n⬥ [Ranged]($linkmsg_revo++ranged$) <:range:580168050121113623>\n⬥ [Necro]($linkmsg_revo++necro$) <:necromancy:1148995625896120460>",
-        "inline": true
-      },
-      {
-        "name": "__Revolution++ AoE__",
-        "value": "⬥ [Melee]($linkmsg_revoaoemelee$) <:melee:1096130867279171706>\n⬥ [Magic]($linkmsg_revoaoemagic$) <:magic:689504724159823906>\n⬥ Ranged - use Revo++ with chinchompas <:range:580168050121113623>\n⬥ [Necro]($linkmsg_revoaoenecro$) <:necromancy:1148995625896120460>",
-        "inline": true
-      }
-    ]
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Melee Bars]($linkmsg_melee$) <:melee:1096130867279171706>\n⬥ [Ranged Bars]($linkmsg_ranged$) <:ranged:580168050121113623>\n⬥ [Magic Bars]($linkmsg_magic$) <:magic:689504724159823906>\n⬥ [Necromancy Bars]($linkmsg_necromancy$) <:necromancy:1148995625896120460>\n⬥ [Configuring Revolution++]($linkmsg_configuration$) <:autoretaliate:1084799717726228530>",
+    "color": 39423
   }
 }
 .embed:json
