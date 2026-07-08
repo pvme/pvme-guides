@@ -1,0 +1,90 @@
+# Rathis - Basic Guide
+.img:https://img.pvme.io/images/14YLWftEeI.png
+
+.
+## __General Information__
+.tag:generalInfo
+⬥ Rathis has 190,000 LP, across a single fight phase
+⬥ Rathis attacks with Ranged <:range:580168050121113623> and poison <:poisonicon:944649693500154006>
+
+Other guides: <#1522138215564443850> <#1251377303158788149>
+
+.
+## __Gear, Relics and Familiars__
+.tag:GearRelicsFamiliars
+⬥ Stab weapons are recommended for a +27% hit chance boost
+⬥ Use Elder Overload Salve <:elderovlsalve:648976643687317532>, the Venomblood perk <:venomblood:841419289714229258> or Super Antipoison <:superantipoison:841409588884406272> to reduce poison damage
+.
+[Example Preset](https://presets.pvme.io?id=3bff65d4-55ad-401d-b23c-70d50230353d) <:melee:1096130867279171706>
+
+.
+## __Fight Mechanics__
+.tag:fightMechanics
+⬥ You should attack with Melee <:melee:1096130867279171706>
+    • Any other style will only deal insignificant damage
+.
+### __Attack Rotation__
+3x <:ranged:580168050121113623> → **Acid Bombardment** → <:ranged:580168050121113623> → <:melee:1096130867279171706> →
+5x <:ranged:580168050121113623> → <:melee:1096130867279171706> → <:ranged:580168050121113623> → **Poison Absorption** →
+3x <:ranged:580168050121113623> → <:melee:1096130867279171706> → 5x <:ranged:580168050121113623> → <:melee:1096130867279171706> →
+*Repeat*
+
+.
+### __Auto Attacks__ ([Ranged example](<https://img.pvme.io/images/VpJQA2o7i9.mp4>) / [Melee example](<https://img.pvme.io/images/JC2ZIPyPYv.mp4>))
+**Mechanic:** Rathis uses Ranged <:range:580168050121113623> and Melee <:melee:1096130867279171706> auto attacks. If you are outside melee distance, the melee attack becomes a charge instead.
+
+**Solution:**
+⬥ Stay in melee distance unless moving briefly to dodge poison
+⬥ If low Defence <:defence:689509250979987525> level, pray against Ranged <:deflectrange:544195488317046812> / <:protectfrommissiles:1052551455078367313>
+    • Pray <:soulsplit:615613924506599497> once you are comfortable surviving the mechanics
+
+.
+### __Charge__ [(Example)](<https://img.pvme.io/images/RGB4lLK499.mp4>)
+**Mechanic:** If you move out of melee distance, Rathis can charge at you, stunning <:stunicon:841419289428492369> you and dealing heavy typeless damage.
+
+**Solution:**
+⬥ Stand in melee distance of Rathis
+⬥ If moving (e.g., to dodge acid pools, move back into melee distance quickly to avoid the charge
+
+.
+### __Acid Bombardment__ [(Example)](<https://img.pvme.io/images/Kyo7hSa0SR.mp4>)
+**Mechanic:** Rathis launches two acid orbs, with one aimed at the player. Each orb deals up to 3500 <:range:580168050121113623> damage when it lands and leaves behind a **Poison Pit**.
+
+Poison Pits are large green pools that remain in the arena until Rathis uses **Poison Absorption**. Standing in them deals poison <:poisonicon:944649693500154006> damage every tick and applies *Corrosion*, increasing all damage taken by 20% per stack, up to 100%.
+
+Poison Pits shrink when stood in, going from 5x5 → 3x3 → 2x2 → 1x1.
+
+**Solution:**
+⬥ If avoiding them:
+    • Step away from the landing tiles as the orbs arrive
+    • Move only as much as needed, then return to melee distance
+
+⬥ If shrinking them:
+    • Keep Elder Overload Salve <:elderovlsalve:648976643687317532>, Venomblood <:venomblood:841419289714229258> or Super Antipoison <:superantipoison:841409588884406272> active to reduce poison damage
+    • Briefly stand in Poison Pits to shrink them before Poison Absorption
+    • Avoid building too many *Corrosion* stacks, as this makes all incoming damage more dangerous
+    • Do not risk dying just to shrink every pool
+
+.
+### __Poison Absorption__ [(Example)](<https://img.pvme.io/images/ihohKA14Pr.mp4>)
+**Mechanic:** Rathis absorbs any remaining Poison Pits, healing based on their size (you will see `Uber Heal` appear over Rathis). A full-size Poison Pit can heal Rathis for up to 35,000 LP.
+
+**Solution:**
+⬥ This mechanic rewards you for shrinking Poison Pits during **Acid Bombardment**
+⬥ Continue the kill as normal, but expect it to take longer
+
+.
+## __Helpful videos__
+.tag:videos
+⬥ [Example kills with Revo++](https://youtu.be/BUcpASUPjNk)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Info]($linkmsg_generalInfo$)\n⬥ [Gear, Relics & Familiars]($linkmsg_GearRelicsFamiliars$)\n⬥ [Fight Mechanics]($linkmsg_fightMechanics$)\n⬥ [Videos]($linkmsg_videos$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
