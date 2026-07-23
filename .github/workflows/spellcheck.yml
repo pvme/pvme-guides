@@ -21,14 +21,30 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
-      - name: Checkout (PR head)
+      # Keep the spelling rules from the trusted base branch.  A contributor's
+      # fork is checked out separately below only so its .txt content can be read.
+      - name: Checkout trusted spelling rules
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted-rules
+          persist-credentials: false
+
+      - name: Checkout PR text files
         if: github.event_name == 'pull_request_target'
         uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
+          path: pr-content
+          fetch-depth: 1
+          persist-credentials: false
+          # This workflow only reads .txt files from the fork; it never runs
+          # scripts, installs dependencies, or uses configuration from the fork.
+          allow-unsafe-pr-checkout: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -42,49 +58,61 @@ jobs:
             @cspell/dict-software-terms \
             @cspell/dict-gaming-terms
 
+      - name: List changed PR text files
+        if: github.event_name == 'pull_request_target'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files?per_page=100" \
+            --jq '.[].filename' > /tmp/changed-txt-files.txt
+
       - name: Run spellcheck on changed txt files
         id: spell
         shell: bash
         run: |
           REPORT=/tmp/spellcheck.txt
+          CONTENT_DIR=.
+          CSPELL_CONFIG=.github/cspell/cspell.json
+          EXTRA_WORDS=.github/cspell/allow.txt
 
           if [ "${{ github.event_name }}" = "pull_request_target" ]; then
-            git diff --name-only --diff-filter=ACMRT \
-              "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" \
-              | grep -E '\.txt$' \
-              | cspell \
-                  --config .github/cspell/cspell.json \
-                  --file-list stdin \
-                  --no-progress \
-                  --no-summary \
-                  --relative \
-                  | tee "$REPORT" || true
+            CONTENT_DIR=pr-content
+            CSPELL_CONFIG="$GITHUB_WORKSPACE/trusted-rules/.github/cspell/cspell.json"
           else
             BEFORE="${{ github.event.before }}"
             AFTER="${{ github.sha }}"
 
             if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
               git diff-tree --no-commit-id --name-only -r --diff-filter=ACMRT "$AFTER" \
-                | grep -E '\.txt$' \
-                | cspell \
-                    --config .github/cspell/cspell.json \
-                    --file-list stdin \
-                    --no-progress \
-                    --no-summary \
-                    --relative \
-                    | tee "$REPORT" || true
+                > /tmp/changed-txt-files.txt
             else
               git diff --name-only --diff-filter=ACMRT "$BEFORE" "$AFTER" \
-                | grep -E '\.txt$' \
-                | cspell \
-                    --config .github/cspell/cspell.json \
-                    --file-list stdin \
-                    --no-progress \
-                    --no-summary \
-                    --relative \
-                    | tee "$REPORT" || true
+                > /tmp/changed-txt-files.txt
             fi
           fi
+
+          # The workflow-owned config is used even for fork PRs. Only existing
+          # .txt files are passed to cspell, as plain data. The PR's allow-list
+          # remains usable so editors can propose new project words for review.
+          (
+            cd "$CONTENT_DIR"
+            cspell_args=(--config "$CSPELL_CONFIG")
+            if [ -f "$EXTRA_WORDS" ]; then
+              cspell_args+=(--words "$EXTRA_WORDS")
+            fi
+            while IFS= read -r file; do
+              [ -f "$file" ] && [[ "$file" == *.txt ]] && printf '%s\n' "$file"
+            done < /tmp/changed-txt-files.txt \
+              | cspell \
+                  "${cspell_args[@]}" \
+                  --file-list stdin \
+                  --no-progress \
+                  --no-summary \
+                  --relative \
+                  | tee "$REPORT" || true
+          )
 
           if grep -q "Unknown word" "$REPORT"; then
             echo "found=true" >> "$GITHUB_OUTPUT"

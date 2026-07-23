@@ -21,14 +21,40 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
-      - name: Checkout (PR head)
+      # Keep this workflow's rules from the trusted base branch. A fork is
+      # checked out separately below only so its .txt content can be inspected.
+      - name: Checkout trusted workflow files
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted-rules
+          persist-credentials: false
+
+      - name: Checkout PR text files
         if: github.event_name == 'pull_request_target'
         uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
+          path: pr-content
+          fetch-depth: 1
+          persist-credentials: false
+          # This workflow only reads .txt files from the fork; it never runs
+          # scripts or configuration supplied by the contributor.
+          allow-unsafe-pr-checkout: true
+
+      - name: List changed PR text files
+        if: github.event_name == 'pull_request_target'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files?per_page=100" \
+            --jq '.[].filename' > /tmp/changed-txt-files.txt
 
       - name: Run style guide checks on changed txt files
         id: style
@@ -36,12 +62,11 @@ jobs:
         run: |
           REPORT=/tmp/style-guide-report.txt
           : > "$REPORT"
+          CONTENT_DIR=.
 
           get_changed_txt_files() {
             if [ "${{ github.event_name }}" = "pull_request_target" ]; then
-              git diff --name-only --diff-filter=ACMRT \
-                "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" \
-                | grep -E '\.txt$' || true
+              cat /tmp/changed-txt-files.txt
             else
               BEFORE="${{ github.event.before }}"
               AFTER="${{ github.sha }}"
@@ -58,14 +83,20 @@ jobs:
 
           mapfile -t files < <(get_changed_txt_files)
 
+          if [ "${{ github.event_name }}" = "pull_request_target" ]; then
+            CONTENT_DIR=pr-content
+          fi
+
           if [ "${#files[@]}" -eq 0 ]; then
             echo "No changed .txt files found"
             echo "found=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
+          cd "$CONTENT_DIR"
+
           for file in "${files[@]}"; do
-            [ -f "$file" ] || continue
+            [ -f "$file" ] && [[ "$file" == *.txt ]] || continue
             echo "Checking $file"
 
             awk -v file="$file" '
