@@ -10,10 +10,12 @@ Wyverns are one of the 4 raptor mobs, and are known for their unique environment
 
 .
 ### Stats
-⬥ <:combat:797896050370281523> XP per kill : 1859 + 613.4 <:constitution:689509250887712902>
 ⬥ <:slayer:797896049548066857> XP per kill : 1878.8
-⬥ Optimal kills per hour: ~700 AFK
-⬥ Optimal <:slayer:797896049548066857> XP per hour : ~1.3M AFK
+⬥ Optimal kills per hour: ~700 <:ranged:580168050121113623> / <:magic:689504724159823906> (ALL AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~1.3M <:ranged:580168050121113623> / <:magic:689504724159823906> (ALL AFK)
+
+Use this tile for all styles.
+.img:https://img.pvme.io/images/MJ1aIsrsJN.png
 
 .
 ### Desirable Drops
@@ -80,10 +82,32 @@ Living Wyverns are found in 2 locations:
 }
 .embed:json
 .
+## __Method: AFK Ranged <:ranged:580168050121113623>__
+.tag:ranged
+⬥ Pray <:soulsplit:615613924506599497> and <:anguish:583429936665198592> / <:desolation:513190159018098713>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:darkness:1137809209782698024>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, <:scriptureofamascut:1266417822188437569>, and <:kwuarmsticks:565726489341984779> at all times.
+⬥ Use Totem of Vitality <:vitalitytotem:643507594811670538> and Boon of Het HP boosts.
+    • Required if using <:underworldgrimoire4:1274331251301683260> and Legendary pet.
+⬥ Use <:cannon:869283142350041098> to help aggro the Living Wyverns.
+
+.
+### Preset
+.
+⬥ [AFK Ranged](https://presets.pvme.io?id=49b35267-1149-4cbc-aab8-ff36440b64ad)
+.
+
+.
+### Revo bar
+.img:https://img.pvme.io/images/zFncRYemVQ.png
+
+.
+### Example Kills
+⬥ [AFK Ranged](<https://www.youtube.com/watch?v=NPtJ6nLKJIM>)
+
+.
 ## __Method: Active/AFK Magic <:magic:689504724159823906>__
 .tag:magic
-Magic is the best style at wyverns by far, due to their weakness to the <:inquisitorstaff:694566917553520680> and <:animatedead:856635090453135382> damage reduction.
-
 ⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:affliction:513190158468907008>
     • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
 ⬥ Autocast <:incitefear:856635090783567902>
@@ -94,8 +118,9 @@ Magic is the best style at wyverns by far, due to their weakness to the <:inquis
 
 .
 ### Preset
-
+.
 ⬥ [Active/AFK Magic](https://presets.pvme.io?id=f22c8357-3337-4550-a00d-7af8d9ceeee3) <:magic:689504724159823906>
+.
 
 .
 ### Active Strategy
@@ -107,12 +132,6 @@ Magic is the best style at wyverns by far, due to their weakness to the <:inquis
 
 ⬥ If doing wyverns with lesser gear, an <:oldakcoil:798285651387613194> may be used to aggro a limited amount (2-3) of wyverns which makes it more manageable to <:soulsplit:615613924506599497>, as shown [here](<https://youtu.be/2jCihwc-Bd0>)
 .
-### AFK Strategy
-⬥ Stand south of the area out of range of the cavern chill effect.
-    • If positioned correctly, the chill status icon should not be seen on the debuff bar.
-
-.img:https://img.pvme.io/images/MJ1aIsrsJN.png
-.
 
 .
 ### Revo bar
@@ -121,7 +140,6 @@ This bar should be used only for AFKing.
 
 .
 ### Example Kills
-.tag:example
 .
 ⬥ [Active Magic](<https://youtu.be/zwcW5uh37gc>) (Outdated)
 ⬥ [AFK Magic](<https://www.youtube.com/watch?v=yfBnRfcbBvI>)
@@ -134,12 +152,12 @@ This bar should be used only for AFKing.
     "fields": [
       {
         "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and how to get there]($linkmsg_location$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Useful Items and Unlocks]($linkmsg_useful$)\n⬥ [Example Kills]($linkmsg_example$)",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and how to get there]($linkmsg_location$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Useful Items and Unlocks]($linkmsg_useful$)",
         "inline": true
       },
       {
         "name": "__Methods__",
-        "value": "⬥ [Active/AFK Magic]($linkmsg_magic$)",
+        "value": "⬥ [AFK Ranged]($linkmsg_ranged$)\n⬥ [Active/AFK Magic]($linkmsg_magic$)",
         "inline": true
       }
     ]
