@@ -1,0 +1,409 @@
+# Amascut, the Devourer
+.img:https://img.pvme.io/images/EFlnaJbrvr.png
+.
+## Introduction
+The aim of this guide is to provide a basic overview of how to get consistent kills at Amascut, the Devourer. Due to the boss' high defence levels, demanding DPS checks and mechanical complexity, contents of this guide assume you have at least made it to the end of Stage 1 of <#1020045708746833930> for your chosen style. As Amascut is enrage-based with fixed enrages of 100, 500, 750, 1000, 2000 and 4000%, mechanics and strategies may differ based on enrage. For the purposes of this guide, 100% enrage will be utilized.
+.
+### Disclaimer
+This guide, and its contents thereof, assume you are getting started with Amascut, and does not necessarily cover meta strategies.
+.
+## __General Information__
+.tag:generalInfo
+⬥ Amascut, the Devourer is located in Menaphos. Fighting her requires completion of the **Eclipse of the Heart** quest.
+⬥ She has variable LP based on chosen mode and enrage:
+    • __**Normal Mode**__: 4.0M
+    • __**100%**__: 5.5M
+    • __**500%**__: 7M
+    • __**750%**__: 8M
+    • __**1000%**__: 9M
+    • __**2000%**__: 12M
+    • __**4000%**__: 16M
+⬥ Defensively, Amascut has a Defence <:defence:689509250979987525> level of 95, with 2765 Armour and an affinity of 55 Affinity against all styles.
+⬥ Amascut is immune to stuns <:stunicon:841419289428492369> and poison <:poisonicon:944649693500154006>.
+    • Her minions can be poisoned and stunned.
+⬥ Amascut is mechanically complex, consisting of 5 phases in Normal and 7 phases in Enrage mode.
+.
+## __Gear, Relics, Familiars__
+.tag:presets
+The following presets are based on Stage 1 and provided by Amascut, the Devourer Discord:
+⬥ [Necromancy](<https://presets.pvme.io/?id=c9915f48-ad2f-4a74-bc28-de538d40826e>)
+⬥ [Magic](https://presets.pvme.io/?id=nfm2UnsVqmKfaFDf2Z9X)
+.
+## __Fight Mechanics__ (Phases 1 & 3)
+.tag:mechanics13
+⬥ Amascut attacks with <:magic:689504724159823906> and <:melee:1096130867279171706>, with a mechanic every 3 auto attacks
+    • Magic attacks deal damage to all players, and is telegraphed by Amascut raising her left hand and shooting out a green ball of energy
+    • Melee attacks deal damage to whoever has Amascut's aggression, and any player within 2-3 tiles near them; telegraphed by Amascut raising her right hand and slashing her target
+        ⬩ Melee attacks will additionally cause <:range:580168050121113623> arrows to fly at anyone within 10 tiles of her target once the melee hit lands
+⬥ Every 4 auto attacks, Amascut will perform __Rapid Swipes__ where she starts viciously swiping at her target, dealing 2 quick hits of <:magic:689504724159823906> or <:melee:1096130867279171706> damage based on her last used style, followed by a double hit that inflicts both types of damage
+    • In higher enrages, this has massive KO potential
+.
+### __Attack Rotation__
+⬥ This rotation assumes Amascut is not phased by reaching her hitcap
+⬥ 3 <:magic:689504724159823906> auto attacks → *Tri-colour Attack* → Rapid swipes + 2 auto attacks → *Summon Scarabs* → 1 auto attack + Rapid swipes + 1 auto attack → *Soul Crush* → 2 auto attacks + Rapid swipes → *Triple Strike* → 3 auto attacks → *Tri-colour Attack* → Rapid swipes + 2 auto attacks → *Hard phase* (Amascut enters P2 or P4 depending on which phase the players were on)
+⬥ If the players reach phase hitcap for P1 and/or P3, Amascut will reset her mechanics rotation (starting over with Tri-colour attack being her first mechanic), but will __not__ reset her auto attack rotation (if she entered P2 after landing Rapid swipes, her P3 rotation will start with 3 regular auto attacks)
+.
+### __Corruption__ <:corruption:1402610315480535050>
+⬥ Persistent mechanic that increases all incoming damage by 10% per stack
+    • Capped at 15 stacks for a total of 150% damage increase
+
+**Sources:**
+⬥ Amascut's auto-attacks against her __main target__ each inflict a stack
+⬥ Getting hit by Devourer's Shockwaves or Soulfire Waves inflict a stack
+.
+### __Tri-colour Attack__
+⬥ Amascut will flash 3 orbs in order, __one for each style__, and attack the Base Tank in the order she flashed the orbs
+⬥ The attacks deal heavy damage if not prayed against, and will stun the player taking them at 500% enrage or higher
+
+**Solution:**
+⬥ Amascut __telegraphs__ which styles she will attack with when she performs the mechanic:
+    • `Pathetic`: <:melee:1096130867279171706> → <:range:580168050121113623> → <:magic:689504724159823906>
+    • `Weak`: <:range:580168050121113623> → <:magic:689504724159823906> → <:melee:1096130867279171706>
+    • `Grovel`: <:magic:689504724159823906> → <:melee:1096130867279171706> → <:range:580168050121113623>
+⬥ <:anti:535541306475151390> protects against being stunned at 500% enrage or higher
+⬥ Only affects the Base Tank, other roles are safe
+.img:https://img.pvme.io/images/ZO7c5iux5L.mp4
+.
+### __Summon Scarabs__
+⬥ Amascut summons 2-5 scarabs per player based on enrage, charging up over time
+⬥ The scarabs are Immune to damage until they are stunned
+⬥ Once fully charged, they explode, dealing soft typeless damage to all players in the arena
+
+**Solution:**
+⬥ Their damage can be mitigated entirely by casting <:cade:535541306353778689>
+    • If unavailable, <:reflect:535541258786177064> + <:powerburstofvitality:654618235097972737> can be used as a last resort
+⬥ Stepping on them as they spawn will prevent them from spawning entirely, doing so will reset the cooldown of <:dive:1049378668197195808>
+⬥ Stunning them will lift their damage immunity and kill them due to their low health (2000 LP)
+.
+### __Soul Crush__ (a.k.a. Bend the Knee)
+⬥ Amascut deals massive soft typeless damage to her main target, split between all players in a 3x3 radius of her target
+⬥ Has 50% piercing against defensive abilities
+
+**Solution:**
+⬥ Base Tank can <:immort:535541258538582017> at the end of __**Tri-colour Attack**__ at earliest to negate this mechanic, assuming they do not proc it earlier
+⬥ DPS pile can <:voke:535541259465392143> Soul Crush and split it between themselves, using <:reflect:535541258786177064> + <:powerburstofvitality:654618235097972737> to stay alive
+.img:https://img.pvme.io/images/DTnk2wbbf4.mp4
+.
+### __Triple Strike__
+⬥ Amascut alters the skybox colour and prepares to launch 3 devastating hits with the same style she calls out
+⬥ Not praying against the hits correctly deals massive damage
+⬥ Affects all players in the encounter
+
+**Solution:**
+⬥ Amascut __telegraphs__ which style she will attack with when she performs the mechanic:
+    • `All strength withers` (skybox turns __**red**__): 3 <:melee:1096130867279171706> hits
+    • `I will not suffer this` (skybox turns __**green**__): 3 <:range:580168050121113623> hits
+    • `Your soul is WEAK` (skybox turns __**blue**__): 3 <:magic:689504724159823906> hits
+⬥ <:devo:513190158728953857> will fully protect you from all 3 hits, as long as you are praying against the style correctly
+    • If timed correctly, <:res:535541258844635148> / <:divert:787904334377648130> can gain a massive amount of healing and adren respectively from the third hit
+.img:https://img.pvme.io/images/SH08p0rCVi.mp4
+.
+## __Fight Mechanics__ (Phases 2 & 4)
+.tag:mechanics24
+⬥ Amascut stops attacking, becomes Immune to all damage, and charges a wipe mechanic
+⬥ She will invoke the names of two of the Bau of Tumeken (Apmeken and Crondis in Phase 2, Scabaras and Het in Phase 4), causing their respective mechanics to become active
+⬥ Failure to complete this phase in less than 200 seconds will result in a __**WIPE**__ <:instakill:1104794644497309809>
+    • This timer is reduced to 125 seconds at 1000% enrage, and further reduced to 100 seconds at 2000%
+.
+### __Statues & Fragments__
+⬥ The statues of the Bau of Tumeken are __corrupted__, and must be __cleansed__ and __restored__ to progress the fight
+⬥ Clicking on the statue while they are glowing __**green**__ will deal hard typeless damage to all players in the encounter
+
+**Solution:**
+⬥ The statues can be __cleansed__ by clicking on them once they start glowing __**golden**__ (see __Chains__ mechanic), doing so three times will cleanse the statue, allowing it to be restored
+⬥ The statues can be __restored__ by bringing its respective Fragment of Tumeken to them, this will stagger Amascut -interrupting her channeling and removing her damage immunity- allowing the encounter to be progressed
+    • Once both statues for that phase are __restored__, the phase ends when Amascut is damaged to her hitcap, or once she fully recovers
+.
+### __Portals__ (Inside Rooms)
+⬥ In order to cleanse the statues, players must enter through a portal on each side of the arena, guarded by a __Gatekeeper gorilla akh__
+    • __Gatekeeper gorilla akh__ has crawling speed, can potentially *stun* players with <:melee:1096130867279171706> attacks
+    • Once inside, the players must work together and towards killing the __Chainwarden mage akh__ and the __**chains**__ preventing the players from claiming a __Fragment of Tumeken__
+        ⬩ The chains, once they drop to **0 LP**, must be __cleansed__ to fully destroy them, and once all three are destroyed, the __Fragment of Tumeken__ can be claimed to restore its respective statue
+
+**Solution:**
+⬥ __Gatekeeper gorilla akh__ can be dispatched relatively easily with high burst damage
+⬥ Inside (Chains) and Outside (Statues) players must work together to take out the __Chainwarden__, Chains player takes out **two** chains and carries the __Fragment of Tumeken__, while the Statues player takes out **one** and cleanses their side's statue
+    • In Phase 4, both players remain inside as the Base Tank can singlehandedly cleanse both statues due to their proximity
+⬥ Chains player runs the __Fragment of Tumeken__ across the arena, the correct statue to __restore__ is on the **opposite** side of where they entered through the portal (e.g. East player must ferry the __fragments__ to the Western statues)
+    • While carrying the __Fragment of Tumeken__, <:surge:535533810004262912>, <:escape:535541258832052231> & <:dive:1049378668197195808> are disabled, <:barge:535532853916860437> can still be utilized
+.
+### __Apmeken's Burden__ <:apmekensburden:1402579857648390224>
+⬥ Shortly after Phase 2 starts, Amascut marks one random player who is outside with __Apmeken's Burden__, a hard hitting bleed that deals typeless damage
+⬥ The bleed wears off after a while, length based on enrage
+⬥ If __Apmeken's Burden__ deals damage to a player for the 8th time (indicated by the number of stacks on the debuff), that player is __**instakilled**__ <:instakill:1104794644497309809>
+
+**Solution:**
+⬥ Players can pass __Apmeken's Burden__ around to reset its stacks, to pass the debuff the player must be standing in a 1 tile radius of the player who **never** got the burden during the phase when its damage ticks
+⬥ Should the debuff be applied, it can be safely ignored in enrages less than 2000% as it will never instakill <:instakill:1104794644497309809>
+⬥ __Apmeken's Burden__ can be skipped **entirely**, if Amascut cannot find a target when she tries to mark a player (e.g. all players are inside the portal) the debuff will never be applied
+.
+### __Modest Crocodile Demons__ <:modesty:1402583151322071091>
+⬥ At the start of Phase 2, and again once the statues are restored, two __Modest crocodile demons__ will spawn, one for each side of the arena
+⬥ Modest crocodile demons primarily attack with <:range:580168050121113623>, sometimes attacking with <:melee:1096130867279171706> if their target is too close
+    • Once the adrenaline bar above their head is charged, they fire a <:magic:689504724159823906> attack that **cannot miss**, draining the player's adrenaline by 20% and halving their adrenaline gain for a short time
+⬥ These creatures have the __Modesty__ and __Provoke Immune__ buffs, reflecting damage from enhanced and ultimate abilities, as well as special attacks while preventing <:voke:535541259465392143> from changing their targets
+
+**Solution:**
+⬥ Pray against their attacks and use basic abilities and conjures <:conjurearmy:1166094935066423348> to kill them
+    • Necromancers are strongly recommended to <:invokedeath:1137809121983336548> as it will speed up the kills
+⬥ They will attack the first target they see until they lose them; as they are __Provoke Immune__, Statues roles should have their aggro once the second set spawns, Base Tank can tank/dispatch the first set
+.
+### __Healing in Strength__ <:healinginstrength:1402585055297273896>
+⬥ Amascut will heal for a portion of all damage dealt by her minions (except for the Chainwarden mage akh) during Phase 4
+
+**Solution:**
+⬥ This mechanic can be safely ignored as the healing is usually negligible
+    • If going for **You Shall Not Heal** Combat Achievement, <:ent:567727987274022924> / <:icebarrage:537340400185245701> / <:stickybomb:655341074306301964> is strongly recommended to stop __Feline guard akhs__ and __Gorilla gatekeeper akhs__ from dealing damage with their attacks
+.
+### __Explosive Scarab Akhs__ <:carapace:1402585081624924210>
+⬥ During Phase 4, Amascut will summon __Explosive scarab akhs__ with **5000 LP** and no damage immunity
+    • In addition to the scarabs, Gorilla gatekeeper akhs, Chainwarden mage akhs and Chains all gain damage immunity through the __Carapace__ <:carapace:1402585081624924210> buff
+⬥ On death, the scarabs will start filling a bar above their head, causing them to explode once filled dealing soft typeless damage to all players in the arena
+    • Any remaining scarabs at the end of Phase 4 will simultaneously die and start charging
+
+**Solution:**
+⬥ Scarabs can be __grabbed__ and tossed at targets once they have been killed and start charging their explosion, doing so will lift the Carapace buff from enemies (green glow around them)
+    • To throw a scarab, click on a dead scarab to grab, then click on a target to throw it
+⬥ At the start of Phase 5, use <:cade:535541306353778689> to null all of their damage as they explode
+.img:https://img.pvme.io/images/TH3J0tKcHR.mp4
+.
+### __Floor Mechanics__ (Devourer's Shockwaves, Soulfire Waves, Devourer's Hieroglyphs)
+⬥ Amascut will blast the ground with high damage __Shockwaves__, __Hieroglyphs__ or __Soulfire Waves__, similar to Nakatra in Sanctum of Rebirth
+    • __Shockwaves__ have a fixed pattern and deal typeless damage, disabling defensive abilities and putting them on cooldown for 6s
+    • __Soulfire Waves__ sweep the arena in a set pattern dealing high <:magic:689504724159823906> damage and lowering the duration of <:devo:513190158728953857>
+    • __Hieroglyphs__ split the arena into 9 5x5 tiles, dealing heavy typeless damage and disabling defensive abilities as well as putting them on cooldown for 6s
+⬥ Shockwaves appear in Phases 2 (West side), Phase 3, Phase 4 (East side) and Phase 7
+⬥ Soulfire Waves appear in Phase 2 and Phase 4
+⬥ Hieroglyphs appear in Phase 7 only
+.img:https://img.pvme.io/images/iZqSGogEPo.png
+**Solution:**
+⬥ All floor mechanics are telegraphed, move out of the way if possible
+    • For Soulfire Waves, praying <:magic:689504724159823906> will mitigate some damage, <:res:535541258844635148> and <:disrupt:535614336207552523> both block one hit, <:devo:513190158728953857> can block hits while praying but will suffer duration reduction
+⬥ In Phase 7, dodging __Shockwaves__ and __Hieroglyphs__ will __reset the cooldowns__ of all movement abilities
+.
+## __Fight Mechanics__ (Phase 5)
+.tag:mechanics5
+⬥ Amascut will go Immune once again, and summons a pair of soul obelisks that slowly charge towards periodic bursts of <:magic:689504724159823906> damage
+⬥ To progress the fight, the players must work together to charge the Fragments of Tumeken freed in Phases 2 and 4
+⬥ There is no timer in this phase
+.
+### __Altar Charging__
+⬥ Four fragments of Tumeken, two on each side of the arena, will appear directly across the statues
+    • __Far__ fragments are Crondis and Apmeken, and can be charged by the __Solo Charge__ role
+    • __Near__ fragments are Scabaras and Het, and must be charged by the __South Charge__ and __Interceptors__
+⬥ To charge a fragment, the players must form a bridge to carry Tumeken's light shooting out of the statues
+⬥ Once at least 1 fragment is charged, players can click on __Tumeken__ to start reforming him
+    • Ideally, at least 2 fragments must be charged before clicking on Tumeken to start reformation
+.
+### __Soul Obelisks__
+⬥ A __Soul obelisk__ will spawn on each side of the arena, slowly charging up its health
+⬥ Once fully charged, it will start dealing periodic <:magic:689504724159823906> to all players in a fairly large AoE
+
+**Solution:**
+⬥ So long as the obelisks take damage, they will not charge up
+    • Using a damage over time ability <:bloat:1159433682403201044> / <:combust:1478063107908702482> will stop it from charging up without having to actively focus it
+⬥ Finishing a charging cycle will also reset the obelisks
+.
+### __Lightstealer salawa akhs__ (a.k.a. Dogs)
+⬥ While any number of altars are charging, __Lightstealer salawa akhs__ (dogs) will emerge from the southern stairs, moving towards the charging fragments
+⬥ If the dogs make it to their target, they will start to slowly charge up, then sacrifice themselves after fully charging, setting back progression for that fragment by a significant amount
+    • If the fragments have been recalled, they will target Tumeken instead; if they deplete Tumeken's health, it will result in a __**WIPE**__ <:instakill:1104794644497309809>
+
+**Solution:**
+⬥ Players at the southern side of the arena can use <:ent:567727987274022924> / <:icebarrage:537340400185245701> / <:stickybomb:655341074306301964> to stop the dogs from moving
+⬥ Attacking will also change their target to the player who dealt damage to them
+⬥ As soon as Tumeken recalls all fragments and starts reforming, they become high priority targets; strong AoE rotations (e.g. <:gchain:1478063106914779166> → <:omnipowerigneous:1179505745654448208> ) must be utilized to remove them from the arena as quickly as possible
+
+*Note:* *Lightstealer salawa akhs will remember their progress to snuff out the light of one of Tumeken's fragments, e.g. if one of them had their charge bar halfway full and switch target over to Tumeken himself, they will continue charging from where they left off, this can lead to unexpected wipes*
+.
+### __Altar Strike__
+⬥ So long as any altars are charging, Amascut will say `Your light will be snuffed out once and for all` and launch 1-4 arrows at the altars based on how many altars are charging, dealing heavy damage and reducing a fragment's charge by a significant amount
+
+**Solution:**
+⬥ Two Interceptor players (Green 1 & Green 2) take turns to stand in front of Amascut, stopping the bolts from flying at the altars; refer to the image below for positioning
+    • Interrupting Altar Strike deals soft typeless damage that also inflicts the __Interceptor__ debuff, any player with the debuff that gets hit again with Altar Strike is instakilled <:instakill:1104794644497309809>
+        ⬩ The debuff is cleared if another player intercepts the bolts
+        ⬩ Incoming damage should be mitigated with <:debil:535541278264393729> / <:reflect:535541258786177064>
+⬥ One good tip is to drop down a <:prismofsalvation:892342109431029761> at the North Charge spot for the Interceptors to swap more easily
+.img:https://img.pvme.io/images/lfr0z98VqG.png
+.
+### __The God of Destruction__ (a.k.a. Blinking strikes)
+⬥ As soon as Tumeken starts reforming, Amascut becomes damageable and blinks to a random side of the arena (North, South, West or East), dealing <:magic:689504724159823906> damage and stunning any player in her way
+⬥ During this stage, Amascut will charge four devastating attacks (once per jump) that will deplete Tumeken's reformation progress
+⬥ If not intercepted properly or intercepted at all, it will set back Tumeken's reformation progress and deal heavy soft typeless damage to all players as well as stunning them
+    • If Tumeken's life bar depletes, the players __**WIPE**__ <:instakill:1104794644497309809>
+
+**Solution:**
+⬥ __Tumeken__ will call a player to intercept the attack by saying `<playername>, shield us from her shadow...`
+    • The player who is called out will notice their skybox turn __**golden**__
+⬥ The player called out by Tumeken **must be the first player** to be hit by Amascut's attack, intercepting it and preventing potentially lethal damage
+    • If they are not the first player to get hit, the attack will deal damage as if it wasn't intercepted at all
+⬥ All players who are standing in a line between Amascut and Tumeken will take typeless damage and have the cooldowns of all mobility abilities reset, allowing easy repositioning
+
+*Note: Tumeken will __never__ call the same player to intercept twice in a row*
+.
+## __Fight Mechanics__ (Phase 6)
+.tag:mechanics6
+⬥ Amascut will summon an __Engulfing shadow__ that consumes Tumeken, constantly bombarding the arena with projectiles that deal heavy typeless damage
+⬥ To progress the fight, the players must follow __the Path of Tumeken__ and take __Tumeken's light__
+.
+### __The Path of Tumeken__ (a.k.a. Platforms)
+⬥ The center hieroglyph either on west or east side of the arena will __**start glowing**__, indicating that a player can follow __the Path of Tumeken__
+⬥ The player following __the Path of Tumeken__ (climbing) must kill **four** mage/range akhs in **30 seconds**
+    • If the collapse timer runs out, the climber is instakilled <:instakill:1104794644497309809>, and Amascut will deal however much black health she has as typeless damage to players, split between all players in the arena
+
+**Solution:**
+⬥ Akhs have only **15k** LP, high burst damage will kill them in one or (at worst) two hits
+⬥ While climbing, the climber will see a __**glowing**__ hieroglyph under the platform they're standing on, if another player stands on the same glyph the climber calls out, the collapse timer will be paused until the next platform
+⬥ Once the four akhs are dead, the climber can click on __Tumeken's light__ to finish climbing and gain the __Enlightened__ <:interceptor:1402585098527965275> buff, for the remainder of the phase they are Amascut's main target
+.
+### Climber Rotations
+
+Both rotations assume they start as soon as Amascut calls `I WILL NOT BE DENIED` at the start of Phase 6
+
+⬥ **Necromancy <:necromancy:1148995625896120460>** (assumes 8 <:necrosis:1139452791878856805> & 4 <:residualsoul:1139453152169558046>): <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:residualsoul:1139453152169558046> → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> + <:dive:1049378668197195808> (towards the Path of Tumeken) → click the Path of Tumeken → (tc) <:spec:537340400273195028> <:omniguard:1138809234922934282> → <:invokedeath:1137809121983336548> → (tc) <:fingerofdeath:1159434801938432010> → <:invokedeath:1137809121983336548> → (tc) <:fingerofdeath:1159434801938432010> → <:invokedeath:1137809121983336548> → (tc) <:eofspec:1257438999794946099> <:deathguard90:1138809243143766118> → click Tumeken's light
+⬥ **Melee <:melee:1096130867279171706>**: <:meteorstrike:1478070401702821938> → <:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:surge:535533810004262912> + <:dive:1049378668197195808> (towards the Path of Tumeken) → click the Path of Tumeken → (tc) <:cane:535532878969438210> → (tc) <:pulverise:535532879053062146> → (tc) <:overpower:535532879334080517> → (tc) <:chaosroar:1478062908767211640> → <:assault:535532855191928842> → click Tumeken's light
+
+Add a basic attack <:necrobasic:1482849360462086244> / <:meleebasic:1478062907295010906> if they don't die in 1 GCD
+.img:https://img.pvme.io/images/r6hPuPjueK.mp4
+*Notes:*
+⬥ *At 2000% Enrage and higher, a climber will be chosen randomly by Tumeken, indicated by their skybox turning golden*
+⬥ *As a last ditch effort, if the climber times out <:instakill:1104794644497309809>, a well timed <:immort:535541258538582017> will negate all of the damage, but Amascut will have much higher health than if she was phased normally*
+.
+### __Engulfing shadow & Shadow tears__
+⬥ At the center of the arena is the __Engulfing shadow__, which continuously increases Amascut's shield (black health) for the phase based on how much life it has
+⬥ Every time the climber kills a range/mage akh, __Engulfing shadow tears__ will spawn across the arena, increasing in quantity for each akh killed and number of players present
+    • These tears will heal the Engulfing shadow for 1000 health every tick, and for 15K health if not absorbed in time
+
+**Solution:**
+⬥ Engulfing shadow __cannot be killed__; the players on ground level must deal as much damage to it as possible to keep its health low
+    • <:invokedeath:1137809121983336548> is counterintuitive as the shadow will respawn with more health
+⬥ Engulfing shadow tears can be absorbed, preventing them from healing the larger Engulfing shadow, doing so will inflict a stacking debuff <:combust:1478063107908702482> that deals <:magic:689504724159823906> damage
+    • <:devo:513190158728953857> will fully block the hit, but is best reserved for Clones
+.
+### __Shadows of Amascut__ (a.k.a. Clones)
+⬥ Once __Tumeken's light__ is claimed by the climber, Amascut will prepare to summon 1-4 __Shadows of Amascut__ for each player alive who isn't the climber
+⬥ If outside melee distance, they will dash at their target dealing <:magic:689504724159823906> damage, if in melee distance they will swipe at their target dealing <:melee:1096130867279171706> damage
+⬥ If not all of them are dead at the same time, dead clones will deal huge damage to all players who aren't standing in the climber's __Enlightened__ <:interceptor:1402585098527965275> buff
+
+.
+**Solution:**
+⬥ Go directly behind Amascut and stack up with the rest of the DPS pile who aren't climbing, pray <:magic:689504724159823906> for the initial dash attack from clones, pray <:melee:1096130867279171706> afterwards
+⬥ Kill them as quickly as possible with a strong AoE rotation (assumes you start as soon as she says `I WILL NOT BE SUBJUGATED BY A MORTAL!`, adjust timing based on clone spawn):
+    • **Necromancy <:necromancy:1148995625896120460>**: <:invokedeath:1137809121983336548> → <:devo:513190158728953857> / <:reflect:535541258786177064> (+ <:powerburstofvitality:654618235097972737>) → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:eofspec:1257438999794946099> <:deathguard90:1138809243143766118> → <:bloat:1159433682403201044> → improvise
+    • **Magic <:magic:689504724159823906>**: <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> + <:adrenrenewal:736298121704767538> → <:devo:513190158728953857> / <:reflect:535541258786177064> (+ <:powerburstofvitality:654618235097972737>) → <:gchain:1478063106914779166> → <:omni:535533809664262179> → <:tsunamiincite:958989794757730307> → <:dbreath:535533833391702017> → improvise
+⬥ Amascut becomes damageable once the clones are dead, unload as much damage as you can in ~20 seconds to remove her black HP and deal damage to her real HP to make Phase 7 easier
+    • **Necromancy <:necromancy:1148995625896120460>**: Aim to enter Phase 7 with at least 8 <:necrosis:1139452791878856805> and 4 <:residualsoul:1139453152169558046>
+.
+### __Player Bomb__
+⬥ If the clones are not killed in time, Amascut will turn the players under attack by her clones into bombs, dealing ~12k typeless damage with defensive penetration to all players in a 7x7 area after a short time
+
+**Solution:**
+⬥ Finish off all clones before the players detonate, nulling all damage
+⬥ If the clones cannot be finished off in time, players must stand near the climber who has the __Enlightened__ <:interceptor:1402585098527965275> buff (appears as a golden aura around them) to null most of the damage
+
+*Note: Any blast from outside the Enlightenment buff will still clip players who are inside of it*
+.
+## __Fight Mechanics__ (Phase 7)
+.tag:mechanics7
+⬥ Amascut pulls all players towards her and teleports them to a twisted version of the Throne Room, gaining __Inner Shadow__ <:shadowlink:1403076345084379337> buff that massively reduces incoming damage
+⬥ To finish the fight, players must withstand Amascut's onslaught and lower her health to 0 while preventing Tumeken from dying by intercepting her attacks on him
+.
+### __Tumeken Strike__
+⬥ After 4 <:magic:689504724159823906> auto attacks in the first cycle and 3 <:magic:689504724159823906> auto attacks in subsequent cycles, Amascut will address one of the Bau of Tumeken by name and face Tumeken directly, charging an extremely powerful attack
+⬥ If intercepted incorrectly or not intercepted at all, the attack deals massive damage to Tumeken and heavy soft typeless damage to all players in the Throne Room
+    • If Tumeken dies, the team __**WIPES**__ <:instakill:1104794644497309809>
+
+**Solution:**
+⬥ Players are assigned a quadrant based on their P2/4 roles, with Base Tank acting as fill should a player die
+    • Inside players are usually expected to go North, while Outside players go South
+⬥ Amascut must be <:voke:535541259465392143> towards the correct statue within ~3 GCDs, based on the following callouts:
+    • <:healinginstrength:1402585055297273896> **Het** - `Forgive me, Het.` (Southwest)
+    • <:apmekensburden:1402579857648390224> **Apmeken** - `I am sorry, Apmeken.` (Northwest)
+    • <:modesty:1402583151322071091> **Crondis** - `Crondis... It should have never come to this.` (Southeast)
+    • <:carapace:1402585081624924210> **Scabaras** - `Scabaras...` (Northeast)
+⬥ Once <:voke:535541259465392143> to correct statue, move out of the way or <:res:535541258844635148> / <:disrupt:535614336207552523> to survive the massive followup typeless hit
+.img:https://img.pvme.io/images/JKyDStksJE.mp4
+*Notes:*
+⬥ *A singular bolt of light will shoot out from Tumeken to the correct statue, acting as a visual indicator for which statue is the correct one*
+⬥ *Statues in the room can be examined if in doubt about which statue is the correct one to stand in front of*
+.
+### __Tumeken Strike__ (cont., on Fail)
+⬥ If the players **fail** the Tumeken Strike mechanic, players will take massive typeless damage, and __shadow tears__ will spawn across the room, while she resumes <:magic:689504724159823906> auto attacks
+⬥ Amascut's main target will also be targeted with __Soul Crush__ after 3 auto attacks
+
+**Solution:**
+⬥ <:res:535541258844635148> / <:disrupt:535614336207552523> pre-emptively to avoid taking huge typeless damage
+    • If Tumeken dies, it doesn't matter as the team wipes instead
+⬥ Try to collect as many Shadow Tears as you can, as they will heal Amascut for 1000 LP/tick per orb
+⬥ Huddle together or (Base Tank) <:voke:535541259465392143> → <:res:535541258844635148> / <:disrupt:535614336207552523> / <:immort:535541258538582017> (depending on enrage) to survive __Soul Crush__
+.
+### __Tumeken Strike__ (cont., on Success)
+⬥ If the players successfully handle the Tumeken Strike mechanic, Tumeken will take light damage and players will gain __Light Within__ <:interceptor:1402585098527965275> for 30s, lifting the damage cap from Inner Shadow <:shadowlink:1403076345084379337>
+⬥ During this phase, Amascut will continuously perform her __Empowered Eruption__ attack, as well as __Devourer's Hieroglyphs__ and __Devourer's Shockwaves__
+⬥ Based on which of the Bau of Tumeken was called, Amascut will invoke a mechanic from the previous phases:
+    • **Apmeken**: A random player receives Apmeken's Burden <:apmekensburden:1402579857648390224>
+    • **Crondis**: Two Modest crocodile demons <:modesty:1402583151322071091> spawn
+    • **Het**: Amascut heals <:healinginstrength:1402585055297273896> for 25% of all damage she does to players
+    • **Scabaras**: Amascut becomes shielded <:carapace:1402585081624924210> and summons Explosive scarab akhs
+
+.
+**Solution:**
+⬥ Try to deal as much burst damage as possible within the first few seconds of receiving the buff to finish off Amascut to skip all follow-up mechanics (except if Scabaras was called)
+⬥ Depending on which of the Bau of Tumeken was called:
+    • **Apmeken**: Burden acts the same way as it does in Phase 2 and can be passed around between players, on lower enrages or if the boss can be bursted to 0 this can be ignored
+    • **Het**: Can be safely ignored as the healing per hit from each attack is usually negligible
+    • **Crondis**: Can be ignored if Amascut can be bursted down to 0 quickly, otherwise prioritise them to avoid taking too much off-style damage
+        ⬩ <:deathskulls:1159434663903899728> **will** bounce onto the crocodiles, resulting in potentially fatal reflection damage
+    • **Scabaras**: Players must throw 3 Explosive scarab akhs at Amascut to remove her shield
+⬥ Empowered Eruption and floor mechanics will happen in tandem, players must focus on dodging the floor mechanics and praying correctly with defensives if bursting Amascut down to 0 within the first few seconds of receiving the buff isn't possible
+.
+## Base Tank Troubleshooting
+.tag:baseTroubleshooting
+This section is reserved exclusively for troubleshooting Base Tank issues in higher enrages (1000%+), but may also be applicable for lower enrages.
+⬥ Modest crocodile demons attack at the same time with different styles
+    • **Solution:** Prioritize praying <:magic:689504724159823906> if getting off-styled on the same tick, as the <:ranged:580168050121113623> attack *can* miss; <:reflect:535541258786177064> / <:devo:513190158728953857> can negate a lot of damage from the crocodiles
+⬥ Base Tank from <:necromancy:1148995625896120460> spot becomes immobilised after tanking Soul Crush with <:immort:535541258538582017>, leading to a follow up Devourer's Shockwaves hit
+    • **Solution:** <:dive:1049378668197195808> 1 tile outside the first (outer) set of shockwaves to avoid defensives reset, <:cease:864235458464186418> to avoid being moved back in
+        ⬩ <:dive:1049378668197195808> 2+ tiles away from shockwaves can potentially make Amascut switch targets during Soul Crush
+        ⬩ Necessary if going for **Dedicated Denial of Standing (here)** Combat Achievement
+⬥ If Amascut starts P3 with Rapid Swipes, third one lines up right after Soul Crush, resulting in a high KO potential situation
+    • **Solution:** <:cadeturtling:867678153883516958> with <:turtling3:974504834394898522> or better will cover Rapid Swipes and scarabs exploding
+        ⬩ Alternatively, the team can <:voke:535541259465392143> and split the big hit instead
+.
+## __Example Kills__
+.tag:exampleKills
+⬥ [1000% Necromancy Base Tank POV](<https://youtu.be/IC06WyHCVj8>)
+⬥ [1000% Ranged/Melee Hybrid DPS POV](<https://www.youtube.com/watch?v=3cenard8xGE>)
+.
+{
+  "embed": {
+    "title": "__Amascut, Goddess of Destruction__",
+    "description": "This guide is made and upkept in collaboration with the [Amascut, Goddess of Destruction](https://discord.gg/amascut) discord.",
+    "color": 1357157,
+    "thumbnail": {
+    "url": "https://img.pvme.io/images/XzC8jTwqTu.png"
+    },
+    "fields": [
+      {
+        "name": "\u200b",
+        "value": "\n Content provided by: <@135066057244278787> & <@1153325239116243004>\n Content maintained by: <@135066057244278787>"
+      },
+      {
+        "name": "\u200b",
+        "value": "Amascut, Goddess of Destruction is a community focused on high-quality matchmaking, structured learner support, and building a strong, drama-free PvM community."
+      }
+    ]
+  }
+}
+.embed:json
+
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Information]($linkmsg_generalInfo$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics (Phase 1 & 3)]($linkmsg_mechanics13$)\n⬥ [Mechanics (Phase 2 & 4)]($linkmsg_mechanics24$)\n⬥ [Mechanics (Phase 5)]($linkmsg_mechanics5$)\n⬥ [Mechanics (Phase 6)]($linkmsg_mechanics6$)\n⬥ [Mechanics (Phase 7)]($linkmsg_mechanics7$)\n⬥ [Base Tank Troubleshooting]($linkmsg_baseTroubleshooting$)\n⬥ [Example Kills]($linkmsg_exampleKills$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
