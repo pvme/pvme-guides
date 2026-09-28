@@ -115,6 +115,12 @@ jobs:
               {
                 line = $0
 
+                if (line ~ /^[[:space:]]*```/) {
+                  in_code_block = !in_code_block
+                  next
+                }
+                if (in_code_block) next
+
                 # Rule: no level 4 headings
                 if (line ~ /^####([[:space:]].*|$)/) {
                   emit("No level 4 headings", NR, line)
@@ -187,7 +193,7 @@ jobs:
           done
 
           if [ -s "$REPORT" ]; then
-            cp "$REPORT" style-guide-report.txt
+            cp "$REPORT" "$GITHUB_WORKSPACE/style-guide-report.txt"
             echo "found=true" >> "$GITHUB_OUTPUT"
           else
             echo "found=false" >> "$GITHUB_OUTPUT"
