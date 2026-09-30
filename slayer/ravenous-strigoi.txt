@@ -10,8 +10,8 @@
 ### Stats
 ⬥ <:slayer:797896049548066857> level: 104
 ⬥ <:slayer:797896049548066857> XP per kill: 4,549
-⬥ Optimal kills per hour: ~180-240 <:ranged:580168050121113623>, ~470 Active <:magic:689504724159823906> <:ranged:580168050121113623>
-⬥ Optimal <:slayer:797896049548066857> XP per hour: ~980k <:ranged:580168050121113623>, ~2100k Active <:magic:689504724159823906> <:ranged:580168050121113623>
+⬥ Optimal kills per hour: ~225 AFK <:ranged:580168050121113623> / ~470 Hybrid Active <:magic:689504724159823906> <:ranged:580168050121113623>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~980k AFK <:ranged:580168050121113623> / ~2100k Hybrid Active <:magic:689504724159823906> <:ranged:580168050121113623>
 
 .
 ### Desirable drops
@@ -28,31 +28,30 @@
 
 .
 ### __Location and How to Get there__
+Either:
 ⬥ From the [Canoe station](<https://runescape.wiki/w/Canoe_station_(Havenhythe)>) in Heathervein
-    • Stonevein Amulet also provides close teleports at either Divine Fall or Unicorn Mural if available
+⬥ [Stonevein Amulet](<https://runescape.wiki/w/Stonevein_amulet>) provides close teleports to Divine Fall and Unicorn Mural
 .img:https://img.pvme.io/images/GTnj5YepV8.png
 .
-## __Method: Ranged__
+## __Method 1: AFK Ranged__
 .tag:method1
 
 .
 ### __Positioning__
-.img:https://img.pvme.io/images/g2jlOuj8bl.png
+.img:https://img.pvme.io/images/721OFdV7A4.png
 
 .
 ### __Preset Suggestions__
-⬥ [Ranged](https://presets.pvme.io/?id=ebda81f6-93f9-42d0-a44f-44e009365cc2) <:ranged:580168050121113623>
+[Ranged](https://presets.pvme.io/?id=ebda81f6-93f9-42d0-a44f-44e009365cc2) <:ranged:580168050121113623>
+
+⬥ Pray <:desolation:513190159018098713> + <:soulsplit:615613924506599497>
 
 .
 ### __Action Bars__
 .img:https://img.pvme.io/images/ao1AnQEKRI.png
 
 .
-## __Example Kills__
-<:ranged:580168050121113623> to be recorded
-
-.
-## __Method: Hybrid Magic + Ranged__
+## __Method 2: Hybrid Magic + Ranged__
 .tag:method2
 
 .
@@ -61,7 +60,7 @@
 
 .
 ### __Preset Suggestions__
-⬥ [Magic+Ranged](https://presets.pvme.io?id=0a772bb4-8ab7-48c4-83ee-dd0786342fa6) <:magic:689504724159823906> <:ranged:580168050121113623>
+⬥ [Magic / Ranged](https://presets.pvme.io?id=0a772bb4-8ab7-48c4-83ee-dd0786342fa6) <:magic:689504724159823906> <:ranged:580168050121113623>
 
 .
 ### __Rotation__
@@ -73,26 +72,17 @@ Magic rotation: <:gsunshine:994644352871714836> → <:runic_charge:1478063122345
 
 .
 ## __Example Kills__
-<:magic:689504724159823906> <:ranged:580168050121113623> [Magic + Ranged Hybrid Ravenous Strigois](<https://youtu.be/xtz-gx4HyoE>)
+.tag:videos
+<:ranged:580168050121113623> [Method 1: AFK Ranged](<https://www.youtube.com/watch?v=Dac2E0vmRWk>)
+<:magic:689504724159823906> <:ranged:580168050121113623> [Method 2: Hybrid Magic + Ranged](<https://youtu.be/xtz-gx4HyoE>)
 
 .
+
 {
   "embed": {
     "title": "__Table of Contents__",
-    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
-    "color": 39423,
-    "fields": [
-     {
-        "name": "__Overview__",
-        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Disclaimer]($linkmsg_disclaimer$)",
-        "inline": true
-      },
-      {
-        "name": "__Methods__",
-        "value": "⬥ [Ranged]($linkmsg_method1$)\n⬥ [Magic + Ranged]($linkmsg_method2$)",
-        "inline": true
-      }
-    ]
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Disclaimer]($linkmsg_disclaimer$)\n⬥ [Method 1: AFK Ranged]($linkmsg_method1$)\n⬥ [Method2: Hybrid Magic/Ranged]($linkmsg_method2$)\n⬥ [Example Kills]($linkmsg_videos$)",
+    "color": 39423
   }
 }
 .embed:json
