@@ -1,1 +1,174 @@
+# The Ghrazi Blood Knights
+.img:https://img.pvme.io/images/oggG9IjOw6.png
+*Note: a **Table of Contents** can be found in the pins.*
 
+.
+## __Disclaimer__
+> **THIS IS A WORK IN PROGRESS, A FINISHED VERSION WILL BE POSTED SOON.**
+This guide, and its contents thereof, assume you are getting started with Ghrazi Blood Knights, and does not necessarily cover meta strategies. Due to the recency of the boss, this guide is considered **Work in Progress** and some mechanics may not be outlined.
+
+.
+## Introduction
+The aim of this guide is to provide a basic overview of how to get consistent kills at the Ghrazi Blood Knights. Due to demanding damage checks and mechanical complexity of this fight, contents of this guide assume you have at least made it to the end of Stage 1 of <#1020045708746833930> for your chosen style. As Ghrazi Blood Knights are enrage-based with fixed enrages of 100, 500, 750, 1000, 2000 and 4000%, mechanics and strategies may differ based on enrage. For the purposes of this guide, 100% enrage on **duo** mode will be utilized.
+
+.
+## __General Information__
+.tag:generalInfo
+⬥ Ghrazi Blood Knights are located in Havenhythe. Fighting them requires the completion of [Heralds of Crimson](<https://runescape.wiki/w/Heralds_of_Crimson>) quest.
+⬥ Both bosses share a health bar, with health based on chosen mode and enrage:
+    • 2000%: 5M + 1.5M
+    • 1000%: 4M + 1.2M
+⬥ As of October 12th, Ghrazi Blood Knights can only be fought in **duo**, with a solo mode added in November.
+
+.
+## __Gear, Relics, Familiars__
+.tag:presets
+The following presets are based on Stage 1 of <#1020045708746833930> for your chosen style.
+
+.
+## __Fight Mechanics__ (General)
+.tag:mechanics
+As you are fighting two bosses at the same time, each player will have to handle the mechanics of their respective boss, barring shared mechanics.
+⬥ Karmina attacks with <:melee:1096130867279171706>, Vasily attacks with <:magic:689504724159823906>, with a mechanic every 4 auo-attacks for both
+⬥ If Karmina and Vasily are standing next to each other, they gain a stacking <:defence:689509250979987525> buff that reduces hit chance.
+
+.
+### __Close Formation__
+⬥ Both Karmina and Vasily gain a buff when close together that increases all incoming damage from them by 8%.
+
+.
+### __Isolated__
+⬥ Whilst under the effect of this, you can't directly benefit from Heal Other, Heal Group, or Intercept.
+⬥ Persists throughout the fight (1000-2000%).
+
+.
+### __Prayer Flurry__
+⬥ Both Karmina and Vasily perform a flurry of attacks with all 3 styles, order of incoming attacks are random and the length is based on current phase (p1-3: 3 attacks, p4-5: 5 attacks)
+⬥ Each hit deals moderate to high damage if not prayed against, and only 1 damage if prayed against
+    • Unprayed damage has defensive piercing(?)
+⬥ All hits are within a tick of each other
+
+**Solution:**
+⬥ Pray against the attacks accordingly:
+    • __Red projectile:__ Pray <:melee:1096130867279171706>
+    • __Green projectile:__ Pray <:ranged:580168050121113623>
+    • __Blue projectile:__ Pray <:magic:689504724159823906>
+
+.
+### __Lunge__ (Karmina)
+⬥ Karmina performs a hard hitting lunge that deals typeless damage and stuns <:stunicon:841419289428492369> the player
+    • The damage has high defensive piercing.
+
+**Solution:**
+⬥ <:surge:535533810004262912> / <:dive:1049378668197195808> out of the way to fully negate the mechanic, timing is roughly 2-3 ticks after Karmina says `TBD`
+    • <:anti:535541306475151390> to prevent being stunned if caught off guard
+
+.
+### __Blood Waves__ (Vasily)
+⬥ Vasily unleashes waves of blood that sweep parts of the arena, dealing <:magic:689504724159823906> damage
+    • Number of blood waves depend on enrage, but all are 6 tiles wide and on Vasily's target.
+    • <:devo:513190158728953857> works.
+
+**Solution:**
+⬥ Dodge the waves with <:surge:535533810004262912> / <:dive:1049378668197195808>, taking care not to accidentally hit the Karmina player
+
+.
+### __Sanguine Strike__ (Karmina)
+⬥ Karmina inflicts a hard hitting bleed that deals <:magic:689504724159823906> damage for 10.2s.
+    • <:freedom:535541258240786434> does **not** work.
+
+.
+### __Sanguine Blob__ (a.k.a. Meatball) (Vasily)
+⬥ Vasily unleashes a blob of Sanguine that deals typeless damage as it bounces six times between both players, starting with the player who has Vasily' aggression
+⬥ Damage dealt by the blob has defensive piercing, and increases based on distance
+
+**Solution:**
+⬥ Stick together and <:reflect:535541258786177064> + <:shielddome:537341954392850442> **or** <:cade:535541306353778689> to mitigate incoming damage
+
+.
+Preliminary mech rotation:
+⬥ P1: 4 autos between each mech:
+⬥ Flurry attack -> Blood Waves (+Lunge/Sanguine Strike) -> Meatball (+Lunge/Sanguine Strike) -> repeat
+
+.
+## __Fight Mechanics (Phase 2)__
+⬥ The Knights gain 200 Sanguine Influence stacks, increasing their damage dealt.
+
+.
+## __Fight Mechanics (Phase 3)__
+⬥ Both Karmina and Vasily go Immune, and a player is teleported up next to the __Sanguine heart__, while the arena is littered with __Sanguine tumours__
+    • The player chosen is random(?)
+⬥ To progress to the next phase, players must take out the Sanguine heart
+
+.
+### __Sanguine Heart & Tumours__
+⬥ A player is transported to the top, where they have **18 seconds** to deal as much damage as they can to the __Sanguine heart (2000%: 1500k)__
+⬥ Six __Sanguine Tumours (2000%: 50k health)__ also litter the arena, dealing typeless damage every 6s to the player who wasn't transported.
+    • Killing a Sanguine Tumour resets the duration to 18s, but also gives a Haemmorhage stack to the player attacking the Heart. Haemmorhage deals <:melee:1096130867279171706> damage every 1.8s, increasing every stack.
+    • Attacking the Sanguine Tumours reflects damage(?).
+
+**Solution:**
+⬥ Player at the bottom can reset the timer back to 20 seconds by killing __Sanguine tumours__, though this will also incur more stacks of TBD
+
+.
+### __Sanguine Blast__ (a.k.a. blood diamond) (Vasily)
+⬥ Vasily summons 2 waves of hard hitting blasts that obliterate a large area with typeless damage, first blast is smaller than the second
+
+**Solution:**
+⬥ The blasts are telegraphed, move out of the way, use <:dive:1049378668197195808> if necessary
+
+.
+## __Fight Mechanics__ (Phase 4)
+⬥ After destroying the __Sanguine heart__, players continue fighting the Blood Knights until their health fall to 0
+⬥ Vasily gains a new mechanic during Phase 4
+
+.
+### __Persistent Bleed & Floor Destruction__ (Vasily)
+⬥ Vasily infests players with spores that inflicts persistent <:magic:689504724159823906> damage over time
+    • A secondary bar will charge above the players' heads indicating when the spores will be placed down on the arena, continuing to deal <:magic:689504724159823906> damage
+⬥ Shortly after Vasily starts charging, some parts of the arena starts glowing red, indicating that they will be ripped away
+
+**Solution:**
+⬥ Stand on the glowing tiles that are about to be ripped out and drop the spores there, then **move out of the way** to avoid a hard instakill <:instakill:1104794644497309809>
+
+.
+## __Fight Mechanics__ (Phase 5)
+⬥ Instead of dying, the Blood Knights become enraged, regaining some of their health and starting to inflict the __Exsanguinated__ debuff on the players
+⬥ They will also gain a persistent vampyric lifesteal effect during this phase
+⬥ To win the fight, the players must lower the health of the Blood Knights to 0
+
+.
+### __Exsanguinated__
+⬥ Persistent, stacking debuff that builds over time, increasing all incoming and outgoing damage
+⬥ At 100 stacks, __**instakills**__ <:instakill:1104794644497309809> players
+
+**Solution:**
+⬥ Use Extra Action button to spawn a cleansing dome that removes Exsanguinated stacks.
+
+.
+## __Troubleshooting__
+.tag:troubleshooting
+TBA
+
+.
+## __Example Kills__
+.tag:exampleKills
+TBA
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Category__",
+        "value": "⬥ [General Information]($linkmsg_generalInfo$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Troubleshooting]($linkmsg_troubleshooting$)\n⬥ [Example Kills]($linkmsg_exampleKills$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
