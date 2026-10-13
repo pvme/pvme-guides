@@ -16,8 +16,8 @@ The aim of this guide is to provide a basic overview of how to get consistent ki
 .tag:generalInfo
 ⬥ Ghrazi Blood Knights are located in Havenhythe. Fighting them requires the completion of the [Heralds of Crimson](<https://runescape.wiki/w/Heralds_of_Crimson>) quest.
 ⬥ Both bosses share a health bar, with health based on chosen mode and enrage:
-    • 2000%: 5M + 1.5M
-    • 1000%: 4M + 1.2M
+    • **2000%**: 5M + 1.5M
+    • **1000%**: 4M + 1.2M
 ⬥ As of October 12th, Ghrazi Blood Knights can only be fought in **duo**, with a solo mode added in November.
 
 .
@@ -30,7 +30,12 @@ The following presets are based on Stage 1 of <#1020045708746833930> for your ch
 .tag:mechanics
 As you are fighting two bosses at the same time, each player will have to handle the mechanics of their respective boss, barring shared mechanics.
 ⬥ Karmina attacks with <:melee:1096130867279171706>, Vasily attacks with <:magic:689504724159823906>, with a mechanic every 4 auo-attacks for both
-⬥ If Karmina and Vasily are standing next to each other, they gain a stacking <:defence:689509250979987525> buff that reduces hit chance.
+⬥ If Karmina and Vasily are standing next to each other, they gain a stacking <:defence:689509250979987525> buff that reduces hit chance
+
+.
+### Preliminary Mechanics Rotation
+⬥ Both Karmina and Vasily perform 4 auto attack between each mechanic:
+    • Prayer Flurry -> Blood Waves & Lunge/Puncturing Strike -> Meatball & Blood Tribute -> repeat (Phase 1)
 
 .
 ### __Close Formation__
@@ -38,12 +43,14 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 .
 ### __Isolated__
-⬥ Whilst under the effect of this, you can't directly benefit from Heal Other, Heal Group, or Intercept.
-⬥ Persists throughout the fight (1000-2000%).
+⬥ Persistent debuff that prevents players from directly benefitting from Heal Other, Heal Group, or Intercept
+⬥ Only appears in 1000% Enrage or higher
 
 .
 ### __Prayer Flurry__
-⬥ Both Karmina and Vasily perform a flurry of attacks with all 3 styles, order of incoming attacks are random and the length is based on current phase (p1-3: 3 attacks, p4-5: 5 attacks)
+⬥ Both Karmina and Vasily perform a flurry of attacks with all 3 styles, order of incoming attacks are random and the length is based on current phase
+    • Performs 3 attacks in Phases 1-3
+        ⬩ This is increased to 5 attacks in Phase 4 onwards
 ⬥ Each hit deals moderate to high damage if not prayed against, and only 1 damage if prayed against
     • Unprayed damage has defensive piercing(?)
 ⬥ All hits are within a tick of each other
@@ -55,27 +62,27 @@ As you are fighting two bosses at the same time, each player will have to handle
     • __Blue projectile:__ Pray <:magic:689504724159823906>
 
 .
-### __Lunge__ (Karmina)
+### __Puncturing Strike__ (a.k.a. Lunge) (Karmina)
 ⬥ Karmina performs a hard hitting lunge that deals typeless damage and stuns <:stunicon:841419289428492369> the player
-    • The damage has high defensive piercing.
+    • Lunge has high defensive piercing
 
 **Solution:**
-⬥ <:surge:535533810004262912> / <:dive:1049378668197195808> out of the way to fully negate the mechanic, timing is roughly 2-3 ticks after Karmina says `TBD`
+⬥ <:surge:535533810004262912> / <:dive:1049378668197195808> out of the way to fully negate the mechanic, timing is roughly 2-3 ticks after Karmina says `Nowhere is beyond Our reach!`
     • <:anti:535541306475151390> to prevent being stunned if caught off guard
 
 .
 ### __Blood Waves__ (Vasily)
 ⬥ Vasily unleashes waves of blood that sweep parts of the arena, dealing <:magic:689504724159823906> damage
-    • Number of blood waves depend on enrage, but all are 6 tiles wide and on Vasily's target.
-    • <:devo:513190158728953857> works.
+    • Number of blood waves depend on enrage, but all are 6 tiles wide and on Vasily's target
 
 **Solution:**
 ⬥ Dodge the waves with <:surge:535533810004262912> / <:dive:1049378668197195808>, taking care not to accidentally hit the Karmina player
+⬥ <:magic:689504724159823906> damage can be prayed against, and fully negated with <:devo:513190158728953857>
 
 .
-### __Sanguine Strike__ (Karmina)
-⬥ Karmina inflicts a hard hitting bleed that deals <:magic:689504724159823906> damage for 10.2s.
-    • <:freedom:535541258240786434> does **not** work.
+### __Blood Tribute__ (Karmina)
+⬥ Karmina inflicts a hard hitting bleed that deals <:magic:689504724159823906> damage for 10.2s
+    • <:freedom:535541258240786434> will **not** clear the bleed
 
 .
 ### __Sanguine Blob__ (a.k.a. Meatball) (Vasily)
@@ -84,11 +91,6 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 **Solution:**
 ⬥ Stick together and <:reflect:535541258786177064> + <:shielddome:537341954392850442> **or** <:cade:535541306353778689> to mitigate incoming damage
-
-.
-Preliminary mech rotation:
-⬥ P1: 4 autos between each mech:
-⬥ Flurry attack -> Blood Waves (+Lunge/Sanguine Strike) -> Meatball (+Lunge/Sanguine Strike) -> repeat
 
 .
 ## __Fight Mechanics (Phase 2)__
@@ -102,16 +104,19 @@ Preliminary mech rotation:
 
 .
 ### __Sanguine Heart & Tumours__
-⬥ A player is transported to the top, where they have **18 seconds** to deal as much damage as they can to the __Sanguine heart (2000%: 1500k)__
-⬥ Six __Sanguine Tumours (2000%: 50k health)__ also litter the arena, dealing typeless damage every 6s to the player who wasn't transported.
-    • Killing a Sanguine Tumour resets the duration to 18s, but also gives a Haemmorhage stack to the player attacking the Heart. Haemmorhage deals <:melee:1096130867279171706> damage every 1.8s, increasing every stack.
-    • Attacking the Sanguine Tumours reflects damage(?).
+⬥ A player is transported to the top, where they have **18 seconds** to deal as much damage as they can to the __Sanguine heart__
+⬥ Six __Sanguine Tumours__ also litter the arena, dealing typeless damage every 6s to the player who wasn't transported
+    • Attacking the Sanguine Tumours reflects damage(?)
+⬥ Sanguine Heart & Sanguine Tumours have health scaling with enrage:
+    • Normal Mode: ??? LP (Heart), ??? LP (Tumours)
+    • 2000%: 1.5M LP (Heart), 50k LP (Tumours)
 
 **Solution:**
-⬥ Player at the bottom can reset the timer back to 20 seconds by killing __Sanguine tumours__, though this will also incur more stacks of TBD
+⬥ Player at the bottom can reset the timer back to 18 seconds by killing __Sanguine tumours__, though this will also incur more stacks of Sanguine Influence and inflict a stack of __Haemmorhage__ to the player attacking the Heart
+    • Haemmorhage deals <:melee:1096130867279171706> damage every 1.8s, increasing with every stack
 
 .
-### __Sanguine Blast__ (a.k.a. blood diamond) (Vasily)
+### __Sanguine Blast__ (a.k.a. Blood Diamond) (Vasily)
 ⬥ Vasily summons 2 waves of hard hitting blasts that obliterate a large area with typeless damage, first blast is smaller than the second
 
 **Solution:**
@@ -119,14 +124,14 @@ Preliminary mech rotation:
 
 .
 ## __Fight Mechanics__ (Phase 4)
-⬥ After destroying the __Sanguine heart__, players continue fighting the Blood Knights until their health fall to 0
+⬥ After destroying the __Sanguine Heart__, players continue fighting the Blood Knights until their health fall to 0
 ⬥ Vasily gains a new mechanic during Phase 4
 
 .
-### __Persistent Bleed & Floor Destruction__ (Vasily)
-⬥ Vasily infests players with spores that inflicts persistent <:magic:689504724159823906> damage over time
+### __Sanguine Spores & Floor Destruction__ (Vasily)
+⬥ Vasily starts charging and infests players with spores that inflicts persistent <:magic:689504724159823906> damage over time
     • A secondary bar will charge above the players' heads indicating when the spores will be placed down on the arena, continuing to deal <:magic:689504724159823906> damage
-⬥ Shortly after Vasily starts charging, some parts of the arena starts glowing red, indicating that they will be ripped away
+⬥ Once Vasily finishes charging, some parts of the arena starts glowing red, indicating that they will be ripped away
 
 **Solution:**
 ⬥ Stand on the glowing tiles that are about to be ripped out and drop the spores there, then **move out of the way** to avoid a hard instakill <:instakill:1104794644497309809>
@@ -139,11 +144,12 @@ Preliminary mech rotation:
 
 .
 ### __Exsanguinated__
-⬥ Persistent, stacking debuff that builds over time, increasing all incoming and outgoing damage
+⬥ Persistent, stacking debuff that builds over time by Karmina and Vasily's attacks and mechanics, increasing all incoming and outgoing damage
+    • More stacks are inflicted if a player mis-handles a mechanic(?)
 ⬥ At 100 stacks, __**instakills**__ <:instakill:1104794644497309809> players
 
 **Solution:**
-⬥ Use Extra Action button to spawn a cleansing dome that removes Exsanguinated stacks.
+⬥ Use Extra Action button to spawn a cleansing dome that removes Exsanguinated stacks
 
 .
 ## __Troubleshooting__
