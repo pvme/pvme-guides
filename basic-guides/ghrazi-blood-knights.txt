@@ -33,11 +33,6 @@ As you are fighting two bosses at the same time, each player will have to handle
 ⬥ If Karmina and Vasily are standing next to each other, they gain a stacking <:defence:689509250979987525> buff that reduces hit chance
 
 .
-### Preliminary Mechanics Rotation
-⬥ Both Karmina and Vasily perform 4 auto attack between each mechanic:
-    • Prayer Flurry -> Blood Waves & Lunge/Puncturing Strike -> Meatball & Blood Tribute -> repeat (Phase 1)
-
-.
 ### __Close Formation__
 ⬥ Both Karmina and Vasily gain a buff when close together that increases all incoming damage from them by 8%.
 
@@ -47,6 +42,11 @@ As you are fighting two bosses at the same time, each player will have to handle
 ⬥ Only appears in 1000% Enrage or higher
 
 .
+### __Mechanics Rotation__
+⬥ Both Karmina and Vasily perform 4 auto attacks between each mechanic:
+    • Prayer Flurry -> Blood Waves & Lunge/Puncturing Strike -> Meatball & Blood Tribute -> repeat (Phase 1)
+
+.
 ### __Prayer Flurry__
 ⬥ Both Karmina and Vasily perform a flurry of attacks with all 3 styles, order of incoming attacks are random and the length is based on current phase
     • Performs 3 attacks in Phases 1-3
@@ -54,6 +54,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 ⬥ Each hit deals moderate to high damage if not prayed against, and only 1 damage if prayed against
     • Unprayed damage has defensive piercing(?)
 ⬥ All hits are within a tick of each other
+    • The flurry arrives sooner in 500% Enrage and above
 
 **Solution:**
 ⬥ Pray against the attacks accordingly:
@@ -84,6 +85,11 @@ As you are fighting two bosses at the same time, each player will have to handle
 ⬥ Karmina inflicts a hard hitting bleed that deals <:magic:689504724159823906> damage for 10.2s
     • <:freedom:535541258240786434> will **not** clear the bleed
 
+**Solution:**
+⬥ <:debil:535541278264393729> Karmina or <:reflect:535541258786177064> to mitigate incoming damage
+    • Alternatively, both players switch targets and <:voke:535541259465392143> their respective new Blood Knights (e.g. Karmina player switches to Vasily, and vice versa)
+        ⬩ This allows <:devo:513190158728953857> to fully negate the bleed as well as Vasily's attacks, removing KO potential from getting off-styled
+
 .
 ### __Sanguine Blob__ (a.k.a. Meatball) (Vasily)
 ⬥ Vasily unleashes a blob of Sanguine that deals typeless damage as it bounces six times between both players, starting with the player who has Vasily' aggression
@@ -91,10 +97,20 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 **Solution:**
 ⬥ Stick together and <:reflect:535541258786177064> + <:shielddome:537341954392850442> **or** <:cade:535541306353778689> to mitigate incoming damage
+    • In 750% Enrage or less, <:cept:543478434509357098> <:cade:535541306353778689> will drastically limit incoming damage
 
 .
 ## __Fight Mechanics (Phase 2)__
 ⬥ The Knights gain 200 Sanguine Influence stacks, increasing their damage dealt.
+⬥ Vasily gains a new mechanic exclusive to this phase, Tumour Summon
+
+.
+### __Tumour Summon__ (Vasily)
+⬥ Vasily summons tumours visible only to the player who has his aggression
+⬥ The tumours deal additional damage if allowed to fully channel(?)
+
+**Solution:**
+⬥ Clicking on a tumour will __expunge__ it, negating the mechanic if all tumours are expunged
 
 .
 ## __Fight Mechanics (Phase 3)__
@@ -112,7 +128,7 @@ As you are fighting two bosses at the same time, each player will have to handle
     • 2000%: 1.5M LP (Heart), 50k LP (Tumours)
 
 **Solution:**
-⬥ Player at the bottom can reset the timer back to 18 seconds by killing __Sanguine tumours__, though this will also incur more stacks of Sanguine Influence and inflict a stack of __Haemmorhage__ to the player attacking the Heart
+⬥ Player at the bottom can reset the timer back to 18 seconds by killing __Sanguine tumours__, though this will also incur 50 stacks of Sanguine Influence and inflict a stack of __Haemmorhage__ to the player attacking the Heart
     • Haemmorhage deals <:melee:1096130867279171706> damage every 1.8s, increasing with every stack
 
 .
@@ -121,6 +137,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 **Solution:**
 ⬥ The blasts are telegraphed, move out of the way, use <:dive:1049378668197195808> if necessary
+    • Can run 2 tiles diagonally from starting position (and back) to avoid the blasts, preserving <:dive:1049378668197195808>
 
 .
 ## __Fight Mechanics__ (Phase 4)
@@ -129,8 +146,8 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 .
 ### __Sanguine Spores & Floor Destruction__ (Vasily)
-⬥ Vasily starts charging and infests players with spores that inflicts persistent <:magic:689504724159823906> damage over time
-    • A secondary bar will charge above the players' heads indicating when the spores will be placed down on the arena, continuing to deal <:magic:689504724159823906> damage
+⬥ Vasily starts charging and infests players with spores that, once on the ground, inflicts persistent <:magic:689504724159823906> damage over time
+    • A secondary bar will charge above the players' heads indicating when the spores will be placed down on the arena
 ⬥ Once Vasily finishes charging, some parts of the arena starts glowing red, indicating that they will be ripped away
 
 **Solution:**
@@ -146,7 +163,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 ### __Exsanguinated__
 ⬥ Persistent, stacking debuff that builds over time by Karmina and Vasily's attacks and mechanics, increasing all incoming and outgoing damage
     • More stacks are inflicted if a player mis-handles a mechanic(?)
-⬥ At 100 stacks, __**instakills**__ <:instakill:1104794644497309809> players
+⬥ At 100 stacks, the team __**WIPES**__ <:instakill:1104794644497309809>
 
 **Solution:**
 ⬥ Use Extra Action button to spawn a cleansing dome that removes Exsanguinated stacks
