@@ -16,25 +16,42 @@ The aim of this guide is to provide a basic overview of how to get consistent ki
 .tag:generalInfo
 ⬥ Ghrazi Blood Knights are located in Havenhythe. Fighting them requires the completion of the [Heralds of Crimson](<https://runescape.wiki/w/Heralds_of_Crimson>) quest.
 ⬥ Both bosses share a health bar, with health based on chosen mode and enrage:
-    • **2000%**: 5M + 1.5M
+    • **Normal Mode**: 1.5M + 300k
+    • **100%**: 2M + 600k
+    • **500%**: 3M + 900k
+    • **750%**: 3.5M + 1.05M
     • **1000%**: 4M + 1.2M
+    • **2000%**: 5M + 1.5M
 ⬥ As of October 12th, Ghrazi Blood Knights can only be fought in **duo**, with a solo mode added in November.
 
 .
 ## __Gear, Relics, Familiars__
 .tag:presets
-The following presets are based on Stage 1 of <#1020045708746833930> for your chosen style.
+The following presets are based on Stage 1 of <#1020045708746833930> for your chosen style. Antisanguine is strongly recommended, as it will apply a 40% damage reduction against all Sanguine damage dealt in this encounter, including Lord Vasily Ghrazi's mechanics.
 
 .
 ## __Fight Mechanics__ (General)
 .tag:mechanics
 As you are fighting two bosses at the same time, each player will have to handle the mechanics of their respective boss, barring shared mechanics.
-⬥ Karmina attacks with <:melee:1096130867279171706>, Vasily attacks with <:magic:689504724159823906>, with a mechanic every 4 auo-attacks for both
-⬥ If Karmina and Vasily are standing next to each other, they gain a stacking <:defence:689509250979987525> buff that reduces hit chance
+
+.
+### __Attack Rotation__
+⬥ Karmina attacks with <:melee:1096130867279171706>, Vasily attacks with <:magic:689504724159823906>, with a mechanic every 4 auto-attacks for both
 
 .
 ### __Close Formation__
-⬥ Both Karmina and Vasily gain a buff when close together that increases all incoming damage from them by 8%.
+⬥ If Karmina and Vasily are standing next to each other, they gain a stacking <:defence:689509250979987525> buff that reduces hit chance
+
+.
+### __Crimson Lament__ (Vasily) / __Blood Challenge__ (Karmina)
+⬥ Both Karmina and Vasily gain a buff every time they hit their target, increasing all incoming damage from them by 8% per stack
+
+.
+### __Sanguine Influence__
+⬥ Persistent debuff that increases all incoming damage from both bosses
+⬥ Stacks are gained at the start of Phase 2 and throughout Phase 3
+
+*Note: The current damage boost% per stack is unknown*
 
 .
 ### __Isolated__
@@ -44,10 +61,10 @@ As you are fighting two bosses at the same time, each player will have to handle
 .
 ### __Mechanics Rotation__
 ⬥ Both Karmina and Vasily perform 4 auto attacks between each mechanic:
-    • Prayer Flurry -> Blood Waves & Lunge/Puncturing Strike -> Meatball & Blood Tribute -> repeat (Phase 1)
+    • Cross Cut -> Blood Waves & Sanguine Surge/Lunge -> Blood Bomb & Sanguine Strike/Blood Tribute -> repeat (Phase 1)
 
 .
-### __Prayer Flurry__
+### __Cross Cut__ (a.k.a. Prayer Flurry)
 ⬥ Both Karmina and Vasily perform a flurry of attacks with all 3 styles, order of incoming attacks are random and the length is based on current phase
     • Performs 3 attacks in Phases 1-3
         ⬩ This is increased to 5 attacks in Phase 4 onwards
@@ -63,13 +80,15 @@ As you are fighting two bosses at the same time, each player will have to handle
     • __Blue projectile:__ Pray <:magic:689504724159823906>
 
 .
-### __Puncturing Strike__ (a.k.a. Lunge) (Karmina)
+### __Sanguine Surge__ (a.k.a. Lunge) (Karmina)
 ⬥ Karmina performs a hard hitting lunge that deals typeless damage and stuns <:stunicon:841419289428492369> the player
-    • Lunge has high defensive piercing
+    • The lunge has high defensive piercing
 
 **Solution:**
 ⬥ <:surge:535533810004262912> / <:dive:1049378668197195808> out of the way to fully negate the mechanic, timing is roughly 2-3 ticks after Karmina says `Nowhere is beyond Our reach!`
     • <:anti:535541306475151390> to prevent being stunned if caught off guard
+
+*Note: Sanguine Surge does NOT reset movement abilities on a successful dodge*
 
 .
 ### __Blood Waves__ (Vasily)
@@ -81,7 +100,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 ⬥ <:magic:689504724159823906> damage can be prayed against, and fully negated with <:devo:513190158728953857>
 
 .
-### __Blood Tribute__ (Karmina)
+### __Sanguine Strike__ (a.k.a. Blood Tribute) (Karmina)
 ⬥ Karmina inflicts a hard hitting bleed that deals <:magic:689504724159823906> damage for 10.2s
     • <:freedom:535541258240786434> will **not** clear the bleed
 
@@ -90,8 +109,10 @@ As you are fighting two bosses at the same time, each player will have to handle
     • Alternatively, both players switch targets and <:voke:535541259465392143> their respective new Blood Knights (e.g. Karmina player switches to Vasily, and vice versa)
         ⬩ This allows <:devo:513190158728953857> to fully negate the bleed as well as Vasily's attacks, removing KO potential from getting off-styled
 
+*Note: It's possible to fully pray against all of the Sanguine Strike hits, but it's usually safer to burn a threshold defensive than to flick prayers*
+
 .
-### __Sanguine Blob__ (a.k.a. Meatball) (Vasily)
+### __Blood Bomb__ (a.k.a. Meatball) (Vasily)
 ⬥ Vasily unleashes a blob of Sanguine that deals typeless damage as it bounces six times between both players, starting with the player who has Vasily' aggression
 ⬥ Damage dealt by the blob has defensive piercing, and increases based on distance
 
@@ -101,11 +122,11 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 .
 ## __Fight Mechanics (Phase 2)__
-⬥ The Knights gain 200 Sanguine Influence stacks, increasing their damage dealt.
+⬥ The Knights gain 200 Sanguine Influence stacks, increasing their damage dealt
 ⬥ Vasily gains a new mechanic exclusive to this phase, Tumour Summon
 
 .
-### __Tumour Summon__ (Vasily)
+### __Mind Flail__ (a.k.a. Tumour Summon) (Vasily)
 ⬥ Vasily summons tumours visible only to the player who has his aggression
 ⬥ The tumours deal additional damage if allowed to fully channel(?)
 
@@ -116,24 +137,29 @@ As you are fighting two bosses at the same time, each player will have to handle
 ## __Fight Mechanics (Phase 3)__
 ⬥ Both Karmina and Vasily go Immune, and a player is teleported up next to the __Sanguine heart__, while the arena is littered with __Sanguine tumours__
     • The player chosen is random(?)
+⬥ One of the Blood Knights stop attacking and start channelling the __Sanguine heart__, increasing Sanguine Influence stacks
 ⬥ To progress to the next phase, players must take out the Sanguine heart
 
 .
 ### __Sanguine Heart & Tumours__
 ⬥ A player is transported to the top, where they have **18 seconds** to deal as much damage as they can to the __Sanguine heart__
 ⬥ Six __Sanguine Tumours__ also litter the arena, dealing typeless damage every 6s to the player who wasn't transported
-    • Attacking the Sanguine Tumours reflects damage(?)
+    • Damage dealt by the tumours are based on proximity; they deal less damage farther a player is from them
 ⬥ Sanguine Heart & Sanguine Tumours have health scaling with enrage:
-    • Normal Mode: ??? LP (Heart), ??? LP (Tumours)
-    • 2000%: 1.5M LP (Heart), 50k LP (Tumours)
+    • **Normal Mode**: 300k LP (Heart), 5k LP (Tumours)
+    • **100%**: 400k LP (Heart), 15k LP (Tumours)
+    • **500%**: 900k LP (Heart), 27.5k LP (Tumours)
+    • **750%**: 1.05M LP (Heart), 33k LP (Tumours)
+    • **1000%**: 1.2M LP (Heart), 40k LP (Tumours)
+    • **2000%**: 1.5M LP (Heart), 50k LP (Tumours)
 
 **Solution:**
 ⬥ Player at the bottom can reset the timer back to 18 seconds by killing __Sanguine tumours__, though this will also incur 50 stacks of Sanguine Influence and inflict a stack of __Haemmorhage__ to the player attacking the Heart
     • Haemmorhage deals <:melee:1096130867279171706> damage every 1.8s, increasing with every stack
 
 .
-### __Sanguine Blast__ (a.k.a. Blood Diamond) (Vasily)
-⬥ Vasily summons 2 waves of hard hitting blasts that obliterate a large area with typeless damage, first blast is smaller than the second
+### __Blood Diamond__ (Vasily)
+⬥ Vasily summons 2 waves of hard hitting blasts that obliterate a large, diamond shaped area with typeless damage, first blast is smaller than the second
 
 **Solution:**
 ⬥ The blasts are telegraphed, move out of the way, use <:dive:1049378668197195808> if necessary
@@ -145,7 +171,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 ⬥ Vasily gains a new mechanic during Phase 4
 
 .
-### __Sanguine Spores & Floor Destruction__ (Vasily)
+### __Sanguine Spores & Arena Destruction__ (Vasily)
 ⬥ Vasily starts charging and infests players with spores that, once on the ground, inflicts persistent <:magic:689504724159823906> damage over time
     • A secondary bar will charge above the players' heads indicating when the spores will be placed down on the arena
 ⬥ Once Vasily finishes charging, some parts of the arena starts glowing red, indicating that they will be ripped away
