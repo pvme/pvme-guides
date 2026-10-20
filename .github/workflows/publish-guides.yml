@@ -1,0 +1,60 @@
+name: Sync published guides
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  sync:
+    if: github.repository == 'pvme/pvme-guides'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GCP_PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
+      GCP_REGION: ${{ vars.GCP_REGION }}
+      PUBLISHER_URL: ${{ vars.PUBLISHER_URL }}
+      WORKLOAD_IDENTITY_PROVIDER: ${{ vars.WORKLOAD_IDENTITY_PROVIDER }}
+      GCP_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT }}
+    steps:
+      - name: Check configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          : "${GCP_PROJECT_ID:?Set repository variable GCP_PROJECT_ID}"
+          : "${GCP_REGION:?Set repository variable GCP_REGION}"
+          : "${PUBLISHER_URL:?Set repository variable PUBLISHER_URL}"
+          : "${WORKLOAD_IDENTITY_PROVIDER:?Set repository variable WORKLOAD_IDENTITY_PROVIDER}"
+          : "${GCP_SERVICE_ACCOUNT:?Set repository variable GCP_SERVICE_ACCOUNT}"
+
+      - name: Obtain publisher identity token
+        id: auth
+        uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          project_id: ${{ vars.GCP_PROJECT_ID }}
+          workload_identity_provider: ${{ vars.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: id_token
+          id_token_audience: ${{ vars.PUBLISHER_URL }}/github-sync
+          id_token_include_email: true
+          create_credentials_file: false
+          export_environment_variables: false
+
+      - name: Queue guide sync
+        shell: bash
+        env:
+          PUBLISHER_ID_TOKEN: ${{ steps.auth.outputs.id_token }}
+        run: |
+          set -euo pipefail
+          jq '{repository: .repository.full_name, ref: .ref, before: .before, after: .after}' \
+            "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/publisher-push.json"
+          curl --fail-with-body --silent --show-error \
+            --retry 3 --retry-all-errors --retry-delay 2 \
+            --connect-timeout 10 --max-time 45 \
+            --header "Authorization: Bearer ${PUBLISHER_ID_TOKEN}" \
+            --json @"$RUNNER_TEMP/publisher-push.json" \
+            "${PUBLISHER_URL}/github-sync"
