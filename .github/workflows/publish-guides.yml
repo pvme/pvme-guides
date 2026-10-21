@@ -50,7 +50,8 @@ jobs:
           PUBLISHER_ID_TOKEN: ${{ steps.auth.outputs.id_token }}
         run: |
           set -euo pipefail
-          jq '{repository: .repository.full_name, ref: .ref, before: .before, after: .after}' \
+          jq '{repository: .repository.full_name, ref: .ref, before: .before, after: .after,
+               commits: [.commits[] | {id, message, author, added, modified, removed}]}' \
             "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/publisher-push.json"
           curl --fail-with-body --silent --show-error \
             --retry 3 --retry-all-errors --retry-delay 2 \
