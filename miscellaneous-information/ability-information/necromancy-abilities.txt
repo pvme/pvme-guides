@@ -308,6 +308,15 @@ Listed conjure durations do not account for the Spirit Pact unlocks in the Necro
   }
 }
 .embed:json
+.tag:invokearisenflesh
+{
+  "embed": {
+    "title": "__Invoke Arisen Flesh__ <:invokearisenflesh:1563943555683197019> <:selftarget:1137770968736079957>",
+    "description": "⬥ No cooldown\n⬥ 150t (90s) duration\n⬥ Each Zombie attack deals 6% max LP as damage to you\n\u00a0\u00a0\u00a0\u00a0• Zombie attacks deal 75% of this as additional damage\n\u00a0\u00a0\u00a0\u00a0• This additional damage is doubled when <50% LP\n⬥ Rune cost:\n\u00a0\u00a0\u00a0\u00a0• 10 <:spiritrune:1138808705362710680>\n\u00a0\u00a0\u00a0\u00a0• 2 <:bonerune:1138808701029982319>\n\u00a0\u00a0\u00a0\u00a0• 8 <:fleshrune:1138808695703207967>\n\u00a0\u00a0\u00a0\u00a0• 1 <:miasmarune:1138808692087730206>",
+    "color": 5510844
+  }
+}
+.embed:json
 .tag:invokedeath
 {
   "embed": {
@@ -361,7 +370,7 @@ Listed conjure durations do not account for the Spirit Pact unlocks in the Necro
       },
       {
         "name": "__Incantations__",
-        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Lord of Bones]($linkmsg_invokebones$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
+        "value": "⬥ [Lesser Bone Shield]($linkmsg_lesserboneshield$)\n⬥ [Threads of Fate]($linkmsg_threadsoffate$)\n⬥ [Greater Bone Shield]($linkmsg_greaterboneshield$)\n⬥ [Life Transfer]($linkmsg_lifetransfer$)\n⬥ [Invoke Lord of Bones]($linkmsg_invokebones$)\n⬥ [Invoke Arisen Flesh]($linkmsg_invokearisenflesh$)\n⬥ [Invoke Death]($linkmsg_invokedeath$)\n⬥ [Darkness]($linkmsg_darkness$)\n⬥ [Split Soul]($linkmsg_splitsoul$)",
         "inline": true
       }
     ]
