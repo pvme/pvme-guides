@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - master
+  workflow_run:
+    workflows: [vorago-basic]
+    types: [completed]
+    branches: [master]
 
 permissions:
   contents: read
@@ -11,7 +15,9 @@ permissions:
 
 jobs:
   sync:
-    if: github.repository == 'pvme/pvme-guides'
+    if: >-
+      github.repository == 'pvme/pvme-guides' &&
+      (github.event_name == 'push' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
@@ -44,6 +50,17 @@ jobs:
           create_credentials_file: false
           export_environment_variables: false
 
+      - name: Prepare Vorago completion event
+        if: github.event_name == 'workflow_run'
+        shell: bash
+        run: |
+          set -euo pipefail
+          jq --arg ref "$GITHUB_REF" --arg sha "$GITHUB_SHA" \
+            '{repository: .repository, ref: $ref, before: .workflow_run.head_sha,
+              after: $sha, commits: [{id: $sha}]}' \
+            "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/publisher-vorago-event.json"
+          echo "PUBLISHER_EVENT_PATH=$RUNNER_TEMP/publisher-vorago-event.json" >> "$GITHUB_ENV"
+
       - name: Queue guide sync
         shell: bash
         env:
@@ -52,7 +69,7 @@ jobs:
           set -euo pipefail
           jq '{repository: .repository.full_name, ref: .ref, before: .before, after: .after,
                commits: [.commits[] | {id, message, author, added, modified, removed}]}' \
-            "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/publisher-push.json"
+            "${PUBLISHER_EVENT_PATH:-$GITHUB_EVENT_PATH}" > "$RUNNER_TEMP/publisher-push.json"
           curl --fail-with-body --silent --show-error \
             --retry 3 --retry-all-errors --retry-delay 2 \
             --connect-timeout 10 --max-time 45 \

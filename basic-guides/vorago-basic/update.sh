@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -eu
+
 time=$(date +%s)
 week=$(( ($time / 86400 + 1) / 7 % 6))
 
@@ -34,7 +36,7 @@ git push origin master:update-vorago-basic --force
 
 echo https://api.github.com/repos/$GITHUB_REPOSITORY/pulls
 
-pr=$(curl \
+pr=$(curl --fail-with-body --silent --show-error \
   -X POST \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: Bearer $GITHUB_TOKEN" \
@@ -42,19 +44,16 @@ pr=$(curl \
   -d '{"title":"Update vorago-basic.txt","body":"","head":"update-vorago-basic","base":"master"}' \
   )
 
-if echo $pr | grep "A pull request already exists"
-then
-    echo "PR already exists"
-    exit
-fi
-
-pr_url=$(echo $pr | grep -Po "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/\d+" | head -n1 | cut -d " " -f1)
+pr_url=$(printf '%s\n' "$pr" | jq -er '.url // empty')
 
 sleep 30
 
-curl \
+merge=$(curl --fail-with-body --silent --show-error \
   -X PUT \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: Bearer $GITHUB_TOKEN" \
   -d '{"merge_method":"squash"}' \
-  $pr_url/merge
+  "$pr_url/merge"
+  )
+
+printf '%s\n' "$merge" | jq -e '.merged == true'
