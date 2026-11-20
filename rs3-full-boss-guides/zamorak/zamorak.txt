@@ -281,7 +281,6 @@ The following diagram outlines common special attack orders that players follow 
 
 .
 ## __Hex: Twinshot__
-.tag:twinshot
 .
 Twinshot <:twinshotrune:994206062498549780> from pad 1 and Disintegrate <:disintegraterune:994206018680668171> from pad 4 will result in the largest increases in incoming damage, especially when they are ramped up in later phases
 
@@ -293,7 +292,6 @@ Twinshot <:twinshotrune:994206062498549780> from pad 1 and Disintegrate <:disint
 
 .
 ## __Hex: Disintegrate__
-.tag:disintegrate
 ⬥ **Disintegrate** <:disintegraterune:994206018680668171> from pad 4 grants Zamorak **7% defence piercing per stack on his attacks**, stacking with existing defence piercing values such as *Chaos Blast*: 40% and *Flames of Zamorak* Smoke damage: 1% per stack
     • This only affects the following defensives:
         ⬩ Disruption shield <:disrupt:535614336207552523>
@@ -311,7 +309,6 @@ Twinshot <:twinshotrune:994206062498549780> from pad 1 and Disintegrate <:disint
 
 .
 ## __Hex: Chaos Traps__
-.tag:chaos
 Once the Chaos Traps rune <:chaostrapsrune:994206002658431016> is active from pad 5, traps will spawn in **__set__** locations. The locations on the map below are possible locations where the traps may spawn
 ⬥ Note that **traps respawn on every pad each time a new pad is charged**
 ⬥ To avoid being stunned and taking heavy damage, you can:
@@ -364,7 +361,7 @@ At 100% enrage, phase 7 is introduced. Zamorak will enter Infernus and force the
     • It's generally expected for Zamorak to be low enough at this point to defeat before the large chaos hit reaches the player, <:rod:513190159462825984> can also be used to buy more time
 
 ⬥ Each small chaos damage hit is calculated as follows:
-    •  `= floor(Iteration * Chaos_bar/100)` where `Iteration` refers to how many times the Charge value has increased (this gets delayed when killing a rune)
+    • `= floor(Iteration * Chaos_bar/100)` where `Iteration` refers to how many times the Charge value has increased (this gets delayed when killing a rune)
 
 .
 **Final phase (Solo <:Magic:689504724159823906> 440%)**
@@ -386,8 +383,9 @@ At 100% enrage, phase 7 is introduced. Zamorak will enter Infernus and force the
     • You will want to <:deflectmelee:544195488447201300> and <:disrupt:535614336207552523> the melee hit
     • Use <:rod:513190159462825984> on the large bomb and finish Zamorak
 
-*Note: 0 cycling means killing Zamorak before small bombs hit, risking death if not*
-*Note: See enrage and style-specific Zamorak guides for full working rotations*
+*Notes:*
+⬥ *0 cycling means killing Zamorak before small bombs hit, risking death if not*
+⬥ *See enrage and style-specific Zamorak guides for full working rotations*
 
 .
 ## __Phase 7 Troubleshooting__
@@ -543,7 +541,7 @@ The app tracks the special attack order at the Zamorak boss. The special attack 
       },
         {
           "name": "__Mechanics__",
-        "value": "⬥ [Special Attacks]($linkmsg_specs$)\n\u00a0\u00a0\u00a0\u00a0• [Tomb Stun Timing]($linkmsg_infernaltombtimingclip$)\n\u00a0\u00a0\u00a0\u00a0• [Special Attack Order]($linkmsg_specorder$)\n\u00a0\u00a0\u00a0\u00a0• [Common Orders]($linkmsg_zamorders$)\n⬥ [Hexes and Edicts]($linkmsg_pads$)\n\u00a0\u00a0\u00a0\u00a0• [Hex: Twinshot]($linkmsg_twinshot$)\n\u00a0\u00a0\u00a0\u00a0• [Hex: Disintegrate]($linkmsg_disintegrate$)\n\u00a0\u00a0\u00a0\u00a0• [Hex: Chaos Traps]($linkmsg_chaos$)\n⬥ [Phase 7]($linkmsg_p7$)",
+        "value": "⬥ [Special Attacks]($linkmsg_specs$)\n\u00a0\u00a0\u00a0\u00a0• [Tomb Stun Timing]($linkmsg_infernaltombtimingclip$)\n\u00a0\u00a0\u00a0\u00a0• [Special Attack Order]($linkmsg_specorder$)\n\u00a0\u00a0\u00a0\u00a0• [Common Orders]($linkmsg_zamorders$)\n⬥ [Hexes and Edicts]($linkmsg_pads$)\n⬥ [Phase 7]($linkmsg_p7$)",
             "inline": true
       },
       {
