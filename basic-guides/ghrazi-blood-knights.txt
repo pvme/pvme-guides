@@ -22,7 +22,7 @@ The aim of this guide is to provide a basic overview of how to get consistent ki
     • **750%**: 3.5M + 1.05M
     • **1000%**: 4M + 1.2M
     • **2000%**: 5M + 1.5M
-⬥ As of October 12th, Ghrazi Blood Knights can only be fought in **duo**, with a solo mode added in November.
+⬥ As of November 9th, Ghrazi Blood Knights can be fought in **solo** and **duo**.
 
 .
 ## __Gear, Relics, Familiars__
@@ -71,7 +71,6 @@ As you are fighting two bosses at the same time, each player will have to handle
     • Performs 3 attacks in Phases 1-3
         ⬩ This is increased to 5 attacks in Phase 4 onwards
 ⬥ Each hit deals moderate to high damage if not prayed against, and only 1 damage if prayed against
-    • Unprayed damage has defensive piercing(?)
 ⬥ All hits are within a tick of each other
     • The flurry arrives sooner in 500% Enrage and above
 
@@ -81,13 +80,14 @@ As you are fighting two bosses at the same time, each player will have to handle
     • __Green projectile:__ Pray <:ranged:580168050121113623>
     • __Blue projectile:__ Pray <:magic:689504724159823906>
 
+*Note: The order of Cross Cut hits from Karmina and Vasily are the same*
+
 .
 ### __Sanguine Surge__ (a.k.a. Lunge) (Karmina)
 ⬥ Karmina performs a hard hitting lunge that deals typeless damage and stuns <:stunicon:841419289428492369> the player
-    • The lunge has high defensive piercing
 
 **Solution:**
-⬥ <:surge:535533810004262912> / <:dive:1049378668197195808> out of the way to fully negate the mechanic, timing is roughly 2-3 ticks after Karmina says `Nowhere is beyond Our reach!`
+⬥ <:surge:535533810004262912> / <:dive:1049378668197195808> / <:escape:535541258832052231> out of the way to fully negate the mechanic, timing is roughly 2 ticks after Karmina says `Nowhere is beyond Our reach!`
     • <:anti:535541306475151390> to prevent being stunned if caught off guard
 
 *Note: Sanguine Surge does NOT reset movement abilities on a successful dodge*
@@ -116,7 +116,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 .
 ### __Blood Bomb__ (a.k.a. Meatball) (Vasily)
 ⬥ Vasily unleashes a blob of Sanguine that deals typeless damage as it bounces six times between both players, starting with the player who has Vasily' aggression
-⬥ Damage dealt by the blob has defensive piercing, and increases based on distance
+⬥ Damage dealt by the blob increases based on distance
 
 **Solution:**
 ⬥ Stick together and <:reflect:535541258786177064> + <:shielddome:537341954392850442> **or** <:cade:535541306353778689> to mitigate incoming damage
@@ -130,34 +130,26 @@ As you are fighting two bosses at the same time, each player will have to handle
 .
 ### __Mind Flail__ (a.k.a. Tumour Summon) (Vasily)
 ⬥ Vasily summons tumours visible only to the player who has his aggression
-⬥ The tumours deal additional damage if allowed to fully channel(?)
+⬥ The tumours deal additional damage if allowed to fully channel
 
 **Solution:**
 ⬥ Clicking on a tumour will __expunge__ it, negating the mechanic if all tumours are expunged
 
 .
 ## __Fight Mechanics (Phase 3)__
-⬥ Both Karmina and Vasily go Immune, and a player is teleported up next to the __Sanguine heart__, while the arena is littered with __Sanguine tumours__
-    • The player chosen is random(?)
-⬥ One of the Blood Knights stop attacking and start channelling the __Sanguine heart__, increasing Sanguine Influence stacks
-⬥ To progress to the next phase, players must take out the Sanguine heart
+⬥ Both Karmina and Vasily go Immune and six __Sanguine tumours__ spawn across the arena, and a 20 second timer begins as soon as they spawn
+⬥ To progress to the next phase, the players must destroy as many __Sanguine tumours__ in the main arena as they can, then destroy the __Sanguine heart__
 
 .
 ### __Sanguine Heart & Tumours__
-⬥ A player is transported to the top, where they have **18 seconds** to deal as much damage as they can to the __Sanguine heart__
-⬥ Six __Sanguine Tumours__ also litter the arena, dealing typeless damage every 6s to the player who wasn't transported
-    • Damage dealt by the tumours are based on proximity; they deal less damage farther a player is from them
-⬥ Sanguine Heart & Sanguine Tumours have health scaling with enrage:
-    • **Normal Mode**: 300k LP (Heart), 5k LP (Tumours)
-    • **100%**: 400k LP (Heart), 15k LP (Tumours)
-    • **500%**: 900k LP (Heart), 27.5k LP (Tumours)
-    • **750%**: 1.05M LP (Heart), 33k LP (Tumours)
-    • **1000%**: 1.2M LP (Heart), 40k LP (Tumours)
-    • **2000%**: 1.5M LP (Heart), 50k LP (Tumours)
+⬥ Six __Sanguine Tumours__ litter the arena, each dealing typeless damage every 6s while the player is on the ground
+⬥ After 20 seconds, the players are sent upstairs to the __Sanguine heart__, the duration they're staying based on how many tumours they have killed beforehand
+    • Blood Knights also start channeling the heart once the players are sent up, adding __Sanguine Influence__ stacks every tick
+⬥ The heart inflicts stacks of __Sanguine Haemmorhage__ every 12s, dealing damage over time
 
-**Solution:**
-⬥ Player at the bottom can reset the timer back to 18 seconds by killing __Sanguine tumours__, though this will also incur 25 stacks of Sanguine Influence and inflict a stack of __Haemmorhage__ to the player attacking the Heart
-    • Haemmorhage deals <:melee:1096130867279171706> damage every 1.8s, increasing with every stack
+***Solution:***
+⬥ Kill as many tumours as you can with strong AoE abilities, killing all 6 will send you up straight away
+⬥ Destroy the heart as quickly as possible to limit the number of Sanguine Influence stacks the Blood Knights gain
 
 .
 ### __Blood Diamond__ (Vasily)
@@ -169,7 +161,7 @@ As you are fighting two bosses at the same time, each player will have to handle
 
 .
 ## __Fight Mechanics (Phase 4)__
-⬥ After destroying the __Sanguine Heart__, players continue fighting the Blood Knights until their health fall to 0
+⬥ After destroying the __Sanguine Heart__, players continue fighting the Blood Knights until their health fall to 1
 ⬥ Vasily gains a new mechanic during Phase 4
 
 .
